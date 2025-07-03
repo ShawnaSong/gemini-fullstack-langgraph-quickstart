@@ -1,0 +1,1165 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 22:02:43
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: I'm researching methods for anomaly detection of long term real world video cameras. find me papers from top publications
+thank you and good evening - can you please give me a list of papers from the last year that have a git ripo and ready models with weights and relevant long term data set that can be used to
+I need long term video camera data set that view the same scene across long time
+I need anomaly detection dataset on long term surveillance cameras
+show me data set with anomaly labeling - if it has no labeling dont show it
+
+[AI]: Okay, based on your requirements, here's a list of recent papers (2024-2025) focusing on anomaly detection in long-term surveillance videos, along with information on available datasets, code, and pre-trained models:
+
+**Datasets with Anomaly Labels:**
+
+*   **MSAD (Multi-Scenario Anomaly Detection) Dataset:** Introduced in 2024, this dataset features 14 distinct scenarios with diverse motion patterns and challenging lighting/weather variations [neurips](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe) [openreview](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A==) [mdpi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgSw5cQi8I4wk5_HmHLR-W5jXL0W8G7DDiAN4bDn2tzEE15weLG061wwOIBeaVbaH7zhQgJFSmik3KO_26YeJhH19Q_sh9thIOa4UqMg22FZCMlFhdnjqzWjQB8hOtHW2sBb3D). It's designed to train robust models [neurips](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe) [openreview](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A==).
+*   **UCVL:** Released in February 2025, UCVL is a benchmark for multi-task anomaly analysis in crime surveillance video [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX). It contains 1,829 videos with reorganized annotations from UCF-Crime and UCF-Crime Annotation datasets [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX).
+*   **UCF-Crime-DVS:** Introduced in March 2025, this is a DVS (Dynamic Vision Sensors) video anomaly detection benchmark, containing 1900 event streams across 13 anomaly classes, aligned with the original UCF-Crime dataset [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBOuwBjnonrBPP76gfP-O5R5RQ4c-CN_xFKHmqfkvZn1TTQczvUjyJAfzOYM4EKPx68bUtKepEHI0YUiD0VSfHa4dFH3Y7kDOKuI1oGau_wh7_LMuYdrFe6p-nKUYI).
+*   **VANE-Bench:** Introduced in April 2025, this benchmark assesses Video-LMMs in detecting anomalies in videos [aclanthology](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg=). It includes 325 video clips and 559 ground-truth question-answer pairs [aclanthology](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg=).
+*   **SurveillanceVQA-589K:** Released in May 2025, this large-scale QA dataset is designed for surveillance videos [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPHwc7uicO6T5CTpOz22xxNADmdEG7KgAEkzEVlumml-MwwQ-nRg5DLmO3JtOeQSVunZA5R5h6ocflBlyLEauTDOKoGMQUnWmXEEsOrQRYKeRhmbjQiKu4cq3mF-Ot). It contains approximately 589,000 question-answer pairs covering both normal and abnormal video content [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPHwc7uicO6T5CTpOz22xxNADmdEG7KgAEkzEVlumml-MwwQ-nRg5DLmO3JtOeQSVunZA5R5h6ocflBlyLEauTDOKoGMQUnWmXEEsOrQRYKeRhmbjQiKu4cq3mF-Ot).
+*   **UCF-Crime:** This large-scale dataset contains 128 hours of videos [paperswithcode](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf2XtKzCSM2VYneM80PMs5x4floQGTSDMzow00unCRkaFNtxxAyilO_GIWh3Sp125GhCJ_gGtHltd3LbG3lVfIqOo7OC9jC3YvsDCKdjwF9tJevGxle3Ew2TIG5vlk6KdHPeaqmpU1LmWfI1YL2vBn0xICSiicQP6caJCUZXH30Bm_vIk14Q==). It consists of 1900 long and untrimmed real-world surveillance videos, with 13 realistic anomalies [paperswithcode](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf2XtKzCSM2VYneM80PMs5x4floQGTSDMzow00unCRkaFNtxxAyilO_GIWh3Sp125GhCJ_gGtHltd3LbG3lVfIqOo7OC9jC3YvsDCKdjwF9tJevGxle3Ew2TIG5vlk6KdHPeaqmpU1LmWfI1YL2vBn0xICSiicQP6caJCUZXH30Bm_vIk14Q==).
+*   **PreVAD (Pre-training Video Anomaly Dataset):** Introduced in March 2025, this is described as the largest and most diverse video anomaly dataset to date, featuring 35,279 annotated videos with multi-level category labels and descriptions that explicitly define anomalies [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE). The data and code are expected to be released [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==).
+*   **SVTA (Synthetic Video-Text Anomaly benchmark):** Introduced in June 2025, SVTA is a large-scale dataset for cross-modal anomaly retrieval, created using LLMs and video generative models to overcome data scarcity and privacy constraints [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1).
+*   **HIVAU-70k:** A large-scale benchmark for hierarchical video anomaly understanding across any granularity [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==). It contains over 70,000 multi-granular annotations organized at clip-level, event-level, and video-level segments [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==).
+*   **UBnormal:** A supervised open-set benchmark composed of multiple virtual scenes for video anomaly detection [paperswithcode](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk=). It introduces abnormal events annotated at the pixel level at training time, enabling the use of fully-supervised learning methods [paperswithcode](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk=).
+
+**Methods and Models with Code/Weights:**
+
+*   **GlanceVAD:** This method uses "glance annotation" to balance anomaly detection accuracy and annotation cost [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og==).  The official implementation is available [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og==).
+*   **Holmes-VAU:** A model designed for long-term video anomaly understanding at any granularity, leveraging hierarchical instruction data and an Anomaly-focused Temporal Sampler (ATS) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==). LoRA weights can be fine-tuned and merged into the base model (InternVL) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElx54kBIPZZphCbs4vlU5A8mzrkp1PHvGZLsQ_XEFJSHyo6TEHqHm1cM2ijC_YJ9sQliEc5pOqtrGV267N22311R2GArmS5RqQGJU68P_9pyYtOVORCTLRf4Exd17rDN48zA==).
+
+**GitHub Repositories (General Resources):**
+
+*   **Junxi-Chen/Awesome-Video-Anomaly-Detection:** A curated collection of resources, updated frequently [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe2).
+*   **pipixin321/GlanceVAD:** Official implementation of "GlanceVAD" [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe2) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og==).
+*   **vt-le/Video-Anomaly-Detection:** An "Awesome Video Anomaly Detection" repository [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe2) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe3).
+*   **GuansongPang/ADRepository-Anomaly-detection-datasets:** Real-world anomaly detection datasets [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe4).
+*   **talreiss/Accurate-Interpretable-VAD:** An Attribute-based Method for Video Anomaly Detection (TMLR 2025) [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe4) [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe2).
+
+**Top Publications for Video Anomaly Detection Research:**
+
+*   **CVPR (Conference on Computer Vision and Pattern Recognition)** [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE)
+*   **ICCV (International Conference on Computer Vision)** [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE)
+*   **ECCV (European Conference on Computer Vision)**
+*   **IEEE TPAMI (Transactions on Pattern Analysis and Machine Intelligence)** [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE)
+*   **IJCV (International Journal of Computer Vision)**
+*   **CVIU (Computer Vision and Image Understanding)** [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE)
+*   **IEEE Winter Conference on Applications of Computer Vision (WACV)** [merl](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5xtHIUw4yPiQgt_GKOhe3gJmUHG1C9GQeaqYpcrDxpl9iqwj7rPT_soXeb3HzHlRtA-UkGEpSArDJsjDRf92x1A-QBK6-taIYaHDBjs00WBUizIsAXgkh8z3IqAuc6z8lV--94_cNKV4adPqqPsy0NhylihQF7gBXLOk=)
+*   **Neural Computing and Applications** [researchgate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg==)
+
+When using pre-trained models and datasets, remember to carefully check the licensing terms to ensure they align with your intended use [pytorch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw==), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG37anTrFiNG1KWIKqCg37t88iwTndnyNZGHjb6upcCZsrbHL6ZIAWioLK9gzNiiWjCWQznYR9pPjVa-Qi9qJfLr20N9hxU8cfcNa1rcpBeXaxRwmmBcvPu-Vv1Hg1HbxnSV2oMyRhs1T5rq8ndAvwuUz1XaIiMcVRAQ5R9y14J6sUHg1o_CtzNMU3dQHZTfdaB5JhY8EviC38um19VcAUNaYi_YfaawzKjgPRdJHGaNePcSHWPGaOrp8QzlIlcElD1-3OFzx60hHBLkhhV7_lDmoam1x7ww==0), [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG37anTrFiNG1KWIKqCg37t88iwTndnyNZGHjb6upcCZsrbHL6ZIAWioLK9gzNiiWjCWQznYR9pPjVa-Qi9qJfLr20N9hxU8cfcNa1rcpBeXaxRwmmBcvPu-Vv1Hg1HbxnSV2oMyRhs1T5rq8ndAvwuUz1XaIiMcVRAQ5R9y14J6sUHg1o_CtzNMU3dQHZTfdaB5JhY8EviC38um19VcAUNaYi_YfaawzKjgPRdJHGaNePcSHWPGaOrp8QzlIlcElD1-3OFzx60hHBLkhhV7_lDmoam1x7ww==1), [solafune](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg-1Bd_i8lvVSZfVuNhfifbSM_lecXkP23tKjtvu8I-1UO6OnhhyO5lhZg00UgNyPisOf27iq-AfYC677jNTv3Dr0iqcpEcakl42AY8CajOTA8QWqx7_uxpRyOMFEdUJ9V2y2nTwhgtIzmv_LR_m3gF040kd5bTHRDmA1FLljwlzFADSD3fKSwGR4swngvu2-QGiQ4-COvvh3LD9iC8ClUR8lTVorf0L3EZDnYpmfD1JyMkgEMHZsHl_7Lh6SiVvO0kH504OIh7g==), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw==).
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 4
+Sources gathered: 114
+Web research results: 4
+
+SEARCH QUERIES USED
+----------------------------------------
+1. anomaly detection long term surveillance video datasets labeled git repo 2024 2025
+2. long term video anomaly detection datasets with pre-trained models and weights 2024 2025
+3. For the datasets mentioned, specifically PreVAD, HIVAU-70k, and UBnormal, what pre-trained models and weights are available, and what licenses govern their use?
+4. Can you provide a list of the top publications (e.g., journals, conferences) that frequently publish research on video anomaly detection in long-term surveillance and multi-camera setups?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+The research on anomaly detection in long-term surveillance video datasets is an active field, with several recent developments in datasets, benchmarks, and methods. [arxiv](https://vertexaisearch.cloud.google.com/id/0-0) Here's a summary of key findings from 2024 and 2025:
+
+**Datasets and Benchmarks:**
+
+*   **MSAD (Multi-Scenario Anomaly Detection) Dataset:** Introduced in 2024, MSAD comprises 14 distinct scenarios from various camera views, featuring diverse motion patterns and challenging variations in lighting and weather conditions. [neurips](https://vertexaisearch.cloud.google.com/id/0-1) [openreview](https://vertexaisearch.cloud.google.com/id/0-2) [mdpi](https://vertexaisearch.cloud.google.com/id/0-3) It serves as a robust foundation for training superior models. [neurips](https://vertexaisearch.cloud.google.com/id/0-1) [openreview](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **UCVL:** Introduced in February 2025, UCVL is the first MLLM benchmark designed for multi-task anomaly analysis in crime surveillance video. [arxiv](https://vertexaisearch.cloud.google.com/id/0-4) It includes 1,829 videos and reorganized annotations from the UCF-Crime and UCF-Crime Annotation datasets. [arxiv](https://vertexaisearch.cloud.google.com/id/0-4)
+*   **UCF-Crime-DVS:** Created in March 2025, UCF-Crime-DVS is the first DVS (Dynamic Vision Sensors) video anomaly detection benchmark, containing 1900 event streams across 13 anomaly classes, aligned with the original UCF-Crime dataset. [arxiv](https://vertexaisearch.cloud.google.com/id/0-5)
+*   **VANE-Bench:** Introduced in April 2025, VANE-Bench is a benchmark designed to assess the proficiency of Video-LMMs in detecting and localizing anomalies and inconsistencies in videos. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-6) It comprises 325 video clips and 559 challenging ground-truth question-answer (QA) pairs. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **SurveillanceVQA-589K:** Introduced in May 2025, SurveillanceVQA-589K is a large-scale QA dataset specifically designed for surveillance videos. The dataset consists of four surveillance video datasets as video sources and contains approximately 589,000 question-answer pairs, including 12 QA types covering both normal and abnormal video content. [arxiv](https://vertexaisearch.cloud.google.com/id/0-7)
+*   **UCF-Crime:** This is a large-scale dataset of 128 hours of videos. [paperswithcode](https://vertexaisearch.cloud.google.com/id/0-8) It consists of 1900 long and untrimmed real-world surveillance videos, with 13 realistic anomalies including Abuse, Arrest, Arson, Assault, Road Accident, Burglary, Explosion, Fighting, Robbery, Shooting, Stealing, Shoplifting, and Vandalism.
+
+**Methods and Models:**
+
+*   **GlanceVAD:** A method that leverages "glance annotation" (a random frame within each abnormal event) to achieve a balance between anomaly detection accuracy and annotation cost. [github](https://vertexaisearch.cloud.google.com/id/0-9)
+*   **LSTM Autoencoders:** Used for feature learning, capturing essential features of normal video sequences and detecting anomalies by comparing video data to the distribution of codes from normal sequences. [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)
+*   **Two-Stream I3D Convolutional Networks:** Applied for weakly-supervised anomaly detection in surveillance videos. [paperswithcode](https://vertexaisearch.cloud.google.com/id/0-11)
+*   **Multi-modal Large Language Models (LLMs):** Explored for their capabilities in video anomaly detection, with benchmarks like UCVL and VANE-Bench designed to assess their performance. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-6)
+
+**GitHub Repositories:**
+
+*   Several GitHub repositories provide code, datasets, and utilities for video anomaly detection.
+    *   **Junxi-Chen/Awesome-Video-Anomaly-Detection:** A curated collection of resources, updated frequently. [ecosyste](https://vertexaisearch.cloud.google.com/id/0-12)
+    *   **pipixin321/GlanceVAD:** Official implementation of "GlanceVAD: Exploring Glance Supervision for Label-efficient Video Anomaly Detection". [ecosyste](https://vertexaisearch.cloud.google.com/id/0-12) [github](https://vertexaisearch.cloud.google.com/id/0-9)
+    *   **vt-le/Video-Anomaly-Detection:** An "Awesome Video Anomaly Detection" repository. [ecosyste](https://vertexaisearch.cloud.google.com/id/0-12) [github](https://vertexaisearch.cloud.google.com/id/0-13)
+    *   **GuansongPang/ADRepository-Anomaly-detection-datasets:** Real-world anomaly detection datasets. [ecosyste](https://vertexaisearch.cloud.google.com/id/0-14)
+*   **talreiss/Accurate-Interpretable-VAD:** An Attribute-based Method for Video Anomaly Detection (TMLR 2025). [ecosyste](https://vertexaisearch.cloud.google.com/id/0-14) [ecosyste](https://vertexaisearch.cloud.google.com/id/0-12)
+
+**Key Trends and Challenges:**
+
+*   **Weakly Supervised Learning:** A common approach due to the difficulty of obtaining labeled video data for anomalies.
+*   **The Need for Diverse Datasets:** Datasets with diverse scenarios and challenging variations are crucial for training robust models. [openreview](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **Scene Overfitting:** A challenge where models overfit to specific scenes, limiting their generalization ability.
+*   **Evaluation Metrics:** Rethinking metrics to address biases in annotations and reward early anomaly detection.
+*   **Integration of Large Language Models:** Exploring the use of LLMs for video anomaly detection and developing benchmarks to assess their capabilities.
+
+This information should provide a solid overview of the current state of research in anomaly detection for long-term surveillance video datasets.
+
+
+--- Research Result 2 ---
+Based on the search results, here's a summary of recent developments in long-term video anomaly detection datasets with pre-trained models and weights for 2024-2025:
+
+**Datasets and Benchmarks:**
+
+*   **PreVAD (Pre-training Video Anomaly Dataset):** Introduced in March 2025, this is described as the largest and most diverse video anomaly dataset to date, featuring 35,279 annotated videos with multi-level category labels and descriptions that explicitly define anomalies [14]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0) The data and code are expected to be released [14]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0) [github](https://vertexaisearch.cloud.google.com/id/1-1)
+*   **SVTA (Synthetic Video-Text Anomaly benchmark):** Introduced in June 2025, SVTA is a large-scale dataset for cross-modal anomaly retrieval, created using LLMs and video generative models to overcome data scarcity and privacy constraints [4]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-2)
+*   **HIVAU-70k:** A large-scale benchmark for hierarchical video anomaly understanding across any granularity. [github](https://vertexaisearch.cloud.google.com/id/1-1) It contains over 70,000 multi-granular annotations organized at clip-level, event-level, and video-level segments [19]. [github](https://vertexaisearch.cloud.google.com/id/1-1)
+*   **VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs:** Introduced in April 2025, comprising 325 video clips and 559 challenging ground-truth question-answer (QA) pairs. [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3) It includes both real-world surveillance footage and AI-generated video clips [6]. [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3)
+*   **SurveillanceVQA-589K:** A large-scale QA dataset specifically designed for surveillance videos. The dataset consists of four surveillance video datasets as video sources and contains approximately 589,000 question-answer pairs, including 12 QA types covering both normal and abnormal video content [11]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-4)
+*   **UBnormal:** A supervised open-set benchmark composed of multiple virtual scenes for video anomaly detection. [paperswithcode](https://vertexaisearch.cloud.google.com/id/1-5) It introduces abnormal events annotated at the pixel level at training time, enabling the use of fully-supervised learning methods [7]. [paperswithcode](https://vertexaisearch.cloud.google.com/id/1-5)
+*   **Existing Benchmarks:** Several established datasets are still in use, including UCF-Crime, ShanghaiTech, UCSD Ped2, Avenue, and XD-Violence [3, 5, 17, 20].
+
+**Methods and Models:**
+
+*   **Language-Guided Open-world VAD (LaGoVAD):** A model that dynamically adapts anomaly definitions through user-provided natural language at inference time [14]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0)
+*   **Holmes-VAU:** A model designed for long-term video anomaly understanding at any granularity, leveraging hierarchical instruction data and an Anomaly-focused Temporal Sampler (ATS) [19]. [github](https://vertexaisearch.cloud.google.com/id/1-1)
+*   **EventVAD:** A training-free event-aware video anomaly detection method that constructs event semantic units as spatiotemporal primitives [9].
+*   **VERA:** A verbalized learning framework that enables VLMs to perform VAD without model parameter modifications [13]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-6)
+*   **AFR (Adaptive Feature Refinement):** An AFR method integrates small-object attention module (SAM) into the feature pyramid network (FPN) of the clip- driven multi-scale instance learning architecture to adaptively enhance the feature representation of key areas [20]. [preprints](https://vertexaisearch.cloud.google.com/id/1-7)
+*   **Diffusion Models (DMs):** Diffusion models have emerged as a powerful technique for anomaly detection, effectively learning complex distributions of sequential data [2]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-8)
+*   **Two-Stream I3D Convolutional Networks:** Presents a significant advancement in the field of anomaly detection through the application of Two-Stream Inflated 3D (I3D) Convolutional Networks [3]. [paperswithcode](https://vertexaisearch.cloud.google.com/id/1-9)
+
+**Trends and Approaches:**
+
+*   **Use of Large Language Models (LLMs):**  A significant trend involves leveraging LLMs for video anomaly detection and explanation. [arxiv](https://vertexaisearch.cloud.google.com/id/1-2) [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3) LLMs are used for tasks such as generating augmented data, providing reasoning for anomaly detection, and enabling training-free VAD [6, 8, 9, 12, 16, 18]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-10)
+*   **Vision-Language Models (VLMs):** VLMs are being explored as potent feature extractors for VAD, integrating visual data with textual descriptions to enable a nuanced understanding of scenes [13, 18]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-11)
+*   **Weakly Supervised Learning:** Many methods focus on weakly supervised learning approaches, utilizing datasets with video-level labels to train models for frame-level anomaly detection [3, 10, 20]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0)
+*   **Multi-Modal Learning:** Combining multiple modalities, such as visual, audio, and text, is a common theme in recent research [6, 11]. [github](https://vertexaisearch.cloud.google.com/id/1-12)
+*   **Spatial-Temporal Feature Learning:** Innovative methods are being introduced to learn multi-grained spatio-temporal features, addressing the variability of spatial scales at which anomalies occur [5]. [spiedigitallibrary](https://vertexaisearch.cloud.google.com/id/1-13)
+*   **Anomaly Retrieval:** There is a growing interest in video anomaly retrieval, which aims to localize anomalous events in videos using natural language queries [4].
+
+**Challenges and Future Directions:**
+
+*   **Data Scarcity:** The long-tail nature of real-world anomalies and privacy constraints hinder large-scale anomaly data collection [4]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-2)
+*   **Complex and Diverse Anomalies:** Real-world anomalies are complex and diverse, requiring models to comprehend video anomalies occurring over varying temporal scales and contexts [19]. [github](https://vertexaisearch.cloud.google.com/id/1-1)
+*   **Open-World Scenarios:** Existing methods often assume that the definition of anomalies is invariable, which is not applicable to open-world scenarios where the expected events may change as requirements change [14]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0)
+*   **Real-time Processing:**  There is a need for robust validation of benchmarked datasets and state-of-the-art methods before deployment in real-time settings [15]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-14)
+*   **Explainability:**  Providing comprehendible explanations for anomaly detection decisions is an important area of research [13].
+
+
+--- Research Result 3 ---
+Based on the search results, here's a summary of available pre-trained models, weights, and licenses for the datasets PreVAD, HIVAU-70k, and UBnormal:
+
+**PreVAD:**
+
+*   The search results do not contain information about pre-trained models or weights specifically for a dataset named "PreVAD". Mentions of "PREVAD" in search results [22, 23] appear to refer to a Romanian website selling pet supplies and kitchen towels.
+*   One search result [21] refers to "preVAD" in the context of Left Ventricular Assist Devices, but it is used as a prefix and not as a dataset name.
+
+**HIVAU-70k:**
+
+*   **Pre-trained Models:** The Holmes-VAU paper [8, 12, 13, 17, 19] introduces the Anomaly-focused Temporal Sampler (ATS), which integrates an anomaly scorer with a density-aware sampler. The Holmes-VAU method combines the proposed ATS with a multimodal visual-language model for efficient long-term video anomaly understanding. [researchgate](https://vertexaisearch.cloud.google.com/id/2-0) [thecvf](https://vertexaisearch.cloud.google.com/id/2-1) The base model used was InternVL [26]. [github](https://vertexaisearch.cloud.google.com/id/2-2)
+*   **Weights:** LoRA (Low-Rank Adaptation) weights can be fine-tuned using provided scripts and then merged into the base model [26]. [github](https://vertexaisearch.cloud.google.com/id/2-2)
+*   **License:** The search results do not explicitly mention the license for HIVAU-70k. However, the paper and code are publicly available on GitHub [8, 13], which often implies an open-source license.
+
+**UBnormal:**
+
+*   **Pre-trained Models:** The UBnormal dataset was proposed with baseline results using three state-of-the-art frameworks [10]:
+    *   A one-class open-set model. [arxiv](https://vertexaisearch.cloud.google.com/id/2-3) [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) [thecvf](https://vertexaisearch.cloud.google.com/id/2-5)
+    *   A weakly-supervised closed-set method. [researchgate](https://vertexaisearch.cloud.google.com/id/2-4)
+    *   An action recognition framework. [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) [arxiv](https://vertexaisearch.cloud.google.com/id/2-3)
+*   **Weights:** Specific pre-trained weights are not detailed in the search results, but the original paper [10, 15, 16, 18] may contain more information.
+*   **License:** The UBnormal dataset is released under the Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4. [github](https://vertexaisearch.cloud.google.com/id/2-6)0) license [15]. [solafune](https://vertexaisearch.cloud.google.com/id/2-7) [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) [github](https://vertexaisearch.cloud.google.com/id/2-8)
+
+**General Information about Pre-trained Models and Licenses:**
+
+*   TorchVision offers pre-trained weights for various architectures, and instantiating a pre-trained model will download its weights to a cache directory [2]. [pytorch](https://vertexaisearch.cloud.google.com/id/2-9) The pre-trained models may have their own licenses or terms and conditions derived from the dataset used for training [2]. [pytorch](https://vertexaisearch.cloud.google.com/id/2-9) [github](https://vertexaisearch.cloud.google.com/id/2-10) [readthedocs](https://vertexaisearch.cloud.google.com/id/2-11) It is the user's responsibility to determine whether they have permission to use the models for their use case [2]. [pytorch](https://vertexaisearch.cloud.google.com/id/2-9)
+*   Kaggle also hosts a variety of pre-trained models [4, 9]. [kaggle](https://vertexaisearch.cloud.google.com/id/2-12)
+*   It's important to check the licensing terms for both the pre-trained models and the datasets they were trained on, as they may have different requirements [3, 20]. Some licenses may restrict commercial use [3]. [solafune](https://vertexaisearch.cloud.google.com/id/2-7) [github](https://vertexaisearch.cloud.google.com/id/2-8)
+*   The "generosity" is in the interpretation that weights of a model trained on that data may be considered derivative enough to be ok for commercial use [5]. [github](https://vertexaisearch.cloud.google.com/id/2-8) Again, this is a subjective matter of person comfort [5]. There is no publishable "answer" we can give [5].
+
+
+--- Research Result 4 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "Can you provide a list of the top publications (e.g., journals, conferences) that frequently publish research on video anomaly detection in long-term surveillance and multi-camera setups?" and synthesize it into a verifiable text artifact.
+Based on the search results, here's a summary of top publications that frequently publish research on video anomaly detection in long-term surveillance and multi-camera setups:
+
+**Journals and Conferences:**
+
+*   **CVPR (Conference on Computer Vision and Pattern Recognition):** A top-tier computer vision conference where research related to video anomaly detection is frequently published. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)
+*   **ICCV (International Conference on Computer Vision):** Another premier venue for computer vision research, including anomaly detection in videos. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)
+*   **ECCV (European Conference on Computer Vision):** A major European conference showcasing advancements in computer vision, including video anomaly detection.
+*   **IEEE TPAMI (Transactions on Pattern Analysis and Machine Intelligence):** A highly regarded IEEE journal covering various aspects of pattern analysis and machine intelligence, including video anomaly detection. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)
+*   **IJCV (International Journal of Computer Vision):** A leading journal in the field of computer vision, publishing research on diverse topics, including anomaly detection.
+*   **CVIU (Computer Vision and Image Understanding):** A journal focused on computer vision and image understanding, which includes research on video anomaly detection. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)
+*   **International Journal of Intelligent Systems and Applications in Engineering:** This journal has published research on anomaly detection in surveillance videos using hybrid deep learning models.
+*   **Neural Computing and Applications:** This journal published research on video surveillance anomaly detection with multi-instance learning and multiple overlapped cameras. [researchgate](https://vertexaisearch.cloud.google.com/id/3-1)
+*   **IEEE Winter Conference on Applications of Computer Vision (WACV):** This conference has featured research on video anomaly detection, including baseline algorithms and new datasets. [merl](https://vertexaisearch.cloud.google.com/id/3-2)
+
+**Key Research Areas and Techniques:**
+
+*   **Deep Learning-based VAD:** Explores deep learning methods, expanding beyond traditional supervised training paradigms to encompass emerging weakly supervised, self-supervised, and unsupervised approaches. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)
+*   **Multi-camera Systems:** Research focuses on leveraging multiple cameras to capture spatiotemporal information from different perspectives to improve anomaly detection. [researchgate](https://vertexaisearch.cloud.google.com/id/3-1) [thecvf](https://vertexaisearch.cloud.google.com/id/3-3)
+*   **Feature Extraction:** Focuses on methods capable of effectively capturing spatial, temporal, spatiotemporal, and textual features. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)
+*   **Anomaly detection techniques:** Unsupervised, supervised, and semi-supervised or weakly supervised.
+
+**Datasets:**
+
+*   **ShanghaiTech Campus:** A dataset featuring surveillance video footage from a university campus with anomalies like fighting, theft, and accidents. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)
+*   **UCF-Crime:** A dataset containing video clips of crimes and normal activities. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)
+*   **CUHK Avenue:** A dataset consisting of video clips from surveillance cameras in urban environments. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)
+*   **UCSD Pedestrian:** A dataset including video sequences from a university campus with normal pedestrian activities and anomalous events. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)
+*   **Street Scene:** A dataset focusing on street scenes with anomalies like car accidents and unusual crowd behaviors. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)
+*   **PETS-2009:** A benchmark dataset that has been re-labeled for anomaly detection tasks from multiple camera views. [researchgate](https://vertexaisearch.cloud.google.com/id/3-1)
+
+**Note:** The field is rapidly evolving, so it's important to stay updated with the latest publications in these journals and conferences.
+
+
+SOURCES GATHERED
+----------------------------------------
+1. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPV15Tk1J730yAq6-PDOwOX6lJUSk7IKUmSSvD3wVIFwAdHr0ccZqT_rV9JrRoucp36xis5uqslmtOe6pj3Wd7JRWAvcjLJO2oSiUz15bKOf9K2R2Z6kU5xtmMtNop
+
+2. neurips
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe
+
+3. openreview
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A==
+
+4. mdpi
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgSw5cQi8I4wk5_HmHLR-W5jXL0W8G7DDiAN4bDn2tzEE15weLG061wwOIBeaVbaH7zhQgJFSmik3KO_26YeJhH19Q_sh9thIOa4UqMg22FZCMlFhdnjqzWjQB8hOtHW2sBb3D
+
+5. neurips
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe
+
+6. openreview
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A==
+
+7. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX
+
+8. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX
+
+9. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBOuwBjnonrBPP76gfP-O5R5RQ4c-CN_xFKHmqfkvZn1TTQczvUjyJAfzOYM4EKPx68bUtKepEHI0YUiD0VSfHa4dFH3Y7kDOKuI1oGau_wh7_LMuYdrFe6p-nKUYI
+
+10. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg=
+
+11. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg=
+
+12. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPHwc7uicO6T5CTpOz22xxNADmdEG7KgAEkzEVlumml-MwwQ-nRg5DLmO3JtOeQSVunZA5R5h6ocflBlyLEauTDOKoGMQUnWmXEEsOrQRYKeRhmbjQiKu4cq3mF-Ot
+
+13. paperswithcode
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf2XtKzCSM2VYneM80PMs5x4floQGTSDMzow00unCRkaFNtxxAyilO_GIWh3Sp125GhCJ_gGtHltd3LbG3lVfIqOo7OC9jC3YvsDCKdjwF9tJevGxle3Ew2TIG5vlk6KdHPeaqmpU1LmWfI1YL2vBn0xICSiicQP6caJCUZXH30Bm_vIk14Q==
+
+14. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og==
+
+15. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpjS-6mCOzceAR_zR3kYkRQ4oE-McDCjlrZ9tfR3Uf2rZzcC7oxzwge7nXpChEhzR-pSM8kwxiDXP8GQuBbh-ls_os3n0obuTKinLAarXLGPn78EaxbOF3JJiyPe2snTxc0peDw256Q-pVVaTUjSzDGyv2UraMlv4J2MEvrhX5Drx_JmqgVXpaz70VUPwc6CsWxwBt15432-5WJ5O0K3V6ge2OjqO_FjokE2Q7cnMOczhu0jS64aKBLH1Q6ImD5F-x5EHmiJEuJFmi47AyMCoAiNFuQQ8=
+
+16. paperswithcode
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYhwQecd3IlGgOxsoUXtGk0crpG4Asd2oePorkEzH_cGieBurPuGJ7R9HSFGL5bYQmf1tmvgmhMkJ9znBytdXqKR_CzKLosI9ml3GlURK5-K3mO0qW7kpZu83lxSHrxjwDy7JMKnyto5aiXBzO3hGjvrxT62t2s7rLsQ4F5ai9eOsSJEcFv9ujMQnGCA==
+
+17. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg=
+
+18. ecosyste
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfwrPy2Q_Ge4CaORyfjwZxWTD8SpKRBWntE_aAKqaCnyFMUG8WrPebNKMSnfgl_p3RUdHamZfNXazY88JwVbq8OObJGvJmGl-94zpocAwkD-9FUkCbaH4aqaHH7UAgw02hlZnmDbhrvZkYhWwmuunrLJp6n2kMRQqUcXTr-1hQLXqG_8Qj-DGxpg8Oi4BzNNP7yJ76a7ZY-9v
+
+19. ecosyste
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfwrPy2Q_Ge4CaORyfjwZxWTD8SpKRBWntE_aAKqaCnyFMUG8WrPebNKMSnfgl_p3RUdHamZfNXazY88JwVbq8OObJGvJmGl-94zpocAwkD-9FUkCbaH4aqaHH7UAgw02hlZnmDbhrvZkYhWwmuunrLJp6n2kMRQqUcXTr-1hQLXqG_8Qj-DGxpg8Oi4BzNNP7yJ76a7ZY-9v
+
+20. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og==
+
+21. ecosyste
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfwrPy2Q_Ge4CaORyfjwZxWTD8SpKRBWntE_aAKqaCnyFMUG8WrPebNKMSnfgl_p3RUdHamZfNXazY88JwVbq8OObJGvJmGl-94zpocAwkD-9FUkCbaH4aqaHH7UAgw02hlZnmDbhrvZkYhWwmuunrLJp6n2kMRQqUcXTr-1hQLXqG_8Qj-DGxpg8Oi4BzNNP7yJ76a7ZY-9v
+
+22. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5dOTwgVINuXgvWEg_QWzUC0RRGNSaQNYsRpqABhfXkJn9t4SvjxegJv6tZ6ZKZNIF5m3bTYuH2D0qWZRNjG_Za60hIGTIkVv2zVObOyliSag33EEdMp8lDI-n2vaGyGcR4oUM0RdQVuZjZw==
+
+23. ecosyste
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnKYHKs8LSKMzUsc24rHGmS8RFFzeVk4d05RZn-nqgIhfW5p2qB-S5Yd9aSeOBChZLAuCW24ExFzJgtYNlOiM5vzKA5uVIBg3OZCIh6Hhpz1btzRq8slh8vfFjRhgEbx3dMuMWQ6tVdkzwbVjqz36jNalEmdxzQG79Kiw2zLWpN3iCcUzsDHSq0YPOKr4yZfzYjIxbZKP0un0iNJnV1Yaifg==
+
+24. ecosyste
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnKYHKs8LSKMzUsc24rHGmS8RFFzeVk4d05RZn-nqgIhfW5p2qB-S5Yd9aSeOBChZLAuCW24ExFzJgtYNlOiM5vzKA5uVIBg3OZCIh6Hhpz1btzRq8slh8vfFjRhgEbx3dMuMWQ6tVdkzwbVjqz36jNalEmdxzQG79Kiw2zLWpN3iCcUzsDHSq0YPOKr4yZfzYjIxbZKP0un0iNJnV1Yaifg==
+
+25. ecosyste
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfwrPy2Q_Ge4CaORyfjwZxWTD8SpKRBWntE_aAKqaCnyFMUG8WrPebNKMSnfgl_p3RUdHamZfNXazY88JwVbq8OObJGvJmGl-94zpocAwkD-9FUkCbaH4aqaHH7UAgw02hlZnmDbhrvZkYhWwmuunrLJp6n2kMRQqUcXTr-1hQLXqG_8Qj-DGxpg8Oi4BzNNP7yJ76a7ZY-9v
+
+26. openreview
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A==
+
+27. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE
+
+28. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE
+
+29. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==
+
+30. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1
+
+31. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==
+
+32. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==
+
+33. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg_wacw22M1q8-JBdK1SAEytVtm93NViPgTWGeOBZGWrrFK_M2Pv-alaO_yhYVLVgZMoJvyFLnqJs6SUx70nawWDFZduoxGWK4GMjaq3dWAjIDjveCfrapKq6M9vibUK-bmwA4WNcSBbO_FDvLmB4=
+
+34. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg_wacw22M1q8-JBdK1SAEytVtm93NViPgTWGeOBZGWrrFK_M2Pv-alaO_yhYVLVgZMoJvyFLnqJs6SUx70nawWDFZduoxGWK4GMjaq3dWAjIDjveCfrapKq6M9vibUK-bmwA4WNcSBbO_FDvLmB4=
+
+35. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfzoaV0QAFIAoRGRhYydYaua_5Cl57A2zH5DBJCIj7CeQyUL91AS53a8E124VHFhsAVOU9j0t-kzoIJd5fTM5RPPIkzznOkp7PP6hbdci1467vNIQqNgFge5F3gyrA
+
+36. paperswithcode
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk=
+
+37. paperswithcode
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk=
+
+38. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE
+
+39. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==
+
+40. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECKYaU65igJ1eFy8pRmQy4Vm0mUtDkONmZMLR3a9GlES9gwoeRDYKwS4-5JY7UbzLFgHFyt1aQvT55ejkPMrG6NyPFl477W2wqt29Eh71pF4Dkinng3fiaA8iv
+
+41. preprints
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2V8MP0O_nKBFOfRqHi8K0XWi4F-Gl3As3NhOWW6XKLuAo7dNpdnO97VYsz9hmjPy-lWV5OtlkdUi47wIKx1z3rQ-M2TjE0DnEiEYDESuHDseQBVrvlUU7vgxdzD3cvT4Sk-KLXpCeYUecJDzQbO8xMMS_0JCHz4gJKbMbBDHAyqXfVa6nKTY9tFWY1TTh9BoEKGpDs7E=
+
+42. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpWCJYA67rTYXJ9W3Szt4h2_Y1MJbZhWJ-RRelOZguOEBV0V9KB7VMmhk46hy_QeSLdycvVd1WAKM4l-MzfQEmc2W_ZFYCp4m_rmuiW5yvS8UaBcluGIerb0tW
+
+43. paperswithcode
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcDlpZVHVpfTqimOIAYHVBU4eye1BLqoxYmPlj8n4dy_tXf-FY-wkV8Bq6ZtV7NqCRytczlLD0M08IJSnjMrO2I56TGfMrj1FRn0hQHlMc8maeNCWqDjMk0iF729QABKOD_JFm5vVS_e-wTobnBHDQRXyIgscG7WIksmOrtkrhS25liueMYmVpn5JQ3A==
+
+44. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1
+
+45. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg_wacw22M1q8-JBdK1SAEytVtm93NViPgTWGeOBZGWrrFK_M2Pv-alaO_yhYVLVgZMoJvyFLnqJs6SUx70nawWDFZduoxGWK4GMjaq3dWAjIDjveCfrapKq6M9vibUK-bmwA4WNcSBbO_FDvLmB4=
+
+46. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_etwIYe5s2OhqA8N1DHlxihinHG0Lz2H5mdQfvdaJPTyGIEbVjcJJvDibN1m6KHNO8O7YwpXDVsbjfcXOBUbE916oHaqM23wstXApE35HUS5xUG0HR1EKa3m7NWU_
+
+47. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM3vCfOlR3458jK0X9CslJkbX8FnX3yRjSYggnQcTem4j6NKwDisxDYOut1gho0DoS7FT5cMxFaxEokPm68XtOjXrEd7Jw-41-F5IHYJdD0kR2Kq6Fa77V1QFunEPiGEg65yWlg1VEZqOURIZonnXO1qz9oc3hpAx-89zejA9KDVCTa9ziqFbmJyc6xRNOseUJFmCDf4wIihawCTWXmu5PpP-bZWB6
+
+48. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE
+
+49. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESqiPh5RlgEVJ_raea8FDIgQoQre_Xg5pQZIt6VuYZfcdLrGX3o4BDuPsAo657qEecp2G_C2ifY1rNtb05iSTrUukVIgBcZVFdIPtrW3QLEZWcy8rLaq4yZdXzmMs9Vg0nlEgjWtZXvI5TSg==
+
+50. spiedigitallibrary
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmiAK5hvBfCafB2bCbwOajbZbDLj_wjzrWSTfNVDCiRhzufXZRvhO7YFoPsoPErmsugR4_FzSv6U_MYJ4MkYYLM6scMfIQ50BPBgmf3iFQHU5dTKKvuB5qQVZUyKfU_9gWX2696ZbYm2K_871akv75p7pUKiP2UcihgT3mEFkro1Th3ojXRvGrc2UondoAkyDsHC2djMifiw-pPC3-iyT6OjrxzwlX9QIfTpC6BDJVLK3WpSkjPZTg21gktYyDAJcb92ommv2IMxvxPJfUXNHntH6Mqs9HbWlMVF4LCwZIyZqEExq1nc_uKbszSPEJOo7Ra7WvloRts6PFbghUQ_5UUcggGrcv
+
+51. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1
+
+52. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==
+
+53. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE
+
+54. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV939d71FIY3DBok_QJb8wBaQobkHj97EVklUs33oqWS2RC_WVhQbobPpTSdn2B5fqdaUkBTwc28EU7JNqafT1p4w9ot1MeQ0KFwVAQJYuK1e7HHUhmsL7zfoDlKs2RLAZ9doeeATDKxiHB1DbjLmDLKyS6ac30lX38L1CGwEe4IOv3DpQZiHyxLESoS53YqOa75X2LUculsJhI-SDg6aWZ4G4Ec22GT3VZFSYtH_Kh2BYI7N0TjaUnbApT-BFAcoYejiSHGq0Aoc8jtlfwbK8JTtz3ig=
+
+55. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXDC1TVD5qPsW93qmjcsrF_v_FRmZgEkWiYMPk2IeP8n9XqCxcfcPEdKjzEYiQ_RlA8I1FptiilYGAUVEDGnczw4Jw8iHJ8KNeuvzOvHnXzLFHT728_9sozVONvUj0lhPNIROtmv6dq526SNvwJrkcfcp3hFZOV0K3MY8lrJXoesLNWaJCKzlXRqre6RTlfVwLiDihapOJllXJHUml-e1P1VYyMPwt5OqtUY_6IhH4aU6Jo8eEmu9kyexpS9Hnm2h29pscffheJWALDAvn8SxoG4BOmZMgUJfRwt-pwIwROgg-3l8trO2iIRn5Nji85pSULP_mk1unfYH5tk0dfHk1Qau8q8RrKT_poj12mirUbHjx2wslD8E=
+
+56. thecvf
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG37anTrFiNG1KWIKqCg37t88iwTndnyNZGHjb6upcCZsrbHL6ZIAWioLK9gzNiiWjCWQznYR9pPjVa-Qi9qJfLr20N9hxU8cfcNa1rcpBeXaxRwmmBcvPu-Vv1Hg1HbxnSV2oMyRhs1T5rq8ndAvwuUz1XaIiMcVRAQ5R9y14J6sUHg1o_CtzNMU3dQHZTfdaB5JhY8EviC38um19VcAUNaYi_YfaawzKjgPRdJHGaNePcSHWPGaOrp8QzlIlcElD1-3OFzx60hHBLkhhV7_lDmoam1x7ww==
+
+57. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElx54kBIPZZphCbs4vlU5A8mzrkp1PHvGZLsQ_XEFJSHyo6TEHqHm1cM2ijC_YJ9sQliEc5pOqtrGV267N22311R2GArmS5RqQGJU68P_9pyYtOVORCTLRf4Exd17rDN48zA==
+
+58. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElx54kBIPZZphCbs4vlU5A8mzrkp1PHvGZLsQ_XEFJSHyo6TEHqHm1cM2ijC_YJ9sQliEc5pOqtrGV267N22311R2GArmS5RqQGJU68P_9pyYtOVORCTLRf4Exd17rDN48zA==
+
+59. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhj4tqsMFOEiUomjaNC40rVCpSZDk-AG9agCEPE2YaZP0vcYh5W8Dr34KMH5tDvtCLqCROok4gfUFg-XIGS2BQcyRVvgfkP_d2qob_dECtCMIn4nemmm6j-WPT
+
+60. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcjoyH7_BhN3kl2f1lfH3JbfG2nDi7f_smulCX9etC7TzIgMKjOL28R03NupCITa4qIZ7-TCGqTdxM5-FxtS7mSWb8rDWK37PR4FiqIPi1Di5baMXU31ARiQGqx70i2lkBgBNUj-dOoesWEQQ94IYE3X_HPBJYm5Mt0YqbPCrl7P0PxzWie-jdnv4G-RNLYzZaPllF5EF0Wa0Aoj0kmoG_esgXa12oR6C2Tl8EQX36lLw_mZQ=
+
+61. thecvf
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYUd_vBOol67kV_hFzoiIC2d0c4OhwcaMq5Pz36JWEl_fzqfO4qXN4rU6YHV9-0Ybz2a1n4rhtGsCmLkKq4BgXTzQtuu5FZwCL9PxM-aNpYLBiXE0bkwtVXyVyxcQxH-fjTGdubRXkAihF6AFn9x76v1aePa6oSaHB6t2S0j2jySkqAjjsArMlOpqCJKEAJvkzWCQix6LUd_jSaHOfWu-0i8ITFWNsvjVwGy8WDK8V-OCQ3mw-IHqzB5ICSMriLXh_JAReKaWGyn9yDQUqZz8lLKGbmeIq
+
+62. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcjoyH7_BhN3kl2f1lfH3JbfG2nDi7f_smulCX9etC7TzIgMKjOL28R03NupCITa4qIZ7-TCGqTdxM5-FxtS7mSWb8rDWK37PR4FiqIPi1Di5baMXU31ARiQGqx70i2lkBgBNUj-dOoesWEQQ94IYE3X_HPBJYm5Mt0YqbPCrl7P0PxzWie-jdnv4G-RNLYzZaPllF5EF0Wa0Aoj0kmoG_esgXa12oR6C2Tl8EQX36lLw_mZQ=
+
+63. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcjoyH7_BhN3kl2f1lfH3JbfG2nDi7f_smulCX9etC7TzIgMKjOL28R03NupCITa4qIZ7-TCGqTdxM5-FxtS7mSWb8rDWK37PR4FiqIPi1Di5baMXU31ARiQGqx70i2lkBgBNUj-dOoesWEQQ94IYE3X_HPBJYm5Mt0YqbPCrl7P0PxzWie-jdnv4G-RNLYzZaPllF5EF0Wa0Aoj0kmoG_esgXa12oR6C2Tl8EQX36lLw_mZQ=
+
+64. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhj4tqsMFOEiUomjaNC40rVCpSZDk-AG9agCEPE2YaZP0vcYh5W8Dr34KMH5tDvtCLqCROok4gfUFg-XIGS2BQcyRVvgfkP_d2qob_dECtCMIn4nemmm6j-WPT
+
+65. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF27Jb0ogOhu95fFgu4iUESX_P-Ve5-ht7Lr16tJ-oXDqeF_vz2pMJBvCDoLIm4Fs530N1PnlRuuDbdriB5xBU7RA2l61vaMD0z7GGmX-h4BAmffKwPRKY0z-sswsmv6Y_nTzh
+
+66. solafune
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg-1Bd_i8lvVSZfVuNhfifbSM_lecXkP23tKjtvu8I-1UO6OnhhyO5lhZg00UgNyPisOf27iq-AfYC677jNTv3Dr0iqcpEcakl42AY8CajOTA8QWqx7_uxpRyOMFEdUJ9V2y2nTwhgtIzmv_LR_m3gF040kd5bTHRDmA1FLljwlzFADSD3fKSwGR4swngvu2-QGiQ4-COvvh3LD9iC8ClUR8lTVorf0L3EZDnYpmfD1JyMkgEMHZsHl_7Lh6SiVvO0kH504OIh7g==
+
+67. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcjoyH7_BhN3kl2f1lfH3JbfG2nDi7f_smulCX9etC7TzIgMKjOL28R03NupCITa4qIZ7-TCGqTdxM5-FxtS7mSWb8rDWK37PR4FiqIPi1Di5baMXU31ARiQGqx70i2lkBgBNUj-dOoesWEQQ94IYE3X_HPBJYm5Mt0YqbPCrl7P0PxzWie-jdnv4G-RNLYzZaPllF5EF0Wa0Aoj0kmoG_esgXa12oR6C2Tl8EQX36lLw_mZQ=
+
+68. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw==
+
+69. pytorch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw==
+
+70. pytorch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw==
+
+71. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCeR-Qoor8pPLOm2Zr9_PVvFuYetiNEgVWCdfnhmSAPVSRVEJFVGEF-8P5iY490ydfACv6dE-iLGYQs3t-E5l9wHO4vgCi_dy6qsqvFFqol6I0jkrMxDgIdXla_cSeYevRadBl
+
+72. readthedocs
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyqBQHf1xFBNrfg5BZyMTawoGPGXnYPD_dUqKcLb_rzeU_g8M6MsTsZnJlQHIIfF5RJ2eM1YiDoYz8-VZQd6_tM1KWdrDZXpOub8_KWfzVO7g6lMgx9TKIXxiDzQUQdfk1VVsQ0QtytAjSC9bQmJRea5jXCXebJg==
+
+73. pytorch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw==
+
+74. kaggle
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3Wvnq63fywLdtl4Qtpb6F1st9Vq14T_bYysDFKt5rDM4Bs5g7nLQ5gv72P0pIezmKPL0Mk6JniDovii9Jm15m_zqXRVMfhSCV00muP3kzBV16GAuktPTnXxD9PnVypuNVDHQVjQZFizAqYBq90ctSs-cyjj4TXvU5fhfYtKmV5OCuuK-v--kgO-zqSAkT
+
+75. solafune
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg-1Bd_i8lvVSZfVuNhfifbSM_lecXkP23tKjtvu8I-1UO6OnhhyO5lhZg00UgNyPisOf27iq-AfYC677jNTv3Dr0iqcpEcakl42AY8CajOTA8QWqx7_uxpRyOMFEdUJ9V2y2nTwhgtIzmv_LR_m3gF040kd5bTHRDmA1FLljwlzFADSD3fKSwGR4swngvu2-QGiQ4-COvvh3LD9iC8ClUR8lTVorf0L3EZDnYpmfD1JyMkgEMHZsHl_7Lh6SiVvO0kH504OIh7g==
+
+76. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw==
+
+77. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw==
+
+78. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE
+
+79. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE
+
+80. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE
+
+81. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE
+
+82. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg==
+
+83. merl
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5xtHIUw4yPiQgt_GKOhe3gJmUHG1C9GQeaqYpcrDxpl9iqwj7rPT_soXeb3HzHlRtA-UkGEpSArDJsjDRf92x1A-QBK6-taIYaHDBjs00WBUizIsAXgkh8z3IqAuc6z8lV--94_cNKV4adPqqPsy0NhylihQF7gBXLOk=
+
+84. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE
+
+85. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg==
+
+86. thecvf
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgunmRB6pqgaVe0p6YA5rsBmJxfLTDAH4q19HMaGo4xyqxxP0OtECogblBhjoW8VO_G7-G3N2Xl04VLS1C2xMmUpgIsSvHdR390NywJ-l0HHFnz2lwjAYuPNKVGM2wkBt36k74p3Pzbwl9v1EPXXuaQZbfNHfdGsjtZKDmFr9_raU6as9O9ZuR-4PS8TLspi_vyzY2-VYqQSoeZoyf_EJpA9QF-6Wvi6KZQn51VpU8yQY8QxKft-0sv2kQQPg-uGsBwAGLXmecvUA1J5Y=
+
+87. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE
+
+88. slogix
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4=
+
+89. slogix
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4=
+
+90. slogix
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4=
+
+91. slogix
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4=
+
+92. slogix
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4=
+
+93. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg==
+
+94. neurips
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe
+
+95. openreview
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A==
+
+96. mdpi
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgSw5cQi8I4wk5_HmHLR-W5jXL0W8G7DDiAN4bDn2tzEE15weLG061wwOIBeaVbaH7zhQgJFSmik3KO_26YeJhH19Q_sh9thIOa4UqMg22FZCMlFhdnjqzWjQB8hOtHW2sBb3D
+
+97. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX
+
+98. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBOuwBjnonrBPP76gfP-O5R5RQ4c-CN_xFKHmqfkvZn1TTQczvUjyJAfzOYM4EKPx68bUtKepEHI0YUiD0VSfHa4dFH3Y7kDOKuI1oGau_wh7_LMuYdrFe6p-nKUYI
+
+99. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg=
+
+100. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPHwc7uicO6T5CTpOz22xxNADmdEG7KgAEkzEVlumml-MwwQ-nRg5DLmO3JtOeQSVunZA5R5h6ocflBlyLEauTDOKoGMQUnWmXEEsOrQRYKeRhmbjQiKu4cq3mF-Ot
+
+101. paperswithcode
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf2XtKzCSM2VYneM80PMs5x4floQGTSDMzow00unCRkaFNtxxAyilO_GIWh3Sp125GhCJ_gGtHltd3LbG3lVfIqOo7OC9jC3YvsDCKdjwF9tJevGxle3Ew2TIG5vlk6KdHPeaqmpU1LmWfI1YL2vBn0xICSiicQP6caJCUZXH30Bm_vIk14Q==
+
+102. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og==
+
+103. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE
+
+104. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==
+
+105. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1
+
+106. paperswithcode
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk=
+
+107. thecvf
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG37anTrFiNG1KWIKqCg37t88iwTndnyNZGHjb6upcCZsrbHL6ZIAWioLK9gzNiiWjCWQznYR9pPjVa-Qi9qJfLr20N9hxU8cfcNa1rcpBeXaxRwmmBcvPu-Vv1Hg1HbxnSV2oMyRhs1T5rq8ndAvwuUz1XaIiMcVRAQ5R9y14J6sUHg1o_CtzNMU3dQHZTfdaB5JhY8EviC38um19VcAUNaYi_YfaawzKjgPRdJHGaNePcSHWPGaOrp8QzlIlcElD1-3OFzx60hHBLkhhV7_lDmoam1x7ww==
+
+108. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElx54kBIPZZphCbs4vlU5A8mzrkp1PHvGZLsQ_XEFJSHyo6TEHqHm1cM2ijC_YJ9sQliEc5pOqtrGV267N22311R2GArmS5RqQGJU68P_9pyYtOVORCTLRf4Exd17rDN48zA==
+
+109. solafune
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg-1Bd_i8lvVSZfVuNhfifbSM_lecXkP23tKjtvu8I-1UO6OnhhyO5lhZg00UgNyPisOf27iq-AfYC677jNTv3Dr0iqcpEcakl42AY8CajOTA8QWqx7_uxpRyOMFEdUJ9V2y2nTwhgtIzmv_LR_m3gF040kd5bTHRDmA1FLljwlzFADSD3fKSwGR4swngvu2-QGiQ4-COvvh3LD9iC8ClUR8lTVorf0L3EZDnYpmfD1JyMkgEMHZsHl_7Lh6SiVvO0kH504OIh7g==
+
+110. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw==
+
+111. pytorch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw==
+
+112. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE
+
+113. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg==
+
+114. merl
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5xtHIUw4yPiQgt_GKOhe3gJmUHG1C9GQeaqYpcrDxpl9iqwj7rPT_soXeb3HzHlRtA-UkGEpSArDJsjDRf92x1A-QBK6-taIYaHDBjs00WBUizIsAXgkh8z3IqAuc6z8lV--94_cNKV4adPqqPsy0NhylihQF7gBXLOk=
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "I'm researching methods for anomaly detection of long term real world video cameras. find me papers from top publications\nthank you and good evening - can you please give me a list of papers from the last year that have a git ripo and ready models with weights and relevant long term data set that can be used to\nI need long term video camera data set that view the same scene across long time\nI need anomaly detection dataset on long term surveillance cameras\nshow me data set with anomaly labeling - if it has no labeling dont show it"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "Okay, based on your requirements, here's a list of recent papers (2024-2025) focusing on anomaly detection in long-term surveillance videos, along with information on available datasets, code, and pre-trained models:\n\n**Datasets with Anomaly Labels:**\n\n*   **MSAD (Multi-Scenario Anomaly Detection) Dataset:** Introduced in 2024, this dataset features 14 distinct scenarios with diverse motion patterns and challenging lighting/weather variations [neurips](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe) [openreview](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A==) [mdpi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgSw5cQi8I4wk5_HmHLR-W5jXL0W8G7DDiAN4bDn2tzEE15weLG061wwOIBeaVbaH7zhQgJFSmik3KO_26YeJhH19Q_sh9thIOa4UqMg22FZCMlFhdnjqzWjQB8hOtHW2sBb3D). It's designed to train robust models [neurips](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe) [openreview](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A==).\n*   **UCVL:** Released in February 2025, UCVL is a benchmark for multi-task anomaly analysis in crime surveillance video [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX). It contains 1,829 videos with reorganized annotations from UCF-Crime and UCF-Crime Annotation datasets [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX).\n*   **UCF-Crime-DVS:** Introduced in March 2025, this is a DVS (Dynamic Vision Sensors) video anomaly detection benchmark, containing 1900 event streams across 13 anomaly classes, aligned with the original UCF-Crime dataset [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBOuwBjnonrBPP76gfP-O5R5RQ4c-CN_xFKHmqfkvZn1TTQczvUjyJAfzOYM4EKPx68bUtKepEHI0YUiD0VSfHa4dFH3Y7kDOKuI1oGau_wh7_LMuYdrFe6p-nKUYI).\n*   **VANE-Bench:** Introduced in April 2025, this benchmark assesses Video-LMMs in detecting anomalies in videos [aclanthology](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg=). It includes 325 video clips and 559 ground-truth question-answer pairs [aclanthology](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg=).\n*   **SurveillanceVQA-589K:** Released in May 2025, this large-scale QA dataset is designed for surveillance videos [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPHwc7uicO6T5CTpOz22xxNADmdEG7KgAEkzEVlumml-MwwQ-nRg5DLmO3JtOeQSVunZA5R5h6ocflBlyLEauTDOKoGMQUnWmXEEsOrQRYKeRhmbjQiKu4cq3mF-Ot). It contains approximately 589,000 question-answer pairs covering both normal and abnormal video content [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPHwc7uicO6T5CTpOz22xxNADmdEG7KgAEkzEVlumml-MwwQ-nRg5DLmO3JtOeQSVunZA5R5h6ocflBlyLEauTDOKoGMQUnWmXEEsOrQRYKeRhmbjQiKu4cq3mF-Ot).\n*   **UCF-Crime:** This large-scale dataset contains 128 hours of videos [paperswithcode](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf2XtKzCSM2VYneM80PMs5x4floQGTSDMzow00unCRkaFNtxxAyilO_GIWh3Sp125GhCJ_gGtHltd3LbG3lVfIqOo7OC9jC3YvsDCKdjwF9tJevGxle3Ew2TIG5vlk6KdHPeaqmpU1LmWfI1YL2vBn0xICSiicQP6caJCUZXH30Bm_vIk14Q==). It consists of 1900 long and untrimmed real-world surveillance videos, with 13 realistic anomalies [paperswithcode](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf2XtKzCSM2VYneM80PMs5x4floQGTSDMzow00unCRkaFNtxxAyilO_GIWh3Sp125GhCJ_gGtHltd3LbG3lVfIqOo7OC9jC3YvsDCKdjwF9tJevGxle3Ew2TIG5vlk6KdHPeaqmpU1LmWfI1YL2vBn0xICSiicQP6caJCUZXH30Bm_vIk14Q==).\n*   **PreVAD (Pre-training Video Anomaly Dataset):** Introduced in March 2025, this is described as the largest and most diverse video anomaly dataset to date, featuring 35,279 annotated videos with multi-level category labels and descriptions that explicitly define anomalies [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE). The data and code are expected to be released [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==).\n*   **SVTA (Synthetic Video-Text Anomaly benchmark):** Introduced in June 2025, SVTA is a large-scale dataset for cross-modal anomaly retrieval, created using LLMs and video generative models to overcome data scarcity and privacy constraints [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1).\n*   **HIVAU-70k:** A large-scale benchmark for hierarchical video anomaly understanding across any granularity [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==). It contains over 70,000 multi-granular annotations organized at clip-level, event-level, and video-level segments [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==).\n*   **UBnormal:** A supervised open-set benchmark composed of multiple virtual scenes for video anomaly detection [paperswithcode](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk=). It introduces abnormal events annotated at the pixel level at training time, enabling the use of fully-supervised learning methods [paperswithcode](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk=).\n\n**Methods and Models with Code/Weights:**\n\n*   **GlanceVAD:** This method uses \"glance annotation\" to balance anomaly detection accuracy and annotation cost [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og==).  The official implementation is available [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og==).\n*   **Holmes-VAU:** A model designed for long-term video anomaly understanding at any granularity, leveraging hierarchical instruction data and an Anomaly-focused Temporal Sampler (ATS) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g==). LoRA weights can be fine-tuned and merged into the base model (InternVL) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElx54kBIPZZphCbs4vlU5A8mzrkp1PHvGZLsQ_XEFJSHyo6TEHqHm1cM2ijC_YJ9sQliEc5pOqtrGV267N22311R2GArmS5RqQGJU68P_9pyYtOVORCTLRf4Exd17rDN48zA==).\n\n**GitHub Repositories (General Resources):**\n\n*   **Junxi-Chen/Awesome-Video-Anomaly-Detection:** A curated collection of resources, updated frequently [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe2).\n*   **pipixin321/GlanceVAD:** Official implementation of \"GlanceVAD\" [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe2) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og==).\n*   **vt-le/Video-Anomaly-Detection:** An \"Awesome Video Anomaly Detection\" repository [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe2) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe3).\n*   **GuansongPang/ADRepository-Anomaly-detection-datasets:** Real-world anomaly detection datasets [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe4).\n*   **talreiss/Accurate-Interpretable-VAD:** An Attribute-based Method for Video Anomaly Detection (TMLR 2025) [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe4) [ecosyste](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe2).\n\n**Top Publications for Video Anomaly Detection Research:**\n\n*   **CVPR (Conference on Computer Vision and Pattern Recognition)** [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE)\n*   **ICCV (International Conference on Computer Vision)** [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE)\n*   **ECCV (European Conference on Computer Vision)**\n*   **IEEE TPAMI (Transactions on Pattern Analysis and Machine Intelligence)** [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE)\n*   **IJCV (International Journal of Computer Vision)**\n*   **CVIU (Computer Vision and Image Understanding)** [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE)\n*   **IEEE Winter Conference on Applications of Computer Vision (WACV)** [merl](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5xtHIUw4yPiQgt_GKOhe3gJmUHG1C9GQeaqYpcrDxpl9iqwj7rPT_soXeb3HzHlRtA-UkGEpSArDJsjDRf92x1A-QBK6-taIYaHDBjs00WBUizIsAXgkh8z3IqAuc6z8lV--94_cNKV4adPqqPsy0NhylihQF7gBXLOk=)\n*   **Neural Computing and Applications** [researchgate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg==)\n\nWhen using pre-trained models and datasets, remember to carefully check the licensing terms to ensure they align with your intended use [pytorch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw==), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG37anTrFiNG1KWIKqCg37t88iwTndnyNZGHjb6upcCZsrbHL6ZIAWioLK9gzNiiWjCWQznYR9pPjVa-Qi9qJfLr20N9hxU8cfcNa1rcpBeXaxRwmmBcvPu-Vv1Hg1HbxnSV2oMyRhs1T5rq8ndAvwuUz1XaIiMcVRAQ5R9y14J6sUHg1o_CtzNMU3dQHZTfdaB5JhY8EviC38um19VcAUNaYi_YfaawzKjgPRdJHGaNePcSHWPGaOrp8QzlIlcElD1-3OFzx60hHBLkhhV7_lDmoam1x7ww==0), [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG37anTrFiNG1KWIKqCg37t88iwTndnyNZGHjb6upcCZsrbHL6ZIAWioLK9gzNiiWjCWQznYR9pPjVa-Qi9qJfLr20N9hxU8cfcNa1rcpBeXaxRwmmBcvPu-Vv1Hg1HbxnSV2oMyRhs1T5rq8ndAvwuUz1XaIiMcVRAQ5R9y14J6sUHg1o_CtzNMU3dQHZTfdaB5JhY8EviC38um19VcAUNaYi_YfaawzKjgPRdJHGaNePcSHWPGaOrp8QzlIlcElD1-3OFzx60hHBLkhhV7_lDmoam1x7ww==1), [solafune](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg-1Bd_i8lvVSZfVuNhfifbSM_lecXkP23tKjtvu8I-1UO6OnhhyO5lhZg00UgNyPisOf27iq-AfYC677jNTv3Dr0iqcpEcakl42AY8CajOTA8QWqx7_uxpRyOMFEdUJ9V2y2nTwhgtIzmv_LR_m3gF040kd5bTHRDmA1FLljwlzFADSD3fKSwGR4swngvu2-QGiQ4-COvvh3LD9iC8ClUR8lTVorf0L3EZDnYpmfD1JyMkgEMHZsHl_7Lh6SiVvO0kH504OIh7g==), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw==)."
+    }
+  ],
+  "search_query": [
+    "anomaly detection long term surveillance video datasets labeled git repo 2024 2025",
+    "long term video anomaly detection datasets with pre-trained models and weights 2024 2025",
+    "For the datasets mentioned, specifically PreVAD, HIVAU-70k, and UBnormal, what pre-trained models and weights are available, and what licenses govern their use?",
+    "Can you provide a list of the top publications (e.g., journals, conferences) that frequently publish research on video anomaly detection in long-term surveillance and multi-camera setups?"
+  ],
+  "web_research_result": [
+    "The research on anomaly detection in long-term surveillance video datasets is an active field, with several recent developments in datasets, benchmarks, and methods. [arxiv](https://vertexaisearch.cloud.google.com/id/0-0) Here's a summary of key findings from 2024 and 2025:\n\n**Datasets and Benchmarks:**\n\n*   **MSAD (Multi-Scenario Anomaly Detection) Dataset:** Introduced in 2024, MSAD comprises 14 distinct scenarios from various camera views, featuring diverse motion patterns and challenging variations in lighting and weather conditions. [neurips](https://vertexaisearch.cloud.google.com/id/0-1) [openreview](https://vertexaisearch.cloud.google.com/id/0-2) [mdpi](https://vertexaisearch.cloud.google.com/id/0-3) It serves as a robust foundation for training superior models. [neurips](https://vertexaisearch.cloud.google.com/id/0-1) [openreview](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **UCVL:** Introduced in February 2025, UCVL is the first MLLM benchmark designed for multi-task anomaly analysis in crime surveillance video. [arxiv](https://vertexaisearch.cloud.google.com/id/0-4) It includes 1,829 videos and reorganized annotations from the UCF-Crime and UCF-Crime Annotation datasets. [arxiv](https://vertexaisearch.cloud.google.com/id/0-4)\n*   **UCF-Crime-DVS:** Created in March 2025, UCF-Crime-DVS is the first DVS (Dynamic Vision Sensors) video anomaly detection benchmark, containing 1900 event streams across 13 anomaly classes, aligned with the original UCF-Crime dataset. [arxiv](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **VANE-Bench:** Introduced in April 2025, VANE-Bench is a benchmark designed to assess the proficiency of Video-LMMs in detecting and localizing anomalies and inconsistencies in videos. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-6) It comprises 325 video clips and 559 challenging ground-truth question-answer (QA) pairs. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **SurveillanceVQA-589K:** Introduced in May 2025, SurveillanceVQA-589K is a large-scale QA dataset specifically designed for surveillance videos. The dataset consists of four surveillance video datasets as video sources and contains approximately 589,000 question-answer pairs, including 12 QA types covering both normal and abnormal video content. [arxiv](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **UCF-Crime:** This is a large-scale dataset of 128 hours of videos. [paperswithcode](https://vertexaisearch.cloud.google.com/id/0-8) It consists of 1900 long and untrimmed real-world surveillance videos, with 13 realistic anomalies including Abuse, Arrest, Arson, Assault, Road Accident, Burglary, Explosion, Fighting, Robbery, Shooting, Stealing, Shoplifting, and Vandalism.\n\n**Methods and Models:**\n\n*   **GlanceVAD:** A method that leverages \"glance annotation\" (a random frame within each abnormal event) to achieve a balance between anomaly detection accuracy and annotation cost. [github](https://vertexaisearch.cloud.google.com/id/0-9)\n*   **LSTM Autoencoders:** Used for feature learning, capturing essential features of normal video sequences and detecting anomalies by comparing video data to the distribution of codes from normal sequences. [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)\n*   **Two-Stream I3D Convolutional Networks:** Applied for weakly-supervised anomaly detection in surveillance videos. [paperswithcode](https://vertexaisearch.cloud.google.com/id/0-11)\n*   **Multi-modal Large Language Models (LLMs):** Explored for their capabilities in video anomaly detection, with benchmarks like UCVL and VANE-Bench designed to assess their performance. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-6)\n\n**GitHub Repositories:**\n\n*   Several GitHub repositories provide code, datasets, and utilities for video anomaly detection.\n    *   **Junxi-Chen/Awesome-Video-Anomaly-Detection:** A curated collection of resources, updated frequently. [ecosyste](https://vertexaisearch.cloud.google.com/id/0-12)\n    *   **pipixin321/GlanceVAD:** Official implementation of \"GlanceVAD: Exploring Glance Supervision for Label-efficient Video Anomaly Detection\". [ecosyste](https://vertexaisearch.cloud.google.com/id/0-12) [github](https://vertexaisearch.cloud.google.com/id/0-9)\n    *   **vt-le/Video-Anomaly-Detection:** An \"Awesome Video Anomaly Detection\" repository. [ecosyste](https://vertexaisearch.cloud.google.com/id/0-12) [github](https://vertexaisearch.cloud.google.com/id/0-13)\n    *   **GuansongPang/ADRepository-Anomaly-detection-datasets:** Real-world anomaly detection datasets. [ecosyste](https://vertexaisearch.cloud.google.com/id/0-14)\n*   **talreiss/Accurate-Interpretable-VAD:** An Attribute-based Method for Video Anomaly Detection (TMLR 2025). [ecosyste](https://vertexaisearch.cloud.google.com/id/0-14) [ecosyste](https://vertexaisearch.cloud.google.com/id/0-12)\n\n**Key Trends and Challenges:**\n\n*   **Weakly Supervised Learning:** A common approach due to the difficulty of obtaining labeled video data for anomalies.\n*   **The Need for Diverse Datasets:** Datasets with diverse scenarios and challenging variations are crucial for training robust models. [openreview](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Scene Overfitting:** A challenge where models overfit to specific scenes, limiting their generalization ability.\n*   **Evaluation Metrics:** Rethinking metrics to address biases in annotations and reward early anomaly detection.\n*   **Integration of Large Language Models:** Exploring the use of LLMs for video anomaly detection and developing benchmarks to assess their capabilities.\n\nThis information should provide a solid overview of the current state of research in anomaly detection for long-term surveillance video datasets.\n",
+    "Based on the search results, here's a summary of recent developments in long-term video anomaly detection datasets with pre-trained models and weights for 2024-2025:\n\n**Datasets and Benchmarks:**\n\n*   **PreVAD (Pre-training Video Anomaly Dataset):** Introduced in March 2025, this is described as the largest and most diverse video anomaly dataset to date, featuring 35,279 annotated videos with multi-level category labels and descriptions that explicitly define anomalies [14]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0) The data and code are expected to be released [14]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0) [github](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **SVTA (Synthetic Video-Text Anomaly benchmark):** Introduced in June 2025, SVTA is a large-scale dataset for cross-modal anomaly retrieval, created using LLMs and video generative models to overcome data scarcity and privacy constraints [4]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-2)\n*   **HIVAU-70k:** A large-scale benchmark for hierarchical video anomaly understanding across any granularity. [github](https://vertexaisearch.cloud.google.com/id/1-1) It contains over 70,000 multi-granular annotations organized at clip-level, event-level, and video-level segments [19]. [github](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **VANE-Bench: Video Anomaly Evaluation Benchmark for Conversational LMMs:** Introduced in April 2025, comprising 325 video clips and 559 challenging ground-truth question-answer (QA) pairs. [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3) It includes both real-world surveillance footage and AI-generated video clips [6]. [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **SurveillanceVQA-589K:** A large-scale QA dataset specifically designed for surveillance videos. The dataset consists of four surveillance video datasets as video sources and contains approximately 589,000 question-answer pairs, including 12 QA types covering both normal and abnormal video content [11]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-4)\n*   **UBnormal:** A supervised open-set benchmark composed of multiple virtual scenes for video anomaly detection. [paperswithcode](https://vertexaisearch.cloud.google.com/id/1-5) It introduces abnormal events annotated at the pixel level at training time, enabling the use of fully-supervised learning methods [7]. [paperswithcode](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Existing Benchmarks:** Several established datasets are still in use, including UCF-Crime, ShanghaiTech, UCSD Ped2, Avenue, and XD-Violence [3, 5, 17, 20].\n\n**Methods and Models:**\n\n*   **Language-Guided Open-world VAD (LaGoVAD):** A model that dynamically adapts anomaly definitions through user-provided natural language at inference time [14]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **Holmes-VAU:** A model designed for long-term video anomaly understanding at any granularity, leveraging hierarchical instruction data and an Anomaly-focused Temporal Sampler (ATS) [19]. [github](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **EventVAD:** A training-free event-aware video anomaly detection method that constructs event semantic units as spatiotemporal primitives [9].\n*   **VERA:** A verbalized learning framework that enables VLMs to perform VAD without model parameter modifications [13]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-6)\n*   **AFR (Adaptive Feature Refinement):** An AFR method integrates small-object attention module (SAM) into the feature pyramid network (FPN) of the clip- driven multi-scale instance learning architecture to adaptively enhance the feature representation of key areas [20]. [preprints](https://vertexaisearch.cloud.google.com/id/1-7)\n*   **Diffusion Models (DMs):** Diffusion models have emerged as a powerful technique for anomaly detection, effectively learning complex distributions of sequential data [2]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-8)\n*   **Two-Stream I3D Convolutional Networks:** Presents a significant advancement in the field of anomaly detection through the application of Two-Stream Inflated 3D (I3D) Convolutional Networks [3]. [paperswithcode](https://vertexaisearch.cloud.google.com/id/1-9)\n\n**Trends and Approaches:**\n\n*   **Use of Large Language Models (LLMs):**  A significant trend involves leveraging LLMs for video anomaly detection and explanation. [arxiv](https://vertexaisearch.cloud.google.com/id/1-2) [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3) LLMs are used for tasks such as generating augmented data, providing reasoning for anomaly detection, and enabling training-free VAD [6, 8, 9, 12, 16, 18]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-10)\n*   **Vision-Language Models (VLMs):** VLMs are being explored as potent feature extractors for VAD, integrating visual data with textual descriptions to enable a nuanced understanding of scenes [13, 18]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-11)\n*   **Weakly Supervised Learning:** Many methods focus on weakly supervised learning approaches, utilizing datasets with video-level labels to train models for frame-level anomaly detection [3, 10, 20]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **Multi-Modal Learning:** Combining multiple modalities, such as visual, audio, and text, is a common theme in recent research [6, 11]. [github](https://vertexaisearch.cloud.google.com/id/1-12)\n*   **Spatial-Temporal Feature Learning:** Innovative methods are being introduced to learn multi-grained spatio-temporal features, addressing the variability of spatial scales at which anomalies occur [5]. [spiedigitallibrary](https://vertexaisearch.cloud.google.com/id/1-13)\n*   **Anomaly Retrieval:** There is a growing interest in video anomaly retrieval, which aims to localize anomalous events in videos using natural language queries [4].\n\n**Challenges and Future Directions:**\n\n*   **Data Scarcity:** The long-tail nature of real-world anomalies and privacy constraints hinder large-scale anomaly data collection [4]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-2)\n*   **Complex and Diverse Anomalies:** Real-world anomalies are complex and diverse, requiring models to comprehend video anomalies occurring over varying temporal scales and contexts [19]. [github](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **Open-World Scenarios:** Existing methods often assume that the definition of anomalies is invariable, which is not applicable to open-world scenarios where the expected events may change as requirements change [14]. [arxiv](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **Real-time Processing:**  There is a need for robust validation of benchmarked datasets and state-of-the-art methods before deployment in real-time settings [15]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-14)\n*   **Explainability:**  Providing comprehendible explanations for anomaly detection decisions is an important area of research [13].\n",
+    "Based on the search results, here's a summary of available pre-trained models, weights, and licenses for the datasets PreVAD, HIVAU-70k, and UBnormal:\n\n**PreVAD:**\n\n*   The search results do not contain information about pre-trained models or weights specifically for a dataset named \"PreVAD\". Mentions of \"PREVAD\" in search results [22, 23] appear to refer to a Romanian website selling pet supplies and kitchen towels.\n*   One search result [21] refers to \"preVAD\" in the context of Left Ventricular Assist Devices, but it is used as a prefix and not as a dataset name.\n\n**HIVAU-70k:**\n\n*   **Pre-trained Models:** The Holmes-VAU paper [8, 12, 13, 17, 19] introduces the Anomaly-focused Temporal Sampler (ATS), which integrates an anomaly scorer with a density-aware sampler. The Holmes-VAU method combines the proposed ATS with a multimodal visual-language model for efficient long-term video anomaly understanding. [researchgate](https://vertexaisearch.cloud.google.com/id/2-0) [thecvf](https://vertexaisearch.cloud.google.com/id/2-1) The base model used was InternVL [26]. [github](https://vertexaisearch.cloud.google.com/id/2-2)\n*   **Weights:** LoRA (Low-Rank Adaptation) weights can be fine-tuned using provided scripts and then merged into the base model [26]. [github](https://vertexaisearch.cloud.google.com/id/2-2)\n*   **License:** The search results do not explicitly mention the license for HIVAU-70k. However, the paper and code are publicly available on GitHub [8, 13], which often implies an open-source license.\n\n**UBnormal:**\n\n*   **Pre-trained Models:** The UBnormal dataset was proposed with baseline results using three state-of-the-art frameworks [10]:\n    *   A one-class open-set model. [arxiv](https://vertexaisearch.cloud.google.com/id/2-3) [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) [thecvf](https://vertexaisearch.cloud.google.com/id/2-5)\n    *   A weakly-supervised closed-set method. [researchgate](https://vertexaisearch.cloud.google.com/id/2-4)\n    *   An action recognition framework. [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) [arxiv](https://vertexaisearch.cloud.google.com/id/2-3)\n*   **Weights:** Specific pre-trained weights are not detailed in the search results, but the original paper [10, 15, 16, 18] may contain more information.\n*   **License:** The UBnormal dataset is released under the Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4. [github](https://vertexaisearch.cloud.google.com/id/2-6)0) license [15]. [solafune](https://vertexaisearch.cloud.google.com/id/2-7) [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) [github](https://vertexaisearch.cloud.google.com/id/2-8)\n\n**General Information about Pre-trained Models and Licenses:**\n\n*   TorchVision offers pre-trained weights for various architectures, and instantiating a pre-trained model will download its weights to a cache directory [2]. [pytorch](https://vertexaisearch.cloud.google.com/id/2-9) The pre-trained models may have their own licenses or terms and conditions derived from the dataset used for training [2]. [pytorch](https://vertexaisearch.cloud.google.com/id/2-9) [github](https://vertexaisearch.cloud.google.com/id/2-10) [readthedocs](https://vertexaisearch.cloud.google.com/id/2-11) It is the user's responsibility to determine whether they have permission to use the models for their use case [2]. [pytorch](https://vertexaisearch.cloud.google.com/id/2-9)\n*   Kaggle also hosts a variety of pre-trained models [4, 9]. [kaggle](https://vertexaisearch.cloud.google.com/id/2-12)\n*   It's important to check the licensing terms for both the pre-trained models and the datasets they were trained on, as they may have different requirements [3, 20]. Some licenses may restrict commercial use [3]. [solafune](https://vertexaisearch.cloud.google.com/id/2-7) [github](https://vertexaisearch.cloud.google.com/id/2-8)\n*   The \"generosity\" is in the interpretation that weights of a model trained on that data may be considered derivative enough to be ok for commercial use [5]. [github](https://vertexaisearch.cloud.google.com/id/2-8) Again, this is a subjective matter of person comfort [5]. There is no publishable \"answer\" we can give [5].\n",
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Can you provide a list of the top publications (e.g., journals, conferences) that frequently publish research on video anomaly detection in long-term surveillance and multi-camera setups?\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of top publications that frequently publish research on video anomaly detection in long-term surveillance and multi-camera setups:\n\n**Journals and Conferences:**\n\n*   **CVPR (Conference on Computer Vision and Pattern Recognition):** A top-tier computer vision conference where research related to video anomaly detection is frequently published. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **ICCV (International Conference on Computer Vision):** Another premier venue for computer vision research, including anomaly detection in videos. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **ECCV (European Conference on Computer Vision):** A major European conference showcasing advancements in computer vision, including video anomaly detection.\n*   **IEEE TPAMI (Transactions on Pattern Analysis and Machine Intelligence):** A highly regarded IEEE journal covering various aspects of pattern analysis and machine intelligence, including video anomaly detection. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **IJCV (International Journal of Computer Vision):** A leading journal in the field of computer vision, publishing research on diverse topics, including anomaly detection.\n*   **CVIU (Computer Vision and Image Understanding):** A journal focused on computer vision and image understanding, which includes research on video anomaly detection. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **International Journal of Intelligent Systems and Applications in Engineering:** This journal has published research on anomaly detection in surveillance videos using hybrid deep learning models.\n*   **Neural Computing and Applications:** This journal published research on video surveillance anomaly detection with multi-instance learning and multiple overlapped cameras. [researchgate](https://vertexaisearch.cloud.google.com/id/3-1)\n*   **IEEE Winter Conference on Applications of Computer Vision (WACV):** This conference has featured research on video anomaly detection, including baseline algorithms and new datasets. [merl](https://vertexaisearch.cloud.google.com/id/3-2)\n\n**Key Research Areas and Techniques:**\n\n*   **Deep Learning-based VAD:** Explores deep learning methods, expanding beyond traditional supervised training paradigms to encompass emerging weakly supervised, self-supervised, and unsupervised approaches. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **Multi-camera Systems:** Research focuses on leveraging multiple cameras to capture spatiotemporal information from different perspectives to improve anomaly detection. [researchgate](https://vertexaisearch.cloud.google.com/id/3-1) [thecvf](https://vertexaisearch.cloud.google.com/id/3-3)\n*   **Feature Extraction:** Focuses on methods capable of effectively capturing spatial, temporal, spatiotemporal, and textual features. [arxiv](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **Anomaly detection techniques:** Unsupervised, supervised, and semi-supervised or weakly supervised.\n\n**Datasets:**\n\n*   **ShanghaiTech Campus:** A dataset featuring surveillance video footage from a university campus with anomalies like fighting, theft, and accidents. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)\n*   **UCF-Crime:** A dataset containing video clips of crimes and normal activities. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)\n*   **CUHK Avenue:** A dataset consisting of video clips from surveillance cameras in urban environments. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)\n*   **UCSD Pedestrian:** A dataset including video sequences from a university campus with normal pedestrian activities and anomalous events. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)\n*   **Street Scene:** A dataset focusing on street scenes with anomalies like car accidents and unusual crowd behaviors. [slogix](https://vertexaisearch.cloud.google.com/id/3-4)\n*   **PETS-2009:** A benchmark dataset that has been re-labeled for anomaly detection tasks from multiple camera views. [researchgate](https://vertexaisearch.cloud.google.com/id/3-1)\n\n**Note:** The field is rapidly evolving, so it's important to stay updated with the latest publications in these journals and conferences.\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPV15Tk1J730yAq6-PDOwOX6lJUSk7IKUmSSvD3wVIFwAdHr0ccZqT_rV9JrRoucp36xis5uqslmtOe6pj3Wd7JRWAvcjLJO2oSiUz15bKOf9K2R2Z6kU5xtmMtNop"
+    },
+    {
+      "label": "neurips",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe"
+    },
+    {
+      "label": "openreview",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A=="
+    },
+    {
+      "label": "mdpi",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgSw5cQi8I4wk5_HmHLR-W5jXL0W8G7DDiAN4bDn2tzEE15weLG061wwOIBeaVbaH7zhQgJFSmik3KO_26YeJhH19Q_sh9thIOa4UqMg22FZCMlFhdnjqzWjQB8hOtHW2sBb3D"
+    },
+    {
+      "label": "neurips",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe"
+    },
+    {
+      "label": "openreview",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBOuwBjnonrBPP76gfP-O5R5RQ4c-CN_xFKHmqfkvZn1TTQczvUjyJAfzOYM4EKPx68bUtKepEHI0YUiD0VSfHa4dFH3Y7kDOKuI1oGau_wh7_LMuYdrFe6p-nKUYI"
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg="
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPHwc7uicO6T5CTpOz22xxNADmdEG7KgAEkzEVlumml-MwwQ-nRg5DLmO3JtOeQSVunZA5R5h6ocflBlyLEauTDOKoGMQUnWmXEEsOrQRYKeRhmbjQiKu4cq3mF-Ot"
+    },
+    {
+      "label": "paperswithcode",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf2XtKzCSM2VYneM80PMs5x4floQGTSDMzow00unCRkaFNtxxAyilO_GIWh3Sp125GhCJ_gGtHltd3LbG3lVfIqOo7OC9jC3YvsDCKdjwF9tJevGxle3Ew2TIG5vlk6KdHPeaqmpU1LmWfI1YL2vBn0xICSiicQP6caJCUZXH30Bm_vIk14Q=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpjS-6mCOzceAR_zR3kYkRQ4oE-McDCjlrZ9tfR3Uf2rZzcC7oxzwge7nXpChEhzR-pSM8kwxiDXP8GQuBbh-ls_os3n0obuTKinLAarXLGPn78EaxbOF3JJiyPe2snTxc0peDw256Q-pVVaTUjSzDGyv2UraMlv4J2MEvrhX5Drx_JmqgVXpaz70VUPwc6CsWxwBt15432-5WJ5O0K3V6ge2OjqO_FjokE2Q7cnMOczhu0jS64aKBLH1Q6ImD5F-x5EHmiJEuJFmi47AyMCoAiNFuQQ8="
+    },
+    {
+      "label": "paperswithcode",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYhwQecd3IlGgOxsoUXtGk0crpG4Asd2oePorkEzH_cGieBurPuGJ7R9HSFGL5bYQmf1tmvgmhMkJ9znBytdXqKR_CzKLosI9ml3GlURK5-K3mO0qW7kpZu83lxSHrxjwDy7JMKnyto5aiXBzO3hGjvrxT62t2s7rLsQ4F5ai9eOsSJEcFv9ujMQnGCA=="
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg="
+    },
+    {
+      "label": "ecosyste",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfwrPy2Q_Ge4CaORyfjwZxWTD8SpKRBWntE_aAKqaCnyFMUG8WrPebNKMSnfgl_p3RUdHamZfNXazY88JwVbq8OObJGvJmGl-94zpocAwkD-9FUkCbaH4aqaHH7UAgw02hlZnmDbhrvZkYhWwmuunrLJp6n2kMRQqUcXTr-1hQLXqG_8Qj-DGxpg8Oi4BzNNP7yJ76a7ZY-9v"
+    },
+    {
+      "label": "ecosyste",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfwrPy2Q_Ge4CaORyfjwZxWTD8SpKRBWntE_aAKqaCnyFMUG8WrPebNKMSnfgl_p3RUdHamZfNXazY88JwVbq8OObJGvJmGl-94zpocAwkD-9FUkCbaH4aqaHH7UAgw02hlZnmDbhrvZkYhWwmuunrLJp6n2kMRQqUcXTr-1hQLXqG_8Qj-DGxpg8Oi4BzNNP7yJ76a7ZY-9v"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og=="
+    },
+    {
+      "label": "ecosyste",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfwrPy2Q_Ge4CaORyfjwZxWTD8SpKRBWntE_aAKqaCnyFMUG8WrPebNKMSnfgl_p3RUdHamZfNXazY88JwVbq8OObJGvJmGl-94zpocAwkD-9FUkCbaH4aqaHH7UAgw02hlZnmDbhrvZkYhWwmuunrLJp6n2kMRQqUcXTr-1hQLXqG_8Qj-DGxpg8Oi4BzNNP7yJ76a7ZY-9v"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5dOTwgVINuXgvWEg_QWzUC0RRGNSaQNYsRpqABhfXkJn9t4SvjxegJv6tZ6ZKZNIF5m3bTYuH2D0qWZRNjG_Za60hIGTIkVv2zVObOyliSag33EEdMp8lDI-n2vaGyGcR4oUM0RdQVuZjZw=="
+    },
+    {
+      "label": "ecosyste",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnKYHKs8LSKMzUsc24rHGmS8RFFzeVk4d05RZn-nqgIhfW5p2qB-S5Yd9aSeOBChZLAuCW24ExFzJgtYNlOiM5vzKA5uVIBg3OZCIh6Hhpz1btzRq8slh8vfFjRhgEbx3dMuMWQ6tVdkzwbVjqz36jNalEmdxzQG79Kiw2zLWpN3iCcUzsDHSq0YPOKr4yZfzYjIxbZKP0un0iNJnV1Yaifg=="
+    },
+    {
+      "label": "ecosyste",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnKYHKs8LSKMzUsc24rHGmS8RFFzeVk4d05RZn-nqgIhfW5p2qB-S5Yd9aSeOBChZLAuCW24ExFzJgtYNlOiM5vzKA5uVIBg3OZCIh6Hhpz1btzRq8slh8vfFjRhgEbx3dMuMWQ6tVdkzwbVjqz36jNalEmdxzQG79Kiw2zLWpN3iCcUzsDHSq0YPOKr4yZfzYjIxbZKP0un0iNJnV1Yaifg=="
+    },
+    {
+      "label": "ecosyste",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdfwrPy2Q_Ge4CaORyfjwZxWTD8SpKRBWntE_aAKqaCnyFMUG8WrPebNKMSnfgl_p3RUdHamZfNXazY88JwVbq8OObJGvJmGl-94zpocAwkD-9FUkCbaH4aqaHH7UAgw02hlZnmDbhrvZkYhWwmuunrLJp6n2kMRQqUcXTr-1hQLXqG_8Qj-DGxpg8Oi4BzNNP7yJ76a7ZY-9v"
+    },
+    {
+      "label": "openreview",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g=="
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg_wacw22M1q8-JBdK1SAEytVtm93NViPgTWGeOBZGWrrFK_M2Pv-alaO_yhYVLVgZMoJvyFLnqJs6SUx70nawWDFZduoxGWK4GMjaq3dWAjIDjveCfrapKq6M9vibUK-bmwA4WNcSBbO_FDvLmB4="
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg_wacw22M1q8-JBdK1SAEytVtm93NViPgTWGeOBZGWrrFK_M2Pv-alaO_yhYVLVgZMoJvyFLnqJs6SUx70nawWDFZduoxGWK4GMjaq3dWAjIDjveCfrapKq6M9vibUK-bmwA4WNcSBbO_FDvLmB4="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfzoaV0QAFIAoRGRhYydYaua_5Cl57A2zH5DBJCIj7CeQyUL91AS53a8E124VHFhsAVOU9j0t-kzoIJd5fTM5RPPIkzznOkp7PP6hbdci1467vNIQqNgFge5F3gyrA"
+    },
+    {
+      "label": "paperswithcode",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk="
+    },
+    {
+      "label": "paperswithcode",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECKYaU65igJ1eFy8pRmQy4Vm0mUtDkONmZMLR3a9GlES9gwoeRDYKwS4-5JY7UbzLFgHFyt1aQvT55ejkPMrG6NyPFl477W2wqt29Eh71pF4Dkinng3fiaA8iv"
+    },
+    {
+      "label": "preprints",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2V8MP0O_nKBFOfRqHi8K0XWi4F-Gl3As3NhOWW6XKLuAo7dNpdnO97VYsz9hmjPy-lWV5OtlkdUi47wIKx1z3rQ-M2TjE0DnEiEYDESuHDseQBVrvlUU7vgxdzD3cvT4Sk-KLXpCeYUecJDzQbO8xMMS_0JCHz4gJKbMbBDHAyqXfVa6nKTY9tFWY1TTh9BoEKGpDs7E="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpWCJYA67rTYXJ9W3Szt4h2_Y1MJbZhWJ-RRelOZguOEBV0V9KB7VMmhk46hy_QeSLdycvVd1WAKM4l-MzfQEmc2W_ZFYCp4m_rmuiW5yvS8UaBcluGIerb0tW"
+    },
+    {
+      "label": "paperswithcode",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcDlpZVHVpfTqimOIAYHVBU4eye1BLqoxYmPlj8n4dy_tXf-FY-wkV8Bq6ZtV7NqCRytczlLD0M08IJSnjMrO2I56TGfMrj1FRn0hQHlMc8maeNCWqDjMk0iF729QABKOD_JFm5vVS_e-wTobnBHDQRXyIgscG7WIksmOrtkrhS25liueMYmVpn5JQ3A=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1"
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg_wacw22M1q8-JBdK1SAEytVtm93NViPgTWGeOBZGWrrFK_M2Pv-alaO_yhYVLVgZMoJvyFLnqJs6SUx70nawWDFZduoxGWK4GMjaq3dWAjIDjveCfrapKq6M9vibUK-bmwA4WNcSBbO_FDvLmB4="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_etwIYe5s2OhqA8N1DHlxihinHG0Lz2H5mdQfvdaJPTyGIEbVjcJJvDibN1m6KHNO8O7YwpXDVsbjfcXOBUbE916oHaqM23wstXApE35HUS5xUG0HR1EKa3m7NWU_"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM3vCfOlR3458jK0X9CslJkbX8FnX3yRjSYggnQcTem4j6NKwDisxDYOut1gho0DoS7FT5cMxFaxEokPm68XtOjXrEd7Jw-41-F5IHYJdD0kR2Kq6Fa77V1QFunEPiGEg65yWlg1VEZqOURIZonnXO1qz9oc3hpAx-89zejA9KDVCTa9ziqFbmJyc6xRNOseUJFmCDf4wIihawCTWXmu5PpP-bZWB6"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESqiPh5RlgEVJ_raea8FDIgQoQre_Xg5pQZIt6VuYZfcdLrGX3o4BDuPsAo657qEecp2G_C2ifY1rNtb05iSTrUukVIgBcZVFdIPtrW3QLEZWcy8rLaq4yZdXzmMs9Vg0nlEgjWtZXvI5TSg=="
+    },
+    {
+      "label": "spiedigitallibrary",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmiAK5hvBfCafB2bCbwOajbZbDLj_wjzrWSTfNVDCiRhzufXZRvhO7YFoPsoPErmsugR4_FzSv6U_MYJ4MkYYLM6scMfIQ50BPBgmf3iFQHU5dTKKvuB5qQVZUyKfU_9gWX2696ZbYm2K_871akv75p7pUKiP2UcihgT3mEFkro1Th3ojXRvGrc2UondoAkyDsHC2djMifiw-pPC3-iyT6OjrxzwlX9QIfTpC6BDJVLK3WpSkjPZTg21gktYyDAJcb92ommv2IMxvxPJfUXNHntH6Mqs9HbWlMVF4LCwZIyZqEExq1nc_uKbszSPEJOo7Ra7WvloRts6PFbghUQ_5UUcggGrcv"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV939d71FIY3DBok_QJb8wBaQobkHj97EVklUs33oqWS2RC_WVhQbobPpTSdn2B5fqdaUkBTwc28EU7JNqafT1p4w9ot1MeQ0KFwVAQJYuK1e7HHUhmsL7zfoDlKs2RLAZ9doeeATDKxiHB1DbjLmDLKyS6ac30lX38L1CGwEe4IOv3DpQZiHyxLESoS53YqOa75X2LUculsJhI-SDg6aWZ4G4Ec22GT3VZFSYtH_Kh2BYI7N0TjaUnbApT-BFAcoYejiSHGq0Aoc8jtlfwbK8JTtz3ig="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXDC1TVD5qPsW93qmjcsrF_v_FRmZgEkWiYMPk2IeP8n9XqCxcfcPEdKjzEYiQ_RlA8I1FptiilYGAUVEDGnczw4Jw8iHJ8KNeuvzOvHnXzLFHT728_9sozVONvUj0lhPNIROtmv6dq526SNvwJrkcfcp3hFZOV0K3MY8lrJXoesLNWaJCKzlXRqre6RTlfVwLiDihapOJllXJHUml-e1P1VYyMPwt5OqtUY_6IhH4aU6Jo8eEmu9kyexpS9Hnm2h29pscffheJWALDAvn8SxoG4BOmZMgUJfRwt-pwIwROgg-3l8trO2iIRn5Nji85pSULP_mk1unfYH5tk0dfHk1Qau8q8RrKT_poj12mirUbHjx2wslD8E="
+    },
+    {
+      "label": "thecvf",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG37anTrFiNG1KWIKqCg37t88iwTndnyNZGHjb6upcCZsrbHL6ZIAWioLK9gzNiiWjCWQznYR9pPjVa-Qi9qJfLr20N9hxU8cfcNa1rcpBeXaxRwmmBcvPu-Vv1Hg1HbxnSV2oMyRhs1T5rq8ndAvwuUz1XaIiMcVRAQ5R9y14J6sUHg1o_CtzNMU3dQHZTfdaB5JhY8EviC38um19VcAUNaYi_YfaawzKjgPRdJHGaNePcSHWPGaOrp8QzlIlcElD1-3OFzx60hHBLkhhV7_lDmoam1x7ww=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElx54kBIPZZphCbs4vlU5A8mzrkp1PHvGZLsQ_XEFJSHyo6TEHqHm1cM2ijC_YJ9sQliEc5pOqtrGV267N22311R2GArmS5RqQGJU68P_9pyYtOVORCTLRf4Exd17rDN48zA=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElx54kBIPZZphCbs4vlU5A8mzrkp1PHvGZLsQ_XEFJSHyo6TEHqHm1cM2ijC_YJ9sQliEc5pOqtrGV267N22311R2GArmS5RqQGJU68P_9pyYtOVORCTLRf4Exd17rDN48zA=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhj4tqsMFOEiUomjaNC40rVCpSZDk-AG9agCEPE2YaZP0vcYh5W8Dr34KMH5tDvtCLqCROok4gfUFg-XIGS2BQcyRVvgfkP_d2qob_dECtCMIn4nemmm6j-WPT"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcjoyH7_BhN3kl2f1lfH3JbfG2nDi7f_smulCX9etC7TzIgMKjOL28R03NupCITa4qIZ7-TCGqTdxM5-FxtS7mSWb8rDWK37PR4FiqIPi1Di5baMXU31ARiQGqx70i2lkBgBNUj-dOoesWEQQ94IYE3X_HPBJYm5Mt0YqbPCrl7P0PxzWie-jdnv4G-RNLYzZaPllF5EF0Wa0Aoj0kmoG_esgXa12oR6C2Tl8EQX36lLw_mZQ="
+    },
+    {
+      "label": "thecvf",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYUd_vBOol67kV_hFzoiIC2d0c4OhwcaMq5Pz36JWEl_fzqfO4qXN4rU6YHV9-0Ybz2a1n4rhtGsCmLkKq4BgXTzQtuu5FZwCL9PxM-aNpYLBiXE0bkwtVXyVyxcQxH-fjTGdubRXkAihF6AFn9x76v1aePa6oSaHB6t2S0j2jySkqAjjsArMlOpqCJKEAJvkzWCQix6LUd_jSaHOfWu-0i8ITFWNsvjVwGy8WDK8V-OCQ3mw-IHqzB5ICSMriLXh_JAReKaWGyn9yDQUqZz8lLKGbmeIq"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcjoyH7_BhN3kl2f1lfH3JbfG2nDi7f_smulCX9etC7TzIgMKjOL28R03NupCITa4qIZ7-TCGqTdxM5-FxtS7mSWb8rDWK37PR4FiqIPi1Di5baMXU31ARiQGqx70i2lkBgBNUj-dOoesWEQQ94IYE3X_HPBJYm5Mt0YqbPCrl7P0PxzWie-jdnv4G-RNLYzZaPllF5EF0Wa0Aoj0kmoG_esgXa12oR6C2Tl8EQX36lLw_mZQ="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcjoyH7_BhN3kl2f1lfH3JbfG2nDi7f_smulCX9etC7TzIgMKjOL28R03NupCITa4qIZ7-TCGqTdxM5-FxtS7mSWb8rDWK37PR4FiqIPi1Di5baMXU31ARiQGqx70i2lkBgBNUj-dOoesWEQQ94IYE3X_HPBJYm5Mt0YqbPCrl7P0PxzWie-jdnv4G-RNLYzZaPllF5EF0Wa0Aoj0kmoG_esgXa12oR6C2Tl8EQX36lLw_mZQ="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhj4tqsMFOEiUomjaNC40rVCpSZDk-AG9agCEPE2YaZP0vcYh5W8Dr34KMH5tDvtCLqCROok4gfUFg-XIGS2BQcyRVvgfkP_d2qob_dECtCMIn4nemmm6j-WPT"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF27Jb0ogOhu95fFgu4iUESX_P-Ve5-ht7Lr16tJ-oXDqeF_vz2pMJBvCDoLIm4Fs530N1PnlRuuDbdriB5xBU7RA2l61vaMD0z7GGmX-h4BAmffKwPRKY0z-sswsmv6Y_nTzh"
+    },
+    {
+      "label": "solafune",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg-1Bd_i8lvVSZfVuNhfifbSM_lecXkP23tKjtvu8I-1UO6OnhhyO5lhZg00UgNyPisOf27iq-AfYC677jNTv3Dr0iqcpEcakl42AY8CajOTA8QWqx7_uxpRyOMFEdUJ9V2y2nTwhgtIzmv_LR_m3gF040kd5bTHRDmA1FLljwlzFADSD3fKSwGR4swngvu2-QGiQ4-COvvh3LD9iC8ClUR8lTVorf0L3EZDnYpmfD1JyMkgEMHZsHl_7Lh6SiVvO0kH504OIh7g=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcjoyH7_BhN3kl2f1lfH3JbfG2nDi7f_smulCX9etC7TzIgMKjOL28R03NupCITa4qIZ7-TCGqTdxM5-FxtS7mSWb8rDWK37PR4FiqIPi1Di5baMXU31ARiQGqx70i2lkBgBNUj-dOoesWEQQ94IYE3X_HPBJYm5Mt0YqbPCrl7P0PxzWie-jdnv4G-RNLYzZaPllF5EF0Wa0Aoj0kmoG_esgXa12oR6C2Tl8EQX36lLw_mZQ="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw=="
+    },
+    {
+      "label": "pytorch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw=="
+    },
+    {
+      "label": "pytorch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCeR-Qoor8pPLOm2Zr9_PVvFuYetiNEgVWCdfnhmSAPVSRVEJFVGEF-8P5iY490ydfACv6dE-iLGYQs3t-E5l9wHO4vgCi_dy6qsqvFFqol6I0jkrMxDgIdXla_cSeYevRadBl"
+    },
+    {
+      "label": "readthedocs",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyqBQHf1xFBNrfg5BZyMTawoGPGXnYPD_dUqKcLb_rzeU_g8M6MsTsZnJlQHIIfF5RJ2eM1YiDoYz8-VZQd6_tM1KWdrDZXpOub8_KWfzVO7g6lMgx9TKIXxiDzQUQdfk1VVsQ0QtytAjSC9bQmJRea5jXCXebJg=="
+    },
+    {
+      "label": "pytorch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw=="
+    },
+    {
+      "label": "kaggle",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3Wvnq63fywLdtl4Qtpb6F1st9Vq14T_bYysDFKt5rDM4Bs5g7nLQ5gv72P0pIezmKPL0Mk6JniDovii9Jm15m_zqXRVMfhSCV00muP3kzBV16GAuktPTnXxD9PnVypuNVDHQVjQZFizAqYBq90ctSs-cyjj4TXvU5fhfYtKmV5OCuuK-v--kgO-zqSAkT"
+    },
+    {
+      "label": "solafune",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg-1Bd_i8lvVSZfVuNhfifbSM_lecXkP23tKjtvu8I-1UO6OnhhyO5lhZg00UgNyPisOf27iq-AfYC677jNTv3Dr0iqcpEcakl42AY8CajOTA8QWqx7_uxpRyOMFEdUJ9V2y2nTwhgtIzmv_LR_m3gF040kd5bTHRDmA1FLljwlzFADSD3fKSwGR4swngvu2-QGiQ4-COvvh3LD9iC8ClUR8lTVorf0L3EZDnYpmfD1JyMkgEMHZsHl_7Lh6SiVvO0kH504OIh7g=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg=="
+    },
+    {
+      "label": "merl",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5xtHIUw4yPiQgt_GKOhe3gJmUHG1C9GQeaqYpcrDxpl9iqwj7rPT_soXeb3HzHlRtA-UkGEpSArDJsjDRf92x1A-QBK6-taIYaHDBjs00WBUizIsAXgkh8z3IqAuc6z8lV--94_cNKV4adPqqPsy0NhylihQF7gBXLOk="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg=="
+    },
+    {
+      "label": "thecvf",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgunmRB6pqgaVe0p6YA5rsBmJxfLTDAH4q19HMaGo4xyqxxP0OtECogblBhjoW8VO_G7-G3N2Xl04VLS1C2xMmUpgIsSvHdR390NywJ-l0HHFnz2lwjAYuPNKVGM2wkBt36k74p3Pzbwl9v1EPXXuaQZbfNHfdGsjtZKDmFr9_raU6as9O9ZuR-4PS8TLspi_vyzY2-VYqQSoeZoyf_EJpA9QF-6Wvi6KZQn51VpU8yQY8QxKft-0sv2kQQPg-uGsBwAGLXmecvUA1J5Y="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE"
+    },
+    {
+      "label": "slogix",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4="
+    },
+    {
+      "label": "slogix",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4="
+    },
+    {
+      "label": "slogix",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4="
+    },
+    {
+      "label": "slogix",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4="
+    },
+    {
+      "label": "slogix",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIygWLucwOodJ1AxXE1KBNpzWV2pitOoukN5ynFpFhYQlOfzzMV8fScnKLPtyATfaGlsnfEw62a9tmlIfY20bKolLW6vePdEZMjxP54byMQY57JcPzpVxfsx1qxihY_0JJ6WbxR09hnwyuVNWru63vR4KjasGxrI4Ts6ZwkzteS0EQozuS_LcO25CA4xcGOqV7WgGv2JkRc7_dmjAPiwNEP41A7RpSE7zNr_dSEr4="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg=="
+    },
+    {
+      "label": "neurips",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4tHqCL4rQAy6T8h-TU11whSeVGi75EnzYELEIFTYjbX3GQWmGXUzAEQCIbyPaw_iMbnxNBdyJUya-QqjLlq0k15PW5q6rlkRhziss3sY9R9xWDm-vSYioWe--77Zim1JuDGCXOOOe"
+    },
+    {
+      "label": "openreview",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1iCYBQrVuWHs9g8V6mCpOil81td5b0tcEePKIP8-DU5oqRpdGBMHKZnoQZY37Cw8u8qB2vc3e4j4D1OYcF0jRDgDrICNKFXLG284bGALauTz9hXk9jTJZB3bUWspoCLtTyIxv_A=="
+    },
+    {
+      "label": "mdpi",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgSw5cQi8I4wk5_HmHLR-W5jXL0W8G7DDiAN4bDn2tzEE15weLG061wwOIBeaVbaH7zhQgJFSmik3KO_26YeJhH19Q_sh9thIOa4UqMg22FZCMlFhdnjqzWjQB8hOtHW2sBb3D"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOk8f3ZEzvkbtFOHQ4_N-cvBmMB1vo3ryyxdvFUmBpIVK-puR_nBnNmYZhXn8qcMVmNs7iEnLBymzYuHW0PKIkxEiZfjST0O_x_Xb_QwuLgZUStG1gRwqxMYoZ9NrX"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBOuwBjnonrBPP76gfP-O5R5RQ4c-CN_xFKHmqfkvZn1TTQczvUjyJAfzOYM4EKPx68bUtKepEHI0YUiD0VSfHa4dFH3Y7kDOKuI1oGau_wh7_LMuYdrFe6p-nKUYI"
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVZxPR1gOrqKrVzzl4uXA02o5yYwLgRGUnzPbkzl5GzlrpSTAdzuFe1Llge-AllWv22qLWot2jcV-KJy7wISbIL4jF3H7bcUrvyX9dH2sMPBPPWQnOgw8gExQLHpCpWqlWhCGDcz1enbkR4LtZQmg="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPHwc7uicO6T5CTpOz22xxNADmdEG7KgAEkzEVlumml-MwwQ-nRg5DLmO3JtOeQSVunZA5R5h6ocflBlyLEauTDOKoGMQUnWmXEEsOrQRYKeRhmbjQiKu4cq3mF-Ot"
+    },
+    {
+      "label": "paperswithcode",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf2XtKzCSM2VYneM80PMs5x4floQGTSDMzow00unCRkaFNtxxAyilO_GIWh3Sp125GhCJ_gGtHltd3LbG3lVfIqOo7OC9jC3YvsDCKdjwF9tJevGxle3Ew2TIG5vlk6KdHPeaqmpU1LmWfI1YL2vBn0xICSiicQP6caJCUZXH30Bm_vIk14Q=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAtfnTq3kLBxPu6OJcnOH3YaFF4vRPgCC72spXh1zgUz-HSTtmrx2lNvv1AlWV5QZNCmaed1s4ycBZA-tnY89BDhB7eTjCl1PRJMlLldPZmew6RdhfoYGT2KONAu55z35Og=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS6sl_FyzftN-M0lGGdXyoNaAODQh_07n21C5upG-GB7PYjprUc6eGxzE0uoQB0nxU4U7T1-kJXfiy3FqH5T5cZN9zo8bvkD1Xe_Qxir69g_zm9e21rpdM8OGE"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIc7_3WJ24P0ul2_jvAgeUFA3VpMZ7BMGCNfLOisEIsxNvP80JSQxbAw4SR7ERiBnQg9keOJvrXhzZpGTBbc5q4I8Cp4m8VyQAq85toWo76a1Pj9n8sUfV_Lg7Zt4cfqC-g=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnlq4J20AgmnX76EQp953qAK991oNgMgP90GR677PUG2kK2ykuc8lxf1YpZiFAbTh5aFTD_keVRae2AA04CeCsiy87GdKrue2psv8Xxs-l3xRtK0AewD6rVv4VJ8r1"
+    },
+    {
+      "label": "paperswithcode",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiNlEb1uesiMUmD2xXdmQKls69oN7L6n9OD5n9B7tzWtBydwuRxp2MecV_kZIC3kmlT28LTwjrA-VSMN-Ge6znt7rJ1NY9oF6mUfepsoDoYbLeH4OCaWA9UoL2SHwcN21y__lc1rYCkPybogiz27ptuDP_EvsGvZDrf7-MbBk="
+    },
+    {
+      "label": "thecvf",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG37anTrFiNG1KWIKqCg37t88iwTndnyNZGHjb6upcCZsrbHL6ZIAWioLK9gzNiiWjCWQznYR9pPjVa-Qi9qJfLr20N9hxU8cfcNa1rcpBeXaxRwmmBcvPu-Vv1Hg1HbxnSV2oMyRhs1T5rq8ndAvwuUz1XaIiMcVRAQ5R9y14J6sUHg1o_CtzNMU3dQHZTfdaB5JhY8EviC38um19VcAUNaYi_YfaawzKjgPRdJHGaNePcSHWPGaOrp8QzlIlcElD1-3OFzx60hHBLkhhV7_lDmoam1x7ww=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElx54kBIPZZphCbs4vlU5A8mzrkp1PHvGZLsQ_XEFJSHyo6TEHqHm1cM2ijC_YJ9sQliEc5pOqtrGV267N22311R2GArmS5RqQGJU68P_9pyYtOVORCTLRf4Exd17rDN48zA=="
+    },
+    {
+      "label": "solafune",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg-1Bd_i8lvVSZfVuNhfifbSM_lecXkP23tKjtvu8I-1UO6OnhhyO5lhZg00UgNyPisOf27iq-AfYC677jNTv3Dr0iqcpEcakl42AY8CajOTA8QWqx7_uxpRyOMFEdUJ9V2y2nTwhgtIzmv_LR_m3gF040kd5bTHRDmA1FLljwlzFADSD3fKSwGR4swngvu2-QGiQ4-COvvh3LD9iC8ClUR8lTVorf0L3EZDnYpmfD1JyMkgEMHZsHl_7Lh6SiVvO0kH504OIh7g=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5ZZh1t4kMqmDuoNwdEQbHbVEcLUc_qu3O_dd52_WsKP57UCA_cWPjuo5Wg6CYtQIITIEmM3ImYxhy3tw6VEfwMXemoj3_x3tiPiQZve-4g1VHcgHo4k2CHiL4W-zcgs6t8phavf7nOw=="
+    },
+    {
+      "label": "pytorch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT0hhUqXBXWu3rvrj6RTbGkI8JMkMXiuyqI3Bkkax2rwJlI1NJDjXpBf1_wY34fvO5RCRlzkrHMi2E_DKZrN9dsZtnKTzlCHBLreGO3vfI1A4yJaRKFrgt4YuERibkhBz01WY2FHwAAo1ctw=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcGrGTQsbwboWK4sSccuc-DjNeqnHe4U1-vporsAIVoQNQ14n-OX3Qtf1bqHzbkLmeqen8SI6dr1A1cF4pzFwtm-XXoEH4UmcLYP2zSSTzYd0DXBxCXfyGerWTzFHE"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZndJwRJC5t57Ph_CilnaC0P3Bz-vMX5vJIJI05V3Rq_9pvXBs_wk5qus6YR0MgBAcKRBlMY1tYAMnuPKvJj1yb8CjdXTQB1x2NCYctufuf0WGXR6vthPDeIjjtx5EgkKEKJH3RALLjOX9vFMilFyX2_k6wLb2a2YlIvjtAhfpDhtRYjMFIjKno5UTUpETjubk5xrtsSsL9DSkbXhK1hLTOw3zey-1k31yrscpJJ3NZhjIghDq7ctx3iCRF7sJpV3k-__b_TP3OOdgRD9Q95Uc2cbIOJf3Yg=="
+    },
+    {
+      "label": "merl",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5xtHIUw4yPiQgt_GKOhe3gJmUHG1C9GQeaqYpcrDxpl9iqwj7rPT_soXeb3HzHlRtA-UkGEpSArDJsjDRf92x1A-QBK6-taIYaHDBjs00WBUizIsAXgkh8z3IqAuc6z8lV--94_cNKV4adPqqPsy0NhylihQF7gBXLOk="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

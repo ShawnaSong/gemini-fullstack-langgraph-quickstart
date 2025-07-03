@@ -1,0 +1,823 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 21:49:55
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: barotrauma стакаются яли одинаковые таланты разных членов экипажа?
+
+[AI]: В целом, большинство талантов в *Barotrauma*, дающих определенные бонусы, не складываются при наличии нескольких членов экипажа с одинаковыми талантами [steamcommunity](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=) [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7). Это сделано для предотвращения чрезмерного усиления за счет дублирования талантов. Однако, есть исключения [steamcommunity](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=) [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7).
+
+Вот некоторые примеры и правила:
+
+*   **Не складываются:** Таланты, такие как "Traveling Tradesman", "Helmsman" и "Affiliation", явно указаны как не складывающиеся при наличии нескольких одинаковых талантов [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN).
+*   **Исключения и синергия:** Некоторые таланты, такие как "Inspirational Leader" (капитанский талант, дающий +25% к скорости получения навыков) [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==), приносят пользу всей команде, что делает их полезными, даже если они не складываются напрямую [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE).
+*   **Мультипликативное сложение:** Некоторые таланты, например, увеличивающие сопротивление урону, складываются мультипликативно, а не аддитивно [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g). Это означает, что эффект от каждого дополнительного таланта уменьшается. Например, четыре таланта, дающие 25% сопротивления урону, дадут примерно 68% сопротивления, а не 100% [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN).
+*   **Аддитивное сложение:** Модификаторы скорости ремонта от разных талантов складываются аддитивно [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==).
+*   **Indentured Servitude:** Талант ассистента "Indentured Servitude" дает бонусный опыт другим ассистентам, складывающийся до 50% [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq) [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==) [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYhLdnkbKkTcM3VkWmgmDzE4eSdU5NVxc0T2-ZrF81BgKPqngMWtEQ6bU2LRkxP4Lr_AEL6YMIP66ue0RWTvKB9BF-f1aeYmteAqhmwcUD4xTL7KzhEB7-tWoLpt0SmHr156QSJVbRZt7BR0d45s=).
+*   **Leading by Example:** Талант капитана "Leading by Example" дает всей команде эффект "High Morale", увеличивающий скорость ремонта и скорость передвижения [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==).
+
+Рекомендуется координировать выбор талантов между членами экипажа одного класса, чтобы максимизировать разнообразие полезных талантов и избегать дублирования [steamcommunity](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=) [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7) [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE). Внимательно читайте описания талантов в игре, чтобы понять, складываются ли они и как взаимодействуют с другими талантами или членами экипажа.
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 3
+Sources gathered: 83
+Web research results: 3
+
+SEARCH QUERIES USED
+----------------------------------------
+1. Barotrauma duplicate talent stacking crew members
+2. Barotrauma talent stacking rules same talent
+3. Are there any specific Barotrauma talents, besides Indentured Servitude, that provide stacking bonuses across multiple crew members, and what are the exact stacking rules for each of these talents?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Based on the search results, here's a summary of how "Barotrauma" handles duplicate talent stacking among crew members:
+
+**Talent Stacking Limitations**
+
+*   **Most Talents Don't Stack:** Generally, talents that provide specific bonuses do not stack with multiple instances of the same talent. This prevents players from gaining excessive advantages by having multiple crew members with the same talent.
+*   **Exceptions Exist:** Some talents provide benefits to the entire crew. [steamcommunity](https://vertexaisearch.cloud.google.com/id/0-0) [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1) In these cases, the talent may still be valuable to have, even if the primary effect doesn't stack. [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1)
+*   **Additive vs. Multiplicative Stacking:** Some talents, like those that increase damage resistance, stack multiplicatively rather than additively. [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-2) This means that the benefit gained from multiple instances of the talent diminishes with each additional talent. For example, four 25% damage resistances will result in approximately 68% damage resistance, not 100%. [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **Indentured Servitude:** The assistant talent "Indentured Servitude" provides a stacking bonus XP to other assistants, up to a maximum of 50%. [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-3) [bisecthosting](https://vertexaisearch.cloud.google.com/id/0-4) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-5)
+
+**Specific Talents and Stacking** [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-2) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-5)
+
+*   **Traveling Tradesman:** This talent offers additional items during special sales and increases item sell value but "Does not stack with multiple of the same talent". [bisecthosting](https://vertexaisearch.cloud.google.com/id/0-4) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **Helmsman:** Boosts Helm skill and increases engine/pump effectiveness but "Does not stack with multiple of the same talent". [bisecthosting](https://vertexaisearch.cloud.google.com/id/0-4) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-3)
+*   **Affiliation:** Increases faction reputation gain and mission rewards but "Does not stack with multiple of the same talent". [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-3)
+*   **Jenga Master:** Increases cabinet stack sizes but "Does not stack with multiple of the same talent".
+
+**Crew Coordination**
+
+*   **Class Coordination:** It's beneficial to coordinate talent selections among crew members of the same class to maximize the variety of useful talents. [steamcommunity](https://vertexaisearch.cloud.google.com/id/0-0) [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1) Mutually exclusive talents should be distributed to avoid redundancy. [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1)
+
+**Other Considerations**
+
+*   **Bots:** When managing bot crew members, consider their talents in the context of a multiplayer game where they cannot be directly controlled. [steamcommunity](https://vertexaisearch.cloud.google.com/id/0-0) [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1)
+*   **Experience and Talent Points:** Experience is gained through missions, commendations, and certain talents. [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-5) The amount of experience required per talent point increases with each point earned.
+*   **Peer Learning:** There have been bugs reported regarding the "Peer Learning" talent, which is intended to give bonus XP to lower-level crew members.
+
+**Crew Duplicates**
+
+*   Having duplicate roles can be useful. [reddit](https://vertexaisearch.cloud.google.com/id/0-6) [steamcommunity](https://vertexaisearch.cloud.google.com/id/0-0) [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1) For example, having a second engineer and mechanic can split repair responsibilities. [reddit](https://vertexaisearch.cloud.google.com/id/0-6) Extra security officers can increase the number of crew members who can venture into dangerous areas. [reddit](https://vertexaisearch.cloud.google.com/id/0-6)
+
+
+--- Research Result 2 ---
+Based on the search results, here's a summary of Barotrauma's talent stacking rules, focusing on the interaction of identical talents:
+
+*   **General Rule:** Most talents that provide percentage-based bonuses stack multiplicatively, not additively. This means that the effect of multiple instances of such talents diminishes as you acquire more.
+*   **Non-Stacking Talents:** Some talents explicitly state that they "do not stack with multiple of the same talent."
+*   **Exceptions/Synergies:**
+    *   Some talents provide benefits to the entire crew, making them valuable even without stacking. [indiefaq](https://vertexaisearch.cloud.google.com/id/1-0)
+    *   Certain talents may synergize with each other, even if they don't directly stack. [indiefaq](https://vertexaisearch.cloud.google.com/id/1-0)
+*   **Stacking Examples:**
+    *   Damage resistances stack multiplicatively, not additively. [barotraumagame](https://vertexaisearch.cloud.google.com/id/1-1)
+    *   Repair speed modifiers from different talents are additive. [barotraumagame](https://vertexaisearch.cloud.google.com/id/1-1)
+    *   Maximum vitality increases are additive and based on starting maximum health. [barotraumagame](https://vertexaisearch.cloud.google.com/id/1-1)
+*   **Talent Coordination:** It's beneficial to coordinate talent selections within a class to maximize the variety of useful talents, especially those that are mutually exclusive. [indiefaq](https://vertexaisearch.cloud.google.com/id/1-0)
+*   **Mindwipe:** Mindwipe allows to reset talent trees in the game on 1 character.
+
+It's important to carefully read the talent descriptions in-game to understand whether they stack and how they interact with other talents or crew members.
+
+
+--- Research Result 3 ---
+Based on the search results, here's a breakdown of Barotrauma talents that provide stacking bonuses across multiple crew members, along with their stacking rules:
+
+**1. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0) Indentured Servitude (Assistant Talent):**
+
+*   **Bonus:** Assistants cost 20% less to hire. [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-4) Other assistants receive a 10% bonus XP that stacks up to 50%. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-4)
+*   **Stacking Rule:** The 10% bonus XP for other assistants stacks up to a maximum of 50%. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1)
+
+**2. [reddit](https://vertexaisearch.cloud.google.com/id/2-5) Inspirational Leader (Captain Talent):**
+
+*   **Bonus:** Applies to all crew: +25% Skill Gain Speed. [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1)
+
+**3. [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) Travelling Tradesman (Captain Talent):**
+
+*   **Bonus:** Applies to all crew: Special sales offer 3 additional items. +20% Item Sell Value [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1)
+*   **Stacking Rule:** Does not stack with multiple of the same talent. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-6) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3)
+
+**4. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0) Leading by Example (Captain Talent - Skipper Specialization):**
+
+*   **Bonus:** As long as you're alive, all crew members receive High Morale, granting the following: +20% Repair Speed, +20% Hull Repair Speed, and +5% Movement Speed.
+
+**5. Crew Layabout (Assistant Talent):**
+
+*   **Bonus:** Lose 40% Repair Speed. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) Suffer a reduction of 15 to all Skills. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0) Allies near you repair 25% faster and gain a bonus of 10 to all skills. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0)
+*   **Stacking Rule:** Repair speed modifiers stacks additively with all other talents which modify repair speed. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0)
+
+**Important Considerations Regarding Stacking:**
+
+*   **Additive vs. Multiplicative Stacking:** Some talents stack additively, while others stack multiplicatively. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) For example, repair speed modifiers generally stack additively. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) Damage resistances stack multiplicatively, meaning that reaching 100% damage resistance is impossible. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2)
+*   **Talents of the Same Kind:** Talents of the same kind usually don't stack. [reddit](https://vertexaisearch.cloud.google.com/id/2-5)
+*   **Explicit "Does Not Stack" Rule:** Some talents explicitly state that they do not stack with multiple instances of the same talent.
+*   **Morale:** The "Leading by Example" talent grants High Morale, which provides bonuses. [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) Morale effects might have their own stacking rules or limitations.
+*   **Skill Gain Speed:** Talents that increase skill gain speed may become less valuable in the late game when skills are already maxed out.
+
+**Note:** The information above is based on the search results provided, and game mechanics can change with updates.
+
+
+SOURCES GATHERED
+----------------------------------------
+1. steamcommunity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=
+
+2. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7
+
+3. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7
+
+4. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN
+
+5. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN
+
+6. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq
+
+7. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp
+
+8. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2
+
+9. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN
+
+10. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2
+
+11. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp
+
+12. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq
+
+13. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN
+
+14. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp
+
+15. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq
+
+16. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq
+
+17. steamcommunity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=
+
+18. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7
+
+19. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7
+
+20. steamcommunity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=
+
+21. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7
+
+22. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2
+
+23. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnIcVumVOcAcsmlBEWV-snA_2ojTNRlSBrCF1yofaHax-SmpKLFp3YmjuOz7gNgjN0JaTIyDfEEUcuY6cnOUFBZXmljqqmO3aYxvPNcVKBh_CE95RbQe_yr7GlSiq0Dm6nw0_PDFHWw_Yz7UN2cEjRPS2RdEkgnIvPIzZVyrN7QtDBlLRryUUhv_vKo22qC1gjEcbZDvghL04p6ezsE0JN
+
+24. steamcommunity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=
+
+25. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7
+
+26. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnIcVumVOcAcsmlBEWV-snA_2ojTNRlSBrCF1yofaHax-SmpKLFp3YmjuOz7gNgjN0JaTIyDfEEUcuY6cnOUFBZXmljqqmO3aYxvPNcVKBh_CE95RbQe_yr7GlSiq0Dm6nw0_PDFHWw_Yz7UN2cEjRPS2RdEkgnIvPIzZVyrN7QtDBlLRryUUhv_vKo22qC1gjEcbZDvghL04p6ezsE0JN
+
+27. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnIcVumVOcAcsmlBEWV-snA_2ojTNRlSBrCF1yofaHax-SmpKLFp3YmjuOz7gNgjN0JaTIyDfEEUcuY6cnOUFBZXmljqqmO3aYxvPNcVKBh_CE95RbQe_yr7GlSiq0Dm6nw0_PDFHWw_Yz7UN2cEjRPS2RdEkgnIvPIzZVyrN7QtDBlLRryUUhv_vKo22qC1gjEcbZDvghL04p6ezsE0JN
+
+28. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE
+
+29. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE
+
+30. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g
+
+31. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g
+
+32. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g
+
+33. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE
+
+34. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4=
+
+35. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+36. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+37. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==
+
+38. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYhLdnkbKkTcM3VkWmgmDzE4eSdU5NVxc0T2-ZrF81BgKPqngMWtEQ6bU2LRkxP4Lr_AEL6YMIP66ue0RWTvKB9BF-f1aeYmteAqhmwcUD4xTL7KzhEB7-tWoLpt0SmHr156QSJVbRZt7BR0d45s=
+
+39. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==
+
+40. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+41. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+42. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYhLdnkbKkTcM3VkWmgmDzE4eSdU5NVxc0T2-ZrF81BgKPqngMWtEQ6bU2LRkxP4Lr_AEL6YMIP66ue0RWTvKB9BF-f1aeYmteAqhmwcUD4xTL7KzhEB7-tWoLpt0SmHr156QSJVbRZt7BR0d45s=
+
+43. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==
+
+44. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+45. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+46. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA8-N68E6VnOp677ukawZK2MyO67TuU4Tq7111DM_6Ycv5RTZ162N7NBxtv6pEQnS_xpE7sd4ySihGECiOY94lhgF4pPJhsZu_PnM3dXxCZNOVX5gCR5gxKYzyCPQNkhhtIezt9iSRAF1KatZzJtZGVfUwt4eLmChWBxiLCff-hXyJx0yfU6u7I4OU
+
+47. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+48. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+49. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+50. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnWCcFAcL9-Ey7YEe3gopoPlNjIef4CVHONLiS2j0nPkvm382gGo0do5oCd3YibcGxmKvnknzhqB8VDosJ0ZubX5J1Vi002WIOI_8GJymtjRPvgGTBlhEh0uQmE-DcHWUfCWU=
+
+51. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+52. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+53. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==
+
+54. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4=
+
+55. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==
+
+56. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+57. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+58. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+59. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==
+
+60. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4=
+
+61. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==
+
+62. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+63. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+64. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4=
+
+65. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4=
+
+66. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+67. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+68. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+69. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA8-N68E6VnOp677ukawZK2MyO67TuU4Tq7111DM_6Ycv5RTZ162N7NBxtv6pEQnS_xpE7sd4ySihGECiOY94lhgF4pPJhsZu_PnM3dXxCZNOVX5gCR5gxKYzyCPQNkhhtIezt9iSRAF1KatZzJtZGVfUwt4eLmChWBxiLCff-hXyJx0yfU6u7I4OU
+
+70. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+71. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==
+
+72. steamcommunity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=
+
+73. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7
+
+74. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN
+
+75. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq
+
+76. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp
+
+77. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2
+
+78. indiefaq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE
+
+79. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g
+
+80. bisecthosting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==
+
+81. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==
+
+82. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==
+
+83. barotraumagame
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYhLdnkbKkTcM3VkWmgmDzE4eSdU5NVxc0T2-ZrF81BgKPqngMWtEQ6bU2LRkxP4Lr_AEL6YMIP66ue0RWTvKB9BF-f1aeYmteAqhmwcUD4xTL7KzhEB7-tWoLpt0SmHr156QSJVbRZt7BR0d45s=
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "barotrauma стакаются яли одинаковые таланты разных членов экипажа?"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "В целом, большинство талантов в *Barotrauma*, дающих определенные бонусы, не складываются при наличии нескольких членов экипажа с одинаковыми талантами [steamcommunity](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=) [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7). Это сделано для предотвращения чрезмерного усиления за счет дублирования талантов. Однако, есть исключения [steamcommunity](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=) [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7).\n\nВот некоторые примеры и правила:\n\n*   **Не складываются:** Таланты, такие как \"Traveling Tradesman\", \"Helmsman\" и \"Affiliation\", явно указаны как не складывающиеся при наличии нескольких одинаковых талантов [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN).\n*   **Исключения и синергия:** Некоторые таланты, такие как \"Inspirational Leader\" (капитанский талант, дающий +25% к скорости получения навыков) [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==), приносят пользу всей команде, что делает их полезными, даже если они не складываются напрямую [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE).\n*   **Мультипликативное сложение:** Некоторые таланты, например, увеличивающие сопротивление урону, складываются мультипликативно, а не аддитивно [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g). Это означает, что эффект от каждого дополнительного таланта уменьшается. Например, четыре таланта, дающие 25% сопротивления урону, дадут примерно 68% сопротивления, а не 100% [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN).\n*   **Аддитивное сложение:** Модификаторы скорости ремонта от разных талантов складываются аддитивно [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==).\n*   **Indentured Servitude:** Талант ассистента \"Indentured Servitude\" дает бонусный опыт другим ассистентам, складывающийся до 50% [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq) [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw==) [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYhLdnkbKkTcM3VkWmgmDzE4eSdU5NVxc0T2-ZrF81BgKPqngMWtEQ6bU2LRkxP4Lr_AEL6YMIP66ue0RWTvKB9BF-f1aeYmteAqhmwcUD4xTL7KzhEB7-tWoLpt0SmHr156QSJVbRZt7BR0d45s=).\n*   **Leading by Example:** Талант капитана \"Leading by Example\" дает всей команде эффект \"High Morale\", увеличивающий скорость ремонта и скорость передвижения [bisecthosting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A==) [barotraumagame](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg==).\n\nРекомендуется координировать выбор талантов между членами экипажа одного класса, чтобы максимизировать разнообразие полезных талантов и избегать дублирования [steamcommunity](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc=) [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7) [indiefaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE). Внимательно читайте описания талантов в игре, чтобы понять, складываются ли они и как взаимодействуют с другими талантами или членами экипажа."
+    }
+  ],
+  "search_query": [
+    "Barotrauma duplicate talent stacking crew members",
+    "Barotrauma talent stacking rules same talent",
+    "Are there any specific Barotrauma talents, besides Indentured Servitude, that provide stacking bonuses across multiple crew members, and what are the exact stacking rules for each of these talents?"
+  ],
+  "web_research_result": [
+    "Based on the search results, here's a summary of how \"Barotrauma\" handles duplicate talent stacking among crew members:\n\n**Talent Stacking Limitations**\n\n*   **Most Talents Don't Stack:** Generally, talents that provide specific bonuses do not stack with multiple instances of the same talent. This prevents players from gaining excessive advantages by having multiple crew members with the same talent.\n*   **Exceptions Exist:** Some talents provide benefits to the entire crew. [steamcommunity](https://vertexaisearch.cloud.google.com/id/0-0) [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1) In these cases, the talent may still be valuable to have, even if the primary effect doesn't stack. [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Additive vs. Multiplicative Stacking:** Some talents, like those that increase damage resistance, stack multiplicatively rather than additively. [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-2) This means that the benefit gained from multiple instances of the talent diminishes with each additional talent. For example, four 25% damage resistances will result in approximately 68% damage resistance, not 100%. [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Indentured Servitude:** The assistant talent \"Indentured Servitude\" provides a stacking bonus XP to other assistants, up to a maximum of 50%. [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-3) [bisecthosting](https://vertexaisearch.cloud.google.com/id/0-4) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-5)\n\n**Specific Talents and Stacking** [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-2) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-5)\n\n*   **Traveling Tradesman:** This talent offers additional items during special sales and increases item sell value but \"Does not stack with multiple of the same talent\". [bisecthosting](https://vertexaisearch.cloud.google.com/id/0-4) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Helmsman:** Boosts Helm skill and increases engine/pump effectiveness but \"Does not stack with multiple of the same talent\". [bisecthosting](https://vertexaisearch.cloud.google.com/id/0-4) [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-3)\n*   **Affiliation:** Increases faction reputation gain and mission rewards but \"Does not stack with multiple of the same talent\". [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-3)\n*   **Jenga Master:** Increases cabinet stack sizes but \"Does not stack with multiple of the same talent\".\n\n**Crew Coordination**\n\n*   **Class Coordination:** It's beneficial to coordinate talent selections among crew members of the same class to maximize the variety of useful talents. [steamcommunity](https://vertexaisearch.cloud.google.com/id/0-0) [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1) Mutually exclusive talents should be distributed to avoid redundancy. [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1)\n\n**Other Considerations**\n\n*   **Bots:** When managing bot crew members, consider their talents in the context of a multiplayer game where they cannot be directly controlled. [steamcommunity](https://vertexaisearch.cloud.google.com/id/0-0) [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Experience and Talent Points:** Experience is gained through missions, commendations, and certain talents. [barotraumagame](https://vertexaisearch.cloud.google.com/id/0-5) The amount of experience required per talent point increases with each point earned.\n*   **Peer Learning:** There have been bugs reported regarding the \"Peer Learning\" talent, which is intended to give bonus XP to lower-level crew members.\n\n**Crew Duplicates**\n\n*   Having duplicate roles can be useful. [reddit](https://vertexaisearch.cloud.google.com/id/0-6) [steamcommunity](https://vertexaisearch.cloud.google.com/id/0-0) [indiefaq](https://vertexaisearch.cloud.google.com/id/0-1) For example, having a second engineer and mechanic can split repair responsibilities. [reddit](https://vertexaisearch.cloud.google.com/id/0-6) Extra security officers can increase the number of crew members who can venture into dangerous areas. [reddit](https://vertexaisearch.cloud.google.com/id/0-6)\n",
+    "Based on the search results, here's a summary of Barotrauma's talent stacking rules, focusing on the interaction of identical talents:\n\n*   **General Rule:** Most talents that provide percentage-based bonuses stack multiplicatively, not additively. This means that the effect of multiple instances of such talents diminishes as you acquire more.\n*   **Non-Stacking Talents:** Some talents explicitly state that they \"do not stack with multiple of the same talent.\"\n*   **Exceptions/Synergies:**\n    *   Some talents provide benefits to the entire crew, making them valuable even without stacking. [indiefaq](https://vertexaisearch.cloud.google.com/id/1-0)\n    *   Certain talents may synergize with each other, even if they don't directly stack. [indiefaq](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **Stacking Examples:**\n    *   Damage resistances stack multiplicatively, not additively. [barotraumagame](https://vertexaisearch.cloud.google.com/id/1-1)\n    *   Repair speed modifiers from different talents are additive. [barotraumagame](https://vertexaisearch.cloud.google.com/id/1-1)\n    *   Maximum vitality increases are additive and based on starting maximum health. [barotraumagame](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **Talent Coordination:** It's beneficial to coordinate talent selections within a class to maximize the variety of useful talents, especially those that are mutually exclusive. [indiefaq](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **Mindwipe:** Mindwipe allows to reset talent trees in the game on 1 character.\n\nIt's important to carefully read the talent descriptions in-game to understand whether they stack and how they interact with other talents or crew members.\n",
+    "Based on the search results, here's a breakdown of Barotrauma talents that provide stacking bonuses across multiple crew members, along with their stacking rules:\n\n**1. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0) Indentured Servitude (Assistant Talent):**\n\n*   **Bonus:** Assistants cost 20% less to hire. [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-4) Other assistants receive a 10% bonus XP that stacks up to 50%. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-4)\n*   **Stacking Rule:** The 10% bonus XP for other assistants stacks up to a maximum of 50%. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1)\n\n**2. [reddit](https://vertexaisearch.cloud.google.com/id/2-5) Inspirational Leader (Captain Talent):**\n\n*   **Bonus:** Applies to all crew: +25% Skill Gain Speed. [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1)\n\n**3. [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) Travelling Tradesman (Captain Talent):**\n\n*   **Bonus:** Applies to all crew: Special sales offer 3 additional items. +20% Item Sell Value [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1)\n*   **Stacking Rule:** Does not stack with multiple of the same talent. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-6) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3)\n\n**4. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0) Leading by Example (Captain Talent - Skipper Specialization):**\n\n*   **Bonus:** As long as you're alive, all crew members receive High Morale, granting the following: +20% Repair Speed, +20% Hull Repair Speed, and +5% Movement Speed.\n\n**5. Crew Layabout (Assistant Talent):**\n\n*   **Bonus:** Lose 40% Repair Speed. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) Suffer a reduction of 15 to all Skills. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0) Allies near you repair 25% faster and gain a bonus of 10 to all skills. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0)\n*   **Stacking Rule:** Repair speed modifiers stacks additively with all other talents which modify repair speed. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-0)\n\n**Important Considerations Regarding Stacking:**\n\n*   **Additive vs. Multiplicative Stacking:** Some talents stack additively, while others stack multiplicatively. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) For example, repair speed modifiers generally stack additively. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2) Damage resistances stack multiplicatively, meaning that reaching 100% damage resistance is impossible. [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-2)\n*   **Talents of the Same Kind:** Talents of the same kind usually don't stack. [reddit](https://vertexaisearch.cloud.google.com/id/2-5)\n*   **Explicit \"Does Not Stack\" Rule:** Some talents explicitly state that they do not stack with multiple instances of the same talent.\n*   **Morale:** The \"Leading by Example\" talent grants High Morale, which provides bonuses. [bisecthosting](https://vertexaisearch.cloud.google.com/id/2-1) [barotraumagame](https://vertexaisearch.cloud.google.com/id/2-3) Morale effects might have their own stacking rules or limitations.\n*   **Skill Gain Speed:** Talents that increase skill gain speed may become less valuable in the late game when skills are already maxed out.\n\n**Note:** The information above is based on the search results provided, and game mechanics can change with updates.\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "steamcommunity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc="
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7"
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq"
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2"
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN"
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq"
+    },
+    {
+      "label": "steamcommunity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc="
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7"
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7"
+    },
+    {
+      "label": "steamcommunity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc="
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnIcVumVOcAcsmlBEWV-snA_2ojTNRlSBrCF1yofaHax-SmpKLFp3YmjuOz7gNgjN0JaTIyDfEEUcuY6cnOUFBZXmljqqmO3aYxvPNcVKBh_CE95RbQe_yr7GlSiq0Dm6nw0_PDFHWw_Yz7UN2cEjRPS2RdEkgnIvPIzZVyrN7QtDBlLRryUUhv_vKo22qC1gjEcbZDvghL04p6ezsE0JN"
+    },
+    {
+      "label": "steamcommunity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc="
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnIcVumVOcAcsmlBEWV-snA_2ojTNRlSBrCF1yofaHax-SmpKLFp3YmjuOz7gNgjN0JaTIyDfEEUcuY6cnOUFBZXmljqqmO3aYxvPNcVKBh_CE95RbQe_yr7GlSiq0Dm6nw0_PDFHWw_Yz7UN2cEjRPS2RdEkgnIvPIzZVyrN7QtDBlLRryUUhv_vKo22qC1gjEcbZDvghL04p6ezsE0JN"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnIcVumVOcAcsmlBEWV-snA_2ojTNRlSBrCF1yofaHax-SmpKLFp3YmjuOz7gNgjN0JaTIyDfEEUcuY6cnOUFBZXmljqqmO3aYxvPNcVKBh_CE95RbQe_yr7GlSiq0Dm6nw0_PDFHWw_Yz7UN2cEjRPS2RdEkgnIvPIzZVyrN7QtDBlLRryUUhv_vKo22qC1gjEcbZDvghL04p6ezsE0JN"
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE"
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g"
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4="
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYhLdnkbKkTcM3VkWmgmDzE4eSdU5NVxc0T2-ZrF81BgKPqngMWtEQ6bU2LRkxP4Lr_AEL6YMIP66ue0RWTvKB9BF-f1aeYmteAqhmwcUD4xTL7KzhEB7-tWoLpt0SmHr156QSJVbRZt7BR0d45s="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYhLdnkbKkTcM3VkWmgmDzE4eSdU5NVxc0T2-ZrF81BgKPqngMWtEQ6bU2LRkxP4Lr_AEL6YMIP66ue0RWTvKB9BF-f1aeYmteAqhmwcUD4xTL7KzhEB7-tWoLpt0SmHr156QSJVbRZt7BR0d45s="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA8-N68E6VnOp677ukawZK2MyO67TuU4Tq7111DM_6Ycv5RTZ162N7NBxtv6pEQnS_xpE7sd4ySihGECiOY94lhgF4pPJhsZu_PnM3dXxCZNOVX5gCR5gxKYzyCPQNkhhtIezt9iSRAF1KatZzJtZGVfUwt4eLmChWBxiLCff-hXyJx0yfU6u7I4OU"
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnWCcFAcL9-Ey7YEe3gopoPlNjIef4CVHONLiS2j0nPkvm382gGo0do5oCd3YibcGxmKvnknzhqB8VDosJ0ZubX5J1Vi002WIOI_8GJymtjRPvgGTBlhEh0uQmE-DcHWUfCWU="
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ENoDWB_PGa-rzTIJXrirLqB2H-91ch5f8yTCYWH1NoEFK1zFS1SgUulAf2HgTsYiOenxU2CvlXBpwXp6ezBeMqLXpEx8AQtBNF_1rI6Nry-3Cmz5IG2Hojy4m9JDEz8xbmrAIwER-Za5A4="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA8-N68E6VnOp677ukawZK2MyO67TuU4Tq7111DM_6Ycv5RTZ162N7NBxtv6pEQnS_xpE7sd4ySihGECiOY94lhgF4pPJhsZu_PnM3dXxCZNOVX5gCR5gxKYzyCPQNkhhtIezt9iSRAF1KatZzJtZGVfUwt4eLmChWBxiLCff-hXyJx0yfU6u7I4OU"
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg=="
+    },
+    {
+      "label": "steamcommunity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJOgpMabMPAc_Bgw95bMSAhahHgHkY-CE-wOTJSc9_DKttA6O2aub6BPBLMap9u9yMJRYjN5hj4QP0kxOR9dMMXirb_Xa3XXHJS_VPOPl4xl7aIplM0ai5uMHbPSdN0INe1EhbLRLuoWlnlguSlhW8sTCnmMMp8atBpgc="
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJPtrUt9ouaLl6vQEXDYg3_EfhSXDa8QewxH0g2LNyhu8t4mVVNaBfXI6Ey3kJALXoDlIESlMvZ-EPxqzuDIjmeWwKVpzLM5SX3TeIPVnuLBJyEobgbjcsFOlMRtSE1KuS5e1C5KFC0eVu6JnS-Zv3P1Vtm81MdEubBC7"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1XBmyy231glRU-nPUcTXCXpl9RLoQ_r5E5BirMcPHhXP9YPMf7xBSTI9TcPrSyiJl3f451Z1NGvzJR8tsqItT9SIcgdiJeXxvTKU0uDd9v63HOV0kw7TwnyAm_cgOiEN"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbqRz7iPDLhHwm5jT9lFYRrxqE0v4HvoMYWsFl78QFDzPIxBvsMZHRizZg2pwlALfkSXeqw1ZtDqlngAE-2EspbedaXyHm7pZ3FlJG5PO900bCoWeR0Y3WN_j3Q_ILL35mj1jQp8Rv-Yqq"
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL5kdjmU2TZRJDpp45qc6jnxFiQ5weU9Lkxu5SrzSWlyQA6jH3VNNkjeHWM2aSZm3gRuS-lWJgJ-m_ZpM-Qs44okizMf6ta21nYCq7I_law-jQa2JL7_pTcTT4Pp9mdG7jZYA3D0grwbTADBFH62vnQZBO31l8NEu7DzRAgoMGs1C08JhJ_eBkyga91AL8qkGqC8_72w-x84VroTkk_tAi8TDek0gZEu87w2Qp"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE15k8eAcl2Qd40uIyLSk7Q292Hf_DUnTyLZsQQjJIOBRW-fJOW1rC4H18ycvYT2sKNPgMjwAw4k3qA5daITYw92-Uq7lgtyWBBuW8Rwwzmx-44Vxg9ZLUYuSv7RalNPE3g58sKAvI7KrxOrLLDonQICTyw7GS2"
+    },
+    {
+      "label": "indiefaq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgj6o_R2xohRMO7VTWPE6k7G8xKLHxQQwR8x1q7OGvROeRH8s1kPbU-6hNcl7P3hVQkYDs-l4Hu5JSaayy_UEqMo-tMeRBE45_z13ZyCbT5cblAjppxK9nHqdhXAEb4HrYNNtdUIa-6XiCj4Pf0gl1WjbYBGyQkLuHelE"
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSlYwQ8QjsAr3UNdXuXT0pC2bHfeJCDaZwP4fFimClZEHoW4UNVBxGunbvVuXulzE2VPPowjRSWMXjGJEfbYSpEJycO4Rgq-jr1CyNfCHgJHpHPkFUDoMCfa70UOo9k73g"
+    },
+    {
+      "label": "bisecthosting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnRkUI7BXBBjs-HPQn309Gtvhvb3zlLBLtmCDpO4OzDGDF76LHf2qH_qCo36ERiT_iu7HLdipZIptXjN8QOH_FHrA0fKXLHPuQFwJAjxlhvbLC-Q99pjw2K1ACNtps-fO78_LDOnHFPPy5LMr1ee1rqTMce1LdY_UBvE3pRGuRo9iu_270c7VE1D9KV17Nk8aXFyQuBzqIdsOIwCPD-2AVhHemwf6YZjGduwZ_7A=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzunc3cWufOpsIFOlhIgYHrA46Bn3LbxyeecUUxD3PD1hfj8-uSRclSa1QpCH4yNyvtqpZCuW2CE-SbV9dhq0Etg1XolI13Bc1cDvAlvdDDP7tVQqg8ytOpxn9ObFkvJmgQw=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENwYvmoYQ4L00iZdpkULbAMAaD5IBavGmevB-uyhCx9IZgY4qTl4zU9mGDCubt9fIsETnhWbn2hWx9tkIQqzb9ynrJWEEFkTnZIpJuiV-pG4LdglpVE5TrZiUvERsraqC0O76xZ-aoIHhvrg=="
+    },
+    {
+      "label": "barotraumagame",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXYhLdnkbKkTcM3VkWmgmDzE4eSdU5NVxc0T2-ZrF81BgKPqngMWtEQ6bU2LRkxP4Lr_AEL6YMIP66ue0RWTvKB9BF-f1aeYmteAqhmwcUD4xTL7KzhEB7-tWoLpt0SmHr156QSJVbRZt7BR0d45s="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

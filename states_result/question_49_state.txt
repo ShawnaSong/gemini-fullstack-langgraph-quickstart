@@ -1,0 +1,1484 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-18 15:14:11
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: what is SWE-Bench state of the art at the moment?
+
+[AI]: As of June 18, 2025, SWE-bench remains a prominent benchmark for evaluating the capabilities of large language models (LLMs) and AI agents in resolving real-world software issues [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x), [openai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5), [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_), [scilit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN). It assesses the AI's ability to generate a patch that fixes a problem given a code repository and an issue description [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7), [openai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5). The solutions are evaluated by running the repository's tests [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA==).
+
+Currently, **Claude Sonnet 4** leads with a state-of-the-art score of **72.7%** on SWE-bench [entelligence](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuZLQgdrz0aFGzssS-96LeWCOlqaAZQMXawVoW5UPsmF3BT5rHlVSObWGT4yoUm5eZe3fwZ6uIxac0-sR4pYFtzfENxDYhGe8x8V64LXolGqIcrpSCpj4owpzXwlcL0kSKOth5bWBO6bZT4EUmXKergzYZL6MU7g==). **Claude 4 Opus** closely follows, achieving **72.5%** on SWE-bench [entelligence](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuZLQgdrz0aFGzssS-96LeWCOlqaAZQMXawVoW5UPsmF3BT5rHlVSObWGT4yoUm5eZe3fwZ6uIxac0-sR4pYFtzfENxDYhGe8x8V64LXolGqIcrpSCpj4owpzXwlcL0kSKOth5bWBO6bZT4EUmXKergzYZL6MU7g==). When combined with tools, **Tools + Claude 4 Opus** scores **73.2%** on the more reliable SWE-Bench Verified subset [manifold](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA=). **Zencoder**, employing an ensemble approach, has achieved a **70%** success rate on SWE-bench Verified, with their best individual agent reaching a 66.6% solve rate [zencoder](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YN6-_itXZTEBUp6EsA835OzIcmYAEwgDBepzzGscyrMqQKbMqM1vrlXxXZUevwrnibv8wHZLfLOBcXq3u8Svtnnofs6xQC9pSPfhS2KCdT2UbbyImRbDMuUMgExXQaVOie3hAOaGBOV9jopiqPH_5KyqqDzJ1Yzc6aB1TjWfso-7nCamLJ4ZY8w1V64=). In early 2025, the upgraded **Claude 3.5 Sonnet** achieved **49%** on SWE-bench Verified [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA==), [manifold](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA=). **SWE-Dev**, built upon open-source LLMs, has achieved success rates of **23.4%** (7B parameter model) and **36.6%** (32B parameter model) on SWE-bench Verified [scilit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN).
+
+These models leverage various techniques to achieve these scores. Claude 4 Opus and Claude Sonnet 4 use a hybrid architecture with an "extended thinking" mode, allowing them to use web search and code execution during reasoning [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxQutv7JQ3nyWZKwjd0ZfTXW3oBBqGviL9kyAo2NqNo-HD0qpbAJkHVwgM1w8hNa3fh0J-fbGAgq3JVkDEV3JcOkAmwZyIpWiCfC-BWHXYX6qjvfmk5uT7WWJVpBMTROs=), [fanaticalfuturist](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqLs3PizLUjmvc6MOrN8F48phHtODA5SlMvSQKSa7PM4AcGa2u_Rj-fQOClchHuVxvL3fyxNiQafXq7S03r04dI__JcwXrhzIeRYpyRFB9nrt9ObnP1rMBXb0PfAah9UcxR-U0rW_L82a1a1O8GuafM3uQCxmw2P161XxfzdrcRQNf_8gk5Gjiiy4A1T3Q_TFN7j7TnbgcR1ouRAAhilPFjuznx_ZzehU=), [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf). They also utilize parallel tool execution and can create persistent memory with file access [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf). Zencoder, on the other hand, uses a modular platform architecture, running multiple agents in parallel and using OpenAI's o3 model to select the best solution [zencoder](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA=). Zencoder also employs "Repo Grokking™" technology to analyze and interpret large codebases [prnewswire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A==0), [bigdatawire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A==1).
+
+However, there are concerns and limitations associated with SWE-bench. Some research suggests that performance gains may be due to memorization of training data [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x), [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ==). SWE-bench Verified primarily tests the ability to navigate a Python codebase and fix small issues [epoch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ILKdQHTZOLlkkAi8XaNk305UsDVOs07ttnNOndiH7l-msWrmN7D3xsP1MDlM8VgaYQNkznzNcUJZxtYnqQ29T-H0asjpOgI-UoqTVtVR7fZ0xLowlsI0R-KfsBeL451MPZAbJFL8quJx-oW2UIX-GDek-eCoVufnDFO5KA==). Additionally, SWE-bench mainly focuses on bug fixing and doesn't adequately assess other software development tasks [runloop](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_0). Solution leakage and weak test cases in the original SWE-bench can also lead to inflated performance scores [runloop](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_0).
+
+To address these limitations, alternative benchmarks and approaches are being developed, such as Multi-SWE-bench, SWE-bench+, RefactorBench, SWE-Dev, and SWE-Lancer [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_2), [runloop](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_0), [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ==), [scilit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN). SWE-Dev, for example, uses various mechanisms to synthesize test cases, including random testing, fuzzing, symbolic execution, and LLMs [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo), [purdue](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA==), [epfl](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ). However, challenges such as overfitting and limitations in test suite coverage remain [smu](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHisv_GzgXTTxDKFU8Eax-XpkLnbDD1EQ7AA--UqSmwe31qkOZ_FVr5m-Bh6yN9zEdx5UxpemovH3Nac6mHWVm7jNbKwkZEe9nU-P0Odn77gJuPpivuu32UL4FL-ZDGomhbipZaThoVcV-HbqrCT1NX6NTGy81gW9RRv7-1BDOkHqLpvKMF26UpptJWjWleSQ==), [andrewhabib](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fj6WGfyaxM43fb7Ge6j2zf_PvxsQZw1Iz88Penq4mn3aE1mcn4PLNfIs-oZtVa0ZBNhb6oyA46Q7OCIFBLlMr2znTPJILLjIl5Lifc5cHuIHj8yNJR-sH829ReWd4kHurrj0nDPVa1rnxUCLSNJQs24=), [nih](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8_KHThJe3a3pumO8t_WdjjmiCLxGgMR1VtZ_ou5Ws5qTDMwIfDciKZ4PVSErkaNC_WPZciI1wtWMsZjYtRVt_FVlJp5x_01wDMMa1p3qwsQojw06dkwFzx3iFvj5rvpIEn15mYGByraG1nx5S), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=).
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 4
+Sources gathered: 156
+Web research results: 4
+
+SEARCH QUERIES USED
+----------------------------------------
+1. SWE-bench state of the art June 2025
+2. What specific techniques or architectural improvements are used in Claude 4 Opus, Claude Sonnet 4, and Zencoder to achieve their high scores on SWE-bench and SWE-bench Verified?
+3. What are the most common types of bugs or software issues that SWE-bench and SWE-bench Verified successfully address?
+4. What mechanisms are used in SWE-Dev to synthesize test cases, and how effective are these test cases in evaluating the correctness of generated patches?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "SWE-bench state of the art June 2025" and synthesize it into a verifiable text artifact.
+Based on the search results, here's a summary of the state of the art regarding SWE-bench as of June 18, 2025:
+
+**General Overview of SWE-bench:**
+
+*   SWE-bench is a benchmark used to evaluate the ability of large language models (LLMs) and AI agents to resolve real-world software issues. [openai](https://vertexaisearch.cloud.google.com/id/0-0) [dev](https://vertexaisearch.cloud.google.com/id/0-1) [scilit](https://vertexaisearch.cloud.google.com/id/0-2) It involves providing the AI with a code repository and an issue description, and the AI is tasked with generating a patch that fixes the problem. [dev](https://vertexaisearch.cloud.google.com/id/0-1) [github](https://vertexaisearch.cloud.google.com/id/0-3) [openai](https://vertexaisearch.cloud.google.com/id/0-0)
+*   The benchmark uses real GitHub issues and pull requests from open-source Python repositories. [anthropic](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-1) The AI's solution is evaluated by running the repository's tests to see if the issue is resolved. [anthropic](https://vertexaisearch.cloud.google.com/id/0-4)
+*   SWE-bench Verified is a human-validated subset of SWE-bench with 500 problems that are confirmed to be solvable. [dev](https://vertexaisearch.cloud.google.com/id/0-1) This subset aims to provide a more reliable evaluation of AI models by addressing issues in the original SWE-bench dataset, such as overly specific unit tests or poorly specified issue descriptions.
+*   Key metrics for evaluating performance on SWE-bench include the resolution rate (percentage of submitted instances successfully resolved), the number of instances submitted, completed, and resolved.
+
+**State-of-the-Art Performance:**
+
+*   **Claude 4 Opus** achieved a leading score of **72.5%** on SWE-bench.
+*   **Claude Sonnet 4** achieved a state-of-the-art score of **72.7%** on SWE-bench.
+*   **Tools + Claude 4 Opus** scored **73.2%** on SWE-Bench Verified. [manifold](https://vertexaisearch.cloud.google.com/id/0-5)
+*   **Zencoder** achieved a **70%** success rate on SWE-bench Verified using an ensemble approach. [zencoder](https://vertexaisearch.cloud.google.com/id/0-6) Their best individual agent achieved a 66.6% solve rate. [zencoder](https://vertexaisearch.cloud.google.com/id/0-6)
+*   The upgraded **Claude 3.5 Sonnet** achieved **49%** on SWE-bench Verified in early 2025. [anthropic](https://vertexaisearch.cloud.google.com/id/0-4) [manifold](https://vertexaisearch.cloud.google.com/id/0-5)
+*   **SWE-Dev**, built upon open-source LLMs, achieved success rates of **23.4%** (7B parameter model) and **36.6%** (32B parameter model) on SWE-bench Verified. [scilit](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **Genie 1** achieved a new state-of-the-art SWE Bench score in August 2024 (actual score not specified in the provided snippets, but it was the "biggest score jump in SWE-Bench history").
+
+**Concerns and Limitations:**
+
+*   Some research indicates that performance gains on SWE-bench may be partially driven by memorization of training data rather than genuine problem-solving. [arxiv](https://vertexaisearch.cloud.google.com/id/0-7) Models can achieve high accuracy in identifying buggy file paths using only issue descriptions, suggesting potential data contamination or memorization. [arxiv](https://vertexaisearch.cloud.google.com/id/0-8) [arxiv](https://vertexaisearch.cloud.google.com/id/0-7)
+*   SWE-bench Verified mainly tests the ability of models to navigate a Python codebase and fix well-defined, small issues. [epoch](https://vertexaisearch.cloud.google.com/id/0-9) Around 90% of the tasks are fixes that experienced engineers could complete in under an hour. [epoch](https://vertexaisearch.cloud.google.com/id/0-9)
+*   SWE-bench primarily focuses on bug fixing and doesn't adequately assess other software development tasks like code generation or software design. [runloop](https://vertexaisearch.cloud.google.com/id/0-10)
+*   Solution leakage and weak test cases in the original SWE-bench can lead to inflated performance scores. [runloop](https://vertexaisearch.cloud.google.com/id/0-10)
+
+**Evaluation Methods and Tools:**
+
+*   SWE-bench evaluations are performed in containerized Docker environments for consistent results. [github](https://vertexaisearch.cloud.google.com/id/0-11) [github](https://vertexaisearch.cloud.google.com/id/0-3) [openai](https://vertexaisearch.cloud.google.com/id/0-0)
+*   The `sb-cli` tool is available for cloud-based evaluation. [github](https://vertexaisearch.cloud.google.com/id/0-11) [github](https://vertexaisearch.cloud.google.com/id/0-3)
+
+**Alternative Benchmarks and Approaches:**
+
+*   **Multi-SWE-bench:** A multilingual benchmark for issue resolving. [arxiv](https://vertexaisearch.cloud.google.com/id/0-12)
+*   **SWE-bench+:** Aims to address limitations of SWE-bench by focusing on issues with no clear solution provided and preventing data leakage. [runloop](https://vertexaisearch.cloud.google.com/id/0-10)
+*   **RefactorBench:** Tests code restructuring abilities, unlike SWE-Bench's focus on bug fixes. [arxiv](https://vertexaisearch.cloud.google.com/id/0-8)
+*   **SWE-Dev:** An SWE agent built upon open-source LLMs with a pipeline to synthesize test cases for patch evaluation. [scilit](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **SWE-Lancer:** Another benchmark for evaluating LLMs in software engineering.
+
+**Key Takeaways:**
+
+*   SWE-bench remains a popular benchmark for evaluating LLMs in software engineering, but concerns exist regarding memorization and the limited scope of the benchmark. [arxiv](https://vertexaisearch.cloud.google.com/id/0-7)
+*   SWE-bench Verified is a more reliable subset of SWE-bench. [openai](https://vertexaisearch.cloud.google.com/id/0-0)
+*   The state-of-the-art models are achieving impressive results on SWE-bench, but there is still room for improvement.
+*   Researchers are actively working on developing new benchmarks and evaluation methods to address the limitations of SWE-bench.
+*   The performance of an agent on SWE-bench can vary significantly based on the software scaffolding around it, even when using the same underlying AI model. [anthropic](https://vertexaisearch.cloud.google.com/id/0-4)
+
+
+--- Research Result 2 ---
+Based on the search results, here's a summary of the techniques and architectural improvements used in Claude 4 Opus, Claude Sonnet 4, and Zencoder to achieve high scores on SWE-bench and SWE-bench Verified:
+
+**Claude 4 Opus and Claude Sonnet 4:**
+
+*   **SWE-bench Scores:** Claude Opus 4 achieves a SWE-bench score of 72.5% (reaching 79.4% with parallel test-time compute), while Claude Sonnet 4 scores 72.7% (and 80.2% with parallel test-time compute). [entelligence](https://vertexaisearch.cloud.google.com/id/1-0)
+*   **SWE-bench Verified:** Both models lead on SWE-bench Verified, a benchmark for performance on real software engineering tasks.
+*   **Tools:** They use a bash tool and a file editing tool that operates via string replacements. [anthropic](https://vertexaisearch.cloud.google.com/id/1-1) The planning tool used by Claude 3.7 Sonnet is no longer included. [anthropic](https://vertexaisearch.cloud.google.com/id/1-1)
+*   **Methodology:** The models use the same simple scaffold that equips the model with solely the two tools described in our prior releases here—a bash tool, and a file editing tool that operates via string replacements.
+* [anthropic](https://vertexaisearch.cloud.google.com/id/1-1)   **Parallel Attempts:** For high compute numbers, multiple parallel attempts are sampled.
+*   **Hybrid Architecture:** Both models employ a hybrid architecture, offering instant responses and an "extended thinking" mode for deeper reasoning on complex tasks.
+* [anthropic](https://vertexaisearch.cloud.google.com/id/1-2) [fanaticalfuturist](https://vertexaisearch.cloud.google.com/id/1-3)   **Extended Thinking with Tools:** They can use web search and code execution during reasoning.
+* [dev](https://vertexaisearch.cloud.google.com/id/1-4)   **Parallel Tool Execution:** They can use multiple tools simultaneously.
+* [dev](https://vertexaisearch.cloud.google.com/id/1-4)   **Memory Files:** They can create persistent memory when given file access.
+* [dev](https://vertexaisearch.cloud.google.com/id/1-4)   **Reduced Shortcuts:** There's a 65% reduction in shortcut/loopholes behavior compared to Sonnet 3.7.
+* [dev](https://vertexaisearch.cloud.google.com/id/1-4) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [prompthub](https://vertexaisearch.cloud.google.com/id/1-6)   **Agentic Capabilities:** Both models demonstrate strong performance in agentic coding scenarios.
+* [datacamp](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-2)   **Context Window:** Both models support a 200K token context window.
+* [llm-stats](https://vertexaisearch.cloud.google.com/id/1-8) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [datacamp](https://vertexaisearch.cloud.google.com/id/1-7)   **Coding focus:** Both models were tuned to perform well on programming tasks, making them well-suited for writing and editing code.
+
+ [fanaticalfuturist](https://vertexaisearch.cloud.google.com/id/1-3)**Zencoder:**
+
+*   **SWE-bench Verified Score:** Zencoder has achieved a 70% success rate on SWE-bench Verified.
+*   **Model Agnosticism:** Zencoder uses a modular platform architecture, benchmarking individual components and using the optimal model for each task (including their own models, as well as those from Anthropic, OpenAI, and Google).
+* [zencoder](https://vertexaisearch.cloud.google.com/id/1-9)   **Parallel Agent Execution:** Zencoder runs four distinct Zen Agents simultaneously on each SWE-bench task, with each generating its own solution.
+* [zencoder](https://vertexaisearch.cloud.google.com/id/1-9)   **Critic Evaluation:** OpenAI's o3 model is used as a judge to select the best solution from among the four candidates.
+* [zencoder](https://vertexaisearch.cloud.google.com/id/1-9)   **Repo Grokking™:** Zencoder utilizes proprietary "Repo Grokking" technology, which analyzes and interprets large code bases, interdependencies, and architectural patterns to provide a deeper understanding of entire codebases.
+*   [prnewswire](https://vertexaisearch.cloud.google.com/id/1-10) [bigdatawire](https://vertexaisearch.cloud.google.com/id/1-11) **Agentic Pipeline:** Zencoder employs a unique agentic pipeline.
+*   [zencoder](https://vertexaisearch.cloud.google.com/id/1-9) [substack](https://vertexaisearch.cloud.google.com/id/1-12) **Integration:** Deep integrations with IDEs (VS Code, JetBrains) and DevOps tools (JIRA, GitHub, GitLab, Sentry).
+*   [prnewswire](https://vertexaisearch.cloud.google.com/id/1-10) [bigdatawire](https://vertexaisearch.cloud.google.com/id/1-11) **Multi-Agent Architecture:** Zencoder uses a multi-agent architecture to enhance code quality and security.
+
+In [encorp](https://vertexaisearch.cloud.google.com/id/1-13) summary, Claude 4 Opus and Sonnet 4 leverage advanced architectures, tool use, and reasoning capabilities to excel in coding benchmarks. Zencoder, on the other hand, employs a combination of model agnosticism, parallel execution, code understanding, and tight integrations to achieve its high scores.
+
+
+--- Research Result 3 ---
+SWE-bench and SWE-bench Verified are benchmarks used to evaluate the ability of AI models to resolve real-world software engineering issues. [reddit](https://vertexaisearch.cloud.google.com/id/2-0) [github](https://vertexaisearch.cloud.google.com/id/2-1) [openai](https://vertexaisearch.cloud.google.com/id/2-2) These benchmarks consist of problems sourced from GitHub issues and pull requests from popular Python repositories. The primary task is to generate a code patch that resolves a given issue, testing the AI's capacity to understand, modify, and test code within existing projects. [toloka](https://vertexaisearch.cloud.google.com/id/2-3)
+
+Here's a breakdown of the types of issues addressed and some limitations:
+
+**Types of Bugs and Software Issues Addressed:**
+
+*   **Real-world Software Issues:** SWE-bench uses real issues from GitHub repositories, reflecting the challenges developers face in practice. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4) [toloka](https://vertexaisearch.cloud.google.com/id/2-3)
+*   **Bug Fixes:** A significant portion of the issues involve fixing existing bugs in the code.
+*   **Codebase Edits:** The AI models are challenged to edit codebases, often requiring coordination across multiple functions, classes, or files. [dev](https://vertexaisearch.cloud.google.com/id/2-5) [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)
+*   **Complex Reasoning:** The tasks demand complex reasoning beyond simple code generation, including interaction with execution environments. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)
+*   **Test Integration:** Models must understand, modify, and test the code, with solutions graded against real unit tests from the pull request that closed the original GitHub issue.
+*   **New Feature Requests:** Each issue can be either a bug report or a new feature request.
+
+**SWE-bench Verified Focus:**
+
+*   SWE-bench Verified is a refined subset of SWE-bench, designed to provide a more reliable evaluation of AI models. [github](https://vertexaisearch.cloud.google.com/id/2-1) [reddit](https://vertexaisearch.cloud.google.com/id/2-0) [openai](https://vertexaisearch.cloud.google.com/id/2-2) It addresses shortcomings in the original SWE-bench, such as overly specific or unrelated unit tests and ambiguous issue descriptions.
+*   SWE-bench Verified includes samples that are well-specified and free from problematic tests or ambiguous descriptions. [reddit](https://vertexaisearch.cloud.google.com/id/2-0) [epoch](https://vertexaisearch.cloud.google.com/id/2-6)
+*   SWE-bench Verified primarily tests models' ability to fix simple bugs in a small set of well-known repositories. [epoch](https://vertexaisearch.cloud.google.com/id/2-6)
+
+**Limitations and Challenges:**
+
+*   **Weak Testing:** Some tasks in SWE-bench may have inadequate unit tests, leading to false positives where models appear to solve problems but haven't truly addressed the underlying issues. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)
+*   **Data Contamination:** Issues in SWE-bench may have been created before the training cutoff dates of several LLMs, potentially leading to data leakage and inflated performance scores. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)
+*   **Lack of Real-World Representation:** SWE-bench primarily focuses on Python repositories, which may not fully represent the diversity of programming languages and software engineering tasks encountered in real-world development. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4) [epoch](https://vertexaisearch.cloud.google.com/id/2-6)
+*   **Benchmark Specificity:** SWE-bench scores can sometimes reflect a model's strength on known datasets rather than its ability to generalize to new or different coding scenarios. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)
+*   **Solution Leakage:** A significant portion of the issues in SWE-Bench have solutions directly provided in the issue report or comments. [runloop](https://vertexaisearch.cloud.google.com/id/2-7) [arxiv](https://vertexaisearch.cloud.google.com/id/2-8)
+*   **Overemphasis on Bug Fixing:** SWE-Bench primarily focuses on bug fixing and doesn't adequately assess LLMs' ability to generate new code or design software architectures. [runloop](https://vertexaisearch.cloud.google.com/id/2-7)
+*   **Difficulty in Setting Up Environments:** It is sometimes difficult to reliably set up the SWE-bench development environments for the agents, inadvertently causing unit tests to fail regardless of the solution. [openai](https://vertexaisearch.cloud.google.com/id/2-2)
+
+SWE-bench and SWE-bench Verified are valuable tools for evaluating AI models on software engineering tasks, but it's essential to be aware of their limitations and potential biases.
+
+
+--- Research Result 4 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "What mechanisms are used in SWE-Dev to synthesize test cases, and how effective are these test cases in evaluating the correctness of generated patches?" and synthesize it into a verifiable text artifact.
+Based on the search results, here's a summary of mechanisms used in SWE-Dev to synthesize test cases for evaluating the correctness of generated patches, and their effectiveness:
+
+**1. [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0) [arxiv](https://vertexaisearch.cloud.google.com/id/3-1) Test Case Synthesis Mechanisms:**
+
+*   **Random Testing:** This involves generating a comprehensive set of test cases randomly. [github](https://vertexaisearch.cloud.google.com/id/3-2) FIXCHECK uses random testing to generate test cases and then uses a large language model to derive meaningful assertions for each test case. [github](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Fuzzing:** This technique generates new test cases by applying fuzzing strategies on existing test case inputs. [purdue](https://vertexaisearch.cloud.google.com/id/3-3) Opad uses fuzzing to generate new test cases on the buggy program. [github](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Symbolic Execution:** This technique executes a program with symbolic rather than concrete values to generate test inputs that exercise program paths. [epfl](https://vertexaisearch.cloud.google.com/id/3-4) Dynamic test generation with symbolic execution is considered a precise form of code-driven test generation. [epfl](https://vertexaisearch.cloud.google.com/id/3-4)
+*   **Similarity-Based Techniques:** These techniques generate new test cases to measure the behavioral differences between the buggy and patched versions. [github](https://vertexaisearch.cloud.google.com/id/3-2) PATCH-SIM is a similarity-based technique that generates new test cases to measure the behavioral differences between the buggy and patched versions. [github](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Differential Testing:** This technique automatically exposes behavioral discrepancies between two patches. [arxiv](https://vertexaisearch.cloud.google.com/id/3-5) PatchDiff is a novel technique for differential patch testing, which automatically exposes behavioral discrepancies between two patches. [github](https://vertexaisearch.cloud.google.com/id/3-6) [arxiv](https://vertexaisearch.cloud.google.com/id/3-5)
+*   **Large Language Models (LLMs):** LLMs are used to automate test case generation from natural language bug reports and use case specifications. They can also be used to derive meaningful assertions for test cases.
+*   **Mutation-Based Strategies:** These strategies augment a significant number of additional test cases using mutation-based strategies.
+*   **Combinatorial Testing:** Given a program and a set of input parameters, combinatorial testing aims at generating efficiently a set of test inputs which cover all pairs. [epfl](https://vertexaisearch.cloud.google.com/id/3-4)
+*   **Model-Based Testing:** Uses models (e.g., state machines or UML diagrams) to represent software behavior. [github](https://vertexaisearch.cloud.google.com/id/3-6) [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0) Test cases are generated to validate all specified scenarios, including edge and failure conditions. [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0) [github](https://vertexaisearch.cloud.google.com/id/3-6)
+*   **Keyword-Driven Testing:** Focuses on automating test cases using predefined keywords. [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0)
+
+**2. Effectiveness of Synthesized Test Cases in Evaluating Patch Correctness:**
+
+*   **Overfitting Problem:** A major challenge is the "overfitting" problem, where patches pass existing test suites but are still incorrect. [smu](https://vertexaisearch.cloud.google.com/id/3-7) [andrewhabib](https://vertexaisearch.cloud.google.com/id/3-8) [nih](https://vertexaisearch.cloud.google.com/id/3-9) [github](https://vertexaisearch.cloud.google.com/id/3-6)  Such patches are referred to as overfitting patches. [purdue](https://vertexaisearch.cloud.google.com/id/3-3)
+*   **Limitations of Test Suites:** Test suites are often imperfect and may not be comprehensive enough to guarantee patch correctness. Patches that pass the repair test suite are actually still incorrect.
+*   **Improved Patch Correctness Assessment:** Techniques like FIXCHECK can generate fault-revealing tests for a significant percentage of incorrect patches. [github](https://vertexaisearch.cloud.google.com/id/3-2) FIXCHECK effectively generates fault-revealing tests for 62% of incorrect patches written by developers, with a high level of confidence. [github](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Enhanced Test Suites:** Tools like Opad improve existing test suites by generating new test cases and leveraging additional oracles (e.g., memory-safety oracles) to improve the validity checking of automatically generated patches. [purdue](https://vertexaisearch.cloud.google.com/id/3-3)
+*   **Behavioral Similarity:** Exploiting the behavior similarity of test case executions can help determine patch correctness. [researchgate](https://vertexaisearch.cloud.google.com/id/3-10) [arxiv](https://vertexaisearch.cloud.google.com/id/3-11) The passing tests on original and patched programs are likely to behave similarly while the failing tests on original and patched programs are likely to behave differently. [researchgate](https://vertexaisearch.cloud.google.com/id/3-10) [arxiv](https://vertexaisearch.cloud.google.com/id/3-11)
+*   **Test Case Generation for Syntactic Differences:** DIFFTGEN is a test generation tool for Java programs specifically designed to generate tests that can identify incorrect patches generated by ASR tools. [github](https://vertexaisearch.cloud.google.com/id/3-6) DIFFTGEN attempts to generate test cases that cover the syntactic and semantic differences between the machine-patched and human-patched programs.
+*   **SWE-bench Weaknesses:** SWE-bench's patch validation mechanism has weaknesses, leading to some incorrect patches being counted as "correct". [arxiv](https://vertexaisearch.cloud.google.com/id/3-5) [github](https://vertexaisearch.cloud.google.com/id/3-6)
+*   **AI-Powered Test Case Generation:** AI-powered testing tools are increasingly being integrated to automate the generation and validation of test cases, significantly reducing the time and manual effort involved. [arxiv](https://vertexaisearch.cloud.google.com/id/3-12)
+
+**3. Key Considerations for Effective Test Case Synthesis:**
+
+*   **Test Oracles:** The effectiveness of test cases depends on the quality of test oracles used to validate the patches.
+*   **Coverage:** Test cases should cover a wide range of scenarios, including edge cases, to ensure comprehensive testing. [github](https://vertexaisearch.cloud.google.com/id/3-6)
+*   **Adaptability:** Test cases should be adaptable to changes in the code to ensure they remain relevant and effective as the software evolves.
+*   **Risk Assessment:** Prioritize test case generation based on risk assessment to focus testing efforts on the most critical areas.
+*   **Automation:** Automate test case generation and optimization to improve efficiency and reduce manual effort. [arxiv](https://vertexaisearch.cloud.google.com/id/3-12) [researchgate](https://vertexaisearch.cloud.google.com/id/3-13) [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0)
+
+**4. Tools and Techniques:**
+
+*   **FIXCHECK:** Combines random testing and large language models to generate fault-revealing tests. [github](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **PATCH-SIM:** Builds on the similarities among test execution traces for predicting patch correctness. [andrewhabib](https://vertexaisearch.cloud.google.com/id/3-8) [researchgate](https://vertexaisearch.cloud.google.com/id/3-10) [github](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Opad:** Uses fuzz testing and test oracles to enhance test cases and filter out overfitted patches. [purdue](https://vertexaisearch.cloud.google.com/id/3-3)
+*   **DIFFTGEN:** Generates tests that cover the syntactic differences between the generated patch and the ground-truth.
+*   **xTestCluster:** Clusters patches based on their dynamic behavior using newly generated test cases. [nih](https://vertexaisearch.cloud.google.com/id/3-9)
+*   **Otter:** Augments LLMs with rule-based analysis to check and repair their outputs, and introduces a novel self-reflective action planner.
+
+In conclusion, various mechanisms are employed to synthesize test cases for evaluating patch correctness, ranging from traditional techniques like random testing and symbolic execution to more advanced approaches involving LLMs and AI-powered tools. [github](https://vertexaisearch.cloud.google.com/id/3-6) The effectiveness of these test cases varies, with challenges such as overfitting and limitations in test suite coverage. However, ongoing research and development are continuously improving the ability of synthesized test cases to accurately evaluate the correctness of generated patches.
+
+
+SOURCES GATHERED
+----------------------------------------
+1. openai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5
+
+2. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_
+
+3. scilit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN
+
+4. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_
+
+5. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7
+
+6. openai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5
+
+7. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA==
+
+8. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_
+
+9. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA==
+
+10. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_
+
+11. manifold
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA=
+
+12. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YN6-_itXZTEBUp6EsA835OzIcmYAEwgDBepzzGscyrMqQKbMqM1vrlXxXZUevwrnibv8wHZLfLOBcXq3u8Svtnnofs6xQC9pSPfhS2KCdT2UbbyImRbDMuUMgExXQaVOie3hAOaGBOV9jopiqPH_5KyqqDzJ1Yzc6aB1TjWfso-7nCamLJ4ZY8w1V64=
+
+13. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YN6-_itXZTEBUp6EsA835OzIcmYAEwgDBepzzGscyrMqQKbMqM1vrlXxXZUevwrnibv8wHZLfLOBcXq3u8Svtnnofs6xQC9pSPfhS2KCdT2UbbyImRbDMuUMgExXQaVOie3hAOaGBOV9jopiqPH_5KyqqDzJ1Yzc6aB1TjWfso-7nCamLJ4ZY8w1V64=
+
+14. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA==
+
+15. manifold
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA=
+
+16. scilit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN
+
+17. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x
+
+18. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ==
+
+19. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x
+
+20. epoch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ILKdQHTZOLlkkAi8XaNk305UsDVOs07ttnNOndiH7l-msWrmN7D3xsP1MDlM8VgaYQNkznzNcUJZxtYnqQ29T-H0asjpOgI-UoqTVtVR7fZ0xLowlsI0R-KfsBeL451MPZAbJFL8quJx-oW2UIX-GDek-eCoVufnDFO5KA==
+
+21. epoch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ILKdQHTZOLlkkAi8XaNk305UsDVOs07ttnNOndiH7l-msWrmN7D3xsP1MDlM8VgaYQNkznzNcUJZxtYnqQ29T-H0asjpOgI-UoqTVtVR7fZ0xLowlsI0R-KfsBeL451MPZAbJFL8quJx-oW2UIX-GDek-eCoVufnDFO5KA==
+
+22. runloop
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeSMxgcDEQZdFYUmDrNJlO2yLn9fKTJK9gRtzehKcQ2IDMC1mHHwTQqr3MTKVUCcb54C3FQB1-AXeD_2vaD-H6OgIDoSd4dLbqGBUnbbaGxUydXHzq0znHlbYZ0wEgUtJ0qQTj0nIsBx-1AsBDAJyFqbtaaVGurWGQherKvBE5AaU8MTgjYMiPBgkWLaNYQZj53Jt26a_5W_bcaA==
+
+23. runloop
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeSMxgcDEQZdFYUmDrNJlO2yLn9fKTJK9gRtzehKcQ2IDMC1mHHwTQqr3MTKVUCcb54C3FQB1-AXeD_2vaD-H6OgIDoSd4dLbqGBUnbbaGxUydXHzq0znHlbYZ0wEgUtJ0qQTj0nIsBx-1AsBDAJyFqbtaaVGurWGQherKvBE5AaU8MTgjYMiPBgkWLaNYQZj53Jt26a_5W_bcaA==
+
+24. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHA8GpSHjVvPSsFr8dYWmLhcXPaWwLEWwURk-HUYOxoWiDnd4vvhw6Qr5I3krCGOHvb34wCDK00_TKkhsQaBdOVFYmlS-7ggFJtp3y6LmwAXWI7Uid2PG9waJTNA6IOAhxBlHyzbRujwcp5tnaf6H-iPGrQb-SJsaqov99lzBvP6rRseLS_
+
+25. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7
+
+26. openai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5
+
+27. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHA8GpSHjVvPSsFr8dYWmLhcXPaWwLEWwURk-HUYOxoWiDnd4vvhw6Qr5I3krCGOHvb34wCDK00_TKkhsQaBdOVFYmlS-7ggFJtp3y6LmwAXWI7Uid2PG9waJTNA6IOAhxBlHyzbRujwcp5tnaf6H-iPGrQb-SJsaqov99lzBvP6rRseLS_
+
+28. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7
+
+29. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsR99b8OJKqGi8jiukxq0DXQN1zzV7RNFL6BQbEOzrYXN3MMNgveNvXJvzfmAHLCx6q1cNHpgEhXLBbSM1bgrxWGMAAUfz_A_aUMvWLwj2JE_RqUffIXy1q4KTHvV_
+
+30. runloop
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeSMxgcDEQZdFYUmDrNJlO2yLn9fKTJK9gRtzehKcQ2IDMC1mHHwTQqr3MTKVUCcb54C3FQB1-AXeD_2vaD-H6OgIDoSd4dLbqGBUnbbaGxUydXHzq0znHlbYZ0wEgUtJ0qQTj0nIsBx-1AsBDAJyFqbtaaVGurWGQherKvBE5AaU8MTgjYMiPBgkWLaNYQZj53Jt26a_5W_bcaA==
+
+31. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ==
+
+32. scilit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN
+
+33. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x
+
+34. openai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5
+
+35. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA==
+
+36. entelligence
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuZLQgdrz0aFGzssS-96LeWCOlqaAZQMXawVoW5UPsmF3BT5rHlVSObWGT4yoUm5eZe3fwZ6uIxac0-sR4pYFtzfENxDYhGe8x8V64LXolGqIcrpSCpj4owpzXwlcL0kSKOth5bWBO6bZT4EUmXKergzYZL6MU7g==
+
+37. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A==
+
+38. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A==
+
+39. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A==
+
+40. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxQutv7JQ3nyWZKwjd0ZfTXW3oBBqGviL9kyAo2NqNo-HD0qpbAJkHVwgM1w8hNa3fh0J-fbGAgq3JVkDEV3JcOkAmwZyIpWiCfC-BWHXYX6qjvfmk5uT7WWJVpBMTROs=
+
+41. fanaticalfuturist
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqLs3PizLUjmvc6MOrN8F48phHtODA5SlMvSQKSa7PM4AcGa2u_Rj-fQOClchHuVxvL3fyxNiQafXq7S03r04dI__JcwXrhzIeRYpyRFB9nrt9ObnP1rMBXb0PfAah9UcxR-U0rW_L82a1a1O8GuafM3uQCxmw2P161XxfzdrcRQNf_8gk5Gjiiy4A1T3Q_TFN7j7TnbgcR1ouRAAhilPFjuznx_ZzehU=
+
+42. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf
+
+43. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf
+
+44. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf
+
+45. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf
+
+46. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqSQ4lZB0XE2Yl5fjE3CjnLS7cGrpVXtsqIQHspMdA245VY2yncKdiSExGU-faRVzVhSy3ZxUr5beoZ46kF-HaeHuaKr7f3WA8z_Z4LWZjx4ABVj4Z5117rNw0ztrJBkdtAspOuVrUqnys8tgpZyu4YCbyyCo8M0pDJFTJTxJLrONdk0QU2dIbLOTaLu7lytWtOIBivN_D0w==
+
+47. prompthub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqfSTnCa-0UmcizKeQ6qH6srhrfLO39_pE_-laO-w_BhONjK0fY-qj0W3XWVGg5xu9DsNilFsuvIJZQ-xlWs0iK1H_7V4xm1fuyBfHcJD9-_u5Y88Pq8SoGKxFXNRCvWCjvunFJY6967zzFI51FQKQF-LgkjGSdpv-mn3BlxA8yzd2eVz8C3eKSeh499KvyBA=
+
+48. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ8AwkSExLmsccx6S3FVoBRWXkXLOwxop7q_wzqjyW-ZWlmN97jWCuWoEwW6cNOpN2l-7FvcZVuCgE6N7B0FCTfIWyCQU-Dg9cF6R5WOZfcSG3aR2vcFzKJ7vgd2YjruJI
+
+49. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxQutv7JQ3nyWZKwjd0ZfTXW3oBBqGviL9kyAo2NqNo-HD0qpbAJkHVwgM1w8hNa3fh0J-fbGAgq3JVkDEV3JcOkAmwZyIpWiCfC-BWHXYX6qjvfmk5uT7WWJVpBMTROs=
+
+50. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbSyeYhgjH3Vb4T-K6p87uYxzmJNKbxEb-7_N02sEiuOsY4uNoIlVdd7N7NOhU7VxwR46PxaRWgxKxLEZLm37yB8WPTD-iq0zd_WeT0Fn6FaUXJQpR-H1hNXzdz9h2GAnv9k-WdR4gJfY4XfM6VZcy
+
+51. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqSQ4lZB0XE2Yl5fjE3CjnLS7cGrpVXtsqIQHspMdA245VY2yncKdiSExGU-faRVzVhSy3ZxUr5beoZ46kF-HaeHuaKr7f3WA8z_Z4LWZjx4ABVj4Z5117rNw0ztrJBkdtAspOuVrUqnys8tgpZyu4YCbyyCo8M0pDJFTJTxJLrONdk0QU2dIbLOTaLu7lytWtOIBivN_D0w==
+
+52. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ8AwkSExLmsccx6S3FVoBRWXkXLOwxop7q_wzqjyW-ZWlmN97jWCuWoEwW6cNOpN2l-7FvcZVuCgE6N7B0FCTfIWyCQU-Dg9cF6R5WOZfcSG3aR2vcFzKJ7vgd2YjruJI
+
+53. fanaticalfuturist
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqLs3PizLUjmvc6MOrN8F48phHtODA5SlMvSQKSa7PM4AcGa2u_Rj-fQOClchHuVxvL3fyxNiQafXq7S03r04dI__JcwXrhzIeRYpyRFB9nrt9ObnP1rMBXb0PfAah9UcxR-U0rW_L82a1a1O8GuafM3uQCxmw2P161XxfzdrcRQNf_8gk5Gjiiy4A1T3Q_TFN7j7TnbgcR1ouRAAhilPFjuznx_ZzehU=
+
+54. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA=
+
+55. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA=
+
+56. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA=
+
+57. prnewswire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd7J-qI_pWd-4d3B6dYugIx2fekl7kj16kyrpGeym27iSXyrBpZwLbhd9ImHJ0i-iOT2AvcbKzVbro71DoKC_OQATbtSfs-GbeMzJq-XE20NiddgMJ-OIKK96fTMbTKZ3lTS6mDqw3x8fg9DAWUURm1iw_eR974rsxymSu4jzdjXJbxEd-9y4XgwrVeoaIPwayt8EIscUJ2C-3kAy9fq9J73yh6WdH27zlKAFX8xG5CU4FKQ==
+
+58. bigdatawire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5JbUtbG44ZwWIyKfdd3HJnqgfZJxXjiUjOUMcT1l1j7enP6mcHVXojV7mNFCrpLBBQZR0AXzE7NLGrr7M4QKr4iyBw_HMOYApGQFIcU1z2pYhSSjQFWc11CZ5KnE840gEWICepLXQ9unVLEWIEkh8z5FXN8YRreYLO0S70FdGOm8Ax7tVujvMz2UzkNa6yS3T2CiOBF_QgjaRFhU-TsgzPCpgHNF3qZOdJn_vCkjpl3--LgTs40mc
+
+59. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA=
+
+60. substack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1F_ETTdtFZnvVJKpAQ0043_HoHse1iZXLMshUx6Slk0SgG8pwPIo41Ao9Hbtd2iG9mNXde3CFf6VPmJWwcI-1Wwv58fv_-wFZCs1YHj0A3lkEFDow76zU-LFoG7pOtuUlEbedF5B5Kv6AgOUs65U2foZ55w==
+
+61. prnewswire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd7J-qI_pWd-4d3B6dYugIx2fekl7kj16kyrpGeym27iSXyrBpZwLbhd9ImHJ0i-iOT2AvcbKzVbro71DoKC_OQATbtSfs-GbeMzJq-XE20NiddgMJ-OIKK96fTMbTKZ3lTS6mDqw3x8fg9DAWUURm1iw_eR974rsxymSu4jzdjXJbxEd-9y4XgwrVeoaIPwayt8EIscUJ2C-3kAy9fq9J73yh6WdH27zlKAFX8xG5CU4FKQ==
+
+62. bigdatawire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5JbUtbG44ZwWIyKfdd3HJnqgfZJxXjiUjOUMcT1l1j7enP6mcHVXojV7mNFCrpLBBQZR0AXzE7NLGrr7M4QKr4iyBw_HMOYApGQFIcU1z2pYhSSjQFWc11CZ5KnE840gEWICepLXQ9unVLEWIEkh8z5FXN8YRreYLO0S70FdGOm8Ax7tVujvMz2UzkNa6yS3T2CiOBF_QgjaRFhU-TsgzPCpgHNF3qZOdJn_vCkjpl3--LgTs40mc
+
+63. encorp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELp2EkU0ob_IFGGZc0BzQgt-sPK0YDdQMK2TBVu0-5K1QSB-_fZJJUJPeJt2GBWaKTowr-1eIqFX53dwzwLBT_V0q65RDldEivTusjLOPxrb_yHOCStoNWQduzAaI5pUXMKo-MdAPcqXxopv5scgVKHTEYpUBc5TLDsw==
+
+64. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG8VlxAqdLvogA_cahZ56ejUrfq0faAX4MGXoFitjGNk7JHzT9TT41jVi_9VETWq2kcyV7vtBguB6OIKV7Lw-IJVgaLqwfC-njYaQlLltCumancRTe2XtvDzJfyK1TUMXUu6YNWBXjNs0v34uHh30aelC995xWkGDsOc5ScRUO6omWnv6GYMuG-3yv84Td
+
+65. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3VhNSclekDZyN7FmlzyO5Dn0YY_iwKlk-h0fa_RCIXGs6VpIJF083qMVCzyoK8LRXSAqW3-V_BzGCH_U6aIw1YPr7g2zB5WDextEdmYLgM-VAU-bd76DAz27TJq5RZfEi5bCkT6kDCagFzNY4e7VqmFtwy7yFJRTd6KP75nneIgIQIX20MuK-kws0xA==
+
+66. openai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS3jR7x03QBAQ6v3n07NQF5L1x0QALttaUUKyH2ceHEJ8DK28BsmTGv1qkwh9rRTfWs5iy7AzzIQLCh6LeU7DppsCd_LET7sqdrOWXkPLN1jmXL-jYks6AXjuiQ1hczlAmO7TNmuuFN9Tyf0TcNJFu_I0=
+
+67. toloka
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfW9UXC_VUTaytLs2JMlcIaNG85zkK9Fr6OupYhSiD3dVczfejkiU2k-DvWWQ3ceRez4cIAzLFG--OEaUEmjuFUi4It8QToxS1gxhzapm610Y1YbGl7Uo9DLJLUi-BkUICXqXvkJ0yAynWQpjRbH-rmAX99Qmn4jYLcAClsgkB3_gQJxHZLg==
+
+68. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro=
+
+69. toloka
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfW9UXC_VUTaytLs2JMlcIaNG85zkK9Fr6OupYhSiD3dVczfejkiU2k-DvWWQ3ceRez4cIAzLFG--OEaUEmjuFUi4It8QToxS1gxhzapm610Y1YbGl7Uo9DLJLUi-BkUICXqXvkJ0yAynWQpjRbH-rmAX99Qmn4jYLcAClsgkB3_gQJxHZLg==
+
+70. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbtp8ozkdt-v3UZZiwfmCuarKOQZzBWR9w3m_WfSrrhz1xRp-ER3dvdjXeVA3peYT83l25MszumYWF1qHxRVByyUL__74qETiy0TGYkyG9SkoF9yxF6lS2H14FWHkG2uDn3TJsh4GY4FXWIXr8gIX200DBRae5GuzGuvI=
+
+71. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro=
+
+72. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro=
+
+73. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3VhNSclekDZyN7FmlzyO5Dn0YY_iwKlk-h0fa_RCIXGs6VpIJF083qMVCzyoK8LRXSAqW3-V_BzGCH_U6aIw1YPr7g2zB5WDextEdmYLgM-VAU-bd76DAz27TJq5RZfEi5bCkT6kDCagFzNY4e7VqmFtwy7yFJRTd6KP75nneIgIQIX20MuK-kws0xA==
+
+74. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG8VlxAqdLvogA_cahZ56ejUrfq0faAX4MGXoFitjGNk7JHzT9TT41jVi_9VETWq2kcyV7vtBguB6OIKV7Lw-IJVgaLqwfC-njYaQlLltCumancRTe2XtvDzJfyK1TUMXUu6YNWBXjNs0v34uHh30aelC995xWkGDsOc5ScRUO6omWnv6GYMuG-3yv84Td
+
+75. openai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS3jR7x03QBAQ6v3n07NQF5L1x0QALttaUUKyH2ceHEJ8DK28BsmTGv1qkwh9rRTfWs5iy7AzzIQLCh6LeU7DppsCd_LET7sqdrOWXkPLN1jmXL-jYks6AXjuiQ1hczlAmO7TNmuuFN9Tyf0TcNJFu_I0=
+
+76. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG8VlxAqdLvogA_cahZ56ejUrfq0faAX4MGXoFitjGNk7JHzT9TT41jVi_9VETWq2kcyV7vtBguB6OIKV7Lw-IJVgaLqwfC-njYaQlLltCumancRTe2XtvDzJfyK1TUMXUu6YNWBXjNs0v34uHh30aelC995xWkGDsOc5ScRUO6omWnv6GYMuG-3yv84Td
+
+77. epoch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgF9T9PgrZdJQRDw3L9pPPTtUCxmRNDUrJ87s_gVk4Lz9GvJF6SJpvb5NL7sZLFnh7-3bDcm_QiKtudpmUaAefIYK9FlkM6CKgshRQfq8PgFCDExIi6Feu5X7Zg4hMCPjdOWqJWPemoSxMLKu4O_nkRWwBCaFfmWZ-p1Et
+
+78. epoch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgF9T9PgrZdJQRDw3L9pPPTtUCxmRNDUrJ87s_gVk4Lz9GvJF6SJpvb5NL7sZLFnh7-3bDcm_QiKtudpmUaAefIYK9FlkM6CKgshRQfq8PgFCDExIi6Feu5X7Zg4hMCPjdOWqJWPemoSxMLKu4O_nkRWwBCaFfmWZ-p1Et
+
+79. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro=
+
+80. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro=
+
+81. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro=
+
+82. epoch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgF9T9PgrZdJQRDw3L9pPPTtUCxmRNDUrJ87s_gVk4Lz9GvJF6SJpvb5NL7sZLFnh7-3bDcm_QiKtudpmUaAefIYK9FlkM6CKgshRQfq8PgFCDExIi6Feu5X7Zg4hMCPjdOWqJWPemoSxMLKu4O_nkRWwBCaFfmWZ-p1Et
+
+83. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro=
+
+84. runloop
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4ChZjZhXYtdWgHmL9bKGBD1zZtaW3MBSsn_YPgIkiKdzvWZm3MozfryI0R8YXjIZnc45j6UzOl6RNsXyYPQq6r_lBGDfgdkI7c1S9BkAKhmtldzFV8oLfFrUjVZhCQCIXp4313rxpFqHDsftN8JWxpVl4GyzJ1oxWZqoXHadMpxWk-IY9ryj3HsLoMjVuvlZkvvOl6JJyvnC_
+
+85. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs9amRKhQqCOy93t4QKc-UpnD5GhYKXST5k3X9o5MAcIhWRXdVTs-KsjnRdTVu_2hZiZ2sp1XYJKKS62Y4myJ_cu6CKNfDzp3mKfpCd8yVqW9vgCGmEXZ-pkZ8h3U=
+
+86. runloop
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4ChZjZhXYtdWgHmL9bKGBD1zZtaW3MBSsn_YPgIkiKdzvWZm3MozfryI0R8YXjIZnc45j6UzOl6RNsXyYPQq6r_lBGDfgdkI7c1S9BkAKhmtldzFV8oLfFrUjVZhCQCIXp4313rxpFqHDsftN8JWxpVl4GyzJ1oxWZqoXHadMpxWk-IY9ryj3HsLoMjVuvlZkvvOl6JJyvnC_
+
+87. openai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS3jR7x03QBAQ6v3n07NQF5L1x0QALttaUUKyH2ceHEJ8DK28BsmTGv1qkwh9rRTfWs5iy7AzzIQLCh6LeU7DppsCd_LET7sqdrOWXkPLN1jmXL-jYks6AXjuiQ1hczlAmO7TNmuuFN9Tyf0TcNJFu_I0=
+
+88. lambdatest
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg==
+
+89. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzfTw3HHeH9mvqEMj4nHnOYHxzqTxKMk1kR6WVFFrRRusqvMFLQbsail8iYoUSDQj2S8GgapjIphjiSc9jPA40z8WoC3nSFGJSHIEOQQmrtll1X4_-vjImGx7ynQQe
+
+90. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+91. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+92. purdue
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA==
+
+93. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+94. epfl
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ
+
+95. epfl
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ
+
+96. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+97. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+98. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZdTr5AXPDbdtbeTPn6X_t1EkmBVdKcQawj_ESwmw-wVd-Fo3jzRCsK0ItnIR5wVZ643M033l0lvYdarE6cO4tpu2cvKShxvVsMf50i23_s42Nq5wV0ywIOGRRdD62
+
+99. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=
+
+100. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZdTr5AXPDbdtbeTPn6X_t1EkmBVdKcQawj_ESwmw-wVd-Fo3jzRCsK0ItnIR5wVZ643M033l0lvYdarE6cO4tpu2cvKShxvVsMf50i23_s42Nq5wV0ywIOGRRdD62
+
+101. epfl
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ
+
+102. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=
+
+103. lambdatest
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg==
+
+104. lambdatest
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg==
+
+105. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=
+
+106. lambdatest
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg==
+
+107. smu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHisv_GzgXTTxDKFU8Eax-XpkLnbDD1EQ7AA--UqSmwe31qkOZ_FVr5m-Bh6yN9zEdx5UxpemovH3Nac6mHWVm7jNbKwkZEe9nU-P0Odn77gJuPpivuu32UL4FL-ZDGomhbipZaThoVcV-HbqrCT1NX6NTGy81gW9RRv7-1BDOkHqLpvKMF26UpptJWjWleSQ==
+
+108. andrewhabib
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fj6WGfyaxM43fb7Ge6j2zf_PvxsQZw1Iz88Penq4mn3aE1mcn4PLNfIs-oZtVa0ZBNhb6oyA46Q7OCIFBLlMr2znTPJILLjIl5Lifc5cHuIHj8yNJR-sH829ReWd4kHurrj0nDPVa1rnxUCLSNJQs24=
+
+109. nih
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8_KHThJe3a3pumO8t_WdjjmiCLxGgMR1VtZ_ou5Ws5qTDMwIfDciKZ4PVSErkaNC_WPZciI1wtWMsZjYtRVt_FVlJp5x_01wDMMa1p3qwsQojw06dkwFzx3iFvj5rvpIEn15mYGByraG1nx5S
+
+110. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=
+
+111. purdue
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA==
+
+112. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+113. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+114. purdue
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA==
+
+115. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH5CpBoCpDQOq2uEmPVbDxIyJiUNGoiJXfFsuW94ijOhP2ohsfD2ggUZyCNh_BWVnkNA0CPpjCn7QJF-S2lSLxKNjRqoJh41iUMTYwF9ZtUSEuuya2hki2E5_KgvupasanCUWzVwYyfEjAQYzxbR3Yi8sAZoISRP3Hhf3u2gLS8RzK7cd6m5xfT_nTN3wZEClYucFAF304HBgYGYcmDRxsDeGdfAl_rLg=
+
+116. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfPPomKWTpAqZ7XE_UeSxYhhuj9t9CcXJTGQWC-B8feAuIAZH-303kmdUVHw9y8U9eEnxg8bUBm5fZ3jKjXh54vq4yySg8mC9HWmWSRlT5804CPjNpMMU3wmpN
+
+117. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH5CpBoCpDQOq2uEmPVbDxIyJiUNGoiJXfFsuW94ijOhP2ohsfD2ggUZyCNh_BWVnkNA0CPpjCn7QJF-S2lSLxKNjRqoJh41iUMTYwF9ZtUSEuuya2hki2E5_KgvupasanCUWzVwYyfEjAQYzxbR3Yi8sAZoISRP3Hhf3u2gLS8RzK7cd6m5xfT_nTN3wZEClYucFAF304HBgYGYcmDRxsDeGdfAl_rLg=
+
+118. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfPPomKWTpAqZ7XE_UeSxYhhuj9t9CcXJTGQWC-B8feAuIAZH-303kmdUVHw9y8U9eEnxg8bUBm5fZ3jKjXh54vq4yySg8mC9HWmWSRlT5804CPjNpMMU3wmpN
+
+119. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=
+
+120. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZdTr5AXPDbdtbeTPn6X_t1EkmBVdKcQawj_ESwmw-wVd-Fo3jzRCsK0ItnIR5wVZ643M033l0lvYdarE6cO4tpu2cvKShxvVsMf50i23_s42Nq5wV0ywIOGRRdD62
+
+121. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=
+
+122. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWCRyXb0q2w-bOZPH7hjzKXTHcHS80co2aiYZ5i6eak84uO--YtbQrdXtrrpTARiWA3rxp7SbiOLY1sjtYoj9e4sUzxXRgMAN9GkRRsEqws403jeHqbDalS3pu
+
+123. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=
+
+124. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWCRyXb0q2w-bOZPH7hjzKXTHcHS80co2aiYZ5i6eak84uO--YtbQrdXtrrpTARiWA3rxp7SbiOLY1sjtYoj9e4sUzxXRgMAN9GkRRsEqws403jeHqbDalS3pu
+
+125. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjfCI57JLSiosah8oe2RG74kzAaUGavUv2uBacn7WSjFmtvnsyam6B8IM27PHLgMikioU6Oq5IMe2ip1kfF1uWP0yh28I6wnbVunNslgTEzwtWYE3VDF7dG3Ym7ldE5IATZi5nAoE6OSpg8QBTElbf3LEx4sqiptohQlx5l6n-r77vdfc3pZdM67x4uQk1fYK62pUi87So_jKPvE24_resloq2sNMIj86ddRU7ENyxRtICWOdXzhzGsPl3_wULlYVJG7pbtPtuRlJPRhQEa4SbcZl7ecQ7LljVsuiwzoQWScGYWkW8As3-ShqEbdo=
+
+126. lambdatest
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg==
+
+127. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+128. andrewhabib
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fj6WGfyaxM43fb7Ge6j2zf_PvxsQZw1Iz88Penq4mn3aE1mcn4PLNfIs-oZtVa0ZBNhb6oyA46Q7OCIFBLlMr2znTPJILLjIl5Lifc5cHuIHj8yNJR-sH829ReWd4kHurrj0nDPVa1rnxUCLSNJQs24=
+
+129. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH5CpBoCpDQOq2uEmPVbDxIyJiUNGoiJXfFsuW94ijOhP2ohsfD2ggUZyCNh_BWVnkNA0CPpjCn7QJF-S2lSLxKNjRqoJh41iUMTYwF9ZtUSEuuya2hki2E5_KgvupasanCUWzVwYyfEjAQYzxbR3Yi8sAZoISRP3Hhf3u2gLS8RzK7cd6m5xfT_nTN3wZEClYucFAF304HBgYGYcmDRxsDeGdfAl_rLg=
+
+130. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+131. purdue
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA==
+
+132. nih
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8_KHThJe3a3pumO8t_WdjjmiCLxGgMR1VtZ_ou5Ws5qTDMwIfDciKZ4PVSErkaNC_WPZciI1wtWMsZjYtRVt_FVlJp5x_01wDMMa1p3qwsQojw06dkwFzx3iFvj5rvpIEn15mYGByraG1nx5S
+
+133. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=
+
+134. openai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5
+
+135. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_
+
+136. scilit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN
+
+137. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7
+
+138. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA==
+
+139. manifold
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA=
+
+140. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YN6-_itXZTEBUp6EsA835OzIcmYAEwgDBepzzGscyrMqQKbMqM1vrlXxXZUevwrnibv8wHZLfLOBcXq3u8Svtnnofs6xQC9pSPfhS2KCdT2UbbyImRbDMuUMgExXQaVOie3hAOaGBOV9jopiqPH_5KyqqDzJ1Yzc6aB1TjWfso-7nCamLJ4ZY8w1V64=
+
+141. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x
+
+142. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ==
+
+143. epoch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ILKdQHTZOLlkkAi8XaNk305UsDVOs07ttnNOndiH7l-msWrmN7D3xsP1MDlM8VgaYQNkznzNcUJZxtYnqQ29T-H0asjpOgI-UoqTVtVR7fZ0xLowlsI0R-KfsBeL451MPZAbJFL8quJx-oW2UIX-GDek-eCoVufnDFO5KA==
+
+144. entelligence
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuZLQgdrz0aFGzssS-96LeWCOlqaAZQMXawVoW5UPsmF3BT5rHlVSObWGT4yoUm5eZe3fwZ6uIxac0-sR4pYFtzfENxDYhGe8x8V64LXolGqIcrpSCpj4owpzXwlcL0kSKOth5bWBO6bZT4EUmXKergzYZL6MU7g==
+
+145. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A==
+
+146. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxQutv7JQ3nyWZKwjd0ZfTXW3oBBqGviL9kyAo2NqNo-HD0qpbAJkHVwgM1w8hNa3fh0J-fbGAgq3JVkDEV3JcOkAmwZyIpWiCfC-BWHXYX6qjvfmk5uT7WWJVpBMTROs=
+
+147. fanaticalfuturist
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqLs3PizLUjmvc6MOrN8F48phHtODA5SlMvSQKSa7PM4AcGa2u_Rj-fQOClchHuVxvL3fyxNiQafXq7S03r04dI__JcwXrhzIeRYpyRFB9nrt9ObnP1rMBXb0PfAah9UcxR-U0rW_L82a1a1O8GuafM3uQCxmw2P161XxfzdrcRQNf_8gk5Gjiiy4A1T3Q_TFN7j7TnbgcR1ouRAAhilPFjuznx_ZzehU=
+
+148. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf
+
+149. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA=
+
+150. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo
+
+151. purdue
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA==
+
+152. epfl
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ
+
+153. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=
+
+154. smu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHisv_GzgXTTxDKFU8Eax-XpkLnbDD1EQ7AA--UqSmwe31qkOZ_FVr5m-Bh6yN9zEdx5UxpemovH3Nac6mHWVm7jNbKwkZEe9nU-P0Odn77gJuPpivuu32UL4FL-ZDGomhbipZaThoVcV-HbqrCT1NX6NTGy81gW9RRv7-1BDOkHqLpvKMF26UpptJWjWleSQ==
+
+155. andrewhabib
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fj6WGfyaxM43fb7Ge6j2zf_PvxsQZw1Iz88Penq4mn3aE1mcn4PLNfIs-oZtVa0ZBNhb6oyA46Q7OCIFBLlMr2znTPJILLjIl5Lifc5cHuIHj8yNJR-sH829ReWd4kHurrj0nDPVa1rnxUCLSNJQs24=
+
+156. nih
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8_KHThJe3a3pumO8t_WdjjmiCLxGgMR1VtZ_ou5Ws5qTDMwIfDciKZ4PVSErkaNC_WPZciI1wtWMsZjYtRVt_FVlJp5x_01wDMMa1p3qwsQojw06dkwFzx3iFvj5rvpIEn15mYGByraG1nx5S
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "what is SWE-Bench state of the art at the moment?"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "As of June 18, 2025, SWE-bench remains a prominent benchmark for evaluating the capabilities of large language models (LLMs) and AI agents in resolving real-world software issues [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x), [openai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5), [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_), [scilit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN). It assesses the AI's ability to generate a patch that fixes a problem given a code repository and an issue description [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7), [openai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5). The solutions are evaluated by running the repository's tests [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA==).\n\nCurrently, **Claude Sonnet 4** leads with a state-of-the-art score of **72.7%** on SWE-bench [entelligence](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuZLQgdrz0aFGzssS-96LeWCOlqaAZQMXawVoW5UPsmF3BT5rHlVSObWGT4yoUm5eZe3fwZ6uIxac0-sR4pYFtzfENxDYhGe8x8V64LXolGqIcrpSCpj4owpzXwlcL0kSKOth5bWBO6bZT4EUmXKergzYZL6MU7g==). **Claude 4 Opus** closely follows, achieving **72.5%** on SWE-bench [entelligence](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuZLQgdrz0aFGzssS-96LeWCOlqaAZQMXawVoW5UPsmF3BT5rHlVSObWGT4yoUm5eZe3fwZ6uIxac0-sR4pYFtzfENxDYhGe8x8V64LXolGqIcrpSCpj4owpzXwlcL0kSKOth5bWBO6bZT4EUmXKergzYZL6MU7g==). When combined with tools, **Tools + Claude 4 Opus** scores **73.2%** on the more reliable SWE-Bench Verified subset [manifold](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA=). **Zencoder**, employing an ensemble approach, has achieved a **70%** success rate on SWE-bench Verified, with their best individual agent reaching a 66.6% solve rate [zencoder](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YN6-_itXZTEBUp6EsA835OzIcmYAEwgDBepzzGscyrMqQKbMqM1vrlXxXZUevwrnibv8wHZLfLOBcXq3u8Svtnnofs6xQC9pSPfhS2KCdT2UbbyImRbDMuUMgExXQaVOie3hAOaGBOV9jopiqPH_5KyqqDzJ1Yzc6aB1TjWfso-7nCamLJ4ZY8w1V64=). In early 2025, the upgraded **Claude 3.5 Sonnet** achieved **49%** on SWE-bench Verified [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA==), [manifold](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA=). **SWE-Dev**, built upon open-source LLMs, has achieved success rates of **23.4%** (7B parameter model) and **36.6%** (32B parameter model) on SWE-bench Verified [scilit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN).\n\nThese models leverage various techniques to achieve these scores. Claude 4 Opus and Claude Sonnet 4 use a hybrid architecture with an \"extended thinking\" mode, allowing them to use web search and code execution during reasoning [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxQutv7JQ3nyWZKwjd0ZfTXW3oBBqGviL9kyAo2NqNo-HD0qpbAJkHVwgM1w8hNa3fh0J-fbGAgq3JVkDEV3JcOkAmwZyIpWiCfC-BWHXYX6qjvfmk5uT7WWJVpBMTROs=), [fanaticalfuturist](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqLs3PizLUjmvc6MOrN8F48phHtODA5SlMvSQKSa7PM4AcGa2u_Rj-fQOClchHuVxvL3fyxNiQafXq7S03r04dI__JcwXrhzIeRYpyRFB9nrt9ObnP1rMBXb0PfAah9UcxR-U0rW_L82a1a1O8GuafM3uQCxmw2P161XxfzdrcRQNf_8gk5Gjiiy4A1T3Q_TFN7j7TnbgcR1ouRAAhilPFjuznx_ZzehU=), [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf). They also utilize parallel tool execution and can create persistent memory with file access [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf). Zencoder, on the other hand, uses a modular platform architecture, running multiple agents in parallel and using OpenAI's o3 model to select the best solution [zencoder](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA=). Zencoder also employs \"Repo Grokking™\" technology to analyze and interpret large codebases [prnewswire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A==0), [bigdatawire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A==1).\n\nHowever, there are concerns and limitations associated with SWE-bench. Some research suggests that performance gains may be due to memorization of training data [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x), [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ==). SWE-bench Verified primarily tests the ability to navigate a Python codebase and fix small issues [epoch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ILKdQHTZOLlkkAi8XaNk305UsDVOs07ttnNOndiH7l-msWrmN7D3xsP1MDlM8VgaYQNkznzNcUJZxtYnqQ29T-H0asjpOgI-UoqTVtVR7fZ0xLowlsI0R-KfsBeL451MPZAbJFL8quJx-oW2UIX-GDek-eCoVufnDFO5KA==). Additionally, SWE-bench mainly focuses on bug fixing and doesn't adequately assess other software development tasks [runloop](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_0). Solution leakage and weak test cases in the original SWE-bench can also lead to inflated performance scores [runloop](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_0).\n\nTo address these limitations, alternative benchmarks and approaches are being developed, such as Multi-SWE-bench, SWE-bench+, RefactorBench, SWE-Dev, and SWE-Lancer [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_2), [runloop](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_0), [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ==), [scilit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN). SWE-Dev, for example, uses various mechanisms to synthesize test cases, including random testing, fuzzing, symbolic execution, and LLMs [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo), [purdue](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA==), [epfl](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ). However, challenges such as overfitting and limitations in test suite coverage remain [smu](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHisv_GzgXTTxDKFU8Eax-XpkLnbDD1EQ7AA--UqSmwe31qkOZ_FVr5m-Bh6yN9zEdx5UxpemovH3Nac6mHWVm7jNbKwkZEe9nU-P0Odn77gJuPpivuu32UL4FL-ZDGomhbipZaThoVcV-HbqrCT1NX6NTGy81gW9RRv7-1BDOkHqLpvKMF26UpptJWjWleSQ==), [andrewhabib](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fj6WGfyaxM43fb7Ge6j2zf_PvxsQZw1Iz88Penq4mn3aE1mcn4PLNfIs-oZtVa0ZBNhb6oyA46Q7OCIFBLlMr2znTPJILLjIl5Lifc5cHuIHj8yNJR-sH829ReWd4kHurrj0nDPVa1rnxUCLSNJQs24=), [nih](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8_KHThJe3a3pumO8t_WdjjmiCLxGgMR1VtZ_ou5Ws5qTDMwIfDciKZ4PVSErkaNC_WPZciI1wtWMsZjYtRVt_FVlJp5x_01wDMMa1p3qwsQojw06dkwFzx3iFvj5rvpIEn15mYGByraG1nx5S), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE=)."
+    }
+  ],
+  "search_query": [
+    "SWE-bench state of the art June 2025",
+    "What specific techniques or architectural improvements are used in Claude 4 Opus, Claude Sonnet 4, and Zencoder to achieve their high scores on SWE-bench and SWE-bench Verified?",
+    "What are the most common types of bugs or software issues that SWE-bench and SWE-bench Verified successfully address?",
+    "What mechanisms are used in SWE-Dev to synthesize test cases, and how effective are these test cases in evaluating the correctness of generated patches?"
+  ],
+  "web_research_result": [
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"SWE-bench state of the art June 2025\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of the state of the art regarding SWE-bench as of June 18, 2025:\n\n**General Overview of SWE-bench:**\n\n*   SWE-bench is a benchmark used to evaluate the ability of large language models (LLMs) and AI agents to resolve real-world software issues. [openai](https://vertexaisearch.cloud.google.com/id/0-0) [dev](https://vertexaisearch.cloud.google.com/id/0-1) [scilit](https://vertexaisearch.cloud.google.com/id/0-2) It involves providing the AI with a code repository and an issue description, and the AI is tasked with generating a patch that fixes the problem. [dev](https://vertexaisearch.cloud.google.com/id/0-1) [github](https://vertexaisearch.cloud.google.com/id/0-3) [openai](https://vertexaisearch.cloud.google.com/id/0-0)\n*   The benchmark uses real GitHub issues and pull requests from open-source Python repositories. [anthropic](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-1) The AI's solution is evaluated by running the repository's tests to see if the issue is resolved. [anthropic](https://vertexaisearch.cloud.google.com/id/0-4)\n*   SWE-bench Verified is a human-validated subset of SWE-bench with 500 problems that are confirmed to be solvable. [dev](https://vertexaisearch.cloud.google.com/id/0-1) This subset aims to provide a more reliable evaluation of AI models by addressing issues in the original SWE-bench dataset, such as overly specific unit tests or poorly specified issue descriptions.\n*   Key metrics for evaluating performance on SWE-bench include the resolution rate (percentage of submitted instances successfully resolved), the number of instances submitted, completed, and resolved.\n\n**State-of-the-Art Performance:**\n\n*   **Claude 4 Opus** achieved a leading score of **72.5%** on SWE-bench.\n*   **Claude Sonnet 4** achieved a state-of-the-art score of **72.7%** on SWE-bench.\n*   **Tools + Claude 4 Opus** scored **73.2%** on SWE-Bench Verified. [manifold](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **Zencoder** achieved a **70%** success rate on SWE-bench Verified using an ensemble approach. [zencoder](https://vertexaisearch.cloud.google.com/id/0-6) Their best individual agent achieved a 66.6% solve rate. [zencoder](https://vertexaisearch.cloud.google.com/id/0-6)\n*   The upgraded **Claude 3.5 Sonnet** achieved **49%** on SWE-bench Verified in early 2025. [anthropic](https://vertexaisearch.cloud.google.com/id/0-4) [manifold](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **SWE-Dev**, built upon open-source LLMs, achieved success rates of **23.4%** (7B parameter model) and **36.6%** (32B parameter model) on SWE-bench Verified. [scilit](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Genie 1** achieved a new state-of-the-art SWE Bench score in August 2024 (actual score not specified in the provided snippets, but it was the \"biggest score jump in SWE-Bench history\").\n\n**Concerns and Limitations:**\n\n*   Some research indicates that performance gains on SWE-bench may be partially driven by memorization of training data rather than genuine problem-solving. [arxiv](https://vertexaisearch.cloud.google.com/id/0-7) Models can achieve high accuracy in identifying buggy file paths using only issue descriptions, suggesting potential data contamination or memorization. [arxiv](https://vertexaisearch.cloud.google.com/id/0-8) [arxiv](https://vertexaisearch.cloud.google.com/id/0-7)\n*   SWE-bench Verified mainly tests the ability of models to navigate a Python codebase and fix well-defined, small issues. [epoch](https://vertexaisearch.cloud.google.com/id/0-9) Around 90% of the tasks are fixes that experienced engineers could complete in under an hour. [epoch](https://vertexaisearch.cloud.google.com/id/0-9)\n*   SWE-bench primarily focuses on bug fixing and doesn't adequately assess other software development tasks like code generation or software design. [runloop](https://vertexaisearch.cloud.google.com/id/0-10)\n*   Solution leakage and weak test cases in the original SWE-bench can lead to inflated performance scores. [runloop](https://vertexaisearch.cloud.google.com/id/0-10)\n\n**Evaluation Methods and Tools:**\n\n*   SWE-bench evaluations are performed in containerized Docker environments for consistent results. [github](https://vertexaisearch.cloud.google.com/id/0-11) [github](https://vertexaisearch.cloud.google.com/id/0-3) [openai](https://vertexaisearch.cloud.google.com/id/0-0)\n*   The `sb-cli` tool is available for cloud-based evaluation. [github](https://vertexaisearch.cloud.google.com/id/0-11) [github](https://vertexaisearch.cloud.google.com/id/0-3)\n\n**Alternative Benchmarks and Approaches:**\n\n*   **Multi-SWE-bench:** A multilingual benchmark for issue resolving. [arxiv](https://vertexaisearch.cloud.google.com/id/0-12)\n*   **SWE-bench+:** Aims to address limitations of SWE-bench by focusing on issues with no clear solution provided and preventing data leakage. [runloop](https://vertexaisearch.cloud.google.com/id/0-10)\n*   **RefactorBench:** Tests code restructuring abilities, unlike SWE-Bench's focus on bug fixes. [arxiv](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **SWE-Dev:** An SWE agent built upon open-source LLMs with a pipeline to synthesize test cases for patch evaluation. [scilit](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **SWE-Lancer:** Another benchmark for evaluating LLMs in software engineering.\n\n**Key Takeaways:**\n\n*   SWE-bench remains a popular benchmark for evaluating LLMs in software engineering, but concerns exist regarding memorization and the limited scope of the benchmark. [arxiv](https://vertexaisearch.cloud.google.com/id/0-7)\n*   SWE-bench Verified is a more reliable subset of SWE-bench. [openai](https://vertexaisearch.cloud.google.com/id/0-0)\n*   The state-of-the-art models are achieving impressive results on SWE-bench, but there is still room for improvement.\n*   Researchers are actively working on developing new benchmarks and evaluation methods to address the limitations of SWE-bench.\n*   The performance of an agent on SWE-bench can vary significantly based on the software scaffolding around it, even when using the same underlying AI model. [anthropic](https://vertexaisearch.cloud.google.com/id/0-4)\n",
+    "Based on the search results, here's a summary of the techniques and architectural improvements used in Claude 4 Opus, Claude Sonnet 4, and Zencoder to achieve high scores on SWE-bench and SWE-bench Verified:\n\n**Claude 4 Opus and Claude Sonnet 4:**\n\n*   **SWE-bench Scores:** Claude Opus 4 achieves a SWE-bench score of 72.5% (reaching 79.4% with parallel test-time compute), while Claude Sonnet 4 scores 72.7% (and 80.2% with parallel test-time compute). [entelligence](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **SWE-bench Verified:** Both models lead on SWE-bench Verified, a benchmark for performance on real software engineering tasks.\n*   **Tools:** They use a bash tool and a file editing tool that operates via string replacements. [anthropic](https://vertexaisearch.cloud.google.com/id/1-1) The planning tool used by Claude 3.7 Sonnet is no longer included. [anthropic](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **Methodology:** The models use the same simple scaffold that equips the model with solely the two tools described in our prior releases here—a bash tool, and a file editing tool that operates via string replacements.\n* [anthropic](https://vertexaisearch.cloud.google.com/id/1-1)   **Parallel Attempts:** For high compute numbers, multiple parallel attempts are sampled.\n*   **Hybrid Architecture:** Both models employ a hybrid architecture, offering instant responses and an \"extended thinking\" mode for deeper reasoning on complex tasks.\n* [anthropic](https://vertexaisearch.cloud.google.com/id/1-2) [fanaticalfuturist](https://vertexaisearch.cloud.google.com/id/1-3)   **Extended Thinking with Tools:** They can use web search and code execution during reasoning.\n* [dev](https://vertexaisearch.cloud.google.com/id/1-4)   **Parallel Tool Execution:** They can use multiple tools simultaneously.\n* [dev](https://vertexaisearch.cloud.google.com/id/1-4)   **Memory Files:** They can create persistent memory when given file access.\n* [dev](https://vertexaisearch.cloud.google.com/id/1-4)   **Reduced Shortcuts:** There's a 65% reduction in shortcut/loopholes behavior compared to Sonnet 3.7.\n* [dev](https://vertexaisearch.cloud.google.com/id/1-4) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [prompthub](https://vertexaisearch.cloud.google.com/id/1-6)   **Agentic Capabilities:** Both models demonstrate strong performance in agentic coding scenarios.\n* [datacamp](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-2)   **Context Window:** Both models support a 200K token context window.\n* [llm-stats](https://vertexaisearch.cloud.google.com/id/1-8) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [datacamp](https://vertexaisearch.cloud.google.com/id/1-7)   **Coding focus:** Both models were tuned to perform well on programming tasks, making them well-suited for writing and editing code.\n\n [fanaticalfuturist](https://vertexaisearch.cloud.google.com/id/1-3)**Zencoder:**\n\n*   **SWE-bench Verified Score:** Zencoder has achieved a 70% success rate on SWE-bench Verified.\n*   **Model Agnosticism:** Zencoder uses a modular platform architecture, benchmarking individual components and using the optimal model for each task (including their own models, as well as those from Anthropic, OpenAI, and Google).\n* [zencoder](https://vertexaisearch.cloud.google.com/id/1-9)   **Parallel Agent Execution:** Zencoder runs four distinct Zen Agents simultaneously on each SWE-bench task, with each generating its own solution.\n* [zencoder](https://vertexaisearch.cloud.google.com/id/1-9)   **Critic Evaluation:** OpenAI's o3 model is used as a judge to select the best solution from among the four candidates.\n* [zencoder](https://vertexaisearch.cloud.google.com/id/1-9)   **Repo Grokking™:** Zencoder utilizes proprietary \"Repo Grokking\" technology, which analyzes and interprets large code bases, interdependencies, and architectural patterns to provide a deeper understanding of entire codebases.\n*   [prnewswire](https://vertexaisearch.cloud.google.com/id/1-10) [bigdatawire](https://vertexaisearch.cloud.google.com/id/1-11) **Agentic Pipeline:** Zencoder employs a unique agentic pipeline.\n*   [zencoder](https://vertexaisearch.cloud.google.com/id/1-9) [substack](https://vertexaisearch.cloud.google.com/id/1-12) **Integration:** Deep integrations with IDEs (VS Code, JetBrains) and DevOps tools (JIRA, GitHub, GitLab, Sentry).\n*   [prnewswire](https://vertexaisearch.cloud.google.com/id/1-10) [bigdatawire](https://vertexaisearch.cloud.google.com/id/1-11) **Multi-Agent Architecture:** Zencoder uses a multi-agent architecture to enhance code quality and security.\n\nIn [encorp](https://vertexaisearch.cloud.google.com/id/1-13) summary, Claude 4 Opus and Sonnet 4 leverage advanced architectures, tool use, and reasoning capabilities to excel in coding benchmarks. Zencoder, on the other hand, employs a combination of model agnosticism, parallel execution, code understanding, and tight integrations to achieve its high scores.\n",
+    "SWE-bench and SWE-bench Verified are benchmarks used to evaluate the ability of AI models to resolve real-world software engineering issues. [reddit](https://vertexaisearch.cloud.google.com/id/2-0) [github](https://vertexaisearch.cloud.google.com/id/2-1) [openai](https://vertexaisearch.cloud.google.com/id/2-2) These benchmarks consist of problems sourced from GitHub issues and pull requests from popular Python repositories. The primary task is to generate a code patch that resolves a given issue, testing the AI's capacity to understand, modify, and test code within existing projects. [toloka](https://vertexaisearch.cloud.google.com/id/2-3)\n\nHere's a breakdown of the types of issues addressed and some limitations:\n\n**Types of Bugs and Software Issues Addressed:**\n\n*   **Real-world Software Issues:** SWE-bench uses real issues from GitHub repositories, reflecting the challenges developers face in practice. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4) [toloka](https://vertexaisearch.cloud.google.com/id/2-3)\n*   **Bug Fixes:** A significant portion of the issues involve fixing existing bugs in the code.\n*   **Codebase Edits:** The AI models are challenged to edit codebases, often requiring coordination across multiple functions, classes, or files. [dev](https://vertexaisearch.cloud.google.com/id/2-5) [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)\n*   **Complex Reasoning:** The tasks demand complex reasoning beyond simple code generation, including interaction with execution environments. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)\n*   **Test Integration:** Models must understand, modify, and test the code, with solutions graded against real unit tests from the pull request that closed the original GitHub issue.\n*   **New Feature Requests:** Each issue can be either a bug report or a new feature request.\n\n**SWE-bench Verified Focus:**\n\n*   SWE-bench Verified is a refined subset of SWE-bench, designed to provide a more reliable evaluation of AI models. [github](https://vertexaisearch.cloud.google.com/id/2-1) [reddit](https://vertexaisearch.cloud.google.com/id/2-0) [openai](https://vertexaisearch.cloud.google.com/id/2-2) It addresses shortcomings in the original SWE-bench, such as overly specific or unrelated unit tests and ambiguous issue descriptions.\n*   SWE-bench Verified includes samples that are well-specified and free from problematic tests or ambiguous descriptions. [reddit](https://vertexaisearch.cloud.google.com/id/2-0) [epoch](https://vertexaisearch.cloud.google.com/id/2-6)\n*   SWE-bench Verified primarily tests models' ability to fix simple bugs in a small set of well-known repositories. [epoch](https://vertexaisearch.cloud.google.com/id/2-6)\n\n**Limitations and Challenges:**\n\n*   **Weak Testing:** Some tasks in SWE-bench may have inadequate unit tests, leading to false positives where models appear to solve problems but haven't truly addressed the underlying issues. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)\n*   **Data Contamination:** Issues in SWE-bench may have been created before the training cutoff dates of several LLMs, potentially leading to data leakage and inflated performance scores. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)\n*   **Lack of Real-World Representation:** SWE-bench primarily focuses on Python repositories, which may not fully represent the diversity of programming languages and software engineering tasks encountered in real-world development. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4) [epoch](https://vertexaisearch.cloud.google.com/id/2-6)\n*   **Benchmark Specificity:** SWE-bench scores can sometimes reflect a model's strength on known datasets rather than its ability to generalize to new or different coding scenarios. [zencoder](https://vertexaisearch.cloud.google.com/id/2-4)\n*   **Solution Leakage:** A significant portion of the issues in SWE-Bench have solutions directly provided in the issue report or comments. [runloop](https://vertexaisearch.cloud.google.com/id/2-7) [arxiv](https://vertexaisearch.cloud.google.com/id/2-8)\n*   **Overemphasis on Bug Fixing:** SWE-Bench primarily focuses on bug fixing and doesn't adequately assess LLMs' ability to generate new code or design software architectures. [runloop](https://vertexaisearch.cloud.google.com/id/2-7)\n*   **Difficulty in Setting Up Environments:** It is sometimes difficult to reliably set up the SWE-bench development environments for the agents, inadvertently causing unit tests to fail regardless of the solution. [openai](https://vertexaisearch.cloud.google.com/id/2-2)\n\nSWE-bench and SWE-bench Verified are valuable tools for evaluating AI models on software engineering tasks, but it's essential to be aware of their limitations and potential biases.\n",
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"What mechanisms are used in SWE-Dev to synthesize test cases, and how effective are these test cases in evaluating the correctness of generated patches?\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of mechanisms used in SWE-Dev to synthesize test cases for evaluating the correctness of generated patches, and their effectiveness:\n\n**1. [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0) [arxiv](https://vertexaisearch.cloud.google.com/id/3-1) Test Case Synthesis Mechanisms:**\n\n*   **Random Testing:** This involves generating a comprehensive set of test cases randomly. [github](https://vertexaisearch.cloud.google.com/id/3-2) FIXCHECK uses random testing to generate test cases and then uses a large language model to derive meaningful assertions for each test case. [github](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Fuzzing:** This technique generates new test cases by applying fuzzing strategies on existing test case inputs. [purdue](https://vertexaisearch.cloud.google.com/id/3-3) Opad uses fuzzing to generate new test cases on the buggy program. [github](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Symbolic Execution:** This technique executes a program with symbolic rather than concrete values to generate test inputs that exercise program paths. [epfl](https://vertexaisearch.cloud.google.com/id/3-4) Dynamic test generation with symbolic execution is considered a precise form of code-driven test generation. [epfl](https://vertexaisearch.cloud.google.com/id/3-4)\n*   **Similarity-Based Techniques:** These techniques generate new test cases to measure the behavioral differences between the buggy and patched versions. [github](https://vertexaisearch.cloud.google.com/id/3-2) PATCH-SIM is a similarity-based technique that generates new test cases to measure the behavioral differences between the buggy and patched versions. [github](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Differential Testing:** This technique automatically exposes behavioral discrepancies between two patches. [arxiv](https://vertexaisearch.cloud.google.com/id/3-5) PatchDiff is a novel technique for differential patch testing, which automatically exposes behavioral discrepancies between two patches. [github](https://vertexaisearch.cloud.google.com/id/3-6) [arxiv](https://vertexaisearch.cloud.google.com/id/3-5)\n*   **Large Language Models (LLMs):** LLMs are used to automate test case generation from natural language bug reports and use case specifications. They can also be used to derive meaningful assertions for test cases.\n*   **Mutation-Based Strategies:** These strategies augment a significant number of additional test cases using mutation-based strategies.\n*   **Combinatorial Testing:** Given a program and a set of input parameters, combinatorial testing aims at generating efficiently a set of test inputs which cover all pairs. [epfl](https://vertexaisearch.cloud.google.com/id/3-4)\n*   **Model-Based Testing:** Uses models (e.g., state machines or UML diagrams) to represent software behavior. [github](https://vertexaisearch.cloud.google.com/id/3-6) [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0) Test cases are generated to validate all specified scenarios, including edge and failure conditions. [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0) [github](https://vertexaisearch.cloud.google.com/id/3-6)\n*   **Keyword-Driven Testing:** Focuses on automating test cases using predefined keywords. [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0)\n\n**2. Effectiveness of Synthesized Test Cases in Evaluating Patch Correctness:**\n\n*   **Overfitting Problem:** A major challenge is the \"overfitting\" problem, where patches pass existing test suites but are still incorrect. [smu](https://vertexaisearch.cloud.google.com/id/3-7) [andrewhabib](https://vertexaisearch.cloud.google.com/id/3-8) [nih](https://vertexaisearch.cloud.google.com/id/3-9) [github](https://vertexaisearch.cloud.google.com/id/3-6)  Such patches are referred to as overfitting patches. [purdue](https://vertexaisearch.cloud.google.com/id/3-3)\n*   **Limitations of Test Suites:** Test suites are often imperfect and may not be comprehensive enough to guarantee patch correctness. Patches that pass the repair test suite are actually still incorrect.\n*   **Improved Patch Correctness Assessment:** Techniques like FIXCHECK can generate fault-revealing tests for a significant percentage of incorrect patches. [github](https://vertexaisearch.cloud.google.com/id/3-2) FIXCHECK effectively generates fault-revealing tests for 62% of incorrect patches written by developers, with a high level of confidence. [github](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Enhanced Test Suites:** Tools like Opad improve existing test suites by generating new test cases and leveraging additional oracles (e.g., memory-safety oracles) to improve the validity checking of automatically generated patches. [purdue](https://vertexaisearch.cloud.google.com/id/3-3)\n*   **Behavioral Similarity:** Exploiting the behavior similarity of test case executions can help determine patch correctness. [researchgate](https://vertexaisearch.cloud.google.com/id/3-10) [arxiv](https://vertexaisearch.cloud.google.com/id/3-11) The passing tests on original and patched programs are likely to behave similarly while the failing tests on original and patched programs are likely to behave differently. [researchgate](https://vertexaisearch.cloud.google.com/id/3-10) [arxiv](https://vertexaisearch.cloud.google.com/id/3-11)\n*   **Test Case Generation for Syntactic Differences:** DIFFTGEN is a test generation tool for Java programs specifically designed to generate tests that can identify incorrect patches generated by ASR tools. [github](https://vertexaisearch.cloud.google.com/id/3-6) DIFFTGEN attempts to generate test cases that cover the syntactic and semantic differences between the machine-patched and human-patched programs.\n*   **SWE-bench Weaknesses:** SWE-bench's patch validation mechanism has weaknesses, leading to some incorrect patches being counted as \"correct\". [arxiv](https://vertexaisearch.cloud.google.com/id/3-5) [github](https://vertexaisearch.cloud.google.com/id/3-6)\n*   **AI-Powered Test Case Generation:** AI-powered testing tools are increasingly being integrated to automate the generation and validation of test cases, significantly reducing the time and manual effort involved. [arxiv](https://vertexaisearch.cloud.google.com/id/3-12)\n\n**3. Key Considerations for Effective Test Case Synthesis:**\n\n*   **Test Oracles:** The effectiveness of test cases depends on the quality of test oracles used to validate the patches.\n*   **Coverage:** Test cases should cover a wide range of scenarios, including edge cases, to ensure comprehensive testing. [github](https://vertexaisearch.cloud.google.com/id/3-6)\n*   **Adaptability:** Test cases should be adaptable to changes in the code to ensure they remain relevant and effective as the software evolves.\n*   **Risk Assessment:** Prioritize test case generation based on risk assessment to focus testing efforts on the most critical areas.\n*   **Automation:** Automate test case generation and optimization to improve efficiency and reduce manual effort. [arxiv](https://vertexaisearch.cloud.google.com/id/3-12) [researchgate](https://vertexaisearch.cloud.google.com/id/3-13) [lambdatest](https://vertexaisearch.cloud.google.com/id/3-0)\n\n**4. Tools and Techniques:**\n\n*   **FIXCHECK:** Combines random testing and large language models to generate fault-revealing tests. [github](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **PATCH-SIM:** Builds on the similarities among test execution traces for predicting patch correctness. [andrewhabib](https://vertexaisearch.cloud.google.com/id/3-8) [researchgate](https://vertexaisearch.cloud.google.com/id/3-10) [github](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Opad:** Uses fuzz testing and test oracles to enhance test cases and filter out overfitted patches. [purdue](https://vertexaisearch.cloud.google.com/id/3-3)\n*   **DIFFTGEN:** Generates tests that cover the syntactic differences between the generated patch and the ground-truth.\n*   **xTestCluster:** Clusters patches based on their dynamic behavior using newly generated test cases. [nih](https://vertexaisearch.cloud.google.com/id/3-9)\n*   **Otter:** Augments LLMs with rule-based analysis to check and repair their outputs, and introduces a novel self-reflective action planner.\n\nIn conclusion, various mechanisms are employed to synthesize test cases for evaluating patch correctness, ranging from traditional techniques like random testing and symbolic execution to more advanced approaches involving LLMs and AI-powered tools. [github](https://vertexaisearch.cloud.google.com/id/3-6) The effectiveness of these test cases varies, with challenges such as overfitting and limitations in test suite coverage. However, ongoing research and development are continuously improving the ability of synthesized test cases to accurately evaluate the correctness of generated patches.\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "openai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_"
+    },
+    {
+      "label": "scilit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7"
+    },
+    {
+      "label": "openai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_"
+    },
+    {
+      "label": "manifold",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YN6-_itXZTEBUp6EsA835OzIcmYAEwgDBepzzGscyrMqQKbMqM1vrlXxXZUevwrnibv8wHZLfLOBcXq3u8Svtnnofs6xQC9pSPfhS2KCdT2UbbyImRbDMuUMgExXQaVOie3hAOaGBOV9jopiqPH_5KyqqDzJ1Yzc6aB1TjWfso-7nCamLJ4ZY8w1V64="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YN6-_itXZTEBUp6EsA835OzIcmYAEwgDBepzzGscyrMqQKbMqM1vrlXxXZUevwrnibv8wHZLfLOBcXq3u8Svtnnofs6xQC9pSPfhS2KCdT2UbbyImRbDMuUMgExXQaVOie3hAOaGBOV9jopiqPH_5KyqqDzJ1Yzc6aB1TjWfso-7nCamLJ4ZY8w1V64="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA=="
+    },
+    {
+      "label": "manifold",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA="
+    },
+    {
+      "label": "scilit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x"
+    },
+    {
+      "label": "epoch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ILKdQHTZOLlkkAi8XaNk305UsDVOs07ttnNOndiH7l-msWrmN7D3xsP1MDlM8VgaYQNkznzNcUJZxtYnqQ29T-H0asjpOgI-UoqTVtVR7fZ0xLowlsI0R-KfsBeL451MPZAbJFL8quJx-oW2UIX-GDek-eCoVufnDFO5KA=="
+    },
+    {
+      "label": "epoch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ILKdQHTZOLlkkAi8XaNk305UsDVOs07ttnNOndiH7l-msWrmN7D3xsP1MDlM8VgaYQNkznzNcUJZxtYnqQ29T-H0asjpOgI-UoqTVtVR7fZ0xLowlsI0R-KfsBeL451MPZAbJFL8quJx-oW2UIX-GDek-eCoVufnDFO5KA=="
+    },
+    {
+      "label": "runloop",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeSMxgcDEQZdFYUmDrNJlO2yLn9fKTJK9gRtzehKcQ2IDMC1mHHwTQqr3MTKVUCcb54C3FQB1-AXeD_2vaD-H6OgIDoSd4dLbqGBUnbbaGxUydXHzq0znHlbYZ0wEgUtJ0qQTj0nIsBx-1AsBDAJyFqbtaaVGurWGQherKvBE5AaU8MTgjYMiPBgkWLaNYQZj53Jt26a_5W_bcaA=="
+    },
+    {
+      "label": "runloop",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeSMxgcDEQZdFYUmDrNJlO2yLn9fKTJK9gRtzehKcQ2IDMC1mHHwTQqr3MTKVUCcb54C3FQB1-AXeD_2vaD-H6OgIDoSd4dLbqGBUnbbaGxUydXHzq0znHlbYZ0wEgUtJ0qQTj0nIsBx-1AsBDAJyFqbtaaVGurWGQherKvBE5AaU8MTgjYMiPBgkWLaNYQZj53Jt26a_5W_bcaA=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHA8GpSHjVvPSsFr8dYWmLhcXPaWwLEWwURk-HUYOxoWiDnd4vvhw6Qr5I3krCGOHvb34wCDK00_TKkhsQaBdOVFYmlS-7ggFJtp3y6LmwAXWI7Uid2PG9waJTNA6IOAhxBlHyzbRujwcp5tnaf6H-iPGrQb-SJsaqov99lzBvP6rRseLS_"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7"
+    },
+    {
+      "label": "openai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHA8GpSHjVvPSsFr8dYWmLhcXPaWwLEWwURk-HUYOxoWiDnd4vvhw6Qr5I3krCGOHvb34wCDK00_TKkhsQaBdOVFYmlS-7ggFJtp3y6LmwAXWI7Uid2PG9waJTNA6IOAhxBlHyzbRujwcp5tnaf6H-iPGrQb-SJsaqov99lzBvP6rRseLS_"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsR99b8OJKqGi8jiukxq0DXQN1zzV7RNFL6BQbEOzrYXN3MMNgveNvXJvzfmAHLCx6q1cNHpgEhXLBbSM1bgrxWGMAAUfz_A_aUMvWLwj2JE_RqUffIXy1q4KTHvV_"
+    },
+    {
+      "label": "runloop",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeSMxgcDEQZdFYUmDrNJlO2yLn9fKTJK9gRtzehKcQ2IDMC1mHHwTQqr3MTKVUCcb54C3FQB1-AXeD_2vaD-H6OgIDoSd4dLbqGBUnbbaGxUydXHzq0znHlbYZ0wEgUtJ0qQTj0nIsBx-1AsBDAJyFqbtaaVGurWGQherKvBE5AaU8MTgjYMiPBgkWLaNYQZj53Jt26a_5W_bcaA=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ=="
+    },
+    {
+      "label": "scilit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x"
+    },
+    {
+      "label": "openai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA=="
+    },
+    {
+      "label": "entelligence",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuZLQgdrz0aFGzssS-96LeWCOlqaAZQMXawVoW5UPsmF3BT5rHlVSObWGT4yoUm5eZe3fwZ6uIxac0-sR4pYFtzfENxDYhGe8x8V64LXolGqIcrpSCpj4owpzXwlcL0kSKOth5bWBO6bZT4EUmXKergzYZL6MU7g=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxQutv7JQ3nyWZKwjd0ZfTXW3oBBqGviL9kyAo2NqNo-HD0qpbAJkHVwgM1w8hNa3fh0J-fbGAgq3JVkDEV3JcOkAmwZyIpWiCfC-BWHXYX6qjvfmk5uT7WWJVpBMTROs="
+    },
+    {
+      "label": "fanaticalfuturist",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqLs3PizLUjmvc6MOrN8F48phHtODA5SlMvSQKSa7PM4AcGa2u_Rj-fQOClchHuVxvL3fyxNiQafXq7S03r04dI__JcwXrhzIeRYpyRFB9nrt9ObnP1rMBXb0PfAah9UcxR-U0rW_L82a1a1O8GuafM3uQCxmw2P161XxfzdrcRQNf_8gk5Gjiiy4A1T3Q_TFN7j7TnbgcR1ouRAAhilPFjuznx_ZzehU="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqSQ4lZB0XE2Yl5fjE3CjnLS7cGrpVXtsqIQHspMdA245VY2yncKdiSExGU-faRVzVhSy3ZxUr5beoZ46kF-HaeHuaKr7f3WA8z_Z4LWZjx4ABVj4Z5117rNw0ztrJBkdtAspOuVrUqnys8tgpZyu4YCbyyCo8M0pDJFTJTxJLrONdk0QU2dIbLOTaLu7lytWtOIBivN_D0w=="
+    },
+    {
+      "label": "prompthub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqfSTnCa-0UmcizKeQ6qH6srhrfLO39_pE_-laO-w_BhONjK0fY-qj0W3XWVGg5xu9DsNilFsuvIJZQ-xlWs0iK1H_7V4xm1fuyBfHcJD9-_u5Y88Pq8SoGKxFXNRCvWCjvunFJY6967zzFI51FQKQF-LgkjGSdpv-mn3BlxA8yzd2eVz8C3eKSeh499KvyBA="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ8AwkSExLmsccx6S3FVoBRWXkXLOwxop7q_wzqjyW-ZWlmN97jWCuWoEwW6cNOpN2l-7FvcZVuCgE6N7B0FCTfIWyCQU-Dg9cF6R5WOZfcSG3aR2vcFzKJ7vgd2YjruJI"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxQutv7JQ3nyWZKwjd0ZfTXW3oBBqGviL9kyAo2NqNo-HD0qpbAJkHVwgM1w8hNa3fh0J-fbGAgq3JVkDEV3JcOkAmwZyIpWiCfC-BWHXYX6qjvfmk5uT7WWJVpBMTROs="
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbSyeYhgjH3Vb4T-K6p87uYxzmJNKbxEb-7_N02sEiuOsY4uNoIlVdd7N7NOhU7VxwR46PxaRWgxKxLEZLm37yB8WPTD-iq0zd_WeT0Fn6FaUXJQpR-H1hNXzdz9h2GAnv9k-WdR4gJfY4XfM6VZcy"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqSQ4lZB0XE2Yl5fjE3CjnLS7cGrpVXtsqIQHspMdA245VY2yncKdiSExGU-faRVzVhSy3ZxUr5beoZ46kF-HaeHuaKr7f3WA8z_Z4LWZjx4ABVj4Z5117rNw0ztrJBkdtAspOuVrUqnys8tgpZyu4YCbyyCo8M0pDJFTJTxJLrONdk0QU2dIbLOTaLu7lytWtOIBivN_D0w=="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ8AwkSExLmsccx6S3FVoBRWXkXLOwxop7q_wzqjyW-ZWlmN97jWCuWoEwW6cNOpN2l-7FvcZVuCgE6N7B0FCTfIWyCQU-Dg9cF6R5WOZfcSG3aR2vcFzKJ7vgd2YjruJI"
+    },
+    {
+      "label": "fanaticalfuturist",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqLs3PizLUjmvc6MOrN8F48phHtODA5SlMvSQKSa7PM4AcGa2u_Rj-fQOClchHuVxvL3fyxNiQafXq7S03r04dI__JcwXrhzIeRYpyRFB9nrt9ObnP1rMBXb0PfAah9UcxR-U0rW_L82a1a1O8GuafM3uQCxmw2P161XxfzdrcRQNf_8gk5Gjiiy4A1T3Q_TFN7j7TnbgcR1ouRAAhilPFjuznx_ZzehU="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA="
+    },
+    {
+      "label": "prnewswire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd7J-qI_pWd-4d3B6dYugIx2fekl7kj16kyrpGeym27iSXyrBpZwLbhd9ImHJ0i-iOT2AvcbKzVbro71DoKC_OQATbtSfs-GbeMzJq-XE20NiddgMJ-OIKK96fTMbTKZ3lTS6mDqw3x8fg9DAWUURm1iw_eR974rsxymSu4jzdjXJbxEd-9y4XgwrVeoaIPwayt8EIscUJ2C-3kAy9fq9J73yh6WdH27zlKAFX8xG5CU4FKQ=="
+    },
+    {
+      "label": "bigdatawire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5JbUtbG44ZwWIyKfdd3HJnqgfZJxXjiUjOUMcT1l1j7enP6mcHVXojV7mNFCrpLBBQZR0AXzE7NLGrr7M4QKr4iyBw_HMOYApGQFIcU1z2pYhSSjQFWc11CZ5KnE840gEWICepLXQ9unVLEWIEkh8z5FXN8YRreYLO0S70FdGOm8Ax7tVujvMz2UzkNa6yS3T2CiOBF_QgjaRFhU-TsgzPCpgHNF3qZOdJn_vCkjpl3--LgTs40mc"
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA="
+    },
+    {
+      "label": "substack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1F_ETTdtFZnvVJKpAQ0043_HoHse1iZXLMshUx6Slk0SgG8pwPIo41Ao9Hbtd2iG9mNXde3CFf6VPmJWwcI-1Wwv58fv_-wFZCs1YHj0A3lkEFDow76zU-LFoG7pOtuUlEbedF5B5Kv6AgOUs65U2foZ55w=="
+    },
+    {
+      "label": "prnewswire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd7J-qI_pWd-4d3B6dYugIx2fekl7kj16kyrpGeym27iSXyrBpZwLbhd9ImHJ0i-iOT2AvcbKzVbro71DoKC_OQATbtSfs-GbeMzJq-XE20NiddgMJ-OIKK96fTMbTKZ3lTS6mDqw3x8fg9DAWUURm1iw_eR974rsxymSu4jzdjXJbxEd-9y4XgwrVeoaIPwayt8EIscUJ2C-3kAy9fq9J73yh6WdH27zlKAFX8xG5CU4FKQ=="
+    },
+    {
+      "label": "bigdatawire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5JbUtbG44ZwWIyKfdd3HJnqgfZJxXjiUjOUMcT1l1j7enP6mcHVXojV7mNFCrpLBBQZR0AXzE7NLGrr7M4QKr4iyBw_HMOYApGQFIcU1z2pYhSSjQFWc11CZ5KnE840gEWICepLXQ9unVLEWIEkh8z5FXN8YRreYLO0S70FdGOm8Ax7tVujvMz2UzkNa6yS3T2CiOBF_QgjaRFhU-TsgzPCpgHNF3qZOdJn_vCkjpl3--LgTs40mc"
+    },
+    {
+      "label": "encorp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELp2EkU0ob_IFGGZc0BzQgt-sPK0YDdQMK2TBVu0-5K1QSB-_fZJJUJPeJt2GBWaKTowr-1eIqFX53dwzwLBT_V0q65RDldEivTusjLOPxrb_yHOCStoNWQduzAaI5pUXMKo-MdAPcqXxopv5scgVKHTEYpUBc5TLDsw=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG8VlxAqdLvogA_cahZ56ejUrfq0faAX4MGXoFitjGNk7JHzT9TT41jVi_9VETWq2kcyV7vtBguB6OIKV7Lw-IJVgaLqwfC-njYaQlLltCumancRTe2XtvDzJfyK1TUMXUu6YNWBXjNs0v34uHh30aelC995xWkGDsOc5ScRUO6omWnv6GYMuG-3yv84Td"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3VhNSclekDZyN7FmlzyO5Dn0YY_iwKlk-h0fa_RCIXGs6VpIJF083qMVCzyoK8LRXSAqW3-V_BzGCH_U6aIw1YPr7g2zB5WDextEdmYLgM-VAU-bd76DAz27TJq5RZfEi5bCkT6kDCagFzNY4e7VqmFtwy7yFJRTd6KP75nneIgIQIX20MuK-kws0xA=="
+    },
+    {
+      "label": "openai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS3jR7x03QBAQ6v3n07NQF5L1x0QALttaUUKyH2ceHEJ8DK28BsmTGv1qkwh9rRTfWs5iy7AzzIQLCh6LeU7DppsCd_LET7sqdrOWXkPLN1jmXL-jYks6AXjuiQ1hczlAmO7TNmuuFN9Tyf0TcNJFu_I0="
+    },
+    {
+      "label": "toloka",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfW9UXC_VUTaytLs2JMlcIaNG85zkK9Fr6OupYhSiD3dVczfejkiU2k-DvWWQ3ceRez4cIAzLFG--OEaUEmjuFUi4It8QToxS1gxhzapm610Y1YbGl7Uo9DLJLUi-BkUICXqXvkJ0yAynWQpjRbH-rmAX99Qmn4jYLcAClsgkB3_gQJxHZLg=="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro="
+    },
+    {
+      "label": "toloka",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfW9UXC_VUTaytLs2JMlcIaNG85zkK9Fr6OupYhSiD3dVczfejkiU2k-DvWWQ3ceRez4cIAzLFG--OEaUEmjuFUi4It8QToxS1gxhzapm610Y1YbGl7Uo9DLJLUi-BkUICXqXvkJ0yAynWQpjRbH-rmAX99Qmn4jYLcAClsgkB3_gQJxHZLg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbtp8ozkdt-v3UZZiwfmCuarKOQZzBWR9w3m_WfSrrhz1xRp-ER3dvdjXeVA3peYT83l25MszumYWF1qHxRVByyUL__74qETiy0TGYkyG9SkoF9yxF6lS2H14FWHkG2uDn3TJsh4GY4FXWIXr8gIX200DBRae5GuzGuvI="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3VhNSclekDZyN7FmlzyO5Dn0YY_iwKlk-h0fa_RCIXGs6VpIJF083qMVCzyoK8LRXSAqW3-V_BzGCH_U6aIw1YPr7g2zB5WDextEdmYLgM-VAU-bd76DAz27TJq5RZfEi5bCkT6kDCagFzNY4e7VqmFtwy7yFJRTd6KP75nneIgIQIX20MuK-kws0xA=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG8VlxAqdLvogA_cahZ56ejUrfq0faAX4MGXoFitjGNk7JHzT9TT41jVi_9VETWq2kcyV7vtBguB6OIKV7Lw-IJVgaLqwfC-njYaQlLltCumancRTe2XtvDzJfyK1TUMXUu6YNWBXjNs0v34uHh30aelC995xWkGDsOc5ScRUO6omWnv6GYMuG-3yv84Td"
+    },
+    {
+      "label": "openai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS3jR7x03QBAQ6v3n07NQF5L1x0QALttaUUKyH2ceHEJ8DK28BsmTGv1qkwh9rRTfWs5iy7AzzIQLCh6LeU7DppsCd_LET7sqdrOWXkPLN1jmXL-jYks6AXjuiQ1hczlAmO7TNmuuFN9Tyf0TcNJFu_I0="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG8VlxAqdLvogA_cahZ56ejUrfq0faAX4MGXoFitjGNk7JHzT9TT41jVi_9VETWq2kcyV7vtBguB6OIKV7Lw-IJVgaLqwfC-njYaQlLltCumancRTe2XtvDzJfyK1TUMXUu6YNWBXjNs0v34uHh30aelC995xWkGDsOc5ScRUO6omWnv6GYMuG-3yv84Td"
+    },
+    {
+      "label": "epoch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgF9T9PgrZdJQRDw3L9pPPTtUCxmRNDUrJ87s_gVk4Lz9GvJF6SJpvb5NL7sZLFnh7-3bDcm_QiKtudpmUaAefIYK9FlkM6CKgshRQfq8PgFCDExIi6Feu5X7Zg4hMCPjdOWqJWPemoSxMLKu4O_nkRWwBCaFfmWZ-p1Et"
+    },
+    {
+      "label": "epoch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgF9T9PgrZdJQRDw3L9pPPTtUCxmRNDUrJ87s_gVk4Lz9GvJF6SJpvb5NL7sZLFnh7-3bDcm_QiKtudpmUaAefIYK9FlkM6CKgshRQfq8PgFCDExIi6Feu5X7Zg4hMCPjdOWqJWPemoSxMLKu4O_nkRWwBCaFfmWZ-p1Et"
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro="
+    },
+    {
+      "label": "epoch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgF9T9PgrZdJQRDw3L9pPPTtUCxmRNDUrJ87s_gVk4Lz9GvJF6SJpvb5NL7sZLFnh7-3bDcm_QiKtudpmUaAefIYK9FlkM6CKgshRQfq8PgFCDExIi6Feu5X7Zg4hMCPjdOWqJWPemoSxMLKu4O_nkRWwBCaFfmWZ-p1Et"
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG6AbFzFS-Qj6JRanTArdHe5UAlpfYLAtFIo4CNjh0oV17-3dLAXqmQjZy7bDPmBfvNR0jwmbfV3KdEAyp3MpzTyr9fHxnfm1gK5Er-5kbBquLCbWzOTFG5Q1qkd8S0cRtsNYZJ90eDro="
+    },
+    {
+      "label": "runloop",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4ChZjZhXYtdWgHmL9bKGBD1zZtaW3MBSsn_YPgIkiKdzvWZm3MozfryI0R8YXjIZnc45j6UzOl6RNsXyYPQq6r_lBGDfgdkI7c1S9BkAKhmtldzFV8oLfFrUjVZhCQCIXp4313rxpFqHDsftN8JWxpVl4GyzJ1oxWZqoXHadMpxWk-IY9ryj3HsLoMjVuvlZkvvOl6JJyvnC_"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs9amRKhQqCOy93t4QKc-UpnD5GhYKXST5k3X9o5MAcIhWRXdVTs-KsjnRdTVu_2hZiZ2sp1XYJKKS62Y4myJ_cu6CKNfDzp3mKfpCd8yVqW9vgCGmEXZ-pkZ8h3U="
+    },
+    {
+      "label": "runloop",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4ChZjZhXYtdWgHmL9bKGBD1zZtaW3MBSsn_YPgIkiKdzvWZm3MozfryI0R8YXjIZnc45j6UzOl6RNsXyYPQq6r_lBGDfgdkI7c1S9BkAKhmtldzFV8oLfFrUjVZhCQCIXp4313rxpFqHDsftN8JWxpVl4GyzJ1oxWZqoXHadMpxWk-IY9ryj3HsLoMjVuvlZkvvOl6JJyvnC_"
+    },
+    {
+      "label": "openai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS3jR7x03QBAQ6v3n07NQF5L1x0QALttaUUKyH2ceHEJ8DK28BsmTGv1qkwh9rRTfWs5iy7AzzIQLCh6LeU7DppsCd_LET7sqdrOWXkPLN1jmXL-jYks6AXjuiQ1hczlAmO7TNmuuFN9Tyf0TcNJFu_I0="
+    },
+    {
+      "label": "lambdatest",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzfTw3HHeH9mvqEMj4nHnOYHxzqTxKMk1kR6WVFFrRRusqvMFLQbsail8iYoUSDQj2S8GgapjIphjiSc9jPA40z8WoC3nSFGJSHIEOQQmrtll1X4_-vjImGx7ynQQe"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "purdue",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "epfl",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ"
+    },
+    {
+      "label": "epfl",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZdTr5AXPDbdtbeTPn6X_t1EkmBVdKcQawj_ESwmw-wVd-Fo3jzRCsK0ItnIR5wVZ643M033l0lvYdarE6cO4tpu2cvKShxvVsMf50i23_s42Nq5wV0ywIOGRRdD62"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZdTr5AXPDbdtbeTPn6X_t1EkmBVdKcQawj_ESwmw-wVd-Fo3jzRCsK0ItnIR5wVZ643M033l0lvYdarE6cO4tpu2cvKShxvVsMf50i23_s42Nq5wV0ywIOGRRdD62"
+    },
+    {
+      "label": "epfl",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE="
+    },
+    {
+      "label": "lambdatest",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg=="
+    },
+    {
+      "label": "lambdatest",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE="
+    },
+    {
+      "label": "lambdatest",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg=="
+    },
+    {
+      "label": "smu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHisv_GzgXTTxDKFU8Eax-XpkLnbDD1EQ7AA--UqSmwe31qkOZ_FVr5m-Bh6yN9zEdx5UxpemovH3Nac6mHWVm7jNbKwkZEe9nU-P0Odn77gJuPpivuu32UL4FL-ZDGomhbipZaThoVcV-HbqrCT1NX6NTGy81gW9RRv7-1BDOkHqLpvKMF26UpptJWjWleSQ=="
+    },
+    {
+      "label": "andrewhabib",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fj6WGfyaxM43fb7Ge6j2zf_PvxsQZw1Iz88Penq4mn3aE1mcn4PLNfIs-oZtVa0ZBNhb6oyA46Q7OCIFBLlMr2znTPJILLjIl5Lifc5cHuIHj8yNJR-sH829ReWd4kHurrj0nDPVa1rnxUCLSNJQs24="
+    },
+    {
+      "label": "nih",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8_KHThJe3a3pumO8t_WdjjmiCLxGgMR1VtZ_ou5Ws5qTDMwIfDciKZ4PVSErkaNC_WPZciI1wtWMsZjYtRVt_FVlJp5x_01wDMMa1p3qwsQojw06dkwFzx3iFvj5rvpIEn15mYGByraG1nx5S"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE="
+    },
+    {
+      "label": "purdue",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "purdue",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH5CpBoCpDQOq2uEmPVbDxIyJiUNGoiJXfFsuW94ijOhP2ohsfD2ggUZyCNh_BWVnkNA0CPpjCn7QJF-S2lSLxKNjRqoJh41iUMTYwF9ZtUSEuuya2hki2E5_KgvupasanCUWzVwYyfEjAQYzxbR3Yi8sAZoISRP3Hhf3u2gLS8RzK7cd6m5xfT_nTN3wZEClYucFAF304HBgYGYcmDRxsDeGdfAl_rLg="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfPPomKWTpAqZ7XE_UeSxYhhuj9t9CcXJTGQWC-B8feAuIAZH-303kmdUVHw9y8U9eEnxg8bUBm5fZ3jKjXh54vq4yySg8mC9HWmWSRlT5804CPjNpMMU3wmpN"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH5CpBoCpDQOq2uEmPVbDxIyJiUNGoiJXfFsuW94ijOhP2ohsfD2ggUZyCNh_BWVnkNA0CPpjCn7QJF-S2lSLxKNjRqoJh41iUMTYwF9ZtUSEuuya2hki2E5_KgvupasanCUWzVwYyfEjAQYzxbR3Yi8sAZoISRP3Hhf3u2gLS8RzK7cd6m5xfT_nTN3wZEClYucFAF304HBgYGYcmDRxsDeGdfAl_rLg="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfPPomKWTpAqZ7XE_UeSxYhhuj9t9CcXJTGQWC-B8feAuIAZH-303kmdUVHw9y8U9eEnxg8bUBm5fZ3jKjXh54vq4yySg8mC9HWmWSRlT5804CPjNpMMU3wmpN"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZdTr5AXPDbdtbeTPn6X_t1EkmBVdKcQawj_ESwmw-wVd-Fo3jzRCsK0ItnIR5wVZ643M033l0lvYdarE6cO4tpu2cvKShxvVsMf50i23_s42Nq5wV0ywIOGRRdD62"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWCRyXb0q2w-bOZPH7hjzKXTHcHS80co2aiYZ5i6eak84uO--YtbQrdXtrrpTARiWA3rxp7SbiOLY1sjtYoj9e4sUzxXRgMAN9GkRRsEqws403jeHqbDalS3pu"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWCRyXb0q2w-bOZPH7hjzKXTHcHS80co2aiYZ5i6eak84uO--YtbQrdXtrrpTARiWA3rxp7SbiOLY1sjtYoj9e4sUzxXRgMAN9GkRRsEqws403jeHqbDalS3pu"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjfCI57JLSiosah8oe2RG74kzAaUGavUv2uBacn7WSjFmtvnsyam6B8IM27PHLgMikioU6Oq5IMe2ip1kfF1uWP0yh28I6wnbVunNslgTEzwtWYE3VDF7dG3Ym7ldE5IATZi5nAoE6OSpg8QBTElbf3LEx4sqiptohQlx5l6n-r77vdfc3pZdM67x4uQk1fYK62pUi87So_jKPvE24_resloq2sNMIj86ddRU7ENyxRtICWOdXzhzGsPl3_wULlYVJG7pbtPtuRlJPRhQEa4SbcZl7ecQ7LljVsuiwzoQWScGYWkW8As3-ShqEbdo="
+    },
+    {
+      "label": "lambdatest",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSllAM1KbqLZ4NXrgjX9xQhrfbua_cMvAMvWXPcRNUc8qTR4GokKAMfd4InfDPy-zAKcL8CcynhBuwuBoEx9MhSkb_qxJzknxoYMRDoNBtKiZ5TwKIK2JO01JRspLklQLa5eoUWrMXqXC3S3srS-AdcmXf6rZPbw_0Eg=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "andrewhabib",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fj6WGfyaxM43fb7Ge6j2zf_PvxsQZw1Iz88Penq4mn3aE1mcn4PLNfIs-oZtVa0ZBNhb6oyA46Q7OCIFBLlMr2znTPJILLjIl5Lifc5cHuIHj8yNJR-sH829ReWd4kHurrj0nDPVa1rnxUCLSNJQs24="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH5CpBoCpDQOq2uEmPVbDxIyJiUNGoiJXfFsuW94ijOhP2ohsfD2ggUZyCNh_BWVnkNA0CPpjCn7QJF-S2lSLxKNjRqoJh41iUMTYwF9ZtUSEuuya2hki2E5_KgvupasanCUWzVwYyfEjAQYzxbR3Yi8sAZoISRP3Hhf3u2gLS8RzK7cd6m5xfT_nTN3wZEClYucFAF304HBgYGYcmDRxsDeGdfAl_rLg="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "purdue",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA=="
+    },
+    {
+      "label": "nih",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8_KHThJe3a3pumO8t_WdjjmiCLxGgMR1VtZ_ou5Ws5qTDMwIfDciKZ4PVSErkaNC_WPZciI1wtWMsZjYtRVt_FVlJp5x_01wDMMa1p3qwsQojw06dkwFzx3iFvj5rvpIEn15mYGByraG1nx5S"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE="
+    },
+    {
+      "label": "openai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsQkzpFnvX5yYKZdFL_tLoXu0r4knsTtyy5P8SAFDnRBJJnmF2uvQTva9N8IZOhiASy-HZ42WPhq02q_krzM-BR-duV5COfWC7CcwzJ-2FqeebK33pKkLtfk84ZkhTqIhhHt-XUM6APTLuI7ZAkRUT_wi5"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECheeccIfKLX0b5ue4mS2BF5plQ_6d3iPiRIUMF3WPfubDr1pX0MHXG4_AGRGUj_PMWYNPtFC8zLp8gjmoNzDp8vp25On-Bk9lrQv5Ikk33XyOCPfr-0qmG9q_BOTq2n5gXPD74rJ-mYIeZZ4I5epV7aG6cBYa1KB_16q_"
+    },
+    {
+      "label": "scilit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvv6XtSDhl_3aZhNGzOEfmtdDNlBf1gsZuO_kBedoMR8DMg5FEDByzTfBX8abNyrNbQK4OKaD0jo7d_r5skPceNh4i037kSKa7cksqb_CCo3OSrqB1BSJ-xF-Bg6dbxYAOAaR-eFPqLlBiwjy68lJTFww3Ltr0XVv8fpUrtqSN"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMuxyDSV8TC02adJIGhPy3VKK6xjPbF9DJTEXekPsxiq3MTLKuqPbNGdljFTHhNW1eVSaiErs7hkteyaVhPEu-lr2ZNon9ybQ1Wze7jpj3Bm9i3VwwnBqAWVzShCdlgq7"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7czAAUmTe31Vel-w3UcIUAZtMILNQozbq57fWJB5l_62os3uV_YKWTXNiBunsivzwihgmACQbJqmpo5H7Q4uoMhj1OHDz6XK9u3Et5N87wWPp_GnWsSfzSzmyS51UwqXefqQbSljcpxNwM_Laqv3HJA=="
+    },
+    {
+      "label": "manifold",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwDyBG4XnncgxpV1oalN6FDv9NWMbZMnSg48JwCxxwdA815qyabT5EBfy4CNLKxDD70nZ53YOjDrcZK8ODTy3Si9PDk2H-DiT6YHONIACF-7lK8K05RnpICMJqnapDWbMR7w4zMGrKaJGRPrZhrzB0V7ac6iNcbOi3rvv54YZc5FovxOA="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1YN6-_itXZTEBUp6EsA835OzIcmYAEwgDBepzzGscyrMqQKbMqM1vrlXxXZUevwrnibv8wHZLfLOBcXq3u8Svtnnofs6xQC9pSPfhS2KCdT2UbbyImRbDMuUMgExXQaVOie3hAOaGBOV9jopiqPH_5KyqqDzJ1Yzc6aB1TjWfso-7nCamLJ4ZY8w1V64="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETuq4dp6CEIhFX1Da8buFImQKQd_U49DI2a8_sRgeQ2KEHmBOEroegZkfyiZIgzTwi5cXmIE51-GY947QEPXNHn5SBP-AHoAUpDs8wJ_CKTRYzhUumPO8EmmOKEP7x"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm5DhhU2EbcXamB7IHKH9xSlqb46u47Q2CtoI8A7EpAPpIMDP-WnbZ48O6uVnsvKjiTOGeuucQmp5AePXfjhLA_OSXo1HK1Sjow57bWjCqF57W4rVoMNXYQ4P8xQ=="
+    },
+    {
+      "label": "epoch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2ILKdQHTZOLlkkAi8XaNk305UsDVOs07ttnNOndiH7l-msWrmN7D3xsP1MDlM8VgaYQNkznzNcUJZxtYnqQ29T-H0asjpOgI-UoqTVtVR7fZ0xLowlsI0R-KfsBeL451MPZAbJFL8quJx-oW2UIX-GDek-eCoVufnDFO5KA=="
+    },
+    {
+      "label": "entelligence",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuZLQgdrz0aFGzssS-96LeWCOlqaAZQMXawVoW5UPsmF3BT5rHlVSObWGT4yoUm5eZe3fwZ6uIxac0-sR4pYFtzfENxDYhGe8x8V64LXolGqIcrpSCpj4owpzXwlcL0kSKOth5bWBO6bZT4EUmXKergzYZL6MU7g=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQVX5JmXZPaxPLFYLhKOrIKKyhdlsBDw2xTqwCDG-75C4aaxioDAs1MwZGbyjLMuX7ggRRfXZ7Jzhq1K3JfcertmlvpsiCTJp1sKbHGD_Mvp_A6i6V6V4ddlXR02Dd47d90A=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxQutv7JQ3nyWZKwjd0ZfTXW3oBBqGviL9kyAo2NqNo-HD0qpbAJkHVwgM1w8hNa3fh0J-fbGAgq3JVkDEV3JcOkAmwZyIpWiCfC-BWHXYX6qjvfmk5uT7WWJVpBMTROs="
+    },
+    {
+      "label": "fanaticalfuturist",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqLs3PizLUjmvc6MOrN8F48phHtODA5SlMvSQKSa7PM4AcGa2u_Rj-fQOClchHuVxvL3fyxNiQafXq7S03r04dI__JcwXrhzIeRYpyRFB9nrt9ObnP1rMBXb0PfAah9UcxR-U0rW_L82a1a1O8GuafM3uQCxmw2P161XxfzdrcRQNf_8gk5Gjiiy4A1T3Q_TFN7j7TnbgcR1ouRAAhilPFjuznx_ZzehU="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUPY6S5b-3E4lHkL4cSbkMHPsvZo5mKDpSJ9CtvcCKfnKw7hPv8fkFYUXxT0sMaPy9wjiLM-zNnSOrBVEJ_eCZ-rkoqedxGzwHsF-C2z4JI7m5D9Lt5hGnSLHpN_yn3p_iLD6M9IyyEBkJLqHBCzwiq_RTfcNlXkULWBzj_65eoSsf"
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncfIaiTruv_15tVUYBdSWeWLgF8z33ItNKs338zv8D0YgaApRSS9jLcDBgKTA-3WRdI-l8fR8Yfq32_CdU2UHOOqSvBidkhIPfjQpgMQsbTSYLpI8DlOc_Zwou0zDtcOlv0JdPYrSeWcw6GeJgULI_uVYKk-2ZGFr4IB0f4wREz5Gm7Rd-BC2RxqWlNA="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH409ezwN2YogTyAz68iTtb0RHarWVBiQphQ_gvVMuNxYw9UihJrJlW4vn-0t47Qo-CzsimiwUM0wO80v1kjriBrFZF6_EeiJoJmVSm_3UWWHkvEMRIKIly8FGgw0Iur1WTCr-BmIB6xMKXy7Nb7RchlsvYjuLo"
+    },
+    {
+      "label": "purdue",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIlfXuKAh6d7nmJNT5cLxNURtLwin3DP_udHV3Lo-DT_Pix4vKDjLT2vUogsRKx4lMBZB22WXzDUpfgQ369fktIhZtV_XCDI1MrgAmo7-HZE-6ZOUWCv6lIyNi27eCHDY3-k9kR3LnVJhChUXc92XarIO9OoQSLi6WGJEWyA=="
+    },
+    {
+      "label": "epfl",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPibuXEsxV4wXgBzjEKGkQEQ1bmMIQhaHzqstN8P90dvHOj6dpXTpe2edATp605tVeECDm_bpQZ_h9mvk7jSkOBcpW4-s7586ho9Qe3LBG2F3BHzolxo-sYcaFfQ_WG1ox3QpIv-0vhv3q-HL913ZL7POJ"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUhT5NAp62LFDtWQE92Voo1QpeQoQebtnqd6amZu97qPhbVx8-C5NdCwnFhrm2FIdInxLQ5rwc89OqJML9S8LU9ApgZdrtZinME3NbrodhI7BXjJayzlbA3EtldcXxvmOl0nw_4AmapQgy-aE="
+    },
+    {
+      "label": "smu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHisv_GzgXTTxDKFU8Eax-XpkLnbDD1EQ7AA--UqSmwe31qkOZ_FVr5m-Bh6yN9zEdx5UxpemovH3Nac6mHWVm7jNbKwkZEe9nU-P0Odn77gJuPpivuu32UL4FL-ZDGomhbipZaThoVcV-HbqrCT1NX6NTGy81gW9RRv7-1BDOkHqLpvKMF26UpptJWjWleSQ=="
+    },
+    {
+      "label": "andrewhabib",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9fj6WGfyaxM43fb7Ge6j2zf_PvxsQZw1Iz88Penq4mn3aE1mcn4PLNfIs-oZtVa0ZBNhb6oyA46Q7OCIFBLlMr2znTPJILLjIl5Lifc5cHuIHj8yNJR-sH829ReWd4kHurrj0nDPVa1rnxUCLSNJQs24="
+    },
+    {
+      "label": "nih",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8_KHThJe3a3pumO8t_WdjjmiCLxGgMR1VtZ_ou5Ws5qTDMwIfDciKZ4PVSErkaNC_WPZciI1wtWMsZjYtRVt_FVlJp5x_01wDMMa1p3qwsQojw06dkwFzx3iFvj5rvpIEn15mYGByraG1nx5S"
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

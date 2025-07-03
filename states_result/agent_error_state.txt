@@ -1,0 +1,32 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 22:03:47
+
+CONVERSATION
+----------------------------------------
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 0
+Total search queries: 0
+Sources gathered: 0
+Web research results: 0
+
+SEARCH QUERIES USED
+----------------------------------------
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+SOURCES GATHERED
+----------------------------------------
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "error": "'NoneType' object is not iterable",
+  "error_type": "<class 'TypeError'>",
+  "timestamp": "2025-06-20T22:03:47.683175"
+}

@@ -1,0 +1,485 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-18 15:11:33
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: whats the wather like
+
+[AI]: Okay, here's a summary of the weather for June 18, 2025, based on available forecasts:
+
+**General Overview:**
+
+Across the United States, average temperatures and weather conditions are expected to be typical for this time of year [weather25](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj-KX0yFL_DUAl-SzLbjhZhejn5YCqqQyjxs1v95r03LxISCj5OUSjeqPw7P6mrELIMmH6LwNCj24rGl96KvbyVCdd-U2xH-K0A9hvgJsueD6hfEsqhPgHRHlpmIycnUTnwzvNPvdNhNS6bQxp_Q50O7JH3xzpUDeTC2Zj). However, a persistent stormy pattern is affecting the central and southern US, potentially leading to increased flood risk for the next week or two [foxweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==). A strong Atlantic ridge is contributing to this pattern [foxweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==) [accuweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe). Overall, the June temperature outlook favors above-average temperatures for most of the contiguous US, except for a region in the middle of the country where temperatures are uncertain [climate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=). Precipitation is expected to be higher than average across much of the South, while the Pacific Northwest and parts of the Northern Plains are likely to be drier than average [climate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=).
+
+**Regional Details:**
+
+*   **United States:**
+    *   **Ohio:** Expect rain and thunderstorms with significant rainfall (0.5" to 1.5") across the entire state, with drier, sunny, and warm conditions returning by Friday [ocj](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg==).
+    *   **Alabama:** Showers and thunderstorms are anticipated, with some storms potentially strong, bringing damaging winds, heavy rain, and lightning (Youtube).
+    *   **Central Region (June-August):** Warmer-than-normal temperatures are favored. Drought is expected to persist and expand in the western half of the region, particularly over the Plains, where a drier-than-normal summer is expected [weather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==2).
+*   **Mumbai, India:** Expect heavy rainfall with temperatures between 26°C and 29°C. There's a high chance of rain (97%), along with strong winds (36.7 km/h) and high humidity. This pattern is expected to continue throughout the week [indiatimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHil2laSNYzrgZwLYTgRYQmx9l4ADO_otTUB3J7kJd1F_z_l3J857-dMzcbFFvsK9Y8GZcDbkK4RmQmcy28vwF14Tt-wTzhxD6MVSy0rcMJOwh8DyBwZEukgeiE8SisnEEEp-HC306nygC365dQvr131uy1jrvGnxuUK74cCzBGHb-RenOEkZA8RkAfpkv7RgBbB0tBmZBnMCjRMwu9YC40Jr7SVDbv096q76qjZ0TOIo8I4LC5XJQBCXBZOP7ChA==) [accuweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe). The Southwest Monsoon is expected to advance over remaining parts of central & east India and some parts of northwest India during this week [imd](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==1).
+*   **Kathmandu, Nepal:** Most areas will be generally to fully cloudy with chances of heavy rainfall in several provinces [kathmandupost](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIIVJEvePamw1t7fu4BWNOYCyXTynJTZeJcjKLjMAUjESOpwY2uF1JBXhW9-Xer7z_TnHk0fFkZVc4rO4NVVCJlrHyBaemfeGNYlxNx8fRdG7FuW_aCTBJL1IUzplcu0iRiKDEMCwIrkXJYaW7fsIeH6_WpQ-wbyEoVTDGXsRc1Reppg8=).
+*   **Western and Sabaragamuwa provinces, Sri Lanka:** Showers are expected at times, with several spells of showers in the North-western province [lankanewsweb](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIbFtXuXsNMdmPngB9ld_fp1B_s4xYH2G0D2UbAAz_cr2G11pDPZM71HPN0DmLKr5z2x76SLPdn25PUB07FphL-VeT3MleODvvptQcLdXs8y9f45Qo5wPBmoBcNrXc9aWb9QIbqRUtt64f1pZZbV2sfVJKRYWdHR8PyYy6aMXpZd3r4dFW) [accuweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe).
+*   **South Africa:** Isolated showers are expected along the coastal areas and over most of the Western Cape. It will be cold with strong winds along the coastal areas [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ=).
+*   **Japan:** The rainy season has begun (June to mid-July). The average daily maximum temperature is about 79°F (26°C), with about 10 rainy days expected in June [japanhighlights](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjog3nvWwqNgr-iI5I-WPQgR3yy3Tnvl7xCNFQAs_sgK5jFyokB8BgPGeSvGfG3npurNJANvsPz1GQGuY2NilO7jWBggA0PIMpJzUEdX-yt51c7u8HKcZ5jlFBLG7V7RoqO3YwGES38mxg3ZMFRtom).
+*   **Ireland:** Expect mixed conditions with a predominately southerly airflow causing temperatures to trend above average. Rainfall could be above normal in the south and below normal in the north, with potential for thunderstorm activity [met](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==0) [ocj](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg==).
+
+**Other Considerations:**
+
+Drought conditions are predicted to improve in the East of the U.S., but persist or worsen in large parts of the West [climate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=).
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 1
+Total search queries: 1
+Sources gathered: 47
+Web research results: 1
+
+SEARCH QUERIES USED
+----------------------------------------
+1. weather
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "weather" and synthesize it into a verifiable text artifact.
+Here is a summary of the weather information for June 18, 2025, based on the search results:
+
+**General Weather Patterns and Forecasts:**
+
+*   **United States:** The average temperature and weather conditions for the United States are expected to be typical for this time of year. (Weather25.com) [weather25](https://vertexaisearch.cloud.google.com/id/0-0)
+*   A persistent stormy weather pattern is affecting parts of the central and southern US. [foxweather](https://vertexaisearch.cloud.google.com/id/0-1) This pattern is expected to last for at least another week or two, increasing the risk of flooding in affected areas. [foxweather](https://vertexaisearch.cloud.google.com/id/0-1) A strong Atlantic ridge is contributing to this pattern. [foxweather](https://vertexaisearch.cloud.google.com/id/0-1) [accuweather](https://vertexaisearch.cloud.google.com/id/0-2) (FOX Weather) [foxweather](https://vertexaisearch.cloud.google.com/id/0-1)
+*   **Temperature Outlook:** The June temperature outlook favors above-average temperatures across most of the contiguous United States, except for a region in the middle of the country where all outcomes (cool, warm, or near-normal) are equally likely. [climate](https://vertexaisearch.cloud.google.com/id/0-3) (NOAA Climate.gov) [climate](https://vertexaisearch.cloud.google.com/id/0-3)
+*   **Precipitation Outlook:** The June precipitation outlook favors wet weather across much of the South. [climate](https://vertexaisearch.cloud.google.com/id/0-3) The Pacific Northwest and parts of the Northern Plains are most likely to experience below-average precipitation. [climate](https://vertexaisearch.cloud.google.com/id/0-3) (NOAA Climate.gov) [climate](https://vertexaisearch.cloud.google.com/id/0-3)
+
+**Specific Regional Forecasts:**
+
+*   **Mumbai, India:** Heavy rainfall is expected with temperatures ranging from 26°C to 29°C. There is a 97% chance of rain, accompanied by strong winds reaching 36.7 km/h and high humidity. T [indiatimes](https://vertexaisearch.cloud.google.com/id/0-4) [accuweather](https://vertexaisearch.cloud.google.com/id/0-2)his pattern is expected to continue throughout the week. ( [indiatimes](https://vertexaisearch.cloud.google.com/id/0-4)Times of India)
+*   **Ohio, USA:** Rain and thunderstorms are expected, with rainfall amounts between 0.5" and 1.5" with 100% coverage over the state. D [ocj](https://vertexaisearch.cloud.google.com/id/0-5)rier conditions are expected to return by Friday, with sunny and warm weather through the following Wednesday. ( [ocj](https://vertexaisearch.cloud.google.com/id/0-5)Ohio Ag Net)
+* [ocj](https://vertexaisearch.cloud.google.com/id/0-5)   **Kathmandu, Nepal:** Most parts of the country will be generally to fully cloudy with chances of heavy rainfall in several provinces. ( [kathmandupost](https://vertexaisearch.cloud.google.com/id/0-6)The Kathmandu Post)
+*   **Western and Sabaragamuwa provinces, Sri Lanka:** Showers are expected at times, with several spells of showers in the North-western province. ( [lankanewsweb](https://vertexaisearch.cloud.google.com/id/0-7)LNW Lanka News Web)
+* [lankanewsweb](https://vertexaisearch.cloud.google.com/id/0-7) [accuweather](https://vertexaisearch.cloud.google.com/id/0-2)   **South Africa:** Isolated showers are expected along the coastal areas and over most parts of the Western Cape. I [youtube](https://vertexaisearch.cloud.google.com/id/0-8)t is expected to be cold with strong winds along the coastal areas. ( [youtube](https://vertexaisearch.cloud.google.com/id/0-8)SABC News)
+* [youtube](https://vertexaisearch.cloud.google.com/id/0-8)   **Alabama, USA:** Showers and thunderstorms are expected, with some storms potentially strong with damaging winds, heavy rain, and lightning. (Youtube)
+*   **Japan:** The rainy season (June to mid-July) has begun. T [japanhighlights](https://vertexaisearch.cloud.google.com/id/0-9)he average daily maximum temperature is about 79°F (26°C), with about 10 rainy days expected in June. (We [japanhighlights](https://vertexaisearch.cloud.google.com/id/0-9)ather2Travel.com)
+
+**Extended Range Forecasts:**
+
+*   **Ireland:** Conditions are expected to be mixed, with a predominately southerly airflow causing temperatures to trend above average. Rai [met](https://vertexaisearch.cloud.google.com/id/0-10)nfall amounts could be above normal in the south and below normal in the north, with potential for thunderstorm activity. (Me [met](https://vertexaisearch.cloud.google.com/id/0-10) [ocj](https://vertexaisearch.cloud.google.com/id/0-5)t Éireann)
+*    [met](https://vertexaisearch.cloud.google.com/id/0-10)**India:** The Southwest Monsoon is likely to advance over remaining parts of central & east India and some parts of northwest India during the week of June 12-18, 2025. (IMD [imd](https://vertexaisearch.cloud.google.com/id/0-11))
+
+**Other Information:**
+
+*   **Festival Weather:** Forecasts are available for various festivals, including Body & Soul Festival, British Summer Time Festival, Glastonbury Festival, and Isle Of Wight Festival. (Metcheck.com)
+*   **Drought:** Drought conditions are predicted to improve in the East of the U.S., but persist or worsen in large parts of the West. (NOA [climate](https://vertexaisearch.cloud.google.com/id/0-3)A Climate.gov)
+*    [climate](https://vertexaisearch.cloud.google.com/id/0-3)**Central Region, USA (June-August 2025):** Warmer-than-normal temperatures are favored. Drou [weather](https://vertexaisearch.cloud.google.com/id/0-12) [accuweather](https://vertexaisearch.cloud.google.com/id/0-2)ght is forecast to persist and expand over large swaths of the western half of the region, especially over much of the Plains, where a drier-than-normal summer is favored. (Nat [weather](https://vertexaisearch.cloud.google.com/id/0-12)ional Weather Service)
+ [weather](https://vertexaisearch.cloud.google.com/id/0-12)
+
+SOURCES GATHERED
+----------------------------------------
+1. weather25
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj-KX0yFL_DUAl-SzLbjhZhejn5YCqqQyjxs1v95r03LxISCj5OUSjeqPw7P6mrELIMmH6LwNCj24rGl96KvbyVCdd-U2xH-K0A9hvgJsueD6hfEsqhPgHRHlpmIycnUTnwzvNPvdNhNS6bQxp_Q50O7JH3xzpUDeTC2Zj
+
+2. foxweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==
+
+3. foxweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==
+
+4. foxweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==
+
+5. accuweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe
+
+6. foxweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==
+
+7. climate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=
+
+8. climate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=
+
+9. climate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=
+
+10. climate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=
+
+11. climate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=
+
+12. indiatimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHil2laSNYzrgZwLYTgRYQmx9l4ADO_otTUB3J7kJd1F_z_l3J857-dMzcbFFvsK9Y8GZcDbkK4RmQmcy28vwF14Tt-wTzhxD6MVSy0rcMJOwh8DyBwZEukgeiE8SisnEEEp-HC306nygC365dQvr131uy1jrvGnxuUK74cCzBGHb-RenOEkZA8RkAfpkv7RgBbB0tBmZBnMCjRMwu9YC40Jr7SVDbv096q76qjZ0TOIo8I4LC5XJQBCXBZOP7ChA==
+
+13. accuweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe
+
+14. indiatimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHil2laSNYzrgZwLYTgRYQmx9l4ADO_otTUB3J7kJd1F_z_l3J857-dMzcbFFvsK9Y8GZcDbkK4RmQmcy28vwF14Tt-wTzhxD6MVSy0rcMJOwh8DyBwZEukgeiE8SisnEEEp-HC306nygC365dQvr131uy1jrvGnxuUK74cCzBGHb-RenOEkZA8RkAfpkv7RgBbB0tBmZBnMCjRMwu9YC40Jr7SVDbv096q76qjZ0TOIo8I4LC5XJQBCXBZOP7ChA==
+
+15. ocj
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg==
+
+16. ocj
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg==
+
+17. ocj
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg==
+
+18. kathmandupost
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIIVJEvePamw1t7fu4BWNOYCyXTynJTZeJcjKLjMAUjESOpwY2uF1JBXhW9-Xer7z_TnHk0fFkZVc4rO4NVVCJlrHyBaemfeGNYlxNx8fRdG7FuW_aCTBJL1IUzplcu0iRiKDEMCwIrkXJYaW7fsIeH6_WpQ-wbyEoVTDGXsRc1Reppg8=
+
+19. lankanewsweb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIbFtXuXsNMdmPngB9ld_fp1B_s4xYH2G0D2UbAAz_cr2G11pDPZM71HPN0DmLKr5z2x76SLPdn25PUB07FphL-VeT3MleODvvptQcLdXs8y9f45Qo5wPBmoBcNrXc9aWb9QIbqRUtt64f1pZZbV2sfVJKRYWdHR8PyYy6aMXpZd3r4dFW
+
+20. lankanewsweb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIbFtXuXsNMdmPngB9ld_fp1B_s4xYH2G0D2UbAAz_cr2G11pDPZM71HPN0DmLKr5z2x76SLPdn25PUB07FphL-VeT3MleODvvptQcLdXs8y9f45Qo5wPBmoBcNrXc9aWb9QIbqRUtt64f1pZZbV2sfVJKRYWdHR8PyYy6aMXpZd3r4dFW
+
+21. accuweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe
+
+22. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ=
+
+23. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ=
+
+24. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ=
+
+25. japanhighlights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjog3nvWwqNgr-iI5I-WPQgR3yy3Tnvl7xCNFQAs_sgK5jFyokB8BgPGeSvGfG3npurNJANvsPz1GQGuY2NilO7jWBggA0PIMpJzUEdX-yt51c7u8HKcZ5jlFBLG7V7RoqO3YwGES38mxg3ZMFRtom
+
+26. japanhighlights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjog3nvWwqNgr-iI5I-WPQgR3yy3Tnvl7xCNFQAs_sgK5jFyokB8BgPGeSvGfG3npurNJANvsPz1GQGuY2NilO7jWBggA0PIMpJzUEdX-yt51c7u8HKcZ5jlFBLG7V7RoqO3YwGES38mxg3ZMFRtom
+
+27. met
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNFGIsYbAmjrPyNCZkBbBCIQdFR_SPl27FWY8M5oR5LsiNVLKChqkA0t3UmrM2WvCJ_WEwLMMCtnGyN_6XomD32Vvq7FGmIVkf3ba57q_UuCzhaV5-MhfWam1uPO2NhQ72GcUf63sqw==
+
+28. met
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNFGIsYbAmjrPyNCZkBbBCIQdFR_SPl27FWY8M5oR5LsiNVLKChqkA0t3UmrM2WvCJ_WEwLMMCtnGyN_6XomD32Vvq7FGmIVkf3ba57q_UuCzhaV5-MhfWam1uPO2NhQ72GcUf63sqw==
+
+29. ocj
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg==
+
+30. met
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNFGIsYbAmjrPyNCZkBbBCIQdFR_SPl27FWY8M5oR5LsiNVLKChqkA0t3UmrM2WvCJ_WEwLMMCtnGyN_6XomD32Vvq7FGmIVkf3ba57q_UuCzhaV5-MhfWam1uPO2NhQ72GcUf63sqw==
+
+31. imd
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Vy1SYS9rOA7r5Y_GC5XIGxrQ3rJA_6ZYYxuGqEUu2V3pSZly7Lae3hhVmQSSsPWyC89cfNXwwHHa-E1me293kUbWB0htXqlaTS0w3CgZ4FSFqYWFYTEzBL1CXAMb0twzy3zAkzLX08o5aXyID0RVYU5KLZX5s5zPUu1LCg19F12XDj0QjDKgOGoKq3immnC2kzitAtFuaqDxS8Sv
+
+32. climate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=
+
+33. climate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=
+
+34. weather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPebG-WWQzXwLnySmTbpNYd4KVaEBExoxrORjjrkIf5lCRXwmN2kSRukAeHdyYM_FRjLSOuOL5EgPLAMnJwEUbblySHyXHGZBi4yOeC1WrRu28_nUZTdEa4GTGmHZ2fb2IqlEbb2Gm362YBJOYCpHhy25bUBYqVoHUiQ==
+
+35. accuweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe
+
+36. weather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPebG-WWQzXwLnySmTbpNYd4KVaEBExoxrORjjrkIf5lCRXwmN2kSRukAeHdyYM_FRjLSOuOL5EgPLAMnJwEUbblySHyXHGZBi4yOeC1WrRu28_nUZTdEa4GTGmHZ2fb2IqlEbb2Gm362YBJOYCpHhy25bUBYqVoHUiQ==
+
+37. weather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPebG-WWQzXwLnySmTbpNYd4KVaEBExoxrORjjrkIf5lCRXwmN2kSRukAeHdyYM_FRjLSOuOL5EgPLAMnJwEUbblySHyXHGZBi4yOeC1WrRu28_nUZTdEa4GTGmHZ2fb2IqlEbb2Gm362YBJOYCpHhy25bUBYqVoHUiQ==
+
+38. weather25
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj-KX0yFL_DUAl-SzLbjhZhejn5YCqqQyjxs1v95r03LxISCj5OUSjeqPw7P6mrELIMmH6LwNCj24rGl96KvbyVCdd-U2xH-K0A9hvgJsueD6hfEsqhPgHRHlpmIycnUTnwzvNPvdNhNS6bQxp_Q50O7JH3xzpUDeTC2Zj
+
+39. foxweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==
+
+40. accuweather
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe
+
+41. climate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=
+
+42. indiatimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHil2laSNYzrgZwLYTgRYQmx9l4ADO_otTUB3J7kJd1F_z_l3J857-dMzcbFFvsK9Y8GZcDbkK4RmQmcy28vwF14Tt-wTzhxD6MVSy0rcMJOwh8DyBwZEukgeiE8SisnEEEp-HC306nygC365dQvr131uy1jrvGnxuUK74cCzBGHb-RenOEkZA8RkAfpkv7RgBbB0tBmZBnMCjRMwu9YC40Jr7SVDbv096q76qjZ0TOIo8I4LC5XJQBCXBZOP7ChA==
+
+43. ocj
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg==
+
+44. kathmandupost
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIIVJEvePamw1t7fu4BWNOYCyXTynJTZeJcjKLjMAUjESOpwY2uF1JBXhW9-Xer7z_TnHk0fFkZVc4rO4NVVCJlrHyBaemfeGNYlxNx8fRdG7FuW_aCTBJL1IUzplcu0iRiKDEMCwIrkXJYaW7fsIeH6_WpQ-wbyEoVTDGXsRc1Reppg8=
+
+45. lankanewsweb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIbFtXuXsNMdmPngB9ld_fp1B_s4xYH2G0D2UbAAz_cr2G11pDPZM71HPN0DmLKr5z2x76SLPdn25PUB07FphL-VeT3MleODvvptQcLdXs8y9f45Qo5wPBmoBcNrXc9aWb9QIbqRUtt64f1pZZbV2sfVJKRYWdHR8PyYy6aMXpZd3r4dFW
+
+46. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ=
+
+47. japanhighlights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjog3nvWwqNgr-iI5I-WPQgR3yy3Tnvl7xCNFQAs_sgK5jFyokB8BgPGeSvGfG3npurNJANvsPz1GQGuY2NilO7jWBggA0PIMpJzUEdX-yt51c7u8HKcZ5jlFBLG7V7RoqO3YwGES38mxg3ZMFRtom
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "whats the wather like"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "Okay, here's a summary of the weather for June 18, 2025, based on available forecasts:\n\n**General Overview:**\n\nAcross the United States, average temperatures and weather conditions are expected to be typical for this time of year [weather25](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj-KX0yFL_DUAl-SzLbjhZhejn5YCqqQyjxs1v95r03LxISCj5OUSjeqPw7P6mrELIMmH6LwNCj24rGl96KvbyVCdd-U2xH-K0A9hvgJsueD6hfEsqhPgHRHlpmIycnUTnwzvNPvdNhNS6bQxp_Q50O7JH3xzpUDeTC2Zj). However, a persistent stormy pattern is affecting the central and southern US, potentially leading to increased flood risk for the next week or two [foxweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==). A strong Atlantic ridge is contributing to this pattern [foxweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==) [accuweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe). Overall, the June temperature outlook favors above-average temperatures for most of the contiguous US, except for a region in the middle of the country where temperatures are uncertain [climate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=). Precipitation is expected to be higher than average across much of the South, while the Pacific Northwest and parts of the Northern Plains are likely to be drier than average [climate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=).\n\n**Regional Details:**\n\n*   **United States:**\n    *   **Ohio:** Expect rain and thunderstorms with significant rainfall (0.5\" to 1.5\") across the entire state, with drier, sunny, and warm conditions returning by Friday [ocj](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg==).\n    *   **Alabama:** Showers and thunderstorms are anticipated, with some storms potentially strong, bringing damaging winds, heavy rain, and lightning (Youtube).\n    *   **Central Region (June-August):** Warmer-than-normal temperatures are favored. Drought is expected to persist and expand in the western half of the region, particularly over the Plains, where a drier-than-normal summer is expected [weather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==2).\n*   **Mumbai, India:** Expect heavy rainfall with temperatures between 26°C and 29°C. There's a high chance of rain (97%), along with strong winds (36.7 km/h) and high humidity. This pattern is expected to continue throughout the week [indiatimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHil2laSNYzrgZwLYTgRYQmx9l4ADO_otTUB3J7kJd1F_z_l3J857-dMzcbFFvsK9Y8GZcDbkK4RmQmcy28vwF14Tt-wTzhxD6MVSy0rcMJOwh8DyBwZEukgeiE8SisnEEEp-HC306nygC365dQvr131uy1jrvGnxuUK74cCzBGHb-RenOEkZA8RkAfpkv7RgBbB0tBmZBnMCjRMwu9YC40Jr7SVDbv096q76qjZ0TOIo8I4LC5XJQBCXBZOP7ChA==) [accuweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe). The Southwest Monsoon is expected to advance over remaining parts of central & east India and some parts of northwest India during this week [imd](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==1).\n*   **Kathmandu, Nepal:** Most areas will be generally to fully cloudy with chances of heavy rainfall in several provinces [kathmandupost](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIIVJEvePamw1t7fu4BWNOYCyXTynJTZeJcjKLjMAUjESOpwY2uF1JBXhW9-Xer7z_TnHk0fFkZVc4rO4NVVCJlrHyBaemfeGNYlxNx8fRdG7FuW_aCTBJL1IUzplcu0iRiKDEMCwIrkXJYaW7fsIeH6_WpQ-wbyEoVTDGXsRc1Reppg8=).\n*   **Western and Sabaragamuwa provinces, Sri Lanka:** Showers are expected at times, with several spells of showers in the North-western province [lankanewsweb](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIbFtXuXsNMdmPngB9ld_fp1B_s4xYH2G0D2UbAAz_cr2G11pDPZM71HPN0DmLKr5z2x76SLPdn25PUB07FphL-VeT3MleODvvptQcLdXs8y9f45Qo5wPBmoBcNrXc9aWb9QIbqRUtt64f1pZZbV2sfVJKRYWdHR8PyYy6aMXpZd3r4dFW) [accuweather](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe).\n*   **South Africa:** Isolated showers are expected along the coastal areas and over most of the Western Cape. It will be cold with strong winds along the coastal areas [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ=).\n*   **Japan:** The rainy season has begun (June to mid-July). The average daily maximum temperature is about 79°F (26°C), with about 10 rainy days expected in June [japanhighlights](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjog3nvWwqNgr-iI5I-WPQgR3yy3Tnvl7xCNFQAs_sgK5jFyokB8BgPGeSvGfG3npurNJANvsPz1GQGuY2NilO7jWBggA0PIMpJzUEdX-yt51c7u8HKcZ5jlFBLG7V7RoqO3YwGES38mxg3ZMFRtom).\n*   **Ireland:** Expect mixed conditions with a predominately southerly airflow causing temperatures to trend above average. Rainfall could be above normal in the south and below normal in the north, with potential for thunderstorm activity [met](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww==0) [ocj](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg==).\n\n**Other Considerations:**\n\nDrought conditions are predicted to improve in the East of the U.S., but persist or worsen in large parts of the West [climate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc=)."
+    }
+  ],
+  "search_query": [
+    "weather"
+  ],
+  "web_research_result": [
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"weather\" and synthesize it into a verifiable text artifact.\nHere is a summary of the weather information for June 18, 2025, based on the search results:\n\n**General Weather Patterns and Forecasts:**\n\n*   **United States:** The average temperature and weather conditions for the United States are expected to be typical for this time of year. (Weather25.com) [weather25](https://vertexaisearch.cloud.google.com/id/0-0)\n*   A persistent stormy weather pattern is affecting parts of the central and southern US. [foxweather](https://vertexaisearch.cloud.google.com/id/0-1) This pattern is expected to last for at least another week or two, increasing the risk of flooding in affected areas. [foxweather](https://vertexaisearch.cloud.google.com/id/0-1) A strong Atlantic ridge is contributing to this pattern. [foxweather](https://vertexaisearch.cloud.google.com/id/0-1) [accuweather](https://vertexaisearch.cloud.google.com/id/0-2) (FOX Weather) [foxweather](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Temperature Outlook:** The June temperature outlook favors above-average temperatures across most of the contiguous United States, except for a region in the middle of the country where all outcomes (cool, warm, or near-normal) are equally likely. [climate](https://vertexaisearch.cloud.google.com/id/0-3) (NOAA Climate.gov) [climate](https://vertexaisearch.cloud.google.com/id/0-3)\n*   **Precipitation Outlook:** The June precipitation outlook favors wet weather across much of the South. [climate](https://vertexaisearch.cloud.google.com/id/0-3) The Pacific Northwest and parts of the Northern Plains are most likely to experience below-average precipitation. [climate](https://vertexaisearch.cloud.google.com/id/0-3) (NOAA Climate.gov) [climate](https://vertexaisearch.cloud.google.com/id/0-3)\n\n**Specific Regional Forecasts:**\n\n*   **Mumbai, India:** Heavy rainfall is expected with temperatures ranging from 26°C to 29°C. There is a 97% chance of rain, accompanied by strong winds reaching 36.7 km/h and high humidity. T [indiatimes](https://vertexaisearch.cloud.google.com/id/0-4) [accuweather](https://vertexaisearch.cloud.google.com/id/0-2)his pattern is expected to continue throughout the week. ( [indiatimes](https://vertexaisearch.cloud.google.com/id/0-4)Times of India)\n*   **Ohio, USA:** Rain and thunderstorms are expected, with rainfall amounts between 0.5\" and 1.5\" with 100% coverage over the state. D [ocj](https://vertexaisearch.cloud.google.com/id/0-5)rier conditions are expected to return by Friday, with sunny and warm weather through the following Wednesday. ( [ocj](https://vertexaisearch.cloud.google.com/id/0-5)Ohio Ag Net)\n* [ocj](https://vertexaisearch.cloud.google.com/id/0-5)   **Kathmandu, Nepal:** Most parts of the country will be generally to fully cloudy with chances of heavy rainfall in several provinces. ( [kathmandupost](https://vertexaisearch.cloud.google.com/id/0-6)The Kathmandu Post)\n*   **Western and Sabaragamuwa provinces, Sri Lanka:** Showers are expected at times, with several spells of showers in the North-western province. ( [lankanewsweb](https://vertexaisearch.cloud.google.com/id/0-7)LNW Lanka News Web)\n* [lankanewsweb](https://vertexaisearch.cloud.google.com/id/0-7) [accuweather](https://vertexaisearch.cloud.google.com/id/0-2)   **South Africa:** Isolated showers are expected along the coastal areas and over most parts of the Western Cape. I [youtube](https://vertexaisearch.cloud.google.com/id/0-8)t is expected to be cold with strong winds along the coastal areas. ( [youtube](https://vertexaisearch.cloud.google.com/id/0-8)SABC News)\n* [youtube](https://vertexaisearch.cloud.google.com/id/0-8)   **Alabama, USA:** Showers and thunderstorms are expected, with some storms potentially strong with damaging winds, heavy rain, and lightning. (Youtube)\n*   **Japan:** The rainy season (June to mid-July) has begun. T [japanhighlights](https://vertexaisearch.cloud.google.com/id/0-9)he average daily maximum temperature is about 79°F (26°C), with about 10 rainy days expected in June. (We [japanhighlights](https://vertexaisearch.cloud.google.com/id/0-9)ather2Travel.com)\n\n**Extended Range Forecasts:**\n\n*   **Ireland:** Conditions are expected to be mixed, with a predominately southerly airflow causing temperatures to trend above average. Rai [met](https://vertexaisearch.cloud.google.com/id/0-10)nfall amounts could be above normal in the south and below normal in the north, with potential for thunderstorm activity. (Me [met](https://vertexaisearch.cloud.google.com/id/0-10) [ocj](https://vertexaisearch.cloud.google.com/id/0-5)t Éireann)\n*    [met](https://vertexaisearch.cloud.google.com/id/0-10)**India:** The Southwest Monsoon is likely to advance over remaining parts of central & east India and some parts of northwest India during the week of June 12-18, 2025. (IMD [imd](https://vertexaisearch.cloud.google.com/id/0-11))\n\n**Other Information:**\n\n*   **Festival Weather:** Forecasts are available for various festivals, including Body & Soul Festival, British Summer Time Festival, Glastonbury Festival, and Isle Of Wight Festival. (Metcheck.com)\n*   **Drought:** Drought conditions are predicted to improve in the East of the U.S., but persist or worsen in large parts of the West. (NOA [climate](https://vertexaisearch.cloud.google.com/id/0-3)A Climate.gov)\n*    [climate](https://vertexaisearch.cloud.google.com/id/0-3)**Central Region, USA (June-August 2025):** Warmer-than-normal temperatures are favored. Drou [weather](https://vertexaisearch.cloud.google.com/id/0-12) [accuweather](https://vertexaisearch.cloud.google.com/id/0-2)ght is forecast to persist and expand over large swaths of the western half of the region, especially over much of the Plains, where a drier-than-normal summer is favored. (Nat [weather](https://vertexaisearch.cloud.google.com/id/0-12)ional Weather Service)\n [weather](https://vertexaisearch.cloud.google.com/id/0-12)"
+  ],
+  "sources_gathered": [
+    {
+      "label": "weather25",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj-KX0yFL_DUAl-SzLbjhZhejn5YCqqQyjxs1v95r03LxISCj5OUSjeqPw7P6mrELIMmH6LwNCj24rGl96KvbyVCdd-U2xH-K0A9hvgJsueD6hfEsqhPgHRHlpmIycnUTnwzvNPvdNhNS6bQxp_Q50O7JH3xzpUDeTC2Zj"
+    },
+    {
+      "label": "foxweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww=="
+    },
+    {
+      "label": "foxweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww=="
+    },
+    {
+      "label": "foxweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww=="
+    },
+    {
+      "label": "accuweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe"
+    },
+    {
+      "label": "foxweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww=="
+    },
+    {
+      "label": "climate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc="
+    },
+    {
+      "label": "climate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc="
+    },
+    {
+      "label": "climate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc="
+    },
+    {
+      "label": "climate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc="
+    },
+    {
+      "label": "climate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc="
+    },
+    {
+      "label": "indiatimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHil2laSNYzrgZwLYTgRYQmx9l4ADO_otTUB3J7kJd1F_z_l3J857-dMzcbFFvsK9Y8GZcDbkK4RmQmcy28vwF14Tt-wTzhxD6MVSy0rcMJOwh8DyBwZEukgeiE8SisnEEEp-HC306nygC365dQvr131uy1jrvGnxuUK74cCzBGHb-RenOEkZA8RkAfpkv7RgBbB0tBmZBnMCjRMwu9YC40Jr7SVDbv096q76qjZ0TOIo8I4LC5XJQBCXBZOP7ChA=="
+    },
+    {
+      "label": "accuweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe"
+    },
+    {
+      "label": "indiatimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHil2laSNYzrgZwLYTgRYQmx9l4ADO_otTUB3J7kJd1F_z_l3J857-dMzcbFFvsK9Y8GZcDbkK4RmQmcy28vwF14Tt-wTzhxD6MVSy0rcMJOwh8DyBwZEukgeiE8SisnEEEp-HC306nygC365dQvr131uy1jrvGnxuUK74cCzBGHb-RenOEkZA8RkAfpkv7RgBbB0tBmZBnMCjRMwu9YC40Jr7SVDbv096q76qjZ0TOIo8I4LC5XJQBCXBZOP7ChA=="
+    },
+    {
+      "label": "ocj",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg=="
+    },
+    {
+      "label": "ocj",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg=="
+    },
+    {
+      "label": "ocj",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg=="
+    },
+    {
+      "label": "kathmandupost",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIIVJEvePamw1t7fu4BWNOYCyXTynJTZeJcjKLjMAUjESOpwY2uF1JBXhW9-Xer7z_TnHk0fFkZVc4rO4NVVCJlrHyBaemfeGNYlxNx8fRdG7FuW_aCTBJL1IUzplcu0iRiKDEMCwIrkXJYaW7fsIeH6_WpQ-wbyEoVTDGXsRc1Reppg8="
+    },
+    {
+      "label": "lankanewsweb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIbFtXuXsNMdmPngB9ld_fp1B_s4xYH2G0D2UbAAz_cr2G11pDPZM71HPN0DmLKr5z2x76SLPdn25PUB07FphL-VeT3MleODvvptQcLdXs8y9f45Qo5wPBmoBcNrXc9aWb9QIbqRUtt64f1pZZbV2sfVJKRYWdHR8PyYy6aMXpZd3r4dFW"
+    },
+    {
+      "label": "lankanewsweb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIbFtXuXsNMdmPngB9ld_fp1B_s4xYH2G0D2UbAAz_cr2G11pDPZM71HPN0DmLKr5z2x76SLPdn25PUB07FphL-VeT3MleODvvptQcLdXs8y9f45Qo5wPBmoBcNrXc9aWb9QIbqRUtt64f1pZZbV2sfVJKRYWdHR8PyYy6aMXpZd3r4dFW"
+    },
+    {
+      "label": "accuweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ="
+    },
+    {
+      "label": "japanhighlights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjog3nvWwqNgr-iI5I-WPQgR3yy3Tnvl7xCNFQAs_sgK5jFyokB8BgPGeSvGfG3npurNJANvsPz1GQGuY2NilO7jWBggA0PIMpJzUEdX-yt51c7u8HKcZ5jlFBLG7V7RoqO3YwGES38mxg3ZMFRtom"
+    },
+    {
+      "label": "japanhighlights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjog3nvWwqNgr-iI5I-WPQgR3yy3Tnvl7xCNFQAs_sgK5jFyokB8BgPGeSvGfG3npurNJANvsPz1GQGuY2NilO7jWBggA0PIMpJzUEdX-yt51c7u8HKcZ5jlFBLG7V7RoqO3YwGES38mxg3ZMFRtom"
+    },
+    {
+      "label": "met",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNFGIsYbAmjrPyNCZkBbBCIQdFR_SPl27FWY8M5oR5LsiNVLKChqkA0t3UmrM2WvCJ_WEwLMMCtnGyN_6XomD32Vvq7FGmIVkf3ba57q_UuCzhaV5-MhfWam1uPO2NhQ72GcUf63sqw=="
+    },
+    {
+      "label": "met",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNFGIsYbAmjrPyNCZkBbBCIQdFR_SPl27FWY8M5oR5LsiNVLKChqkA0t3UmrM2WvCJ_WEwLMMCtnGyN_6XomD32Vvq7FGmIVkf3ba57q_UuCzhaV5-MhfWam1uPO2NhQ72GcUf63sqw=="
+    },
+    {
+      "label": "ocj",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg=="
+    },
+    {
+      "label": "met",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNFGIsYbAmjrPyNCZkBbBCIQdFR_SPl27FWY8M5oR5LsiNVLKChqkA0t3UmrM2WvCJ_WEwLMMCtnGyN_6XomD32Vvq7FGmIVkf3ba57q_UuCzhaV5-MhfWam1uPO2NhQ72GcUf63sqw=="
+    },
+    {
+      "label": "imd",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Vy1SYS9rOA7r5Y_GC5XIGxrQ3rJA_6ZYYxuGqEUu2V3pSZly7Lae3hhVmQSSsPWyC89cfNXwwHHa-E1me293kUbWB0htXqlaTS0w3CgZ4FSFqYWFYTEzBL1CXAMb0twzy3zAkzLX08o5aXyID0RVYU5KLZX5s5zPUu1LCg19F12XDj0QjDKgOGoKq3immnC2kzitAtFuaqDxS8Sv"
+    },
+    {
+      "label": "climate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc="
+    },
+    {
+      "label": "climate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc="
+    },
+    {
+      "label": "weather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPebG-WWQzXwLnySmTbpNYd4KVaEBExoxrORjjrkIf5lCRXwmN2kSRukAeHdyYM_FRjLSOuOL5EgPLAMnJwEUbblySHyXHGZBi4yOeC1WrRu28_nUZTdEa4GTGmHZ2fb2IqlEbb2Gm362YBJOYCpHhy25bUBYqVoHUiQ=="
+    },
+    {
+      "label": "accuweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe"
+    },
+    {
+      "label": "weather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPebG-WWQzXwLnySmTbpNYd4KVaEBExoxrORjjrkIf5lCRXwmN2kSRukAeHdyYM_FRjLSOuOL5EgPLAMnJwEUbblySHyXHGZBi4yOeC1WrRu28_nUZTdEa4GTGmHZ2fb2IqlEbb2Gm362YBJOYCpHhy25bUBYqVoHUiQ=="
+    },
+    {
+      "label": "weather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPebG-WWQzXwLnySmTbpNYd4KVaEBExoxrORjjrkIf5lCRXwmN2kSRukAeHdyYM_FRjLSOuOL5EgPLAMnJwEUbblySHyXHGZBi4yOeC1WrRu28_nUZTdEa4GTGmHZ2fb2IqlEbb2Gm362YBJOYCpHhy25bUBYqVoHUiQ=="
+    },
+    {
+      "label": "weather25",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj-KX0yFL_DUAl-SzLbjhZhejn5YCqqQyjxs1v95r03LxISCj5OUSjeqPw7P6mrELIMmH6LwNCj24rGl96KvbyVCdd-U2xH-K0A9hvgJsueD6hfEsqhPgHRHlpmIycnUTnwzvNPvdNhNS6bQxp_Q50O7JH3xzpUDeTC2Zj"
+    },
+    {
+      "label": "foxweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-iY07M96z3kO4ijFUQpeCbac-vKmlCjarP9A0RkMOc5Qa_lkjlI22jy4Tx2p695ySkg0yAw-mdxoqhsb9eY79APoz77Xm6BbNDqR1Fb7TABQXM_ph-Ugg6MaNu_rvTh6SJ76NAnog158hvuOfC6uGvO532KCq2yHSDZu7dVl7toFi4AF3BwcU9IuEcXlvoqFs2-Ygww=="
+    },
+    {
+      "label": "accuweather",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1l001x_2plm-y8j6xE4SPeR2MshZ2C7K-OFuG11HMwX7LorLAtlXO2vH0k7lPVu463WnUWT2F25E72_WDnGL5NYkf8Yc1YW76hiRHfgXIoKh5pxE2nHU0u68NvXV56s9Y4NzZUF0m7fzW2BrRRSqQfa9PNyqvwi6AxbvDggoe"
+    },
+    {
+      "label": "climate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXwCk2qgzMj-tBOtst7eUwhA-JpSC355YBYyhe7B1tVyJ5WH8vA79PgMxh2VZ4M0mzf4fGsOzafST2VoO8A8K55R4h2ykmU95FhiiDy6cel98DWFgpJFbN2FgJFny-KWTxMk2nOymTuMyvFwnKtarruULgf3azmX5EEu84R-4d7PYMyO5ES5KtQ5WLh2rfqhEzEoc="
+    },
+    {
+      "label": "indiatimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHil2laSNYzrgZwLYTgRYQmx9l4ADO_otTUB3J7kJd1F_z_l3J857-dMzcbFFvsK9Y8GZcDbkK4RmQmcy28vwF14Tt-wTzhxD6MVSy0rcMJOwh8DyBwZEukgeiE8SisnEEEp-HC306nygC365dQvr131uy1jrvGnxuUK74cCzBGHb-RenOEkZA8RkAfpkv7RgBbB0tBmZBnMCjRMwu9YC40Jr7SVDbv096q76qjZ0TOIo8I4LC5XJQBCXBZOP7ChA=="
+    },
+    {
+      "label": "ocj",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXqDkIO11SYAcZtt2IdpskvML4Xl2jkCOlGE1FdZO6lciT2J4b7m2GVAvzyLRd5rwohbb5IrlgRUGCn2aqgcXE72adOXJWubHOvVbtZ5gk_6vraKyvstqUbYjHl0vReizeXxQXfyqen6aEZl9ms-HUlQq-It9d7qgkRnuXg=="
+    },
+    {
+      "label": "kathmandupost",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIIVJEvePamw1t7fu4BWNOYCyXTynJTZeJcjKLjMAUjESOpwY2uF1JBXhW9-Xer7z_TnHk0fFkZVc4rO4NVVCJlrHyBaemfeGNYlxNx8fRdG7FuW_aCTBJL1IUzplcu0iRiKDEMCwIrkXJYaW7fsIeH6_WpQ-wbyEoVTDGXsRc1Reppg8="
+    },
+    {
+      "label": "lankanewsweb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIbFtXuXsNMdmPngB9ld_fp1B_s4xYH2G0D2UbAAz_cr2G11pDPZM71HPN0DmLKr5z2x76SLPdn25PUB07FphL-VeT3MleODvvptQcLdXs8y9f45Qo5wPBmoBcNrXc9aWb9QIbqRUtt64f1pZZbV2sfVJKRYWdHR8PyYy6aMXpZd3r4dFW"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-4Jk7GvOAOg56bWEvcY7xR60B-SF2K5LsOK1y9vtr-DEOaPR31nWBnAKdHQW52hgqODB4SuBw-6TCdF21eOMc4po-vxwuieGq5UcVQ-kpDcI0zw4gCgTzZfwdZAa8At3_gfo8iHQ="
+    },
+    {
+      "label": "japanhighlights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjog3nvWwqNgr-iI5I-WPQgR3yy3Tnvl7xCNFQAs_sgK5jFyokB8BgPGeSvGfG3npurNJANvsPz1GQGuY2NilO7jWBggA0PIMpJzUEdX-yt51c7u8HKcZ5jlFBLG7V7RoqO3YwGES38mxg3ZMFRtom"
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 1
+}

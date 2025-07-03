@@ -1,0 +1,793 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-18 14:54:06
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: please name 5 roads
+
+[AI]: Here are five roads based on the provided summaries:
+
+1.  **Amalfi Coast, Italy:** This road is known for its hairpin turns, pastel villages, and Mediterranean views [1, 11].
+2.  **Pacific Coast Highway (California State Route 1), USA:** This highway offers redwood forests, golden shores, cliffs, and coastal towns [1, 3, 4].
+3.  **Great Ocean Road, Australia:** This road features rugged cliffs, beaches, rainforests, and the Twelve Apostles [3, 4, 7, 11].
+4.  **Fifth Avenue, New York, USA:** A global icon embodying elegance, culture, and urban energy [10].
+5.  **Avenue des Champs-Élysées, Paris, France:** Known as "the most beautiful avenue in the world," a symbol of French grandeur [2, 10].
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 1
+Total search queries: 1
+Sources gathered: 85
+Web research results: 1
+
+SEARCH QUERIES USED
+----------------------------------------
+1. famous roads in the world
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "famous roads in the world" and synthesize it into a verifiable text artifact.
+Here's a summary of famous roads around the world, based on recent search results:
+
+**Scenic and Iconic Roads for Road Trips:**
+
+*   **Amalfi Coast, Italy:** Known for hairpin turns, pastel villages, and Mediterranean views. [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) (Quintessentially [1], Klook Travel Blog [11])
+*   **Pacific Coast Highway (California State Route 1), USA:** Offers redwood forests, golden shores, cliffs, and coastal towns. [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) (Quintessentially [1], nubia magazine! [3], Ezy Travellers [4])
+*   **Great Ocean Road, Australia:** Features rugged cliffs, beaches, rainforests, and the Twelve Apostles. [ezytravellers](https://vertexaisearch.cloud.google.com/id/0-1) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) (nubia magazine! [3], Ezy Travellers [4], NDTV [7], Klook Travel Blog [11])
+*   **Garden Route, South Africa:** Traverses forests, coastal cliffs and mountain passes. [ezytravellers](https://vertexaisearch.cloud.google.com/id/0-1) [ndtv](https://vertexaisearch.cloud.google.com/id/0-3) (Quintessentially [1], nubia magazine! [3], NDTV [7])
+*   **North Coast 500, Scotland:** Includes wild beaches, winding roads and whisky distilleries. [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) (Quintessentially [1], Ezy Travellers [4])
+*   **The Ring Road, Iceland:** An iconic route through volcanoes, waterfalls, glaciers and black sand beaches. [ezytravellers](https://vertexaisearch.cloud.google.com/id/0-1) (Ezy Travellers [4], RateHawk.com [12])
+*   **Icefields Parkway, Canada:** Scenic drive through the Canadian Rockies. (nubia magazine! [3], Klook Travel Blog [11])
+*   **The Wild Atlantic Way, Ireland:** Covers the entire western coast of Ireland. [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) (RateHawk.com [12])
+*   **Italian Dolomites:** Features mountain scenery, alpine meadows and turquoise lakes. [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) (RateHawk.com [12])
+*   **Stelvio Pass, Italy:** A thrilling mountain pass known for hairpin curves and alpine scenery. [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) (nubia magazine! [3]) [rdb](https://vertexaisearch.cloud.google.com/id/0-6) [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [klook](https://vertexaisearch.cloud.google.com/id/0-8) [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) [windrushcarstorage](https://vertexaisearch.cloud.google.com/id/0-9) [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)
+*   **Atlantic Road, Norway:** Traverses a series of islets and skerries along the Norwegian Sea. [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) (nubia magazine! [3], Ezy Travellers [4])
+*   **Namibia:** Roads crisscross a vast wilderness with remarkable wildlife and natural wonders. [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) (RateHawk.com [12])
+*   **Lofoten Islands, Norway:** Known for stunning natural beauty and dramatic landscapes. [ndtv](https://vertexaisearch.cloud.google.com/id/0-3) (NDTV [7], RateHawk.com [12])
+*   **Bavarian Alps, Germany:** Forested hills, glittering lakes, and postcard-perfect Alpine villages. [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) (RateHawk.com [12])
+
+**Famous Streets:**
+
+*   **Fifth Avenue, New York, USA:** A global icon embodying elegance, culture, and urban energy. [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) (nubia magazine! [10]) [rdb](https://vertexaisearch.cloud.google.com/id/0-6) [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [klook](https://vertexaisearch.cloud.google.com/id/0-8) [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) [windrushcarstorage](https://vertexaisearch.cloud.google.com/id/0-9) [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)
+*   **Avenue des Champs-Élysées, Paris, France:** Known as "the most beautiful avenue in the world," a symbol of French grandeur. ( [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12)SN Travel [2], nubia magazine! [10])
+* [rdb](https://vertexaisearch.cloud.google.com/id/0-6) [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [klook](https://vertexaisearch.cloud.google.com/id/0-8) [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) [windrushcarstorage](https://vertexaisearch.cloud.google.com/id/0-9) [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)   **Causeway Bay, Hong Kong:** A dynamic metropolitan center known for retail. ( [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12)nubia magazine! [10])
+* [rdb](https://vertexaisearch.cloud.google.com/id/0-6) [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [klook](https://vertexaisearch.cloud.google.com/id/0-8) [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) [windrushcarstorage](https://vertexaisearch.cloud.google.com/id/0-9) [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)   **Ocean Drive, Miami, USA:** Lined with Art Deco buildings and palm trees, offering nightlife and beachfront relaxation. ( [sntravel](https://vertexaisearch.cloud.google.com/id/0-14)SN Travel [2])
+*   **Via dell'Amore, Cinque Terre, Italy:** A picturesque coastal path connecting charming villages. ( [sntravel](https://vertexaisearch.cloud.google.com/id/0-14)SN Travel [2])
+*   **Calle Cava Baja, Madrid, Spain:** A culinary paradise packed with tapas bars. ( [sntravel](https://vertexaisearch.cloud.google.com/id/0-14)SN Travel [2])
+*   **Malecón, Havana, Cuba:** A vibrant cultural hotspot along the city's coastline. (S [sntravel](https://vertexaisearch.cloud.google.com/id/0-14)N Travel [2])
+
+**Dangerous Roads:**
+
+*   **North Yungas Road (Death Road), Bolivia:** Infamous for sheer drops and foggy conditions. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6], BBC Science Focus Magazine [16])
+*   **Karakoram Highway, Pakistan-China:** One of the highest international paved roads. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6])
+*   **Dalton Highway, Alaska, USA:** A remote route used by oil truckers. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6], BBC Science Focus Magazine [16])
+*   **Zoji La Pass, India:** A high mountain pass with narrow roads and no safety barriers. (F [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)ree Job Alert [6], BBC Science Focus Magazine [16])
+*   **Guoliang Tunnel Road, China:** Carved by hand into a cliff face. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6])
+*   **Fairy Meadows Road, Pakistan:** Only accessible by locals and 4x4 vehicles. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6])
+*   **Skippers Canyon Road, New Zealand:** Features sheer drops and hairpin bends; rental car insurance often doesn't cover it. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)ree Job Alert [6], BBC Science Focus Magazine [16])
+*   **Transfăgărășan Highway, Romania:** A winding mountain road with hairpin bends and tunnels. (Free  [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)Job Alert [6], BBC Science Focus Magazine [16])
+*   **Sichuan–Tibet Highway, China:** High altitude road with potential for avalanches and landslides. (Free Jo [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)b Alert [6], BBC Science Focus Magazine [16])
+*   **Tianmen Mountain Road, China:** Known as the "99 Bends Road" with sharp hairpin turns. (Free Jo [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)b Alert [6])
+*   **Keylong Kishtwar Road, India:** Single-track dirt track through treacherous mountain passes. (BBC Sci [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)ence Focus Magazine [16])
+
+**Other Roads:**
+
+*   **Marma Box Creek Road, New South Wales, Australia:** A historic road being upgraded to improve access to the World Heritage Mungo National Park. (Mirage  [nsw](https://vertexaisearch.cloud.google.com/id/0-15) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11)News [14], Transport for NSW [15])
+
+Please note that road conditions and popularity can change, so it's always a good idea to check current travel advisories and reviews before planning a trip.
+
+
+SOURCES GATHERED
+----------------------------------------
+1. quintessentially
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4
+
+2. quintessentially
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4
+
+3. ezytravellers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3BEo6LjnZSnOWPN29QyZIQKD9GsGTatYzFNivst14L2cQwT5o8jei2Yiqz-1ezIwsP38tydGmmh6-0T7RF4vxP-xRMi6m2bApww3X2LUdp8sH_JfUfShkH4NJ3xTVo454R0tANyn1mqABL1xyhXx-SH9zVSptPMlMLPwBS9GZ3LSJgxA6DQQUXf1nb4gIc27iWkETkLDMnXc=
+
+4. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH
+
+5. ezytravellers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3BEo6LjnZSnOWPN29QyZIQKD9GsGTatYzFNivst14L2cQwT5o8jei2Yiqz-1ezIwsP38tydGmmh6-0T7RF4vxP-xRMi6m2bApww3X2LUdp8sH_JfUfShkH4NJ3xTVo454R0tANyn1mqABL1xyhXx-SH9zVSptPMlMLPwBS9GZ3LSJgxA6DQQUXf1nb4gIc27iWkETkLDMnXc=
+
+6. ndtv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw1JFsRG2pd3RnTild7XsTMSPNQTXk6ukaWWe4x6tVNg3LsUi9MuHfFnwpF9DTXNUWb2z15ECBK94xxf7-IGvnUkvgOrWR0enHRlNSHkE2eyNtj0thfVOkaTcT87lLZgY7NzFhGrUIsBjR55g182IOJ20QVrDa5FxlDy0ds6iJWM3x3ZYnGO1CQBIdRHtST9aTqJuN
+
+7. quintessentially
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4
+
+8. ezytravellers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3BEo6LjnZSnOWPN29QyZIQKD9GsGTatYzFNivst14L2cQwT5o8jei2Yiqz-1ezIwsP38tydGmmh6-0T7RF4vxP-xRMi6m2bApww3X2LUdp8sH_JfUfShkH4NJ3xTVo454R0tANyn1mqABL1xyhXx-SH9zVSptPMlMLPwBS9GZ3LSJgxA6DQQUXf1nb4gIc27iWkETkLDMnXc=
+
+9. dreambigtravelfarblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB
+
+10. anywhereweroam
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4=
+
+11. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH
+
+12. rdb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExLobx8AhlrLlaniK5T56nPQLXCSKLofnzVmYFD7UxiA-r-oQdEjnyo5lCjwl5gLZ7bba4wHdyCqG1WRXWdog4TS2hSmRA2ABn--INDG2bK4i6GcFk8xRDDym9BdHNstgfNdhjhqvBwzWa8Df8nk6CtfD2JDdV1gYFiuyfIsg2-Z-VXuWvMgOJ-e6nNtt7
+
+13. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+14. klook
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLO2P98QvVH2wFSTK3n4Qbs-AUjppGNESMTP5V_hIDjQ6WyMBQVS861ceRoXydtyMl_98DhGoj5Nt_zSfY-TJjyzZ_hJBYAeD0rOt3kdKvgFgYB6nkk512Sk2KO6ejYcQCpI4y2mG8Lgt51ncs6pIdmFnseJnX_g==
+
+15. anywhereweroam
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4=
+
+16. quintessentially
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4
+
+17. dreambigtravelfarblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB
+
+18. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH
+
+19. windrushcarstorage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0GGaX8W9Ayj1xg3smRcyy34XodGZHdTA2vIrB4oTKN3LoN3gdatmHZ0Wui0E3ryvryWvC2i--Ny5U1HvxxBWQ9tP-mAhJl7B70fLOGFQm3H-4jr6fpmuboPakIVw6QXXp0v--3-mWSj5P8AgVCa_v8PU3c7yGVI=
+
+20. ratehawk
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw==
+
+21. miragenews
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6
+
+22. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0=
+
+23. sciencefocus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw==
+
+24. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH
+
+25. anywhereweroam
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4=
+
+26. ndtv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw1JFsRG2pd3RnTild7XsTMSPNQTXk6ukaWWe4x6tVNg3LsUi9MuHfFnwpF9DTXNUWb2z15ECBK94xxf7-IGvnUkvgOrWR0enHRlNSHkE2eyNtj0thfVOkaTcT87lLZgY7NzFhGrUIsBjR55g182IOJ20QVrDa5FxlDy0ds6iJWM3x3ZYnGO1CQBIdRHtST9aTqJuN
+
+27. ratehawk
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw==
+
+28. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0=
+
+29. rdb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExLobx8AhlrLlaniK5T56nPQLXCSKLofnzVmYFD7UxiA-r-oQdEjnyo5lCjwl5gLZ7bba4wHdyCqG1WRXWdog4TS2hSmRA2ABn--INDG2bK4i6GcFk8xRDDym9BdHNstgfNdhjhqvBwzWa8Df8nk6CtfD2JDdV1gYFiuyfIsg2-Z-VXuWvMgOJ-e6nNtt7
+
+30. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+31. klook
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLO2P98QvVH2wFSTK3n4Qbs-AUjppGNESMTP5V_hIDjQ6WyMBQVS861ceRoXydtyMl_98DhGoj5Nt_zSfY-TJjyzZ_hJBYAeD0rOt3kdKvgFgYB6nkk512Sk2KO6ejYcQCpI4y2mG8Lgt51ncs6pIdmFnseJnX_g==
+
+32. anywhereweroam
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4=
+
+33. quintessentially
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4
+
+34. dreambigtravelfarblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB
+
+35. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH
+
+36. windrushcarstorage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0GGaX8W9Ayj1xg3smRcyy34XodGZHdTA2vIrB4oTKN3LoN3gdatmHZ0Wui0E3ryvryWvC2i--Ny5U1HvxxBWQ9tP-mAhJl7B70fLOGFQm3H-4jr6fpmuboPakIVw6QXXp0v--3-mWSj5P8AgVCa_v8PU3c7yGVI=
+
+37. ratehawk
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw==
+
+38. miragenews
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6
+
+39. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0=
+
+40. sciencefocus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw==
+
+41. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0=
+
+42. rdb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExLobx8AhlrLlaniK5T56nPQLXCSKLofnzVmYFD7UxiA-r-oQdEjnyo5lCjwl5gLZ7bba4wHdyCqG1WRXWdog4TS2hSmRA2ABn--INDG2bK4i6GcFk8xRDDym9BdHNstgfNdhjhqvBwzWa8Df8nk6CtfD2JDdV1gYFiuyfIsg2-Z-VXuWvMgOJ-e6nNtt7
+
+43. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+44. klook
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLO2P98QvVH2wFSTK3n4Qbs-AUjppGNESMTP5V_hIDjQ6WyMBQVS861ceRoXydtyMl_98DhGoj5Nt_zSfY-TJjyzZ_hJBYAeD0rOt3kdKvgFgYB6nkk512Sk2KO6ejYcQCpI4y2mG8Lgt51ncs6pIdmFnseJnX_g==
+
+45. anywhereweroam
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4=
+
+46. quintessentially
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4
+
+47. dreambigtravelfarblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB
+
+48. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH
+
+49. windrushcarstorage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0GGaX8W9Ayj1xg3smRcyy34XodGZHdTA2vIrB4oTKN3LoN3gdatmHZ0Wui0E3ryvryWvC2i--Ny5U1HvxxBWQ9tP-mAhJl7B70fLOGFQm3H-4jr6fpmuboPakIVw6QXXp0v--3-mWSj5P8AgVCa_v8PU3c7yGVI=
+
+50. ratehawk
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw==
+
+51. miragenews
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6
+
+52. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0=
+
+53. sciencefocus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw==
+
+54. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0=
+
+55. rdb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExLobx8AhlrLlaniK5T56nPQLXCSKLofnzVmYFD7UxiA-r-oQdEjnyo5lCjwl5gLZ7bba4wHdyCqG1WRXWdog4TS2hSmRA2ABn--INDG2bK4i6GcFk8xRDDym9BdHNstgfNdhjhqvBwzWa8Df8nk6CtfD2JDdV1gYFiuyfIsg2-Z-VXuWvMgOJ-e6nNtt7
+
+56. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+57. klook
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLO2P98QvVH2wFSTK3n4Qbs-AUjppGNESMTP5V_hIDjQ6WyMBQVS861ceRoXydtyMl_98DhGoj5Nt_zSfY-TJjyzZ_hJBYAeD0rOt3kdKvgFgYB6nkk512Sk2KO6ejYcQCpI4y2mG8Lgt51ncs6pIdmFnseJnX_g==
+
+58. anywhereweroam
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4=
+
+59. quintessentially
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4
+
+60. dreambigtravelfarblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB
+
+61. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH
+
+62. windrushcarstorage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0GGaX8W9Ayj1xg3smRcyy34XodGZHdTA2vIrB4oTKN3LoN3gdatmHZ0Wui0E3ryvryWvC2i--Ny5U1HvxxBWQ9tP-mAhJl7B70fLOGFQm3H-4jr6fpmuboPakIVw6QXXp0v--3-mWSj5P8AgVCa_v8PU3c7yGVI=
+
+63. ratehawk
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw==
+
+64. miragenews
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6
+
+65. nubiapage
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0=
+
+66. sciencefocus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw==
+
+67. sntravel
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaFI5JE3LuwTz29Gf_9HCIt2GQcBR4XfmpX89Kw297djoUM2r1QKX6d1Bg7QYWyUZ-GZrCMW9w0iOJcRdVvAMdmc_TR6dSozOXGW4DlEuNGoza0twFSignpQhRLNEg82IT5bz6H0_iGZHTR7nS_u9bVMMPedKjh56haczgIJITe3E9W6jSal9i
+
+68. sntravel
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaFI5JE3LuwTz29Gf_9HCIt2GQcBR4XfmpX89Kw297djoUM2r1QKX6d1Bg7QYWyUZ-GZrCMW9w0iOJcRdVvAMdmc_TR6dSozOXGW4DlEuNGoza0twFSignpQhRLNEg82IT5bz6H0_iGZHTR7nS_u9bVMMPedKjh56haczgIJITe3E9W6jSal9i
+
+69. sntravel
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaFI5JE3LuwTz29Gf_9HCIt2GQcBR4XfmpX89Kw297djoUM2r1QKX6d1Bg7QYWyUZ-GZrCMW9w0iOJcRdVvAMdmc_TR6dSozOXGW4DlEuNGoza0twFSignpQhRLNEg82IT5bz6H0_iGZHTR7nS_u9bVMMPedKjh56haczgIJITe3E9W6jSal9i
+
+70. sntravel
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaFI5JE3LuwTz29Gf_9HCIt2GQcBR4XfmpX89Kw297djoUM2r1QKX6d1Bg7QYWyUZ-GZrCMW9w0iOJcRdVvAMdmc_TR6dSozOXGW4DlEuNGoza0twFSignpQhRLNEg82IT5bz6H0_iGZHTR7nS_u9bVMMPedKjh56haczgIJITe3E9W6jSal9i
+
+71. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+72. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+73. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+74. sciencefocus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw==
+
+75. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+76. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+77. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+78. sciencefocus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw==
+
+79. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+80. sciencefocus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw==
+
+81. sciencefocus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw==
+
+82. freejobalert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm
+
+83. sciencefocus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw==
+
+84. nsw
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDvLHGztBH0Ykz7bCDXh2btrH60UqBIEytq9AxMoKqLipSugQU-NBh2zP3_DdUIKzD-hCPWyjzdBwYzoVcLTZiVYEZXe017CjrWoTnWG5y1KZrBsZRtCg1-2BSE9xTd8DeOxaNLohQ6w2cksbnzGx6hx6OfjTJG9TNUcaDkLwrbA7TdA73hJLdRwnEgKEh_znp0vn4Zni8YmkE0QlyojY4B3i2mZL1QaF815Hcyg==
+
+85. miragenews
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "please name 5 roads"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "Here are five roads based on the provided summaries:\n\n1.  **Amalfi Coast, Italy:** This road is known for its hairpin turns, pastel villages, and Mediterranean views [1, 11].\n2.  **Pacific Coast Highway (California State Route 1), USA:** This highway offers redwood forests, golden shores, cliffs, and coastal towns [1, 3, 4].\n3.  **Great Ocean Road, Australia:** This road features rugged cliffs, beaches, rainforests, and the Twelve Apostles [3, 4, 7, 11].\n4.  **Fifth Avenue, New York, USA:** A global icon embodying elegance, culture, and urban energy [10].\n5.  **Avenue des Champs-Élysées, Paris, France:** Known as \"the most beautiful avenue in the world,\" a symbol of French grandeur [2, 10]."
+    }
+  ],
+  "search_query": [
+    "famous roads in the world"
+  ],
+  "web_research_result": [
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"famous roads in the world\" and synthesize it into a verifiable text artifact.\nHere's a summary of famous roads around the world, based on recent search results:\n\n**Scenic and Iconic Roads for Road Trips:**\n\n*   **Amalfi Coast, Italy:** Known for hairpin turns, pastel villages, and Mediterranean views. [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) (Quintessentially [1], Klook Travel Blog [11])\n*   **Pacific Coast Highway (California State Route 1), USA:** Offers redwood forests, golden shores, cliffs, and coastal towns. [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) (Quintessentially [1], nubia magazine! [3], Ezy Travellers [4])\n*   **Great Ocean Road, Australia:** Features rugged cliffs, beaches, rainforests, and the Twelve Apostles. [ezytravellers](https://vertexaisearch.cloud.google.com/id/0-1) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) (nubia magazine! [3], Ezy Travellers [4], NDTV [7], Klook Travel Blog [11])\n*   **Garden Route, South Africa:** Traverses forests, coastal cliffs and mountain passes. [ezytravellers](https://vertexaisearch.cloud.google.com/id/0-1) [ndtv](https://vertexaisearch.cloud.google.com/id/0-3) (Quintessentially [1], nubia magazine! [3], NDTV [7])\n*   **North Coast 500, Scotland:** Includes wild beaches, winding roads and whisky distilleries. [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) (Quintessentially [1], Ezy Travellers [4])\n*   **The Ring Road, Iceland:** An iconic route through volcanoes, waterfalls, glaciers and black sand beaches. [ezytravellers](https://vertexaisearch.cloud.google.com/id/0-1) (Ezy Travellers [4], RateHawk.com [12])\n*   **Icefields Parkway, Canada:** Scenic drive through the Canadian Rockies. (nubia magazine! [3], Klook Travel Blog [11])\n*   **The Wild Atlantic Way, Ireland:** Covers the entire western coast of Ireland. [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) (RateHawk.com [12])\n*   **Italian Dolomites:** Features mountain scenery, alpine meadows and turquoise lakes. [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) (RateHawk.com [12])\n*   **Stelvio Pass, Italy:** A thrilling mountain pass known for hairpin curves and alpine scenery. [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) (nubia magazine! [3]) [rdb](https://vertexaisearch.cloud.google.com/id/0-6) [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [klook](https://vertexaisearch.cloud.google.com/id/0-8) [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) [windrushcarstorage](https://vertexaisearch.cloud.google.com/id/0-9) [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)\n*   **Atlantic Road, Norway:** Traverses a series of islets and skerries along the Norwegian Sea. [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) (nubia magazine! [3], Ezy Travellers [4])\n*   **Namibia:** Roads crisscross a vast wilderness with remarkable wildlife and natural wonders. [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) (RateHawk.com [12])\n*   **Lofoten Islands, Norway:** Known for stunning natural beauty and dramatic landscapes. [ndtv](https://vertexaisearch.cloud.google.com/id/0-3) (NDTV [7], RateHawk.com [12])\n*   **Bavarian Alps, Germany:** Forested hills, glittering lakes, and postcard-perfect Alpine villages. [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) (RateHawk.com [12])\n\n**Famous Streets:**\n\n*   **Fifth Avenue, New York, USA:** A global icon embodying elegance, culture, and urban energy. [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) (nubia magazine! [10]) [rdb](https://vertexaisearch.cloud.google.com/id/0-6) [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [klook](https://vertexaisearch.cloud.google.com/id/0-8) [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) [windrushcarstorage](https://vertexaisearch.cloud.google.com/id/0-9) [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)\n*   **Avenue des Champs-Élysées, Paris, France:** Known as \"the most beautiful avenue in the world,\" a symbol of French grandeur. ( [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12)SN Travel [2], nubia magazine! [10])\n* [rdb](https://vertexaisearch.cloud.google.com/id/0-6) [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [klook](https://vertexaisearch.cloud.google.com/id/0-8) [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) [windrushcarstorage](https://vertexaisearch.cloud.google.com/id/0-9) [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)   **Causeway Bay, Hong Kong:** A dynamic metropolitan center known for retail. ( [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12)nubia magazine! [10])\n* [rdb](https://vertexaisearch.cloud.google.com/id/0-6) [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [klook](https://vertexaisearch.cloud.google.com/id/0-8) [anywhereweroam](https://vertexaisearch.cloud.google.com/id/0-5) [quintessentially](https://vertexaisearch.cloud.google.com/id/0-0) [dreambigtravelfarblog](https://vertexaisearch.cloud.google.com/id/0-4) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-2) [windrushcarstorage](https://vertexaisearch.cloud.google.com/id/0-9) [ratehawk](https://vertexaisearch.cloud.google.com/id/0-10) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11) [nubiapage](https://vertexaisearch.cloud.google.com/id/0-12) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)   **Ocean Drive, Miami, USA:** Lined with Art Deco buildings and palm trees, offering nightlife and beachfront relaxation. ( [sntravel](https://vertexaisearch.cloud.google.com/id/0-14)SN Travel [2])\n*   **Via dell'Amore, Cinque Terre, Italy:** A picturesque coastal path connecting charming villages. ( [sntravel](https://vertexaisearch.cloud.google.com/id/0-14)SN Travel [2])\n*   **Calle Cava Baja, Madrid, Spain:** A culinary paradise packed with tapas bars. ( [sntravel](https://vertexaisearch.cloud.google.com/id/0-14)SN Travel [2])\n*   **Malecón, Havana, Cuba:** A vibrant cultural hotspot along the city's coastline. (S [sntravel](https://vertexaisearch.cloud.google.com/id/0-14)N Travel [2])\n\n**Dangerous Roads:**\n\n*   **North Yungas Road (Death Road), Bolivia:** Infamous for sheer drops and foggy conditions. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6], BBC Science Focus Magazine [16])\n*   **Karakoram Highway, Pakistan-China:** One of the highest international paved roads. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6])\n*   **Dalton Highway, Alaska, USA:** A remote route used by oil truckers. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6], BBC Science Focus Magazine [16])\n*   **Zoji La Pass, India:** A high mountain pass with narrow roads and no safety barriers. (F [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)ree Job Alert [6], BBC Science Focus Magazine [16])\n*   **Guoliang Tunnel Road, China:** Carved by hand into a cliff face. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6])\n*   **Fairy Meadows Road, Pakistan:** Only accessible by locals and 4x4 vehicles. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)ree Job Alert [6])\n*   **Skippers Canyon Road, New Zealand:** Features sheer drops and hairpin bends; rental car insurance often doesn't cover it. (F [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)ree Job Alert [6], BBC Science Focus Magazine [16])\n*   **Transfăgărășan Highway, Romania:** A winding mountain road with hairpin bends and tunnels. (Free  [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7) [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)Job Alert [6], BBC Science Focus Magazine [16])\n*   **Sichuan–Tibet Highway, China:** High altitude road with potential for avalanches and landslides. (Free Jo [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)b Alert [6], BBC Science Focus Magazine [16])\n*   **Tianmen Mountain Road, China:** Known as the \"99 Bends Road\" with sharp hairpin turns. (Free Jo [freejobalert](https://vertexaisearch.cloud.google.com/id/0-7)b Alert [6])\n*   **Keylong Kishtwar Road, India:** Single-track dirt track through treacherous mountain passes. (BBC Sci [sciencefocus](https://vertexaisearch.cloud.google.com/id/0-13)ence Focus Magazine [16])\n\n**Other Roads:**\n\n*   **Marma Box Creek Road, New South Wales, Australia:** A historic road being upgraded to improve access to the World Heritage Mungo National Park. (Mirage  [nsw](https://vertexaisearch.cloud.google.com/id/0-15) [miragenews](https://vertexaisearch.cloud.google.com/id/0-11)News [14], Transport for NSW [15])\n\nPlease note that road conditions and popularity can change, so it's always a good idea to check current travel advisories and reviews before planning a trip.\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "quintessentially",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4"
+    },
+    {
+      "label": "quintessentially",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4"
+    },
+    {
+      "label": "ezytravellers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3BEo6LjnZSnOWPN29QyZIQKD9GsGTatYzFNivst14L2cQwT5o8jei2Yiqz-1ezIwsP38tydGmmh6-0T7RF4vxP-xRMi6m2bApww3X2LUdp8sH_JfUfShkH4NJ3xTVo454R0tANyn1mqABL1xyhXx-SH9zVSptPMlMLPwBS9GZ3LSJgxA6DQQUXf1nb4gIc27iWkETkLDMnXc="
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH"
+    },
+    {
+      "label": "ezytravellers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3BEo6LjnZSnOWPN29QyZIQKD9GsGTatYzFNivst14L2cQwT5o8jei2Yiqz-1ezIwsP38tydGmmh6-0T7RF4vxP-xRMi6m2bApww3X2LUdp8sH_JfUfShkH4NJ3xTVo454R0tANyn1mqABL1xyhXx-SH9zVSptPMlMLPwBS9GZ3LSJgxA6DQQUXf1nb4gIc27iWkETkLDMnXc="
+    },
+    {
+      "label": "ndtv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw1JFsRG2pd3RnTild7XsTMSPNQTXk6ukaWWe4x6tVNg3LsUi9MuHfFnwpF9DTXNUWb2z15ECBK94xxf7-IGvnUkvgOrWR0enHRlNSHkE2eyNtj0thfVOkaTcT87lLZgY7NzFhGrUIsBjR55g182IOJ20QVrDa5FxlDy0ds6iJWM3x3ZYnGO1CQBIdRHtST9aTqJuN"
+    },
+    {
+      "label": "quintessentially",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4"
+    },
+    {
+      "label": "ezytravellers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3BEo6LjnZSnOWPN29QyZIQKD9GsGTatYzFNivst14L2cQwT5o8jei2Yiqz-1ezIwsP38tydGmmh6-0T7RF4vxP-xRMi6m2bApww3X2LUdp8sH_JfUfShkH4NJ3xTVo454R0tANyn1mqABL1xyhXx-SH9zVSptPMlMLPwBS9GZ3LSJgxA6DQQUXf1nb4gIc27iWkETkLDMnXc="
+    },
+    {
+      "label": "dreambigtravelfarblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB"
+    },
+    {
+      "label": "anywhereweroam",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4="
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH"
+    },
+    {
+      "label": "rdb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExLobx8AhlrLlaniK5T56nPQLXCSKLofnzVmYFD7UxiA-r-oQdEjnyo5lCjwl5gLZ7bba4wHdyCqG1WRXWdog4TS2hSmRA2ABn--INDG2bK4i6GcFk8xRDDym9BdHNstgfNdhjhqvBwzWa8Df8nk6CtfD2JDdV1gYFiuyfIsg2-Z-VXuWvMgOJ-e6nNtt7"
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "klook",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLO2P98QvVH2wFSTK3n4Qbs-AUjppGNESMTP5V_hIDjQ6WyMBQVS861ceRoXydtyMl_98DhGoj5Nt_zSfY-TJjyzZ_hJBYAeD0rOt3kdKvgFgYB6nkk512Sk2KO6ejYcQCpI4y2mG8Lgt51ncs6pIdmFnseJnX_g=="
+    },
+    {
+      "label": "anywhereweroam",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4="
+    },
+    {
+      "label": "quintessentially",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4"
+    },
+    {
+      "label": "dreambigtravelfarblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB"
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH"
+    },
+    {
+      "label": "windrushcarstorage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0GGaX8W9Ayj1xg3smRcyy34XodGZHdTA2vIrB4oTKN3LoN3gdatmHZ0Wui0E3ryvryWvC2i--Ny5U1HvxxBWQ9tP-mAhJl7B70fLOGFQm3H-4jr6fpmuboPakIVw6QXXp0v--3-mWSj5P8AgVCa_v8PU3c7yGVI="
+    },
+    {
+      "label": "ratehawk",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw=="
+    },
+    {
+      "label": "miragenews",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6"
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0="
+    },
+    {
+      "label": "sciencefocus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw=="
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH"
+    },
+    {
+      "label": "anywhereweroam",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4="
+    },
+    {
+      "label": "ndtv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw1JFsRG2pd3RnTild7XsTMSPNQTXk6ukaWWe4x6tVNg3LsUi9MuHfFnwpF9DTXNUWb2z15ECBK94xxf7-IGvnUkvgOrWR0enHRlNSHkE2eyNtj0thfVOkaTcT87lLZgY7NzFhGrUIsBjR55g182IOJ20QVrDa5FxlDy0ds6iJWM3x3ZYnGO1CQBIdRHtST9aTqJuN"
+    },
+    {
+      "label": "ratehawk",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw=="
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0="
+    },
+    {
+      "label": "rdb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExLobx8AhlrLlaniK5T56nPQLXCSKLofnzVmYFD7UxiA-r-oQdEjnyo5lCjwl5gLZ7bba4wHdyCqG1WRXWdog4TS2hSmRA2ABn--INDG2bK4i6GcFk8xRDDym9BdHNstgfNdhjhqvBwzWa8Df8nk6CtfD2JDdV1gYFiuyfIsg2-Z-VXuWvMgOJ-e6nNtt7"
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "klook",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLO2P98QvVH2wFSTK3n4Qbs-AUjppGNESMTP5V_hIDjQ6WyMBQVS861ceRoXydtyMl_98DhGoj5Nt_zSfY-TJjyzZ_hJBYAeD0rOt3kdKvgFgYB6nkk512Sk2KO6ejYcQCpI4y2mG8Lgt51ncs6pIdmFnseJnX_g=="
+    },
+    {
+      "label": "anywhereweroam",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4="
+    },
+    {
+      "label": "quintessentially",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4"
+    },
+    {
+      "label": "dreambigtravelfarblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB"
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH"
+    },
+    {
+      "label": "windrushcarstorage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0GGaX8W9Ayj1xg3smRcyy34XodGZHdTA2vIrB4oTKN3LoN3gdatmHZ0Wui0E3ryvryWvC2i--Ny5U1HvxxBWQ9tP-mAhJl7B70fLOGFQm3H-4jr6fpmuboPakIVw6QXXp0v--3-mWSj5P8AgVCa_v8PU3c7yGVI="
+    },
+    {
+      "label": "ratehawk",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw=="
+    },
+    {
+      "label": "miragenews",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6"
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0="
+    },
+    {
+      "label": "sciencefocus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw=="
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0="
+    },
+    {
+      "label": "rdb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExLobx8AhlrLlaniK5T56nPQLXCSKLofnzVmYFD7UxiA-r-oQdEjnyo5lCjwl5gLZ7bba4wHdyCqG1WRXWdog4TS2hSmRA2ABn--INDG2bK4i6GcFk8xRDDym9BdHNstgfNdhjhqvBwzWa8Df8nk6CtfD2JDdV1gYFiuyfIsg2-Z-VXuWvMgOJ-e6nNtt7"
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "klook",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLO2P98QvVH2wFSTK3n4Qbs-AUjppGNESMTP5V_hIDjQ6WyMBQVS861ceRoXydtyMl_98DhGoj5Nt_zSfY-TJjyzZ_hJBYAeD0rOt3kdKvgFgYB6nkk512Sk2KO6ejYcQCpI4y2mG8Lgt51ncs6pIdmFnseJnX_g=="
+    },
+    {
+      "label": "anywhereweroam",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4="
+    },
+    {
+      "label": "quintessentially",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4"
+    },
+    {
+      "label": "dreambigtravelfarblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB"
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH"
+    },
+    {
+      "label": "windrushcarstorage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0GGaX8W9Ayj1xg3smRcyy34XodGZHdTA2vIrB4oTKN3LoN3gdatmHZ0Wui0E3ryvryWvC2i--Ny5U1HvxxBWQ9tP-mAhJl7B70fLOGFQm3H-4jr6fpmuboPakIVw6QXXp0v--3-mWSj5P8AgVCa_v8PU3c7yGVI="
+    },
+    {
+      "label": "ratehawk",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw=="
+    },
+    {
+      "label": "miragenews",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6"
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0="
+    },
+    {
+      "label": "sciencefocus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw=="
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0="
+    },
+    {
+      "label": "rdb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExLobx8AhlrLlaniK5T56nPQLXCSKLofnzVmYFD7UxiA-r-oQdEjnyo5lCjwl5gLZ7bba4wHdyCqG1WRXWdog4TS2hSmRA2ABn--INDG2bK4i6GcFk8xRDDym9BdHNstgfNdhjhqvBwzWa8Df8nk6CtfD2JDdV1gYFiuyfIsg2-Z-VXuWvMgOJ-e6nNtt7"
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "klook",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLO2P98QvVH2wFSTK3n4Qbs-AUjppGNESMTP5V_hIDjQ6WyMBQVS861ceRoXydtyMl_98DhGoj5Nt_zSfY-TJjyzZ_hJBYAeD0rOt3kdKvgFgYB6nkk512Sk2KO6ejYcQCpI4y2mG8Lgt51ncs6pIdmFnseJnX_g=="
+    },
+    {
+      "label": "anywhereweroam",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuQuyu7yXItWvyKTewCjo9a5s-cLqFiq0NXfzd2s-3NhIg66TOiQlqGFIxLe4IDyc55Z7eJ6D9QMs5jLWTztZs_tGzdY-ZfnZRs864Tfcxb9tfuldNu8JR5UbfbuNijoKxt8_2kx4="
+    },
+    {
+      "label": "quintessentially",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTTlyHNCfT_CKBXQi65-SJbMliG1lW2dbf7eV4rtl3PPoLdRCyrUW2ZBnYa5bCKX2IKJ6xftKSJUC3dZY74NswBDBmy_xKAANITkSlD6CUzJ_HFRCSIUJwcRJfZAxvIlQS_JkLV_CSqsvA3LfPkeKieW19no7Wof4"
+    },
+    {
+      "label": "dreambigtravelfarblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZIjRpyPqg3izZyOfEQbh71RQ_U69lcYV9ascCmFT_5vDqAblvGv6ONKPByp8zFh58Q-AJ3-IKlr8wjF_nkmV4O_rNFiL45OYszd58fkdhZrn3kemWe5ujIt7Gt2ZwbLluQyAeunh8CQDlFeDvyV-TAP5TQGe781jKNrp1U2MqCtLB"
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWyrwvw-npRRa_RxTsJ31fzw_-I9qGSx_xnKFC4flUWoxJFtPHdoEvJPq7Il3A-WQiR6bpg3F5_UAESPx1jdcVwyc-6YTViuITEntoC6RbYfzb2PBlxX4uTigh_6uaUA4BEl9lkbHjHRCRhnWkv-UhvA2gTTzHeawlzQUrfQAH"
+    },
+    {
+      "label": "windrushcarstorage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG0GGaX8W9Ayj1xg3smRcyy34XodGZHdTA2vIrB4oTKN3LoN3gdatmHZ0Wui0E3ryvryWvC2i--Ny5U1HvxxBWQ9tP-mAhJl7B70fLOGFQm3H-4jr6fpmuboPakIVw6QXXp0v--3-mWSj5P8AgVCa_v8PU3c7yGVI="
+    },
+    {
+      "label": "ratehawk",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEonVyrr5327JsJVZPpPw9g5_zedSNTGogAN189l_Pq36rE0spbZA9wjohxEYCLc0JmqWh5ENVaVb2d0HqOD73jfwgFEMJoUSD_at8Nd5Ywzy_OSo5a-pSODOg83CXwpR9GHDwRT28u2rnzJK-0-qC0Zsd_MdQzw=="
+    },
+    {
+      "label": "miragenews",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6"
+    },
+    {
+      "label": "nubiapage",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDmYSbs3I5Zo0dXbsD3rIqaMrxMkQSTcL8sc9fBt7iytgXEKpCHqwWbnzaPB1YuaZzeXmgRwmBycr7qJ2K40Wbub4qOMb734-gHGg_QC7Qh-N5OR3TeMuhYiqfiWMfLnZIcLRozfrTTfViyJ2_Y8-NqGrXaVP9rGmpKlh8cJ3cw_0="
+    },
+    {
+      "label": "sciencefocus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw=="
+    },
+    {
+      "label": "sntravel",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaFI5JE3LuwTz29Gf_9HCIt2GQcBR4XfmpX89Kw297djoUM2r1QKX6d1Bg7QYWyUZ-GZrCMW9w0iOJcRdVvAMdmc_TR6dSozOXGW4DlEuNGoza0twFSignpQhRLNEg82IT5bz6H0_iGZHTR7nS_u9bVMMPedKjh56haczgIJITe3E9W6jSal9i"
+    },
+    {
+      "label": "sntravel",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaFI5JE3LuwTz29Gf_9HCIt2GQcBR4XfmpX89Kw297djoUM2r1QKX6d1Bg7QYWyUZ-GZrCMW9w0iOJcRdVvAMdmc_TR6dSozOXGW4DlEuNGoza0twFSignpQhRLNEg82IT5bz6H0_iGZHTR7nS_u9bVMMPedKjh56haczgIJITe3E9W6jSal9i"
+    },
+    {
+      "label": "sntravel",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaFI5JE3LuwTz29Gf_9HCIt2GQcBR4XfmpX89Kw297djoUM2r1QKX6d1Bg7QYWyUZ-GZrCMW9w0iOJcRdVvAMdmc_TR6dSozOXGW4DlEuNGoza0twFSignpQhRLNEg82IT5bz6H0_iGZHTR7nS_u9bVMMPedKjh56haczgIJITe3E9W6jSal9i"
+    },
+    {
+      "label": "sntravel",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaFI5JE3LuwTz29Gf_9HCIt2GQcBR4XfmpX89Kw297djoUM2r1QKX6d1Bg7QYWyUZ-GZrCMW9w0iOJcRdVvAMdmc_TR6dSozOXGW4DlEuNGoza0twFSignpQhRLNEg82IT5bz6H0_iGZHTR7nS_u9bVMMPedKjh56haczgIJITe3E9W6jSal9i"
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "sciencefocus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw=="
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "sciencefocus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw=="
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "sciencefocus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw=="
+    },
+    {
+      "label": "sciencefocus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw=="
+    },
+    {
+      "label": "freejobalert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9l4PeI_-DKkVEetoMR9YPZERt_LprV-UwS3vx-HF_XticmvyG_AxRYgp7Na5II_KxJRvJVfJIxKU15j0wm_wWMJm06Agfmg52f6aQmlPFGCXKtc4zBL41GBkqfL1SUOuqPo6LRytZmUPFGrYLCPm_1QN_34A_JRcfJ5j_kCoep8QecezS2WvLxyVUllGm"
+    },
+    {
+      "label": "sciencefocus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw8nYwXuLYiCs-02OvV5JLqkbothJVMw3p0xJvgkWBPpASNz2Gfh0aRXyFTEskagKo10Gwa3epu7qPofm7IvF0vg9mtXLTMM2gfVbjI_2O9y5y6jlbte0KyLGyNyJCfx24B9T1LewfrCLQqE3ev5a6nBVwT8e73QcI3-qWc3x32kO57dCEDw=="
+    },
+    {
+      "label": "nsw",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDvLHGztBH0Ykz7bCDXh2btrH60UqBIEytq9AxMoKqLipSugQU-NBh2zP3_DdUIKzD-hCPWyjzdBwYzoVcLTZiVYEZXe017CjrWoTnWG5y1KZrBsZRtCg1-2BSE9xTd8DeOxaNLohQ6w2cksbnzGx6hx6OfjTJG9TNUcaDkLwrbA7TdA73hJLdRwnEgKEh_znp0vn4Zni8YmkE0QlyojY4B3i2mZL1QaF815Hcyg=="
+    },
+    {
+      "label": "miragenews",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoQ6q3BIHZU0O40JNcK32pAfBrvPKhywp3YzggU_G6RpZf2RLjpxmUuhRXgXSbohxahQvuEE8sgYm8wsMIJN9X7LgrVy0b8R4nWaih2y6hqhA8WmDJnDGwqQJqPaPwtTfA-FW2379Y7p3iUM0Xu13kG9UyytqdLxrdRGft8enlm46aYhL-O7MeThM4ZIq6"
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 1
+}

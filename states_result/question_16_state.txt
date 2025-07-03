@@ -1,0 +1,1178 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 22:11:37
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: Why is the Delta between o1 and 4o so much bigger than sonnet and sonnet thinking
+
+[AI]: The larger delta between o1 and 4o compared to Sonnet and Sonnet Thinking likely stems from a combination of architectural differences, training data, and intended use cases. Here's a breakdown:
+
+*   **Claude 3.7 Sonnet's Hybrid Reasoning:** Claude 3.7 Sonnet's key innovation is its "hybrid reasoning" architecture, integrating a standard mode for quick responses and an extended thinking mode for complex tasks [byteplus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==) [swiftask](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE=) [amazon](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF) [pageon](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E=) [makebot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=) [learnprompting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==). This allows it to allocate extra computational resources to solve complex problems [learnprompting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==).
+*   **Context Window:** Claude 3.7 Sonnet has a large context window of 200,000 tokens, enabling it to process and retain larger volumes of information [pageon](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E=) [learnprompting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==) [docsbot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==0) [makebot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=). GPT-4o, in comparison, has a context window of 128K tokens [docsbot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==0) [learnprompting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==).
+*   **Training Data:** Claude 3.7 Sonnet is newer and has more recent training data than GPT-4o [docsbot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==0).
+*   **Performance Benchmarks:** Claude 3.7 Sonnet generally outperforms o1 in several benchmarks [llm-stats](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==5). It excels in SWE-bench Verified, TAU-bench Airline, and TAU-bench Retail [llm-stats](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==5). In a comparison of reasoning, creativity, factual knowledge, logic, and productivity, Claude 3.7 Sonnet was the overall winner [tomsguide](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==8).
+*   **Intended Use Cases:** Claude 3.7 Sonnet demonstrates exceptional information processing and distillation [flowhunt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==4). It is strong in research-based content creation, analytical comparison, mathematical problem-solving, information distillation, and creative content generation with logical structure [flowhunt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==4). GPT-4o excels in conversational fluidity, while Claude 3.7 Sonnet delivers more precise, actionable, and polished answers, particularly in logical reasoning [tomsguide](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==8).
+
+In contrast, "sonnet thinking" refers to a cognitive process, suggesting that human thought units resemble sonnets with a structured progression [openhorizons](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwcJUBmC70C8N-YVSnGIUpq2WZvush6pYrXrsMFe_PJC7R_UCN4O9d1g3AmGt8jJTvXE4b_5wDEvPgJ9gxJLh_-9ZtAQIPSsPFcaAWjvk8xDlDj9UtXDZ9UguCPXaKA6ui49jb-BDqpbwNGZFWRdy97ppkSFLGvA81gy7KwemSHHNAdA1dQpHMg0qI49wMQ27KNCI66NwRY-b86v3qy6gEar3R7Dc=). This concept is explored within cognitive poetics, which examines the aesthetic experience of literary texts and the cognitive processes involved [researchgate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzXrBcxN-_NXy2cmU73ovHv2OLOl1XnTtZlh8paJ1_RX4pTFGgWqLDefmxzGkacN66E7I6UCp76Y5qAZGMT6I9p7LxQdb-j-Wb5aV4_k8nElpJ3fSsE72DVLQ59d_tESVkhkwrHfz_3-O6JvGAkmykE2wo0k4cwI3JN6_9Feks870iv9sf-v8dGv6Khm6QfH7zE93PH31CoXfPRPojzfn844AEzI2d6G38i0FDW8A_Al2X6Qs1P1uG3-eKs2cGZhzipgL6). The difference in delta is because the former is comparing the performance of two different LLMs while the latter is a concept of human thought.
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 3
+Sources gathered: 122
+Web research results: 3
+
+SEARCH QUERIES USED
+----------------------------------------
+1. linguistics "o1" "4o" "sonnet" "sonnet thinking" semantic difference
+2. cognitive science "o1" "4o" "sonnet" "sonnet thinking" processing difference
+3. What architectural innovations differentiate Claude 3.7 Sonnet from other LLMs, and how do these differences relate to its performance in complex reasoning tasks compared to other models like o1 and 4o?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Based on the search results, here's a synthesis of information regarding linguistics, sonnets, "sonnet thinking," and semantic differences, current as of June 20, 2025:
+
+**1. Linguistic Analysis of Sonnets:**
+
+*   **General Approaches:** Linguistic analysis of sonnets involves examining language use to create meaning and emotion, focusing on word choice, style, and poetic techniques to convey themes like love, time, and beauty. [worldlyjournals](https://vertexaisearch.cloud.google.com/id/0-0) This analysis highlights the unique qualities of the language and its contribution to the work's enduring appeal.
+*   **Computational Linguistics:** Computational linguistics techniques are applied to analyze metrical and semantic aspects of sonnets. [hrpub](https://vertexaisearch.cloud.google.com/id/0-1) [aclanthology](https://vertexaisearch.cloud.google.com/id/0-2) This includes developing hybrid scansion systems to extract rhythmical patterns and using distributional semantic models to extract semantic regularities and group sonnets/poets accordingly. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **Stylistic Analysis:** Stylistic analysis, including graphological and semantic deviation, is used to study elements like punctuation, rhetorical devices (personification, rhyme scheme, repetition), and lexical choices (verbs, adjectives) to uncover thematic resonance and layered meanings. [ijssers](https://vertexaisearch.cloud.google.com/id/0-3) Foregrounding techniques are also considered in relation to love and admiration. [ijssers](https://vertexaisearch.cloud.google.com/id/0-3)
+
+**2. [ijssers](https://vertexaisearch.cloud.google.com/id/0-3) Semantic Analysis and Sonnets:**
+
+*   **Semantic Deviation:** Semantic deviation explores rhetorical devices like personification, rhyme scheme, repetition, and specific word choices to uncover thematic resonance and layered meanings in sonnets. [ijssers](https://vertexaisearch.cloud.google.com/id/0-3)
+*   **Distributional Semantic Models:** These models, based on the distributional hypothesis (words in similar contexts have similar meanings), are applied to corpora of sonnets to extract semantic similarities between words, texts, and authors. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **Ambiguity and Irony:** Sonnets are often rich in ironic content and ambiguity, with lexical ambiguity (words with multiple meanings) contributing to varied interpretations.
+
+**3. "Sonnet Thinking" and Cognitive Processes:**
+
+*   **Sonnet as a Thought Process:** The idea of "sonnet thinking" suggests that the fundamental units of human thought are like little songs or sonnets, involving an image, a journey, a realization, and an ending. [openhorizons](https://vertexaisearch.cloud.google.com/id/0-4)
+*   **Cognitive Poetics:** Cognitive poetics explores the aesthetic experience of literary texts, with the sonnet serving as a suitable case study due to its structured form and cognitive processes. [researchgate](https://vertexaisearch.cloud.google.com/id/0-5)
+*   **Language of Thought:** Large language models (LLMs) sometimes "think" in a conceptual space shared between languages, suggesting a universal "language of thought." In poetry, LLMs may plan ahead, considering rhyming words in advance. [anthropic](https://vertexaisearch.cloud.google.com/id/0-6)
+
+**4. Semantic Differences and Nuances:**
+
+*   **Multiple Meanings:** A significant feature of sonnets is the use of words with multiple simultaneous meanings, contributing to richness of thought and imagery. [folger](https://vertexaisearch.cloud.google.com/id/0-7)
+*   **Sound-Sense Harmony:** The association of sound and sense is crucial in poetry. Rhyme, alliteration, assonance, and consonance can add secondary meaning by highlighting words and phrases.
+*   **Figurative Language:** Sonnets employ figurative language (simile, metaphor, personification, etc.) to express ideas imaginatively, forcing attention to connotation rather than denotation. [unm](https://vertexaisearch.cloud.google.com/id/0-8)
+
+**5. [unm](https://vertexaisearch.cloud.google.com/id/0-8) Application of AI and Computational Tools:**
+
+*   **SPARSAR:** A system used for linguistic analysis, including phonetic, syntactic, and semantic levels, to detect irony and analyze sound-sense harmony in sonnets.
+*   **Large Language Models (LLMs):** LLMs like Claude 3.7 Sonnet and others are used for code generation, bug detection, and reasoning tasks, with "thinking" models showing improved performance in certain areas.
+*   **Challenges for LLMs:** Despite advancements, challenges remain in ensuring the faithfulness and reliability of LLMs, particularly in avoiding "faked" reasoning.
+
+
+--- Research Result 2 ---
+Based on the search results, here's a synthesis of information regarding cognitive science, sonnets, and related processing differences:
+
+**1. [researchgate](https://vertexaisearch.cloud.google.com/id/1-0) Cognitive Science and Literature Intersection:**
+
+*   BA programs are emerging that combine English Literature with Cognitive Science, exploring how the brain processes stories, language, and cultural narratives [3]. This interdisciplinary approach examines the intersection between language, literature, and human cognition [3]. [pterodactilo](https://vertexaisearch.cloud.google.com/id/1-1) [nehrucolleges](https://vertexaisearch.cloud.google.com/id/1-2)
+*   Cognitive Poetics is a field that explores the relationship between cognitive science and literary genres, especially poetry [14, 20]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-0) It uses cognitive science tools to facilitate understanding and analyzing poetry [14]. [cognitive-futures](https://vertexaisearch.cloud.google.com/id/1-3) [jtuh](https://vertexaisearch.cloud.google.com/id/1-4) [researchgate](https://vertexaisearch.cloud.google.com/id/1-0) [pterodactilo](https://vertexaisearch.cloud.google.com/id/1-1)
+*   Cognitive Cultural Studies applies insights from cognitive science to understand literature and cultural productions, including how our brains respond to novels, poems, and stories [19]. [pterodactilo](https://vertexaisearch.cloud.google.com/id/1-1)
+
+**2. Cognitive Processing of Poetry:**
+
+*   Poetry activates different parts of the brain compared to ordinary speech or prose, engaging areas that recognize rhymes and rhythms and contemplate imagery and layered meanings [10]. [howstuffworks](https://vertexaisearch.cloud.google.com/id/1-5) This suggests a deep, intuitive connection to verse is within our neurological structure [10]. [howstuffworks](https://vertexaisearch.cloud.google.com/id/1-5)
+*   Engaging with poetry can stimulate emotional and aesthetic responses and enhance cognitive functions like flexible thinking and the ability to understand complex meanings, which can be beneficial in decision-making [10]. [howstuffworks](https://vertexaisearch.cloud.google.com/id/1-5)
+*   Reading poetry during breaks from creative tasks can enhance creative cognition, potentially by stimulating mind-wandering and associative thinking [6]. [tandfonline](https://vertexaisearch.cloud.google.com/id/1-6)
+*   Studies using fMRI have shown that poetry triggers different parts of the brain related to non-automatic processing of meaning, leading to increased lively activation of mind and a sense of psychological reward [10]. [howstuffworks](https://vertexaisearch.cloud.google.com/id/1-5)
+
+**3. Sonnets and Cognitive Processes:**
+
+*   Eye-tracking studies are used to record cognitive processes during the reading of poetry, including Shakespeare's sonnets, to overcome the limitations of relying solely on post-reading assessments [23].
+*   Quantitative Narrative Analysis (QNA) is used to break down complex literary works into simpler, measurable features to study the rereading of poetry [23]. [frontiersin](https://vertexaisearch.cloud.google.com/id/1-7)
+*   Research suggests that vivid imagery in Haiku poetry significantly boosts perceived creativity and aesthetic appeal, mediated by felt emotion [8]. [gold](https://vertexaisearch.cloud.google.com/id/1-8)
+
+**4. Ambiguity and Interpretation:**
+
+*   Lexical ambiguity in modernist poetry requires readers to actively interpret and co-create meaning, reflecting the complexities and uncertainties of contemporary life [4]. [rdd](https://vertexaisearch.cloud.google.com/id/1-9)
+*   Modernist poets use ambiguous language to involve readers in navigating multiple meanings through personal experience and cognitive associations [4]. [rdd](https://vertexaisearch.cloud.google.com/id/1-9)
+
+**5. AI Models and Cognitive Processes:**
+
+*   AI models like Claude 3.7 Sonnet are being analyzed for their reasoning and cognitive capabilities, sometimes using tasks designed to replicate cognitive science experiments [5, 7, 13].
+*   Claude 3.7 Sonnet represents an architectural innovation through its hybrid reasoning approach, which mirrors human cognition by allocating different processing resources to simple recall tasks versus complex problem-solving [5]. [byteplus](https://vertexaisearch.cloud.google.com/id/1-10)
+*   Studies suggest that Large Language Models (LLMs) may develop analogous processing hierarchies to human cognitive processing through their training exposure [9]. [biorxiv](https://vertexaisearch.cloud.google.com/id/1-11)
+*   LLMs are being used to uncover statistical distributions in linguistic data, performing on par with or superior to humans on tasks requiring language knowledge [16]. [umich](https://vertexaisearch.cloud.google.com/id/1-12)
+
+**6. [bilpubgroup](https://vertexaisearch.cloud.google.com/id/1-13) Processing Differences:**
+
+*   Different poetic forms may be associated with distinct cognitive processing styles. [gold](https://vertexaisearch.cloud.google.com/id/1-8) For example, Haiku may demand an interconnected and flexible cognitive approach, while Senryu aligns with a more compartmentalized processing style [8]. [gold](https://vertexaisearch.cloud.google.com/id/1-8)
+*   Research indicates that while Haiku demands an interconnected and flexible cognitive approach, Senryu aligns with a more compartmentalized processing style, highlighting the diverse cognitive pathways through which poetry can be creatively appreciated [8]. [gold](https://vertexaisearch.cloud.google.com/id/1-8)
+
+This information highlights the growing interest in applying cognitive science principles to the study of literature, including poetry and specific forms like sonnets, to understand the cognitive processes involved in reading, interpretation, and appreciation. Furthermore, AI models are increasingly being used as tools to model and understand human cognition in relation to language and reasoning.
+
+
+--- Research Result 3 ---
+Based on the search results, here's a synthesis of the architectural innovations that differentiate Claude 3.7 Sonnet from other LLMs, and how these differences relate to its performance in complex reasoning tasks compared to models like o1 and 4o:
+
+**1. [github](https://vertexaisearch.cloud.google.com/id/2-0) Hybrid Reasoning Architecture:**
+
+*   Claude 3.7 Sonnet's defining innovation is its "hybrid reasoning" approach [1, 4, 11, 18]. [byteplus](https://vertexaisearch.cloud.google.com/id/2-1) [swiftask](https://vertexaisearch.cloud.google.com/id/2-2) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [pageon](https://vertexaisearch.cloud.google.com/id/2-4) [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) It integrates two distinct operational modes within a single model [12, 18]: [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [byteplus](https://vertexaisearch.cloud.google.com/id/2-1) [swiftask](https://vertexaisearch.cloud.google.com/id/2-2) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7)
+    *   **Standard Mode:** Provides rapid responses for routine queries, functioning as an upgraded version of Claude 3.5 Sonnet [12, 13, 18]. [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7)
+    *   **Extended Thinking Mode:** Engages in self-reflection and detailed, step-by-step reasoning before answering, enhancing performance on complex tasks [2, 4, 12, 13, 18]. [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [mymeet](https://vertexaisearch.cloud.google.com/id/2-8) This mode allocates extra computational resources ("thinking tokens") to solve complex problems [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) Users can even view the model's internal reasoning process [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6)
+*   This hybrid structure allows users to toggle between quick answers and rigorous problem-solving without switching to a separate model [2]. [promptlayer](https://vertexaisearch.cloud.google.com/id/2-9) [mymeet](https://vertexaisearch.cloud.google.com/id/2-8) [swiftask](https://vertexaisearch.cloud.google.com/id/2-2) [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7)
+*   This design mirrors human cognition, which uses the same brain for both quick responses and deep reflection [12, 13, 18]. [swiftask](https://vertexaisearch.cloud.google.com/id/2-2) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [makebot](https://vertexaisearch.cloud.google.com/id/2-5)
+
+**2. Extended Context Window:**
+
+*   Claude 3.7 Sonnet features a large context window of 200,000 tokens [3, 4, 6, 16, 18]. [pageon](https://vertexaisearch.cloud.google.com/id/2-4) [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) [docsbot](https://vertexaisearch.cloud.google.com/id/2-10) [makebot](https://vertexaisearch.cloud.google.com/id/2-5) This allows the model to process and retain larger volumes of information, which is critical for handling complex and lengthy interactions [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) [pageon](https://vertexaisearch.cloud.google.com/id/2-4) [anthropic](https://vertexaisearch.cloud.google.com/id/2-11)
+*   It can also generate longer outputs, up to 128,000 tokens in extended thinking mode (beta) [4, 6, 12, 19]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) [amazon](https://vertexaisearch.cloud.google.com/id/2-3)
+
+**3. [anthropic](https://vertexaisearch.cloud.google.com/id/2-7) Specialized Training:**
+
+*   Claude 3.7 Sonnet, particularly the Claude Code variant, has undergone targeted training on diverse software development workflows [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) This ensures it can effectively manage a variety of programming tasks autonomously [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6)
+
+**4. Performance in Complex Reasoning Tasks:**
+
+*   **Coding:** Claude 3.7 Sonnet demonstrates strong coding capabilities [1, 2, 11, 16, 17, 19]. [apidog](https://vertexaisearch.cloud.google.com/id/2-12) [byteplus](https://vertexaisearch.cloud.google.com/id/2-1) [mymeet](https://vertexaisearch.cloud.google.com/id/2-8) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [pageon](https://vertexaisearch.cloud.google.com/id/2-4) [docsbot](https://vertexaisearch.cloud.google.com/id/2-10) [github](https://vertexaisearch.cloud.google.com/id/2-0) It achieves state-of-the-art performance on SWE-bench Verified, a benchmark for software engineering tasks [1, 3, 11, 13, 16, 17]. [mymeet](https://vertexaisearch.cloud.google.com/id/2-8)
+*   **Mathematical Reasoning:** It achieved 80% accuracy on the AIME (American Invitational Mathematics Examination) in extended reasoning mode [2]. [promptlayer](https://vertexaisearch.cloud.google.com/id/2-9)
+*   **Tool Use:** Claude 3.7 Sonnet leads in agentic tool use, making it suitable for automation and workflow execution [1]. [datacamp](https://vertexaisearch.cloud.google.com/id/2-13) It scores highly on TAU-bench, which evaluates AI's ability to interact with external tools [1, 13, 16, 19].
+*   **General Reasoning:** Claude 3.7 Sonnet demonstrates exceptional information processing and distillation [5]. [flowhunt](https://vertexaisearch.cloud.google.com/id/2-14) It is strong in research-based content creation, analytical comparison, mathematical problem-solving, information distillation, and creative content generation with logical structure [5]. [flowhunt](https://vertexaisearch.cloud.google.com/id/2-14)
+
+**5. Claude 3.7 Sonnet vs. o1:**
+
+*   Claude 3.7 Sonnet generally outperforms o1 in several benchmarks [6]. [llm-stats](https://vertexaisearch.cloud.google.com/id/2-15) It excels in SWE-bench Verified, TAU-bench Airline, and TAU-bench Retail [6].
+*   Claude 3.7 Sonnet supports multimodal inputs, while o1 does not [6]. [llm-stats](https://vertexaisearch.cloud.google.com/id/2-15)
+*   Claude 3.7 Sonnet is cheaper than o1 for both input and output processing [6, 15]. [llm-stats](https://vertexaisearch.cloud.google.com/id/2-15) [docsbot](https://vertexaisearch.cloud.google.com/id/2-16)
+*   o1 may deliver higher accuracy in deep logical reasoning but is more expensive and has restricted access [2]. [promptlayer](https://vertexaisearch.cloud.google.com/id/2-9)
+*   o1 has faster throughput (output speed) but longer latency (time-to-think) compared to Claude 3.5 Sonnet [21]. [vellum](https://vertexaisearch.cloud.google.com/id/2-17)
+
+**6. Claude 3.7 Sonnet vs. GPT-4o:**
+
+*   Claude 3.7 Sonnet is newer and has more recent training data than GPT-4o [3, 8]. [docsbot](https://vertexaisearch.cloud.google.com/id/2-10)
+*   Claude 3.7 Sonnet has a larger context window (200K vs. 128K tokens) [3, 8]. [docsbot](https://vertexaisearch.cloud.google.com/id/2-10) [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6)
+*   GPT-4o is roughly 1.4x cheaper than Claude 3.7 Sonnet for input and output tokens [3, 8]. [docsbot](https://vertexaisearch.cloud.google.com/id/2-16)
+*   Claude 3.7 Sonnet was the overall winner in a comparison of reasoning, creativity, factual knowledge, logic, and productivity [9]. [tomsguide](https://vertexaisearch.cloud.google.com/id/2-18)
+*   GPT-4o excels in conversational fluidity, while Claude 3.7 Sonnet delivers more precise, actionable, and polished answers, particularly in logical reasoning [9]. [tomsguide](https://vertexaisearch.cloud.google.com/id/2-18)
+
+**7. [apidog](https://vertexaisearch.cloud.google.com/id/2-12) Claude 3.7 Sonnet vs. Claude 3.5 Sonnet:**
+
+*   Claude 3.7 Sonnet is a significant upgrade, outperforming Claude 3.5 Sonnet in reasoning, coding, and real-world task execution [1]. [anthropic](https://vertexaisearch.cloud.google.com/id/2-7) [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [datacamp](https://vertexaisearch.cloud.google.com/id/2-13)
+*   Claude 3.7 Sonnet demonstrates enhanced context retention, more efficient API calls, improved logical reasoning, and higher coding accuracy compared to Claude 3.5 Sonnet [7]. [apidog](https://vertexaisearch.cloud.google.com/id/2-12)
+
+**8. Limitations and Considerations:**
+
+*   Claude 3.7 Sonnet might "overthink" and create overly complex solutions in some cases [22]. [reddit](https://vertexaisearch.cloud.google.com/id/2-19)
+*   While Claude 3.7 Sonnet offers improvements, Claude 3.5 Sonnet may be preferable for fast, iterative tasks due to its quicker response time [7]. [apidog](https://vertexaisearch.cloud.google.com/id/2-12)
+*   The "Thinking Mode" in Claude 3.7 Sonnet can lead to over-processing and higher token consumption [7]. [apidog](https://vertexaisearch.cloud.google.com/id/2-12)
+
+In summary, Claude 3.7 Sonnet's hybrid reasoning architecture, extended context window, and specialized training contribute to its strong performance in complex reasoning tasks. It generally outperforms o1 in various benchmarks and offers a compelling alternative to GPT-4o, balancing performance and cost. However, users should be aware of potential limitations, such as over-processing and the need to fine-tune prompts for optimal results.
+
+
+SOURCES GATHERED
+----------------------------------------
+1. worldlyjournals
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaQSC_lHPGqzeQk_6GNLBgFOWZB-6Gl4EEtxlr3HTXek5wzwP9wDITA5yrQAygZkBeSYqMcxEgtz23_Xti824pD2d5bu7rpJzoa5c9LRpMHDd9ddnq09OTblIF3ny9Ow-MfzeAVRjaeSRV9jpDTA_UJh4zbYyA
+
+2. hrpub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO20X19UUb6irODnkXc-nnKkU_DdSinOXYTMVk2ilh2u6uGf4TqOysxAAxPJTHCOHezDchNW1DugNon-C4W4ie0zW4tOetS6srSUNc6E52pAGpPAeGqfkjzTMh9YuljHnT6IrYc--t5N1N5-7lSRQoeOix
+
+3. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcm-unVaZEJsLJvr9FKL7LtxkFpM0i6-zl0JuErRXWHqwGLfwZChtfLYBu_gUrO2opr6tu_1t81kraTb7oQP413m79xooeMPaOhjdHRJ8qhp690morpKNNTFel7UHcrA=
+
+4. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcm-unVaZEJsLJvr9FKL7LtxkFpM0i6-zl0JuErRXWHqwGLfwZChtfLYBu_gUrO2opr6tu_1t81kraTb7oQP413m79xooeMPaOhjdHRJ8qhp690morpKNNTFel7UHcrA=
+
+5. ijssers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE3KeaazISgifg0Ifq5c23i6XNDmbyCmhHVxNUJK9LwXihjm57zXsIediKUBpmJ4Eg-WflNiF7Ei6UncXdgVODfolpPcjgrA_P-N1NEmUCvCajVJfaTu9L2JPZ0xIFiOOjYXYBFd2W7sNEEuQsYKDsipiHI_3oaFVRpw==
+
+6. ijssers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE3KeaazISgifg0Ifq5c23i6XNDmbyCmhHVxNUJK9LwXihjm57zXsIediKUBpmJ4Eg-WflNiF7Ei6UncXdgVODfolpPcjgrA_P-N1NEmUCvCajVJfaTu9L2JPZ0xIFiOOjYXYBFd2W7sNEEuQsYKDsipiHI_3oaFVRpw==
+
+7. ijssers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE3KeaazISgifg0Ifq5c23i6XNDmbyCmhHVxNUJK9LwXihjm57zXsIediKUBpmJ4Eg-WflNiF7Ei6UncXdgVODfolpPcjgrA_P-N1NEmUCvCajVJfaTu9L2JPZ0xIFiOOjYXYBFd2W7sNEEuQsYKDsipiHI_3oaFVRpw==
+
+8. ijssers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE3KeaazISgifg0Ifq5c23i6XNDmbyCmhHVxNUJK9LwXihjm57zXsIediKUBpmJ4Eg-WflNiF7Ei6UncXdgVODfolpPcjgrA_P-N1NEmUCvCajVJfaTu9L2JPZ0xIFiOOjYXYBFd2W7sNEEuQsYKDsipiHI_3oaFVRpw==
+
+9. aclanthology
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcm-unVaZEJsLJvr9FKL7LtxkFpM0i6-zl0JuErRXWHqwGLfwZChtfLYBu_gUrO2opr6tu_1t81kraTb7oQP413m79xooeMPaOhjdHRJ8qhp690morpKNNTFel7UHcrA=
+
+10. openhorizons
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwcJUBmC70C8N-YVSnGIUpq2WZvush6pYrXrsMFe_PJC7R_UCN4O9d1g3AmGt8jJTvXE4b_5wDEvPgJ9gxJLh_-9ZtAQIPSsPFcaAWjvk8xDlDj9UtXDZ9UguCPXaKA6ui49jb-BDqpbwNGZFWRdy97ppkSFLGvA81gy7KwemSHHNAdA1dQpHMg0qI49wMQ27KNCI66NwRY-b86v3qy6gEar3R7Dc=
+
+11. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzXrBcxN-_NXy2cmU73ovHv2OLOl1XnTtZlh8paJ1_RX4pTFGgWqLDefmxzGkacN66E7I6UCp76Y5qAZGMT6I9p7LxQdb-j-Wb5aV4_k8nElpJ3fSsE72DVLQ59d_tESVkhkwrHfz_3-O6JvGAkmykE2wo0k4cwI3JN6_9Feks870iv9sf-v8dGv6Khm6QfH7zE93PH31CoXfPRPojzfn844AEzI2d6G38i0FDW8A_Al2X6Qs1P1uG3-eKs2cGZhzipgL6
+
+12. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYu7K0scFRr7tykGiXViDt3qhF68043OFOTqroOV22w1XFojHqvsG3_1fHpab6dIbUJJnSwpg2tk0uhomNe-aB7Hv2BJkCiC8gvWHMs_xIWu57omgm7expBRdkGWAYZORywYwMmFwW1gJ45rsybrsS9yWqlnFqAci
+
+13. folger
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpJ40i9mBqMp5t3V-_hJO-ognUc5CY9ZHtpwtqBOJln_GetbrnNs7uS5enlmeh-1A2Bbot2-XxEbUHMaQeGhfOR-osVFmkULw-VC-E6MQdn0rbxJgRNUY6G1igmwDJUz49ZqMLYDOOhH1YMOgC_Sjqd0IdEdV-CEzjoSxr1tGvENHxuKCuR7W_igRC9_pmCXLZuxC1Xuc16dIA0VzEJNws2k4LqgbQ0Sg=
+
+14. unm
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNrW85HieHzd15PrM2ItbPXr2btbtuUD0283pT0h_-3sA-PiHjeK5ThHzloi0TgEQCWR8n0W_5kAPfRXCEeOl9RLsKO1yP3N3AUzzHtBUiyqvnCySfOf1PpmnA9-PZUl7DBteAsv7_MiW828P0yaDpTaEBvbwb0Q==
+
+15. unm
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNrW85HieHzd15PrM2ItbPXr2btbtuUD0283pT0h_-3sA-PiHjeK5ThHzloi0TgEQCWR8n0W_5kAPfRXCEeOl9RLsKO1yP3N3AUzzHtBUiyqvnCySfOf1PpmnA9-PZUl7DBteAsv7_MiW828P0yaDpTaEBvbwb0Q==
+
+16. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7ffgAPpYfcIXHw91ke8xW82Sq8G6tko_UmSquFB4FPVS8oblY45DZEIOY1mOqBS3VV_ylg4IIjtLItIh43WgjnQ9zZWOMW2-0njZw0azmFoXXu0SpFXlVJ61fXm4YPpEiieyRtvcds8sk24l6_MVJRamX7i2LRIsHSCKFdNfkLDnNR6Dp4gtBeDBr4w_-wnlMzM=
+
+17. pterodactilo
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF9k2OIct4359RmT80x_h9RlLfzR-2ki_aVIK6Y0KQJ5ahB84eQinZQhQG-HNJoDBeyiETjBeuxi0nk8GgLiVrO_zBZyGORpR140jw5KJ7VOHV5q4H-D-Bz7EgOx7Bc2IpvCoyxL7Br1EKoVMD5aCv95rCG3BQK_BRWhzltTxRcd4DkP67HroSBANOURoMtskfWOGYNs3UIG33mgpgOtEFf38fqzR9qX2xggWrBuaGmB0vdA==
+
+18. nehrucolleges
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZv3NfxV2_6biAJwrqcEShF_yaY4xd-7gnftLBC7hmtxrt_PN9sHFyXEFdMOhczAXkJuRkB6ZT-F9Nc0WRwVosDpTkNz0v2GlCKYHr0fE1J5WVvsiW5cpjCGIEIuSbPs5JCApSJmzCrbMXY1HrnUmXbw==
+
+19. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7ffgAPpYfcIXHw91ke8xW82Sq8G6tko_UmSquFB4FPVS8oblY45DZEIOY1mOqBS3VV_ylg4IIjtLItIh43WgjnQ9zZWOMW2-0njZw0azmFoXXu0SpFXlVJ61fXm4YPpEiieyRtvcds8sk24l6_MVJRamX7i2LRIsHSCKFdNfkLDnNR6Dp4gtBeDBr4w_-wnlMzM=
+
+20. cognitive-futures
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYOinAGhDLVvqWzQe-gDHXrjDDrssejUvBrhKNZUoc7K4wpf6EhfDZFCowUXEu0G9XQbqw37OJlrYI0JenOA8qx9zzxeXOrz4bKQ8mp4XOmH4z6U4zKdnbqugU3xC0MlcN3AjN_hvKHQ==
+
+21. jtuh
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwoF149289Xebognx8ve7us8ROW_I9ruSW2Mus2a_mZ2sGRdjH_JsvE94LIaROehfhuu43kVKS2EQX8AQ7FZWjRnEa9bRv3yea9_rCGeSE9EQgFUftybKB_vh6map6pxOX1dguRNFIg3nOIvXuuCA_nUcaHAiJ7dOqmRqqFJLIFLUNVrHzHFahnqHzXtkRfWNN-OHJvmtIkORGGsPV6BOfif0=
+
+22. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7ffgAPpYfcIXHw91ke8xW82Sq8G6tko_UmSquFB4FPVS8oblY45DZEIOY1mOqBS3VV_ylg4IIjtLItIh43WgjnQ9zZWOMW2-0njZw0azmFoXXu0SpFXlVJ61fXm4YPpEiieyRtvcds8sk24l6_MVJRamX7i2LRIsHSCKFdNfkLDnNR6Dp4gtBeDBr4w_-wnlMzM=
+
+23. pterodactilo
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF9k2OIct4359RmT80x_h9RlLfzR-2ki_aVIK6Y0KQJ5ahB84eQinZQhQG-HNJoDBeyiETjBeuxi0nk8GgLiVrO_zBZyGORpR140jw5KJ7VOHV5q4H-D-Bz7EgOx7Bc2IpvCoyxL7Br1EKoVMD5aCv95rCG3BQK_BRWhzltTxRcd4DkP67HroSBANOURoMtskfWOGYNs3UIG33mgpgOtEFf38fqzR9qX2xggWrBuaGmB0vdA==
+
+24. pterodactilo
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF9k2OIct4359RmT80x_h9RlLfzR-2ki_aVIK6Y0KQJ5ahB84eQinZQhQG-HNJoDBeyiETjBeuxi0nk8GgLiVrO_zBZyGORpR140jw5KJ7VOHV5q4H-D-Bz7EgOx7Bc2IpvCoyxL7Br1EKoVMD5aCv95rCG3BQK_BRWhzltTxRcd4DkP67HroSBANOURoMtskfWOGYNs3UIG33mgpgOtEFf38fqzR9qX2xggWrBuaGmB0vdA==
+
+25. howstuffworks
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66DwShzBWxYMZcoKiDcfFjwoPsNNoN_iSlNFRg0GratIeUo77IVUpjnBaunRkbd2fd2rSaaDNlVd9Tz_YaXXZ3cwoVd9ZNpvumPBWlSz2JlR4j7P9A86nU2Docq3jD1uCTjZcSHWBKSTGAFEEUdGTJ5XNWdUNl5t8zJDS2Aj4nQznE6FU9ne7Vfjn2CxKM7-pBCV8
+
+26. howstuffworks
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66DwShzBWxYMZcoKiDcfFjwoPsNNoN_iSlNFRg0GratIeUo77IVUpjnBaunRkbd2fd2rSaaDNlVd9Tz_YaXXZ3cwoVd9ZNpvumPBWlSz2JlR4j7P9A86nU2Docq3jD1uCTjZcSHWBKSTGAFEEUdGTJ5XNWdUNl5t8zJDS2Aj4nQznE6FU9ne7Vfjn2CxKM7-pBCV8
+
+27. howstuffworks
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66DwShzBWxYMZcoKiDcfFjwoPsNNoN_iSlNFRg0GratIeUo77IVUpjnBaunRkbd2fd2rSaaDNlVd9Tz_YaXXZ3cwoVd9ZNpvumPBWlSz2JlR4j7P9A86nU2Docq3jD1uCTjZcSHWBKSTGAFEEUdGTJ5XNWdUNl5t8zJDS2Aj4nQznE6FU9ne7Vfjn2CxKM7-pBCV8
+
+28. tandfonline
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXz1vV9czbbUVWlAmt3Paiwn8Db-1GcihZb1olBRZKjWWBbpwJIg7zfZ5D0T1ULfPbKoSgL9WrJC75ckqk7SaLLHCZGHJt2gO0nuk7TOWBDXv96gzggLAfT-FJjJI6pRTZF8K_FWenZEEM3lpknzwGvNsDiuAZBdYbg8xdIA==
+
+29. howstuffworks
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66DwShzBWxYMZcoKiDcfFjwoPsNNoN_iSlNFRg0GratIeUo77IVUpjnBaunRkbd2fd2rSaaDNlVd9Tz_YaXXZ3cwoVd9ZNpvumPBWlSz2JlR4j7P9A86nU2Docq3jD1uCTjZcSHWBKSTGAFEEUdGTJ5XNWdUNl5t8zJDS2Aj4nQznE6FU9ne7Vfjn2CxKM7-pBCV8
+
+30. frontiersin
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA7k3cxSwLSv0bGbMB6kpx4_mhIk7-JiouWwiz_vBu2tvy6ZM3NiDG6D_nc8tQ3ccbh5BDtN_IVDMXzkKZLaKkNpKDYwDNfGXwk4ceOk1iwNOIcdE3yr_qVfdl78a2iF_UARQCDrGpsV8kX3Z6C4lz-K8jVRpd5YptwHCfGZBX12AL3K_Y2T9_pQg4Lxx07mpZ
+
+31. gold
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8lTHkPmzEbe80LtbIvq8Ixw7z9F2XkGAVcmlSFecI_BKYWi6eKi4XNX2fpMNCQQm3_xSNRV3BvFdcG1nxJi-FN0gr1UNyYKsgi1d-RX0aNSA9LK02NxXwvBrToakoOAkcPqyA3gPBQiWWT5yPJ0hZrTs66jfSyYoap4pMpqZuW1SBMBKtNOiEScT6xysZXh6GqljlFBrB-WFUY5ePAfjpNmEPDixbvQvSKoJ28csIDIr-NSDrA17sOVDT3eDBuxy7VgUhINfn1d7fcWo_LEbLMchN2rWISrnhouc90R0xtfR_b45D0AfS77BdVH0pfz1sl-yMw68NJ_GchrLPurjqtcUDgoc_
+
+32. rdd
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwDIEMSkSKD6_Rgnp7xULj9_9_SADTFksrvWI6pOPTKFgWQE459JIcnyxX9HR6AsjXxcNeFN1y5RWfFQtoJhesyC2FgasE1YlYWNk1OTleEjBTFVwmMJi7XpTUz4kHzCQ7HfrdKwBR9GTd-6kGRCiEOmbcWKo_S49QWjprkW8VujhOyp_7Mwpen_c2fNlvy_MSB-E=
+
+33. rdd
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwDIEMSkSKD6_Rgnp7xULj9_9_SADTFksrvWI6pOPTKFgWQE459JIcnyxX9HR6AsjXxcNeFN1y5RWfFQtoJhesyC2FgasE1YlYWNk1OTleEjBTFVwmMJi7XpTUz4kHzCQ7HfrdKwBR9GTd-6kGRCiEOmbcWKo_S49QWjprkW8VujhOyp_7Mwpen_c2fNlvy_MSB-E=
+
+34. byteplus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRo6y0ARfsjU5wmFKSm8TK-NG8N8EU8xOSm9BcX97LQpaMQCVmdY6fbhg1THCpl7DU69cOCp4NQnAd71PlqUPOs7gNXubG_p2XxE07uwvzv_e_YNh4jSDrqiP3LlP2dHg3IhemH7_dOXxWVcrpRiXKvqivjFugmyN9_zA_DSAXjQ==
+
+35. biorxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZznYOnPzHUpWJAcvlTqTd6Rdx7IfYpeoLapZ_hCxepm13H1Rp0fWmYivakO2xGwHFoRe__HlEmlRLavjlnM7O3idw-1gWSwVCiY5CeLkSXUJVP97lWf0asa5jg5QMzrrxev7FJOHTrhOv6SgIu5UUvmBE-zmB0IJvpLprtVEy
+
+36. umich
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv7tDsdEbQZHTYirslkEEirpiNQJp3lCNraUlyTplH9VtwNDboQIvE27J3M_6VQaJsQL9olbjtQKQUcLQem78YB33lYIAU-wNXZPjAilRu6FUxWKsePk49McfXrxcqfFBaP75qOjCxrBR4yUQgF6oRsKoD8ooLIFUMh2s4U_3ZVw==
+
+37. bilpubgroup
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPjIdGxgP04T4tZ1ROu3fi7JSi5iC_s2TIZQNIBYfofmQ8dUVIQcXaVegAnjNmZMGEYoyY4RKHZ54pvbNZt3xvzN02e4ju528cc67pRLCCxGOgAAMiAWwycLl7IziWiHo2Cflofd7GpB6OiXSKz6yDYeFm6L41wmsaUg0=
+
+38. gold
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8lTHkPmzEbe80LtbIvq8Ixw7z9F2XkGAVcmlSFecI_BKYWi6eKi4XNX2fpMNCQQm3_xSNRV3BvFdcG1nxJi-FN0gr1UNyYKsgi1d-RX0aNSA9LK02NxXwvBrToakoOAkcPqyA3gPBQiWWT5yPJ0hZrTs66jfSyYoap4pMpqZuW1SBMBKtNOiEScT6xysZXh6GqljlFBrB-WFUY5ePAfjpNmEPDixbvQvSKoJ28csIDIr-NSDrA17sOVDT3eDBuxy7VgUhINfn1d7fcWo_LEbLMchN2rWISrnhouc90R0xtfR_b45D0AfS77BdVH0pfz1sl-yMw68NJ_GchrLPurjqtcUDgoc_
+
+39. gold
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8lTHkPmzEbe80LtbIvq8Ixw7z9F2XkGAVcmlSFecI_BKYWi6eKi4XNX2fpMNCQQm3_xSNRV3BvFdcG1nxJi-FN0gr1UNyYKsgi1d-RX0aNSA9LK02NxXwvBrToakoOAkcPqyA3gPBQiWWT5yPJ0hZrTs66jfSyYoap4pMpqZuW1SBMBKtNOiEScT6xysZXh6GqljlFBrB-WFUY5ePAfjpNmEPDixbvQvSKoJ28csIDIr-NSDrA17sOVDT3eDBuxy7VgUhINfn1d7fcWo_LEbLMchN2rWISrnhouc90R0xtfR_b45D0AfS77BdVH0pfz1sl-yMw68NJ_GchrLPurjqtcUDgoc_
+
+40. gold
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8lTHkPmzEbe80LtbIvq8Ixw7z9F2XkGAVcmlSFecI_BKYWi6eKi4XNX2fpMNCQQm3_xSNRV3BvFdcG1nxJi-FN0gr1UNyYKsgi1d-RX0aNSA9LK02NxXwvBrToakoOAkcPqyA3gPBQiWWT5yPJ0hZrTs66jfSyYoap4pMpqZuW1SBMBKtNOiEScT6xysZXh6GqljlFBrB-WFUY5ePAfjpNmEPDixbvQvSKoJ28csIDIr-NSDrA17sOVDT3eDBuxy7VgUhINfn1d7fcWo_LEbLMchN2rWISrnhouc90R0xtfR_b45D0AfS77BdVH0pfz1sl-yMw68NJ_GchrLPurjqtcUDgoc_
+
+41. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrkr1GdhJqSeLZQYj-APiIHZA7HKxAdbHMHh0tH7i6WEm2oCKZPs2A9CNttdaKGLi06wYFtCAZBsJT1GYvCiBkVYKhiqamLfpIX6qjgPC05YrkDdzADDR9l39mxkmbnkC4bvckwLIilM4KyRT-emMlNLkJF1xhRbex7vEmGALYCIdoql8clWvktTjzs3fspjWfELTmHinc4yHboHHI8gJmojrsBCi8gzHZuhB8wlK5QhBW3nxXyvA3pq2evg==
+
+42. byteplus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==
+
+43. swiftask
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE=
+
+44. amazon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF
+
+45. pageon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E=
+
+46. makebot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=
+
+47. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+48. makebot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=
+
+49. byteplus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==
+
+50. swiftask
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE=
+
+51. amazon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF
+
+52. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==
+
+53. makebot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=
+
+54. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==
+
+55. makebot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=
+
+56. mymeet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATAnaEhyU9iJxmOFlUDxI0dWX05SLs55DrvmJAL0utb990TGDBueHIzu8EPoHNyNFNA451il3jHKL3V1XUoU0MAAEIFj-fwncsiRfhRg0C7Il8T0LWlh0LzuJ1xMePZqTT9c=
+
+57. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+58. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+59. promptlayer
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHyhHNkItlPHpvoJOawT-oZ9O05hXM2gNYOEOQvIQYz3F00uy837yAYbEWsmz0YJliJKum6RVXMRw49VzzBAbWzRSxZbDxZeF198L1yrimm473dB1XgAmiiON6zLNs4XRk5nBrbEpYlZw=
+
+60. mymeet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATAnaEhyU9iJxmOFlUDxI0dWX05SLs55DrvmJAL0utb990TGDBueHIzu8EPoHNyNFNA451il3jHKL3V1XUoU0MAAEIFj-fwncsiRfhRg0C7Il8T0LWlh0LzuJ1xMePZqTT9c=
+
+61. swiftask
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE=
+
+62. makebot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=
+
+63. amazon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF
+
+64. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==
+
+65. swiftask
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE=
+
+66. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==
+
+67. amazon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF
+
+68. makebot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=
+
+69. pageon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E=
+
+70. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+71. docsbot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuD87wupwa_1VTb4Ww9KrfSRE3Qn8g2mlhU7d1tOsQmNJGxnh_veK1fPbjeYB-hbTl0dslm530RoWBHHzGRZXpImCtBCiMTtqNzVBgTfC1KogBxoFtlt4TAu3id9hq6A5DBkwqpaGblRv2XYxEXz2ATp4EDpM=
+
+72. makebot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=
+
+73. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+74. pageon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E=
+
+75. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk7gwBQ3pj3k-nFfXlCtD8rGzJOqNXIFvDenCFEU1E1yaw8jfu0y8ypY7X83k93jJvbZgk49XZzDA3qZXfDby7Vw-GDFpD-K2EuubguLFT0ylm4Dxzxp3wJwCH1BhKNC9ugg==
+
+76. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+77. amazon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF
+
+78. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==
+
+79. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+80. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+81. apidog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q==
+
+82. byteplus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==
+
+83. mymeet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATAnaEhyU9iJxmOFlUDxI0dWX05SLs55DrvmJAL0utb990TGDBueHIzu8EPoHNyNFNA451il3jHKL3V1XUoU0MAAEIFj-fwncsiRfhRg0C7Il8T0LWlh0LzuJ1xMePZqTT9c=
+
+84. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==
+
+85. amazon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF
+
+86. pageon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E=
+
+87. docsbot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuD87wupwa_1VTb4Ww9KrfSRE3Qn8g2mlhU7d1tOsQmNJGxnh_veK1fPbjeYB-hbTl0dslm530RoWBHHzGRZXpImCtBCiMTtqNzVBgTfC1KogBxoFtlt4TAu3id9hq6A5DBkwqpaGblRv2XYxEXz2ATp4EDpM=
+
+88. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrkr1GdhJqSeLZQYj-APiIHZA7HKxAdbHMHh0tH7i6WEm2oCKZPs2A9CNttdaKGLi06wYFtCAZBsJT1GYvCiBkVYKhiqamLfpIX6qjgPC05YrkDdzADDR9l39mxkmbnkC4bvckwLIilM4KyRT-emMlNLkJF1xhRbex7vEmGALYCIdoql8clWvktTjzs3fspjWfELTmHinc4yHboHHI8gJmojrsBCi8gzHZuhB8wlK5QhBW3nxXyvA3pq2evg==
+
+89. mymeet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATAnaEhyU9iJxmOFlUDxI0dWX05SLs55DrvmJAL0utb990TGDBueHIzu8EPoHNyNFNA451il3jHKL3V1XUoU0MAAEIFj-fwncsiRfhRg0C7Il8T0LWlh0LzuJ1xMePZqTT9c=
+
+90. promptlayer
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHyhHNkItlPHpvoJOawT-oZ9O05hXM2gNYOEOQvIQYz3F00uy837yAYbEWsmz0YJliJKum6RVXMRw49VzzBAbWzRSxZbDxZeF198L1yrimm473dB1XgAmiiON6zLNs4XRk5nBrbEpYlZw=
+
+91. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyQkBtEBYlWC7WSm8IIDQCSD5UuUfryMUnoqiVGfuQ1i-q5RYej9sg22df_0UVcMafRyFbbFKqKsxAI0DWAcds3uj9Ag-15DyLHerHKiXh9-pZXcbqOwvndD1rOdQIGCcIIuMBRLrro8ny
+
+92. flowhunt
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZX31q-tOw4v6NuUc9PPdhxuiy2Ys7GJHm3FM4g6GTVOkmXHzedFJY7bl9OqWmrTD5zlzilFIns2zVvlDxesEoUExCBfQVJTkOz5MRfM9SdyHJWkPfc9nUCYv-Xp-ETN9ZBOZG7Lgxbxz70m-Pbo6sdBLZBjS6pjClRsT95c6I
+
+93. flowhunt
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZX31q-tOw4v6NuUc9PPdhxuiy2Ys7GJHm3FM4g6GTVOkmXHzedFJY7bl9OqWmrTD5zlzilFIns2zVvlDxesEoUExCBfQVJTkOz5MRfM9SdyHJWkPfc9nUCYv-Xp-ETN9ZBOZG7Lgxbxz70m-Pbo6sdBLZBjS6pjClRsT95c6I
+
+94. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL0Ksp2sz1zYh_IcgBGO-us7eAchCsXPNuSSzAyhYm7bEDaHiBwzgEn-u8hzbHs2WoNbqlYIsek6F2F9pp6Zc5upPpVjshePkKigY2_UeNmjh8ovnjJcD9aJvz8fghmKk_fNRkTa49RNfQJSMnbB_T2SkMYWYMc0TRVdN0wJkpAgRLYUEYZuECCCle
+
+95. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL0Ksp2sz1zYh_IcgBGO-us7eAchCsXPNuSSzAyhYm7bEDaHiBwzgEn-u8hzbHs2WoNbqlYIsek6F2F9pp6Zc5upPpVjshePkKigY2_UeNmjh8ovnjJcD9aJvz8fghmKk_fNRkTa49RNfQJSMnbB_T2SkMYWYMc0TRVdN0wJkpAgRLYUEYZuECCCle
+
+96. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL0Ksp2sz1zYh_IcgBGO-us7eAchCsXPNuSSzAyhYm7bEDaHiBwzgEn-u8hzbHs2WoNbqlYIsek6F2F9pp6Zc5upPpVjshePkKigY2_UeNmjh8ovnjJcD9aJvz8fghmKk_fNRkTa49RNfQJSMnbB_T2SkMYWYMc0TRVdN0wJkpAgRLYUEYZuECCCle
+
+97. docsbot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEniB-qMrvvHA4HRUNJPskJaJf5dhKrtrTnbA0QvvY0uaxcR1CZcI8lU6m83IW-X1yYNm9YKe1-WbTffOeZowbX57FEGH6Ijz8Wg6tXs6heNeqo3b2fverijOb7P6Dl37xgUvyPBldy9N9cFeUQUBHulQe00ug=
+
+98. promptlayer
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHyhHNkItlPHpvoJOawT-oZ9O05hXM2gNYOEOQvIQYz3F00uy837yAYbEWsmz0YJliJKum6RVXMRw49VzzBAbWzRSxZbDxZeF198L1yrimm473dB1XgAmiiON6zLNs4XRk5nBrbEpYlZw=
+
+99. vellum
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHGvLWJr48NoYCM5sct-gokznBrj0OaY6vnG-q4AV-XVggP_7gwNPE7qbCEJIa9Q51KcEPlfYnaGSi9p5BOpUmnXQnZwxjSmM9Zngsm8WolUw45U9YFgH8c5NMIk1zeGXlD65FnIOgbPJpmZbmL98jzZw=
+
+100. docsbot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuD87wupwa_1VTb4Ww9KrfSRE3Qn8g2mlhU7d1tOsQmNJGxnh_veK1fPbjeYB-hbTl0dslm530RoWBHHzGRZXpImCtBCiMTtqNzVBgTfC1KogBxoFtlt4TAu3id9hq6A5DBkwqpaGblRv2XYxEXz2ATp4EDpM=
+
+101. docsbot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuD87wupwa_1VTb4Ww9KrfSRE3Qn8g2mlhU7d1tOsQmNJGxnh_veK1fPbjeYB-hbTl0dslm530RoWBHHzGRZXpImCtBCiMTtqNzVBgTfC1KogBxoFtlt4TAu3id9hq6A5DBkwqpaGblRv2XYxEXz2ATp4EDpM=
+
+102. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+103. docsbot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEniB-qMrvvHA4HRUNJPskJaJf5dhKrtrTnbA0QvvY0uaxcR1CZcI8lU6m83IW-X1yYNm9YKe1-WbTffOeZowbX57FEGH6Ijz8Wg6tXs6heNeqo3b2fverijOb7P6Dl37xgUvyPBldy9N9cFeUQUBHulQe00ug=
+
+104. tomsguide
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq5HLlkIhH-4LyZ23TLaBHCVf_j_zRUZPxbBUQsz53joBUIqoHfh4gU85UOkXcI2z278YduPGU5KCTkdrZbiFSmUOBes6YYGb28eUaMagMj1OeV4PLVGvu_0Z-AxkKKup6jPUUnn9A5NziPr78sRGC-RHz_kFMLRxWSt3a7uI8sfuw-LvUYGp6ho7AmJMMvWXnNHqAWL6Nz8W1vPBc96QPH8YBVK8-laNsdY2jm3YFuwflW6DDqNhiXnQ=
+
+105. tomsguide
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq5HLlkIhH-4LyZ23TLaBHCVf_j_zRUZPxbBUQsz53joBUIqoHfh4gU85UOkXcI2z278YduPGU5KCTkdrZbiFSmUOBes6YYGb28eUaMagMj1OeV4PLVGvu_0Z-AxkKKup6jPUUnn9A5NziPr78sRGC-RHz_kFMLRxWSt3a7uI8sfuw-LvUYGp6ho7AmJMMvWXnNHqAWL6Nz8W1vPBc96QPH8YBVK8-laNsdY2jm3YFuwflW6DDqNhiXnQ=
+
+106. apidog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q==
+
+107. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==
+
+108. makebot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=
+
+109. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyQkBtEBYlWC7WSm8IIDQCSD5UuUfryMUnoqiVGfuQ1i-q5RYej9sg22df_0UVcMafRyFbbFKqKsxAI0DWAcds3uj9Ag-15DyLHerHKiXh9-pZXcbqOwvndD1rOdQIGCcIIuMBRLrro8ny
+
+110. apidog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q==
+
+111. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj0AJ0sv4kU5UH6eYjdOxaZ1PVAl7XsV7Xm4ZaYW6db3yl7LV79VflAR-XotELQEPpJqOrucHhrk9777GVmlx_4NvK-xuT79q9tbeu2J34OZzLwRhplG2yENsTxjJDaRlAirLpKdaAv756t34VnLKWnoZl6tHWh2DC8f0OpwolyMnvbe8kzcqNchNlWCAvJ2wRHM-wDgwzUg==
+
+112. apidog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q==
+
+113. apidog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q==
+
+114. openhorizons
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwcJUBmC70C8N-YVSnGIUpq2WZvush6pYrXrsMFe_PJC7R_UCN4O9d1g3AmGt8jJTvXE4b_5wDEvPgJ9gxJLh_-9ZtAQIPSsPFcaAWjvk8xDlDj9UtXDZ9UguCPXaKA6ui49jb-BDqpbwNGZFWRdy97ppkSFLGvA81gy7KwemSHHNAdA1dQpHMg0qI49wMQ27KNCI66NwRY-b86v3qy6gEar3R7Dc=
+
+115. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzXrBcxN-_NXy2cmU73ovHv2OLOl1XnTtZlh8paJ1_RX4pTFGgWqLDefmxzGkacN66E7I6UCp76Y5qAZGMT6I9p7LxQdb-j-Wb5aV4_k8nElpJ3fSsE72DVLQ59d_tESVkhkwrHfz_3-O6JvGAkmykE2wo0k4cwI3JN6_9Feks870iv9sf-v8dGv6Khm6QfH7zE93PH31CoXfPRPojzfn844AEzI2d6G38i0FDW8A_Al2X6Qs1P1uG3-eKs2cGZhzipgL6
+
+116. byteplus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==
+
+117. swiftask
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE=
+
+118. amazon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF
+
+119. pageon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E=
+
+120. makebot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=
+
+121. learnprompting
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==
+
+122. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "Why is the Delta between o1 and 4o so much bigger than sonnet and sonnet thinking"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "The larger delta between o1 and 4o compared to Sonnet and Sonnet Thinking likely stems from a combination of architectural differences, training data, and intended use cases. Here's a breakdown:\n\n*   **Claude 3.7 Sonnet's Hybrid Reasoning:** Claude 3.7 Sonnet's key innovation is its \"hybrid reasoning\" architecture, integrating a standard mode for quick responses and an extended thinking mode for complex tasks [byteplus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==) [swiftask](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE=) [amazon](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF) [pageon](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E=) [makebot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=) [learnprompting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw==). This allows it to allocate extra computational resources to solve complex problems [learnprompting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==).\n*   **Context Window:** Claude 3.7 Sonnet has a large context window of 200,000 tokens, enabling it to process and retain larger volumes of information [pageon](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E=) [learnprompting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==) [docsbot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==0) [makebot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME=). GPT-4o, in comparison, has a context window of 128K tokens [docsbot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==0) [learnprompting](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg==).\n*   **Training Data:** Claude 3.7 Sonnet is newer and has more recent training data than GPT-4o [docsbot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==0).\n*   **Performance Benchmarks:** Claude 3.7 Sonnet generally outperforms o1 in several benchmarks [llm-stats](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==5). It excels in SWE-bench Verified, TAU-bench Airline, and TAU-bench Retail [llm-stats](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==5). In a comparison of reasoning, creativity, factual knowledge, logic, and productivity, Claude 3.7 Sonnet was the overall winner [tomsguide](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==8).\n*   **Intended Use Cases:** Claude 3.7 Sonnet demonstrates exceptional information processing and distillation [flowhunt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==4). It is strong in research-based content creation, analytical comparison, mathematical problem-solving, information distillation, and creative content generation with logical structure [flowhunt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==4). GPT-4o excels in conversational fluidity, while Claude 3.7 Sonnet delivers more precise, actionable, and polished answers, particularly in logical reasoning [tomsguide](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg==8).\n\nIn contrast, \"sonnet thinking\" refers to a cognitive process, suggesting that human thought units resemble sonnets with a structured progression [openhorizons](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwcJUBmC70C8N-YVSnGIUpq2WZvush6pYrXrsMFe_PJC7R_UCN4O9d1g3AmGt8jJTvXE4b_5wDEvPgJ9gxJLh_-9ZtAQIPSsPFcaAWjvk8xDlDj9UtXDZ9UguCPXaKA6ui49jb-BDqpbwNGZFWRdy97ppkSFLGvA81gy7KwemSHHNAdA1dQpHMg0qI49wMQ27KNCI66NwRY-b86v3qy6gEar3R7Dc=). This concept is explored within cognitive poetics, which examines the aesthetic experience of literary texts and the cognitive processes involved [researchgate](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzXrBcxN-_NXy2cmU73ovHv2OLOl1XnTtZlh8paJ1_RX4pTFGgWqLDefmxzGkacN66E7I6UCp76Y5qAZGMT6I9p7LxQdb-j-Wb5aV4_k8nElpJ3fSsE72DVLQ59d_tESVkhkwrHfz_3-O6JvGAkmykE2wo0k4cwI3JN6_9Feks870iv9sf-v8dGv6Khm6QfH7zE93PH31CoXfPRPojzfn844AEzI2d6G38i0FDW8A_Al2X6Qs1P1uG3-eKs2cGZhzipgL6). The difference in delta is because the former is comparing the performance of two different LLMs while the latter is a concept of human thought."
+    }
+  ],
+  "search_query": [
+    "linguistics \"o1\" \"4o\" \"sonnet\" \"sonnet thinking\" semantic difference",
+    "cognitive science \"o1\" \"4o\" \"sonnet\" \"sonnet thinking\" processing difference",
+    "What architectural innovations differentiate Claude 3.7 Sonnet from other LLMs, and how do these differences relate to its performance in complex reasoning tasks compared to other models like o1 and 4o?"
+  ],
+  "web_research_result": [
+    "Based on the search results, here's a synthesis of information regarding linguistics, sonnets, \"sonnet thinking,\" and semantic differences, current as of June 20, 2025:\n\n**1. Linguistic Analysis of Sonnets:**\n\n*   **General Approaches:** Linguistic analysis of sonnets involves examining language use to create meaning and emotion, focusing on word choice, style, and poetic techniques to convey themes like love, time, and beauty. [worldlyjournals](https://vertexaisearch.cloud.google.com/id/0-0) This analysis highlights the unique qualities of the language and its contribution to the work's enduring appeal.\n*   **Computational Linguistics:** Computational linguistics techniques are applied to analyze metrical and semantic aspects of sonnets. [hrpub](https://vertexaisearch.cloud.google.com/id/0-1) [aclanthology](https://vertexaisearch.cloud.google.com/id/0-2) This includes developing hybrid scansion systems to extract rhythmical patterns and using distributional semantic models to extract semantic regularities and group sonnets/poets accordingly. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Stylistic Analysis:** Stylistic analysis, including graphological and semantic deviation, is used to study elements like punctuation, rhetorical devices (personification, rhyme scheme, repetition), and lexical choices (verbs, adjectives) to uncover thematic resonance and layered meanings. [ijssers](https://vertexaisearch.cloud.google.com/id/0-3) Foregrounding techniques are also considered in relation to love and admiration. [ijssers](https://vertexaisearch.cloud.google.com/id/0-3)\n\n**2. [ijssers](https://vertexaisearch.cloud.google.com/id/0-3) Semantic Analysis and Sonnets:**\n\n*   **Semantic Deviation:** Semantic deviation explores rhetorical devices like personification, rhyme scheme, repetition, and specific word choices to uncover thematic resonance and layered meanings in sonnets. [ijssers](https://vertexaisearch.cloud.google.com/id/0-3)\n*   **Distributional Semantic Models:** These models, based on the distributional hypothesis (words in similar contexts have similar meanings), are applied to corpora of sonnets to extract semantic similarities between words, texts, and authors. [aclanthology](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Ambiguity and Irony:** Sonnets are often rich in ironic content and ambiguity, with lexical ambiguity (words with multiple meanings) contributing to varied interpretations.\n\n**3. \"Sonnet Thinking\" and Cognitive Processes:**\n\n*   **Sonnet as a Thought Process:** The idea of \"sonnet thinking\" suggests that the fundamental units of human thought are like little songs or sonnets, involving an image, a journey, a realization, and an ending. [openhorizons](https://vertexaisearch.cloud.google.com/id/0-4)\n*   **Cognitive Poetics:** Cognitive poetics explores the aesthetic experience of literary texts, with the sonnet serving as a suitable case study due to its structured form and cognitive processes. [researchgate](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **Language of Thought:** Large language models (LLMs) sometimes \"think\" in a conceptual space shared between languages, suggesting a universal \"language of thought.\" In poetry, LLMs may plan ahead, considering rhyming words in advance. [anthropic](https://vertexaisearch.cloud.google.com/id/0-6)\n\n**4. Semantic Differences and Nuances:**\n\n*   **Multiple Meanings:** A significant feature of sonnets is the use of words with multiple simultaneous meanings, contributing to richness of thought and imagery. [folger](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Sound-Sense Harmony:** The association of sound and sense is crucial in poetry. Rhyme, alliteration, assonance, and consonance can add secondary meaning by highlighting words and phrases.\n*   **Figurative Language:** Sonnets employ figurative language (simile, metaphor, personification, etc.) to express ideas imaginatively, forcing attention to connotation rather than denotation. [unm](https://vertexaisearch.cloud.google.com/id/0-8)\n\n**5. [unm](https://vertexaisearch.cloud.google.com/id/0-8) Application of AI and Computational Tools:**\n\n*   **SPARSAR:** A system used for linguistic analysis, including phonetic, syntactic, and semantic levels, to detect irony and analyze sound-sense harmony in sonnets.\n*   **Large Language Models (LLMs):** LLMs like Claude 3.7 Sonnet and others are used for code generation, bug detection, and reasoning tasks, with \"thinking\" models showing improved performance in certain areas.\n*   **Challenges for LLMs:** Despite advancements, challenges remain in ensuring the faithfulness and reliability of LLMs, particularly in avoiding \"faked\" reasoning.\n",
+    "Based on the search results, here's a synthesis of information regarding cognitive science, sonnets, and related processing differences:\n\n**1. [researchgate](https://vertexaisearch.cloud.google.com/id/1-0) Cognitive Science and Literature Intersection:**\n\n*   BA programs are emerging that combine English Literature with Cognitive Science, exploring how the brain processes stories, language, and cultural narratives [3]. This interdisciplinary approach examines the intersection between language, literature, and human cognition [3]. [pterodactilo](https://vertexaisearch.cloud.google.com/id/1-1) [nehrucolleges](https://vertexaisearch.cloud.google.com/id/1-2)\n*   Cognitive Poetics is a field that explores the relationship between cognitive science and literary genres, especially poetry [14, 20]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-0) It uses cognitive science tools to facilitate understanding and analyzing poetry [14]. [cognitive-futures](https://vertexaisearch.cloud.google.com/id/1-3) [jtuh](https://vertexaisearch.cloud.google.com/id/1-4) [researchgate](https://vertexaisearch.cloud.google.com/id/1-0) [pterodactilo](https://vertexaisearch.cloud.google.com/id/1-1)\n*   Cognitive Cultural Studies applies insights from cognitive science to understand literature and cultural productions, including how our brains respond to novels, poems, and stories [19]. [pterodactilo](https://vertexaisearch.cloud.google.com/id/1-1)\n\n**2. Cognitive Processing of Poetry:**\n\n*   Poetry activates different parts of the brain compared to ordinary speech or prose, engaging areas that recognize rhymes and rhythms and contemplate imagery and layered meanings [10]. [howstuffworks](https://vertexaisearch.cloud.google.com/id/1-5) This suggests a deep, intuitive connection to verse is within our neurological structure [10]. [howstuffworks](https://vertexaisearch.cloud.google.com/id/1-5)\n*   Engaging with poetry can stimulate emotional and aesthetic responses and enhance cognitive functions like flexible thinking and the ability to understand complex meanings, which can be beneficial in decision-making [10]. [howstuffworks](https://vertexaisearch.cloud.google.com/id/1-5)\n*   Reading poetry during breaks from creative tasks can enhance creative cognition, potentially by stimulating mind-wandering and associative thinking [6]. [tandfonline](https://vertexaisearch.cloud.google.com/id/1-6)\n*   Studies using fMRI have shown that poetry triggers different parts of the brain related to non-automatic processing of meaning, leading to increased lively activation of mind and a sense of psychological reward [10]. [howstuffworks](https://vertexaisearch.cloud.google.com/id/1-5)\n\n**3. Sonnets and Cognitive Processes:**\n\n*   Eye-tracking studies are used to record cognitive processes during the reading of poetry, including Shakespeare's sonnets, to overcome the limitations of relying solely on post-reading assessments [23].\n*   Quantitative Narrative Analysis (QNA) is used to break down complex literary works into simpler, measurable features to study the rereading of poetry [23]. [frontiersin](https://vertexaisearch.cloud.google.com/id/1-7)\n*   Research suggests that vivid imagery in Haiku poetry significantly boosts perceived creativity and aesthetic appeal, mediated by felt emotion [8]. [gold](https://vertexaisearch.cloud.google.com/id/1-8)\n\n**4. Ambiguity and Interpretation:**\n\n*   Lexical ambiguity in modernist poetry requires readers to actively interpret and co-create meaning, reflecting the complexities and uncertainties of contemporary life [4]. [rdd](https://vertexaisearch.cloud.google.com/id/1-9)\n*   Modernist poets use ambiguous language to involve readers in navigating multiple meanings through personal experience and cognitive associations [4]. [rdd](https://vertexaisearch.cloud.google.com/id/1-9)\n\n**5. AI Models and Cognitive Processes:**\n\n*   AI models like Claude 3.7 Sonnet are being analyzed for their reasoning and cognitive capabilities, sometimes using tasks designed to replicate cognitive science experiments [5, 7, 13].\n*   Claude 3.7 Sonnet represents an architectural innovation through its hybrid reasoning approach, which mirrors human cognition by allocating different processing resources to simple recall tasks versus complex problem-solving [5]. [byteplus](https://vertexaisearch.cloud.google.com/id/1-10)\n*   Studies suggest that Large Language Models (LLMs) may develop analogous processing hierarchies to human cognitive processing through their training exposure [9]. [biorxiv](https://vertexaisearch.cloud.google.com/id/1-11)\n*   LLMs are being used to uncover statistical distributions in linguistic data, performing on par with or superior to humans on tasks requiring language knowledge [16]. [umich](https://vertexaisearch.cloud.google.com/id/1-12)\n\n**6. [bilpubgroup](https://vertexaisearch.cloud.google.com/id/1-13) Processing Differences:**\n\n*   Different poetic forms may be associated with distinct cognitive processing styles. [gold](https://vertexaisearch.cloud.google.com/id/1-8) For example, Haiku may demand an interconnected and flexible cognitive approach, while Senryu aligns with a more compartmentalized processing style [8]. [gold](https://vertexaisearch.cloud.google.com/id/1-8)\n*   Research indicates that while Haiku demands an interconnected and flexible cognitive approach, Senryu aligns with a more compartmentalized processing style, highlighting the diverse cognitive pathways through which poetry can be creatively appreciated [8]. [gold](https://vertexaisearch.cloud.google.com/id/1-8)\n\nThis information highlights the growing interest in applying cognitive science principles to the study of literature, including poetry and specific forms like sonnets, to understand the cognitive processes involved in reading, interpretation, and appreciation. Furthermore, AI models are increasingly being used as tools to model and understand human cognition in relation to language and reasoning.\n",
+    "Based on the search results, here's a synthesis of the architectural innovations that differentiate Claude 3.7 Sonnet from other LLMs, and how these differences relate to its performance in complex reasoning tasks compared to models like o1 and 4o:\n\n**1. [github](https://vertexaisearch.cloud.google.com/id/2-0) Hybrid Reasoning Architecture:**\n\n*   Claude 3.7 Sonnet's defining innovation is its \"hybrid reasoning\" approach [1, 4, 11, 18]. [byteplus](https://vertexaisearch.cloud.google.com/id/2-1) [swiftask](https://vertexaisearch.cloud.google.com/id/2-2) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [pageon](https://vertexaisearch.cloud.google.com/id/2-4) [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) It integrates two distinct operational modes within a single model [12, 18]: [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [byteplus](https://vertexaisearch.cloud.google.com/id/2-1) [swiftask](https://vertexaisearch.cloud.google.com/id/2-2) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7)\n    *   **Standard Mode:** Provides rapid responses for routine queries, functioning as an upgraded version of Claude 3.5 Sonnet [12, 13, 18]. [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7)\n    *   **Extended Thinking Mode:** Engages in self-reflection and detailed, step-by-step reasoning before answering, enhancing performance on complex tasks [2, 4, 12, 13, 18]. [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [mymeet](https://vertexaisearch.cloud.google.com/id/2-8) This mode allocates extra computational resources (\"thinking tokens\") to solve complex problems [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) Users can even view the model's internal reasoning process [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6)\n*   This hybrid structure allows users to toggle between quick answers and rigorous problem-solving without switching to a separate model [2]. [promptlayer](https://vertexaisearch.cloud.google.com/id/2-9) [mymeet](https://vertexaisearch.cloud.google.com/id/2-8) [swiftask](https://vertexaisearch.cloud.google.com/id/2-2) [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7)\n*   This design mirrors human cognition, which uses the same brain for both quick responses and deep reflection [12, 13, 18]. [swiftask](https://vertexaisearch.cloud.google.com/id/2-2) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [makebot](https://vertexaisearch.cloud.google.com/id/2-5)\n\n**2. Extended Context Window:**\n\n*   Claude 3.7 Sonnet features a large context window of 200,000 tokens [3, 4, 6, 16, 18]. [pageon](https://vertexaisearch.cloud.google.com/id/2-4) [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) [docsbot](https://vertexaisearch.cloud.google.com/id/2-10) [makebot](https://vertexaisearch.cloud.google.com/id/2-5) This allows the model to process and retain larger volumes of information, which is critical for handling complex and lengthy interactions [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) [pageon](https://vertexaisearch.cloud.google.com/id/2-4) [anthropic](https://vertexaisearch.cloud.google.com/id/2-11)\n*   It can also generate longer outputs, up to 128,000 tokens in extended thinking mode (beta) [4, 6, 12, 19]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) [amazon](https://vertexaisearch.cloud.google.com/id/2-3)\n\n**3. [anthropic](https://vertexaisearch.cloud.google.com/id/2-7) Specialized Training:**\n\n*   Claude 3.7 Sonnet, particularly the Claude Code variant, has undergone targeted training on diverse software development workflows [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6) This ensures it can effectively manage a variety of programming tasks autonomously [4]. [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6)\n\n**4. Performance in Complex Reasoning Tasks:**\n\n*   **Coding:** Claude 3.7 Sonnet demonstrates strong coding capabilities [1, 2, 11, 16, 17, 19]. [apidog](https://vertexaisearch.cloud.google.com/id/2-12) [byteplus](https://vertexaisearch.cloud.google.com/id/2-1) [mymeet](https://vertexaisearch.cloud.google.com/id/2-8) [anthropic](https://vertexaisearch.cloud.google.com/id/2-7) [amazon](https://vertexaisearch.cloud.google.com/id/2-3) [pageon](https://vertexaisearch.cloud.google.com/id/2-4) [docsbot](https://vertexaisearch.cloud.google.com/id/2-10) [github](https://vertexaisearch.cloud.google.com/id/2-0) It achieves state-of-the-art performance on SWE-bench Verified, a benchmark for software engineering tasks [1, 3, 11, 13, 16, 17]. [mymeet](https://vertexaisearch.cloud.google.com/id/2-8)\n*   **Mathematical Reasoning:** It achieved 80% accuracy on the AIME (American Invitational Mathematics Examination) in extended reasoning mode [2]. [promptlayer](https://vertexaisearch.cloud.google.com/id/2-9)\n*   **Tool Use:** Claude 3.7 Sonnet leads in agentic tool use, making it suitable for automation and workflow execution [1]. [datacamp](https://vertexaisearch.cloud.google.com/id/2-13) It scores highly on TAU-bench, which evaluates AI's ability to interact with external tools [1, 13, 16, 19].\n*   **General Reasoning:** Claude 3.7 Sonnet demonstrates exceptional information processing and distillation [5]. [flowhunt](https://vertexaisearch.cloud.google.com/id/2-14) It is strong in research-based content creation, analytical comparison, mathematical problem-solving, information distillation, and creative content generation with logical structure [5]. [flowhunt](https://vertexaisearch.cloud.google.com/id/2-14)\n\n**5. Claude 3.7 Sonnet vs. o1:**\n\n*   Claude 3.7 Sonnet generally outperforms o1 in several benchmarks [6]. [llm-stats](https://vertexaisearch.cloud.google.com/id/2-15) It excels in SWE-bench Verified, TAU-bench Airline, and TAU-bench Retail [6].\n*   Claude 3.7 Sonnet supports multimodal inputs, while o1 does not [6]. [llm-stats](https://vertexaisearch.cloud.google.com/id/2-15)\n*   Claude 3.7 Sonnet is cheaper than o1 for both input and output processing [6, 15]. [llm-stats](https://vertexaisearch.cloud.google.com/id/2-15) [docsbot](https://vertexaisearch.cloud.google.com/id/2-16)\n*   o1 may deliver higher accuracy in deep logical reasoning but is more expensive and has restricted access [2]. [promptlayer](https://vertexaisearch.cloud.google.com/id/2-9)\n*   o1 has faster throughput (output speed) but longer latency (time-to-think) compared to Claude 3.5 Sonnet [21]. [vellum](https://vertexaisearch.cloud.google.com/id/2-17)\n\n**6. Claude 3.7 Sonnet vs. GPT-4o:**\n\n*   Claude 3.7 Sonnet is newer and has more recent training data than GPT-4o [3, 8]. [docsbot](https://vertexaisearch.cloud.google.com/id/2-10)\n*   Claude 3.7 Sonnet has a larger context window (200K vs. 128K tokens) [3, 8]. [docsbot](https://vertexaisearch.cloud.google.com/id/2-10) [learnprompting](https://vertexaisearch.cloud.google.com/id/2-6)\n*   GPT-4o is roughly 1.4x cheaper than Claude 3.7 Sonnet for input and output tokens [3, 8]. [docsbot](https://vertexaisearch.cloud.google.com/id/2-16)\n*   Claude 3.7 Sonnet was the overall winner in a comparison of reasoning, creativity, factual knowledge, logic, and productivity [9]. [tomsguide](https://vertexaisearch.cloud.google.com/id/2-18)\n*   GPT-4o excels in conversational fluidity, while Claude 3.7 Sonnet delivers more precise, actionable, and polished answers, particularly in logical reasoning [9]. [tomsguide](https://vertexaisearch.cloud.google.com/id/2-18)\n\n**7. [apidog](https://vertexaisearch.cloud.google.com/id/2-12) Claude 3.7 Sonnet vs. Claude 3.5 Sonnet:**\n\n*   Claude 3.7 Sonnet is a significant upgrade, outperforming Claude 3.5 Sonnet in reasoning, coding, and real-world task execution [1]. [anthropic](https://vertexaisearch.cloud.google.com/id/2-7) [makebot](https://vertexaisearch.cloud.google.com/id/2-5) [datacamp](https://vertexaisearch.cloud.google.com/id/2-13)\n*   Claude 3.7 Sonnet demonstrates enhanced context retention, more efficient API calls, improved logical reasoning, and higher coding accuracy compared to Claude 3.5 Sonnet [7]. [apidog](https://vertexaisearch.cloud.google.com/id/2-12)\n\n**8. Limitations and Considerations:**\n\n*   Claude 3.7 Sonnet might \"overthink\" and create overly complex solutions in some cases [22]. [reddit](https://vertexaisearch.cloud.google.com/id/2-19)\n*   While Claude 3.7 Sonnet offers improvements, Claude 3.5 Sonnet may be preferable for fast, iterative tasks due to its quicker response time [7]. [apidog](https://vertexaisearch.cloud.google.com/id/2-12)\n*   The \"Thinking Mode\" in Claude 3.7 Sonnet can lead to over-processing and higher token consumption [7]. [apidog](https://vertexaisearch.cloud.google.com/id/2-12)\n\nIn summary, Claude 3.7 Sonnet's hybrid reasoning architecture, extended context window, and specialized training contribute to its strong performance in complex reasoning tasks. It generally outperforms o1 in various benchmarks and offers a compelling alternative to GPT-4o, balancing performance and cost. However, users should be aware of potential limitations, such as over-processing and the need to fine-tune prompts for optimal results.\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "worldlyjournals",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaQSC_lHPGqzeQk_6GNLBgFOWZB-6Gl4EEtxlr3HTXek5wzwP9wDITA5yrQAygZkBeSYqMcxEgtz23_Xti824pD2d5bu7rpJzoa5c9LRpMHDd9ddnq09OTblIF3ny9Ow-MfzeAVRjaeSRV9jpDTA_UJh4zbYyA"
+    },
+    {
+      "label": "hrpub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEO20X19UUb6irODnkXc-nnKkU_DdSinOXYTMVk2ilh2u6uGf4TqOysxAAxPJTHCOHezDchNW1DugNon-C4W4ie0zW4tOetS6srSUNc6E52pAGpPAeGqfkjzTMh9YuljHnT6IrYc--t5N1N5-7lSRQoeOix"
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcm-unVaZEJsLJvr9FKL7LtxkFpM0i6-zl0JuErRXWHqwGLfwZChtfLYBu_gUrO2opr6tu_1t81kraTb7oQP413m79xooeMPaOhjdHRJ8qhp690morpKNNTFel7UHcrA="
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcm-unVaZEJsLJvr9FKL7LtxkFpM0i6-zl0JuErRXWHqwGLfwZChtfLYBu_gUrO2opr6tu_1t81kraTb7oQP413m79xooeMPaOhjdHRJ8qhp690morpKNNTFel7UHcrA="
+    },
+    {
+      "label": "ijssers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE3KeaazISgifg0Ifq5c23i6XNDmbyCmhHVxNUJK9LwXihjm57zXsIediKUBpmJ4Eg-WflNiF7Ei6UncXdgVODfolpPcjgrA_P-N1NEmUCvCajVJfaTu9L2JPZ0xIFiOOjYXYBFd2W7sNEEuQsYKDsipiHI_3oaFVRpw=="
+    },
+    {
+      "label": "ijssers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE3KeaazISgifg0Ifq5c23i6XNDmbyCmhHVxNUJK9LwXihjm57zXsIediKUBpmJ4Eg-WflNiF7Ei6UncXdgVODfolpPcjgrA_P-N1NEmUCvCajVJfaTu9L2JPZ0xIFiOOjYXYBFd2W7sNEEuQsYKDsipiHI_3oaFVRpw=="
+    },
+    {
+      "label": "ijssers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE3KeaazISgifg0Ifq5c23i6XNDmbyCmhHVxNUJK9LwXihjm57zXsIediKUBpmJ4Eg-WflNiF7Ei6UncXdgVODfolpPcjgrA_P-N1NEmUCvCajVJfaTu9L2JPZ0xIFiOOjYXYBFd2W7sNEEuQsYKDsipiHI_3oaFVRpw=="
+    },
+    {
+      "label": "ijssers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE3KeaazISgifg0Ifq5c23i6XNDmbyCmhHVxNUJK9LwXihjm57zXsIediKUBpmJ4Eg-WflNiF7Ei6UncXdgVODfolpPcjgrA_P-N1NEmUCvCajVJfaTu9L2JPZ0xIFiOOjYXYBFd2W7sNEEuQsYKDsipiHI_3oaFVRpw=="
+    },
+    {
+      "label": "aclanthology",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcm-unVaZEJsLJvr9FKL7LtxkFpM0i6-zl0JuErRXWHqwGLfwZChtfLYBu_gUrO2opr6tu_1t81kraTb7oQP413m79xooeMPaOhjdHRJ8qhp690morpKNNTFel7UHcrA="
+    },
+    {
+      "label": "openhorizons",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwcJUBmC70C8N-YVSnGIUpq2WZvush6pYrXrsMFe_PJC7R_UCN4O9d1g3AmGt8jJTvXE4b_5wDEvPgJ9gxJLh_-9ZtAQIPSsPFcaAWjvk8xDlDj9UtXDZ9UguCPXaKA6ui49jb-BDqpbwNGZFWRdy97ppkSFLGvA81gy7KwemSHHNAdA1dQpHMg0qI49wMQ27KNCI66NwRY-b86v3qy6gEar3R7Dc="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzXrBcxN-_NXy2cmU73ovHv2OLOl1XnTtZlh8paJ1_RX4pTFGgWqLDefmxzGkacN66E7I6UCp76Y5qAZGMT6I9p7LxQdb-j-Wb5aV4_k8nElpJ3fSsE72DVLQ59d_tESVkhkwrHfz_3-O6JvGAkmykE2wo0k4cwI3JN6_9Feks870iv9sf-v8dGv6Khm6QfH7zE93PH31CoXfPRPojzfn844AEzI2d6G38i0FDW8A_Al2X6Qs1P1uG3-eKs2cGZhzipgL6"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYu7K0scFRr7tykGiXViDt3qhF68043OFOTqroOV22w1XFojHqvsG3_1fHpab6dIbUJJnSwpg2tk0uhomNe-aB7Hv2BJkCiC8gvWHMs_xIWu57omgm7expBRdkGWAYZORywYwMmFwW1gJ45rsybrsS9yWqlnFqAci"
+    },
+    {
+      "label": "folger",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpJ40i9mBqMp5t3V-_hJO-ognUc5CY9ZHtpwtqBOJln_GetbrnNs7uS5enlmeh-1A2Bbot2-XxEbUHMaQeGhfOR-osVFmkULw-VC-E6MQdn0rbxJgRNUY6G1igmwDJUz49ZqMLYDOOhH1YMOgC_Sjqd0IdEdV-CEzjoSxr1tGvENHxuKCuR7W_igRC9_pmCXLZuxC1Xuc16dIA0VzEJNws2k4LqgbQ0Sg="
+    },
+    {
+      "label": "unm",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNrW85HieHzd15PrM2ItbPXr2btbtuUD0283pT0h_-3sA-PiHjeK5ThHzloi0TgEQCWR8n0W_5kAPfRXCEeOl9RLsKO1yP3N3AUzzHtBUiyqvnCySfOf1PpmnA9-PZUl7DBteAsv7_MiW828P0yaDpTaEBvbwb0Q=="
+    },
+    {
+      "label": "unm",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNrW85HieHzd15PrM2ItbPXr2btbtuUD0283pT0h_-3sA-PiHjeK5ThHzloi0TgEQCWR8n0W_5kAPfRXCEeOl9RLsKO1yP3N3AUzzHtBUiyqvnCySfOf1PpmnA9-PZUl7DBteAsv7_MiW828P0yaDpTaEBvbwb0Q=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7ffgAPpYfcIXHw91ke8xW82Sq8G6tko_UmSquFB4FPVS8oblY45DZEIOY1mOqBS3VV_ylg4IIjtLItIh43WgjnQ9zZWOMW2-0njZw0azmFoXXu0SpFXlVJ61fXm4YPpEiieyRtvcds8sk24l6_MVJRamX7i2LRIsHSCKFdNfkLDnNR6Dp4gtBeDBr4w_-wnlMzM="
+    },
+    {
+      "label": "pterodactilo",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF9k2OIct4359RmT80x_h9RlLfzR-2ki_aVIK6Y0KQJ5ahB84eQinZQhQG-HNJoDBeyiETjBeuxi0nk8GgLiVrO_zBZyGORpR140jw5KJ7VOHV5q4H-D-Bz7EgOx7Bc2IpvCoyxL7Br1EKoVMD5aCv95rCG3BQK_BRWhzltTxRcd4DkP67HroSBANOURoMtskfWOGYNs3UIG33mgpgOtEFf38fqzR9qX2xggWrBuaGmB0vdA=="
+    },
+    {
+      "label": "nehrucolleges",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZv3NfxV2_6biAJwrqcEShF_yaY4xd-7gnftLBC7hmtxrt_PN9sHFyXEFdMOhczAXkJuRkB6ZT-F9Nc0WRwVosDpTkNz0v2GlCKYHr0fE1J5WVvsiW5cpjCGIEIuSbPs5JCApSJmzCrbMXY1HrnUmXbw=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7ffgAPpYfcIXHw91ke8xW82Sq8G6tko_UmSquFB4FPVS8oblY45DZEIOY1mOqBS3VV_ylg4IIjtLItIh43WgjnQ9zZWOMW2-0njZw0azmFoXXu0SpFXlVJ61fXm4YPpEiieyRtvcds8sk24l6_MVJRamX7i2LRIsHSCKFdNfkLDnNR6Dp4gtBeDBr4w_-wnlMzM="
+    },
+    {
+      "label": "cognitive-futures",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYOinAGhDLVvqWzQe-gDHXrjDDrssejUvBrhKNZUoc7K4wpf6EhfDZFCowUXEu0G9XQbqw37OJlrYI0JenOA8qx9zzxeXOrz4bKQ8mp4XOmH4z6U4zKdnbqugU3xC0MlcN3AjN_hvKHQ=="
+    },
+    {
+      "label": "jtuh",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwoF149289Xebognx8ve7us8ROW_I9ruSW2Mus2a_mZ2sGRdjH_JsvE94LIaROehfhuu43kVKS2EQX8AQ7FZWjRnEa9bRv3yea9_rCGeSE9EQgFUftybKB_vh6map6pxOX1dguRNFIg3nOIvXuuCA_nUcaHAiJ7dOqmRqqFJLIFLUNVrHzHFahnqHzXtkRfWNN-OHJvmtIkORGGsPV6BOfif0="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx7ffgAPpYfcIXHw91ke8xW82Sq8G6tko_UmSquFB4FPVS8oblY45DZEIOY1mOqBS3VV_ylg4IIjtLItIh43WgjnQ9zZWOMW2-0njZw0azmFoXXu0SpFXlVJ61fXm4YPpEiieyRtvcds8sk24l6_MVJRamX7i2LRIsHSCKFdNfkLDnNR6Dp4gtBeDBr4w_-wnlMzM="
+    },
+    {
+      "label": "pterodactilo",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF9k2OIct4359RmT80x_h9RlLfzR-2ki_aVIK6Y0KQJ5ahB84eQinZQhQG-HNJoDBeyiETjBeuxi0nk8GgLiVrO_zBZyGORpR140jw5KJ7VOHV5q4H-D-Bz7EgOx7Bc2IpvCoyxL7Br1EKoVMD5aCv95rCG3BQK_BRWhzltTxRcd4DkP67HroSBANOURoMtskfWOGYNs3UIG33mgpgOtEFf38fqzR9qX2xggWrBuaGmB0vdA=="
+    },
+    {
+      "label": "pterodactilo",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF9k2OIct4359RmT80x_h9RlLfzR-2ki_aVIK6Y0KQJ5ahB84eQinZQhQG-HNJoDBeyiETjBeuxi0nk8GgLiVrO_zBZyGORpR140jw5KJ7VOHV5q4H-D-Bz7EgOx7Bc2IpvCoyxL7Br1EKoVMD5aCv95rCG3BQK_BRWhzltTxRcd4DkP67HroSBANOURoMtskfWOGYNs3UIG33mgpgOtEFf38fqzR9qX2xggWrBuaGmB0vdA=="
+    },
+    {
+      "label": "howstuffworks",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66DwShzBWxYMZcoKiDcfFjwoPsNNoN_iSlNFRg0GratIeUo77IVUpjnBaunRkbd2fd2rSaaDNlVd9Tz_YaXXZ3cwoVd9ZNpvumPBWlSz2JlR4j7P9A86nU2Docq3jD1uCTjZcSHWBKSTGAFEEUdGTJ5XNWdUNl5t8zJDS2Aj4nQznE6FU9ne7Vfjn2CxKM7-pBCV8"
+    },
+    {
+      "label": "howstuffworks",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66DwShzBWxYMZcoKiDcfFjwoPsNNoN_iSlNFRg0GratIeUo77IVUpjnBaunRkbd2fd2rSaaDNlVd9Tz_YaXXZ3cwoVd9ZNpvumPBWlSz2JlR4j7P9A86nU2Docq3jD1uCTjZcSHWBKSTGAFEEUdGTJ5XNWdUNl5t8zJDS2Aj4nQznE6FU9ne7Vfjn2CxKM7-pBCV8"
+    },
+    {
+      "label": "howstuffworks",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66DwShzBWxYMZcoKiDcfFjwoPsNNoN_iSlNFRg0GratIeUo77IVUpjnBaunRkbd2fd2rSaaDNlVd9Tz_YaXXZ3cwoVd9ZNpvumPBWlSz2JlR4j7P9A86nU2Docq3jD1uCTjZcSHWBKSTGAFEEUdGTJ5XNWdUNl5t8zJDS2Aj4nQznE6FU9ne7Vfjn2CxKM7-pBCV8"
+    },
+    {
+      "label": "tandfonline",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXz1vV9czbbUVWlAmt3Paiwn8Db-1GcihZb1olBRZKjWWBbpwJIg7zfZ5D0T1ULfPbKoSgL9WrJC75ckqk7SaLLHCZGHJt2gO0nuk7TOWBDXv96gzggLAfT-FJjJI6pRTZF8K_FWenZEEM3lpknzwGvNsDiuAZBdYbg8xdIA=="
+    },
+    {
+      "label": "howstuffworks",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE66DwShzBWxYMZcoKiDcfFjwoPsNNoN_iSlNFRg0GratIeUo77IVUpjnBaunRkbd2fd2rSaaDNlVd9Tz_YaXXZ3cwoVd9ZNpvumPBWlSz2JlR4j7P9A86nU2Docq3jD1uCTjZcSHWBKSTGAFEEUdGTJ5XNWdUNl5t8zJDS2Aj4nQznE6FU9ne7Vfjn2CxKM7-pBCV8"
+    },
+    {
+      "label": "frontiersin",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEA7k3cxSwLSv0bGbMB6kpx4_mhIk7-JiouWwiz_vBu2tvy6ZM3NiDG6D_nc8tQ3ccbh5BDtN_IVDMXzkKZLaKkNpKDYwDNfGXwk4ceOk1iwNOIcdE3yr_qVfdl78a2iF_UARQCDrGpsV8kX3Z6C4lz-K8jVRpd5YptwHCfGZBX12AL3K_Y2T9_pQg4Lxx07mpZ"
+    },
+    {
+      "label": "gold",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8lTHkPmzEbe80LtbIvq8Ixw7z9F2XkGAVcmlSFecI_BKYWi6eKi4XNX2fpMNCQQm3_xSNRV3BvFdcG1nxJi-FN0gr1UNyYKsgi1d-RX0aNSA9LK02NxXwvBrToakoOAkcPqyA3gPBQiWWT5yPJ0hZrTs66jfSyYoap4pMpqZuW1SBMBKtNOiEScT6xysZXh6GqljlFBrB-WFUY5ePAfjpNmEPDixbvQvSKoJ28csIDIr-NSDrA17sOVDT3eDBuxy7VgUhINfn1d7fcWo_LEbLMchN2rWISrnhouc90R0xtfR_b45D0AfS77BdVH0pfz1sl-yMw68NJ_GchrLPurjqtcUDgoc_"
+    },
+    {
+      "label": "rdd",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwDIEMSkSKD6_Rgnp7xULj9_9_SADTFksrvWI6pOPTKFgWQE459JIcnyxX9HR6AsjXxcNeFN1y5RWfFQtoJhesyC2FgasE1YlYWNk1OTleEjBTFVwmMJi7XpTUz4kHzCQ7HfrdKwBR9GTd-6kGRCiEOmbcWKo_S49QWjprkW8VujhOyp_7Mwpen_c2fNlvy_MSB-E="
+    },
+    {
+      "label": "rdd",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwDIEMSkSKD6_Rgnp7xULj9_9_SADTFksrvWI6pOPTKFgWQE459JIcnyxX9HR6AsjXxcNeFN1y5RWfFQtoJhesyC2FgasE1YlYWNk1OTleEjBTFVwmMJi7XpTUz4kHzCQ7HfrdKwBR9GTd-6kGRCiEOmbcWKo_S49QWjprkW8VujhOyp_7Mwpen_c2fNlvy_MSB-E="
+    },
+    {
+      "label": "byteplus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRo6y0ARfsjU5wmFKSm8TK-NG8N8EU8xOSm9BcX97LQpaMQCVmdY6fbhg1THCpl7DU69cOCp4NQnAd71PlqUPOs7gNXubG_p2XxE07uwvzv_e_YNh4jSDrqiP3LlP2dHg3IhemH7_dOXxWVcrpRiXKvqivjFugmyN9_zA_DSAXjQ=="
+    },
+    {
+      "label": "biorxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZznYOnPzHUpWJAcvlTqTd6Rdx7IfYpeoLapZ_hCxepm13H1Rp0fWmYivakO2xGwHFoRe__HlEmlRLavjlnM7O3idw-1gWSwVCiY5CeLkSXUJVP97lWf0asa5jg5QMzrrxev7FJOHTrhOv6SgIu5UUvmBE-zmB0IJvpLprtVEy"
+    },
+    {
+      "label": "umich",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv7tDsdEbQZHTYirslkEEirpiNQJp3lCNraUlyTplH9VtwNDboQIvE27J3M_6VQaJsQL9olbjtQKQUcLQem78YB33lYIAU-wNXZPjAilRu6FUxWKsePk49McfXrxcqfFBaP75qOjCxrBR4yUQgF6oRsKoD8ooLIFUMh2s4U_3ZVw=="
+    },
+    {
+      "label": "bilpubgroup",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPjIdGxgP04T4tZ1ROu3fi7JSi5iC_s2TIZQNIBYfofmQ8dUVIQcXaVegAnjNmZMGEYoyY4RKHZ54pvbNZt3xvzN02e4ju528cc67pRLCCxGOgAAMiAWwycLl7IziWiHo2Cflofd7GpB6OiXSKz6yDYeFm6L41wmsaUg0="
+    },
+    {
+      "label": "gold",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8lTHkPmzEbe80LtbIvq8Ixw7z9F2XkGAVcmlSFecI_BKYWi6eKi4XNX2fpMNCQQm3_xSNRV3BvFdcG1nxJi-FN0gr1UNyYKsgi1d-RX0aNSA9LK02NxXwvBrToakoOAkcPqyA3gPBQiWWT5yPJ0hZrTs66jfSyYoap4pMpqZuW1SBMBKtNOiEScT6xysZXh6GqljlFBrB-WFUY5ePAfjpNmEPDixbvQvSKoJ28csIDIr-NSDrA17sOVDT3eDBuxy7VgUhINfn1d7fcWo_LEbLMchN2rWISrnhouc90R0xtfR_b45D0AfS77BdVH0pfz1sl-yMw68NJ_GchrLPurjqtcUDgoc_"
+    },
+    {
+      "label": "gold",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8lTHkPmzEbe80LtbIvq8Ixw7z9F2XkGAVcmlSFecI_BKYWi6eKi4XNX2fpMNCQQm3_xSNRV3BvFdcG1nxJi-FN0gr1UNyYKsgi1d-RX0aNSA9LK02NxXwvBrToakoOAkcPqyA3gPBQiWWT5yPJ0hZrTs66jfSyYoap4pMpqZuW1SBMBKtNOiEScT6xysZXh6GqljlFBrB-WFUY5ePAfjpNmEPDixbvQvSKoJ28csIDIr-NSDrA17sOVDT3eDBuxy7VgUhINfn1d7fcWo_LEbLMchN2rWISrnhouc90R0xtfR_b45D0AfS77BdVH0pfz1sl-yMw68NJ_GchrLPurjqtcUDgoc_"
+    },
+    {
+      "label": "gold",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8lTHkPmzEbe80LtbIvq8Ixw7z9F2XkGAVcmlSFecI_BKYWi6eKi4XNX2fpMNCQQm3_xSNRV3BvFdcG1nxJi-FN0gr1UNyYKsgi1d-RX0aNSA9LK02NxXwvBrToakoOAkcPqyA3gPBQiWWT5yPJ0hZrTs66jfSyYoap4pMpqZuW1SBMBKtNOiEScT6xysZXh6GqljlFBrB-WFUY5ePAfjpNmEPDixbvQvSKoJ28csIDIr-NSDrA17sOVDT3eDBuxy7VgUhINfn1d7fcWo_LEbLMchN2rWISrnhouc90R0xtfR_b45D0AfS77BdVH0pfz1sl-yMw68NJ_GchrLPurjqtcUDgoc_"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrkr1GdhJqSeLZQYj-APiIHZA7HKxAdbHMHh0tH7i6WEm2oCKZPs2A9CNttdaKGLi06wYFtCAZBsJT1GYvCiBkVYKhiqamLfpIX6qjgPC05YrkDdzADDR9l39mxkmbnkC4bvckwLIilM4KyRT-emMlNLkJF1xhRbex7vEmGALYCIdoql8clWvktTjzs3fspjWfELTmHinc4yHboHHI8gJmojrsBCi8gzHZuhB8wlK5QhBW3nxXyvA3pq2evg=="
+    },
+    {
+      "label": "byteplus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg=="
+    },
+    {
+      "label": "swiftask",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE="
+    },
+    {
+      "label": "amazon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF"
+    },
+    {
+      "label": "pageon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E="
+    },
+    {
+      "label": "makebot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "makebot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME="
+    },
+    {
+      "label": "byteplus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg=="
+    },
+    {
+      "label": "swiftask",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE="
+    },
+    {
+      "label": "amazon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw=="
+    },
+    {
+      "label": "makebot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw=="
+    },
+    {
+      "label": "makebot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME="
+    },
+    {
+      "label": "mymeet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATAnaEhyU9iJxmOFlUDxI0dWX05SLs55DrvmJAL0utb990TGDBueHIzu8EPoHNyNFNA451il3jHKL3V1XUoU0MAAEIFj-fwncsiRfhRg0C7Il8T0LWlh0LzuJ1xMePZqTT9c="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "promptlayer",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHyhHNkItlPHpvoJOawT-oZ9O05hXM2gNYOEOQvIQYz3F00uy837yAYbEWsmz0YJliJKum6RVXMRw49VzzBAbWzRSxZbDxZeF198L1yrimm473dB1XgAmiiON6zLNs4XRk5nBrbEpYlZw="
+    },
+    {
+      "label": "mymeet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATAnaEhyU9iJxmOFlUDxI0dWX05SLs55DrvmJAL0utb990TGDBueHIzu8EPoHNyNFNA451il3jHKL3V1XUoU0MAAEIFj-fwncsiRfhRg0C7Il8T0LWlh0LzuJ1xMePZqTT9c="
+    },
+    {
+      "label": "swiftask",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE="
+    },
+    {
+      "label": "makebot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME="
+    },
+    {
+      "label": "amazon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw=="
+    },
+    {
+      "label": "swiftask",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw=="
+    },
+    {
+      "label": "amazon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF"
+    },
+    {
+      "label": "makebot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME="
+    },
+    {
+      "label": "pageon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "docsbot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuD87wupwa_1VTb4Ww9KrfSRE3Qn8g2mlhU7d1tOsQmNJGxnh_veK1fPbjeYB-hbTl0dslm530RoWBHHzGRZXpImCtBCiMTtqNzVBgTfC1KogBxoFtlt4TAu3id9hq6A5DBkwqpaGblRv2XYxEXz2ATp4EDpM="
+    },
+    {
+      "label": "makebot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "pageon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk7gwBQ3pj3k-nFfXlCtD8rGzJOqNXIFvDenCFEU1E1yaw8jfu0y8ypY7X83k93jJvbZgk49XZzDA3qZXfDby7Vw-GDFpD-K2EuubguLFT0ylm4Dxzxp3wJwCH1BhKNC9ugg=="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "amazon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw=="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "apidog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q=="
+    },
+    {
+      "label": "byteplus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg=="
+    },
+    {
+      "label": "mymeet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATAnaEhyU9iJxmOFlUDxI0dWX05SLs55DrvmJAL0utb990TGDBueHIzu8EPoHNyNFNA451il3jHKL3V1XUoU0MAAEIFj-fwncsiRfhRg0C7Il8T0LWlh0LzuJ1xMePZqTT9c="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw=="
+    },
+    {
+      "label": "amazon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF"
+    },
+    {
+      "label": "pageon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E="
+    },
+    {
+      "label": "docsbot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuD87wupwa_1VTb4Ww9KrfSRE3Qn8g2mlhU7d1tOsQmNJGxnh_veK1fPbjeYB-hbTl0dslm530RoWBHHzGRZXpImCtBCiMTtqNzVBgTfC1KogBxoFtlt4TAu3id9hq6A5DBkwqpaGblRv2XYxEXz2ATp4EDpM="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrkr1GdhJqSeLZQYj-APiIHZA7HKxAdbHMHh0tH7i6WEm2oCKZPs2A9CNttdaKGLi06wYFtCAZBsJT1GYvCiBkVYKhiqamLfpIX6qjgPC05YrkDdzADDR9l39mxkmbnkC4bvckwLIilM4KyRT-emMlNLkJF1xhRbex7vEmGALYCIdoql8clWvktTjzs3fspjWfELTmHinc4yHboHHI8gJmojrsBCi8gzHZuhB8wlK5QhBW3nxXyvA3pq2evg=="
+    },
+    {
+      "label": "mymeet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATAnaEhyU9iJxmOFlUDxI0dWX05SLs55DrvmJAL0utb990TGDBueHIzu8EPoHNyNFNA451il3jHKL3V1XUoU0MAAEIFj-fwncsiRfhRg0C7Il8T0LWlh0LzuJ1xMePZqTT9c="
+    },
+    {
+      "label": "promptlayer",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHyhHNkItlPHpvoJOawT-oZ9O05hXM2gNYOEOQvIQYz3F00uy837yAYbEWsmz0YJliJKum6RVXMRw49VzzBAbWzRSxZbDxZeF198L1yrimm473dB1XgAmiiON6zLNs4XRk5nBrbEpYlZw="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyQkBtEBYlWC7WSm8IIDQCSD5UuUfryMUnoqiVGfuQ1i-q5RYej9sg22df_0UVcMafRyFbbFKqKsxAI0DWAcds3uj9Ag-15DyLHerHKiXh9-pZXcbqOwvndD1rOdQIGCcIIuMBRLrro8ny"
+    },
+    {
+      "label": "flowhunt",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZX31q-tOw4v6NuUc9PPdhxuiy2Ys7GJHm3FM4g6GTVOkmXHzedFJY7bl9OqWmrTD5zlzilFIns2zVvlDxesEoUExCBfQVJTkOz5MRfM9SdyHJWkPfc9nUCYv-Xp-ETN9ZBOZG7Lgxbxz70m-Pbo6sdBLZBjS6pjClRsT95c6I"
+    },
+    {
+      "label": "flowhunt",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZX31q-tOw4v6NuUc9PPdhxuiy2Ys7GJHm3FM4g6GTVOkmXHzedFJY7bl9OqWmrTD5zlzilFIns2zVvlDxesEoUExCBfQVJTkOz5MRfM9SdyHJWkPfc9nUCYv-Xp-ETN9ZBOZG7Lgxbxz70m-Pbo6sdBLZBjS6pjClRsT95c6I"
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL0Ksp2sz1zYh_IcgBGO-us7eAchCsXPNuSSzAyhYm7bEDaHiBwzgEn-u8hzbHs2WoNbqlYIsek6F2F9pp6Zc5upPpVjshePkKigY2_UeNmjh8ovnjJcD9aJvz8fghmKk_fNRkTa49RNfQJSMnbB_T2SkMYWYMc0TRVdN0wJkpAgRLYUEYZuECCCle"
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL0Ksp2sz1zYh_IcgBGO-us7eAchCsXPNuSSzAyhYm7bEDaHiBwzgEn-u8hzbHs2WoNbqlYIsek6F2F9pp6Zc5upPpVjshePkKigY2_UeNmjh8ovnjJcD9aJvz8fghmKk_fNRkTa49RNfQJSMnbB_T2SkMYWYMc0TRVdN0wJkpAgRLYUEYZuECCCle"
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL0Ksp2sz1zYh_IcgBGO-us7eAchCsXPNuSSzAyhYm7bEDaHiBwzgEn-u8hzbHs2WoNbqlYIsek6F2F9pp6Zc5upPpVjshePkKigY2_UeNmjh8ovnjJcD9aJvz8fghmKk_fNRkTa49RNfQJSMnbB_T2SkMYWYMc0TRVdN0wJkpAgRLYUEYZuECCCle"
+    },
+    {
+      "label": "docsbot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-16",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEniB-qMrvvHA4HRUNJPskJaJf5dhKrtrTnbA0QvvY0uaxcR1CZcI8lU6m83IW-X1yYNm9YKe1-WbTffOeZowbX57FEGH6Ijz8Wg6tXs6heNeqo3b2fverijOb7P6Dl37xgUvyPBldy9N9cFeUQUBHulQe00ug="
+    },
+    {
+      "label": "promptlayer",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHyhHNkItlPHpvoJOawT-oZ9O05hXM2gNYOEOQvIQYz3F00uy837yAYbEWsmz0YJliJKum6RVXMRw49VzzBAbWzRSxZbDxZeF198L1yrimm473dB1XgAmiiON6zLNs4XRk5nBrbEpYlZw="
+    },
+    {
+      "label": "vellum",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-17",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHGvLWJr48NoYCM5sct-gokznBrj0OaY6vnG-q4AV-XVggP_7gwNPE7qbCEJIa9Q51KcEPlfYnaGSi9p5BOpUmnXQnZwxjSmM9Zngsm8WolUw45U9YFgH8c5NMIk1zeGXlD65FnIOgbPJpmZbmL98jzZw="
+    },
+    {
+      "label": "docsbot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuD87wupwa_1VTb4Ww9KrfSRE3Qn8g2mlhU7d1tOsQmNJGxnh_veK1fPbjeYB-hbTl0dslm530RoWBHHzGRZXpImCtBCiMTtqNzVBgTfC1KogBxoFtlt4TAu3id9hq6A5DBkwqpaGblRv2XYxEXz2ATp4EDpM="
+    },
+    {
+      "label": "docsbot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuD87wupwa_1VTb4Ww9KrfSRE3Qn8g2mlhU7d1tOsQmNJGxnh_veK1fPbjeYB-hbTl0dslm530RoWBHHzGRZXpImCtBCiMTtqNzVBgTfC1KogBxoFtlt4TAu3id9hq6A5DBkwqpaGblRv2XYxEXz2ATp4EDpM="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "docsbot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-16",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEniB-qMrvvHA4HRUNJPskJaJf5dhKrtrTnbA0QvvY0uaxcR1CZcI8lU6m83IW-X1yYNm9YKe1-WbTffOeZowbX57FEGH6Ijz8Wg6tXs6heNeqo3b2fverijOb7P6Dl37xgUvyPBldy9N9cFeUQUBHulQe00ug="
+    },
+    {
+      "label": "tomsguide",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-18",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq5HLlkIhH-4LyZ23TLaBHCVf_j_zRUZPxbBUQsz53joBUIqoHfh4gU85UOkXcI2z278YduPGU5KCTkdrZbiFSmUOBes6YYGb28eUaMagMj1OeV4PLVGvu_0Z-AxkKKup6jPUUnn9A5NziPr78sRGC-RHz_kFMLRxWSt3a7uI8sfuw-LvUYGp6ho7AmJMMvWXnNHqAWL6Nz8W1vPBc96QPH8YBVK8-laNsdY2jm3YFuwflW6DDqNhiXnQ="
+    },
+    {
+      "label": "tomsguide",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-18",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq5HLlkIhH-4LyZ23TLaBHCVf_j_zRUZPxbBUQsz53joBUIqoHfh4gU85UOkXcI2z278YduPGU5KCTkdrZbiFSmUOBes6YYGb28eUaMagMj1OeV4PLVGvu_0Z-AxkKKup6jPUUnn9A5NziPr78sRGC-RHz_kFMLRxWSt3a7uI8sfuw-LvUYGp6ho7AmJMMvWXnNHqAWL6Nz8W1vPBc96QPH8YBVK8-laNsdY2jm3YFuwflW6DDqNhiXnQ="
+    },
+    {
+      "label": "apidog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw=="
+    },
+    {
+      "label": "makebot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyQkBtEBYlWC7WSm8IIDQCSD5UuUfryMUnoqiVGfuQ1i-q5RYej9sg22df_0UVcMafRyFbbFKqKsxAI0DWAcds3uj9Ag-15DyLHerHKiXh9-pZXcbqOwvndD1rOdQIGCcIIuMBRLrro8ny"
+    },
+    {
+      "label": "apidog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-19",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj0AJ0sv4kU5UH6eYjdOxaZ1PVAl7XsV7Xm4ZaYW6db3yl7LV79VflAR-XotELQEPpJqOrucHhrk9777GVmlx_4NvK-xuT79q9tbeu2J34OZzLwRhplG2yENsTxjJDaRlAirLpKdaAv756t34VnLKWnoZl6tHWh2DC8f0OpwolyMnvbe8kzcqNchNlWCAvJ2wRHM-wDgwzUg=="
+    },
+    {
+      "label": "apidog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q=="
+    },
+    {
+      "label": "apidog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmu1xsKY841wGYO3sAkNaXiQqmQh2DsVdwnBlOZ_AQv8K7y81y4PJVe9TWTKX3m8qXcN7sBXatQDsKWlogLFlmXQHS1CWVA0UO9MsOVMciYTKlCLOavmHg8WHxZZlT_EfQB7teRGRBov-E7bqm1Q=="
+    },
+    {
+      "label": "openhorizons",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwcJUBmC70C8N-YVSnGIUpq2WZvush6pYrXrsMFe_PJC7R_UCN4O9d1g3AmGt8jJTvXE4b_5wDEvPgJ9gxJLh_-9ZtAQIPSsPFcaAWjvk8xDlDj9UtXDZ9UguCPXaKA6ui49jb-BDqpbwNGZFWRdy97ppkSFLGvA81gy7KwemSHHNAdA1dQpHMg0qI49wMQ27KNCI66NwRY-b86v3qy6gEar3R7Dc="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzXrBcxN-_NXy2cmU73ovHv2OLOl1XnTtZlh8paJ1_RX4pTFGgWqLDefmxzGkacN66E7I6UCp76Y5qAZGMT6I9p7LxQdb-j-Wb5aV4_k8nElpJ3fSsE72DVLQ59d_tESVkhkwrHfz_3-O6JvGAkmykE2wo0k4cwI3JN6_9Feks870iv9sf-v8dGv6Khm6QfH7zE93PH31CoXfPRPojzfn844AEzI2d6G38i0FDW8A_Al2X6Qs1P1uG3-eKs2cGZhzipgL6"
+    },
+    {
+      "label": "byteplus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQOUpPWSIqP9Y3ZJoFvWwXa6hOLmCdH8F84A9qlYEIOqEUX2UrzL6EBWpI6aWJVhT2lW5Rf26n8rQG-Ta0dIbqoYZMwK0dbBchnuCQxJRSGhO6E16YE85Bag571z_fcLyKHvcK_e6W9pePcIk2tpVJlc7GpUKdBRMZVpZs1stFEg=="
+    },
+    {
+      "label": "swiftask",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8xkWt51LF6FS7HdjrmmhaAqTJ0_aDjO7-7q42qaeftJvSkA7FzyGg1jHnIVwNmI45ruy57mrQPXh3-1G7r9rku7_lIP_cNZSCRCKavtjqm4XwX3UtrlnZz1DVJsYZatVQNHKqQXDbncBT64hjKP3sJhE="
+    },
+    {
+      "label": "amazon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS__bp6RNLdmDkgAlHLdvocBewzf65pXIoffuf9x2OWfpi-rEjLSNW5TXDDLNgtw-Fp1Czhhdb4dfBaoUB9LSPFZRR21WDdD-90TpR7SJOJmcxHWLkb9AdAlJ49eVaEgNLwM9coJhVXgebgMiEdMxY1ZCxZzn82Fv7iceM7TBJMYP6yJmAF85rUOsG_myZJj2B2PsPuQZnKQxdzLTjCkLD_gHhs24UctZiY6jynll2zLQB48TrfrOT70X-e1AF"
+    },
+    {
+      "label": "pageon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKYRrG3A3Xq0czdNWy-IwUudWXFBKdGkcEFWtXQW5pWQY5fVu6UrwMS-NB1YcXaUEMatm8SCzPBQS2wyjkHyGhTnRs0u8mUinfBKGkGzQwKd7Q7gxqMibDx5dDKPw8r8E="
+    },
+    {
+      "label": "makebot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM2IqzvkfctkYjk1sa_o37wcmd58OGaKRyIzCD0hrKd21OEq8g_-4KnTuLF1lOtqC-JADTq-hKqH7CSUehTVeHFaXV0JNMNCtWJsZxVGqhSX_6s_5LPYyls21MQ3IVz8a_G67G_JeZgv4HzzUcoRcW7gQZB1d3NH1TugAAhYi2bg7OibOUwi_WA61tFB2Tkc4cDyKzKsJw-CSeO1sbJS-PbucaqME="
+    },
+    {
+      "label": "learnprompting",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEij2SQPrBxvT4MLtCFbSamx0Z9Jbe1WFALbtxip9ihNDibS2XhTH72oifKHRlWUd_XZ_JsgF-GDEHIFWD7xPv6n5Uy2XE8C5kT-RRVOxtvsRgOVsQGkrvns1Etnv1ddj9zZ1tstg=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-EeGjHU-OpJTuEF1Vuk18i-vW1I3hnE2YKY3rhkeLUbrptefnlpoQl-wMoCY2E9QLVACLvEK7GmIHQk4fxeFvk9JtTe0QVEVxkNmSB5d4QP4Vkmn8qsloI8yiFJ_rgQQr7vNk-Fq1Xv4wmw=="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

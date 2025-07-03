@@ -1,0 +1,440 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 22:09:42
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: who won the last ballon dor?
+
+[AI]: The last Ballon d'Or ceremony took place on October 28, 2024 [3, 8, 12]. Rodri, from Manchester City and Spain, won the Men's Ballon d'Or [1, 2, 3, 10, 11, 12]. He is the first Manchester City player to win the award [1], and the first defensive midfielder to win it since 1990 [1, 13]. He is also the third Spaniard to win the prize [1].
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 1
+Total search queries: 1
+Sources gathered: 44
+Web research results: 1
+
+SEARCH QUERIES USED
+----------------------------------------
+1. Ballon d'Or winner 2024
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+The Ballon d'Or 2024 ceremony took place on October 28, 2024, at the Théâtre du Châtelet in Paris [3, 8, 12].
+
+* [uefa](https://vertexaisearch.cloud.google.com/id/0-0) [uefa](https://vertexaisearch.cloud.google.com/id/0-1) [indiatoday](https://vertexaisearch.cloud.google.com/id/0-2)*Winners:**
+
+*   **Men's Ballon d'Or:** Rodri (Manchester City and Spain) [1, 2, 3, 10, 11, 12]
+   [si](https://vertexaisearch.cloud.google.com/id/0-3) [uefa](https://vertexaisearch.cloud.google.com/id/0-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-4) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  *   He is the first Manchester City player to win the award [1].
+   [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  *   He is the first defensive midfielder to win the Ballon d'Or since 1990 [1, 13].
+   [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  *   He is the third Spaniard to win the prize [1].
+*  [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  **Women's Ballon d'Or:** Aitana Bonmati (Barcelona and Spain) [1, 2, 3, 10, 11, 12]
+   [tntsports](https://vertexaisearch.cloud.google.com/id/0-6) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-7) [si](https://vertexaisearch.cloud.google.com/id/0-8) [si](https://vertexaisearch.cloud.google.com/id/0-3) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-4)  *   This is her second consecutive award in this category [1, 3, 11].
+*  [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  **Men's Coach of the Year:** Carlo Ancelotti (Real Madrid) [1, 2, 10, 12]
+*  [uefa](https://vertexaisearch.cloud.google.com/id/0-0) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5) [si](https://vertexaisearch.cloud.google.com/id/0-8)  **Women's Coach of the Year:** Emma Hayes (United States Women's National Team and former Chelsea head coach) [1, 2, 9]
+*  [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  **Yashin Trophy (Best Men’s Goalkeeper):** Emiliano Martinez (Argentina and Aston Villa) [1, 3, 4, 7, 10, 12]
+     [radiotimes](https://vertexaisearch.cloud.google.com/id/0-7) [tntsports](https://vertexaisearch.cloud.google.com/id/0-6) [si](https://vertexaisearch.cloud.google.com/id/0-8) [si](https://vertexaisearch.cloud.google.com/id/0-3)*   This is the second time he has won the Yashin trophy [1].
+*    [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)**Kopa Trophy (Best Young Player):** Lamine Yamal (Barcelona) [1, 2, 3, 4, 10, 11, 12]
+*    [newscentral](https://vertexaisearch.cloud.google.com/id/0-9) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-7) [indiatoday](https://vertexaisearch.cloud.google.com/id/0-2) [skysports](https://vertexaisearch.cloud.google.com/id/0-10)**Gerd Muller Trophy (Top Scorer):** Harry Kane (Bayern Munich) and Kylian Mbappe (Real Madrid) [1, 2, 3, 7, 9, 10]
+     [si](https://vertexaisearch.cloud.google.com/id/0-8) [si](https://vertexaisearch.cloud.google.com/id/0-3) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)*   Both finished the 2023-24 season with 52 goals [1, 3].
+*    [indiatoday](https://vertexaisearch.cloud.google.com/id/0-2) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)**Socrates Award:** Jenni Hermoso (Spain) [1, 10]
+*    [si](https://vertexaisearch.cloud.google.com/id/0-3) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)**Men's Club of the Year:** Real Madrid [1, 10, 12]
+*    [uefa](https://vertexaisearch.cloud.google.com/id/0-0) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5) [si](https://vertexaisearch.cloud.google.com/id/0-3)**Women's Club of the Year:** Barcelona [1, 11]
+
+**N [thehindu](https://vertexaisearch.cloud.google.com/id/0-5) [skysports](https://vertexaisearch.cloud.google.com/id/0-10) [uefa](https://vertexaisearch.cloud.google.com/id/0-1)ominees:**
+
+*   The nominees included Jude Bellingham, Phil Foden, Ruben Dias, Federico Valverde, Erling Haaland, and Kylian Mbappe [4, 6, 7, 9]. Lionel Messi was not nominated [4, 14].
+
+**O [si](https://vertexaisearch.cloud.google.com/id/0-11)ther Information:**
+
+*   Rodri beat out Vinicius Jr. and Jude Bellingham for the Men's Ballon d'Or [2, 11].
+*   Real Madrid reportedly boycotted the ceremony due to Vinicius Junior allegedly being snubbed for the award [1, 11].
+*    [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)The Men's and Women's Coach of the Year awards will be known as the Johan Cruyff award from this year [1].
+
+
+SOURCES GATHERED
+----------------------------------------
+1. uefa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXkGCCzY7EOkqDDJxDow-Yq8MyU1NvJsvcYXHCgudV2FFSdWL24pG1ZgYHi5yiPr-Gb68sSg_51xm_XldcO2afHz7-1VrPrwwFyZ08uM_jQqy-iTk0yZmjt2YmhwELq33GIy25h0vsvpTlZMtbxsAEw1r-cSzztm7E1QaiEkinLQ_zdhNSW4US5uxGM3PhZ4z2GPsqX95yBedKCqcW6s5IFa_FU1c
+
+2. uefa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHizsVHQ6NneS2ANb_mjCUg3IWUeGvbDZwJ-KllEDoddYU_I-boEht_k8umxp2T2mWs2il1ycj2Lo2VGuuUxEDT20Xr8_y6YhpjK2zMgmQB41heEfimTZ9_5QzIdSS1rA7Gcyd_lgD7Dg2EbGHtoEYXC3MlDGFSipUrnSoVhRGEqPbEALewo1xWn84-GzHuLk9RUY4gtzf6QnzV8fmJAW92IczvYqz1wOqUtyneG1c=
+
+3. indiatoday
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa8AKMlwmpFAE7zfkBF1dqe0h7XXa2TpXgkEu3yeldj0hthy1J0fpQ3cqS2_UFoIEOm_Tp9a1VCTHPde0nZ-BMhRx9zyqqLHG5HbkZNdrB4qX6jv-ISso0Msrg-tbxg2Y0yRoigIuuQGYSkT21fafidXjG5xKnFVafwvZduDChuC7WU29k3TqZeD6a3hgyFnaFqISuz4dYVpyMuOpd8oG0VMipxfHGKU2lCBCeFw5L8oBnmbb-ZOgVeR3qmKye-2U9RJfV6w==
+
+4. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g==
+
+5. uefa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXkGCCzY7EOkqDDJxDow-Yq8MyU1NvJsvcYXHCgudV2FFSdWL24pG1ZgYHi5yiPr-Gb68sSg_51xm_XldcO2afHz7-1VrPrwwFyZ08uM_jQqy-iTk0yZmjt2YmhwELq33GIy25h0vsvpTlZMtbxsAEw1r-cSzztm7E1QaiEkinLQ_zdhNSW4US5uxGM3PhZ4z2GPsqX95yBedKCqcW6s5IFa_FU1c
+
+6. indiatimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWVhCwrCsP0b3nBEmDtByOu9o8y_P0nP0qwhDradoh0uPCblXP43VdHQC0-KVI2W30zGypn1P3ZMLJp0sxCql3GZjLKKuNac0aJj6Fca1kMlvKoFamDaiSnCwkP1Pltx3NJfiK9FbLQ2Jxsx6-nxLaBYjG0he0KpO1bhODgpgDHXs5OXpYArcQPOUfxbbNgMyAeGDBcwujdNLAohXXmXNJLuUq1oFjY_Q3yyq5AvLHea1wGITD-JN-Gos=
+
+7. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+8. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+9. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+10. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+11. tntsports
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfRYa7g02ttSL0SVbmbRGCvrXnmPJ7EBeHS2DP5hV_QJpIC0FCDFPEp5uRz7nEDE9z-QNMq2ojkYITV9r0KbI_-lNbpwdy4ltdxUsN19BV_Keh7ME8CSZsoBUXgzOcvox0Kr5yNivjQY8jph6Icn9cqyJWiYGI4eNvLPyibbdq_PYoM_HbSPp5-DL9NUn2_CuYh6jl2GFHVhLOvtzWPU_ZGBStTf4ErxfFHT1ZByAWHTmp6jLeeA==
+
+12. radiotimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRbalFJ5VXxAmWsnGFkQGa0xde4yElncMF8fOOBAY0D44_MlMH88YPslutLUhd9xRCrpOHjjw3J7ut2wfs8sxFtWrLrysFu1FWOTFFM3o5Y0TKcN1dTuk0qE9_vQITyIDFTJ4MeuSKaH8RkvJZU_GBhY_C6Um_lyjIf9aYVUR65pU=
+
+13. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF15HZrcYs0PRBq4ElLK631AhcWuWfgvGj1f0LfWCvtwZRw_J9cpTuZR-Rk3Bd0cVG4LbqV6x3iMx8YNzRXmZJbe8Rd7Dl9vV4AxY7KB-XWCJvcnxYLA7axWeS1dpVyJaKwFBEYhsKbzu-OTMnV80HVxnSi5JdxOc1taZ0=
+
+14. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g==
+
+15. indiatimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWVhCwrCsP0b3nBEmDtByOu9o8y_P0nP0qwhDradoh0uPCblXP43VdHQC0-KVI2W30zGypn1P3ZMLJp0sxCql3GZjLKKuNac0aJj6Fca1kMlvKoFamDaiSnCwkP1Pltx3NJfiK9FbLQ2Jxsx6-nxLaBYjG0he0KpO1bhODgpgDHXs5OXpYArcQPOUfxbbNgMyAeGDBcwujdNLAohXXmXNJLuUq1oFjY_Q3yyq5AvLHea1wGITD-JN-Gos=
+
+16. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+17. uefa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXkGCCzY7EOkqDDJxDow-Yq8MyU1NvJsvcYXHCgudV2FFSdWL24pG1ZgYHi5yiPr-Gb68sSg_51xm_XldcO2afHz7-1VrPrwwFyZ08uM_jQqy-iTk0yZmjt2YmhwELq33GIy25h0vsvpTlZMtbxsAEw1r-cSzztm7E1QaiEkinLQ_zdhNSW4US5uxGM3PhZ4z2GPsqX95yBedKCqcW6s5IFa_FU1c
+
+18. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+19. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF15HZrcYs0PRBq4ElLK631AhcWuWfgvGj1f0LfWCvtwZRw_J9cpTuZR-Rk3Bd0cVG4LbqV6x3iMx8YNzRXmZJbe8Rd7Dl9vV4AxY7KB-XWCJvcnxYLA7axWeS1dpVyJaKwFBEYhsKbzu-OTMnV80HVxnSi5JdxOc1taZ0=
+
+20. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+21. radiotimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRbalFJ5VXxAmWsnGFkQGa0xde4yElncMF8fOOBAY0D44_MlMH88YPslutLUhd9xRCrpOHjjw3J7ut2wfs8sxFtWrLrysFu1FWOTFFM3o5Y0TKcN1dTuk0qE9_vQITyIDFTJ4MeuSKaH8RkvJZU_GBhY_C6Um_lyjIf9aYVUR65pU=
+
+22. tntsports
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfRYa7g02ttSL0SVbmbRGCvrXnmPJ7EBeHS2DP5hV_QJpIC0FCDFPEp5uRz7nEDE9z-QNMq2ojkYITV9r0KbI_-lNbpwdy4ltdxUsN19BV_Keh7ME8CSZsoBUXgzOcvox0Kr5yNivjQY8jph6Icn9cqyJWiYGI4eNvLPyibbdq_PYoM_HbSPp5-DL9NUn2_CuYh6jl2GFHVhLOvtzWPU_ZGBStTf4ErxfFHT1ZByAWHTmp6jLeeA==
+
+23. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF15HZrcYs0PRBq4ElLK631AhcWuWfgvGj1f0LfWCvtwZRw_J9cpTuZR-Rk3Bd0cVG4LbqV6x3iMx8YNzRXmZJbe8Rd7Dl9vV4AxY7KB-XWCJvcnxYLA7axWeS1dpVyJaKwFBEYhsKbzu-OTMnV80HVxnSi5JdxOc1taZ0=
+
+24. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g==
+
+25. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+26. newscentral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVYpVoOjt-BeyY_yaCY8oOer4iDHaM_ub9h3KCnEIn8PEqf1aFIPyOQvwTMV2hfcVN1kUNriktsCUG5ll3z7ypjk1KxkpRbnDx7sS98Xtlxo293z2VaD2C6SS_0eQ3Lw7y7yXis2Rlj5E-nQHOiFgvyzm93SLezGdOLnIf
+
+27. radiotimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRbalFJ5VXxAmWsnGFkQGa0xde4yElncMF8fOOBAY0D44_MlMH88YPslutLUhd9xRCrpOHjjw3J7ut2wfs8sxFtWrLrysFu1FWOTFFM3o5Y0TKcN1dTuk0qE9_vQITyIDFTJ4MeuSKaH8RkvJZU_GBhY_C6Um_lyjIf9aYVUR65pU=
+
+28. indiatoday
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa8AKMlwmpFAE7zfkBF1dqe0h7XXa2TpXgkEu3yeldj0hthy1J0fpQ3cqS2_UFoIEOm_Tp9a1VCTHPde0nZ-BMhRx9zyqqLHG5HbkZNdrB4qX6jv-ISso0Msrg-tbxg2Y0yRoigIuuQGYSkT21fafidXjG5xKnFVafwvZduDChuC7WU29k3TqZeD6a3hgyFnaFqISuz4dYVpyMuOpd8oG0VMipxfHGKU2lCBCeFw5L8oBnmbb-ZOgVeR3qmKye-2U9RJfV6w==
+
+29. skysports
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEesrQ6QvVjn-bHCsphjVDXXRNF7mbgHq54-hE3a-Jri9GEANifNKGaT8ZyYmyUfHwtq_LjvK7p1t3pVYUuFO_uAldO5BGFZ27886w4y0gpDGA6E9HqdlzDY2Pmqhv49xHfeMHgo19xBDDnj2fKqBRM4t4IjLCvhty8WLzFQV6YOfzsxpP2r6kasmUquZVMn-T31r4k4tA5wooIY-LY4agz2V-ad6WrEGsJwno3VBb04V5DDQN3Qk-CLGaY0XsoW2x_EVhnFLbGdRoJESq8gtSbvw5zNSAMTBMg9bWFndXkf7mOdW2o3ndHL_jE0vWDwdTtLA==
+
+30. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF15HZrcYs0PRBq4ElLK631AhcWuWfgvGj1f0LfWCvtwZRw_J9cpTuZR-Rk3Bd0cVG4LbqV6x3iMx8YNzRXmZJbe8Rd7Dl9vV4AxY7KB-XWCJvcnxYLA7axWeS1dpVyJaKwFBEYhsKbzu-OTMnV80HVxnSi5JdxOc1taZ0=
+
+31. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g==
+
+32. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+33. indiatoday
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa8AKMlwmpFAE7zfkBF1dqe0h7XXa2TpXgkEu3yeldj0hthy1J0fpQ3cqS2_UFoIEOm_Tp9a1VCTHPde0nZ-BMhRx9zyqqLHG5HbkZNdrB4qX6jv-ISso0Msrg-tbxg2Y0yRoigIuuQGYSkT21fafidXjG5xKnFVafwvZduDChuC7WU29k3TqZeD6a3hgyFnaFqISuz4dYVpyMuOpd8oG0VMipxfHGKU2lCBCeFw5L8oBnmbb-ZOgVeR3qmKye-2U9RJfV6w==
+
+34. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+35. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g==
+
+36. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+37. uefa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXkGCCzY7EOkqDDJxDow-Yq8MyU1NvJsvcYXHCgudV2FFSdWL24pG1ZgYHi5yiPr-Gb68sSg_51xm_XldcO2afHz7-1VrPrwwFyZ08uM_jQqy-iTk0yZmjt2YmhwELq33GIy25h0vsvpTlZMtbxsAEw1r-cSzztm7E1QaiEkinLQ_zdhNSW4US5uxGM3PhZ4z2GPsqX95yBedKCqcW6s5IFa_FU1c
+
+38. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+39. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g==
+
+40. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+41. skysports
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEesrQ6QvVjn-bHCsphjVDXXRNF7mbgHq54-hE3a-Jri9GEANifNKGaT8ZyYmyUfHwtq_LjvK7p1t3pVYUuFO_uAldO5BGFZ27886w4y0gpDGA6E9HqdlzDY2Pmqhv49xHfeMHgo19xBDDnj2fKqBRM4t4IjLCvhty8WLzFQV6YOfzsxpP2r6kasmUquZVMn-T31r4k4tA5wooIY-LY4agz2V-ad6WrEGsJwno3VBb04V5DDQN3Qk-CLGaY0XsoW2x_EVhnFLbGdRoJESq8gtSbvw5zNSAMTBMg9bWFndXkf7mOdW2o3ndHL_jE0vWDwdTtLA==
+
+42. uefa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHizsVHQ6NneS2ANb_mjCUg3IWUeGvbDZwJ-KllEDoddYU_I-boEht_k8umxp2T2mWs2il1ycj2Lo2VGuuUxEDT20Xr8_y6YhpjK2zMgmQB41heEfimTZ9_5QzIdSS1rA7Gcyd_lgD7Dg2EbGHtoEYXC3MlDGFSipUrnSoVhRGEqPbEALewo1xWn84-GzHuLk9RUY4gtzf6QnzV8fmJAW92IczvYqz1wOqUtyneG1c=
+
+43. si
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuSehjl3xa9a7XM_cT2a3Lan6Aqmy6CjU6Dk9Tg_ugJMiM0R8psslCnvUVJHtWY3iM86HreMmj3s2gpknAA3KtXGiyFcWqku2YmD2rgxxuIwJ776EAahpT6L8tNyIlVEF-kjVSQARVRnrIuVBFs_prNphKy8xX
+
+44. thehindu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno=
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "who won the last ballon dor?"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "The last Ballon d'Or ceremony took place on October 28, 2024 [3, 8, 12]. Rodri, from Manchester City and Spain, won the Men's Ballon d'Or [1, 2, 3, 10, 11, 12]. He is the first Manchester City player to win the award [1], and the first defensive midfielder to win it since 1990 [1, 13]. He is also the third Spaniard to win the prize [1]."
+    }
+  ],
+  "search_query": [
+    "Ballon d'Or winner 2024"
+  ],
+  "web_research_result": [
+    "The Ballon d'Or 2024 ceremony took place on October 28, 2024, at the Théâtre du Châtelet in Paris [3, 8, 12].\n\n* [uefa](https://vertexaisearch.cloud.google.com/id/0-0) [uefa](https://vertexaisearch.cloud.google.com/id/0-1) [indiatoday](https://vertexaisearch.cloud.google.com/id/0-2)*Winners:**\n\n*   **Men's Ballon d'Or:** Rodri (Manchester City and Spain) [1, 2, 3, 10, 11, 12]\n   [si](https://vertexaisearch.cloud.google.com/id/0-3) [uefa](https://vertexaisearch.cloud.google.com/id/0-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-4) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  *   He is the first Manchester City player to win the award [1].\n   [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  *   He is the first defensive midfielder to win the Ballon d'Or since 1990 [1, 13].\n   [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  *   He is the third Spaniard to win the prize [1].\n*  [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  **Women's Ballon d'Or:** Aitana Bonmati (Barcelona and Spain) [1, 2, 3, 10, 11, 12]\n   [tntsports](https://vertexaisearch.cloud.google.com/id/0-6) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-7) [si](https://vertexaisearch.cloud.google.com/id/0-8) [si](https://vertexaisearch.cloud.google.com/id/0-3) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-4)  *   This is her second consecutive award in this category [1, 3, 11].\n*  [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  **Men's Coach of the Year:** Carlo Ancelotti (Real Madrid) [1, 2, 10, 12]\n*  [uefa](https://vertexaisearch.cloud.google.com/id/0-0) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5) [si](https://vertexaisearch.cloud.google.com/id/0-8)  **Women's Coach of the Year:** Emma Hayes (United States Women's National Team and former Chelsea head coach) [1, 2, 9]\n*  [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)  **Yashin Trophy (Best Men’s Goalkeeper):** Emiliano Martinez (Argentina and Aston Villa) [1, 3, 4, 7, 10, 12]\n     [radiotimes](https://vertexaisearch.cloud.google.com/id/0-7) [tntsports](https://vertexaisearch.cloud.google.com/id/0-6) [si](https://vertexaisearch.cloud.google.com/id/0-8) [si](https://vertexaisearch.cloud.google.com/id/0-3)*   This is the second time he has won the Yashin trophy [1].\n*    [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)**Kopa Trophy (Best Young Player):** Lamine Yamal (Barcelona) [1, 2, 3, 4, 10, 11, 12]\n*    [newscentral](https://vertexaisearch.cloud.google.com/id/0-9) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-7) [indiatoday](https://vertexaisearch.cloud.google.com/id/0-2) [skysports](https://vertexaisearch.cloud.google.com/id/0-10)**Gerd Muller Trophy (Top Scorer):** Harry Kane (Bayern Munich) and Kylian Mbappe (Real Madrid) [1, 2, 3, 7, 9, 10]\n     [si](https://vertexaisearch.cloud.google.com/id/0-8) [si](https://vertexaisearch.cloud.google.com/id/0-3) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)*   Both finished the 2023-24 season with 52 goals [1, 3].\n*    [indiatoday](https://vertexaisearch.cloud.google.com/id/0-2) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)**Socrates Award:** Jenni Hermoso (Spain) [1, 10]\n*    [si](https://vertexaisearch.cloud.google.com/id/0-3) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)**Men's Club of the Year:** Real Madrid [1, 10, 12]\n*    [uefa](https://vertexaisearch.cloud.google.com/id/0-0) [thehindu](https://vertexaisearch.cloud.google.com/id/0-5) [si](https://vertexaisearch.cloud.google.com/id/0-3)**Women's Club of the Year:** Barcelona [1, 11]\n\n**N [thehindu](https://vertexaisearch.cloud.google.com/id/0-5) [skysports](https://vertexaisearch.cloud.google.com/id/0-10) [uefa](https://vertexaisearch.cloud.google.com/id/0-1)ominees:**\n\n*   The nominees included Jude Bellingham, Phil Foden, Ruben Dias, Federico Valverde, Erling Haaland, and Kylian Mbappe [4, 6, 7, 9]. Lionel Messi was not nominated [4, 14].\n\n**O [si](https://vertexaisearch.cloud.google.com/id/0-11)ther Information:**\n\n*   Rodri beat out Vinicius Jr. and Jude Bellingham for the Men's Ballon d'Or [2, 11].\n*   Real Madrid reportedly boycotted the ceremony due to Vinicius Junior allegedly being snubbed for the award [1, 11].\n*    [thehindu](https://vertexaisearch.cloud.google.com/id/0-5)The Men's and Women's Coach of the Year awards will be known as the Johan Cruyff award from this year [1].\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "uefa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXkGCCzY7EOkqDDJxDow-Yq8MyU1NvJsvcYXHCgudV2FFSdWL24pG1ZgYHi5yiPr-Gb68sSg_51xm_XldcO2afHz7-1VrPrwwFyZ08uM_jQqy-iTk0yZmjt2YmhwELq33GIy25h0vsvpTlZMtbxsAEw1r-cSzztm7E1QaiEkinLQ_zdhNSW4US5uxGM3PhZ4z2GPsqX95yBedKCqcW6s5IFa_FU1c"
+    },
+    {
+      "label": "uefa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHizsVHQ6NneS2ANb_mjCUg3IWUeGvbDZwJ-KllEDoddYU_I-boEht_k8umxp2T2mWs2il1ycj2Lo2VGuuUxEDT20Xr8_y6YhpjK2zMgmQB41heEfimTZ9_5QzIdSS1rA7Gcyd_lgD7Dg2EbGHtoEYXC3MlDGFSipUrnSoVhRGEqPbEALewo1xWn84-GzHuLk9RUY4gtzf6QnzV8fmJAW92IczvYqz1wOqUtyneG1c="
+    },
+    {
+      "label": "indiatoday",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa8AKMlwmpFAE7zfkBF1dqe0h7XXa2TpXgkEu3yeldj0hthy1J0fpQ3cqS2_UFoIEOm_Tp9a1VCTHPde0nZ-BMhRx9zyqqLHG5HbkZNdrB4qX6jv-ISso0Msrg-tbxg2Y0yRoigIuuQGYSkT21fafidXjG5xKnFVafwvZduDChuC7WU29k3TqZeD6a3hgyFnaFqISuz4dYVpyMuOpd8oG0VMipxfHGKU2lCBCeFw5L8oBnmbb-ZOgVeR3qmKye-2U9RJfV6w=="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g=="
+    },
+    {
+      "label": "uefa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXkGCCzY7EOkqDDJxDow-Yq8MyU1NvJsvcYXHCgudV2FFSdWL24pG1ZgYHi5yiPr-Gb68sSg_51xm_XldcO2afHz7-1VrPrwwFyZ08uM_jQqy-iTk0yZmjt2YmhwELq33GIy25h0vsvpTlZMtbxsAEw1r-cSzztm7E1QaiEkinLQ_zdhNSW4US5uxGM3PhZ4z2GPsqX95yBedKCqcW6s5IFa_FU1c"
+    },
+    {
+      "label": "indiatimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWVhCwrCsP0b3nBEmDtByOu9o8y_P0nP0qwhDradoh0uPCblXP43VdHQC0-KVI2W30zGypn1P3ZMLJp0sxCql3GZjLKKuNac0aJj6Fca1kMlvKoFamDaiSnCwkP1Pltx3NJfiK9FbLQ2Jxsx6-nxLaBYjG0he0KpO1bhODgpgDHXs5OXpYArcQPOUfxbbNgMyAeGDBcwujdNLAohXXmXNJLuUq1oFjY_Q3yyq5AvLHea1wGITD-JN-Gos="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "tntsports",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfRYa7g02ttSL0SVbmbRGCvrXnmPJ7EBeHS2DP5hV_QJpIC0FCDFPEp5uRz7nEDE9z-QNMq2ojkYITV9r0KbI_-lNbpwdy4ltdxUsN19BV_Keh7ME8CSZsoBUXgzOcvox0Kr5yNivjQY8jph6Icn9cqyJWiYGI4eNvLPyibbdq_PYoM_HbSPp5-DL9NUn2_CuYh6jl2GFHVhLOvtzWPU_ZGBStTf4ErxfFHT1ZByAWHTmp6jLeeA=="
+    },
+    {
+      "label": "radiotimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRbalFJ5VXxAmWsnGFkQGa0xde4yElncMF8fOOBAY0D44_MlMH88YPslutLUhd9xRCrpOHjjw3J7ut2wfs8sxFtWrLrysFu1FWOTFFM3o5Y0TKcN1dTuk0qE9_vQITyIDFTJ4MeuSKaH8RkvJZU_GBhY_C6Um_lyjIf9aYVUR65pU="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF15HZrcYs0PRBq4ElLK631AhcWuWfgvGj1f0LfWCvtwZRw_J9cpTuZR-Rk3Bd0cVG4LbqV6x3iMx8YNzRXmZJbe8Rd7Dl9vV4AxY7KB-XWCJvcnxYLA7axWeS1dpVyJaKwFBEYhsKbzu-OTMnV80HVxnSi5JdxOc1taZ0="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g=="
+    },
+    {
+      "label": "indiatimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWVhCwrCsP0b3nBEmDtByOu9o8y_P0nP0qwhDradoh0uPCblXP43VdHQC0-KVI2W30zGypn1P3ZMLJp0sxCql3GZjLKKuNac0aJj6Fca1kMlvKoFamDaiSnCwkP1Pltx3NJfiK9FbLQ2Jxsx6-nxLaBYjG0he0KpO1bhODgpgDHXs5OXpYArcQPOUfxbbNgMyAeGDBcwujdNLAohXXmXNJLuUq1oFjY_Q3yyq5AvLHea1wGITD-JN-Gos="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "uefa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXkGCCzY7EOkqDDJxDow-Yq8MyU1NvJsvcYXHCgudV2FFSdWL24pG1ZgYHi5yiPr-Gb68sSg_51xm_XldcO2afHz7-1VrPrwwFyZ08uM_jQqy-iTk0yZmjt2YmhwELq33GIy25h0vsvpTlZMtbxsAEw1r-cSzztm7E1QaiEkinLQ_zdhNSW4US5uxGM3PhZ4z2GPsqX95yBedKCqcW6s5IFa_FU1c"
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF15HZrcYs0PRBq4ElLK631AhcWuWfgvGj1f0LfWCvtwZRw_J9cpTuZR-Rk3Bd0cVG4LbqV6x3iMx8YNzRXmZJbe8Rd7Dl9vV4AxY7KB-XWCJvcnxYLA7axWeS1dpVyJaKwFBEYhsKbzu-OTMnV80HVxnSi5JdxOc1taZ0="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "radiotimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRbalFJ5VXxAmWsnGFkQGa0xde4yElncMF8fOOBAY0D44_MlMH88YPslutLUhd9xRCrpOHjjw3J7ut2wfs8sxFtWrLrysFu1FWOTFFM3o5Y0TKcN1dTuk0qE9_vQITyIDFTJ4MeuSKaH8RkvJZU_GBhY_C6Um_lyjIf9aYVUR65pU="
+    },
+    {
+      "label": "tntsports",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfRYa7g02ttSL0SVbmbRGCvrXnmPJ7EBeHS2DP5hV_QJpIC0FCDFPEp5uRz7nEDE9z-QNMq2ojkYITV9r0KbI_-lNbpwdy4ltdxUsN19BV_Keh7ME8CSZsoBUXgzOcvox0Kr5yNivjQY8jph6Icn9cqyJWiYGI4eNvLPyibbdq_PYoM_HbSPp5-DL9NUn2_CuYh6jl2GFHVhLOvtzWPU_ZGBStTf4ErxfFHT1ZByAWHTmp6jLeeA=="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF15HZrcYs0PRBq4ElLK631AhcWuWfgvGj1f0LfWCvtwZRw_J9cpTuZR-Rk3Bd0cVG4LbqV6x3iMx8YNzRXmZJbe8Rd7Dl9vV4AxY7KB-XWCJvcnxYLA7axWeS1dpVyJaKwFBEYhsKbzu-OTMnV80HVxnSi5JdxOc1taZ0="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g=="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "newscentral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVYpVoOjt-BeyY_yaCY8oOer4iDHaM_ub9h3KCnEIn8PEqf1aFIPyOQvwTMV2hfcVN1kUNriktsCUG5ll3z7ypjk1KxkpRbnDx7sS98Xtlxo293z2VaD2C6SS_0eQ3Lw7y7yXis2Rlj5E-nQHOiFgvyzm93SLezGdOLnIf"
+    },
+    {
+      "label": "radiotimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRbalFJ5VXxAmWsnGFkQGa0xde4yElncMF8fOOBAY0D44_MlMH88YPslutLUhd9xRCrpOHjjw3J7ut2wfs8sxFtWrLrysFu1FWOTFFM3o5Y0TKcN1dTuk0qE9_vQITyIDFTJ4MeuSKaH8RkvJZU_GBhY_C6Um_lyjIf9aYVUR65pU="
+    },
+    {
+      "label": "indiatoday",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa8AKMlwmpFAE7zfkBF1dqe0h7XXa2TpXgkEu3yeldj0hthy1J0fpQ3cqS2_UFoIEOm_Tp9a1VCTHPde0nZ-BMhRx9zyqqLHG5HbkZNdrB4qX6jv-ISso0Msrg-tbxg2Y0yRoigIuuQGYSkT21fafidXjG5xKnFVafwvZduDChuC7WU29k3TqZeD6a3hgyFnaFqISuz4dYVpyMuOpd8oG0VMipxfHGKU2lCBCeFw5L8oBnmbb-ZOgVeR3qmKye-2U9RJfV6w=="
+    },
+    {
+      "label": "skysports",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEesrQ6QvVjn-bHCsphjVDXXRNF7mbgHq54-hE3a-Jri9GEANifNKGaT8ZyYmyUfHwtq_LjvK7p1t3pVYUuFO_uAldO5BGFZ27886w4y0gpDGA6E9HqdlzDY2Pmqhv49xHfeMHgo19xBDDnj2fKqBRM4t4IjLCvhty8WLzFQV6YOfzsxpP2r6kasmUquZVMn-T31r4k4tA5wooIY-LY4agz2V-ad6WrEGsJwno3VBb04V5DDQN3Qk-CLGaY0XsoW2x_EVhnFLbGdRoJESq8gtSbvw5zNSAMTBMg9bWFndXkf7mOdW2o3ndHL_jE0vWDwdTtLA=="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF15HZrcYs0PRBq4ElLK631AhcWuWfgvGj1f0LfWCvtwZRw_J9cpTuZR-Rk3Bd0cVG4LbqV6x3iMx8YNzRXmZJbe8Rd7Dl9vV4AxY7KB-XWCJvcnxYLA7axWeS1dpVyJaKwFBEYhsKbzu-OTMnV80HVxnSi5JdxOc1taZ0="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g=="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "indiatoday",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEa8AKMlwmpFAE7zfkBF1dqe0h7XXa2TpXgkEu3yeldj0hthy1J0fpQ3cqS2_UFoIEOm_Tp9a1VCTHPde0nZ-BMhRx9zyqqLHG5HbkZNdrB4qX6jv-ISso0Msrg-tbxg2Y0yRoigIuuQGYSkT21fafidXjG5xKnFVafwvZduDChuC7WU29k3TqZeD6a3hgyFnaFqISuz4dYVpyMuOpd8oG0VMipxfHGKU2lCBCeFw5L8oBnmbb-ZOgVeR3qmKye-2U9RJfV6w=="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g=="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "uefa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXkGCCzY7EOkqDDJxDow-Yq8MyU1NvJsvcYXHCgudV2FFSdWL24pG1ZgYHi5yiPr-Gb68sSg_51xm_XldcO2afHz7-1VrPrwwFyZ08uM_jQqy-iTk0yZmjt2YmhwELq33GIy25h0vsvpTlZMtbxsAEw1r-cSzztm7E1QaiEkinLQ_zdhNSW4US5uxGM3PhZ4z2GPsqX95yBedKCqcW6s5IFa_FU1c"
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiJXUaYIZMQjqnXDmdxJxlWKQ3WF9PrcmHzlKSfya5nLv1g8ci9OQ5-T_T_QapHw3ai-444AIiRtOy7tjdaglD4ru3FE4-GlfsIGT27kQXuXqqHHGAK00EnVPOucI6HoMokTjmTFYaEtj3SPx5Q-Cw_Dhi_uRD1g=="
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    },
+    {
+      "label": "skysports",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEesrQ6QvVjn-bHCsphjVDXXRNF7mbgHq54-hE3a-Jri9GEANifNKGaT8ZyYmyUfHwtq_LjvK7p1t3pVYUuFO_uAldO5BGFZ27886w4y0gpDGA6E9HqdlzDY2Pmqhv49xHfeMHgo19xBDDnj2fKqBRM4t4IjLCvhty8WLzFQV6YOfzsxpP2r6kasmUquZVMn-T31r4k4tA5wooIY-LY4agz2V-ad6WrEGsJwno3VBb04V5DDQN3Qk-CLGaY0XsoW2x_EVhnFLbGdRoJESq8gtSbvw5zNSAMTBMg9bWFndXkf7mOdW2o3ndHL_jE0vWDwdTtLA=="
+    },
+    {
+      "label": "uefa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHizsVHQ6NneS2ANb_mjCUg3IWUeGvbDZwJ-KllEDoddYU_I-boEht_k8umxp2T2mWs2il1ycj2Lo2VGuuUxEDT20Xr8_y6YhpjK2zMgmQB41heEfimTZ9_5QzIdSS1rA7Gcyd_lgD7Dg2EbGHtoEYXC3MlDGFSipUrnSoVhRGEqPbEALewo1xWn84-GzHuLk9RUY4gtzf6QnzV8fmJAW92IczvYqz1wOqUtyneG1c="
+    },
+    {
+      "label": "si",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuSehjl3xa9a7XM_cT2a3Lan6Aqmy6CjU6Dk9Tg_ugJMiM0R8psslCnvUVJHtWY3iM86HreMmj3s2gpknAA3KtXGiyFcWqku2YmD2rgxxuIwJ776EAahpT6L8tNyIlVEF-kjVSQARVRnrIuVBFs_prNphKy8xX"
+    },
+    {
+      "label": "thehindu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoLFUOUCAEOr6YkQm127j3nMt-QcVvNdikn-t7kxH8vuplk_eymilHsZyYQCwCo7_ABHMYRM-58vvXICEGPi8QZtpHq5j5VnhIcbsCEUVdeXXz33CsJtMeONXD3Vr9ALdeq6EQ6mb-IJANKVrUYJl8gspfGRJBzl6wjacRKzABpQJOp8OqvqOS_xh0FI9UoDUfVVR-5rZjHCDihKgAQ5B7JEOnc7vkaJ_WDBg69m5GAmU6ecrZzI_7Qc-1dCwxPeBjnIMp62rW_iK2eno="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 1
+}

@@ -1,0 +1,833 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-18 14:11:08
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: мне нужно найти инструкцию по сборке SR6 от Tempest MAx в формате PDF и полный список комплектующих с файлами для 3D печати
+
+можешь искать по форумам и сервисам где пользователи делятся материалами приобретенными на таких сервисах как patreon и тд
+
+[AI]: Okay, here's what I've found regarding the Tempest Max SR6 assembly guide, parts list, and 3D print files as of June 18, 2025:
+
+**Assembly Guide and Parts List:**
+
+*   **Availability:** Full step-by-step build instructions with pictures are available on Tempest's Patreon and SubscribeStar pages as of March 1, 2025 [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH713akseAAfVI-dWeZKVb3m52S4Unm_7eHnDz4eXv5n34KfRsT2dOs6kr4MuoYwEJBcDDsiOrONDaTyVirs4JfblXkTYzjjtm5F3iTB65K6OUzEMjzrFrsIuEuf5a-i5FHZ72_xYuyx09mfpRFAMeHbnSejfY4PwqLuDz7Th-PZ7UbDA==) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=). The most up-to-date design files, build instructions, and a parts list are primarily found on Tempest MAx's Patreon [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A). Becoming a Patreon subscriber, specifically at the "Maker" tier, seems to grant access to these resources [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A).
+*   **Bill of Materials (BOM):** A detailed BOM (Bill of Materials) is available, likely through the Patreon or associated communities.
+*   **Controller:** The SR6 uses an ESP32 microcontroller to receive commands and control the servos [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=). Control is achieved via a generic open source USB serial protocol called T-Code [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=).
+*   **Components:** You'll need components like 6 servo motors, an ESP32 development board, and a power supply [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhzjS9mLk4toLSOGO7eoCQpt2y0FZSIza4jzkyxq0UDPlOMnvy-sZGMKIp_XceiBV8aoxM-DjA8K9orn_9eahNniEEUUv_qTP5OeKoHAN1rtpYC6gnZdCDvJw_9c8H5MyRqIjGxCC_r5SWi57HyUFzwcxThAmaOAmCkN4sfXM7vSj36B2DuA==). The hardware itself may cost anywhere from $200 to $500, mostly depending on your choice of servo [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=).
+*   **Mounting:** The SR6 mounts to a standard VESA 100mm hole pattern using 4x M4 bolts [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=) [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=).
+
+**3D Print Files:**
+
+*   **Primary Source:** The primary source for the most up-to-date 3D print files is Tempest MAx's Patreon [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A).
+*   **Thingiverse:** Older, publicly released files can sometimes be found on Thingiverse [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A).
+*   **Yeggi:** This 3D model search engine lists numerous "Tempest Max SR6" 3D models, some available for free download from sites like Thingiverse and Printables, while others are for sale on platforms like CGTrader, Cults, and MyMiniFactory [yeggi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEupk4bgvSBoYgtSNj_SB2qehcTrnp3hjw1ujJ9oTbj1_CJHYUisN1iL9Ug2xKlLzkxZXl3xYbiY9Q6nuAPVej3KTKPHxbKkaeIMkCc6EuhPTVK2oZPr-pN1JtVREtHa9j5jPjysQ==) [yeggi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnfiZwg80icwOKxTDzjFrb4bTlheMNHnZt8rmcF24S-kfYbEc6SZEnf8Sfg8Qb9aH159yNIcxXd48FmVozimIF-sX4DyfepaKg9R_jm522K-bGQnRmPJervYoSWRPkjnMR-bQ=). However, verify that these are specifically for the SR6.
+*   **3D Printer Size:** A standard 3D printer should be sufficient, as the longest part for the OSR2 (a similar device) is about 16.25cm [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A). The SR6 alpha has larger components, with arms a bit more than 19cm [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A).
+*   **Commercial Services:** There are online services that can 3D print parts and ship them [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=).
+
+**Important Considerations:**
+
+*   **Open Source with a Catch:** While the project is described as open source, access to the newest files and support often relies on supporting Tempest MAx's Patreon [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU=).
+*   **Community Support:** The community around these devices is very helpful, particularly on Discord [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU=].
+*   **SR6 PRO:** There's mention of a "SR6 PRO" with redesigned components for improved strength, durability, and longevity [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=). Instructions and files for these modifications were planned for sale, including 3D models and drawings [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=). These modifications include options like an aluminum base shell (for water cooling), water-cooled servos, basic and advanced suction, a comfort pad, rigid arms, metal servo horn arms, and a metal L & R servo frame [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=).
+
+In summary, your best bet for obtaining the assembly guide PDF and 3D print files is to check Tempest MAx's Patreon or SubscribeStar. You might also find older files on Thingiverse, and various models (some free, some paid) on Yeggi.
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 3
+Sources gathered: 83
+Web research results: 3
+
+SEARCH QUERIES USED
+----------------------------------------
+1. Tempest Max SR6 assembly guide PDF
+2. Tempest Max SR6 parts list 3D print files
+3. Are there any known issues or challenges encountered during the SR6 assembly process that are not documented in the official instructions, and what are the recommended solutions or workarounds?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Based on the search results, here's what can be gathered regarding the "Tempest Max SR6 assembly guide PDF":
+
+*   **What is the SR6?** The SR6 is a Multi-Axis Stroker Robot (MAxSR) designed to hold and move a standard fleshlight, or similar toy, with six degrees of freedom. [osr](https://vertexaisearch.cloud.google.com/id/0-0) It's constructed from 3D printed plastic and commercial off-the-shelf components and is designed to be home-built, modifiable, and user-repairable. [osr](https://vertexaisearch.cloud.google.com/id/0-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1) The design uses a modified Stewart platform with six servos driving six arms, connected to the receiver via linkages. [osr](https://vertexaisearch.cloud.google.com/id/0-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1)
+*   **Capabilities:** The SR6 can move up and down (120mm range), left and right, forwards and backwards (60mm range), roll, pitch (±30 degrees), and twist (±135 degrees with an upgrade). It can also control dynamic suction with a "T-valve" accessory.
+* [osr](https://vertexaisearch.cloud.google.com/id/0-0)   **Assembly:** The OSR Wiki mentions a BOM (Bill of Materials) for assembly.
+*   **Controller:** Control is achieved via a generic open source USB serial protocol called T-Code. T [osr](https://vertexaisearch.cloud.google.com/id/0-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1)he SR6 uses an ESP32 microcontroller to receive commands and control the servos.
+* [osr](https://vertexaisearch.cloud.google.com/id/0-0)   **Mounting:** It mounts to a standard VESA 100mm hole pattern using 4x M4 bolts.
+* [osr](https://vertexaisearch.cloud.google.com/id/0-0)   **Where to find assembly instructions:** As of March 1, 2025, full step-by-step build instructions are available on Tempest's Patreon and SubscribeStar pages. T [eroscripts](https://vertexaisearch.cloud.google.com/id/0-2)he instructions are detailed with pictures.
+* [eroscripts](https://vertexaisearch.cloud.google.com/id/0-2) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1)   **SR6 PRO:** There's mention of a "SR6 PRO" with redesigned components for improved strength, durability, and longevity. I [eroscripts](https://vertexaisearch.cloud.google.com/id/0-3)nstructions and files for these modifications were planned for sale, including 3D models and drawings. T [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-3)hese modifications include options like an aluminum base shell (for water cooling), water-cooled servos, basic and advanced suction, a comfort pad, rigid arms, metal servo horn arms, and a metal L & R servo frame.
+ [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-3)
+
+--- Research Result 2 ---
+Okay, I will conduct targeted Google Searches to gather the most recent information on "Tempest Max SR6 parts list 3D print files" and synthesize it into a verifiable text artifact.
+Based on the search results, here's a summary of information regarding "Tempest Max SR6 parts list 3D print files":
+
+**What is the Tempest Max SR6?**
+
+*   The SR6 is a Multi-Axis Stroker Robot (MAxSR) designed to hold and move a standard fleshlight or similar toy, with six degrees of freedom. [osr](https://vertexaisearch.cloud.google.com/id/1-0)
+*   It's constructed from a combination of 3D printed plastic and commercial off-the-shelf components. [osr](https://vertexaisearch.cloud.google.com/id/1-0) It is designed to be home-built, modifiable, and user-repairable. [osr](https://vertexaisearch.cloud.google.com/id/1-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-1)
+*   The design is based around a modified Stewart platform with six servos driving six arms, which connect to the receiver via six linkages. [osr](https://vertexaisearch.cloud.google.com/id/1-0)
+*   It can move up and down, left and right, forwards and backwards, as well as roll left and right, pitch forwards and backwards, and, with the twist receiver upgrade, it can also rotate around the up-down axis. [osr](https://vertexaisearch.cloud.google.com/id/1-0)
+
+**Availability of 3D Print Files and Parts** [osr](https://vertexaisearch.cloud.google.com/id/1-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2) [reef2reef](https://vertexaisearch.cloud.google.com/id/1-3) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-4) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5) [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [yeggi](https://vertexaisearch.cloud.google.com/id/1-7)
+
+*   **Patreon:** The primary source for the most up-to-date design files, build instructions, and a parts list is Tempest MAx's Patreon. It appears that becoming a Patreon subscriber, specifically at the "Maker" tier, grants access to these resources. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5)
+*   **Thingiverse:** Older, publicly released files can sometimes be found on Thingiverse. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5)
+*   **Yeggi:** This 3D model search engine lists numerous "Tempest Max SR6" 3D models, some available for free download from sites like Thingiverse and Printables, while others are for sale on platforms like CGTrader, Cults, and MyMiniFactory. [yeggi](https://vertexaisearch.cloud.google.com/id/1-7) [yeggi](https://vertexaisearch.cloud.google.com/id/1-8) However, it's important to verify that these are specifically for the SR6 and not related to other similarly named projects.
+*   **EroScripts Forum:** Discussions on the EroScripts forum suggest that some users have ordered 3D printed parts from other users on Discord.
+*   **Commercial Services:** There are online services that can 3D print parts and ship them. [osr](https://vertexaisearch.cloud.google.com/id/1-0)
+
+**Components and Build Information**
+
+*   **Bill of Materials (BOM):** A detailed BOM (Bill of Materials) is available, likely through the Patreon or associated communities.
+*   **Electronics:** You'll need components like 6 servo motors, an ESP32 development board, and a power supply. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-4)
+*   **3D Printer Size:** A standard 3D printer should be sufficient, as the longest part for the OSR2 (a similar device) is about 16.25cm. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5) The SR6 alpha has larger components, with arms a bit more than 19cm. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5)
+*   **Software:** Control is achieved via a generic open source USB serial protocol called T-Code. [osr](https://vertexaisearch.cloud.google.com/id/1-0) The SR6 uses an ESP32 microcontroller to receive these simple commands and calculate the appropriate control angles for each of the servos.
+*   **Cost:** The hardware itself may cost anywhere from $200 to $500, mostly depending on your choice of servo. [osr](https://vertexaisearch.cloud.google.com/id/1-0)
+
+**Modifications and Upgrades** [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2)
+
+*   Some individuals are working on redesigning components for improved strength and durability. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2) These modifications, along with instructions and necessary files, may be available for purchase. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2) Upgrades include aluminum base shells, water-cooled servos, and suction systems. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2)
+
+**Important Considerations**
+
+*   **Open Source Nature:** While the project is described as open source, access to the newest files and support often relies on supporting Tempest MAx's Patreon. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-9)
+*   **Community Support:** The community around these devices is very helpful, particularly on Discord. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-9)
+*   **VESA Mount:** The SR6 mounts to a standard VESA 100mm hole pattern. [osr](https://vertexaisearch.cloud.google.com/id/1-0)
+
+
+--- Research Result 3 ---
+Based on the search results, here's a synthesis of known issues and challenges encountered during assembly processes, along with potential solutions or workarounds. Note that the search results do not directly address "SR6 assembly" in a specific product context. Instead, the results cover a range of topics where assembly or related challenges are discussed.
+
+1.  **General Assembly Challenges:**
+
+*   **Material Handling:** Automating material handling with industrial robots can improve business operations. [fanuc](https://vertexaisearch.cloud.google.com/id/2-0) \[7]
+*   **Assembly Processes:** Automating assembly processes with robots offers significant advantages over manual methods. [fanuc](https://vertexaisearch.cloud.google.com/id/2-0) \[7]
+*   **Rebar Assembly:** Prefabrication and assembly of rebar parts can reduce construction costs and time while enhancing construction quality and safety. [researchgate](https://vertexaisearch.cloud.google.com/id/2-1) \[8] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)
+
+2.  **Troubleshooting and Manuals:**
+
+*   Service manuals and troubleshooting guides exist for various products, offering tips, notes, cautions, and warnings to avoid data loss, product damage, or personal injury. \[11] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)
+*   These manuals provide procedures to follow for specific tasks. [aztechconvertingsystems](https://vertexaisearch.cloud.google.com/id/2-4) [spektrumrc](https://vertexaisearch.cloud.google.com/id/2-5) \[11] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)
+
+3.  **Software and System Issues:**
+
+*   **Software Defined Vehicles:** The emergence of software-defined vehicles has created a need for higher levels of performance, elevated safety, and more stringent security standards. [st](https://vertexaisearch.cloud.google.com/id/2-6) \[16]
+*   **Compiler Support and Performance Optimization:** Choosing the right compiler is as important as selecting the right processor, especially in automotive applications. \[3]
+*   **Foundry SR6 "shadowrun-eden":**  There are compatibility issues with Foundry V12, particularly with rolls not working anymore, due to changes in the API and lack of type definitions. A workaround involves either fixing the TypeScript issue or rebuilding the system with pure JavaScript. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) \[9] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)
+
+4.  **Specific Hardware/Software Limitations & Workarounds:**
+
+*   **Jazz Foundation 7.0.2:** Problems in this release have workarounds. The `clmhelp.war` file and the `updateSite.zip` file for release 7.0.2 are unavailable for download. [jazz](https://vertexaisearch.cloud.google.com/id/2-7) Client FullTextIndex data is obsolete and needs rebuild. Tomcat is no longer supported as an application server. [jazz](https://vertexaisearch.cloud.google.com/id/2-7) Upgrade to Java 8 SR6 to avoid GPF error during full text reindexing. Application menu is empty in the Add Association dialog box and licensing errors might occur if you upgrade the Java environment or upgrade applications to version 6.0.5 or later. [jazz](https://vertexaisearch.cloud.google.com/id/2-7) \[4]
+*   **IBM:** Passwords for keystores in use by the Security Key Lifecycle Manager for z/OS are restricted to 127 or fewer characters. [ibm](https://vertexaisearch.cloud.google.com/id/2-8) Keystore passwords 128 characters or greater in length cause the obfuscation code to fail with a NegativeArraySizeException on Security Key Lifecycle Manager for z/OS startup. [ibm](https://vertexaisearch.cloud.google.com/id/2-8) \[6]
+
+5.  **SR6 Not Moving (Example):**
+
+*   One user reported an issue with their SR6 device not moving, despite being detected by software. The suggested solution involved checking connections, and potentially reflashing the firmware, which requires pressing specific buttons on the ESP32 board. [eroscripts](https://vertexaisearch.cloud.google.com/id/2-9) \[14] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)
+
+It's important to note that without a specific product or context for "SR6 assembly," the information above is generalized. If you have a specific SR6 product in mind (e.g., a robot, a development board, etc.), further targeted searches would be needed.
+
+
+SOURCES GATHERED
+----------------------------------------
+1. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=
+
+2. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=
+
+3. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=
+
+4. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=
+
+5. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=
+
+6. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=
+
+7. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=
+
+8. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=
+
+9. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=
+
+10. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=
+
+11. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH713akseAAfVI-dWeZKVb3m52S4Unm_7eHnDz4eXv5n34KfRsT2dOs6kr4MuoYwEJBcDDsiOrONDaTyVirs4JfblXkTYzjjtm5F3iTB65K6OUzEMjzrFrsIuEuf5a-i5FHZ72_xYuyx09mfpRFAMeHbnSejfY4PwqLuDz7Th-PZ7UbDA==
+
+12. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH713akseAAfVI-dWeZKVb3m52S4Unm_7eHnDz4eXv5n34KfRsT2dOs6kr4MuoYwEJBcDDsiOrONDaTyVirs4JfblXkTYzjjtm5F3iTB65K6OUzEMjzrFrsIuEuf5a-i5FHZ72_xYuyx09mfpRFAMeHbnSejfY4PwqLuDz7Th-PZ7UbDA==
+
+13. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=
+
+14. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=
+
+15. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=
+
+16. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=
+
+17. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=
+
+18. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=
+
+19. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+20. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+21. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+22. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj5n7qYohwp8KIaTDtfmsJ_0H_AHZuocaVHbUToMHtjQdpWuDNkSKtaOUVZBKHDS0D0BDznxyr1qPoeyT28k0f8f_VL4O8aBi2iQH3nIjVjQty3dpGdbzwaWxmQ0dwDYpie1CgPIsEN7E9AaBCMbhM2PJ-GNngM1dPQBOgHP8kU49pdJmQlEnLEQqDjfCsPPvChCnbIcQB
+
+23. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+24. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+25. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+26. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o=
+
+27. reef2reef
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK-R7UORg13e3oDVUN89q1isEJKxPfmvHx3sasqBKW6PXx7wS2OAtb4v30ut2PbP8rKkv39YyAS-7Qde7gCIrPArPNhgcHcbdfEfaBLENqSLIZQx6QsfxHNPpkvjo4yaGOtgVTYhkKmJvbujEc5O_o_4j5rNYIFlnqdFGQWMVhtE6qWW6oew==
+
+28. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhzjS9mLk4toLSOGO7eoCQpt2y0FZSIza4jzkyxq0UDPlOMnvy-sZGMKIp_XceiBV8aoxM-DjA8K9orn_9eahNniEEUUv_qTP5OeKoHAN1rtpYC6gnZdCDvJw_9c8H5MyRqIjGxCC_r5SWi57HyUFzwcxThAmaOAmCkN4sfXM7vSj36B2DuA==
+
+29. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A
+
+30. huggingface
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2p5npjuZVWBnElBUTSNrSAecgtZnhGgCYRU1negjyb_0C99OOwTXJNxznTIrKAbiVp-nliuCPLbp2a9L7hNbn-rjj4ntnQaNtsb-LayI5ojdzm19zxnIYw6kBZEFosFGk0JqeChV88mlZsyf7s-XeMNBYUcLU2H0=
+
+31. yeggi
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEupk4bgvSBoYgtSNj_SB2qehcTrnp3hjw1ujJ9oTbj1_CJHYUisN1iL9Ug2xKlLzkxZXl3xYbiY9Q6nuAPVej3KTKPHxbKkaeIMkCc6EuhPTVK2oZPr-pN1JtVREtHa9j5jPjysQ==
+
+32. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A
+
+33. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A
+
+34. yeggi
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEupk4bgvSBoYgtSNj_SB2qehcTrnp3hjw1ujJ9oTbj1_CJHYUisN1iL9Ug2xKlLzkxZXl3xYbiY9Q6nuAPVej3KTKPHxbKkaeIMkCc6EuhPTVK2oZPr-pN1JtVREtHa9j5jPjysQ==
+
+35. yeggi
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnfiZwg80icwOKxTDzjFrb4bTlheMNHnZt8rmcF24S-kfYbEc6SZEnf8Sfg8Qb9aH159yNIcxXd48FmVozimIF-sX4DyfepaKg9R_jm522K-bGQnRmPJervYoSWRPkjnMR-bQ=
+
+36. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+37. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhzjS9mLk4toLSOGO7eoCQpt2y0FZSIza4jzkyxq0UDPlOMnvy-sZGMKIp_XceiBV8aoxM-DjA8K9orn_9eahNniEEUUv_qTP5OeKoHAN1rtpYC6gnZdCDvJw_9c8H5MyRqIjGxCC_r5SWi57HyUFzwcxThAmaOAmCkN4sfXM7vSj36B2DuA==
+
+38. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A
+
+39. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A
+
+40. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+41. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+42. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o=
+
+43. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o=
+
+44. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o=
+
+45. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o=
+
+46. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A
+
+47. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU=
+
+48. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A
+
+49. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU=
+
+50. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+51. fanuc
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnG2F70jMsit_pNjZOMNutKx_7bvc03leh-k60cPe97xFoKSYSfDW-UOZEBZX6DLKw5q92_-V3l8676ZsEKGM2Fi_qB5eJNktZi1wlXW6eQF76G4TiLWBESwjiJGDwC2RImDHhySWEoPE=
+
+52. fanuc
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnG2F70jMsit_pNjZOMNutKx_7bvc03leh-k60cPe97xFoKSYSfDW-UOZEBZX6DLKw5q92_-V3l8676ZsEKGM2Fi_qB5eJNktZi1wlXW6eQF76G4TiLWBESwjiJGDwC2RImDHhySWEoPE=
+
+53. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsPZagWKyhYE1cqjV1Ro0n_XW2GEFcUlH5GwNgmhNks-VP4bAKRO_N7coev8RrdOPOdi-EZUEXgpQa1kacxqSFEX29xdAeRU9Sbu8htZ8GZJp94MT1bBD65mJHe18DoYXKvrDNBVyRkV0KhGln7tNtbWQn87RSLEvHcvQF_jGLC5pJse2L4fIjZ1Cq0QC29yzUInLZDRyznE8AKMoC75CMN3_dM-bzFQY3hW7g_0AEEenpaZf51l4zecxWDtwudyd5
+
+54. oireachtas
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX
+
+55. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh
+
+56. oireachtas
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX
+
+57. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh
+
+58. aztechconvertingsystems
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwxlOIyWuIIqToxM-Mus1N6KbIRuHwa0dOfsseg6UH9MtaGsilLrmf5YTCtyC3EpQbAeu9t6pc9VxQTfb4O-nUYeEBhdiFb3eMS606KBJOXBewbGoZCt6U2ZFtbaIU95gfIGrEf8o6HeOZPnHeRXKvDfV8dKX9cZ53r0tEVq7m6qVECLfYo9be63ypHULVsdpWJPH7UoOO9Q14OQzKH9533A==
+
+59. spektrumrc
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw4HDXAogudqPu9wYYaHWUnq8GSeJTHlFbuXFfxq32JNwEuUMY1Lrlqg-DjVQVXB1pvmCkaFZkbH5kiWzqPt30O63LmijN79NYg5MZzEEHvt1aClyLAbdeFV11l0tluw706IfltqA_wAS1idT1-Z8zdKxos7vmn4wFg8XXeuNkr1S-AEa3-ToBIq5MXEsWODUeiVT534h-VseXl3Q3wzrdRaS9BqJXTnXo8o7Voq2Dw0IfQ5mY
+
+60. oireachtas
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX
+
+61. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh
+
+62. st
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnlVAOh5iMOwBRzM40cOxgXrJeY8q42mOYofk4WjL41NNgL-7Z1nJQPHFPpPUkZXIp_oOEQJToT7ZmeYZAFKEjT8uVyJAZEke0JFJpG5jYp6lX-Ge2TwB7cHA7wmcVT_Fm6ac=
+
+63. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh
+
+64. oireachtas
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX
+
+65. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh
+
+66. jazz
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe-4bLIrQXUSgUhdCup6s-zw51LunRJQacTvW23GvT8LkwOxcEA4K1X6hp6rNRrb6YE7mWU5zQKMDeMuEQB8xZTf-pa68cvQmw22LXIUPortQPtrTfP85aeFiVSs5W8vw=
+
+67. jazz
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe-4bLIrQXUSgUhdCup6s-zw51LunRJQacTvW23GvT8LkwOxcEA4K1X6hp6rNRrb6YE7mWU5zQKMDeMuEQB8xZTf-pa68cvQmw22LXIUPortQPtrTfP85aeFiVSs5W8vw=
+
+68. jazz
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe-4bLIrQXUSgUhdCup6s-zw51LunRJQacTvW23GvT8LkwOxcEA4K1X6hp6rNRrb6YE7mWU5zQKMDeMuEQB8xZTf-pa68cvQmw22LXIUPortQPtrTfP85aeFiVSs5W8vw=
+
+69. ibm
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeIZwPMSEXxNd21ZNiqErzB2qcuKB2RuPsL_gzbgLm8IqsKeu50SaClzpTCrGvC2JAQS0koWw6tjmcydSIjMPnEARFFp9L1OkakkCd6pdj0rFAMXLeZ4Hz_QBG59yjimZizKB_SheTYdoldI4JJKUKo3wW6Rupzi0eELoP8dTJXFy8yaQCo0d76x17Q_EJENpp9qx7th2uQnhWyA==
+
+70. ibm
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeIZwPMSEXxNd21ZNiqErzB2qcuKB2RuPsL_gzbgLm8IqsKeu50SaClzpTCrGvC2JAQS0koWw6tjmcydSIjMPnEARFFp9L1OkakkCd6pdj0rFAMXLeZ4Hz_QBG59yjimZizKB_SheTYdoldI4JJKUKo3wW6Rupzi0eELoP8dTJXFy8yaQCo0d76x17Q_EJENpp9qx7th2uQnhWyA==
+
+71. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI77iZGN0UpbEfUxTg62O8itguQDfYkHZffT8En6PCHukIEa-61xDo_AobB91QKxlZaaug1gdl7hTk1SrfW_ubP2zQ-8PDSz4SO_6-FkLTVooFA1e-FzB_gwOIsmYonooQ_qgDqENVWfFgQMBDxCeY
+
+72. oireachtas
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX
+
+73. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh
+
+74. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=
+
+75. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=
+
+76. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH713akseAAfVI-dWeZKVb3m52S4Unm_7eHnDz4eXv5n34KfRsT2dOs6kr4MuoYwEJBcDDsiOrONDaTyVirs4JfblXkTYzjjtm5F3iTB65K6OUzEMjzrFrsIuEuf5a-i5FHZ72_xYuyx09mfpRFAMeHbnSejfY4PwqLuDz7Th-PZ7UbDA==
+
+77. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=
+
+78. osr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=
+
+79. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhzjS9mLk4toLSOGO7eoCQpt2y0FZSIza4jzkyxq0UDPlOMnvy-sZGMKIp_XceiBV8aoxM-DjA8K9orn_9eahNniEEUUv_qTP5OeKoHAN1rtpYC6gnZdCDvJw_9c8H5MyRqIjGxCC_r5SWi57HyUFzwcxThAmaOAmCkN4sfXM7vSj36B2DuA==
+
+80. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A
+
+81. yeggi
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEupk4bgvSBoYgtSNj_SB2qehcTrnp3hjw1ujJ9oTbj1_CJHYUisN1iL9Ug2xKlLzkxZXl3xYbiY9Q6nuAPVej3KTKPHxbKkaeIMkCc6EuhPTVK2oZPr-pN1JtVREtHa9j5jPjysQ==
+
+82. yeggi
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnfiZwg80icwOKxTDzjFrb4bTlheMNHnZt8rmcF24S-kfYbEc6SZEnf8Sfg8Qb9aH159yNIcxXd48FmVozimIF-sX4DyfepaKg9R_jm522K-bGQnRmPJervYoSWRPkjnMR-bQ=
+
+83. eroscripts
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU=
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "мне нужно найти инструкцию по сборке SR6 от Tempest MAx в формате PDF и полный список комплектующих с файлами для 3D печати\n\nможешь искать по форумам и сервисам где пользователи делятся материалами приобретенными на таких сервисах как patreon и тд"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "Okay, here's what I've found regarding the Tempest Max SR6 assembly guide, parts list, and 3D print files as of June 18, 2025:\n\n**Assembly Guide and Parts List:**\n\n*   **Availability:** Full step-by-step build instructions with pictures are available on Tempest's Patreon and SubscribeStar pages as of March 1, 2025 [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH713akseAAfVI-dWeZKVb3m52S4Unm_7eHnDz4eXv5n34KfRsT2dOs6kr4MuoYwEJBcDDsiOrONDaTyVirs4JfblXkTYzjjtm5F3iTB65K6OUzEMjzrFrsIuEuf5a-i5FHZ72_xYuyx09mfpRFAMeHbnSejfY4PwqLuDz7Th-PZ7UbDA==) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=). The most up-to-date design files, build instructions, and a parts list are primarily found on Tempest MAx's Patreon [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A). Becoming a Patreon subscriber, specifically at the \"Maker\" tier, seems to grant access to these resources [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A).\n*   **Bill of Materials (BOM):** A detailed BOM (Bill of Materials) is available, likely through the Patreon or associated communities.\n*   **Controller:** The SR6 uses an ESP32 microcontroller to receive commands and control the servos [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=). Control is achieved via a generic open source USB serial protocol called T-Code [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=).\n*   **Components:** You'll need components like 6 servo motors, an ESP32 development board, and a power supply [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhzjS9mLk4toLSOGO7eoCQpt2y0FZSIza4jzkyxq0UDPlOMnvy-sZGMKIp_XceiBV8aoxM-DjA8K9orn_9eahNniEEUUv_qTP5OeKoHAN1rtpYC6gnZdCDvJw_9c8H5MyRqIjGxCC_r5SWi57HyUFzwcxThAmaOAmCkN4sfXM7vSj36B2DuA==). The hardware itself may cost anywhere from $200 to $500, mostly depending on your choice of servo [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=).\n*   **Mounting:** The SR6 mounts to a standard VESA 100mm hole pattern using 4x M4 bolts [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM=) [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=).\n\n**3D Print Files:**\n\n*   **Primary Source:** The primary source for the most up-to-date 3D print files is Tempest MAx's Patreon [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A).\n*   **Thingiverse:** Older, publicly released files can sometimes be found on Thingiverse [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A).\n*   **Yeggi:** This 3D model search engine lists numerous \"Tempest Max SR6\" 3D models, some available for free download from sites like Thingiverse and Printables, while others are for sale on platforms like CGTrader, Cults, and MyMiniFactory [yeggi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEupk4bgvSBoYgtSNj_SB2qehcTrnp3hjw1ujJ9oTbj1_CJHYUisN1iL9Ug2xKlLzkxZXl3xYbiY9Q6nuAPVej3KTKPHxbKkaeIMkCc6EuhPTVK2oZPr-pN1JtVREtHa9j5jPjysQ==) [yeggi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnfiZwg80icwOKxTDzjFrb4bTlheMNHnZt8rmcF24S-kfYbEc6SZEnf8Sfg8Qb9aH159yNIcxXd48FmVozimIF-sX4DyfepaKg9R_jm522K-bGQnRmPJervYoSWRPkjnMR-bQ=). However, verify that these are specifically for the SR6.\n*   **3D Printer Size:** A standard 3D printer should be sufficient, as the longest part for the OSR2 (a similar device) is about 16.25cm [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A). The SR6 alpha has larger components, with arms a bit more than 19cm [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A).\n*   **Commercial Services:** There are online services that can 3D print parts and ship them [osr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc=).\n\n**Important Considerations:**\n\n*   **Open Source with a Catch:** While the project is described as open source, access to the newest files and support often relies on supporting Tempest MAx's Patreon [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU=).\n*   **Community Support:** The community around these devices is very helpful, particularly on Discord [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU=].\n*   **SR6 PRO:** There's mention of a \"SR6 PRO\" with redesigned components for improved strength, durability, and longevity [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=). Instructions and files for these modifications were planned for sale, including 3D models and drawings [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=). These modifications include options like an aluminum base shell (for water cooling), water-cooled servos, basic and advanced suction, a comfort pad, rigid arms, metal servo horn arms, and a metal L & R servo frame [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM=) [eroscripts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE=).\n\nIn summary, your best bet for obtaining the assembly guide PDF and 3D print files is to check Tempest MAx's Patreon or SubscribeStar. You might also find older files on Thingiverse, and various models (some free, some paid) on Yeggi."
+    }
+  ],
+  "search_query": [
+    "Tempest Max SR6 assembly guide PDF",
+    "Tempest Max SR6 parts list 3D print files",
+    "Are there any known issues or challenges encountered during the SR6 assembly process that are not documented in the official instructions, and what are the recommended solutions or workarounds?"
+  ],
+  "web_research_result": [
+    "Based on the search results, here's what can be gathered regarding the \"Tempest Max SR6 assembly guide PDF\":\n\n*   **What is the SR6?** The SR6 is a Multi-Axis Stroker Robot (MAxSR) designed to hold and move a standard fleshlight, or similar toy, with six degrees of freedom. [osr](https://vertexaisearch.cloud.google.com/id/0-0) It's constructed from 3D printed plastic and commercial off-the-shelf components and is designed to be home-built, modifiable, and user-repairable. [osr](https://vertexaisearch.cloud.google.com/id/0-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1) The design uses a modified Stewart platform with six servos driving six arms, connected to the receiver via linkages. [osr](https://vertexaisearch.cloud.google.com/id/0-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Capabilities:** The SR6 can move up and down (120mm range), left and right, forwards and backwards (60mm range), roll, pitch (±30 degrees), and twist (±135 degrees with an upgrade). It can also control dynamic suction with a \"T-valve\" accessory.\n* [osr](https://vertexaisearch.cloud.google.com/id/0-0)   **Assembly:** The OSR Wiki mentions a BOM (Bill of Materials) for assembly.\n*   **Controller:** Control is achieved via a generic open source USB serial protocol called T-Code. T [osr](https://vertexaisearch.cloud.google.com/id/0-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1)he SR6 uses an ESP32 microcontroller to receive commands and control the servos.\n* [osr](https://vertexaisearch.cloud.google.com/id/0-0)   **Mounting:** It mounts to a standard VESA 100mm hole pattern using 4x M4 bolts.\n* [osr](https://vertexaisearch.cloud.google.com/id/0-0)   **Where to find assembly instructions:** As of March 1, 2025, full step-by-step build instructions are available on Tempest's Patreon and SubscribeStar pages. T [eroscripts](https://vertexaisearch.cloud.google.com/id/0-2)he instructions are detailed with pictures.\n* [eroscripts](https://vertexaisearch.cloud.google.com/id/0-2) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1)   **SR6 PRO:** There's mention of a \"SR6 PRO\" with redesigned components for improved strength, durability, and longevity. I [eroscripts](https://vertexaisearch.cloud.google.com/id/0-3)nstructions and files for these modifications were planned for sale, including 3D models and drawings. T [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-3)hese modifications include options like an aluminum base shell (for water cooling), water-cooled servos, basic and advanced suction, a comfort pad, rigid arms, metal servo horn arms, and a metal L & R servo frame.\n [eroscripts](https://vertexaisearch.cloud.google.com/id/0-1) [eroscripts](https://vertexaisearch.cloud.google.com/id/0-3)",
+    "Okay, I will conduct targeted Google Searches to gather the most recent information on \"Tempest Max SR6 parts list 3D print files\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of information regarding \"Tempest Max SR6 parts list 3D print files\":\n\n**What is the Tempest Max SR6?**\n\n*   The SR6 is a Multi-Axis Stroker Robot (MAxSR) designed to hold and move a standard fleshlight or similar toy, with six degrees of freedom. [osr](https://vertexaisearch.cloud.google.com/id/1-0)\n*   It's constructed from a combination of 3D printed plastic and commercial off-the-shelf components. [osr](https://vertexaisearch.cloud.google.com/id/1-0) It is designed to be home-built, modifiable, and user-repairable. [osr](https://vertexaisearch.cloud.google.com/id/1-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-1)\n*   The design is based around a modified Stewart platform with six servos driving six arms, which connect to the receiver via six linkages. [osr](https://vertexaisearch.cloud.google.com/id/1-0)\n*   It can move up and down, left and right, forwards and backwards, as well as roll left and right, pitch forwards and backwards, and, with the twist receiver upgrade, it can also rotate around the up-down axis. [osr](https://vertexaisearch.cloud.google.com/id/1-0)\n\n**Availability of 3D Print Files and Parts** [osr](https://vertexaisearch.cloud.google.com/id/1-0) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2) [reef2reef](https://vertexaisearch.cloud.google.com/id/1-3) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-4) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5) [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [yeggi](https://vertexaisearch.cloud.google.com/id/1-7)\n\n*   **Patreon:** The primary source for the most up-to-date design files, build instructions, and a parts list is Tempest MAx's Patreon. It appears that becoming a Patreon subscriber, specifically at the \"Maker\" tier, grants access to these resources. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Thingiverse:** Older, publicly released files can sometimes be found on Thingiverse. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Yeggi:** This 3D model search engine lists numerous \"Tempest Max SR6\" 3D models, some available for free download from sites like Thingiverse and Printables, while others are for sale on platforms like CGTrader, Cults, and MyMiniFactory. [yeggi](https://vertexaisearch.cloud.google.com/id/1-7) [yeggi](https://vertexaisearch.cloud.google.com/id/1-8) However, it's important to verify that these are specifically for the SR6 and not related to other similarly named projects.\n*   **EroScripts Forum:** Discussions on the EroScripts forum suggest that some users have ordered 3D printed parts from other users on Discord.\n*   **Commercial Services:** There are online services that can 3D print parts and ship them. [osr](https://vertexaisearch.cloud.google.com/id/1-0)\n\n**Components and Build Information**\n\n*   **Bill of Materials (BOM):** A detailed BOM (Bill of Materials) is available, likely through the Patreon or associated communities.\n*   **Electronics:** You'll need components like 6 servo motors, an ESP32 development board, and a power supply. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-4)\n*   **3D Printer Size:** A standard 3D printer should be sufficient, as the longest part for the OSR2 (a similar device) is about 16.25cm. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5) The SR6 alpha has larger components, with arms a bit more than 19cm. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Software:** Control is achieved via a generic open source USB serial protocol called T-Code. [osr](https://vertexaisearch.cloud.google.com/id/1-0) The SR6 uses an ESP32 microcontroller to receive these simple commands and calculate the appropriate control angles for each of the servos.\n*   **Cost:** The hardware itself may cost anywhere from $200 to $500, mostly depending on your choice of servo. [osr](https://vertexaisearch.cloud.google.com/id/1-0)\n\n**Modifications and Upgrades** [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2)\n\n*   Some individuals are working on redesigning components for improved strength and durability. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2) These modifications, along with instructions and necessary files, may be available for purchase. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2) Upgrades include aluminum base shells, water-cooled servos, and suction systems. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-2)\n\n**Important Considerations**\n\n*   **Open Source Nature:** While the project is described as open source, access to the newest files and support often relies on supporting Tempest MAx's Patreon. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **Community Support:** The community around these devices is very helpful, particularly on Discord. [eroscripts](https://vertexaisearch.cloud.google.com/id/1-5) [eroscripts](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **VESA Mount:** The SR6 mounts to a standard VESA 100mm hole pattern. [osr](https://vertexaisearch.cloud.google.com/id/1-0)\n",
+    "Based on the search results, here's a synthesis of known issues and challenges encountered during assembly processes, along with potential solutions or workarounds. Note that the search results do not directly address \"SR6 assembly\" in a specific product context. Instead, the results cover a range of topics where assembly or related challenges are discussed.\n\n1.  **General Assembly Challenges:**\n\n*   **Material Handling:** Automating material handling with industrial robots can improve business operations. [fanuc](https://vertexaisearch.cloud.google.com/id/2-0) \\[7]\n*   **Assembly Processes:** Automating assembly processes with robots offers significant advantages over manual methods. [fanuc](https://vertexaisearch.cloud.google.com/id/2-0) \\[7]\n*   **Rebar Assembly:** Prefabrication and assembly of rebar parts can reduce construction costs and time while enhancing construction quality and safety. [researchgate](https://vertexaisearch.cloud.google.com/id/2-1) \\[8] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)\n\n2.  **Troubleshooting and Manuals:**\n\n*   Service manuals and troubleshooting guides exist for various products, offering tips, notes, cautions, and warnings to avoid data loss, product damage, or personal injury. \\[11] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)\n*   These manuals provide procedures to follow for specific tasks. [aztechconvertingsystems](https://vertexaisearch.cloud.google.com/id/2-4) [spektrumrc](https://vertexaisearch.cloud.google.com/id/2-5) \\[11] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)\n\n3.  **Software and System Issues:**\n\n*   **Software Defined Vehicles:** The emergence of software-defined vehicles has created a need for higher levels of performance, elevated safety, and more stringent security standards. [st](https://vertexaisearch.cloud.google.com/id/2-6) \\[16]\n*   **Compiler Support and Performance Optimization:** Choosing the right compiler is as important as selecting the right processor, especially in automotive applications. \\[3]\n*   **Foundry SR6 \"shadowrun-eden\":**  There are compatibility issues with Foundry V12, particularly with rolls not working anymore, due to changes in the API and lack of type definitions. A workaround involves either fixing the TypeScript issue or rebuilding the system with pure JavaScript. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) \\[9] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)\n\n4.  **Specific Hardware/Software Limitations & Workarounds:**\n\n*   **Jazz Foundation 7.0.2:** Problems in this release have workarounds. The `clmhelp.war` file and the `updateSite.zip` file for release 7.0.2 are unavailable for download. [jazz](https://vertexaisearch.cloud.google.com/id/2-7) Client FullTextIndex data is obsolete and needs rebuild. Tomcat is no longer supported as an application server. [jazz](https://vertexaisearch.cloud.google.com/id/2-7) Upgrade to Java 8 SR6 to avoid GPF error during full text reindexing. Application menu is empty in the Add Association dialog box and licensing errors might occur if you upgrade the Java environment or upgrade applications to version 6.0.5 or later. [jazz](https://vertexaisearch.cloud.google.com/id/2-7) \\[4]\n*   **IBM:** Passwords for keystores in use by the Security Key Lifecycle Manager for z/OS are restricted to 127 or fewer characters. [ibm](https://vertexaisearch.cloud.google.com/id/2-8) Keystore passwords 128 characters or greater in length cause the obfuscation code to fail with a NegativeArraySizeException on Security Key Lifecycle Manager for z/OS startup. [ibm](https://vertexaisearch.cloud.google.com/id/2-8) \\[6]\n\n5.  **SR6 Not Moving (Example):**\n\n*   One user reported an issue with their SR6 device not moving, despite being detected by software. The suggested solution involved checking connections, and potentially reflashing the firmware, which requires pressing specific buttons on the ESP32 board. [eroscripts](https://vertexaisearch.cloud.google.com/id/2-9) \\[14] [oireachtas](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)\n\nIt's important to note that without a specific product or context for \"SR6 assembly,\" the information above is generalized. If you have a specific SR6 product in mind (e.g., a robot, a development board, etc.), further targeted searches would be needed.\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH713akseAAfVI-dWeZKVb3m52S4Unm_7eHnDz4eXv5n34KfRsT2dOs6kr4MuoYwEJBcDDsiOrONDaTyVirs4JfblXkTYzjjtm5F3iTB65K6OUzEMjzrFrsIuEuf5a-i5FHZ72_xYuyx09mfpRFAMeHbnSejfY4PwqLuDz7Th-PZ7UbDA=="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH713akseAAfVI-dWeZKVb3m52S4Unm_7eHnDz4eXv5n34KfRsT2dOs6kr4MuoYwEJBcDDsiOrONDaTyVirs4JfblXkTYzjjtm5F3iTB65K6OUzEMjzrFrsIuEuf5a-i5FHZ72_xYuyx09mfpRFAMeHbnSejfY4PwqLuDz7Th-PZ7UbDA=="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj5n7qYohwp8KIaTDtfmsJ_0H_AHZuocaVHbUToMHtjQdpWuDNkSKtaOUVZBKHDS0D0BDznxyr1qPoeyT28k0f8f_VL4O8aBi2iQH3nIjVjQty3dpGdbzwaWxmQ0dwDYpie1CgPIsEN7E9AaBCMbhM2PJ-GNngM1dPQBOgHP8kU49pdJmQlEnLEQqDjfCsPPvChCnbIcQB"
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o="
+    },
+    {
+      "label": "reef2reef",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK-R7UORg13e3oDVUN89q1isEJKxPfmvHx3sasqBKW6PXx7wS2OAtb4v30ut2PbP8rKkv39YyAS-7Qde7gCIrPArPNhgcHcbdfEfaBLENqSLIZQx6QsfxHNPpkvjo4yaGOtgVTYhkKmJvbujEc5O_o_4j5rNYIFlnqdFGQWMVhtE6qWW6oew=="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhzjS9mLk4toLSOGO7eoCQpt2y0FZSIza4jzkyxq0UDPlOMnvy-sZGMKIp_XceiBV8aoxM-DjA8K9orn_9eahNniEEUUv_qTP5OeKoHAN1rtpYC6gnZdCDvJw_9c8H5MyRqIjGxCC_r5SWi57HyUFzwcxThAmaOAmCkN4sfXM7vSj36B2DuA=="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A"
+    },
+    {
+      "label": "huggingface",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2p5npjuZVWBnElBUTSNrSAecgtZnhGgCYRU1negjyb_0C99OOwTXJNxznTIrKAbiVp-nliuCPLbp2a9L7hNbn-rjj4ntnQaNtsb-LayI5ojdzm19zxnIYw6kBZEFosFGk0JqeChV88mlZsyf7s-XeMNBYUcLU2H0="
+    },
+    {
+      "label": "yeggi",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEupk4bgvSBoYgtSNj_SB2qehcTrnp3hjw1ujJ9oTbj1_CJHYUisN1iL9Ug2xKlLzkxZXl3xYbiY9Q6nuAPVej3KTKPHxbKkaeIMkCc6EuhPTVK2oZPr-pN1JtVREtHa9j5jPjysQ=="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A"
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A"
+    },
+    {
+      "label": "yeggi",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEupk4bgvSBoYgtSNj_SB2qehcTrnp3hjw1ujJ9oTbj1_CJHYUisN1iL9Ug2xKlLzkxZXl3xYbiY9Q6nuAPVej3KTKPHxbKkaeIMkCc6EuhPTVK2oZPr-pN1JtVREtHa9j5jPjysQ=="
+    },
+    {
+      "label": "yeggi",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnfiZwg80icwOKxTDzjFrb4bTlheMNHnZt8rmcF24S-kfYbEc6SZEnf8Sfg8Qb9aH159yNIcxXd48FmVozimIF-sX4DyfepaKg9R_jm522K-bGQnRmPJervYoSWRPkjnMR-bQ="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhzjS9mLk4toLSOGO7eoCQpt2y0FZSIza4jzkyxq0UDPlOMnvy-sZGMKIp_XceiBV8aoxM-DjA8K9orn_9eahNniEEUUv_qTP5OeKoHAN1rtpYC6gnZdCDvJw_9c8H5MyRqIjGxCC_r5SWi57HyUFzwcxThAmaOAmCkN4sfXM7vSj36B2DuA=="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A"
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A"
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtd6yOU_MdrJA6yPZCGwGFIaKgINQ88f04hGa8Qx2wGsBPCMXBZdFPyYq0ewU7oYg_P0AFI1Xizn7Aox84awEIej7CKQgpBOvGianowW1bQpqWQKfk_ZCdIeZCjyyLKKuAAGzotZ4nLtubVhNqeyABevnD94ic9gK13TKKNHe9xrSTWnGEFRMERRSZx6o="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A"
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A"
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "fanuc",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnG2F70jMsit_pNjZOMNutKx_7bvc03leh-k60cPe97xFoKSYSfDW-UOZEBZX6DLKw5q92_-V3l8676ZsEKGM2Fi_qB5eJNktZi1wlXW6eQF76G4TiLWBESwjiJGDwC2RImDHhySWEoPE="
+    },
+    {
+      "label": "fanuc",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnG2F70jMsit_pNjZOMNutKx_7bvc03leh-k60cPe97xFoKSYSfDW-UOZEBZX6DLKw5q92_-V3l8676ZsEKGM2Fi_qB5eJNktZi1wlXW6eQF76G4TiLWBESwjiJGDwC2RImDHhySWEoPE="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsPZagWKyhYE1cqjV1Ro0n_XW2GEFcUlH5GwNgmhNks-VP4bAKRO_N7coev8RrdOPOdi-EZUEXgpQa1kacxqSFEX29xdAeRU9Sbu8htZ8GZJp94MT1bBD65mJHe18DoYXKvrDNBVyRkV0KhGln7tNtbWQn87RSLEvHcvQF_jGLC5pJse2L4fIjZ1Cq0QC29yzUInLZDRyznE8AKMoC75CMN3_dM-bzFQY3hW7g_0AEEenpaZf51l4zecxWDtwudyd5"
+    },
+    {
+      "label": "oireachtas",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh"
+    },
+    {
+      "label": "oireachtas",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh"
+    },
+    {
+      "label": "aztechconvertingsystems",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwxlOIyWuIIqToxM-Mus1N6KbIRuHwa0dOfsseg6UH9MtaGsilLrmf5YTCtyC3EpQbAeu9t6pc9VxQTfb4O-nUYeEBhdiFb3eMS606KBJOXBewbGoZCt6U2ZFtbaIU95gfIGrEf8o6HeOZPnHeRXKvDfV8dKX9cZ53r0tEVq7m6qVECLfYo9be63ypHULVsdpWJPH7UoOO9Q14OQzKH9533A=="
+    },
+    {
+      "label": "spektrumrc",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw4HDXAogudqPu9wYYaHWUnq8GSeJTHlFbuXFfxq32JNwEuUMY1Lrlqg-DjVQVXB1pvmCkaFZkbH5kiWzqPt30O63LmijN79NYg5MZzEEHvt1aClyLAbdeFV11l0tluw706IfltqA_wAS1idT1-Z8zdKxos7vmn4wFg8XXeuNkr1S-AEa3-ToBIq5MXEsWODUeiVT534h-VseXl3Q3wzrdRaS9BqJXTnXo8o7Voq2Dw0IfQ5mY"
+    },
+    {
+      "label": "oireachtas",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh"
+    },
+    {
+      "label": "st",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnlVAOh5iMOwBRzM40cOxgXrJeY8q42mOYofk4WjL41NNgL-7Z1nJQPHFPpPUkZXIp_oOEQJToT7ZmeYZAFKEjT8uVyJAZEke0JFJpG5jYp6lX-Ge2TwB7cHA7wmcVT_Fm6ac="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh"
+    },
+    {
+      "label": "oireachtas",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh"
+    },
+    {
+      "label": "jazz",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe-4bLIrQXUSgUhdCup6s-zw51LunRJQacTvW23GvT8LkwOxcEA4K1X6hp6rNRrb6YE7mWU5zQKMDeMuEQB8xZTf-pa68cvQmw22LXIUPortQPtrTfP85aeFiVSs5W8vw="
+    },
+    {
+      "label": "jazz",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe-4bLIrQXUSgUhdCup6s-zw51LunRJQacTvW23GvT8LkwOxcEA4K1X6hp6rNRrb6YE7mWU5zQKMDeMuEQB8xZTf-pa68cvQmw22LXIUPortQPtrTfP85aeFiVSs5W8vw="
+    },
+    {
+      "label": "jazz",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe-4bLIrQXUSgUhdCup6s-zw51LunRJQacTvW23GvT8LkwOxcEA4K1X6hp6rNRrb6YE7mWU5zQKMDeMuEQB8xZTf-pa68cvQmw22LXIUPortQPtrTfP85aeFiVSs5W8vw="
+    },
+    {
+      "label": "ibm",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeIZwPMSEXxNd21ZNiqErzB2qcuKB2RuPsL_gzbgLm8IqsKeu50SaClzpTCrGvC2JAQS0koWw6tjmcydSIjMPnEARFFp9L1OkakkCd6pdj0rFAMXLeZ4Hz_QBG59yjimZizKB_SheTYdoldI4JJKUKo3wW6Rupzi0eELoP8dTJXFy8yaQCo0d76x17Q_EJENpp9qx7th2uQnhWyA=="
+    },
+    {
+      "label": "ibm",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeIZwPMSEXxNd21ZNiqErzB2qcuKB2RuPsL_gzbgLm8IqsKeu50SaClzpTCrGvC2JAQS0koWw6tjmcydSIjMPnEARFFp9L1OkakkCd6pdj0rFAMXLeZ4Hz_QBG59yjimZizKB_SheTYdoldI4JJKUKo3wW6Rupzi0eELoP8dTJXFy8yaQCo0d76x17Q_EJENpp9qx7th2uQnhWyA=="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI77iZGN0UpbEfUxTg62O8itguQDfYkHZffT8En6PCHukIEa-61xDo_AobB91QKxlZaaug1gdl7hTk1SrfW_ubP2zQ-8PDSz4SO_6-FkLTVooFA1e-FzB_gwOIsmYonooQ_qgDqENVWfFgQMBDxCeY"
+    },
+    {
+      "label": "oireachtas",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVT--FvyYn2NMa7AXWfFIGDGfMy_FyE3wprGCfcVcduzapJ0W_wlX6FjHs2XmUbtHg27fUoOAbJ_xEOiMZKoUvUeO6ZqBooRg3bTZ-u7sRFDz6nDdudDQ4XXX2yHeMs_2aNcJjbzWKKuBA6nIW_GWLPs10m338bYjX"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg74v3wyRVl2yJ0lbnrEyLMXUfjG0MNRTkqx2PQjw8283CHSVAmj_hmFWskJ1uq2yzWUwG-rJ5o8A7sM5WBS6LXZ9M--h_l0NWAVbS6XMAsdDPkjpXlblwOiiNT9ljIhMt3A16OsTQTcNYF6e4CjmM99uIur6Pn9O49qRpyJg8AcWdcPmTxE5b8IusWL2rRynATlQNj3QXICkh"
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Lt8er6FyTAh9KNUoKLTOIihScJnkc9WM-bqL8x39AVEayciNsciKqtCuMqQ7mVTGm3xAxyoEHUPzpH4hMBPvCAVEkzYc0wHLZx8bVo9fBEEyqn1TCsYW1S68MkrLz29MfTM="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYQAz1TAuaDMwqVS3Gkpq73U-4lLJ6HCdk50KmdWGlvfsIa8yaIYK6gC80QqdITHv_JWiE9ZHXPsP54KXy2tg1MJ1zUZdFnAa2LV3IXsKO1o1u9W_bqYNXJmVyCP58mCM3Wan7vYdx503MVBT_-tDYKMjIQh13cn1Lgv0NjaGCeYffRgM="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH713akseAAfVI-dWeZKVb3m52S4Unm_7eHnDz4eXv5n34KfRsT2dOs6kr4MuoYwEJBcDDsiOrONDaTyVirs4JfblXkTYzjjtm5F3iTB65K6OUzEMjzrFrsIuEuf5a-i5FHZ72_xYuyx09mfpRFAMeHbnSejfY4PwqLuDz7Th-PZ7UbDA=="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwbmudMBxyn2SdFf9K6BVKbkwGMfQ0PPxaI_ZefRdkH7pkNXcqJuUKhjsU5yga4dVgpbJcPC1ZAPF8xmJ6vDXGqnqpY0dRQn36yx-lpTs51ixS0RpvlLAwvzag__hMaf6T8Tb4YhAcU6HKpF-L-idZPj8YQW3lQES-z5LHNSpmWCIQTbtEaDjfgOCZnhE="
+    },
+    {
+      "label": "osr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESab8CZ5C1453PPWQz_4ktdhCREXE-gN2yW72RRBg5gG1xngjpY0Ff3ByrbbOHXL2bGZjA6kcYdJgeiyEN4-99_JO4JJih0eNmTsNCQC5wJ_D6EQdQ0woANL0QDVMSSU3_hRc="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhzjS9mLk4toLSOGO7eoCQpt2y0FZSIza4jzkyxq0UDPlOMnvy-sZGMKIp_XceiBV8aoxM-DjA8K9orn_9eahNniEEUUv_qTP5OeKoHAN1rtpYC6gnZdCDvJw_9c8H5MyRqIjGxCC_r5SWi57HyUFzwcxThAmaOAmCkN4sfXM7vSj36B2DuA=="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy-EX1IyB0hC9JWsWJ1dBPGT0kDX0ubskxG7xXSXBDOOEJTmhInCpIcsXIx_Gj66USiW_bUJi5791x-093N4FqDW2cP0Oiobobinh-np25yWDB18jbQ3sCm0aYMJUsrWSGf2sG0kMGvLhR_9weqaHXFUj20S8A"
+    },
+    {
+      "label": "yeggi",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEupk4bgvSBoYgtSNj_SB2qehcTrnp3hjw1ujJ9oTbj1_CJHYUisN1iL9Ug2xKlLzkxZXl3xYbiY9Q6nuAPVej3KTKPHxbKkaeIMkCc6EuhPTVK2oZPr-pN1JtVREtHa9j5jPjysQ=="
+    },
+    {
+      "label": "yeggi",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnfiZwg80icwOKxTDzjFrb4bTlheMNHnZt8rmcF24S-kfYbEc6SZEnf8Sfg8Qb9aH159yNIcxXd48FmVozimIF-sX4DyfepaKg9R_jm522K-bGQnRmPJervYoSWRPkjnMR-bQ="
+    },
+    {
+      "label": "eroscripts",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCt65BfXIwkdt_lmFFVIh5134S5EPH3pTAw89F4LM8j7FTmA4B2mSg4EemTDCvZi3Jiwr62y7hqEG8Qy1j0zUlxVY2Y-2bATQPjZF-T_Iwuu2-qRlcN8FIOlq7MPfWExukcJ4qpcHZxIp1HA2StqU="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

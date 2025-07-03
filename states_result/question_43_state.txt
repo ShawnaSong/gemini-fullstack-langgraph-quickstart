@@ -1,0 +1,1275 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-18 15:11:13
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: Какие релизы выпустил anthropic за последние полгода
+
+[AI]: Over the last six months (approximately December 2024 - June 2025), Anthropic has released several key updates and new models, with a strong focus on coding, AI agents, and responsible AI.
+
+**Model Releases and Updates:**
+
+*   **Claude Opus 4 and Claude Sonnet 4 (May 22, 2025):** Anthropic launched Claude Opus 4 and Claude Sonnet 4, highlighting advancements in coding, long-context reasoning, and AI agent capabilities [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==). Opus 4 is described as the "best coding model in the world" and excels at problem-solving [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==). Sonnet 4 balances performance and efficiency and is a significant upgrade from Sonnet 3.7. GitHub reported 9% better results using 30% fewer tokens with Opus 4 [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==).
+*   **Claude Sonnet 4 (June 1, 2025):** Offers 40% faster inference speed compared to Opus 4, an 18% precision increase for instruction-based tasks, native integration into VS Code and JetBrains IDEs, and cost-optimized pricing.
+*   **Claude Code (May 22, 2025):** Claude Code, an agentic coding tool, became generally available [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2D1F8Jh-gfVf4taSb4AoTxNBEnBm7lDI6714_k_4Y6_xYWlu3v4ggkgSlRFzuB2BSCZ3cgRKokWLFjAN4Of7rIVQkK5Ir8AvwPqfeyxYRF8LQlMWjIaC5WkGGbotVg274BbpN0tLFzuBDqykiRkf13kI=) [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==). It supports background tasks via GitHub Actions and native integrations with VS Code and JetBrains [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==). A new Claude Code SDK was released for developers to build their own agents and applications [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==).
+*   **Claude 4 (Launched):** Claude 4 is officially launched [claudeaihub](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U).
+
+**Key Features and Capabilities Introduced/Enhanced:**
+
+*   **Tool Use:** Both Claude Opus 4 and Sonnet 4 can use tools like web search during extended thinking, allowing them to alternate between reasoning and tool use to improve responses. They can also use tools in parallel [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==) [xpert](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgE9X6TEXWIWfp8ZDk5OEFpSdqKHmdEIu6fNKz4edyv9YmoHR_L5f_OiBEQKyYNVM8K5EcS0OsT8bFa0TsvqZKqyuiDw16rHaFB4u_AX6j8XCrXmfZAXbBzTKYMa6Ev7KqtsZV47rKfJfL4H2uFiaogrTLepTk2A==) [sdtimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb).
+*   **Memory:** When given access to local files, Claude Opus 4 can create and maintain 'memory files' to store key information [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==).
+*   **Code Execution Tool (May 22, 2025):** The Anthropic API added a code execution tool, enabling Claude to run Python code in a sandboxed environment for data analysis and visualizations [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX).
+*   **MCP Connector (May 22, 2025):** The Anthropic API added the MCP connector, which connects Claude to remote MCP servers without client code.
+*   **Files API (May 22, 2025):** The Anthropic API added the Files API, which simplifies document storage and access for AI applications [futurepedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==).
+*   **Extended Prompt Caching (May 22, 2025):** The Anthropic API added the ability to cache prompts for up to one hour [sdtimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==) [futurepedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==).
+*   **Research and Integrations (June 3, 2025):** Anthropic made the Research and Integrations features available to Claude Pro subscribers [zdnet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v). The Research feature allows Claude to search hundreds of sources to generate comprehensive reports with citations [zdnet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v). The Integrations feature allows developers to build MCP-compliant applications leveraging Claude's assistance [zdnet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v).
+*   **Parallel Tool Version (June 1, 2025):** Simultaneous use of web search, code interpreter, and file access.
+*   **Model Context Protocol (June 1, 2025):** Standardized AI-to-KI communication for agent-based workflows.
+*   **Files API (June 1, 2025):** Persistent data storage across sessions.
+
+**Other Notable Developments:**
+
+*   **Claude Gov Models (June 6, 2025):** Custom AI models for U.S. national security applications [futurepedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==). These models are tailored for U.S. national security needs, incorporating government feedback to meet stringent requirements for intelligence and operational support [opentools](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==) [perplexity](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR) [wandb](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2) [zdnet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z). They are designed to handle and analyze classified information securely, providing valuable insights for strategic planning and operational support [opentools](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==). Claude Gov models are authorized for FedRAMP High workloads through Google Cloud's Vertex AI and Amazon Bedrock in AWS GovCloud (US) regions [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC). Claude models are approved for use in DoD Impact Level 4 and 5 workloads through Amazon Bedrock in AWS GovCloud (US) regions [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU).
+*   **Partnership with Northeastern University (April 2, 2025):** Anthropic partnered with Northeastern University to co-design and develop a roadmap for the future of higher education.
+*   **Multi-Agent Approach (June 14, 2025):** Anthropic shared the design for its new research agent, which uses a multi-agent approach for complex searches [the-decoder](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==0).
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 2
+Sources gathered: 138
+Web research results: 2
+
+SEARCH QUERIES USED
+----------------------------------------
+1. Anthropic product releases last 6 months
+2. What are the specific security certifications and compliance standards achieved by Anthropic's Claude Gov models to ensure suitability for U.S. national security applications?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "Anthropic product releases last 6 months" and synthesize it into a verifiable text artifact.
+
+Here's a summary of Anthropic's product releases and updates in the last six months (approximately December 2024 - June 2025), based on the provided search results:
+
+**Model Releases and Updates:**
+
+*   **Claude Opus 4 and Claude Sonnet 4 (May 22, 2025):** Anthropic launched Claude Opus 4 and Claude Sonnet 4, highlighting advancements in coding, long-context reasoning, and AI agent capabilities. [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0) [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) Opus 4 is described as the "best coding model in the world" and excels at problem-solving. [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0) Sonnet 4 balances performance and efficiency and is a significant upgrade from Sonnet 3.7. GitHub reported 9% better results using 30% fewer tokens with Opus 4. [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0)
+*   **Claude Sonnet 4 (June 1, 2025):** Offers 40% faster inference speed compared to Opus 4, an 18% precision increase for instruction-based tasks, native integration into VS Code and JetBrains IDEs, and cost-optimized pricing.
+*   **Claude Code (May 22, 2025):** Claude Code, an agentic coding tool, became generally available. [anthropic](https://vertexaisearch.cloud.google.com/id/0-2) [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0) [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) It supports background tasks via GitHub Actions and native integrations with VS Code and JetBrains. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) A new Claude Code SDK was released for developers to build their own agents and applications. [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0)
+*   **Claude 4 (Launched):** Claude 4 is officially launched. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3)
+
+**Key Features and Capabilities Introduced/Enhanced:**
+
+*   **Tool Use:** Both Claude Opus 4 and Sonnet 4 can use tools like web search during extended thinking, allowing them to alternate between reasoning and tool use to improve responses. They can also use tools in parallel. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) [xpert](https://vertexaisearch.cloud.google.com/id/0-4) [sdtimes](https://vertexaisearch.cloud.google.com/id/0-5)
+*   **Memory:** When given access to local files, Claude Opus 4 can create and maintain 'memory files' to store key information. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1)
+*   **Code Execution Tool (May 22, 2025):** The Anthropic API added a code execution tool, enabling Claude to run Python code in a sandboxed environment for data analysis and visualizations. [anthropic](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **MCP Connector (May 22, 2025):** The Anthropic API added the MCP connector, which connects Claude to remote MCP servers without client code.
+*   **Files API (May 22, 2025):** The Anthropic API added the Files API, which simplifies document storage and access for AI applications. [futurepedia](https://vertexaisearch.cloud.google.com/id/0-7)
+*   **Extended Prompt Caching (May 22, 2025):** The Anthropic API added the ability to cache prompts for up to one hour. [sdtimes](https://vertexaisearch.cloud.google.com/id/0-5) [anthropic](https://vertexaisearch.cloud.google.com/id/0-6) [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) [futurepedia](https://vertexaisearch.cloud.google.com/id/0-7)
+*   **Research and Integrations (June 3, 2025):** Anthropic made the Research and Integrations features available to Claude Pro subscribers. [zdnet](https://vertexaisearch.cloud.google.com/id/0-8) The Research feature allows Claude to search hundreds of sources to generate comprehensive reports with citations. [zdnet](https://vertexaisearch.cloud.google.com/id/0-8) The Integrations feature allows developers to build MCP-compliant applications leveraging Claude's assistance. [zdnet](https://vertexaisearch.cloud.google.com/id/0-8)
+*   **Parallel Tool Version (June 1, 2025):** Simultaneous use of web search, code interpreter, and file access.
+*    **Model Context Protocol (June 1, 2025):** Standardized AI-to-KI communication for agent-based workflows.
+*   **Files API (June 1, 2025):** Persistent data storage across sessions.
+
+**Focus Areas:**
+
+*   **Coding:** Anthropic is emphasizing coding capabilities with Claude Opus 4 and Sonnet 4, as well as Claude Code. [anthropic](https://vertexaisearch.cloud.google.com/id/0-9) [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0)
+*   **AI Agents:** Anthropic is providing tools and capabilities for developers to build more powerful AI agents. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) [anthropic](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Responsible AI:** Anthropic continues to prioritize ethical AI development and safety.
+
+**Other Notable Developments:**
+
+*   **Claude Gov Models (June 6, 2025):** Custom AI models for U.S. national security applications. [futurepedia](https://vertexaisearch.cloud.google.com/id/0-7)
+*   **Partnership with Northeastern University (April 2, 2025):** Anthropic partnered with Northeastern University to co-design and develop a roadmap for the future of higher education.
+*   **Multi-Agent Approach (June 14, 2025):** Anthropic shared the design for its new research agent, which uses a multi-agent approach for complex searches. [the-decoder](https://vertexaisearch.cloud.google.com/id/0-10)
+
+**Future Expectations (Claude 4):**
+
+*   Enhanced multimodal capabilities. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3) [xpert](https://vertexaisearch.cloud.google.com/id/0-4) [anthropic](https://vertexaisearch.cloud.google.com/id/0-1)
+*   Deeper ethical integration. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3)
+*   Improved performance and efficiency. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3) [ultralytics](https://vertexaisearch.cloud.google.com/id/0-11) [issarice](https://vertexaisearch.cloud.google.com/id/0-12)
+*   Expanded language support. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3)
+*   Advanced learning algorithms. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3)
+
+
+--- Research Result 2 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on the security certifications and compliance standards achieved by Anthropic's Claude Gov models to ensure suitability for U.S. national security applications. I will synthesize the information into a verifiable text artifact, ensuring to track the source(s) for each piece of information.
+
+Anthropic's Claude Gov models are specifically designed for U.S. national security applications and have achieved several security certifications and compliance standards to ensure their suitability for sensitive government use. Here's a breakdown of the key points:
+
+**1. Design and Purpose:**
+
+*   Claude Gov models are tailored for U.S. national security needs, incorporating government feedback to meet stringent requirements for intelligence and operational support. [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) [wandb](https://vertexaisearch.cloud.google.com/id/1-2) [zdnet](https://vertexaisearch.cloud.google.com/id/1-3) \[2]
+*   They are designed to handle and analyze classified information securely, providing valuable insights for strategic planning and operational support. [opentools](https://vertexaisearch.cloud.google.com/id/1-0) \[2]
+*   These models are already deployed in classified environments. [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) [villpress](https://vertexaisearch.cloud.google.com/id/1-4) [wandb](https://vertexaisearch.cloud.google.com/id/1-2) [maginative](https://vertexaisearch.cloud.google.com/id/1-5) [zdnet](https://vertexaisearch.cloud.google.com/id/1-3) \[11, 14, 17, 18] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+*   Claude Gov is designed to address the unique challenges faced by US national security companies to help them solve real-world operational needs. [theaireport](https://vertexaisearch.cloud.google.com/id/1-10) [villpress](https://vertexaisearch.cloud.google.com/id/1-4) [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) \[9] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+
+**2. Security Measures and Certifications:**
+
+*   **Rigorous Security Testing:** Claude Gov models undergo the same rigorous security tests as all other Claude models, including comprehensive evaluations of model performance, security analyses, and ethical reviews. \[1, 18] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+*   **FedRAMP High:** Claude models are authorized for FedRAMP High workloads through Google Cloud's Vertex AI and Amazon Bedrock in AWS GovCloud (US) regions. [anthropic](https://vertexaisearch.cloud.google.com/id/1-9) \[3, 4, 5, 6, 7] FedRAMP High is a federal authorization standard that defines rigorous security benchmarks for cloud service providers handling the government's most sensitive, unclassified data. [hathr](https://vertexaisearch.cloud.google.com/id/1-11) \[15] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+*   **DoD Impact Levels 4 and 5 (IL4/5):** Claude models are approved for use in DoD Impact Level 4 and 5 workloads through Amazon Bedrock in AWS GovCloud (US) regions. [anthropic](https://vertexaisearch.cloud.google.com/id/1-9) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) \[3, 4, 5, 10] Clearing these impact levels means data can be used with controlled unclassified information and national security systems. [fedscoop](https://vertexaisearch.cloud.google.com/id/1-12) \[3]
+*   **ISO 42001 Certification:** Anthropic achieved ISO 42001 certification for responsible AI. \[20] [anthropic](https://vertexaisearch.cloud.google.com/id/1-13)
+*   **Secure Cloud Infrastructure:** The models are implemented via secure cloud infrastructures specially developed for government applications, including the use of Amazon Web Services' FedRAMP-certified platforms. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) \[1]
+*   **Palantir FedStart:** Anthropic leverages Palantir's FedStart offering to make Claude available to the government sector at FedRAMP High and DoD Impact Level 5 (IL5) security standards. [bigdatawire](https://vertexaisearch.cloud.google.com/id/1-15) \[8] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+*   **HIPAA and NIST 800-171:** Hathr AI, powered by Anthropic's Claude AI, is built within an AWS GovCloud (FedRAMP High) environment and adheres to HIPAA and NIST 800-171 standards. \[15] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+
+**3. Specific Capabilities for National Security:**
+
+*   **Handling Classified Information:** Claude Gov models are calibrated to process sensitive data and less often refuse to process classified information. [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) [wandb](https://vertexaisearch.cloud.google.com/id/1-2) [maginative](https://vertexaisearch.cloud.google.com/id/1-5) \[1, 2, 14, 19] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+*   **Language Skills:** They include expanded language skills in languages and dialects critical for national security. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) [villpress](https://vertexaisearch.cloud.google.com/id/1-4) [turtlesai](https://vertexaisearch.cloud.google.com/id/1-16) \[1, 11, 14, 16, 18] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+*   **Cybersecurity Data Interpretation:** Claude Gov offers advanced capabilities in interpreting complex cybersecurity data. [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) [villpress](https://vertexaisearch.cloud.google.com/id/1-4) [zdnet](https://vertexaisearch.cloud.google.com/id/1-3) \[2, 11, 14, 16, 18] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+
+**4. Access and Deployment:**
+
+*   Access to Claude Gov models is strictly limited to people who operate in classified environments with the highest level of confidentiality. \[1] [xpert](https://vertexaisearch.cloud.google.com/id/1-14)
+*   The systems are designed to function in isolated network environments that meet the strict safety requirements of classified facilities. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) \[1]
+
+**5. Ethical Considerations:**
+
+*   Anthropic has developed specific usage guidelines to prevent the use of technology for harmful purposes, including restrictions on monitoring civilians or other activities that could violate civil rights. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) \[1]
+*   They have also created exceptions to their general usage guidelines that are carefully calibrated to enable lawful applications by selected government agencies. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) \[1, 13, 14] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)
+
+In summary, Anthropic's Claude Gov models are designed with specific security certifications and compliance standards, including FedRAMP High and DoD Impact Levels 4 and 5, to ensure their suitability for U.S. national security applications. These models are deployed in secure environments with strict access controls and are continuously tested and evaluated to maintain the highest levels of security and ethical standards.
+
+
+SOURCES GATHERED
+----------------------------------------
+1. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==
+
+2. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+3. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==
+
+4. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==
+
+5. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2D1F8Jh-gfVf4taSb4AoTxNBEnBm7lDI6714_k_4Y6_xYWlu3v4ggkgSlRFzuB2BSCZ3cgRKokWLFjAN4Of7rIVQkK5Ir8AvwPqfeyxYRF8LQlMWjIaC5WkGGbotVg274BbpN0tLFzuBDqykiRkf13kI=
+
+6. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==
+
+7. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+8. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+9. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==
+
+10. claudeaihub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U
+
+11. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+12. xpert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgE9X6TEXWIWfp8ZDk5OEFpSdqKHmdEIu6fNKz4edyv9YmoHR_L5f_OiBEQKyYNVM8K5EcS0OsT8bFa0TsvqZKqyuiDw16rHaFB4u_AX6j8XCrXmfZAXbBzTKYMa6Ev7KqtsZV47rKfJfL4H2uFiaogrTLepTk2A==
+
+13. sdtimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb
+
+14. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+15. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX
+
+16. futurepedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==
+
+17. sdtimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb
+
+18. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX
+
+19. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+20. futurepedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==
+
+21. zdnet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v
+
+22. zdnet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v
+
+23. zdnet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v
+
+24. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZJlf3ulUdIL1ICnbNcIbnq2cKBrvnY1EVgq2785pUbr8aOm9pp726Sle-Xm7-vQUvilG5CGh6LwL5d5Lxplncgxzuhxz-hrKrjX2Foi-dTb04g56x
+
+25. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==
+
+26. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+27. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX
+
+28. futurepedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==
+
+29. the-decoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJMkh_5C50BrtzZfyyIeBwQ5OjlR5dyecah197O-ZdmVDKoao35nq7eA_H8HdcqxaWsr-YGP-m0KT0W3IyoSYe6-1zdbs4Em7BCtl9rjJ-ouAgBsH8SNj7VZz2FPN9fdmQGp-oc64pveoqoXS5IDZ5xbiubPcr2uLFEz7NX5yotHFfYLFCZ-Zj8bTj4j4vBayuDns68GBmX0NoJmU9-Mv7diJVusP0qPGNaWLRg==
+
+30. claudeaihub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U
+
+31. xpert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgE9X6TEXWIWfp8ZDk5OEFpSdqKHmdEIu6fNKz4edyv9YmoHR_L5f_OiBEQKyYNVM8K5EcS0OsT8bFa0TsvqZKqyuiDw16rHaFB4u_AX6j8XCrXmfZAXbBzTKYMa6Ev7KqtsZV47rKfJfL4H2uFiaogrTLepTk2A==
+
+32. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+33. claudeaihub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U
+
+34. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+35. claudeaihub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U
+
+36. ultralytics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXFLHDQLelqvN3cEntMZi7bW1NKCgvnl4ytpFXaybbZHmtW1ydHVXx-MKdN9Bs3lqqkePelU1hY9T7mh_An0XdeyBI0imJCb-ozMqN2cKuKyPDeR7OKauGf_2uZdT25YGoUOuZZW0nutB8gz24Y-oedVZhXXK0N4eOJ8y5raH-nN_SxQBlyVkOeB2o9Z91Fg==
+
+37. issarice
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFPIkAOEYzulGpu6amj40s_IvK9Xiwk1aC6Jxx52x1GVayZFeZkXFTyeFoWxOoT0Lg5qeQGRugoL9US8EHb-KXWSZR3eOl_EtBC5h6o28ngfjlxETIFMlFkdkOLm42apMzH-ItGMTBZ_4ClAiG5hyQJoYbOA==
+
+38. claudeaihub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U
+
+39. claudeaihub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U
+
+40. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+41. perplexity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR
+
+42. wandb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2
+
+43. zdnet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z
+
+44. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+45. perplexity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR
+
+46. villpress
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Oc7ozjI-1YEPIPtMvQlfrwx6oKVKGn6b7y9OI5U_EgZmE1_KEcXzNsH7ybj-ATQPf3p0QjGEhXcgNiBki_43PhA57QbMCuy9PdzVR8BlpqmmbADDa0NPtTTJPW4PyM1c8s2wH_OWBQ-i_wY3EHPLEijtWgCHGhYjIA==
+
+47. wandb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2
+
+48. maginative
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPhOr4pUPcOoQl4FEqlP4qXoU_tAJBPhvWbmvlTlc4F07iv-D6E-4oPluuMiOGR-f2581Cc7do3RGTiQO5AVX8DemLhsq8-1vfyM_hM_Nsul0J3aTuOWKMzRmeN9j44JKt4ys5Ho3hRjsDvCvE5bNbdHQMyaa93O1hYBM0xm9Nk9Tj_uAcUu0PppCKXTscwaujGMlIly4T36zhElhYGxsWHusDQ5-MlTMKXlV0
+
+49. zdnet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z
+
+50. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+51. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+52. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+53. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+54. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+55. theaireport
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUtbgNblvKIdlFP9LfcBzsdiLmriLLj38BbCp2eY9Nti-77eRBD942AhVERvmjz-oRs6JywSnxMgcXzq38szn6pzKShr4rysRZm4nS0QMxuHNc8l7Df8Oz1LR_m9lO_6BzyiGzopTQfdNUhzNnNSCeQxc1WWyyccSmVFAKb24lBn4sipBb94b5Qij7bnY_uC8K-hFNzaN7DxsgaZINudqg3XcBHRITXPZm9W6-1YyQ9NZ-GuyQ0xFrflq4DinADsy-ZoIthF7QfuayMjx3vZmTMI0aspIwlnu4DTBkRoMgd20SDeaK6IDXsi2n7d6TErlMRMVNI_yr8uLMOe3c3A7ok8EP0c5oWn4=
+
+56. villpress
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Oc7ozjI-1YEPIPtMvQlfrwx6oKVKGn6b7y9OI5U_EgZmE1_KEcXzNsH7ybj-ATQPf3p0QjGEhXcgNiBki_43PhA57QbMCuy9PdzVR8BlpqmmbADDa0NPtTTJPW4PyM1c8s2wH_OWBQ-i_wY3EHPLEijtWgCHGhYjIA==
+
+57. perplexity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR
+
+58. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+59. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+60. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+61. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+62. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+63. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+64. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+65. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+66. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+67. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+68. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+69. hathr
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8AwADQQ9op8YJoy8sxJ5PnXbutJXGGIEFZ7osD1TpOIvvdTBPFnCvzdAZPaCFfBBE4NzbzKUaK4m0N9y3c542BPOvtybCAlr1IiUCVmMUdOMUCfOHxudhW8RNGfzUazkjRkA=
+
+70. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+71. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+72. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+73. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+74. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+75. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+76. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+77. fedscoop
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4bqyCmN_8XEFkckNgj4D2i6HgpRH6tgtunCOtjy3ExAPN9yOO1fwH5mzOnxkLdC1pOruHrURaqAHcP4A6eZJD4vObzocqUWa6YHOx6uCyQSxNKzO2p2qXF8pqu9K7S7kCUhbwGvsXQJQb-712rh4nMjZ99XM3TwrXPUncQ9xR
+
+78. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETas2pix4GAfWvDar9LeBuCqCu6CGU_I2Hlq-viFgVYwr_g30lDacUMuixPDkhCegAHMaFPDTP99wg9lSJQtD-C5MSuKcEqd7vZMWttdyAoUnik6PbsaxE1FcSbIqqJVgG05YDF4tHxFw5Y4Z3b_FlK8sNdOTLAQ0nhHHWAoAkHs1m9uyg45pn86MkhFZ8UteDPMpCsmMx
+
+79. xpert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2
+
+80. bigdatawire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4uUZ_W0nvqG6MVhD9D_sT5DH83Er6Sho6ubaOtRp8-S-JUeX4EZQLMNvRdHL256jZOc0DJbLUMM6yEDtxxgT20jZsz-iojIu4ZIF1CCoN56nw-6iu0FW_ndqdg8FV1NyIJDFaeTfQlMQSo1ueA7920pfYnFD2gDtiEtwZD5Mpx1CJBC8D-xfqF5W5h5jh5KoyU53ZonLao-ve5KzTlXMvrOdcecKg2uG-ZLUT
+
+81. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+82. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+83. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+84. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+85. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+86. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+87. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+88. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+89. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+90. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+91. perplexity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR
+
+92. wandb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2
+
+93. maginative
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPhOr4pUPcOoQl4FEqlP4qXoU_tAJBPhvWbmvlTlc4F07iv-D6E-4oPluuMiOGR-f2581Cc7do3RGTiQO5AVX8DemLhsq8-1vfyM_hM_Nsul0J3aTuOWKMzRmeN9j44JKt4ys5Ho3hRjsDvCvE5bNbdHQMyaa93O1hYBM0xm9Nk9Tj_uAcUu0PppCKXTscwaujGMlIly4T36zhElhYGxsWHusDQ5-MlTMKXlV0
+
+94. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+95. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+96. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+97. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+98. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+99. xpert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2
+
+100. villpress
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Oc7ozjI-1YEPIPtMvQlfrwx6oKVKGn6b7y9OI5U_EgZmE1_KEcXzNsH7ybj-ATQPf3p0QjGEhXcgNiBki_43PhA57QbMCuy9PdzVR8BlpqmmbADDa0NPtTTJPW4PyM1c8s2wH_OWBQ-i_wY3EHPLEijtWgCHGhYjIA==
+
+101. turtlesai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX-pQ_dMLZJN23fLpiePM3aYo0QsfeG8VBWwZW0wQYoaXrpWJvuhXftx5bTLfK_mm8bPMPnqvImbsaoYmf8RZloGWwLvH8vJ0dtpQDj9xZ7HUaYoq0yvc3dio6sCwt58uQ-nwi8PrL7aLpol3IgIYSAjzB-l8wWycfrEEeAfDZMPTdQaalQQQ77cGGSGvdjrFwBbWH0w==
+
+102. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+103. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+104. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+105. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+106. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+107. perplexity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR
+
+108. villpress
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Oc7ozjI-1YEPIPtMvQlfrwx6oKVKGn6b7y9OI5U_EgZmE1_KEcXzNsH7ybj-ATQPf3p0QjGEhXcgNiBki_43PhA57QbMCuy9PdzVR8BlpqmmbADDa0NPtTTJPW4PyM1c8s2wH_OWBQ-i_wY3EHPLEijtWgCHGhYjIA==
+
+109. zdnet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z
+
+110. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+111. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+112. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+113. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+114. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+115. xpert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2
+
+116. xpert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2
+
+117. xpert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2
+
+118. xpert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2
+
+119. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw==
+
+120. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+121. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw==
+
+122. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+123. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+124. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==
+
+125. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==
+
+126. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2D1F8Jh-gfVf4taSb4AoTxNBEnBm7lDI6714_k_4Y6_xYWlu3v4ggkgSlRFzuB2BSCZ3cgRKokWLFjAN4Of7rIVQkK5Ir8AvwPqfeyxYRF8LQlMWjIaC5WkGGbotVg274BbpN0tLFzuBDqykiRkf13kI=
+
+127. claudeaihub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U
+
+128. xpert
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgE9X6TEXWIWfp8ZDk5OEFpSdqKHmdEIu6fNKz4edyv9YmoHR_L5f_OiBEQKyYNVM8K5EcS0OsT8bFa0TsvqZKqyuiDw16rHaFB4u_AX6j8XCrXmfZAXbBzTKYMa6Ev7KqtsZV47rKfJfL4H2uFiaogrTLepTk2A==
+
+129. sdtimes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb
+
+130. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX
+
+131. futurepedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==
+
+132. zdnet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v
+
+133. opentools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==
+
+134. perplexity
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR
+
+135. wandb
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2
+
+136. zdnet
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z
+
+137. enterpriseaiworld
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU
+
+138. anthropic
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "Какие релизы выпустил anthropic за последние полгода"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "Over the last six months (approximately December 2024 - June 2025), Anthropic has released several key updates and new models, with a strong focus on coding, AI agents, and responsible AI.\n\n**Model Releases and Updates:**\n\n*   **Claude Opus 4 and Claude Sonnet 4 (May 22, 2025):** Anthropic launched Claude Opus 4 and Claude Sonnet 4, highlighting advancements in coding, long-context reasoning, and AI agent capabilities [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==). Opus 4 is described as the \"best coding model in the world\" and excels at problem-solving [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==). Sonnet 4 balances performance and efficiency and is a significant upgrade from Sonnet 3.7. GitHub reported 9% better results using 30% fewer tokens with Opus 4 [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==).\n*   **Claude Sonnet 4 (June 1, 2025):** Offers 40% faster inference speed compared to Opus 4, an 18% precision increase for instruction-based tasks, native integration into VS Code and JetBrains IDEs, and cost-optimized pricing.\n*   **Claude Code (May 22, 2025):** Claude Code, an agentic coding tool, became generally available [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2D1F8Jh-gfVf4taSb4AoTxNBEnBm7lDI6714_k_4Y6_xYWlu3v4ggkgSlRFzuB2BSCZ3cgRKokWLFjAN4Of7rIVQkK5Ir8AvwPqfeyxYRF8LQlMWjIaC5WkGGbotVg274BbpN0tLFzuBDqykiRkf13kI=) [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==). It supports background tasks via GitHub Actions and native integrations with VS Code and JetBrains [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==). A new Claude Code SDK was released for developers to build their own agents and applications [thenewstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg==).\n*   **Claude 4 (Launched):** Claude 4 is officially launched [claudeaihub](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U).\n\n**Key Features and Capabilities Introduced/Enhanced:**\n\n*   **Tool Use:** Both Claude Opus 4 and Sonnet 4 can use tools like web search during extended thinking, allowing them to alternate between reasoning and tool use to improve responses. They can also use tools in parallel [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==) [xpert](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgE9X6TEXWIWfp8ZDk5OEFpSdqKHmdEIu6fNKz4edyv9YmoHR_L5f_OiBEQKyYNVM8K5EcS0OsT8bFa0TsvqZKqyuiDw16rHaFB4u_AX6j8XCrXmfZAXbBzTKYMa6Ev7KqtsZV47rKfJfL4H2uFiaogrTLepTk2A==) [sdtimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb).\n*   **Memory:** When given access to local files, Claude Opus 4 can create and maintain 'memory files' to store key information [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==).\n*   **Code Execution Tool (May 22, 2025):** The Anthropic API added a code execution tool, enabling Claude to run Python code in a sandboxed environment for data analysis and visualizations [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX).\n*   **MCP Connector (May 22, 2025):** The Anthropic API added the MCP connector, which connects Claude to remote MCP servers without client code.\n*   **Files API (May 22, 2025):** The Anthropic API added the Files API, which simplifies document storage and access for AI applications [futurepedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==).\n*   **Extended Prompt Caching (May 22, 2025):** The Anthropic API added the ability to cache prompts for up to one hour [sdtimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX) [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==) [futurepedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==).\n*   **Research and Integrations (June 3, 2025):** Anthropic made the Research and Integrations features available to Claude Pro subscribers [zdnet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v). The Research feature allows Claude to search hundreds of sources to generate comprehensive reports with citations [zdnet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v). The Integrations feature allows developers to build MCP-compliant applications leveraging Claude's assistance [zdnet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v).\n*   **Parallel Tool Version (June 1, 2025):** Simultaneous use of web search, code interpreter, and file access.\n*   **Model Context Protocol (June 1, 2025):** Standardized AI-to-KI communication for agent-based workflows.\n*   **Files API (June 1, 2025):** Persistent data storage across sessions.\n\n**Other Notable Developments:**\n\n*   **Claude Gov Models (June 6, 2025):** Custom AI models for U.S. national security applications [futurepedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA==). These models are tailored for U.S. national security needs, incorporating government feedback to meet stringent requirements for intelligence and operational support [opentools](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==) [perplexity](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR) [wandb](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2) [zdnet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z). They are designed to handle and analyze classified information securely, providing valuable insights for strategic planning and operational support [opentools](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w==). Claude Gov models are authorized for FedRAMP High workloads through Google Cloud's Vertex AI and Amazon Bedrock in AWS GovCloud (US) regions [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC). Claude models are approved for use in DoD Impact Level 4 and 5 workloads through Amazon Bedrock in AWS GovCloud (US) regions [anthropic](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU).\n*   **Partnership with Northeastern University (April 2, 2025):** Anthropic partnered with Northeastern University to co-design and develop a roadmap for the future of higher education.\n*   **Multi-Agent Approach (June 14, 2025):** Anthropic shared the design for its new research agent, which uses a multi-agent approach for complex searches [the-decoder](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw==0)."
+    }
+  ],
+  "search_query": [
+    "Anthropic product releases last 6 months",
+    "What are the specific security certifications and compliance standards achieved by Anthropic's Claude Gov models to ensure suitability for U.S. national security applications?"
+  ],
+  "web_research_result": [
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Anthropic product releases last 6 months\" and synthesize it into a verifiable text artifact.\n\nHere's a summary of Anthropic's product releases and updates in the last six months (approximately December 2024 - June 2025), based on the provided search results:\n\n**Model Releases and Updates:**\n\n*   **Claude Opus 4 and Claude Sonnet 4 (May 22, 2025):** Anthropic launched Claude Opus 4 and Claude Sonnet 4, highlighting advancements in coding, long-context reasoning, and AI agent capabilities. [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0) [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) Opus 4 is described as the \"best coding model in the world\" and excels at problem-solving. [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0) Sonnet 4 balances performance and efficiency and is a significant upgrade from Sonnet 3.7. GitHub reported 9% better results using 30% fewer tokens with Opus 4. [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Claude Sonnet 4 (June 1, 2025):** Offers 40% faster inference speed compared to Opus 4, an 18% precision increase for instruction-based tasks, native integration into VS Code and JetBrains IDEs, and cost-optimized pricing.\n*   **Claude Code (May 22, 2025):** Claude Code, an agentic coding tool, became generally available. [anthropic](https://vertexaisearch.cloud.google.com/id/0-2) [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0) [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) It supports background tasks via GitHub Actions and native integrations with VS Code and JetBrains. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) A new Claude Code SDK was released for developers to build their own agents and applications. [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Claude 4 (Launched):** Claude 4 is officially launched. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3)\n\n**Key Features and Capabilities Introduced/Enhanced:**\n\n*   **Tool Use:** Both Claude Opus 4 and Sonnet 4 can use tools like web search during extended thinking, allowing them to alternate between reasoning and tool use to improve responses. They can also use tools in parallel. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) [xpert](https://vertexaisearch.cloud.google.com/id/0-4) [sdtimes](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **Memory:** When given access to local files, Claude Opus 4 can create and maintain 'memory files' to store key information. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Code Execution Tool (May 22, 2025):** The Anthropic API added a code execution tool, enabling Claude to run Python code in a sandboxed environment for data analysis and visualizations. [anthropic](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **MCP Connector (May 22, 2025):** The Anthropic API added the MCP connector, which connects Claude to remote MCP servers without client code.\n*   **Files API (May 22, 2025):** The Anthropic API added the Files API, which simplifies document storage and access for AI applications. [futurepedia](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Extended Prompt Caching (May 22, 2025):** The Anthropic API added the ability to cache prompts for up to one hour. [sdtimes](https://vertexaisearch.cloud.google.com/id/0-5) [anthropic](https://vertexaisearch.cloud.google.com/id/0-6) [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) [futurepedia](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Research and Integrations (June 3, 2025):** Anthropic made the Research and Integrations features available to Claude Pro subscribers. [zdnet](https://vertexaisearch.cloud.google.com/id/0-8) The Research feature allows Claude to search hundreds of sources to generate comprehensive reports with citations. [zdnet](https://vertexaisearch.cloud.google.com/id/0-8) The Integrations feature allows developers to build MCP-compliant applications leveraging Claude's assistance. [zdnet](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **Parallel Tool Version (June 1, 2025):** Simultaneous use of web search, code interpreter, and file access.\n*    **Model Context Protocol (June 1, 2025):** Standardized AI-to-KI communication for agent-based workflows.\n*   **Files API (June 1, 2025):** Persistent data storage across sessions.\n\n**Focus Areas:**\n\n*   **Coding:** Anthropic is emphasizing coding capabilities with Claude Opus 4 and Sonnet 4, as well as Claude Code. [anthropic](https://vertexaisearch.cloud.google.com/id/0-9) [thenewstack](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **AI Agents:** Anthropic is providing tools and capabilities for developers to build more powerful AI agents. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) [anthropic](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Responsible AI:** Anthropic continues to prioritize ethical AI development and safety.\n\n**Other Notable Developments:**\n\n*   **Claude Gov Models (June 6, 2025):** Custom AI models for U.S. national security applications. [futurepedia](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Partnership with Northeastern University (April 2, 2025):** Anthropic partnered with Northeastern University to co-design and develop a roadmap for the future of higher education.\n*   **Multi-Agent Approach (June 14, 2025):** Anthropic shared the design for its new research agent, which uses a multi-agent approach for complex searches. [the-decoder](https://vertexaisearch.cloud.google.com/id/0-10)\n\n**Future Expectations (Claude 4):**\n\n*   Enhanced multimodal capabilities. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3) [xpert](https://vertexaisearch.cloud.google.com/id/0-4) [anthropic](https://vertexaisearch.cloud.google.com/id/0-1)\n*   Deeper ethical integration. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3)\n*   Improved performance and efficiency. [anthropic](https://vertexaisearch.cloud.google.com/id/0-1) [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3) [ultralytics](https://vertexaisearch.cloud.google.com/id/0-11) [issarice](https://vertexaisearch.cloud.google.com/id/0-12)\n*   Expanded language support. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3)\n*   Advanced learning algorithms. [claudeaihub](https://vertexaisearch.cloud.google.com/id/0-3)\n",
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on the security certifications and compliance standards achieved by Anthropic's Claude Gov models to ensure suitability for U.S. national security applications. I will synthesize the information into a verifiable text artifact, ensuring to track the source(s) for each piece of information.\n\nAnthropic's Claude Gov models are specifically designed for U.S. national security applications and have achieved several security certifications and compliance standards to ensure their suitability for sensitive government use. Here's a breakdown of the key points:\n\n**1. Design and Purpose:**\n\n*   Claude Gov models are tailored for U.S. national security needs, incorporating government feedback to meet stringent requirements for intelligence and operational support. [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) [wandb](https://vertexaisearch.cloud.google.com/id/1-2) [zdnet](https://vertexaisearch.cloud.google.com/id/1-3) \\[2]\n*   They are designed to handle and analyze classified information securely, providing valuable insights for strategic planning and operational support. [opentools](https://vertexaisearch.cloud.google.com/id/1-0) \\[2]\n*   These models are already deployed in classified environments. [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) [villpress](https://vertexaisearch.cloud.google.com/id/1-4) [wandb](https://vertexaisearch.cloud.google.com/id/1-2) [maginative](https://vertexaisearch.cloud.google.com/id/1-5) [zdnet](https://vertexaisearch.cloud.google.com/id/1-3) \\[11, 14, 17, 18] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n*   Claude Gov is designed to address the unique challenges faced by US national security companies to help them solve real-world operational needs. [theaireport](https://vertexaisearch.cloud.google.com/id/1-10) [villpress](https://vertexaisearch.cloud.google.com/id/1-4) [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) \\[9] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n\n**2. Security Measures and Certifications:**\n\n*   **Rigorous Security Testing:** Claude Gov models undergo the same rigorous security tests as all other Claude models, including comprehensive evaluations of model performance, security analyses, and ethical reviews. \\[1, 18] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **FedRAMP High:** Claude models are authorized for FedRAMP High workloads through Google Cloud's Vertex AI and Amazon Bedrock in AWS GovCloud (US) regions. [anthropic](https://vertexaisearch.cloud.google.com/id/1-9) \\[3, 4, 5, 6, 7] FedRAMP High is a federal authorization standard that defines rigorous security benchmarks for cloud service providers handling the government's most sensitive, unclassified data. [hathr](https://vertexaisearch.cloud.google.com/id/1-11) \\[15] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **DoD Impact Levels 4 and 5 (IL4/5):** Claude models are approved for use in DoD Impact Level 4 and 5 workloads through Amazon Bedrock in AWS GovCloud (US) regions. [anthropic](https://vertexaisearch.cloud.google.com/id/1-9) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) \\[3, 4, 5, 10] Clearing these impact levels means data can be used with controlled unclassified information and national security systems. [fedscoop](https://vertexaisearch.cloud.google.com/id/1-12) \\[3]\n*   **ISO 42001 Certification:** Anthropic achieved ISO 42001 certification for responsible AI. \\[20] [anthropic](https://vertexaisearch.cloud.google.com/id/1-13)\n*   **Secure Cloud Infrastructure:** The models are implemented via secure cloud infrastructures specially developed for government applications, including the use of Amazon Web Services' FedRAMP-certified platforms. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) \\[1]\n*   **Palantir FedStart:** Anthropic leverages Palantir's FedStart offering to make Claude available to the government sector at FedRAMP High and DoD Impact Level 5 (IL5) security standards. [bigdatawire](https://vertexaisearch.cloud.google.com/id/1-15) \\[8] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **HIPAA and NIST 800-171:** Hathr AI, powered by Anthropic's Claude AI, is built within an AWS GovCloud (FedRAMP High) environment and adheres to HIPAA and NIST 800-171 standards. \\[15] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n\n**3. Specific Capabilities for National Security:**\n\n*   **Handling Classified Information:** Claude Gov models are calibrated to process sensitive data and less often refuse to process classified information. [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) [wandb](https://vertexaisearch.cloud.google.com/id/1-2) [maginative](https://vertexaisearch.cloud.google.com/id/1-5) \\[1, 2, 14, 19] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **Language Skills:** They include expanded language skills in languages and dialects critical for national security. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) [villpress](https://vertexaisearch.cloud.google.com/id/1-4) [turtlesai](https://vertexaisearch.cloud.google.com/id/1-16) \\[1, 11, 14, 16, 18] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **Cybersecurity Data Interpretation:** Claude Gov offers advanced capabilities in interpreting complex cybersecurity data. [perplexity](https://vertexaisearch.cloud.google.com/id/1-1) [villpress](https://vertexaisearch.cloud.google.com/id/1-4) [zdnet](https://vertexaisearch.cloud.google.com/id/1-3) \\[2, 11, 14, 16, 18] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n\n**4. Access and Deployment:**\n\n*   Access to Claude Gov models is strictly limited to people who operate in classified environments with the highest level of confidentiality. \\[1] [xpert](https://vertexaisearch.cloud.google.com/id/1-14)\n*   The systems are designed to function in isolated network environments that meet the strict safety requirements of classified facilities. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) \\[1]\n\n**5. Ethical Considerations:**\n\n*   Anthropic has developed specific usage guidelines to prevent the use of technology for harmful purposes, including restrictions on monitoring civilians or other activities that could violate civil rights. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) \\[1]\n*   They have also created exceptions to their general usage guidelines that are carefully calibrated to enable lawful applications by selected government agencies. [xpert](https://vertexaisearch.cloud.google.com/id/1-14) \\[1, 13, 14] [anthropic](https://vertexaisearch.cloud.google.com/id/1-6) [enterpriseaiworld](https://vertexaisearch.cloud.google.com/id/1-7) [anthropic](https://vertexaisearch.cloud.google.com/id/1-8) [opentools](https://vertexaisearch.cloud.google.com/id/1-0) [anthropic](https://vertexaisearch.cloud.google.com/id/1-9)\n\nIn summary, Anthropic's Claude Gov models are designed with specific security certifications and compliance standards, including FedRAMP High and DoD Impact Levels 4 and 5, to ensure their suitability for U.S. national security applications. These models are deployed in secure environments with strict access controls and are continuously tested and evaluated to maintain the highest levels of security and ethical standards.\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg=="
+    },
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2D1F8Jh-gfVf4taSb4AoTxNBEnBm7lDI6714_k_4Y6_xYWlu3v4ggkgSlRFzuB2BSCZ3cgRKokWLFjAN4Of7rIVQkK5Ir8AvwPqfeyxYRF8LQlMWjIaC5WkGGbotVg274BbpN0tLFzuBDqykiRkf13kI="
+    },
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg=="
+    },
+    {
+      "label": "claudeaihub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "xpert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgE9X6TEXWIWfp8ZDk5OEFpSdqKHmdEIu6fNKz4edyv9YmoHR_L5f_OiBEQKyYNVM8K5EcS0OsT8bFa0TsvqZKqyuiDw16rHaFB4u_AX6j8XCrXmfZAXbBzTKYMa6Ev7KqtsZV47rKfJfL4H2uFiaogrTLepTk2A=="
+    },
+    {
+      "label": "sdtimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX"
+    },
+    {
+      "label": "futurepedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA=="
+    },
+    {
+      "label": "sdtimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "futurepedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA=="
+    },
+    {
+      "label": "zdnet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v"
+    },
+    {
+      "label": "zdnet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v"
+    },
+    {
+      "label": "zdnet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZJlf3ulUdIL1ICnbNcIbnq2cKBrvnY1EVgq2785pUbr8aOm9pp726Sle-Xm7-vQUvilG5CGh6LwL5d5Lxplncgxzuhxz-hrKrjX2Foi-dTb04g56x"
+    },
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX"
+    },
+    {
+      "label": "futurepedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA=="
+    },
+    {
+      "label": "the-decoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBJMkh_5C50BrtzZfyyIeBwQ5OjlR5dyecah197O-ZdmVDKoao35nq7eA_H8HdcqxaWsr-YGP-m0KT0W3IyoSYe6-1zdbs4Em7BCtl9rjJ-ouAgBsH8SNj7VZz2FPN9fdmQGp-oc64pveoqoXS5IDZ5xbiubPcr2uLFEz7NX5yotHFfYLFCZ-Zj8bTj4j4vBayuDns68GBmX0NoJmU9-Mv7diJVusP0qPGNaWLRg=="
+    },
+    {
+      "label": "claudeaihub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U"
+    },
+    {
+      "label": "xpert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgE9X6TEXWIWfp8ZDk5OEFpSdqKHmdEIu6fNKz4edyv9YmoHR_L5f_OiBEQKyYNVM8K5EcS0OsT8bFa0TsvqZKqyuiDw16rHaFB4u_AX6j8XCrXmfZAXbBzTKYMa6Ev7KqtsZV47rKfJfL4H2uFiaogrTLepTk2A=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "claudeaihub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "claudeaihub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U"
+    },
+    {
+      "label": "ultralytics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXFLHDQLelqvN3cEntMZi7bW1NKCgvnl4ytpFXaybbZHmtW1ydHVXx-MKdN9Bs3lqqkePelU1hY9T7mh_An0XdeyBI0imJCb-ozMqN2cKuKyPDeR7OKauGf_2uZdT25YGoUOuZZW0nutB8gz24Y-oedVZhXXK0N4eOJ8y5raH-nN_SxQBlyVkOeB2o9Z91Fg=="
+    },
+    {
+      "label": "issarice",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFPIkAOEYzulGpu6amj40s_IvK9Xiwk1aC6Jxx52x1GVayZFeZkXFTyeFoWxOoT0Lg5qeQGRugoL9US8EHb-KXWSZR3eOl_EtBC5h6o28ngfjlxETIFMlFkdkOLm42apMzH-ItGMTBZ_4ClAiG5hyQJoYbOA=="
+    },
+    {
+      "label": "claudeaihub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U"
+    },
+    {
+      "label": "claudeaihub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U"
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "perplexity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR"
+    },
+    {
+      "label": "wandb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2"
+    },
+    {
+      "label": "zdnet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z"
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "perplexity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR"
+    },
+    {
+      "label": "villpress",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Oc7ozjI-1YEPIPtMvQlfrwx6oKVKGn6b7y9OI5U_EgZmE1_KEcXzNsH7ybj-ATQPf3p0QjGEhXcgNiBki_43PhA57QbMCuy9PdzVR8BlpqmmbADDa0NPtTTJPW4PyM1c8s2wH_OWBQ-i_wY3EHPLEijtWgCHGhYjIA=="
+    },
+    {
+      "label": "wandb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2"
+    },
+    {
+      "label": "maginative",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPhOr4pUPcOoQl4FEqlP4qXoU_tAJBPhvWbmvlTlc4F07iv-D6E-4oPluuMiOGR-f2581Cc7do3RGTiQO5AVX8DemLhsq8-1vfyM_hM_Nsul0J3aTuOWKMzRmeN9j44JKt4ys5Ho3hRjsDvCvE5bNbdHQMyaa93O1hYBM0xm9Nk9Tj_uAcUu0PppCKXTscwaujGMlIly4T36zhElhYGxsWHusDQ5-MlTMKXlV0"
+    },
+    {
+      "label": "zdnet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "theaireport",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUtbgNblvKIdlFP9LfcBzsdiLmriLLj38BbCp2eY9Nti-77eRBD942AhVERvmjz-oRs6JywSnxMgcXzq38szn6pzKShr4rysRZm4nS0QMxuHNc8l7Df8Oz1LR_m9lO_6BzyiGzopTQfdNUhzNnNSCeQxc1WWyyccSmVFAKb24lBn4sipBb94b5Qij7bnY_uC8K-hFNzaN7DxsgaZINudqg3XcBHRITXPZm9W6-1YyQ9NZ-GuyQ0xFrflq4DinADsy-ZoIthF7QfuayMjx3vZmTMI0aspIwlnu4DTBkRoMgd20SDeaK6IDXsi2n7d6TErlMRMVNI_yr8uLMOe3c3A7ok8EP0c5oWn4="
+    },
+    {
+      "label": "villpress",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Oc7ozjI-1YEPIPtMvQlfrwx6oKVKGn6b7y9OI5U_EgZmE1_KEcXzNsH7ybj-ATQPf3p0QjGEhXcgNiBki_43PhA57QbMCuy9PdzVR8BlpqmmbADDa0NPtTTJPW4PyM1c8s2wH_OWBQ-i_wY3EHPLEijtWgCHGhYjIA=="
+    },
+    {
+      "label": "perplexity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "hathr",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8AwADQQ9op8YJoy8sxJ5PnXbutJXGGIEFZ7osD1TpOIvvdTBPFnCvzdAZPaCFfBBE4NzbzKUaK4m0N9y3c542BPOvtybCAlr1IiUCVmMUdOMUCfOHxudhW8RNGfzUazkjRkA="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "fedscoop",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4bqyCmN_8XEFkckNgj4D2i6HgpRH6tgtunCOtjy3ExAPN9yOO1fwH5mzOnxkLdC1pOruHrURaqAHcP4A6eZJD4vObzocqUWa6YHOx6uCyQSxNKzO2p2qXF8pqu9K7S7kCUhbwGvsXQJQb-712rh4nMjZ99XM3TwrXPUncQ9xR"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETas2pix4GAfWvDar9LeBuCqCu6CGU_I2Hlq-viFgVYwr_g30lDacUMuixPDkhCegAHMaFPDTP99wg9lSJQtD-C5MSuKcEqd7vZMWttdyAoUnik6PbsaxE1FcSbIqqJVgG05YDF4tHxFw5Y4Z3b_FlK8sNdOTLAQ0nhHHWAoAkHs1m9uyg45pn86MkhFZ8UteDPMpCsmMx"
+    },
+    {
+      "label": "xpert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2"
+    },
+    {
+      "label": "bigdatawire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-15",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4uUZ_W0nvqG6MVhD9D_sT5DH83Er6Sho6ubaOtRp8-S-JUeX4EZQLMNvRdHL256jZOc0DJbLUMM6yEDtxxgT20jZsz-iojIu4ZIF1CCoN56nw-6iu0FW_ndqdg8FV1NyIJDFaeTfQlMQSo1ueA7920pfYnFD2gDtiEtwZD5Mpx1CJBC8D-xfqF5W5h5jh5KoyU53ZonLao-ve5KzTlXMvrOdcecKg2uG-ZLUT"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "perplexity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR"
+    },
+    {
+      "label": "wandb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2"
+    },
+    {
+      "label": "maginative",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPhOr4pUPcOoQl4FEqlP4qXoU_tAJBPhvWbmvlTlc4F07iv-D6E-4oPluuMiOGR-f2581Cc7do3RGTiQO5AVX8DemLhsq8-1vfyM_hM_Nsul0J3aTuOWKMzRmeN9j44JKt4ys5Ho3hRjsDvCvE5bNbdHQMyaa93O1hYBM0xm9Nk9Tj_uAcUu0PppCKXTscwaujGMlIly4T36zhElhYGxsWHusDQ5-MlTMKXlV0"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "xpert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2"
+    },
+    {
+      "label": "villpress",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Oc7ozjI-1YEPIPtMvQlfrwx6oKVKGn6b7y9OI5U_EgZmE1_KEcXzNsH7ybj-ATQPf3p0QjGEhXcgNiBki_43PhA57QbMCuy9PdzVR8BlpqmmbADDa0NPtTTJPW4PyM1c8s2wH_OWBQ-i_wY3EHPLEijtWgCHGhYjIA=="
+    },
+    {
+      "label": "turtlesai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX-pQ_dMLZJN23fLpiePM3aYo0QsfeG8VBWwZW0wQYoaXrpWJvuhXftx5bTLfK_mm8bPMPnqvImbsaoYmf8RZloGWwLvH8vJ0dtpQDj9xZ7HUaYoq0yvc3dio6sCwt58uQ-nwi8PrL7aLpol3IgIYSAjzB-l8wWycfrEEeAfDZMPTdQaalQQQ77cGGSGvdjrFwBbWH0w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "perplexity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR"
+    },
+    {
+      "label": "villpress",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1Oc7ozjI-1YEPIPtMvQlfrwx6oKVKGn6b7y9OI5U_EgZmE1_KEcXzNsH7ybj-ATQPf3p0QjGEhXcgNiBki_43PhA57QbMCuy9PdzVR8BlpqmmbADDa0NPtTTJPW4PyM1c8s2wH_OWBQ-i_wY3EHPLEijtWgCHGhYjIA=="
+    },
+    {
+      "label": "zdnet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "xpert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2"
+    },
+    {
+      "label": "xpert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2"
+    },
+    {
+      "label": "xpert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2"
+    },
+    {
+      "label": "xpert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa7sLI3EkyZvPE9677DDRnDbdkJWhalWXvI-8r-JnCZPpE2tSlOCWVkq2mb7eFYtGVzPvuyvfThp0Ibs0enSnhK7Sj7bmv3p10qG_HtoTSQeTZdFnLEC5NKjA9lHKND7G8mN8AxKEjBbW2"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENoJyJt4Jr-epO3-ZvnBiWCTnwi9C59GIOPZZVqsg7VbRUAY0mpCfo_wl71_hjPNw6fOjJTm2Y2nIHkVI6JjeNl8vSpny8lbICl9FpwY8SHoYbVmNeCS3WIiJGUWFO6_mBHUPOsAHr-gLVsOvR3tRVFQDahGL_dVECAHRHaw=="
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfCDaoh-qnAQqK2Fp-WXvWQp7BlPpXUmYDqgACO_OydApWlNsaWFTIOpsv6Ue-9QF-0JxXMEGDVjNxb5xEBinwqTJD-QQI3l892A2Q1XJvO0QzrznaVzu_m2WwNGdMnPbOftTn5NfT0k1i7zINFz4OzFjz2jZKYOF89dDLi47uq8ILDw=="
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    },
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq292CnM5yjBKSw3iDiM8bOMTNQ1wMOCZjKLIpu3uJkyNCxCrpfAwbWzlH0NhP0S8cLg4mzetc8RrGUAffb4V0WHihrHBz1S6aNEyKKnzgWMX_lMPnqAFuexQeXnLkSQA6XnAH7oKHztMlDw-w46yaPaHmgpVaMtHYcvYC1pvUyg=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG98uI5NWSKkVA_7bNzwm4UFvG41Q_PeVcn7ytuurWTkXfenXK1GWHD-xd6rHWqseOfERE4MwP06q3s2Wed3zYKUo5PdZsiUXD_KPOghsOFu1PipoXpujWZ6GVLuxo5EhutPw=="
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2D1F8Jh-gfVf4taSb4AoTxNBEnBm7lDI6714_k_4Y6_xYWlu3v4ggkgSlRFzuB2BSCZ3cgRKokWLFjAN4Of7rIVQkK5Ir8AvwPqfeyxYRF8LQlMWjIaC5WkGGbotVg274BbpN0tLFzuBDqykiRkf13kI="
+    },
+    {
+      "label": "claudeaihub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH94NrsW3MTpveJxvkXxAp4TqB-V8flCSfQ_Pe0SwlcYs21TsXD0ik4_j6vqqPAUGHGIWm3b8AcAA4NMXMU0inaMx6Ou8-kqZFyvU5MQmUYe_e5DrD1Ai3Uyw7bXuXO2jqYMU32-UJLVRBOHaN0AalkXg8U"
+    },
+    {
+      "label": "xpert",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgE9X6TEXWIWfp8ZDk5OEFpSdqKHmdEIu6fNKz4edyv9YmoHR_L5f_OiBEQKyYNVM8K5EcS0OsT8bFa0TsvqZKqyuiDw16rHaFB4u_AX6j8XCrXmfZAXbBzTKYMa6Ev7KqtsZV47rKfJfL4H2uFiaogrTLepTk2A=="
+    },
+    {
+      "label": "sdtimes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvwEkLep1WC7Eh4rqEAxWRCS8vtPlTmUDwKZ4pNUzxZW4234F_ocnKKMpr9DjDX4SCnKp7emx4iyduWAW4CGFaobeSA2-loFlA7_Umo1hlP7oVg3q26dpSOHiqaH57MfpvMKuAKn_7OfXTU1zzYRpGyDWSmAMzuLARiWpxrrofOsdGOAhbx6nwz_IbAt0BexPfKJ61W4lLRrdIKa712xWhj3Y9xqVh7S_PY8BPnZE-vwi9_sAREknsCJ-yXFX2Yv1Fnm5pXH6UMDMQ1Tuqmxgb"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmy7nKVrQIWrLCkUbZmHR8chN1TyFS8nPRlyCBzg1SCgU-Wq_Te0WlJquWbCsmUD_uYkWL7E0F8rTCRek6j8NyVex-Ub6mq6ZufjUs9CWEaF6Mx5aj-4ed4a-DRqBpS0CDb_i8v1C_sA838-8QSQiX"
+    },
+    {
+      "label": "futurepedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBJ3e2aWr6ILE7rXc5nVdsVI-HyBgQZeXYkOjwZ8gJrrfkWmslVWPelrm0fI1YDth9uF5HI4PK4gXampF4x79AY-LTVtvP7dx297qDQrU_hrPwZo6x-PRp4vOLVU9COUfxz4c_dmPMPnoHxriVA=="
+    },
+    {
+      "label": "zdnet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv0NGlkruqgnVGuOC3wo43ioc2JgWWn9diya9iE246Fwuo1f1kyuQ_w5T8mZ4bVcjtx5RSvIiXfX_uexODDnaeLtfI-aIalkkSOFk_yiSvnOCKCrMfdUoMpcdcJ31S_mKgaPiWaRRiVHz6l8YErfgaujjanwMgrkii0thv-cQfgxbpJmOl4VHgukLbpmGZO1W5k0YDb_NWDH8wo4Mq55EwEZ0v"
+    },
+    {
+      "label": "opentools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ony5wTou1Qc2rs8kEVtD4RVSakliOPULwqHUEoy52LudKFAnuk8SQpusy8RSDV4xRuxKZs7oHiTNVJOr29ufMXnNlOZwrfeDYm9iAouG2uBAKs-Zri29xVY8jkAL28NJqcIwNmwGhC3UNDjvByLmO91X3wff4D0_7LryaB56DDVMXIEwaoX20nYRp9aOwP585N4_5Mk8_w=="
+    },
+    {
+      "label": "perplexity",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ARqJt4rYY_3ukgBeH_z7j5-Hz7b1nW55u6jT_cXn41TWQFSfzsANW1HJkeCPyK6jqu9C69PE3hMvMevYFgjZiH3nsBi9Va5_Sw9mtv-6x_TkuUclmGy01FM4i3Fzs-Nc6Ld_-EuQuxGCwt0knuBzSS2sAe2g1xXaVDNnHGKztRAsHbquAiLR0KgLaMlR"
+    },
+    {
+      "label": "wandb",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjsHYc-9VVhuyqNiqmgLcSqSDOUaitpiAcBEMe4kPViMZMpVax0O3_1PXz7wvky7qAArXWXswc2nbD3os-6rfbhA6KYNZoj4KB6v-lBDGzw8_kZEH2n36ELaoqJWyvuR9BW2QCwdB489uei93vxcGKSA-d0jT00wdNoJfYTsyDi9PlAQ8pFNVz2YFwraQddGsy2pVQ3RAEnmSkxpVL2mrhz_P42sWzYeWFHzIBdfZLr2ayMPPYkbUGcZAg0O-E8QbDa2Z2"
+    },
+    {
+      "label": "zdnet",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUDC8k7sru1j_tScwhNRnHmFLY_wTFToLEhK9pv6l53MP3R8TNdigNMcSnWxm9BIyApphRA-zO8a5fsFTDyzn3_rpRSmtBIp7AigGnvuLVBj01x3N5vnvlDtcJ1Y6Alnp1pdVm5LkuRw0aRcGemEepyWg4DAlp3_I5ovivsN5a-__PBbX2i-c9sREtGGNSvSmoLXOkE101E3119MAe4X6cJr_z"
+    },
+    {
+      "label": "enterpriseaiworld",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOmCJGzWwiu5MLco46njkC9_WQZnPrlI8sdqSZHJ2EKOHx2Ehm-1zmXeQgAuLxVM-LpLajoxyfvowjlDQ4SCPY_28oJZy4y4RScQETKuLfvrcU8aGpcRk5mI0OLFc3nNbZFvuoEwG_T8IvcpVGLRR-GqydHwFEvxkcIIRF3BiaD3r6YSAY9Lswoz5TAoAsHpgl-AzXVWnoKEQ8PDqQkHrY9JviSjEWZFcn7LISPq_alsheo01RrlkvyGRdADhXVyoPZMy3mvvCVDyfWqcU"
+    },
+    {
+      "label": "anthropic",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu7N4VDtyyqcX13sipinltExTE9yyx8ISWe_XVVw9De5eyoPQvvnner0533pJJXqRSIdYSB1Xh9DaSzxAZfxWif0g5sbNYb4VWwun9PwvfhblhkPYf1v1fwP9grQGheONh7u7APg5kRJq2HKbt3dpx2m2X0HDtvRiTcv0uaZLC"
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

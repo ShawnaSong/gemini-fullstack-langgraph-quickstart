@@ -1,0 +1,1121 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 21:49:28
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: Find me the cases of using Benford's law in contemporary real-life problems
+
+[AI]: Benford's Law, which posits that in many real-life datasets the leading digit is likely to be small [10], has found numerous contemporary applications. Here are some notable examples:
+
+**Fraud Detection and Auditing:** Benford's Law is a valuable tool for detecting fraud and manipulated data, particularly in economics and accounting [1, 3, 5, 6, 12]. It helps auditors analyze large datasets of financial records, such as general ledgers and income statements, to identify anomalies that may indicate manipulation, errors, or fraudulent activities like vendor fraud, payroll fraud, tax evasion, and financial statement fraud [6, 14]. For example, Inscribe AI uses Benford's Law in conjunction with AI and statistics to analyze bank statements, identifying unusual digit patterns and flagging suspicious frequencies [12]. A small accounting firm in Argentina used Benford's Law to identify mistakes and potential creative accounting by clients, using Excel spreadsheets for automation [1].
+
+**COVID-19 Data Analysis:** Recent studies have employed Benford's Law to assess the accuracy of COVID-19 data reported by various countries [1, 3]. Deviations from Benford's distribution have been correlated with developmental indexes, with countries having higher economic indicators being less likely to deviate [1]. For instance, studies have examined COVID-19 cases and deaths statistics to determine if they conform to Benford's distribution, revealing underreporting in some countries [1]. A study applying Benford’s Law to COVID-19 data from the EU found that Bulgaria, Croatia, Lithuania, and Romania did not deviate from Benford’s Law for both new cases and deaths [3].
+
+**Image Forensics:** Benford's Law is also applied in image forensics to identify non-authentic digital images by analyzing the first digit distributions in wavelet coefficients, DCT coefficients, and singular values [4]. It can detect JPEG compression, estimate JPEG compression quality factors, and detect double-compressed JPEG images [4].
+
+**Other Applications:** Beyond fraud detection, COVID-19 data, and image analysis, Benford's Law has found applications in:
+
+*   **Biological exposure studies:** Identifying inconsistencies in data [2].
+*   **Political realms:** Detecting voter fraud [2, 4].
+*   **Meteoritics:** Analyzing chondrules and refractory inclusions [8, 13].
+*   **Animal movement data** [17].
+*   **Insider Threat Detection:** Serving as a dual measure of both normalcy and aberration [5].
+
+**Systematic Frameworks and AI Integration:**
+
+To improve the accuracy and reliability of fraud detection, systematic frameworks integrating Benford's Law with advanced statistical and machine learning techniques like K-means clustering, multi-digit analysis, neural networks, and random forests have been proposed [11]. These hybrid approaches aim to enhance anomaly detection in financial auditing, helping auditors distinguish between errors, benign anomalies, and fraudulent activities [11]. A paper published in December 2024 ("Benford's Law and Beyond: A framework for auditors") proposes such a systematic framework [2].
+
+**Important Considerations:**
+
+It's crucial to remember that Benford's Law is a heuristic, not a definitive rule [8, 16]. It is most effective with large, naturally occurring datasets that span several orders of magnitude [1, 8]. Deviations from the expected pattern do not automatically indicate fraud but warrant further investigation [5, 12]. Auditors must combine Benford's Law analysis with domain knowledge and other auditing techniques to make informed judgments [2].
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 3
+Sources gathered: 115
+Web research results: 3
+
+SEARCH QUERIES USED
+----------------------------------------
+1. contemporary applications of Benford's Law
+2. Benford's Law real-world case studies 2024 2025
+3. What are the specifics of the systematic framework proposed for auditors to follow after identifying anomalies using Benford's Law, integrating advanced statistical and machine learning techniques?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "contemporary applications of Benford's Law" and synthesize it into a verifiable text artifact.
+
+Benford's Law, also known as the Newcomb-Benford Law or the first-digit law, observes that in many real-life sets of numerical data, the leading digit is likely to be small [10]. [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [researchgate](https://vertexaisearch.cloud.google.com/id/0-1) In datasets that adhere to this law, the number 1 appears as the leading significant digit about 30.1% of the time, while 9 appears less than 5% of the time [5, 10, 12]. [inscribe](https://vertexaisearch.cloud.google.com/id/0-2) [accountinginsights](https://vertexaisearch.cloud.google.com/id/0-3) [arfjournals](https://vertexaisearch.cloud.google.com/id/0-4) This distribution is logarithmic, expressed as P(d) = log10(1 + 1/d), where P(d) is the probability of digit d appearing as the leading digit [5]. [cmu](https://vertexaisearch.cloud.google.com/id/0-5) [accountinginsights](https://vertexaisearch.cloud.google.com/id/0-3) Uniformly distributed digits would each occur about 11.1% of the time [10, 16]. [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)
+
+Here's a summary of contemporary applications of Benford's Law based on the search results:
+
+*   **Fraud Detection and Auditing:**
+    *   Benford's Law is used as a tool for detecting fraudulent and manipulated data, especially in economics for checking tax validity [1]. [nih](https://vertexaisearch.cloud.google.com/id/0-6) It helps auditors analyze large datasets to uncover anomalies in financial records, indicating potential manipulation or errors [3, 5, 6, 12]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/0-3) [wiley](https://vertexaisearch.cloud.google.com/id/0-7) [arfjournals](https://vertexaisearch.cloud.google.com/id/0-4)
+    *   It's applied in forensic accounting to examine data like general ledgers and income statements for anomalies [6]. [cmu](https://vertexaisearch.cloud.google.com/id/0-5) Discrepancies between observed and expected digit frequencies can serve as a warning against manipulated, abnormal, or duplicate data [3]. [arfjournals](https://vertexaisearch.cloud.google.com/id/0-4) [splunk](https://vertexaisearch.cloud.google.com/id/0-8)
+    *   The law is integrated with advanced data analytics and machine learning techniques like K-means clustering to improve fraud detection accuracy [5, 7, 12]. [researchgate](https://vertexaisearch.cloud.google.com/id/0-9)
+    *   Specific applications include detecting vendor fraud, payroll fraud, tax evasion, and financial statement fraud [14]. [wiley](https://vertexaisearch.cloud.google.com/id/0-7) It can also be used to detect Ponzi schemes [14].
+    *   Inscribe AI uses Benford's Law to analyze bank statements, combined with AI and statistics, to identify unusual digit patterns and flag suspicious frequencies [12]. [inscribe](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **COVID-19 Data Analysis:**
+    *   Recent studies have used Benford's Law to investigate the accuracy of COVID-19 data provided by countries [1]. Deviations from Benford's distribution can be correlated with developmental indexes, with countries having higher economic indicators being less likely to deviate [1]. [nih](https://vertexaisearch.cloud.google.com/id/0-6)
+    *   Specifically, studies examined COVID-19 cases and deaths statistics to see if they agree with Benford's distribution, finding underreporting in some countries [1]. [nih](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Image Forensics:**
+    *   Benford's Law is applied to identify non-authentic digital images by analyzing the first digit distributions in wavelet coefficients, DCT coefficients, and singular values [4]. [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)
+    *   It can detect JPEG compression, estimate JPEG compression quality factors, and detect double-compressed JPEG images [4]. [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)
+*   **Other Applications:**
+    *   Benford's Law is used in biological exposure studies to identify inconsistencies in data, although uninformed applications may lead to mislabeling data as falsified [2]. [europa](https://vertexaisearch.cloud.google.com/id/0-11)
+    *   It has applications in political realms, such as detecting voter fraud [2]. [europa](https://vertexaisearch.cloud.google.com/id/0-11)
+    *   It can be applied to areas of meteoritic chondrules and refractory inclusions, specifically the areas of individual meteoritic chondrules and refractory inclusions were tested for conformity to Benford's Law [13]. [researchgate](https://vertexaisearch.cloud.google.com/id/0-1)
+    *   Analysis of animal movement data [17]. [mdpi](https://vertexaisearch.cloud.google.com/id/0-12)
+
+It's important to note that Benford's Law is a heuristic and not a definitive rule [8, 16]. [hashbangcode](https://vertexaisearch.cloud.google.com/id/0-13) It works best with large, naturally occurring datasets that span several orders of magnitude [1, 8]. [hashbangcode](https://vertexaisearch.cloud.google.com/id/0-13) Deviations from the expected pattern don't automatically indicate fraud but warrant further investigation [5, 12].
+
+
+--- Research Result 2 ---
+Benford's Law, also known as the Newcomb-Benford Law or the first-digit law, observes that in many real-life sets of numerical data, the leading digit is likely to be small [10]. [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) [datactics](https://vertexaisearch.cloud.google.com/id/1-2) [karmaka](https://vertexaisearch.cloud.google.com/id/1-3) In datasets that adhere to this law, the number 1 appears as the leading significant digit approximately 30% of the time, while the number 9 appears as the leading significant digit less than 5% of the time [1, 10]. [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) This distribution deviates from a uniform distribution, where each digit would occur about 11.1% of the time [10]. [europa](https://vertexaisearch.cloud.google.com/id/1-4)
+
+**Applications and Case Studies:**
+
+*   **Accounting and Auditing:** Benford's Law is widely used in accounting to detect anomalies that may indicate fraud [5, 16]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5) It can be applied to general ledgers, income statements, and inventory listings to determine genuineness [5]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5) Several accounting firms use goodness-of-fit tests based on Benford's Law to detect fraud [7]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5) [diva-portal](https://vertexaisearch.cloud.google.com/id/1-6)
+    *   A study detailed an audit procedure used by a small accounting firm in Argentina to identify mistakes and potential creative accounting by clients. [arfjournals](https://vertexaisearch.cloud.google.com/id/1-7) By examining client-provided data, the firm determined whether Benford's Law was being followed, using Excel spreadsheets for automation. [arfjournals](https://vertexaisearch.cloud.google.com/id/1-7) The study found that clients had distinct profiles, with varying degrees of compliance with Benford's Law, leading to different audit opinions [1]. [arfjournals](https://vertexaisearch.cloud.google.com/id/1-7)
+*   **Fraud Detection:** Benford's Law can be applied to various types of fraud, including money laundering and large financial accounts [4]. [datactics](https://vertexaisearch.cloud.google.com/id/1-2) Economic data provided by Greece to the European Union was shown to be potentially fraudulent using Benford's Law [4]. [datactics](https://vertexaisearch.cloud.google.com/id/1-2)
+    *   An employee creating fictitious invoice charge data by randomly typing numbers was caught because the digits 4, 5, 6, and 7 occurred as leading digits more frequently than expected [5]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5)
+*   **Financial Auditing:** Benford's Law is an invaluable tool in financial auditing and anomaly detection, helping to identify irregularities that may indicate fraudulent activities or errors [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) [researchgate](https://vertexaisearch.cloud.google.com/id/1-8) It can streamline the audit process by focusing attention on entries that deviate from the expected distribution of leading digits [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1)
+    *   In one case study, auditors applied Benford's Law to a large municipal government's financial records, including payroll and vendor payments. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) The analysis revealed that certain vendor payments deviated significantly from the expected distribution of leading digits [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1)
+*   **COVID-19 Data Analysis:** Benford's Law has been used to investigate the accuracy of COVID-19 data provided by countries [3]. [nih](https://vertexaisearch.cloud.google.com/id/1-9) Studies have examined whether cases and deaths statistics agree with Benford's distribution [3]. [nih](https://vertexaisearch.cloud.google.com/id/1-9)
+    *   A study applying Benford's Law to COVID-19 data from the EU found that Bulgaria, Croatia, Lithuania, and Romania did not deviate from Benford's Law for both new cases and deaths [3]. [nih](https://vertexaisearch.cloud.google.com/id/1-9)
+*   **Insider Threat Detection:** Benford's analysis is useful in detecting both highly likely and unlikely data points, serving as a dual measure of both normalcy and aberration [5]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5)
+*   **Other Applications:**
+    *   Detecting election fraud [4]. [datactics](https://vertexaisearch.cloud.google.com/id/1-2)
+    *   Analyzing chondrules and refractory inclusions in meteorites [8]. [karmaka](https://vertexaisearch.cloud.google.com/id/1-3)
+    *   Examining biological exposure studies [6].
+
+**Limitations and Considerations:**
+
+*   **Data Requirements:** For Benford's Law to be applicable, it is ideal to have at least 800 data points [1]. [arfjournals](https://vertexaisearch.cloud.google.com/id/1-7)
+*   **Context is Important:** Not all deviations from Benford's Law indicate fraud or errors. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) Some industries or specific types of transactions may naturally deviate from the expected distribution due to inherent characteristics [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1)
+*   **Domain Knowledge:** Auditors must combine Benford's Law analysis with domain knowledge and other auditing techniques to make informed judgments [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1)
+*   **Underlying Mechanisms:** Uninformed applications of Benford's Law may lead to inappropriate labeling of data as falsified when underlying mechanisms may drive accordance to the distribution [6]. [europa](https://vertexaisearch.cloud.google.com/id/1-4)
+
+**Recent Developments:**
+
+*   **AI and Machine Learning Integration:** A framework combining Benford's Law with K-means clustering and multi-digit analysis improves fraud detection accuracy and reliability [11]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-8) AI and machine learning offer enhancements to federal ERM programs by automating the detection of irregular patterns and analyzing complex data sources [15]. [aferm](https://vertexaisearch.cloud.google.com/id/1-10)
+*   **Special Issue on Benford's Law:** A "Stats" Special Issue is inviting manuscripts on Benford's Law theory, testing, and applications in various scientific contexts, including fraud detection, data quality assessment, and theoretical foundations, with a submission deadline of October 31, 2025 [12]. [mdpi](https://vertexaisearch.cloud.google.com/id/1-11)
+*   **Framework for Auditors:** A systematic framework has been proposed for auditors to follow after identifying anomalies using Benford's Law, integrating advanced statistical and machine learning techniques to improve the accuracy of fraud detection [11]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-8)
+
+
+--- Research Result 3 ---
+Based on the search results, here's a synthesis of a systematic framework proposed for auditors to follow after identifying anomalies using Benford's Law, integrating advanced statistical and machine learning techniques:
+
+**Core Idea:** The framework aims to enhance anomaly detection in financial auditing by integrating Benford's Law with advanced statistical and machine learning techniques, offering actionable steps for implementation. [researchgate](https://vertexaisearch.cloud.google.com/id/2-0) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [repec](https://vertexaisearch.cloud.google.com/id/2-2) [mindbridge](https://vertexaisearch.cloud.google.com/id/2-3) [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) It helps auditors distinguish between errors, benign anomalies, and fraudulent activities. [repec](https://vertexaisearch.cloud.google.com/id/2-2) [researchgate](https://vertexaisearch.cloud.google.com/id/2-0) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [researchgate](https://vertexaisearch.cloud.google.com/id/2-5)
+
+**Key Components & Techniques:**
+
+*   **Benford's Law Application:**
+    *   Used as an initial screening tool to identify irregularities in financial records, such as income statements and balance sheets.
+    *   Involves calculating and comparing the expected and observed frequency distributions of leading digits. [researchgate](https://vertexaisearch.cloud.google.com/id/2-6) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7) [odu](https://vertexaisearch.cloud.google.com/id/2-8)
+    *   Tools like IDEA and ACL Analytics can automate this analysis, visually representing digit distributions and highlighting deviations. [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7)
+    *   Tests like the Z-Test and Mean Absolute Deviation (MAD) are used to assess conformity to Benford's Law. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)
+
+*   **Advanced Statistical and Machine Learning Techniques:**
+    *   **K-means Clustering:** Used to group financial transaction data to enhance the efficiency of applying Benford's Law. [researchgate](https://vertexaisearch.cloud.google.com/id/2-6) Data is categorized into clusters (e.g., low, medium, and high transaction values). [researchgate](https://vertexaisearch.cloud.google.com/id/2-6)
+    *   **Multi-Digit Analysis:** Extends Benford's Law by analyzing the frequency of the first two or three digits to improve accuracy. [researchgate](https://vertexaisearch.cloud.google.com/id/2-0) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [researchgate](https://vertexaisearch.cloud.google.com/id/2-5)
+    *   **Machine Learning Models:**
+        *   Neural networks, logistic regression, and support vector machines can identify high-risk areas by analyzing patterns beyond Benford's Law's scope.
+        *   Random Forest: Shown to be effective in fraud detection when enhanced with Benford-derived features. [odu](https://vertexaisearch.cloud.google.com/id/2-8)
+        *   Deep learning techniques: Used to identify complex, non-linear relationships within financial data. [mindbridge](https://vertexaisearch.cloud.google.com/id/2-3)
+    *   **Anomaly Detection Algorithms:**
+        *   DensityFunction algorithm. [splunk](https://vertexaisearch.cloud.google.com/id/2-9)
+        *   K-Means or DBSCAN (paired with Benford's Law). [fastercapital](https://vertexaisearch.cloud.google.com/id/2-10)
+
+*   **Hybrid Approach:** Combines Benford's Law analysis with machine learning algorithms to improve fraud detection accuracy and reduce false negatives. [odu](https://vertexaisearch.cloud.google.com/id/2-8) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)
+
+**Steps in the Framework:**
+
+1.  **Data Analysis using Benford's Law:** Apply Benford's Law to the dataset, calculate expected and observed frequency distributions, and identify significant deviations. [odu](https://vertexaisearch.cloud.google.com/id/2-8) [researchgate](https://vertexaisearch.cloud.google.com/id/2-6) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [kpmg](https://vertexaisearch.cloud.google.com/id/2-11)
+2.  **Employ Machine Learning:** Integrate machine learning models to analyze deviations and identify potential fraud. [odu](https://vertexaisearch.cloud.google.com/id/2-8) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [fastercapital](https://vertexaisearch.cloud.google.com/id/2-10)
+3.  **Further Investigation:** Auditors perform subsequent investigative procedures to distinguish between errors and fraud.
+
+**Benefits and Relevance:**
+
+*   **Improved Accuracy:** Aims to improve the accuracy of fraud detection by integrating statistical and machine learning techniques. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [odu](https://vertexaisearch.cloud.google.com/id/2-8) [mindbridge](https://vertexaisearch.cloud.google.com/id/2-3) Studies show increased fraud detection accuracy when combining Benford's Law with machine learning models like Random Forest. [odu](https://vertexaisearch.cloud.google.com/id/2-8)
+*   **Actionable Insights:** Offers actionable insights and practical guidance for auditors to address financial irregularities. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)
+*   **Enhanced Efficiency:** Helps auditors focus on entries that deviate from the expected distribution of leading digits, streamlining the audit process. [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7)
+*   **Comprehensive Analysis:** Ensures full data coverage by analyzing every transaction instead of relying on samples. [mindbridge](https://vertexaisearch.cloud.google.com/id/2-3)
+*   **Adaptability:** Addresses the limitations of traditional rule-based methods by incorporating machine learning's adaptive capabilities.
+
+**Limitations and Challenges:**
+
+*   **Data Quality:** Machine learning model performance depends on data integrity. [fastercapital](https://vertexaisearch.cloud.google.com/id/2-10)
+*   **Interpretability:** Some machine learning models lack transparency, making it difficult to understand why certain anomalies are flagged.
+*   **Limited Training Data:** The effectiveness of machine learning can be constrained by limited training datasets with insufficient fraud cases. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)
+*   **False Positives:** Can lead to unnecessary investigations.
+*   **Contextual Understanding:** Machine learning may lack the contextual understanding needed for follow-up actions. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)
+
+**Tools:**
+
+*   IDEA (Interactive Data Extraction and Analysis). [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7)
+*   ACL Analytics. [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7)
+*   Splunk Apps (Splunk Essentials for the Financial Services Industry and Splunk App for Fraud Analytics). [splunk](https://vertexaisearch.cloud.google.com/id/2-9)
+
+**Note:** A paper published in December 2024 ("Benford's Law and Beyond: A framework for auditors") proposes such a systematic framework. [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) [repec](https://vertexaisearch.cloud.google.com/id/2-2) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [researchgate](https://vertexaisearch.cloud.google.com/id/2-5)
+
+
+SOURCES GATHERED
+----------------------------------------
+1. wikipedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg6jGSOtTETpXWFY7NUGk0nywFIhh2Q1RPQszT21xQDRbG_Ij2uuuvxKhTC-wuc7U9QhOnNw8_F1kyXs2tPJ1ozqIg4MQtnEpmR_493GusXfDpGEu-s2uzgOpdQWPj11Y-YvkjrbFB
+
+2. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3JPyJyxJWLSN1fGdfLhuPKJlVETZoe5x4YnjAIjWrGwP-16xqSx5ZqjKoMmlAZmuKFxyLmMT14H1eMvrfktfe3A6ceBFNAiGO20Ne_EMuCJlJFRv77-7AofmqsRzj0iMhD9boiiqIQErCMJTszFBUnMMn-vBmwDO6bTCHAvExQWd8JOJ4r4r4Ne6wCn2bAGeytB-xQrKBm-SyKCxaFTYJe2bQ-tZ0WTVoeMKZO_x9
+
+3. inscribe
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdRZ-RfQd9a4RWNNducm4r6Rr-bLJazuf7iCCSle3WGZYG24gTgBGip5MLGXw1uCy715kFL6ozgIYl_b4SsbeCaaICSOaXqKYtF4xeUxustm1nMefK-EVofF-sH8r5g94oKopmBs6OJYxC1f-hZ2LqngXuhJcLMkMdT5UBADyxt6mLahIJXFGpclSn6d_3377ZenNseA==
+
+4. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXSjLdesxyUU06aWTLrwfGqgwEPQ7P6NUEz1MGMq1HD_0we-xFBHbAIoDHktfBWoroQN-zPosIxmKO9BJOyZkg9-rNI2X8rLHJ4lq-5askksW4vXJ0Z_9hk4-VP16ppYDyiyafUS_Kn2__aH7B3sGK4uGZfltGmvPO1GZTwezqYzknv3B1IH1q6DBDW4zbpLW4nTYmNrnu3g==
+
+5. arfjournals
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJd5eYdqDa-EZieDZkMenDxBKSGWAhpGvRAnMALpZmXbrwUhimZZfhLulAe0AaJq5NiqGprxBOXADBy_-0et9WDPfk0P1Qy9IEJYXNbKd4WBecZpB-u9NWVJaJR-46JKFa1QJqNddE-sE8IrAnQZdS4bJCHg3hwxg82ihWPY0EIicX3DbTnp46dtZVbv7tk2WuIV-0PtGfdLsc6DsjA60oSijxQYodBawEDsc-
+
+6. cmu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrtqN5htueSWVSYRavdm3us_osoMPLXTnStp7rdOMU0Ve6JDTmsH8vpxt5OpZwwIXe6HFRSnVptRzOC89zeG18ejSCgotklvYUqYZh1flHzs9QSvljxfKG8Uz1tQT66QQfBq4hWXc4myXoyzl2z6TTWkLZZ1sqk5NCOz9qDmgw32AMZEGshCP0dq0bqzip74ZCWK107SwznUM=
+
+7. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXSjLdesxyUU06aWTLrwfGqgwEPQ7P6NUEz1MGMq1HD_0we-xFBHbAIoDHktfBWoroQN-zPosIxmKO9BJOyZkg9-rNI2X8rLHJ4lq-5askksW4vXJ0Z_9hk4-VP16ppYDyiyafUS_Kn2__aH7B3sGK4uGZfltGmvPO1GZTwezqYzknv3B1IH1q6DBDW4zbpLW4nTYmNrnu3g==
+
+8. wikipedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg6jGSOtTETpXWFY7NUGk0nywFIhh2Q1RPQszT21xQDRbG_Ij2uuuvxKhTC-wuc7U9QhOnNw8_F1kyXs2tPJ1ozqIg4MQtnEpmR_493GusXfDpGEu-s2uzgOpdQWPj11Y-YvkjrbFB
+
+9. nih
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1a9wFSoNjQYqKAJwy4KTwKczUPtwq85j5mU-wvz9TV5ng5_THFk7R0II2zacbhnS7wZSTeX3TpDk3gabwhiVMN1qcKmh_5cvA5luSJegSW-jX7PIXQNepXmDS8Lt0LwRSr7bIayzasJIVhg==
+
+10. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXSjLdesxyUU06aWTLrwfGqgwEPQ7P6NUEz1MGMq1HD_0we-xFBHbAIoDHktfBWoroQN-zPosIxmKO9BJOyZkg9-rNI2X8rLHJ4lq-5askksW4vXJ0Z_9hk4-VP16ppYDyiyafUS_Kn2__aH7B3sGK4uGZfltGmvPO1GZTwezqYzknv3B1IH1q6DBDW4zbpLW4nTYmNrnu3g==
+
+11. wiley
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4zAGDoLBpCE390haLjhOrY0OITbvQ6O_FCV5J-tsSCxdPibRPp7_Iq2UTY6khiWV6eSg7gva4OXoR06R3kIYDA0YGmlQuGF8VNXXt7Zx96oTIYDvlwO1Z11UaUDGiie9b41By6ViM5ne9Cc9K3lmD8UbOd5w2uM7meuPNg8P4L8iggV76642LtrumyHm7QPjsTJe3YfB21EVBXBBQbsrygGc5ukeBpyM5WJ-UOztVamcWUTlimLmfKcWLTI64pg==
+
+12. arfjournals
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJd5eYdqDa-EZieDZkMenDxBKSGWAhpGvRAnMALpZmXbrwUhimZZfhLulAe0AaJq5NiqGprxBOXADBy_-0et9WDPfk0P1Qy9IEJYXNbKd4WBecZpB-u9NWVJaJR-46JKFa1QJqNddE-sE8IrAnQZdS4bJCHg3hwxg82ihWPY0EIicX3DbTnp46dtZVbv7tk2WuIV-0PtGfdLsc6DsjA60oSijxQYodBawEDsc-
+
+13. cmu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrtqN5htueSWVSYRavdm3us_osoMPLXTnStp7rdOMU0Ve6JDTmsH8vpxt5OpZwwIXe6HFRSnVptRzOC89zeG18ejSCgotklvYUqYZh1flHzs9QSvljxfKG8Uz1tQT66QQfBq4hWXc4myXoyzl2z6TTWkLZZ1sqk5NCOz9qDmgw32AMZEGshCP0dq0bqzip74ZCWK107SwznUM=
+
+14. arfjournals
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJd5eYdqDa-EZieDZkMenDxBKSGWAhpGvRAnMALpZmXbrwUhimZZfhLulAe0AaJq5NiqGprxBOXADBy_-0et9WDPfk0P1Qy9IEJYXNbKd4WBecZpB-u9NWVJaJR-46JKFa1QJqNddE-sE8IrAnQZdS4bJCHg3hwxg82ihWPY0EIicX3DbTnp46dtZVbv7tk2WuIV-0PtGfdLsc6DsjA60oSijxQYodBawEDsc-
+
+15. splunk
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhySORY7LwFsL4ltfYCtaK3G21rEU12TBbNQXdAKs_cI7jSO39qzEeftUQIYPendmYhqgS1sbD4wSSbgZbzobF6uGfg56wtDvCL-rrNySHoNGv8R2ScKCk2CHgOXm9L498-rHuCbIpKQK9Q1ABPdeHi9tZ8oqNbRHG0X4ws3UD6iMD5RShCYgFkvEJOvjNaqbbUlry3kjUX59KVLpmKM140Liqi4-scAJ3p3yClUtp-mnsWPxz-qfigQfRaESq
+
+16. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEd6ZO6NEnKHmn7hZIPCOXaFO_Z4vzNQxbgyCL9AP3ofEe1HXIiaWKZUTROVF4t8JKDHq5rP-Ulg8K0RzFYjJtlsnqrwMSVdaTmhKXmvrcjGKF40OG4tmo_iEWp5qkzEpkveaKkAJOQIeGeP16VbHS1LpJy2DlM7fTxjzc9UKRGcGYVYhzUCKAN3YEW3OreohK5Bc3ZjKUSfMhU40smQ==
+
+17. wiley
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4zAGDoLBpCE390haLjhOrY0OITbvQ6O_FCV5J-tsSCxdPibRPp7_Iq2UTY6khiWV6eSg7gva4OXoR06R3kIYDA0YGmlQuGF8VNXXt7Zx96oTIYDvlwO1Z11UaUDGiie9b41By6ViM5ne9Cc9K3lmD8UbOd5w2uM7meuPNg8P4L8iggV76642LtrumyHm7QPjsTJe3YfB21EVBXBBQbsrygGc5ukeBpyM5WJ-UOztVamcWUTlimLmfKcWLTI64pg==
+
+18. inscribe
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdRZ-RfQd9a4RWNNducm4r6Rr-bLJazuf7iCCSle3WGZYG24gTgBGip5MLGXw1uCy715kFL6ozgIYl_b4SsbeCaaICSOaXqKYtF4xeUxustm1nMefK-EVofF-sH8r5g94oKopmBs6OJYxC1f-hZ2LqngXuhJcLMkMdT5UBADyxt6mLahIJXFGpclSn6d_3377ZenNseA==
+
+19. nih
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1a9wFSoNjQYqKAJwy4KTwKczUPtwq85j5mU-wvz9TV5ng5_THFk7R0II2zacbhnS7wZSTeX3TpDk3gabwhiVMN1qcKmh_5cvA5luSJegSW-jX7PIXQNepXmDS8Lt0LwRSr7bIayzasJIVhg==
+
+20. nih
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1a9wFSoNjQYqKAJwy4KTwKczUPtwq85j5mU-wvz9TV5ng5_THFk7R0II2zacbhnS7wZSTeX3TpDk3gabwhiVMN1qcKmh_5cvA5luSJegSW-jX7PIXQNepXmDS8Lt0LwRSr7bIayzasJIVhg==
+
+21. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiwFRshgbXU5KtRmcP-y9F7R7jJI22LuxGaPil2KkAi27aWvFbZ9OzjncJLqm6UpixmMS4XjgeL5rq3Z-FQSdIT-TwvJEv345Vdmsx5K1oTe-J99GMbAT3EyEepsuoWY5gYPhA3ww_zlbOoQfUrTBGyeT8QVA7YBbNwLEUrgBSg95WD-g9y0RQVrwwOTT0KBTt5cJmUR4C1geBNhKPYOkP266ymozWNOxEEpdiJh3g14DzOJ_EeIfQFJ1BSctDkFk=
+
+22. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiwFRshgbXU5KtRmcP-y9F7R7jJI22LuxGaPil2KkAi27aWvFbZ9OzjncJLqm6UpixmMS4XjgeL5rq3Z-FQSdIT-TwvJEv345Vdmsx5K1oTe-J99GMbAT3EyEepsuoWY5gYPhA3ww_zlbOoQfUrTBGyeT8QVA7YBbNwLEUrgBSg95WD-g9y0RQVrwwOTT0KBTt5cJmUR4C1geBNhKPYOkP266ymozWNOxEEpdiJh3g14DzOJ_EeIfQFJ1BSctDkFk=
+
+23. europa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8WudDOeYEebYPqjIy5bjDyNpawVHMBa_EvGkh9GCDaTj4pUUilxAnWwGdloLbsG_txJ3VmeVzznfvXEeSBEgz77Wgd35K8hLlu_lmBwOdNy4LpmIP1RZplOj0-3dBIZSuIaOzi6H2snlbkJ2mnNklzBo=
+
+24. europa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8WudDOeYEebYPqjIy5bjDyNpawVHMBa_EvGkh9GCDaTj4pUUilxAnWwGdloLbsG_txJ3VmeVzznfvXEeSBEgz77Wgd35K8hLlu_lmBwOdNy4LpmIP1RZplOj0-3dBIZSuIaOzi6H2snlbkJ2mnNklzBo=
+
+25. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3JPyJyxJWLSN1fGdfLhuPKJlVETZoe5x4YnjAIjWrGwP-16xqSx5ZqjKoMmlAZmuKFxyLmMT14H1eMvrfktfe3A6ceBFNAiGO20Ne_EMuCJlJFRv77-7AofmqsRzj0iMhD9boiiqIQErCMJTszFBUnMMn-vBmwDO6bTCHAvExQWd8JOJ4r4r4Ne6wCn2bAGeytB-xQrKBm-SyKCxaFTYJe2bQ-tZ0WTVoeMKZO_x9
+
+26. mdpi
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTqmAFLzOZq7jV8LSgeZI4PRf3kHYEE7i32-5jTcn1BgZb3KzHGXrs-qEOPGfKbfExFfSd5zxtXVMER9Jzg7HC94JaRtpebY0EMty6l5YC3SUmbsZKBEsGFe7fyWcZNowaBDvoSstuUdrxhAAL9ar-8rHRvXwTA==
+
+27. hashbangcode
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEadOWC5ouD4KQ8TvssJQZbboM4XD16HmODqKC9Bn8Kzc0fcce8lR7m260urQkyysXRZCITtf6bdO05boOp_LacZSAgl8w2unBrkhNDvOoAIAlp8cTz03uyt2kX-oGuA-GZVOGs9hWzGf0sYkV3Ww2H
+
+28. hashbangcode
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEadOWC5ouD4KQ8TvssJQZbboM4XD16HmODqKC9Bn8Kzc0fcce8lR7m260urQkyysXRZCITtf6bdO05boOp_LacZSAgl8w2unBrkhNDvOoAIAlp8cTz03uyt2kX-oGuA-GZVOGs9hWzGf0sYkV3Ww2H
+
+29. wikipedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVlRu8EDKs9Zqcu0vUTFDKoQy5AsNBjh7zUgrFDxfpc86QtSSva0-7QHCcAUcCMKevEwroTjZj8o6Tpn16cZ5EHdP3pB53HUbG20f7YbkVhF4jqqANJlHfWiIp3JnP2wqBiPGw14vq
+
+30. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ==
+
+31. datactics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1J1JwAjkBsMnGnYtd_zuzGtjysJekp0F-9lCJpziLGwa_U4d_rm-UoPAewjqqb79pnMe-4zXgj8abuM7GpMCXpFv3ipH-zx1DJU0cJ6Kr_Ds-6kQaomveq4CaS17xOb0HpfInKWHNewDpxX_LKYOFUKdVI7ThoeMpMXDEVkjOv6Od3X0=
+
+32. karmaka
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-XUOya8OlSegY2wHVUiMtCAg4UYz_D2xNkT0weJv-z3-_6LmfkS78-vCn0AaFyHpLMqhkP75_T8TKlrECxHYTfn8KL4Wq2UUOu5hZMHOg1-ZwXU9P
+
+33. wikipedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVlRu8EDKs9Zqcu0vUTFDKoQy5AsNBjh7zUgrFDxfpc86QtSSva0-7QHCcAUcCMKevEwroTjZj8o6Tpn16cZ5EHdP3pB53HUbG20f7YbkVhF4jqqANJlHfWiIp3JnP2wqBiPGw14vq
+
+34. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ==
+
+35. europa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF56tmFP3aLaXvST4iiyDk3bridxRMK_6ak1DlICg8Y28Uj74i2VNNtKOpzp0ePrFDFlC584wB8SOeuu2QL9YDGL-JyVAJ_TYnlrOL_WDG6mkCVhblApjSmLg2AMdKxxPfioekbcYnEM4ZrFo0szXDcPlQ=
+
+36. cmu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U=
+
+37. cmu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U=
+
+38. cmu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U=
+
+39. diva-portal
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHRSwNgWZsPjTdtMfmw6pylFEngs_92iqLpfRLmgcXTR3FSx7bN1g511DOvZGwVbDYusu1q-wZXx9olydR4ln44D1IZiRf3Q7IMnKKfxxN4vy6wH9HfwqldxP3_AH1-tt72rgBLZKi7F1sVqrNl4x1DBgT460rGISrlwAf
+
+40. arfjournals
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpPiWwviR70lVTKKXod3XxnoENSD5BB7wgsKUhoZmvVq3gpEdE7droPwaeYpk06LSlIHWb3OeUFOsuy6IPSrZpbL_-QgAANf5DJiWivavfr5OOU6MzjQYDG4cSJhReahwAQsQUX83Zy6te5anPpqdN9R4Y5RJyMZMfcfstLDPLmQxHrda0omS10G_TVbRvAHTMOp_UbQM9F9oh_xwbrCzNtqiUnomVg3U8gC5
+
+41. arfjournals
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpPiWwviR70lVTKKXod3XxnoENSD5BB7wgsKUhoZmvVq3gpEdE7droPwaeYpk06LSlIHWb3OeUFOsuy6IPSrZpbL_-QgAANf5DJiWivavfr5OOU6MzjQYDG4cSJhReahwAQsQUX83Zy6te5anPpqdN9R4Y5RJyMZMfcfstLDPLmQxHrda0omS10G_TVbRvAHTMOp_UbQM9F9oh_xwbrCzNtqiUnomVg3U8gC5
+
+42. arfjournals
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpPiWwviR70lVTKKXod3XxnoENSD5BB7wgsKUhoZmvVq3gpEdE7droPwaeYpk06LSlIHWb3OeUFOsuy6IPSrZpbL_-QgAANf5DJiWivavfr5OOU6MzjQYDG4cSJhReahwAQsQUX83Zy6te5anPpqdN9R4Y5RJyMZMfcfstLDPLmQxHrda0omS10G_TVbRvAHTMOp_UbQM9F9oh_xwbrCzNtqiUnomVg3U8gC5
+
+43. datactics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1J1JwAjkBsMnGnYtd_zuzGtjysJekp0F-9lCJpziLGwa_U4d_rm-UoPAewjqqb79pnMe-4zXgj8abuM7GpMCXpFv3ipH-zx1DJU0cJ6Kr_Ds-6kQaomveq4CaS17xOb0HpfInKWHNewDpxX_LKYOFUKdVI7ThoeMpMXDEVkjOv6Od3X0=
+
+44. datactics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1J1JwAjkBsMnGnYtd_zuzGtjysJekp0F-9lCJpziLGwa_U4d_rm-UoPAewjqqb79pnMe-4zXgj8abuM7GpMCXpFv3ipH-zx1DJU0cJ6Kr_Ds-6kQaomveq4CaS17xOb0HpfInKWHNewDpxX_LKYOFUKdVI7ThoeMpMXDEVkjOv6Od3X0=
+
+45. cmu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U=
+
+46. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ==
+
+47. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWcc0Cm_ZtrcxXMGhZy1TdPpTUm1a62hTP6kTgbyXtpJ-c-3tNb6rFodCCyYoM5egwJw75v1S0m2dDe5NKzIg6H_Va4-nazTXHGZVs2p3Ri-hW0iG0UoW817AlsE8MOY1j7WYcj2-N2phCLeIiEoYvO1n8lvj2PG9HfqiKwvyLWiGAv1KTXlstSYeGtCgHForPgWGhbP_cWu6mq3WhCQ==
+
+48. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ==
+
+49. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ==
+
+50. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ==
+
+51. nih
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0iDKfVjb4UGkn3PttLMxTfMQvJOrkYT7PUwA34Y-2ePWK-FXWw4SFLirzNmQ_VTY0gDkvXyPv-r6y3WUtgyM8ACw5Kb0dJ0hzGzmce9xsu32dUQUwjQea4tNlyQE9G-ZgtK_qF3b3ES0Xzg==
+
+52. nih
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0iDKfVjb4UGkn3PttLMxTfMQvJOrkYT7PUwA34Y-2ePWK-FXWw4SFLirzNmQ_VTY0gDkvXyPv-r6y3WUtgyM8ACw5Kb0dJ0hzGzmce9xsu32dUQUwjQea4tNlyQE9G-ZgtK_qF3b3ES0Xzg==
+
+53. nih
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0iDKfVjb4UGkn3PttLMxTfMQvJOrkYT7PUwA34Y-2ePWK-FXWw4SFLirzNmQ_VTY0gDkvXyPv-r6y3WUtgyM8ACw5Kb0dJ0hzGzmce9xsu32dUQUwjQea4tNlyQE9G-ZgtK_qF3b3ES0Xzg==
+
+54. cmu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U=
+
+55. datactics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1J1JwAjkBsMnGnYtd_zuzGtjysJekp0F-9lCJpziLGwa_U4d_rm-UoPAewjqqb79pnMe-4zXgj8abuM7GpMCXpFv3ipH-zx1DJU0cJ6Kr_Ds-6kQaomveq4CaS17xOb0HpfInKWHNewDpxX_LKYOFUKdVI7ThoeMpMXDEVkjOv6Od3X0=
+
+56. karmaka
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-XUOya8OlSegY2wHVUiMtCAg4UYz_D2xNkT0weJv-z3-_6LmfkS78-vCn0AaFyHpLMqhkP75_T8TKlrECxHYTfn8KL4Wq2UUOu5hZMHOg1-ZwXU9P
+
+57. arfjournals
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpPiWwviR70lVTKKXod3XxnoENSD5BB7wgsKUhoZmvVq3gpEdE7droPwaeYpk06LSlIHWb3OeUFOsuy6IPSrZpbL_-QgAANf5DJiWivavfr5OOU6MzjQYDG4cSJhReahwAQsQUX83Zy6te5anPpqdN9R4Y5RJyMZMfcfstLDPLmQxHrda0omS10G_TVbRvAHTMOp_UbQM9F9oh_xwbrCzNtqiUnomVg3U8gC5
+
+58. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ==
+
+59. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ==
+
+60. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ==
+
+61. europa
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF56tmFP3aLaXvST4iiyDk3bridxRMK_6ak1DlICg8Y28Uj74i2VNNtKOpzp0ePrFDFlC584wB8SOeuu2QL9YDGL-JyVAJ_TYnlrOL_WDG6mkCVhblApjSmLg2AMdKxxPfioekbcYnEM4ZrFo0szXDcPlQ=
+
+62. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWcc0Cm_ZtrcxXMGhZy1TdPpTUm1a62hTP6kTgbyXtpJ-c-3tNb6rFodCCyYoM5egwJw75v1S0m2dDe5NKzIg6H_Va4-nazTXHGZVs2p3Ri-hW0iG0UoW817AlsE8MOY1j7WYcj2-N2phCLeIiEoYvO1n8lvj2PG9HfqiKwvyLWiGAv1KTXlstSYeGtCgHForPgWGhbP_cWu6mq3WhCQ==
+
+63. aferm
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAhILZsjCzbjsAa6oo4VfVFBvY8iwCm4Nv7CxX4W3sNn3mQcUkiz3a_yUvtVAu4VLOgjn_iPyta66MF4alShsbKvqq5R6L3loEQlualso5en476lLuj_v8LAOqMq65Z-EYnfIsu0TtYSN5nVAK4bx6yScEyFyvRRLu03oSsCB-Q68vvo4ARxQIoZ6ffj0PzgRBPv5mGB5hCcVslSyXaf7lQtOGoA0SM3BJqmUNiUypSDmzXDI9Bw==
+
+64. mdpi
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfR_T8MQFw3QHJpigrmU9cQhTUUBpMO0XUqhWUlzzK9LnpXbD69NJ5k3HLEBEyxZ5CsruAcv712nwn6Q5YDuUxgRtqouQ5SlFFJ6E1-ak3glPXaIqLfP242glF1sZUs6iAd1KnDjPvM-xoRkViDuOnk9_V9c2m
+
+65. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWcc0Cm_ZtrcxXMGhZy1TdPpTUm1a62hTP6kTgbyXtpJ-c-3tNb6rFodCCyYoM5egwJw75v1S0m2dDe5NKzIg6H_Va4-nazTXHGZVs2p3Ri-hW0iG0UoW817AlsE8MOY1j7WYcj2-N2phCLeIiEoYvO1n8lvj2PG9HfqiKwvyLWiGAv1KTXlstSYeGtCgHForPgWGhbP_cWu6mq3WhCQ==
+
+66. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF1DMsuadU76gsr0GifkSxs3q_Mkk0ymC9fi8-52wWzOSQVmNRZ2gMRVQ6fW6FrWIBW5i2ZJnJXqUvbzmOOyUTCOz2AfBKObbKu9WTf0nwtzQVJC-TvRMeObVTxer3hNyujbCWyPW-oOjxgK_lUjwifYfDyyPJYnGWUe6bKbTtqcRej3kR3YIYKG5TZQYSmqzOZjGLamTP9Q==
+
+67. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+68. repec
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFMSnB8jTq45zrQjbe1YdsMG0h71eP79Rn4-ZOEKO1Y32eB0s5jtWRQuR3vP0dsOA43vxTQbFzyhNFs8mTO9FHN9PJoxf0GRkrKMl432Ww5eXe8q8kThnHAt8ZM7MOqQqZ2zw4_wxkedlU95wlz6kCHwKTS6TRIw==
+
+69. mindbridge
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYdzkt6XHTQPQmXaujkTO7qWVzeCNi3i0-cwbz-AKOYBUEdA__dc11OwvC3IFH0nwLZUI5Xaw-idAfZH1AG7jqcOpe2ElKMhgdZ4D7MAOSBXchxaYi33k5BFJ6atmzw5uZc9MKUX3LjLFe7jbCgS7jDWFD6Q5pRQcGfUzFS03nSELda7nvdYtFkdVEtMFEKiqherKHJ7k=
+
+70. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcemkhf_kqYoe7TUkJNpNa0L_9OcSCQSrNmgtldxbk45Hs97vnqZ-w4OfgiaQaQu0JcYjqxtZX7Kn4mxGisZt8MBL28JxPCOGKvP-Qx_WnwC6oEUXFdmILNkn1BM9kbandGtquT2rn29NpSEJIqHFvsM1XswllLZZQMHqlFsgRBBF9zl39C-gjbFQhRnKigd6pfPlnNtDStxrnVesopR_omE1l3zwVm_Y=
+
+71. repec
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFMSnB8jTq45zrQjbe1YdsMG0h71eP79Rn4-ZOEKO1Y32eB0s5jtWRQuR3vP0dsOA43vxTQbFzyhNFs8mTO9FHN9PJoxf0GRkrKMl432Ww5eXe8q8kThnHAt8ZM7MOqQqZ2zw4_wxkedlU95wlz6kCHwKTS6TRIw==
+
+72. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF1DMsuadU76gsr0GifkSxs3q_Mkk0ymC9fi8-52wWzOSQVmNRZ2gMRVQ6fW6FrWIBW5i2ZJnJXqUvbzmOOyUTCOz2AfBKObbKu9WTf0nwtzQVJC-TvRMeObVTxer3hNyujbCWyPW-oOjxgK_lUjwifYfDyyPJYnGWUe6bKbTtqcRej3kR3YIYKG5TZQYSmqzOZjGLamTP9Q==
+
+73. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+74. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHteBn_RVWBmxkAkOt7O1CHXkqhmFmLt67NIDekEK8-TOz1fqVydiVcrOmURvzBR5hjAVNRUALvXzNeRc5BDaUsxFIwC6kH-bjljdoOJZLH39xIGOlWpbgekEIuI7_AMM3JzpzI02YnKT8GryN1KuwdDLUjsPvhqUoTkI3kbW3Yaj1JGVBiKDenZw1HUxml65ddvYL2E4cXszK0W_AtLb8=
+
+75. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Akempvk7uWUesEbX_t5IUeaL0fdQMszrHftdrzMbcWEmJjJAieQKui4SArt-biIdGki4gQrrzuc2GrZx-e2qVrOKr1rj7JFNmy8gXKhSF-8i_0y-5bWOud6tZiOxOOk6ts5r_sjYHpFPnOtszFn8cRRdRVwAO9PIAwgk8JU9SLo2yBbJZCUhKoYZIB15JhetSUxiPvKPf8qkcgyjanvzeBoYzDfGagf4H6YVNjuxNXJ-zB5EBFEO67vAVlqb6VZAll71rMdgLjF-u8pvC_fQLtFGMCghy1c=
+
+76. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+77. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y=
+
+78. odu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi
+
+79. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y=
+
+80. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+81. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Akempvk7uWUesEbX_t5IUeaL0fdQMszrHftdrzMbcWEmJjJAieQKui4SArt-biIdGki4gQrrzuc2GrZx-e2qVrOKr1rj7JFNmy8gXKhSF-8i_0y-5bWOud6tZiOxOOk6ts5r_sjYHpFPnOtszFn8cRRdRVwAO9PIAwgk8JU9SLo2yBbJZCUhKoYZIB15JhetSUxiPvKPf8qkcgyjanvzeBoYzDfGagf4H6YVNjuxNXJ-zB5EBFEO67vAVlqb6VZAll71rMdgLjF-u8pvC_fQLtFGMCghy1c=
+
+82. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Akempvk7uWUesEbX_t5IUeaL0fdQMszrHftdrzMbcWEmJjJAieQKui4SArt-biIdGki4gQrrzuc2GrZx-e2qVrOKr1rj7JFNmy8gXKhSF-8i_0y-5bWOud6tZiOxOOk6ts5r_sjYHpFPnOtszFn8cRRdRVwAO9PIAwgk8JU9SLo2yBbJZCUhKoYZIB15JhetSUxiPvKPf8qkcgyjanvzeBoYzDfGagf4H6YVNjuxNXJ-zB5EBFEO67vAVlqb6VZAll71rMdgLjF-u8pvC_fQLtFGMCghy1c=
+
+83. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF1DMsuadU76gsr0GifkSxs3q_Mkk0ymC9fi8-52wWzOSQVmNRZ2gMRVQ6fW6FrWIBW5i2ZJnJXqUvbzmOOyUTCOz2AfBKObbKu9WTf0nwtzQVJC-TvRMeObVTxer3hNyujbCWyPW-oOjxgK_lUjwifYfDyyPJYnGWUe6bKbTtqcRej3kR3YIYKG5TZQYSmqzOZjGLamTP9Q==
+
+84. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+85. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHteBn_RVWBmxkAkOt7O1CHXkqhmFmLt67NIDekEK8-TOz1fqVydiVcrOmURvzBR5hjAVNRUALvXzNeRc5BDaUsxFIwC6kH-bjljdoOJZLH39xIGOlWpbgekEIuI7_AMM3JzpzI02YnKT8GryN1KuwdDLUjsPvhqUoTkI3kbW3Yaj1JGVBiKDenZw1HUxml65ddvYL2E4cXszK0W_AtLb8=
+
+86. odu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi
+
+87. mindbridge
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYdzkt6XHTQPQmXaujkTO7qWVzeCNi3i0-cwbz-AKOYBUEdA__dc11OwvC3IFH0nwLZUI5Xaw-idAfZH1AG7jqcOpe2ElKMhgdZ4D7MAOSBXchxaYi33k5BFJ6atmzw5uZc9MKUX3LjLFe7jbCgS7jDWFD6Q5pRQcGfUzFS03nSELda7nvdYtFkdVEtMFEKiqherKHJ7k=
+
+88. splunk
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH2yJNvvEhTVA4DC6fALlwQ6_Fem4kkPvZHiiwHPO_5WPAGIXdWP_g4ixoqSvOEf1oZAIRUZY1xjJZMgUXuA3ZelAu36viaK7ftjfD92Dn8EMEIqeewx3HzWcWSn5r6HFryi8V1i7it7PY1M7OX7wmvkzxbPBTT1A0nze6uGfeu32KFzNDnv55906AQJROfv0XpJe4HhOtUzBtJXepu6w-UUuRgg5xYdpOjTBk-icXqvzVLuv3TE08FvqYOjJ7JA==
+
+89. fastercapital
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBxRUg8_2fDGvF9mXbL0jd4a0-V8qWeZki_8QgkT50AnQRB2dBWE0c5vHGe5cggkpD7Z_B02BUFc0c10JpXgFxeCzLL6kZpPs2zY3BhseTwV8cXOlltToO_JgD-8-RV8wVLU_-hF_SV4u0MtgyhDKDsA_HAoQuWkf2sTNkj2EX1H1GrH6lB6iH-VeGKMHExvtKyy3w-LoERFKDmXJybgC9A8-6RJGc2sdZQJErIA==
+
+90. odu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi
+
+91. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+92. odu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi
+
+93. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Akempvk7uWUesEbX_t5IUeaL0fdQMszrHftdrzMbcWEmJjJAieQKui4SArt-biIdGki4gQrrzuc2GrZx-e2qVrOKr1rj7JFNmy8gXKhSF-8i_0y-5bWOud6tZiOxOOk6ts5r_sjYHpFPnOtszFn8cRRdRVwAO9PIAwgk8JU9SLo2yBbJZCUhKoYZIB15JhetSUxiPvKPf8qkcgyjanvzeBoYzDfGagf4H6YVNjuxNXJ-zB5EBFEO67vAVlqb6VZAll71rMdgLjF-u8pvC_fQLtFGMCghy1c=
+
+94. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+95. kpmg
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGKsYZmsK4-V1SUZrYFFrioq973mGDRATAhJWiPi0pffGhHHKNC0-oboCF6pORKd2JfAlPKeqxI3iF5pG8X9rzPFnaNrHK3xE0aOfOpWEpYqDiFHsg4oXqX6ONe9E-10mtIlt7SidMXoUDICvAK0LS1uTvn8kgwysjB5bF4tDiV8u9Em8pHVMsEyWeczcdEqBzGfHO1EXmHMqUWUtmOkV0w-tN
+
+96. odu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi
+
+97. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+98. fastercapital
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBxRUg8_2fDGvF9mXbL0jd4a0-V8qWeZki_8QgkT50AnQRB2dBWE0c5vHGe5cggkpD7Z_B02BUFc0c10JpXgFxeCzLL6kZpPs2zY3BhseTwV8cXOlltToO_JgD-8-RV8wVLU_-hF_SV4u0MtgyhDKDsA_HAoQuWkf2sTNkj2EX1H1GrH6lB6iH-VeGKMHExvtKyy3w-LoERFKDmXJybgC9A8-6RJGc2sdZQJErIA==
+
+99. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+100. odu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi
+
+101. mindbridge
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYdzkt6XHTQPQmXaujkTO7qWVzeCNi3i0-cwbz-AKOYBUEdA__dc11OwvC3IFH0nwLZUI5Xaw-idAfZH1AG7jqcOpe2ElKMhgdZ4D7MAOSBXchxaYi33k5BFJ6atmzw5uZc9MKUX3LjLFe7jbCgS7jDWFD6Q5pRQcGfUzFS03nSELda7nvdYtFkdVEtMFEKiqherKHJ7k=
+
+102. odu
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi
+
+103. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+104. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y=
+
+105. mindbridge
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYdzkt6XHTQPQmXaujkTO7qWVzeCNi3i0-cwbz-AKOYBUEdA__dc11OwvC3IFH0nwLZUI5Xaw-idAfZH1AG7jqcOpe2ElKMhgdZ4D7MAOSBXchxaYi33k5BFJ6atmzw5uZc9MKUX3LjLFe7jbCgS7jDWFD6Q5pRQcGfUzFS03nSELda7nvdYtFkdVEtMFEKiqherKHJ7k=
+
+106. fastercapital
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBxRUg8_2fDGvF9mXbL0jd4a0-V8qWeZki_8QgkT50AnQRB2dBWE0c5vHGe5cggkpD7Z_B02BUFc0c10JpXgFxeCzLL6kZpPs2zY3BhseTwV8cXOlltToO_JgD-8-RV8wVLU_-hF_SV4u0MtgyhDKDsA_HAoQuWkf2sTNkj2EX1H1GrH6lB6iH-VeGKMHExvtKyy3w-LoERFKDmXJybgC9A8-6RJGc2sdZQJErIA==
+
+107. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+108. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+109. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y=
+
+110. accountinginsights
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y=
+
+111. splunk
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH2yJNvvEhTVA4DC6fALlwQ6_Fem4kkPvZHiiwHPO_5WPAGIXdWP_g4ixoqSvOEf1oZAIRUZY1xjJZMgUXuA3ZelAu36viaK7ftjfD92Dn8EMEIqeewx3HzWcWSn5r6HFryi8V1i7it7PY1M7OX7wmvkzxbPBTT1A0nze6uGfeu32KFzNDnv55906AQJROfv0XpJe4HhOtUzBtJXepu6w-UUuRgg5xYdpOjTBk-icXqvzVLuv3TE08FvqYOjJ7JA==
+
+112. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcemkhf_kqYoe7TUkJNpNa0L_9OcSCQSrNmgtldxbk45Hs97vnqZ-w4OfgiaQaQu0JcYjqxtZX7Kn4mxGisZt8MBL28JxPCOGKvP-Qx_WnwC6oEUXFdmILNkn1BM9kbandGtquT2rn29NpSEJIqHFvsM1XswllLZZQMHqlFsgRBBF9zl39C-gjbFQhRnKigd6pfPlnNtDStxrnVesopR_omE1l3zwVm_Y=
+
+113. repec
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFMSnB8jTq45zrQjbe1YdsMG0h71eP79Rn4-ZOEKO1Y32eB0s5jtWRQuR3vP0dsOA43vxTQbFzyhNFs8mTO9FHN9PJoxf0GRkrKMl432Ww5eXe8q8kThnHAt8ZM7MOqQqZ2zw4_wxkedlU95wlz6kCHwKTS6TRIw==
+
+114. mab-online
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA==
+
+115. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHteBn_RVWBmxkAkOt7O1CHXkqhmFmLt67NIDekEK8-TOz1fqVydiVcrOmURvzBR5hjAVNRUALvXzNeRc5BDaUsxFIwC6kH-bjljdoOJZLH39xIGOlWpbgekEIuI7_AMM3JzpzI02YnKT8GryN1KuwdDLUjsPvhqUoTkI3kbW3Yaj1JGVBiKDenZw1HUxml65ddvYL2E4cXszK0W_AtLb8=
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "Find me the cases of using Benford's law in contemporary real-life problems"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "Benford's Law, which posits that in many real-life datasets the leading digit is likely to be small [10], has found numerous contemporary applications. Here are some notable examples:\n\n**Fraud Detection and Auditing:** Benford's Law is a valuable tool for detecting fraud and manipulated data, particularly in economics and accounting [1, 3, 5, 6, 12]. It helps auditors analyze large datasets of financial records, such as general ledgers and income statements, to identify anomalies that may indicate manipulation, errors, or fraudulent activities like vendor fraud, payroll fraud, tax evasion, and financial statement fraud [6, 14]. For example, Inscribe AI uses Benford's Law in conjunction with AI and statistics to analyze bank statements, identifying unusual digit patterns and flagging suspicious frequencies [12]. A small accounting firm in Argentina used Benford's Law to identify mistakes and potential creative accounting by clients, using Excel spreadsheets for automation [1].\n\n**COVID-19 Data Analysis:** Recent studies have employed Benford's Law to assess the accuracy of COVID-19 data reported by various countries [1, 3]. Deviations from Benford's distribution have been correlated with developmental indexes, with countries having higher economic indicators being less likely to deviate [1]. For instance, studies have examined COVID-19 cases and deaths statistics to determine if they conform to Benford's distribution, revealing underreporting in some countries [1]. A study applying Benford’s Law to COVID-19 data from the EU found that Bulgaria, Croatia, Lithuania, and Romania did not deviate from Benford’s Law for both new cases and deaths [3].\n\n**Image Forensics:** Benford's Law is also applied in image forensics to identify non-authentic digital images by analyzing the first digit distributions in wavelet coefficients, DCT coefficients, and singular values [4]. It can detect JPEG compression, estimate JPEG compression quality factors, and detect double-compressed JPEG images [4].\n\n**Other Applications:** Beyond fraud detection, COVID-19 data, and image analysis, Benford's Law has found applications in:\n\n*   **Biological exposure studies:** Identifying inconsistencies in data [2].\n*   **Political realms:** Detecting voter fraud [2, 4].\n*   **Meteoritics:** Analyzing chondrules and refractory inclusions [8, 13].\n*   **Animal movement data** [17].\n*   **Insider Threat Detection:** Serving as a dual measure of both normalcy and aberration [5].\n\n**Systematic Frameworks and AI Integration:**\n\nTo improve the accuracy and reliability of fraud detection, systematic frameworks integrating Benford's Law with advanced statistical and machine learning techniques like K-means clustering, multi-digit analysis, neural networks, and random forests have been proposed [11]. These hybrid approaches aim to enhance anomaly detection in financial auditing, helping auditors distinguish between errors, benign anomalies, and fraudulent activities [11]. A paper published in December 2024 (\"Benford's Law and Beyond: A framework for auditors\") proposes such a systematic framework [2].\n\n**Important Considerations:**\n\nIt's crucial to remember that Benford's Law is a heuristic, not a definitive rule [8, 16]. It is most effective with large, naturally occurring datasets that span several orders of magnitude [1, 8]. Deviations from the expected pattern do not automatically indicate fraud but warrant further investigation [5, 12]. Auditors must combine Benford's Law analysis with domain knowledge and other auditing techniques to make informed judgments [2]."
+    }
+  ],
+  "search_query": [
+    "contemporary applications of Benford's Law",
+    "Benford's Law real-world case studies 2024 2025",
+    "What are the specifics of the systematic framework proposed for auditors to follow after identifying anomalies using Benford's Law, integrating advanced statistical and machine learning techniques?"
+  ],
+  "web_research_result": [
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"contemporary applications of Benford's Law\" and synthesize it into a verifiable text artifact.\n\nBenford's Law, also known as the Newcomb-Benford Law or the first-digit law, observes that in many real-life sets of numerical data, the leading digit is likely to be small [10]. [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [researchgate](https://vertexaisearch.cloud.google.com/id/0-1) In datasets that adhere to this law, the number 1 appears as the leading significant digit about 30.1% of the time, while 9 appears less than 5% of the time [5, 10, 12]. [inscribe](https://vertexaisearch.cloud.google.com/id/0-2) [accountinginsights](https://vertexaisearch.cloud.google.com/id/0-3) [arfjournals](https://vertexaisearch.cloud.google.com/id/0-4) This distribution is logarithmic, expressed as P(d) = log10(1 + 1/d), where P(d) is the probability of digit d appearing as the leading digit [5]. [cmu](https://vertexaisearch.cloud.google.com/id/0-5) [accountinginsights](https://vertexaisearch.cloud.google.com/id/0-3) Uniformly distributed digits would each occur about 11.1% of the time [10, 16]. [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)\n\nHere's a summary of contemporary applications of Benford's Law based on the search results:\n\n*   **Fraud Detection and Auditing:**\n    *   Benford's Law is used as a tool for detecting fraudulent and manipulated data, especially in economics for checking tax validity [1]. [nih](https://vertexaisearch.cloud.google.com/id/0-6) It helps auditors analyze large datasets to uncover anomalies in financial records, indicating potential manipulation or errors [3, 5, 6, 12]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/0-3) [wiley](https://vertexaisearch.cloud.google.com/id/0-7) [arfjournals](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   It's applied in forensic accounting to examine data like general ledgers and income statements for anomalies [6]. [cmu](https://vertexaisearch.cloud.google.com/id/0-5) Discrepancies between observed and expected digit frequencies can serve as a warning against manipulated, abnormal, or duplicate data [3]. [arfjournals](https://vertexaisearch.cloud.google.com/id/0-4) [splunk](https://vertexaisearch.cloud.google.com/id/0-8)\n    *   The law is integrated with advanced data analytics and machine learning techniques like K-means clustering to improve fraud detection accuracy [5, 7, 12]. [researchgate](https://vertexaisearch.cloud.google.com/id/0-9)\n    *   Specific applications include detecting vendor fraud, payroll fraud, tax evasion, and financial statement fraud [14]. [wiley](https://vertexaisearch.cloud.google.com/id/0-7) It can also be used to detect Ponzi schemes [14].\n    *   Inscribe AI uses Benford's Law to analyze bank statements, combined with AI and statistics, to identify unusual digit patterns and flag suspicious frequencies [12]. [inscribe](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **COVID-19 Data Analysis:**\n    *   Recent studies have used Benford's Law to investigate the accuracy of COVID-19 data provided by countries [1]. Deviations from Benford's distribution can be correlated with developmental indexes, with countries having higher economic indicators being less likely to deviate [1]. [nih](https://vertexaisearch.cloud.google.com/id/0-6)\n    *   Specifically, studies examined COVID-19 cases and deaths statistics to see if they agree with Benford's distribution, finding underreporting in some countries [1]. [nih](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Image Forensics:**\n    *   Benford's Law is applied to identify non-authentic digital images by analyzing the first digit distributions in wavelet coefficients, DCT coefficients, and singular values [4]. [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)\n    *   It can detect JPEG compression, estimate JPEG compression quality factors, and detect double-compressed JPEG images [4]. [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)\n*   **Other Applications:**\n    *   Benford's Law is used in biological exposure studies to identify inconsistencies in data, although uninformed applications may lead to mislabeling data as falsified [2]. [europa](https://vertexaisearch.cloud.google.com/id/0-11)\n    *   It has applications in political realms, such as detecting voter fraud [2]. [europa](https://vertexaisearch.cloud.google.com/id/0-11)\n    *   It can be applied to areas of meteoritic chondrules and refractory inclusions, specifically the areas of individual meteoritic chondrules and refractory inclusions were tested for conformity to Benford's Law [13]. [researchgate](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   Analysis of animal movement data [17]. [mdpi](https://vertexaisearch.cloud.google.com/id/0-12)\n\nIt's important to note that Benford's Law is a heuristic and not a definitive rule [8, 16]. [hashbangcode](https://vertexaisearch.cloud.google.com/id/0-13) It works best with large, naturally occurring datasets that span several orders of magnitude [1, 8]. [hashbangcode](https://vertexaisearch.cloud.google.com/id/0-13) Deviations from the expected pattern don't automatically indicate fraud but warrant further investigation [5, 12].\n",
+    "Benford's Law, also known as the Newcomb-Benford Law or the first-digit law, observes that in many real-life sets of numerical data, the leading digit is likely to be small [10]. [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) [datactics](https://vertexaisearch.cloud.google.com/id/1-2) [karmaka](https://vertexaisearch.cloud.google.com/id/1-3) In datasets that adhere to this law, the number 1 appears as the leading significant digit approximately 30% of the time, while the number 9 appears as the leading significant digit less than 5% of the time [1, 10]. [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) This distribution deviates from a uniform distribution, where each digit would occur about 11.1% of the time [10]. [europa](https://vertexaisearch.cloud.google.com/id/1-4)\n\n**Applications and Case Studies:**\n\n*   **Accounting and Auditing:** Benford's Law is widely used in accounting to detect anomalies that may indicate fraud [5, 16]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5) It can be applied to general ledgers, income statements, and inventory listings to determine genuineness [5]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5) Several accounting firms use goodness-of-fit tests based on Benford's Law to detect fraud [7]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5) [diva-portal](https://vertexaisearch.cloud.google.com/id/1-6)\n    *   A study detailed an audit procedure used by a small accounting firm in Argentina to identify mistakes and potential creative accounting by clients. [arfjournals](https://vertexaisearch.cloud.google.com/id/1-7) By examining client-provided data, the firm determined whether Benford's Law was being followed, using Excel spreadsheets for automation. [arfjournals](https://vertexaisearch.cloud.google.com/id/1-7) The study found that clients had distinct profiles, with varying degrees of compliance with Benford's Law, leading to different audit opinions [1]. [arfjournals](https://vertexaisearch.cloud.google.com/id/1-7)\n*   **Fraud Detection:** Benford's Law can be applied to various types of fraud, including money laundering and large financial accounts [4]. [datactics](https://vertexaisearch.cloud.google.com/id/1-2) Economic data provided by Greece to the European Union was shown to be potentially fraudulent using Benford's Law [4]. [datactics](https://vertexaisearch.cloud.google.com/id/1-2)\n    *   An employee creating fictitious invoice charge data by randomly typing numbers was caught because the digits 4, 5, 6, and 7 occurred as leading digits more frequently than expected [5]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Financial Auditing:** Benford's Law is an invaluable tool in financial auditing and anomaly detection, helping to identify irregularities that may indicate fraudulent activities or errors [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) [researchgate](https://vertexaisearch.cloud.google.com/id/1-8) It can streamline the audit process by focusing attention on entries that deviate from the expected distribution of leading digits [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1)\n    *   In one case study, auditors applied Benford's Law to a large municipal government's financial records, including payroll and vendor payments. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) The analysis revealed that certain vendor payments deviated significantly from the expected distribution of leading digits [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **COVID-19 Data Analysis:** Benford's Law has been used to investigate the accuracy of COVID-19 data provided by countries [3]. [nih](https://vertexaisearch.cloud.google.com/id/1-9) Studies have examined whether cases and deaths statistics agree with Benford's distribution [3]. [nih](https://vertexaisearch.cloud.google.com/id/1-9)\n    *   A study applying Benford's Law to COVID-19 data from the EU found that Bulgaria, Croatia, Lithuania, and Romania did not deviate from Benford's Law for both new cases and deaths [3]. [nih](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **Insider Threat Detection:** Benford's analysis is useful in detecting both highly likely and unlikely data points, serving as a dual measure of both normalcy and aberration [5]. [cmu](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Other Applications:**\n    *   Detecting election fraud [4]. [datactics](https://vertexaisearch.cloud.google.com/id/1-2)\n    *   Analyzing chondrules and refractory inclusions in meteorites [8]. [karmaka](https://vertexaisearch.cloud.google.com/id/1-3)\n    *   Examining biological exposure studies [6].\n\n**Limitations and Considerations:**\n\n*   **Data Requirements:** For Benford's Law to be applicable, it is ideal to have at least 800 data points [1]. [arfjournals](https://vertexaisearch.cloud.google.com/id/1-7)\n*   **Context is Important:** Not all deviations from Benford's Law indicate fraud or errors. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1) Some industries or specific types of transactions may naturally deviate from the expected distribution due to inherent characteristics [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **Domain Knowledge:** Auditors must combine Benford's Law analysis with domain knowledge and other auditing techniques to make informed judgments [2]. [accountinginsights](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **Underlying Mechanisms:** Uninformed applications of Benford's Law may lead to inappropriate labeling of data as falsified when underlying mechanisms may drive accordance to the distribution [6]. [europa](https://vertexaisearch.cloud.google.com/id/1-4)\n\n**Recent Developments:**\n\n*   **AI and Machine Learning Integration:** A framework combining Benford's Law with K-means clustering and multi-digit analysis improves fraud detection accuracy and reliability [11]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-8) AI and machine learning offer enhancements to federal ERM programs by automating the detection of irregular patterns and analyzing complex data sources [15]. [aferm](https://vertexaisearch.cloud.google.com/id/1-10)\n*   **Special Issue on Benford's Law:** A \"Stats\" Special Issue is inviting manuscripts on Benford's Law theory, testing, and applications in various scientific contexts, including fraud detection, data quality assessment, and theoretical foundations, with a submission deadline of October 31, 2025 [12]. [mdpi](https://vertexaisearch.cloud.google.com/id/1-11)\n*   **Framework for Auditors:** A systematic framework has been proposed for auditors to follow after identifying anomalies using Benford's Law, integrating advanced statistical and machine learning techniques to improve the accuracy of fraud detection [11]. [researchgate](https://vertexaisearch.cloud.google.com/id/1-8)\n",
+    "Based on the search results, here's a synthesis of a systematic framework proposed for auditors to follow after identifying anomalies using Benford's Law, integrating advanced statistical and machine learning techniques:\n\n**Core Idea:** The framework aims to enhance anomaly detection in financial auditing by integrating Benford's Law with advanced statistical and machine learning techniques, offering actionable steps for implementation. [researchgate](https://vertexaisearch.cloud.google.com/id/2-0) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [repec](https://vertexaisearch.cloud.google.com/id/2-2) [mindbridge](https://vertexaisearch.cloud.google.com/id/2-3) [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) It helps auditors distinguish between errors, benign anomalies, and fraudulent activities. [repec](https://vertexaisearch.cloud.google.com/id/2-2) [researchgate](https://vertexaisearch.cloud.google.com/id/2-0) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [researchgate](https://vertexaisearch.cloud.google.com/id/2-5)\n\n**Key Components & Techniques:**\n\n*   **Benford's Law Application:**\n    *   Used as an initial screening tool to identify irregularities in financial records, such as income statements and balance sheets.\n    *   Involves calculating and comparing the expected and observed frequency distributions of leading digits. [researchgate](https://vertexaisearch.cloud.google.com/id/2-6) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7) [odu](https://vertexaisearch.cloud.google.com/id/2-8)\n    *   Tools like IDEA and ACL Analytics can automate this analysis, visually representing digit distributions and highlighting deviations. [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7)\n    *   Tests like the Z-Test and Mean Absolute Deviation (MAD) are used to assess conformity to Benford's Law. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)\n\n*   **Advanced Statistical and Machine Learning Techniques:**\n    *   **K-means Clustering:** Used to group financial transaction data to enhance the efficiency of applying Benford's Law. [researchgate](https://vertexaisearch.cloud.google.com/id/2-6) Data is categorized into clusters (e.g., low, medium, and high transaction values). [researchgate](https://vertexaisearch.cloud.google.com/id/2-6)\n    *   **Multi-Digit Analysis:** Extends Benford's Law by analyzing the frequency of the first two or three digits to improve accuracy. [researchgate](https://vertexaisearch.cloud.google.com/id/2-0) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [researchgate](https://vertexaisearch.cloud.google.com/id/2-5)\n    *   **Machine Learning Models:**\n        *   Neural networks, logistic regression, and support vector machines can identify high-risk areas by analyzing patterns beyond Benford's Law's scope.\n        *   Random Forest: Shown to be effective in fraud detection when enhanced with Benford-derived features. [odu](https://vertexaisearch.cloud.google.com/id/2-8)\n        *   Deep learning techniques: Used to identify complex, non-linear relationships within financial data. [mindbridge](https://vertexaisearch.cloud.google.com/id/2-3)\n    *   **Anomaly Detection Algorithms:**\n        *   DensityFunction algorithm. [splunk](https://vertexaisearch.cloud.google.com/id/2-9)\n        *   K-Means or DBSCAN (paired with Benford's Law). [fastercapital](https://vertexaisearch.cloud.google.com/id/2-10)\n\n*   **Hybrid Approach:** Combines Benford's Law analysis with machine learning algorithms to improve fraud detection accuracy and reduce false negatives. [odu](https://vertexaisearch.cloud.google.com/id/2-8) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)\n\n**Steps in the Framework:**\n\n1.  **Data Analysis using Benford's Law:** Apply Benford's Law to the dataset, calculate expected and observed frequency distributions, and identify significant deviations. [odu](https://vertexaisearch.cloud.google.com/id/2-8) [researchgate](https://vertexaisearch.cloud.google.com/id/2-6) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [kpmg](https://vertexaisearch.cloud.google.com/id/2-11)\n2.  **Employ Machine Learning:** Integrate machine learning models to analyze deviations and identify potential fraud. [odu](https://vertexaisearch.cloud.google.com/id/2-8) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [fastercapital](https://vertexaisearch.cloud.google.com/id/2-10)\n3.  **Further Investigation:** Auditors perform subsequent investigative procedures to distinguish between errors and fraud.\n\n**Benefits and Relevance:**\n\n*   **Improved Accuracy:** Aims to improve the accuracy of fraud detection by integrating statistical and machine learning techniques. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [odu](https://vertexaisearch.cloud.google.com/id/2-8) [mindbridge](https://vertexaisearch.cloud.google.com/id/2-3) Studies show increased fraud detection accuracy when combining Benford's Law with machine learning models like Random Forest. [odu](https://vertexaisearch.cloud.google.com/id/2-8)\n*   **Actionable Insights:** Offers actionable insights and practical guidance for auditors to address financial irregularities. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)\n*   **Enhanced Efficiency:** Helps auditors focus on entries that deviate from the expected distribution of leading digits, streamlining the audit process. [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7)\n*   **Comprehensive Analysis:** Ensures full data coverage by analyzing every transaction instead of relying on samples. [mindbridge](https://vertexaisearch.cloud.google.com/id/2-3)\n*   **Adaptability:** Addresses the limitations of traditional rule-based methods by incorporating machine learning's adaptive capabilities.\n\n**Limitations and Challenges:**\n\n*   **Data Quality:** Machine learning model performance depends on data integrity. [fastercapital](https://vertexaisearch.cloud.google.com/id/2-10)\n*   **Interpretability:** Some machine learning models lack transparency, making it difficult to understand why certain anomalies are flagged.\n*   **Limited Training Data:** The effectiveness of machine learning can be constrained by limited training datasets with insufficient fraud cases. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)\n*   **False Positives:** Can lead to unnecessary investigations.\n*   **Contextual Understanding:** Machine learning may lack the contextual understanding needed for follow-up actions. [mab-online](https://vertexaisearch.cloud.google.com/id/2-1)\n\n**Tools:**\n\n*   IDEA (Interactive Data Extraction and Analysis). [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7)\n*   ACL Analytics. [accountinginsights](https://vertexaisearch.cloud.google.com/id/2-7)\n*   Splunk Apps (Splunk Essentials for the Financial Services Industry and Splunk App for Fraud Analytics). [splunk](https://vertexaisearch.cloud.google.com/id/2-9)\n\n**Note:** A paper published in December 2024 (\"Benford's Law and Beyond: A framework for auditors\") proposes such a systematic framework. [researchgate](https://vertexaisearch.cloud.google.com/id/2-4) [repec](https://vertexaisearch.cloud.google.com/id/2-2) [mab-online](https://vertexaisearch.cloud.google.com/id/2-1) [researchgate](https://vertexaisearch.cloud.google.com/id/2-5)\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "wikipedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg6jGSOtTETpXWFY7NUGk0nywFIhh2Q1RPQszT21xQDRbG_Ij2uuuvxKhTC-wuc7U9QhOnNw8_F1kyXs2tPJ1ozqIg4MQtnEpmR_493GusXfDpGEu-s2uzgOpdQWPj11Y-YvkjrbFB"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3JPyJyxJWLSN1fGdfLhuPKJlVETZoe5x4YnjAIjWrGwP-16xqSx5ZqjKoMmlAZmuKFxyLmMT14H1eMvrfktfe3A6ceBFNAiGO20Ne_EMuCJlJFRv77-7AofmqsRzj0iMhD9boiiqIQErCMJTszFBUnMMn-vBmwDO6bTCHAvExQWd8JOJ4r4r4Ne6wCn2bAGeytB-xQrKBm-SyKCxaFTYJe2bQ-tZ0WTVoeMKZO_x9"
+    },
+    {
+      "label": "inscribe",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdRZ-RfQd9a4RWNNducm4r6Rr-bLJazuf7iCCSle3WGZYG24gTgBGip5MLGXw1uCy715kFL6ozgIYl_b4SsbeCaaICSOaXqKYtF4xeUxustm1nMefK-EVofF-sH8r5g94oKopmBs6OJYxC1f-hZ2LqngXuhJcLMkMdT5UBADyxt6mLahIJXFGpclSn6d_3377ZenNseA=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXSjLdesxyUU06aWTLrwfGqgwEPQ7P6NUEz1MGMq1HD_0we-xFBHbAIoDHktfBWoroQN-zPosIxmKO9BJOyZkg9-rNI2X8rLHJ4lq-5askksW4vXJ0Z_9hk4-VP16ppYDyiyafUS_Kn2__aH7B3sGK4uGZfltGmvPO1GZTwezqYzknv3B1IH1q6DBDW4zbpLW4nTYmNrnu3g=="
+    },
+    {
+      "label": "arfjournals",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJd5eYdqDa-EZieDZkMenDxBKSGWAhpGvRAnMALpZmXbrwUhimZZfhLulAe0AaJq5NiqGprxBOXADBy_-0et9WDPfk0P1Qy9IEJYXNbKd4WBecZpB-u9NWVJaJR-46JKFa1QJqNddE-sE8IrAnQZdS4bJCHg3hwxg82ihWPY0EIicX3DbTnp46dtZVbv7tk2WuIV-0PtGfdLsc6DsjA60oSijxQYodBawEDsc-"
+    },
+    {
+      "label": "cmu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrtqN5htueSWVSYRavdm3us_osoMPLXTnStp7rdOMU0Ve6JDTmsH8vpxt5OpZwwIXe6HFRSnVptRzOC89zeG18ejSCgotklvYUqYZh1flHzs9QSvljxfKG8Uz1tQT66QQfBq4hWXc4myXoyzl2z6TTWkLZZ1sqk5NCOz9qDmgw32AMZEGshCP0dq0bqzip74ZCWK107SwznUM="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXSjLdesxyUU06aWTLrwfGqgwEPQ7P6NUEz1MGMq1HD_0we-xFBHbAIoDHktfBWoroQN-zPosIxmKO9BJOyZkg9-rNI2X8rLHJ4lq-5askksW4vXJ0Z_9hk4-VP16ppYDyiyafUS_Kn2__aH7B3sGK4uGZfltGmvPO1GZTwezqYzknv3B1IH1q6DBDW4zbpLW4nTYmNrnu3g=="
+    },
+    {
+      "label": "wikipedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg6jGSOtTETpXWFY7NUGk0nywFIhh2Q1RPQszT21xQDRbG_Ij2uuuvxKhTC-wuc7U9QhOnNw8_F1kyXs2tPJ1ozqIg4MQtnEpmR_493GusXfDpGEu-s2uzgOpdQWPj11Y-YvkjrbFB"
+    },
+    {
+      "label": "nih",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1a9wFSoNjQYqKAJwy4KTwKczUPtwq85j5mU-wvz9TV5ng5_THFk7R0II2zacbhnS7wZSTeX3TpDk3gabwhiVMN1qcKmh_5cvA5luSJegSW-jX7PIXQNepXmDS8Lt0LwRSr7bIayzasJIVhg=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXSjLdesxyUU06aWTLrwfGqgwEPQ7P6NUEz1MGMq1HD_0we-xFBHbAIoDHktfBWoroQN-zPosIxmKO9BJOyZkg9-rNI2X8rLHJ4lq-5askksW4vXJ0Z_9hk4-VP16ppYDyiyafUS_Kn2__aH7B3sGK4uGZfltGmvPO1GZTwezqYzknv3B1IH1q6DBDW4zbpLW4nTYmNrnu3g=="
+    },
+    {
+      "label": "wiley",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4zAGDoLBpCE390haLjhOrY0OITbvQ6O_FCV5J-tsSCxdPibRPp7_Iq2UTY6khiWV6eSg7gva4OXoR06R3kIYDA0YGmlQuGF8VNXXt7Zx96oTIYDvlwO1Z11UaUDGiie9b41By6ViM5ne9Cc9K3lmD8UbOd5w2uM7meuPNg8P4L8iggV76642LtrumyHm7QPjsTJe3YfB21EVBXBBQbsrygGc5ukeBpyM5WJ-UOztVamcWUTlimLmfKcWLTI64pg=="
+    },
+    {
+      "label": "arfjournals",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJd5eYdqDa-EZieDZkMenDxBKSGWAhpGvRAnMALpZmXbrwUhimZZfhLulAe0AaJq5NiqGprxBOXADBy_-0et9WDPfk0P1Qy9IEJYXNbKd4WBecZpB-u9NWVJaJR-46JKFa1QJqNddE-sE8IrAnQZdS4bJCHg3hwxg82ihWPY0EIicX3DbTnp46dtZVbv7tk2WuIV-0PtGfdLsc6DsjA60oSijxQYodBawEDsc-"
+    },
+    {
+      "label": "cmu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrtqN5htueSWVSYRavdm3us_osoMPLXTnStp7rdOMU0Ve6JDTmsH8vpxt5OpZwwIXe6HFRSnVptRzOC89zeG18ejSCgotklvYUqYZh1flHzs9QSvljxfKG8Uz1tQT66QQfBq4hWXc4myXoyzl2z6TTWkLZZ1sqk5NCOz9qDmgw32AMZEGshCP0dq0bqzip74ZCWK107SwznUM="
+    },
+    {
+      "label": "arfjournals",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJd5eYdqDa-EZieDZkMenDxBKSGWAhpGvRAnMALpZmXbrwUhimZZfhLulAe0AaJq5NiqGprxBOXADBy_-0et9WDPfk0P1Qy9IEJYXNbKd4WBecZpB-u9NWVJaJR-46JKFa1QJqNddE-sE8IrAnQZdS4bJCHg3hwxg82ihWPY0EIicX3DbTnp46dtZVbv7tk2WuIV-0PtGfdLsc6DsjA60oSijxQYodBawEDsc-"
+    },
+    {
+      "label": "splunk",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhySORY7LwFsL4ltfYCtaK3G21rEU12TBbNQXdAKs_cI7jSO39qzEeftUQIYPendmYhqgS1sbD4wSSbgZbzobF6uGfg56wtDvCL-rrNySHoNGv8R2ScKCk2CHgOXm9L498-rHuCbIpKQK9Q1ABPdeHi9tZ8oqNbRHG0X4ws3UD6iMD5RShCYgFkvEJOvjNaqbbUlry3kjUX59KVLpmKM140Liqi4-scAJ3p3yClUtp-mnsWPxz-qfigQfRaESq"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEd6ZO6NEnKHmn7hZIPCOXaFO_Z4vzNQxbgyCL9AP3ofEe1HXIiaWKZUTROVF4t8JKDHq5rP-Ulg8K0RzFYjJtlsnqrwMSVdaTmhKXmvrcjGKF40OG4tmo_iEWp5qkzEpkveaKkAJOQIeGeP16VbHS1LpJy2DlM7fTxjzc9UKRGcGYVYhzUCKAN3YEW3OreohK5Bc3ZjKUSfMhU40smQ=="
+    },
+    {
+      "label": "wiley",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4zAGDoLBpCE390haLjhOrY0OITbvQ6O_FCV5J-tsSCxdPibRPp7_Iq2UTY6khiWV6eSg7gva4OXoR06R3kIYDA0YGmlQuGF8VNXXt7Zx96oTIYDvlwO1Z11UaUDGiie9b41By6ViM5ne9Cc9K3lmD8UbOd5w2uM7meuPNg8P4L8iggV76642LtrumyHm7QPjsTJe3YfB21EVBXBBQbsrygGc5ukeBpyM5WJ-UOztVamcWUTlimLmfKcWLTI64pg=="
+    },
+    {
+      "label": "inscribe",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdRZ-RfQd9a4RWNNducm4r6Rr-bLJazuf7iCCSle3WGZYG24gTgBGip5MLGXw1uCy715kFL6ozgIYl_b4SsbeCaaICSOaXqKYtF4xeUxustm1nMefK-EVofF-sH8r5g94oKopmBs6OJYxC1f-hZ2LqngXuhJcLMkMdT5UBADyxt6mLahIJXFGpclSn6d_3377ZenNseA=="
+    },
+    {
+      "label": "nih",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1a9wFSoNjQYqKAJwy4KTwKczUPtwq85j5mU-wvz9TV5ng5_THFk7R0II2zacbhnS7wZSTeX3TpDk3gabwhiVMN1qcKmh_5cvA5luSJegSW-jX7PIXQNepXmDS8Lt0LwRSr7bIayzasJIVhg=="
+    },
+    {
+      "label": "nih",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1a9wFSoNjQYqKAJwy4KTwKczUPtwq85j5mU-wvz9TV5ng5_THFk7R0II2zacbhnS7wZSTeX3TpDk3gabwhiVMN1qcKmh_5cvA5luSJegSW-jX7PIXQNepXmDS8Lt0LwRSr7bIayzasJIVhg=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiwFRshgbXU5KtRmcP-y9F7R7jJI22LuxGaPil2KkAi27aWvFbZ9OzjncJLqm6UpixmMS4XjgeL5rq3Z-FQSdIT-TwvJEv345Vdmsx5K1oTe-J99GMbAT3EyEepsuoWY5gYPhA3ww_zlbOoQfUrTBGyeT8QVA7YBbNwLEUrgBSg95WD-g9y0RQVrwwOTT0KBTt5cJmUR4C1geBNhKPYOkP266ymozWNOxEEpdiJh3g14DzOJ_EeIfQFJ1BSctDkFk="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiwFRshgbXU5KtRmcP-y9F7R7jJI22LuxGaPil2KkAi27aWvFbZ9OzjncJLqm6UpixmMS4XjgeL5rq3Z-FQSdIT-TwvJEv345Vdmsx5K1oTe-J99GMbAT3EyEepsuoWY5gYPhA3ww_zlbOoQfUrTBGyeT8QVA7YBbNwLEUrgBSg95WD-g9y0RQVrwwOTT0KBTt5cJmUR4C1geBNhKPYOkP266ymozWNOxEEpdiJh3g14DzOJ_EeIfQFJ1BSctDkFk="
+    },
+    {
+      "label": "europa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8WudDOeYEebYPqjIy5bjDyNpawVHMBa_EvGkh9GCDaTj4pUUilxAnWwGdloLbsG_txJ3VmeVzznfvXEeSBEgz77Wgd35K8hLlu_lmBwOdNy4LpmIP1RZplOj0-3dBIZSuIaOzi6H2snlbkJ2mnNklzBo="
+    },
+    {
+      "label": "europa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8WudDOeYEebYPqjIy5bjDyNpawVHMBa_EvGkh9GCDaTj4pUUilxAnWwGdloLbsG_txJ3VmeVzznfvXEeSBEgz77Wgd35K8hLlu_lmBwOdNy4LpmIP1RZplOj0-3dBIZSuIaOzi6H2snlbkJ2mnNklzBo="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3JPyJyxJWLSN1fGdfLhuPKJlVETZoe5x4YnjAIjWrGwP-16xqSx5ZqjKoMmlAZmuKFxyLmMT14H1eMvrfktfe3A6ceBFNAiGO20Ne_EMuCJlJFRv77-7AofmqsRzj0iMhD9boiiqIQErCMJTszFBUnMMn-vBmwDO6bTCHAvExQWd8JOJ4r4r4Ne6wCn2bAGeytB-xQrKBm-SyKCxaFTYJe2bQ-tZ0WTVoeMKZO_x9"
+    },
+    {
+      "label": "mdpi",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGTqmAFLzOZq7jV8LSgeZI4PRf3kHYEE7i32-5jTcn1BgZb3KzHGXrs-qEOPGfKbfExFfSd5zxtXVMER9Jzg7HC94JaRtpebY0EMty6l5YC3SUmbsZKBEsGFe7fyWcZNowaBDvoSstuUdrxhAAL9ar-8rHRvXwTA=="
+    },
+    {
+      "label": "hashbangcode",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEadOWC5ouD4KQ8TvssJQZbboM4XD16HmODqKC9Bn8Kzc0fcce8lR7m260urQkyysXRZCITtf6bdO05boOp_LacZSAgl8w2unBrkhNDvOoAIAlp8cTz03uyt2kX-oGuA-GZVOGs9hWzGf0sYkV3Ww2H"
+    },
+    {
+      "label": "hashbangcode",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEadOWC5ouD4KQ8TvssJQZbboM4XD16HmODqKC9Bn8Kzc0fcce8lR7m260urQkyysXRZCITtf6bdO05boOp_LacZSAgl8w2unBrkhNDvOoAIAlp8cTz03uyt2kX-oGuA-GZVOGs9hWzGf0sYkV3Ww2H"
+    },
+    {
+      "label": "wikipedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVlRu8EDKs9Zqcu0vUTFDKoQy5AsNBjh7zUgrFDxfpc86QtSSva0-7QHCcAUcCMKevEwroTjZj8o6Tpn16cZ5EHdP3pB53HUbG20f7YbkVhF4jqqANJlHfWiIp3JnP2wqBiPGw14vq"
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ=="
+    },
+    {
+      "label": "datactics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1J1JwAjkBsMnGnYtd_zuzGtjysJekp0F-9lCJpziLGwa_U4d_rm-UoPAewjqqb79pnMe-4zXgj8abuM7GpMCXpFv3ipH-zx1DJU0cJ6Kr_Ds-6kQaomveq4CaS17xOb0HpfInKWHNewDpxX_LKYOFUKdVI7ThoeMpMXDEVkjOv6Od3X0="
+    },
+    {
+      "label": "karmaka",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-XUOya8OlSegY2wHVUiMtCAg4UYz_D2xNkT0weJv-z3-_6LmfkS78-vCn0AaFyHpLMqhkP75_T8TKlrECxHYTfn8KL4Wq2UUOu5hZMHOg1-ZwXU9P"
+    },
+    {
+      "label": "wikipedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVlRu8EDKs9Zqcu0vUTFDKoQy5AsNBjh7zUgrFDxfpc86QtSSva0-7QHCcAUcCMKevEwroTjZj8o6Tpn16cZ5EHdP3pB53HUbG20f7YbkVhF4jqqANJlHfWiIp3JnP2wqBiPGw14vq"
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ=="
+    },
+    {
+      "label": "europa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF56tmFP3aLaXvST4iiyDk3bridxRMK_6ak1DlICg8Y28Uj74i2VNNtKOpzp0ePrFDFlC584wB8SOeuu2QL9YDGL-JyVAJ_TYnlrOL_WDG6mkCVhblApjSmLg2AMdKxxPfioekbcYnEM4ZrFo0szXDcPlQ="
+    },
+    {
+      "label": "cmu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U="
+    },
+    {
+      "label": "cmu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U="
+    },
+    {
+      "label": "cmu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U="
+    },
+    {
+      "label": "diva-portal",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHRSwNgWZsPjTdtMfmw6pylFEngs_92iqLpfRLmgcXTR3FSx7bN1g511DOvZGwVbDYusu1q-wZXx9olydR4ln44D1IZiRf3Q7IMnKKfxxN4vy6wH9HfwqldxP3_AH1-tt72rgBLZKi7F1sVqrNl4x1DBgT460rGISrlwAf"
+    },
+    {
+      "label": "arfjournals",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpPiWwviR70lVTKKXod3XxnoENSD5BB7wgsKUhoZmvVq3gpEdE7droPwaeYpk06LSlIHWb3OeUFOsuy6IPSrZpbL_-QgAANf5DJiWivavfr5OOU6MzjQYDG4cSJhReahwAQsQUX83Zy6te5anPpqdN9R4Y5RJyMZMfcfstLDPLmQxHrda0omS10G_TVbRvAHTMOp_UbQM9F9oh_xwbrCzNtqiUnomVg3U8gC5"
+    },
+    {
+      "label": "arfjournals",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpPiWwviR70lVTKKXod3XxnoENSD5BB7wgsKUhoZmvVq3gpEdE7droPwaeYpk06LSlIHWb3OeUFOsuy6IPSrZpbL_-QgAANf5DJiWivavfr5OOU6MzjQYDG4cSJhReahwAQsQUX83Zy6te5anPpqdN9R4Y5RJyMZMfcfstLDPLmQxHrda0omS10G_TVbRvAHTMOp_UbQM9F9oh_xwbrCzNtqiUnomVg3U8gC5"
+    },
+    {
+      "label": "arfjournals",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpPiWwviR70lVTKKXod3XxnoENSD5BB7wgsKUhoZmvVq3gpEdE7droPwaeYpk06LSlIHWb3OeUFOsuy6IPSrZpbL_-QgAANf5DJiWivavfr5OOU6MzjQYDG4cSJhReahwAQsQUX83Zy6te5anPpqdN9R4Y5RJyMZMfcfstLDPLmQxHrda0omS10G_TVbRvAHTMOp_UbQM9F9oh_xwbrCzNtqiUnomVg3U8gC5"
+    },
+    {
+      "label": "datactics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1J1JwAjkBsMnGnYtd_zuzGtjysJekp0F-9lCJpziLGwa_U4d_rm-UoPAewjqqb79pnMe-4zXgj8abuM7GpMCXpFv3ipH-zx1DJU0cJ6Kr_Ds-6kQaomveq4CaS17xOb0HpfInKWHNewDpxX_LKYOFUKdVI7ThoeMpMXDEVkjOv6Od3X0="
+    },
+    {
+      "label": "datactics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1J1JwAjkBsMnGnYtd_zuzGtjysJekp0F-9lCJpziLGwa_U4d_rm-UoPAewjqqb79pnMe-4zXgj8abuM7GpMCXpFv3ipH-zx1DJU0cJ6Kr_Ds-6kQaomveq4CaS17xOb0HpfInKWHNewDpxX_LKYOFUKdVI7ThoeMpMXDEVkjOv6Od3X0="
+    },
+    {
+      "label": "cmu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWcc0Cm_ZtrcxXMGhZy1TdPpTUm1a62hTP6kTgbyXtpJ-c-3tNb6rFodCCyYoM5egwJw75v1S0m2dDe5NKzIg6H_Va4-nazTXHGZVs2p3Ri-hW0iG0UoW817AlsE8MOY1j7WYcj2-N2phCLeIiEoYvO1n8lvj2PG9HfqiKwvyLWiGAv1KTXlstSYeGtCgHForPgWGhbP_cWu6mq3WhCQ=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ=="
+    },
+    {
+      "label": "nih",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0iDKfVjb4UGkn3PttLMxTfMQvJOrkYT7PUwA34Y-2ePWK-FXWw4SFLirzNmQ_VTY0gDkvXyPv-r6y3WUtgyM8ACw5Kb0dJ0hzGzmce9xsu32dUQUwjQea4tNlyQE9G-ZgtK_qF3b3ES0Xzg=="
+    },
+    {
+      "label": "nih",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0iDKfVjb4UGkn3PttLMxTfMQvJOrkYT7PUwA34Y-2ePWK-FXWw4SFLirzNmQ_VTY0gDkvXyPv-r6y3WUtgyM8ACw5Kb0dJ0hzGzmce9xsu32dUQUwjQea4tNlyQE9G-ZgtK_qF3b3ES0Xzg=="
+    },
+    {
+      "label": "nih",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0iDKfVjb4UGkn3PttLMxTfMQvJOrkYT7PUwA34Y-2ePWK-FXWw4SFLirzNmQ_VTY0gDkvXyPv-r6y3WUtgyM8ACw5Kb0dJ0hzGzmce9xsu32dUQUwjQea4tNlyQE9G-ZgtK_qF3b3ES0Xzg=="
+    },
+    {
+      "label": "cmu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_ke61OPsSyYcNg2uOMrRx8qgixNar97oqHArxNXprm5it14yEG2RDphBqdRc11wTdKxwZ3_tizpoU7-PfB9M1CK8NtFmfxaHHjnZeUQNK3222gjy_ZiqHhob3IljK9JoQBBkAxKI3ZpvUq_0p4lsxU29X3F3nl7t4DTwmOt0ubQouyfnoEDUOmTW5bAEggfiYrfN1Gvna4U="
+    },
+    {
+      "label": "datactics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1J1JwAjkBsMnGnYtd_zuzGtjysJekp0F-9lCJpziLGwa_U4d_rm-UoPAewjqqb79pnMe-4zXgj8abuM7GpMCXpFv3ipH-zx1DJU0cJ6Kr_Ds-6kQaomveq4CaS17xOb0HpfInKWHNewDpxX_LKYOFUKdVI7ThoeMpMXDEVkjOv6Od3X0="
+    },
+    {
+      "label": "karmaka",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-XUOya8OlSegY2wHVUiMtCAg4UYz_D2xNkT0weJv-z3-_6LmfkS78-vCn0AaFyHpLMqhkP75_T8TKlrECxHYTfn8KL4Wq2UUOu5hZMHOg1-ZwXU9P"
+    },
+    {
+      "label": "arfjournals",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpPiWwviR70lVTKKXod3XxnoENSD5BB7wgsKUhoZmvVq3gpEdE7droPwaeYpk06LSlIHWb3OeUFOsuy6IPSrZpbL_-QgAANf5DJiWivavfr5OOU6MzjQYDG4cSJhReahwAQsQUX83Zy6te5anPpqdN9R4Y5RJyMZMfcfstLDPLmQxHrda0omS10G_TVbRvAHTMOp_UbQM9F9oh_xwbrCzNtqiUnomVg3U8gC5"
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM6n0BS9l5Nx_kmRVUceu3rqVYfrdRn0M_aScLzvhaqhtt8RlGOhq00dIsmpe9JpAmWU2UE2K5Gcm50vgChndlwteS0PpWK9b46EnYLF-7CU1abvufG2ULAAj0PIyqxCKgiKBArpNZgng36aKosbeGszelxIOI7pRRyOvF5k6x97_ORJFp5JZSFSXLaCbiWUr_EQ=="
+    },
+    {
+      "label": "europa",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF56tmFP3aLaXvST4iiyDk3bridxRMK_6ak1DlICg8Y28Uj74i2VNNtKOpzp0ePrFDFlC584wB8SOeuu2QL9YDGL-JyVAJ_TYnlrOL_WDG6mkCVhblApjSmLg2AMdKxxPfioekbcYnEM4ZrFo0szXDcPlQ="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWcc0Cm_ZtrcxXMGhZy1TdPpTUm1a62hTP6kTgbyXtpJ-c-3tNb6rFodCCyYoM5egwJw75v1S0m2dDe5NKzIg6H_Va4-nazTXHGZVs2p3Ri-hW0iG0UoW817AlsE8MOY1j7WYcj2-N2phCLeIiEoYvO1n8lvj2PG9HfqiKwvyLWiGAv1KTXlstSYeGtCgHForPgWGhbP_cWu6mq3WhCQ=="
+    },
+    {
+      "label": "aferm",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAhILZsjCzbjsAa6oo4VfVFBvY8iwCm4Nv7CxX4W3sNn3mQcUkiz3a_yUvtVAu4VLOgjn_iPyta66MF4alShsbKvqq5R6L3loEQlualso5en476lLuj_v8LAOqMq65Z-EYnfIsu0TtYSN5nVAK4bx6yScEyFyvRRLu03oSsCB-Q68vvo4ARxQIoZ6ffj0PzgRBPv5mGB5hCcVslSyXaf7lQtOGoA0SM3BJqmUNiUypSDmzXDI9Bw=="
+    },
+    {
+      "label": "mdpi",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfR_T8MQFw3QHJpigrmU9cQhTUUBpMO0XUqhWUlzzK9LnpXbD69NJ5k3HLEBEyxZ5CsruAcv712nwn6Q5YDuUxgRtqouQ5SlFFJ6E1-ak3glPXaIqLfP242glF1sZUs6iAd1KnDjPvM-xoRkViDuOnk9_V9c2m"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWcc0Cm_ZtrcxXMGhZy1TdPpTUm1a62hTP6kTgbyXtpJ-c-3tNb6rFodCCyYoM5egwJw75v1S0m2dDe5NKzIg6H_Va4-nazTXHGZVs2p3Ri-hW0iG0UoW817AlsE8MOY1j7WYcj2-N2phCLeIiEoYvO1n8lvj2PG9HfqiKwvyLWiGAv1KTXlstSYeGtCgHForPgWGhbP_cWu6mq3WhCQ=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF1DMsuadU76gsr0GifkSxs3q_Mkk0ymC9fi8-52wWzOSQVmNRZ2gMRVQ6fW6FrWIBW5i2ZJnJXqUvbzmOOyUTCOz2AfBKObbKu9WTf0nwtzQVJC-TvRMeObVTxer3hNyujbCWyPW-oOjxgK_lUjwifYfDyyPJYnGWUe6bKbTtqcRej3kR3YIYKG5TZQYSmqzOZjGLamTP9Q=="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "repec",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFMSnB8jTq45zrQjbe1YdsMG0h71eP79Rn4-ZOEKO1Y32eB0s5jtWRQuR3vP0dsOA43vxTQbFzyhNFs8mTO9FHN9PJoxf0GRkrKMl432Ww5eXe8q8kThnHAt8ZM7MOqQqZ2zw4_wxkedlU95wlz6kCHwKTS6TRIw=="
+    },
+    {
+      "label": "mindbridge",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYdzkt6XHTQPQmXaujkTO7qWVzeCNi3i0-cwbz-AKOYBUEdA__dc11OwvC3IFH0nwLZUI5Xaw-idAfZH1AG7jqcOpe2ElKMhgdZ4D7MAOSBXchxaYi33k5BFJ6atmzw5uZc9MKUX3LjLFe7jbCgS7jDWFD6Q5pRQcGfUzFS03nSELda7nvdYtFkdVEtMFEKiqherKHJ7k="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcemkhf_kqYoe7TUkJNpNa0L_9OcSCQSrNmgtldxbk45Hs97vnqZ-w4OfgiaQaQu0JcYjqxtZX7Kn4mxGisZt8MBL28JxPCOGKvP-Qx_WnwC6oEUXFdmILNkn1BM9kbandGtquT2rn29NpSEJIqHFvsM1XswllLZZQMHqlFsgRBBF9zl39C-gjbFQhRnKigd6pfPlnNtDStxrnVesopR_omE1l3zwVm_Y="
+    },
+    {
+      "label": "repec",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFMSnB8jTq45zrQjbe1YdsMG0h71eP79Rn4-ZOEKO1Y32eB0s5jtWRQuR3vP0dsOA43vxTQbFzyhNFs8mTO9FHN9PJoxf0GRkrKMl432Ww5eXe8q8kThnHAt8ZM7MOqQqZ2zw4_wxkedlU95wlz6kCHwKTS6TRIw=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF1DMsuadU76gsr0GifkSxs3q_Mkk0ymC9fi8-52wWzOSQVmNRZ2gMRVQ6fW6FrWIBW5i2ZJnJXqUvbzmOOyUTCOz2AfBKObbKu9WTf0nwtzQVJC-TvRMeObVTxer3hNyujbCWyPW-oOjxgK_lUjwifYfDyyPJYnGWUe6bKbTtqcRej3kR3YIYKG5TZQYSmqzOZjGLamTP9Q=="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHteBn_RVWBmxkAkOt7O1CHXkqhmFmLt67NIDekEK8-TOz1fqVydiVcrOmURvzBR5hjAVNRUALvXzNeRc5BDaUsxFIwC6kH-bjljdoOJZLH39xIGOlWpbgekEIuI7_AMM3JzpzI02YnKT8GryN1KuwdDLUjsPvhqUoTkI3kbW3Yaj1JGVBiKDenZw1HUxml65ddvYL2E4cXszK0W_AtLb8="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Akempvk7uWUesEbX_t5IUeaL0fdQMszrHftdrzMbcWEmJjJAieQKui4SArt-biIdGki4gQrrzuc2GrZx-e2qVrOKr1rj7JFNmy8gXKhSF-8i_0y-5bWOud6tZiOxOOk6ts5r_sjYHpFPnOtszFn8cRRdRVwAO9PIAwgk8JU9SLo2yBbJZCUhKoYZIB15JhetSUxiPvKPf8qkcgyjanvzeBoYzDfGagf4H6YVNjuxNXJ-zB5EBFEO67vAVlqb6VZAll71rMdgLjF-u8pvC_fQLtFGMCghy1c="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y="
+    },
+    {
+      "label": "odu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi"
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Akempvk7uWUesEbX_t5IUeaL0fdQMszrHftdrzMbcWEmJjJAieQKui4SArt-biIdGki4gQrrzuc2GrZx-e2qVrOKr1rj7JFNmy8gXKhSF-8i_0y-5bWOud6tZiOxOOk6ts5r_sjYHpFPnOtszFn8cRRdRVwAO9PIAwgk8JU9SLo2yBbJZCUhKoYZIB15JhetSUxiPvKPf8qkcgyjanvzeBoYzDfGagf4H6YVNjuxNXJ-zB5EBFEO67vAVlqb6VZAll71rMdgLjF-u8pvC_fQLtFGMCghy1c="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Akempvk7uWUesEbX_t5IUeaL0fdQMszrHftdrzMbcWEmJjJAieQKui4SArt-biIdGki4gQrrzuc2GrZx-e2qVrOKr1rj7JFNmy8gXKhSF-8i_0y-5bWOud6tZiOxOOk6ts5r_sjYHpFPnOtszFn8cRRdRVwAO9PIAwgk8JU9SLo2yBbJZCUhKoYZIB15JhetSUxiPvKPf8qkcgyjanvzeBoYzDfGagf4H6YVNjuxNXJ-zB5EBFEO67vAVlqb6VZAll71rMdgLjF-u8pvC_fQLtFGMCghy1c="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF1DMsuadU76gsr0GifkSxs3q_Mkk0ymC9fi8-52wWzOSQVmNRZ2gMRVQ6fW6FrWIBW5i2ZJnJXqUvbzmOOyUTCOz2AfBKObbKu9WTf0nwtzQVJC-TvRMeObVTxer3hNyujbCWyPW-oOjxgK_lUjwifYfDyyPJYnGWUe6bKbTtqcRej3kR3YIYKG5TZQYSmqzOZjGLamTP9Q=="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHteBn_RVWBmxkAkOt7O1CHXkqhmFmLt67NIDekEK8-TOz1fqVydiVcrOmURvzBR5hjAVNRUALvXzNeRc5BDaUsxFIwC6kH-bjljdoOJZLH39xIGOlWpbgekEIuI7_AMM3JzpzI02YnKT8GryN1KuwdDLUjsPvhqUoTkI3kbW3Yaj1JGVBiKDenZw1HUxml65ddvYL2E4cXszK0W_AtLb8="
+    },
+    {
+      "label": "odu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi"
+    },
+    {
+      "label": "mindbridge",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYdzkt6XHTQPQmXaujkTO7qWVzeCNi3i0-cwbz-AKOYBUEdA__dc11OwvC3IFH0nwLZUI5Xaw-idAfZH1AG7jqcOpe2ElKMhgdZ4D7MAOSBXchxaYi33k5BFJ6atmzw5uZc9MKUX3LjLFe7jbCgS7jDWFD6Q5pRQcGfUzFS03nSELda7nvdYtFkdVEtMFEKiqherKHJ7k="
+    },
+    {
+      "label": "splunk",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH2yJNvvEhTVA4DC6fALlwQ6_Fem4kkPvZHiiwHPO_5WPAGIXdWP_g4ixoqSvOEf1oZAIRUZY1xjJZMgUXuA3ZelAu36viaK7ftjfD92Dn8EMEIqeewx3HzWcWSn5r6HFryi8V1i7it7PY1M7OX7wmvkzxbPBTT1A0nze6uGfeu32KFzNDnv55906AQJROfv0XpJe4HhOtUzBtJXepu6w-UUuRgg5xYdpOjTBk-icXqvzVLuv3TE08FvqYOjJ7JA=="
+    },
+    {
+      "label": "fastercapital",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBxRUg8_2fDGvF9mXbL0jd4a0-V8qWeZki_8QgkT50AnQRB2dBWE0c5vHGe5cggkpD7Z_B02BUFc0c10JpXgFxeCzLL6kZpPs2zY3BhseTwV8cXOlltToO_JgD-8-RV8wVLU_-hF_SV4u0MtgyhDKDsA_HAoQuWkf2sTNkj2EX1H1GrH6lB6iH-VeGKMHExvtKyy3w-LoERFKDmXJybgC9A8-6RJGc2sdZQJErIA=="
+    },
+    {
+      "label": "odu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi"
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "odu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Akempvk7uWUesEbX_t5IUeaL0fdQMszrHftdrzMbcWEmJjJAieQKui4SArt-biIdGki4gQrrzuc2GrZx-e2qVrOKr1rj7JFNmy8gXKhSF-8i_0y-5bWOud6tZiOxOOk6ts5r_sjYHpFPnOtszFn8cRRdRVwAO9PIAwgk8JU9SLo2yBbJZCUhKoYZIB15JhetSUxiPvKPf8qkcgyjanvzeBoYzDfGagf4H6YVNjuxNXJ-zB5EBFEO67vAVlqb6VZAll71rMdgLjF-u8pvC_fQLtFGMCghy1c="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "kpmg",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGKsYZmsK4-V1SUZrYFFrioq973mGDRATAhJWiPi0pffGhHHKNC0-oboCF6pORKd2JfAlPKeqxI3iF5pG8X9rzPFnaNrHK3xE0aOfOpWEpYqDiFHsg4oXqX6ONe9E-10mtIlt7SidMXoUDICvAK0LS1uTvn8kgwysjB5bF4tDiV8u9Em8pHVMsEyWeczcdEqBzGfHO1EXmHMqUWUtmOkV0w-tN"
+    },
+    {
+      "label": "odu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi"
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "fastercapital",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBxRUg8_2fDGvF9mXbL0jd4a0-V8qWeZki_8QgkT50AnQRB2dBWE0c5vHGe5cggkpD7Z_B02BUFc0c10JpXgFxeCzLL6kZpPs2zY3BhseTwV8cXOlltToO_JgD-8-RV8wVLU_-hF_SV4u0MtgyhDKDsA_HAoQuWkf2sTNkj2EX1H1GrH6lB6iH-VeGKMHExvtKyy3w-LoERFKDmXJybgC9A8-6RJGc2sdZQJErIA=="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "odu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi"
+    },
+    {
+      "label": "mindbridge",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYdzkt6XHTQPQmXaujkTO7qWVzeCNi3i0-cwbz-AKOYBUEdA__dc11OwvC3IFH0nwLZUI5Xaw-idAfZH1AG7jqcOpe2ElKMhgdZ4D7MAOSBXchxaYi33k5BFJ6atmzw5uZc9MKUX3LjLFe7jbCgS7jDWFD6Q5pRQcGfUzFS03nSELda7nvdYtFkdVEtMFEKiqherKHJ7k="
+    },
+    {
+      "label": "odu",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEk5iHZJ8tLgPgn-P34Rl6-2sntVrGjsqMbVldro3mVpt9IDIfDj0pChiOTEyPueQUdEVRpcUgxctNi8jZvBvpWEvMwUMhsX18TwtKDZKeBKR_O9SZTyEaUHA3yiE_QJi3xH9Fz4Gk3IBsjgfhoCSjQIgEHWy7JQosYvAhCFJCwx-V99npeXhCn8AZAsNPqRaFeBaJAZ9xOHZWLr8e6EKJi"
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y="
+    },
+    {
+      "label": "mindbridge",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYdzkt6XHTQPQmXaujkTO7qWVzeCNi3i0-cwbz-AKOYBUEdA__dc11OwvC3IFH0nwLZUI5Xaw-idAfZH1AG7jqcOpe2ElKMhgdZ4D7MAOSBXchxaYi33k5BFJ6atmzw5uZc9MKUX3LjLFe7jbCgS7jDWFD6Q5pRQcGfUzFS03nSELda7nvdYtFkdVEtMFEKiqherKHJ7k="
+    },
+    {
+      "label": "fastercapital",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBxRUg8_2fDGvF9mXbL0jd4a0-V8qWeZki_8QgkT50AnQRB2dBWE0c5vHGe5cggkpD7Z_B02BUFc0c10JpXgFxeCzLL6kZpPs2zY3BhseTwV8cXOlltToO_JgD-8-RV8wVLU_-hF_SV4u0MtgyhDKDsA_HAoQuWkf2sTNkj2EX1H1GrH6lB6iH-VeGKMHExvtKyy3w-LoERFKDmXJybgC9A8-6RJGc2sdZQJErIA=="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y="
+    },
+    {
+      "label": "accountinginsights",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFanOEIGbvj-hLLSY55Zk9gcuwG09rBeB-KaW1_IDvyvJvSzs_sHyRITFcIdhsQiskBVW9wRR7sC4clz2vddDoLJihKta5lTbPox5NOeGiL6OFU0XWbDwv7IF-VY7c7jRRE7dXOGfkybuC7CANhbRm-wdEwlTHuW_GxByPLW6vP3-Psjiq7kP9S5T6xSkbw3xgy97Y="
+    },
+    {
+      "label": "splunk",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH2yJNvvEhTVA4DC6fALlwQ6_Fem4kkPvZHiiwHPO_5WPAGIXdWP_g4ixoqSvOEf1oZAIRUZY1xjJZMgUXuA3ZelAu36viaK7ftjfD92Dn8EMEIqeewx3HzWcWSn5r6HFryi8V1i7it7PY1M7OX7wmvkzxbPBTT1A0nze6uGfeu32KFzNDnv55906AQJROfv0XpJe4HhOtUzBtJXepu6w-UUuRgg5xYdpOjTBk-icXqvzVLuv3TE08FvqYOjJ7JA=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcemkhf_kqYoe7TUkJNpNa0L_9OcSCQSrNmgtldxbk45Hs97vnqZ-w4OfgiaQaQu0JcYjqxtZX7Kn4mxGisZt8MBL28JxPCOGKvP-Qx_WnwC6oEUXFdmILNkn1BM9kbandGtquT2rn29NpSEJIqHFvsM1XswllLZZQMHqlFsgRBBF9zl39C-gjbFQhRnKigd6pfPlnNtDStxrnVesopR_omE1l3zwVm_Y="
+    },
+    {
+      "label": "repec",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFMSnB8jTq45zrQjbe1YdsMG0h71eP79Rn4-ZOEKO1Y32eB0s5jtWRQuR3vP0dsOA43vxTQbFzyhNFs8mTO9FHN9PJoxf0GRkrKMl432Ww5eXe8q8kThnHAt8ZM7MOqQqZ2zw4_wxkedlU95wlz6kCHwKTS6TRIw=="
+    },
+    {
+      "label": "mab-online",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYbkUbLq_kRO-sLxa_VMIg7y_iJXFy9S_llDauDtZ4QJiJfoA7K0ufZTrGmFd1D3Tc_2dzos89SiMqVYQLjYHlFdR7NS3-tQClQZ-dUoHGJp8msO4eyoXncDzhIRVG0F86vkU_GluV5nmuBFjXA=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHteBn_RVWBmxkAkOt7O1CHXkqhmFmLt67NIDekEK8-TOz1fqVydiVcrOmURvzBR5hjAVNRUALvXzNeRc5BDaUsxFIwC6kH-bjljdoOJZLH39xIGOlWpbgekEIuI7_AMM3JzpzI02YnKT8GryN1KuwdDLUjsPvhqUoTkI3kbW3Yaj1JGVBiKDenZw1HUxml65ddvYL2E4cXszK0W_AtLb8="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

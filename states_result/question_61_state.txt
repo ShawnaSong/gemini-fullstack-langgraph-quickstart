@@ -1,0 +1,1130 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 21:45:41
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: best ability for gp to start into garen if you play perfectly?
+
+[AI]: If you play Gangplank perfectly against Garen, the optimal ability to start with is a nuanced decision, but generally, **Parrrley (Q) is the safer and more consistent choice.** While Powder Keg (E) can offer aggressive early-game plays, it's riskier and more easily punished by a skilled Garen.
+
+Here's why Q is generally favored, and when E might be considered:
+
+*   **Parrrley (Q):** This ability provides consistent poke and farming potential, allowing you to safely generate gold through its passive [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=). It also enables you to stack Grasp of the Undying effectively. Prioritizing Q harass and farming is a key strategy against Garen [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=).
+
+*   **Powder Keg (E):** Starting with E can be advantageous if you can consistently land barrels and get the passive on Garen [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=). A common strategy involves leveling E and sitting in the middle top bush, exploding the keg as minions die to hit Garen when he goes to last hit [mobafire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErbnW1M9-UtlEA5dU7CzdBwGIy1gKft5hjtTDNGJBiS5VbGAU31CN0k_qsJYVSONL4sSOAYUJZdGSRo-ldR3GIZ1iwcGT7n6-co0JOHX_uMn7-6cvTlU4DFQ28ogYniygpFXsCz1YFXz2AchuudZecdWESo2nIAqtJiPs4lyOPKPdhT0DyheJ27Sd4xASQynJ5QrP3K4m4zPScUs7TcN650tzecw3-Jn8Bev88Hha8i9DH). However, this is a riskier play. Garen can easily disarm barrels with basic attacks if your timing and placement aren't precise [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8=). If Garen contests the bushes, you might not be able to execute this strategy [mobafire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-). Furthermore, Garen can use his auto-attack reset to quickly destroy barrels [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z).
+
+**Perfect Play Considerations:**
+
+Even with perfect play, starting E has potential downsides:
+
+*   **Mana Management:** Using Q to detonate kegs for harass drains mana [18].
+*   **Garen's Sustain:** If Garen starts with Doran's Shield and Second Wind, he can sustain through your poke [5, 7, 9].
+*   **Garen's Aggression:** Garen can run at you when your E is down early and pressure you with his passive auto attack [mobafire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-).
+
+**In summary, while a perfectly executed E start *could* yield early advantages, the risk and reliance on specific conditions make Parrrley (Q) the more reliable and optimal choice for consistent, perfect play against Garen.** Focus on safe farming, poking with Q, and scaling into the late game, where Gangplank outscales Garen [mobachampion](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf8mFJDfewI4qtB_lTf5V_Esht9cd81UUmoxfQwWIK_Wa87iGvx5xo3xzAkHn9r7G3Nvhv0bHBha2sTRxHbmMC5ZfxP5Yfo0J3jx30cAlwXCX0HesBX_YrfB-iE862AHCmwx-cRsW5wn8xSst9QwlgTomwlOmQ).
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 4
+Sources gathered: 106
+Web research results: 4
+
+SEARCH QUERIES USED
+----------------------------------------
+1. best ability gp start vs garen
+2. gangplank optimal starting ability garen matchup
+3. What are the specific level 1 trading patterns and barrel placement strategies that allow Gangplank to win the lane against Garen when starting with Powder Keg (E)?
+4. What are the exact conditions (Garen's runes, summoner spells, and starting items) under which starting Powder Keg (E) is a disadvantage for Gangplank, even if played perfectly?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+The optimal ability start for Gangplank (GP) against Garen can vary depending on the player's style and the specific game conditions. Here's a breakdown of different perspectives and advice found in the search results as of June 20, 2025:
+
+**General Consensus and Strategies:**
+
+*   **Gangplank favored:** Generally, Gangplank is considered to have a slight edge in the matchup against Garen.
+*   **Poke and Farm:** The primary strategy for Gangplank is to use his Parrrley (Q) to constantly poke Garen and farm from a safe distance. This denies Garen's passive regeneration and makes it difficult for him to engage.
+*   **Barrel Placement:** Utilize barrels to zone Garen, disengage, and set up trades. [reddit](https://vertexaisearch.cloud.google.com/id/0-0)
+*   **Respect Garen's kill potential:** Avoid giving Garen early kills, as he can become difficult to handle.
+
+**Ability Start Options:**
+
+*   **Parrrley (Q):**
+    *   Some suggest starting with Q for the consistent poke and farming potential.
+    *   It allows Gangplank to gain extra gold through the passive. [youtube](https://vertexaisearch.cloud.google.com/id/0-1)
+    *   Good for stacking Grasp of the Undying.
+*   **Powder Keg (E):**
+    *   Some suggest starting with E, especially if you can consistently land barrels and get the passive on Garen.
+    *   Starting E level one is the real only way you lose versus Gangplank is if he starts E level one. [youtube](https://vertexaisearch.cloud.google.com/id/0-1) and he first gets his passive on you gets a barrel. [youtube](https://vertexaisearch.cloud.google.com/id/0-1) get gets his passive on you he gets a barrel and a passive on you like he needs so much to win early game versus you or if he starts Q. [youtube](https://vertexaisearch.cloud.google.com/id/0-1)
+*   **Other Considerations:**
+    *   After the initial ability, prioritize leveling Q for harass and farming.
+    *   Take W (Remove Scurvy) second or third for sustain and to remove Garen's silence.
+
+**Garen's Perspective:**
+
+*   Garen players often struggle against Gangplank due to his constant poke.
+*   Some Garen players opt for Doran's Shield and Second Wind to mitigate Gangplank's harass. [reddit](https://vertexaisearch.cloud.google.com/id/0-0)
+*   Garen wants to start E and just keep E'ing into his face. When he uses his counter strike activate W in response and just chase him down and kill him. [mobafire](https://vertexaisearch.cloud.google.com/id/0-2)
+
+**Runes:**
+
+*   **Grasp of the Undying:** Good for short trades and sustain in lane.
+*   **First Strike:** Can be used to generate more gold. [youtube](https://vertexaisearch.cloud.google.com/id/0-1) [reddit](https://vertexaisearch.cloud.google.com/id/0-3)
+*   **Fleet Footwork:** Helps with sustain and mobility to avoid Garen's engages. [youtube](https://vertexaisearch.cloud.google.com/id/0-4)
+
+**Important Notes:**
+
+*   Gangplank has a steeper learning curve than Garen. [mobachampion](https://vertexaisearch.cloud.google.com/id/0-5)
+*   Gangplank outscales Garen in the late game.
+*   Be cautious of Garen in bushes, as he can deal significant damage with Judgment (E). [mobachampion](https://vertexaisearch.cloud.google.com/id/0-6)
+
+
+--- Research Result 2 ---
+Based on the search results, here's a summary of the Gangplank vs. Garen matchup in League of Legends:
+
+**Overall Matchup:**
+
+*   Gangplank and Garen are considered to have a relatively even matchup, with Gangplank having a slightly better win rate in some analyses. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-0) [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) Some sources state Gangplank wins about 50.3% of the time when these champions face each other [2, 11]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) [lolalytics](https://vertexaisearch.cloud.google.com/id/1-2) [mobachampion](https://vertexaisearch.cloud.google.com/id/1-0) Other sources state Gangplank wins about 55.38% of the time [4].
+*   The matchup is considered skill-based [3]. [youtube](https://vertexaisearch.cloud.google.com/id/1-3)
+*   It's important for both champions to focus on farming, gaining gold, and securing objectives [2, 5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1)
+
+**Gangplank's Strengths:**
+
+*   Can cleanse Garen's CC with his W [8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-4)
+*   Good wave clear [8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-3) [youtube](https://vertexaisearch.cloud.google.com/id/1-4)
+*   Global ultimate (Cannon Barrage) can provide pressure and help teammates [2, 8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-4)
+*   Strong in side lanes [8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-4)
+*   Can gain extra gold by killing minions or barrels with his Q [3, 8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-4) [youtube](https://vertexaisearch.cloud.google.com/id/1-3)
+
+**Garen's Strengths:**
+
+*   Good sustain with his passive, especially after being bullied in lane [10].
+*   Strong kill potential at level 6 [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)
+*   Can use his auto attack reset to quickly destroy Gangplank's barrels [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)
+*   Garen's regeneration greatly increases if he can avoid receiving damage for several seconds [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6) [youtube](https://vertexaisearch.cloud.google.com/id/1-3)
+
+**Laning Phase:**
+
+*   **Starting Items/Abilities:** Some guides suggest Garen should start with his E [1].
+*   **Garen:** Should take Second Wind against Gangplank's poke [1].
+*   **Gangplank:** Should focus on farming and poking with Q [8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-3)
+*   **Early Game:** Garen may have a slight advantage levels 1-3 if Gangplank doesn't start E [3]. [youtube](https://vertexaisearch.cloud.google.com/id/1-3)
+*   **Barrel Control:** A key aspect of the lane is controlling Gangplank's barrels. [youtube](https://vertexaisearch.cloud.google.com/id/1-3) [reddit](https://vertexaisearch.cloud.google.com/id/1-5) Garen can use his auto-attack reset to destroy barrels quickly [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)
+*   **Trading:** Garen should try to position himself so that only the enemy champion is hit by his Judgment (E) for effective trading [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)
+*   **All-ins:** Garen can look for all-in opportunities around level 6, especially after getting his first item [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)
+
+**Runes and Builds:**
+
+*   **Gangplank:**
+    *   **Runes:** First Strike, Magical Footwear, Biscuit Delivery, Cosmic Insight, Bone Plating, and Overgrowth [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) Grasp of the Undying is also a viable option [9]. [metasrc](https://vertexaisearch.cloud.google.com/id/1-7)
+    *   **Items:** Bloodthirster, Navori Quickblades, and The Collector [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) Trinity Force, Ionian Boots of Lucidity, The Collector, Mortal Reminder, Infinity Edge and Immortal Shieldbow [9]. [metasrc](https://vertexaisearch.cloud.google.com/id/1-7)
+*   **Garen:**
+    *   **Runes:** Conqueror, Triumph, Legend: Tenacity, Last Stand, Conditioning, and Overgrowth [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)
+    *   **Items:** Stridebreaker, Berserker's Greaves, Phantom Dancer, Spear of Shojin, and Dead Man's Plate [10]. [mobalytics](https://vertexaisearch.cloud.google.com/id/1-8) Black Cleaver is effective due to Garen's reliance on cooldowns [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)
+
+**Tips and Strategies:**
+
+*   **Gangplank:**
+    *   Be careful when Garen is in brush [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1)
+    *   Use Cannon Barrage to cut off enemy escape routes [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1)
+    *   Maximize gold and CS [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)
+*   **Garen:**
+    *   Be patient and respect Gangplank's early damage [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)
+    *   Try to bait out Gangplank's barrels [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5) [youtube](https://vertexaisearch.cloud.google.com/id/1-3)
+    *   Use W to mitigate damage from Gangplank's barrels [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)
+    *   Stack armor items to reduce Garen's physical damage [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1)
+
+**Counterplay:**
+
+*   **Against Garen:**
+    *   Be aware of Garen's execute range with his ultimate (Demacian Justice) [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) [youtube](https://vertexaisearch.cloud.google.com/id/1-3)
+*   **Against Gangplank:**
+    *   Armor items can help mitigate Gangplank's Parrrley (Q) damage [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)
+
+**Important Note:** Some information may be outdated as patches and game meta change frequently. Check recent guides and pro builds for the most up-to-date information.
+
+
+--- Research Result 3 ---
+Based on the search results, here's a synthesis of level 1 trading patterns and barrel placement strategies for Gangplank (GP) against Garen, starting with Powder Keg (E):
+
+**General Strategy**
+
+*   **Early Game Focus:** The primary focus is on safe farming with Parrrley (Q), using barrels to poke, and controlling the wave. [tacter](https://vertexaisearch.cloud.google.com/id/2-0) Avoid extended trades. (2, 9)
+*   **Respect Garen's Early Damage:** Garen can reset his passive, so respect his damage output. [reddit](https://vertexaisearch.cloud.google.com/id/2-1) Giving up some CS to stay in XP range is acceptable. [reddit](https://vertexaisearch.cloud.google.com/id/2-1) (6)
+*   **Scaling:** Gangplank's early game is inconsistent, so focus on scaling and avoiding deaths. [mobachampion](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (8)
+
+**Level 1 Barrel Placement and Trading**
+
+*   **Bush Placement:** A common strategy involves leveling Powder Keg (E) and sitting in the middle top bush. Wait for minions to crash and explode the keg as they are about to die, hitting the enemy laner when they go to last hit. [mobafire](https://vertexaisearch.cloud.google.com/id/2-4) (7)
+*   **Aggressive Level 1-2:** Be very aggressive at levels 1 and 2. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (21)
+*   **Corrupting Potion:** Use Corrupting Potion to extend the time Garen's passive is disabled when you hit him with Q. (1)
+*   **Zoning:** Place barrels near low-health allied minions to zone Garen off CS in melee matchups. (2)
+*   **Safe Barrel:** Place one barrel "safe" from Garen and wait for it to reach one hitpoint. Then, connect a second barrel and detonate them with Q. (8) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)
+*   **Proximity Barrels:** Place barrels close to yourself to win the "who last hits the barrel" mini-game, especially against ranged champions. This forces Garen to play your game and allows you to deal more damage. [mobachampion](https://vertexaisearch.cloud.google.com/id/2-2) (14)
+*   **Auto-Attack First:** Instead of Qing the first barrel, auto-attack it to prepare a Sheen proc. (14)
+*   **Barrel as Bait:** Bait out Garen's abilities by making him target your barrels. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) If he destroys them early, you'll have an extended window for trades. [reddit](https://vertexaisearch.cloud.google.com/id/2-1) (6)
+
+**Trading Patterns**
+
+*   **Q for Disables:** Garen's Q cancels slows, but only if he uses it *after* being slowed. If he's running at you and you pop a barrel, he still gets slowed. [reddit](https://vertexaisearch.cloud.google.com/id/2-5) (1)
+*   **Grasp of the Undying:** Use Grasp of the Undying to help stay alive in lane. (8)
+*   **Grasp Procs:** Attack minions to push for level 2 and stack Grasp. When it's activated, use Q for extra damage and healing, then retreat into a bush to drop minion aggro. [mobachampion](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3) Repeat this process. (8)
+*   **Auto-Barrel-Q:** Poke by auto-attacking barrels to slow and damage Garen, then Q him to proc First Strike/Grasp. (20)
+*   **Sheen Proc:** Store a Sheen proc on a barrel by auto-attacking or Qing it before it explodes. (14)
+
+**Counterplay and Considerations**
+
+*   **Garen's Barrel Control:** Be aware that Garen has an auto-attack reset, allowing him to quickly destroy barrels. [reddit](https://vertexaisearch.cloud.google.com/id/2-1) (6)
+*   **Tenacity:** Garen's W gives him tenacity, reducing the effectiveness of slows. (1) [reddit](https://vertexaisearch.cloud.google.com/id/2-5)
+*   **Vision:** Use barrels to check bushes for vision. [youtube](https://vertexaisearch.cloud.google.com/id/2-6) [reddit](https://vertexaisearch.cloud.google.com/id/2-7) (2, 10) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)
+*   **Mana:** Manage your mana, as it's essential for poking and controlling the lane. (21)
+*   **Garen's Sustain:** Garen's passive and Doran's Shield provide sustain, making it difficult to poke him out of lane. (1)
+*   **Team Fights:** In team fights, Garen is not the greatest splitpusher. (1)
+
+**Itemization and Runes** [mobachampion](https://vertexaisearch.cloud.google.com/id/2-2) [mobafire](https://vertexaisearch.cloud.google.com/id/2-8) [mobachampion](https://vertexaisearch.cloud.google.com/id/2-9)
+
+*   **Runes:** Use First Strike, Magical Footwear, Biscuit Delivery, and Cosmic Insight from the Inspiration tree, combined with Bone Plating and Overgrowth from the Resolve tree. [mobachampion](https://vertexaisearch.cloud.google.com/id/2-9) [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (3)
+*   **Core Items:** Bloodthirster, Navori Quickblades, and The Collector are effective items against Garen. (3) [mobachampion](https://vertexaisearch.cloud.google.com/id/2-9) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)
+*   **Starting Items:** Corrupting Potion is a good starting item. (20)
+*   **Doran's Shield:** Garen may take Doran's Shield and Second Wind for sustain. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (6)
+
+**Important Notes**
+
+*   The Gangplank vs. Garen matchup is considered skill-based. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (7)
+*   Some players consider Garen a must-ban due to the difficulty of the matchup. (6)
+*   Gangplank is weak against champions like Dr. Mundo and Trundle. (4) [mobachampion](https://vertexaisearch.cloud.google.com/id/2-10) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)
+*   Gangplank does well against Poppy, Yone and Yasuo. (9)
+
+
+--- Research Result 4 ---
+It's difficult to pinpoint *exact* conditions where starting Powder Keg (E) is *always* a disadvantage for Gangplank against Garen, even with perfect play. The Gangplank vs. Garen matchup is considered skill-based, with Gangplank having a slightly favorable win rate in some analyses [4, 11, 14]. Here's a breakdown of factors to consider:
+
+**General Disadvantages of Early Powder Keg Start:**
+
+*   **Keg Vulnerability:** In the early game, Powder Kegs take a long time to arm [3]. Garen can easily disarm them with basic attacks if Gangplank's timing and placement aren't precise [2]. [reddit](https://vertexaisearch.cloud.google.com/id/3-0)
+*   **Mana Issues:**  Using Parrrley (Q) to detonate Kegs for harass drains mana, leaving Gangplank weak if he can't manage his mana effectively [18].
+*   **Garen's Early Pressure:** Garen can run at Gangplank when his E is down early levels and pressure him with his passive auto attack [4]. [mobafire](https://vertexaisearch.cloud.google.com/id/3-1)
+*   **Lack of Early Game Power:** Gangplank is generally considered weak in the early game and needs to play safely to scale [17, 18]. [dignitas](https://vertexaisearch.cloud.google.com/id/3-2) Relying solely on Powder Kegs without proper setup or backup plans can make him vulnerable to Garen's aggression.
+
+**Conditions Where E Start *Could* Be a Disadvantage:**
+
+These scenarios assume Garen is playing optimally:
+
+*   **Garen's Rune Setup:** If Garen takes Bone Plating, it can be difficult for Gangplank to proc it with an auto attack and walk out and back in to E [16].
+*   **Garen's Starting Items:** If Garen starts with Doran's Shield and Second Wind, coupled with Flash and Ignite, he can sustain through Gangplank's poke and look for all-in opportunities [5, 7, 9].
+*   **Bush Control:** If Garen contests or invades the top lane bushes, Gangplank might not be able to start in the lane bushes and wait for minions to crash to explode the Powder Keg as the enemy goes to last hit them [4]. [mobafire](https://vertexaisearch.cloud.google.com/id/3-1)
+*   **Garen's Playstyle:** If Garen constantly walks in and out of barrel range to bait Gangplank to hit it, and Gangplank wastes the barrel, Garen can bully him [16].
+
+**When E Start *Can* Be Good:**
+
+*   **Zoning:** Placing kegs near low-health allied minions can zone Garen off CS in melee matchups [2]. [reddit](https://vertexaisearch.cloud.google.com/id/3-0)
+*   **Brush Play:** Hiding a keg in the tiny brushes in top lane can be used as a trigger keg or escape keg [3]. [youtube](https://vertexaisearch.cloud.google.com/id/3-3)
+*   **Ganking:** Keeping a keg or two in the lane bushes behind you when pushing into the enemy tower can help escape ganks [2]. [reddit](https://vertexaisearch.cloud.google.com/id/3-0)
+
+**Gangplank's Standard Approach:**
+
+*   **Safe Farming:** Focus on farming safely with Parrrley (Q) in the early game [8].
+*   **Scaling:** Gangplank is a strong late-game carry [17]. [dignitas](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Vision:** Prioritize vision around objectives [8]. [tacter](https://vertexaisearch.cloud.google.com/id/3-4)
+
+**Runes and Summoner Spells:**
+
+*   **Runes:** Some Gangplank players use different setups [4]. [tacter](https://vertexaisearch.cloud.google.com/id/3-4) First Strike is considered the best by some, while Grasp of the Undying is another choice [4]. [mobafire](https://vertexaisearch.cloud.google.com/id/3-1)
+*   **Summoner Spells:** Flash and Teleport are the optimal Summoner Spells for Gangplank [6]. [mobalytics](https://vertexaisearch.cloud.google.com/id/3-5)
+
+**Important Considerations:**
+
+*   **Skill Level:**  The outcome of the matchup heavily relies on the skill and experience of both players [13].
+*   **Team Composition:** Gangplank is strong against short-range compositions [4].
+*   **Barrel Mechanics:** Mastering barrel combos and understanding their limitations is crucial for Gangplank [13, 15]. [mobachampion](https://vertexaisearch.cloud.google.com/id/3-6)
+
+
+SOURCES GATHERED
+----------------------------------------
+1. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHhiDO87XV1tvcfRlI6w9moNLuTG2A-0jhMz9OHrI2mvfxR63OrUIoercUWn0pFSZCQIdZ8DR5kMUgFNYsAldcGMX9TRg-izGEV83RAnNNmL8Tm4dLmUNWPyn2sSymNpRwOmqqUnjdlqKKxDmhvEHmnKn0wm0Y-jb4IUx3Cy5fbOHPSwb0pJyK3g==
+
+2. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=
+
+3. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=
+
+4. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=
+
+5. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=
+
+6. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHhiDO87XV1tvcfRlI6w9moNLuTG2A-0jhMz9OHrI2mvfxR63OrUIoercUWn0pFSZCQIdZ8DR5kMUgFNYsAldcGMX9TRg-izGEV83RAnNNmL8Tm4dLmUNWPyn2sSymNpRwOmqqUnjdlqKKxDmhvEHmnKn0wm0Y-jb4IUx3Cy5fbOHPSwb0pJyK3g==
+
+7. mobafire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhKKd_idAmL0A1XLO_v7h-VdsMUzo9dk5wli1RrmCucp0fMDHP7xJ77_S_yrOI4pGV2r95O9oNQjX-t_6Jx-jhoX3WayLPky1brtMI7xqas0j-MyUz_yJzHG5jYIG_JmD3tkQ9ICXDmnOAkVScjUYtIvaaThl-H_7Nq_17ujlE-y5Y1XFbgphcTxowEAwfTsda5Wtj8-7o-4EQO7hQZi7Stm616lH3IX0X66Nsww==
+
+8. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=
+
+9. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJls7QQgEZZ3disYv_z-E2F1kbNDI2TliK7oBohsYToWJPYuT40UaRnsO91GxWbsKNrDXbKGiWSNpJcBu34gMoZ3G9C7sOLH-sTG08HAggrw_gi5mjXpcMRwmCHo14L9tzLMdTsIAb0dyVnhiZUdcwSgds8deLqEasys4f2M-7XgcM
+
+10. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxIwmkTR5HwyYDiXuonj-92SoVTdfSDWLd74EVKIODPcUxXHrhlrb945wGQRpQne8_ingUPf2OTS0NNQpB6SWiIJVKdD4Tye1Im1YY5ZDpcau432VjvovCxkOJGvuqO0E55NuaBC0=
+
+11. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf8mFJDfewI4qtB_lTf5V_Esht9cd81UUmoxfQwWIK_Wa87iGvx5xo3xzAkHn9r7G3Nvhv0bHBha2sTRxHbmMC5ZfxP5Yfo0J3jx30cAlwXCX0HesBX_YrfB-iE862AHCmwx-cRsW5wn8xSst9QwlgTomwlOmQ
+
+12. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnW47DRrwYn2A1RYrQZWbIEYdZUNstNwLQYtLaE91GYxaIsfyUCNxVQsk7GoigEFkl1l_fRJARd5xv6tp4Y34x7rWpm-Coe2eXM_wYIai7FnXCpBSJXzpcLOLDWRNVlp864XT25TQvV8FeZY392vTftNp_
+
+13. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoXtPUrBvS9FUu8Qf5miJavrV-YBSlnWZxuBrSPhiX6r6drLXJPBQEVncB8Bd6pHgDXaXmSuf3fNaKdBlWBxBM7M0wQAGnGwdn9jvDBB7W31YSZoYJ7ImGX7V_N8HBvTFZyKy_rm9zaTpC1jT1X9u-YiYpPo7A
+
+14. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+15. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+16. lolalytics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZAxohVJpefPTCLbG-i-qqLzDvpUI_ge0tnxsfAbwHiAz-0yL3EX9gz5-2bl-jY0alfzEhPB-H_wJ--tWYc-aaP1j9jIBuYLLRPEJbQWekGfHIDNB5AgjNwTz_Wt3Ht4azBn3ERGbR81VXNxUEC8U=
+
+17. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoXtPUrBvS9FUu8Qf5miJavrV-YBSlnWZxuBrSPhiX6r6drLXJPBQEVncB8Bd6pHgDXaXmSuf3fNaKdBlWBxBM7M0wQAGnGwdn9jvDBB7W31YSZoYJ7ImGX7V_N8HBvTFZyKy_rm9zaTpC1jT1X9u-YiYpPo7A
+
+18. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+19. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+20. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA=
+
+21. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+22. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA=
+
+23. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA=
+
+24. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA=
+
+25. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA=
+
+26. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+27. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z
+
+28. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z
+
+29. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL
+
+30. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+31. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+32. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+33. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+34. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z
+
+35. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z
+
+36. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL
+
+37. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z
+
+38. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+39. metasrc
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSguoWXOAatrncGPsNu6MmbAwMaHAzbotrkIFaFiBcl7kJiOESGV54dmZhoQbvGWwx3GBKhGIVXJheMszv50MmUXmJfQVR27MH9xx2MbD-HpoeV9q5mgv8vHkPOp_ikBZsIpFoZBY=
+
+40. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+41. metasrc
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSguoWXOAatrncGPsNu6MmbAwMaHAzbotrkIFaFiBcl7kJiOESGV54dmZhoQbvGWwx3GBKhGIVXJheMszv50MmUXmJfQVR27MH9xx2MbD-HpoeV9q5mgv8vHkPOp_ikBZsIpFoZBY=
+
+42. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL
+
+43. mobalytics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnBW53wTEwB3i8goEIp7gt5Ps4nz_G4JgEUR95zKcdHqSb0av9R92ftk9U6mZrE4hgoV0J2igUszdRWnoeaaAuiQI-MVSZuEgvKgbXoCxL05T27LPcKhFEyNYeNMh8btU0li8nMXySI0ZM
+
+44. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL
+
+45. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+46. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+47. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+48. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL
+
+49. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z
+
+50. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z
+
+51. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+52. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z
+
+53. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+54. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj
+
+55. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+56. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL
+
+57. tacter
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGszSZlOg2P9NWznlJnNp-74HTWUHeSspWVgtAeFJV401wLdX-A1wyPiOtpXBdZekLKMlXmEzkSdJrt1kBhfnFOboOyms5zCyeyqOQT_O27joVc8PET8LJ01eQSRpXPnLdgIoFe484i56HUsk7yg==
+
+58. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw7KCWyRECulkkqMzic8VqfKpoG0mZS2OQzSdK-uzX26z6b6xv53TAbDhbml9c3ViZRiVJqLiP8ekvf0hQAnYOVVpQk4nMxI034XPz3-eOXPkQP-Ds6USG8DRPwBY96mhbMP4EBwfu0EYLWfeQxKoxf5Ay-YveuEd7Ko4AI6Pdbg-UWj1JqQNaVToy
+
+59. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw7KCWyRECulkkqMzic8VqfKpoG0mZS2OQzSdK-uzX26z6b6xv53TAbDhbml9c3ViZRiVJqLiP8ekvf0hQAnYOVVpQk4nMxI034XPz3-eOXPkQP-Ds6USG8DRPwBY96mhbMP4EBwfu0EYLWfeQxKoxf5Ay-YveuEd7Ko4AI6Pdbg-UWj1JqQNaVToy
+
+60. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTnfjtya2DYU2aUWAKvs727Pt9qC9mPUr9o6wCVqLNrpIxJK1bO3d8SFM0hmb2uz5u6neguHmSNS9dMRxjWue4-mNbvt8_UAnaJXoqN5Xk-zZIk04dd2w2XhlDmuqeNkJJiwQNCkAbVJL5mdefHVrI-yufgFu
+
+61. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+62. mobafire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErbnW1M9-UtlEA5dU7CzdBwGIy1gKft5hjtTDNGJBiS5VbGAU31CN0k_qsJYVSONL4sSOAYUJZdGSRo-ldR3GIZ1iwcGT7n6-co0JOHX_uMn7-6cvTlU4DFQ28ogYniygpFXsCz1YFXz2AchuudZecdWESo2nIAqtJiPs4lyOPKPdhT0DyheJ27Sd4xASQynJ5QrP3K4m4zPScUs7TcN650tzecw3-Jn8Bev88Hha8i9DH
+
+63. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+64. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+65. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTnfjtya2DYU2aUWAKvs727Pt9qC9mPUr9o6wCVqLNrpIxJK1bO3d8SFM0hmb2uz5u6neguHmSNS9dMRxjWue4-mNbvt8_UAnaJXoqN5Xk-zZIk04dd2w2XhlDmuqeNkJJiwQNCkAbVJL5mdefHVrI-yufgFu
+
+66. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+67. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw7KCWyRECulkkqMzic8VqfKpoG0mZS2OQzSdK-uzX26z6b6xv53TAbDhbml9c3ViZRiVJqLiP8ekvf0hQAnYOVVpQk4nMxI034XPz3-eOXPkQP-Ds6USG8DRPwBY96mhbMP4EBwfu0EYLWfeQxKoxf5Ay-YveuEd7Ko4AI6Pdbg-UWj1JqQNaVToy
+
+68. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt_ZQsI3dy6A6IXTRKexE27qd34cbCJs9Yom8VJvYhTqjim_R_6zn4t7H-xEjbq2uLmuzPY2boRBxvGaztwAikzvbJtP9HLfhXvWOGxwvAxYfyW6KXk2UPVbIfpzOXbN6Uej269s95XSLQG1WgEEYAad1O_1N4Wqug8OL23Tn3iURvqa4BO_5f8eoBzvNOityN
+
+69. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTnfjtya2DYU2aUWAKvs727Pt9qC9mPUr9o6wCVqLNrpIxJK1bO3d8SFM0hmb2uz5u6neguHmSNS9dMRxjWue4-mNbvt8_UAnaJXoqN5Xk-zZIk04dd2w2XhlDmuqeNkJJiwQNCkAbVJL5mdefHVrI-yufgFu
+
+70. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+71. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw7KCWyRECulkkqMzic8VqfKpoG0mZS2OQzSdK-uzX26z6b6xv53TAbDhbml9c3ViZRiVJqLiP8ekvf0hQAnYOVVpQk4nMxI034XPz3-eOXPkQP-Ds6USG8DRPwBY96mhbMP4EBwfu0EYLWfeQxKoxf5Ay-YveuEd7Ko4AI6Pdbg-UWj1JqQNaVToy
+
+72. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt_ZQsI3dy6A6IXTRKexE27qd34cbCJs9Yom8VJvYhTqjim_R_6zn4t7H-xEjbq2uLmuzPY2boRBxvGaztwAikzvbJtP9HLfhXvWOGxwvAxYfyW6KXk2UPVbIfpzOXbN6Uej269s95XSLQG1WgEEYAad1O_1N4Wqug8OL23Tn3iURvqa4BO_5f8eoBzvNOityN
+
+73. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy9B04E_1IFyg3X9A5x7IdHQXAV1oV0hU2fgiFZ1TCDG9OTESK2lE8nP9CtH-WqK2INO94mFMqTzhXGM4NXA6xf00egjIFfx708xmJ_cOXYQf7_oxqlFkoc-YXOxNUqZclYXi1MSo=
+
+74. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnKj0PwZmp41fN5zJmepGoYEH5Gnnj6VUcnYkWaMugED7hdeaxtPH0fKHkOWkxQ5FDO8bT9JMmDTdAAQFUijA1pWbzCbkECXGWJXtEptgZSnvxMoJX-BjQ9V9TpcLuC6ScDlVkqj-KWbx67r-penvvYSxMddI1ADMBPKuJr2btiZxEmr6t5ge3auG4OhZBxSlWvXna7T3rqBw=
+
+75. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+76. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTnfjtya2DYU2aUWAKvs727Pt9qC9mPUr9o6wCVqLNrpIxJK1bO3d8SFM0hmb2uz5u6neguHmSNS9dMRxjWue4-mNbvt8_UAnaJXoqN5Xk-zZIk04dd2w2XhlDmuqeNkJJiwQNCkAbVJL5mdefHVrI-yufgFu
+
+77. mobafire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPbCQRL1nLW0YpR-43_pY8i05fOkmsgUq1iFfc6rsOPdjwto6M20uAxAuITkpzjyWrB5ALJq6n6M4ldo5beohY7tAGVikoY_A_wKGMzRxtZu--_OXE15L-hFX2NywYfwMBgTvvyfvXf_NZmb1zagfRrIntLRVgm59tvC_XP97ouompCbqsf3Fv83rMljYB4Yby9gqq93By2V1EK4k=
+
+78. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELWrhxSUMEfdfkSL8atSiFvh6VFVC2aB6QOob8HAJrlBKVn07FwYpQodEehXDC06S_vU9Pj7Ao01esI2emleOycROzDRVYw1NsLs3BK1QfQw23W_ygTpbRcHWBwDj7lAGl9tIZmtGL_gJad3ehfx2ntuEl
+
+79. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELWrhxSUMEfdfkSL8atSiFvh6VFVC2aB6QOob8HAJrlBKVn07FwYpQodEehXDC06S_vU9Pj7Ao01esI2emleOycROzDRVYw1NsLs3BK1QfQw23W_ygTpbRcHWBwDj7lAGl9tIZmtGL_gJad3ehfx2ntuEl
+
+80. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+81. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELWrhxSUMEfdfkSL8atSiFvh6VFVC2aB6QOob8HAJrlBKVn07FwYpQodEehXDC06S_vU9Pj7Ao01esI2emleOycROzDRVYw1NsLs3BK1QfQw23W_ygTpbRcHWBwDj7lAGl9tIZmtGL_gJad3ehfx2ntuEl
+
+82. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+83. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+84. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+85. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0dd78c2Rx5B1PzKZqn2Z3vXOlgCNyHaVR6jH8uSFyAC7EJALKpZJmIhMGT3m0dXUJUVjkicmLs74KJP2PgfKKghQakKTsbJciiwU5RrtyCczhk_zZc_0WTGsiexkcelMB1GXIRSsE36zSlv0SV_nrX9c-yA==
+
+86. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7
+
+87. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8=
+
+88. mobafire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-
+
+89. dignitas
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXYwLVn6ZLZzg8yC2iyG0HRcFRLidvspUX5FtrikUprq77VxK0B1R1FsPobCB91MlsI2l5WrWtwN6s7TgetUw7-rPZgMOeFw_YVjz0XXWpPVGkS8AndHTFW09Eo8pKpt53qNojVrGicUvR2K8eZpGT2abc0v7KDmc5P7dvVv-FgQPAnNLvmpTv-3-UT6iFBIAWuJIRwmQ1y_mdGGaPDXPj1PSpvA==
+
+90. mobafire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-
+
+91. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8=
+
+92. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOwfx4-eHZLRI8Ti-tO8NH9U4OVwiIF02BzNtJixy_DvHvFMT-YOvOLJkgTDk5C4FcGpRSpjEVwzfBPLxUlhggBsvV6SuQKRo_JNU9crkdOS_XWUFS-u61JGs4fit-m40Bi1HUlFI=
+
+93. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8=
+
+94. dignitas
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXYwLVn6ZLZzg8yC2iyG0HRcFRLidvspUX5FtrikUprq77VxK0B1R1FsPobCB91MlsI2l5WrWtwN6s7TgetUw7-rPZgMOeFw_YVjz0XXWpPVGkS8AndHTFW09Eo8pKpt53qNojVrGicUvR2K8eZpGT2abc0v7KDmc5P7dvVv-FgQPAnNLvmpTv-3-UT6iFBIAWuJIRwmQ1y_mdGGaPDXPj1PSpvA==
+
+95. tacter
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhON4-Plj3WAEU0vaC9b5KPBcesyZOA6klNxnsGfJfQgE5_ePR3hN3ocBf8bGFvuFFrqYvzzPHw6RUEE52vR7Lus5WAc1QULNEpkyLDNn1pmqW1ZynLLMFDYSAvFDOZmffGPksGqAEZ9sccGE2Vz54fA==
+
+96. tacter
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhON4-Plj3WAEU0vaC9b5KPBcesyZOA6klNxnsGfJfQgE5_ePR3hN3ocBf8bGFvuFFrqYvzzPHw6RUEE52vR7Lus5WAc1QULNEpkyLDNn1pmqW1ZynLLMFDYSAvFDOZmffGPksGqAEZ9sccGE2Vz54fA==
+
+97. mobafire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-
+
+98. mobalytics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0RRPg1cFAwWWlwhX1GiKdDUX6JzLLTTGmskaBQbI3_CiPbsHUkWSs_7m2RnZfdlb9DUUrRVLSbEku3SEM9qmfvAtRKJjhJUp1f05LjellnShvdCxj2GI0P2Y3rEgFzRpf_lDkow_opJBMLV2sKA==
+
+99. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGl6YP1xQT5pnHIyu9WNfL0mk63BX9pXIrJNNzA8j1z7C-VNY_R5dEeN_Wr3QTeNnYSl-BPqHY2sAWciyZqy13b0wYfnSSaiyfYvDWzli5Euu3jTTgj0MemztglBSugaPxBbCQ5rZ4XYa71Hx0pHEJVJTF-aVfrqo=
+
+100. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=
+
+101. mobachampion
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf8mFJDfewI4qtB_lTf5V_Esht9cd81UUmoxfQwWIK_Wa87iGvx5xo3xzAkHn9r7G3Nvhv0bHBha2sTRxHbmMC5ZfxP5Yfo0J3jx30cAlwXCX0HesBX_YrfB-iE862AHCmwx-cRsW5wn8xSst9QwlgTomwlOmQ
+
+102. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=
+
+103. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z
+
+104. mobafire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErbnW1M9-UtlEA5dU7CzdBwGIy1gKft5hjtTDNGJBiS5VbGAU31CN0k_qsJYVSONL4sSOAYUJZdGSRo-ldR3GIZ1iwcGT7n6-co0JOHX_uMn7-6cvTlU4DFQ28ogYniygpFXsCz1YFXz2AchuudZecdWESo2nIAqtJiPs4lyOPKPdhT0DyheJ27Sd4xASQynJ5QrP3K4m4zPScUs7TcN650tzecw3-Jn8Bev88Hha8i9DH
+
+105. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8=
+
+106. mobafire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "best ability for gp to start into garen if you play perfectly?"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "If you play Gangplank perfectly against Garen, the optimal ability to start with is a nuanced decision, but generally, **Parrrley (Q) is the safer and more consistent choice.** While Powder Keg (E) can offer aggressive early-game plays, it's riskier and more easily punished by a skilled Garen.\n\nHere's why Q is generally favored, and when E might be considered:\n\n*   **Parrrley (Q):** This ability provides consistent poke and farming potential, allowing you to safely generate gold through its passive [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=). It also enables you to stack Grasp of the Undying effectively. Prioritizing Q harass and farming is a key strategy against Garen [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y=).\n\n*   **Powder Keg (E):** Starting with E can be advantageous if you can consistently land barrels and get the passive on Garen [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk=). A common strategy involves leveling E and sitting in the middle top bush, exploding the keg as minions die to hit Garen when he goes to last hit [mobafire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErbnW1M9-UtlEA5dU7CzdBwGIy1gKft5hjtTDNGJBiS5VbGAU31CN0k_qsJYVSONL4sSOAYUJZdGSRo-ldR3GIZ1iwcGT7n6-co0JOHX_uMn7-6cvTlU4DFQ28ogYniygpFXsCz1YFXz2AchuudZecdWESo2nIAqtJiPs4lyOPKPdhT0DyheJ27Sd4xASQynJ5QrP3K4m4zPScUs7TcN650tzecw3-Jn8Bev88Hha8i9DH). However, this is a riskier play. Garen can easily disarm barrels with basic attacks if your timing and placement aren't precise [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8=). If Garen contests the bushes, you might not be able to execute this strategy [mobafire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-). Furthermore, Garen can use his auto-attack reset to quickly destroy barrels [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z).\n\n**Perfect Play Considerations:**\n\nEven with perfect play, starting E has potential downsides:\n\n*   **Mana Management:** Using Q to detonate kegs for harass drains mana [18].\n*   **Garen's Sustain:** If Garen starts with Doran's Shield and Second Wind, he can sustain through your poke [5, 7, 9].\n*   **Garen's Aggression:** Garen can run at you when your E is down early and pressure you with his passive auto attack [mobafire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-).\n\n**In summary, while a perfectly executed E start *could* yield early advantages, the risk and reliance on specific conditions make Parrrley (Q) the more reliable and optimal choice for consistent, perfect play against Garen.** Focus on safe farming, poking with Q, and scaling into the late game, where Gangplank outscales Garen [mobachampion](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf8mFJDfewI4qtB_lTf5V_Esht9cd81UUmoxfQwWIK_Wa87iGvx5xo3xzAkHn9r7G3Nvhv0bHBha2sTRxHbmMC5ZfxP5Yfo0J3jx30cAlwXCX0HesBX_YrfB-iE862AHCmwx-cRsW5wn8xSst9QwlgTomwlOmQ)."
+    }
+  ],
+  "search_query": [
+    "best ability gp start vs garen",
+    "gangplank optimal starting ability garen matchup",
+    "What are the specific level 1 trading patterns and barrel placement strategies that allow Gangplank to win the lane against Garen when starting with Powder Keg (E)?",
+    "What are the exact conditions (Garen's runes, summoner spells, and starting items) under which starting Powder Keg (E) is a disadvantage for Gangplank, even if played perfectly?"
+  ],
+  "web_research_result": [
+    "The optimal ability start for Gangplank (GP) against Garen can vary depending on the player's style and the specific game conditions. Here's a breakdown of different perspectives and advice found in the search results as of June 20, 2025:\n\n**General Consensus and Strategies:**\n\n*   **Gangplank favored:** Generally, Gangplank is considered to have a slight edge in the matchup against Garen.\n*   **Poke and Farm:** The primary strategy for Gangplank is to use his Parrrley (Q) to constantly poke Garen and farm from a safe distance. This denies Garen's passive regeneration and makes it difficult for him to engage.\n*   **Barrel Placement:** Utilize barrels to zone Garen, disengage, and set up trades. [reddit](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Respect Garen's kill potential:** Avoid giving Garen early kills, as he can become difficult to handle.\n\n**Ability Start Options:**\n\n*   **Parrrley (Q):**\n    *   Some suggest starting with Q for the consistent poke and farming potential.\n    *   It allows Gangplank to gain extra gold through the passive. [youtube](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   Good for stacking Grasp of the Undying.\n*   **Powder Keg (E):**\n    *   Some suggest starting with E, especially if you can consistently land barrels and get the passive on Garen.\n    *   Starting E level one is the real only way you lose versus Gangplank is if he starts E level one. [youtube](https://vertexaisearch.cloud.google.com/id/0-1) and he first gets his passive on you gets a barrel. [youtube](https://vertexaisearch.cloud.google.com/id/0-1) get gets his passive on you he gets a barrel and a passive on you like he needs so much to win early game versus you or if he starts Q. [youtube](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Other Considerations:**\n    *   After the initial ability, prioritize leveling Q for harass and farming.\n    *   Take W (Remove Scurvy) second or third for sustain and to remove Garen's silence.\n\n**Garen's Perspective:**\n\n*   Garen players often struggle against Gangplank due to his constant poke.\n*   Some Garen players opt for Doran's Shield and Second Wind to mitigate Gangplank's harass. [reddit](https://vertexaisearch.cloud.google.com/id/0-0)\n*   Garen wants to start E and just keep E'ing into his face. When he uses his counter strike activate W in response and just chase him down and kill him. [mobafire](https://vertexaisearch.cloud.google.com/id/0-2)\n\n**Runes:**\n\n*   **Grasp of the Undying:** Good for short trades and sustain in lane.\n*   **First Strike:** Can be used to generate more gold. [youtube](https://vertexaisearch.cloud.google.com/id/0-1) [reddit](https://vertexaisearch.cloud.google.com/id/0-3)\n*   **Fleet Footwork:** Helps with sustain and mobility to avoid Garen's engages. [youtube](https://vertexaisearch.cloud.google.com/id/0-4)\n\n**Important Notes:**\n\n*   Gangplank has a steeper learning curve than Garen. [mobachampion](https://vertexaisearch.cloud.google.com/id/0-5)\n*   Gangplank outscales Garen in the late game.\n*   Be cautious of Garen in bushes, as he can deal significant damage with Judgment (E). [mobachampion](https://vertexaisearch.cloud.google.com/id/0-6)\n",
+    "Based on the search results, here's a summary of the Gangplank vs. Garen matchup in League of Legends:\n\n**Overall Matchup:**\n\n*   Gangplank and Garen are considered to have a relatively even matchup, with Gangplank having a slightly better win rate in some analyses. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-0) [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) Some sources state Gangplank wins about 50.3% of the time when these champions face each other [2, 11]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) [lolalytics](https://vertexaisearch.cloud.google.com/id/1-2) [mobachampion](https://vertexaisearch.cloud.google.com/id/1-0) Other sources state Gangplank wins about 55.38% of the time [4].\n*   The matchup is considered skill-based [3]. [youtube](https://vertexaisearch.cloud.google.com/id/1-3)\n*   It's important for both champions to focus on farming, gaining gold, and securing objectives [2, 5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1)\n\n**Gangplank's Strengths:**\n\n*   Can cleanse Garen's CC with his W [8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-4)\n*   Good wave clear [8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-3) [youtube](https://vertexaisearch.cloud.google.com/id/1-4)\n*   Global ultimate (Cannon Barrage) can provide pressure and help teammates [2, 8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-4)\n*   Strong in side lanes [8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-4)\n*   Can gain extra gold by killing minions or barrels with his Q [3, 8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-4) [youtube](https://vertexaisearch.cloud.google.com/id/1-3)\n\n**Garen's Strengths:**\n\n*   Good sustain with his passive, especially after being bullied in lane [10].\n*   Strong kill potential at level 6 [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)\n*   Can use his auto attack reset to quickly destroy Gangplank's barrels [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)\n*   Garen's regeneration greatly increases if he can avoid receiving damage for several seconds [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6) [youtube](https://vertexaisearch.cloud.google.com/id/1-3)\n\n**Laning Phase:**\n\n*   **Starting Items/Abilities:** Some guides suggest Garen should start with his E [1].\n*   **Garen:** Should take Second Wind against Gangplank's poke [1].\n*   **Gangplank:** Should focus on farming and poking with Q [8]. [youtube](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **Early Game:** Garen may have a slight advantage levels 1-3 if Gangplank doesn't start E [3]. [youtube](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **Barrel Control:** A key aspect of the lane is controlling Gangplank's barrels. [youtube](https://vertexaisearch.cloud.google.com/id/1-3) [reddit](https://vertexaisearch.cloud.google.com/id/1-5) Garen can use his auto-attack reset to destroy barrels quickly [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Trading:** Garen should try to position himself so that only the enemy champion is hit by his Judgment (E) for effective trading [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)\n*   **All-ins:** Garen can look for all-in opportunities around level 6, especially after getting his first item [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)\n\n**Runes and Builds:**\n\n*   **Gangplank:**\n    *   **Runes:** First Strike, Magical Footwear, Biscuit Delivery, Cosmic Insight, Bone Plating, and Overgrowth [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) Grasp of the Undying is also a viable option [9]. [metasrc](https://vertexaisearch.cloud.google.com/id/1-7)\n    *   **Items:** Bloodthirster, Navori Quickblades, and The Collector [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) Trinity Force, Ionian Boots of Lucidity, The Collector, Mortal Reminder, Infinity Edge and Immortal Shieldbow [9]. [metasrc](https://vertexaisearch.cloud.google.com/id/1-7)\n*   **Garen:**\n    *   **Runes:** Conqueror, Triumph, Legend: Tenacity, Last Stand, Conditioning, and Overgrowth [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)\n    *   **Items:** Stridebreaker, Berserker's Greaves, Phantom Dancer, Spear of Shojin, and Dead Man's Plate [10]. [mobalytics](https://vertexaisearch.cloud.google.com/id/1-8) Black Cleaver is effective due to Garen's reliance on cooldowns [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)\n\n**Tips and Strategies:**\n\n*   **Gangplank:**\n    *   Be careful when Garen is in brush [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1)\n    *   Use Cannon Barrage to cut off enemy escape routes [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1)\n    *   Maximize gold and CS [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)\n*   **Garen:**\n    *   Be patient and respect Gangplank's early damage [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)\n    *   Try to bait out Gangplank's barrels [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5) [youtube](https://vertexaisearch.cloud.google.com/id/1-3)\n    *   Use W to mitigate damage from Gangplank's barrels [7]. [reddit](https://vertexaisearch.cloud.google.com/id/1-5)\n    *   Stack armor items to reduce Garen's physical damage [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1)\n\n**Counterplay:**\n\n*   **Against Garen:**\n    *   Be aware of Garen's execute range with his ultimate (Demacian Justice) [2]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-1) [youtube](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **Against Gangplank:**\n    *   Armor items can help mitigate Gangplank's Parrrley (Q) damage [5]. [mobachampion](https://vertexaisearch.cloud.google.com/id/1-6)\n\n**Important Note:** Some information may be outdated as patches and game meta change frequently. Check recent guides and pro builds for the most up-to-date information.\n",
+    "Based on the search results, here's a synthesis of level 1 trading patterns and barrel placement strategies for Gangplank (GP) against Garen, starting with Powder Keg (E):\n\n**General Strategy**\n\n*   **Early Game Focus:** The primary focus is on safe farming with Parrrley (Q), using barrels to poke, and controlling the wave. [tacter](https://vertexaisearch.cloud.google.com/id/2-0) Avoid extended trades. (2, 9)\n*   **Respect Garen's Early Damage:** Garen can reset his passive, so respect his damage output. [reddit](https://vertexaisearch.cloud.google.com/id/2-1) Giving up some CS to stay in XP range is acceptable. [reddit](https://vertexaisearch.cloud.google.com/id/2-1) (6)\n*   **Scaling:** Gangplank's early game is inconsistent, so focus on scaling and avoiding deaths. [mobachampion](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (8)\n\n**Level 1 Barrel Placement and Trading**\n\n*   **Bush Placement:** A common strategy involves leveling Powder Keg (E) and sitting in the middle top bush. Wait for minions to crash and explode the keg as they are about to die, hitting the enemy laner when they go to last hit. [mobafire](https://vertexaisearch.cloud.google.com/id/2-4) (7)\n*   **Aggressive Level 1-2:** Be very aggressive at levels 1 and 2. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (21)\n*   **Corrupting Potion:** Use Corrupting Potion to extend the time Garen's passive is disabled when you hit him with Q. (1)\n*   **Zoning:** Place barrels near low-health allied minions to zone Garen off CS in melee matchups. (2)\n*   **Safe Barrel:** Place one barrel \"safe\" from Garen and wait for it to reach one hitpoint. Then, connect a second barrel and detonate them with Q. (8) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)\n*   **Proximity Barrels:** Place barrels close to yourself to win the \"who last hits the barrel\" mini-game, especially against ranged champions. This forces Garen to play your game and allows you to deal more damage. [mobachampion](https://vertexaisearch.cloud.google.com/id/2-2) (14)\n*   **Auto-Attack First:** Instead of Qing the first barrel, auto-attack it to prepare a Sheen proc. (14)\n*   **Barrel as Bait:** Bait out Garen's abilities by making him target your barrels. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) If he destroys them early, you'll have an extended window for trades. [reddit](https://vertexaisearch.cloud.google.com/id/2-1) (6)\n\n**Trading Patterns**\n\n*   **Q for Disables:** Garen's Q cancels slows, but only if he uses it *after* being slowed. If he's running at you and you pop a barrel, he still gets slowed. [reddit](https://vertexaisearch.cloud.google.com/id/2-5) (1)\n*   **Grasp of the Undying:** Use Grasp of the Undying to help stay alive in lane. (8)\n*   **Grasp Procs:** Attack minions to push for level 2 and stack Grasp. When it's activated, use Q for extra damage and healing, then retreat into a bush to drop minion aggro. [mobachampion](https://vertexaisearch.cloud.google.com/id/2-2) [reddit](https://vertexaisearch.cloud.google.com/id/2-3) Repeat this process. (8)\n*   **Auto-Barrel-Q:** Poke by auto-attacking barrels to slow and damage Garen, then Q him to proc First Strike/Grasp. (20)\n*   **Sheen Proc:** Store a Sheen proc on a barrel by auto-attacking or Qing it before it explodes. (14)\n\n**Counterplay and Considerations**\n\n*   **Garen's Barrel Control:** Be aware that Garen has an auto-attack reset, allowing him to quickly destroy barrels. [reddit](https://vertexaisearch.cloud.google.com/id/2-1) (6)\n*   **Tenacity:** Garen's W gives him tenacity, reducing the effectiveness of slows. (1) [reddit](https://vertexaisearch.cloud.google.com/id/2-5)\n*   **Vision:** Use barrels to check bushes for vision. [youtube](https://vertexaisearch.cloud.google.com/id/2-6) [reddit](https://vertexaisearch.cloud.google.com/id/2-7) (2, 10) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)\n*   **Mana:** Manage your mana, as it's essential for poking and controlling the lane. (21)\n*   **Garen's Sustain:** Garen's passive and Doran's Shield provide sustain, making it difficult to poke him out of lane. (1)\n*   **Team Fights:** In team fights, Garen is not the greatest splitpusher. (1)\n\n**Itemization and Runes** [mobachampion](https://vertexaisearch.cloud.google.com/id/2-2) [mobafire](https://vertexaisearch.cloud.google.com/id/2-8) [mobachampion](https://vertexaisearch.cloud.google.com/id/2-9)\n\n*   **Runes:** Use First Strike, Magical Footwear, Biscuit Delivery, and Cosmic Insight from the Inspiration tree, combined with Bone Plating and Overgrowth from the Resolve tree. [mobachampion](https://vertexaisearch.cloud.google.com/id/2-9) [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (3)\n*   **Core Items:** Bloodthirster, Navori Quickblades, and The Collector are effective items against Garen. (3) [mobachampion](https://vertexaisearch.cloud.google.com/id/2-9) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)\n*   **Starting Items:** Corrupting Potion is a good starting item. (20)\n*   **Doran's Shield:** Garen may take Doran's Shield and Second Wind for sustain. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (6)\n\n**Important Notes**\n\n*   The Gangplank vs. Garen matchup is considered skill-based. [reddit](https://vertexaisearch.cloud.google.com/id/2-3) (7)\n*   Some players consider Garen a must-ban due to the difficulty of the matchup. (6)\n*   Gangplank is weak against champions like Dr. Mundo and Trundle. (4) [mobachampion](https://vertexaisearch.cloud.google.com/id/2-10) [reddit](https://vertexaisearch.cloud.google.com/id/2-3)\n*   Gangplank does well against Poppy, Yone and Yasuo. (9)\n",
+    "It's difficult to pinpoint *exact* conditions where starting Powder Keg (E) is *always* a disadvantage for Gangplank against Garen, even with perfect play. The Gangplank vs. Garen matchup is considered skill-based, with Gangplank having a slightly favorable win rate in some analyses [4, 11, 14]. Here's a breakdown of factors to consider:\n\n**General Disadvantages of Early Powder Keg Start:**\n\n*   **Keg Vulnerability:** In the early game, Powder Kegs take a long time to arm [3]. Garen can easily disarm them with basic attacks if Gangplank's timing and placement aren't precise [2]. [reddit](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **Mana Issues:**  Using Parrrley (Q) to detonate Kegs for harass drains mana, leaving Gangplank weak if he can't manage his mana effectively [18].\n*   **Garen's Early Pressure:** Garen can run at Gangplank when his E is down early levels and pressure him with his passive auto attack [4]. [mobafire](https://vertexaisearch.cloud.google.com/id/3-1)\n*   **Lack of Early Game Power:** Gangplank is generally considered weak in the early game and needs to play safely to scale [17, 18]. [dignitas](https://vertexaisearch.cloud.google.com/id/3-2) Relying solely on Powder Kegs without proper setup or backup plans can make him vulnerable to Garen's aggression.\n\n**Conditions Where E Start *Could* Be a Disadvantage:**\n\nThese scenarios assume Garen is playing optimally:\n\n*   **Garen's Rune Setup:** If Garen takes Bone Plating, it can be difficult for Gangplank to proc it with an auto attack and walk out and back in to E [16].\n*   **Garen's Starting Items:** If Garen starts with Doran's Shield and Second Wind, coupled with Flash and Ignite, he can sustain through Gangplank's poke and look for all-in opportunities [5, 7, 9].\n*   **Bush Control:** If Garen contests or invades the top lane bushes, Gangplank might not be able to start in the lane bushes and wait for minions to crash to explode the Powder Keg as the enemy goes to last hit them [4]. [mobafire](https://vertexaisearch.cloud.google.com/id/3-1)\n*   **Garen's Playstyle:** If Garen constantly walks in and out of barrel range to bait Gangplank to hit it, and Gangplank wastes the barrel, Garen can bully him [16].\n\n**When E Start *Can* Be Good:**\n\n*   **Zoning:** Placing kegs near low-health allied minions can zone Garen off CS in melee matchups [2]. [reddit](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **Brush Play:** Hiding a keg in the tiny brushes in top lane can be used as a trigger keg or escape keg [3]. [youtube](https://vertexaisearch.cloud.google.com/id/3-3)\n*   **Ganking:** Keeping a keg or two in the lane bushes behind you when pushing into the enemy tower can help escape ganks [2]. [reddit](https://vertexaisearch.cloud.google.com/id/3-0)\n\n**Gangplank's Standard Approach:**\n\n*   **Safe Farming:** Focus on farming safely with Parrrley (Q) in the early game [8].\n*   **Scaling:** Gangplank is a strong late-game carry [17]. [dignitas](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Vision:** Prioritize vision around objectives [8]. [tacter](https://vertexaisearch.cloud.google.com/id/3-4)\n\n**Runes and Summoner Spells:**\n\n*   **Runes:** Some Gangplank players use different setups [4]. [tacter](https://vertexaisearch.cloud.google.com/id/3-4) First Strike is considered the best by some, while Grasp of the Undying is another choice [4]. [mobafire](https://vertexaisearch.cloud.google.com/id/3-1)\n*   **Summoner Spells:** Flash and Teleport are the optimal Summoner Spells for Gangplank [6]. [mobalytics](https://vertexaisearch.cloud.google.com/id/3-5)\n\n**Important Considerations:**\n\n*   **Skill Level:**  The outcome of the matchup heavily relies on the skill and experience of both players [13].\n*   **Team Composition:** Gangplank is strong against short-range compositions [4].\n*   **Barrel Mechanics:** Mastering barrel combos and understanding their limitations is crucial for Gangplank [13, 15]. [mobachampion](https://vertexaisearch.cloud.google.com/id/3-6)\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHhiDO87XV1tvcfRlI6w9moNLuTG2A-0jhMz9OHrI2mvfxR63OrUIoercUWn0pFSZCQIdZ8DR5kMUgFNYsAldcGMX9TRg-izGEV83RAnNNmL8Tm4dLmUNWPyn2sSymNpRwOmqqUnjdlqKKxDmhvEHmnKn0wm0Y-jb4IUx3Cy5fbOHPSwb0pJyK3g=="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHhiDO87XV1tvcfRlI6w9moNLuTG2A-0jhMz9OHrI2mvfxR63OrUIoercUWn0pFSZCQIdZ8DR5kMUgFNYsAldcGMX9TRg-izGEV83RAnNNmL8Tm4dLmUNWPyn2sSymNpRwOmqqUnjdlqKKxDmhvEHmnKn0wm0Y-jb4IUx3Cy5fbOHPSwb0pJyK3g=="
+    },
+    {
+      "label": "mobafire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhKKd_idAmL0A1XLO_v7h-VdsMUzo9dk5wli1RrmCucp0fMDHP7xJ77_S_yrOI4pGV2r95O9oNQjX-t_6Jx-jhoX3WayLPky1brtMI7xqas0j-MyUz_yJzHG5jYIG_JmD3tkQ9ICXDmnOAkVScjUYtIvaaThl-H_7Nq_17ujlE-y5Y1XFbgphcTxowEAwfTsda5Wtj8-7o-4EQO7hQZi7Stm616lH3IX0X66Nsww=="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJls7QQgEZZ3disYv_z-E2F1kbNDI2TliK7oBohsYToWJPYuT40UaRnsO91GxWbsKNrDXbKGiWSNpJcBu34gMoZ3G9C7sOLH-sTG08HAggrw_gi5mjXpcMRwmCHo14L9tzLMdTsIAb0dyVnhiZUdcwSgds8deLqEasys4f2M-7XgcM"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxIwmkTR5HwyYDiXuonj-92SoVTdfSDWLd74EVKIODPcUxXHrhlrb945wGQRpQne8_ingUPf2OTS0NNQpB6SWiIJVKdD4Tye1Im1YY5ZDpcau432VjvovCxkOJGvuqO0E55NuaBC0="
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf8mFJDfewI4qtB_lTf5V_Esht9cd81UUmoxfQwWIK_Wa87iGvx5xo3xzAkHn9r7G3Nvhv0bHBha2sTRxHbmMC5ZfxP5Yfo0J3jx30cAlwXCX0HesBX_YrfB-iE862AHCmwx-cRsW5wn8xSst9QwlgTomwlOmQ"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnW47DRrwYn2A1RYrQZWbIEYdZUNstNwLQYtLaE91GYxaIsfyUCNxVQsk7GoigEFkl1l_fRJARd5xv6tp4Y34x7rWpm-Coe2eXM_wYIai7FnXCpBSJXzpcLOLDWRNVlp864XT25TQvV8FeZY392vTftNp_"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoXtPUrBvS9FUu8Qf5miJavrV-YBSlnWZxuBrSPhiX6r6drLXJPBQEVncB8Bd6pHgDXaXmSuf3fNaKdBlWBxBM7M0wQAGnGwdn9jvDBB7W31YSZoYJ7ImGX7V_N8HBvTFZyKy_rm9zaTpC1jT1X9u-YiYpPo7A"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "lolalytics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZAxohVJpefPTCLbG-i-qqLzDvpUI_ge0tnxsfAbwHiAz-0yL3EX9gz5-2bl-jY0alfzEhPB-H_wJ--tWYc-aaP1j9jIBuYLLRPEJbQWekGfHIDNB5AgjNwTz_Wt3Ht4azBn3ERGbR81VXNxUEC8U="
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoXtPUrBvS9FUu8Qf5miJavrV-YBSlnWZxuBrSPhiX6r6drLXJPBQEVncB8Bd6pHgDXaXmSuf3fNaKdBlWBxBM7M0wQAGnGwdn9jvDBB7W31YSZoYJ7ImGX7V_N8HBvTFZyKy_rm9zaTpC1jT1X9u-YiYpPo7A"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxaM19Ag8fYQzNcopj9xp4oPvDBZi9mEsy60YlDSc2FH-qa9PqT1G4X74zWHCgRaAGZIcOe5OR41W13VC-JER4fXhSamveOI1wJKABixbe1fdkcg-SFkl-WiRrwffVcf5DAzkX9JA="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "metasrc",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSguoWXOAatrncGPsNu6MmbAwMaHAzbotrkIFaFiBcl7kJiOESGV54dmZhoQbvGWwx3GBKhGIVXJheMszv50MmUXmJfQVR27MH9xx2MbD-HpoeV9q5mgv8vHkPOp_ikBZsIpFoZBY="
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "metasrc",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSguoWXOAatrncGPsNu6MmbAwMaHAzbotrkIFaFiBcl7kJiOESGV54dmZhoQbvGWwx3GBKhGIVXJheMszv50MmUXmJfQVR27MH9xx2MbD-HpoeV9q5mgv8vHkPOp_ikBZsIpFoZBY="
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL"
+    },
+    {
+      "label": "mobalytics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnBW53wTEwB3i8goEIp7gt5Ps4nz_G4JgEUR95zKcdHqSb0av9R92ftk9U6mZrE4hgoV0J2igUszdRWnoeaaAuiQI-MVSZuEgvKgbXoCxL05T27LPcKhFEyNYeNMh8btU0li8nMXySI0ZM"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4n6Eql6MZtmH3ryYgA9mJbwTWRSGMMchmJwyFhgiO9WZwIXwIR5ttL_Qg8m7MWiGDyeiq4jfl5BevD2VcgZVpR-hoxjb8dwoEth0DwmyPtq8bresf7Dz9TNjeGeOEpCrhN9OmLYjFstXhZHTuD4KazNBj"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH82bfkmMYKryP8ySaRCDNHOZ02vJVazL5b8_A6uDp4YF2lgbv_qeFfnTcU5unykqZSEh1RjHsF5Gy6TAjXg1wj_-FtQP0fHdsKO7JoxO6amfMIIEL1Jz-8WeHpCG53xJrdEBP-wmRltSU6FeX93zsBKwCL"
+    },
+    {
+      "label": "tacter",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGszSZlOg2P9NWznlJnNp-74HTWUHeSspWVgtAeFJV401wLdX-A1wyPiOtpXBdZekLKMlXmEzkSdJrt1kBhfnFOboOyms5zCyeyqOQT_O27joVc8PET8LJ01eQSRpXPnLdgIoFe484i56HUsk7yg=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw7KCWyRECulkkqMzic8VqfKpoG0mZS2OQzSdK-uzX26z6b6xv53TAbDhbml9c3ViZRiVJqLiP8ekvf0hQAnYOVVpQk4nMxI034XPz3-eOXPkQP-Ds6USG8DRPwBY96mhbMP4EBwfu0EYLWfeQxKoxf5Ay-YveuEd7Ko4AI6Pdbg-UWj1JqQNaVToy"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw7KCWyRECulkkqMzic8VqfKpoG0mZS2OQzSdK-uzX26z6b6xv53TAbDhbml9c3ViZRiVJqLiP8ekvf0hQAnYOVVpQk4nMxI034XPz3-eOXPkQP-Ds6USG8DRPwBY96mhbMP4EBwfu0EYLWfeQxKoxf5Ay-YveuEd7Ko4AI6Pdbg-UWj1JqQNaVToy"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTnfjtya2DYU2aUWAKvs727Pt9qC9mPUr9o6wCVqLNrpIxJK1bO3d8SFM0hmb2uz5u6neguHmSNS9dMRxjWue4-mNbvt8_UAnaJXoqN5Xk-zZIk04dd2w2XhlDmuqeNkJJiwQNCkAbVJL5mdefHVrI-yufgFu"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "mobafire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErbnW1M9-UtlEA5dU7CzdBwGIy1gKft5hjtTDNGJBiS5VbGAU31CN0k_qsJYVSONL4sSOAYUJZdGSRo-ldR3GIZ1iwcGT7n6-co0JOHX_uMn7-6cvTlU4DFQ28ogYniygpFXsCz1YFXz2AchuudZecdWESo2nIAqtJiPs4lyOPKPdhT0DyheJ27Sd4xASQynJ5QrP3K4m4zPScUs7TcN650tzecw3-Jn8Bev88Hha8i9DH"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTnfjtya2DYU2aUWAKvs727Pt9qC9mPUr9o6wCVqLNrpIxJK1bO3d8SFM0hmb2uz5u6neguHmSNS9dMRxjWue4-mNbvt8_UAnaJXoqN5Xk-zZIk04dd2w2XhlDmuqeNkJJiwQNCkAbVJL5mdefHVrI-yufgFu"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw7KCWyRECulkkqMzic8VqfKpoG0mZS2OQzSdK-uzX26z6b6xv53TAbDhbml9c3ViZRiVJqLiP8ekvf0hQAnYOVVpQk4nMxI034XPz3-eOXPkQP-Ds6USG8DRPwBY96mhbMP4EBwfu0EYLWfeQxKoxf5Ay-YveuEd7Ko4AI6Pdbg-UWj1JqQNaVToy"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt_ZQsI3dy6A6IXTRKexE27qd34cbCJs9Yom8VJvYhTqjim_R_6zn4t7H-xEjbq2uLmuzPY2boRBxvGaztwAikzvbJtP9HLfhXvWOGxwvAxYfyW6KXk2UPVbIfpzOXbN6Uej269s95XSLQG1WgEEYAad1O_1N4Wqug8OL23Tn3iURvqa4BO_5f8eoBzvNOityN"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTnfjtya2DYU2aUWAKvs727Pt9qC9mPUr9o6wCVqLNrpIxJK1bO3d8SFM0hmb2uz5u6neguHmSNS9dMRxjWue4-mNbvt8_UAnaJXoqN5Xk-zZIk04dd2w2XhlDmuqeNkJJiwQNCkAbVJL5mdefHVrI-yufgFu"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw7KCWyRECulkkqMzic8VqfKpoG0mZS2OQzSdK-uzX26z6b6xv53TAbDhbml9c3ViZRiVJqLiP8ekvf0hQAnYOVVpQk4nMxI034XPz3-eOXPkQP-Ds6USG8DRPwBY96mhbMP4EBwfu0EYLWfeQxKoxf5Ay-YveuEd7Ko4AI6Pdbg-UWj1JqQNaVToy"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt_ZQsI3dy6A6IXTRKexE27qd34cbCJs9Yom8VJvYhTqjim_R_6zn4t7H-xEjbq2uLmuzPY2boRBxvGaztwAikzvbJtP9HLfhXvWOGxwvAxYfyW6KXk2UPVbIfpzOXbN6Uej269s95XSLQG1WgEEYAad1O_1N4Wqug8OL23Tn3iURvqa4BO_5f8eoBzvNOityN"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy9B04E_1IFyg3X9A5x7IdHQXAV1oV0hU2fgiFZ1TCDG9OTESK2lE8nP9CtH-WqK2INO94mFMqTzhXGM4NXA6xf00egjIFfx708xmJ_cOXYQf7_oxqlFkoc-YXOxNUqZclYXi1MSo="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnKj0PwZmp41fN5zJmepGoYEH5Gnnj6VUcnYkWaMugED7hdeaxtPH0fKHkOWkxQ5FDO8bT9JMmDTdAAQFUijA1pWbzCbkECXGWJXtEptgZSnvxMoJX-BjQ9V9TpcLuC6ScDlVkqj-KWbx67r-penvvYSxMddI1ADMBPKuJr2btiZxEmr6t5ge3auG4OhZBxSlWvXna7T3rqBw="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKTnfjtya2DYU2aUWAKvs727Pt9qC9mPUr9o6wCVqLNrpIxJK1bO3d8SFM0hmb2uz5u6neguHmSNS9dMRxjWue4-mNbvt8_UAnaJXoqN5Xk-zZIk04dd2w2XhlDmuqeNkJJiwQNCkAbVJL5mdefHVrI-yufgFu"
+    },
+    {
+      "label": "mobafire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPbCQRL1nLW0YpR-43_pY8i05fOkmsgUq1iFfc6rsOPdjwto6M20uAxAuITkpzjyWrB5ALJq6n6M4ldo5beohY7tAGVikoY_A_wKGMzRxtZu--_OXE15L-hFX2NywYfwMBgTvvyfvXf_NZmb1zagfRrIntLRVgm59tvC_XP97ouompCbqsf3Fv83rMljYB4Yby9gqq93By2V1EK4k="
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELWrhxSUMEfdfkSL8atSiFvh6VFVC2aB6QOob8HAJrlBKVn07FwYpQodEehXDC06S_vU9Pj7Ao01esI2emleOycROzDRVYw1NsLs3BK1QfQw23W_ygTpbRcHWBwDj7lAGl9tIZmtGL_gJad3ehfx2ntuEl"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELWrhxSUMEfdfkSL8atSiFvh6VFVC2aB6QOob8HAJrlBKVn07FwYpQodEehXDC06S_vU9Pj7Ao01esI2emleOycROzDRVYw1NsLs3BK1QfQw23W_ygTpbRcHWBwDj7lAGl9tIZmtGL_gJad3ehfx2ntuEl"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELWrhxSUMEfdfkSL8atSiFvh6VFVC2aB6QOob8HAJrlBKVn07FwYpQodEehXDC06S_vU9Pj7Ao01esI2emleOycROzDRVYw1NsLs3BK1QfQw23W_ygTpbRcHWBwDj7lAGl9tIZmtGL_gJad3ehfx2ntuEl"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0dd78c2Rx5B1PzKZqn2Z3vXOlgCNyHaVR6jH8uSFyAC7EJALKpZJmIhMGT3m0dXUJUVjkicmLs74KJP2PgfKKghQakKTsbJciiwU5RrtyCczhk_zZc_0WTGsiexkcelMB1GXIRSsE36zSlv0SV_nrX9c-yA=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2VfklCkhC5k0f6Nui0BM8WEs3VeXh3BKB9hvpwhdtxsx6EfgIiWf16vcjSlsXSySintlhrVkKEIvw8UmYpiq6q0K0VpfsTXYid5yw1p0SaoAz3EhdbiO7RxjtXMbjdLoDvxLNm1qsw8eAYbMuBbNqUCxSL4Qw329GvQdtLXFXBTpDbPHHZfcgsDPlStpMn_t7"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8="
+    },
+    {
+      "label": "mobafire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-"
+    },
+    {
+      "label": "dignitas",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXYwLVn6ZLZzg8yC2iyG0HRcFRLidvspUX5FtrikUprq77VxK0B1R1FsPobCB91MlsI2l5WrWtwN6s7TgetUw7-rPZgMOeFw_YVjz0XXWpPVGkS8AndHTFW09Eo8pKpt53qNojVrGicUvR2K8eZpGT2abc0v7KDmc5P7dvVv-FgQPAnNLvmpTv-3-UT6iFBIAWuJIRwmQ1y_mdGGaPDXPj1PSpvA=="
+    },
+    {
+      "label": "mobafire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOwfx4-eHZLRI8Ti-tO8NH9U4OVwiIF02BzNtJixy_DvHvFMT-YOvOLJkgTDk5C4FcGpRSpjEVwzfBPLxUlhggBsvV6SuQKRo_JNU9crkdOS_XWUFS-u61JGs4fit-m40Bi1HUlFI="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8="
+    },
+    {
+      "label": "dignitas",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXYwLVn6ZLZzg8yC2iyG0HRcFRLidvspUX5FtrikUprq77VxK0B1R1FsPobCB91MlsI2l5WrWtwN6s7TgetUw7-rPZgMOeFw_YVjz0XXWpPVGkS8AndHTFW09Eo8pKpt53qNojVrGicUvR2K8eZpGT2abc0v7KDmc5P7dvVv-FgQPAnNLvmpTv-3-UT6iFBIAWuJIRwmQ1y_mdGGaPDXPj1PSpvA=="
+    },
+    {
+      "label": "tacter",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhON4-Plj3WAEU0vaC9b5KPBcesyZOA6klNxnsGfJfQgE5_ePR3hN3ocBf8bGFvuFFrqYvzzPHw6RUEE52vR7Lus5WAc1QULNEpkyLDNn1pmqW1ZynLLMFDYSAvFDOZmffGPksGqAEZ9sccGE2Vz54fA=="
+    },
+    {
+      "label": "tacter",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhON4-Plj3WAEU0vaC9b5KPBcesyZOA6klNxnsGfJfQgE5_ePR3hN3ocBf8bGFvuFFrqYvzzPHw6RUEE52vR7Lus5WAc1QULNEpkyLDNn1pmqW1ZynLLMFDYSAvFDOZmffGPksGqAEZ9sccGE2Vz54fA=="
+    },
+    {
+      "label": "mobafire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-"
+    },
+    {
+      "label": "mobalytics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0RRPg1cFAwWWlwhX1GiKdDUX6JzLLTTGmskaBQbI3_CiPbsHUkWSs_7m2RnZfdlb9DUUrRVLSbEku3SEM9qmfvAtRKJjhJUp1f05LjellnShvdCxj2GI0P2Y3rEgFzRpf_lDkow_opJBMLV2sKA=="
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGl6YP1xQT5pnHIyu9WNfL0mk63BX9pXIrJNNzA8j1z7C-VNY_R5dEeN_Wr3QTeNnYSl-BPqHY2sAWciyZqy13b0wYfnSSaiyfYvDWzli5Euu3jTTgj0MemztglBSugaPxBbCQ5rZ4XYa71Hx0pHEJVJTF-aVfrqo="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1tRuOqi53ZIsciaIMAdaXsEyS396tp6UCShQXh7vk39BmIsc91hMaTaFqlsZ9Lkl5dz101Fg5N1I_BN7bNIXHZI_Tb_1Z200w5GdgzDTP0cO-lL80F4AD0kSbgXSDpcN80pqf1Mk="
+    },
+    {
+      "label": "mobachampion",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf8mFJDfewI4qtB_lTf5V_Esht9cd81UUmoxfQwWIK_Wa87iGvx5xo3xzAkHn9r7G3Nvhv0bHBha2sTRxHbmMC5ZfxP5Yfo0J3jx30cAlwXCX0HesBX_YrfB-iE862AHCmwx-cRsW5wn8xSst9QwlgTomwlOmQ"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeH6YJW_AAGTQDfhKA7nKB_GNv1kfbtw7mfPvVWZ52WfLN-KBhIIZycx-hMx4BkKSxmiWe7OjNS0IG7oz-DVVETrzwLU0jP39WN5ayd-ORGKb5t-gUcNHu8fe6PpTHA4G08BEJg9Y="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fsSbWdrAY9XXxl1mIoZhV0NALdT1Y4kD5BKPCHVpcHVmZd4a9tqhEllWGWBQi0ZwLuSGkfDYzBclwnbzC9ehMGYLawF30Xy_E-g11z_XPMaCQFxN4oJWSyQELkaAelADtAAX-bx3Q9q66UfahBRMAjTd-J4znTCmU1IJ2gJtUKvSX9o7D6h0fg3z"
+    },
+    {
+      "label": "mobafire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErbnW1M9-UtlEA5dU7CzdBwGIy1gKft5hjtTDNGJBiS5VbGAU31CN0k_qsJYVSONL4sSOAYUJZdGSRo-ldR3GIZ1iwcGT7n6-co0JOHX_uMn7-6cvTlU4DFQ28ogYniygpFXsCz1YFXz2AchuudZecdWESo2nIAqtJiPs4lyOPKPdhT0DyheJ27Sd4xASQynJ5QrP3K4m4zPScUs7TcN650tzecw3-Jn8Bev88Hha8i9DH"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDuKxnCZCx-jdRzSDDGYN71GC9D1Ffx9BaDbXVLtPUugoCNp2DzYcPGGTfc2FfRwO2Z6gZVg9hLd4hwumylcp-u-YgbNOF5SrVgrfyj3yEpdcEr806BCKq8BxuNF9dspnb2om6xsWlitHfzWfnz1SoER3HzYZNmgegQFt3_rbZCcNuHfM_XCIeKjwCZXJNNoBudS-kqIA7mr8="
+    },
+    {
+      "label": "mobafire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSTz1QeS68Y8BLjbO3f4CIwCLV8IHgW7heZ3fy40yU420FS2dLM92GOV1F4-0LYao46OuVdNcoZexFe04C7-g2SvvFlj3tan65SrvEv6xnWJK1J61xUGOXBsnOUHev-S2C2J0JO4ZFXTHVJxKQJvlJGlTvZZemT3S31h9NEUONBOhDH4X-KrPvw99h1UJCEPAyHmPEsMNweH__hFWWtqL_urlQsOn_9MRXuCQOfIBqOQ-"
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

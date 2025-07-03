@@ -1,0 +1,83 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 22:03:06
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: "The fallen angels you run with don't know that is us pain that makes us human after all" What anisong is this from?
+
+[AI]: The lyrics "The fallen angels you run with don't know that is us pain that makes us human after all" are from the opening theme song "X.U." of the anime *Seraph of the End* [animesonglyrics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA=). The song is performed by SawanoHiroyuki[nZk], with lyrics by Benjamin & mpi and music by Hiroyuki Sawano [animesonglyrics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA=). "X.U." was released on May 20, 2015, and was the opening theme for episodes 2-12 of the anime [animesonglyrics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA=).
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 1
+Total search queries: 1
+Sources gathered: 3
+Web research results: 1
+
+SEARCH QUERIES USED
+----------------------------------------
+1. "The fallen angels you run with don't know that is us pain that makes us human after all" anisong lyrics
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+The lyrics "The fallen angels you run with don't know that is us pain that makes us human after all" are from the opening theme song "X.U." of the anime *Seraph of the End*. The song is performed by SawanoHiroyuki[nZk], with lyrics written by Benjamin & mpi and music composed and arranged by Hiroyuki Sawano. [animesonglyrics](https://vertexaisearch.cloud.google.com/id/0-0) "X.U." was released on May 20, 2015, and was used as the opening theme for episodes 2-12 of the anime. [animesonglyrics](https://vertexaisearch.cloud.google.com/id/0-0)
+
+
+SOURCES GATHERED
+----------------------------------------
+1. animesonglyrics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA=
+
+2. animesonglyrics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA=
+
+3. animesonglyrics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA=
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "\"The fallen angels you run with don't know that is us pain that makes us human after all\" What anisong is this from?"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "The lyrics \"The fallen angels you run with don't know that is us pain that makes us human after all\" are from the opening theme song \"X.U.\" of the anime *Seraph of the End* [animesonglyrics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA=). The song is performed by SawanoHiroyuki[nZk], with lyrics by Benjamin & mpi and music by Hiroyuki Sawano [animesonglyrics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA=). \"X.U.\" was released on May 20, 2015, and was the opening theme for episodes 2-12 of the anime [animesonglyrics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA=)."
+    }
+  ],
+  "search_query": [
+    "\"The fallen angels you run with don't know that is us pain that makes us human after all\" anisong lyrics"
+  ],
+  "web_research_result": [
+    "The lyrics \"The fallen angels you run with don't know that is us pain that makes us human after all\" are from the opening theme song \"X.U.\" of the anime *Seraph of the End*. The song is performed by SawanoHiroyuki[nZk], with lyrics written by Benjamin & mpi and music composed and arranged by Hiroyuki Sawano. [animesonglyrics](https://vertexaisearch.cloud.google.com/id/0-0) \"X.U.\" was released on May 20, 2015, and was used as the opening theme for episodes 2-12 of the anime. [animesonglyrics](https://vertexaisearch.cloud.google.com/id/0-0)\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "animesonglyrics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA="
+    },
+    {
+      "label": "animesonglyrics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA="
+    },
+    {
+      "label": "animesonglyrics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7UYFDcwiD1D9uw4Qh6bwZXdoxarhwDJOCEHtzO7ZeQQxTAtXcltAr_jyWf5oxBZ-MTLXY2yR2NNpIRLr0SMkDolX7_A3cUCSy3wbemJIYAYu4h539OcKXo1azSPX39hV0aOn6ZJtLooYBQfIg5FA="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 1
+}

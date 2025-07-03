@@ -1,0 +1,788 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 21:43:11
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: Mistral Small 3.1 VS Gemma 3?
+
+[AI]: As of June 20, 2025, both Mistral Small 3.1 and Gemma 3 are considered leading "lightweight" LLMs (Source 6, 19). Gemma 3 was initially released on March 12, 2025 [1, 3, 7], while Mistral Small 3.1 followed on March 17, 2025 [1, 3, 6, 7].
+
+**Key Differences and Strengths:**
+
+*   **Overall Performance:** Mistral Small 3.1 (24B parameters) generally outperforms Gemma 3 in benchmarks like MMLU, MMLU Pro, GPQA, and MMMU (Source 3, 6, 8, 14, 17). It excels in text generation and reasoning tasks (Source 14). Gemma 3 achieves better results on TriviaQA, SimpleQA and MATH benchmarks (Source 3).
+*   **Parameter Efficiency:** Mistral Small 3.1 achieves a longer context window and higher inference speed with fewer parameters (Source 6).
+*   **Inference Speed:** Mistral Small 3.1 has a higher inference speed of 150 tokens/s (Source 6, 8), while Gemma 3 (27B version) has an inference speed of approximately 120 tokens/s (Source 6).
+*   **Hardware Requirements:** Mistral Small 3.1 can run on a single RTX 4090 or a Mac with 32GB RAM (Source 6, 8, 14, 17), making it suitable for on-device use (Source 14, 17). The 27B version of Gemma 3 may require dual GPUs or high-end servers (A100 40GB) (Source 6).
+*   **Context Window:** Both models offer a context window of up to 128k tokens, except for Gemma 3's 1B parameter version, which has a 32k context window (Source 6, 8, 10, 16).
+*   **Multimodal Support:** Both models support text and images (Source 6, 8, 16). Mistral Small 3.1 showcases stronger performance in understanding and generating complex inputs across varied contexts (Source 14).
+*   **Multilingual Capabilities:** Gemma 3 supports over 140 languages (Source 10, 13, 16), giving it an advantage in multilingual applications.
+*   **Optimization Techniques:** Mistral AI prioritizes algorithmic improvements and training optimization techniques (Source 3, 1). Gemma 3 utilizes interleaved attention to decrease memory requirements (Source 3). Gemma 3 also employs Quantization-Aware Training (QAT) (Source 3).
+*   **Licensing:** Mistral Small 3.1 is released under the Apache 2.0 license (Source 8, 14), offering more openness.
+
+**Availability:**
+
+*   Mistral Small 3.1 is available for download on Hugging Face, accessible via API on Mistral AI's La Plateforme, and on Google Cloud Vertex AI (Source 1).
+*   The Gemma 3 27B model is available on Amazon Bedrock Marketplace and Amazon SageMaker JumpStart (Source 2).
+
+In conclusion, Mistral Small 3.1 appears to be the stronger model overall as of June 2025, particularly for applications requiring high performance with limited resources (Source 6, 8, 14, 17). However, Gemma 3 remains a competitive option, especially for multilingual applications and tasks where its specific strengths in SimpleQA and MATH are valuable (Source 2).
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 4
+Sources gathered: 74
+Web research results: 4
+
+SEARCH QUERIES USED
+----------------------------------------
+1. Mistral Small 3.1 vs Gemma 3 benchmark comparison 2025
+2. Mistral Small 3.1 release date
+3. Gemma 3 release date
+4. What specific optimization techniques are employed in Mistral Small 3.1 to achieve its high inference speed (150 tokens/s) on consumer-grade hardware like a single RTX 4090? How does this compare to the optimization strategies used in Gemma 3?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Based on the search results, here's a comparison of Mistral Small 3.1 and Gemma 3 as of June 20, 2025:
+
+**General Overview:**
+
+*   Both Mistral Small 3.1 and Gemma 3 are considered leading models in the "lightweight" LLM category (Source 6, 19).
+*   Mistral Small 3.1 was launched in March 2025, following the release of Gemma 3 by Google DeepMind (Source 6). [stable-learn](https://vertexaisearch.cloud.google.com/id/0-0)
+
+**Mistral Small 3.1:**
+
+*   **Parameters:** 24B (Source 3, 6, 14).
+*   **Context Window:** 128k tokens (Source 6, 8).
+*   **Inference Speed:** 150 tokens/s (Source 6, 8).
+*   **Hardware Requirements:** Can run on a single RTX 4090 or a Mac with 32GB RAM (Source 6, 8, 14, 17).
+*   **Multimodal Support:** Text + images (Source 6, 8).
+*   **License:** Apache 2.0 (Source 8, 14).
+*   **Strengths:**
+    *   Excels in text generation and reasoning tasks (Source 14).
+    *   Outperforms Gemma 3 and GPT-4o Mini in multiple benchmarks (Source 6, 8, 14, 17).
+    *   Strong performance on GPQA (Source 3, 8, 14), MMLU (Source 3), HumanEval (Source 3), LongBench v2, and RULER 32k benchmarks (Source 3).
+    *   Achieves high scores in multimodal benchmarks like MMMU-Pro, MathVista, and ChartQA (Source 17).
+    *   Efficient and can be run on-device (Source 14, 17).
+    *   Multilingual capabilities (Source 8, 14).
+*   **Use Cases:** Document verification, diagnostics, on-device image processing, visual inspection for quality checks, object detection in security systems, image-based customer support, and general-purpose assistance (Source 8).
+
+**Gemma 3:**
+
+*   **Parameters:** Offers versions with 1B, 4B, 12B, and 27B parameters (Source 6, 16). The 27B version is the flagship model (Source 6).
+*   **Context Window:** Up to 128k tokens for models other than the 1B version (Source 6, 10, 16). The 1B model has a 32k context window (Source 16).
+*   **Inference Speed:** Approximately 120 tokens/s (27B version, based on community testing) (Source 6).
+*   **Hardware Requirements:** Recommended dual GPUs or high-end servers (A100 40GB) for the 27B version (Source 6).
+*   **Multimodal Support:** Text + some visual tasks (Source 6). Supports both text and images as input (Source 16).
+*   **Strengths:**
+    *   Multilingual, supporting 140+ languages (Source 10, 13, 16).
+*   **Weaknesses:**
+    *   May depend on cloud-based systems (Google Cloud Vertex AI or Microsoft Azure AI Foundry) (Source 14).
+    *   Falls short compared to Mistral Small 3.1 in benchmarks like text generation and reasoning tasks (Source 14).
+
+**Benchmark Comparison:**
+
+*   Mistral Small 3.1 (24B) generally performs better on MMLU, MMLU Pro, GPQA, and MMMU benchmarks, while Gemma 3 achieves better results on TriviaQA (Source 3). [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-1)
+*   Mistral Small 3.1 leads in GPQA Main, GPQA Diamond, MMLU, and HumanEval benchmarks (Source 3). [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-1) Gemma 3-it (27B) leads in SimpleQA and MATH benchmarks (Source 3). [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-1)
+*   Gemma 3 has been evaluated across benchmarks like MMLU-Pro, LiveCodeBench, and Bird-SQL (Source 10).
+*   In the Chatbot Arena, Gemma 3 27B IT has an Elo score of 1339 (Source 10, 13).
+
+**Key Differences:**
+
+*   **Parameter Efficiency:** Mistral Small 3.1 achieves a longer context window and higher inference speed with fewer parameters (Source 6).
+*   **Hardware Requirements:** Mistral Small 3.1 has lower hardware requirements, making it suitable for on-device use (Source 6, 8, 14, 17).
+*   **Multimodal Performance:** Mistral Small 3.1 showcases stronger performance in understanding and generating complex inputs across varied contexts (Source 14).
+*   **Benchmark Performance:** While both models have strengths, Mistral Small 3.1 generally outperforms Gemma 3 in several key benchmarks (Source 3, 8, 14, 17).
+
+**Conclusion:**
+
+As of mid-2025, Mistral Small 3.1 appears to be the stronger model overall, particularly for applications requiring high performance with limited resources. It excels in various benchmarks, offers strong multimodal capabilities, and can be efficiently deployed on-device. [dataglobalhub](https://vertexaisearch.cloud.google.com/id/0-2) [trickmenot](https://vertexaisearch.cloud.google.com/id/0-3) [mistral](https://vertexaisearch.cloud.google.com/id/0-4) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-5) However, Gemma 3 remains a competitive option, especially for multilingual applications and tasks where its specific strengths in SimpleQA and MATH are valuable. The "best" model ultimately depends on the specific use case and requirements (Source 2). [empler](https://vertexaisearch.cloud.google.com/id/0-6)
+
+
+--- Research Result 2 ---
+Based on the search results, Mistral Small 3.1 was released on **March 17, 2025**.
+
+Here's a summary of key information about Mistral Small 3.1:
+
+*   **Release Date:** March 17, 2025. [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-1) [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-3) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-4) [mistral](https://vertexaisearch.cloud.google.com/id/1-5)
+*   **Availability:** It is available for download on Hugging Face, accessible via API on Mistral AI's La Plateforme, and on Google Cloud Vertex AI. [mistral](https://vertexaisearch.cloud.google.com/id/1-2) It was also scheduled to be available on NVIDIA NIM and Microsoft Azure AI Foundry in the weeks following its release.
+*   **Key Features:** Mistral Small 3.1 is a multimodal and multilingual model with improved text performance and an expanded context window of 128k tokens. [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-4) It is designed for various generative AI tasks, including instruction following, conversational assistance, image understanding, and function calling. [mistral](https://vertexaisearch.cloud.google.com/id/1-2)
+*   **Performance:** Mistral AI claims that Mistral Small 3.1 outperforms comparable models like Gemma 3 and GPT-4o Mini while maintaining an inference speed of 150 tokens per second. [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [actuia](https://vertexaisearch.cloud.google.com/id/1-6)
+*   **Licensing:** It is released under the Apache 2.0 license. [llm-stats](https://vertexaisearch.cloud.google.com/id/1-1) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-4) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-3) [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-7) [actuia](https://vertexaisearch.cloud.google.com/id/1-6)
+*   **Hardware Requirements:** Mistral Small 3.1 can run on a single RTX 4090 or a Mac with 32GB RAM. [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [actuia](https://vertexaisearch.cloud.google.com/id/1-6)
+
+
+--- Research Result 3 ---
+Based on the search results, here's what I found regarding the release date and related information for Gemma 3:
+
+*   **Release Date:** Gemma 3 was initially released on **March 12, 2025** \[1, 3, 7]. [huggingface](https://vertexaisearch.cloud.google.com/id/2-0) [llm-stats](https://vertexaisearch.cloud.google.com/id/2-1) [llm-stats](https://vertexaisearch.cloud.google.com/id/2-2) [blog](https://vertexaisearch.cloud.google.com/id/2-3)
+*   **Availability:** The Gemma 3 27B model became available on Amazon Bedrock Marketplace and Amazon SageMaker JumpStart around **May 28, 2025** \[2]. [amazon](https://vertexaisearch.cloud.google.com/id/2-4)
+*   **Model Details:** Gemma 3 is a family of open models built using the same research and technology as Google's Gemini 2.0 models \[3]. [blog](https://vertexaisearch.cloud.google.com/id/2-3) It comes in different sizes (1B, 4B, 12B, and 27B parameters) \[3, 4]. [google](https://vertexaisearch.cloud.google.com/id/2-5) [huggingface](https://vertexaisearch.cloud.google.com/id/2-0) [nvidia](https://vertexaisearch.cloud.google.com/id/2-6) [blog](https://vertexaisearch.cloud.google.com/id/2-3) [google](https://vertexaisearch.cloud.google.com/id/2-7) The models support multiple languages (over 140) and have multimodal capabilities (process text and images), with the exception of the 1B model which is text-only \[3, 4]. [huggingface](https://vertexaisearch.cloud.google.com/id/2-0) [google](https://vertexaisearch.cloud.google.com/id/2-7) The context window is up to 128k tokens for most models, but 32k for the 1B variant \[3, 4]. [huggingface](https://vertexaisearch.cloud.google.com/id/2-0) [nvidia](https://vertexaisearch.cloud.google.com/id/2-6)
+*   **Gemma 3n Preview:** A preview of Gemma 3n, designed for mobile devices, was announced around **May 20, 2025** \[11]. [googleblog](https://vertexaisearch.cloud.google.com/id/2-8)
+
+
+--- Research Result 4 ---
+Based on the search results, here's a summary of optimization techniques employed in Mistral Small 3.1 and Gemma 3:
+
+**Mistral Small 3.1**
+
+*   **Focus on Algorithmic Improvements and Training Optimization:** Mistral AI prioritizes algorithmic improvements and training optimization techniques rather than relying on increasing computational resources. [dataconomy](https://vertexaisearch.cloud.google.com/id/3-0) [siliconangle](https://vertexaisearch.cloud.google.com/id/3-1) This allows it to maximize the performance of smaller model architectures. [siliconangle](https://vertexaisearch.cloud.google.com/id/3-1) [dataconomy](https://vertexaisearch.cloud.google.com/id/3-0)
+*   **Hybrid Attention Mechanism and Sparse Matrix Optimization:** These techniques support multimodal capabilities (text + images) and ultra-long context processing within the 24B parameters. [stable-learn](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Tekken Tokenizer:** Utilizes a Tekken tokenizer with a 131k vocabulary size. [nvidia](https://vertexaisearch.cloud.google.com/id/3-3) [nvidia](https://vertexaisearch.cloud.google.com/id/3-4)
+*   **Hardware Efficiency:** Designed to run on consumer-grade hardware like a single RTX 4090 or a Mac laptop with 32GB RAM.
+*   **Inference Speed:** Achieves inference speeds of approximately 150 tokens per second. [mistral](https://vertexaisearch.cloud.google.com/id/3-5) [siliconangle](https://vertexaisearch.cloud.google.com/id/3-1)
+
+**Gemma 3**
+
+*   **Interleaved Attention:** Gemma 3 utilizes interleaved attention to decrease memory requirements, enabling support for an extended context length. [googleblog](https://vertexaisearch.cloud.google.com/id/3-6)
+*   **Optimized Local-Global Attention Ratio:** Gemma 3 employs a mix of local sliding window attention (1024 tokens) for four layers and full global attention, optimizing the balance between performance and memory usage. There are now five local attention layers for every global attention layer. [youtube](https://vertexaisearch.cloud.google.com/id/3-7)
+*   **KV-cache Memory Reduction:** Architectural changes effectively reduce the memory overhead of the KV cache during inference with long context. [googleblog](https://vertexaisearch.cloud.google.com/id/3-6) [youtube](https://vertexaisearch.cloud.google.com/id/3-7)
+*   **Quantization-Aware Training (QAT):** Gemma 3 offers versions optimized with QAT, which reduces memory requirements while maintaining high quality, enabling the 27B model to run on consumer-grade GPUs like the NVIDIA RTX 3090. [googleblog](https://vertexaisearch.cloud.google.com/id/3-8) Quantization reduces the precision of the model's parameters, using fewer bits (e.g., int8 or int4) compared to BFloat16.
+*   **MatFormer Architecture:** Gemma 3n models use a Matryoshka Transformer (MatFormer) architecture that contains nested, smaller models within a single, larger model. [google](https://vertexaisearch.cloud.google.com/id/3-9) This allows for selective activation of model parameters per request to reduce compute cost and response times. [google](https://vertexaisearch.cloud.google.com/id/3-9)
+*   **PLE Caching:** Gemma 3n models include Per-Layer Embedding (PLE) parameters that can be cached to fast, local storage to reduce model memory run costs. [google](https://vertexaisearch.cloud.google.com/id/3-9)
+*   **Conditional Parameter Loading:** Gemma 3n allows bypassing the loading of vision and audio parameters to reduce the total number of loaded parameters and save memory resources. [google](https://vertexaisearch.cloud.google.com/id/3-9)
+*   **Vision Encoder Optimization:** Gemma 3 uses a tailored version of the SigLIP vision encoder. [arxiv](https://vertexaisearch.cloud.google.com/id/3-10) To reduce the inference cost of image processing, vision embeddings are condensed into a fixed size of 256 vectors. [arxiv](https://vertexaisearch.cloud.google.com/id/3-10) An adaptive windowing algorithm is used during inference to handle non-square aspect ratios and high-resolution images. [huggingface](https://vertexaisearch.cloud.google.com/id/3-11)
+
+**Comparison**
+
+*   **Inference Speed:** Mistral Small 3.1 has a higher inference speed (150 tokens/s) compared to Gemma 3 (~120 tokens/s for the 27B model, based on community testing). [stable-learn](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Parameter Efficiency:** Mistral Small 3.1 achieves a longer context window and higher inference speed with fewer parameters (24B) compared to the 27B version of Gemma 3. [stable-learn](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Attention Mechanism:** Gemma 3 employs interleaved attention and an optimized local-global attention ratio to handle long contexts and reduce memory overhead, while information on the specific attention mechanism used by Mistral Small 3.1 was not found in the search results.
+*   **Hardware Friendliness:** Both models are designed to run on consumer-grade hardware, but Mistral Small 3.1 appears to be more efficient, readily running on a single RTX 4090 or a Mac with 32GB RAM, while the 27B version of Gemma 3 may benefit from dual GPUs or high-end servers.
+*   **Multilingual Capabilities:** Gemma 3 has advantages in multilingual support (140+ languages) compared to Mistral Small 3.1. [stable-learn](https://vertexaisearch.cloud.google.com/id/3-2)
+*   **Open Source Nature:** Mistral Small 3.1 is released under the Apache 2.0 license, offering more openness compared to Gemma 3, which is limited by Google's safety terms.
+*   **Quantization:** Gemma 3 leverages Quantization-Aware Training (QAT) to create quantized versions of its models, reducing memory footprint and enabling them to run on less powerful hardware. [googleblog](https://vertexaisearch.cloud.google.com/id/3-8) It is not clear from the search results whether Mistral Small 3.1 utilizes quantization techniques to the same extent.
+*   **Architecture:** Mistral Small 3.1 is a transformer-based language model. [nvidia](https://vertexaisearch.cloud.google.com/id/3-3) [nvidia](https://vertexaisearch.cloud.google.com/id/3-4) Gemma 3 uses the traditional transformer model architecture but incorporates interleaved attention and local/global attention layers. Gemma 3n utilizes a MatFormer architecture. [google](https://vertexaisearch.cloud.google.com/id/3-9)
+
+
+SOURCES GATHERED
+----------------------------------------
+1. stable-learn
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHla9nFzDcQ2gLVEEKF6lEjSa4CqgrTDPmnpCMs_aPUqq8EU-hnm8kL3GCj3s8Tpgt0w1glEAjrPooi9WAXRHOk4DAfvj41bNPxTQfvBQhSLce17ElEFyMWcVNIZkwKZa4U-tF6fnIuE3G-O4DSBRGvD74=
+
+2. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlnqByDq1BygEvRA-k4Jl4XpoElNdXzX5sYv-G2ctJ8NLd6r55HW8t_ig4tkxqZZrQbo5ASwAdw0tAvNlUQ2K8vSaA7NSp8BqZY7U3yVRkeyarq8BAntkqcVXdwAZdyBO0j51rOuBhoAodzu-EZWEra2qsHTAaha2xIw==
+
+3. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlnqByDq1BygEvRA-k4Jl4XpoElNdXzX5sYv-G2ctJ8NLd6r55HW8t_ig4tkxqZZrQbo5ASwAdw0tAvNlUQ2K8vSaA7NSp8BqZY7U3yVRkeyarq8BAntkqcVXdwAZdyBO0j51rOuBhoAodzu-EZWEra2qsHTAaha2xIw==
+
+4. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlnqByDq1BygEvRA-k4Jl4XpoElNdXzX5sYv-G2ctJ8NLd6r55HW8t_ig4tkxqZZrQbo5ASwAdw0tAvNlUQ2K8vSaA7NSp8BqZY7U3yVRkeyarq8BAntkqcVXdwAZdyBO0j51rOuBhoAodzu-EZWEra2qsHTAaha2xIw==
+
+5. dataglobalhub
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzu-hTGkC74ScmrLQXWMFkMcA00a-nhNbpt7XKpa9xDjR6qF6Zs9mvlZuZyqGz0d_GRBrZ57J3lwERxF6hxD_KVzO3oSaytFpfRPQSS8IVklWZ1BTYbhACiAUtacd5jejWocLowqBsLSlw-XjUkhfiTMTmTqk-QlHu10rZoYUaoiYvPa3BZaldwC0A0q_bnRmf2BUlOFSz
+
+6. trickmenot
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-N5DEK45gmuvBf136O0z4ZQOzQlPXQi36gbLtv0OMIYx-49Mney_WtD3ob1rAYhloFAUeCNBhdl27mdAfV-EU_mFiJfD9J7z_hjTPkJVzdOYFM28dXMdozXWW1jbylp8zxgHhFhlbfZ48xZLFxXOBQywA9O3k1DLjHw==
+
+7. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCyD0T1YqaaHfkGoQm2NFGIJjT0cJtd6RFi5hDTaitnmQ-Y-Dl0RItIaC-9N4caYlu7i-lq6Qr0ZpGpMIlraASs-5EyTETEriHA1Ga8LTRQv8B7K7cQSG_i2yGzoiHkxwNAC5i
+
+8. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0j1mkOOXAKrLjxc7n3XpWl_rt9nBKgrktP-yEAE1Kj0M8G-i6Nw3x-dZGdA3nGW1brYJYQ7rwue9UXY5XgsGBnPAID6i2q_GOWJuITfKxoZuf3ETYtBnIajnfq-or_-WB_yq6pXa4a2ZIMU25283r
+
+9. empler
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjsZ6qqh5IYlU5DjOT68im7Cj9JuyJP3h1ragzEwAoNiM9T0n5kxjmvOqa2bLrDTjYPamEbF9dqc1GRiYP5bRM9U96Rcca07kRMVkL7zbi8GQ5jJu7kvkrjzK8uYxLEB1sVDGptB-r5XI0Ah-ATXByZpGQG1SHEMp_-K7GGVSQizuHYyjiHKDoHGiDqQHbgg1iMMvcCAGs7lnE
+
+10. wikipedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemoA7zo57Ae0KnLo7fi4ZJbokJZAIg2Anx7iCIHmP7Ugaav1nAt--8u6lt7GRen8LyHo7AoazeWVOLhnGBbEs0OvVoEri0ivjZcTZH9QSaBD4MaVCun71IfcYqO3vIh9Z5Lc=
+
+11. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH36zk5T5WMGunAAPWpnei8nV4fmpb6jzQRdfc2uuYy0Iatyx8dpbXN4Oq5ffIt3udKWkrxQFjkz8_ENqiNthKX3UuBduU1Tll6TIE1c6B_eJIrBeU2bPPtXFjmpLkFA6FoecHEeX9D9PVWeox_CmLmzkayoZohouYkpnCVjdt9IGvMG0tnXHI49Jxynp09OiM=
+
+12. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ
+
+13. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHrhwdcrGQsIhIGSWDoXv2NCg1Wqmowhz9ZDTWQDdNDGnElxYXltIFjy0uYgsEHoTf0DnF9RYRzjtbcEaZB_iX312XguqXCjTvSDO1ryRzvVGrja8rBKshNeMBMZ7sfWaN1d3vHUNGDCSW0zAZnMOe73K4rC9tesnFSoE-SvtUR8NWurC6mq8YrA==
+
+14. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqu-udgawpoGqZTd52B_vksN9vR7Y-TU_HWsAO6UV7JjeP3yWQueXphTbCNDk7_gkCDTnfXSOZWdsN4sYVIL23_sE-d4Yev3Ic1sTajjNJ5ZWiIRTz3lnhl30HlWLzGCV4gmB3eAf5D-Ec9NuRTBGDP1jucVjMTQ==
+
+15. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFubdKz4rI8FRVp2SMn_GdFPmkJmmNgiiI6peeAemHAFoghv7Lalt9m72u5YtdI-Zd13_ibqxBycFZbzWUZyW0PKY0qeATaJR5lEamzjfu_uDuOiK1qMW8zBzKV6ZsaS35cs-etGgCrb5cNTGL7
+
+16. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ
+
+17. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ
+
+18. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqu-udgawpoGqZTd52B_vksN9vR7Y-TU_HWsAO6UV7JjeP3yWQueXphTbCNDk7_gkCDTnfXSOZWdsN4sYVIL23_sE-d4Yev3Ic1sTajjNJ5ZWiIRTz3lnhl30HlWLzGCV4gmB3eAf5D-Ec9NuRTBGDP1jucVjMTQ==
+
+19. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ
+
+20. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ
+
+21. actuia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZvreWEwMraaP1kDkni4LR-SyVYuxDqMKNy8gzSsdqDT6xNkVHPwOmeIKo5rh-f6ZS8pO2TLigA46fvT1juhEolta33H6K8ghhDgqmyqD0T3EFT-57l5x-aVeZLrF2Qk4USALPNnOQw_iqBD6NiXZ4wSCQSFN-XXAt4cFLSVmwbcEGKR3RWZDzGa_ZUH3TbaCtZjyBkGmHwY_zGwhpj0jcHcQ=
+
+22. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH36zk5T5WMGunAAPWpnei8nV4fmpb6jzQRdfc2uuYy0Iatyx8dpbXN4Oq5ffIt3udKWkrxQFjkz8_ENqiNthKX3UuBduU1Tll6TIE1c6B_eJIrBeU2bPPtXFjmpLkFA6FoecHEeX9D9PVWeox_CmLmzkayoZohouYkpnCVjdt9IGvMG0tnXHI49Jxynp09OiM=
+
+23. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqu-udgawpoGqZTd52B_vksN9vR7Y-TU_HWsAO6UV7JjeP3yWQueXphTbCNDk7_gkCDTnfXSOZWdsN4sYVIL23_sE-d4Yev3Ic1sTajjNJ5ZWiIRTz3lnhl30HlWLzGCV4gmB3eAf5D-Ec9NuRTBGDP1jucVjMTQ==
+
+24. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHrhwdcrGQsIhIGSWDoXv2NCg1Wqmowhz9ZDTWQDdNDGnElxYXltIFjy0uYgsEHoTf0DnF9RYRzjtbcEaZB_iX312XguqXCjTvSDO1ryRzvVGrja8rBKshNeMBMZ7sfWaN1d3vHUNGDCSW0zAZnMOe73K4rC9tesnFSoE-SvtUR8NWurC6mq8YrA==
+
+25. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ
+
+26. wikipedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemoA7zo57Ae0KnLo7fi4ZJbokJZAIg2Anx7iCIHmP7Ugaav1nAt--8u6lt7GRen8LyHo7AoazeWVOLhnGBbEs0OvVoEri0ivjZcTZH9QSaBD4MaVCun71IfcYqO3vIh9Z5Lc=
+
+27. wikipedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJXXMySOZepX4tmrtfqZ7DrTOAqAM-R2DbmlcG8KZDD4iwf7bk0LPUHM3egZWFEonGROV8YqnE5JWnslFBexUzjK5u7C7dO96etw-p02UFYyesKBPkRCmPh_sK-Be5WT5yqYovBaFt
+
+28. actuia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZvreWEwMraaP1kDkni4LR-SyVYuxDqMKNy8gzSsdqDT6xNkVHPwOmeIKo5rh-f6ZS8pO2TLigA46fvT1juhEolta33H6K8ghhDgqmyqD0T3EFT-57l5x-aVeZLrF2Qk4USALPNnOQw_iqBD6NiXZ4wSCQSFN-XXAt4cFLSVmwbcEGKR3RWZDzGa_ZUH3TbaCtZjyBkGmHwY_zGwhpj0jcHcQ=
+
+29. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ
+
+30. actuia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZvreWEwMraaP1kDkni4LR-SyVYuxDqMKNy8gzSsdqDT6xNkVHPwOmeIKo5rh-f6ZS8pO2TLigA46fvT1juhEolta33H6K8ghhDgqmyqD0T3EFT-57l5x-aVeZLrF2Qk4USALPNnOQw_iqBD6NiXZ4wSCQSFN-XXAt4cFLSVmwbcEGKR3RWZDzGa_ZUH3TbaCtZjyBkGmHwY_zGwhpj0jcHcQ=
+
+31. huggingface
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAS2-B5bUDWY7gr3N9prIgcdlg3qGXb8GFcYNrPTPFQlFL0lJNU0Y09iS8jfjWyEQLLS4Sjg8OcYWS7KgOZh4XdqinEmsR282mKJAlhorgwx2Gu9SS2e6k_mjuqkI=
+
+32. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrLzCdEdMHWUApMVE5SzX_DG5lRr4U85J2By6TJudj-PRpAtNyLwnm23BSWW7h9rzNc1SbfUKqkWalLpP0sTZvl-dGyxQZEchanBwQ-zPwieLlrhoVcfOwKbGHMuEnoL18FqS1Cu4=
+
+33. llm-stats
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc0aooAvM-vPXaP7Q_e8jHlEpR7r3_MYdq6wWx-vw-jcQHECai_gTA6jOAZCHmeUvDdxEfFEwSLVlCsQtU784EsTyCofBQ_JhV3RGP2dE9H4noFEYkVMueZyV-HG2XlVwFRb2c4kw=
+
+34. blog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQA8tRl5oTgTdVbNxYqIPP3Wu1HYQedVjm5XSsKcbfo0sl8Joi9czSHPskiCwolXSwgeKRyneieRyAEsNj3r09o0BPzlZfXv3MbPUrt_PJfZaU0AAOoxNWNIW7V3JlO8DSVC8sgbgdcfv1B5II
+
+35. amazon
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7qRBU3zgmH-ehJRo0IyFGGdC_jcwr5n3kYaNTViBQJ6MFapYYpCvJjfQpBS4LmpCr10XL-43URX0cQYyKaiMZlocD09AusEoM6Vh_tr2nYHvrt2m_NPSUWlRlzmwMzo1zcSAdKMvKGwIy6tq7SZmtcRZMNNcC-Q9CQS1KmBFcoX-z5Q0_LJHg0ZsRAMhlY0K6QF_NbRM7qRSP1vphH0HaiAgCifNaPGgTeIZWcX9RfBtpBYspaZhHCfcbD9MT3zg7QD1DX0B1
+
+36. blog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQA8tRl5oTgTdVbNxYqIPP3Wu1HYQedVjm5XSsKcbfo0sl8Joi9czSHPskiCwolXSwgeKRyneieRyAEsNj3r09o0BPzlZfXv3MbPUrt_PJfZaU0AAOoxNWNIW7V3JlO8DSVC8sgbgdcfv1B5II
+
+37. google
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQFF9WxYWqjmxxRDHdzLvJh-p1MPXYCu8g38_RLpYOt51xla5zrO565THMDHmTlHnsZZtfHGirqHmKypnpxvV8thSnqwHUDLdkK8-TpK6Vffo7PgRiG-u8wLrb98t1yLIzmi3I
+
+38. huggingface
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAS2-B5bUDWY7gr3N9prIgcdlg3qGXb8GFcYNrPTPFQlFL0lJNU0Y09iS8jfjWyEQLLS4Sjg8OcYWS7KgOZh4XdqinEmsR282mKJAlhorgwx2Gu9SS2e6k_mjuqkI=
+
+39. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq-qYfz9PQuwcnaWFC9P_wxTt6ac_kXAAW3LGL3XTV1bbY9CKEqWD9hLU3r_-9gbae-e4_KROhZPqAKoEwpy1lREO9hczAVGGjapiFw_23drKUjNfIbj25IFEQrQrb2JUrPmBR9Wg21Mr_-ijw5c-psmMz
+
+40. blog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQA8tRl5oTgTdVbNxYqIPP3Wu1HYQedVjm5XSsKcbfo0sl8Joi9czSHPskiCwolXSwgeKRyneieRyAEsNj3r09o0BPzlZfXv3MbPUrt_PJfZaU0AAOoxNWNIW7V3JlO8DSVC8sgbgdcfv1B5II
+
+41. google
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiXX-IhIu-aktEvmiAUwYp3axYX0rFUsoyyFWTwNqrS5FCxUe9EVCS2gjhnEbR5knTbqqUzR4HVfVjLvq2ZGUueJwBJzqBVy_GVaP-JVP4B_Ef2VRz4Jly0reMNucY_Tw=
+
+42. huggingface
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAS2-B5bUDWY7gr3N9prIgcdlg3qGXb8GFcYNrPTPFQlFL0lJNU0Y09iS8jfjWyEQLLS4Sjg8OcYWS7KgOZh4XdqinEmsR282mKJAlhorgwx2Gu9SS2e6k_mjuqkI=
+
+43. google
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiXX-IhIu-aktEvmiAUwYp3axYX0rFUsoyyFWTwNqrS5FCxUe9EVCS2gjhnEbR5knTbqqUzR4HVfVjLvq2ZGUueJwBJzqBVy_GVaP-JVP4B_Ef2VRz4Jly0reMNucY_Tw=
+
+44. huggingface
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAS2-B5bUDWY7gr3N9prIgcdlg3qGXb8GFcYNrPTPFQlFL0lJNU0Y09iS8jfjWyEQLLS4Sjg8OcYWS7KgOZh4XdqinEmsR282mKJAlhorgwx2Gu9SS2e6k_mjuqkI=
+
+45. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq-qYfz9PQuwcnaWFC9P_wxTt6ac_kXAAW3LGL3XTV1bbY9CKEqWD9hLU3r_-9gbae-e4_KROhZPqAKoEwpy1lREO9hczAVGGjapiFw_23drKUjNfIbj25IFEQrQrb2JUrPmBR9Wg21Mr_-ijw5c-psmMz
+
+46. googleblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_eQEHkktL-JGKuAwGajpMiNwUAoNmdqYoDUtW3gTj1-5V2me6YKUE-QyJnJjFtpOpH5vNQ2zAnNvxkkg_i7KJet54M0A9EFghrVsMHt5-XBtJSKrCUK5p7ozLuTHdneUo5gpmArarvVsvYn7LAYA3DNG-LVw=
+
+47. dataconomy
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRNkeILsG1FnIu__TfY3tLNnm382rDIsWCm9KwtHJ6zYprgdiXTMDg2VFRstBWCZBJDwquF-njvrHP6RyNMYv592D418MGlPwvrdFC1wpOK0fOCxf2aAlcoBwCtw_nG3nYaWW3Rfb14pA9IvG3fjDI8Z291pOXZFYi4q1UGb9Y8XB4QUWnX3yh5ET3Gx62Hs7CIA==
+
+48. siliconangle
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTPOywFri_H0gVnqflU1BmMwgGJq4oOMwFuOW5-Uh87fUHCXqKFEfE6T5b4rNcrRihZl7UIF4h_4wVMbHu2VdlnMNbscWZ3739cGHjkn86F5N2cMvKqANQdh4hmFPPpqrtPdnJHyl6oRBmE-vO3CcdWVmMO6-JzkXyBH2MZV78LyhcHBRh4cajzFIUkdke-Qj0Lk2jprc24i8=
+
+49. siliconangle
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTPOywFri_H0gVnqflU1BmMwgGJq4oOMwFuOW5-Uh87fUHCXqKFEfE6T5b4rNcrRihZl7UIF4h_4wVMbHu2VdlnMNbscWZ3739cGHjkn86F5N2cMvKqANQdh4hmFPPpqrtPdnJHyl6oRBmE-vO3CcdWVmMO6-JzkXyBH2MZV78LyhcHBRh4cajzFIUkdke-Qj0Lk2jprc24i8=
+
+50. dataconomy
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRNkeILsG1FnIu__TfY3tLNnm382rDIsWCm9KwtHJ6zYprgdiXTMDg2VFRstBWCZBJDwquF-njvrHP6RyNMYv592D418MGlPwvrdFC1wpOK0fOCxf2aAlcoBwCtw_nG3nYaWW3Rfb14pA9IvG3fjDI8Z291pOXZFYi4q1UGb9Y8XB4QUWnX3yh5ET3Gx62Hs7CIA==
+
+51. stable-learn
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE5gds8rzzbuw0G3vd1m72J8KU6RKRN6eqp1jt-hr79IzqvIP6xB5mvtpF7kvx9Ycwv8jN3svye70JGKGbuPou_eVh3uz_El9tZuKb2tDMEyhiF7tSVa9nMZipzI_9jddphjEgXTAYsEd8k6WwlPClbqk=
+
+52. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQXdpC8nboU6qASNZE3n02r_vuAfthNv64RnJ8JAJ1cFRraXTeFjeVOHogiBcnU10OD6LD3v1uEQ_O-HNePLcCgHql-vDu8IOWZ-whqzi9Us3qY7mkdCCWLBW8eWBsiKi0-oqX3CFfjHpF60DUqtl0kWxwtSMiubqAk2GQN-_bq9sb-Uq6V_eTfzvP-9ekHIJvgw==
+
+53. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF5LjabDNL8iRfA-XPiLcM9Qil0ehlTrW0SP5lwGN2iDdx2Wn98gWyp9BOjp__J_ch0jfuyM1aU3gA9Ger9WWBQfKhC_W-EUi25-DnrpCwYjmlqD-QQD3IOLsGHwhrY8j5IyEmH_YVyEYjUnTkQPF8TOvwR0BXmqOi7mNeftd3ERO_dhb8JtdjuR2m
+
+54. mistral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0SW95Ghpcz8hUF3sGvh8UfKAEaf_LjQy7QDmUcVTPjJzmprVjy2IfIdh4u1vtwdDeL5r_ldQ2QWSnJFYQvQPlOJFxuWwtN7Um0mNOM-Oa5OfSYwUK9Xf8F2bjcCLDwFxBg3fn
+
+55. siliconangle
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTPOywFri_H0gVnqflU1BmMwgGJq4oOMwFuOW5-Uh87fUHCXqKFEfE6T5b4rNcrRihZl7UIF4h_4wVMbHu2VdlnMNbscWZ3739cGHjkn86F5N2cMvKqANQdh4hmFPPpqrtPdnJHyl6oRBmE-vO3CcdWVmMO6-JzkXyBH2MZV78LyhcHBRh4cajzFIUkdke-Qj0Lk2jprc24i8=
+
+56. googleblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZVouYwhY9LNqDj2B1o85nrbSYeggQD7k1NkvC1sek79DCd_7pMENN7b4SBspidpNUrzl3nl8lnzHGEeRg2MntrsAQaHFtvFNvo3copU7bSmiWdbWgLvHQ5LuFYkPm4nFN7kudh5dP5S5TSuSJKZnFst2L97BGUhMwg-Tgrj1LK-RjngDN
+
+57. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLHsbNVdjvEjTLtc_FkFCEotBdgu6xPrLd4qeTc735Pp8-1kyTkSazVlWhn4CvMgkFzFf6U0kTecFP8tRXgjDRzk-8TPG9uX0DugyGI0IbbEwqlT4XLR3wc4TH6Cf1JRRAF6yb21k=
+
+58. googleblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZVouYwhY9LNqDj2B1o85nrbSYeggQD7k1NkvC1sek79DCd_7pMENN7b4SBspidpNUrzl3nl8lnzHGEeRg2MntrsAQaHFtvFNvo3copU7bSmiWdbWgLvHQ5LuFYkPm4nFN7kudh5dP5S5TSuSJKZnFst2L97BGUhMwg-Tgrj1LK-RjngDN
+
+59. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLHsbNVdjvEjTLtc_FkFCEotBdgu6xPrLd4qeTc735Pp8-1kyTkSazVlWhn4CvMgkFzFf6U0kTecFP8tRXgjDRzk-8TPG9uX0DugyGI0IbbEwqlT4XLR3wc4TH6Cf1JRRAF6yb21k=
+
+60. googleblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3aTgzU9tIXvZN2KPcAxDRkHl3V7QOMFJcIb52fQZqRqUA56rd_0DL1faVes2sH98TdIgCyrNGJQ1G2lrijCtsGOyOWCadLgKVdyXOh24OlJbWZ1dQ3Xx_Wtwn9bo0eaPIKIv6OTfZz4eO6NffONbxysYZ0yZ2pKwEZXsLWjv8y7UKwtBgvTmhHxFaCuUCtm57aI_WMNXFmTcL1SMO74eeFtQMfys=
+
+61. google
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0
+
+62. google
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0
+
+63. google
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0
+
+64. google
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0
+
+65. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8245idUYp8J-hgKcdsNBqnssno7roG0AYtGnM3w954SGkpDIvp7I0fbbX_xWTQwaZCXGItUW_UhvHMj0737mbrOi2V5VgI3HkWRjTfEqxzgxlfD6M-ezVLKBasHAZ
+
+66. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8245idUYp8J-hgKcdsNBqnssno7roG0AYtGnM3w954SGkpDIvp7I0fbbX_xWTQwaZCXGItUW_UhvHMj0737mbrOi2V5VgI3HkWRjTfEqxzgxlfD6M-ezVLKBasHAZ
+
+67. huggingface
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWQzmPG-DrO0xi4RVcLKUGUBMD9XDnVwx9YqM1EsTSrK3sVjr2mRRQvlAytEWTJUxopglb0_qhfi1sd-C95a9Kcd8UaUsP7JG6kqyyqlhQ4YQDktFqYfpOnwPG-ZQ=
+
+68. stable-learn
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE5gds8rzzbuw0G3vd1m72J8KU6RKRN6eqp1jt-hr79IzqvIP6xB5mvtpF7kvx9Ycwv8jN3svye70JGKGbuPou_eVh3uz_El9tZuKb2tDMEyhiF7tSVa9nMZipzI_9jddphjEgXTAYsEd8k6WwlPClbqk=
+
+69. stable-learn
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE5gds8rzzbuw0G3vd1m72J8KU6RKRN6eqp1jt-hr79IzqvIP6xB5mvtpF7kvx9Ycwv8jN3svye70JGKGbuPou_eVh3uz_El9tZuKb2tDMEyhiF7tSVa9nMZipzI_9jddphjEgXTAYsEd8k6WwlPClbqk=
+
+70. stable-learn
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE5gds8rzzbuw0G3vd1m72J8KU6RKRN6eqp1jt-hr79IzqvIP6xB5mvtpF7kvx9Ycwv8jN3svye70JGKGbuPou_eVh3uz_El9tZuKb2tDMEyhiF7tSVa9nMZipzI_9jddphjEgXTAYsEd8k6WwlPClbqk=
+
+71. googleblog
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3aTgzU9tIXvZN2KPcAxDRkHl3V7QOMFJcIb52fQZqRqUA56rd_0DL1faVes2sH98TdIgCyrNGJQ1G2lrijCtsGOyOWCadLgKVdyXOh24OlJbWZ1dQ3Xx_Wtwn9bo0eaPIKIv6OTfZz4eO6NffONbxysYZ0yZ2pKwEZXsLWjv8y7UKwtBgvTmhHxFaCuUCtm57aI_WMNXFmTcL1SMO74eeFtQMfys=
+
+72. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQXdpC8nboU6qASNZE3n02r_vuAfthNv64RnJ8JAJ1cFRraXTeFjeVOHogiBcnU10OD6LD3v1uEQ_O-HNePLcCgHql-vDu8IOWZ-whqzi9Us3qY7mkdCCWLBW8eWBsiKi0-oqX3CFfjHpF60DUqtl0kWxwtSMiubqAk2GQN-_bq9sb-Uq6V_eTfzvP-9ekHIJvgw==
+
+73. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF5LjabDNL8iRfA-XPiLcM9Qil0ehlTrW0SP5lwGN2iDdx2Wn98gWyp9BOjp__J_ch0jfuyM1aU3gA9Ger9WWBQfKhC_W-EUi25-DnrpCwYjmlqD-QQD3IOLsGHwhrY8j5IyEmH_YVyEYjUnTkQPF8TOvwR0BXmqOi7mNeftd3ERO_dhb8JtdjuR2m
+
+74. google
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "Mistral Small 3.1 VS Gemma 3?"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "As of June 20, 2025, both Mistral Small 3.1 and Gemma 3 are considered leading \"lightweight\" LLMs (Source 6, 19). Gemma 3 was initially released on March 12, 2025 [1, 3, 7], while Mistral Small 3.1 followed on March 17, 2025 [1, 3, 6, 7].\n\n**Key Differences and Strengths:**\n\n*   **Overall Performance:** Mistral Small 3.1 (24B parameters) generally outperforms Gemma 3 in benchmarks like MMLU, MMLU Pro, GPQA, and MMMU (Source 3, 6, 8, 14, 17). It excels in text generation and reasoning tasks (Source 14). Gemma 3 achieves better results on TriviaQA, SimpleQA and MATH benchmarks (Source 3).\n*   **Parameter Efficiency:** Mistral Small 3.1 achieves a longer context window and higher inference speed with fewer parameters (Source 6).\n*   **Inference Speed:** Mistral Small 3.1 has a higher inference speed of 150 tokens/s (Source 6, 8), while Gemma 3 (27B version) has an inference speed of approximately 120 tokens/s (Source 6).\n*   **Hardware Requirements:** Mistral Small 3.1 can run on a single RTX 4090 or a Mac with 32GB RAM (Source 6, 8, 14, 17), making it suitable for on-device use (Source 14, 17). The 27B version of Gemma 3 may require dual GPUs or high-end servers (A100 40GB) (Source 6).\n*   **Context Window:** Both models offer a context window of up to 128k tokens, except for Gemma 3's 1B parameter version, which has a 32k context window (Source 6, 8, 10, 16).\n*   **Multimodal Support:** Both models support text and images (Source 6, 8, 16). Mistral Small 3.1 showcases stronger performance in understanding and generating complex inputs across varied contexts (Source 14).\n*   **Multilingual Capabilities:** Gemma 3 supports over 140 languages (Source 10, 13, 16), giving it an advantage in multilingual applications.\n*   **Optimization Techniques:** Mistral AI prioritizes algorithmic improvements and training optimization techniques (Source 3, 1). Gemma 3 utilizes interleaved attention to decrease memory requirements (Source 3). Gemma 3 also employs Quantization-Aware Training (QAT) (Source 3).\n*   **Licensing:** Mistral Small 3.1 is released under the Apache 2.0 license (Source 8, 14), offering more openness.\n\n**Availability:**\n\n*   Mistral Small 3.1 is available for download on Hugging Face, accessible via API on Mistral AI's La Plateforme, and on Google Cloud Vertex AI (Source 1).\n*   The Gemma 3 27B model is available on Amazon Bedrock Marketplace and Amazon SageMaker JumpStart (Source 2).\n\nIn conclusion, Mistral Small 3.1 appears to be the stronger model overall as of June 2025, particularly for applications requiring high performance with limited resources (Source 6, 8, 14, 17). However, Gemma 3 remains a competitive option, especially for multilingual applications and tasks where its specific strengths in SimpleQA and MATH are valuable (Source 2)."
+    }
+  ],
+  "search_query": [
+    "Mistral Small 3.1 vs Gemma 3 benchmark comparison 2025",
+    "Mistral Small 3.1 release date",
+    "Gemma 3 release date",
+    "What specific optimization techniques are employed in Mistral Small 3.1 to achieve its high inference speed (150 tokens/s) on consumer-grade hardware like a single RTX 4090? How does this compare to the optimization strategies used in Gemma 3?"
+  ],
+  "web_research_result": [
+    "Based on the search results, here's a comparison of Mistral Small 3.1 and Gemma 3 as of June 20, 2025:\n\n**General Overview:**\n\n*   Both Mistral Small 3.1 and Gemma 3 are considered leading models in the \"lightweight\" LLM category (Source 6, 19).\n*   Mistral Small 3.1 was launched in March 2025, following the release of Gemma 3 by Google DeepMind (Source 6). [stable-learn](https://vertexaisearch.cloud.google.com/id/0-0)\n\n**Mistral Small 3.1:**\n\n*   **Parameters:** 24B (Source 3, 6, 14).\n*   **Context Window:** 128k tokens (Source 6, 8).\n*   **Inference Speed:** 150 tokens/s (Source 6, 8).\n*   **Hardware Requirements:** Can run on a single RTX 4090 or a Mac with 32GB RAM (Source 6, 8, 14, 17).\n*   **Multimodal Support:** Text + images (Source 6, 8).\n*   **License:** Apache 2.0 (Source 8, 14).\n*   **Strengths:**\n    *   Excels in text generation and reasoning tasks (Source 14).\n    *   Outperforms Gemma 3 and GPT-4o Mini in multiple benchmarks (Source 6, 8, 14, 17).\n    *   Strong performance on GPQA (Source 3, 8, 14), MMLU (Source 3), HumanEval (Source 3), LongBench v2, and RULER 32k benchmarks (Source 3).\n    *   Achieves high scores in multimodal benchmarks like MMMU-Pro, MathVista, and ChartQA (Source 17).\n    *   Efficient and can be run on-device (Source 14, 17).\n    *   Multilingual capabilities (Source 8, 14).\n*   **Use Cases:** Document verification, diagnostics, on-device image processing, visual inspection for quality checks, object detection in security systems, image-based customer support, and general-purpose assistance (Source 8).\n\n**Gemma 3:**\n\n*   **Parameters:** Offers versions with 1B, 4B, 12B, and 27B parameters (Source 6, 16). The 27B version is the flagship model (Source 6).\n*   **Context Window:** Up to 128k tokens for models other than the 1B version (Source 6, 10, 16). The 1B model has a 32k context window (Source 16).\n*   **Inference Speed:** Approximately 120 tokens/s (27B version, based on community testing) (Source 6).\n*   **Hardware Requirements:** Recommended dual GPUs or high-end servers (A100 40GB) for the 27B version (Source 6).\n*   **Multimodal Support:** Text + some visual tasks (Source 6). Supports both text and images as input (Source 16).\n*   **Strengths:**\n    *   Multilingual, supporting 140+ languages (Source 10, 13, 16).\n*   **Weaknesses:**\n    *   May depend on cloud-based systems (Google Cloud Vertex AI or Microsoft Azure AI Foundry) (Source 14).\n    *   Falls short compared to Mistral Small 3.1 in benchmarks like text generation and reasoning tasks (Source 14).\n\n**Benchmark Comparison:**\n\n*   Mistral Small 3.1 (24B) generally performs better on MMLU, MMLU Pro, GPQA, and MMMU benchmarks, while Gemma 3 achieves better results on TriviaQA (Source 3). [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-1)\n*   Mistral Small 3.1 leads in GPQA Main, GPQA Diamond, MMLU, and HumanEval benchmarks (Source 3). [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-1) Gemma 3-it (27B) leads in SimpleQA and MATH benchmarks (Source 3). [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-1)\n*   Gemma 3 has been evaluated across benchmarks like MMLU-Pro, LiveCodeBench, and Bird-SQL (Source 10).\n*   In the Chatbot Arena, Gemma 3 27B IT has an Elo score of 1339 (Source 10, 13).\n\n**Key Differences:**\n\n*   **Parameter Efficiency:** Mistral Small 3.1 achieves a longer context window and higher inference speed with fewer parameters (Source 6).\n*   **Hardware Requirements:** Mistral Small 3.1 has lower hardware requirements, making it suitable for on-device use (Source 6, 8, 14, 17).\n*   **Multimodal Performance:** Mistral Small 3.1 showcases stronger performance in understanding and generating complex inputs across varied contexts (Source 14).\n*   **Benchmark Performance:** While both models have strengths, Mistral Small 3.1 generally outperforms Gemma 3 in several key benchmarks (Source 3, 8, 14, 17).\n\n**Conclusion:**\n\nAs of mid-2025, Mistral Small 3.1 appears to be the stronger model overall, particularly for applications requiring high performance with limited resources. It excels in various benchmarks, offers strong multimodal capabilities, and can be efficiently deployed on-device. [dataglobalhub](https://vertexaisearch.cloud.google.com/id/0-2) [trickmenot](https://vertexaisearch.cloud.google.com/id/0-3) [mistral](https://vertexaisearch.cloud.google.com/id/0-4) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-5) However, Gemma 3 remains a competitive option, especially for multilingual applications and tasks where its specific strengths in SimpleQA and MATH are valuable. The \"best\" model ultimately depends on the specific use case and requirements (Source 2). [empler](https://vertexaisearch.cloud.google.com/id/0-6)\n",
+    "Based on the search results, Mistral Small 3.1 was released on **March 17, 2025**.\n\nHere's a summary of key information about Mistral Small 3.1:\n\n*   **Release Date:** March 17, 2025. [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-1) [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-3) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-4) [mistral](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Availability:** It is available for download on Hugging Face, accessible via API on Mistral AI's La Plateforme, and on Google Cloud Vertex AI. [mistral](https://vertexaisearch.cloud.google.com/id/1-2) It was also scheduled to be available on NVIDIA NIM and Microsoft Azure AI Foundry in the weeks following its release.\n*   **Key Features:** Mistral Small 3.1 is a multimodal and multilingual model with improved text performance and an expanded context window of 128k tokens. [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-4) It is designed for various generative AI tasks, including instruction following, conversational assistance, image understanding, and function calling. [mistral](https://vertexaisearch.cloud.google.com/id/1-2)\n*   **Performance:** Mistral AI claims that Mistral Small 3.1 outperforms comparable models like Gemma 3 and GPT-4o Mini while maintaining an inference speed of 150 tokens per second. [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [actuia](https://vertexaisearch.cloud.google.com/id/1-6)\n*   **Licensing:** It is released under the Apache 2.0 license. [llm-stats](https://vertexaisearch.cloud.google.com/id/1-1) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-4) [llm-stats](https://vertexaisearch.cloud.google.com/id/1-3) [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-7) [actuia](https://vertexaisearch.cloud.google.com/id/1-6)\n*   **Hardware Requirements:** Mistral Small 3.1 can run on a single RTX 4090 or a Mac with 32GB RAM. [mistral](https://vertexaisearch.cloud.google.com/id/1-2) [actuia](https://vertexaisearch.cloud.google.com/id/1-6)\n",
+    "Based on the search results, here's what I found regarding the release date and related information for Gemma 3:\n\n*   **Release Date:** Gemma 3 was initially released on **March 12, 2025** \\[1, 3, 7]. [huggingface](https://vertexaisearch.cloud.google.com/id/2-0) [llm-stats](https://vertexaisearch.cloud.google.com/id/2-1) [llm-stats](https://vertexaisearch.cloud.google.com/id/2-2) [blog](https://vertexaisearch.cloud.google.com/id/2-3)\n*   **Availability:** The Gemma 3 27B model became available on Amazon Bedrock Marketplace and Amazon SageMaker JumpStart around **May 28, 2025** \\[2]. [amazon](https://vertexaisearch.cloud.google.com/id/2-4)\n*   **Model Details:** Gemma 3 is a family of open models built using the same research and technology as Google's Gemini 2.0 models \\[3]. [blog](https://vertexaisearch.cloud.google.com/id/2-3) It comes in different sizes (1B, 4B, 12B, and 27B parameters) \\[3, 4]. [google](https://vertexaisearch.cloud.google.com/id/2-5) [huggingface](https://vertexaisearch.cloud.google.com/id/2-0) [nvidia](https://vertexaisearch.cloud.google.com/id/2-6) [blog](https://vertexaisearch.cloud.google.com/id/2-3) [google](https://vertexaisearch.cloud.google.com/id/2-7) The models support multiple languages (over 140) and have multimodal capabilities (process text and images), with the exception of the 1B model which is text-only \\[3, 4]. [huggingface](https://vertexaisearch.cloud.google.com/id/2-0) [google](https://vertexaisearch.cloud.google.com/id/2-7) The context window is up to 128k tokens for most models, but 32k for the 1B variant \\[3, 4]. [huggingface](https://vertexaisearch.cloud.google.com/id/2-0) [nvidia](https://vertexaisearch.cloud.google.com/id/2-6)\n*   **Gemma 3n Preview:** A preview of Gemma 3n, designed for mobile devices, was announced around **May 20, 2025** \\[11]. [googleblog](https://vertexaisearch.cloud.google.com/id/2-8)\n",
+    "Based on the search results, here's a summary of optimization techniques employed in Mistral Small 3.1 and Gemma 3:\n\n**Mistral Small 3.1**\n\n*   **Focus on Algorithmic Improvements and Training Optimization:** Mistral AI prioritizes algorithmic improvements and training optimization techniques rather than relying on increasing computational resources. [dataconomy](https://vertexaisearch.cloud.google.com/id/3-0) [siliconangle](https://vertexaisearch.cloud.google.com/id/3-1) This allows it to maximize the performance of smaller model architectures. [siliconangle](https://vertexaisearch.cloud.google.com/id/3-1) [dataconomy](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **Hybrid Attention Mechanism and Sparse Matrix Optimization:** These techniques support multimodal capabilities (text + images) and ultra-long context processing within the 24B parameters. [stable-learn](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Tekken Tokenizer:** Utilizes a Tekken tokenizer with a 131k vocabulary size. [nvidia](https://vertexaisearch.cloud.google.com/id/3-3) [nvidia](https://vertexaisearch.cloud.google.com/id/3-4)\n*   **Hardware Efficiency:** Designed to run on consumer-grade hardware like a single RTX 4090 or a Mac laptop with 32GB RAM.\n*   **Inference Speed:** Achieves inference speeds of approximately 150 tokens per second. [mistral](https://vertexaisearch.cloud.google.com/id/3-5) [siliconangle](https://vertexaisearch.cloud.google.com/id/3-1)\n\n**Gemma 3**\n\n*   **Interleaved Attention:** Gemma 3 utilizes interleaved attention to decrease memory requirements, enabling support for an extended context length. [googleblog](https://vertexaisearch.cloud.google.com/id/3-6)\n*   **Optimized Local-Global Attention Ratio:** Gemma 3 employs a mix of local sliding window attention (1024 tokens) for four layers and full global attention, optimizing the balance between performance and memory usage. There are now five local attention layers for every global attention layer. [youtube](https://vertexaisearch.cloud.google.com/id/3-7)\n*   **KV-cache Memory Reduction:** Architectural changes effectively reduce the memory overhead of the KV cache during inference with long context. [googleblog](https://vertexaisearch.cloud.google.com/id/3-6) [youtube](https://vertexaisearch.cloud.google.com/id/3-7)\n*   **Quantization-Aware Training (QAT):** Gemma 3 offers versions optimized with QAT, which reduces memory requirements while maintaining high quality, enabling the 27B model to run on consumer-grade GPUs like the NVIDIA RTX 3090. [googleblog](https://vertexaisearch.cloud.google.com/id/3-8) Quantization reduces the precision of the model's parameters, using fewer bits (e.g., int8 or int4) compared to BFloat16.\n*   **MatFormer Architecture:** Gemma 3n models use a Matryoshka Transformer (MatFormer) architecture that contains nested, smaller models within a single, larger model. [google](https://vertexaisearch.cloud.google.com/id/3-9) This allows for selective activation of model parameters per request to reduce compute cost and response times. [google](https://vertexaisearch.cloud.google.com/id/3-9)\n*   **PLE Caching:** Gemma 3n models include Per-Layer Embedding (PLE) parameters that can be cached to fast, local storage to reduce model memory run costs. [google](https://vertexaisearch.cloud.google.com/id/3-9)\n*   **Conditional Parameter Loading:** Gemma 3n allows bypassing the loading of vision and audio parameters to reduce the total number of loaded parameters and save memory resources. [google](https://vertexaisearch.cloud.google.com/id/3-9)\n*   **Vision Encoder Optimization:** Gemma 3 uses a tailored version of the SigLIP vision encoder. [arxiv](https://vertexaisearch.cloud.google.com/id/3-10) To reduce the inference cost of image processing, vision embeddings are condensed into a fixed size of 256 vectors. [arxiv](https://vertexaisearch.cloud.google.com/id/3-10) An adaptive windowing algorithm is used during inference to handle non-square aspect ratios and high-resolution images. [huggingface](https://vertexaisearch.cloud.google.com/id/3-11)\n\n**Comparison**\n\n*   **Inference Speed:** Mistral Small 3.1 has a higher inference speed (150 tokens/s) compared to Gemma 3 (~120 tokens/s for the 27B model, based on community testing). [stable-learn](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Parameter Efficiency:** Mistral Small 3.1 achieves a longer context window and higher inference speed with fewer parameters (24B) compared to the 27B version of Gemma 3. [stable-learn](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Attention Mechanism:** Gemma 3 employs interleaved attention and an optimized local-global attention ratio to handle long contexts and reduce memory overhead, while information on the specific attention mechanism used by Mistral Small 3.1 was not found in the search results.\n*   **Hardware Friendliness:** Both models are designed to run on consumer-grade hardware, but Mistral Small 3.1 appears to be more efficient, readily running on a single RTX 4090 or a Mac with 32GB RAM, while the 27B version of Gemma 3 may benefit from dual GPUs or high-end servers.\n*   **Multilingual Capabilities:** Gemma 3 has advantages in multilingual support (140+ languages) compared to Mistral Small 3.1. [stable-learn](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Open Source Nature:** Mistral Small 3.1 is released under the Apache 2.0 license, offering more openness compared to Gemma 3, which is limited by Google's safety terms.\n*   **Quantization:** Gemma 3 leverages Quantization-Aware Training (QAT) to create quantized versions of its models, reducing memory footprint and enabling them to run on less powerful hardware. [googleblog](https://vertexaisearch.cloud.google.com/id/3-8) It is not clear from the search results whether Mistral Small 3.1 utilizes quantization techniques to the same extent.\n*   **Architecture:** Mistral Small 3.1 is a transformer-based language model. [nvidia](https://vertexaisearch.cloud.google.com/id/3-3) [nvidia](https://vertexaisearch.cloud.google.com/id/3-4) Gemma 3 uses the traditional transformer model architecture but incorporates interleaved attention and local/global attention layers. Gemma 3n utilizes a MatFormer architecture. [google](https://vertexaisearch.cloud.google.com/id/3-9)\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "stable-learn",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHla9nFzDcQ2gLVEEKF6lEjSa4CqgrTDPmnpCMs_aPUqq8EU-hnm8kL3GCj3s8Tpgt0w1glEAjrPooi9WAXRHOk4DAfvj41bNPxTQfvBQhSLce17ElEFyMWcVNIZkwKZa4U-tF6fnIuE3G-O4DSBRGvD74="
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlnqByDq1BygEvRA-k4Jl4XpoElNdXzX5sYv-G2ctJ8NLd6r55HW8t_ig4tkxqZZrQbo5ASwAdw0tAvNlUQ2K8vSaA7NSp8BqZY7U3yVRkeyarq8BAntkqcVXdwAZdyBO0j51rOuBhoAodzu-EZWEra2qsHTAaha2xIw=="
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlnqByDq1BygEvRA-k4Jl4XpoElNdXzX5sYv-G2ctJ8NLd6r55HW8t_ig4tkxqZZrQbo5ASwAdw0tAvNlUQ2K8vSaA7NSp8BqZY7U3yVRkeyarq8BAntkqcVXdwAZdyBO0j51rOuBhoAodzu-EZWEra2qsHTAaha2xIw=="
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlnqByDq1BygEvRA-k4Jl4XpoElNdXzX5sYv-G2ctJ8NLd6r55HW8t_ig4tkxqZZrQbo5ASwAdw0tAvNlUQ2K8vSaA7NSp8BqZY7U3yVRkeyarq8BAntkqcVXdwAZdyBO0j51rOuBhoAodzu-EZWEra2qsHTAaha2xIw=="
+    },
+    {
+      "label": "dataglobalhub",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzu-hTGkC74ScmrLQXWMFkMcA00a-nhNbpt7XKpa9xDjR6qF6Zs9mvlZuZyqGz0d_GRBrZ57J3lwERxF6hxD_KVzO3oSaytFpfRPQSS8IVklWZ1BTYbhACiAUtacd5jejWocLowqBsLSlw-XjUkhfiTMTmTqk-QlHu10rZoYUaoiYvPa3BZaldwC0A0q_bnRmf2BUlOFSz"
+    },
+    {
+      "label": "trickmenot",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-N5DEK45gmuvBf136O0z4ZQOzQlPXQi36gbLtv0OMIYx-49Mney_WtD3ob1rAYhloFAUeCNBhdl27mdAfV-EU_mFiJfD9J7z_hjTPkJVzdOYFM28dXMdozXWW1jbylp8zxgHhFhlbfZ48xZLFxXOBQywA9O3k1DLjHw=="
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCyD0T1YqaaHfkGoQm2NFGIJjT0cJtd6RFi5hDTaitnmQ-Y-Dl0RItIaC-9N4caYlu7i-lq6Qr0ZpGpMIlraASs-5EyTETEriHA1Ga8LTRQv8B7K7cQSG_i2yGzoiHkxwNAC5i"
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0j1mkOOXAKrLjxc7n3XpWl_rt9nBKgrktP-yEAE1Kj0M8G-i6Nw3x-dZGdA3nGW1brYJYQ7rwue9UXY5XgsGBnPAID6i2q_GOWJuITfKxoZuf3ETYtBnIajnfq-or_-WB_yq6pXa4a2ZIMU25283r"
+    },
+    {
+      "label": "empler",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjsZ6qqh5IYlU5DjOT68im7Cj9JuyJP3h1ragzEwAoNiM9T0n5kxjmvOqa2bLrDTjYPamEbF9dqc1GRiYP5bRM9U96Rcca07kRMVkL7zbi8GQ5jJu7kvkrjzK8uYxLEB1sVDGptB-r5XI0Ah-ATXByZpGQG1SHEMp_-K7GGVSQizuHYyjiHKDoHGiDqQHbgg1iMMvcCAGs7lnE"
+    },
+    {
+      "label": "wikipedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemoA7zo57Ae0KnLo7fi4ZJbokJZAIg2Anx7iCIHmP7Ugaav1nAt--8u6lt7GRen8LyHo7AoazeWVOLhnGBbEs0OvVoEri0ivjZcTZH9QSaBD4MaVCun71IfcYqO3vIh9Z5Lc="
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH36zk5T5WMGunAAPWpnei8nV4fmpb6jzQRdfc2uuYy0Iatyx8dpbXN4Oq5ffIt3udKWkrxQFjkz8_ENqiNthKX3UuBduU1Tll6TIE1c6B_eJIrBeU2bPPtXFjmpLkFA6FoecHEeX9D9PVWeox_CmLmzkayoZohouYkpnCVjdt9IGvMG0tnXHI49Jxynp09OiM="
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ"
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHrhwdcrGQsIhIGSWDoXv2NCg1Wqmowhz9ZDTWQDdNDGnElxYXltIFjy0uYgsEHoTf0DnF9RYRzjtbcEaZB_iX312XguqXCjTvSDO1ryRzvVGrja8rBKshNeMBMZ7sfWaN1d3vHUNGDCSW0zAZnMOe73K4rC9tesnFSoE-SvtUR8NWurC6mq8YrA=="
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqu-udgawpoGqZTd52B_vksN9vR7Y-TU_HWsAO6UV7JjeP3yWQueXphTbCNDk7_gkCDTnfXSOZWdsN4sYVIL23_sE-d4Yev3Ic1sTajjNJ5ZWiIRTz3lnhl30HlWLzGCV4gmB3eAf5D-Ec9NuRTBGDP1jucVjMTQ=="
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFubdKz4rI8FRVp2SMn_GdFPmkJmmNgiiI6peeAemHAFoghv7Lalt9m72u5YtdI-Zd13_ibqxBycFZbzWUZyW0PKY0qeATaJR5lEamzjfu_uDuOiK1qMW8zBzKV6ZsaS35cs-etGgCrb5cNTGL7"
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ"
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ"
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqu-udgawpoGqZTd52B_vksN9vR7Y-TU_HWsAO6UV7JjeP3yWQueXphTbCNDk7_gkCDTnfXSOZWdsN4sYVIL23_sE-d4Yev3Ic1sTajjNJ5ZWiIRTz3lnhl30HlWLzGCV4gmB3eAf5D-Ec9NuRTBGDP1jucVjMTQ=="
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ"
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ"
+    },
+    {
+      "label": "actuia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZvreWEwMraaP1kDkni4LR-SyVYuxDqMKNy8gzSsdqDT6xNkVHPwOmeIKo5rh-f6ZS8pO2TLigA46fvT1juhEolta33H6K8ghhDgqmyqD0T3EFT-57l5x-aVeZLrF2Qk4USALPNnOQw_iqBD6NiXZ4wSCQSFN-XXAt4cFLSVmwbcEGKR3RWZDzGa_ZUH3TbaCtZjyBkGmHwY_zGwhpj0jcHcQ="
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH36zk5T5WMGunAAPWpnei8nV4fmpb6jzQRdfc2uuYy0Iatyx8dpbXN4Oq5ffIt3udKWkrxQFjkz8_ENqiNthKX3UuBduU1Tll6TIE1c6B_eJIrBeU2bPPtXFjmpLkFA6FoecHEeX9D9PVWeox_CmLmzkayoZohouYkpnCVjdt9IGvMG0tnXHI49Jxynp09OiM="
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqu-udgawpoGqZTd52B_vksN9vR7Y-TU_HWsAO6UV7JjeP3yWQueXphTbCNDk7_gkCDTnfXSOZWdsN4sYVIL23_sE-d4Yev3Ic1sTajjNJ5ZWiIRTz3lnhl30HlWLzGCV4gmB3eAf5D-Ec9NuRTBGDP1jucVjMTQ=="
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHrhwdcrGQsIhIGSWDoXv2NCg1Wqmowhz9ZDTWQDdNDGnElxYXltIFjy0uYgsEHoTf0DnF9RYRzjtbcEaZB_iX312XguqXCjTvSDO1ryRzvVGrja8rBKshNeMBMZ7sfWaN1d3vHUNGDCSW0zAZnMOe73K4rC9tesnFSoE-SvtUR8NWurC6mq8YrA=="
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ"
+    },
+    {
+      "label": "wikipedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemoA7zo57Ae0KnLo7fi4ZJbokJZAIg2Anx7iCIHmP7Ugaav1nAt--8u6lt7GRen8LyHo7AoazeWVOLhnGBbEs0OvVoEri0ivjZcTZH9QSaBD4MaVCun71IfcYqO3vIh9Z5Lc="
+    },
+    {
+      "label": "wikipedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJXXMySOZepX4tmrtfqZ7DrTOAqAM-R2DbmlcG8KZDD4iwf7bk0LPUHM3egZWFEonGROV8YqnE5JWnslFBexUzjK5u7C7dO96etw-p02UFYyesKBPkRCmPh_sK-Be5WT5yqYovBaFt"
+    },
+    {
+      "label": "actuia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZvreWEwMraaP1kDkni4LR-SyVYuxDqMKNy8gzSsdqDT6xNkVHPwOmeIKo5rh-f6ZS8pO2TLigA46fvT1juhEolta33H6K8ghhDgqmyqD0T3EFT-57l5x-aVeZLrF2Qk4USALPNnOQw_iqBD6NiXZ4wSCQSFN-XXAt4cFLSVmwbcEGKR3RWZDzGa_ZUH3TbaCtZjyBkGmHwY_zGwhpj0jcHcQ="
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHYyZC2ESAF97xmStrJ7a60Ns679vOKgJ0uw0qZrgMPZon9taQgDUoekYcJtXWBPUuavLgVYTjtjP_h3oGt3vXAXfas982kl4VVGKcMsxcpCNETXtHrijL6aMEKP9_JhYkUJMQ"
+    },
+    {
+      "label": "actuia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZvreWEwMraaP1kDkni4LR-SyVYuxDqMKNy8gzSsdqDT6xNkVHPwOmeIKo5rh-f6ZS8pO2TLigA46fvT1juhEolta33H6K8ghhDgqmyqD0T3EFT-57l5x-aVeZLrF2Qk4USALPNnOQw_iqBD6NiXZ4wSCQSFN-XXAt4cFLSVmwbcEGKR3RWZDzGa_ZUH3TbaCtZjyBkGmHwY_zGwhpj0jcHcQ="
+    },
+    {
+      "label": "huggingface",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAS2-B5bUDWY7gr3N9prIgcdlg3qGXb8GFcYNrPTPFQlFL0lJNU0Y09iS8jfjWyEQLLS4Sjg8OcYWS7KgOZh4XdqinEmsR282mKJAlhorgwx2Gu9SS2e6k_mjuqkI="
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrLzCdEdMHWUApMVE5SzX_DG5lRr4U85J2By6TJudj-PRpAtNyLwnm23BSWW7h9rzNc1SbfUKqkWalLpP0sTZvl-dGyxQZEchanBwQ-zPwieLlrhoVcfOwKbGHMuEnoL18FqS1Cu4="
+    },
+    {
+      "label": "llm-stats",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc0aooAvM-vPXaP7Q_e8jHlEpR7r3_MYdq6wWx-vw-jcQHECai_gTA6jOAZCHmeUvDdxEfFEwSLVlCsQtU784EsTyCofBQ_JhV3RGP2dE9H4noFEYkVMueZyV-HG2XlVwFRb2c4kw="
+    },
+    {
+      "label": "blog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQA8tRl5oTgTdVbNxYqIPP3Wu1HYQedVjm5XSsKcbfo0sl8Joi9czSHPskiCwolXSwgeKRyneieRyAEsNj3r09o0BPzlZfXv3MbPUrt_PJfZaU0AAOoxNWNIW7V3JlO8DSVC8sgbgdcfv1B5II"
+    },
+    {
+      "label": "amazon",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7qRBU3zgmH-ehJRo0IyFGGdC_jcwr5n3kYaNTViBQJ6MFapYYpCvJjfQpBS4LmpCr10XL-43URX0cQYyKaiMZlocD09AusEoM6Vh_tr2nYHvrt2m_NPSUWlRlzmwMzo1zcSAdKMvKGwIy6tq7SZmtcRZMNNcC-Q9CQS1KmBFcoX-z5Q0_LJHg0ZsRAMhlY0K6QF_NbRM7qRSP1vphH0HaiAgCifNaPGgTeIZWcX9RfBtpBYspaZhHCfcbD9MT3zg7QD1DX0B1"
+    },
+    {
+      "label": "blog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQA8tRl5oTgTdVbNxYqIPP3Wu1HYQedVjm5XSsKcbfo0sl8Joi9czSHPskiCwolXSwgeKRyneieRyAEsNj3r09o0BPzlZfXv3MbPUrt_PJfZaU0AAOoxNWNIW7V3JlO8DSVC8sgbgdcfv1B5II"
+    },
+    {
+      "label": "google",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQFF9WxYWqjmxxRDHdzLvJh-p1MPXYCu8g38_RLpYOt51xla5zrO565THMDHmTlHnsZZtfHGirqHmKypnpxvV8thSnqwHUDLdkK8-TpK6Vffo7PgRiG-u8wLrb98t1yLIzmi3I"
+    },
+    {
+      "label": "huggingface",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAS2-B5bUDWY7gr3N9prIgcdlg3qGXb8GFcYNrPTPFQlFL0lJNU0Y09iS8jfjWyEQLLS4Sjg8OcYWS7KgOZh4XdqinEmsR282mKJAlhorgwx2Gu9SS2e6k_mjuqkI="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq-qYfz9PQuwcnaWFC9P_wxTt6ac_kXAAW3LGL3XTV1bbY9CKEqWD9hLU3r_-9gbae-e4_KROhZPqAKoEwpy1lREO9hczAVGGjapiFw_23drKUjNfIbj25IFEQrQrb2JUrPmBR9Wg21Mr_-ijw5c-psmMz"
+    },
+    {
+      "label": "blog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQA8tRl5oTgTdVbNxYqIPP3Wu1HYQedVjm5XSsKcbfo0sl8Joi9czSHPskiCwolXSwgeKRyneieRyAEsNj3r09o0BPzlZfXv3MbPUrt_PJfZaU0AAOoxNWNIW7V3JlO8DSVC8sgbgdcfv1B5II"
+    },
+    {
+      "label": "google",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiXX-IhIu-aktEvmiAUwYp3axYX0rFUsoyyFWTwNqrS5FCxUe9EVCS2gjhnEbR5knTbqqUzR4HVfVjLvq2ZGUueJwBJzqBVy_GVaP-JVP4B_Ef2VRz4Jly0reMNucY_Tw="
+    },
+    {
+      "label": "huggingface",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAS2-B5bUDWY7gr3N9prIgcdlg3qGXb8GFcYNrPTPFQlFL0lJNU0Y09iS8jfjWyEQLLS4Sjg8OcYWS7KgOZh4XdqinEmsR282mKJAlhorgwx2Gu9SS2e6k_mjuqkI="
+    },
+    {
+      "label": "google",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiXX-IhIu-aktEvmiAUwYp3axYX0rFUsoyyFWTwNqrS5FCxUe9EVCS2gjhnEbR5knTbqqUzR4HVfVjLvq2ZGUueJwBJzqBVy_GVaP-JVP4B_Ef2VRz4Jly0reMNucY_Tw="
+    },
+    {
+      "label": "huggingface",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAS2-B5bUDWY7gr3N9prIgcdlg3qGXb8GFcYNrPTPFQlFL0lJNU0Y09iS8jfjWyEQLLS4Sjg8OcYWS7KgOZh4XdqinEmsR282mKJAlhorgwx2Gu9SS2e6k_mjuqkI="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq-qYfz9PQuwcnaWFC9P_wxTt6ac_kXAAW3LGL3XTV1bbY9CKEqWD9hLU3r_-9gbae-e4_KROhZPqAKoEwpy1lREO9hczAVGGjapiFw_23drKUjNfIbj25IFEQrQrb2JUrPmBR9Wg21Mr_-ijw5c-psmMz"
+    },
+    {
+      "label": "googleblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_eQEHkktL-JGKuAwGajpMiNwUAoNmdqYoDUtW3gTj1-5V2me6YKUE-QyJnJjFtpOpH5vNQ2zAnNvxkkg_i7KJet54M0A9EFghrVsMHt5-XBtJSKrCUK5p7ozLuTHdneUo5gpmArarvVsvYn7LAYA3DNG-LVw="
+    },
+    {
+      "label": "dataconomy",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRNkeILsG1FnIu__TfY3tLNnm382rDIsWCm9KwtHJ6zYprgdiXTMDg2VFRstBWCZBJDwquF-njvrHP6RyNMYv592D418MGlPwvrdFC1wpOK0fOCxf2aAlcoBwCtw_nG3nYaWW3Rfb14pA9IvG3fjDI8Z291pOXZFYi4q1UGb9Y8XB4QUWnX3yh5ET3Gx62Hs7CIA=="
+    },
+    {
+      "label": "siliconangle",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTPOywFri_H0gVnqflU1BmMwgGJq4oOMwFuOW5-Uh87fUHCXqKFEfE6T5b4rNcrRihZl7UIF4h_4wVMbHu2VdlnMNbscWZ3739cGHjkn86F5N2cMvKqANQdh4hmFPPpqrtPdnJHyl6oRBmE-vO3CcdWVmMO6-JzkXyBH2MZV78LyhcHBRh4cajzFIUkdke-Qj0Lk2jprc24i8="
+    },
+    {
+      "label": "siliconangle",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTPOywFri_H0gVnqflU1BmMwgGJq4oOMwFuOW5-Uh87fUHCXqKFEfE6T5b4rNcrRihZl7UIF4h_4wVMbHu2VdlnMNbscWZ3739cGHjkn86F5N2cMvKqANQdh4hmFPPpqrtPdnJHyl6oRBmE-vO3CcdWVmMO6-JzkXyBH2MZV78LyhcHBRh4cajzFIUkdke-Qj0Lk2jprc24i8="
+    },
+    {
+      "label": "dataconomy",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRNkeILsG1FnIu__TfY3tLNnm382rDIsWCm9KwtHJ6zYprgdiXTMDg2VFRstBWCZBJDwquF-njvrHP6RyNMYv592D418MGlPwvrdFC1wpOK0fOCxf2aAlcoBwCtw_nG3nYaWW3Rfb14pA9IvG3fjDI8Z291pOXZFYi4q1UGb9Y8XB4QUWnX3yh5ET3Gx62Hs7CIA=="
+    },
+    {
+      "label": "stable-learn",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE5gds8rzzbuw0G3vd1m72J8KU6RKRN6eqp1jt-hr79IzqvIP6xB5mvtpF7kvx9Ycwv8jN3svye70JGKGbuPou_eVh3uz_El9tZuKb2tDMEyhiF7tSVa9nMZipzI_9jddphjEgXTAYsEd8k6WwlPClbqk="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQXdpC8nboU6qASNZE3n02r_vuAfthNv64RnJ8JAJ1cFRraXTeFjeVOHogiBcnU10OD6LD3v1uEQ_O-HNePLcCgHql-vDu8IOWZ-whqzi9Us3qY7mkdCCWLBW8eWBsiKi0-oqX3CFfjHpF60DUqtl0kWxwtSMiubqAk2GQN-_bq9sb-Uq6V_eTfzvP-9ekHIJvgw=="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF5LjabDNL8iRfA-XPiLcM9Qil0ehlTrW0SP5lwGN2iDdx2Wn98gWyp9BOjp__J_ch0jfuyM1aU3gA9Ger9WWBQfKhC_W-EUi25-DnrpCwYjmlqD-QQD3IOLsGHwhrY8j5IyEmH_YVyEYjUnTkQPF8TOvwR0BXmqOi7mNeftd3ERO_dhb8JtdjuR2m"
+    },
+    {
+      "label": "mistral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0SW95Ghpcz8hUF3sGvh8UfKAEaf_LjQy7QDmUcVTPjJzmprVjy2IfIdh4u1vtwdDeL5r_ldQ2QWSnJFYQvQPlOJFxuWwtN7Um0mNOM-Oa5OfSYwUK9Xf8F2bjcCLDwFxBg3fn"
+    },
+    {
+      "label": "siliconangle",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTPOywFri_H0gVnqflU1BmMwgGJq4oOMwFuOW5-Uh87fUHCXqKFEfE6T5b4rNcrRihZl7UIF4h_4wVMbHu2VdlnMNbscWZ3739cGHjkn86F5N2cMvKqANQdh4hmFPPpqrtPdnJHyl6oRBmE-vO3CcdWVmMO6-JzkXyBH2MZV78LyhcHBRh4cajzFIUkdke-Qj0Lk2jprc24i8="
+    },
+    {
+      "label": "googleblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZVouYwhY9LNqDj2B1o85nrbSYeggQD7k1NkvC1sek79DCd_7pMENN7b4SBspidpNUrzl3nl8lnzHGEeRg2MntrsAQaHFtvFNvo3copU7bSmiWdbWgLvHQ5LuFYkPm4nFN7kudh5dP5S5TSuSJKZnFst2L97BGUhMwg-Tgrj1LK-RjngDN"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLHsbNVdjvEjTLtc_FkFCEotBdgu6xPrLd4qeTc735Pp8-1kyTkSazVlWhn4CvMgkFzFf6U0kTecFP8tRXgjDRzk-8TPG9uX0DugyGI0IbbEwqlT4XLR3wc4TH6Cf1JRRAF6yb21k="
+    },
+    {
+      "label": "googleblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZVouYwhY9LNqDj2B1o85nrbSYeggQD7k1NkvC1sek79DCd_7pMENN7b4SBspidpNUrzl3nl8lnzHGEeRg2MntrsAQaHFtvFNvo3copU7bSmiWdbWgLvHQ5LuFYkPm4nFN7kudh5dP5S5TSuSJKZnFst2L97BGUhMwg-Tgrj1LK-RjngDN"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLHsbNVdjvEjTLtc_FkFCEotBdgu6xPrLd4qeTc735Pp8-1kyTkSazVlWhn4CvMgkFzFf6U0kTecFP8tRXgjDRzk-8TPG9uX0DugyGI0IbbEwqlT4XLR3wc4TH6Cf1JRRAF6yb21k="
+    },
+    {
+      "label": "googleblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3aTgzU9tIXvZN2KPcAxDRkHl3V7QOMFJcIb52fQZqRqUA56rd_0DL1faVes2sH98TdIgCyrNGJQ1G2lrijCtsGOyOWCadLgKVdyXOh24OlJbWZ1dQ3Xx_Wtwn9bo0eaPIKIv6OTfZz4eO6NffONbxysYZ0yZ2pKwEZXsLWjv8y7UKwtBgvTmhHxFaCuUCtm57aI_WMNXFmTcL1SMO74eeFtQMfys="
+    },
+    {
+      "label": "google",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0"
+    },
+    {
+      "label": "google",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0"
+    },
+    {
+      "label": "google",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0"
+    },
+    {
+      "label": "google",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8245idUYp8J-hgKcdsNBqnssno7roG0AYtGnM3w954SGkpDIvp7I0fbbX_xWTQwaZCXGItUW_UhvHMj0737mbrOi2V5VgI3HkWRjTfEqxzgxlfD6M-ezVLKBasHAZ"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8245idUYp8J-hgKcdsNBqnssno7roG0AYtGnM3w954SGkpDIvp7I0fbbX_xWTQwaZCXGItUW_UhvHMj0737mbrOi2V5VgI3HkWRjTfEqxzgxlfD6M-ezVLKBasHAZ"
+    },
+    {
+      "label": "huggingface",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWQzmPG-DrO0xi4RVcLKUGUBMD9XDnVwx9YqM1EsTSrK3sVjr2mRRQvlAytEWTJUxopglb0_qhfi1sd-C95a9Kcd8UaUsP7JG6kqyyqlhQ4YQDktFqYfpOnwPG-ZQ="
+    },
+    {
+      "label": "stable-learn",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE5gds8rzzbuw0G3vd1m72J8KU6RKRN6eqp1jt-hr79IzqvIP6xB5mvtpF7kvx9Ycwv8jN3svye70JGKGbuPou_eVh3uz_El9tZuKb2tDMEyhiF7tSVa9nMZipzI_9jddphjEgXTAYsEd8k6WwlPClbqk="
+    },
+    {
+      "label": "stable-learn",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE5gds8rzzbuw0G3vd1m72J8KU6RKRN6eqp1jt-hr79IzqvIP6xB5mvtpF7kvx9Ycwv8jN3svye70JGKGbuPou_eVh3uz_El9tZuKb2tDMEyhiF7tSVa9nMZipzI_9jddphjEgXTAYsEd8k6WwlPClbqk="
+    },
+    {
+      "label": "stable-learn",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE5gds8rzzbuw0G3vd1m72J8KU6RKRN6eqp1jt-hr79IzqvIP6xB5mvtpF7kvx9Ycwv8jN3svye70JGKGbuPou_eVh3uz_El9tZuKb2tDMEyhiF7tSVa9nMZipzI_9jddphjEgXTAYsEd8k6WwlPClbqk="
+    },
+    {
+      "label": "googleblog",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3aTgzU9tIXvZN2KPcAxDRkHl3V7QOMFJcIb52fQZqRqUA56rd_0DL1faVes2sH98TdIgCyrNGJQ1G2lrijCtsGOyOWCadLgKVdyXOh24OlJbWZ1dQ3Xx_Wtwn9bo0eaPIKIv6OTfZz4eO6NffONbxysYZ0yZ2pKwEZXsLWjv8y7UKwtBgvTmhHxFaCuUCtm57aI_WMNXFmTcL1SMO74eeFtQMfys="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQXdpC8nboU6qASNZE3n02r_vuAfthNv64RnJ8JAJ1cFRraXTeFjeVOHogiBcnU10OD6LD3v1uEQ_O-HNePLcCgHql-vDu8IOWZ-whqzi9Us3qY7mkdCCWLBW8eWBsiKi0-oqX3CFfjHpF60DUqtl0kWxwtSMiubqAk2GQN-_bq9sb-Uq6V_eTfzvP-9ekHIJvgw=="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF5LjabDNL8iRfA-XPiLcM9Qil0ehlTrW0SP5lwGN2iDdx2Wn98gWyp9BOjp__J_ch0jfuyM1aU3gA9Ger9WWBQfKhC_W-EUi25-DnrpCwYjmlqD-QQD3IOLsGHwhrY8j5IyEmH_YVyEYjUnTkQPF8TOvwR0BXmqOi7mNeftd3ERO_dhb8JtdjuR2m"
+    },
+    {
+      "label": "google",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfl7xuYokCeyxp-nyyh50B_nWwhIO2x_Qy5d5ccWlYfGjk70DpEo2Sz8SMuk3wLjgdgdY0KonzJHAxffK6pHF9FvrdzE0DgPKFbRrumP-vq7HrhWPQ3m0sNv9Nl4XTdJEZDGG0"
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

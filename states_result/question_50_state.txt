@@ -1,0 +1,274 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-18 15:14:25
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: what is SWE-Bench state of the art at the moment?
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 1
+Total search queries: 1
+Sources gathered: 23
+Web research results: 1
+
+SEARCH QUERIES USED
+----------------------------------------
+1. SWE-Bench state of the art performance June 2025
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "SWE-Bench state of the art performance June 2025" and synthesize it into a verifiable text artifact.
+Based on the search results, here's a summary of the state of the art performance on SWE-Bench as of June 18, 2025:
+
+**SWE-Bench Overview:**
+
+*   SWE-Bench is a benchmark used to evaluate the ability of large language models (LLMs) and AI agents to resolve real-world software issues by generating patches for bugs found in GitHub repositories ([1], [3], [5], [6], [8], [13], [14]). [emergentmind](https://vertexaisearch.cloud.google.com/id/0-0) [epoch](https://vertexaisearch.cloud.google.com/id/0-1)
+*   SWE-Bench Verified is a human-filtered, high-quality subset of the SWE-Bench tasks ([1], [4], [6], [11], [13], [14]). [zencoder](https://vertexaisearch.cloud.google.com/id/0-2) It contains 500 Python-only coding problems with issue descriptions ([1]).
+*   SWE-Bench Multimodal (SWE-bench M) has emerged to evaluate AI systems on visual and cross-language tasks, including UI screenshots, visual layouts, diagrams, and error images from JavaScript projects ([2], [11]). [emergentmind](https://vertexaisearch.cloud.google.com/id/0-0) It contains 617 real-world issue-patch-test triples from 17 widely adopted JavaScript projects ([2]). [emergentmind](https://vertexaisearch.cloud.google.com/id/0-0)
+*   SWE-bench-Live is a live-updatable benchmark designed to overcome the limitations of static benchmarks. It consists of 1,319 tasks derived from real GitHub issues created since 2024, spanning 93 repositories ([5]). [researchgate](https://vertexaisearch.cloud.google.com/id/0-3)
+
+**State-of-the-Art Performance:**
+
+*   **Claude 4 Opus** achieved leading scores on benchmarks like SWE-bench (72.5%) ([7]). [superteams](https://vertexaisearch.cloud.google.com/id/0-4)
+*   **Claude Sonnet 4** achieved a state-of-the-art score of 72.7% on SWE-bench ([7]).
+*   **Trae**, using Claude 3.7, achieved a score of 70.6% on SWE-bench Verified ([9]). [trae](https://vertexaisearch.cloud.google.com/id/0-5) Trae achieved 71.0% accuracy on SWE-bench Verified with Claude 3.7 ([9]). [trae](https://vertexaisearch.cloud.google.com/id/0-5)
+*   **devlo** improved from 54.2% to 70.2% on SWE-bench Verified through iterative enhancements including regression testing, self-critique, and multi-LLM collaboration ([8]). [devlo](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Zencoder** achieved a 70% success rate on SWE-bench Verified using an ensemble approach ([14]). Their best individual agent achieved a solve rate of 66.6%, but the ensemble pushed the overall success rate to 70% ([14]). [zencoder](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **Gemini-2.5-Pro** reached 50.8% on SWE-Bench without tool use ([6]).
+
+**Key Models and Approaches:**
+
+*   **Multi-LLM Collaboration:** Hybrid strategies that leverage multiple LLMs are used to break through the performance ceiling of single-model agents ([8]). [devlo](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **LCLMs (Long-Context LMs):**  Leveraging LCLMs to directly process full or compressed environment states, bypassing the need for complex agentic scaffolding ([6]). [marktechpost](https://vertexaisearch.cloud.google.com/id/0-7) Methods like DIRECTSOLVE and SELECTSOLVE utilize LCLMs like Gemini-1.5-Pro and Gemini-2.5-Pro ([6]). [marktechpost](https://vertexaisearch.cloud.google.com/id/0-7)
+*   **Agentic Pipelines:** Using self-improving mechanisms to validate, correct, and refine outputs autonomously ([12]). [zencoder](https://vertexaisearch.cloud.google.com/id/0-8)
+
+**Concerns and Limitations:**
+
+*   **Data Contamination and Memorization:** There are concerns that models may be memorizing solutions from the training data rather than demonstrating generalizable coding abilities ([1], [3], [5]). [arxiv](https://vertexaisearch.cloud.google.com/id/0-9) Performance drops on tasks from the same repositories but not included in SWE-Bench Verified, suggesting potential data contamination ([3]). [arxiv](https://vertexaisearch.cloud.google.com/id/0-9)
+*   **Benchmark Saturation:** The rapid improvement in benchmark performance raises questions about whether these gains reflect genuine problem-solving abilities ([1]).
+*   **Insufficient Test Cases:** Some tasks in SWE-Bench may have inadequate unit tests, leading to false positives ([4], [12]). UTBoost identified 36 task instances with insufficient test cases and uncovered 345 erroneous patches incorrectly labeled as passed in the original SWE Bench ([4]). [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)
+*   **Task Simplicity:** Around 90% of the tasks are fixes that experienced engineers could complete in under an hour, meaning the benchmark primarily tests whether AI can make simple codebase edits ([1]). [epoch](https://vertexaisearch.cloud.google.com/id/0-1)
+*   **Lack of Diversity:** The low diversity of codebases limits external validity ([1]). Half the benchmark tests issues from before 2020 ([1]). [epoch](https://vertexaisearch.cloud.google.com/id/0-1)
+
+**Efforts to Improve Evaluation:**
+
+*   **SWE-bench-Live:** Aims to provide a fresh, diverse, and executable benchmark grounded in live repository activity ([5]). [researchgate](https://vertexaisearch.cloud.google.com/id/0-3)
+*   **UTBoost:** A framework for test case augmentation to address the issue of insufficient test cases ([4]). [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)
+*   **SWE-Bench Multimodal:** Addresses the limitations of unimodal benchmarks by including visual and cross-language tasks ([2]). [emergentmind](https://vertexaisearch.cloud.google.com/id/0-0)
+
+
+SOURCES GATHERED
+----------------------------------------
+1. emergentmind
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERvssUC-vhFw5QBGHKsU_ICet5DNI1lBOQovUlz2b0Cia8R9OPMaVnF6D6FYp1jI2xWzvSHEM8qXa5KtNIX4QmHa6OoJWgLQDlOFSZv6mailxVskbuTQJG3Edn-QXlp5yEF1FUq4wYG1UYldapENY6blTI
+
+2. epoch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQiaNSufdmMH_qoTJCNEkWzp713o8cClYZu6qzYGvKg3bIjrtls_XSL32R3KYT16kAOQeTN1RiTc5YI-jvz6cVedCAAPPO9FOyj65eubiST_xYcInrwIjG34yxtAvSgmBNgJpL6__3A_8Rs2Qr2G08ll-tJwyPItsRadQtIQ==
+
+3. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeKwvS2ch9_fWAyfDjWCXbzM3mdLfSjokNM3iRe-3zKup0D5ksEFnINmFX6r707qJV6Ot4hptOn-NjRPg-2ci-4dEDz2iP5cb9dO064t1FfxRIvRPqHSBUArfIKTueDkjEJAO140chcSOhAHuwWXDchb6LreQ1OuhM7yDZOiCA0MTb9uqMA8eWW-8tPHE=
+
+4. emergentmind
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERvssUC-vhFw5QBGHKsU_ICet5DNI1lBOQovUlz2b0Cia8R9OPMaVnF6D6FYp1jI2xWzvSHEM8qXa5KtNIX4QmHa6OoJWgLQDlOFSZv6mailxVskbuTQJG3Edn-QXlp5yEF1FUq4wYG1UYldapENY6blTI
+
+5. emergentmind
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERvssUC-vhFw5QBGHKsU_ICet5DNI1lBOQovUlz2b0Cia8R9OPMaVnF6D6FYp1jI2xWzvSHEM8qXa5KtNIX4QmHa6OoJWgLQDlOFSZv6mailxVskbuTQJG3Edn-QXlp5yEF1FUq4wYG1UYldapENY6blTI
+
+6. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUpfYQ4EnJPwxWlvYRWM1FTb4CvgrtlpS8fLyv9fz7sG5KiCLtQH7cAEru1yDs05UZ_mHveeQOz5-h7ClhSo6oJpvYlczUmjEa0mjMlWvD3ijKdFL2zkzqCnGYwYqp_B_RuHdENT2RJZ59np6p5guAGfXhCj9vf_39fp1nfbjogOc=
+
+7. superteams
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtYHxPCj_pHm077c0CDOU7f-scMn9Y1ioSR7O-HLEVwaqJPfl2MhDHPQcDFdThHZIpFyd9YIPGpc8FKjSOrfkHQHV_k0Pmtewf5hNQVtPHdKVXLH0BOAuDVdJxk1FLMT0SmsPWqzWgHhjiLawzLs1vXEVPbXv_BH58UV6RgPzI9Q==
+
+8. trae
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZswo1rAwK7_NoDvKlopKkD-_z5bL1iFdghErUPIH4nek_3klnQB-D1ehuqyNUEy2FLiUQ_hwYyhzSd_LLe88xT1o6Xu8e-vYKPK_QiKqfjeIn5M8jPE5WOiswKSxNUNUCb1tjfJcD
+
+9. trae
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZswo1rAwK7_NoDvKlopKkD-_z5bL1iFdghErUPIH4nek_3klnQB-D1ehuqyNUEy2FLiUQ_hwYyhzSd_LLe88xT1o6Xu8e-vYKPK_QiKqfjeIn5M8jPE5WOiswKSxNUNUCb1tjfJcD
+
+10. devlo
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1436zgbzpI84QYttZAOT3DmSCtdlnQL-cqOOUizFQ5kbwGcG-idIzR1Tf0nWWSfAWpMWNzMCDb-Lt1WOoVv60Cfpt9exIGDz_TiIbk9bSMIvttzHtA0USJTAcscNjiRxkK9bhBHM=
+
+11. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeKwvS2ch9_fWAyfDjWCXbzM3mdLfSjokNM3iRe-3zKup0D5ksEFnINmFX6r707qJV6Ot4hptOn-NjRPg-2ci-4dEDz2iP5cb9dO064t1FfxRIvRPqHSBUArfIKTueDkjEJAO140chcSOhAHuwWXDchb6LreQ1OuhM7yDZOiCA0MTb9uqMA8eWW-8tPHE=
+
+12. devlo
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1436zgbzpI84QYttZAOT3DmSCtdlnQL-cqOOUizFQ5kbwGcG-idIzR1Tf0nWWSfAWpMWNzMCDb-Lt1WOoVv60Cfpt9exIGDz_TiIbk9bSMIvttzHtA0USJTAcscNjiRxkK9bhBHM=
+
+13. marktechpost
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEivswkKw8IylXBAW_6JBB2CcfLRQKD93mvfJLnrIDRO8F_ehjnEhn5FXJk3oYP9DH4d2M7YfOnpV-M_5gPH0IB3HTHtFv-j01xpggJ3NP6C9WOvX16EZCFZa_u1v2qVIdHzN5M5X2J76rZV-eX3McvlVXmXpM7AT1vtqfjXQON7SpVCwwFcd3Ih9DgMPfN9FVhfhXRzmpNYLVUrqfxvP1nmwcqyeW-8KkHYJKZ5kHEb0jpsbEq75fHdScQXpV972NRLl0o_gA=
+
+14. marktechpost
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEivswkKw8IylXBAW_6JBB2CcfLRQKD93mvfJLnrIDRO8F_ehjnEhn5FXJk3oYP9DH4d2M7YfOnpV-M_5gPH0IB3HTHtFv-j01xpggJ3NP6C9WOvX16EZCFZa_u1v2qVIdHzN5M5X2J76rZV-eX3McvlVXmXpM7AT1vtqfjXQON7SpVCwwFcd3Ih9DgMPfN9FVhfhXRzmpNYLVUrqfxvP1nmwcqyeW-8KkHYJKZ5kHEb0jpsbEq75fHdScQXpV972NRLl0o_gA=
+
+15. zencoder
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPGmgJkVKdlU2F81QOOqQnpyghdhKJhLqw4XagTiSmLFhMEErFjl9mg2TEIlk46EbXgvdY1aqLwzqNLoqiS7wbm0OQk7MRmBiK2FDLbY2MkIOaSn9hIXFQCMixomwfiwdf-amicUSDGH22
+
+16. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxahwK1Rn_IjZ1m0g_xZZOWb6RTDk1enWnGeJgAIZsYLRSyq4sXlRQscuwrn1pvXQDhFESeLUB44AFRyrMSW83ci9e21PCWteurcn7bgN92Md_Oyqvdxcexca6uw==
+
+17. arxiv
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxahwK1Rn_IjZ1m0g_xZZOWb6RTDk1enWnGeJgAIZsYLRSyq4sXlRQscuwrn1pvXQDhFESeLUB44AFRyrMSW83ci9e21PCWteurcn7bgN92Md_Oyqvdxcexca6uw==
+
+18. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLsMQcpS83rO1SbszIeyhOtNvvmf49eM6BlyhvSJPKFc_ljHe5UKQDCeKcrV5Kgts7Ff5l4Y3br5YySkYmlqZsC8TTq8xxNX25289Iyy_Ca8JTL53N3HHfo9UggC7qaXz7hhOby9ylafR7317YAdip3nBeKhYCvvrysEY5w3w6EL7f_vyu_Vf-BcZ2q_-j2Wc26WGJ9Eo99w2kA9EXMgRkgdK2Sodul3C-LPczyy76Zg==
+
+19. epoch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQiaNSufdmMH_qoTJCNEkWzp713o8cClYZu6qzYGvKg3bIjrtls_XSL32R3KYT16kAOQeTN1RiTc5YI-jvz6cVedCAAPPO9FOyj65eubiST_xYcInrwIjG34yxtAvSgmBNgJpL6__3A_8Rs2Qr2G08ll-tJwyPItsRadQtIQ==
+
+20. epoch
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQiaNSufdmMH_qoTJCNEkWzp713o8cClYZu6qzYGvKg3bIjrtls_XSL32R3KYT16kAOQeTN1RiTc5YI-jvz6cVedCAAPPO9FOyj65eubiST_xYcInrwIjG34yxtAvSgmBNgJpL6__3A_8Rs2Qr2G08ll-tJwyPItsRadQtIQ==
+
+21. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUpfYQ4EnJPwxWlvYRWM1FTb4CvgrtlpS8fLyv9fz7sG5KiCLtQH7cAEru1yDs05UZ_mHveeQOz5-h7ClhSo6oJpvYlczUmjEa0mjMlWvD3ijKdFL2zkzqCnGYwYqp_B_RuHdENT2RJZ59np6p5guAGfXhCj9vf_39fp1nfbjogOc=
+
+22. researchgate
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLsMQcpS83rO1SbszIeyhOtNvvmf49eM6BlyhvSJPKFc_ljHe5UKQDCeKcrV5Kgts7Ff5l4Y3br5YySkYmlqZsC8TTq8xxNX25289Iyy_Ca8JTL53N3HHfo9UggC7qaXz7hhOby9ylafR7317YAdip3nBeKhYCvvrysEY5w3w6EL7f_vyu_Vf-BcZ2q_-j2Wc26WGJ9Eo99w2kA9EXMgRkgdK2Sodul3C-LPczyy76Zg==
+
+23. emergentmind
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERvssUC-vhFw5QBGHKsU_ICet5DNI1lBOQovUlz2b0Cia8R9OPMaVnF6D6FYp1jI2xWzvSHEM8qXa5KtNIX4QmHa6OoJWgLQDlOFSZv6mailxVskbuTQJG3Edn-QXlp5yEF1FUq4wYG1UYldapENY6blTI
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "what is SWE-Bench state of the art at the moment?"
+    }
+  ],
+  "search_query": [
+    "SWE-Bench state of the art performance June 2025"
+  ],
+  "web_research_result": [
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"SWE-Bench state of the art performance June 2025\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of the state of the art performance on SWE-Bench as of June 18, 2025:\n\n**SWE-Bench Overview:**\n\n*   SWE-Bench is a benchmark used to evaluate the ability of large language models (LLMs) and AI agents to resolve real-world software issues by generating patches for bugs found in GitHub repositories ([1], [3], [5], [6], [8], [13], [14]). [emergentmind](https://vertexaisearch.cloud.google.com/id/0-0) [epoch](https://vertexaisearch.cloud.google.com/id/0-1)\n*   SWE-Bench Verified is a human-filtered, high-quality subset of the SWE-Bench tasks ([1], [4], [6], [11], [13], [14]). [zencoder](https://vertexaisearch.cloud.google.com/id/0-2) It contains 500 Python-only coding problems with issue descriptions ([1]).\n*   SWE-Bench Multimodal (SWE-bench M) has emerged to evaluate AI systems on visual and cross-language tasks, including UI screenshots, visual layouts, diagrams, and error images from JavaScript projects ([2], [11]). [emergentmind](https://vertexaisearch.cloud.google.com/id/0-0) It contains 617 real-world issue-patch-test triples from 17 widely adopted JavaScript projects ([2]). [emergentmind](https://vertexaisearch.cloud.google.com/id/0-0)\n*   SWE-bench-Live is a live-updatable benchmark designed to overcome the limitations of static benchmarks. It consists of 1,319 tasks derived from real GitHub issues created since 2024, spanning 93 repositories ([5]). [researchgate](https://vertexaisearch.cloud.google.com/id/0-3)\n\n**State-of-the-Art Performance:**\n\n*   **Claude 4 Opus** achieved leading scores on benchmarks like SWE-bench (72.5%) ([7]). [superteams](https://vertexaisearch.cloud.google.com/id/0-4)\n*   **Claude Sonnet 4** achieved a state-of-the-art score of 72.7% on SWE-bench ([7]).\n*   **Trae**, using Claude 3.7, achieved a score of 70.6% on SWE-bench Verified ([9]). [trae](https://vertexaisearch.cloud.google.com/id/0-5) Trae achieved 71.0% accuracy on SWE-bench Verified with Claude 3.7 ([9]). [trae](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **devlo** improved from 54.2% to 70.2% on SWE-bench Verified through iterative enhancements including regression testing, self-critique, and multi-LLM collaboration ([8]). [devlo](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Zencoder** achieved a 70% success rate on SWE-bench Verified using an ensemble approach ([14]). Their best individual agent achieved a solve rate of 66.6%, but the ensemble pushed the overall success rate to 70% ([14]). [zencoder](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Gemini-2.5-Pro** reached 50.8% on SWE-Bench without tool use ([6]).\n\n**Key Models and Approaches:**\n\n*   **Multi-LLM Collaboration:** Hybrid strategies that leverage multiple LLMs are used to break through the performance ceiling of single-model agents ([8]). [devlo](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **LCLMs (Long-Context LMs):**  Leveraging LCLMs to directly process full or compressed environment states, bypassing the need for complex agentic scaffolding ([6]). [marktechpost](https://vertexaisearch.cloud.google.com/id/0-7) Methods like DIRECTSOLVE and SELECTSOLVE utilize LCLMs like Gemini-1.5-Pro and Gemini-2.5-Pro ([6]). [marktechpost](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Agentic Pipelines:** Using self-improving mechanisms to validate, correct, and refine outputs autonomously ([12]). [zencoder](https://vertexaisearch.cloud.google.com/id/0-8)\n\n**Concerns and Limitations:**\n\n*   **Data Contamination and Memorization:** There are concerns that models may be memorizing solutions from the training data rather than demonstrating generalizable coding abilities ([1], [3], [5]). [arxiv](https://vertexaisearch.cloud.google.com/id/0-9) Performance drops on tasks from the same repositories but not included in SWE-Bench Verified, suggesting potential data contamination ([3]). [arxiv](https://vertexaisearch.cloud.google.com/id/0-9)\n*   **Benchmark Saturation:** The rapid improvement in benchmark performance raises questions about whether these gains reflect genuine problem-solving abilities ([1]).\n*   **Insufficient Test Cases:** Some tasks in SWE-Bench may have inadequate unit tests, leading to false positives ([4], [12]). UTBoost identified 36 task instances with insufficient test cases and uncovered 345 erroneous patches incorrectly labeled as passed in the original SWE Bench ([4]). [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)\n*   **Task Simplicity:** Around 90% of the tasks are fixes that experienced engineers could complete in under an hour, meaning the benchmark primarily tests whether AI can make simple codebase edits ([1]). [epoch](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Lack of Diversity:** The low diversity of codebases limits external validity ([1]). Half the benchmark tests issues from before 2020 ([1]). [epoch](https://vertexaisearch.cloud.google.com/id/0-1)\n\n**Efforts to Improve Evaluation:**\n\n*   **SWE-bench-Live:** Aims to provide a fresh, diverse, and executable benchmark grounded in live repository activity ([5]). [researchgate](https://vertexaisearch.cloud.google.com/id/0-3)\n*   **UTBoost:** A framework for test case augmentation to address the issue of insufficient test cases ([4]). [researchgate](https://vertexaisearch.cloud.google.com/id/0-10)\n*   **SWE-Bench Multimodal:** Addresses the limitations of unimodal benchmarks by including visual and cross-language tasks ([2]). [emergentmind](https://vertexaisearch.cloud.google.com/id/0-0)\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "emergentmind",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERvssUC-vhFw5QBGHKsU_ICet5DNI1lBOQovUlz2b0Cia8R9OPMaVnF6D6FYp1jI2xWzvSHEM8qXa5KtNIX4QmHa6OoJWgLQDlOFSZv6mailxVskbuTQJG3Edn-QXlp5yEF1FUq4wYG1UYldapENY6blTI"
+    },
+    {
+      "label": "epoch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQiaNSufdmMH_qoTJCNEkWzp713o8cClYZu6qzYGvKg3bIjrtls_XSL32R3KYT16kAOQeTN1RiTc5YI-jvz6cVedCAAPPO9FOyj65eubiST_xYcInrwIjG34yxtAvSgmBNgJpL6__3A_8Rs2Qr2G08ll-tJwyPItsRadQtIQ=="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeKwvS2ch9_fWAyfDjWCXbzM3mdLfSjokNM3iRe-3zKup0D5ksEFnINmFX6r707qJV6Ot4hptOn-NjRPg-2ci-4dEDz2iP5cb9dO064t1FfxRIvRPqHSBUArfIKTueDkjEJAO140chcSOhAHuwWXDchb6LreQ1OuhM7yDZOiCA0MTb9uqMA8eWW-8tPHE="
+    },
+    {
+      "label": "emergentmind",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERvssUC-vhFw5QBGHKsU_ICet5DNI1lBOQovUlz2b0Cia8R9OPMaVnF6D6FYp1jI2xWzvSHEM8qXa5KtNIX4QmHa6OoJWgLQDlOFSZv6mailxVskbuTQJG3Edn-QXlp5yEF1FUq4wYG1UYldapENY6blTI"
+    },
+    {
+      "label": "emergentmind",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERvssUC-vhFw5QBGHKsU_ICet5DNI1lBOQovUlz2b0Cia8R9OPMaVnF6D6FYp1jI2xWzvSHEM8qXa5KtNIX4QmHa6OoJWgLQDlOFSZv6mailxVskbuTQJG3Edn-QXlp5yEF1FUq4wYG1UYldapENY6blTI"
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUpfYQ4EnJPwxWlvYRWM1FTb4CvgrtlpS8fLyv9fz7sG5KiCLtQH7cAEru1yDs05UZ_mHveeQOz5-h7ClhSo6oJpvYlczUmjEa0mjMlWvD3ijKdFL2zkzqCnGYwYqp_B_RuHdENT2RJZ59np6p5guAGfXhCj9vf_39fp1nfbjogOc="
+    },
+    {
+      "label": "superteams",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtYHxPCj_pHm077c0CDOU7f-scMn9Y1ioSR7O-HLEVwaqJPfl2MhDHPQcDFdThHZIpFyd9YIPGpc8FKjSOrfkHQHV_k0Pmtewf5hNQVtPHdKVXLH0BOAuDVdJxk1FLMT0SmsPWqzWgHhjiLawzLs1vXEVPbXv_BH58UV6RgPzI9Q=="
+    },
+    {
+      "label": "trae",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZswo1rAwK7_NoDvKlopKkD-_z5bL1iFdghErUPIH4nek_3klnQB-D1ehuqyNUEy2FLiUQ_hwYyhzSd_LLe88xT1o6Xu8e-vYKPK_QiKqfjeIn5M8jPE5WOiswKSxNUNUCb1tjfJcD"
+    },
+    {
+      "label": "trae",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZswo1rAwK7_NoDvKlopKkD-_z5bL1iFdghErUPIH4nek_3klnQB-D1ehuqyNUEy2FLiUQ_hwYyhzSd_LLe88xT1o6Xu8e-vYKPK_QiKqfjeIn5M8jPE5WOiswKSxNUNUCb1tjfJcD"
+    },
+    {
+      "label": "devlo",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1436zgbzpI84QYttZAOT3DmSCtdlnQL-cqOOUizFQ5kbwGcG-idIzR1Tf0nWWSfAWpMWNzMCDb-Lt1WOoVv60Cfpt9exIGDz_TiIbk9bSMIvttzHtA0USJTAcscNjiRxkK9bhBHM="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeKwvS2ch9_fWAyfDjWCXbzM3mdLfSjokNM3iRe-3zKup0D5ksEFnINmFX6r707qJV6Ot4hptOn-NjRPg-2ci-4dEDz2iP5cb9dO064t1FfxRIvRPqHSBUArfIKTueDkjEJAO140chcSOhAHuwWXDchb6LreQ1OuhM7yDZOiCA0MTb9uqMA8eWW-8tPHE="
+    },
+    {
+      "label": "devlo",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1436zgbzpI84QYttZAOT3DmSCtdlnQL-cqOOUizFQ5kbwGcG-idIzR1Tf0nWWSfAWpMWNzMCDb-Lt1WOoVv60Cfpt9exIGDz_TiIbk9bSMIvttzHtA0USJTAcscNjiRxkK9bhBHM="
+    },
+    {
+      "label": "marktechpost",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEivswkKw8IylXBAW_6JBB2CcfLRQKD93mvfJLnrIDRO8F_ehjnEhn5FXJk3oYP9DH4d2M7YfOnpV-M_5gPH0IB3HTHtFv-j01xpggJ3NP6C9WOvX16EZCFZa_u1v2qVIdHzN5M5X2J76rZV-eX3McvlVXmXpM7AT1vtqfjXQON7SpVCwwFcd3Ih9DgMPfN9FVhfhXRzmpNYLVUrqfxvP1nmwcqyeW-8KkHYJKZ5kHEb0jpsbEq75fHdScQXpV972NRLl0o_gA="
+    },
+    {
+      "label": "marktechpost",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEivswkKw8IylXBAW_6JBB2CcfLRQKD93mvfJLnrIDRO8F_ehjnEhn5FXJk3oYP9DH4d2M7YfOnpV-M_5gPH0IB3HTHtFv-j01xpggJ3NP6C9WOvX16EZCFZa_u1v2qVIdHzN5M5X2J76rZV-eX3McvlVXmXpM7AT1vtqfjXQON7SpVCwwFcd3Ih9DgMPfN9FVhfhXRzmpNYLVUrqfxvP1nmwcqyeW-8KkHYJKZ5kHEb0jpsbEq75fHdScQXpV972NRLl0o_gA="
+    },
+    {
+      "label": "zencoder",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPGmgJkVKdlU2F81QOOqQnpyghdhKJhLqw4XagTiSmLFhMEErFjl9mg2TEIlk46EbXgvdY1aqLwzqNLoqiS7wbm0OQk7MRmBiK2FDLbY2MkIOaSn9hIXFQCMixomwfiwdf-amicUSDGH22"
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxahwK1Rn_IjZ1m0g_xZZOWb6RTDk1enWnGeJgAIZsYLRSyq4sXlRQscuwrn1pvXQDhFESeLUB44AFRyrMSW83ci9e21PCWteurcn7bgN92Md_Oyqvdxcexca6uw=="
+    },
+    {
+      "label": "arxiv",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxahwK1Rn_IjZ1m0g_xZZOWb6RTDk1enWnGeJgAIZsYLRSyq4sXlRQscuwrn1pvXQDhFESeLUB44AFRyrMSW83ci9e21PCWteurcn7bgN92Md_Oyqvdxcexca6uw=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLsMQcpS83rO1SbszIeyhOtNvvmf49eM6BlyhvSJPKFc_ljHe5UKQDCeKcrV5Kgts7Ff5l4Y3br5YySkYmlqZsC8TTq8xxNX25289Iyy_Ca8JTL53N3HHfo9UggC7qaXz7hhOby9ylafR7317YAdip3nBeKhYCvvrysEY5w3w6EL7f_vyu_Vf-BcZ2q_-j2Wc26WGJ9Eo99w2kA9EXMgRkgdK2Sodul3C-LPczyy76Zg=="
+    },
+    {
+      "label": "epoch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQiaNSufdmMH_qoTJCNEkWzp713o8cClYZu6qzYGvKg3bIjrtls_XSL32R3KYT16kAOQeTN1RiTc5YI-jvz6cVedCAAPPO9FOyj65eubiST_xYcInrwIjG34yxtAvSgmBNgJpL6__3A_8Rs2Qr2G08ll-tJwyPItsRadQtIQ=="
+    },
+    {
+      "label": "epoch",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQiaNSufdmMH_qoTJCNEkWzp713o8cClYZu6qzYGvKg3bIjrtls_XSL32R3KYT16kAOQeTN1RiTc5YI-jvz6cVedCAAPPO9FOyj65eubiST_xYcInrwIjG34yxtAvSgmBNgJpL6__3A_8Rs2Qr2G08ll-tJwyPItsRadQtIQ=="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUpfYQ4EnJPwxWlvYRWM1FTb4CvgrtlpS8fLyv9fz7sG5KiCLtQH7cAEru1yDs05UZ_mHveeQOz5-h7ClhSo6oJpvYlczUmjEa0mjMlWvD3ijKdFL2zkzqCnGYwYqp_B_RuHdENT2RJZ59np6p5guAGfXhCj9vf_39fp1nfbjogOc="
+    },
+    {
+      "label": "researchgate",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLsMQcpS83rO1SbszIeyhOtNvvmf49eM6BlyhvSJPKFc_ljHe5UKQDCeKcrV5Kgts7Ff5l4Y3br5YySkYmlqZsC8TTq8xxNX25289Iyy_Ca8JTL53N3HHfo9UggC7qaXz7hhOby9ylafR7317YAdip3nBeKhYCvvrysEY5w3w6EL7f_vyu_Vf-BcZ2q_-j2Wc26WGJ9Eo99w2kA9EXMgRkgdK2Sodul3C-LPczyy76Zg=="
+    },
+    {
+      "label": "emergentmind",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERvssUC-vhFw5QBGHKsU_ICet5DNI1lBOQovUlz2b0Cia8R9OPMaVnF6D6FYp1jI2xWzvSHEM8qXa5KtNIX4QmHa6OoJWgLQDlOFSZv6mailxVskbuTQJG3Edn-QXlp5yEF1FUq4wYG1UYldapENY6blTI"
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 1
+}

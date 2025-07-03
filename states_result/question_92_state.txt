@@ -1,0 +1,1179 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 22:02:04
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: What is traefik, what does it do, and what is its purpose?
+
+[AI]: Traefik is a modern, open-source reverse proxy and load balancer designed for cloud-native applications and microservices [emil](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm). It simplifies the deployment of services and APIs by integrating with existing infrastructure and automatically configuring itself [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA==) [geekyants](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP) [xda-developers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==).
+
+**What it does:**
+
+Traefik dynamically discovers and configures backend services in real-time, especially in containerized environments like Docker and Kubernetes, eliminating the need for manual configuration updates [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=) [emil](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF). It also automates SSL/TLS certificate generation and renewal through integration with Let's Encrypt [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=). Traefik monitors the APIs of orchestration or registry services (like Docker and Kubernetes) to inject routes to backend services [apptio](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0). It offers middleware support for load balancing, rate limiting, circuit breaking, mirroring, and authentication [geekyants](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP). Traefik also provides a built-in web UI and API for managing and monitoring routing configurations [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=).
+
+Traefik can be extended using WebAssembly (Wasm) plugins, allowing developers to use languages other than Go [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=). These plugins function as middleware and can be developed in any language that compiles to WebAssembly [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA==) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN) [codeisgo](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-cNVZaCLHN49pBTg77Um3LLE1YuUaTaAFcrXK3CGhvjzecxr-9GY1z7DTOiVFNXzwUDmKgFa0biyiOBtGz-9Fg6gzIQBbP11NNPqGjGVsvX_Ym3j4jo1bZxBia--a1-pIOd3gCYQoK9Jce9lP4ekJrU5uwKtduhB-v_xaWGbM4Jr7mCJ2gnMeOJgzqpl8sHAp4AsQdRZOMk-5ci3F7Zcgsw==) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=). Examples include implementing a Web Application Firewall (WAF) using Coraza, custom authentication mechanisms, and request/response manipulation [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN).
+
+**Purpose:**
+
+Traefik's purpose is to simplify and automate network management for modern application architectures. It is well-suited for microservices deployments and can be used as a Kubernetes Ingress Controller [apptio](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA==). It also functions as a load balancer and reverse proxy cache [abdelouahabmbarki](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm0) [proxyempire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm1) [emil](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF). Traefik improves security, increases scalability, enhances observability, and can be more cost-effective than managed solutions [emil](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF) [tva](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm2) [abdelouahabmbarki](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm0).
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 2
+Sources gathered: 129
+Web research results: 2
+
+SEARCH QUERIES USED
+----------------------------------------
+1. Traefik reverse proxy features use cases benefits
+2. How does Traefik's WebAssembly (Wasm) plugin support work, and what are some practical examples of using Wasm plugins to extend Traefik's functionality?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "Traefik reverse proxy features use cases benefits" and synthesize it into a verifiable text artifact.
+Traefik is a modern, open-source reverse proxy and load balancer designed for cloud-native applications and microservices. [emil](https://vertexaisearch.cloud.google.com/id/0-0) [reddit](https://vertexaisearch.cloud.google.com/id/0-1) It simplifies deploying services and APIs by integrating with existing infrastructure and automatically configuring itself. [traefik](https://vertexaisearch.cloud.google.com/id/0-2) [geekyants](https://vertexaisearch.cloud.google.com/id/0-3) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) Here's a summary of its features, use cases, and benefits, based on the search results:
+
+**Features:**
+
+*   **Dynamic Configuration:** Traefik automatically discovers and configures backend services in real-time, especially in containerized environments like Docker and Kubernetes, eliminating the need for manual configuration updates. [dev](https://vertexaisearch.cloud.google.com/id/0-5) [emil](https://vertexaisearch.cloud.google.com/id/0-0) \[1, 3, 5, 8, 12, 16] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Automatic SSL/TLS Management:** It integrates with Let's Encrypt to automatically obtain and renew SSL certificates, reducing the overhead of manual certificate management. [dev](https://vertexaisearch.cloud.google.com/id/0-5) \[1, 3, 6, 7, 8, 9, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Service Discovery:** Traefik monitors the API of underlying orchestration or registry services (like Docker, Kubernetes, Rancher, Consul) to inject routes to backend services. [apptio](https://vertexaisearch.cloud.google.com/id/0-7) \[1, 3, 5, 6, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Middleware Support:** Traefik offers a range of middleware for tasks like load balancing, rate limiting, circuit breaking, mirroring, and authentication. \[5, 7, 12, 16] These middlewares can be chained and applied to individual services or routes. [geekyants](https://vertexaisearch.cloud.google.com/id/0-3) \[5, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Web UI and API:** Traefik provides a built-in web UI and API for managing and monitoring routing configurations, visualizing service states, and checking the health of routes and services. [dev](https://vertexaisearch.cloud.google.com/id/0-5) \[1]
+*   **Edge Router Capabilities:** It acts as a powerful edge router, handling HTTP, HTTPS, TCP, and UDP traffic, and supports complex routing schemes like path-based and host-based routing. \[1] [dev](https://vertexaisearch.cloud.google.com/id/0-5)
+*   **HTTP/3 Support:** Traefik 3.0 introduces stable support for HTTP/3, offering enhanced performance and simpler encryption over UDP. \[10] [linuxiac](https://vertexaisearch.cloud.google.com/id/0-8)
+*   **OpenTelemetry Integration:** Traefik v3.3 expands observability with OpenTelemetry, providing state-of-the-art tooling for metrics and tracing, and experimental support for logs and access logs. \[10, 14] [infoq](https://vertexaisearch.cloud.google.com/id/0-9)
+*   **Extensibility:** Traefik's extensibility is augmented through WebAssembly (Wasm), allowing developers to write plugins directly in Traefik. \[10] [linuxiac](https://vertexaisearch.cloud.google.com/id/0-8) [reddit](https://vertexaisearch.cloud.google.com/id/0-1)
+
+**Use Cases:**
+
+*   **Microservices Deployments:** Traefik is well-suited for cloud-native environments with microservices, containers, and dynamic routing. \[1, 3, 6, 12] [apptio](https://vertexaisearch.cloud.google.com/id/0-7) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [reddit](https://vertexaisearch.cloud.google.com/id/0-1)
+*   **Kubernetes Ingress Controller:** It can be deployed as a Kubernetes Ingress Controller to simplify networking and secure APIs. \[5, 16] [traefik](https://vertexaisearch.cloud.google.com/id/0-2)
+*   **Web Application Firewall (WAF):** Traefik can be used as a WAF to protect microservices and APIs against online threats. [traefik](https://vertexaisearch.cloud.google.com/id/0-2) \[6, 16] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Load Balancing:** It distributes client requests across multiple servers to prevent overload and improve performance. [abdelouahabmbarki](https://vertexaisearch.cloud.google.com/id/0-10) [proxyempire](https://vertexaisearch.cloud.google.com/id/0-11) [emil](https://vertexaisearch.cloud.google.com/id/0-0) \[1, 2, 4, 11, 13, 16] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Reverse Proxy Caching:** Traefik can store copies of request data for faster access, reducing database response time and CPU limitations. [traefik](https://vertexaisearch.cloud.google.com/id/0-6) \[2, 11, 13] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Home Labs:** Traefik simplifies exposing services in home labs, especially those using Docker containers, with automatic service discovery. [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) \[5] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+
+**Benefits:**
+
+*   **Simplified Configuration:** Traefik uses a simple, declarative configuration file and supports dynamic configurations through its API. \[1] [dev](https://vertexaisearch.cloud.google.com/id/0-5)
+*   **Automatic Service Discovery:** It automatically detects and configures services, reducing manual intervention. [emil](https://vertexaisearch.cloud.google.com/id/0-0) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) \[1, 3, 5, 8, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Automated SSL/TLS Management:** Traefik automates SSL certificate generation and renewal, saving time and effort. [dev](https://vertexaisearch.cloud.google.com/id/0-5) \[1, 3, 6, 7, 8, 9, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Improved Security:** It provides an additional layer of defense against attacks and can manage SSL/TLS encryption. \[11, 13, 17] [emil](https://vertexaisearch.cloud.google.com/id/0-0) [abdelouahabmbarki](https://vertexaisearch.cloud.google.com/id/0-10)
+*   **Increased Scalability:** Traefik allows adding services without configuration changes. [tva](https://vertexaisearch.cloud.google.com/id/0-12) \[2, 8] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **Enhanced Observability:** Traefik offers built-in monitoring and integrates with platforms like DataDog, Prometheus, and Grafana. \[1, 3, 14] [apptio](https://vertexaisearch.cloud.google.com/id/0-7)
+*   **Cost-Effectiveness:** Self-hosting with Traefik can be more cost-effective compared to managed solutions. [tva](https://vertexaisearch.cloud.google.com/id/0-12) [reddit](https://vertexaisearch.cloud.google.com/id/0-1) \[8] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **High Performance:** Traefik offers load balancing and caching capabilities to improve application performance. [emil](https://vertexaisearch.cloud.google.com/id/0-0) [dev](https://vertexaisearch.cloud.google.com/id/0-13) [reddit](https://vertexaisearch.cloud.google.com/id/0-1) \[1, 2, 4, 11, 13, 16] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)
+
+Traefik is a strong choice for modern, dynamic environments, especially those leveraging containers and microservices. [dev](https://vertexaisearch.cloud.google.com/id/0-5) Its automatic configuration, SSL/TLS management, and middleware support simplify deployment and management while enhancing security and scalability.
+
+
+--- Research Result 2 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "How does Traefik's WebAssembly (Wasm) plugin support work, and what are some practical examples of using Wasm plugins to extend Traefik's functionality?" and synthesize it into a verifiable text artifact.
+Traefik's WebAssembly (Wasm) plugin support allows developers to extend Traefik's functionality using languages other than Go. [github](https://vertexaisearch.cloud.google.com/id/1-0) [traefik](https://vertexaisearch.cloud.google.com/id/1-1) [traefik](https://vertexaisearch.cloud.google.com/id/1-2) Traefik 3.0 introduced full support for WASM plugins for middlewares, enabling the execution of binary code compiled from languages like C, Rust, or JavaScript. [traefik](https://vertexaisearch.cloud.google.com/id/1-2) [codeisgo](https://vertexaisearch.cloud.google.com/id/1-3)
+
+**How Traefik's Wasm Plugin Support Works:**
+
+*   **Based on `http-wasm`:** Traefik's Wasm plugin support is based on the `http-wasm` specification, which defines a standard interface for HTTP middleware implemented in WebAssembly.
+*   **Language Agnostic:** Wasm plugins can be developed in any language that compiles to WebAssembly.
+*   **Middleware Implementation:** Wasm plugins function as middleware within Traefik. [traefik](https://vertexaisearch.cloud.google.com/id/1-4) [github](https://vertexaisearch.cloud.google.com/id/1-0) [codeisgo](https://vertexaisearch.cloud.google.com/id/1-3) [traefik](https://vertexaisearch.cloud.google.com/id/1-1) [traefik](https://vertexaisearch.cloud.google.com/id/1-2)
+*   **ABI (Application Binary Interface):** Traefik implements the "host" part of the `http-wasm` ABI, while the plugin implements the "client" portion. [github](https://vertexaisearch.cloud.google.com/id/1-0)
+*   **Execution:** Traefik executes Yaegi plugins on the fly using Yaegi, a Go interpreter embedded in Traefik. [traefik](https://vertexaisearch.cloud.google.com/id/1-4)
+
+**Practical Examples of Using Wasm Plugins:**
+
+*   **Web Application Firewall (WAF):** The Coraza WAF is integrated as a WASM plugin, adding a security layer to Traefik. [traefik](https://vertexaisearch.cloud.google.com/id/1-2) This allows Traefik to enforce OWASP core rule sets. [traefik](https://vertexaisearch.cloud.google.com/id/1-2)
+*   **Authentication:** Wasm plugins can be used to implement custom authentication mechanisms, such as OpenID Connect (OIDC).
+*   **Request/Response Manipulation:** Wasm plugins can modify HTTP requests and responses. For example, the `traefik-wasm-grain` plugin adds request timing data to logs and response headers. [traefik](https://vertexaisearch.cloud.google.com/id/1-1) [github](https://vertexaisearch.cloud.google.com/id/1-0)
+*   **API Monitoring and Logging:** Treblle offers a Traefik middleware plugin built in Rust and compiled to WebAssembly (WASM) for high performance and compatibility with Traefik v3.1 or newer, using either wasm-wasi or wasm-wasi1p as the target, that integrates Treblle's API monitoring and logging services. [github](https://vertexaisearch.cloud.google.com/id/1-5)
+
+**Benefits of Using Wasm Plugins:**
+
+*   **Improved Latency:** WebAssembly's lightweight nature and speed can improve the latency of Traefik calls. [thenewstack](https://vertexaisearch.cloud.google.com/id/1-6)
+*   **Security:** WebAssembly offers security through a "sandbox of modules," making interception difficult. [thenewstack](https://vertexaisearch.cloud.google.com/id/1-6)
+*   **Extensibility:** Wasm plugins provide a flexible way to extend Traefik's functionality and customize the reverse proxy pipeline. [thenewstack](https://vertexaisearch.cloud.google.com/id/1-6)
+*   **Language Choice:** Developers can use their preferred language to write plugins, as long as it can compile to WebAssembly.
+
+**Developing Wasm Plugins:**
+
+*   **`http-wasm` Architecture:** Follow the `http-wasm` code architecture when developing Traefik plugins with Wasm. [traefik](https://vertexaisearch.cloud.google.com/id/1-4)
+*   **Example Plugins:** Refer to example plugins like `Wasm Middleware Demo Plugin` and `Wasm Middleware Demo with HTTP Call Plugin` for a starting point. [traefik](https://vertexaisearch.cloud.google.com/id/1-4)
+*   **Local Development:** Traefik offers a developer mode for testing plugins not hosted on GitHub. [github](https://vertexaisearch.cloud.google.com/id/1-7)
+
+**Key Considerations:**
+
+*   **Experimental Features:** Exercise caution when adding new plugins to production Traefik instances, as plugins can potentially modify Traefik's behavior in undesired ways. [traefik](https://vertexaisearch.cloud.google.com/id/1-4)
+*   **Configuration Complexity:** Traefik configuration, including plugin configuration, can be complex. [github](https://vertexaisearch.cloud.google.com/id/1-0)
+
+Traefik's support for WebAssembly plugins significantly enhances its extensibility, allowing developers to tailor the reverse proxy to their specific needs using a variety of programming languages.
+
+
+SOURCES GATHERED
+----------------------------------------
+1. emil
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF
+
+2. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+3. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA==
+
+4. geekyants
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP
+
+5. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+6. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+7. emil
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF
+
+8. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+9. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+10. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+11. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+12. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+13. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+14. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+15. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+16. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+17. apptio
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0
+
+18. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+19. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+20. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+21. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+22. geekyants
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP
+
+23. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+24. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+25. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+26. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+27. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+28. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+29. linuxiac
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQwNwcWmRL5v82ZZgeYiULkuNlNC8xjA-aTtrTHlMQrEAcgM6AjhGZYzVBcDPirIvLKGx4wvLvqcBbaDPz41_aWPdbCC1DZ6SH5DkAiKKttIRYDuD8fYDCKx3yVRfldrxttt91q3evnqpm
+
+30. infoq
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSX20uaWhYqxfTOP7i2Sg1TlEA4GVmX5aHsnswr2PfPEUlisC_BixBO6cG-AC8SDsKHuApt4pGV-_1niNc-3CBSqhjtKEIJs9mtzoJGOYOIAOZHRnd36tHJ13qxHfVwhJf_DUMmt8-UxdrN3NPg5hN4x1RQKqUsmWS
+
+31. linuxiac
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQwNwcWmRL5v82ZZgeYiULkuNlNC8xjA-aTtrTHlMQrEAcgM6AjhGZYzVBcDPirIvLKGx4wvLvqcBbaDPz41_aWPdbCC1DZ6SH5DkAiKKttIRYDuD8fYDCKx3yVRfldrxttt91q3evnqpm
+
+32. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+33. apptio
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0
+
+34. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+35. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+36. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA==
+
+37. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA==
+
+38. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+39. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+40. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+41. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+42. abdelouahabmbarki
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsGQeeUauQD0jUYhGOTpuIjg1TLfUAs8QNDxKpOHtPkMwyRv54gao-dEuLSpvrWnpM_Uh3eTt2u3g_NKAMHigM1Qmcot1moLSy7S2Z1N3opUwH9u-Nn15q_TNMOpemlFYdgczvdrE6xkJ7fyhAonUzBy0ZvbNI0JOvwacnHSmxJ1ecaQnZwXHU24g9Y5eA
+
+43. proxyempire
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8m1kQeJ_7AnXkbXVBBlhqvqpbU0_xslavML5WRdSyg88E1qVmdgEphzA3flIcqMDtgzCvEoiNjm7IoSvKB7U1znkiQj_DH3uF0cXzrZa08ykusWnJ8ryRQ8icVPqHTV8Q3PknviFScdGj7p4=
+
+44. emil
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF
+
+45. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+46. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+47. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+48. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+49. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+50. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+51. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+52. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+53. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+54. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+55. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+56. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+57. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+58. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+59. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+60. emil
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF
+
+61. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+62. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+63. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+64. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+65. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+66. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+67. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+68. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+69. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+70. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+71. emil
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF
+
+72. abdelouahabmbarki
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsGQeeUauQD0jUYhGOTpuIjg1TLfUAs8QNDxKpOHtPkMwyRv54gao-dEuLSpvrWnpM_Uh3eTt2u3g_NKAMHigM1Qmcot1moLSy7S2Z1N3opUwH9u-Nn15q_TNMOpemlFYdgczvdrE6xkJ7fyhAonUzBy0ZvbNI0JOvwacnHSmxJ1ecaQnZwXHU24g9Y5eA
+
+73. tva
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5PkZotme92C69tg5mRyMGSAxCivNNJlSAYZdc68VPCFGKf66-oUbkz4T_Gvhvmpqq1e6vLGACZecymGKCC0W2JDe2od3vaZECEHY9XpeISfvZtCox0SpzPbjVe5OB7f8EaK5-CMAU3XkHJbrA-qz2I9gyGj5d-WSHpNh6P5Bb7Aomd1ici5hy_wc3m1geFGMhPqLhwSOBZ56dNo9ThwJHSw==
+
+74. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+75. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+76. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+77. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+78. apptio
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0
+
+79. tva
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5PkZotme92C69tg5mRyMGSAxCivNNJlSAYZdc68VPCFGKf66-oUbkz4T_Gvhvmpqq1e6vLGACZecymGKCC0W2JDe2od3vaZECEHY9XpeISfvZtCox0SpzPbjVe5OB7f8EaK5-CMAU3XkHJbrA-qz2I9gyGj5d-WSHpNh6P5Bb7Aomd1ici5hy_wc3m1geFGMhPqLhwSOBZ56dNo9ThwJHSw==
+
+80. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+81. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+82. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+83. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+84. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+85. emil
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF
+
+86. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAox_cx7UD0MMxFhaCS2vPJXMDguXxbEhJjqxhPBl2no5_OiJpEhuIQfP4AqKWe29q1VOx-6tyQVn-vwDPM6FapRi7rEVlBd5e1x1A69AFJoOtl0wvcsrJ59PIHMrUngfYhgMcCqqba9Ty7X4V4wOO2htSY8wDzlPD0LCZuRFSH_n666hXSw==
+
+87. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+88. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+89. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+90. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+91. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA==
+
+92. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+93. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN
+
+94. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=
+
+95. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=
+
+96. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=
+
+97. codeisgo
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-cNVZaCLHN49pBTg77Um3LLE1YuUaTaAFcrXK3CGhvjzecxr-9GY1z7DTOiVFNXzwUDmKgFa0biyiOBtGz-9Fg6gzIQBbP11NNPqGjGVsvX_Ym3j4jo1bZxBia--a1-pIOd3gCYQoK9Jce9lP4ekJrU5uwKtduhB-v_xaWGbM4Jr7mCJ2gnMeOJgzqpl8sHAp4AsQdRZOMk-5ci3F7Zcgsw==
+
+98. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA==
+
+99. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN
+
+100. codeisgo
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-cNVZaCLHN49pBTg77Um3LLE1YuUaTaAFcrXK3CGhvjzecxr-9GY1z7DTOiVFNXzwUDmKgFa0biyiOBtGz-9Fg6gzIQBbP11NNPqGjGVsvX_Ym3j4jo1bZxBia--a1-pIOd3gCYQoK9Jce9lP4ekJrU5uwKtduhB-v_xaWGbM4Jr7mCJ2gnMeOJgzqpl8sHAp4AsQdRZOMk-5ci3F7Zcgsw==
+
+101. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=
+
+102. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=
+
+103. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN
+
+104. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA==
+
+105. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=
+
+106. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=
+
+107. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=
+
+108. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN
+
+109. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYuabZlCrp_8dRq_QWjh7ItPmY-TYzeOqpxteOVJINGjktT5AnzSuId7UvW4aGRKo3LHkVTX9ADmN0YsNUx7LhFex5Z0uD6MN6uKAQz559mzqtTy0ouK_wSlmK7KfsR_YL1au_KuV8fpo1_nvLTWdNhw==
+
+110. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVBcprt6XqfwpmIiDHxhjpTzEUsqwYKaUIZcdbEUnOznToL3dpZUq5HelJKzO7uP_0itmX4VP3k0OtCxmZcV5H8Epp9xFXusZmgniVrIut1Ro_-EfdaXDYwhe-ysCNgFOw8-0Y4IpF4lhHfxZXHaiN90upD7A0K4S-ixqRv_OtwxuQFPCgJtOw2E75qcw-
+
+111. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVBcprt6XqfwpmIiDHxhjpTzEUsqwYKaUIZcdbEUnOznToL3dpZUq5HelJKzO7uP_0itmX4VP3k0OtCxmZcV5H8Epp9xFXusZmgniVrIut1Ro_-EfdaXDYwhe-ysCNgFOw8-0Y4IpF4lhHfxZXHaiN90upD7A0K4S-ixqRv_OtwxuQFPCgJtOw2E75qcw-
+
+112. thenewstack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVBcprt6XqfwpmIiDHxhjpTzEUsqwYKaUIZcdbEUnOznToL3dpZUq5HelJKzO7uP_0itmX4VP3k0OtCxmZcV5H8Epp9xFXusZmgniVrIut1Ro_-EfdaXDYwhe-ysCNgFOw8-0Y4IpF4lhHfxZXHaiN90upD7A0K4S-ixqRv_OtwxuQFPCgJtOw2E75qcw-
+
+113. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA==
+
+114. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA==
+
+115. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8KV4rIy6PxOcIwRCI9XpHU1MnBoouB_Y7we3IpBFXkvzR0zO5X-_XCipyIwWN-HEUhXIoAlI4eh4awu8qgdzc-QfUKZBO2sK5nn2F8DyRBiJxtghFGt1VmXoJoozDW2MX520E
+
+116. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA==
+
+117. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN
+
+118. emil
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF
+
+119. reddit
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm
+
+120. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA==
+
+121. geekyants
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP
+
+122. xda-developers
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==
+
+123. dev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=
+
+124. apptio
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0
+
+125. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN
+
+126. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=
+
+127. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=
+
+128. codeisgo
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-cNVZaCLHN49pBTg77Um3LLE1YuUaTaAFcrXK3CGhvjzecxr-9GY1z7DTOiVFNXzwUDmKgFa0biyiOBtGz-9Fg6gzIQBbP11NNPqGjGVsvX_Ym3j4jo1bZxBia--a1-pIOd3gCYQoK9Jce9lP4ekJrU5uwKtduhB-v_xaWGbM4Jr7mCJ2gnMeOJgzqpl8sHAp4AsQdRZOMk-5ci3F7Zcgsw==
+
+129. traefik
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA==
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "What is traefik, what does it do, and what is its purpose?"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "Traefik is a modern, open-source reverse proxy and load balancer designed for cloud-native applications and microservices [emil](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm). It simplifies the deployment of services and APIs by integrating with existing infrastructure and automatically configuring itself [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA==) [geekyants](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP) [xda-developers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg==).\n\n**What it does:**\n\nTraefik dynamically discovers and configures backend services in real-time, especially in containerized environments like Docker and Kubernetes, eliminating the need for manual configuration updates [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=) [emil](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF). It also automates SSL/TLS certificate generation and renewal through integration with Let's Encrypt [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=). Traefik monitors the APIs of orchestration or registry services (like Docker and Kubernetes) to inject routes to backend services [apptio](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0). It offers middleware support for load balancing, rate limiting, circuit breaking, mirroring, and authentication [geekyants](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP). Traefik also provides a built-in web UI and API for managing and monitoring routing configurations [dev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4=).\n\nTraefik can be extended using WebAssembly (Wasm) plugins, allowing developers to use languages other than Go [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=). These plugins function as middleware and can be developed in any language that compiles to WebAssembly [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA==) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN) [codeisgo](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-cNVZaCLHN49pBTg77Um3LLE1YuUaTaAFcrXK3CGhvjzecxr-9GY1z7DTOiVFNXzwUDmKgFa0biyiOBtGz-9Fg6gzIQBbP11NNPqGjGVsvX_Ym3j4jo1bZxBia--a1-pIOd3gCYQoK9Jce9lP4ekJrU5uwKtduhB-v_xaWGbM4Jr7mCJ2gnMeOJgzqpl8sHAp4AsQdRZOMk-5ci3F7Zcgsw==) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=). Examples include implementing a Web Application Firewall (WAF) using Coraza, custom authentication mechanisms, and request/response manipulation [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU=) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo=) [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN).\n\n**Purpose:**\n\nTraefik's purpose is to simplify and automate network management for modern application architectures. It is well-suited for microservices deployments and can be used as a Kubernetes Ingress Controller [apptio](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0) [traefik](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA==). It also functions as a load balancer and reverse proxy cache [abdelouahabmbarki](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm0) [proxyempire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm1) [emil](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF). Traefik improves security, increases scalability, enhances observability, and can be more cost-effective than managed solutions [emil](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF) [tva](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm2) [abdelouahabmbarki](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm0)."
+    }
+  ],
+  "search_query": [
+    "Traefik reverse proxy features use cases benefits",
+    "How does Traefik's WebAssembly (Wasm) plugin support work, and what are some practical examples of using Wasm plugins to extend Traefik's functionality?"
+  ],
+  "web_research_result": [
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Traefik reverse proxy features use cases benefits\" and synthesize it into a verifiable text artifact.\nTraefik is a modern, open-source reverse proxy and load balancer designed for cloud-native applications and microservices. [emil](https://vertexaisearch.cloud.google.com/id/0-0) [reddit](https://vertexaisearch.cloud.google.com/id/0-1) It simplifies deploying services and APIs by integrating with existing infrastructure and automatically configuring itself. [traefik](https://vertexaisearch.cloud.google.com/id/0-2) [geekyants](https://vertexaisearch.cloud.google.com/id/0-3) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) Here's a summary of its features, use cases, and benefits, based on the search results:\n\n**Features:**\n\n*   **Dynamic Configuration:** Traefik automatically discovers and configures backend services in real-time, especially in containerized environments like Docker and Kubernetes, eliminating the need for manual configuration updates. [dev](https://vertexaisearch.cloud.google.com/id/0-5) [emil](https://vertexaisearch.cloud.google.com/id/0-0) \\[1, 3, 5, 8, 12, 16] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Automatic SSL/TLS Management:** It integrates with Let's Encrypt to automatically obtain and renew SSL certificates, reducing the overhead of manual certificate management. [dev](https://vertexaisearch.cloud.google.com/id/0-5) \\[1, 3, 6, 7, 8, 9, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Service Discovery:** Traefik monitors the API of underlying orchestration or registry services (like Docker, Kubernetes, Rancher, Consul) to inject routes to backend services. [apptio](https://vertexaisearch.cloud.google.com/id/0-7) \\[1, 3, 5, 6, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Middleware Support:** Traefik offers a range of middleware for tasks like load balancing, rate limiting, circuit breaking, mirroring, and authentication. \\[5, 7, 12, 16] These middlewares can be chained and applied to individual services or routes. [geekyants](https://vertexaisearch.cloud.google.com/id/0-3) \\[5, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Web UI and API:** Traefik provides a built-in web UI and API for managing and monitoring routing configurations, visualizing service states, and checking the health of routes and services. [dev](https://vertexaisearch.cloud.google.com/id/0-5) \\[1]\n*   **Edge Router Capabilities:** It acts as a powerful edge router, handling HTTP, HTTPS, TCP, and UDP traffic, and supports complex routing schemes like path-based and host-based routing. \\[1] [dev](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **HTTP/3 Support:** Traefik 3.0 introduces stable support for HTTP/3, offering enhanced performance and simpler encryption over UDP. \\[10] [linuxiac](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **OpenTelemetry Integration:** Traefik v3.3 expands observability with OpenTelemetry, providing state-of-the-art tooling for metrics and tracing, and experimental support for logs and access logs. \\[10, 14] [infoq](https://vertexaisearch.cloud.google.com/id/0-9)\n*   **Extensibility:** Traefik's extensibility is augmented through WebAssembly (Wasm), allowing developers to write plugins directly in Traefik. \\[10] [linuxiac](https://vertexaisearch.cloud.google.com/id/0-8) [reddit](https://vertexaisearch.cloud.google.com/id/0-1)\n\n**Use Cases:**\n\n*   **Microservices Deployments:** Traefik is well-suited for cloud-native environments with microservices, containers, and dynamic routing. \\[1, 3, 6, 12] [apptio](https://vertexaisearch.cloud.google.com/id/0-7) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [reddit](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Kubernetes Ingress Controller:** It can be deployed as a Kubernetes Ingress Controller to simplify networking and secure APIs. \\[5, 16] [traefik](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Web Application Firewall (WAF):** Traefik can be used as a WAF to protect microservices and APIs against online threats. [traefik](https://vertexaisearch.cloud.google.com/id/0-2) \\[6, 16] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Load Balancing:** It distributes client requests across multiple servers to prevent overload and improve performance. [abdelouahabmbarki](https://vertexaisearch.cloud.google.com/id/0-10) [proxyempire](https://vertexaisearch.cloud.google.com/id/0-11) [emil](https://vertexaisearch.cloud.google.com/id/0-0) \\[1, 2, 4, 11, 13, 16] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Reverse Proxy Caching:** Traefik can store copies of request data for faster access, reducing database response time and CPU limitations. [traefik](https://vertexaisearch.cloud.google.com/id/0-6) \\[2, 11, 13] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Home Labs:** Traefik simplifies exposing services in home labs, especially those using Docker containers, with automatic service discovery. [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) \\[5] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n\n**Benefits:**\n\n*   **Simplified Configuration:** Traefik uses a simple, declarative configuration file and supports dynamic configurations through its API. \\[1] [dev](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **Automatic Service Discovery:** It automatically detects and configures services, reducing manual intervention. [emil](https://vertexaisearch.cloud.google.com/id/0-0) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) \\[1, 3, 5, 8, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Automated SSL/TLS Management:** Traefik automates SSL certificate generation and renewal, saving time and effort. [dev](https://vertexaisearch.cloud.google.com/id/0-5) \\[1, 3, 6, 7, 8, 9, 12] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Improved Security:** It provides an additional layer of defense against attacks and can manage SSL/TLS encryption. \\[11, 13, 17] [emil](https://vertexaisearch.cloud.google.com/id/0-0) [abdelouahabmbarki](https://vertexaisearch.cloud.google.com/id/0-10)\n*   **Increased Scalability:** Traefik allows adding services without configuration changes. [tva](https://vertexaisearch.cloud.google.com/id/0-12) \\[2, 8] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Enhanced Observability:** Traefik offers built-in monitoring and integrates with platforms like DataDog, Prometheus, and Grafana. \\[1, 3, 14] [apptio](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Cost-Effectiveness:** Self-hosting with Traefik can be more cost-effective compared to managed solutions. [tva](https://vertexaisearch.cloud.google.com/id/0-12) [reddit](https://vertexaisearch.cloud.google.com/id/0-1) \\[8] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **High Performance:** Traefik offers load balancing and caching capabilities to improve application performance. [emil](https://vertexaisearch.cloud.google.com/id/0-0) [dev](https://vertexaisearch.cloud.google.com/id/0-13) [reddit](https://vertexaisearch.cloud.google.com/id/0-1) \\[1, 2, 4, 11, 13, 16] [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [xda-developers](https://vertexaisearch.cloud.google.com/id/0-4) [dev](https://vertexaisearch.cloud.google.com/id/0-5) [traefik](https://vertexaisearch.cloud.google.com/id/0-6)\n\nTraefik is a strong choice for modern, dynamic environments, especially those leveraging containers and microservices. [dev](https://vertexaisearch.cloud.google.com/id/0-5) Its automatic configuration, SSL/TLS management, and middleware support simplify deployment and management while enhancing security and scalability.\n",
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"How does Traefik's WebAssembly (Wasm) plugin support work, and what are some practical examples of using Wasm plugins to extend Traefik's functionality?\" and synthesize it into a verifiable text artifact.\nTraefik's WebAssembly (Wasm) plugin support allows developers to extend Traefik's functionality using languages other than Go. [github](https://vertexaisearch.cloud.google.com/id/1-0) [traefik](https://vertexaisearch.cloud.google.com/id/1-1) [traefik](https://vertexaisearch.cloud.google.com/id/1-2) Traefik 3.0 introduced full support for WASM plugins for middlewares, enabling the execution of binary code compiled from languages like C, Rust, or JavaScript. [traefik](https://vertexaisearch.cloud.google.com/id/1-2) [codeisgo](https://vertexaisearch.cloud.google.com/id/1-3)\n\n**How Traefik's Wasm Plugin Support Works:**\n\n*   **Based on `http-wasm`:** Traefik's Wasm plugin support is based on the `http-wasm` specification, which defines a standard interface for HTTP middleware implemented in WebAssembly.\n*   **Language Agnostic:** Wasm plugins can be developed in any language that compiles to WebAssembly.\n*   **Middleware Implementation:** Wasm plugins function as middleware within Traefik. [traefik](https://vertexaisearch.cloud.google.com/id/1-4) [github](https://vertexaisearch.cloud.google.com/id/1-0) [codeisgo](https://vertexaisearch.cloud.google.com/id/1-3) [traefik](https://vertexaisearch.cloud.google.com/id/1-1) [traefik](https://vertexaisearch.cloud.google.com/id/1-2)\n*   **ABI (Application Binary Interface):** Traefik implements the \"host\" part of the `http-wasm` ABI, while the plugin implements the \"client\" portion. [github](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **Execution:** Traefik executes Yaegi plugins on the fly using Yaegi, a Go interpreter embedded in Traefik. [traefik](https://vertexaisearch.cloud.google.com/id/1-4)\n\n**Practical Examples of Using Wasm Plugins:**\n\n*   **Web Application Firewall (WAF):** The Coraza WAF is integrated as a WASM plugin, adding a security layer to Traefik. [traefik](https://vertexaisearch.cloud.google.com/id/1-2) This allows Traefik to enforce OWASP core rule sets. [traefik](https://vertexaisearch.cloud.google.com/id/1-2)\n*   **Authentication:** Wasm plugins can be used to implement custom authentication mechanisms, such as OpenID Connect (OIDC).\n*   **Request/Response Manipulation:** Wasm plugins can modify HTTP requests and responses. For example, the `traefik-wasm-grain` plugin adds request timing data to logs and response headers. [traefik](https://vertexaisearch.cloud.google.com/id/1-1) [github](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **API Monitoring and Logging:** Treblle offers a Traefik middleware plugin built in Rust and compiled to WebAssembly (WASM) for high performance and compatibility with Traefik v3.1 or newer, using either wasm-wasi or wasm-wasi1p as the target, that integrates Treblle's API monitoring and logging services. [github](https://vertexaisearch.cloud.google.com/id/1-5)\n\n**Benefits of Using Wasm Plugins:**\n\n*   **Improved Latency:** WebAssembly's lightweight nature and speed can improve the latency of Traefik calls. [thenewstack](https://vertexaisearch.cloud.google.com/id/1-6)\n*   **Security:** WebAssembly offers security through a \"sandbox of modules,\" making interception difficult. [thenewstack](https://vertexaisearch.cloud.google.com/id/1-6)\n*   **Extensibility:** Wasm plugins provide a flexible way to extend Traefik's functionality and customize the reverse proxy pipeline. [thenewstack](https://vertexaisearch.cloud.google.com/id/1-6)\n*   **Language Choice:** Developers can use their preferred language to write plugins, as long as it can compile to WebAssembly.\n\n**Developing Wasm Plugins:**\n\n*   **`http-wasm` Architecture:** Follow the `http-wasm` code architecture when developing Traefik plugins with Wasm. [traefik](https://vertexaisearch.cloud.google.com/id/1-4)\n*   **Example Plugins:** Refer to example plugins like `Wasm Middleware Demo Plugin` and `Wasm Middleware Demo with HTTP Call Plugin` for a starting point. [traefik](https://vertexaisearch.cloud.google.com/id/1-4)\n*   **Local Development:** Traefik offers a developer mode for testing plugins not hosted on GitHub. [github](https://vertexaisearch.cloud.google.com/id/1-7)\n\n**Key Considerations:**\n\n*   **Experimental Features:** Exercise caution when adding new plugins to production Traefik instances, as plugins can potentially modify Traefik's behavior in undesired ways. [traefik](https://vertexaisearch.cloud.google.com/id/1-4)\n*   **Configuration Complexity:** Traefik configuration, including plugin configuration, can be complex. [github](https://vertexaisearch.cloud.google.com/id/1-0)\n\nTraefik's support for WebAssembly plugins significantly enhances its extensibility, allowing developers to tailor the reverse proxy to their specific needs using a variety of programming languages.\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "emil",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA=="
+    },
+    {
+      "label": "geekyants",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "emil",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "apptio",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "geekyants",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "linuxiac",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQwNwcWmRL5v82ZZgeYiULkuNlNC8xjA-aTtrTHlMQrEAcgM6AjhGZYzVBcDPirIvLKGx4wvLvqcBbaDPz41_aWPdbCC1DZ6SH5DkAiKKttIRYDuD8fYDCKx3yVRfldrxttt91q3evnqpm"
+    },
+    {
+      "label": "infoq",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSX20uaWhYqxfTOP7i2Sg1TlEA4GVmX5aHsnswr2PfPEUlisC_BixBO6cG-AC8SDsKHuApt4pGV-_1niNc-3CBSqhjtKEIJs9mtzoJGOYOIAOZHRnd36tHJ13qxHfVwhJf_DUMmt8-UxdrN3NPg5hN4x1RQKqUsmWS"
+    },
+    {
+      "label": "linuxiac",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQwNwcWmRL5v82ZZgeYiULkuNlNC8xjA-aTtrTHlMQrEAcgM6AjhGZYzVBcDPirIvLKGx4wvLvqcBbaDPz41_aWPdbCC1DZ6SH5DkAiKKttIRYDuD8fYDCKx3yVRfldrxttt91q3evnqpm"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "apptio",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA=="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "abdelouahabmbarki",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsGQeeUauQD0jUYhGOTpuIjg1TLfUAs8QNDxKpOHtPkMwyRv54gao-dEuLSpvrWnpM_Uh3eTt2u3g_NKAMHigM1Qmcot1moLSy7S2Z1N3opUwH9u-Nn15q_TNMOpemlFYdgczvdrE6xkJ7fyhAonUzBy0ZvbNI0JOvwacnHSmxJ1ecaQnZwXHU24g9Y5eA"
+    },
+    {
+      "label": "proxyempire",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8m1kQeJ_7AnXkbXVBBlhqvqpbU0_xslavML5WRdSyg88E1qVmdgEphzA3flIcqMDtgzCvEoiNjm7IoSvKB7U1znkiQj_DH3uF0cXzrZa08ykusWnJ8ryRQ8icVPqHTV8Q3PknviFScdGj7p4="
+    },
+    {
+      "label": "emil",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "emil",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "emil",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF"
+    },
+    {
+      "label": "abdelouahabmbarki",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsGQeeUauQD0jUYhGOTpuIjg1TLfUAs8QNDxKpOHtPkMwyRv54gao-dEuLSpvrWnpM_Uh3eTt2u3g_NKAMHigM1Qmcot1moLSy7S2Z1N3opUwH9u-Nn15q_TNMOpemlFYdgczvdrE6xkJ7fyhAonUzBy0ZvbNI0JOvwacnHSmxJ1ecaQnZwXHU24g9Y5eA"
+    },
+    {
+      "label": "tva",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5PkZotme92C69tg5mRyMGSAxCivNNJlSAYZdc68VPCFGKf66-oUbkz4T_Gvhvmpqq1e6vLGACZecymGKCC0W2JDe2od3vaZECEHY9XpeISfvZtCox0SpzPbjVe5OB7f8EaK5-CMAU3XkHJbrA-qz2I9gyGj5d-WSHpNh6P5Bb7Aomd1ici5hy_wc3m1geFGMhPqLhwSOBZ56dNo9ThwJHSw=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "apptio",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0"
+    },
+    {
+      "label": "tva",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5PkZotme92C69tg5mRyMGSAxCivNNJlSAYZdc68VPCFGKf66-oUbkz4T_Gvhvmpqq1e6vLGACZecymGKCC0W2JDe2od3vaZECEHY9XpeISfvZtCox0SpzPbjVe5OB7f8EaK5-CMAU3XkHJbrA-qz2I9gyGj5d-WSHpNh6P5Bb7Aomd1ici5hy_wc3m1geFGMhPqLhwSOBZ56dNo9ThwJHSw=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "emil",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF"
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAox_cx7UD0MMxFhaCS2vPJXMDguXxbEhJjqxhPBl2no5_OiJpEhuIQfP4AqKWe29q1VOx-6tyQVn-vwDPM6FapRi7rEVlBd5e1x1A69AFJoOtl0wvcsrJ59PIHMrUngfYhgMcCqqba9Ty7X4V4wOO2htSY8wDzlPD0LCZuRFSH_n666hXSw=="
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSLjpf_6knF94AaanUrduka7x3hqaueSq8mgll90wqQ-_O-qMLMerYge554DZwqKCIrJBIMeicBUDCya2xNuBK0p2iEGdIyVOqDrveKTKcS-5sCbpd4QX1KUpH9pXlQqVDiGNdsA=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN"
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU="
+    },
+    {
+      "label": "codeisgo",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-cNVZaCLHN49pBTg77Um3LLE1YuUaTaAFcrXK3CGhvjzecxr-9GY1z7DTOiVFNXzwUDmKgFa0biyiOBtGz-9Fg6gzIQBbP11NNPqGjGVsvX_Ym3j4jo1bZxBia--a1-pIOd3gCYQoK9Jce9lP4ekJrU5uwKtduhB-v_xaWGbM4Jr7mCJ2gnMeOJgzqpl8sHAp4AsQdRZOMk-5ci3F7Zcgsw=="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN"
+    },
+    {
+      "label": "codeisgo",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-cNVZaCLHN49pBTg77Um3LLE1YuUaTaAFcrXK3CGhvjzecxr-9GY1z7DTOiVFNXzwUDmKgFa0biyiOBtGz-9Fg6gzIQBbP11NNPqGjGVsvX_Ym3j4jo1bZxBia--a1-pIOd3gCYQoK9Jce9lP4ekJrU5uwKtduhB-v_xaWGbM4Jr7mCJ2gnMeOJgzqpl8sHAp4AsQdRZOMk-5ci3F7Zcgsw=="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN"
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA=="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYuabZlCrp_8dRq_QWjh7ItPmY-TYzeOqpxteOVJINGjktT5AnzSuId7UvW4aGRKo3LHkVTX9ADmN0YsNUx7LhFex5Z0uD6MN6uKAQz559mzqtTy0ouK_wSlmK7KfsR_YL1au_KuV8fpo1_nvLTWdNhw=="
+    },
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVBcprt6XqfwpmIiDHxhjpTzEUsqwYKaUIZcdbEUnOznToL3dpZUq5HelJKzO7uP_0itmX4VP3k0OtCxmZcV5H8Epp9xFXusZmgniVrIut1Ro_-EfdaXDYwhe-ysCNgFOw8-0Y4IpF4lhHfxZXHaiN90upD7A0K4S-ixqRv_OtwxuQFPCgJtOw2E75qcw-"
+    },
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVBcprt6XqfwpmIiDHxhjpTzEUsqwYKaUIZcdbEUnOznToL3dpZUq5HelJKzO7uP_0itmX4VP3k0OtCxmZcV5H8Epp9xFXusZmgniVrIut1Ro_-EfdaXDYwhe-ysCNgFOw8-0Y4IpF4lhHfxZXHaiN90upD7A0K4S-ixqRv_OtwxuQFPCgJtOw2E75qcw-"
+    },
+    {
+      "label": "thenewstack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVBcprt6XqfwpmIiDHxhjpTzEUsqwYKaUIZcdbEUnOznToL3dpZUq5HelJKzO7uP_0itmX4VP3k0OtCxmZcV5H8Epp9xFXusZmgniVrIut1Ro_-EfdaXDYwhe-ysCNgFOw8-0Y4IpF4lhHfxZXHaiN90upD7A0K4S-ixqRv_OtwxuQFPCgJtOw2E75qcw-"
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA=="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8KV4rIy6PxOcIwRCI9XpHU1MnBoouB_Y7we3IpBFXkvzR0zO5X-_XCipyIwWN-HEUhXIoAlI4eh4awu8qgdzc-QfUKZBO2sK5nn2F8DyRBiJxtghFGt1VmXoJoozDW2MX520E"
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN"
+    },
+    {
+      "label": "emil",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnofkQ14lSaGDknO9c-gwbiLbLZp0kiEmsMR1HfPohsr8qjrw5b7UHQFr1lRhD5IakriWPQ9tGIFwFbAaEd6MlMp8kZSZ1fH8H0ZfI5f1LGfi7QscI6o7XZCRFjGZF"
+    },
+    {
+      "label": "reddit",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLTxAlEZI7RQF7nFC4ZfhXwWC6_9tc8v-0aaZqUklqTyA0yCKwh5ooYpENUFnj1JfDc-7xjTH4_KRh56kvp4w3zvlTH3H_OB2wAd0ODvPhAZ8GcaFKzBu9rVZljNYjwk1HW-wWzczfVkSyy5qKd0mavuzsjKkEYZurz-g4JOCAycdi4JFzHclF4LOqZWQwS4W2VgXpPBJMfqpn5fWm"
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoBdySxDkiBv6An4JZCyQvNn3iPvhf9nsYzIIjYTWuhFygGfrR6TbJYLkmG-VY9RUGUzVY3MyOz0XhdsSDHLGp1QCfHUBtpVZfnbc5L-WS19uQ0RBUgA=="
+    },
+    {
+      "label": "geekyants",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHemZQS8xBQMBE4aDtlhxp1H7LrhlotAt4M1MH7evOGlSwEwJxYpF99SAvz8RIoaN4OK9i5x0V-8qMff5nnYEsspsn147uhhWKnTdgl35FZtKSwZwOkcnGSRM_YJe3tTPAD_LP7h0PEksDWtkoVR0kxozCP0L1XW4mMAgX2p2O29jK3QvdX6BMW3aKmw8PRdLCRoW4eut31eBsP"
+    },
+    {
+      "label": "xda-developers",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJEcNw3CZF9guOOX14Jb5_uS2bxfJW8h_-wspnBxZH7zuceVs_O6GWWOJSP0SS6_jX6y_tCL6mjrAh9qCOahIhaDBRUDOi3YQEWx7P1JCmE8v3WXu-IpUM_r_lVvh_SnDVLfloeeWQnvZP-Ws1YHqNL9TnJCxB5ixj7m5rtT2Q5DGAr_-Mr1OiPWDzOg=="
+    },
+    {
+      "label": "dev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6-Dahf9JoWrYQ-bwqQYxAU_9mybivuZh1MKt7ECon-yYZKV5xc4xVK7RQNwutXf_ROsYq3n0B_pXGw8zpw-xCoRGcrpm-GFRnJnkcFaz-1PLPmu-Nj8mRv1ztUqXP_kesxEhqnweekq-e9Cx-ot189SjzuFwvXksylTApZRmjrIJxuRVkskvAyscDKSZXWC4="
+    },
+    {
+      "label": "apptio",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd_ZV8gAEDgeFRdreyz0WePz78dbc6HJBu_pe85EwqgCg8bmN4usEpWvpQB9n8Vk7-O5MVYbjg3GakdWjeWtbX9SxI7o8q2DhaOqqhYEfkZ4PPYhsNjYPfBqEtdYy0JyxB-uGE-NZiCXDdWN5eKL04RCLlc4JqIpHyajnTpb9LVDa0"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxKgJfNJ6ZleeK4c7SeUn3hhPJ7c-iEs5gV-dqEEN1Vlsoa9lWrcz9bZQTkFcF6nAd1HdEvDYlm9puRAh-mg96SwqBT1qeCRRpovkgzxqwHtWgK9ea_yHiKuh81BU4WsDI5ueqbkAN"
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRnLs69nVCmgoaAwZz6Vhoj8nWDNln-9npUZRnDQ-kgVxMRo5srRaNxAp3g4ljbcQJwN0AU7KMsAIOiOLFiNku2-PvikEoXaiRzwN2EnLdEfTtMtH2Q0sJGMq4Ui-zNgNmNe0dwUitoTJKDRE7tRdNJPEFiKh82PoESego0qqLR9Xpn1DOlZPx4XR53QpuzDp850gMuo="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5smlYm4x5jxt1mprO7faw7lPnew3zih1pNnqed4zzR7tko329MCfJV_Z46mA6xrWlRY0hBaM0EzwyyTUDqGlpT9DFP39mm9Ht7FxDL2NT1t4_OjlgjcGJdPHdoaz1VYoVvEbWQOWK0Gvi784VfgVh_J0-xEDJ98YHwwmIL4JMWHjaCn2F_m7Nm4R5wq3xBYU="
+    },
+    {
+      "label": "codeisgo",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-cNVZaCLHN49pBTg77Um3LLE1YuUaTaAFcrXK3CGhvjzecxr-9GY1z7DTOiVFNXzwUDmKgFa0biyiOBtGz-9Fg6gzIQBbP11NNPqGjGVsvX_Ym3j4jo1bZxBia--a1-pIOd3gCYQoK9Jce9lP4ekJrU5uwKtduhB-v_xaWGbM4Jr7mCJ2gnMeOJgzqpl8sHAp4AsQdRZOMk-5ci3F7Zcgsw=="
+    },
+    {
+      "label": "traefik",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFoP9KBC0T4whkhl1-GKo12bRQcw6AjO6Gg49vhJpFCaN_gzN7nBhUuyYFLr6Il6koacJ6gW1_uvuRIiiD3AI80cRVNg_Oy2aAz-fL-a24rwSZNsBEz_-rTAj_bA=="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}

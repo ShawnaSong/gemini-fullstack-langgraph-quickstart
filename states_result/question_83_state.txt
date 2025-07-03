@@ -1,0 +1,572 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 21:56:50
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: How can I upgrade a dependency with uv? The dependency must be updated in the virtual environment, the lock file and the pyproject.toml
+
+[AI]: To upgrade a dependency with uv, ensuring the virtual environment, lock file, and `pyproject.toml` are updated, follow these steps:
+
+1.  **Dependency Management with uv:** uv is a fast Python package and project manager [astral](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGctwlBQQ0yzTqBeIJphYMQqrY5z4M61wBqiVCy_tGiU1c3iXPLBzaLgkLjZznDqbkbZ-NU5vJLaIxwlMCIhVJntCp2v8c1-hYRYZNaY2GJJivpp5Sa), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA=), [level12](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A=), [datacamp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=]. It uses `pyproject.toml` to manage dependencies [codeling](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==), [level12](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A=), [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==), [datacamp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=), [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==), [substack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==), [pydevtools](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo=), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==), [union](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==0) and automatically handles virtual environments [substack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==). uv also provides a universal lockfile (`uv.lock`) for consistent installations [astral](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==1), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==).
+
+2.  **Upgrading the Dependency:** Use the command `uv add <package_name> --upgrade` [codeling](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==). This command upgrades the package and updates its version information in the `uv.lock` file [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==), [codeling](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==). The `uv add` command updates the `pyproject.toml` file, the `uv.lock` file, and syncs your environment [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==), [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==), [substack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==).
+
+3.  **Additional Commands:** Alternatively, you can modify dependencies in your `pyproject.toml` file [codeling](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==), [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==), [substack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==), [datacamp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==), and then run `uv lock` to update just the lock file, or `uv sync` to update the lock file and the environment [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==).
+
+By using the `uv add <package_name> --upgrade` command, you ensure that the dependency is upgraded in the virtual environment, the `lock` file (`uv.lock`), and the `pyproject.toml` file.
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 1
+Total search queries: 1
+Sources gathered: 59
+Web research results: 1
+
+SEARCH QUERIES USED
+----------------------------------------
+1. upgrade a dependency using uv tool virtual environment lock file pyproject.toml
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+To upgrade a dependency using the uv tool within a virtual environment, considering the `lock file` and `pyproject.toml`, follow these steps:
+
+1.  **Dependency Management with uv:**
+
+*   uv is a fast Python package and project manager, often 10-100x faster than `pip`. [astral](https://vertexaisearch.cloud.google.com/id/0-0) [realpython](https://vertexaisearch.cloud.google.com/id/0-1) [github](https://vertexaisearch.cloud.google.com/id/0-2) [level12](https://vertexaisearch.cloud.google.com/id/0-3) [datacamp](https://vertexaisearch.cloud.google.com/id/0-4) It aims to replace tools like `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, and `virtualenv`. [astral](https://vertexaisearch.cloud.google.com/id/0-0) [github](https://vertexaisearch.cloud.google.com/id/0-2) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5)
+*   uv uses `pyproject.toml` to manage dependencies. [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [level12](https://vertexaisearch.cloud.google.com/id/0-3) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5) [datacamp](https://vertexaisearch.cloud.google.com/id/0-4) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-7) [substack](https://vertexaisearch.cloud.google.com/id/0-8) [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9) [realpython](https://vertexaisearch.cloud.google.com/id/0-1) [union](https://vertexaisearch.cloud.google.com/id/0-10) You can think of `pyproject.toml` as your `requirements.in` file (from `pip-tools`). [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5)
+*   uv automatically handles virtual environments. [substack](https://vertexaisearch.cloud.google.com/id/0-8) [realpython](https://vertexaisearch.cloud.google.com/id/0-1)
+*   uv provides a universal lockfile (`uv.lock`) for consistent installations across platforms. [astral](https://vertexaisearch.cloud.google.com/id/0-11) This lockfile contains the exact versions of all dependencies (direct and transitive) installed in the project environment. [realpython](https://vertexaisearch.cloud.google.com/id/0-1)  It is similar to `requirements.txt`.
+*   The `uv.lock` file is automatically generated and updated by uv and should not be manually edited. [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [realpython](https://vertexaisearch.cloud.google.com/id/0-1)
+
+2.  **Upgrading Dependencies:**
+
+*   To upgrade a package, use the command: `uv add <package_name> --upgrade`. [codeling](https://vertexaisearch.cloud.google.com/id/0-6)  This command upgrades the package and updates its version information in the `uv.lock` file. [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-7) [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [realpython](https://vertexaisearch.cloud.google.com/id/0-1)
+*   uv will find or install Python if needed. [datacamp](https://vertexaisearch.cloud.google.com/id/0-4) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5) [github](https://vertexaisearch.cloud.google.com/id/0-2) It will also create a virtual environment if one doesn't exist. [datacamp](https://vertexaisearch.cloud.google.com/id/0-4)
+*   The `uv add` command updates the `pyproject.toml` file, the `uv.lock` file, and syncs your environment. [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-7) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5) [substack](https://vertexaisearch.cloud.google.com/id/0-8)
+
+3.  **Workflow:**
+
+*   Modify dependencies in your `pyproject.toml` file. [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5) [substack](https://vertexaisearch.cloud.google.com/id/0-8) [datacamp](https://vertexaisearch.cloud.google.com/id/0-4) [realpython](https://vertexaisearch.cloud.google.com/id/0-1)
+*   Run `uv lock` to update just the lock file, or `uv sync` to update the lock file and the environment. [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5)
+
+4.  **Key Files:**
+
+*   **pyproject.toml:**  Defines base/core dependencies. [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5)
+*   **uv.lock:** Manages derived dependencies with pinned versions. [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-7) This file should be added to version control. [realpython](https://vertexaisearch.cloud.google.com/id/0-1)
+
+5. **Migration from requirements.txt:**
+* To migrate from `requirements.txt` to `pyproject.toml` with uv:
+    * Create a `pyproject.toml` file using `uv init --bare`. [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9)
+    * Import existing requirements using `uv add -r requirements.txt`. [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9)
+    * If you have development requirements, import them with `uv add --dev -r requirements-dev.txt`. [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9)
+    * Remove the old `requirements.txt` files. [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9)
+
+In summary, `uv add <package_name> --upgrade` is the primary command to upgrade a dependency, which updates both the `pyproject.toml` and `uv.lock` files, ensuring a consistent environment.
+
+
+SOURCES GATHERED
+----------------------------------------
+1. astral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGctwlBQQ0yzTqBeIJphYMQqrY5z4M61wBqiVCy_tGiU1c3iXPLBzaLgkLjZznDqbkbZ-NU5vJLaIxwlMCIhVJntCp2v8c1-hYRYZNaY2GJJivpp5Sa
+
+2. realpython
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==
+
+3. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA=
+
+4. level12
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A=
+
+5. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=
+
+6. astral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGctwlBQQ0yzTqBeIJphYMQqrY5z4M61wBqiVCy_tGiU1c3iXPLBzaLgkLjZznDqbkbZ-NU5vJLaIxwlMCIhVJntCp2v8c1-hYRYZNaY2GJJivpp5Sa
+
+7. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA=
+
+8. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==
+
+9. codeling
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==
+
+10. level12
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A=
+
+11. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==
+
+12. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=
+
+13. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==
+
+14. substack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==
+
+15. pydevtools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo=
+
+16. realpython
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==
+
+17. union
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlCg1StiBMzpd7Iu7zljrrYG0DEU8ohf4xvikC1KBQOOcw6xYI5opQa5LZfn4TtMKP8ajKmgvUsON67h7L87tVyJlwuK3rdTCtIIYjE-hBBR_YARoDJnmR59Ka1mE19mgUYMAI3s4gKCMsUSVDuLTZcZiBw-Byg3x9kf3eCnGHgo_02yGrAXjI_a5x
+
+18. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==
+
+19. substack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==
+
+20. realpython
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==
+
+21. astral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhWdhJ7wSBAyaYHSqTmumLun10JOFdfAlmuayj8iDyoiqT5hpKC60g81RK83J0onfBkTBddYsvX34wVZOYpfSHkDB_WayJI6E5sNhBiud7YAF_nNCiLSRQf7eGI-WaFZ_QGS9Hrg==
+
+22. realpython
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==
+
+23. codeling
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==
+
+24. realpython
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==
+
+25. codeling
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==
+
+26. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==
+
+27. codeling
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==
+
+28. realpython
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==
+
+29. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=
+
+30. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==
+
+31. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA=
+
+32. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=
+
+33. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==
+
+34. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==
+
+35. substack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==
+
+36. codeling
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==
+
+37. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==
+
+38. substack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==
+
+39. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=
+
+40. realpython
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==
+
+41. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==
+
+42. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==
+
+43. codeling
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==
+
+44. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==
+
+45. realpython
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==
+
+46. pydevtools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo=
+
+47. pydevtools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo=
+
+48. pydevtools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo=
+
+49. pydevtools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo=
+
+50. astral
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGctwlBQQ0yzTqBeIJphYMQqrY5z4M61wBqiVCy_tGiU1c3iXPLBzaLgkLjZznDqbkbZ-NU5vJLaIxwlMCIhVJntCp2v8c1-hYRYZNaY2GJJivpp5Sa
+
+51. realpython
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==
+
+52. github
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA=
+
+53. level12
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A=
+
+54. datacamp
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=
+
+55. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==
+
+56. codeling
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==
+
+57. saaspegasus
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==
+
+58. substack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==
+
+59. pydevtools
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo=
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "How can I upgrade a dependency with uv? The dependency must be updated in the virtual environment, the lock file and the pyproject.toml"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "To upgrade a dependency with uv, ensuring the virtual environment, lock file, and `pyproject.toml` are updated, follow these steps:\n\n1.  **Dependency Management with uv:** uv is a fast Python package and project manager [astral](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGctwlBQQ0yzTqBeIJphYMQqrY5z4M61wBqiVCy_tGiU1c3iXPLBzaLgkLjZznDqbkbZ-NU5vJLaIxwlMCIhVJntCp2v8c1-hYRYZNaY2GJJivpp5Sa), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==), [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA=), [level12](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A=), [datacamp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=]. It uses `pyproject.toml` to manage dependencies [codeling](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==), [level12](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A=), [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==), [datacamp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=), [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==), [substack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==), [pydevtools](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo=), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==), [union](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==0) and automatically handles virtual environments [substack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==). uv also provides a universal lockfile (`uv.lock`) for consistent installations [astral](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==1), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==).\n\n2.  **Upgrading the Dependency:** Use the command `uv add <package_name> --upgrade` [codeling](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==). This command upgrades the package and updates its version information in the `uv.lock` file [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==), [codeling](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==). The `uv add` command updates the `pyproject.toml` file, the `uv.lock` file, and syncs your environment [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw==), [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==), [substack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==).\n\n3.  **Additional Commands:** Alternatively, you can modify dependencies in your `pyproject.toml` file [codeling](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg==), [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==), [substack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA==), [datacamp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4=), [realpython](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w==), and then run `uv lock` to update just the lock file, or `uv sync` to update the lock file and the environment [saaspegasus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw==).\n\nBy using the `uv add <package_name> --upgrade` command, you ensure that the dependency is upgraded in the virtual environment, the `lock` file (`uv.lock`), and the `pyproject.toml` file."
+    }
+  ],
+  "search_query": [
+    "upgrade a dependency using uv tool virtual environment lock file pyproject.toml"
+  ],
+  "web_research_result": [
+    "To upgrade a dependency using the uv tool within a virtual environment, considering the `lock file` and `pyproject.toml`, follow these steps:\n\n1.  **Dependency Management with uv:**\n\n*   uv is a fast Python package and project manager, often 10-100x faster than `pip`. [astral](https://vertexaisearch.cloud.google.com/id/0-0) [realpython](https://vertexaisearch.cloud.google.com/id/0-1) [github](https://vertexaisearch.cloud.google.com/id/0-2) [level12](https://vertexaisearch.cloud.google.com/id/0-3) [datacamp](https://vertexaisearch.cloud.google.com/id/0-4) It aims to replace tools like `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, and `virtualenv`. [astral](https://vertexaisearch.cloud.google.com/id/0-0) [github](https://vertexaisearch.cloud.google.com/id/0-2) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5)\n*   uv uses `pyproject.toml` to manage dependencies. [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [level12](https://vertexaisearch.cloud.google.com/id/0-3) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5) [datacamp](https://vertexaisearch.cloud.google.com/id/0-4) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-7) [substack](https://vertexaisearch.cloud.google.com/id/0-8) [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9) [realpython](https://vertexaisearch.cloud.google.com/id/0-1) [union](https://vertexaisearch.cloud.google.com/id/0-10) You can think of `pyproject.toml` as your `requirements.in` file (from `pip-tools`). [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5)\n*   uv automatically handles virtual environments. [substack](https://vertexaisearch.cloud.google.com/id/0-8) [realpython](https://vertexaisearch.cloud.google.com/id/0-1)\n*   uv provides a universal lockfile (`uv.lock`) for consistent installations across platforms. [astral](https://vertexaisearch.cloud.google.com/id/0-11) This lockfile contains the exact versions of all dependencies (direct and transitive) installed in the project environment. [realpython](https://vertexaisearch.cloud.google.com/id/0-1)  It is similar to `requirements.txt`.\n*   The `uv.lock` file is automatically generated and updated by uv and should not be manually edited. [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [realpython](https://vertexaisearch.cloud.google.com/id/0-1)\n\n2.  **Upgrading Dependencies:**\n\n*   To upgrade a package, use the command: `uv add <package_name> --upgrade`. [codeling](https://vertexaisearch.cloud.google.com/id/0-6)  This command upgrades the package and updates its version information in the `uv.lock` file. [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-7) [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [realpython](https://vertexaisearch.cloud.google.com/id/0-1)\n*   uv will find or install Python if needed. [datacamp](https://vertexaisearch.cloud.google.com/id/0-4) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5) [github](https://vertexaisearch.cloud.google.com/id/0-2) It will also create a virtual environment if one doesn't exist. [datacamp](https://vertexaisearch.cloud.google.com/id/0-4)\n*   The `uv add` command updates the `pyproject.toml` file, the `uv.lock` file, and syncs your environment. [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-7) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5) [substack](https://vertexaisearch.cloud.google.com/id/0-8)\n\n3.  **Workflow:**\n\n*   Modify dependencies in your `pyproject.toml` file. [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5) [substack](https://vertexaisearch.cloud.google.com/id/0-8) [datacamp](https://vertexaisearch.cloud.google.com/id/0-4) [realpython](https://vertexaisearch.cloud.google.com/id/0-1)\n*   Run `uv lock` to update just the lock file, or `uv sync` to update the lock file and the environment. [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5)\n\n4.  **Key Files:**\n\n*   **pyproject.toml:**  Defines base/core dependencies. [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **uv.lock:** Manages derived dependencies with pinned versions. [codeling](https://vertexaisearch.cloud.google.com/id/0-6) [saaspegasus](https://vertexaisearch.cloud.google.com/id/0-7) This file should be added to version control. [realpython](https://vertexaisearch.cloud.google.com/id/0-1)\n\n5. **Migration from requirements.txt:**\n* To migrate from `requirements.txt` to `pyproject.toml` with uv:\n    * Create a `pyproject.toml` file using `uv init --bare`. [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9)\n    * Import existing requirements using `uv add -r requirements.txt`. [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9)\n    * If you have development requirements, import them with `uv add --dev -r requirements-dev.txt`. [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9)\n    * Remove the old `requirements.txt` files. [pydevtools](https://vertexaisearch.cloud.google.com/id/0-9)\n\nIn summary, `uv add <package_name> --upgrade` is the primary command to upgrade a dependency, which updates both the `pyproject.toml` and `uv.lock` files, ensuring a consistent environment.\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "astral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGctwlBQQ0yzTqBeIJphYMQqrY5z4M61wBqiVCy_tGiU1c3iXPLBzaLgkLjZznDqbkbZ-NU5vJLaIxwlMCIhVJntCp2v8c1-hYRYZNaY2GJJivpp5Sa"
+    },
+    {
+      "label": "realpython",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA="
+    },
+    {
+      "label": "level12",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4="
+    },
+    {
+      "label": "astral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGctwlBQQ0yzTqBeIJphYMQqrY5z4M61wBqiVCy_tGiU1c3iXPLBzaLgkLjZznDqbkbZ-NU5vJLaIxwlMCIhVJntCp2v8c1-hYRYZNaY2GJJivpp5Sa"
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw=="
+    },
+    {
+      "label": "codeling",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg=="
+    },
+    {
+      "label": "level12",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw=="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw=="
+    },
+    {
+      "label": "substack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA=="
+    },
+    {
+      "label": "pydevtools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo="
+    },
+    {
+      "label": "realpython",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w=="
+    },
+    {
+      "label": "union",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlCg1StiBMzpd7Iu7zljrrYG0DEU8ohf4xvikC1KBQOOcw6xYI5opQa5LZfn4TtMKP8ajKmgvUsON67h7L87tVyJlwuK3rdTCtIIYjE-hBBR_YARoDJnmR59Ka1mE19mgUYMAI3s4gKCMsUSVDuLTZcZiBw-Byg3x9kf3eCnGHgo_02yGrAXjI_a5x"
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw=="
+    },
+    {
+      "label": "substack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA=="
+    },
+    {
+      "label": "realpython",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w=="
+    },
+    {
+      "label": "astral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhWdhJ7wSBAyaYHSqTmumLun10JOFdfAlmuayj8iDyoiqT5hpKC60g81RK83J0onfBkTBddYsvX34wVZOYpfSHkDB_WayJI6E5sNhBiud7YAF_nNCiLSRQf7eGI-WaFZ_QGS9Hrg=="
+    },
+    {
+      "label": "realpython",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w=="
+    },
+    {
+      "label": "codeling",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg=="
+    },
+    {
+      "label": "realpython",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w=="
+    },
+    {
+      "label": "codeling",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg=="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw=="
+    },
+    {
+      "label": "codeling",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg=="
+    },
+    {
+      "label": "realpython",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w=="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw=="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw=="
+    },
+    {
+      "label": "substack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA=="
+    },
+    {
+      "label": "codeling",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg=="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw=="
+    },
+    {
+      "label": "substack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA=="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4="
+    },
+    {
+      "label": "realpython",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w=="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw=="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw=="
+    },
+    {
+      "label": "codeling",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg=="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw=="
+    },
+    {
+      "label": "realpython",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w=="
+    },
+    {
+      "label": "pydevtools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo="
+    },
+    {
+      "label": "pydevtools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo="
+    },
+    {
+      "label": "pydevtools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo="
+    },
+    {
+      "label": "pydevtools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo="
+    },
+    {
+      "label": "astral",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGctwlBQQ0yzTqBeIJphYMQqrY5z4M61wBqiVCy_tGiU1c3iXPLBzaLgkLjZznDqbkbZ-NU5vJLaIxwlMCIhVJntCp2v8c1-hYRYZNaY2GJJivpp5Sa"
+    },
+    {
+      "label": "realpython",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAw5YWzze-YDiVGaUiZEsmHnyQ8sFJt4bxClPpUzxQCHGsgq_UPRf8p3PI2w8LbsXS5mKBy-vuqEe1xvPC_JN3d5NUDV7-mwko-N0rHQBd3cnZc6F5iljbTbA70w=="
+    },
+    {
+      "label": "github",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiOozaOMF37MkZMp30aVLwFAyKWdeRAJ9z_9jYqGSXpZZ4ue0vTKcj95LtTTSjeZOcPlZU3pZgT5r0qUD8tCQyS-Bh5xnN8aUD1ibesqCHDxXjtSfNkcAR_OA="
+    },
+    {
+      "label": "level12",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvoj4FjVqG8tSDZFr_4KC3nJ0uFoAHSaU-6xMZ9iPuWdO7eIlKfDHGZwyohBug-i8oJiOelrajArzkqFMH2SQpc3lZy-VgSCVKPvkhPa7hMEspuh6eg1ZKisnhZq2VhXO7yo2VEHaD9QRse_qeRBDKZdJinPnvfL8XC4BRGhJtbsrk268P64qILQCiw5A="
+    },
+    {
+      "label": "datacamp",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSUYyKveflSivHxJSyqxcZcvWFLgPzucJ902zl_URhb-9nF5XR-gr4JC3JqQykSbXFK896X4PND9m7F0ejfBFkhLnIS_1zYB5SJJOtVcC2ZXx27sAReH5qga7u4wJi9tw-ygwtym4="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZJ_Sipb-V4GfgjLhdH_u-QdjWyNfvn1vboD6clK_5DodVLtOdCUJvEanF4TLAPeR5nMVKSLoTDb-Gee0yQ5IwXpxyOvTfL-PIcaoSrY0qUjbEIKML3AojluAn5Va3yZ1dIKFNKF07_4P-iw=="
+    },
+    {
+      "label": "codeling",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUFHdmX0Sp3ZydIwthVRn9uxTVKWlQF1LuvkKXDO5En1MlLju31FqUTDByhBuzw4ve9c6xzsmZ_RXzLlyfvQbuUC4iN8pjkzyWyHeasfcHU2cWgu42rlViiWCL8nNbhg=="
+    },
+    {
+      "label": "saaspegasus",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPuTYYKcyYc0_WG-aAv-cpIH_OFCuH_pI604_fjhwOZUSJX8LuW6huXfVgJM07ztTU4dmhPnJz7jrXQfWasJtBoGq5-2Bkn5VnI1zTzsizqXj_kybTQVgK-lRx3yZqSZIEw=="
+    },
+    {
+      "label": "substack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGoM05GPqFTaHvsQtJUbfltgABgBNGHQ1SnFpyOoNHEn8JEPEFkl5OKzekXDkmVBECFG-ve45QYsQPxUETFUSZ-rUIhvH38fL_0Whbcq2iKhZAJSfbYFD3JfQYmpTEmRlYxbjX1180woGeXdf76NrcD2KbgjEiHpVWA=="
+    },
+    {
+      "label": "pydevtools",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOyM7oYSG9S2JB5UjO2fD09jDXWHxK4Ncd6vXydynwYPw93ZK0R2kYRaW7gGMpqSRndEESCwFjbUeIpF6_w0C2z7PQYPUc0o2QT2CiMOCJyuh1LnGeELH9Hquo50nIcj6kv9unD-4J59AD-wfsgfqWNkKrY-LN41BWlo="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 1
+}

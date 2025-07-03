@@ -1,0 +1,857 @@
+================================================================================
+GEMINI AGENT STATE REPORT
+================================================================================
+Generated at: 2025-06-20 21:43:47
+
+CONVERSATION
+----------------------------------------
+
+[HUMAN]: what did nvidia announce at the GTC event today during the keynote?
+
+[AI]: Today, June 20, 2025, if you're asking about the announcements made at Nvidia's GTC 2025 keynote, here's a summary of the key highlights. The GTC 2025 event, held in March 2025, focused on advancements in AI and accelerated computing [ai-stack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==) [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=) [ultralytics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxqKukBXZzoHgDU7AO-CoKMHvaKpXd1K4-P-ZyzlYdyLYI25RVy6UERxCUU90N7CK5i3Q7rb5zp9dzPY7WZbulsY9BpP4Y8YGxaS2EOwDtmqXWNT3ha0i1T3-xB3pS_ATRY8xvnzd47G-m1IBv-Xvehaw84YubFGrf2hneQVWgYvSTrNzh1Dwcljy1Xc62) [forbes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHix_BsuxFsOK19ojBhvi6XvdRQm0U2ncOyGj16YjkTz1u2nAdg6nQ8Zc7IAoy491fwZ6OLq64XesB6aXGg6iZ4I-xovwDoRa2Z5S2aj1yH4oK4S1PVHYmvSh3nzyNwLjx25PQYIpjn7MRxEtFtuBpwv-J73HMSFdS-XmRvAd15NhZlFnGq8a_6UXMKOxCG3veaXwyVXna_iH5oOihK1FDkeTM7jKHs51-Ka2aIpZkjjnlAdCM=) [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=) [engadget](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48) [techloy](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX] [datacenterfrontier](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=) [channelinsider](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==) [boston](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=). Nvidia's CEO, Jensen Huang, emphasized the company's dedication to AI, spanning from infrastructure to diverse industry applications [ai-stack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==) [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=).
+
+Here's a breakdown of the key announcements:
+
+*   **Next-Generation AI Hardware:** Nvidia announced the Blackwell Ultra, an enhanced version of the Blackwell GPU architecture, promising improved performance, efficiency, and security [datacenterfrontier](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=). Server makers are expected to integrate Blackwell Ultra into their AI infrastructure in late 2025. Also announced were the Vera Rubin, the successor to Blackwell, expected in late 2026 [techloy](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX), Feynman GPUs (teased for 2028) [techloy](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX), and the GeForce 5090, the Blackwell generation of GeForce [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=0).
+*   **AI Infrastructure and Data Centers:** Nvidia introduced the concept of "AI Factories," where data centers evolve to produce intelligence [rev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=1) [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=2). They also highlighted advancements in Blackwell GPU data centers [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=), the NVIDIA AI Data Platform [channelinsider](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==), the NVL576 Rack [datacenterfrontier](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=), and new Spectrum-X photonics switches [capacitymedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=3).
+*   **AI Software and Platforms:** Announcements included Nvidia Dynamo (an open AI engine stack) [semianalysis](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=4), CUDA-X libraries [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=), the NVIDIA Enterprise AI Agent Platform, and Nemotron (an open-source "sovereign model") [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=).
+*   **Agentic AI and Robotics:** There was a significant emphasis on agentic AI [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=) [boston](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=) [wwt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=5), the GR00T platform and Cosmos for Physical AI [wwt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=5), and collaborations with Google DeepMind and Disney Research on Newton [wwt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=5).
+*   **Partnerships and Collaborations:** Nvidia announced a partnership with GM, collaborations with Google Cloud [channelinsider](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==), and a joint venture with DeepMind & Disney Research [investopedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=6) [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=).
+*   **Quantum Computing:** Nvidia introduced Quantum Day at GTC 2025 [ai-stack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==) and is working with supercomputing centers to integrate QPUs with GPUs [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=2) [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=) [ai-stack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==) [engadget](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48).
+*   **Edge AI:** A shift towards edge AI was highlighted.
+*   **Personal AI Supercomputers:** Nvidia announced DGX Spark and DGX Station, personal AI supercomputers built on the Grace Blackwell platform [techloy](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX) [boston](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=).
+*   **European Expansion:** Nvidia is establishing European AI Technology Centers and has strategic partnerships to expand its presence in Europe [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=).
+
+Regarding the Blackwell Ultra GPU (B300 series), it's designed to enhance AI processing, especially for AI reasoning, agentic AI, and video inference, with a release in the second half of 2025 [sentisight](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn) [9meters](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8=) [semianalysis](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcjUbsahf5wmi0DJ-K9u-5l0XKfOUHuZ0LATrhzxxWvv-kw2j6F69SmqsyeaGcOEndbS4SF63nwOKEUojLIrpQeYY_mKRq0T4l3XiV6eGw2To2h2MzfwSUPJb_JmndC1WT4ttNacz6aSYrI9yfPpQjK8aK40epPuoEE6bhDwzENrD8d-GTurUiAGmiPDYo2IHoH6qLfSITe5Upkl6-mq4BlaNSMAT9tLrjiRbOXa62v9zUG-5Lx928QmD_rO9s) [tomshardware](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN). It will have up to 288 GB of HBM3e memory [sentisight](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn) [turtlesai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-A_fNr4NeGz3A5JjkHWOCQjX0cTMwJgeqtnZ4wy7TqqN6AfrhaXXsOwcv8uXVg7c4oyX9JzAi59IIZFSza_SsWKIbHnYofIElE1C2_lJcMf9B_kflFepe5UPOYn7aMjk4Fl9Mmeps4HDn-N9XrH1TQNNHW5rFyckcpSvf1m3rS_G0Ju-QFvkoIY=) [nvidia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g=) [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm) [theregister](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzBG9VycPMqb09BlN-qfq01NuEG9YaYFK3-TAozY3pplm0z4Ljr0ibwZh-1m8KhNBbo0TFTelLd77lNTOOK8M1zPHpfpfTTlnFwTZujENCzjJgv00Eptg2lZLFG0BEFPPB5vlQuX3pyuFa1VlGnbh9B0Ni_5JU0u5f) [naddod](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTt9WHSGa6jpRz4RVnvE9x4AxqfORc2QcS6pZnNCYelCObiw-Iw8gp2U1LsYRIRo6IL5Psi3AyeCh4vW4chagEhsSOpWSPm8YArHlKUJyVorzyGs3PjokiIEdZ7UXXmo4cgQensiUe0wtOkDOz7sjamZ_EGZ9L1nTa71xV4h2MuFLaMUqb4tBuaMQd), 8 TB/s bandwidth [ori](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-FVSuTk-oLMdVh4vbfshzj5p_jkIcwTKn6A-VVu5fW_Hyjxh9OjxHwWFc0ORFBJTRna7_GFgRde4-DM3bqIWcM_hWx1Xvyxzz6inBh_JEnbbptAh8P_jkzK-t8lp3nlyRbl77SF0xQ6AbNoZi1m0=) [civo](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8=0), and 15 petaFLOPS of dense FP4 compute [tomshardware](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN). The B300 GPU chip is expected to operate at 1400W [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm).
+
+SEARCH STATISTICS
+----------------------------------------
+Research loops completed: 2
+Total search queries: 2
+Sources gathered: 90
+Web research results: 2
+
+SEARCH QUERIES USED
+----------------------------------------
+1. Nvidia GTC 2025 keynote announcements
+2. What are the specific technical specifications, such as transistor count, memory bandwidth, and interconnect technology, for the Blackwell Ultra GPU?
+
+WEB RESEARCH RESULTS
+----------------------------------------
+
+--- Research Result 1 ---
+Okay, I will conduct targeted Google Searches to gather the most recent, credible information on "Nvidia GTC 2025 keynote announcements" and synthesize it into a verifiable text artifact.
+Nvidia's GTC 2025, held in March 2025, showcased advancements in AI and accelerated computing. [ai-stack](https://vertexaisearch.cloud.google.com/id/0-0) [ml6](https://vertexaisearch.cloud.google.com/id/0-1) [ultralytics](https://vertexaisearch.cloud.google.com/id/0-2) [forbes](https://vertexaisearch.cloud.google.com/id/0-3) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4) [engadget](https://vertexaisearch.cloud.google.com/id/0-5) [techloy](https://vertexaisearch.cloud.google.com/id/0-6) [datacenterfrontier](https://vertexaisearch.cloud.google.com/id/0-7) [channelinsider](https://vertexaisearch.cloud.google.com/id/0-8) [boston](https://vertexaisearch.cloud.google.com/id/0-9) Jensen Huang, Nvidia's CEO, delivered a keynote address highlighting the company's focus on AI, from infrastructure to applications in various industries. [ai-stack](https://vertexaisearch.cloud.google.com/id/0-0) [ml6](https://vertexaisearch.cloud.google.com/id/0-1) The conference, which some dubbed the "Super Bowl of AI," covered a range of topics, including generative AI, data science, robotics, and quantum computing.
+
+**Key Announcements and Highlights:**
+
+*   **Next-Generation AI Hardware:**
+    *   **Blackwell Ultra:** An enhanced version of the Blackwell GPU architecture, offering improved performance, efficiency, and security. [datacenterfrontier](https://vertexaisearch.cloud.google.com/id/0-7) Server makers like Dell, HPE, Lenovo, and Supermicro are expected to roll out Blackwell Ultra-based AI infrastructure in late 2025.
+    *   **Vera Rubin:** The successor to Blackwell, expected in late 2026, delivering 50 petaflops of AI inferencing power. [techloy](https://vertexaisearch.cloud.google.com/id/0-6) A rack-scale deployment with 576 GPU dies in Rubin Ultra is planned, a significant increase from Blackwell.
+    *   **Feynman GPUs:** Teased for arrival in 2028. [techloy](https://vertexaisearch.cloud.google.com/id/0-6)
+    *   **GeForce 5090:** The Blackwell generation of GeForce, offering improved performance and energy efficiency compared to the 4090. [youtube](https://vertexaisearch.cloud.google.com/id/0-10)
+*   **AI Infrastructure and Data Centers:**
+    *   **AI Factories:** A concept where data centers evolve to produce intelligence, generating tokens for various applications. [rev](https://vertexaisearch.cloud.google.com/id/0-11) [youtube](https://vertexaisearch.cloud.google.com/id/0-12)
+    *   **Blackwell GPU Data Centers:** Advancements in data processing and storage. [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4)
+    *   **NVIDIA AI Data Platform:** A customizable reference design for building AI infrastructure for demanding AI inference workloads. [channelinsider](https://vertexaisearch.cloud.google.com/id/0-8)
+    *   **NVL576 Rack:** A data center rack designed to use up to 600kW of power, housing up to 576 Vera Rubin Ultra SuperChips and requiring liquid cooling. [datacenterfrontier](https://vertexaisearch.cloud.google.com/id/0-7)
+    *   **Photonics-Based Networking Switches:** New Spectrum-X photonics switches designed to connect millions of data center GPUs while reducing energy consumption. [capacitymedia](https://vertexaisearch.cloud.google.com/id/0-13)
+*   **AI Software and Platforms:**
+    *   **Nvidia Dynamo:** An open AI engine stack focused on simplifying the deployment and scaling of inference. [semianalysis](https://vertexaisearch.cloud.google.com/id/0-14)
+    *   **CUDA-X libraries:** A collection of acceleration frameworks for science and engineering. [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4)
+    *   **NVIDIA Enterprise AI Agent Platform:** An agent platform.
+    *   **Nemotron:** An open-source "sovereign model" that is locally adaptable. [ml6](https://vertexaisearch.cloud.google.com/id/0-1)
+*   **Agentic AI and Robotics:**
+    *   Emphasis on agentic AI, where AI systems can reason, plan, and act independently. [ml6](https://vertexaisearch.cloud.google.com/id/0-1) [boston](https://vertexaisearch.cloud.google.com/id/0-9) [wwt](https://vertexaisearch.cloud.google.com/id/0-15)
+    *   **GR00T platform and Cosmos for Physical AI:** Integration of AI into physical environments with models pre-trained for basic robotic motor skills. [wwt](https://vertexaisearch.cloud.google.com/id/0-15)
+    *   Collaboration with Google DeepMind and Disney Research on Newton, aiming to enhance robot learning and simulation accuracy. [wwt](https://vertexaisearch.cloud.google.com/id/0-15)
+*   **Partnerships and Collaborations:**
+    *   **GM Partnership:** A collaboration with General Motors to integrate AI across vehicle manufacturing and operation, including AI for manufacturing, enterprise, and in-vehicle applications.
+    *   **Google Cloud:** Google Cloud will be among the first to adopt the NVIDIA GB300 NVL72 rack-scale solution and the NVIDIA RTX PRO 6000 Blackwell Server Edition GPU. [channelinsider](https://vertexaisearch.cloud.google.com/id/0-8)
+    *   **DeepMind & Disney Research:** Joint venture focused on robotics infrastructure. [investopedia](https://vertexaisearch.cloud.google.com/id/0-16) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4)
+*   **Quantum Computing:** [youtube](https://vertexaisearch.cloud.google.com/id/0-12) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4) [ai-stack](https://vertexaisearch.cloud.google.com/id/0-0) [engadget](https://vertexaisearch.cloud.google.com/id/0-5)
+    *   Introduction of Quantum Day at GTC 2025, focusing on the state and future of quantum computing. [ai-stack](https://vertexaisearch.cloud.google.com/id/0-0)
+    *   Nvidia is working with supercomputing centers to integrate QPUs (Quantum Processing Units) with GPUs for quantum-classical computing applications.
+*   **Edge AI:**
+    *   Shift towards edge AI, where AI runs on devices and networks directly, enabling lower latency and enhanced security.
+*   **Personal AI Supercomputers:**
+    *   **DGX Spark and DGX Station:** Personal AI supercomputers built on the Grace Blackwell platform. [techloy](https://vertexaisearch.cloud.google.com/id/0-6) [boston](https://vertexaisearch.cloud.google.com/id/0-9) DGX Spark is available now, while DGX Station will roll out later in 2025. [techloy](https://vertexaisearch.cloud.google.com/id/0-6)
+*   **European Expansion:**
+    *   Nvidia is establishing European AI Technology Centers for research and ecosystems.
+    *   Strategic partnerships with Mistral AI (France) and various telcos and cloud providers to roll out DGX superPODs and edge fabrics across Europe. [ml6](https://vertexaisearch.cloud.google.com/id/0-1)
+    *   Plans to build Europe's first industrial AI cloud in Germany. [ml6](https://vertexaisearch.cloud.google.com/id/0-1)
+
+GTC 2025 underscored Nvidia's commitment to advancing AI through hardware, software, and strategic collaborations, with a vision of AI becoming an integral part of various industries and applications. [ml6](https://vertexaisearch.cloud.google.com/id/0-1) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4)
+
+
+--- Research Result 2 ---
+The Nvidia Blackwell Ultra GPU, also known as the B300 series, is designed to enhance AI processing, particularly for AI reasoning, agentic AI, and video inference. It is scheduled for release in the second half of 2025. [sentisight](https://vertexaisearch.cloud.google.com/id/1-0) [9meters](https://vertexaisearch.cloud.google.com/id/1-1) [semianalysis](https://vertexaisearch.cloud.google.com/id/1-2) [tomshardware](https://vertexaisearch.cloud.google.com/id/1-3) Here's a breakdown of its technical specifications:
+
+*   **Transistor Count:** While the exact transistor count for the Blackwell Ultra (B300) specifically isn't available in the search results, the Blackwell architecture (GB200) features 208 billion transistors.
+*   **Memory:**
+    *   Capacity: Up to 288 GB of HBM3e memory. [sentisight](https://vertexaisearch.cloud.google.com/id/1-0) [turtlesai](https://vertexaisearch.cloud.google.com/id/1-4) [nvidia](https://vertexaisearch.cloud.google.com/id/1-5) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-6) [theregister](https://vertexaisearch.cloud.google.com/id/1-7) [naddod](https://vertexaisearch.cloud.google.com/id/1-8) This is achieved using eight stacks of 12-Hi HBM3E memory modules. [theregister](https://vertexaisearch.cloud.google.com/id/1-7) [semianalysis](https://vertexaisearch.cloud.google.com/id/1-2) [9meters](https://vertexaisearch.cloud.google.com/id/1-1) Some configurations may offer 144 GB. [turtlesai](https://vertexaisearch.cloud.google.com/id/1-4)
+    *   Bandwidth: 8 TB/s. [ori](https://vertexaisearch.cloud.google.com/id/1-9) [civo](https://vertexaisearch.cloud.google.com/id/1-10)
+*   **Interconnect Technology:**
+    *   NVLink: The Blackwell Ultra will be at the heart of NVIDIA GB300 NVL72 systems, connecting 36 NVIDIA Grace CPUs and 72 Blackwell Ultra GPUs in a single 72-GPU NVLink domain with a total NVLink bandwidth of 130 TB/s. [nvidia](https://vertexaisearch.cloud.google.com/id/1-5)
+    *   Chip-to-chip interconnect: 10 TB/s. [nvidia](https://vertexaisearch.cloud.google.com/id/1-11) [nvidia](https://vertexaisearch.cloud.google.com/id/1-12) [ori](https://vertexaisearch.cloud.google.com/id/1-9)
+    *   PCIe Gen6: Supports PCIe Gen6 connectivity with NVIDIA ConnectX-8 800G SuperNIC, improving available network bandwidth to 800 Gb/s. [nvidia](https://vertexaisearch.cloud.google.com/id/1-5)
+*   **Performance:**
+    *   FP4: 15 petaFLOPS of dense FP4 compute. [tomshardware](https://vertexaisearch.cloud.google.com/id/1-3) The Blackwell Ultra GPUs are designed to meet the demand for test-time scaling inference with a 1.5X increase in the FP4 compute compared to the B200. [tomshardware](https://vertexaisearch.cloud.google.com/id/1-3)
+*   **Other Features:**
+    *   The B300 GPUs will come in various configurations, including HGX, MGX, and NVL models, with options such as NVL-36 and NVL-72 for servers and data centers.
+    *   The Blackwell Ultra also features a PCIe Gen6 connectivity with NVIDIA ConnectX-8 800G SuperNIC improving available network bandwidth to 800 Gb/s. [nvidia](https://vertexaisearch.cloud.google.com/id/1-5)
+    *   Power Consumption: The B300 GPU chip is expected to operate at 1400W. [techpowerup](https://vertexaisearch.cloud.google.com/id/1-6)
+
+
+
+SOURCES GATHERED
+----------------------------------------
+1. ai-stack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==
+
+2. ml6
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=
+
+3. ultralytics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxqKukBXZzoHgDU7AO-CoKMHvaKpXd1K4-P-ZyzlYdyLYI25RVy6UERxCUU90N7CK5i3Q7rb5zp9dzPY7WZbulsY9BpP4Y8YGxaS2EOwDtmqXWNT3ha0i1T3-xB3pS_ATRY8xvnzd47G-m1IBv-Xvehaw84YubFGrf2hneQVWgYvSTrNzh1Dwcljy1Xc62
+
+4. forbes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHix_BsuxFsOK19ojBhvi6XvdRQm0U2ncOyGj16YjkTz1u2nAdg6nQ8Zc7IAoy491fwZ6OLq64XesB6aXGg6iZ4I-xovwDoRa2Z5S2aj1yH4oK4S1PVHYmvSh3nzyNwLjx25PQYIpjn7MRxEtFtuBpwv-J73HMSFdS-XmRvAd15NhZlFnGq8a_6UXMKOxCG3veaXwyVXna_iH5oOihK1FDkeTM7jKHs51-Ka2aIpZkjjnlAdCM=
+
+5. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=
+
+6. engadget
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48
+
+7. techloy
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX
+
+8. datacenterfrontier
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=
+
+9. channelinsider
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==
+
+10. boston
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=
+
+11. ai-stack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==
+
+12. ml6
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=
+
+13. datacenterfrontier
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=
+
+14. techloy
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX
+
+15. techloy
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX
+
+16. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbyL9m6a8zJDDkGwAkNrb2vzNhgTcgYazRqxrFGhQ156rRDce7WV1I3iyHRwT7zRSUj76iWAPfyXpg77b1WE5RK4SKwYgQzYlKb0a9lWYV2vO1tKuNI8iBeLJZ2ekK9gK5u6NYhg24rIUDfgeS7C2pqROOHtvzYA8uYw==
+
+17. rev
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9duZ5hnvZFIUfPO-DeuxgFjsWXhSnO1RiYQJTFk3jSw_3MrNj7YVl2skG8jrIX-OTuI76s-onsVlLMy9ckMM2cggrMn14Z-TW-vVfJq1M-u-o6nOvmvQGr81DAanaCLjfwc4-7aRRyo_tOfQ-hlJxr1qVGk6RGOnnEJ9_2_zVO3Wtiw==
+
+18. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu61PEQjRTBkDBrzjjHtwrkOMbT0DhFXW_BJtiXXX5l4nTvqyM0Svdots6HstG6pvVqGKawjZ_5fmyoqG905NergSaa4-S7Laq335znWfI8l2rIuErAjW1Hvuq1xg3K_GDeh25iBM=
+
+19. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=
+
+20. channelinsider
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==
+
+21. datacenterfrontier
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=
+
+22. capacitymedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQDxU58cjEogARAAv04WBqn-NP2McvUAf5WdBPAZQCFNQ2x--S0BmHI4CbP07zPf7V2sCzj6iHVQBWHVY4fN5iMNDEv_cntwjHLsKR7XIdiXCX7Sw9ZALUFK019fZKREweJRTDyPcANtsXaN7TOJNJJlz4yHUaqGn59Po3p66Icd535yI3SxcoA2oZ4F_BXvq86iWvUo9mXfVX_SxRdPPFGIukmJQyCQ==
+
+23. semianalysis
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEjFADOmmK_cB4CZP0aNZCH3ftKDini-6kpwHVp9epJP3fW1XUtrq-v__reOkrkE0B0xj-yODk7Ugrn_IuZVOUCcBbaUXw3qxvEmChGyNIUEBYei0SxqY4m3oWsq-hTvjefDkqEJ8z3yzSgLJHCqt4Do4xxBlwOvhuB8vE9LB3J9KYpR8M60cvq5RVjVUWjAB2z_41Ggp74h-Jqoee0t2MqLxdZRujLbNAajvcySJgs2SzlDloc0_zmK19YpOZ
+
+24. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=
+
+25. ml6
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=
+
+26. ml6
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=
+
+27. boston
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=
+
+28. wwt
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-_LA_2hnY5R-s-zbwQsfPRhBXAEtXMHqDctff4z1mbTxy6DALGBOSctWixskL3UgueczNzHlNB6xed1g83PA0p4PvESRJ5ipPXDBauKBWf9cl7YpDD1XHyzkOSR9qMvzRAt7OAdK5xP3oox9HCb0QiF8ZAYu8tSvA3YAWhDbPk7Pi-6ExxYvefaXo
+
+29. wwt
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-_LA_2hnY5R-s-zbwQsfPRhBXAEtXMHqDctff4z1mbTxy6DALGBOSctWixskL3UgueczNzHlNB6xed1g83PA0p4PvESRJ5ipPXDBauKBWf9cl7YpDD1XHyzkOSR9qMvzRAt7OAdK5xP3oox9HCb0QiF8ZAYu8tSvA3YAWhDbPk7Pi-6ExxYvefaXo
+
+30. wwt
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-_LA_2hnY5R-s-zbwQsfPRhBXAEtXMHqDctff4z1mbTxy6DALGBOSctWixskL3UgueczNzHlNB6xed1g83PA0p4PvESRJ5ipPXDBauKBWf9cl7YpDD1XHyzkOSR9qMvzRAt7OAdK5xP3oox9HCb0QiF8ZAYu8tSvA3YAWhDbPk7Pi-6ExxYvefaXo
+
+31. channelinsider
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==
+
+32. investopedia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK20oHblGxOw_jXKoB_ubqbWNheQ2Yg7mi4_m4LhIpfKeePhOGkCLWxrXVK57g5tzxnAN3oK9_JxbAVZPXf9ccSzP8oXxmTCRudRoel8Y6fJ7Fmk2uEXxPZ4uB4QBpKzBHnrQ2A3SE3Rn5bA3S2RxfZwOlZ31qgVPcgsr5zs4G7sjJcCydqmh5HPLHKvACBf2jZQ==
+
+33. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=
+
+34. youtube
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu61PEQjRTBkDBrzjjHtwrkOMbT0DhFXW_BJtiXXX5l4nTvqyM0Svdots6HstG6pvVqGKawjZ_5fmyoqG905NergSaa4-S7Laq335znWfI8l2rIuErAjW1Hvuq1xg3K_GDeh25iBM=
+
+35. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=
+
+36. ai-stack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==
+
+37. engadget
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48
+
+38. ai-stack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==
+
+39. techloy
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX
+
+40. boston
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=
+
+41. techloy
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX
+
+42. ml6
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=
+
+43. ml6
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=
+
+44. ml6
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=
+
+45. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=
+
+46. sentisight
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn
+
+47. 9meters
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8=
+
+48. semianalysis
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcjUbsahf5wmi0DJ-K9u-5l0XKfOUHuZ0LATrhzxxWvv-kw2j6F69SmqsyeaGcOEndbS4SF63nwOKEUojLIrpQeYY_mKRq0T4l3XiV6eGw2To2h2MzfwSUPJb_JmndC1WT4ttNacz6aSYrI9yfPpQjK8aK40epPuoEE6bhDwzENrD8d-GTurUiAGmiPDYo2IHoH6qLfSITe5Upkl6-mq4BlaNSMAT9tLrjiRbOXa62v9zUG-5Lx928QmD_rO9s
+
+49. tomshardware
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN
+
+50. sentisight
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn
+
+51. turtlesai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-A_fNr4NeGz3A5JjkHWOCQjX0cTMwJgeqtnZ4wy7TqqN6AfrhaXXsOwcv8uXVg7c4oyX9JzAi59IIZFSza_SsWKIbHnYofIElE1C2_lJcMf9B_kflFepe5UPOYn7aMjk4Fl9Mmeps4HDn-N9XrH1TQNNHW5rFyckcpSvf1m3rS_G0Ju-QFvkoIY=
+
+52. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g=
+
+53. techpowerup
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm
+
+54. theregister
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzBG9VycPMqb09BlN-qfq01NuEG9YaYFK3-TAozY3pplm0z4Ljr0ibwZh-1m8KhNBbo0TFTelLd77lNTOOK8M1zPHpfpfTTlnFwTZujENCzjJgv00Eptg2lZLFG0BEFPPB5vlQuX3pyuFa1VlGnbh9B0Ni_5JU0u5f
+
+55. naddod
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTt9WHSGa6jpRz4RVnvE9x4AxqfORc2QcS6pZnNCYelCObiw-Iw8gp2U1LsYRIRo6IL5Psi3AyeCh4vW4chagEhsSOpWSPm8YArHlKUJyVorzyGs3PjokiIEdZ7UXXmo4cgQensiUe0wtOkDOz7sjamZ_EGZ9L1nTa71xV4h2MuFLaMUqb4tBuaMQd
+
+56. theregister
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzBG9VycPMqb09BlN-qfq01NuEG9YaYFK3-TAozY3pplm0z4Ljr0ibwZh-1m8KhNBbo0TFTelLd77lNTOOK8M1zPHpfpfTTlnFwTZujENCzjJgv00Eptg2lZLFG0BEFPPB5vlQuX3pyuFa1VlGnbh9B0Ni_5JU0u5f
+
+57. semianalysis
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcjUbsahf5wmi0DJ-K9u-5l0XKfOUHuZ0LATrhzxxWvv-kw2j6F69SmqsyeaGcOEndbS4SF63nwOKEUojLIrpQeYY_mKRq0T4l3XiV6eGw2To2h2MzfwSUPJb_JmndC1WT4ttNacz6aSYrI9yfPpQjK8aK40epPuoEE6bhDwzENrD8d-GTurUiAGmiPDYo2IHoH6qLfSITe5Upkl6-mq4BlaNSMAT9tLrjiRbOXa62v9zUG-5Lx928QmD_rO9s
+
+58. 9meters
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8=
+
+59. turtlesai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-A_fNr4NeGz3A5JjkHWOCQjX0cTMwJgeqtnZ4wy7TqqN6AfrhaXXsOwcv8uXVg7c4oyX9JzAi59IIZFSza_SsWKIbHnYofIElE1C2_lJcMf9B_kflFepe5UPOYn7aMjk4Fl9Mmeps4HDn-N9XrH1TQNNHW5rFyckcpSvf1m3rS_G0Ju-QFvkoIY=
+
+60. ori
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-FVSuTk-oLMdVh4vbfshzj5p_jkIcwTKn6A-VVu5fW_Hyjxh9OjxHwWFc0ORFBJTRna7_GFgRde4-DM3bqIWcM_hWx1Xvyxzz6inBh_JEnbbptAh8P_jkzK-t8lp3nlyRbl77SF0xQ6AbNoZi1m0=
+
+61. civo
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkUu2BsONsi_6-2m7l77PMtJiRf4pIwr4MD4E61e2gdAWwmZHGNsdyodUfM8_F2iFSz6MwHoiBAmn0Ijg9Co2nVvhIm_8ozP8TjixxaMOvTnB5QkebveLfyp4Uc3l35EcOIAfaut36WFIwVnvAHBnyF8qn
+
+62. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g=
+
+63. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBPjNnCG8NnILNT-X3puQeuMpHzYjcUbtEGqXDKjHGX4gqP-BeYLenntl_8hpmh2rHvvwsudczQ5PRh1ejuxrIoGwLUlytKQ2SyKcuAG60oleFpIpUfWx5p8dwjM_Xb7YFMtrowqm2unh26chJHBOIgujuOA8-tZU9VoGWiZ7Q8hQi8v2ILnP9
+
+64. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-2TGPF9XPbbYrY1ROHJuEv6zlwsR932b-rtQ3KLdXdmIv5Np6CZlw3rnwvgvZIqS8kgV3GuFWYiEOnHgNygi7J_B0KF8SnnX6SLFeBb6bU48hEPaenHKAFTckFqmLbHtFaSFNFreGkslWQvJmUn3FjnTQQB4HyAXcDlw8mOqJtQ1pBsOkQTei
+
+65. ori
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-FVSuTk-oLMdVh4vbfshzj5p_jkIcwTKn6A-VVu5fW_Hyjxh9OjxHwWFc0ORFBJTRna7_GFgRde4-DM3bqIWcM_hWx1Xvyxzz6inBh_JEnbbptAh8P_jkzK-t8lp3nlyRbl77SF0xQ6AbNoZi1m0=
+
+66. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g=
+
+67. tomshardware
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN
+
+68. tomshardware
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN
+
+69. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g=
+
+70. techpowerup
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm
+
+71. ai-stack
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==
+
+72. ml6
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=
+
+73. ultralytics
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxqKukBXZzoHgDU7AO-CoKMHvaKpXd1K4-P-ZyzlYdyLYI25RVy6UERxCUU90N7CK5i3Q7rb5zp9dzPY7WZbulsY9BpP4Y8YGxaS2EOwDtmqXWNT3ha0i1T3-xB3pS_ATRY8xvnzd47G-m1IBv-Xvehaw84YubFGrf2hneQVWgYvSTrNzh1Dwcljy1Xc62
+
+74. forbes
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHix_BsuxFsOK19ojBhvi6XvdRQm0U2ncOyGj16YjkTz1u2nAdg6nQ8Zc7IAoy491fwZ6OLq64XesB6aXGg6iZ4I-xovwDoRa2Z5S2aj1yH4oK4S1PVHYmvSh3nzyNwLjx25PQYIpjn7MRxEtFtuBpwv-J73HMSFdS-XmRvAd15NhZlFnGq8a_6UXMKOxCG3veaXwyVXna_iH5oOihK1FDkeTM7jKHs51-Ka2aIpZkjjnlAdCM=
+
+75. analyticsvidhya
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=
+
+76. engadget
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48
+
+77. techloy
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX
+
+78. datacenterfrontier
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=
+
+79. channelinsider
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==
+
+80. boston
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=
+
+81. sentisight
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn
+
+82. 9meters
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8=
+
+83. semianalysis
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcjUbsahf5wmi0DJ-K9u-5l0XKfOUHuZ0LATrhzxxWvv-kw2j6F69SmqsyeaGcOEndbS4SF63nwOKEUojLIrpQeYY_mKRq0T4l3XiV6eGw2To2h2MzfwSUPJb_JmndC1WT4ttNacz6aSYrI9yfPpQjK8aK40epPuoEE6bhDwzENrD8d-GTurUiAGmiPDYo2IHoH6qLfSITe5Upkl6-mq4BlaNSMAT9tLrjiRbOXa62v9zUG-5Lx928QmD_rO9s
+
+84. tomshardware
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN
+
+85. turtlesai
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-A_fNr4NeGz3A5JjkHWOCQjX0cTMwJgeqtnZ4wy7TqqN6AfrhaXXsOwcv8uXVg7c4oyX9JzAi59IIZFSza_SsWKIbHnYofIElE1C2_lJcMf9B_kflFepe5UPOYn7aMjk4Fl9Mmeps4HDn-N9XrH1TQNNHW5rFyckcpSvf1m3rS_G0Ju-QFvkoIY=
+
+86. nvidia
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g=
+
+87. techpowerup
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm
+
+88. theregister
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzBG9VycPMqb09BlN-qfq01NuEG9YaYFK3-TAozY3pplm0z4Ljr0ibwZh-1m8KhNBbo0TFTelLd77lNTOOK8M1zPHpfpfTTlnFwTZujENCzjJgv00Eptg2lZLFG0BEFPPB5vlQuX3pyuFa1VlGnbh9B0Ni_5JU0u5f
+
+89. naddod
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTt9WHSGa6jpRz4RVnvE9x4AxqfORc2QcS6pZnNCYelCObiw-Iw8gp2U1LsYRIRo6IL5Psi3AyeCh4vW4chagEhsSOpWSPm8YArHlKUJyVorzyGs3PjokiIEdZ7UXXmo4cgQensiUe0wtOkDOz7sjamZ_EGZ9L1nTa71xV4h2MuFLaMUqb4tBuaMQd
+
+90. ori
+   URL: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-FVSuTk-oLMdVh4vbfshzj5p_jkIcwTKn6A-VVu5fW_Hyjxh9OjxHwWFc0ORFBJTRna7_GFgRde4-DM3bqIWcM_hWx1Xvyxzz6inBh_JEnbbptAh8P_jkzK-t8lp3nlyRbl77SF0xQ6AbNoZi1m0=
+
+RAW STATE DATA
+----------------------------------------
+(Complete state in JSON format for debugging)
+
+{
+  "messages": [
+    {
+      "type": "<class 'langchain_core.messages.human.HumanMessage'>",
+      "content": "what did nvidia announce at the GTC event today during the keynote?"
+    },
+    {
+      "type": "<class 'langchain_core.messages.ai.AIMessage'>",
+      "content": "Today, June 20, 2025, if you're asking about the announcements made at Nvidia's GTC 2025 keynote, here's a summary of the key highlights. The GTC 2025 event, held in March 2025, focused on advancements in AI and accelerated computing [ai-stack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==) [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=) [ultralytics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxqKukBXZzoHgDU7AO-CoKMHvaKpXd1K4-P-ZyzlYdyLYI25RVy6UERxCUU90N7CK5i3Q7rb5zp9dzPY7WZbulsY9BpP4Y8YGxaS2EOwDtmqXWNT3ha0i1T3-xB3pS_ATRY8xvnzd47G-m1IBv-Xvehaw84YubFGrf2hneQVWgYvSTrNzh1Dwcljy1Xc62) [forbes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHix_BsuxFsOK19ojBhvi6XvdRQm0U2ncOyGj16YjkTz1u2nAdg6nQ8Zc7IAoy491fwZ6OLq64XesB6aXGg6iZ4I-xovwDoRa2Z5S2aj1yH4oK4S1PVHYmvSh3nzyNwLjx25PQYIpjn7MRxEtFtuBpwv-J73HMSFdS-XmRvAd15NhZlFnGq8a_6UXMKOxCG3veaXwyVXna_iH5oOihK1FDkeTM7jKHs51-Ka2aIpZkjjnlAdCM=) [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=) [engadget](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48) [techloy](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX] [datacenterfrontier](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=) [channelinsider](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==) [boston](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=). Nvidia's CEO, Jensen Huang, emphasized the company's dedication to AI, spanning from infrastructure to diverse industry applications [ai-stack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==) [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=).\n\nHere's a breakdown of the key announcements:\n\n*   **Next-Generation AI Hardware:** Nvidia announced the Blackwell Ultra, an enhanced version of the Blackwell GPU architecture, promising improved performance, efficiency, and security [datacenterfrontier](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=). Server makers are expected to integrate Blackwell Ultra into their AI infrastructure in late 2025. Also announced were the Vera Rubin, the successor to Blackwell, expected in late 2026 [techloy](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX), Feynman GPUs (teased for 2028) [techloy](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX), and the GeForce 5090, the Blackwell generation of GeForce [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=0).\n*   **AI Infrastructure and Data Centers:** Nvidia introduced the concept of \"AI Factories,\" where data centers evolve to produce intelligence [rev](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=1) [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=2). They also highlighted advancements in Blackwell GPU data centers [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=), the NVIDIA AI Data Platform [channelinsider](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==), the NVL576 Rack [datacenterfrontier](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs=), and new Spectrum-X photonics switches [capacitymedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=3).\n*   **AI Software and Platforms:** Announcements included Nvidia Dynamo (an open AI engine stack) [semianalysis](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=4), CUDA-X libraries [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=), the NVIDIA Enterprise AI Agent Platform, and Nemotron (an open-source \"sovereign model\") [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=).\n*   **Agentic AI and Robotics:** There was a significant emphasis on agentic AI [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=) [boston](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=) [wwt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=5), the GR00T platform and Cosmos for Physical AI [wwt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=5), and collaborations with Google DeepMind and Disney Research on Newton [wwt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=5).\n*   **Partnerships and Collaborations:** Nvidia announced a partnership with GM, collaborations with Google Cloud [channelinsider](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ==), and a joint venture with DeepMind & Disney Research [investopedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=6) [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=).\n*   **Quantum Computing:** Nvidia introduced Quantum Day at GTC 2025 [ai-stack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==) and is working with supercomputing centers to integrate QPUs with GPUs [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=2) [analyticsvidhya](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U=) [ai-stack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ==) [engadget](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48).\n*   **Edge AI:** A shift towards edge AI was highlighted.\n*   **Personal AI Supercomputers:** Nvidia announced DGX Spark and DGX Station, personal AI supercomputers built on the Grace Blackwell platform [techloy](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX) [boston](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s=).\n*   **European Expansion:** Nvidia is establishing European AI Technology Centers and has strategic partnerships to expand its presence in Europe [ml6](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic=).\n\nRegarding the Blackwell Ultra GPU (B300 series), it's designed to enhance AI processing, especially for AI reasoning, agentic AI, and video inference, with a release in the second half of 2025 [sentisight](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn) [9meters](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8=) [semianalysis](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcjUbsahf5wmi0DJ-K9u-5l0XKfOUHuZ0LATrhzxxWvv-kw2j6F69SmqsyeaGcOEndbS4SF63nwOKEUojLIrpQeYY_mKRq0T4l3XiV6eGw2To2h2MzfwSUPJb_JmndC1WT4ttNacz6aSYrI9yfPpQjK8aK40epPuoEE6bhDwzENrD8d-GTurUiAGmiPDYo2IHoH6qLfSITe5Upkl6-mq4BlaNSMAT9tLrjiRbOXa62v9zUG-5Lx928QmD_rO9s) [tomshardware](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN). It will have up to 288 GB of HBM3e memory [sentisight](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn) [turtlesai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-A_fNr4NeGz3A5JjkHWOCQjX0cTMwJgeqtnZ4wy7TqqN6AfrhaXXsOwcv8uXVg7c4oyX9JzAi59IIZFSza_SsWKIbHnYofIElE1C2_lJcMf9B_kflFepe5UPOYn7aMjk4Fl9Mmeps4HDn-N9XrH1TQNNHW5rFyckcpSvf1m3rS_G0Ju-QFvkoIY=) [nvidia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g=) [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm) [theregister](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzBG9VycPMqb09BlN-qfq01NuEG9YaYFK3-TAozY3pplm0z4Ljr0ibwZh-1m8KhNBbo0TFTelLd77lNTOOK8M1zPHpfpfTTlnFwTZujENCzjJgv00Eptg2lZLFG0BEFPPB5vlQuX3pyuFa1VlGnbh9B0Ni_5JU0u5f) [naddod](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTt9WHSGa6jpRz4RVnvE9x4AxqfORc2QcS6pZnNCYelCObiw-Iw8gp2U1LsYRIRo6IL5Psi3AyeCh4vW4chagEhsSOpWSPm8YArHlKUJyVorzyGs3PjokiIEdZ7UXXmo4cgQensiUe0wtOkDOz7sjamZ_EGZ9L1nTa71xV4h2MuFLaMUqb4tBuaMQd), 8 TB/s bandwidth [ori](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-FVSuTk-oLMdVh4vbfshzj5p_jkIcwTKn6A-VVu5fW_Hyjxh9OjxHwWFc0ORFBJTRna7_GFgRde4-DM3bqIWcM_hWx1Xvyxzz6inBh_JEnbbptAh8P_jkzK-t8lp3nlyRbl77SF0xQ6AbNoZi1m0=) [civo](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8=0), and 15 petaFLOPS of dense FP4 compute [tomshardware](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN). The B300 GPU chip is expected to operate at 1400W [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm)."
+    }
+  ],
+  "search_query": [
+    "Nvidia GTC 2025 keynote announcements",
+    "What are the specific technical specifications, such as transistor count, memory bandwidth, and interconnect technology, for the Blackwell Ultra GPU?"
+  ],
+  "web_research_result": [
+    "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Nvidia GTC 2025 keynote announcements\" and synthesize it into a verifiable text artifact.\nNvidia's GTC 2025, held in March 2025, showcased advancements in AI and accelerated computing. [ai-stack](https://vertexaisearch.cloud.google.com/id/0-0) [ml6](https://vertexaisearch.cloud.google.com/id/0-1) [ultralytics](https://vertexaisearch.cloud.google.com/id/0-2) [forbes](https://vertexaisearch.cloud.google.com/id/0-3) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4) [engadget](https://vertexaisearch.cloud.google.com/id/0-5) [techloy](https://vertexaisearch.cloud.google.com/id/0-6) [datacenterfrontier](https://vertexaisearch.cloud.google.com/id/0-7) [channelinsider](https://vertexaisearch.cloud.google.com/id/0-8) [boston](https://vertexaisearch.cloud.google.com/id/0-9) Jensen Huang, Nvidia's CEO, delivered a keynote address highlighting the company's focus on AI, from infrastructure to applications in various industries. [ai-stack](https://vertexaisearch.cloud.google.com/id/0-0) [ml6](https://vertexaisearch.cloud.google.com/id/0-1) The conference, which some dubbed the \"Super Bowl of AI,\" covered a range of topics, including generative AI, data science, robotics, and quantum computing.\n\n**Key Announcements and Highlights:**\n\n*   **Next-Generation AI Hardware:**\n    *   **Blackwell Ultra:** An enhanced version of the Blackwell GPU architecture, offering improved performance, efficiency, and security. [datacenterfrontier](https://vertexaisearch.cloud.google.com/id/0-7) Server makers like Dell, HPE, Lenovo, and Supermicro are expected to roll out Blackwell Ultra-based AI infrastructure in late 2025.\n    *   **Vera Rubin:** The successor to Blackwell, expected in late 2026, delivering 50 petaflops of AI inferencing power. [techloy](https://vertexaisearch.cloud.google.com/id/0-6) A rack-scale deployment with 576 GPU dies in Rubin Ultra is planned, a significant increase from Blackwell.\n    *   **Feynman GPUs:** Teased for arrival in 2028. [techloy](https://vertexaisearch.cloud.google.com/id/0-6)\n    *   **GeForce 5090:** The Blackwell generation of GeForce, offering improved performance and energy efficiency compared to the 4090. [youtube](https://vertexaisearch.cloud.google.com/id/0-10)\n*   **AI Infrastructure and Data Centers:**\n    *   **AI Factories:** A concept where data centers evolve to produce intelligence, generating tokens for various applications. [rev](https://vertexaisearch.cloud.google.com/id/0-11) [youtube](https://vertexaisearch.cloud.google.com/id/0-12)\n    *   **Blackwell GPU Data Centers:** Advancements in data processing and storage. [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   **NVIDIA AI Data Platform:** A customizable reference design for building AI infrastructure for demanding AI inference workloads. [channelinsider](https://vertexaisearch.cloud.google.com/id/0-8)\n    *   **NVL576 Rack:** A data center rack designed to use up to 600kW of power, housing up to 576 Vera Rubin Ultra SuperChips and requiring liquid cooling. [datacenterfrontier](https://vertexaisearch.cloud.google.com/id/0-7)\n    *   **Photonics-Based Networking Switches:** New Spectrum-X photonics switches designed to connect millions of data center GPUs while reducing energy consumption. [capacitymedia](https://vertexaisearch.cloud.google.com/id/0-13)\n*   **AI Software and Platforms:**\n    *   **Nvidia Dynamo:** An open AI engine stack focused on simplifying the deployment and scaling of inference. [semianalysis](https://vertexaisearch.cloud.google.com/id/0-14)\n    *   **CUDA-X libraries:** A collection of acceleration frameworks for science and engineering. [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   **NVIDIA Enterprise AI Agent Platform:** An agent platform.\n    *   **Nemotron:** An open-source \"sovereign model\" that is locally adaptable. [ml6](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Agentic AI and Robotics:**\n    *   Emphasis on agentic AI, where AI systems can reason, plan, and act independently. [ml6](https://vertexaisearch.cloud.google.com/id/0-1) [boston](https://vertexaisearch.cloud.google.com/id/0-9) [wwt](https://vertexaisearch.cloud.google.com/id/0-15)\n    *   **GR00T platform and Cosmos for Physical AI:** Integration of AI into physical environments with models pre-trained for basic robotic motor skills. [wwt](https://vertexaisearch.cloud.google.com/id/0-15)\n    *   Collaboration with Google DeepMind and Disney Research on Newton, aiming to enhance robot learning and simulation accuracy. [wwt](https://vertexaisearch.cloud.google.com/id/0-15)\n*   **Partnerships and Collaborations:**\n    *   **GM Partnership:** A collaboration with General Motors to integrate AI across vehicle manufacturing and operation, including AI for manufacturing, enterprise, and in-vehicle applications.\n    *   **Google Cloud:** Google Cloud will be among the first to adopt the NVIDIA GB300 NVL72 rack-scale solution and the NVIDIA RTX PRO 6000 Blackwell Server Edition GPU. [channelinsider](https://vertexaisearch.cloud.google.com/id/0-8)\n    *   **DeepMind & Disney Research:** Joint venture focused on robotics infrastructure. [investopedia](https://vertexaisearch.cloud.google.com/id/0-16) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4)\n*   **Quantum Computing:** [youtube](https://vertexaisearch.cloud.google.com/id/0-12) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4) [ai-stack](https://vertexaisearch.cloud.google.com/id/0-0) [engadget](https://vertexaisearch.cloud.google.com/id/0-5)\n    *   Introduction of Quantum Day at GTC 2025, focusing on the state and future of quantum computing. [ai-stack](https://vertexaisearch.cloud.google.com/id/0-0)\n    *   Nvidia is working with supercomputing centers to integrate QPUs (Quantum Processing Units) with GPUs for quantum-classical computing applications.\n*   **Edge AI:**\n    *   Shift towards edge AI, where AI runs on devices and networks directly, enabling lower latency and enhanced security.\n*   **Personal AI Supercomputers:**\n    *   **DGX Spark and DGX Station:** Personal AI supercomputers built on the Grace Blackwell platform. [techloy](https://vertexaisearch.cloud.google.com/id/0-6) [boston](https://vertexaisearch.cloud.google.com/id/0-9) DGX Spark is available now, while DGX Station will roll out later in 2025. [techloy](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **European Expansion:**\n    *   Nvidia is establishing European AI Technology Centers for research and ecosystems.\n    *   Strategic partnerships with Mistral AI (France) and various telcos and cloud providers to roll out DGX superPODs and edge fabrics across Europe. [ml6](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   Plans to build Europe's first industrial AI cloud in Germany. [ml6](https://vertexaisearch.cloud.google.com/id/0-1)\n\nGTC 2025 underscored Nvidia's commitment to advancing AI through hardware, software, and strategic collaborations, with a vision of AI becoming an integral part of various industries and applications. [ml6](https://vertexaisearch.cloud.google.com/id/0-1) [analyticsvidhya](https://vertexaisearch.cloud.google.com/id/0-4)\n",
+    "The Nvidia Blackwell Ultra GPU, also known as the B300 series, is designed to enhance AI processing, particularly for AI reasoning, agentic AI, and video inference. It is scheduled for release in the second half of 2025. [sentisight](https://vertexaisearch.cloud.google.com/id/1-0) [9meters](https://vertexaisearch.cloud.google.com/id/1-1) [semianalysis](https://vertexaisearch.cloud.google.com/id/1-2) [tomshardware](https://vertexaisearch.cloud.google.com/id/1-3) Here's a breakdown of its technical specifications:\n\n*   **Transistor Count:** While the exact transistor count for the Blackwell Ultra (B300) specifically isn't available in the search results, the Blackwell architecture (GB200) features 208 billion transistors.\n*   **Memory:**\n    *   Capacity: Up to 288 GB of HBM3e memory. [sentisight](https://vertexaisearch.cloud.google.com/id/1-0) [turtlesai](https://vertexaisearch.cloud.google.com/id/1-4) [nvidia](https://vertexaisearch.cloud.google.com/id/1-5) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-6) [theregister](https://vertexaisearch.cloud.google.com/id/1-7) [naddod](https://vertexaisearch.cloud.google.com/id/1-8) This is achieved using eight stacks of 12-Hi HBM3E memory modules. [theregister](https://vertexaisearch.cloud.google.com/id/1-7) [semianalysis](https://vertexaisearch.cloud.google.com/id/1-2) [9meters](https://vertexaisearch.cloud.google.com/id/1-1) Some configurations may offer 144 GB. [turtlesai](https://vertexaisearch.cloud.google.com/id/1-4)\n    *   Bandwidth: 8 TB/s. [ori](https://vertexaisearch.cloud.google.com/id/1-9) [civo](https://vertexaisearch.cloud.google.com/id/1-10)\n*   **Interconnect Technology:**\n    *   NVLink: The Blackwell Ultra will be at the heart of NVIDIA GB300 NVL72 systems, connecting 36 NVIDIA Grace CPUs and 72 Blackwell Ultra GPUs in a single 72-GPU NVLink domain with a total NVLink bandwidth of 130 TB/s. [nvidia](https://vertexaisearch.cloud.google.com/id/1-5)\n    *   Chip-to-chip interconnect: 10 TB/s. [nvidia](https://vertexaisearch.cloud.google.com/id/1-11) [nvidia](https://vertexaisearch.cloud.google.com/id/1-12) [ori](https://vertexaisearch.cloud.google.com/id/1-9)\n    *   PCIe Gen6: Supports PCIe Gen6 connectivity with NVIDIA ConnectX-8 800G SuperNIC, improving available network bandwidth to 800 Gb/s. [nvidia](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Performance:**\n    *   FP4: 15 petaFLOPS of dense FP4 compute. [tomshardware](https://vertexaisearch.cloud.google.com/id/1-3) The Blackwell Ultra GPUs are designed to meet the demand for test-time scaling inference with a 1.5X increase in the FP4 compute compared to the B200. [tomshardware](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **Other Features:**\n    *   The B300 GPUs will come in various configurations, including HGX, MGX, and NVL models, with options such as NVL-36 and NVL-72 for servers and data centers.\n    *   The Blackwell Ultra also features a PCIe Gen6 connectivity with NVIDIA ConnectX-8 800G SuperNIC improving available network bandwidth to 800 Gb/s. [nvidia](https://vertexaisearch.cloud.google.com/id/1-5)\n    *   Power Consumption: The B300 GPU chip is expected to operate at 1400W. [techpowerup](https://vertexaisearch.cloud.google.com/id/1-6)\n\n"
+  ],
+  "sources_gathered": [
+    {
+      "label": "ai-stack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ=="
+    },
+    {
+      "label": "ml6",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic="
+    },
+    {
+      "label": "ultralytics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxqKukBXZzoHgDU7AO-CoKMHvaKpXd1K4-P-ZyzlYdyLYI25RVy6UERxCUU90N7CK5i3Q7rb5zp9dzPY7WZbulsY9BpP4Y8YGxaS2EOwDtmqXWNT3ha0i1T3-xB3pS_ATRY8xvnzd47G-m1IBv-Xvehaw84YubFGrf2hneQVWgYvSTrNzh1Dwcljy1Xc62"
+    },
+    {
+      "label": "forbes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHix_BsuxFsOK19ojBhvi6XvdRQm0U2ncOyGj16YjkTz1u2nAdg6nQ8Zc7IAoy491fwZ6OLq64XesB6aXGg6iZ4I-xovwDoRa2Z5S2aj1yH4oK4S1PVHYmvSh3nzyNwLjx25PQYIpjn7MRxEtFtuBpwv-J73HMSFdS-XmRvAd15NhZlFnGq8a_6UXMKOxCG3veaXwyVXna_iH5oOihK1FDkeTM7jKHs51-Ka2aIpZkjjnlAdCM="
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U="
+    },
+    {
+      "label": "engadget",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48"
+    },
+    {
+      "label": "techloy",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX"
+    },
+    {
+      "label": "datacenterfrontier",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs="
+    },
+    {
+      "label": "channelinsider",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ=="
+    },
+    {
+      "label": "boston",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s="
+    },
+    {
+      "label": "ai-stack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ=="
+    },
+    {
+      "label": "ml6",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic="
+    },
+    {
+      "label": "datacenterfrontier",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs="
+    },
+    {
+      "label": "techloy",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX"
+    },
+    {
+      "label": "techloy",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX"
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbyL9m6a8zJDDkGwAkNrb2vzNhgTcgYazRqxrFGhQ156rRDce7WV1I3iyHRwT7zRSUj76iWAPfyXpg77b1WE5RK4SKwYgQzYlKb0a9lWYV2vO1tKuNI8iBeLJZ2ekK9gK5u6NYhg24rIUDfgeS7C2pqROOHtvzYA8uYw=="
+    },
+    {
+      "label": "rev",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9duZ5hnvZFIUfPO-DeuxgFjsWXhSnO1RiYQJTFk3jSw_3MrNj7YVl2skG8jrIX-OTuI76s-onsVlLMy9ckMM2cggrMn14Z-TW-vVfJq1M-u-o6nOvmvQGr81DAanaCLjfwc4-7aRRyo_tOfQ-hlJxr1qVGk6RGOnnEJ9_2_zVO3Wtiw=="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu61PEQjRTBkDBrzjjHtwrkOMbT0DhFXW_BJtiXXX5l4nTvqyM0Svdots6HstG6pvVqGKawjZ_5fmyoqG905NergSaa4-S7Laq335znWfI8l2rIuErAjW1Hvuq1xg3K_GDeh25iBM="
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U="
+    },
+    {
+      "label": "channelinsider",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ=="
+    },
+    {
+      "label": "datacenterfrontier",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs="
+    },
+    {
+      "label": "capacitymedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQDxU58cjEogARAAv04WBqn-NP2McvUAf5WdBPAZQCFNQ2x--S0BmHI4CbP07zPf7V2sCzj6iHVQBWHVY4fN5iMNDEv_cntwjHLsKR7XIdiXCX7Sw9ZALUFK019fZKREweJRTDyPcANtsXaN7TOJNJJlz4yHUaqGn59Po3p66Icd535yI3SxcoA2oZ4F_BXvq86iWvUo9mXfVX_SxRdPPFGIukmJQyCQ=="
+    },
+    {
+      "label": "semianalysis",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEjFADOmmK_cB4CZP0aNZCH3ftKDini-6kpwHVp9epJP3fW1XUtrq-v__reOkrkE0B0xj-yODk7Ugrn_IuZVOUCcBbaUXw3qxvEmChGyNIUEBYei0SxqY4m3oWsq-hTvjefDkqEJ8z3yzSgLJHCqt4Do4xxBlwOvhuB8vE9LB3J9KYpR8M60cvq5RVjVUWjAB2z_41Ggp74h-Jqoee0t2MqLxdZRujLbNAajvcySJgs2SzlDloc0_zmK19YpOZ"
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U="
+    },
+    {
+      "label": "ml6",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic="
+    },
+    {
+      "label": "ml6",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic="
+    },
+    {
+      "label": "boston",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s="
+    },
+    {
+      "label": "wwt",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-_LA_2hnY5R-s-zbwQsfPRhBXAEtXMHqDctff4z1mbTxy6DALGBOSctWixskL3UgueczNzHlNB6xed1g83PA0p4PvESRJ5ipPXDBauKBWf9cl7YpDD1XHyzkOSR9qMvzRAt7OAdK5xP3oox9HCb0QiF8ZAYu8tSvA3YAWhDbPk7Pi-6ExxYvefaXo"
+    },
+    {
+      "label": "wwt",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-_LA_2hnY5R-s-zbwQsfPRhBXAEtXMHqDctff4z1mbTxy6DALGBOSctWixskL3UgueczNzHlNB6xed1g83PA0p4PvESRJ5ipPXDBauKBWf9cl7YpDD1XHyzkOSR9qMvzRAt7OAdK5xP3oox9HCb0QiF8ZAYu8tSvA3YAWhDbPk7Pi-6ExxYvefaXo"
+    },
+    {
+      "label": "wwt",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-_LA_2hnY5R-s-zbwQsfPRhBXAEtXMHqDctff4z1mbTxy6DALGBOSctWixskL3UgueczNzHlNB6xed1g83PA0p4PvESRJ5ipPXDBauKBWf9cl7YpDD1XHyzkOSR9qMvzRAt7OAdK5xP3oox9HCb0QiF8ZAYu8tSvA3YAWhDbPk7Pi-6ExxYvefaXo"
+    },
+    {
+      "label": "channelinsider",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ=="
+    },
+    {
+      "label": "investopedia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK20oHblGxOw_jXKoB_ubqbWNheQ2Yg7mi4_m4LhIpfKeePhOGkCLWxrXVK57g5tzxnAN3oK9_JxbAVZPXf9ccSzP8oXxmTCRudRoel8Y6fJ7Fmk2uEXxPZ4uB4QBpKzBHnrQ2A3SE3Rn5bA3S2RxfZwOlZ31qgVPcgsr5zs4G7sjJcCydqmh5HPLHKvACBf2jZQ=="
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U="
+    },
+    {
+      "label": "youtube",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu61PEQjRTBkDBrzjjHtwrkOMbT0DhFXW_BJtiXXX5l4nTvqyM0Svdots6HstG6pvVqGKawjZ_5fmyoqG905NergSaa4-S7Laq335znWfI8l2rIuErAjW1Hvuq1xg3K_GDeh25iBM="
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U="
+    },
+    {
+      "label": "ai-stack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ=="
+    },
+    {
+      "label": "engadget",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48"
+    },
+    {
+      "label": "ai-stack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ=="
+    },
+    {
+      "label": "techloy",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX"
+    },
+    {
+      "label": "boston",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s="
+    },
+    {
+      "label": "techloy",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX"
+    },
+    {
+      "label": "ml6",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic="
+    },
+    {
+      "label": "ml6",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic="
+    },
+    {
+      "label": "ml6",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic="
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U="
+    },
+    {
+      "label": "sentisight",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn"
+    },
+    {
+      "label": "9meters",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8="
+    },
+    {
+      "label": "semianalysis",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcjUbsahf5wmi0DJ-K9u-5l0XKfOUHuZ0LATrhzxxWvv-kw2j6F69SmqsyeaGcOEndbS4SF63nwOKEUojLIrpQeYY_mKRq0T4l3XiV6eGw2To2h2MzfwSUPJb_JmndC1WT4ttNacz6aSYrI9yfPpQjK8aK40epPuoEE6bhDwzENrD8d-GTurUiAGmiPDYo2IHoH6qLfSITe5Upkl6-mq4BlaNSMAT9tLrjiRbOXa62v9zUG-5Lx928QmD_rO9s"
+    },
+    {
+      "label": "tomshardware",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN"
+    },
+    {
+      "label": "sentisight",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn"
+    },
+    {
+      "label": "turtlesai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-A_fNr4NeGz3A5JjkHWOCQjX0cTMwJgeqtnZ4wy7TqqN6AfrhaXXsOwcv8uXVg7c4oyX9JzAi59IIZFSza_SsWKIbHnYofIElE1C2_lJcMf9B_kflFepe5UPOYn7aMjk4Fl9Mmeps4HDn-N9XrH1TQNNHW5rFyckcpSvf1m3rS_G0Ju-QFvkoIY="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g="
+    },
+    {
+      "label": "techpowerup",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm"
+    },
+    {
+      "label": "theregister",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzBG9VycPMqb09BlN-qfq01NuEG9YaYFK3-TAozY3pplm0z4Ljr0ibwZh-1m8KhNBbo0TFTelLd77lNTOOK8M1zPHpfpfTTlnFwTZujENCzjJgv00Eptg2lZLFG0BEFPPB5vlQuX3pyuFa1VlGnbh9B0Ni_5JU0u5f"
+    },
+    {
+      "label": "naddod",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTt9WHSGa6jpRz4RVnvE9x4AxqfORc2QcS6pZnNCYelCObiw-Iw8gp2U1LsYRIRo6IL5Psi3AyeCh4vW4chagEhsSOpWSPm8YArHlKUJyVorzyGs3PjokiIEdZ7UXXmo4cgQensiUe0wtOkDOz7sjamZ_EGZ9L1nTa71xV4h2MuFLaMUqb4tBuaMQd"
+    },
+    {
+      "label": "theregister",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzBG9VycPMqb09BlN-qfq01NuEG9YaYFK3-TAozY3pplm0z4Ljr0ibwZh-1m8KhNBbo0TFTelLd77lNTOOK8M1zPHpfpfTTlnFwTZujENCzjJgv00Eptg2lZLFG0BEFPPB5vlQuX3pyuFa1VlGnbh9B0Ni_5JU0u5f"
+    },
+    {
+      "label": "semianalysis",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcjUbsahf5wmi0DJ-K9u-5l0XKfOUHuZ0LATrhzxxWvv-kw2j6F69SmqsyeaGcOEndbS4SF63nwOKEUojLIrpQeYY_mKRq0T4l3XiV6eGw2To2h2MzfwSUPJb_JmndC1WT4ttNacz6aSYrI9yfPpQjK8aK40epPuoEE6bhDwzENrD8d-GTurUiAGmiPDYo2IHoH6qLfSITe5Upkl6-mq4BlaNSMAT9tLrjiRbOXa62v9zUG-5Lx928QmD_rO9s"
+    },
+    {
+      "label": "9meters",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8="
+    },
+    {
+      "label": "turtlesai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-A_fNr4NeGz3A5JjkHWOCQjX0cTMwJgeqtnZ4wy7TqqN6AfrhaXXsOwcv8uXVg7c4oyX9JzAi59IIZFSza_SsWKIbHnYofIElE1C2_lJcMf9B_kflFepe5UPOYn7aMjk4Fl9Mmeps4HDn-N9XrH1TQNNHW5rFyckcpSvf1m3rS_G0Ju-QFvkoIY="
+    },
+    {
+      "label": "ori",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-FVSuTk-oLMdVh4vbfshzj5p_jkIcwTKn6A-VVu5fW_Hyjxh9OjxHwWFc0ORFBJTRna7_GFgRde4-DM3bqIWcM_hWx1Xvyxzz6inBh_JEnbbptAh8P_jkzK-t8lp3nlyRbl77SF0xQ6AbNoZi1m0="
+    },
+    {
+      "label": "civo",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkUu2BsONsi_6-2m7l77PMtJiRf4pIwr4MD4E61e2gdAWwmZHGNsdyodUfM8_F2iFSz6MwHoiBAmn0Ijg9Co2nVvhIm_8ozP8TjixxaMOvTnB5QkebveLfyp4Uc3l35EcOIAfaut36WFIwVnvAHBnyF8qn"
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBPjNnCG8NnILNT-X3puQeuMpHzYjcUbtEGqXDKjHGX4gqP-BeYLenntl_8hpmh2rHvvwsudczQ5PRh1ejuxrIoGwLUlytKQ2SyKcuAG60oleFpIpUfWx5p8dwjM_Xb7YFMtrowqm2unh26chJHBOIgujuOA8-tZU9VoGWiZ7Q8hQi8v2ILnP9"
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-2TGPF9XPbbYrY1ROHJuEv6zlwsR932b-rtQ3KLdXdmIv5Np6CZlw3rnwvgvZIqS8kgV3GuFWYiEOnHgNygi7J_B0KF8SnnX6SLFeBb6bU48hEPaenHKAFTckFqmLbHtFaSFNFreGkslWQvJmUn3FjnTQQB4HyAXcDlw8mOqJtQ1pBsOkQTei"
+    },
+    {
+      "label": "ori",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-FVSuTk-oLMdVh4vbfshzj5p_jkIcwTKn6A-VVu5fW_Hyjxh9OjxHwWFc0ORFBJTRna7_GFgRde4-DM3bqIWcM_hWx1Xvyxzz6inBh_JEnbbptAh8P_jkzK-t8lp3nlyRbl77SF0xQ6AbNoZi1m0="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g="
+    },
+    {
+      "label": "tomshardware",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN"
+    },
+    {
+      "label": "tomshardware",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN"
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g="
+    },
+    {
+      "label": "techpowerup",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm"
+    },
+    {
+      "label": "ai-stack",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjjCO2UvIp0WCcADpjXMi49iW5Es0TwuoPt7dUuor9xYm5h05kldX2FXv4Lsekd--UKbFzWaM-WV9yHMkUSiNJLXPy4zWXxjD0Xk3yxw0GRk-E9VF-qvliXQ=="
+    },
+    {
+      "label": "ml6",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4_YFhpY09jQ_ZOMaTq7wIB7bMYUAGmXb0vgurvtE75MiCFZeYAqhjIwR1nD9lD7rN12XB55zeUfXjqOQFwnhvXMwPIPfV0gZ-KkvfN-SzM_OxGS3BPZ14QhmI1MrKMnGp_oXCf6lykuQGVmMehAHUhsbbXuVFTSDrRlnHic="
+    },
+    {
+      "label": "ultralytics",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxqKukBXZzoHgDU7AO-CoKMHvaKpXd1K4-P-ZyzlYdyLYI25RVy6UERxCUU90N7CK5i3Q7rb5zp9dzPY7WZbulsY9BpP4Y8YGxaS2EOwDtmqXWNT3ha0i1T3-xB3pS_ATRY8xvnzd47G-m1IBv-Xvehaw84YubFGrf2hneQVWgYvSTrNzh1Dwcljy1Xc62"
+    },
+    {
+      "label": "forbes",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHix_BsuxFsOK19ojBhvi6XvdRQm0U2ncOyGj16YjkTz1u2nAdg6nQ8Zc7IAoy491fwZ6OLq64XesB6aXGg6iZ4I-xovwDoRa2Z5S2aj1yH4oK4S1PVHYmvSh3nzyNwLjx25PQYIpjn7MRxEtFtuBpwv-J73HMSFdS-XmRvAd15NhZlFnGq8a_6UXMKOxCG3veaXwyVXna_iH5oOihK1FDkeTM7jKHs51-Ka2aIpZkjjnlAdCM="
+    },
+    {
+      "label": "analyticsvidhya",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESAp_Sin59D7J4VyNcO93B_NzW573Hy6olDV8Pn-B7fbxPRmB5Ul-neDmI5D3bKRE-hXEMiYp0l7wzX-ny7h4HJGW5gzQKNypSaSwRNe7u8gskUhal-KGYb5Sy6jfTbYG49mip6k4Vz4zB1DiSZznr1lKVOaTIlzgBMmFebAD0l6U="
+    },
+    {
+      "label": "engadget",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoCVyr8D5j-8tswezhcyGcWMxmgJ3limbSSKDrjA4GXP5zO9HyPgQwiDvKaHfSwLoxToNXL60EVANL-isGUybEhfohDpkYhgHBHVZe-EzkoOAOzkxp8XP1DrXM5COy_19ep4yo8z0VnP44fDLgSTGNn68i_sPiLRLDokEEYJeZiBjht8wzKk4A7pdUA7q4Lxe5n_dxBNriXJvRGdgTYEq2WFgLpqAkRHfscI-dB3clkn48"
+    },
+    {
+      "label": "techloy",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMzpIeAsw7xNonEthFG041D8sSY7QYrq8s-UEO9fRYwJxZhB1A_MMT37Gt9tT0Wu13qkjg2skWvqAEmAGWXbdmQ41_K_K1TH5rBw75wndzUYmMT5WwFpYTDNUWvA7p9DmBWsTjXbxrYYJgLXhqzCfdCQgI5d2Lh-EFGAukSpD4f-fX1qTtG9F2C5Tu62328oXxHWoX"
+    },
+    {
+      "label": "datacenterfrontier",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4QMNLy7TBqK9k1YTqQOnswDL6j8jlSKeq7Gou3FoI4EpYNFl6P7_eoCgxmX4Nxwjt_T9qW1CFb9V1ro20W-n8dO1rPuLpubrmS6TTTGCAXdckWlvnWOhd8lCODKKZb5QuD3axlkQrwcvf3IIDi-wBu3L0UR73e_CWqt9TBkdNp6aNCTptk9dSAU6w0XdyT_fBpK8fwDpdI8UgRtgiw8LjJTpzs4V6Wr0xBcPx_OpN0rRR9W86FzGm5C7ztPaxEOz3eMs8LPbKd2lTc-NyD-LIPDCucjUqZmteHKZgf_ita8TT8nj67-jyeBs="
+    },
+    {
+      "label": "channelinsider",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErSj1odPM3scd3jA29O9ea6evdGZXPkRNKOrxi6YbKSbs49J-K8MJbfIsYUqaOYOG0M0rQJ0sLupNdYPAkx8nJHTCAQ0Zne2XlDKCsvywyjB-h0rPu9R98kG_PGOCxJCj1eLXRMVYve_-fgKV0iKJO56_McjLYoLXq7mkGriG3OrBrVvrgitDqSQ=="
+    },
+    {
+      "label": "boston",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESNSGzX_JKUiwT7tjJdjb_T2ZOwsbxJFPWPK7YHVVnmalXrjP9msn1krQ6mI56wbJxwW33SibxFdHvSRp0qXaPlJXJ2GVdAY51ss0ahxNl1pVtFMcW5wKFaN5hq4NPlcP2p36FxIpADUQrQLOTTuQ6IaynGJU7QDTiUtPBIz91YmSlEoYCJ2s="
+    },
+    {
+      "label": "sentisight",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSQ9FFEY3-6yAT42t8mD_INAwqoxsDBagl4MStECqC0ushfq3_dusP59x1FP6RCcEnpPDtLavyzdmglld-3KbdkkakwAGKilw-q7Jh8DSBTaXJAOZe1jd2wFxKKmuKsksmhLvx9GjGGhJet1229uLZpUppILULR_rArX3RSQdXuKmjGO0vOE1A-oH1D4hRKxo3YgFSMWfLBmIedHB9rrHzfaDUomSB9JmQZfJn"
+    },
+    {
+      "label": "9meters",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn-yOJ1-ysv-uq2HL6Ju6BKVZW0U-ds1ehR4sKOFzdG7aJdf30V7_5k7gpdCYGivFVnFEa5kbTWJUCh5CJz0O18gOUhX7N2V0vFgcz3N5MDvKH96YwccFaFfPr4XtBzi5fBlZW85J-0jh5SIuHBnWqoGzsaWFK4LI_2NWLBzRLx7WaqADJ0GoB3J9_qnrewqs3PyXTu6Cc_WGXmdvtna3LhgwTH5c2Dmu3n9bV_KRood8="
+    },
+    {
+      "label": "semianalysis",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcjUbsahf5wmi0DJ-K9u-5l0XKfOUHuZ0LATrhzxxWvv-kw2j6F69SmqsyeaGcOEndbS4SF63nwOKEUojLIrpQeYY_mKRq0T4l3XiV6eGw2To2h2MzfwSUPJb_JmndC1WT4ttNacz6aSYrI9yfPpQjK8aK40epPuoEE6bhDwzENrD8d-GTurUiAGmiPDYo2IHoH6qLfSITe5Upkl6-mq4BlaNSMAT9tLrjiRbOXa62v9zUG-5Lx928QmD_rO9s"
+    },
+    {
+      "label": "tomshardware",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVYJpIURayJz8IIjoBXJTd7eqKCz8PYrIZ-uUm5ozulFfKC4iTA8DFjhfLvxaR5z6ZyhI-77p1reOOJofPesx01rsF9QvxkmP-s3CE1wzliehfFs0yBHGVszgx-SG9PvsKH9PmS5km8LH4jAYwc56ATGuJw5TrRKetmXnxf0ba-FHtcQg2ZNxwZwjjvb0BiMwB72ZANuFeFdi_2RQpNKWv9agVO5Mk26ktoDG54s4ZBxxjOCERZA1tppqBcQf5bCsSKWuxgRAtsLX_2ZlnvWgN"
+    },
+    {
+      "label": "turtlesai",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi-A_fNr4NeGz3A5JjkHWOCQjX0cTMwJgeqtnZ4wy7TqqN6AfrhaXXsOwcv8uXVg7c4oyX9JzAi59IIZFSza_SsWKIbHnYofIElE1C2_lJcMf9B_kflFepe5UPOYn7aMjk4Fl9Mmeps4HDn-N9XrH1TQNNHW5rFyckcpSvf1m3rS_G0Ju-QFvkoIY="
+    },
+    {
+      "label": "nvidia",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0Qmja5DLHDI5bqNVhlXQmmfCLGTgk-45jlMmTtHFUFyITmzQDqrfWE2SXChmg7PmByO2AFHLInQqHSQJB5Phk1T4j8uOnL-t510buqUhr9NliPSB7y2Gbfk-I1AgeXXjnF3GmoyM6WHBNaortwir1tSdDYhSXlH3PQsvx1AKbzy1QJ8af39jfsBNN3Gz876g="
+    },
+    {
+      "label": "techpowerup",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlqUIoJo90G9bh0sHObeuq9t91W-XMK9D7n4rb1l-iRKeLXgkCPBG5EBp0CsQ78ToMGGyBGr9Z7pRDIO2pJZdLmuT0eEHKitf3mwt1_FojhmlcRqI1WXJFo3PK8GrVV-T1-o_6uScH5uW5CsePSv04LqzagT6Pq93TYilhlxw7EVyuXyipcyCh817IQRm2d1QxR4xkSAkOrJUksXiFTF60oNOeBNPm"
+    },
+    {
+      "label": "theregister",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzBG9VycPMqb09BlN-qfq01NuEG9YaYFK3-TAozY3pplm0z4Ljr0ibwZh-1m8KhNBbo0TFTelLd77lNTOOK8M1zPHpfpfTTlnFwTZujENCzjJgv00Eptg2lZLFG0BEFPPB5vlQuX3pyuFa1VlGnbh9B0Ni_5JU0u5f"
+    },
+    {
+      "label": "naddod",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTt9WHSGa6jpRz4RVnvE9x4AxqfORc2QcS6pZnNCYelCObiw-Iw8gp2U1LsYRIRo6IL5Psi3AyeCh4vW4chagEhsSOpWSPm8YArHlKUJyVorzyGs3PjokiIEdZ7UXXmo4cgQensiUe0wtOkDOz7sjamZ_EGZ9L1nTa71xV4h2MuFLaMUqb4tBuaMQd"
+    },
+    {
+      "label": "ori",
+      "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+      "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-FVSuTk-oLMdVh4vbfshzj5p_jkIcwTKn6A-VVu5fW_Hyjxh9OjxHwWFc0ORFBJTRna7_GFgRde4-DM3bqIWcM_hWx1Xvyxzz6inBh_JEnbbptAh8P_jkzK-t8lp3nlyRbl77SF0xQ6AbNoZi1m0="
+    }
+  ],
+  "initial_search_query_count": 3,
+  "max_research_loops": 3,
+  "research_loop_count": 2
+}
