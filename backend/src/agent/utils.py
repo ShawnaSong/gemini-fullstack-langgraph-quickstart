@@ -164,3 +164,19 @@ def get_citations(response, resolved_urls_map):
                     pass
         citations.append(citation)
     return citations
+
+def convert_token_format(original_data):
+    
+    data_dict = original_data
+    
+    result = {
+        "input_tokens": getattr(data_dict, 'prompt_token_count', 0) or 0,
+        "output_tokens": getattr(data_dict, 'candidates_token_count', 0) or 0,
+        "total_tokens": getattr(data_dict, 'total_token_count', 0) or 0,
+        "input_token_details": {
+            "cache_read": getattr(data_dict, 'cached_content_token_count', 0) or 0
+        },
+        "state": "web_search"
+    }
+    
+    return result

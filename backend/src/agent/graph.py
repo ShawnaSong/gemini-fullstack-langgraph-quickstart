@@ -8,6 +8,8 @@ from langgraph.graph import StateGraph
 from langgraph.graph import START, END
 from langchain_core.runnables import RunnableConfig
 from google.genai import Client
+import json
+import time
 
 from agent.state import (
     OverallState,
@@ -29,6 +31,7 @@ from agent.utils import (
     get_research_topic,
     insert_citation_markers,
     resolve_urls,
+    convert_token_format,
 )
 
 load_dotenv()
@@ -67,7 +70,7 @@ def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerati
         max_retries=2,
         api_key=os.getenv("GEMINI_API_KEY"),
     )
-    structured_llm = llm.with_structured_output(SearchQueryList)
+    structured_llm = llm.with_structured_output(SearchQueryList, include_raw=True)
 
     # Format the prompt
     current_date = get_current_date()
@@ -78,7 +81,13 @@ def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerati
     )
     # Generate the search queries
     result = structured_llm.invoke(formatted_prompt)
-    return {"query_list": result.query}
+    usage = result["raw"].usage_metadata
+    usage["state"] = "generate_query"
+    usage["timestamp"] = time.time()
+    with open("usage.json", "a", encoding="utf-8") as f:
+        json.dump(usage, f, ensure_ascii=False)
+        f.write(',\n')
+    return {"query_list": result["parsed"].query}
 
 
 def continue_to_web_research(state: QueryGenerationState):
@@ -120,6 +129,13 @@ def web_research(state: WebSearchState, config: RunnableConfig) -> OverallState:
             "temperature": 0,
         },
     )
+    usage = response.usage_metadata
+    usage = convert_token_format(usage)
+    usage["timestamp"] = time.time()
+    with open("usage.json", "a", encoding="utf-8") as f:
+        json.dump(usage, f, ensure_ascii=False)
+        f.write(',\n')
+
     # resolve the urls to short urls for saving tokens and time
     resolved_urls = resolve_urls(
         response.candidates[0].grounding_metadata.grounding_chunks, state["id"]
@@ -153,7 +169,15 @@ def reflection(state: OverallState, config: RunnableConfig) -> ReflectionState:
     configurable = Configuration.from_runnable_config(config)
     # Increment the research loop count and get the reasoning model
     state["research_loop_count"] = state.get("research_loop_count", 0) + 1
-    reasoning_model = state.get("reasoning_model") or configurable.reasoning_model
+    
+    try:
+        if hasattr(configurable, "reasoning_model"):
+            reasoning_model = state.get("reasoning_model") or configurable.reasoning_model
+        else:
+            reasoning_model = state.get("reasoning_model") or "gemini-2.0-flash"
+    except (AttributeError, Exception) as e:
+        print(f"Warning: Could not get reasoning_model from config: {e}")
+        reasoning_model = "gemini-2.0-flash"
 
     # Format the prompt
     current_date = get_current_date()
@@ -169,12 +193,19 @@ def reflection(state: OverallState, config: RunnableConfig) -> ReflectionState:
         max_retries=2,
         api_key=os.getenv("GEMINI_API_KEY"),
     )
-    result = llm.with_structured_output(Reflection).invoke(formatted_prompt)
+    result = llm.with_structured_output(Reflection, include_raw=True).invoke(formatted_prompt)
+
+    usage = result["raw"].usage_metadata
+    usage["state"] = "reflection"
+    usage["timestamp"] = time.time()
+    with open("usage.json", "a", encoding="utf-8") as f:
+        json.dump(usage, f, ensure_ascii=False)
+        f.write(',\n')
 
     return {
-        "is_sufficient": result.is_sufficient,
-        "knowledge_gap": result.knowledge_gap,
-        "follow_up_queries": result.follow_up_queries,
+        "is_sufficient": result["parsed"].is_sufficient,
+        "knowledge_gap": result["parsed"].knowledge_gap,
+        "follow_up_queries": result["parsed"].follow_up_queries,
         "research_loop_count": state["research_loop_count"],
         "number_of_ran_queries": len(state["search_query"]),
     }
@@ -231,7 +262,14 @@ def finalize_answer(state: OverallState, config: RunnableConfig):
         Dictionary with state update, including running_summary key containing the formatted final summary with sources
     """
     configurable = Configuration.from_runnable_config(config)
-    reasoning_model = state.get("reasoning_model") or configurable.reasoning_model
+    try:
+        if hasattr(configurable, "reasoning_model"):
+            reasoning_model = state.get("reasoning_model") or configurable.reasoning_model
+        else:
+            reasoning_model = state.get("reasoning_model") or "gemini-2.0-flash"
+    except (AttributeError, Exception) as e:
+        print(f"Warning: Could not get reasoning_model from config: {e}")
+        reasoning_model = "gemini-2.0-flash"
 
     # Format the prompt
     current_date = get_current_date()
@@ -249,6 +287,12 @@ def finalize_answer(state: OverallState, config: RunnableConfig):
         api_key=os.getenv("GEMINI_API_KEY"),
     )
     result = llm.invoke(formatted_prompt)
+    usage = result.usage_metadata
+    usage["state"] = "finalize_answer"
+    usage["timestamp"] = time.time()
+    with open("usage.json", "a", encoding="utf-8") as f:
+        json.dump(usage, f, ensure_ascii=False)
+        f.write(',\n')
 
     # Replace the short urls with the original urls and add all used urls to the sources_gathered
     unique_sources = []

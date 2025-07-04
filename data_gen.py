@@ -7,7 +7,7 @@ import csv
 
 def extract_user_questions_from_dataset(num_questions=10, save_to_file=True):
     ds = load_dataset("lmarena-ai/search-arena-v1-7k")
-    train_ds = ds['train'].select(range(num_questions))
+    train_ds = ds['test'].shuffle(seed=42).select(range(num_questions))
     questions = []
 
     for i, sample in enumerate(train_ds):
