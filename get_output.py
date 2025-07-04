@@ -3,12 +3,15 @@ import json
 from datetime import datetime
 import csv
 import random
+import time
 
 # Use valid model names that are available
-os.environ["REASONING_MODEL"] = "gemini-2.0-flash-exp"
-os.environ["QUERY_GENERATOR_MODEL"] = "gemini-2.0-flash-exp"
-os.environ["REFLECTION_MODEL"] = "gemini-2.0-flash-exp"
-os.environ["ANSWER_MODEL"] = "gemini-2.0-flash-exp"
+# os.environ["GEMINI_API_KEY"] = "AIzaSyCGLXW98Dw0qMW7Qvfnq_upKopTwiniqDw" #my key
+os.environ["GEMINI_API_KEY"] = "AIzaSyBLJ1BMt829p4N324yWFeZMah0JVvt8Ffk"
+os.environ["REASONING_MODEL"] = "gemini-2.0-flash"
+os.environ["QUERY_GENERATOR_MODEL"] = "gemini-2.0-flash"
+os.environ["REFLECTION_MODEL"] = "gemini-2.0-flash"
+os.environ["ANSWER_MODEL"] = "gemini-2.0-flash"
 
 from agent import graph
 from langchain_core.messages import BaseMessage
@@ -31,13 +34,14 @@ with open(csv_file, 'r', encoding='utf-8') as file:
 #             "max_research_loops": 3,
 #             "initial_search_query_count": 3
 #         })
-for question_id, question in questions[4:]:
+for question_id, question in questions[76:]:
     print("question_id: ", question_id, "start")
     state = graph.invoke({
                 "messages": [{"role": "user", "content": question}],
                 "max_research_loops": 3,
                 "initial_search_query_count": 3
             })
+    time.sleep(5)
     # with open(results_path + f"state_result_{question_id}.json", "w") as f:
     #     json.dump(state, f)
     with open(results_path + f"state_result_{question_id}.json", "w", encoding="utf-8") as f:
