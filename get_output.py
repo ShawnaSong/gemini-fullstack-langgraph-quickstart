@@ -6,8 +6,6 @@ import random
 import time
 
 # Use valid model names that are available
-# os.environ["GEMINI_API_KEY"] = "AIzaSyCGLXW98Dw0qMW7Qvfnq_upKopTwiniqDw" #my key
-os.environ["GEMINI_API_KEY"] = "AIzaSyBLJ1BMt829p4N324yWFeZMah0JVvt8Ffk"
 os.environ["REASONING_MODEL"] = "gemini-2.0-flash"
 os.environ["QUERY_GENERATOR_MODEL"] = "gemini-2.0-flash"
 os.environ["REFLECTION_MODEL"] = "gemini-2.0-flash"
