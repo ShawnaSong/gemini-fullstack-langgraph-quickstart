@@ -1,0 +1,951 @@
+{
+  "file_name": "state_result_25.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.663889",
+  "data": {
+    "messages": [
+      {
+        "content": "## 日本30年 人口结构变化 巴菲特两次环球亲临\n\n日本房地产于`1991`崩盘，此时财政债务占GDP的比重为`63%` (还是比较低的)\n\n图：日元计价资产\n\n![日元计价资产](japan.png)\n\n可以看出，91年后日本股市经历了数次大起大落，大起的原因是央行释放流动性，但最终都收敛到大落（基本面没有改变）\n\n然而黄金每次都稳定吸收了流动性\n\n房价迅速下跌后缓慢下跌数十年，最终在2012年和年化`3.2%`的固收终点重合，说明日本人花了20年还完了房贷\n\n图：日本抚养比\n\n![日本抚养比](japan_population.png)\n\n大约在2000年（泡沫破裂十年后）日本才逐渐迈入老龄化和少子化，人口抚养比逐步上升，直到2020年抚养比达到历史峰值`70%`，开始转折(老年人口因自然凋亡减少，年轻人口因生育率极低减少，劳动力占比因此提高)完成代际传承。\n\n巴菲特高龄(23年时92岁)的情况下两次从北美到东亚访问日本，就是发生在`2011年11月`和`2023年4月11日`\n\n可以看到，安倍晋三在2012年这次量化宽松后日本股市稳定在高位，巴菲特做了什么？为什么？公司法？\n\n2023这次巴菲特访问日本 做了什么？为什么？抚养比拐点？\n\n完成这篇研究报告，尽可能详细，可以添加其他内容，修改以上内容存在错误的地方",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "65a1dd26-5d08-45f1-b474-85cc896f4ad1",
+        "example": false
+      },
+      {
+        "content": "Japan is undergoing a significant demographic shift characterized by a declining and aging population, which began in the late 20th century and continues today [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA==) [britannica](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w==). The population peaked in 2008 at 128,083,960 and has been declining since [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA==). As of June 2025, the population is estimated to be around 123,103,557 [worldometers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w==2). This decline is coupled with a rapidly aging population; projections indicate that over 65s will account for 40% of the population by 2060 [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA==). The median age in 2023 was 49.5 years, the highest since 1950 [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA==). The fertility rate has also been declining since 1950, standing at 1.2 expected births in 2023 [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA==) [newsweek](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhHh3KmyEniKeN-BZVVjxPpil-CceQOyywKOmc3-WSIottClgB5x33BrgPk3TVbmFn6XJYNDEWnklV_L8zc8uGUD_tyc8MMldAIuzFEIVn_mLI5VxlSHnxY5P3m9cvAgc6K2XOky2QBV-EDCuqOGzV5GJFRs7thAd8np2kIaxKodYB_w==).\n\nThis demographic crisis has led to various economic and social challenges, including slowing economic growth, labor shortages, and increased pressure on social security and healthcare systems [piie](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w==0) [britannica](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w==) [nbr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w==1). The Japanese government has responded with policies aimed at encouraging higher labor utilization, increasing immigration, and reforming social security [piie](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w==0) [goodauthority](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvdRCv5DjdUgn4I_mXstjvH61zqY7NsEXqrvQNyKKcsw7ShrFJ8sifSR9ZCdk9OU9UL-PszcwhtbO32uRB3TQ-oUY_hu5qdrcT2o4D60oaiL4n__yRgXavJLqB1YcNI-nki5Z91uvOBKWbaKHwEg_6K74XZ9n-2Dh7yU5dCr1yElZl7G91U4FDd9myGNw5j0u3Og==).\n\nAgainst this backdrop, Warren Buffett's Berkshire Hathaway has been increasing its investments in five major Japanese trading firms: Itochu, Marubeni, Mitsubishi, Mitsui & Co., and Sumitomo [wisdomtree](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0=) [columbiathreadneedle](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdWAHS8ch4iX7kNkzgKy8z3aJgU9ixjTxfl4BJ6aTGGC9A6fziy224wYza9-_wWb8ys5-cAMQzMN9fs5nu3-87jxRQ2ovCdblWnzooxeOcEaIpvyYvZ9GQB-PeWUJ5mUzxt7HYOcKE033uBtFKnvV1cLz1Xs2RZ_hqCLFqiHh7B7trM4aw0hYq4vcMM6er-cHB3tfXBwN4dYV2QYOyX3PzEbWtC-7) [berkshirehathaway](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkROpolWrbBergxhLTE3wURgD-BN3kf-mvLcPucV1Iq9fUa5aMZG_Hl1MgwHCPL2xNJP2a6tod3VBIQKeY9ybd2GLmsn3NlWWI_IyqwILnX8JVSZHIh-Z7-UW7xSXWF2IcnJWnigj8BpO1Fe-e). Starting around July 4, 2019, Berkshire acquired stakes of around 5% in each of these companies [wisdomtree](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0=). By June 2023, ownership averaged more than 8½% [berkshirehathaway](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkROpolWrbBergxhLTE3wURgD-BN3kf-mvLcPucV1Iq9fUa5aMZG_Hl1MgwHCPL2xNJP2a6tod3VBIQKeY9ybd2GLmsn3NlWWI_IyqwILnX8JVSZHIh-Z7-UW7xSXWF2IcnJWnigj8BpO1Fe-e) [cnbc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwgyDN0Z2JJ3YbtUh3OOSd8RSl303m8zUitqgWEmzNMbqnDfd4pcx0vTUOcVRIPXKm4NDY4wCxVsJCMeKOZRn32nPgMM9mh849XrMJOdiz-txcL_MhOsSJffzepL0Ytso=), and by March 2025, Berkshire had further increased its stakes [wisdomtree](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0=) [investopedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd1UQa8I4D2VLv4HJnR0SCkJKHVmyv-yt98uS7kpby2JLTr2TKSHiaLCdLevg8aueQgtbOzR_X5s08-1qDbPRcn732vUYz3t63LWA1D9TG0Mvw2ASm7lUHdAmibmK0QzSYgWZ4B20msKNrjKTI4xvwQgEP51voOXBq2OHZ5XSnuXiZeEJtpl0_1iB-nVwkooTTKwsO_SV1SmQu). As of March 17, 2025, Berkshire grew its stake in Mitsui to 9.82%, in Mitsubishi to 9.67%, in Marubeni to 9.3%, in Sumitomu to 9.29%, and in Itochu to 8.53% [cuny](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFowwcgphyHXrsDHaGx_1DG_zJl38fPdOQUpnL3b9fjy-es4RZ0cuTVoEsmu6SlOrtY1rcCKAR_3gQiYmFUvEeupZyfk-rSBl31t_2V93UF6EIsaXeobdqbq1fCuH9ySsfSWcem_zujQ-YqNHXyFNqTq6r2-uSRsxxrsuAWo8TFqZGzOCiM4_HGUB-0pnfpWhysdJ_zUlBnSI3rnUflAKshh0R7YkD8FK_WEOgZEnMuqCv5FcITkM4aOqxV-YHu4kXYmiXPQ615DDzjUbf6D0dyC6KQhKGLrmbvRJIbiWwdTbEFwl7RNuCH). Buffett's rationale includes the attractive valuations of these companies, their strong fundamentals, and the low interest rates in Japan, which allow him to finance investments with yen-denominated debt [observer](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHS-eLju5FarEdLBUvmWSEXOHZHeGymHAPpg67Q4S3V5zIEGxR4TYNEVCZcKbaD_xL4jkUERpBEKY4Y84DaI_Hll6hkvagO22-DWv_GYfQ35gsTE__Dc0A2O-_HpdKTwDZjFNbzO-oI_zYbUVwe-eff_LZlI9) [wisdomtree](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0=). He has stated that these companies were selling at \"ridiculously low prices\" and reminded him of his own company, Berkshire Hathaway [observer](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHS-eLju5FarEdLBUvmWSEXOHZHeGymHAPpg67Q4S3V5zIEGxR4TYNEVCZcKbaD_xL4jkUERpBEKY4Y84DaI_Hll6hkvagO22-DWv_GYfQ35gsTE__Dc0A2O-_HpdKTwDZjFNbzO-oI_zYbUVwe-eff_LZlI9) [japan-forward](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiRQC8CVhTbHZyV9QVx75Pmpc_YPeDYDDKIqz8I0RlSM9xQbyiAE2vBiowbLFFxr2BwZ5naHOXWdDxhhnFSl0w-DjsxNzfNZC9BPl4ag0Sq3LUH8xrgnNomAuDGIJUCNR4BEJLeBuoZB7jY06AKBbgaWvrxXOQZtGy8G7vplvQJTYiAgTdyXk1x_J9D0xwDRuTvVi50EKGFjltkq4U3O1yhbEvM9ssOMTFA1isqasW_A==).\n\nAbenomics, launched in late 2012, aimed to revitalize Japan's economy through monetary easing, fiscal stimulus, and structural reforms [janushenderson](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHihVWyaFtwTmvjJqrnb_QrIYob8BRLKkTcGFqpfPJftoGogjrbbC-dIDBY28iF2YbKVHHN3WFC6iFvpth9RFlSJ6Ac9u_4QXJKkJXfMjbHBlqE3c8FMdswzDu6u8h3uDMgIYKxCEKyy6L2oYo4kEUQrGSXffVRDqXIcK2QZ5pIa-AW7EpE4t4_6Ui0i_Oddy8Et-wyT-iZ0c7-uGTMKgR4O_etkPxnoqEzLoJe4wZ9l-JZPzOv0VIeZgN7qQ==) [investmentweek](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_D9MGhNj4ph-9BfTTlqxn_7u95JaP-f92r8VnYfYEmZ0xK3H-UKYWc-cwVQT43O5e-MY4Nt3_VFHJzD2MtIpvRTJW4opn2md0LSCUsNFfunWGg9WvQV2Yjr0KtOK8395Ei16yxFLBiuhUuVGRkg9k_PJWZx0RwUXoRUhRxAJjLbX2E809R08=) [brookings](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDz_Gzy2EeSlvb_R0e834X5ewFIdRpvn3r5PTUbuabk3_YI4PTSN8K_whHDq4JU6DDFDz5UhiC2SlbOoykZdpzGOyS59F6syx7DgOOD3zPWD3yjH8ShFFmjBxHOaI9jAnJzH30xbip77uu3TwE68zDWNYrL53q2cqG7C98fYOTvqSpTwjQK6r3BQ==) [cambridge](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrkh0rAfrEfnzQMpRvDBbkFydGpvntcpcoH90_5GUc4GkHrce9YVkyc_OTQp-D-Qb6LoUMcJIs2VNvoyHKKFLhwE3F4wtEYkSUkitZeaqtRkRmJl9-PjABUdGDHwXq82o8xolQVJzHuPvStNN69VJvQc8S3dXiOqaKtiqwFAM3pxrEYjOfqcBzDf0kxXhYYZOCkMhtmlJnYDQUwT3qXw4t8_6IsZ3Y43PHgF9lSl6SFfeffLkW-IP09JEnvB3v2aAPoQA6bJWctFIFSwy4HHosoCs81M-8O7w3DH0i1fW_QBJvfXqyswMzbRg8Gw==). It initially boosted the stock market, and corporate governance reforms have led to an increase in independent directors and a focus on return on equity (ROE) [japantimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdyEhNJagmXLFkHHdrJ3AtlnxMG_gkZBgDVJ-9ilUKl5_K3D7kE9XngBYejMp7TgqiCUtWv61Oifp_MTFJ8LnYrIIdL3hJbaDsQ-UvmaBSw6VQY3uuhCSsrpute9bjLVGZ3oXDnV118CeZ_XcSksaLIEYD7IMSalQF51dJK7WmAN8gkfgykQrcVo_g42OwU6sOeBUt_ks=). The Corporate Governance Code, established in 2015 and revised in 2018 and 2021, aims to promote sustainable growth and increase corporate value [hermes-investment](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA==) [tandfonline](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM8aMay0_Ve1OCU35ljRrbIYHCAJA6IKaHJF69Qcwdc20ZoaWWdG_YjlH8yGkvc72WK1BQaLTobb4NU0dlH5qL65VdavDzL9l8RlyN4-IegIRZ38252l4WYE6bY_lgRtzLaiwFlzE8Q-ifiIPQyBO1Kd3uRdmhBf9dJSjRVg==). These reforms, along with the decline in cross-shareholdings, have made Japanese companies more shareholder-friendly and attractive to foreign investors like Buffett [mdpi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfFJ0GWT4rQ89bxX5bb7LXYJCHaLHa-ypjSDLwMKh7tr2PGop0xQAeh2NbtZPfNZjdjLSWpM7TRFQ84MgRvsYzoLBxIdUmOgZGlgRX3Mr_uaVhSB5Oxsqf343os3s1M9B83A==) [alliancebernstein](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA==0).\n\nCompany law changes between 2010 and 2023 have also influenced investment decisions by focusing on shareholder rights and corporate governance [mdpi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfFJ0GWT4rQ89bxX5bb7LXYJCHaLHa-ypjSDLwMKh7tr2PGop0xQAeh2NbtZPfNZjdjLSWpM7TRFQ84MgRvsYzoLBxIdUmOgZGlgRX3Mr_uaVhSB5Oxsqf343os3s1M9B83A==) [hermes-investment](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA==). These changes mandate equal treatment of shareholders, increase the proportion of independent directors, and emphasize ESG matters [japanlawguide](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIVdLZwIoYjqJq3m_D-2TB6rgw90XKkPfMuRLipPoaq79bEMBLs-yfByHcODWJWIjsadKs5ARqcMI98fFV46LjlXcS2gvY5c5DCfTzOn6Pt_8Kj-z1impAnJfddD5Vp4vfRMHagjajwA==) [citigroup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZR84mWDiVdPhvkXsaC_W5O-fQteMhtaOgXI8y5d1qVsU3FEq-4risLY2vuSR9ZRsKeNYN3I8dMoX8u4sAN-leqr1tBhe0hAVZ-83_QZMpCEt4bVZ3qa1glN_GQGgvGI4x5eM6S8qpvJj5e1Xjah_Oj-jkOnOLUAnBDgMTjBJ9FSZo-8XJqsMuWC3PnWXPe9fEew0=) [clearbridge](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxmBRKfVCw1Xt-tExCw1wINQ8d8FzmhbUyqmCqG_aIZDL786hZpSY46RuxJoV1rkUpZYwlF9St6aMK_D4p1Ewx5u6SG7jft_7gteTaYqu-sb3oj77PNbhUEWfer51SfthecHMXdM7bBqbFS7A2nsuAup1Eb-_-80LLexrn-TXnQy5-wUdU9F0FUNF7gl9ehShbhAWSoMEC8khO15E_). The Tokyo Stock Exchange (TSE) has been pushing companies to improve capital efficiency and stock prices, further enhancing the attractiveness of Japanese equities [citigroup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZR84mWDiVdPhvkXsaC_W5O-fQteMhtaOgXI8y5d1qVsU3FEq-4risLY2vuSR9ZRsKeNYN3I8dMoX8u4sAN-leqr1tBhe0hAVZ-83_QZMpCEt4bVZ3qa1glN_GQGgvGI4x5eM6S8qpvJj5e1Xjah_Oj-jkOnOLUAnBDgMTjBJ9FSZo-8XJqsMuWC3PnWXPe9fEew0=).\n\nIn summary, Buffett's investments in Japanese trading companies are likely driven by a combination of factors, including attractive valuations, strong company fundamentals, low-cost financing, and confidence in ongoing corporate governance reforms, all set against the backdrop of Japan's unique demographic and economic challenges [wisdomtree](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA==3) [morningstar](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA==4).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "199bde38-1b9c-4137-a6c0-f98730ace109",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Japan demographic shift 1991-2025",
+      "Warren Buffett Japan investments 2011 2023",
+      "impact of Abenomics on Japanese stock market and corporate governance",
+      "What specific company law changes or revisions occurred in Japan between 2010 and 2023 that might have influenced Warren Buffett's investment decisions in Japanese trading companies? Specifically, what amendments related to shareholder rights, corporate governance, or cross-shareholding structures were implemented?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Japan demographic shift 1991-2025\" and synthesize it into a verifiable text artifact.\nJapan is currently facing a significant demographic shift characterized by a declining population and a rapidly aging society [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [britannica](https://vertexaisearch.cloud.google.com/id/0-1). This trend, which began in the late 20th century, has continued into the 21st century and is expected to persist in the coming decades [britannica](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**Population Trends (1991-2025):**\n\n*   **Declining Population:** Japan's population peaked in 2008 at 128,083,960 and has been declining since [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). The population decreased by almost 900,000 in the year leading up to October 1, 2025 [newsweek](https://vertexaisearch.cloud.google.com/id/0-2). The population is expected to decline from 125 million to an estimated 88 million in 2065 [internetgeography](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Aging Population:** Japan's population is aging faster than any other nation [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). In 2014, 26% of Japan's population was estimated to be 65 years or older [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). It is projected that over-65s will account for 40% of the population by 2060 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). In 2023, the median age was projected to be 49.5 years, the highest since 1950 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). By 2025, it is projected that more than 31% of the population will be 65 or older [un](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Fertility Rate:** The fertility rate in Japan has been declining since 1950 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). The fertility rate was around 1.4 children per woman from 2010 to 2018, further declining to 1.2 in 2022 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). In 2023, the fertility rate stood at 1.2 expected births [newsweek](https://vertexaisearch.cloud.google.com/id/0-2). The total fertility rate for 2025 is projected to be 1.38, a 0.51% increase from 2024 [macrotrends](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Birth and Death Rates:** Japan's crude birth rate reached its lowest point of 5.8 births per thousand people in 2023 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). The birth rate for 2025 is projected to be 6.98, a 0.27% decline from 2024 [macrotrends](https://vertexaisearch.cloud.google.com/id/0-6). The death rate is significantly higher than the birth rate, with 12.7 deaths per 1,000 population in 2023 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Migration:** Japan has historically had minimal immigration [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). However, facing depopulation and labor shortages, the government has introduced new visa programs to accept more foreign workers [goodauthority](https://vertexaisearch.cloud.google.com/id/0-7).\n\n**Causes and Implications:**\n\n*   **Causes:** The demographic shift is attributed to several factors, including declining birth rates, increasing life expectancy, and limited immigration [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [apjjf](https://vertexaisearch.cloud.google.com/id/0-8) [imf](https://vertexaisearch.cloud.google.com/id/0-9). Factors such as demanding work cultures, rising living costs, and evolving attitudes toward marriage and family among younger generations contribute to the declining birth rate [newsweek](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Economic Impact:** The shrinking population and aging workforce pose economic challenges, including slowing economic growth, labor shortages, and increased pressure on social security and healthcare systems [piie](https://vertexaisearch.cloud.google.com/id/0-10) [britannica](https://vertexaisearch.cloud.google.com/id/0-1) [nbr](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Social Impact:** The aging population raises concerns about the viability of the welfare state and the ability to maintain balanced communities, especially in rural areas [britannica](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Government Responses:** The Japanese government has implemented various policies to address the demographic crisis, including encouraging higher labor utilization, increasing immigration, and reforming social security [piie](https://vertexaisearch.cloud.google.com/id/0-10) [goodauthority](https://vertexaisearch.cloud.google.com/id/0-7).\n\n**Regional disparities**\n\n*   **Urban vs. Rural:** Population is concentrating in limited areas, particularly along the Pacific littoral, while rural districts decline considerably [britannica](https://vertexaisearch.cloud.google.com/id/0-1). Emigration from rural areas has led to abandoned settlements [britannica](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Migration Patterns:** While rural-to-urban migration has slowed, people have been leaving city centers for outlying districts and suburbs [britannica](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Specific Data Points:**\n\n*   **Population (April 2025):** 123,400,000 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Population (June 2025):** 123,103,557 [worldometers](https://vertexaisearch.cloud.google.com/id/0-12)\n*   **Population (Mid-Year Estimate 2025):** 123,103,479 [worldometers](https://vertexaisearch.cloud.google.com/id/0-12) or 121,960,408 [macrotrends](https://vertexaisearch.cloud.google.com/id/0-13)\n*   **Median Age (2023):** 49.5 years [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Fertility Rate (2024):** 1.37 children per woman [macrotrends](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **Fertility Rate (2025):** 1.38 children per woman (projected) [macrotrends](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **Birth Rate (2024):** 7.00 per 1,000 people [macrotrends](https://vertexaisearch.cloud.google.com/id/0-6)\n*   **Birth Rate (2025):** 6.98 per 1,000 people (projected) [macrotrends](https://vertexaisearch.cloud.google.com/id/0-6)\n\n**Note:** There are slight discrepancies in the population numbers reported by different sources, which may be due to different estimation methods or data collection periods [macrotrends](https://vertexaisearch.cloud.google.com/id/0-13) [worldometers](https://vertexaisearch.cloud.google.com/id/0-12).\n",
+      "Between 2011 and 2023, Warren Buffett's Berkshire Hathaway has shown an increasing interest in Japanese equities, particularly in five major trading firms [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0). These firms are Itochu, Marubeni, Mitsubishi, Mitsui & Co., and Sumitomo [columbiathreadneedle](https://vertexaisearch.cloud.google.com/id/1-1) [berkshirehathaway](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**Key Developments and Rationale:**\n\n*   **Initial Investments (2019-2020):** Berkshire Hathaway began purchasing shares of the five Japanese trading companies around July 4, 2019 [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0). By August 2020, Berkshire had acquired stakes of around 5% in each of the companies, worth approximately $6.25 billion [cnbc](https://vertexaisearch.cloud.google.com/id/1-3) [medium](https://vertexaisearch.cloud.google.com/id/1-4). Buffett mentioned that these purchases took patience due to Berkshire's size [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Increasing Stakes (2023):** In April 2023, Berkshire increased its stake in each of the five firms to 7.4% [columbiathreadneedle](https://vertexaisearch.cloud.google.com/id/1-5) [observer](https://vertexaisearch.cloud.google.com/id/1-6). By June 2023, Berkshire's ownership interest in each of the five companies averaged more than 8½%, excluding treasury stock. [berkshirehathaway](https://vertexaisearch.cloud.google.com/id/1-2) [cnbc](https://vertexaisearch.cloud.google.com/id/1-3) The market value of these increased stakes was nearly $20 billion. [cnbc](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **Further Investments (2025):** On March 17, 2025, it was reported that Berkshire Hathaway had further increased its stakes in these stocks. [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0) [investopedia](https://vertexaisearch.cloud.google.com/id/1-7) Berkshire grew its stake in Mitsui to 9.82%, in Mitsubishi to 9.67%, in Marubeni to 9.3%, in Sumitomu to 9.29%, and in Itochu to 8.53%. [cuny](https://vertexaisearch.cloud.google.com/id/1-8)\n*   **Long-Term Strategy:** Berkshire intends to hold its Japanese investments for the long term and may increase its holdings up to a maximum of 9.9% in any of the five investments, unless given specific approval by the investee's board of directors. [berkshirehathaway](https://vertexaisearch.cloud.google.com/id/1-2) [cnbc](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **Buffett's Rationale:** Buffett has stated that these companies were selling at \"ridiculously low prices\" and that he generally understood what they did. [observer](https://vertexaisearch.cloud.google.com/id/1-6) He also noted that these trading houses had an earnings yield as high as 14 percent and reminded him of his own company, Berkshire Hathaway. [observer](https://vertexaisearch.cloud.google.com/id/1-6) [japan-forward](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **Financing and Hedging:** Buffett has financed most of his Japanese investments with yen-denominated debt, taking advantage of lower interest rates in Japan. [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0) This strategy also helps to hedge currency risk. [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **Currency Impact:** The weakened yen produced a year-end gain for Berkshire of $1.9 billion over the 2020–23 period.\n\n [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0)**Factors Influencing Buffett's Investments:**\n\n*   **Attractive Valuations:** Buffett found the valuations of these Japanese companies to be very attractive.\n* [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0) [observer](https://vertexaisearch.cloud.google.com/id/1-6)   **Corporate Governance Reforms:** Corporate governance reforms in Japan are making companies more shareholder-friendly.\n* [ii](https://vertexaisearch.cloud.google.com/id/1-10) [cnbc](https://vertexaisearch.cloud.google.com/id/1-3)   **Strong Fundamentals:** The five trading firms have strong fundamentals and are similar to Berkshire Hathaway in that they own lots of different interests.\n* [observer](https://vertexaisearch.cloud.google.com/id/1-6) [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0)   **Low Interest Rates:** Japan's low interest rates have allowed Buffett to borrow money at a lower cost than in the U.S..\n* [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0)   **Geopolitical Considerations:** Some analysts believe that geopolitical risks and China's sluggish economy are also playing a role in Buffett's increased investments in Japan.\n\n [cnbc](https://vertexaisearch.cloud.google.com/id/1-3) [observer](https://vertexaisearch.cloud.google.com/id/1-6)**Current Status and Future Outlook (2025):**\n\n*   As of March 2025, the annual dividend income expected from the Japanese investments is estimated to total about $812 million, while the interest cost of the yen-denominated debt is about $135 million.\n* [wisdomtree](https://vertexaisearch.cloud.google.com/id/1-0)   Japan is now the second-largest bet in Berkshire's portfolio of publicly listed companies.\n* [columbiathreadneedle](https://vertexaisearch.cloud.google.com/id/1-5) [columbiathreadneedle](https://vertexaisearch.cloud.google.com/id/1-1)   Berkshire's cash reserves totaled $334.2 billion at the end of last year.\n* [investopedia](https://vertexaisearch.cloud.google.com/id/1-7)   Buffett suggested that macro factors like another Bank of Japan rate hike wouldn't dissuade him from investing further.\n [japantimes](https://vertexaisearch.cloud.google.com/id/1-11)",
+      "Abenomics, launched in late 2012 by Prime Minister Shinzo Abe, comprised three \"arrows\": monetary easing, fiscal stimulus, and structural reforms, aimed at revitalizing Japan's economy [janushenderson](https://vertexaisearch.cloud.google.com/id/2-0) [investmentweek](https://vertexaisearch.cloud.google.com/id/2-1) [brookings](https://vertexaisearch.cloud.google.com/id/2-2) [cambridge](https://vertexaisearch.cloud.google.com/id/2-3). While its impact is still debated, Abenomics has influenced the Japanese stock market and corporate governance [investmentweek](https://vertexaisearch.cloud.google.com/id/2-1).\n\n**Impact on the Japanese Stock Market:**\n\n*   **Initial Surge:** Abenomics initially boosted the stock market. By May 2013, the stock market had risen by 55%, and Abe's approval rating increased to 70% [wikipedia](https://vertexaisearch.cloud.google.com/id/2-4). The Nikkei 225 rose 77%, and the broader Topix index rose 70% from October 2012 to December 2013 [brookings](https://vertexaisearch.cloud.google.com/id/2-2). By February 2013, the TOPIX stock market index had risen by 22% [wikipedia](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Foreign Investment:** Foreign investors have shown increased interest in Japanese stocks, with a 13-week streak of net purchases through June 27, 2025, marking the longest uninterrupted accumulation since the early days of Abenomics in 2013 [fastbull](https://vertexaisearch.cloud.google.com/id/2-5). During the latest reporting week alone, foreign net purchases reached ¥339.8 billion (approximately $2.36 billion). [fastbull](https://vertexaisearch.cloud.google.com/id/2-5)\n*   **Corporate Profits:** Expanding corporate profit margins accounted for the bulk of market return during Shinzo Abe's tenure as prime minister from late 2012 through late 2020. [msci](https://vertexaisearch.cloud.google.com/id/2-6)\n*   **Yen Depreciation:** Abenomics led to a weakening of the Japanese yen. [wikipedia](https://vertexaisearch.cloud.google.com/id/2-4) [github](https://vertexaisearch.cloud.google.com/id/2-7) By February 2013, the yen became about 25% lower against the U.S. dollar. [wikipedia](https://vertexaisearch.cloud.google.com/id/2-4)\n*   **Mixed Results:** The IMF affirmed that Japan's nominal GDP contracted by $1.8 trillion during 2012–2015. R [wikipedia](https://vertexaisearch.cloud.google.com/id/2-4)eal GDP contracted at an annual rate of 6.8 percent in the second quarter of 2014, after a consumption tax hike.\n* [wikipedia](https://vertexaisearch.cloud.google.com/id/2-4)   **Resilience:** Due to Japanese stocks' comparatively low valuations versus global equities, and ongoing governance reforms contributing to return-on-equity improvements, the market is expected to demonstrate a certain level of resilience.\n* [janushenderson](https://vertexaisearch.cloud.google.com/id/2-0)   **TOPIX Gains:** The surge in foreign buying has coincided with upward movement in the Topix index, which reached a high of 2869.07 on Monday, nearing its record of 2946.60 set in July 2024.\n\n [fastbull](https://vertexaisearch.cloud.google.com/id/2-5)**Impact on Corporate Governance:**\n\n*   **Increased Outside Directors:** Abenomics pushed companies to strengthen corporate governance, leading to an increase in independent, outside directors. T [japantimes](https://vertexaisearch.cloud.google.com/id/2-8)he Tokyo Stock Exchange amended its guidelines in 2014, urging listed firms to have at least one independent director on their boards. A [japantimes](https://vertexaisearch.cloud.google.com/id/2-8)ccording to Japan Exchange Group Inc., 95.3 percent of the companies listed on the first section of Tokyo Stock Exchange had at least two independent directors in 2020, a significant increase from 21.5 percent in 2014.\n* [japantimes](https://vertexaisearch.cloud.google.com/id/2-8)   **Focus on ROE:** The government aimed to increase companies' return on equity (ROE) to a “global standard”. The a [japantimes](https://vertexaisearch.cloud.google.com/id/2-8)verage ROE of TSE first section companies, excluding those running financial institutions, had increased to a little over 10 percent in fiscal year 2017 but decreased to 6.7 percent in fiscal year 2019.\n*   * [japantimes](https://vertexaisearch.cloud.google.com/id/2-8)*GPIF Influence:** The Government Pension Investment Fund (GPIF) has significantly shifted its investment strategy from bonds to equities to drive growth needed to support Japan's aging population and promotes long-term market sustainability and stability by pushing for higher governance standards.\n*   * [williamblair](https://vertexaisearch.cloud.google.com/id/2-9)*TSE Reforms:** In April 2022, the Tokyo Stock Exchange (TSE) restructured its market into three segments: prime, standard, and growth, each with specific governance requirements. Compa [williamblair](https://vertexaisearch.cloud.google.com/id/2-9)nies listed on the prime segment must have at least one-third independent directors and one female director by 2025.\n*   * [williamblair](https://vertexaisearch.cloud.google.com/id/2-9)*Shift to ESG:** In 2021, Japanese policymakers revised the Corporate Governance Code to increase attention to sustainability and environmental, social, and governance (ESG) matters.\n*   * [clearbridge](https://vertexaisearch.cloud.google.com/id/2-10)*Shareholder Activism:** Increased investment has also led to a record number of shareholder proposals. As of [clearbridge](https://vertexaisearch.cloud.google.com/id/2-10) May 2024, 64 companies had already received shareholder proposals, more than half of the entire total of 2023.\n*   * [clearbridge](https://vertexaisearch.cloud.google.com/id/2-10)*Limited Risk-Taking:** The increase in institutional ownership and outside directors do not promote risk-taking behavior and improve firm performance.\n\n**Ov [cambridge](https://vertexaisearch.cloud.google.com/id/2-3)erall Assessment:**\n\nAbenomics had immediate effects on financial markets, weakening the yen and raising stock prices. It al [wikipedia](https://vertexaisearch.cloud.google.com/id/2-4) [github](https://vertexaisearch.cloud.google.com/id/2-7)so generated positive inflation, although neither actual nor expected inflation reached the 2% target. While [github](https://vertexaisearch.cloud.google.com/id/2-7) Abenomics improved corporate governance by increasing outside directors and focusing on ROE, its impact on profitability has been limited. Recen [japantimes](https://vertexaisearch.cloud.google.com/id/2-8)t corporate governance reforms have led to increased shareholder engagement, sustainability disclosures, share buybacks, and M&A activity.\n [clearbridge](https://vertexaisearch.cloud.google.com/id/2-10)",
+      "Between 2010 and 2023, Japan implemented several company law changes and revisions that could have influenced Warren Buffett's investment decisions in Japanese trading companies. These changes primarily relate to shareholder rights, corporate governance, and cross-shareholding structures [mdpi](https://vertexaisearch.cloud.google.com/id/3-0) [hermes-investment](https://vertexaisearch.cloud.google.com/id/3-1).\n\n**Shareholder Rights:**\n\n*   **Equal Treatment:** The Companies Act mandates equal treatment of shareholders based on the number and class of shares they hold [japanlawguide](https://vertexaisearch.cloud.google.com/id/3-2). Companies cannot disproportionately benefit or disadvantage specific shareholder groups [japanlawguide](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Shareholder Proposals:** The Companies Act, as amended in March 2021, limits the number of proposals a shareholder can demand summaries of in the convocation notice of the shareholders' meeting to 10 [morihamada](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Right to Call Meetings:** A shareholder holding at least 3% of the voting rights for six consecutive months or more can demand the directors to call a shareholders' meeting on matters they are entitled to vote on [morihamada](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Inspection Rights:** Shareholders have the right to request access to inspect or copy the shareholder registry, with certain exceptions [morihamada](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Voting Rights:** Shareholders have the right to vote on the appointment of board members and on fundamental changes to the organization or share capital [japanlawguide](https://vertexaisearch.cloud.google.com/id/3-2). They can also declare dividends unless the company's Articles of Incorporation specify that only the board has this power [japanlawguide](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Synthetic Dual-Class Stock Structure:** While a share cannot have more than one vote, companies can create a synthetic dual-class stock structure using a unit share structure [japanlawguide](https://vertexaisearch.cloud.google.com/id/3-2). Voting rights are granted to units instead of shares, and shares that do not comprise a unit are entitled to economic rights only [japanlawguide](https://vertexaisearch.cloud.google.com/id/3-2).\n\n**Corporate Governance:**\n\n*   **Corporate Governance Code:** Japan's Corporate Governance Code was established in 2015 and revised in 2018 and 2021 [hermes-investment](https://vertexaisearch.cloud.google.com/id/3-1). The code aims to promote sustainable growth and increase corporate value over the mid- to long-term [tandfonline](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Independent Directors:** There has been an increase in the proportion of companies with independent or outside directors [citigroup](https://vertexaisearch.cloud.google.com/id/3-5). Almost 82% of prime market companies had an independent director share of at least one-third as of 2022 [citigroup](https://vertexaisearch.cloud.google.com/id/3-5). The 2019 Amendment to the Companies Act requires listed companies to appoint at least one outside director [globallegalinsights](https://vertexaisearch.cloud.google.com/id/3-6).\n*   **Board Diversity:** The appointment of at least one female director to the board is expected [hermes-investment](https://vertexaisearch.cloud.google.com/id/3-1). The government adopted a policy in June 2023 for women to account for over 30% of directors on the boards of Japanese companies listed on the Tokyo Stock Exchange's prime market by 2030 [hermes-investment](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Corporate Takeover Guidelines:** METI issued the Guidelines for Corporate Takeovers in August 2023, providing a code of conduct for directors regarding acquisition proposals [morihamada](https://vertexaisearch.cloud.google.com/id/3-3). The guidelines emphasize transparency and shareholder intent and encourage corporations to consider unsolicited offers as potential opportunities for value creation [ecgi](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Focus on Capital Efficiency:** The Tokyo Stock Exchange (TSE) has been pushing companies to improve capital efficiency and stock prices [citigroup](https://vertexaisearch.cloud.google.com/id/3-5). In January 2023, the TSE requested companies with a price-to-book ratio (PBR) consistently below 1x to disclose how they intended to make improvements [man](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **Emphasis on ESG:** In 2021, the Corporate Governance Code was revised to increase attention to sustainability and environmental, social, and governance (ESG) matters [clearbridge](https://vertexaisearch.cloud.google.com/id/3-9).\n\n**Cross-Shareholding Structures:**\n\n*   **Decline in Cross-Shareholdings:** Japanese corporate governance experienced a significant change in its ownership structure after the 1990s, when cross-shareholding began to diminish [mdpi](https://vertexaisearch.cloud.google.com/id/3-0). Cross-shareholdings have more than halved from over 60% in 1990 to around 25% at the end of 2023 [alliancebernstein](https://vertexaisearch.cloud.google.com/id/3-10).\n*   **Disclosure and Examination:** Under the Corporate Governance Code, firms are compelled to disclose their cross-shareholdings [mdpi](https://vertexaisearch.cloud.google.com/id/3-0). Boards should examine the mid- to long-term rationale and future outlook of major cross-shareholdings annually, considering associated risks and returns [mdpi](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Voting Rights on Cross-Shareholdings:** Companies should establish and disclose specific standards regarding voting rights on their cross-shareholdings and vote accordingly [fsa](https://vertexaisearch.cloud.google.com/id/3-11).\n*   **Impact on Corporate Value:** The reduction of cross-shareholdings is seen as a way to unlock investment potential and drive a broad-based change in mindset within corporate Japan [man](https://vertexaisearch.cloud.google.com/id/3-8). Activist investors have been relatively successful in cases where they specifically target outsized cross-shareholdings [man](https://vertexaisearch.cloud.google.com/id/3-8).\n\n**Warren Buffett's Investment Decisions:**\n\n*   **Attractive Valuations:** Warren Buffett has praised the low valuations, disciplined capital use, and shareholder-friendly practices of Japanese trading companies [economictimes](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Low-Cost Yen Financing:** Buffett has capitalized on Japan's ultra-low interest rates by borrowing in yen and investing in Japanese equities [wisdomtree](https://vertexaisearch.cloud.google.com/id/3-13) [economictimes](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Confidence in Corporate Governance Reforms:** Buffett's growing interest in Japanese equities reflects his confidence in their strong fundamentals and attractive valuations, as well as Japan's recent corporate governance reforms [wisdomtree](https://vertexaisearch.cloud.google.com/id/3-13) [morningstar](https://vertexaisearch.cloud.google.com/id/3-14).\n*   **Keiretsu Structure:** The trading companies that Buffett invested in operate through a keiretsu structure, which provides stability and risk mitigation through cross-ownership [substack](https://vertexaisearch.cloud.google.com/id/3-15).\n*   **Long-Term Focus:** Buffett's investment strategy aligns with the long-term focus of keiretsu, which prioritize endurance over quarterly profits [substack](https://vertexaisearch.cloud.google.com/id/3-15).\n\nThese changes and revisions reflect a broader effort to improve corporate governance, enhance shareholder value, and attract foreign investment in Japan [hermes-investment](https://vertexaisearch.cloud.google.com/id/3-1) [tandfonline](https://vertexaisearch.cloud.google.com/id/3-4). Warren Buffett's investments in Japanese trading companies may be seen as a vote of confidence in these reforms and the potential for long-term growth in the Japanese market [wisdomtree](https://vertexaisearch.cloud.google.com/id/3-13).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhHh3KmyEniKeN-BZVVjxPpil-CceQOyywKOmc3-WSIottClgB5x33BrgPk3TVbmFn6XJYNDEWnklV_L8zc8uGUD_tyc8MMldAIuzFEIVn_mLI5VxlSHnxY5P3m9cvAgc6K2XOky2QBV-EDCuqOGzV5GJFRs7thAd8np2kIaxKodYB_w=="
+      },
+      {
+        "label": "internetgeography",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhWkQPvXxPEf_w2ELeQ65j9gxUNjRoOfvlGjzz8jJEoww0fXeN_Y4P45F3ap-ok3M_AmHxkULmjiLGevrFWxDqGQ8wgc2awOtQxD-x7TLJUH3MiiPT_fqlqavVAhZd1lDgFFDB_Ilz-1lDPjjE-wiG1BsRTnOJGwCZvehME3W4cpfMGOJUojaNH9BH53ZixNHgicHW"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "un",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQgdATw-ZQ7-4hLNPB4GZZf3BlCALlpK3hOC-dSqkfqfhizS3T-8DqNrWM3yjNw_f9o6Vr9pjrZDt-5WOy7drY-mNxkNw81UbrDA0uqsIHpb3SWsMZCO5OgoabzbPwN_eoaKYWCBoJGvBbE0jXEzqOOldba55ErRbx317D8Nje7WMJ_XB4YI7145sl3lYQA6WrfJTpXeb9zL9fC890a_kTSlJEvZg1XL4h"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhHh3KmyEniKeN-BZVVjxPpil-CceQOyywKOmc3-WSIottClgB5x33BrgPk3TVbmFn6XJYNDEWnklV_L8zc8uGUD_tyc8MMldAIuzFEIVn_mLI5VxlSHnxY5P3m9cvAgc6K2XOky2QBV-EDCuqOGzV5GJFRs7thAd8np2kIaxKodYB_w=="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbY3TIxNrt66d6YgoHG3APxVYQMZABW3VdfCuYEq2bHzGzFHXcfUkSHCEsY6Z5k3IRhDcFc86WO046n7fntLirwKs4EMD7-t9rlX6YC7Fdh1kbjM7dQT9OzFZEZI_RIc6vFgcWjJhgIgqgh5wAA01Chtdnk0yPdxnxIcbuv3qU7DskUcZC5qQ"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV8uUxv6PxUN-wKztxU-DWl5ZcpveKU2HZoEQpzdv-Z7VyLwo_TQeT0TXgPNuHXbCedggdylqcKo7qw4RxWqEjMJLCFZfgTRX7bTHCw2Hj7QwbXHkbDXFdBYFE9FfTPt0pp-tbdtxJsZJ9RtiNNeiSifdf8XeAs1QVtMyTId1T2qia6to="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "goodauthority",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvdRCv5DjdUgn4I_mXstjvH61zqY7NsEXqrvQNyKKcsw7ShrFJ8sifSR9ZCdk9OU9UL-PszcwhtbO32uRB3TQ-oUY_hu5qdrcT2o4D60oaiL4n__yRgXavJLqB1YcNI-nki5Z91uvOBKWbaKHwEg_6K74XZ9n-2Dh7yU5dCr1yElZl7G91U4FDd9myGNw5j0u3Og=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "apjjf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFl_-8VpL6gB6ss3VzDFF2sGIAIE0kloYuOOF6TrJ9StaoRSBuxu5Q30S42buCDCp68mJtHl7LEofnUlrtmS6UhP3exr4sUEq5-APvgkmoDT6NVeDDv7hx83uZbY5ohcr2yfkicBF5G"
+      },
+      {
+        "label": "imf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm7IQapQiLYPu2lcMpPDvgswKvZcZJPxSHZqo5JlSX5Fcyp8W_pq1_2F-idN7LdloOWyn9Uqe7dRil0mepY23HwAB-Jo7bzViPqeRF5FECf4JNfC7oj1GSFQnpMFUL3JKIuBi9j8YFfkGqwhfDf5Fr9NdJZMNRBTKXC83E7Q1DjPerpxRD_DKvU-R2cmEXkYp_Icjd9wlxofFh64FXE4VfUGDKjcsHGccX01KszvlL3RhAZ1eHB5vloA=="
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhHh3KmyEniKeN-BZVVjxPpil-CceQOyywKOmc3-WSIottClgB5x33BrgPk3TVbmFn6XJYNDEWnklV_L8zc8uGUD_tyc8MMldAIuzFEIVn_mLI5VxlSHnxY5P3m9cvAgc6K2XOky2QBV-EDCuqOGzV5GJFRs7thAd8np2kIaxKodYB_w=="
+      },
+      {
+        "label": "piie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB60P0V-JIBZL-Q1dQnSdfF8nPlP6tDlgzkXYTZuvjcPsCFu2FNQ1UtJ-TUb1ruWNnTVvD4d13E7PsyyJbiNM6s9TWIdFRH1ClIeIOEeJ_A7StV6Q_peWnDL6bTS6xmBFb4WPM-Yd2QiK4vbzor7_CAgW36EaD"
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w=="
+      },
+      {
+        "label": "nbr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcKmcbMsFIDiU5yNiEH-_1U4VgW9j35GfCLO8bb_ktpUARsZESvbcaaktrI8Za6RLQD-1PPypPcjSEvvFI7JYdQWV8dlhXVSGUH3ZlKog5BMQYC11i81hOWGFy_5_HkIKGOsisHyJJRsTu1zwp_FzCPmwnvo45aLVzzIyKh-YudejlyH-xXIyp"
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "piie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB60P0V-JIBZL-Q1dQnSdfF8nPlP6tDlgzkXYTZuvjcPsCFu2FNQ1UtJ-TUb1ruWNnTVvD4d13E7PsyyJbiNM6s9TWIdFRH1ClIeIOEeJ_A7StV6Q_peWnDL6bTS6xmBFb4WPM-Yd2QiK4vbzor7_CAgW36EaD"
+      },
+      {
+        "label": "goodauthority",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvdRCv5DjdUgn4I_mXstjvH61zqY7NsEXqrvQNyKKcsw7ShrFJ8sifSR9ZCdk9OU9UL-PszcwhtbO32uRB3TQ-oUY_hu5qdrcT2o4D60oaiL4n__yRgXavJLqB1YcNI-nki5Z91uvOBKWbaKHwEg_6K74XZ9n-2Dh7yU5dCr1yElZl7G91U4FDd9myGNw5j0u3Og=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "worldometers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ1anCKxKi9ciPrTIe_C1umBEn-dM6nf7pqQJEaV5DUbJt36a7GEHporb54vZndz2KkFCG9m9xopOVIwnhlWTmmz14ZBDrE1DxfyWWRZQdL7qzplHHcj6iekpluKNrdbOt8rEJCkdmJwTA06TtUa0A3nV-pwYCTzonDhE="
+      },
+      {
+        "label": "worldometers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ1anCKxKi9ciPrTIe_C1umBEn-dM6nf7pqQJEaV5DUbJt36a7GEHporb54vZndz2KkFCG9m9xopOVIwnhlWTmmz14ZBDrE1DxfyWWRZQdL7qzplHHcj6iekpluKNrdbOt8rEJCkdmJwTA06TtUa0A3nV-pwYCTzonDhE="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAYfGPQsQxE1vTikROdmlqFQ3At2OG4Cbskm3hJopGP6U5ZK64vma-HWw9zbMGGnmxEGi93YJ2CliShVRcupZVD-4SjLofEi3uLNqgxEWsiaVTz_qPvKs2-5JY1YCcxNRHNRLbeYmG0rnNm_JLgzhZHra7XHzvYHyOwXsZZKnBgWFRV4E="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbY3TIxNrt66d6YgoHG3APxVYQMZABW3VdfCuYEq2bHzGzFHXcfUkSHCEsY6Z5k3IRhDcFc86WO046n7fntLirwKs4EMD7-t9rlX6YC7Fdh1kbjM7dQT9OzFZEZI_RIc6vFgcWjJhgIgqgh5wAA01Chtdnk0yPdxnxIcbuv3qU7DskUcZC5qQ"
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLbY3TIxNrt66d6YgoHG3APxVYQMZABW3VdfCuYEq2bHzGzFHXcfUkSHCEsY6Z5k3IRhDcFc86WO046n7fntLirwKs4EMD7-t9rlX6YC7Fdh1kbjM7dQT9OzFZEZI_RIc6vFgcWjJhgIgqgh5wAA01Chtdnk0yPdxnxIcbuv3qU7DskUcZC5qQ"
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV8uUxv6PxUN-wKztxU-DWl5ZcpveKU2HZoEQpzdv-Z7VyLwo_TQeT0TXgPNuHXbCedggdylqcKo7qw4RxWqEjMJLCFZfgTRX7bTHCw2Hj7QwbXHkbDXFdBYFE9FfTPt0pp-tbdtxJsZJ9RtiNNeiSifdf8XeAs1QVtMyTId1T2qia6to="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV8uUxv6PxUN-wKztxU-DWl5ZcpveKU2HZoEQpzdv-Z7VyLwo_TQeT0TXgPNuHXbCedggdylqcKo7qw4RxWqEjMJLCFZfgTRX7bTHCw2Hj7QwbXHkbDXFdBYFE9FfTPt0pp-tbdtxJsZJ9RtiNNeiSifdf8XeAs1QVtMyTId1T2qia6to="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAYfGPQsQxE1vTikROdmlqFQ3At2OG4Cbskm3hJopGP6U5ZK64vma-HWw9zbMGGnmxEGi93YJ2CliShVRcupZVD-4SjLofEi3uLNqgxEWsiaVTz_qPvKs2-5JY1YCcxNRHNRLbeYmG0rnNm_JLgzhZHra7XHzvYHyOwXsZZKnBgWFRV4E="
+      },
+      {
+        "label": "worldometers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ1anCKxKi9ciPrTIe_C1umBEn-dM6nf7pqQJEaV5DUbJt36a7GEHporb54vZndz2KkFCG9m9xopOVIwnhlWTmmz14ZBDrE1DxfyWWRZQdL7qzplHHcj6iekpluKNrdbOt8rEJCkdmJwTA06TtUa0A3nV-pwYCTzonDhE="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "columbiathreadneedle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdWAHS8ch4iX7kNkzgKy8z3aJgU9ixjTxfl4BJ6aTGGC9A6fziy224wYza9-_wWb8ys5-cAMQzMN9fs5nu3-87jxRQ2ovCdblWnzooxeOcEaIpvyYvZ9GQB-PeWUJ5mUzxt7HYOcKE033uBtFKnvV1cLz1Xs2RZ_hqCLFqiHh7B7trM4aw0hYq4vcMM6er-cHB3tfXBwN4dYV2QYOyX3PzEbWtC-7"
+      },
+      {
+        "label": "berkshirehathaway",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkROpolWrbBergxhLTE3wURgD-BN3kf-mvLcPucV1Iq9fUa5aMZG_Hl1MgwHCPL2xNJP2a6tod3VBIQKeY9ybd2GLmsn3NlWWI_IyqwILnX8JVSZHIh-Z7-UW7xSXWF2IcnJWnigj8BpO1Fe-e"
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "cnbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwgyDN0Z2JJ3YbtUh3OOSd8RSl303m8zUitqgWEmzNMbqnDfd4pcx0vTUOcVRIPXKm4NDY4wCxVsJCMeKOZRn32nPgMM9mh849XrMJOdiz-txcL_MhOsSJffzepL0Ytso="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENssPYIUYjEkpqI5jyVFJ3yviLT173TwDSnJ5HOIFfPpK091xGy3DHUlV4fJVhhf0Sc77yfUHKiuEba4gY3-BFcoqktYjGLkxJyfJtdEllypIgLEZajRKVKCh5RtrLA9oQO4GamBDKzhlUd4Xvf0-JYxkxIVW_t_rPedp1TtX3-A=="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "columbiathreadneedle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEay2y_niEmpVtjdloAn41cqBW-jFLMi6JJIk5ZX4bP3cHGfVU4Oyi7J6mBBNZbRNokaForCcqrw0FT-AwNh0zJGM0IyykqGC_J99F0cYOBysQ1_9uEtHv8z2QEO_KAglgxTSov5ShYlhAVOchIYdZtzihQBw1IrAdQLtwadQD7_bFVtPhPW71_rtDrAjYsfokrFkKyWbQGOKyvciamFIFhqznEiF3r"
+      },
+      {
+        "label": "observer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHS-eLju5FarEdLBUvmWSEXOHZHeGymHAPpg67Q4S3V5zIEGxR4TYNEVCZcKbaD_xL4jkUERpBEKY4Y84DaI_Hll6hkvagO22-DWv_GYfQ35gsTE__Dc0A2O-_HpdKTwDZjFNbzO-oI_zYbUVwe-eff_LZlI9"
+      },
+      {
+        "label": "berkshirehathaway",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkROpolWrbBergxhLTE3wURgD-BN3kf-mvLcPucV1Iq9fUa5aMZG_Hl1MgwHCPL2xNJP2a6tod3VBIQKeY9ybd2GLmsn3NlWWI_IyqwILnX8JVSZHIh-Z7-UW7xSXWF2IcnJWnigj8BpO1Fe-e"
+      },
+      {
+        "label": "cnbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwgyDN0Z2JJ3YbtUh3OOSd8RSl303m8zUitqgWEmzNMbqnDfd4pcx0vTUOcVRIPXKm4NDY4wCxVsJCMeKOZRn32nPgMM9mh849XrMJOdiz-txcL_MhOsSJffzepL0Ytso="
+      },
+      {
+        "label": "cnbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwgyDN0Z2JJ3YbtUh3OOSd8RSl303m8zUitqgWEmzNMbqnDfd4pcx0vTUOcVRIPXKm4NDY4wCxVsJCMeKOZRn32nPgMM9mh849XrMJOdiz-txcL_MhOsSJffzepL0Ytso="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "investopedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd1UQa8I4D2VLv4HJnR0SCkJKHVmyv-yt98uS7kpby2JLTr2TKSHiaLCdLevg8aueQgtbOzR_X5s08-1qDbPRcn732vUYz3t63LWA1D9TG0Mvw2ASm7lUHdAmibmK0QzSYgWZ4B20msKNrjKTI4xvwQgEP51voOXBq2OHZ5XSnuXiZeEJtpl0_1iB-nVwkooTTKwsO_SV1SmQu"
+      },
+      {
+        "label": "cuny",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFowwcgphyHXrsDHaGx_1DG_zJl38fPdOQUpnL3b9fjy-es4RZ0cuTVoEsmu6SlOrtY1rcCKAR_3gQiYmFUvEeupZyfk-rSBl31t_2V93UF6EIsaXeobdqbq1fCuH9ySsfSWcem_zujQ-YqNHXyFNqTq6r2-uSRsxxrsuAWo8TFqZGzOCiM4_HGUB-0pnfpWhysdJ_zUlBnSI3rnUflAKshh0R7YkD8FK_WEOgZEnMuqCv5FcITkM4aOqxV-YHu4kXYmiXPQ615DDzjUbf6D0dyC6KQhKGLrmbvRJIbiWwdTbEFwl7RNuCH"
+      },
+      {
+        "label": "berkshirehathaway",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkROpolWrbBergxhLTE3wURgD-BN3kf-mvLcPucV1Iq9fUa5aMZG_Hl1MgwHCPL2xNJP2a6tod3VBIQKeY9ybd2GLmsn3NlWWI_IyqwILnX8JVSZHIh-Z7-UW7xSXWF2IcnJWnigj8BpO1Fe-e"
+      },
+      {
+        "label": "cnbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwgyDN0Z2JJ3YbtUh3OOSd8RSl303m8zUitqgWEmzNMbqnDfd4pcx0vTUOcVRIPXKm4NDY4wCxVsJCMeKOZRn32nPgMM9mh849XrMJOdiz-txcL_MhOsSJffzepL0Ytso="
+      },
+      {
+        "label": "observer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHS-eLju5FarEdLBUvmWSEXOHZHeGymHAPpg67Q4S3V5zIEGxR4TYNEVCZcKbaD_xL4jkUERpBEKY4Y84DaI_Hll6hkvagO22-DWv_GYfQ35gsTE__Dc0A2O-_HpdKTwDZjFNbzO-oI_zYbUVwe-eff_LZlI9"
+      },
+      {
+        "label": "observer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHS-eLju5FarEdLBUvmWSEXOHZHeGymHAPpg67Q4S3V5zIEGxR4TYNEVCZcKbaD_xL4jkUERpBEKY4Y84DaI_Hll6hkvagO22-DWv_GYfQ35gsTE__Dc0A2O-_HpdKTwDZjFNbzO-oI_zYbUVwe-eff_LZlI9"
+      },
+      {
+        "label": "japan-forward",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiRQC8CVhTbHZyV9QVx75Pmpc_YPeDYDDKIqz8I0RlSM9xQbyiAE2vBiowbLFFxr2BwZ5naHOXWdDxhhnFSl0w-DjsxNzfNZC9BPl4ag0Sq3LUH8xrgnNomAuDGIJUCNR4BEJLeBuoZB7jY06AKBbgaWvrxXOQZtGy8G7vplvQJTYiAgTdyXk1x_J9D0xwDRuTvVi50EKGFjltkq4U3O1yhbEvM9ssOMTFA1isqasW_A=="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "observer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHS-eLju5FarEdLBUvmWSEXOHZHeGymHAPpg67Q4S3V5zIEGxR4TYNEVCZcKbaD_xL4jkUERpBEKY4Y84DaI_Hll6hkvagO22-DWv_GYfQ35gsTE__Dc0A2O-_HpdKTwDZjFNbzO-oI_zYbUVwe-eff_LZlI9"
+      },
+      {
+        "label": "ii",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-ab_5lC5TCSlq05kCOc7U_69Q9XW5taE1xRLe_ZSs7uMIPKjILbd92Jgc2KNghqLFgi1sLsEluF3ybR9x70H2qlTXa03zQzuGovWJsb5lo15TUY9vF7nMW6WiHEtaS8jhDaN36T-l7YWhz-qxAAjHG2b6glOEyjoY4FHS1hJUi3YNTpFZC82mc3AiGN1YzRpidivYyAYcuR5fxWnUZ-yA2Q=="
+      },
+      {
+        "label": "cnbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwgyDN0Z2JJ3YbtUh3OOSd8RSl303m8zUitqgWEmzNMbqnDfd4pcx0vTUOcVRIPXKm4NDY4wCxVsJCMeKOZRn32nPgMM9mh849XrMJOdiz-txcL_MhOsSJffzepL0Ytso="
+      },
+      {
+        "label": "observer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHS-eLju5FarEdLBUvmWSEXOHZHeGymHAPpg67Q4S3V5zIEGxR4TYNEVCZcKbaD_xL4jkUERpBEKY4Y84DaI_Hll6hkvagO22-DWv_GYfQ35gsTE__Dc0A2O-_HpdKTwDZjFNbzO-oI_zYbUVwe-eff_LZlI9"
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "cnbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwgyDN0Z2JJ3YbtUh3OOSd8RSl303m8zUitqgWEmzNMbqnDfd4pcx0vTUOcVRIPXKm4NDY4wCxVsJCMeKOZRn32nPgMM9mh849XrMJOdiz-txcL_MhOsSJffzepL0Ytso="
+      },
+      {
+        "label": "observer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHS-eLju5FarEdLBUvmWSEXOHZHeGymHAPpg67Q4S3V5zIEGxR4TYNEVCZcKbaD_xL4jkUERpBEKY4Y84DaI_Hll6hkvagO22-DWv_GYfQ35gsTE__Dc0A2O-_HpdKTwDZjFNbzO-oI_zYbUVwe-eff_LZlI9"
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "columbiathreadneedle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEay2y_niEmpVtjdloAn41cqBW-jFLMi6JJIk5ZX4bP3cHGfVU4Oyi7J6mBBNZbRNokaForCcqrw0FT-AwNh0zJGM0IyykqGC_J99F0cYOBysQ1_9uEtHv8z2QEO_KAglgxTSov5ShYlhAVOchIYdZtzihQBw1IrAdQLtwadQD7_bFVtPhPW71_rtDrAjYsfokrFkKyWbQGOKyvciamFIFhqznEiF3r"
+      },
+      {
+        "label": "columbiathreadneedle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdWAHS8ch4iX7kNkzgKy8z3aJgU9ixjTxfl4BJ6aTGGC9A6fziy224wYza9-_wWb8ys5-cAMQzMN9fs5nu3-87jxRQ2ovCdblWnzooxeOcEaIpvyYvZ9GQB-PeWUJ5mUzxt7HYOcKE033uBtFKnvV1cLz1Xs2RZ_hqCLFqiHh7B7trM4aw0hYq4vcMM6er-cHB3tfXBwN4dYV2QYOyX3PzEbWtC-7"
+      },
+      {
+        "label": "investopedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd1UQa8I4D2VLv4HJnR0SCkJKHVmyv-yt98uS7kpby2JLTr2TKSHiaLCdLevg8aueQgtbOzR_X5s08-1qDbPRcn732vUYz3t63LWA1D9TG0Mvw2ASm7lUHdAmibmK0QzSYgWZ4B20msKNrjKTI4xvwQgEP51voOXBq2OHZ5XSnuXiZeEJtpl0_1iB-nVwkooTTKwsO_SV1SmQu"
+      },
+      {
+        "label": "japantimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk7O6h7etCnO0DjDqeMTjLAtWrSbP5IYcPmdIzbCFrlIMMesubDUII-e_ir0v-OD2hVO08Vo7p0jUm775K-4xhcFqtayZuD-TOwJuFvLcM9xLmPgkjePy5KSNXG2EOzeYUAaaD0NbGczWJDHKh3Z45_yR-grIvmCCuVXuomse9_matXalFIsVlQirAZmWMZdjBKLU="
+      },
+      {
+        "label": "janushenderson",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHihVWyaFtwTmvjJqrnb_QrIYob8BRLKkTcGFqpfPJftoGogjrbbC-dIDBY28iF2YbKVHHN3WFC6iFvpth9RFlSJ6Ac9u_4QXJKkJXfMjbHBlqE3c8FMdswzDu6u8h3uDMgIYKxCEKyy6L2oYo4kEUQrGSXffVRDqXIcK2QZ5pIa-AW7EpE4t4_6Ui0i_Oddy8Et-wyT-iZ0c7-uGTMKgR4O_etkPxnoqEzLoJe4wZ9l-JZPzOv0VIeZgN7qQ=="
+      },
+      {
+        "label": "investmentweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_D9MGhNj4ph-9BfTTlqxn_7u95JaP-f92r8VnYfYEmZ0xK3H-UKYWc-cwVQT43O5e-MY4Nt3_VFHJzD2MtIpvRTJW4opn2md0LSCUsNFfunWGg9WvQV2Yjr0KtOK8395Ei16yxFLBiuhUuVGRkg9k_PJWZx0RwUXoRUhRxAJjLbX2E809R08="
+      },
+      {
+        "label": "brookings",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDz_Gzy2EeSlvb_R0e834X5ewFIdRpvn3r5PTUbuabk3_YI4PTSN8K_whHDq4JU6DDFDz5UhiC2SlbOoykZdpzGOyS59F6syx7DgOOD3zPWD3yjH8ShFFmjBxHOaI9jAnJzH30xbip77uu3TwE68zDWNYrL53q2cqG7C98fYOTvqSpTwjQK6r3BQ=="
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrkh0rAfrEfnzQMpRvDBbkFydGpvntcpcoH90_5GUc4GkHrce9YVkyc_OTQp-D-Qb6LoUMcJIs2VNvoyHKKFLhwE3F4wtEYkSUkitZeaqtRkRmJl9-PjABUdGDHwXq82o8xolQVJzHuPvStNN69VJvQc8S3dXiOqaKtiqwFAM3pxrEYjOfqcBzDf0kxXhYYZOCkMhtmlJnYDQUwT3qXw4t8_6IsZ3Y43PHgF9lSl6SFfeffLkW-IP09JEnvB3v2aAPoQA6bJWctFIFSwy4HHosoCs81M-8O7w3DH0i1fW_QBJvfXqyswMzbRg8Gw=="
+      },
+      {
+        "label": "investmentweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_D9MGhNj4ph-9BfTTlqxn_7u95JaP-f92r8VnYfYEmZ0xK3H-UKYWc-cwVQT43O5e-MY4Nt3_VFHJzD2MtIpvRTJW4opn2md0LSCUsNFfunWGg9WvQV2Yjr0KtOK8395Ei16yxFLBiuhUuVGRkg9k_PJWZx0RwUXoRUhRxAJjLbX2E809R08="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1UnNzP03kfHDAUw0jg2ipcsE1kzKzrBg4pKj3SKEd8LudhtfuY0u-VIaoiMkmEQD5iOOKQR3PCE4whpDPDSgCZFs29DsRR_V6ktrnjQYoSi9xm7D-WlGX2ffBsBSnslyMDA=="
+      },
+      {
+        "label": "brookings",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDz_Gzy2EeSlvb_R0e834X5ewFIdRpvn3r5PTUbuabk3_YI4PTSN8K_whHDq4JU6DDFDz5UhiC2SlbOoykZdpzGOyS59F6syx7DgOOD3zPWD3yjH8ShFFmjBxHOaI9jAnJzH30xbip77uu3TwE68zDWNYrL53q2cqG7C98fYOTvqSpTwjQK6r3BQ=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1UnNzP03kfHDAUw0jg2ipcsE1kzKzrBg4pKj3SKEd8LudhtfuY0u-VIaoiMkmEQD5iOOKQR3PCE4whpDPDSgCZFs29DsRR_V6ktrnjQYoSi9xm7D-WlGX2ffBsBSnslyMDA=="
+      },
+      {
+        "label": "fastbull",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk_Q_ry-XttGA0M2OwIbLwsGVNdQBMmy2Rv1oIvvMtIxfSZDI7IzSOuSXnQObvetipfEJ30bsHAs-xg0EJ9at-6wE6zJ8FGr6GwJzZNKgaLgzjbLPl9wIP4tTPh6DF_Fsn0_paabo0JHLDvtmxIccFONeidh61Ml5oeeaBQu7Y4hh0aOTMqPfCYEU1adHMme0sUFWA2AwJntFZxbPmcaMSxA=="
+      },
+      {
+        "label": "fastbull",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk_Q_ry-XttGA0M2OwIbLwsGVNdQBMmy2Rv1oIvvMtIxfSZDI7IzSOuSXnQObvetipfEJ30bsHAs-xg0EJ9at-6wE6zJ8FGr6GwJzZNKgaLgzjbLPl9wIP4tTPh6DF_Fsn0_paabo0JHLDvtmxIccFONeidh61Ml5oeeaBQu7Y4hh0aOTMqPfCYEU1adHMme0sUFWA2AwJntFZxbPmcaMSxA=="
+      },
+      {
+        "label": "msci",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkdnvbdF6b7j_ao3FHz2oDl6qMq-igr7-DaDyxZmol4XHhIGuYmRibJzMOZpElln71vKOiCfJsoGKbmdWs-og6Eq_Yamikg4tVsrl20T1yLbJmL8sQ6IktOVySZ_Nv27MgnBc4HyVVxZCj0vpSPecqNnjavzMP-hAdVE-vVZfJ1Z3Y5fnya-bwQRej9iVCIPM1OTPvYBufvrvpXkK4UYzb8UKkICVrxg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1UnNzP03kfHDAUw0jg2ipcsE1kzKzrBg4pKj3SKEd8LudhtfuY0u-VIaoiMkmEQD5iOOKQR3PCE4whpDPDSgCZFs29DsRR_V6ktrnjQYoSi9xm7D-WlGX2ffBsBSnslyMDA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwwtQqLb6l7UNL-LxCIMeGHlzMp76G7d2nwTj9FNiktyYbAOw5dnwG9DHKVD1PsDPbnvt-0ykboHyECtzWKoSs3mpBGcIpf1nOIOvxyaDdvVGg0JnJ_2PdU0ZQaDRtVeUHDTFowmrHgOiWksfZCkOCvIofbtcKqTnStIJ2_JUitVTUAsODtcH7lg6HNd43iCpM-YE="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1UnNzP03kfHDAUw0jg2ipcsE1kzKzrBg4pKj3SKEd8LudhtfuY0u-VIaoiMkmEQD5iOOKQR3PCE4whpDPDSgCZFs29DsRR_V6ktrnjQYoSi9xm7D-WlGX2ffBsBSnslyMDA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1UnNzP03kfHDAUw0jg2ipcsE1kzKzrBg4pKj3SKEd8LudhtfuY0u-VIaoiMkmEQD5iOOKQR3PCE4whpDPDSgCZFs29DsRR_V6ktrnjQYoSi9xm7D-WlGX2ffBsBSnslyMDA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1UnNzP03kfHDAUw0jg2ipcsE1kzKzrBg4pKj3SKEd8LudhtfuY0u-VIaoiMkmEQD5iOOKQR3PCE4whpDPDSgCZFs29DsRR_V6ktrnjQYoSi9xm7D-WlGX2ffBsBSnslyMDA=="
+      },
+      {
+        "label": "janushenderson",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHihVWyaFtwTmvjJqrnb_QrIYob8BRLKkTcGFqpfPJftoGogjrbbC-dIDBY28iF2YbKVHHN3WFC6iFvpth9RFlSJ6Ac9u_4QXJKkJXfMjbHBlqE3c8FMdswzDu6u8h3uDMgIYKxCEKyy6L2oYo4kEUQrGSXffVRDqXIcK2QZ5pIa-AW7EpE4t4_6Ui0i_Oddy8Et-wyT-iZ0c7-uGTMKgR4O_etkPxnoqEzLoJe4wZ9l-JZPzOv0VIeZgN7qQ=="
+      },
+      {
+        "label": "fastbull",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk_Q_ry-XttGA0M2OwIbLwsGVNdQBMmy2Rv1oIvvMtIxfSZDI7IzSOuSXnQObvetipfEJ30bsHAs-xg0EJ9at-6wE6zJ8FGr6GwJzZNKgaLgzjbLPl9wIP4tTPh6DF_Fsn0_paabo0JHLDvtmxIccFONeidh61Ml5oeeaBQu7Y4hh0aOTMqPfCYEU1adHMme0sUFWA2AwJntFZxbPmcaMSxA=="
+      },
+      {
+        "label": "japantimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdyEhNJagmXLFkHHdrJ3AtlnxMG_gkZBgDVJ-9ilUKl5_K3D7kE9XngBYejMp7TgqiCUtWv61Oifp_MTFJ8LnYrIIdL3hJbaDsQ-UvmaBSw6VQY3uuhCSsrpute9bjLVGZ3oXDnV118CeZ_XcSksaLIEYD7IMSalQF51dJK7WmAN8gkfgykQrcVo_g42OwU6sOeBUt_ks="
+      },
+      {
+        "label": "japantimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdyEhNJagmXLFkHHdrJ3AtlnxMG_gkZBgDVJ-9ilUKl5_K3D7kE9XngBYejMp7TgqiCUtWv61Oifp_MTFJ8LnYrIIdL3hJbaDsQ-UvmaBSw6VQY3uuhCSsrpute9bjLVGZ3oXDnV118CeZ_XcSksaLIEYD7IMSalQF51dJK7WmAN8gkfgykQrcVo_g42OwU6sOeBUt_ks="
+      },
+      {
+        "label": "japantimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdyEhNJagmXLFkHHdrJ3AtlnxMG_gkZBgDVJ-9ilUKl5_K3D7kE9XngBYejMp7TgqiCUtWv61Oifp_MTFJ8LnYrIIdL3hJbaDsQ-UvmaBSw6VQY3uuhCSsrpute9bjLVGZ3oXDnV118CeZ_XcSksaLIEYD7IMSalQF51dJK7WmAN8gkfgykQrcVo_g42OwU6sOeBUt_ks="
+      },
+      {
+        "label": "japantimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdyEhNJagmXLFkHHdrJ3AtlnxMG_gkZBgDVJ-9ilUKl5_K3D7kE9XngBYejMp7TgqiCUtWv61Oifp_MTFJ8LnYrIIdL3hJbaDsQ-UvmaBSw6VQY3uuhCSsrpute9bjLVGZ3oXDnV118CeZ_XcSksaLIEYD7IMSalQF51dJK7WmAN8gkfgykQrcVo_g42OwU6sOeBUt_ks="
+      },
+      {
+        "label": "japantimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdyEhNJagmXLFkHHdrJ3AtlnxMG_gkZBgDVJ-9ilUKl5_K3D7kE9XngBYejMp7TgqiCUtWv61Oifp_MTFJ8LnYrIIdL3hJbaDsQ-UvmaBSw6VQY3uuhCSsrpute9bjLVGZ3oXDnV118CeZ_XcSksaLIEYD7IMSalQF51dJK7WmAN8gkfgykQrcVo_g42OwU6sOeBUt_ks="
+      },
+      {
+        "label": "williamblair",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCxm9IO6Z8HlRikFxJRzb6b96Hhv3Why07SF802GwMsaelnVg3u07YfrWgPm_cbSpro1ecoW03Q75wJ-kYvBo6WVsxPIm5zGg-ywYexNrTbCoqs7vo2U1KCWquKtZK8DBQ55jBRk2bMTkJF-7yRHXr5Fph6fazrcFjdL-YSBXg8AJ-ihxsfOho0nPyeMsldJi_nrTzGbv7Ehugoc5UFA=="
+      },
+      {
+        "label": "williamblair",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCxm9IO6Z8HlRikFxJRzb6b96Hhv3Why07SF802GwMsaelnVg3u07YfrWgPm_cbSpro1ecoW03Q75wJ-kYvBo6WVsxPIm5zGg-ywYexNrTbCoqs7vo2U1KCWquKtZK8DBQ55jBRk2bMTkJF-7yRHXr5Fph6fazrcFjdL-YSBXg8AJ-ihxsfOho0nPyeMsldJi_nrTzGbv7Ehugoc5UFA=="
+      },
+      {
+        "label": "williamblair",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCxm9IO6Z8HlRikFxJRzb6b96Hhv3Why07SF802GwMsaelnVg3u07YfrWgPm_cbSpro1ecoW03Q75wJ-kYvBo6WVsxPIm5zGg-ywYexNrTbCoqs7vo2U1KCWquKtZK8DBQ55jBRk2bMTkJF-7yRHXr5Fph6fazrcFjdL-YSBXg8AJ-ihxsfOho0nPyeMsldJi_nrTzGbv7Ehugoc5UFA=="
+      },
+      {
+        "label": "clearbridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZrRnphA6llZ0Y8WDco1JHrBR0xuR2olxqjWaz555cAGwgVtmBcJtahHabuPMQ1uvZqcsnlaXUXO4L0vwOX3lbMF4Gs2ftJUOSz5OvM_LNCvxuO2YdePNXOjXEHjvT_UzJXUxcP9n6yGo4leNDvVZ_5lWFPj3O8JRqmxFMQTa7n5Ikliqk3mlrNp44awtVsOYtYkccBJdGOSF96Yp"
+      },
+      {
+        "label": "clearbridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZrRnphA6llZ0Y8WDco1JHrBR0xuR2olxqjWaz555cAGwgVtmBcJtahHabuPMQ1uvZqcsnlaXUXO4L0vwOX3lbMF4Gs2ftJUOSz5OvM_LNCvxuO2YdePNXOjXEHjvT_UzJXUxcP9n6yGo4leNDvVZ_5lWFPj3O8JRqmxFMQTa7n5Ikliqk3mlrNp44awtVsOYtYkccBJdGOSF96Yp"
+      },
+      {
+        "label": "clearbridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZrRnphA6llZ0Y8WDco1JHrBR0xuR2olxqjWaz555cAGwgVtmBcJtahHabuPMQ1uvZqcsnlaXUXO4L0vwOX3lbMF4Gs2ftJUOSz5OvM_LNCvxuO2YdePNXOjXEHjvT_UzJXUxcP9n6yGo4leNDvVZ_5lWFPj3O8JRqmxFMQTa7n5Ikliqk3mlrNp44awtVsOYtYkccBJdGOSF96Yp"
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrkh0rAfrEfnzQMpRvDBbkFydGpvntcpcoH90_5GUc4GkHrce9YVkyc_OTQp-D-Qb6LoUMcJIs2VNvoyHKKFLhwE3F4wtEYkSUkitZeaqtRkRmJl9-PjABUdGDHwXq82o8xolQVJzHuPvStNN69VJvQc8S3dXiOqaKtiqwFAM3pxrEYjOfqcBzDf0kxXhYYZOCkMhtmlJnYDQUwT3qXw4t8_6IsZ3Y43PHgF9lSl6SFfeffLkW-IP09JEnvB3v2aAPoQA6bJWctFIFSwy4HHosoCs81M-8O7w3DH0i1fW_QBJvfXqyswMzbRg8Gw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1UnNzP03kfHDAUw0jg2ipcsE1kzKzrBg4pKj3SKEd8LudhtfuY0u-VIaoiMkmEQD5iOOKQR3PCE4whpDPDSgCZFs29DsRR_V6ktrnjQYoSi9xm7D-WlGX2ffBsBSnslyMDA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwwtQqLb6l7UNL-LxCIMeGHlzMp76G7d2nwTj9FNiktyYbAOw5dnwG9DHKVD1PsDPbnvt-0ykboHyECtzWKoSs3mpBGcIpf1nOIOvxyaDdvVGg0JnJ_2PdU0ZQaDRtVeUHDTFowmrHgOiWksfZCkOCvIofbtcKqTnStIJ2_JUitVTUAsODtcH7lg6HNd43iCpM-YE="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwwtQqLb6l7UNL-LxCIMeGHlzMp76G7d2nwTj9FNiktyYbAOw5dnwG9DHKVD1PsDPbnvt-0ykboHyECtzWKoSs3mpBGcIpf1nOIOvxyaDdvVGg0JnJ_2PdU0ZQaDRtVeUHDTFowmrHgOiWksfZCkOCvIofbtcKqTnStIJ2_JUitVTUAsODtcH7lg6HNd43iCpM-YE="
+      },
+      {
+        "label": "japantimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdyEhNJagmXLFkHHdrJ3AtlnxMG_gkZBgDVJ-9ilUKl5_K3D7kE9XngBYejMp7TgqiCUtWv61Oifp_MTFJ8LnYrIIdL3hJbaDsQ-UvmaBSw6VQY3uuhCSsrpute9bjLVGZ3oXDnV118CeZ_XcSksaLIEYD7IMSalQF51dJK7WmAN8gkfgykQrcVo_g42OwU6sOeBUt_ks="
+      },
+      {
+        "label": "clearbridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZrRnphA6llZ0Y8WDco1JHrBR0xuR2olxqjWaz555cAGwgVtmBcJtahHabuPMQ1uvZqcsnlaXUXO4L0vwOX3lbMF4Gs2ftJUOSz5OvM_LNCvxuO2YdePNXOjXEHjvT_UzJXUxcP9n6yGo4leNDvVZ_5lWFPj3O8JRqmxFMQTa7n5Ikliqk3mlrNp44awtVsOYtYkccBJdGOSF96Yp"
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfFJ0GWT4rQ89bxX5bb7LXYJCHaLHa-ypjSDLwMKh7tr2PGop0xQAeh2NbtZPfNZjdjLSWpM7TRFQ84MgRvsYzoLBxIdUmOgZGlgRX3Mr_uaVhSB5Oxsqf343os3s1M9B83A=="
+      },
+      {
+        "label": "hermes-investment",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA=="
+      },
+      {
+        "label": "japanlawguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIVdLZwIoYjqJq3m_D-2TB6rgw90XKkPfMuRLipPoaq79bEMBLs-yfByHcODWJWIjsadKs5ARqcMI98fFV46LjlXcS2gvY5c5DCfTzOn6Pt_8Kj-z1impAnJfddD5Vp4vfRMHagjajwA=="
+      },
+      {
+        "label": "japanlawguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIVdLZwIoYjqJq3m_D-2TB6rgw90XKkPfMuRLipPoaq79bEMBLs-yfByHcODWJWIjsadKs5ARqcMI98fFV46LjlXcS2gvY5c5DCfTzOn6Pt_8Kj-z1impAnJfddD5Vp4vfRMHagjajwA=="
+      },
+      {
+        "label": "morihamada",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3kSrdCVMX5UCkr6BltDfKDPCK1QaXdIoahsx71FEAJfB95YFxQLZrS7FkF3eysU710Mjs1eaIsYtRbVJaPxyKSm_yWUijhzf-DLf-R-65dr74WFF6_utPZxM9FijJuIduI4bNFPBRRriB8mkPZIJTFiFf-hbpmAbMxq7w0MoPDraJWZ6jMYvFcu411NXobtcKiki3r9FMw8Z27UxzcoZ-wsl_yOi8V2A4SpS0smn-iM27RkSnMSo6EnaLxmEJQvpg7nF6Y_dyjT5Y8C_XHJW2odyQMxg90F7xseYFwwldtIRRfw=="
+      },
+      {
+        "label": "morihamada",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3kSrdCVMX5UCkr6BltDfKDPCK1QaXdIoahsx71FEAJfB95YFxQLZrS7FkF3eysU710Mjs1eaIsYtRbVJaPxyKSm_yWUijhzf-DLf-R-65dr74WFF6_utPZxM9FijJuIduI4bNFPBRRriB8mkPZIJTFiFf-hbpmAbMxq7w0MoPDraJWZ6jMYvFcu411NXobtcKiki3r9FMw8Z27UxzcoZ-wsl_yOi8V2A4SpS0smn-iM27RkSnMSo6EnaLxmEJQvpg7nF6Y_dyjT5Y8C_XHJW2odyQMxg90F7xseYFwwldtIRRfw=="
+      },
+      {
+        "label": "morihamada",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3kSrdCVMX5UCkr6BltDfKDPCK1QaXdIoahsx71FEAJfB95YFxQLZrS7FkF3eysU710Mjs1eaIsYtRbVJaPxyKSm_yWUijhzf-DLf-R-65dr74WFF6_utPZxM9FijJuIduI4bNFPBRRriB8mkPZIJTFiFf-hbpmAbMxq7w0MoPDraJWZ6jMYvFcu411NXobtcKiki3r9FMw8Z27UxzcoZ-wsl_yOi8V2A4SpS0smn-iM27RkSnMSo6EnaLxmEJQvpg7nF6Y_dyjT5Y8C_XHJW2odyQMxg90F7xseYFwwldtIRRfw=="
+      },
+      {
+        "label": "japanlawguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIVdLZwIoYjqJq3m_D-2TB6rgw90XKkPfMuRLipPoaq79bEMBLs-yfByHcODWJWIjsadKs5ARqcMI98fFV46LjlXcS2gvY5c5DCfTzOn6Pt_8Kj-z1impAnJfddD5Vp4vfRMHagjajwA=="
+      },
+      {
+        "label": "japanlawguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIVdLZwIoYjqJq3m_D-2TB6rgw90XKkPfMuRLipPoaq79bEMBLs-yfByHcODWJWIjsadKs5ARqcMI98fFV46LjlXcS2gvY5c5DCfTzOn6Pt_8Kj-z1impAnJfddD5Vp4vfRMHagjajwA=="
+      },
+      {
+        "label": "japanlawguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIVdLZwIoYjqJq3m_D-2TB6rgw90XKkPfMuRLipPoaq79bEMBLs-yfByHcODWJWIjsadKs5ARqcMI98fFV46LjlXcS2gvY5c5DCfTzOn6Pt_8Kj-z1impAnJfddD5Vp4vfRMHagjajwA=="
+      },
+      {
+        "label": "japanlawguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIVdLZwIoYjqJq3m_D-2TB6rgw90XKkPfMuRLipPoaq79bEMBLs-yfByHcODWJWIjsadKs5ARqcMI98fFV46LjlXcS2gvY5c5DCfTzOn6Pt_8Kj-z1impAnJfddD5Vp4vfRMHagjajwA=="
+      },
+      {
+        "label": "hermes-investment",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA=="
+      },
+      {
+        "label": "tandfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM8aMay0_Ve1OCU35ljRrbIYHCAJA6IKaHJF69Qcwdc20ZoaWWdG_YjlH8yGkvc72WK1BQaLTobb4NU0dlH5qL65VdavDzL9l8RlyN4-IegIRZ38252l4WYE6bY_lgRtzLaiwFlzE8Q-ifiIPQyBO1Kd3uRdmhBf9dJSjRVg=="
+      },
+      {
+        "label": "citigroup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZR84mWDiVdPhvkXsaC_W5O-fQteMhtaOgXI8y5d1qVsU3FEq-4risLY2vuSR9ZRsKeNYN3I8dMoX8u4sAN-leqr1tBhe0hAVZ-83_QZMpCEt4bVZ3qa1glN_GQGgvGI4x5eM6S8qpvJj5e1Xjah_Oj-jkOnOLUAnBDgMTjBJ9FSZo-8XJqsMuWC3PnWXPe9fEew0="
+      },
+      {
+        "label": "citigroup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZR84mWDiVdPhvkXsaC_W5O-fQteMhtaOgXI8y5d1qVsU3FEq-4risLY2vuSR9ZRsKeNYN3I8dMoX8u4sAN-leqr1tBhe0hAVZ-83_QZMpCEt4bVZ3qa1glN_GQGgvGI4x5eM6S8qpvJj5e1Xjah_Oj-jkOnOLUAnBDgMTjBJ9FSZo-8XJqsMuWC3PnWXPe9fEew0="
+      },
+      {
+        "label": "globallegalinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7Ic_EmCevYFJDNB3mUgE_66vs3nQhyGqo-uR0BHIVEphgSr-PLDMO-xH57ZvKs7wmmW5TIHBNctSO15Dp6N11Nw59vOnbA4nckpcaRzdafZ4badfoEYsqart-preE-RtVZnDx6gfzvV_8myaZrzyAWctAxnlU66QnL_8QBdwiGkgIy52E_rwkTyI0RGgxbQF8Pk0r_QHB7plQlBVgmGt7Hng="
+      },
+      {
+        "label": "hermes-investment",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA=="
+      },
+      {
+        "label": "hermes-investment",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA=="
+      },
+      {
+        "label": "morihamada",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3kSrdCVMX5UCkr6BltDfKDPCK1QaXdIoahsx71FEAJfB95YFxQLZrS7FkF3eysU710Mjs1eaIsYtRbVJaPxyKSm_yWUijhzf-DLf-R-65dr74WFF6_utPZxM9FijJuIduI4bNFPBRRriB8mkPZIJTFiFf-hbpmAbMxq7w0MoPDraJWZ6jMYvFcu411NXobtcKiki3r9FMw8Z27UxzcoZ-wsl_yOi8V2A4SpS0smn-iM27RkSnMSo6EnaLxmEJQvpg7nF6Y_dyjT5Y8C_XHJW2odyQMxg90F7xseYFwwldtIRRfw=="
+      },
+      {
+        "label": "ecgi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-WZvM6W5InSPeDCMt3Hthe0zPdfTAJpcjtaCVbEfMr9CAWsQJcyoB1_41gVGr27C2u7kFLmfBNTgwZy99x24zsOocNPEBjefRwPGtEvTZh3Ymr9gbrjyiwOiUm-CFcg4e-YXA2Q5IYiUVgeOIifZ8g1g-tYY4EAXdvtgXv19qKvKhuxaMvxvE3eTCQ7EE4vAy0E-imv7NcI4-YBWO7Gb9dqkrJLfkZU_xOiiQkIwBM8MA1w=="
+      },
+      {
+        "label": "citigroup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZR84mWDiVdPhvkXsaC_W5O-fQteMhtaOgXI8y5d1qVsU3FEq-4risLY2vuSR9ZRsKeNYN3I8dMoX8u4sAN-leqr1tBhe0hAVZ-83_QZMpCEt4bVZ3qa1glN_GQGgvGI4x5eM6S8qpvJj5e1Xjah_Oj-jkOnOLUAnBDgMTjBJ9FSZo-8XJqsMuWC3PnWXPe9fEew0="
+      },
+      {
+        "label": "man",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3k9fhJzycO9BHGJeNUlvSGkNoW0iC6TskX6pp-OGI7sm4xto6HF_uDyAsVrJpCvEfbGQbTbB8CeEBawLKYO1zatNgoLVaHG5CqrET969TSwodme89Vkpznr8RVbDjcvsONdxTJkiK8OhqXq3HCQLqIYeHgSLAPEE7HqikWw=="
+      },
+      {
+        "label": "clearbridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxmBRKfVCw1Xt-tExCw1wINQ8d8FzmhbUyqmCqG_aIZDL786hZpSY46RuxJoV1rkUpZYwlF9St6aMK_D4p1Ewx5u6SG7jft_7gteTaYqu-sb3oj77PNbhUEWfer51SfthecHMXdM7bBqbFS7A2nsuAup1Eb-_-80LLexrn-TXnQy5-wUdU9F0FUNF7gl9ehShbhAWSoMEC8khO15E_"
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfFJ0GWT4rQ89bxX5bb7LXYJCHaLHa-ypjSDLwMKh7tr2PGop0xQAeh2NbtZPfNZjdjLSWpM7TRFQ84MgRvsYzoLBxIdUmOgZGlgRX3Mr_uaVhSB5Oxsqf343os3s1M9B83A=="
+      },
+      {
+        "label": "alliancebernstein",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxxq9EIm9ddexe52ZTBhuhReHfUPjGeRtqGkaxMZGHZ_trqhh-Ug5F7WWJlymvx5EiBJn9IzFAiNOSsU-93UHv34GvX8wO0MUmqIjSPbJv4BA1moMZHXADW8DemalMtdpzrNzeQEWmTPf6OBxcf8ZdAbyBR_6rCsLA_YX-hXBG1jGavtlhG09pStt6EArbd_Hs7kwVJCjoUFTSz3kwZrfv5_rc0PDzMK3Jpl9Sl7_zAa2uQ2AwdXd2py-7S1Payb_Zm5XfvDmolfGL2t7MN5E_rzz6Plu_qZ3JZs4="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfFJ0GWT4rQ89bxX5bb7LXYJCHaLHa-ypjSDLwMKh7tr2PGop0xQAeh2NbtZPfNZjdjLSWpM7TRFQ84MgRvsYzoLBxIdUmOgZGlgRX3Mr_uaVhSB5Oxsqf343os3s1M9B83A=="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfFJ0GWT4rQ89bxX5bb7LXYJCHaLHa-ypjSDLwMKh7tr2PGop0xQAeh2NbtZPfNZjdjLSWpM7TRFQ84MgRvsYzoLBxIdUmOgZGlgRX3Mr_uaVhSB5Oxsqf343os3s1M9B83A=="
+      },
+      {
+        "label": "fsa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6s6xHbRwmhkJ5A1o4o_Uaxpj3qIBH13Y10BGgUdboS_Bx9j6NFA6TmbU0uaKlLqKjx2K-auZt6h4yHxkCyBbhGHFw9cViZZEGoyX2CdIM0BFDmawunkWxhXwCfgmKs5U6yMHHdL715xhOtRq0BMNC1sUirzSZjwJSjh8gaRQ="
+      },
+      {
+        "label": "man",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3k9fhJzycO9BHGJeNUlvSGkNoW0iC6TskX6pp-OGI7sm4xto6HF_uDyAsVrJpCvEfbGQbTbB8CeEBawLKYO1zatNgoLVaHG5CqrET969TSwodme89Vkpznr8RVbDjcvsONdxTJkiK8OhqXq3HCQLqIYeHgSLAPEE7HqikWw=="
+      },
+      {
+        "label": "man",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3k9fhJzycO9BHGJeNUlvSGkNoW0iC6TskX6pp-OGI7sm4xto6HF_uDyAsVrJpCvEfbGQbTbB8CeEBawLKYO1zatNgoLVaHG5CqrET969TSwodme89Vkpznr8RVbDjcvsONdxTJkiK8OhqXq3HCQLqIYeHgSLAPEE7HqikWw=="
+      },
+      {
+        "label": "economictimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1NMQmb3f31Vk87bugHRqv5m9G0UAIRIo1wxiVj5zt6T_hXqpiJSEbumvKY9rpeXZyKwpCb7YCGbmqHFmepdztY7hWJFhVegNzVojg9BsNtpaku2FxJtU2SaeIfgquo9GVR8lUO_qnn3jHHOtjn2QUJDSBvHX7edr8yHTglhRcvVebcORlYWOPVYoHKK5S4SiiEsWwjnnyQ6THrp6vhXDfL6j5x_ie_Z5SYey0cM5Qhn4B_-316pwQu83CVKNrwe9hiYLOFno3JoHTNHkmDf8ZyvqKPVbfkp7iKDBJnoT2cNPQBAk="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyutf_OiXS_bO4rSq9SibE86EPEyBryqKe0E7KCrrtuIXP-eLOVKgn729YlqlcAg8DzAVsXf4eSoMcUcZ5o07BgG0AijtV5LjDkpRiQxKUCiCUKgkO5JjqBUJmsd96oou7I3cilnScwT616tVZWkIsYjiAINlQwdZLZRGmPngg4xEJNz1OCUl28iBy-6o2MDYc1MMmrazNzJOdsbo="
+      },
+      {
+        "label": "economictimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1NMQmb3f31Vk87bugHRqv5m9G0UAIRIo1wxiVj5zt6T_hXqpiJSEbumvKY9rpeXZyKwpCb7YCGbmqHFmepdztY7hWJFhVegNzVojg9BsNtpaku2FxJtU2SaeIfgquo9GVR8lUO_qnn3jHHOtjn2QUJDSBvHX7edr8yHTglhRcvVebcORlYWOPVYoHKK5S4SiiEsWwjnnyQ6THrp6vhXDfL6j5x_ie_Z5SYey0cM5Qhn4B_-316pwQu83CVKNrwe9hiYLOFno3JoHTNHkmDf8ZyvqKPVbfkp7iKDBJnoT2cNPQBAk="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyutf_OiXS_bO4rSq9SibE86EPEyBryqKe0E7KCrrtuIXP-eLOVKgn729YlqlcAg8DzAVsXf4eSoMcUcZ5o07BgG0AijtV5LjDkpRiQxKUCiCUKgkO5JjqBUJmsd96oou7I3cilnScwT616tVZWkIsYjiAINlQwdZLZRGmPngg4xEJNz1OCUl28iBy-6o2MDYc1MMmrazNzJOdsbo="
+      },
+      {
+        "label": "morningstar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi_6ONEgrZLZwAWUrQJ7NYLc9bJTx8YieyrjCAznCeFY4irQRTCVJ6DfmAZqkcADUzaqNWkHssHeXaiDavEoVUA4YvzSKTJNAhyXxhwxQNaVlMhQ4rQk-X0-F_hpIfdxxTG1EG6xqkYH-1x7Q4APE7Swr8rhCgFHdpMw6CW-Svmvu28eHvdbtmYt6SN3gu4CbF"
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJk1QYNMikh72k88Df64EnOR8XYuExQ9payW2hFF-2Te3ATTRNOMinuXhhI_xwEYIBbwHY5c1O67f1cqOocWoM6izcjjXeZkmncH3fvEBMIR-FZLGYyOm1ccgSHyetxJozdFuXjfT6i6onWNP-RgWnk7CrB6huN_zYTnOuF-o75W8b"
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJk1QYNMikh72k88Df64EnOR8XYuExQ9payW2hFF-2Te3ATTRNOMinuXhhI_xwEYIBbwHY5c1O67f1cqOocWoM6izcjjXeZkmncH3fvEBMIR-FZLGYyOm1ccgSHyetxJozdFuXjfT6i6onWNP-RgWnk7CrB6huN_zYTnOuF-o75W8b"
+      },
+      {
+        "label": "hermes-investment",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA=="
+      },
+      {
+        "label": "tandfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM8aMay0_Ve1OCU35ljRrbIYHCAJA6IKaHJF69Qcwdc20ZoaWWdG_YjlH8yGkvc72WK1BQaLTobb4NU0dlH5qL65VdavDzL9l8RlyN4-IegIRZ38252l4WYE6bY_lgRtzLaiwFlzE8Q-ifiIPQyBO1Kd3uRdmhBf9dJSjRVg=="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyutf_OiXS_bO4rSq9SibE86EPEyBryqKe0E7KCrrtuIXP-eLOVKgn729YlqlcAg8DzAVsXf4eSoMcUcZ5o07BgG0AijtV5LjDkpRiQxKUCiCUKgkO5JjqBUJmsd96oou7I3cilnScwT616tVZWkIsYjiAINlQwdZLZRGmPngg4xEJNz1OCUl28iBy-6o2MDYc1MMmrazNzJOdsbo="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6F3ffLPnG4239_1-RY_u6vozE0CAZNEC3kOhEv0urQmqc3tWfyFca77cDvElZ0hGpC9gQHU_AwnwrIsdpbyXsB_Y6x7vKo-C6ViWC3mUWKh2al3Ha5LZKFxUFf5Nn0C8V89HOtJ6blx6XkDduA=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhskQbQ3vp5zaCl3RvQvdJcXne9lOrbHqBYL2c1tcRtawOv-1WEBJkjNgZBXjwHcP41C7aEq5A-LNewoAQOuCa8NivpYtYIyvRqBgCceRrC655Ex8IJigx7kLx7-rw3ces9d-aLHKspd3EFDGs2gAc1xfd9w=="
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhHh3KmyEniKeN-BZVVjxPpil-CceQOyywKOmc3-WSIottClgB5x33BrgPk3TVbmFn6XJYNDEWnklV_L8zc8uGUD_tyc8MMldAIuzFEIVn_mLI5VxlSHnxY5P3m9cvAgc6K2XOky2QBV-EDCuqOGzV5GJFRs7thAd8np2kIaxKodYB_w=="
+      },
+      {
+        "label": "goodauthority",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvdRCv5DjdUgn4I_mXstjvH61zqY7NsEXqrvQNyKKcsw7ShrFJ8sifSR9ZCdk9OU9UL-PszcwhtbO32uRB3TQ-oUY_hu5qdrcT2o4D60oaiL4n__yRgXavJLqB1YcNI-nki5Z91uvOBKWbaKHwEg_6K74XZ9n-2Dh7yU5dCr1yElZl7G91U4FDd9myGNw5j0u3Og=="
+      },
+      {
+        "label": "wisdomtree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6FCxAkWlD1uhKa1HB_kqFE5FcI096kFm4pjib-1qZTqUUHSYG60zG2RCwuy8TJ8FUeC-i7NOc4WlyUtjHlALEKbG2oC3H_uBTWRwL_m2rGzxySUz75g1PRZRt3qRxspzLgEu6AIbLfaa0OMA1TGSBgNfYDTeJl4DCe0y27po0CH7ZERjwtQISTj6DYcV15QEtWqeX5nVLMYWZhD0="
+      },
+      {
+        "label": "columbiathreadneedle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdWAHS8ch4iX7kNkzgKy8z3aJgU9ixjTxfl4BJ6aTGGC9A6fziy224wYza9-_wWb8ys5-cAMQzMN9fs5nu3-87jxRQ2ovCdblWnzooxeOcEaIpvyYvZ9GQB-PeWUJ5mUzxt7HYOcKE033uBtFKnvV1cLz1Xs2RZ_hqCLFqiHh7B7trM4aw0hYq4vcMM6er-cHB3tfXBwN4dYV2QYOyX3PzEbWtC-7"
+      },
+      {
+        "label": "berkshirehathaway",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkROpolWrbBergxhLTE3wURgD-BN3kf-mvLcPucV1Iq9fUa5aMZG_Hl1MgwHCPL2xNJP2a6tod3VBIQKeY9ybd2GLmsn3NlWWI_IyqwILnX8JVSZHIh-Z7-UW7xSXWF2IcnJWnigj8BpO1Fe-e"
+      },
+      {
+        "label": "cnbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwgyDN0Z2JJ3YbtUh3OOSd8RSl303m8zUitqgWEmzNMbqnDfd4pcx0vTUOcVRIPXKm4NDY4wCxVsJCMeKOZRn32nPgMM9mh849XrMJOdiz-txcL_MhOsSJffzepL0Ytso="
+      },
+      {
+        "label": "observer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHS-eLju5FarEdLBUvmWSEXOHZHeGymHAPpg67Q4S3V5zIEGxR4TYNEVCZcKbaD_xL4jkUERpBEKY4Y84DaI_Hll6hkvagO22-DWv_GYfQ35gsTE__Dc0A2O-_HpdKTwDZjFNbzO-oI_zYbUVwe-eff_LZlI9"
+      },
+      {
+        "label": "investopedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd1UQa8I4D2VLv4HJnR0SCkJKHVmyv-yt98uS7kpby2JLTr2TKSHiaLCdLevg8aueQgtbOzR_X5s08-1qDbPRcn732vUYz3t63LWA1D9TG0Mvw2ASm7lUHdAmibmK0QzSYgWZ4B20msKNrjKTI4xvwQgEP51voOXBq2OHZ5XSnuXiZeEJtpl0_1iB-nVwkooTTKwsO_SV1SmQu"
+      },
+      {
+        "label": "cuny",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFowwcgphyHXrsDHaGx_1DG_zJl38fPdOQUpnL3b9fjy-es4RZ0cuTVoEsmu6SlOrtY1rcCKAR_3gQiYmFUvEeupZyfk-rSBl31t_2V93UF6EIsaXeobdqbq1fCuH9ySsfSWcem_zujQ-YqNHXyFNqTq6r2-uSRsxxrsuAWo8TFqZGzOCiM4_HGUB-0pnfpWhysdJ_zUlBnSI3rnUflAKshh0R7YkD8FK_WEOgZEnMuqCv5FcITkM4aOqxV-YHu4kXYmiXPQ615DDzjUbf6D0dyC6KQhKGLrmbvRJIbiWwdTbEFwl7RNuCH"
+      },
+      {
+        "label": "japan-forward",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiRQC8CVhTbHZyV9QVx75Pmpc_YPeDYDDKIqz8I0RlSM9xQbyiAE2vBiowbLFFxr2BwZ5naHOXWdDxhhnFSl0w-DjsxNzfNZC9BPl4ag0Sq3LUH8xrgnNomAuDGIJUCNR4BEJLeBuoZB7jY06AKBbgaWvrxXOQZtGy8G7vplvQJTYiAgTdyXk1x_J9D0xwDRuTvVi50EKGFjltkq4U3O1yhbEvM9ssOMTFA1isqasW_A=="
+      },
+      {
+        "label": "janushenderson",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHihVWyaFtwTmvjJqrnb_QrIYob8BRLKkTcGFqpfPJftoGogjrbbC-dIDBY28iF2YbKVHHN3WFC6iFvpth9RFlSJ6Ac9u_4QXJKkJXfMjbHBlqE3c8FMdswzDu6u8h3uDMgIYKxCEKyy6L2oYo4kEUQrGSXffVRDqXIcK2QZ5pIa-AW7EpE4t4_6Ui0i_Oddy8Et-wyT-iZ0c7-uGTMKgR4O_etkPxnoqEzLoJe4wZ9l-JZPzOv0VIeZgN7qQ=="
+      },
+      {
+        "label": "investmentweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_D9MGhNj4ph-9BfTTlqxn_7u95JaP-f92r8VnYfYEmZ0xK3H-UKYWc-cwVQT43O5e-MY4Nt3_VFHJzD2MtIpvRTJW4opn2md0LSCUsNFfunWGg9WvQV2Yjr0KtOK8395Ei16yxFLBiuhUuVGRkg9k_PJWZx0RwUXoRUhRxAJjLbX2E809R08="
+      },
+      {
+        "label": "brookings",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDz_Gzy2EeSlvb_R0e834X5ewFIdRpvn3r5PTUbuabk3_YI4PTSN8K_whHDq4JU6DDFDz5UhiC2SlbOoykZdpzGOyS59F6syx7DgOOD3zPWD3yjH8ShFFmjBxHOaI9jAnJzH30xbip77uu3TwE68zDWNYrL53q2cqG7C98fYOTvqSpTwjQK6r3BQ=="
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrkh0rAfrEfnzQMpRvDBbkFydGpvntcpcoH90_5GUc4GkHrce9YVkyc_OTQp-D-Qb6LoUMcJIs2VNvoyHKKFLhwE3F4wtEYkSUkitZeaqtRkRmJl9-PjABUdGDHwXq82o8xolQVJzHuPvStNN69VJvQc8S3dXiOqaKtiqwFAM3pxrEYjOfqcBzDf0kxXhYYZOCkMhtmlJnYDQUwT3qXw4t8_6IsZ3Y43PHgF9lSl6SFfeffLkW-IP09JEnvB3v2aAPoQA6bJWctFIFSwy4HHosoCs81M-8O7w3DH0i1fW_QBJvfXqyswMzbRg8Gw=="
+      },
+      {
+        "label": "japantimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdyEhNJagmXLFkHHdrJ3AtlnxMG_gkZBgDVJ-9ilUKl5_K3D7kE9XngBYejMp7TgqiCUtWv61Oifp_MTFJ8LnYrIIdL3hJbaDsQ-UvmaBSw6VQY3uuhCSsrpute9bjLVGZ3oXDnV118CeZ_XcSksaLIEYD7IMSalQF51dJK7WmAN8gkfgykQrcVo_g42OwU6sOeBUt_ks="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfFJ0GWT4rQ89bxX5bb7LXYJCHaLHa-ypjSDLwMKh7tr2PGop0xQAeh2NbtZPfNZjdjLSWpM7TRFQ84MgRvsYzoLBxIdUmOgZGlgRX3Mr_uaVhSB5Oxsqf343os3s1M9B83A=="
+      },
+      {
+        "label": "hermes-investment",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8pOyJC6h2X_yDKj5lTwjlAh8DNKue-ksUT0TXLzdAMw0YbaJ-ey8JTWUwzx5JMLaLvWdmBmczdDOyD2hm_mSnKM7Vcwpt5Ysiybpjwr14X8Mp1N_AjbvjzEVJM84h82Hbfk4o7ziE9HSiirMmu91qqmP24pFp-20imXGuWYec_mCjEg7FP_Fw91r1qqR8YoDxZwq8lN-GetjEwIoXhU5RE2WNwBwrwYiGGiSmHA=="
+      },
+      {
+        "label": "japanlawguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIVdLZwIoYjqJq3m_D-2TB6rgw90XKkPfMuRLipPoaq79bEMBLs-yfByHcODWJWIjsadKs5ARqcMI98fFV46LjlXcS2gvY5c5DCfTzOn6Pt_8Kj-z1impAnJfddD5Vp4vfRMHagjajwA=="
+      },
+      {
+        "label": "tandfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM8aMay0_Ve1OCU35ljRrbIYHCAJA6IKaHJF69Qcwdc20ZoaWWdG_YjlH8yGkvc72WK1BQaLTobb4NU0dlH5qL65VdavDzL9l8RlyN4-IegIRZ38252l4WYE6bY_lgRtzLaiwFlzE8Q-ifiIPQyBO1Kd3uRdmhBf9dJSjRVg=="
+      },
+      {
+        "label": "citigroup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZR84mWDiVdPhvkXsaC_W5O-fQteMhtaOgXI8y5d1qVsU3FEq-4risLY2vuSR9ZRsKeNYN3I8dMoX8u4sAN-leqr1tBhe0hAVZ-83_QZMpCEt4bVZ3qa1glN_GQGgvGI4x5eM6S8qpvJj5e1Xjah_Oj-jkOnOLUAnBDgMTjBJ9FSZo-8XJqsMuWC3PnWXPe9fEew0="
+      },
+      {
+        "label": "clearbridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxmBRKfVCw1Xt-tExCw1wINQ8d8FzmhbUyqmCqG_aIZDL786hZpSY46RuxJoV1rkUpZYwlF9St6aMK_D4p1Ewx5u6SG7jft_7gteTaYqu-sb3oj77PNbhUEWfer51SfthecHMXdM7bBqbFS7A2nsuAup1Eb-_-80LLexrn-TXnQy5-wUdU9F0FUNF7gl9ehShbhAWSoMEC8khO15E_"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

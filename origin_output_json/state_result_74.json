@@ -1,0 +1,195 @@
+{
+  "file_name": "state_result_74.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.793839",
+  "data": {
+    "messages": [
+      {
+        "content": "What does the Ontario building code requires when it comes to spacing between electrical outlets in residential dwellings",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "89a166cb-8051-491b-9d50-17fdf95eb65f",
+        "example": false
+      },
+      {
+        "content": "The Ontario Electrical Safety Code (OESC) regulation, updated in 2024 and effective as of May 1, 2025, includes the Canadian Electrical Code, Part I, with Ontario-specific amendments [esasafe](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN8SFoG9M8xUyJh_tSLeJqQ1nS9mwWZe1Z0HcAyYGK3JdVNWc1ONRA5X7e35ibStsWRFdcx9JU1ZOGkmJvla_rULrZYc7X4PE5ftQU59LwWYLI_prCtfA6AA==) [newswire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWDTIcvXEgr_KTbY1tJvV6E_RllScoOa0XCxpbBbiTEZYDi-kn_3kZw9jCGBUCULcMpOZLF941VjvPWeD3xOvAlnAwwcuLPvUYt3OEkf-kpP6lNKQ9T4J_q3wk9bG5IxtmfKMWf4Txz_SCf6Zq73uk-FxqKBDFTmUda2LNSvDDI4g4RzUZLO2pxFfj8rtXmFiub1oXHj1SCOf3tQ38kLDVBzQTQ==). Here's what it generally requires for electrical outlet spacing in residential dwellings:\n\n*   **General Areas:** In living rooms, family rooms, bedrooms, and hallways, receptacle outlets must be installed so that no point along the floor line of any wall space is more than 1.8 meters (6 feet) horizontally from an outlet [thespruce](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U=) [strathcona](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg=) [nachi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH21couP6GXkRyyXNdy96vcVbzjQmZWeia4u9rVoAngUmqtS7DDRFWldl2qOVNAzoKIuJB5oVnHIiqAmG-c2OJaIH0mc31nGuIPDuW9DgKmuSq9yQuYWqtnX2V-eF-5VODbcJqss7DeauAkpCU470QXLHzSchegmDue). This applies to wall spaces of 900 mm (3 feet) or more in width, excluding doorways, windows extending to the floor, fireplaces, and other permanent installations [strathcona](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg=). An outlet is not required for walls less than 24 inches wide [thespruce](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U=]. Hallways exceeding 10 feet in length must have at least one electrical outlet [thespruce](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U=).\n*   **Kitchens:** Outlets should be spaced no more than 1.2 meters (48 inches) apart, ensuring no point on the countertop is more than 610 mm (24 inches) from a receptacle [thespruce](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U=) [nachi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH21couP6GXkRyyXNdy96vcVbzjQmZWeia4u9rVoAngUmqtS7DDRFWldl2qOVNAzoKIuJB5oVnHIiqAmG-c2OJaIH0mc31nGuIPDuW9DgKmuSq9yQuYWqtnX2V-eF-5VODbcJqss7DeauAkpCU470QXLHzSchegmDue). Any countertop 305 mm (12 inches) wide or more should have an outlet on the wall behind it [thespruce](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U=]. Outlets should not be higher than 508 mm (20 inches) above countertops [thespruce](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U=]. It is recommended to have a dedicated counter receptacle for every 914 mm (3 feet) of usable counter space [multitradebuildingservices](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZ2egJp7ymMnCwQl5ZwnMh46PEv483LbwHH_WFZyhzlFP2Xa4BlxpmI4v82A5jre2ocX79LkZt_tpoZ6I-E5drZVtELc3Av-sPTqfgGjUf5DNsjGAvZ_jNCBj91tZ0o2XxNqcUCK3OccjQqNuePR5ColTTPo_M1cn0pFnYauhPxxz-hvI5JLGdfxk4cVK3B1FhEQ6LwQYe8zESw==).\n*   **Bathrooms:** A ground fault circuit interrupter (GFCI) is required for outlets within 1.5 meters of a water source [multitradebuildingservices](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZ2egJp7ymMnCwQl5ZwnMh46PEv483LbwHH_WFZyhzlFP2Xa4BlxpmI4v82A5jre2ocX79LkZt_tpoZ6I-E5drZVtELc3Av-sPTqfgGjUf5DNsjGAvZ_jNCBj91tZ0o2XxNqcUCK3OccjQqNuePR5ColTTPo_M1cn0pFnYauhPxxz-hvI5JLGdfxk4cVK3B1FhEQ6LwQYe8zESw==]. A GFCI-protected receptacle must be within 1 meter (39 inches) of the wash basin [strathcona](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg=) [multitradebuildingservices](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZ2egJp7ymMnCwQl5ZwnMh46PEv483LbwHH_WFZyhzlFP2Xa4BlxpmI4v82A5jre2ocX79LkZt_tpoZ6I-E5drZVtELc3Av-sPTqfgGjUf5DNsjGAvZ_jNCBj91tZ0o2XxNqcUCK3OccjQqNuePR5ColTTPo_M1cn0pFnYauhPxxz-hvI5JLGdfxk4cVK3B1FhEQ6LwQYe8zESw==]. Receptacles cannot be located within 500 mm of a bathtub or shower. Receptacles located 500 mm to 1 m from a bathtub or shower must be of a Class A type [strathcona](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg=].\n*   **Other locations**: Exterior plugs should be GFCI-protected and have weatherproof covers [multitradebuildingservices](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZ2egJp7ymMnCwQl5ZwnMh46PEv483LbwHH_WFZyhzlFP2Xa4BlxpmI4v82A5jre2ocX79LkZt_tpoZ6I-E5drZVtELc3Av-sPTqfgGjUf5DNsjGAvZ_jNCBj91tZ0o2XxNqcUCK3OccjQqNuePR5ColTTPo_M1cn0pFnYauhPxxz-hvI5JLGdfxk4cVK3B1FhEQ6LwQYe8zESw==]. Receptacles located on the dwelling including attached carports and attached garages are to be protected by a GFCI [strathcona](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg=]. All receptacles (except for automobile heater receptacles) installed outdoors and within 2.5 m of a finished grade shall be protected by a ground fault circuit [strathcona](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg=]. Attached garage receptacles need to be tamper-resistant and have arc-fault protection [strathcona](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg=].\n\nKeep in mind that local residential electrical codes can vary, so it's always best to confirm specific requirements with your local building permit department [thespruce](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U=).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "1ae49c93-438f-4b37-8e03-b2ae47866d8d",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Ontario building code electrical outlet spacing residential dwellings"
+    ],
+    "web_research_result": [
+      "The Ontario Electrical Safety Code (OESC) regulation was updated in 2024 and is effective as of May 1, 2025 [esasafe](https://vertexaisearch.cloud.google.com/id/0-0) [newswire](https://vertexaisearch.cloud.google.com/id/0-1). The 2024 edition includes the Canadian Electrical Code, Part I, along with Ontario-specific amendments [esasafe](https://vertexaisearch.cloud.google.com/id/0-0) [newswire](https://vertexaisearch.cloud.google.com/id/0-1).\n\nHere's a summary of electrical outlet spacing requirements in residential dwellings based on the search results:\n\n*   **General Areas (Living rooms, family rooms, bedrooms, hallways):** Receptacles should be installed so that no point along the floor line of any wall space is more than 1.8 meters (6 feet) horizontally from a receptacle outlet [thespruce](https://vertexaisearch.cloud.google.com/id/0-2) [strathcona](https://vertexaisearch.cloud.google.com/id/0-3) [nachi](https://vertexaisearch.cloud.google.com/id/0-4). This ensures that a lamp, computer, or other appliance will never be more than 6 feet away from an electrical outlet [thespruce](https://vertexaisearch.cloud.google.com/id/0-2). This applies to wall spaces of 900 mm (3 feet) or more in width, but does not include doorways, windows that extend to the floor, fireplaces, or other permanent installations [strathcona](https://vertexaisearch.cloud.google.com/id/0-3). If the wall is less than 24 inches wide, an outlet is not required [thespruce](https://vertexaisearch.cloud.google.com/id/0-2). Hallways more than 10 feet long must have at least one electrical outlet [thespruce](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Kitchens:** Outlets should be placed no farther than 1.2 meters (48 inches) apart, so that no point on the countertop is more than 610 mm (24 inches) away from a receptacle [thespruce](https://vertexaisearch.cloud.google.com/id/0-2) [nachi](https://vertexaisearch.cloud.google.com/id/0-4). Any countertop 305 mm (12 inches) wide or more should have an outlet on the wall behind the countertop [thespruce](https://vertexaisearch.cloud.google.com/id/0-2). Outlets should not be positioned higher than 508 mm (20 inches) above countertops [thespruce](https://vertexaisearch.cloud.google.com/id/0-2). A dedicated counter receptacle for every 914 mm (3 feet) of usable counter space is recommended [multitradebuildingservices](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Bathrooms:** A ground fault circuit interrupter (GFCI) is required within 1.5 meters of a water source [multitradebuildingservices](https://vertexaisearch.cloud.google.com/id/0-5). There must be a GFCI-protected receptacle within 1 meter (39 inches) of the wash basin [strathcona](https://vertexaisearch.cloud.google.com/id/0-3) [multitradebuildingservices](https://vertexaisearch.cloud.google.com/id/0-5). Receptacles cannot be located within 500 mm of a bathtub or shower. Receptacles located 500 mm to 1 m from a bathtub or shower must be of a Class A type [strathcona](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Other locations**: Exterior plugs should be GFCI-protected and have weatherproof covers [multitradebuildingservices](https://vertexaisearch.cloud.google.com/id/0-5). Receptacles located on the dwelling including attached carports and attached garages are to be protected by a GFCI [strathcona](https://vertexaisearch.cloud.google.com/id/0-3). All receptacles (except for automobile heater receptacles) installed outdoors and within 2.5 m of a finished grade shall be protected by a ground fault circuit [strathcona](https://vertexaisearch.cloud.google.com/id/0-3). Attached garage receptacles need to be tamper-resistant and have arc-fault protection [strathcona](https://vertexaisearch.cloud.google.com/id/0-3).\n\nIt's important to note that local residential electrical codes can differ, so it's always best to check with the local building permit department for specific requirements [thespruce](https://vertexaisearch.cloud.google.com/id/0-2).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "esasafe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN8SFoG9M8xUyJh_tSLeJqQ1nS9mwWZe1Z0HcAyYGK3JdVNWc1ONRA5X7e35ibStsWRFdcx9JU1ZOGkmJvla_rULrZYc7X4PE5ftQU59LwWYLI_prCtfA6AA=="
+      },
+      {
+        "label": "newswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWDTIcvXEgr_KTbY1tJvV6E_RllScoOa0XCxpbBbiTEZYDi-kn_3kZw9jCGBUCULcMpOZLF941VjvPWeD3xOvAlnAwwcuLPvUYt3OEkf-kpP6lNKQ9T4J_q3wk9bG5IxtmfKMWf4Txz_SCf6Zq73uk-FxqKBDFTmUda2LNSvDDI4g4RzUZLO2pxFfj8rtXmFiub1oXHj1SCOf3tQ38kLDVBzQTQ=="
+      },
+      {
+        "label": "esasafe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN8SFoG9M8xUyJh_tSLeJqQ1nS9mwWZe1Z0HcAyYGK3JdVNWc1ONRA5X7e35ibStsWRFdcx9JU1ZOGkmJvla_rULrZYc7X4PE5ftQU59LwWYLI_prCtfA6AA=="
+      },
+      {
+        "label": "newswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWDTIcvXEgr_KTbY1tJvV6E_RllScoOa0XCxpbBbiTEZYDi-kn_3kZw9jCGBUCULcMpOZLF941VjvPWeD3xOvAlnAwwcuLPvUYt3OEkf-kpP6lNKQ9T4J_q3wk9bG5IxtmfKMWf4Txz_SCf6Zq73uk-FxqKBDFTmUda2LNSvDDI4g4RzUZLO2pxFfj8rtXmFiub1oXHj1SCOf3tQ38kLDVBzQTQ=="
+      },
+      {
+        "label": "thespruce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U="
+      },
+      {
+        "label": "strathcona",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg="
+      },
+      {
+        "label": "nachi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH21couP6GXkRyyXNdy96vcVbzjQmZWeia4u9rVoAngUmqtS7DDRFWldl2qOVNAzoKIuJB5oVnHIiqAmG-c2OJaIH0mc31nGuIPDuW9DgKmuSq9yQuYWqtnX2V-eF-5VODbcJqss7DeauAkpCU470QXLHzSchegmDue"
+      },
+      {
+        "label": "thespruce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U="
+      },
+      {
+        "label": "strathcona",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg="
+      },
+      {
+        "label": "thespruce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U="
+      },
+      {
+        "label": "thespruce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U="
+      },
+      {
+        "label": "thespruce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U="
+      },
+      {
+        "label": "nachi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH21couP6GXkRyyXNdy96vcVbzjQmZWeia4u9rVoAngUmqtS7DDRFWldl2qOVNAzoKIuJB5oVnHIiqAmG-c2OJaIH0mc31nGuIPDuW9DgKmuSq9yQuYWqtnX2V-eF-5VODbcJqss7DeauAkpCU470QXLHzSchegmDue"
+      },
+      {
+        "label": "thespruce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U="
+      },
+      {
+        "label": "thespruce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U="
+      },
+      {
+        "label": "multitradebuildingservices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZ2egJp7ymMnCwQl5ZwnMh46PEv483LbwHH_WFZyhzlFP2Xa4BlxpmI4v82A5jre2ocX79LkZt_tpoZ6I-E5drZVtELc3Av-sPTqfgGjUf5DNsjGAvZ_jNCBj91tZ0o2XxNqcUCK3OccjQqNuePR5ColTTPo_M1cn0pFnYauhPxxz-hvI5JLGdfxk4cVK3B1FhEQ6LwQYe8zESw=="
+      },
+      {
+        "label": "multitradebuildingservices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZ2egJp7ymMnCwQl5ZwnMh46PEv483LbwHH_WFZyhzlFP2Xa4BlxpmI4v82A5jre2ocX79LkZt_tpoZ6I-E5drZVtELc3Av-sPTqfgGjUf5DNsjGAvZ_jNCBj91tZ0o2XxNqcUCK3OccjQqNuePR5ColTTPo_M1cn0pFnYauhPxxz-hvI5JLGdfxk4cVK3B1FhEQ6LwQYe8zESw=="
+      },
+      {
+        "label": "strathcona",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg="
+      },
+      {
+        "label": "multitradebuildingservices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZ2egJp7ymMnCwQl5ZwnMh46PEv483LbwHH_WFZyhzlFP2Xa4BlxpmI4v82A5jre2ocX79LkZt_tpoZ6I-E5drZVtELc3Av-sPTqfgGjUf5DNsjGAvZ_jNCBj91tZ0o2XxNqcUCK3OccjQqNuePR5ColTTPo_M1cn0pFnYauhPxxz-hvI5JLGdfxk4cVK3B1FhEQ6LwQYe8zESw=="
+      },
+      {
+        "label": "strathcona",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg="
+      },
+      {
+        "label": "multitradebuildingservices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZ2egJp7ymMnCwQl5ZwnMh46PEv483LbwHH_WFZyhzlFP2Xa4BlxpmI4v82A5jre2ocX79LkZt_tpoZ6I-E5drZVtELc3Av-sPTqfgGjUf5DNsjGAvZ_jNCBj91tZ0o2XxNqcUCK3OccjQqNuePR5ColTTPo_M1cn0pFnYauhPxxz-hvI5JLGdfxk4cVK3B1FhEQ6LwQYe8zESw=="
+      },
+      {
+        "label": "strathcona",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg="
+      },
+      {
+        "label": "strathcona",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg="
+      },
+      {
+        "label": "strathcona",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg="
+      },
+      {
+        "label": "thespruce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U="
+      },
+      {
+        "label": "esasafe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN8SFoG9M8xUyJh_tSLeJqQ1nS9mwWZe1Z0HcAyYGK3JdVNWc1ONRA5X7e35ibStsWRFdcx9JU1ZOGkmJvla_rULrZYc7X4PE5ftQU59LwWYLI_prCtfA6AA=="
+      },
+      {
+        "label": "newswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhWDTIcvXEgr_KTbY1tJvV6E_RllScoOa0XCxpbBbiTEZYDi-kn_3kZw9jCGBUCULcMpOZLF941VjvPWeD3xOvAlnAwwcuLPvUYt3OEkf-kpP6lNKQ9T4J_q3wk9bG5IxtmfKMWf4Txz_SCf6Zq73uk-FxqKBDFTmUda2LNSvDDI4g4RzUZLO2pxFfj8rtXmFiub1oXHj1SCOf3tQ38kLDVBzQTQ=="
+      },
+      {
+        "label": "thespruce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDCWIOy6cxvblKtIpE9pONGHSz1cbaa__xWh4ixFWt8d1-ZztlJSRx2S-zR29B5DfSRmAc5MeqcTN3BSPodqwz6GQC_zNwsm35S-BtJ82hlm8sU_S2zeutUsVpix4fEletfjhxpBb3Wy304xIRnAFJSJdpEJrME0U="
+      },
+      {
+        "label": "strathcona",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8AaxwyWwVMBXe7wtBt0t2EGcnjsvry1BlUlz3pgxystNGp-S-6zZK68naFcXb9xislQi2b5OIR1aXi3MH2ibC7TdthCcXQmpn_vqf3rPwTS5TyAVZSJWjZ9s4bGhfNtPloitKjIr58Ay9J9SACFVBYfY8lPmxi_6h1PZT-alFxDqpr8N2qd3Vuggr-hq9HTlhwRzajnxoC71cGg="
+      },
+      {
+        "label": "nachi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH21couP6GXkRyyXNdy96vcVbzjQmZWeia4u9rVoAngUmqtS7DDRFWldl2qOVNAzoKIuJB5oVnHIiqAmG-c2OJaIH0mc31nGuIPDuW9DgKmuSq9yQuYWqtnX2V-eF-5VODbcJqss7DeauAkpCU470QXLHzSchegmDue"
+      },
+      {
+        "label": "multitradebuildingservices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmZ2egJp7ymMnCwQl5ZwnMh46PEv483LbwHH_WFZyhzlFP2Xa4BlxpmI4v82A5jre2ocX79LkZt_tpoZ6I-E5drZVtELc3Av-sPTqfgGjUf5DNsjGAvZ_jNCBj91tZ0o2XxNqcUCK3OccjQqNuePR5ColTTPo_M1cn0pFnYauhPxxz-hvI5JLGdfxk4cVK3B1FhEQ6LwQYe8zESw=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "file_name": "state_result_16.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.641710",
+  "data": {
+    "messages": [
+      {
+        "content": "ابحث مباشرةً على المنصات المذكورة (Dubizzle, Bayut, Property Finder, Facebook ) باستخدام الفلاتر:\nالسعر : 11,000–12,000 جنيه مصري شهريًا.\nالمساحة : 82–96 م².\nتاريخ النشر : آخر 4 أيام.\nللمزيد من الدقة، يمكنك مشاركة روابط الإعلانات مباشرةً من هذه المنصات بعد تطبيق الفلاتر.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "7e0001a5-6964-42be-ab53-4128c27f7ce8",
+        "example": false
+      },
+      {
+        "content": "I cannot directly search Dubizzle, Bayut, Property Finder, or Facebook Marketplace for real-time listings. However, I can provide insights based on available information regarding apartment rentals in Cairo, Egypt, that may fit your criteria of EGP 11,000-12,000 per month and 82-96 sqm.\n\n**Apartment Availability and Trends:**\n\n*   **Dubizzle Egypt (OLX):** Dubizzle lists apartments in Cairo, including Madinty. Examples include an apartment in Madinty (Cairo) for EGP 11,000 per month (78 sqm) and another for EGP 12,000 per month (96 sqm) [dubizzle](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhZt5AmeW0KjfCrkoY2ZbdSLOmgBPyqCQxg8VbLPyWpu1MT9xXpWZS5bg0FNVnvYS4ohZWrfHvPeyhJDBJgcKgwunqCPpX1Ge74TYYCSRdow7j1LkZOziWDZAHO__ZakRDgABpIFhJpab3emkd3K7w2FyFGEUMtNwrPzbsIteN6AaL1gPd9uxYkpdS8h8OtrX9UAV19c_wRzUvaJjG).\n*   **Egypt Real Estate:** Madinaty, Cairo, has apartments for rent that may meet your requirements [semsarmasr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog==). A 96 sqm apartment is listed for EGP 12,000 per month [semsarmasr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog==). Apartments with 82 sqm are listed around EGP 10,000 per month, and a 93 sqm apartment is listed at EGP 11,000 per month [semsarmasr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog==).\n*   **Location:** Madinaty and New Cairo appear to have available listings [semsarmasr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog==) [dubizzle](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeuikmq8MJGgJIy_9xescABoqRux4rY2n_RZLNgrr_FrfCPqkilFUM2sxPolKooZma6VZRhpXY-BBTStWBoHMnNNsx907Ey7YZqkCjZbbmkqTe6FLQm0KH8XOh5mNCbLMceatckYVwVTDUBOO6AkkH6ZA6z1JvUQDmVeHaduPSzbOZ-nZCUgLZVuVQAasVSA==) [dubizzle](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhZt5AmeW0KjfCrkoY2ZbdSLOmgBPyqCQxg8VbLPyWpu1MT9xXpWZS5bg0FNVnvYS4ohZWrfHvPeyhJDBJgcKgwunqCPpX1Ge74TYYCSRdow7j1LkZOziWDZAHO__ZakRDgABpIFhJpab3emkd3K7w2FyFGEUMtNwrPzbsIteN6AaL1gPd9uxYkpdS8h8OtrX9UAV19c_wRzUvaJjG).\n\n**Recommendations:**\n\nTo find the most current listings matching your criteria, it is best to directly check Dubizzle, Bayut, Property Finder, and Facebook Marketplace and utilize their search filters.\n\n**Important Considerations for Renting in Cairo:**\n\n*   **Lease Agreement:** Ensure a written lease agreement that includes the rent amount, payment due dates, security deposit, lease term, house rules, utilities, notice period, and maintenance responsibilities [housesolutionegypt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECi0p9KPra-Tn37fIBJP7vhhSo5YMOub5Oh4S15145SG36tprSNbe-gTdSimAckp2mPwNod-hP0g2rwsGAB1A02bhO6lJLy_v3BlRsCQHz8tWaC9QV8jQcmxDV7MMjurLkg4lM_Qx2frdtM61sL2q6To7mZOLM2AVXFpZpe0Y35i2eRzZScWOssNHJ0iLcMnZR-oyIvqU=) [expat](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE513IfzhCjuyvN4jefL4vHLTMLOeqqpXuknKuEOgh5Gvc0fN-M5Z9SrsUxJFOgm6kAXJt86hSBsKdf953qpXH7O1PditC6Yx1Db4UkSYzeXsBhincokoEwRl0VVkaYytPoxyFAO2Sj6ZvbEfTw8wlEXPXKUleofOU7Zo3bHAPBnNksRKJd-IXNt_0=].\n*   **Rent Increase:** Expect annual rent increases, often around 10% [housepointegypt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo=).\n*   **Deposit:** Be prepared to pay a deposit, typically three to four months' rent [housepointegypt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo=).\n*   **Property Inspection:** Inspect the property thoroughly before signing the contract and document any existing damage [consortiolawfirm](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqx47oK8NOn_5RHjwZusMPkg9uMQDtuwT18MPFTVJkQA5IQhuRzAZVd8Cs-uvz9GfQDyRNQ3kYCjXn5jO8f4KshKNJC6fhFJsAJS5StGH5N1d1I0NtBfhbjNJvSf_W3PSmRbLoQ-Cd2F-jF52ob78xjHJhfoiZHv6Mj9Xqlnd32TAGNpY-Q9-HbowNhg==) [expat](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE513IfzhCjuyvN4jefL4vHLTMLOeqqpXuknKuEOgh5Gvc0fN-M5Z9SrsUxJFOgm6kAXJt86hSBsKdf953qpXH7O1PditC6Yx1Db4UkSYzeXsBhincokoEwRl0VVkaYytPoxyFAO2Sj6ZvbEfTw8wlEXPXKUleofOU7Zo3bHAPBnNksRKJd-IXNt_0=]. Take photos of the apartment's condition upon moving in [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8=).\n*   **Scams:** Be cautious of very low prices, fake websites, and individuals falsely claiming to be the landlord [housesolutionegypt](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQCXRu4imvYA2vkhFma19c7EgfVo0aDgl8B-w7d24fjRDYLjNVufXzMbzlauaeRPFsd-ztVuvLUH6nd8-D82tuG3hYICGvxBGTFgETHtiEqAnlD1eMl4qM9B-Op2f9Owj0srDhCowywziyaO1N7b8a28hityWkD4ROYtN78msn67CBmUHxqg==) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8=].\n*   **Old Rent Law Amendments:** Be aware of the recent amendments to the Old Rent Law, which introduce a transitional period and rent increases [cairoscene](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGlKiT2eTmmElhtkaZuUVCsSKoRtRnfNSLSKECI1bhYvaJifEww1hksfWlLGx6YAwVhNG-wRAC3rq0NHjOGKa6e0f5sAltTMAa8zAmaNivyNhJSgHdF5xK8YClFSwQFVb2_d-JjVzq-YwomLQhKRPKDe4-FvIijXKhv_BRHiX1bXq8ybeFNImBWmzjj4=) [egyptianstreets](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Fk71ZfjW9STPpmToqNrgwmYxlMp7OhM7zMAqJ6bIJx3wB-6pKhio2O_JM_DuhBr9ngA-HvpOQLQ2l19M8gCJeF2u-rBoT34yNemT4kwFUSp9uuoMQD3GJY7mvHaVS5pbu59m_Gg9cT11rODDv2GU0Gu-VUVZYeiJ8HJMagV_1LpK2zq8DyhcdGlH-8slS6XCn3mDgdLpM1LooAYG3ymt].",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "a135960c-06a7-4291-8c89-be3aed989f94",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "dubizzle bayut property finder facebook property listings egypt \"11000 to 12000 EGP\" \"82 to 96 sq meters\" last 4 days",
+      "What are the typical steps involved in renting an apartment in Cairo, Egypt, including legal requirements, documentation, and common scams to avoid?"
+    ],
+    "web_research_result": [
+      "While I can't provide a real-time, comprehensive list of specific property listings from Dubizzle, Bayut, Property Finder, or Facebook Marketplace in Egypt matching your exact criteria (11000 to 12000 EGP, 82 to 96 sq meters) from the last 4 days, I can offer some insights based on the search results.\n\n**General Trends and Availability:**\n\n*   **Dubizzle Egypt (OLX):** Dubizzle has property listings in Cairo, including apartments [dubizzle](https://vertexaisearch.cloud.google.com/id/0-0). Examples of apartments for rent include:\n\n    *   An apartment in Madinty (Cairo) for EGP 11,000 per month, with 78 sqm [dubizzle](https://vertexaisearch.cloud.google.com/id/0-0).\n    *   An apartment in Madinty for EGP 12,000 per month, with 96 sqm [dubizzle](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Egypt Real Estate:** Apartments for rent in Madinaty, Cairo are listed, with some options falling within your specified size and price range [semsarmasr](https://vertexaisearch.cloud.google.com/id/0-1). For example:\n\n    *   A 96 sqm apartment for rent is listed at EGP 12,000 per month [semsarmasr](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   Apartments with 82 sqm are listed for rent around EGP 10,000 per month [semsarmasr](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   A 93 sqm apartment for rent is listed at EGP 11,000 per month [semsarmasr](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Important Considerations:**\n\n*   **Real-time Data:** Property listings change constantly. The best way to find exactly what you're looking for is to check these websites directly using their search filters.\n*   **Location:** Madinaty and New Cairo appear to have available listings [semsarmasr](https://vertexaisearch.cloud.google.com/id/0-1) [dubizzle](https://vertexaisearch.cloud.google.com/id/0-2) [dubizzle](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Price Range:** You may need to adjust your expectations slightly, as some listings may fall just outside your ideal price range [semsarmasr](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Property Size:** Several listings appear within the 82-96 sqm range, particularly in Madinaty [dubizzle](https://vertexaisearch.cloud.google.com/id/0-0) [semsarmasr](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Facebook Marketplace:** The search results do not provide specific information about Facebook Marketplace listings. To find relevant properties, you would need to search directly on Facebook.\n\nTo find the most up-to-date listings, it's recommended to visit Dubizzle, Bayut, Property Finder, and Facebook Marketplace and use their search filters to specify your desired price range (11000 to 12000 EGP) and size (82 to 96 sq meters). You can also filter by date to see the most recent listings.\n",
+      "Renting an apartment in Cairo, Egypt, involves several steps, legal requirements, and potential scams to be aware of. Here's a comprehensive guide based on the most recent information:\n\n**1. Finding an Apartment:**\n\n*   **Online Platforms:** Explore online platforms like Airbnb, which offers short and long-term rentals in major Egyptian cities [egyptadventurestravel](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Real Estate Agents:** Engage a real estate agent or property management company. They can provide listings matching your preferences, negotiate leases, handle paperwork, and ensure the property meets legal requirements [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-1) [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-2). Verify the agent's license with the Egyptian Real Estate Association [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Social Media:** Utilize Facebook groups where landlords advertise apartments and renters post accommodation requests [egyptadventurestravel](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Word of Mouth:** Seek recommendations from friends or contacts who have rented similar properties [expat](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**2. Legal and Documentation Requirements:**\n\n*   **Lease Agreement:** A written lease agreement is crucial. It should be in duplicate, with a copy for both parties, and signed by a witness [expat](https://vertexaisearch.cloud.google.com/id/1-4). Key elements include the rent amount, payment due dates, security deposit requirements, lease term length, house rules, utilities covered, notice period for moving out, and maintenance responsibilities [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Landlord Registration:** Landlords must register their property with the government, and tenants may need to register with the police within a week of moving in [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Passport Copy:** Landlords often require a copy of your passport [reddit](https://vertexaisearch.cloud.google.com/id/1-5) [egyptadventurestravel](https://vertexaisearch.cloud.google.com/id/1-0). You also have the right to ask for a copy of the landlord's ID [reddit](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**3. Lease Agreement Essentials:**\n\n*   **Lease Duration:** Lease agreements typically range from one to three years, with shorter terms available [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3). Specify the exact duration in the contract [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Rent Increase:** Expect annual rent increases. A common increase is around 10% [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Responsibilities and Bills:** Clearly define responsibilities for utilities (electricity, water, gas, internet) and repairs (major repairs by landlords, minor fixes by tenants) in the agreement [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Early Termination:** Discuss and document conditions for early lease termination [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Renewal Options:** Include potential renewal terms [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3).\n\n**4. Financial Aspects:**\n\n*   **Finder's Fee:** If a third party assists in finding the property, a finder's fee (often one month's rent) may be payable [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Deposit:** Expect to pay a deposit, typically three to four months' rent [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3). Landlords often try to keep the deposit, so notify them a month before leaving and use the deposit for the last month's rent [reddit](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Rent Payment:** Landlords may prefer advance payments (quarterly, half-yearly, or yearly), potentially leading to a better price [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Property Tax:** A 10% tax on the property's annual rental value may apply, with exemptions for properties valued under 500,000 LE [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3).\n\n**5. Property Inspection and Condition:**\n\n*   **Pre-Rental Inspection:** Inspect the property thoroughly before signing the contract, documenting any existing damage in the lease agreement [consortiolawfirm](https://vertexaisearch.cloud.google.com/id/1-6) [expat](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Photographic Evidence:** Take photos of the apartment's condition upon moving in to avoid disputes later [reddit](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Utilities:** Ask for proof that all utility accounts are paid up before moving in [reddit](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**6. Potential Scams and How to Avoid Them:**\n\n*   **Unbelievably Low Prices:** Be wary of properties offered at significantly low prices, as this is a common scam tactic [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **Fake Websites/Listings:** Scammers use fake websites with attractive properties and fabricated testimonials [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-7). Conduct thorough research before engaging with any online platform [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **Verify Legitimacy:** Verify the real estate company's legitimacy by visiting their physical location [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **\"Landlord\" Imposters:** Some individuals may falsely claim to be the landlord. Request to see proof of ownership [reddit](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Unreturned Deposits:** Landlords may try to keep the deposit [reddit](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Key to apartment:** Change the locks after moving in to ensure only you have access [reddit](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**7. Recent Legislative Changes (2025):**\n\n*   **Old Rent Law Amendments:** Egypt's Parliament has approved amendments to the Old Rent Law, introducing a transitional framework for phasing out long-term rental contracts under the old rent system [cairoscene](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Transitional Period:** Tenants of residential units have a seven-year transitional period before they must vacate the property [cairoscene](https://vertexaisearch.cloud.google.com/id/1-8) [egyptianstreets](https://vertexaisearch.cloud.google.com/id/1-9). For commercial and administrative properties, the period is five years [cairoscene](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Rent Increases:** The law introduces significant increases in legal rental value, with annual increases of 15% during the transitional period [cairoscene](https://vertexaisearch.cloud.google.com/id/1-8) [egyptianstreets](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **New Rental Values:** In high-end residential areas, rent will rise significantly, with a minimum of EGP 1,000. Rent will also increase in mid-range and economic areas [cairoscene](https://vertexaisearch.cloud.google.com/id/1-8) [egyptianstreets](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Alternative Housing:** The government is proposing alternative housing options for tenants whose contracts expire, including subsidized rent, rent-to-own schemes, and apartments available through real estate financing [egyptindependent](https://vertexaisearch.cloud.google.com/id/1-10).\n\n**8. General Advice:**\n\n*   **Seek Legal Advice:** Consult a lawyer to review the lease and provide legal advice [housepointegypt](https://vertexaisearch.cloud.google.com/id/1-3) [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Stay Vigilant:** Be aware of common tactics employed by scammers [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **Know Your Rights:** Familiarize yourself with tenant rights under Egyptian law [consortiolawfirm](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Emergency Resources:** Keep a list of emergency numbers, including the Tourist Police (126) [godigit](https://vertexaisearch.cloud.google.com/id/1-11).\n\n**9. Areas Popular with Expats:**\n\n*   **Maadi and New Cairo:** These areas are popular with foreigners due to workplaces and schools [housesolutionegypt](https://vertexaisearch.cloud.google.com/id/1-2).\n\nBy following these steps and staying informed, you can navigate the Cairo rental market effectively and avoid potential problems.\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "dubizzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhZt5AmeW0KjfCrkoY2ZbdSLOmgBPyqCQxg8VbLPyWpu1MT9xXpWZS5bg0FNVnvYS4ohZWrfHvPeyhJDBJgcKgwunqCPpX1Ge74TYYCSRdow7j1LkZOziWDZAHO__ZakRDgABpIFhJpab3emkd3K7w2FyFGEUMtNwrPzbsIteN6AaL1gPd9uxYkpdS8h8OtrX9UAV19c_wRzUvaJjG"
+      },
+      {
+        "label": "dubizzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhZt5AmeW0KjfCrkoY2ZbdSLOmgBPyqCQxg8VbLPyWpu1MT9xXpWZS5bg0FNVnvYS4ohZWrfHvPeyhJDBJgcKgwunqCPpX1Ge74TYYCSRdow7j1LkZOziWDZAHO__ZakRDgABpIFhJpab3emkd3K7w2FyFGEUMtNwrPzbsIteN6AaL1gPd9uxYkpdS8h8OtrX9UAV19c_wRzUvaJjG"
+      },
+      {
+        "label": "dubizzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhZt5AmeW0KjfCrkoY2ZbdSLOmgBPyqCQxg8VbLPyWpu1MT9xXpWZS5bg0FNVnvYS4ohZWrfHvPeyhJDBJgcKgwunqCPpX1Ge74TYYCSRdow7j1LkZOziWDZAHO__ZakRDgABpIFhJpab3emkd3K7w2FyFGEUMtNwrPzbsIteN6AaL1gPd9uxYkpdS8h8OtrX9UAV19c_wRzUvaJjG"
+      },
+      {
+        "label": "semsarmasr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog=="
+      },
+      {
+        "label": "semsarmasr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog=="
+      },
+      {
+        "label": "semsarmasr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog=="
+      },
+      {
+        "label": "semsarmasr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog=="
+      },
+      {
+        "label": "semsarmasr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog=="
+      },
+      {
+        "label": "dubizzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeuikmq8MJGgJIy_9xescABoqRux4rY2n_RZLNgrr_FrfCPqkilFUM2sxPolKooZma6VZRhpXY-BBTStWBoHMnNNsx907Ey7YZqkCjZbbmkqTe6FLQm0KH8XOh5mNCbLMceatckYVwVTDUBOO6AkkH6ZA6z1JvUQDmVeHaduPSzbOZ-nZCUgLZVuVQAasVSA=="
+      },
+      {
+        "label": "dubizzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhZt5AmeW0KjfCrkoY2ZbdSLOmgBPyqCQxg8VbLPyWpu1MT9xXpWZS5bg0FNVnvYS4ohZWrfHvPeyhJDBJgcKgwunqCPpX1Ge74TYYCSRdow7j1LkZOziWDZAHO__ZakRDgABpIFhJpab3emkd3K7w2FyFGEUMtNwrPzbsIteN6AaL1gPd9uxYkpdS8h8OtrX9UAV19c_wRzUvaJjG"
+      },
+      {
+        "label": "semsarmasr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog=="
+      },
+      {
+        "label": "dubizzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhZt5AmeW0KjfCrkoY2ZbdSLOmgBPyqCQxg8VbLPyWpu1MT9xXpWZS5bg0FNVnvYS4ohZWrfHvPeyhJDBJgcKgwunqCPpX1Ge74TYYCSRdow7j1LkZOziWDZAHO__ZakRDgABpIFhJpab3emkd3K7w2FyFGEUMtNwrPzbsIteN6AaL1gPd9uxYkpdS8h8OtrX9UAV19c_wRzUvaJjG"
+      },
+      {
+        "label": "semsarmasr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog=="
+      },
+      {
+        "label": "egyptadventurestravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjCRpCxbu0j9gY227REhBipchV6XV08o0CIyvQHpp3XA5zsyQRIP-Z2pfVqoF5UMpOxsb0hB45Zdn4-Yk1Ej5L37owlN_7_nZfe28SoCgpcFlkSOEmwlvHkrXpNeGy2DBVfvbD9sK3vcm2aZDqCpczw5Ue6vOVBLUPhLpey5PXGD3JJDMUC0VKEqWvyVTET8o0k82k3VXt3z4_u_5Q0FIifg=="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECi0p9KPra-Tn37fIBJP7vhhSo5YMOub5Oh4S15145SG36tprSNbe-gTdSimAckp2mPwNod-hP0g2rwsGAB1A02bhO6lJLy_v3BlRsCQHz8tWaC9QV8jQcmxDV7MMjurLkg4lM_Qx2frdtM61sL2q6To7mZOLM2AVXFpZpe0Y35i2eRzZScWOssNHJ0iLcMnZR-oyIvqU="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkb29rXueFwUOSYRDpi3LxJQyH3zgROvr3H1Oi3qsIAOkeeak9nn1COK-5a3-uXX5zr2RdnLlgzLfVRWoVO6eluFwANpuW8JacQ5Z_TKFClWVFN7Z2jmQdfJ7qNePfiEzAlPEdOJ0DCbo3xAyVC-GKJZV6xb_HuEk22TN8ra3FElrSRbZ7EYZ4fBoj3YcdpIabTZI="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "egyptadventurestravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjCRpCxbu0j9gY227REhBipchV6XV08o0CIyvQHpp3XA5zsyQRIP-Z2pfVqoF5UMpOxsb0hB45Zdn4-Yk1Ej5L37owlN_7_nZfe28SoCgpcFlkSOEmwlvHkrXpNeGy2DBVfvbD9sK3vcm2aZDqCpczw5Ue6vOVBLUPhLpey5PXGD3JJDMUC0VKEqWvyVTET8o0k82k3VXt3z4_u_5Q0FIifg=="
+      },
+      {
+        "label": "expat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE513IfzhCjuyvN4jefL4vHLTMLOeqqpXuknKuEOgh5Gvc0fN-M5Z9SrsUxJFOgm6kAXJt86hSBsKdf953qpXH7O1PditC6Yx1Db4UkSYzeXsBhincokoEwRl0VVkaYytPoxyFAO2Sj6ZvbEfTw8wlEXPXKUleofOU7Zo3bHAPBnNksRKJd-IXNt_0="
+      },
+      {
+        "label": "expat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE513IfzhCjuyvN4jefL4vHLTMLOeqqpXuknKuEOgh5Gvc0fN-M5Z9SrsUxJFOgm6kAXJt86hSBsKdf953qpXH7O1PditC6Yx1Db4UkSYzeXsBhincokoEwRl0VVkaYytPoxyFAO2Sj6ZvbEfTw8wlEXPXKUleofOU7Zo3bHAPBnNksRKJd-IXNt_0="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECi0p9KPra-Tn37fIBJP7vhhSo5YMOub5Oh4S15145SG36tprSNbe-gTdSimAckp2mPwNod-hP0g2rwsGAB1A02bhO6lJLy_v3BlRsCQHz8tWaC9QV8jQcmxDV7MMjurLkg4lM_Qx2frdtM61sL2q6To7mZOLM2AVXFpZpe0Y35i2eRzZScWOssNHJ0iLcMnZR-oyIvqU="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECi0p9KPra-Tn37fIBJP7vhhSo5YMOub5Oh4S15145SG36tprSNbe-gTdSimAckp2mPwNod-hP0g2rwsGAB1A02bhO6lJLy_v3BlRsCQHz8tWaC9QV8jQcmxDV7MMjurLkg4lM_Qx2frdtM61sL2q6To7mZOLM2AVXFpZpe0Y35i2eRzZScWOssNHJ0iLcMnZR-oyIvqU="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8="
+      },
+      {
+        "label": "egyptadventurestravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjCRpCxbu0j9gY227REhBipchV6XV08o0CIyvQHpp3XA5zsyQRIP-Z2pfVqoF5UMpOxsb0hB45Zdn4-Yk1Ej5L37owlN_7_nZfe28SoCgpcFlkSOEmwlvHkrXpNeGy2DBVfvbD9sK3vcm2aZDqCpczw5Ue6vOVBLUPhLpey5PXGD3JJDMUC0VKEqWvyVTET8o0k82k3VXt3z4_u_5Q0FIifg=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkb29rXueFwUOSYRDpi3LxJQyH3zgROvr3H1Oi3qsIAOkeeak9nn1COK-5a3-uXX5zr2RdnLlgzLfVRWoVO6eluFwANpuW8JacQ5Z_TKFClWVFN7Z2jmQdfJ7qNePfiEzAlPEdOJ0DCbo3xAyVC-GKJZV6xb_HuEk22TN8ra3FElrSRbZ7EYZ4fBoj3YcdpIabTZI="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "consortiolawfirm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqx47oK8NOn_5RHjwZusMPkg9uMQDtuwT18MPFTVJkQA5IQhuRzAZVd8Cs-uvz9GfQDyRNQ3kYCjXn5jO8f4KshKNJC6fhFJsAJS5StGH5N1d1I0NtBfhbjNJvSf_W3PSmRbLoQ-Cd2F-jF52ob78xjHJhfoiZHv6Mj9Xqlnd32TAGNpY-Q9-HbowNhg=="
+      },
+      {
+        "label": "expat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE513IfzhCjuyvN4jefL4vHLTMLOeqqpXuknKuEOgh5Gvc0fN-M5Z9SrsUxJFOgm6kAXJt86hSBsKdf953qpXH7O1PditC6Yx1Db4UkSYzeXsBhincokoEwRl0VVkaYytPoxyFAO2Sj6ZvbEfTw8wlEXPXKUleofOU7Zo3bHAPBnNksRKJd-IXNt_0="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQCXRu4imvYA2vkhFma19c7EgfVo0aDgl8B-w7d24fjRDYLjNVufXzMbzlauaeRPFsd-ztVuvLUH6nd8-D82tuG3hYICGvxBGTFgETHtiEqAnlD1eMl4qM9B-Op2f9Owj0srDhCowywziyaO1N7b8a28hityWkD4ROYtN78msn67CBmUHxqg=="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQCXRu4imvYA2vkhFma19c7EgfVo0aDgl8B-w7d24fjRDYLjNVufXzMbzlauaeRPFsd-ztVuvLUH6nd8-D82tuG3hYICGvxBGTFgETHtiEqAnlD1eMl4qM9B-Op2f9Owj0srDhCowywziyaO1N7b8a28hityWkD4ROYtN78msn67CBmUHxqg=="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQCXRu4imvYA2vkhFma19c7EgfVo0aDgl8B-w7d24fjRDYLjNVufXzMbzlauaeRPFsd-ztVuvLUH6nd8-D82tuG3hYICGvxBGTFgETHtiEqAnlD1eMl4qM9B-Op2f9Owj0srDhCowywziyaO1N7b8a28hityWkD4ROYtN78msn67CBmUHxqg=="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQCXRu4imvYA2vkhFma19c7EgfVo0aDgl8B-w7d24fjRDYLjNVufXzMbzlauaeRPFsd-ztVuvLUH6nd8-D82tuG3hYICGvxBGTFgETHtiEqAnlD1eMl4qM9B-Op2f9Owj0srDhCowywziyaO1N7b8a28hityWkD4ROYtN78msn67CBmUHxqg=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8="
+      },
+      {
+        "label": "cairoscene",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGlKiT2eTmmElhtkaZuUVCsSKoRtRnfNSLSKECI1bhYvaJifEww1hksfWlLGx6YAwVhNG-wRAC3rq0NHjOGKa6e0f5sAltTMAa8zAmaNivyNhJSgHdF5xK8YClFSwQFVb2_d-JjVzq-YwomLQhKRPKDe4-FvIijXKhv_BRHiX1bXq8ybeFNImBWmzjj4="
+      },
+      {
+        "label": "cairoscene",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGlKiT2eTmmElhtkaZuUVCsSKoRtRnfNSLSKECI1bhYvaJifEww1hksfWlLGx6YAwVhNG-wRAC3rq0NHjOGKa6e0f5sAltTMAa8zAmaNivyNhJSgHdF5xK8YClFSwQFVb2_d-JjVzq-YwomLQhKRPKDe4-FvIijXKhv_BRHiX1bXq8ybeFNImBWmzjj4="
+      },
+      {
+        "label": "egyptianstreets",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Fk71ZfjW9STPpmToqNrgwmYxlMp7OhM7zMAqJ6bIJx3wB-6pKhio2O_JM_DuhBr9ngA-HvpOQLQ2l19M8gCJeF2u-rBoT34yNemT4kwFUSp9uuoMQD3GJY7mvHaVS5pbu59m_Gg9cT11rODDv2GU0Gu-VUVZYeiJ8HJMagV_1LpK2zq8DyhcdGlH-8slS6XCn3mDgdLpM1LooAYG3ymt"
+      },
+      {
+        "label": "cairoscene",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGlKiT2eTmmElhtkaZuUVCsSKoRtRnfNSLSKECI1bhYvaJifEww1hksfWlLGx6YAwVhNG-wRAC3rq0NHjOGKa6e0f5sAltTMAa8zAmaNivyNhJSgHdF5xK8YClFSwQFVb2_d-JjVzq-YwomLQhKRPKDe4-FvIijXKhv_BRHiX1bXq8ybeFNImBWmzjj4="
+      },
+      {
+        "label": "cairoscene",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGlKiT2eTmmElhtkaZuUVCsSKoRtRnfNSLSKECI1bhYvaJifEww1hksfWlLGx6YAwVhNG-wRAC3rq0NHjOGKa6e0f5sAltTMAa8zAmaNivyNhJSgHdF5xK8YClFSwQFVb2_d-JjVzq-YwomLQhKRPKDe4-FvIijXKhv_BRHiX1bXq8ybeFNImBWmzjj4="
+      },
+      {
+        "label": "egyptianstreets",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Fk71ZfjW9STPpmToqNrgwmYxlMp7OhM7zMAqJ6bIJx3wB-6pKhio2O_JM_DuhBr9ngA-HvpOQLQ2l19M8gCJeF2u-rBoT34yNemT4kwFUSp9uuoMQD3GJY7mvHaVS5pbu59m_Gg9cT11rODDv2GU0Gu-VUVZYeiJ8HJMagV_1LpK2zq8DyhcdGlH-8slS6XCn3mDgdLpM1LooAYG3ymt"
+      },
+      {
+        "label": "cairoscene",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGlKiT2eTmmElhtkaZuUVCsSKoRtRnfNSLSKECI1bhYvaJifEww1hksfWlLGx6YAwVhNG-wRAC3rq0NHjOGKa6e0f5sAltTMAa8zAmaNivyNhJSgHdF5xK8YClFSwQFVb2_d-JjVzq-YwomLQhKRPKDe4-FvIijXKhv_BRHiX1bXq8ybeFNImBWmzjj4="
+      },
+      {
+        "label": "egyptianstreets",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Fk71ZfjW9STPpmToqNrgwmYxlMp7OhM7zMAqJ6bIJx3wB-6pKhio2O_JM_DuhBr9ngA-HvpOQLQ2l19M8gCJeF2u-rBoT34yNemT4kwFUSp9uuoMQD3GJY7mvHaVS5pbu59m_Gg9cT11rODDv2GU0Gu-VUVZYeiJ8HJMagV_1LpK2zq8DyhcdGlH-8slS6XCn3mDgdLpM1LooAYG3ymt"
+      },
+      {
+        "label": "egyptindependent",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMHke2CxujaybcxHIxvU2oQWgq45gTggzH_NNq4KpTqtoHJtwnvirNpWl-2XyCPNWqwAwUMcigVOL9CD92r266nRTideZEX8L0H5Tbcin5HuMMDlrCGUjPClFsaQmgdw67A9RfbfDVCtUk9G58wZmporvnSRON8C4WnjsFSbA2AL5o2yfdgkeOEyqUajc6fPBNLftS15xa4S33gUSInSIwPw=="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECi0p9KPra-Tn37fIBJP7vhhSo5YMOub5Oh4S15145SG36tprSNbe-gTdSimAckp2mPwNod-hP0g2rwsGAB1A02bhO6lJLy_v3BlRsCQHz8tWaC9QV8jQcmxDV7MMjurLkg4lM_Qx2frdtM61sL2q6To7mZOLM2AVXFpZpe0Y35i2eRzZScWOssNHJ0iLcMnZR-oyIvqU="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQCXRu4imvYA2vkhFma19c7EgfVo0aDgl8B-w7d24fjRDYLjNVufXzMbzlauaeRPFsd-ztVuvLUH6nd8-D82tuG3hYICGvxBGTFgETHtiEqAnlD1eMl4qM9B-Op2f9Owj0srDhCowywziyaO1N7b8a28hityWkD4ROYtN78msn67CBmUHxqg=="
+      },
+      {
+        "label": "consortiolawfirm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqx47oK8NOn_5RHjwZusMPkg9uMQDtuwT18MPFTVJkQA5IQhuRzAZVd8Cs-uvz9GfQDyRNQ3kYCjXn5jO8f4KshKNJC6fhFJsAJS5StGH5N1d1I0NtBfhbjNJvSf_W3PSmRbLoQ-Cd2F-jF52ob78xjHJhfoiZHv6Mj9Xqlnd32TAGNpY-Q9-HbowNhg=="
+      },
+      {
+        "label": "godigit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGRIXLwDgoQ52X_vwAM2mDjFDJZUNuNNzv8DsliSL2_o08YoPnOX3IJfqhdO0vSQByfZbjrt1eXoWr0CijLgYE8c6CSWMZLuu0Rs2SH3Yh54UoXQH_XFmWX20ArhG5E5hTHD7LIWI8M5L5vOKt3aW4hDX77IPET8-7qr0B5bLLTY4egjrR5MOCoBG23EYh-UXcgFJ2Cw=="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkb29rXueFwUOSYRDpi3LxJQyH3zgROvr3H1Oi3qsIAOkeeak9nn1COK-5a3-uXX5zr2RdnLlgzLfVRWoVO6eluFwANpuW8JacQ5Z_TKFClWVFN7Z2jmQdfJ7qNePfiEzAlPEdOJ0DCbo3xAyVC-GKJZV6xb_HuEk22TN8ra3FElrSRbZ7EYZ4fBoj3YcdpIabTZI="
+      },
+      {
+        "label": "dubizzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhZt5AmeW0KjfCrkoY2ZbdSLOmgBPyqCQxg8VbLPyWpu1MT9xXpWZS5bg0FNVnvYS4ohZWrfHvPeyhJDBJgcKgwunqCPpX1Ge74TYYCSRdow7j1LkZOziWDZAHO__ZakRDgABpIFhJpab3emkd3K7w2FyFGEUMtNwrPzbsIteN6AaL1gPd9uxYkpdS8h8OtrX9UAV19c_wRzUvaJjG"
+      },
+      {
+        "label": "semsarmasr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmf0yDbEMo6W8vD_wfxpkCLdf67odzsRTf81q-btRFKHWzZtHKsB825DjUnqPIWMqJbuB-_hmZnlU7_CM5zbnk__TV0wThOu_0EcdcvKnWpvjf2pTs4SKELe-9ovhAPG4WmrwW61rkYZzF1dS3zDpBuGQKa0En9FjWkeYMTfQRqCnEczC4UoJvVmyAzfpphA4iS6L-llxQxGkAw7sguS62v8v6lT2QqQdJztKVHtCbzQkR_4TjaPXKi7sWCbzK8Qcu7kHQ0Y6Uw9RlSRwEZaqqH5Y8lSvonf2nvyn3hUrH0Yy0gjDvoM0eEi1zY9rKIP_Ve3YwDXnxBhIZRH1Z1xUxztOMbP1iKhzmzGoBQTuAYnF2NdgGtHwPdzzl0nKA2SLUmuVuSddR-f0xacZTR9E3I_qH1JcXVEIgvTNPuCUqVxV-b4HHKcur-5nv-pMvYNPiB4Lf9sESxv0hqaR14gcWNnwHKFDGf51SS0qglIVP4x0rfq213RWm4XgQHypw6EEPTtmmzUkT9jPSzfW5zP-e-v6cZu8f0itog=="
+      },
+      {
+        "label": "dubizzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeuikmq8MJGgJIy_9xescABoqRux4rY2n_RZLNgrr_FrfCPqkilFUM2sxPolKooZma6VZRhpXY-BBTStWBoHMnNNsx907Ey7YZqkCjZbbmkqTe6FLQm0KH8XOh5mNCbLMceatckYVwVTDUBOO6AkkH6ZA6z1JvUQDmVeHaduPSzbOZ-nZCUgLZVuVQAasVSA=="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECi0p9KPra-Tn37fIBJP7vhhSo5YMOub5Oh4S15145SG36tprSNbe-gTdSimAckp2mPwNod-hP0g2rwsGAB1A02bhO6lJLy_v3BlRsCQHz8tWaC9QV8jQcmxDV7MMjurLkg4lM_Qx2frdtM61sL2q6To7mZOLM2AVXFpZpe0Y35i2eRzZScWOssNHJ0iLcMnZR-oyIvqU="
+      },
+      {
+        "label": "housepointegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeZtuqrRVbC3s2Yjzp0xoyCHtNmsRaFszr1BOFhK18Zkitp_vthnYozeot2lg_IozyrJUc3FTo8lBSh79IRJYZbfdp_xnVMyzOlmG5aSpo1j-eKaNxRptOaHEHElagnbzoodZdugAcN0CszIIEZwPZYlFqMnsqMFRG9iX7HmNgt02UmlMwWifNBJqDh8obUkqpe2mvivo="
+      },
+      {
+        "label": "expat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE513IfzhCjuyvN4jefL4vHLTMLOeqqpXuknKuEOgh5Gvc0fN-M5Z9SrsUxJFOgm6kAXJt86hSBsKdf953qpXH7O1PditC6Yx1Db4UkSYzeXsBhincokoEwRl0VVkaYytPoxyFAO2Sj6ZvbEfTw8wlEXPXKUleofOU7Zo3bHAPBnNksRKJd-IXNt_0="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMdIjKAorFlHtcCi0lItCOBcLDSeFMnpVX-TB4zIJLYP7Wyt-aQZR-mrepo8Udj3pJ4dHvVCbN0vEx-PnC5NBhWXWmFh7xG2ntB8uDPmWrBc0dRIDZxTrJqpKNGlwvugX6dh0ABPDCHf51VfE-968CkJ426mA3o3dxHThVsvmPqE6An13ikiW56lDQwgQpwP2_mpUSnt5l-x8="
+      },
+      {
+        "label": "consortiolawfirm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqx47oK8NOn_5RHjwZusMPkg9uMQDtuwT18MPFTVJkQA5IQhuRzAZVd8Cs-uvz9GfQDyRNQ3kYCjXn5jO8f4KshKNJC6fhFJsAJS5StGH5N1d1I0NtBfhbjNJvSf_W3PSmRbLoQ-Cd2F-jF52ob78xjHJhfoiZHv6Mj9Xqlnd32TAGNpY-Q9-HbowNhg=="
+      },
+      {
+        "label": "housesolutionegypt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQCXRu4imvYA2vkhFma19c7EgfVo0aDgl8B-w7d24fjRDYLjNVufXzMbzlauaeRPFsd-ztVuvLUH6nd8-D82tuG3hYICGvxBGTFgETHtiEqAnlD1eMl4qM9B-Op2f9Owj0srDhCowywziyaO1N7b8a28hityWkD4ROYtN78msn67CBmUHxqg=="
+      },
+      {
+        "label": "cairoscene",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtGlKiT2eTmmElhtkaZuUVCsSKoRtRnfNSLSKECI1bhYvaJifEww1hksfWlLGx6YAwVhNG-wRAC3rq0NHjOGKa6e0f5sAltTMAa8zAmaNivyNhJSgHdF5xK8YClFSwQFVb2_d-JjVzq-YwomLQhKRPKDe4-FvIijXKhv_BRHiX1bXq8ybeFNImBWmzjj4="
+      },
+      {
+        "label": "egyptianstreets",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Fk71ZfjW9STPpmToqNrgwmYxlMp7OhM7zMAqJ6bIJx3wB-6pKhio2O_JM_DuhBr9ngA-HvpOQLQ2l19M8gCJeF2u-rBoT34yNemT4kwFUSp9uuoMQD3GJY7mvHaVS5pbu59m_Gg9cT11rODDv2GU0Gu-VUVZYeiJ8HJMagV_1LpK2zq8DyhcdGlH-8slS6XCn3mDgdLpM1LooAYG3ymt"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

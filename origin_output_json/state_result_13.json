@@ -1,0 +1,1080 @@
+{
+  "file_name": "state_result_13.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.635106",
+  "data": {
+    "messages": [
+      {
+        "content": "can you get me information on HollowQuill campaign luring users with disguised malicious PDFs",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "63948883-fe19-4a40-b3f8-431d8934c6f7",
+        "example": false
+      },
+      {
+        "content": "Operation HollowQuill is a cyber espionage campaign that uses weaponized PDF documents to target academic institutions, government agencies, and defense-related networks globally [thecyberthrone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z) [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71) [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg==) [seqrite](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHHlTMXAdsLE5ZeRbtf5yC9esg89W-ZbJQ-ufQnHl67oEyofdnD2KS71oTQk-nxZW46TGftET9wPE9j9ltOfFcS9J1jUyhtTAkB4oLonQDSLWDbIUQfXIzw4uAeDgWWxIhnwejM0URSPpW65PvFS96U-2PIzsvghLGl-RUHkSxLGPqURcc33Orh5jlFhI=) [thecyberthrone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z) [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ) [cyberpress](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe-3GkftuXcVTLr1rvB_MXBM3XRMGn2wo1m5B8ylPYvOEPb2k5AtzACqgnkM94rdcMV0d5t-GDRZDWVlMVYA8-vvmKLVQC8HvJmd0ecsEcWbc2KDV0mK_e53OJ65W08TUrCr6WKvTd8CuPsoflka9aYchGBmww6F3aNLXbHDTP). The campaign began in late 2024, with a spike in attacks in March 2025 [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ) [seqrite](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHHlTMXAdsLE5ZeRbtf5yC9esg89W-ZbJQ-ufQnHl67oEyofdnD2KS71oTQk-nxZW46TGftET9wPE9j9ltOfFcS9J1jUyhtTAkB4oLonQDSLWDbIUQfXIzw4uAeDgWWxIhnwejM0URSPpW65PvFS96U-2PIzsvghLGl-RUHkSxLGPqURcc33Orh5jlFhI=). The threat actors are likely state-sponsored and are targeting intellectual property and classified information [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ).\n\n**Attack Vectors and Techniques:**\n\n*   **Malicious PDFs:** The attackers distribute weaponized PDF files through phishing emails [thecyberthrone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z). These files contain embedded malicious JavaScript or exploit code designed to trigger vulnerabilities in PDF rendering engines like Adobe Acrobat and Foxit Reader [thecyberthrone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z). A specific vulnerability mentioned is CVE-2025-8732, a recently discovered vulnerability in common PDF readers, allowing arbitrary code execution within the PDF viewer [thecyberthrone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z) [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA==).\n*   **Social Engineering:** The campaign uses highly deceptive social engineering, with attackers mapping organizational structures through open-source intelligence before crafting personalized PDF lures relevant to targets’ specific research or policy interests [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ). The PDFs are disguised as research papers, grant applications, or government communiqués to entice unsuspecting users [thecyberthrone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z) [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg==) [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ) [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71).\n*   **Obfuscated Payloads:** The malicious payload is buried within the PDF's metadata or JavaScript objects, making it difficult to detect using traditional antivirus tools [thecyberthrone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z) [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ). HollowQuill employs an unusual obfuscation technique to evade detection, splitting its payload across multiple JavaScript objects within the PDF, reassembling only during runtime [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ).\n*   **Multi-Stage Infection Chain:** Once opened, the documents silently deploy a multi-stage infection chain that establishes persistence on compromised systems while exfiltrating sensitive research data and confidential government information [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ) [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71). The infection chain begins when a concealed script decodes an embedded binary object disguised as document metadata [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA==). This decoded payload injects shellcode into the PDF reader process, which then downloads and executes a second-stage loader from command-and-control servers, typically masquerading as academic content delivery networks [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA==).\n*   **.NET Dropper and Cobalt Strike:** In some instances, the infection chain involves a malicious RAR archive containing a .NET malware dropper, which deploys multiple payloads, including a legitimate OneDrive application, a Golang-based shellcode loader, and a decoy PDF file [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWDabl7QhYgUHG8iGyK-mthNI7z44lHL61SUZNO4w_uW4uNwnMcK2_cOVlXrJnVe00OiIxS4LXy7ZAwq4TO-oLfDlFhbb08Hcz6QaZ7OB8t3UGQ2OE6JhG-2uofJ0-2XgPI0s9QWixEvzmX4dL0eUWoWqVPATm0k2Pog==) [seqrite](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHHlTMXAdsLE5ZeRbtf5yC9esg89W-ZbJQ-ufQnHl67oEyofdnD2KS71oTQk-nxZW46TGftET9wPE9j9ltOfFcS9J1jUyhtTAkB4oLonQDSLWDbIUQfXIzw4uAeDgWWxIhnwejM0URSPpW65PvFS96U-2PIzsvghLGl-RUHkSxLGPqURcc33Orh5jlFhI=) [cybersecuritynews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71). The final payload is often a Cobalt Strike beacon [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWDabl7QhYgUHG8iGyK-mthNI7z44lHL61SUZNO4w_uW4uNwnMcK2_cOVlXrJnVe00OiIxS4LXy7ZAwq4TO-oLfDlFhbb08Hcz6QaZ7OB8t3UGQ2OE6JhG-2uofJ0-2XgPI0s9QWixEvzmX4dL0eUWoWqVPATm0k2Pog==).\n\n**Indicators of Compromise (IOCs):**\n\n*   MD5: ab310ddf9267ed5d613bcc0e52c71a08 (Malicious RAR file) [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ==)\n*   MD5: fad1ddfb40a8786c1dd2b50dc9615275 (SystemUpdaters.exe) [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ==)\n*   MD5: cac4db5c6ecfffe984d5d1df1bc73fdb (OneDrives\\_v2\\_1.exe) [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ==)\n*   C2 Domain: phpsymfony[.]com [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ==)\n*   Observed C2 infrastructure domain rotation across multiple ASN services, including Cloudflare Net in the United States and UCLOUD-HK-AS-AP in Hong Kong [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ==).\n*   makebelievercorp[.]com (observed across hosts serving malicious binaries such as ASyncRAT) [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ==) [cyberpress](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRpSzl0yRR2UvjJRJ6XHhfYfI9T6HeNoaNochHPUYTtuIyYNtvt90HzlF7tGGM0Ek5ror3CWwIFPv0TVqDeqxCkWT9PMET3fKE4uXCSC4QBJeHOdfcjZs-KIZwyfr5Mt8AgHUT43vhEk_QTEZ9DpgMNWcWjhDcb2lOuLKXMFrm)\n\n**Mitigation:**\n\n*   Organizations must adopt a proactive and multi-layered defense strategy, including regular updates, awareness training, and advanced security tools [thecyberthrone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z) [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg==).\n*   Robust endpoint protection measures against identified threats such as Trojan. Ghanarava variants and vigilance against phishing attempts involving malicious attachments are recommended [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWDabl7QhYgUHG8iGyK-mthNI7z44lHL61SUZNO4w_uW4uNwnMcK2_cOVlXrJnVe00OiIxS4LXy7ZAwq4TO-oLfDlFhbb08Hcz6QaZ7OB8t3UGQ2OE6JhG-2uofJ0-2XgPI0s9QWixEvzmX4dL0eUWoWqVPATm0k2Pog==).\n*   Advanced Security Solutions and user awareness are needed [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg==).\n\nSeveral vendors offer protection capabilities against the HollowQuill campaign, including SEQRITE, VMware Carbon Black, CrowdStrike, Trellix, Safetica, Cyberhaven, Forcepoint DLP, Microsoft Purview DLP, Digital Guardian, Trend Micro Deep Security, Sophos Central, and Check Point Harmony SaaS [seqrite](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzrF4kV4um8nBsSNfgZ2_SvP56hMZJkcaY3SbniAjZyLQqA68fD23lES_s50HeUbVQB3GuK040jC2GI_xccvqgdGh35gAN-EgaCl5CHbbMBcbmvM55jF05g87MHTYnXTfGtNMhDo_MEnzwi6ZRb8V3K9nySAJR6zbXMnlQxvGxYR6O3AONgxOGDLJCMLD6) [cyberpress](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBZm-SaP0cl7A04UVWkISp2Anq21pn-77Q3tyW6mqfvkqZY1HwFmi6i6RsGiiMSRD0nymU9lIsPd2s2BnISgKPom9n6Ib6uJZy93C-q2R8yEuHYj-Tu8cKR3N8Uw8w8PDF6r0BuKC_D9n1ZzLrvd8f-fCANX4jtWRF1gu5APgxVA==) [gbhackers](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd7GFBUDogN2oZrsxWqRhbQ29s1c3fj42ORYEzrs104JhOLUZQN_YpBkvvCUHYwYHHKXRA21WV0wtH4geKNnKOKgyt25YWNCmFoFVXnXIPEGBhcRLZughVsCdjix7p-ZqBiPAMMyIFbm43IjjQl6IAk8WsWpNs8UhMJwejUkMyi_8=) [gartner](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-21KViFpsQuB5BNGTapsB0B-Dk6IxQXbrdd3MnQ_P1RqDAFo8oUR48zF79PE9S_fNA4vPATs2Xr3UG2wNgIlbRp3iLiReIKWkDvUU6JGt7_8sEyvReDYtXEhjIKIWdQWRwlObe6BaiwCJ9oI3zpjiq7y8ySSVMICW2niSQGlI8dFW9gWzKrN3diOkA1fvddmTQLNitbpqS08xP4-VtUKn2v2ptq4yh56PaCKdHw0JTe0Bi-Ov35W4aA==) [cyberhaven](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfAy49bWkpfji-FEYQfw6mBwzTgiFA-4Wj01u7Pof5yfM5F1Br3aDLliAiLn3vgCGJ1e46b4BjYF-bbgJiW2FMLXe5TC5SGvg1p9VKtl8YYjrkYcj0h00cuXn1thYZ9z5L8t9lKKfwYnsG3jI8IhGWY13DK2x6bPfZYSUWKDVuirJtWkEJe2CUvG3j) [gartner](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbfs7MPIcnwpNtA8iAdUVq66GaoWiqi4lyBGJIcDewe9lgKQ39RcHbwVqmVGk8IqkQ1aXHBH2RyaGiP9cI28GZAYH039I1las5iBG2YfsHYDZisfU9o-HTbVDbexMrLPmIU6tjehbFW3cksaYXQath7WHaGDbPpkPJ5xhMFJC5o19NXmv4QpTiS0vNe97zVGA5i0iopAI5romnfwsZ2CMV-lHdmtBoWjU1UlqGxMksh-ticDdDklzc1ZgFTU6fVa62FbCjZg==).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "9590cd82-b18d-4979-9ada-608ca078af75",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "HollowQuill campaign malicious PDF analysis 2025",
+      "HollowQuill campaign PDF lure tactics",
+      "What are the specific indicators of compromise (IOCs) associated with the HollowQuill campaign, including file hashes, network addresses, and registry keys?",
+      "What are the known command and control (C2) infrastructure details (IP addresses, domains, and communication protocols) used by the HollowQuill campaign in 2025?",
+      "What specific techniques, tactics, and procedures (TTPs) beyond those already described are employed by the HollowQuill campaign?",
+      "What security products or vendors provide specific detection and prevention capabilities against the HollowQuill campaign besides Symantec?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"HollowQuill campaign malicious PDF analysis 2025\" and synthesize it into a verifiable text artifact.\nOperation HollowQuill is a cyber espionage campaign that uses weaponized PDF documents to target academic institutions and government agencies worldwide. [medium](https://vertexaisearch.cloud.google.com/id/0-0) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-1) [gbhackers](https://vertexaisearch.cloud.google.com/id/0-2) [seqrite](https://vertexaisearch.cloud.google.com/id/0-3) [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5) [cyberpress](https://vertexaisearch.cloud.google.com/id/0-6) The campaign began in late 2024, with a spike in attacks in March 2025. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5) [seqrite](https://vertexaisearch.cloud.google.com/id/0-3) The threat actors are likely state-sponsored and are targeting intellectual property and classified information. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5) (Cyber Security News, TheCyberThrone, Cyber Press)\n\n**Attack Vectors and Techniques:**\n\n*   **Malicious PDFs:** The attackers distribute weaponized PDF files through phishing emails. [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4) These files contain embedded malicious JavaScript or exploit code designed to trigger vulnerabilities in PDF rendering engines like Adobe Acrobat and Foxit Reader. [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4) (Cyber Security News, TheCyberThrone, Cyber Press)\n*   **Social Engineering:** The campaign uses highly deceptive social engineering, with attackers mapping organizational structures through open-source intelligence before crafting personalized PDF lures relevant to targets’ specific research or policy interests. T [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5)he PDFs are disguised as research papers, grant applications, or government communiqués to entice unsuspecting users. (C [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4) [gbhackers](https://vertexaisearch.cloud.google.com/id/0-2) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-1)yber Security News, GBHackers, Cyber Security News)\n*   **Zero-Day Exploits:** Attackers often rely on previously undisclosed vulnerabilities, such as CVE-2025-8732, allowing arbitrary code execution within the PDF viewer. (C [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4)yber Security News, TheCyberThrone)\n*   **Obfuscated Payloads:** The malicious payload is buried within the PDF's metadata or JavaScript objects, making it difficult to detect using traditional antivirus tools. (C [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5)yber Security News, TheCyberThrone)\n*   **Multi-Stage Infection Chain:** Once opened, the documents silently deploy a multi-stage infection chain that establishes persistence on compromised systems while exfiltrating sensitive research data and confidential government information. (C [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-1)yber Security News, GBHackers, Cyber Security News)\n*   **Unusual Obfuscation:** HollowQuill employs an unusual obfuscation technique to evade detection, splitting its payload across multiple JavaScript objects within the PDF, reassembling only during runtime. (C [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5)yber Security News)\n*   **.NET Dropper and Cobalt Strike:** In some instances, the infection chain involves a malicious RAR archive containing a .NET malware dropper, which deploys multiple payloads, including a legitimate OneDrive application, a Golang-based shellcode loader, and a decoy PDF file. Th [gbhackers](https://vertexaisearch.cloud.google.com/id/0-7) [seqrite](https://vertexaisearch.cloud.google.com/id/0-3) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-1)e final payload is often a Cobalt Strike beacon. (G [gbhackers](https://vertexaisearch.cloud.google.com/id/0-7)BHackers, Seqrite)\n\n**Targets:**\n\n*   Academic Institutions: Universities and research facilities engaged in cutting-edge technological or intellectual work. (C [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4)yber Security News, TheCyberThrone, Cyber Press)\n*   Government Agencies: Particularly those dealing with defense, foreign affairs, and intelligence. (C [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4)yber Security News, TheCyberThrone, Cyber Press)\n*   Research and Development Networks: Entities in aerospace, energy, and defense industries. (C [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4)yber Security News, TheCyberThrone, Cyber Press)\n*   Russian R&D Networks: Some reports specifically mention targeting academic, governmental, and defense-related networks in Russia, including the Baltic State Technical University (BSTU) “VOENMEKH”. (Seqri [gbhackers](https://vertexaisearch.cloud.google.com/id/0-7) [cyberpress](https://vertexaisearch.cloud.google.com/id/0-6) [seqrite](https://vertexaisearch.cloud.google.com/id/0-3)te, Cyber Press)\n\n**Impact:**\n\n*   Compromised Systems: The campaign establishes persistence on compromised systems. (Cyber [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-1) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5) Security News, GBHackers, Cyber Security News)\n*   Data Exfiltration: Sensitive research data and confidential government information are exfiltrated. (Cyber [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-5) Security News, GBHackers, Cyber Security News)\n*   Espionage: The attackers are likely pursuing sensitive government and academic data for espionage purposes. (Cyber [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/0-1) Security News, TheCyberThrone, Cyber Press)\n\n**Mitigation:**\n\n*   **Advanced Security Solutions:** The campaign highlights the need for advanced security solutions and user awareness. (GBHac [gbhackers](https://vertexaisearch.cloud.google.com/id/0-2)kers)\n*   **Vigilance and Training:** Defending against such attacks requires vigilance from those within the targeted institutions, with emphasis on training staff to recognize and avoid phishing attempts and suspicious emails. (GBHac [gbhackers](https://vertexaisearch.cloud.google.com/id/0-2)kers)\n*   **Proactive and Multi-Layered Defense:** Organizations must adopt a proactive and multi-layered defense strategy, including regular updates, awareness training, and advanced security tools. (TheCy [thecyberthrone](https://vertexaisearch.cloud.google.com/id/0-4) [gbhackers](https://vertexaisearch.cloud.google.com/id/0-2)berThrone)\n*   **Robust Endpoint Protection:** SEQRITE Labs recommends robust endpoint protection measures against identified threats such as Trojan. Ghanar [gbhackers](https://vertexaisearch.cloud.google.com/id/0-7)ava variants and vigilance against phishing attempts involving malicious attachments. (Cyber [gbhackers](https://vertexaisearch.cloud.google.com/id/0-7) Security News, TheCyberThrone, Cyber Press)\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"HollowQuill campaign PDF lure tactics\" and synthesize it into a verifiable text artifact.\nOperation HollowQuill is a sophisticated cyber espionage campaign that uses weaponized PDF documents to target academic institutions, government agencies, and defense-related networks globally, with a particular focus on Russia. [fletch](https://vertexaisearch.cloud.google.com/id/1-0) [gbhackers](https://vertexaisearch.cloud.google.com/id/1-1) [seqrite](https://vertexaisearch.cloud.google.com/id/1-2) The campaign began in late 2024, with a significant spike in attacks throughout March 2025. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3) The threat actors are likely state-sponsored and demonstrate advanced technical capabilities, potentially linked to China, Russia, or other state-backed actors known for intellectual property theft and espionage.\n\n**PDF Lure Tactics:**\n\n*   **Social Engineering:** The campaign employs highly deceptive social engineering tactics. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3) Attackers map organizational structures through open-source intelligence (OSINT) to craft personalized PDF lures relevant to the targets' specific research or policy interests.\n*   **Decoy Documents:** Malicious PDFs are disguised as legitimate content, such as research papers, grant applications, government communiqués, regulatory documents, or diplomatic correspondence, to entice unsuspecting users to open them.\n [thecyberthrone](https://vertexaisearch.cloud.google.com/id/1-4)*   **Infection Mechanism:** The initial infection vector leverages malicious JavaScript embedded within seemingly legitimate PDF documents.  [thecyberthrone](https://vertexaisearch.cloud.google.com/id/1-4) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3)When opened, the document executes a concealed script that exploits vulnerabilities in common PDF readers.  [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3) [thecyberthrone](https://vertexaisearch.cloud.google.com/id/1-4)A specific vulnerability mentioned is CVE-2025-8732, a recently discovered vulnerability in common PDF readers, allowing arbitrary code execution within the PDF viewer.\n*   **Obfuscation:** HollowQuill employs unusual obfuscation techniques to evade detection, splitting its payload across multiple JavaScript objects within the PDF, reassembling only during runtime.  [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3)The malicious payload is buried within the PDF's metadata or JavaScript objects, making it difficult to detect using traditional antivirus tools.\n [thecyberthrone](https://vertexaisearch.cloud.google.com/id/1-4)*   **Multi-Stage Infection Chain:** Once opened, the malicious PDFs silently deploy a multi-stage infection chain that establishes persistence on compromised systems while exfiltrating sensitive research data and confidential government information.  [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3)The infection chain begins when a concealed script decodes an embedded binary object disguised as document metadata.  [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3)This decoded payload injects shellcode into the PDF reader process, which then downloads and executes a second-stage loader from command-and-control servers, typically masquerading as academic content delivery networks.\n [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3)*   **Delivery Method:** The attackers distribute weaponized PDF files through phishing emails.\n [thecyberthrone](https://vertexaisearch.cloud.google.com/id/1-4)\n**Technical Details:**\n\n*   **RAR Archive:** The infection chain often begins with a malicious RAR archive containing a .NET malware dropper disguised as an official research document.\n [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5) [fletch](https://vertexaisearch.cloud.google.com/id/1-0)*   **.NET Dropper:** The .NET dropper deploys multiple payloads, including a legitimate OneDrive application, a Golang-based shellcode loader, and a decoy PDF file.  [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5) [seqrite](https://vertexaisearch.cloud.google.com/id/1-2)It copies the decoy PDF and legitimate OneDrive application to specific directories while deploying a shortcut file (.lnk) in the Windows Startup folder to ensure persistence.  [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5)It also injects shellcode into the OneDrive process using advanced techniques like Asynchronous Procedure Call (APC).\n [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5)*   **Shellcode Loader:** The shellcode loader employs advanced techniques such as APC injection to execute the payload in memory stealthily.  [gbhackers](https://vertexaisearch.cloud.google.com/id/1-1)Key artifacts extracted from the shellcode reveal advanced anti-analysis techniques, such as time-based evasion mechanisms and memory injection processes, ensuring minimal detection by security systems.\n [gbhackers](https://vertexaisearch.cloud.google.com/id/1-1)*   **Cobalt Strike:** The final payload is often a Cobalt Strike beacon, a well-known penetration testing tool often repurposed for malicious activities.  [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5)The beacon connects to a command-and-control (C2) server using standard HTTP GET requests with encoded data to communicate covertly with the attacker infrastructure.\n*   **Zero-Day Exploits:** Attackers often rely on previously undisclosed vulnerabilities, such as CVE-2025-8732, allowing arbitrary code execution within the PDF viewer.\n [thecyberthrone](https://vertexaisearch.cloud.google.com/id/1-4)\n**Targets and Impact:**\n\n*   Operation HollowQuill targets academic institutions, government agencies, and defense-related networks.\n [fletch](https://vertexaisearch.cloud.google.com/id/1-0) [gbhackers](https://vertexaisearch.cloud.google.com/id/1-1) [cyware](https://vertexaisearch.cloud.google.com/id/1-6) [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5) [seqrite](https://vertexaisearch.cloud.google.com/id/1-2)*   The campaign aims to compromise sensitive information related to defense and aerospace technologies, intellectual property, and classified information.\n*   The campaign's hallmark is its highly deceptive social engineering approach, with attackers first mapping organizational structures through open-source intelligence before crafting personalized PDF lures relevant to targets' specific research or policy interests.  [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3)These targeted approaches have resulted in estimated infection rates exceeding 60% where deployed.\n [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/1-3)\n**Mitigation:**\n\n*   Organizations must adopt a proactive and multi-layered defense strategy, including regular updates, awareness training, and advanced security tools, to mitigate the risks posed by such campaigns.\n [fletch](https://vertexaisearch.cloud.google.com/id/1-0) [thecyberthrone](https://vertexaisearch.cloud.google.com/id/1-4)*   Robust endpoint protection measures against identified threats such as Trojan.  [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5)Ghanarava variants and vigilance against phishing attempts involving malicious attachments are recommended.\n [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5)*   Updated security protocols, staff training, and adaptive defenses are crucial to counter evolving cyber threats.\n [fletch](https://vertexaisearch.cloud.google.com/id/1-0) [thecyberthrone](https://vertexaisearch.cloud.google.com/id/1-4)*   Symantec has been instrumental in offering protection against this threat, incorporating Adaptive-based protection and integrating with various security products to prevent the execution of suspicious programs.\n [fletch](https://vertexaisearch.cloud.google.com/id/1-0)\n**Operational Security Lapses:**\n\n*   Analysis of the campaign revealed operational security (OPSEC) errors by the threat actor, such as leaving Go-build IDs in the Golang injector binary.  [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5)This enabled researchers to identify similar payloads linked to the same actor.\n [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5) [gbhackers](https://vertexaisearch.cloud.google.com/id/1-1)*   The C2 server has been rotating across multiple ASN services globally, including Cloudflare Net in the United States and UCLOUD-HK-AS-AP in Hong Kong.\n [gbhackers](https://vertexaisearch.cloud.google.com/id/1-5)",
+      "Operation HollowQuill is a cyber-espionage campaign that targets academic, governmental, and defense-related networks, particularly in Russia. [cyberpress](https://vertexaisearch.cloud.google.com/id/2-0) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1) The campaign uses weaponized PDF documents as its initial attack vector. [seqrite](https://vertexaisearch.cloud.google.com/id/2-2) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1) [thecyberthrone](https://vertexaisearch.cloud.google.com/id/2-3) Here's a breakdown of the Indicators of Compromise (IOCs) associated with this campaign:\n\n**File Hashes:**\n\n*   MD5: ab310ddf9267ed5d613bcc0e52c71a08 (Malicious RAR file) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n*   MD5: fad1ddfb40a8786c1dd2b50dc9615275 (SystemUpdaters.exe) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n*   MD5: cac4db5c6ecfffe984d5d1df1bc73fdb (OneDrives\\_v2\\_1.exe) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n\n**Network Addresses:**\n\n*   C2 Domain: phpsymfony[.]com [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n*   Observed C2 infrastructure domain rotation across multiple ASN services, including Cloudflare Net in the United States and UCLOUD-HK-AS-AP in Hong Kong. [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n*   makebelievercorp[.]com (observed across hosts serving malicious binaries such as ASyncRAT) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1) [cyberpress](https://vertexaisearch.cloud.google.com/id/2-0)\n\n**Registry Keys:**\n\nWhile specific registry keys directly linked to HollowQuill aren't detailed in the search results, general IOC information includes:\n\n*   Malware modifying or introducing malicious registry keys to maintain persistence. [intrusion](https://vertexaisearch.cloud.google.com/id/2-4) [paloaltonetworks](https://vertexaisearch.cloud.google.com/id/2-5) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1) [filigran](https://vertexaisearch.cloud.google.com/id/2-6) Unusual changes in registries may indicate malicious activities. [intrusion](https://vertexaisearch.cloud.google.com/id/2-4) [paloaltonetworks](https://vertexaisearch.cloud.google.com/id/2-5) [teramind](https://vertexaisearch.cloud.google.com/id/2-7) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1) [filigran](https://vertexaisearch.cloud.google.com/id/2-6)\n*   Example of a registry key that can be monitored: `HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run` [filigran](https://vertexaisearch.cloud.google.com/id/2-6) [paloaltonetworks](https://vertexaisearch.cloud.google.com/id/2-5) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n\n**Additional IOC Details and Context:**\n\n*   **Malware Infection Chain:** The campaign uses a malicious RAR archive containing a .NET malware dropper disguised as an official research document. [seqrite](https://vertexaisearch.cloud.google.com/id/2-2) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1) This dropper deploys multiple payloads, including a legitimate OneDrive application, a Golang-based shellcode loader, and a decoy PDF file. [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1) [seqrite](https://vertexaisearch.cloud.google.com/id/2-2) The final payload is a Cobalt Strike beacon. [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n*   **Decoy PDF:** The decoy PDF appears to be an official communication from the Russian Ministry of Science and Higher Education, outlining guidelines for state-assigned research projects. [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n*   **Targeted Sectors:** Academic & Research Institutions, Military & Defense Industry, Aerospace & Missile Technology, Government-oriented research entities. [seqrite](https://vertexaisearch.cloud.google.com/id/2-2) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n*   **Geographical Focus:** Primarily the Russian Federation. [seqrite](https://vertexaisearch.cloud.google.com/id/2-2) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n*   **MITRE ATT&CK Techniques:** Initial Access: T1566.001 (Spear phishing attachment); Persistence: T1547.001 (Startup folder); Defense Evasion: T1055.004 (Asynchronous Procedure Call). [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n*   **E-mail based IOCs:** Sender's email address or domain used in phishing, spear phishing, or business email compromise (BEC). [intrusion](https://vertexaisearch.cloud.google.com/id/2-4) [gbhackers](https://vertexaisearch.cloud.google.com/id/2-1)\n",
+      "As of July 4, 2025, here's what is known about the HollowQuill campaign's command and control (C2) infrastructure:\n\n*   **Campaign Overview:** HollowQuill is a cyber espionage campaign that uses weaponized PDF documents to target academic institutions, government agencies, and defense-related networks globally. [thecyberthrone](https://vertexaisearch.cloud.google.com/id/3-0) [gbhackers](https://vertexaisearch.cloud.google.com/id/3-1) [seqrite](https://vertexaisearch.cloud.google.com/id/3-2) The campaign began in late 2024, with a spike in attacks in March 2025. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/3-3) [gbhackers](https://vertexaisearch.cloud.google.com/id/3-4)\n*   **Infection Vector:** The campaign uses malicious PDF files distributed through phishing emails. [thecyberthrone](https://vertexaisearch.cloud.google.com/id/3-0) These PDFs contain embedded malicious JavaScript or exploit code that targets vulnerabilities in PDF rendering engines. [thecyberthrone](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **Exploited Vulnerability:** The documents execute a concealed script that exploits CVE-2025-8732, a vulnerability in common PDF readers. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/3-3)\n*   **Payload Delivery:** The malicious payload is often buried within the PDF's metadata or JavaScript objects to evade detection. The malware splits its payload across multiple JavaScript objects within the PDF, reassembling only during runtime. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/3-3) The second-stage loader is downloaded and executed from command-and-control servers, which often masquerade as academic content delivery networks. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/3-3)\n*   **Communication Protocols:** The Cobalt Strike beacon connects to a command-and-control (C2) server using standard HTTP GET requests. [gbhackers](https://vertexaisearch.cloud.google.com/id/3-1)\n*   **C2 Domains:** One identified C2 domain is phpsymfony[.]com. [gbhackers](https://vertexaisearch.cloud.google.com/id/3-1)\n*   **Obfuscation:** HollowQuill employs an unusual obfuscation technique to evade detection. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/3-3)\n\nPlease note that threat actors frequently change their infrastructure to avoid detection, so this information may not be current.\n",
+      "Operation HollowQuill is a sophisticated cyber espionage campaign that employs weaponized PDF documents to target academic institutions, government agencies, and defense-related networks globally. [thecyberthrone](https://vertexaisearch.cloud.google.com/id/4-0) [gbhackers](https://vertexaisearch.cloud.google.com/id/4-1) [seqrite](https://vertexaisearch.cloud.google.com/id/4-2) Analysis indicates the campaign began in late 2024, with a spike in attacks throughout March 2025. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3) The threat actors demonstrate advanced technical capabilities, including the use of zero-day vulnerabilities in PDF rendering engines (CVE-2025-8732) to execute code without triggering traditional security alerts. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3) [thecyberthrone](https://vertexaisearch.cloud.google.com/id/4-0)\n\nHere's a breakdown of specific TTPs employed by the HollowQuill campaign, beyond general descriptions:\n\n*   **Initial Infection Vector:** The campaign leverages malicious JavaScript embedded within seemingly legitimate PDF documents. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3) [thecyberthrone](https://vertexaisearch.cloud.google.com/id/4-0) When opened, the document executes a concealed script that exploits CVE-2025-8732, a recently discovered vulnerability in common PDF readers. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3) The infection chain begins when this script decodes an embedded binary object disguised as document metadata. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3) This decoded payload injects shellcode into the PDF reader process, which then downloads and executes a second-stage loader from command-and-control servers typically masquerading as academic content delivery networks. [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3)\n*   **Social Engineering:** HollowQuill employs highly deceptive social engineering, mapping organizational structures through open-source intelligence (OSINT) before crafting personalized PDF lures relevant to targets’ specific research or policy interests. The malicious PDFs are disguised as research papers, grant applications, or government communiqués to entice unsuspecting users. Th [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-4) [thecyberthrone](https://vertexaisearch.cloud.google.com/id/4-0) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3)ese targeted approaches have resulted in estimated infection rates exceeding 60% where deployed. Ex [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3)amples include:\n\n    *   Research proposals closely aligned with the victim's academic work.\n   [thecyberthrone](https://vertexaisearch.cloud.google.com/id/4-0)  *   Conference invites or travel reimbursements.\n   [thecyberthrone](https://vertexaisearch.cloud.google.com/id/4-0)  *   Diplomatic documents relevant to ongoing political or trade negotiations.\n*  [thecyberthrone](https://vertexaisearch.cloud.google.com/id/4-0)  **Malware Deployment:** The infection chain involves multiple stages:\n\n  [gbhackers](https://vertexaisearch.cloud.google.com/id/4-5) [seqrite](https://vertexaisearch.cloud.google.com/id/4-2) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-4) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3)   *   A malicious RAR archive containing a .NET malware dropper disguised as an official research document. Th [seqrite](https://vertexaisearch.cloud.google.com/id/4-2) [gbhackers](https://vertexaisearch.cloud.google.com/id/4-5)e .NET dropper copies a decoy PDF and a legitimate OneDrive application to specific directories, and deploys a shortcut file (.lnk) in the Windows Startup folder for persistence.\n   [gbhackers](https://vertexaisearch.cloud.google.com/id/4-5)  *   The dropper injects shellcode into the OneDrive process.\n   [gbhackers](https://vertexaisearch.cloud.google.com/id/4-5)  *   A Golang-based shellcode loader is used.\n   [seqrite](https://vertexaisearch.cloud.google.com/id/4-2) [gbhackers](https://vertexaisearch.cloud.google.com/id/4-5) [medium](https://vertexaisearch.cloud.google.com/id/4-6)  *   The final payload is often a Cobalt Strike beacon, which establishes communication with a command-and-control (C2) server and facilitates data exfiltration.\n*  [cyberpress](https://vertexaisearch.cloud.google.com/id/4-7)  **Evasion Techniques:**\n\n    *   The malware uses a fragmented approach to bypass signature-based detection systems.\n   [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3)  *   It employs advanced anti-analysis techniques, such as time-based evasion mechanisms and memory injection processes.\n   [gbhackers](https://vertexaisearch.cloud.google.com/id/4-1)  *   Encoded PowerShell scripts are used to blend into legitimate system processes.\n   [medium](https://vertexaisearch.cloud.google.com/id/4-6)  *   Dynamic obfuscation is used to conceal malicious code.\n*   **Infrastructure:** The C2 server infrastructure rotates across multiple ASN services globally, including Cloudflare Net in the United States and UCLOUD-HK-AS-AP in Hong Kong. HT [gbhackers](https://vertexaisearch.cloud.google.com/id/4-5)TP titles like “Coming Soon – pariaturzzphy. makebelievercorp[.]com” have been observed across hosts serving malicious binaries such as ASyncRAT. The camp [gbhackers](https://vertexaisearch.cloud.google.com/id/4-5)aign also uses SSL certificate impersonation of legitimate educational domains.\n*   **Op [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/4-3)erational Security Lapses:** Researchers have identified operational security (OPSEC) errors by the threat actors, such as leaving Go-build IDs in the Golang injector binary, which enabled them to identify similar payloads linked to the same actor.\n",
+      "Operation HollowQuill is a sophisticated cyber-espionage campaign that uses weaponized PDF documents to target academic, governmental, and defense-related networks, primarily in Russia but also in North America, Europe, and parts of Asia. These PDFs often masquerade as research papers, grant applications, or government communiqués to trick users into opening them, leading to the deployment of malware.\n [medium](https://vertexaisearch.cloud.google.com/id/5-0) [cybersecuritynews](https://vertexaisearch.cloud.google.com/id/5-1)\nWhile Symantec offers protection against this threat, other vendors and products also provide detection and prevention capabilities. Here's a summary of some alternatives:\n\n*   **Seqrite:** SEQRITE Labs discovered Operation HollowQuill and advises institutions to adopt advanced endpoint protection solutions and conduct regular threat-hunting exercises to mitigate such threats. Seqrite protection is available.\n [seqrite](https://vertexaisearch.cloud.google.com/id/5-2) [cyberpress](https://vertexaisearch.cloud.google.com/id/5-3)*   **VMware Carbon Black:** VMware Carbon Black products can be configured to halt the execution of known, suspect, and potentially unwanted programs and integrate with cloud services for real-time analysis.\n [gbhackers](https://vertexaisearch.cloud.google.com/id/5-4)*   **CrowdStrike:** The CrowdStrike platform offers endpoint protection and data loss prevention capabilities without requiring a separate agent.  [gartner](https://vertexaisearch.cloud.google.com/id/5-5)It provides visibility into data movement to external devices, preventing data exfiltration and unauthorized data breaches.\n [gartner](https://vertexaisearch.cloud.google.com/id/5-5)*   **Trellix:** Trellix DLP offers a comprehensive platform to enhance an organization's security posture and mitigate the risk of data loss, proactively protecting against sensitive data leakage and ensuring compliance with regulatory requirements.\n [gartner](https://vertexaisearch.cloud.google.com/id/5-5)*   **Safetica:** Safetica helps in identifying and classifying threats aimed at sensitive data and detecting and analyzing business threats, preventing data loss.\n [gartner](https://vertexaisearch.cloud.google.com/id/5-5)*   **Cyberhaven:** Cyberhaven is a cloud-based data detection and response solution that integrates endpoint data loss prevention with incident response capabilities, identifying real-time sensitive data exposure and tracing end-user behaviors.\n [cyberhaven](https://vertexaisearch.cloud.google.com/id/5-6)*   **Forcepoint DLP:** Forcepoint Data Loss Prevention (DLP) provides data security capabilities to help organizations prevent unauthorized access and loss of sensitive information.\n [gartner](https://vertexaisearch.cloud.google.com/id/5-5) [cyberhaven](https://vertexaisearch.cloud.google.com/id/5-6)*   **Microsoft Purview DLP:** Microsoft Purview DLP is a cloud-oriented solution for data loss prevention, integrated within the Microsoft ecosystem for data governance and protection against insider threats.\n [cyberhaven](https://vertexaisearch.cloud.google.com/id/5-6)*   **Digital Guardian:** Digital Guardian's endpoint DLP software offers data classification, detection processes, and data monitoring capabilities, with flexible controls and a cloud-focused delivery model.\n [cyberhaven](https://vertexaisearch.cloud.google.com/id/5-6)*   **Trend Micro Deep Security:** Trend Micro Deep Security is suitable for monitoring and protecting servers, assigning customizable policies to provide proactive and reactive security.\n [gartner](https://vertexaisearch.cloud.google.com/id/5-7)*   **Sophos Central:** Sophos Central is used to manage BitLocker encryption and provides alerts to any issues in attempting to encrypt.\n [gartner](https://vertexaisearch.cloud.google.com/id/5-7)*   **Check Point Harmony SaaS:** Check Point Harmony SaaS offers a cloud security solution to protect applications like Microsoft 365 and Salesforce against data breaches and data theft attacks.\n [gartner](https://vertexaisearch.cloud.google.com/id/5-7)\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFem8NGRbUakr65aDEzh9ZiYCljlm_awlNNq2E8GiMUUdgwGbIch7XboMIdlHunLQHmsBhaukjz6a9eWuvBCmrMkD7_YGItPx-0bJPJNvi9x1T-NmJ1qUkizETeLD6z2ni8urOo0H6LQZUyjZXI29Ek8nevaEHKk5EqHYdnkJ4hrLoSlIxgL-tz-pJBdTmri7N7yx-cqzhBwcwcPbVq5oGF"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHHlTMXAdsLE5ZeRbtf5yC9esg89W-ZbJQ-ufQnHl67oEyofdnD2KS71oTQk-nxZW46TGftET9wPE9j9ltOfFcS9J1jUyhtTAkB4oLonQDSLWDbIUQfXIzw4uAeDgWWxIhnwejM0URSPpW65PvFS96U-2PIzsvghLGl-RUHkSxLGPqURcc33Orh5jlFhI="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "cyberpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe-3GkftuXcVTLr1rvB_MXBM3XRMGn2wo1m5B8ylPYvOEPb2k5AtzACqgnkM94rdcMV0d5t-GDRZDWVlMVYA8-vvmKLVQC8HvJmd0ecsEcWbc2KDV0mK_e53OJ65W08TUrCr6WKvTd8CuPsoflka9aYchGBmww6F3aNLXbHDTP"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHHlTMXAdsLE5ZeRbtf5yC9esg89W-ZbJQ-ufQnHl67oEyofdnD2KS71oTQk-nxZW46TGftET9wPE9j9ltOfFcS9J1jUyhtTAkB4oLonQDSLWDbIUQfXIzw4uAeDgWWxIhnwejM0URSPpW65PvFS96U-2PIzsvghLGl-RUHkSxLGPqURcc33Orh5jlFhI="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71"
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWDabl7QhYgUHG8iGyK-mthNI7z44lHL61SUZNO4w_uW4uNwnMcK2_cOVlXrJnVe00OiIxS4LXy7ZAwq4TO-oLfDlFhbb08Hcz6QaZ7OB8t3UGQ2OE6JhG-2uofJ0-2XgPI0s9QWixEvzmX4dL0eUWoWqVPATm0k2Pog=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHHlTMXAdsLE5ZeRbtf5yC9esg89W-ZbJQ-ufQnHl67oEyofdnD2KS71oTQk-nxZW46TGftET9wPE9j9ltOfFcS9J1jUyhtTAkB4oLonQDSLWDbIUQfXIzw4uAeDgWWxIhnwejM0URSPpW65PvFS96U-2PIzsvghLGl-RUHkSxLGPqURcc33Orh5jlFhI="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWDabl7QhYgUHG8iGyK-mthNI7z44lHL61SUZNO4w_uW4uNwnMcK2_cOVlXrJnVe00OiIxS4LXy7ZAwq4TO-oLfDlFhbb08Hcz6QaZ7OB8t3UGQ2OE6JhG-2uofJ0-2XgPI0s9QWixEvzmX4dL0eUWoWqVPATm0k2Pog=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWDabl7QhYgUHG8iGyK-mthNI7z44lHL61SUZNO4w_uW4uNwnMcK2_cOVlXrJnVe00OiIxS4LXy7ZAwq4TO-oLfDlFhbb08Hcz6QaZ7OB8t3UGQ2OE6JhG-2uofJ0-2XgPI0s9QWixEvzmX4dL0eUWoWqVPATm0k2Pog=="
+      },
+      {
+        "label": "cyberpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe-3GkftuXcVTLr1rvB_MXBM3XRMGn2wo1m5B8ylPYvOEPb2k5AtzACqgnkM94rdcMV0d5t-GDRZDWVlMVYA8-vvmKLVQC8HvJmd0ecsEcWbc2KDV0mK_e53OJ65W08TUrCr6WKvTd8CuPsoflka9aYchGBmww6F3aNLXbHDTP"
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHHlTMXAdsLE5ZeRbtf5yC9esg89W-ZbJQ-ufQnHl67oEyofdnD2KS71oTQk-nxZW46TGftET9wPE9j9ltOfFcS9J1jUyhtTAkB4oLonQDSLWDbIUQfXIzw4uAeDgWWxIhnwejM0URSPpW65PvFS96U-2PIzsvghLGl-RUHkSxLGPqURcc33Orh5jlFhI="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWDabl7QhYgUHG8iGyK-mthNI7z44lHL61SUZNO4w_uW4uNwnMcK2_cOVlXrJnVe00OiIxS4LXy7ZAwq4TO-oLfDlFhbb08Hcz6QaZ7OB8t3UGQ2OE6JhG-2uofJ0-2XgPI0s9QWixEvzmX4dL0eUWoWqVPATm0k2Pog=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWDabl7QhYgUHG8iGyK-mthNI7z44lHL61SUZNO4w_uW4uNwnMcK2_cOVlXrJnVe00OiIxS4LXy7ZAwq4TO-oLfDlFhbb08Hcz6QaZ7OB8t3UGQ2OE6JhG-2uofJ0-2XgPI0s9QWixEvzmX4dL0eUWoWqVPATm0k2Pog=="
+      },
+      {
+        "label": "fletch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-wUZMtpal8ntNNgXu8QSZbkCLIB83va08t2N9EC_ShQrmjhx5KhYD4ynhWyZJxLZ99sbUGBkUgsX3LlI7iSTg9fO9gKJ8V1IYnKdBWGd1DPVb2b9YCGakr4fmS8oRm5FCUg=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6Q1yKEvDeeeJiuIzDqCHecYy0PlsABqOUc_cB2dScUSTeiW6bvg898TmMW9qco25-begLH8KgcyGkI-v57FUxif8qKmurJ5bk4a6m65lDa6hqsb6Rp4drbGNUYsAfRdKOIfoo6A26hEYowZiodg8jTc8zMXDKkA5tnelkOmZbFNg="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAtucqJj9LoOT4a5W3WQJxS5yV1HkdHeGGLm_oMWlvlVktOLmZp7uNb39kny7SjWfofRVE5iOe6tIZ5NWBsGPhIYmQaZTqS7wLZASO2kjKQiNcHhB-XuxgQbNrAJz-5YavblHtsU6X2OBeNbIJleteyYtxjKC5sDHozSR43nroUMEDo4d7ULQ26F8tWLuP"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4k9aQIHdPb7xTnzIMZq-91JmOZA8qw0vkqzvTLDG5fNBG5gx3M9tsfsqX-xTWuSD844qbWubmkE1-u7nfemGksDfy3Ba4O6bCeLS0rYDeQmLxO5YLhJOO_0Fa862CNSjR8W1zlN-K8c-moQwLVsSCIkEo1oPSyXwfBV2EklnQ9BVF6A=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4k9aQIHdPb7xTnzIMZq-91JmOZA8qw0vkqzvTLDG5fNBG5gx3M9tsfsqX-xTWuSD844qbWubmkE1-u7nfemGksDfy3Ba4O6bCeLS0rYDeQmLxO5YLhJOO_0Fa862CNSjR8W1zlN-K8c-moQwLVsSCIkEo1oPSyXwfBV2EklnQ9BVF6A=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4k9aQIHdPb7xTnzIMZq-91JmOZA8qw0vkqzvTLDG5fNBG5gx3M9tsfsqX-xTWuSD844qbWubmkE1-u7nfemGksDfy3Ba4O6bCeLS0rYDeQmLxO5YLhJOO_0Fa862CNSjR8W1zlN-K8c-moQwLVsSCIkEo1oPSyXwfBV2EklnQ9BVF6A=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4k9aQIHdPb7xTnzIMZq-91JmOZA8qw0vkqzvTLDG5fNBG5gx3M9tsfsqX-xTWuSD844qbWubmkE1-u7nfemGksDfy3Ba4O6bCeLS0rYDeQmLxO5YLhJOO_0Fa862CNSjR8W1zlN-K8c-moQwLVsSCIkEo1oPSyXwfBV2EklnQ9BVF6A=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4k9aQIHdPb7xTnzIMZq-91JmOZA8qw0vkqzvTLDG5fNBG5gx3M9tsfsqX-xTWuSD844qbWubmkE1-u7nfemGksDfy3Ba4O6bCeLS0rYDeQmLxO5YLhJOO_0Fa862CNSjR8W1zlN-K8c-moQwLVsSCIkEo1oPSyXwfBV2EklnQ9BVF6A=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "fletch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-wUZMtpal8ntNNgXu8QSZbkCLIB83va08t2N9EC_ShQrmjhx5KhYD4ynhWyZJxLZ99sbUGBkUgsX3LlI7iSTg9fO9gKJ8V1IYnKdBWGd1DPVb2b9YCGakr4fmS8oRm5FCUg=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAtucqJj9LoOT4a5W3WQJxS5yV1HkdHeGGLm_oMWlvlVktOLmZp7uNb39kny7SjWfofRVE5iOe6tIZ5NWBsGPhIYmQaZTqS7wLZASO2kjKQiNcHhB-XuxgQbNrAJz-5YavblHtsU6X2OBeNbIJleteyYtxjKC5sDHozSR43nroUMEDo4d7ULQ26F8tWLuP"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6Q1yKEvDeeeJiuIzDqCHecYy0PlsABqOUc_cB2dScUSTeiW6bvg898TmMW9qco25-begLH8KgcyGkI-v57FUxif8qKmurJ5bk4a6m65lDa6hqsb6Rp4drbGNUYsAfRdKOIfoo6A26hEYowZiodg8jTc8zMXDKkA5tnelkOmZbFNg="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6Q1yKEvDeeeJiuIzDqCHecYy0PlsABqOUc_cB2dScUSTeiW6bvg898TmMW9qco25-begLH8KgcyGkI-v57FUxif8qKmurJ5bk4a6m65lDa6hqsb6Rp4drbGNUYsAfRdKOIfoo6A26hEYowZiodg8jTc8zMXDKkA5tnelkOmZbFNg="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4k9aQIHdPb7xTnzIMZq-91JmOZA8qw0vkqzvTLDG5fNBG5gx3M9tsfsqX-xTWuSD844qbWubmkE1-u7nfemGksDfy3Ba4O6bCeLS0rYDeQmLxO5YLhJOO_0Fa862CNSjR8W1zlN-K8c-moQwLVsSCIkEo1oPSyXwfBV2EklnQ9BVF6A=="
+      },
+      {
+        "label": "fletch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-wUZMtpal8ntNNgXu8QSZbkCLIB83va08t2N9EC_ShQrmjhx5KhYD4ynhWyZJxLZ99sbUGBkUgsX3LlI7iSTg9fO9gKJ8V1IYnKdBWGd1DPVb2b9YCGakr4fmS8oRm5FCUg=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6Q1yKEvDeeeJiuIzDqCHecYy0PlsABqOUc_cB2dScUSTeiW6bvg898TmMW9qco25-begLH8KgcyGkI-v57FUxif8qKmurJ5bk4a6m65lDa6hqsb6Rp4drbGNUYsAfRdKOIfoo6A26hEYowZiodg8jTc8zMXDKkA5tnelkOmZbFNg="
+      },
+      {
+        "label": "cyware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETcf_3Ig0v8IQqhU8UTifidloGXm9belKKj88MiYQT0MkSpQ7pa7PHndOrwzvuSsnr0i4K2S-tgbyiQixQ77lFl-g7c1Lwxzj0-IJbWPB-oAHcOP4wxbNyV2_TD0atfY382gvP0dylqcdEpwC5qi_9fvrv3UZvbveqcuM_3hVA5bZrUYk9zrvbEq1KKMajmDyonkyn9LPuWSRjyRTLZHx8h6sJeXOHrSJo-AE-WNv4EEbFJKI42H4aZbjdPbE="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAtucqJj9LoOT4a5W3WQJxS5yV1HkdHeGGLm_oMWlvlVktOLmZp7uNb39kny7SjWfofRVE5iOe6tIZ5NWBsGPhIYmQaZTqS7wLZASO2kjKQiNcHhB-XuxgQbNrAJz-5YavblHtsU6X2OBeNbIJleteyYtxjKC5sDHozSR43nroUMEDo4d7ULQ26F8tWLuP"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "fletch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-wUZMtpal8ntNNgXu8QSZbkCLIB83va08t2N9EC_ShQrmjhx5KhYD4ynhWyZJxLZ99sbUGBkUgsX3LlI7iSTg9fO9gKJ8V1IYnKdBWGd1DPVb2b9YCGakr4fmS8oRm5FCUg=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4k9aQIHdPb7xTnzIMZq-91JmOZA8qw0vkqzvTLDG5fNBG5gx3M9tsfsqX-xTWuSD844qbWubmkE1-u7nfemGksDfy3Ba4O6bCeLS0rYDeQmLxO5YLhJOO_0Fa862CNSjR8W1zlN-K8c-moQwLVsSCIkEo1oPSyXwfBV2EklnQ9BVF6A=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "fletch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-wUZMtpal8ntNNgXu8QSZbkCLIB83va08t2N9EC_ShQrmjhx5KhYD4ynhWyZJxLZ99sbUGBkUgsX3LlI7iSTg9fO9gKJ8V1IYnKdBWGd1DPVb2b9YCGakr4fmS8oRm5FCUg=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4k9aQIHdPb7xTnzIMZq-91JmOZA8qw0vkqzvTLDG5fNBG5gx3M9tsfsqX-xTWuSD844qbWubmkE1-u7nfemGksDfy3Ba4O6bCeLS0rYDeQmLxO5YLhJOO_0Fa862CNSjR8W1zlN-K8c-moQwLVsSCIkEo1oPSyXwfBV2EklnQ9BVF6A=="
+      },
+      {
+        "label": "fletch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-wUZMtpal8ntNNgXu8QSZbkCLIB83va08t2N9EC_ShQrmjhx5KhYD4ynhWyZJxLZ99sbUGBkUgsX3LlI7iSTg9fO9gKJ8V1IYnKdBWGd1DPVb2b9YCGakr4fmS8oRm5FCUg=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6Q1yKEvDeeeJiuIzDqCHecYy0PlsABqOUc_cB2dScUSTeiW6bvg898TmMW9qco25-begLH8KgcyGkI-v57FUxif8qKmurJ5bk4a6m65lDa6hqsb6Rp4drbGNUYsAfRdKOIfoo6A26hEYowZiodg8jTc8zMXDKkA5tnelkOmZbFNg="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvGpW9u7DmYETcOcKtVcMmyGhGr4X1qx_ztIjkJ3UDrmspduAApsZLllrBhzO7jDZ2DNTKQb-HqOQkUW6amn6Bh5gxbUu-Fa47dQIApY6bre0gsg8CanBnKlxah5eCj-VL0i9QaTANnIfjzL3CA3HROI1h9kqLw8tapWk="
+      },
+      {
+        "label": "cyberpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRpSzl0yRR2UvjJRJ6XHhfYfI9T6HeNoaNochHPUYTtuIyYNtvt90HzlF7tGGM0Ek5ror3CWwIFPv0TVqDeqxCkWT9PMET3fKE4uXCSC4QBJeHOdfcjZs-KIZwyfr5Mt8AgHUT43vhEk_QTEZ9DpgMNWcWjhDcb2lOuLKXMFrm"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieYwSYxX3QzpIfLs4vdP2OLa-Q7-Wat4PXuXB8JYdc5HbMi9aXWVbIsKWX0uluYvR6Lsd7wJJ6a395fUsWUFgLyv2VVistWq7WS6LVp0tmdU8SRKiNct6RR5tlaNKwqdf4WicTqxkWkLWEAA_zBGQaWPypKL4QMc-5ClQq4FAC1444FLZrN0TFU0cywk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG13hsuIN8BqAaH1rOvx4edsScWXW7sKsUVCLiTcD8BtTyXwGxgrKYscCaG_zUeauLLlBb7SK70mwpulzwJoixx5ztMODQgoBPwgTu-FysX3yD1QXzaN6BYWdrdZMklF7LReS1YFqbuf3BJa7kCbi5_i17poIftpRnJ_s3DalGhAbpE"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "cyberpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRpSzl0yRR2UvjJRJ6XHhfYfI9T6HeNoaNochHPUYTtuIyYNtvt90HzlF7tGGM0Ek5ror3CWwIFPv0TVqDeqxCkWT9PMET3fKE4uXCSC4QBJeHOdfcjZs-KIZwyfr5Mt8AgHUT43vhEk_QTEZ9DpgMNWcWjhDcb2lOuLKXMFrm"
+      },
+      {
+        "label": "intrusion",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-yt3EYVfdQlzNCGnWuYFBxEHI0Je_N57BmerhWf-yLsrPMqh1dDG8sU7n7SPoKwzmzi67kCrlHhytR4MWw3tUrlsU5JWob_i1ix2-IVxX47EdVlms6eZvPByigVmGfw5tO2nERPX7b8wdhuXm1P2vX6rwiDlNScX3NkdyldclVrl4hp2DP4I="
+      },
+      {
+        "label": "paloaltonetworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEYGNlRLnMAt_lFZ2jX9OlP-PcWYlTyHxxTBj37Or_q5P_qV0M0XAvOm0B1d4WUslSgp4f016xn7B908kcxPf9t1VzXavk7eWbQFz6M8ZkSrJCE4bKxDfFIksySI4uUZNCzDOx2_25-VzpManS8mHeE5PGtJBFc4iR70DulczDzt0kbQ="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "filigran",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh3bk6XdQLantqbLmpLmfJONaYNtk0UYlvKZxL51d-qocNxmd-5TBrKvZujOYAJ0matT8TBcKj98yvrux0Ou1RNHHpUxXtB9ziIxT9YcLs7N0lPkzFH0LeFtqxzwrNOt59xnWVRU44eWELLs7LHvbwoJVsMlAuFUrSsopEQ2oj"
+      },
+      {
+        "label": "intrusion",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-yt3EYVfdQlzNCGnWuYFBxEHI0Je_N57BmerhWf-yLsrPMqh1dDG8sU7n7SPoKwzmzi67kCrlHhytR4MWw3tUrlsU5JWob_i1ix2-IVxX47EdVlms6eZvPByigVmGfw5tO2nERPX7b8wdhuXm1P2vX6rwiDlNScX3NkdyldclVrl4hp2DP4I="
+      },
+      {
+        "label": "paloaltonetworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEYGNlRLnMAt_lFZ2jX9OlP-PcWYlTyHxxTBj37Or_q5P_qV0M0XAvOm0B1d4WUslSgp4f016xn7B908kcxPf9t1VzXavk7eWbQFz6M8ZkSrJCE4bKxDfFIksySI4uUZNCzDOx2_25-VzpManS8mHeE5PGtJBFc4iR70DulczDzt0kbQ="
+      },
+      {
+        "label": "teramind",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEq3JqiJBpBHaFeCkMP2db4Fh83xcc0c81IsrYfQST7bObw5-_aVuHglyODUDhvsJ1gEGK_SLPiKDSnoU6wd4cme6lzNZwrIDLJvkoaCoRrufVruJRqQQqDlLGoVGxrtYSjDGx1y_ZUgLP-zodF7LkuG-VvUiZcK2-_FZ8VIOkRpWI="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "filigran",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh3bk6XdQLantqbLmpLmfJONaYNtk0UYlvKZxL51d-qocNxmd-5TBrKvZujOYAJ0matT8TBcKj98yvrux0Ou1RNHHpUxXtB9ziIxT9YcLs7N0lPkzFH0LeFtqxzwrNOt59xnWVRU44eWELLs7LHvbwoJVsMlAuFUrSsopEQ2oj"
+      },
+      {
+        "label": "filigran",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFh3bk6XdQLantqbLmpLmfJONaYNtk0UYlvKZxL51d-qocNxmd-5TBrKvZujOYAJ0matT8TBcKj98yvrux0Ou1RNHHpUxXtB9ziIxT9YcLs7N0lPkzFH0LeFtqxzwrNOt59xnWVRU44eWELLs7LHvbwoJVsMlAuFUrSsopEQ2oj"
+      },
+      {
+        "label": "paloaltonetworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEYGNlRLnMAt_lFZ2jX9OlP-PcWYlTyHxxTBj37Or_q5P_qV0M0XAvOm0B1d4WUslSgp4f016xn7B908kcxPf9t1VzXavk7eWbQFz6M8ZkSrJCE4bKxDfFIksySI4uUZNCzDOx2_25-VzpManS8mHeE5PGtJBFc4iR70DulczDzt0kbQ="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieYwSYxX3QzpIfLs4vdP2OLa-Q7-Wat4PXuXB8JYdc5HbMi9aXWVbIsKWX0uluYvR6Lsd7wJJ6a395fUsWUFgLyv2VVistWq7WS6LVp0tmdU8SRKiNct6RR5tlaNKwqdf4WicTqxkWkLWEAA_zBGQaWPypKL4QMc-5ClQq4FAC1444FLZrN0TFU0cywk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieYwSYxX3QzpIfLs4vdP2OLa-Q7-Wat4PXuXB8JYdc5HbMi9aXWVbIsKWX0uluYvR6Lsd7wJJ6a395fUsWUFgLyv2VVistWq7WS6LVp0tmdU8SRKiNct6RR5tlaNKwqdf4WicTqxkWkLWEAA_zBGQaWPypKL4QMc-5ClQq4FAC1444FLZrN0TFU0cywk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieYwSYxX3QzpIfLs4vdP2OLa-Q7-Wat4PXuXB8JYdc5HbMi9aXWVbIsKWX0uluYvR6Lsd7wJJ6a395fUsWUFgLyv2VVistWq7WS6LVp0tmdU8SRKiNct6RR5tlaNKwqdf4WicTqxkWkLWEAA_zBGQaWPypKL4QMc-5ClQq4FAC1444FLZrN0TFU0cywk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieYwSYxX3QzpIfLs4vdP2OLa-Q7-Wat4PXuXB8JYdc5HbMi9aXWVbIsKWX0uluYvR6Lsd7wJJ6a395fUsWUFgLyv2VVistWq7WS6LVp0tmdU8SRKiNct6RR5tlaNKwqdf4WicTqxkWkLWEAA_zBGQaWPypKL4QMc-5ClQq4FAC1444FLZrN0TFU0cywk="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "intrusion",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-yt3EYVfdQlzNCGnWuYFBxEHI0Je_N57BmerhWf-yLsrPMqh1dDG8sU7n7SPoKwzmzi67kCrlHhytR4MWw3tUrlsU5JWob_i1ix2-IVxX47EdVlms6eZvPByigVmGfw5tO2nERPX7b8wdhuXm1P2vX6rwiDlNScX3NkdyldclVrl4hp2DP4I="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbBPBUWzsbc5LHjt2c7wVnctUddSMn3DTmeuWWIWSOr1A2iTQtlfKKBSWiZivCxYwVxatPtCo_cM1s3JsDQlLnn5oPlZAKZfGat3vGamqJhMlAGj9L6xH2P49cAQ8cOthKVxURAcHg8CwYCMU_LtIg0TmZLo4CIZCnjR-d2Gyi3yO"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIawuw0dDP0RRitZcM2uAhdS0fdnojQjwNMxzFYoLaKX3m7Oq21gZ3ueMyBDr6s3YJ4LowReNvoNBpRfqv7fao9FOB93O5Alr0Bbkle1hGBDaZFv4MfZJoBfeEgaWb3DiIW9XxarWlag_-Or9Ntz_bdu6kd5BTMFTctjqo75kttg=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGhTnEWG0RTp7py3CD-nWiEcQYXXS8o6W8mRhQVrjlvDZtnuUY5h1Tuu1bm0IlaasWOzMSgSOJTotGPaOSYKd4xwC2lSySZuZlgXyQkh_L9vZfTOY9hblyLyzdx7brh0a6zhi4oVNyJ-z2CZ0X9KK5gv6FyswjkDjIzeb8VT6GCq_OQK5Q3kBGHj11-9Q="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUswFVTZPOp2kJ1wvfN01C3pga-Lk5i-XG6x8OYTr3jMogQC69rwf21U1iQmvT2LORTFFWBYN1gXHimH5W4rocpWlph1G1Wj5AmCXPj56Kacosb4_4pakPR2JLdVqyMDc7xsT2SdqdZrSK_4cJtLLBm6qCoWBvtoQ8vsx-vbQBi-AzEkDW2hbQ"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsIU76LBBf46mAEhg633n9B845-zr4nqcHNfGkskBNzO-PE3xDsnFvP6_tX4uvOWolMQFeZNyb7ojsSQKkC42LgdD6AeRdnC0EjHLOEOm2SPFPAPysY7j9Il067WXG4LuV3t0_xvZubex_O46cCKAovwUjsECbdu0BM6UXYjV6A=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbBPBUWzsbc5LHjt2c7wVnctUddSMn3DTmeuWWIWSOr1A2iTQtlfKKBSWiZivCxYwVxatPtCo_cM1s3JsDQlLnn5oPlZAKZfGat3vGamqJhMlAGj9L6xH2P49cAQ8cOthKVxURAcHg8CwYCMU_LtIg0TmZLo4CIZCnjR-d2Gyi3yO"
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbBPBUWzsbc5LHjt2c7wVnctUddSMn3DTmeuWWIWSOr1A2iTQtlfKKBSWiZivCxYwVxatPtCo_cM1s3JsDQlLnn5oPlZAKZfGat3vGamqJhMlAGj9L6xH2P49cAQ8cOthKVxURAcHg8CwYCMU_LtIg0TmZLo4CIZCnjR-d2Gyi3yO"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUswFVTZPOp2kJ1wvfN01C3pga-Lk5i-XG6x8OYTr3jMogQC69rwf21U1iQmvT2LORTFFWBYN1gXHimH5W4rocpWlph1G1Wj5AmCXPj56Kacosb4_4pakPR2JLdVqyMDc7xsT2SdqdZrSK_4cJtLLBm6qCoWBvtoQ8vsx-vbQBi-AzEkDW2hbQ"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUswFVTZPOp2kJ1wvfN01C3pga-Lk5i-XG6x8OYTr3jMogQC69rwf21U1iQmvT2LORTFFWBYN1gXHimH5W4rocpWlph1G1Wj5AmCXPj56Kacosb4_4pakPR2JLdVqyMDc7xsT2SdqdZrSK_4cJtLLBm6qCoWBvtoQ8vsx-vbQBi-AzEkDW2hbQ"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUswFVTZPOp2kJ1wvfN01C3pga-Lk5i-XG6x8OYTr3jMogQC69rwf21U1iQmvT2LORTFFWBYN1gXHimH5W4rocpWlph1G1Wj5AmCXPj56Kacosb4_4pakPR2JLdVqyMDc7xsT2SdqdZrSK_4cJtLLBm6qCoWBvtoQ8vsx-vbQBi-AzEkDW2hbQ"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIawuw0dDP0RRitZcM2uAhdS0fdnojQjwNMxzFYoLaKX3m7Oq21gZ3ueMyBDr6s3YJ4LowReNvoNBpRfqv7fao9FOB93O5Alr0Bbkle1hGBDaZFv4MfZJoBfeEgaWb3DiIW9XxarWlag_-Or9Ntz_bdu6kd5BTMFTctjqo75kttg=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIawuw0dDP0RRitZcM2uAhdS0fdnojQjwNMxzFYoLaKX3m7Oq21gZ3ueMyBDr6s3YJ4LowReNvoNBpRfqv7fao9FOB93O5Alr0Bbkle1hGBDaZFv4MfZJoBfeEgaWb3DiIW9XxarWlag_-Or9Ntz_bdu6kd5BTMFTctjqo75kttg=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUswFVTZPOp2kJ1wvfN01C3pga-Lk5i-XG6x8OYTr3jMogQC69rwf21U1iQmvT2LORTFFWBYN1gXHimH5W4rocpWlph1G1Wj5AmCXPj56Kacosb4_4pakPR2JLdVqyMDc7xsT2SdqdZrSK_4cJtLLBm6qCoWBvtoQ8vsx-vbQBi-AzEkDW2hbQ"
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjseeBOr2g3USWMjFHEMS5SNLztyMtJ-AFdkdOD07mWHzHTCxgHBIrHIlMwheEZYeXjcIXhPGw-9fA2SUaIr3QZc5jMCXyYnkP61MigsFE-DSce91-jrncj6WC36onKvySgmfi8yzOjNuawOB96PeKG8XmmFufTgqCajr0CHiz7ehXZg=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhCihGkQLv9BXVld5Ch7zkaUq0NbOm9yF8Cw9YbDicQOTtYzbqUG7a6uVAB8eWO6PouOSN1tbOwzYgsYzY9He8by2o7GpIrx_0dSPyl87p7AqGVcvmmzbW_U6wPeMe0EjkR6TlWVvIV2HY_vOYhD3jWa4NHsCxJg8f26eL8TNGlVM="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL7GjScZUn9buh1HdwvgMp1AtNeo6__PfOp5JLmMzUH2TH66VQhSlS4wEQwPL5nQ4f3qZ8dtPkNeFcvbcGIF5Ufz9YATjABqrU7fnH6p4i3VFPKa6noIKafl5gswZzwzlv33lTgDPCU_dW9QQX_xnTAQfyHMh_i45ztWw5V9EN5MWcMMCbM0MkCtdaxeKC"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjseeBOr2g3USWMjFHEMS5SNLztyMtJ-AFdkdOD07mWHzHTCxgHBIrHIlMwheEZYeXjcIXhPGw-9fA2SUaIr3QZc5jMCXyYnkP61MigsFE-DSce91-jrncj6WC36onKvySgmfi8yzOjNuawOB96PeKG8XmmFufTgqCajr0CHiz7ehXZg=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjseeBOr2g3USWMjFHEMS5SNLztyMtJ-AFdkdOD07mWHzHTCxgHBIrHIlMwheEZYeXjcIXhPGw-9fA2SUaIr3QZc5jMCXyYnkP61MigsFE-DSce91-jrncj6WC36onKvySgmfi8yzOjNuawOB96PeKG8XmmFufTgqCajr0CHiz7ehXZg=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuzNGuagLDHf3tvdU1l-Er_uVpzK300URNloCLtv-aM7hqjIOCfNTcRtOmbbCo05jMnManLtlZlMle1j9wzGzmuFL4fqxMVNb5xwMIPx1PIPKb_SB4qq1vQWiefaGLt84p4gmhx6EfyFasLOjT_e49L5TCDQs6czEPgbUDcdjSryNvqvWBlLR0zcPvlu-SF3vI2-QRYQ=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjseeBOr2g3USWMjFHEMS5SNLztyMtJ-AFdkdOD07mWHzHTCxgHBIrHIlMwheEZYeXjcIXhPGw-9fA2SUaIr3QZc5jMCXyYnkP61MigsFE-DSce91-jrncj6WC36onKvySgmfi8yzOjNuawOB96PeKG8XmmFufTgqCajr0CHiz7ehXZg=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjseeBOr2g3USWMjFHEMS5SNLztyMtJ-AFdkdOD07mWHzHTCxgHBIrHIlMwheEZYeXjcIXhPGw-9fA2SUaIr3QZc5jMCXyYnkP61MigsFE-DSce91-jrncj6WC36onKvySgmfi8yzOjNuawOB96PeKG8XmmFufTgqCajr0CHiz7ehXZg=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjseeBOr2g3USWMjFHEMS5SNLztyMtJ-AFdkdOD07mWHzHTCxgHBIrHIlMwheEZYeXjcIXhPGw-9fA2SUaIr3QZc5jMCXyYnkP61MigsFE-DSce91-jrncj6WC36onKvySgmfi8yzOjNuawOB96PeKG8XmmFufTgqCajr0CHiz7ehXZg=="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjseeBOr2g3USWMjFHEMS5SNLztyMtJ-AFdkdOD07mWHzHTCxgHBIrHIlMwheEZYeXjcIXhPGw-9fA2SUaIr3QZc5jMCXyYnkP61MigsFE-DSce91-jrncj6WC36onKvySgmfi8yzOjNuawOB96PeKG8XmmFufTgqCajr0CHiz7ehXZg=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSi14stU_finNuydtG0Z9ja7tnc0oxaZk_eqUcip-VhroJZwAFxAr5KIM0QVCmuVV4j9LF2fPjMcBnFEaLqi2BwL_IDK71JBw3XsZ8L9mcrc9HsNkymIQyHAFvj7LN1zENDvzVPlPjgtpSOWs7htolX5982Nqn697_kZQ="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL7GjScZUn9buh1HdwvgMp1AtNeo6__PfOp5JLmMzUH2TH66VQhSlS4wEQwPL5nQ4f3qZ8dtPkNeFcvbcGIF5Ufz9YATjABqrU7fnH6p4i3VFPKa6noIKafl5gswZzwzlv33lTgDPCU_dW9QQX_xnTAQfyHMh_i45ztWw5V9EN5MWcMMCbM0MkCtdaxeKC"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuzNGuagLDHf3tvdU1l-Er_uVpzK300URNloCLtv-aM7hqjIOCfNTcRtOmbbCo05jMnManLtlZlMle1j9wzGzmuFL4fqxMVNb5xwMIPx1PIPKb_SB4qq1vQWiefaGLt84p4gmhx6EfyFasLOjT_e49L5TCDQs6czEPgbUDcdjSryNvqvWBlLR0zcPvlu-SF3vI2-QRYQ=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL7GjScZUn9buh1HdwvgMp1AtNeo6__PfOp5JLmMzUH2TH66VQhSlS4wEQwPL5nQ4f3qZ8dtPkNeFcvbcGIF5Ufz9YATjABqrU7fnH6p4i3VFPKa6noIKafl5gswZzwzlv33lTgDPCU_dW9QQX_xnTAQfyHMh_i45ztWw5V9EN5MWcMMCbM0MkCtdaxeKC"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSi14stU_finNuydtG0Z9ja7tnc0oxaZk_eqUcip-VhroJZwAFxAr5KIM0QVCmuVV4j9LF2fPjMcBnFEaLqi2BwL_IDK71JBw3XsZ8L9mcrc9HsNkymIQyHAFvj7LN1zENDvzVPlPjgtpSOWs7htolX5982Nqn697_kZQ="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSi14stU_finNuydtG0Z9ja7tnc0oxaZk_eqUcip-VhroJZwAFxAr5KIM0QVCmuVV4j9LF2fPjMcBnFEaLqi2BwL_IDK71JBw3XsZ8L9mcrc9HsNkymIQyHAFvj7LN1zENDvzVPlPjgtpSOWs7htolX5982Nqn697_kZQ="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSi14stU_finNuydtG0Z9ja7tnc0oxaZk_eqUcip-VhroJZwAFxAr5KIM0QVCmuVV4j9LF2fPjMcBnFEaLqi2BwL_IDK71JBw3XsZ8L9mcrc9HsNkymIQyHAFvj7LN1zENDvzVPlPjgtpSOWs7htolX5982Nqn697_kZQ="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL7GjScZUn9buh1HdwvgMp1AtNeo6__PfOp5JLmMzUH2TH66VQhSlS4wEQwPL5nQ4f3qZ8dtPkNeFcvbcGIF5Ufz9YATjABqrU7fnH6p4i3VFPKa6noIKafl5gswZzwzlv33lTgDPCU_dW9QQX_xnTAQfyHMh_i45ztWw5V9EN5MWcMMCbM0MkCtdaxeKC"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSi14stU_finNuydtG0Z9ja7tnc0oxaZk_eqUcip-VhroJZwAFxAr5KIM0QVCmuVV4j9LF2fPjMcBnFEaLqi2BwL_IDK71JBw3XsZ8L9mcrc9HsNkymIQyHAFvj7LN1zENDvzVPlPjgtpSOWs7htolX5982Nqn697_kZQ="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiIXoAgky3_GXmUGqMcWjcv4scS8kbx9VP-4cntXr3CjdhmgcC2DwpmKgzGNmg3RXlmE4sCaRIwb4R3qgSxsZvDkt9jWCGPUWCY8J6s16nUBBIUOD7-p8koRrpGlmOyU5dNMQ3RHPjPZuvPLtGsGRHRCWMMMiKQbg9vxRs_o9GCnLLGccuW4WcV_oRxQ-qyEkt-q8iw5mHYBrYwsGONMKxTQ=="
+      },
+      {
+        "label": "cyberpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzLYzpZJMIL3ZxcgxZncnJAvG1kW2phV95hVoQbrd_eylUWqdFrJeJV24n3mCH_01q0h3j3i3gP-EbVZpwym7auUBV0WunPx-U_fFME5ShqCXr-GPINu2L3ICRRQONxSvs07Jp1RYxATPKaNxQj0YleF5JmRP1NCwMgrBLijrtig=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhCihGkQLv9BXVld5Ch7zkaUq0NbOm9yF8Cw9YbDicQOTtYzbqUG7a6uVAB8eWO6PouOSN1tbOwzYgsYzY9He8by2o7GpIrx_0dSPyl87p7AqGVcvmmzbW_U6wPeMe0EjkR6TlWVvIV2HY_vOYhD3jWa4NHsCxJg8f26eL8TNGlVM="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiIXoAgky3_GXmUGqMcWjcv4scS8kbx9VP-4cntXr3CjdhmgcC2DwpmKgzGNmg3RXlmE4sCaRIwb4R3qgSxsZvDkt9jWCGPUWCY8J6s16nUBBIUOD7-p8koRrpGlmOyU5dNMQ3RHPjPZuvPLtGsGRHRCWMMMiKQbg9vxRs_o9GCnLLGccuW4WcV_oRxQ-qyEkt-q8iw5mHYBrYwsGONMKxTQ=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSi14stU_finNuydtG0Z9ja7tnc0oxaZk_eqUcip-VhroJZwAFxAr5KIM0QVCmuVV4j9LF2fPjMcBnFEaLqi2BwL_IDK71JBw3XsZ8L9mcrc9HsNkymIQyHAFvj7LN1zENDvzVPlPjgtpSOWs7htolX5982Nqn697_kZQ="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSi14stU_finNuydtG0Z9ja7tnc0oxaZk_eqUcip-VhroJZwAFxAr5KIM0QVCmuVV4j9LF2fPjMcBnFEaLqi2BwL_IDK71JBw3XsZ8L9mcrc9HsNkymIQyHAFvj7LN1zENDvzVPlPjgtpSOWs7htolX5982Nqn697_kZQ="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHondWq3oeDWH8nb4hk4P9C55L34QdueTA58DvzDFWpLUdnWq4PkCbRcTntrYeCBtb3gVfbVZCzah70XlWR0TrHgWTwk-yx3dLiDBbKlPPjJ-FUliM0JTE0MpGOSfLVmW-LaOb7Hb2Jqq9Jzx1woC6NizxSnl8cBW2XMwUcXvs2HFm3ZL2Vc4wLKQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpugeiG7nydO1W5zZQT01g7mDJuh5y0M6CJV9qKxqfAV8VUdmPSW3bliwf2In5QPbBBwcqJwoFVtiDQwef6CktY1kjN8deEC-JKDzpF3AxJitjJg5r1IOcCvMjwML2aPpfQbh_qAhbEOkGwKN_tHtvKC6CWHAnIbe7bZKRubYyQjCmtcwHyMliweZe9RHXC0jfiaj8wPwse3yxtGankv_AzQ=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqpCG7jxcdKlMkC5NSxfuNEGKc2hSIOjSO2VUqZJwzfJZOk9lMZO0Q-Krt80BiTJZP2uUoS3s1OI8kHoo0lxkOHDu6XSFURh6kuVeo5pReb4zKMQdg2n0mwyNCv1zjvO24Lj7qQ0DWpYk2_s42Emkpp50f6-ZGgyL_njzWGPyU55CtM22gPa1rVA=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzrF4kV4um8nBsSNfgZ2_SvP56hMZJkcaY3SbniAjZyLQqA68fD23lES_s50HeUbVQB3GuK040jC2GI_xccvqgdGh35gAN-EgaCl5CHbbMBcbmvM55jF05g87MHTYnXTfGtNMhDo_MEnzwi6ZRb8V3K9nySAJR6zbXMnlQxvGxYR6O3AONgxOGDLJCMLD6"
+      },
+      {
+        "label": "cyberpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBZm-SaP0cl7A04UVWkISp2Anq21pn-77Q3tyW6mqfvkqZY1HwFmi6i6RsGiiMSRD0nymU9lIsPd2s2BnISgKPom9n6Ib6uJZy93C-q2R8yEuHYj-Tu8cKR3N8Uw8w8PDF6r0BuKC_D9n1ZzLrvd8f-fCANX4jtWRF1gu5APgxVA=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd7GFBUDogN2oZrsxWqRhbQ29s1c3fj42ORYEzrs104JhOLUZQN_YpBkvvCUHYwYHHKXRA21WV0wtH4geKNnKOKgyt25YWNCmFoFVXnXIPEGBhcRLZughVsCdjix7p-ZqBiPAMMyIFbm43IjjQl6IAk8WsWpNs8UhMJwejUkMyi_8="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-21KViFpsQuB5BNGTapsB0B-Dk6IxQXbrdd3MnQ_P1RqDAFo8oUR48zF79PE9S_fNA4vPATs2Xr3UG2wNgIlbRp3iLiReIKWkDvUU6JGt7_8sEyvReDYtXEhjIKIWdQWRwlObe6BaiwCJ9oI3zpjiq7y8ySSVMICW2niSQGlI8dFW9gWzKrN3diOkA1fvddmTQLNitbpqS08xP4-VtUKn2v2ptq4yh56PaCKdHw0JTe0Bi-Ov35W4aA=="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-21KViFpsQuB5BNGTapsB0B-Dk6IxQXbrdd3MnQ_P1RqDAFo8oUR48zF79PE9S_fNA4vPATs2Xr3UG2wNgIlbRp3iLiReIKWkDvUU6JGt7_8sEyvReDYtXEhjIKIWdQWRwlObe6BaiwCJ9oI3zpjiq7y8ySSVMICW2niSQGlI8dFW9gWzKrN3diOkA1fvddmTQLNitbpqS08xP4-VtUKn2v2ptq4yh56PaCKdHw0JTe0Bi-Ov35W4aA=="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-21KViFpsQuB5BNGTapsB0B-Dk6IxQXbrdd3MnQ_P1RqDAFo8oUR48zF79PE9S_fNA4vPATs2Xr3UG2wNgIlbRp3iLiReIKWkDvUU6JGt7_8sEyvReDYtXEhjIKIWdQWRwlObe6BaiwCJ9oI3zpjiq7y8ySSVMICW2niSQGlI8dFW9gWzKrN3diOkA1fvddmTQLNitbpqS08xP4-VtUKn2v2ptq4yh56PaCKdHw0JTe0Bi-Ov35W4aA=="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-21KViFpsQuB5BNGTapsB0B-Dk6IxQXbrdd3MnQ_P1RqDAFo8oUR48zF79PE9S_fNA4vPATs2Xr3UG2wNgIlbRp3iLiReIKWkDvUU6JGt7_8sEyvReDYtXEhjIKIWdQWRwlObe6BaiwCJ9oI3zpjiq7y8ySSVMICW2niSQGlI8dFW9gWzKrN3diOkA1fvddmTQLNitbpqS08xP4-VtUKn2v2ptq4yh56PaCKdHw0JTe0Bi-Ov35W4aA=="
+      },
+      {
+        "label": "cyberhaven",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfAy49bWkpfji-FEYQfw6mBwzTgiFA-4Wj01u7Pof5yfM5F1Br3aDLliAiLn3vgCGJ1e46b4BjYF-bbgJiW2FMLXe5TC5SGvg1p9VKtl8YYjrkYcj0h00cuXn1thYZ9z5L8t9lKKfwYnsG3jI8IhGWY13DK2x6bPfZYSUWKDVuirJtWkEJe2CUvG3j"
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-21KViFpsQuB5BNGTapsB0B-Dk6IxQXbrdd3MnQ_P1RqDAFo8oUR48zF79PE9S_fNA4vPATs2Xr3UG2wNgIlbRp3iLiReIKWkDvUU6JGt7_8sEyvReDYtXEhjIKIWdQWRwlObe6BaiwCJ9oI3zpjiq7y8ySSVMICW2niSQGlI8dFW9gWzKrN3diOkA1fvddmTQLNitbpqS08xP4-VtUKn2v2ptq4yh56PaCKdHw0JTe0Bi-Ov35W4aA=="
+      },
+      {
+        "label": "cyberhaven",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfAy49bWkpfji-FEYQfw6mBwzTgiFA-4Wj01u7Pof5yfM5F1Br3aDLliAiLn3vgCGJ1e46b4BjYF-bbgJiW2FMLXe5TC5SGvg1p9VKtl8YYjrkYcj0h00cuXn1thYZ9z5L8t9lKKfwYnsG3jI8IhGWY13DK2x6bPfZYSUWKDVuirJtWkEJe2CUvG3j"
+      },
+      {
+        "label": "cyberhaven",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfAy49bWkpfji-FEYQfw6mBwzTgiFA-4Wj01u7Pof5yfM5F1Br3aDLliAiLn3vgCGJ1e46b4BjYF-bbgJiW2FMLXe5TC5SGvg1p9VKtl8YYjrkYcj0h00cuXn1thYZ9z5L8t9lKKfwYnsG3jI8IhGWY13DK2x6bPfZYSUWKDVuirJtWkEJe2CUvG3j"
+      },
+      {
+        "label": "cyberhaven",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfAy49bWkpfji-FEYQfw6mBwzTgiFA-4Wj01u7Pof5yfM5F1Br3aDLliAiLn3vgCGJ1e46b4BjYF-bbgJiW2FMLXe5TC5SGvg1p9VKtl8YYjrkYcj0h00cuXn1thYZ9z5L8t9lKKfwYnsG3jI8IhGWY13DK2x6bPfZYSUWKDVuirJtWkEJe2CUvG3j"
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbfs7MPIcnwpNtA8iAdUVq66GaoWiqi4lyBGJIcDewe9lgKQ39RcHbwVqmVGk8IqkQ1aXHBH2RyaGiP9cI28GZAYH039I1las5iBG2YfsHYDZisfU9o-HTbVDbexMrLPmIU6tjehbFW3cksaYXQath7WHaGDbPpkPJ5xhMFJC5o19NXmv4QpTiS0vNe97zVGA5i0iopAI5romnfwsZ2CMV-lHdmtBoWjU1UlqGxMksh-ticDdDklzc1ZgFTU6fVa62FbCjZg=="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbfs7MPIcnwpNtA8iAdUVq66GaoWiqi4lyBGJIcDewe9lgKQ39RcHbwVqmVGk8IqkQ1aXHBH2RyaGiP9cI28GZAYH039I1las5iBG2YfsHYDZisfU9o-HTbVDbexMrLPmIU6tjehbFW3cksaYXQath7WHaGDbPpkPJ5xhMFJC5o19NXmv4QpTiS0vNe97zVGA5i0iopAI5romnfwsZ2CMV-lHdmtBoWjU1UlqGxMksh-ticDdDklzc1ZgFTU6fVa62FbCjZg=="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbfs7MPIcnwpNtA8iAdUVq66GaoWiqi4lyBGJIcDewe9lgKQ39RcHbwVqmVGk8IqkQ1aXHBH2RyaGiP9cI28GZAYH039I1las5iBG2YfsHYDZisfU9o-HTbVDbexMrLPmIU6tjehbFW3cksaYXQath7WHaGDbPpkPJ5xhMFJC5o19NXmv4QpTiS0vNe97zVGA5i0iopAI5romnfwsZ2CMV-lHdmtBoWjU1UlqGxMksh-ticDdDklzc1ZgFTU6fVa62FbCjZg=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzbqSffeyQB8dj0voT5JnIy8oTpjaUtuismGC40paytkQJnJL3HXLWpbjJ3itT9TqAU3a-dzO-h4k_RuhcjgL8x8r8sZ-iSt4Mi4CLRy7Xr7u7Ej9nK2Hr_MRArj5pxRzOLjfPF121DCNSeLEEzqstCUt-FJFRfvFiXuoJl7BLk2JiVvhby0PuE9OoE7by2IGBC71"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWVsFq0o6Z3pCJgdWzdCJSqemmyS-b-M4-oB0dIDZy3AI9E0u7UylHRTY9Q02clOyqfrY4A8NyCMG9ib7elqOxb7tOeKYPLptsXagxUh3JfJqUgzKJHABUfPROaiuWwWltaI_YhHReULCDlXgr7yzuAieOTCwIkyP3wig-BVgCFg=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHHlTMXAdsLE5ZeRbtf5yC9esg89W-ZbJQ-ufQnHl67oEyofdnD2KS71oTQk-nxZW46TGftET9wPE9j9ltOfFcS9J1jUyhtTAkB4oLonQDSLWDbIUQfXIzw4uAeDgWWxIhnwejM0URSPpW65PvFS96U-2PIzsvghLGl-RUHkSxLGPqURcc33Orh5jlFhI="
+      },
+      {
+        "label": "thecyberthrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7s9IaTZwbtqbMHjnISYk2zAQQdbeg2iz-gebbVs2v_GGdBGx1YNa2uwQvgUXwN5_T5EVJoJzIWcXOMUTnNadGrNOUvdaYiWG5O5SjuHCZCRNVeD9Uo58n4L8g5HkZPPP-IAtBlv0Wq2vxcQe229bEZvCI96wAjKR1i4yqahqAF3Z"
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc8Qi06AMmxU0JCVnCfdQJPwhkHxWR5IPEj0xbu6AKsnhscdgMYFjaJd6PZL9c2PfXk_fp7S0pZk3DMbe1TcRr-rbKt0XAoQPNktRaTg7aAs-YBWEk5TT1p9h7bXkgcQhsnwma3TuFfk4A6_ZXkuLHWMes3JD1nWLY5Aq7XtJ3d4n54IYcAWcQ"
+      },
+      {
+        "label": "cyberpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHe-3GkftuXcVTLr1rvB_MXBM3XRMGn2wo1m5B8ylPYvOEPb2k5AtzACqgnkM94rdcMV0d5t-GDRZDWVlMVYA8-vvmKLVQC8HvJmd0ecsEcWbc2KDV0mK_e53OJ65W08TUrCr6WKvTd8CuPsoflka9aYchGBmww6F3aNLXbHDTP"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWDabl7QhYgUHG8iGyK-mthNI7z44lHL61SUZNO4w_uW4uNwnMcK2_cOVlXrJnVe00OiIxS4LXy7ZAwq4TO-oLfDlFhbb08Hcz6QaZ7OB8t3UGQ2OE6JhG-2uofJ0-2XgPI0s9QWixEvzmX4dL0eUWoWqVPATm0k2Pog=="
+      },
+      {
+        "label": "cybersecuritynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkvUJxjBnAYnnOEedjR3oIM6cQJh8DGbuiAgF1_8XQ7OzYZAR6gRn8fubFDTD7ASIefYh_dIb0ILIhmrTRjPw5ySCQ0Imdnbv2AirG1A01ZISvkinO3MYhBe1FNnGseuikO922vCngsSQO4lflJf2XCW_aO-0DaTOANcln2gZ4eg2bBCvNIMxSFA=="
+      },
+      {
+        "label": "cyberpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRpSzl0yRR2UvjJRJ6XHhfYfI9T6HeNoaNochHPUYTtuIyYNtvt90HzlF7tGGM0Ek5ror3CWwIFPv0TVqDeqxCkWT9PMET3fKE4uXCSC4QBJeHOdfcjZs-KIZwyfr5Mt8AgHUT43vhEk_QTEZ9DpgMNWcWjhDcb2lOuLKXMFrm"
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGESOjklM0sy5yL6VvQ95o9wW-WQphTSaFULEdCPlfCyIUQjlP7fB2h2YT2VxTRNGKN1y7b_Ms2XIDx_jdzOPImQOAsYce_uK6NeRvMeJzlGb55xmNx6FtTbs1qTfgNBzM4njM-KeCoIqE7szt9ngYUpsg-a16IRwpQiQ=="
+      },
+      {
+        "label": "seqrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzrF4kV4um8nBsSNfgZ2_SvP56hMZJkcaY3SbniAjZyLQqA68fD23lES_s50HeUbVQB3GuK040jC2GI_xccvqgdGh35gAN-EgaCl5CHbbMBcbmvM55jF05g87MHTYnXTfGtNMhDo_MEnzwi6ZRb8V3K9nySAJR6zbXMnlQxvGxYR6O3AONgxOGDLJCMLD6"
+      },
+      {
+        "label": "cyberpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBZm-SaP0cl7A04UVWkISp2Anq21pn-77Q3tyW6mqfvkqZY1HwFmi6i6RsGiiMSRD0nymU9lIsPd2s2BnISgKPom9n6Ib6uJZy93C-q2R8yEuHYj-Tu8cKR3N8Uw8w8PDF6r0BuKC_D9n1ZzLrvd8f-fCANX4jtWRF1gu5APgxVA=="
+      },
+      {
+        "label": "gbhackers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd7GFBUDogN2oZrsxWqRhbQ29s1c3fj42ORYEzrs104JhOLUZQN_YpBkvvCUHYwYHHKXRA21WV0wtH4geKNnKOKgyt25YWNCmFoFVXnXIPEGBhcRLZughVsCdjix7p-ZqBiPAMMyIFbm43IjjQl6IAk8WsWpNs8UhMJwejUkMyi_8="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-21KViFpsQuB5BNGTapsB0B-Dk6IxQXbrdd3MnQ_P1RqDAFo8oUR48zF79PE9S_fNA4vPATs2Xr3UG2wNgIlbRp3iLiReIKWkDvUU6JGt7_8sEyvReDYtXEhjIKIWdQWRwlObe6BaiwCJ9oI3zpjiq7y8ySSVMICW2niSQGlI8dFW9gWzKrN3diOkA1fvddmTQLNitbpqS08xP4-VtUKn2v2ptq4yh56PaCKdHw0JTe0Bi-Ov35W4aA=="
+      },
+      {
+        "label": "cyberhaven",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfAy49bWkpfji-FEYQfw6mBwzTgiFA-4Wj01u7Pof5yfM5F1Br3aDLliAiLn3vgCGJ1e46b4BjYF-bbgJiW2FMLXe5TC5SGvg1p9VKtl8YYjrkYcj0h00cuXn1thYZ9z5L8t9lKKfwYnsG3jI8IhGWY13DK2x6bPfZYSUWKDVuirJtWkEJe2CUvG3j"
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbfs7MPIcnwpNtA8iAdUVq66GaoWiqi4lyBGJIcDewe9lgKQ39RcHbwVqmVGk8IqkQ1aXHBH2RyaGiP9cI28GZAYH039I1las5iBG2YfsHYDZisfU9o-HTbVDbexMrLPmIU6tjehbFW3cksaYXQath7WHaGDbPpkPJ5xhMFJC5o19NXmv4QpTiS0vNe97zVGA5i0iopAI5romnfwsZ2CMV-lHdmtBoWjU1UlqGxMksh-ticDdDklzc1ZgFTU6fVa62FbCjZg=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

@@ -1,0 +1,961 @@
+{
+  "file_name": "state_result_51.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.729474",
+  "data": {
+    "messages": [
+      {
+        "content": "AI서비스를 한번에 다양하게 볼 수 있는 곳은 어떤곳이 있니",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "12c11f8c-0610-4391-a5fc-305f04dab7b8",
+        "example": false
+      },
+      {
+        "content": "AI 서비스를 한 번에 다양하게 볼 수 있는 곳을 찾으시는군요. 2025년 현재, AI 서비스 플랫폼은 다양한 산업에서 효율성을 높이고 사용자 경험을 개인화하며 데이터 기반 의사 결정을 지원하는 데 널리 사용되고 있습니다 [codedrivenlabs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q==) [skelterlabs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg==).\n\n**AI 서비스 플랫폼의 유형**\n\nAI 서비스를 제공하는 플랫폼은 크게 세 가지 유형으로 나눌 수 있습니다 [tistory](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A=) [brunch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFue9rknBgZkccH4X6sJmTMIP-I5t0a_gpJ5aaMRmgiLQ_IN-PeHaNMsKwG9MI_gk3Rgwt714AAYaaks0BHDNPSeGykhrq5StcSyVzKJPvJL-ZyXt00Fb3L3dF5qvA=) [wishket](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs=).\n\n1.  **산업별 AI 마켓플레이스:** 특정 산업에 특화된 솔루션을 제공합니다. 예를 들어, 게임 개발, 자동차 산업, 헬스케어 분야 등이 있습니다 [brunch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFue9rknBgZkccH4X6sJmTMIP-I5t0a_gpJ5aaMRmgiLQ_IN-PeHaNMsKwG9MI_gk3Rgwt714AAYaaks0BHDNPSeGykhrq5StcSyVzKJPvJL-ZyXt00Fb3L3dF5qvA=) [wishket](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs=).\n2.  **클라우드 기반 AI 마켓플레이스:** 사전 훈련된 AI 모델, 머신러닝 도구, 자연어 처리 및 컴퓨터 비전 API 등을 제공하며, 필요에 따라 유연하게 AI 리소스를 사용할 수 있습니다 [tistory](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A=) [brunch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFue9rknBgZkccH4X6sJmTMIP-I5t0a_gpJ5aaMRmgiLQ_IN-PeHaNMsKwG9MI_gk3Rgwt714AAYaaks0BHDNPSeGykhrq5StcSyVzKJPvJL-ZyXt00Fb3L3dF5qvA=) [wishket](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs=). 대표적인 예로는 AWS(Amazon Web Services), Microsoft Azure AI, Google Cloud AI 등이 있습니다.\n3.  **오픈소스 & 프롬프트 마켓플레이스:** AI 모델 개발, 훈련, 배포 및 관리에 필요한 도구 외에도, AI 서비스 내에서 효율적인 프롬프트나 오픈소스를 거래할 수 있는 플랫폼입니다 [tistory](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A=) [wishket](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs=).\n\n**주요 AI 플랫폼 및 서비스**\n\n*   **Google Cloud AI:** Vertex AI, AutoML, NLP API와 같은 도구를 제공합니다.\n*   **Microsoft Azure AI:** Azure Cognitive Services 및 Azure Machine Learning을 포함한 엔터프라이즈급 도구를 제공합니다 [codedrivenlabs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q==).\n*   **Amazon SageMaker:** 데이터 과학자와 개발자가 머신러닝 모델을 구축, 훈련 및 배포할 수 있도록 지원합니다 [codedrivenlabs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q==) [gosearch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg==3).\n*   **IBM Watsonx:** 워크플로우 및 프로세스 자동화를 위한 AI 기능을 제공합니다 [getguru](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg==0).\n*   **DataRobot:** 비즈니스에서 작업을 자동화하고 통찰력을 추출하는 데 도움이 되는 AI 플랫폼을 제공합니다 [olive](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg==4).\n*   **SAP HANA Cloud:** 지능형 데이터 애플리케이션 생성을 위한 데이터베이스 관리 시스템입니다 [lambdatest](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg==5).\n\n**국내 AI 서비스 플랫폼**\n\n*   **Kore.ai:** 사용자 정의 가능한 AI 에이전트, 도구 및 사전 구축된 템플릿을 제공하는 \"Agent Marketplace\"를 제공합니다 [kore](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-83rsdAVKrjUBo8ickMl8FO3HyDrqVSs5Dq8IUoNajwG72mbPcn9Hi0wdy68XWqRJ190ys7VYxzRsvqvrvXw3aMRVGXzFdn-akE=).\n*   **크라우드웍스 A1 데이터 마켓플레이스:** AI 모델 학습을 위한 고품질 데이터 거래 플랫폼으로, 다양한 형태의 멀티모달 데이터셋을 제공합니다 [newsprime](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU) [newspim](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4l0hJvxQm-ExbwBH3cHHdq1lfGu-j74d8xMLYaZxs5HAlj_GY7V3Eu0QX3Auk28eKRcEUv3axD48tEaNXY_kLl_BTDNNd3J8eN0IqXw_4ghD_uXxaVVVrvYw0CYYaijzwjdM_cYmz5gnwTA==) [ddaily](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4=) [daum](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA==) [crowdworks](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9) [aitimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyL3Led1wfnCz66norAI38hJaHC4xoLuPGGUU_CUhf9ml8SC2FZ15yeLKV6N71S4egSzPSgE1f6GuBDfEG_oUI8QgP85RmG2HHYM9Pc1dLzO85MVJIzWXEqPaTi_xGElH-HNdAPBqKDkloR9qFdphPcL_upPw=) [yna](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo6kKVc9d7jS0bqID2cErmgcY2G4Kf0cmdR_SUelnHc3gbP9XtX-mvghCYAtFGtAa6u5UqSW3i7nipzkdkFGxDlaix8gnD0ijoYaMuCt0-6uBQvljnEPfF-buzKVPQzidSpD3A4qU6yg2M). 의료, 금융, 통신, 소매, 수학 등 주요 산업 그룹에 특화된 도메인 데이터를 제공하며, 음성, 오디오, 이미지, 비디오와 같은 다양한 형태의 멀티모달 데이터셋을 제공합니다 [newsprime](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU) [daum](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA==) [ddaily](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4=) [crowdworks](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9).\n*   **텐센트 클라우드:** AI 및 미디어 기술로 한국 웹 기반 기업을 지원합니다 [technode](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rgp2usL5g_36MCv63Ccdn7vZJgLYhAGWh_ENd2ga2NFkWbknBXa55MTFOC0iA5eWB75YP9Jes1gsbBvV2UA6Uyc3L5REsr4JIp707kQcJOQyW0O6J3kah6bIgN51WGissuc0PG_crLB1Ois1P-IaDcNmNLKsfv3l7alg_EPN5cQyULQuN1S91IXLGdxwQP6DbqjEtpe0RQK8ibbDQd57WeUOK-NJEKlaMcY0YNKipid50m-CIps-JA==).\n*   **업스테이지:** Solar LLM 및 Document Parse 기술을 제공하며 글로벌 엔터프라이즈 AI 시장으로 확장하고 있습니다 [koreaherald](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWQVEf94AQbXBK8g98uf4LkXAUFPCts-LgFCVYI4H2fhnQYEzVn5CiSb1Pcci5C4ThIxmxiFLMGulq6SLyeEhCXccR3HaSY1jECea4Tr8ltjXFRvy4Ntr7XD3XHMBwELKarjOBmGhT).\n*   **KT Corp:** Microsoft와 협력하여 AI 혁신을 추진하고 한국어 특정 LLM을 개발하고 있습니다 [microsoft](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6bQSX2UhGBX2fdf14__vVF1fgvWpKLMRms0wRSWq7xVBr6w43xW7VbzQZotq4eX9qJhaJjMx_604iCUVQmswUPsnMej8BYM2WCJHwXlVJG7M_mk_DdB2xqFS9xTpDX-RS88rXrD1uxHrmhv_Nog4icSuoqYuNQsbWy99WH65l-zAAr9ULwjJcdytKi3mURB_w7Qd60v2-hkL1vREv_wLvh7bTXdTbKhowB82k7ZHegvoT122ht-GMsA==).\n*   **Dalpha:** 다양한 B2B 고객을 위한 클라우드 기반 맞춤형 AI 서비스를 제공합니다 [kedglobal](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF67IWseMCz6yO92V6l0af8Hgay-S9fAaibNvapHM_5PMVICI8yatkflqS_2GSQqQfwFa8W7nhEfrKUzjlg8dm9Oqf_7imut2pJLf-ObvS6BWTz6r9s5Pa2SREQv6xtP0nt6qXj3c5tY-LFrBM2eQ_Lynb6MjGLiFYNF5WJew==).\n\n이러한 플랫폼들을 통해 다양한 AI 서비스를 경험하고 비교해 볼 수 있습니다.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "df6125f6-16dc-48a1-bd63-7bdd04ed3c29",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "AI 서비스 플랫폼 2025",
+      "인공지능 서비스 마켓플레이스",
+      "What are the leading AI service marketplaces in Korea that offer a diverse range of AI services?",
+      "What specific AI services are available on 크라우드웍스's A1 데이터 마켓플레이스?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent and credible information on \"AI 서비스 플랫폼 2025\" and synthesize it into a verifiable text artifact.\nThe AI service platform landscape in 2025 is characterized by widespread adoption, innovation, and a shift towards practical applications across various industries. Businesses [codedrivenlabs](https://vertexaisearch.cloud.google.com/id/0-0) [skelterlabs](https://vertexaisearch.cloud.google.com/id/0-1) are increasingly leveraging AI to enhance efficiency, personalize user experiences, and make data-driven decisions.\n\n**Key Tre [codedrivenlabs](https://vertexaisearch.cloud.google.com/id/0-0)nds and Predictions:**\n\n*   **AI Adoption and Market Growth:** The AI platform market is experiencing significant growth, driven by the increasing need for automation. The global [globalgrowthinsights](https://vertexaisearch.cloud.google.com/id/0-2) [gminsights](https://vertexaisearch.cloud.google.com/id/0-3) AI software platform market is projected to reach $264.51 billion by 2029, growing at a CAGR of 34.9%. The AI as  [giikorea](https://vertexaisearch.cloud.google.com/id/0-4)a Service (AIaaS) market is also expected to grow substantially, with projections estimating a market size of $51.73 billion by 2029, expanding at a CAGR of 27.7%.\n*   **Prac [giikorea](https://vertexaisearch.cloud.google.com/id/0-5) [gminsights](https://vertexaisearch.cloud.google.com/id/0-3)tical AI Agents:** A notable trend is the rise of practical AI agents that can handle specific tasks and optimize processes. By 2028, i [skelterlabs](https://vertexaisearch.cloud.google.com/id/0-1)t's estimated that AI agents will autonomously handle over 15% of enterprise routine tasks. Self-refle [plateer](https://vertexaisearch.cloud.google.com/id/0-6) [skelterlabs](https://vertexaisearch.cloud.google.com/id/0-1)ction capabilities are becoming crucial for AI agents to overcome potential errors.\n*   **From [skelterlabs](https://vertexaisearch.cloud.google.com/id/0-1) RAG to GAR:** The focus is shifting from Retrieval-Augmented Generation (RAG) to Generation-Augmented Retrieval (GAR), emphasizing AI's ability to intelligently conduct searches and optimize information retrieval based on user intent.\n*   **Indu [skelterlabs](https://vertexaisearch.cloud.google.com/id/0-1)stry-Specific Solutions:** Companies are moving away from generic AI tools towards customized solutions tailored to specific industries. This inclu [skelterlabs](https://vertexaisearch.cloud.google.com/id/0-1)des on-premise and private cloud-based solutions to address security and regulatory concerns.\n*   **Mult [skelterlabs](https://vertexaisearch.cloud.google.com/id/0-1)imodal AI:** Multimodal AI, which processes various data types like text, images, and audio, is gaining traction. Gartner pr [plateer](https://vertexaisearch.cloud.google.com/id/0-6)edicts that 40% of generative AI solutions will be multimodal by 2027.\n*   **AI D [meetcody](https://vertexaisearch.cloud.google.com/id/0-7)emocratization:** AI platforms are making it easier for companies to integrate AI into their workflows without extensive in-house development.\n*   **Comp [codedrivenlabs](https://vertexaisearch.cloud.google.com/id/0-0)etitive Landscape:** The AI market is becoming more competitive, with numerous players and increasing M&A activity. Establishe [dginclusion](https://vertexaisearch.cloud.google.com/id/0-8) [infograb](https://vertexaisearch.cloud.google.com/id/0-9)d companies like Google, Microsoft, and Amazon are leading the way, while new entrants are also emerging.\n*   **AI I [codedrivenlabs](https://vertexaisearch.cloud.google.com/id/0-0) [getguru](https://vertexaisearch.cloud.google.com/id/0-10)ntegration Challenges:** Despite the rapid advancements, challenges remain, including \"hallucination\" issues, prioritizing impactful use cases, and the need for automated evaluation tools.\n*   **Ethi [ainet](https://vertexaisearch.cloud.google.com/id/0-11)cal and Responsible AI:** As AI adoption grows, ethical considerations and responsible AI practices are becoming increasingly important.\n\n**Key AI  [aitimes](https://vertexaisearch.cloud.google.com/id/0-12)Platforms and Services:**\n\n*   **Google Cloud AI:** Google Cloud AI continues to be a leader, offering tools like Vertex AI, AutoML, and NLP APIs.\n*   **Micr [codedrivenlabs](https://vertexaisearch.cloud.google.com/id/0-0)osoft Azure AI:** Azure AI provides enterprise-grade tools, including Azure Cognitive Services and Azure Machine Learning.\n*   **Amaz [codedrivenlabs](https://vertexaisearch.cloud.google.com/id/0-0) [gosearch](https://vertexaisearch.cloud.google.com/id/0-13)on SageMaker:** Amazon SageMaker enables data scientists and developers to build, train, and deploy machine learning models.\n*   **IBM  [getguru](https://vertexaisearch.cloud.google.com/id/0-10)Watsonx:** IBM Watsonx offers AI capabilities for automating workflows and processes.\n*   **Data [olive](https://vertexaisearch.cloud.google.com/id/0-14)Robot:** DataRobot provides an AI platform that helps businesses automate tasks and extract insights.\n*   **SAP  [lambdatest](https://vertexaisearch.cloud.google.com/id/0-15)HANA Cloud:** SAP HANA Cloud is a database management system for creating intelligent data applications.\n*   **AI-P [lambdatest](https://vertexaisearch.cloud.google.com/id/0-15)owered Work Platforms:** Platforms like GoSearch and Asana are integrating AI to enhance project management, enterprise search, and knowledge management.\n\n**Regiona [gosearch](https://vertexaisearch.cloud.google.com/id/0-13)l Insights:**\n\n*   **North America:** North America holds a significant market share in the AI platform market due to widespread adoption and advanced AI infrastructure.\n*   **Asia [globalgrowthinsights](https://vertexaisearch.cloud.google.com/id/0-2) Pacific:** Asia Pacific is witnessing increasing AI investments.\n*   **Euro [globalgrowthinsights](https://vertexaisearch.cloud.google.com/id/0-2)pe:** Europe is seeing increased AI adoption in smart manufacturing.\n*   **Germ [globalgrowthinsights](https://vertexaisearch.cloud.google.com/id/0-2)any:** Germany is experiencing high growth prospects in the AIaaS market, driven by the adoption of AI to improve digitalization efforts.\n*   **Mexi [gminsights](https://vertexaisearch.cloud.google.com/id/0-3)co:** Mexico's AI market is expected to grow, driven by AI adoption in manufacturing, automotive, healthcare, and finance.\n\n**Impact  [gminsights](https://vertexaisearch.cloud.google.com/id/0-3)on Industries:**\n\n*   **Healthcare:** AI is transforming healthcare through AI-powered diagnostics, personalized medicine, and robotic surgery.\n*   **Educ [meetcody](https://vertexaisearch.cloud.google.com/id/0-7)ation:** Adaptive AI platforms are changing how students learn by tailoring content and engagement.\n*   **Manu [meetcody](https://vertexaisearch.cloud.google.com/id/0-7)facturing:** AI is being used to enhance efficiency, provide predictive maintenance services, and streamline supply chain operations.\n*   **Fina [gminsights](https://vertexaisearch.cloud.google.com/id/0-3) [impactive-ai](https://vertexaisearch.cloud.google.com/id/0-16)nce:** AI is being used to automate back-office operations, provide intelligent customer service, and detect fraud.\n*   **Reta [impactive-ai](https://vertexaisearch.cloud.google.com/id/0-16)il:** AI is enabling personalized experiences and demand forecasting in the retail industry.\n\nIn conclu [impactive-ai](https://vertexaisearch.cloud.google.com/id/0-16)sion, the AI service platform landscape in 2025 is dynamic and rapidly evolving, with a strong emphasis on practical applications, industry-specific solutions, and ethical considerations. Companies that can effectively leverage AI to improve efficiency, personalize experiences, and drive innovation will be well-positioned for success in the years to come.\n [aitimes](https://vertexaisearch.cloud.google.com/id/0-12)",
+      "Okay, I will conduct Google Searches to gather the most recent information on \"인공지능 서비스 마켓플레이스\" (AI Service Marketplace) and synthesize it into a verifiable text artifact.\n\n인공지능 서비스 마켓플레이스는 기업, 개발자 및 사용자가 AI 서비스에 접근하여 구매, 판매 및 배포할 수 있도록 지원하는 온라인 플랫폼입니다. 이러한 마켓플레이스는 AI 도구, 모델, 데이터 세트, 프롬프트 등 다양한 AI 기술을 거래할 수 있도록 지원하여 다양한 산업에서의 AI 기술 활용을 촉진합니다.\n\n**AI 마켓플레이스의 유형**\n\nAI 마켓플레이스는 크게 세 가지 유형으로 나눌  [tistory](https://vertexaisearch.cloud.google.com/id/1-0) [brunch](https://vertexaisearch.cloud.google.com/id/1-1) [wishket](https://vertexaisearch.cloud.google.com/id/1-2)수 있습니다.\n\n*   **산업별 AI 마켓플레이스:** 특정 산업에 특화된 솔루션을 제공합니다. 예를 들어, 유니티(Unity)는 게임 개발자를 위한 AI 마켓플레이스를 통해 에셋 생성 및 게임 로직 구현을 지원하고, SDVerse는 자동차 산업을 위한 B2B 소프트웨어 플랫폼을 제공합니다. 헬스케어 분야에서는 CARPL.ai와 같은 플랫폼이 방사선 진단 관련 AI 도구 [brunch](https://vertexaisearch.cloud.google.com/id/1-1) [wishket](https://vertexaisearch.cloud.google.com/id/1-2)를 제공합니다.\n*   **클라우드 기반 AI 마켓플레이스:** 사전 훈련된 AI 모델, 머신러닝 도구, 자연어 처리 및 컴퓨터 비전 API 등을 제공하며, 사용자는 필요에 따라 유연하게 AI 리소스를 사용할 수  [tistory](https://vertexaisearch.cloud.google.com/id/1-0) [brunch](https://vertexaisearch.cloud.google.com/id/1-1) [wishket](https://vertexaisearch.cloud.google.com/id/1-2)있습니다. 대표적인 예로는 AWS(Amazon Web Services), Microsoft Azure AI, Google Cloud AI 등이 있습니다.\n*   **오픈소스 &  [tistory](https://vertexaisearch.cloud.google.com/id/1-0) [wishket](https://vertexaisearch.cloud.google.com/id/1-2)프롬프트 마켓플레이스:** AI 모델 개발, 훈련, 배포 및 관리에 필요한 도구 외에도, AI 서비스 내에서 효율적인 프롬프트나 오픈소스를 거래할 수 있는 플랫폼입니다. 프롬프트베이스(Promptbase)와 같은 플랫폼이 대표적입니다.\n\n**AI 마켓플레이스의 중요성**\n\nAI 에이전트 마켓플레이스는 기업이 AI를 도입하는 방식을 혁신하고 있습니다.\n\n*   **디지털 전환 가속화:** AI 에이전트 마켓플레이스를 통해 기 [tistory](https://vertexaisearch.cloud.google.com/id/1-0) [wishket](https://vertexaisearch.cloud.google.com/id/1-2)업은 복잡한 AI 개발 과정 없이도 업무에 맞는 AI 에이전트를 선택하고 활용할 수 있습니다.\n*   **비용 효율성:** AI 에이전트는 24시간 무제한 작업이 가능하여 수익을 극대화할 수 있으며, AI  [tistory](https://vertexaisearch.cloud.google.com/id/1-0)기반 프리랜서 마켓플레이스는 비용 절감과 생산성 향상을 동시에 이룰 수 있는 해답을 제공합니다.\n*   **글로벌 접근성:** AI 기반 플랫폼은 언어 장벽이나 시간대 문제 없이 글로벌 고객을 대상으로 서비스를 제공할 수 있습니다.\n\n**최신 동향**\n\n*   **AI 에이전트 마켓플레이스:** Moveworks와 같은 기업은 사전 구축된 AI 에이전트를 제공하여 기업들이 IT, HR, 재무 등 다양한 부서에서 AI를 빠르게 적용할 수 있도록  [tistory](https://vertexaisearch.cloud.google.com/id/1-0) [wishket](https://vertexaisearch.cloud.google.com/id/1-2)돕고 있습니다.\n*   **생성형 AI 활용:** 테무(Temu)는 생성형 AI를 활용하여 데이터 분석 기반 고객 만족 전략을 수립하고, SNS 등에서 사용자 의견을 분석하여 고객 경험을 개 [tistory](https://vertexaisearch.cloud.google.com/id/1-0) [wishket](https://vertexaisearch.cloud.google.com/id/1-2)선하고 있습니다.\n*   **AI 학습 데이터 마켓플레이스:** 크라우드웍스는 AI 학습용 데이터를 거래할 수 있는 'A1 데이터 마켓플레이스'를 오픈하여 AI 학습에 필요한 고품질 데이터 부족 문제를 해결하고 있습니다.\n*   **AI 음악 마켓플레이스:** 루텐은 AI 생성형 음악 마켓플레이스 플랫폼 'Museedle'을 통해 AI 음악 유통 생태계를 구축하고, 창작자의 권리를 보호하는 새로운 거래 방식을 제시하고 있습니다 [wishket](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**전망**\n\nAI 마켓플레이스는 AI 기술의 발전과 함께 더욱 성장할 것으로 예상됩니다. 특히, AI 에이전트 마켓플레이스는 기업의 [wishket](https://vertexaisearch.cloud.google.com/id/1-2) 디지털 전환을 가속화하고, AI 기술을 보다 효율적으로 활용할 수 있도록 지원할 것입니다. 2025년에는 AI가 마케팅 기술(MarTech) 분야에서도 혁신적인 변화를 가져올 것으로 예상되며, AI 앱 통합이 주요 플랫폼 마켓플레이스에서 증가할 것으로 전망됩 [dxtalk](https://vertexaisearch.cloud.google.com/id/1-3) [gttkorea](https://vertexaisearch.cloud.google.com/id/1-4)니다.\n [contenta](https://vertexaisearch.cloud.google.com/id/1-9) [dxtalk](https://vertexaisearch.cloud.google.com/id/1-3) [gttkorea](https://vertexaisearch.cloud.google.com/id/1-4) [tistory](https://vertexai [dxtalk](https://vertexaisearch.cloud.google.com/id/1-3)search.cloud.google.com/id/1-0) [jiniai](https://vertexaisearch.cloud.google.com/id/1-5) [startupn](https://vertexaisearch.cloud.google.com/id/1-8) [newsprime](https://vertexaisearch.cloud.google.com/id/1-7) [zdnet](https://vertexaisearch.cloud.google.com/id/1-6 [jiniai](https://vertexaisearch.cloud.google.com/id/1-5)) [dxtalk](https://vertexaisearch.cloud.google.com/id/1-3) [jiniai](https://vertexaisearch.cloud.google.com/id/1-5)",
+      "It appears the AI landscape in South Korea is rapidly evolving, with a mix of established players, startups, and government support driving growth [investkorea](https://vertexaisearch.cloud.google.com/id/2-0) [swashenterprises](https://vertexaisearch.cloud.google.com/id/2-1) [expertmarketresearch](https://vertexaisearch.cloud.google.com/id/2-2). Several sources highlight the increasing adoption of AI across various sectors and the expansion of Korean AI companies into the global market [expertmarketresearch](https://vertexaisearch.cloud.google.com/id/2-2) [swashenterprises](https://vertexaisearch.cloud.google.com/id/2-1) [investkorea](https://vertexaisearch.cloud.google.com/id/2-0). While a definitive list of \"leading AI service marketplaces\" is not explicitly provided in the search results, the following information can be synthesized:\n\n**Key Players and Platforms:**\n\n*   **Kore.ai:** This company offers an \"Agent Marketplace\" with customizable AI agents, tools, and pre-built templates for enterprises [kore](https://vertexaisearch.cloud.google.com/id/2-3). Their platform aims to accelerate AI deployment and automation across various business functions [kore](https://vertexaisearch.cloud.google.com/id/2-3). Kore.ai's solutions are also available in the AWS Marketplace [kore](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Tencent Cloud:** Tencent Cloud is supporting South Korean web-based enterprises with AI and media technologies [technode](https://vertexaisearch.cloud.google.com/id/2-5). They partner with companies like LG CNS, SK C&C, and Megazone Cloud Corporation to accelerate AI-based digital transformation [technode](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Upstage:** This AI startup is expanding into the global enterprise AI market, offering a Solar LLM and Document Parse technology [koreaherald](https://vertexaisearch.cloud.google.com/id/2-6).\n*   **KT Corp:** One of South Korea's largest telecom companies, KT is partnering with Microsoft to drive AI transformation and is developing a Korean language-specific LLM [microsoft](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Naver Corporation & Kakao Brain:** These are also companies providing AI services in South Korea [expertmarketresearch](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Dalpha:** Dalpha offers cloud-backed customized AI services for various business-to-business clients [kedglobal](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Vessl AI:** Vessl AI operates an MLOps platform [kedglobal](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Allganize:** Allganize develops large language models for different industries [kedglobal](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Selectstar:** Selectstar is developing an AI-backed mental healthcare management service [kedglobal](https://vertexaisearch.cloud.google.com/id/2-8).\n\n**Focus on Specialization:**\n\n*   Korean AI startups are finding success by targeting specific vertical markets instead of competing directly with tech giants offering generalized AI solutions [swashenterprises](https://vertexaisearch.cloud.google.com/id/2-1). This allows them to develop tailored AI products for industries like medical diagnosis and AI-driven agricultural solutions [swashenterprises](https://vertexaisearch.cloud.google.com/id/2-1).\n*   Examples of specialized AI applications include AI-powered medical diagnosis, AI-driven agricultural solutions, AI for image and video analysis, and AI for detecting counterfeit luxury goods [chosun](https://vertexaisearch.cloud.google.com/id/2-9) [swashenterprises](https://vertexaisearch.cloud.google.com/id/2-1).\n\n**Government Support and Investment:**\n\n*   The South Korean government plays a significant role in fostering the growth of the AI sector through funding and support for startups [swashenterprises](https://vertexaisearch.cloud.google.com/id/2-1).\n*   In April 2024, the government announced plans to offer financial support to local semiconductor efforts, including a USD 1 billion fund for AI chipmakers [expertmarketresearch](https://vertexaisearch.cloud.google.com/id/2-2).\n*   The government plans to invest USD 6.8 million by 2027 to boost the AI chip sector [expertmarketresearch](https://vertexaisearch.cloud.google.com/id/2-2).\n*   In March 2024, a plan to invest USD 585 million in domestic AI research and development was announced to strengthen industrial competitiveness [expertmarketresearch](https://vertexaisearch.cloud.google.com/id/2-2).\n\n**Market Growth:**\n\n*   The South Korean AI market is expected to grow to KRW 3.43 trillion in 2025, with an average annual growth rate of 14.3% to reach KRW 4.46 trillion in 2027 [investkorea](https://vertexaisearch.cloud.google.com/id/2-0).\n*   The South Korea Artificial Intelligence Optimised Data Center Market size is estimated at USD 58.10 million in 2025 [mordorintelligence](https://vertexaisearch.cloud.google.com/id/2-10).\n\n**It's important to note:** While the search results provide insights into the AI landscape in Korea, identifying specific \"leading AI service marketplaces\" requires more focused research on platforms that aggregate and offer AI services from multiple providers.\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"What specific AI services are available on 크라우드웍스's A1 데이터 마켓플레이스?\" and synthesize it into a verifiable text artifact.\n크라우드웍스 has launched the 'A1 데이터 마켓플레이스'. It is a platform for trading high-quality data for AI mode [newsprime](https://vertexaisearch.cloud.google.com/id/3-0) [newspim](https://vertexaisearch.cloud.google.com/id/3-1) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [daum](https://vertexaisearch.cloud.google.com/id/3-3) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4) [aitimes](https://vertexaisearch.cloud.google.com/id/3-5) [yna](https://vertexaisearch.cloud.google.com/id/3-6)l learning. The A1 데이터 마켓플레이스 is the largest AI learning data trading  [yna](https://vertexaisearch.cloud.google.com/id/3-6) [aitimes](https://vertexaisearch.cloud.google.com/id/3-5) [newsprime](https://vertexaisearch.cloud.google.com/id/3-0) [daum](https://vertexaisearch.cloud.google.com/id/3-3) [newspim](https://vertexaisearch.cloud.google.com/id/3-1) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2)platform in Korea. It covers various forms of data required in the multi-modal AI era and activ [newsprime](https://vertexaisearch.cloud.google.com/id/3-0) [newspim](https://vertexaisearch.cloud.google.com/id/3-1) [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4) [yna](https://vertexaisearch.cloud.google.com/id/3-6)ely responds to data demand across the AI industry.\n\nThe A1 데이터 마켓플레이스 offers domain data specialized in major industry groups s [newsprime](https://vertexaisearch.cloud.google.com/id/3-0) [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4)uch as medicine, finance, telecommunications, retail, and mathematics, as well as various forms of multimodal datasets such as voice, audio, images, and video. All data is directly constructed by 크라우드웍스 or verified for expertise and quality through its o [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [newsprime](https://vertexaisearch.cloud.google.com/id/3-0) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4)wn verification system, increasing data accuracy and reliability.\n\nThe platform allows buyers to purchase large-scale text datasets that can be used for large language mode [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [newsprime](https://vertexaisearch.cloud.google.com/id/3-0) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4)ls (LLM) such as conversational AI, translation models, and text summarization. It also provides a multilingual audio dataset with a total of 570,000 tracks, and image datasets optimized [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [aitimes](https://vertexaisearch.cloud.google.com/id/3-5) [newsprime](https://vertexaisearch.cloud.google.com/id/3-0) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4) for various computer vision (CV) fields such as autonomous driving, video recognition, and medical image analysis. In particular, it also provides a multimodal mathematics question dataset with a total of 7,000 cases suit [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [aitimes](https://vertexaisearch.cloud.google.com/id/3-5) [newsprime](https://vertexaisearch.cloud.google.com/id/3-0) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4)able for inference AI model learning. In addition, it supports the construction of customized datasets required by companies through customized  [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [aitimes](https://vertexaisearch.cloud.google.com/id/3-5) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4)data annotation, data augmentation, and synthesis for unstructured datasets according to the buyer's needs.\n\nAll data provided in the 'A1 데이터 마켓플레이스' is composed of data without copyright or other legal dispute fac [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4)tors, so buyers can use it safely without legal risk. In addition, 크라우드웍스 can also issue blockchain-based data transaction history certificates.\n크라우드웍스 is continuously expanding  [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [newsprime](https://vertexaisearch.cloud.google.com/id/3-0) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4)partnerships with domestic and foreign data holding companies and institutions, and data can be traded  [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4) [newsprime](https://vertexaisearch.cloud.google.com/id/3-0)through the 'A1 데이터 마켓플레이스' if you want to sell data.\n\n크라우드웍스 also operates the 'A1 Data Exchange', which provides blockchain-based data transaction certification, to respond to data copyright issues and create a transpa [daum](https://vertexaisearch.cloud.google.com/id/3-3) [ddaily](https://vertexaisearch.cloud.google.com/id/3-2) [crowdworks](https://vertexaisearch.cloud.google.com/id/3-4)rent and reliable data trading environment.\n [mbn](https://vertexaisearch.cloud.google.com/id/3-7)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "codedrivenlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q=="
+      },
+      {
+        "label": "skelterlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg=="
+      },
+      {
+        "label": "codedrivenlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q=="
+      },
+      {
+        "label": "globalgrowthinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJBa8px5v30QAKD4ALjIxErlj0Kh8VWtxngguDcFsWPdO0vxazuSLoD4guQD1zkK_JD9TQnLJUIN_qHEc4H84CKMSp6G5GPf-MM7U_ZnNfLqYmOzoLBx6vGG_jyA2Xs0bCwggApcPZTfW-JdqxqXGMlnPdHZFwgoii64ZTFV28jCgeJm2Pmd-Vfy5-qLQyhkUUQo2DeC3z7EbVJloMIqQ="
+      },
+      {
+        "label": "gminsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbEZKbdimRhjsd_FCZkS51IV7N3LmBEDE69d0foU6ggLJgNBO2tAv7m_aEPABsAkYoIA-tAqI0w1zaM2GhkLIGdKhmbEpzLwEESItCm9MeNPqnGfZ8NBmlRSmvC94J7BJCwAUl0a86Cp9AS20I9FtLree7Qu9aJGVtqJTxxYL6Gw=="
+      },
+      {
+        "label": "giikorea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGpgsrCgcqvAFsQpe7o_a0GmhkFToi2gz3z3T9vJd7Whzhn0EA8QW2LAFp9Qs47jPbO5NmNZifIiaWfpoJ0UvkCOPKMofEIyhJsqd2cPo_Z2QWCZnOVwJ9P5S7W7aBnkbdv6-GFjd1VrouABuVcY6RBvPLJYhmWAyYZ4z0ylTuw89KWcDfu6IXQJGSkJQrreg7ja4jDY1F6LgQ0Kc6"
+      },
+      {
+        "label": "giikorea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFObjZPx4C_7sDIDVHxbMk97NZS5EXPEpVovyBbrkyC7uJhANKfVeMKLHY7G4V4tXMOq1Awdj3Fc68UuKCDuodKm6wyskve41KLLKJgpUBZo3-q0-Hg2XMCtl8ajkkzwAk40tUqAP-gE_o2OiVWq_CItn9cb_x4cfV7Bxgtu7098sUN-bM_OdMbGS7YsO_JnOTTqumBQPtydg1kmrA="
+      },
+      {
+        "label": "gminsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbEZKbdimRhjsd_FCZkS51IV7N3LmBEDE69d0foU6ggLJgNBO2tAv7m_aEPABsAkYoIA-tAqI0w1zaM2GhkLIGdKhmbEpzLwEESItCm9MeNPqnGfZ8NBmlRSmvC94J7BJCwAUl0a86Cp9AS20I9FtLree7Qu9aJGVtqJTxxYL6Gw=="
+      },
+      {
+        "label": "skelterlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg=="
+      },
+      {
+        "label": "plateer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfFNMw88g2wAmGs0MkcfNRZgjm0NLmrFUQyz5EArsO-xMJ9tB0P141bqHyWVKyPcdDkmIGBBmKEeqQtou4pjGKW16upaNvG02VmWeR8p-1MvH1vkneOeqOcAZn6kA7dAKzvisVN8tFYBOhqQmSGGWJGrz5-eW-SMxAjdslsifH1H5nTnbsJewon6Ifg8wFFfp3R1cr4yModBpdiGhRO8BHax0ca46Lo0cAxSb0YwNro1JCNSGsARj4KCD7TuOmlYoAU8MSGMUXN4GFCz2nq2UnZYtJA3i98TI3PQ=="
+      },
+      {
+        "label": "skelterlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg=="
+      },
+      {
+        "label": "skelterlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg=="
+      },
+      {
+        "label": "skelterlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg=="
+      },
+      {
+        "label": "skelterlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg=="
+      },
+      {
+        "label": "skelterlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg=="
+      },
+      {
+        "label": "plateer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfFNMw88g2wAmGs0MkcfNRZgjm0NLmrFUQyz5EArsO-xMJ9tB0P141bqHyWVKyPcdDkmIGBBmKEeqQtou4pjGKW16upaNvG02VmWeR8p-1MvH1vkneOeqOcAZn6kA7dAKzvisVN8tFYBOhqQmSGGWJGrz5-eW-SMxAjdslsifH1H5nTnbsJewon6Ifg8wFFfp3R1cr4yModBpdiGhRO8BHax0ca46Lo0cAxSb0YwNro1JCNSGsARj4KCD7TuOmlYoAU8MSGMUXN4GFCz2nq2UnZYtJA3i98TI3PQ=="
+      },
+      {
+        "label": "meetcody",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2dZVQzYk_nqFeW0TOo74Z-XH4MfSCGaNns1Bsd3HB3fedzFWb0jQhbja5yNLY9oTepm1rROhGt9mSK5s39rnE0uuK97j44wzOfJsMJNZzXXkN9mYcRg3znsSj77iRBg_-NuamKfa-89JtuTNfpcps_WSuXHlZMG2vKBF2UMpOj_8d-iq2HWcPEaT1BxrCv3ZxShlHelwvwB7slxY3zzXNu6fw_UWi_aGcC74zCXORQ9b3CuBBK6b9rxBd7pp3WTR_ScwCsh95Lx1-cDg2WUmyxVmba0ooYdgWmzbRBPGb5Ohyl_PUgSFR9-SmQWbdotlXq0p8u5EcIbyCPPEhbr5kEEsvumw4YMvnt1_E5BSb5K_XNtPiOZ_YwsQ2"
+      },
+      {
+        "label": "codedrivenlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q=="
+      },
+      {
+        "label": "dginclusion",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExUQO5WMYaJnzDLSUA4pSJwCSTai0YP1XtJYp3k4H3GjEymiD3B3ADnjY-_onkr-Q1EnrBmjdbhPXEMJ5zRY2NM9iWWUzTxmTqfmT8-fZf-JOiTeWpC_q-ujdZwuSipwkDUU0Z9oEEN3cdiS8J43lkFrVD0Bk="
+      },
+      {
+        "label": "infograb",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRihcMiwkRy6jrxX3GtXUlTot1V-eEGrMPsMCafwJrhGccGRA2rBpea2P32L5BZortXEnbbQO2IigQw9ZHsHeq31i404m18yEYdktmrNrtQZs8cYFNQ74bVaj72eIvZkxSykbYWt7IELdwgY5MxO0="
+      },
+      {
+        "label": "codedrivenlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q=="
+      },
+      {
+        "label": "getguru",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuGonytsRvAEXWMERDof6BsVu5uPMPGUYLTvx5cFPOo4wupTt2J4SH65zARMIwZ6vtilr-_ONQxp3RUzAb36tDCORoW0-M_kEhF3YYdeo2e5P9Y4rPbcF2VHXS4p11Nmh-y9ptFvN5ChNAqg=="
+      },
+      {
+        "label": "ainet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgApY-kppVAAXOg9CgVDQ1LeszhKste5kGECIQfBkYdgzlDunpVrsqpYBxyLasrg5MfC8yCn_FprwDisL7ZPefP5Y9-zG6kb0njJbReLdH2LtRkYWL"
+      },
+      {
+        "label": "aitimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhlEDU9dLoiPNUM7NQIkiRjSTKPg6K4NPFp0BIaXabrkSHJ6Gz4c5_nya1JvmOLiybccVo68Be6YjA6dlhnQv_pXLL4NEueynjLoA7Kq8erQl5jCfr65G81OF8YP64OsR0pbcoYNlHyIFMin4Kk2EcIKo="
+      },
+      {
+        "label": "codedrivenlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q=="
+      },
+      {
+        "label": "codedrivenlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q=="
+      },
+      {
+        "label": "gosearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTHKCA_eKZUSroeUC5q0qY-DKv3TYz7q-vbnric2Omc79Jj_uk_yMxhrFc8k24eiOnpQxR2g2prR7c-Mt3QspStEAFrRwY3K4Uf54tdreG7SI_rB_3ulM8fMTeWL4DBOTzBlP2eNNMOq-PiayIPBrb8Vp7X6CYYW5ltQ=="
+      },
+      {
+        "label": "getguru",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuGonytsRvAEXWMERDof6BsVu5uPMPGUYLTvx5cFPOo4wupTt2J4SH65zARMIwZ6vtilr-_ONQxp3RUzAb36tDCORoW0-M_kEhF3YYdeo2e5P9Y4rPbcF2VHXS4p11Nmh-y9ptFvN5ChNAqg=="
+      },
+      {
+        "label": "olive",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG2UGwSGjAp1oc19OZuqIEZ1qccpzHrVefz8KOyTLKI8oFrVmVo1bW7rux2GHA7meOenKTwaiI_yqQrsl4OW7M2aUVBVGc0w0hFUbGbMoe1tZ_-6VzoaH-yrBDXxWh4i2DzUaHdlSvz6XSXeLTc5C-fepxVhVGEgPEyh7m4QVdBGeU1GrnrZY4AMdF82xVGyB4cf08"
+      },
+      {
+        "label": "lambdatest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECAHXugFQ3AiK47BBct7ZkJTahUYmw203yeJUmqgkOScPgDpMYvIcpUOaovu38llrZbw5JPFLYClTVARyqqV2YFgAInz1AlUvKOjJZsCy_BiRCm_QozSjPDNip1ETWfeA9FWA0fbQw"
+      },
+      {
+        "label": "lambdatest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECAHXugFQ3AiK47BBct7ZkJTahUYmw203yeJUmqgkOScPgDpMYvIcpUOaovu38llrZbw5JPFLYClTVARyqqV2YFgAInz1AlUvKOjJZsCy_BiRCm_QozSjPDNip1ETWfeA9FWA0fbQw"
+      },
+      {
+        "label": "gosearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTHKCA_eKZUSroeUC5q0qY-DKv3TYz7q-vbnric2Omc79Jj_uk_yMxhrFc8k24eiOnpQxR2g2prR7c-Mt3QspStEAFrRwY3K4Uf54tdreG7SI_rB_3ulM8fMTeWL4DBOTzBlP2eNNMOq-PiayIPBrb8Vp7X6CYYW5ltQ=="
+      },
+      {
+        "label": "globalgrowthinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJBa8px5v30QAKD4ALjIxErlj0Kh8VWtxngguDcFsWPdO0vxazuSLoD4guQD1zkK_JD9TQnLJUIN_qHEc4H84CKMSp6G5GPf-MM7U_ZnNfLqYmOzoLBx6vGG_jyA2Xs0bCwggApcPZTfW-JdqxqXGMlnPdHZFwgoii64ZTFV28jCgeJm2Pmd-Vfy5-qLQyhkUUQo2DeC3z7EbVJloMIqQ="
+      },
+      {
+        "label": "globalgrowthinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJBa8px5v30QAKD4ALjIxErlj0Kh8VWtxngguDcFsWPdO0vxazuSLoD4guQD1zkK_JD9TQnLJUIN_qHEc4H84CKMSp6G5GPf-MM7U_ZnNfLqYmOzoLBx6vGG_jyA2Xs0bCwggApcPZTfW-JdqxqXGMlnPdHZFwgoii64ZTFV28jCgeJm2Pmd-Vfy5-qLQyhkUUQo2DeC3z7EbVJloMIqQ="
+      },
+      {
+        "label": "globalgrowthinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJBa8px5v30QAKD4ALjIxErlj0Kh8VWtxngguDcFsWPdO0vxazuSLoD4guQD1zkK_JD9TQnLJUIN_qHEc4H84CKMSp6G5GPf-MM7U_ZnNfLqYmOzoLBx6vGG_jyA2Xs0bCwggApcPZTfW-JdqxqXGMlnPdHZFwgoii64ZTFV28jCgeJm2Pmd-Vfy5-qLQyhkUUQo2DeC3z7EbVJloMIqQ="
+      },
+      {
+        "label": "gminsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbEZKbdimRhjsd_FCZkS51IV7N3LmBEDE69d0foU6ggLJgNBO2tAv7m_aEPABsAkYoIA-tAqI0w1zaM2GhkLIGdKhmbEpzLwEESItCm9MeNPqnGfZ8NBmlRSmvC94J7BJCwAUl0a86Cp9AS20I9FtLree7Qu9aJGVtqJTxxYL6Gw=="
+      },
+      {
+        "label": "gminsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbEZKbdimRhjsd_FCZkS51IV7N3LmBEDE69d0foU6ggLJgNBO2tAv7m_aEPABsAkYoIA-tAqI0w1zaM2GhkLIGdKhmbEpzLwEESItCm9MeNPqnGfZ8NBmlRSmvC94J7BJCwAUl0a86Cp9AS20I9FtLree7Qu9aJGVtqJTxxYL6Gw=="
+      },
+      {
+        "label": "meetcody",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2dZVQzYk_nqFeW0TOo74Z-XH4MfSCGaNns1Bsd3HB3fedzFWb0jQhbja5yNLY9oTepm1rROhGt9mSK5s39rnE0uuK97j44wzOfJsMJNZzXXkN9mYcRg3znsSj77iRBg_-NuamKfa-89JtuTNfpcps_WSuXHlZMG2vKBF2UMpOj_8d-iq2HWcPEaT1BxrCv3ZxShlHelwvwB7slxY3zzXNu6fw_UWi_aGcC74zCXORQ9b3CuBBK6b9rxBd7pp3WTR_ScwCsh95Lx1-cDg2WUmyxVmba0ooYdgWmzbRBPGb5Ohyl_PUgSFR9-SmQWbdotlXq0p8u5EcIbyCPPEhbr5kEEsvumw4YMvnt1_E5BSb5K_XNtPiOZ_YwsQ2"
+      },
+      {
+        "label": "meetcody",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2dZVQzYk_nqFeW0TOo74Z-XH4MfSCGaNns1Bsd3HB3fedzFWb0jQhbja5yNLY9oTepm1rROhGt9mSK5s39rnE0uuK97j44wzOfJsMJNZzXXkN9mYcRg3znsSj77iRBg_-NuamKfa-89JtuTNfpcps_WSuXHlZMG2vKBF2UMpOj_8d-iq2HWcPEaT1BxrCv3ZxShlHelwvwB7slxY3zzXNu6fw_UWi_aGcC74zCXORQ9b3CuBBK6b9rxBd7pp3WTR_ScwCsh95Lx1-cDg2WUmyxVmba0ooYdgWmzbRBPGb5Ohyl_PUgSFR9-SmQWbdotlXq0p8u5EcIbyCPPEhbr5kEEsvumw4YMvnt1_E5BSb5K_XNtPiOZ_YwsQ2"
+      },
+      {
+        "label": "gminsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbEZKbdimRhjsd_FCZkS51IV7N3LmBEDE69d0foU6ggLJgNBO2tAv7m_aEPABsAkYoIA-tAqI0w1zaM2GhkLIGdKhmbEpzLwEESItCm9MeNPqnGfZ8NBmlRSmvC94J7BJCwAUl0a86Cp9AS20I9FtLree7Qu9aJGVtqJTxxYL6Gw=="
+      },
+      {
+        "label": "impactive-ai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlNAIFfqdX4Mcj28Ecf5dhz5Ly6rtzniyoN8YBoHdDq8pyzEYEXgr4Mpd67iM3We2_fbMqCx2RzQVMNF6p3x1S-4J_8uoDPDZ0r3ridmmztCtOsC-cfS5ObCFYARoAyNOKv5xdgXXK1iCTq6MFp5awi7xQ2Xx0t11txi7bNgEikw=="
+      },
+      {
+        "label": "impactive-ai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlNAIFfqdX4Mcj28Ecf5dhz5Ly6rtzniyoN8YBoHdDq8pyzEYEXgr4Mpd67iM3We2_fbMqCx2RzQVMNF6p3x1S-4J_8uoDPDZ0r3ridmmztCtOsC-cfS5ObCFYARoAyNOKv5xdgXXK1iCTq6MFp5awi7xQ2Xx0t11txi7bNgEikw=="
+      },
+      {
+        "label": "impactive-ai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlNAIFfqdX4Mcj28Ecf5dhz5Ly6rtzniyoN8YBoHdDq8pyzEYEXgr4Mpd67iM3We2_fbMqCx2RzQVMNF6p3x1S-4J_8uoDPDZ0r3ridmmztCtOsC-cfS5ObCFYARoAyNOKv5xdgXXK1iCTq6MFp5awi7xQ2Xx0t11txi7bNgEikw=="
+      },
+      {
+        "label": "aitimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhlEDU9dLoiPNUM7NQIkiRjSTKPg6K4NPFp0BIaXabrkSHJ6Gz4c5_nya1JvmOLiybccVo68Be6YjA6dlhnQv_pXLL4NEueynjLoA7Kq8erQl5jCfr65G81OF8YP64OsR0pbcoYNlHyIFMin4Kk2EcIKo="
+      },
+      {
+        "label": "tistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A="
+      },
+      {
+        "label": "brunch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFue9rknBgZkccH4X6sJmTMIP-I5t0a_gpJ5aaMRmgiLQ_IN-PeHaNMsKwG9MI_gk3Rgwt714AAYaaks0BHDNPSeGykhrq5StcSyVzKJPvJL-ZyXt00Fb3L3dF5qvA="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "brunch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFue9rknBgZkccH4X6sJmTMIP-I5t0a_gpJ5aaMRmgiLQ_IN-PeHaNMsKwG9MI_gk3Rgwt714AAYaaks0BHDNPSeGykhrq5StcSyVzKJPvJL-ZyXt00Fb3L3dF5qvA="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "tistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A="
+      },
+      {
+        "label": "brunch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFue9rknBgZkccH4X6sJmTMIP-I5t0a_gpJ5aaMRmgiLQ_IN-PeHaNMsKwG9MI_gk3Rgwt714AAYaaks0BHDNPSeGykhrq5StcSyVzKJPvJL-ZyXt00Fb3L3dF5qvA="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "tistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "tistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "tistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A="
+      },
+      {
+        "label": "tistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "tistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "dxtalk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNWOn9pkkrl-NUrbbP43tYS6ZDsv_yjumEJ_TKwdu55jNwLq8eP_ufrBYCyVQtTcnsN6WrTwwrY5BClmdMFn3SJOab3DvJOJ0TdMs_mFB85yhTQxgmOYQjO2ZXOKnISyCczZrar9OQg=="
+      },
+      {
+        "label": "gttkorea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKmXk45j1EActwhnFuQn-0pznFiMqE05xOUci4n0dHVx7NR928sdQAwenxacVnKwDUq0UHlkpMkcg43BaIVeG1udg8f2nUGWfeOSIr9OMcruUn_zdgs3lupptgozpV-qN4rbGZciACnmkDRhPNqglVb7CsPwg="
+      },
+      {
+        "label": "dxtalk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNWOn9pkkrl-NUrbbP43tYS6ZDsv_yjumEJ_TKwdu55jNwLq8eP_ufrBYCyVQtTcnsN6WrTwwrY5BClmdMFn3SJOab3DvJOJ0TdMs_mFB85yhTQxgmOYQjO2ZXOKnISyCczZrar9OQg=="
+      },
+      {
+        "label": "jiniai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1hkBxtNyf_TbqkIN9fGtS8hIfb6AuaoC1kayZitv5sYWO00ziZKT_k4UY9xSZTGxVsSMUijAUJSlnByhaaYYUgKwCGGz0yuRkXpmfX7oUqlJw2tcN9-lsKejfsys581Z8BZmP6x_klhC1S0wDnGSaenyeNxGADMaWtNDJvHCSFwQMpG8LCWNE3bXCDd_YgMjuy9rNjd818XeiYXo54Ei2KoGzr7HB8ivWBcl5fWh9rNsTbGkYwLSQ4rGHUMVEYh_aGYW7_YiERX_LBfRPitPBMc3CINhCt_lubqe75Q3jg4DD9sw_aYJNGV7DNwERHv1Dl5vhv4DuoPeN_usfjdtVDKLlSOFljBLkfvuboZ8iEtKeGJbFyeK7fmCyL4s5Irz"
+      },
+      {
+        "label": "jiniai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1hkBxtNyf_TbqkIN9fGtS8hIfb6AuaoC1kayZitv5sYWO00ziZKT_k4UY9xSZTGxVsSMUijAUJSlnByhaaYYUgKwCGGz0yuRkXpmfX7oUqlJw2tcN9-lsKejfsys581Z8BZmP6x_klhC1S0wDnGSaenyeNxGADMaWtNDJvHCSFwQMpG8LCWNE3bXCDd_YgMjuy9rNjd818XeiYXo54Ei2KoGzr7HB8ivWBcl5fWh9rNsTbGkYwLSQ4rGHUMVEYh_aGYW7_YiERX_LBfRPitPBMc3CINhCt_lubqe75Q3jg4DD9sw_aYJNGV7DNwERHv1Dl5vhv4DuoPeN_usfjdtVDKLlSOFljBLkfvuboZ8iEtKeGJbFyeK7fmCyL4s5Irz"
+      },
+      {
+        "label": "dxtalk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNWOn9pkkrl-NUrbbP43tYS6ZDsv_yjumEJ_TKwdu55jNwLq8eP_ufrBYCyVQtTcnsN6WrTwwrY5BClmdMFn3SJOab3DvJOJ0TdMs_mFB85yhTQxgmOYQjO2ZXOKnISyCczZrar9OQg=="
+      },
+      {
+        "label": "zdnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAjCSYT_OWxWj_uL-yomxcPP6_PI1CdWEWoL0AlH4LVMn12fdGtAY0pbjnxaBEblRaUu0iuNZ20T1bK9BZCUTDFWikDELcZl9u16cvK6Xrrw849lGceRrNTUZifUB6PDr7lI382Fs="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxVgNhzgmqmI4NCXh9IOOpQNgaijojXi-jvf3K1XljUnDDT_4H8wOJzIGN0qlfK3QLlK4uwcmHoCUwqg-nHb9JnUEL623wtjKDkRdG-1p7RMaI0mufpU8jdSkFoDwUIWdw9rlJ2q-BLheFx-ULz5zJ"
+      },
+      {
+        "label": "startupn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi4JxzKNlRpG0ERwz8zo-k2JIVVMV1hdIw95vUFoP0ADWb0Z_bZ93DIlIpMHKVqZfTI2vq2ywZJoQQNfH-Z9KSvzApawOIS9WqinDiBsaIX-MCBmOV7OLsBqZA2mwBnxiuugHRKii4BjdFM3YxUR5s0KcCMg=="
+      },
+      {
+        "label": "tistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A="
+      },
+      {
+        "label": "jiniai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1hkBxtNyf_TbqkIN9fGtS8hIfb6AuaoC1kayZitv5sYWO00ziZKT_k4UY9xSZTGxVsSMUijAUJSlnByhaaYYUgKwCGGz0yuRkXpmfX7oUqlJw2tcN9-lsKejfsys581Z8BZmP6x_klhC1S0wDnGSaenyeNxGADMaWtNDJvHCSFwQMpG8LCWNE3bXCDd_YgMjuy9rNjd818XeiYXo54Ei2KoGzr7HB8ivWBcl5fWh9rNsTbGkYwLSQ4rGHUMVEYh_aGYW7_YiERX_LBfRPitPBMc3CINhCt_lubqe75Q3jg4DD9sw_aYJNGV7DNwERHv1Dl5vhv4DuoPeN_usfjdtVDKLlSOFljBLkfvuboZ8iEtKeGJbFyeK7fmCyL4s5Irz"
+      },
+      {
+        "label": "dxtalk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmNWOn9pkkrl-NUrbbP43tYS6ZDsv_yjumEJ_TKwdu55jNwLq8eP_ufrBYCyVQtTcnsN6WrTwwrY5BClmdMFn3SJOab3DvJOJ0TdMs_mFB85yhTQxgmOYQjO2ZXOKnISyCczZrar9OQg=="
+      },
+      {
+        "label": "gttkorea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKmXk45j1EActwhnFuQn-0pznFiMqE05xOUci4n0dHVx7NR928sdQAwenxacVnKwDUq0UHlkpMkcg43BaIVeG1udg8f2nUGWfeOSIr9OMcruUn_zdgs3lupptgozpV-qN4rbGZciACnmkDRhPNqglVb7CsPwg="
+      },
+      {
+        "label": "contenta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9i-HGihXI3hdDgrrGlYpb9gOoCeenwQWomOGPaT9rz485kRMCTqOVEap3R4-_Itglaw0LurvkccqD2k9fOaIHmZa5SaD4LKs3qk1nDxmIqypC_Jsb7MLRLz6BBJYRZlK437Ksq6qg0J8X67Wa57rkbIjqb3UMITsJCIOU5hCIF_fo8ajxA5pgjl26IKxwg4XH6XpcznhUSSy4GdD2RVzMOxcDsRXH9eoYXQoFRfwxF_onAJEIZ3C7P0QHzx309NBilNns7hsvKNzbMP5zKVU30_58wIaF7ROXepsS3wVAoi6D-9Vy9yDJJGZ0-oFL2QBYetCYlA6aleIVNLNoub715rp2zb5cvU8="
+      },
+      {
+        "label": "investkorea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU10bpWzEDrR9RnlSxXTRSKyqEkanJVnJvywEEI7-Mt1qHZrvMh7_8Tv3taunHnVU7q4yDezAvftStL_3xfIJCtV7j3Klaf5RxiyjvzbdPxTa-CdYtGckgdjLU7PNZV5GK_vGBUN-8-0p2r7vL5PCnb75BbgqkEdqu1l0dtHp0"
+      },
+      {
+        "label": "swashenterprises",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh0suofYQooiwNpMtKa74vVRfBK0jwVKxI7F3faWCjg-cBGivitpeEXSOXgcz4NGstyjhDoQEg_-0hnqw2Z0v2yBINSJkdSBMSPvl1EA1CXr_srei-KXQClEl_he3oOozU35gTnVSsrcYJsRkleVm3i0C3onzX8TkoFPghv7m5QMpnTEo_Fb-3EwCYbpleftAWCrdorn3J9qAjUXd_217oUZFwzGf3LOvkfags5-mJbnjL1aNKmZRT5BGeZCvHyzlED8JQKVbAZhf9euQvHQ=="
+      },
+      {
+        "label": "expertmarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7aB4gAtufGGYMu2mrKHWPFPlAe7w16wC1A5jN9EbVesDFBW9vFd9HIOglf182O3jPyAoBd6yYi-p05q7xEst9NEELtOttHgYSRXOYngYJ5xkz_VEWg8Z-ZJIEogpLTbfKz_9GlyyegwKfu7TUm6M9KJJrppYschwdHUVSIZ_cIZbudGCr89mucbiGDV9lsRHGz64Q4EMzxLcoEF1L170="
+      },
+      {
+        "label": "expertmarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7aB4gAtufGGYMu2mrKHWPFPlAe7w16wC1A5jN9EbVesDFBW9vFd9HIOglf182O3jPyAoBd6yYi-p05q7xEst9NEELtOttHgYSRXOYngYJ5xkz_VEWg8Z-ZJIEogpLTbfKz_9GlyyegwKfu7TUm6M9KJJrppYschwdHUVSIZ_cIZbudGCr89mucbiGDV9lsRHGz64Q4EMzxLcoEF1L170="
+      },
+      {
+        "label": "swashenterprises",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh0suofYQooiwNpMtKa74vVRfBK0jwVKxI7F3faWCjg-cBGivitpeEXSOXgcz4NGstyjhDoQEg_-0hnqw2Z0v2yBINSJkdSBMSPvl1EA1CXr_srei-KXQClEl_he3oOozU35gTnVSsrcYJsRkleVm3i0C3onzX8TkoFPghv7m5QMpnTEo_Fb-3EwCYbpleftAWCrdorn3J9qAjUXd_217oUZFwzGf3LOvkfags5-mJbnjL1aNKmZRT5BGeZCvHyzlED8JQKVbAZhf9euQvHQ=="
+      },
+      {
+        "label": "investkorea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU10bpWzEDrR9RnlSxXTRSKyqEkanJVnJvywEEI7-Mt1qHZrvMh7_8Tv3taunHnVU7q4yDezAvftStL_3xfIJCtV7j3Klaf5RxiyjvzbdPxTa-CdYtGckgdjLU7PNZV5GK_vGBUN-8-0p2r7vL5PCnb75BbgqkEdqu1l0dtHp0"
+      },
+      {
+        "label": "kore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-83rsdAVKrjUBo8ickMl8FO3HyDrqVSs5Dq8IUoNajwG72mbPcn9Hi0wdy68XWqRJ190ys7VYxzRsvqvrvXw3aMRVGXzFdn-akE="
+      },
+      {
+        "label": "kore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-83rsdAVKrjUBo8ickMl8FO3HyDrqVSs5Dq8IUoNajwG72mbPcn9Hi0wdy68XWqRJ190ys7VYxzRsvqvrvXw3aMRVGXzFdn-akE="
+      },
+      {
+        "label": "kore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVSGBisruvIZ4Q6079IHvjfM_VWwac_OOw0icHM4msqH_vWIo5UstxWQq6fEVBHR46jXp8XnaCcRXykevA0_8XMvtxCeHCGttBj8vc1sG3xmOSPYiA30FQgo5Ov6Q5ioFanoDsd79gXDCYj605-ODI_VOZCmqyQboh7r39-V4="
+      },
+      {
+        "label": "technode",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rgp2usL5g_36MCv63Ccdn7vZJgLYhAGWh_ENd2ga2NFkWbknBXa55MTFOC0iA5eWB75YP9Jes1gsbBvV2UA6Uyc3L5REsr4JIp707kQcJOQyW0O6J3kah6bIgN51WGissuc0PG_crLB1Ois1P-IaDcNmNLKsfv3l7alg_EPN5cQyULQuN1S91IXLGdxwQP6DbqjEtpe0RQK8ibbDQd57WeUOK-NJEKlaMcY0YNKipid50m-CIps-JA=="
+      },
+      {
+        "label": "technode",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rgp2usL5g_36MCv63Ccdn7vZJgLYhAGWh_ENd2ga2NFkWbknBXa55MTFOC0iA5eWB75YP9Jes1gsbBvV2UA6Uyc3L5REsr4JIp707kQcJOQyW0O6J3kah6bIgN51WGissuc0PG_crLB1Ois1P-IaDcNmNLKsfv3l7alg_EPN5cQyULQuN1S91IXLGdxwQP6DbqjEtpe0RQK8ibbDQd57WeUOK-NJEKlaMcY0YNKipid50m-CIps-JA=="
+      },
+      {
+        "label": "koreaherald",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWQVEf94AQbXBK8g98uf4LkXAUFPCts-LgFCVYI4H2fhnQYEzVn5CiSb1Pcci5C4ThIxmxiFLMGulq6SLyeEhCXccR3HaSY1jECea4Tr8ltjXFRvy4Ntr7XD3XHMBwELKarjOBmGhT"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6bQSX2UhGBX2fdf14__vVF1fgvWpKLMRms0wRSWq7xVBr6w43xW7VbzQZotq4eX9qJhaJjMx_604iCUVQmswUPsnMej8BYM2WCJHwXlVJG7M_mk_DdB2xqFS9xTpDX-RS88rXrD1uxHrmhv_Nog4icSuoqYuNQsbWy99WH65l-zAAr9ULwjJcdytKi3mURB_w7Qd60v2-hkL1vREv_wLvh7bTXdTbKhowB82k7ZHegvoT122ht-GMsA=="
+      },
+      {
+        "label": "expertmarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7aB4gAtufGGYMu2mrKHWPFPlAe7w16wC1A5jN9EbVesDFBW9vFd9HIOglf182O3jPyAoBd6yYi-p05q7xEst9NEELtOttHgYSRXOYngYJ5xkz_VEWg8Z-ZJIEogpLTbfKz_9GlyyegwKfu7TUm6M9KJJrppYschwdHUVSIZ_cIZbudGCr89mucbiGDV9lsRHGz64Q4EMzxLcoEF1L170="
+      },
+      {
+        "label": "kedglobal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF67IWseMCz6yO92V6l0af8Hgay-S9fAaibNvapHM_5PMVICI8yatkflqS_2GSQqQfwFa8W7nhEfrKUzjlg8dm9Oqf_7imut2pJLf-ObvS6BWTz6r9s5Pa2SREQv6xtP0nt6qXj3c5tY-LFrBM2eQ_Lynb6MjGLiFYNF5WJew=="
+      },
+      {
+        "label": "kedglobal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF67IWseMCz6yO92V6l0af8Hgay-S9fAaibNvapHM_5PMVICI8yatkflqS_2GSQqQfwFa8W7nhEfrKUzjlg8dm9Oqf_7imut2pJLf-ObvS6BWTz6r9s5Pa2SREQv6xtP0nt6qXj3c5tY-LFrBM2eQ_Lynb6MjGLiFYNF5WJew=="
+      },
+      {
+        "label": "kedglobal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF67IWseMCz6yO92V6l0af8Hgay-S9fAaibNvapHM_5PMVICI8yatkflqS_2GSQqQfwFa8W7nhEfrKUzjlg8dm9Oqf_7imut2pJLf-ObvS6BWTz6r9s5Pa2SREQv6xtP0nt6qXj3c5tY-LFrBM2eQ_Lynb6MjGLiFYNF5WJew=="
+      },
+      {
+        "label": "kedglobal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF67IWseMCz6yO92V6l0af8Hgay-S9fAaibNvapHM_5PMVICI8yatkflqS_2GSQqQfwFa8W7nhEfrKUzjlg8dm9Oqf_7imut2pJLf-ObvS6BWTz6r9s5Pa2SREQv6xtP0nt6qXj3c5tY-LFrBM2eQ_Lynb6MjGLiFYNF5WJew=="
+      },
+      {
+        "label": "swashenterprises",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh0suofYQooiwNpMtKa74vVRfBK0jwVKxI7F3faWCjg-cBGivitpeEXSOXgcz4NGstyjhDoQEg_-0hnqw2Z0v2yBINSJkdSBMSPvl1EA1CXr_srei-KXQClEl_he3oOozU35gTnVSsrcYJsRkleVm3i0C3onzX8TkoFPghv7m5QMpnTEo_Fb-3EwCYbpleftAWCrdorn3J9qAjUXd_217oUZFwzGf3LOvkfags5-mJbnjL1aNKmZRT5BGeZCvHyzlED8JQKVbAZhf9euQvHQ=="
+      },
+      {
+        "label": "swashenterprises",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh0suofYQooiwNpMtKa74vVRfBK0jwVKxI7F3faWCjg-cBGivitpeEXSOXgcz4NGstyjhDoQEg_-0hnqw2Z0v2yBINSJkdSBMSPvl1EA1CXr_srei-KXQClEl_he3oOozU35gTnVSsrcYJsRkleVm3i0C3onzX8TkoFPghv7m5QMpnTEo_Fb-3EwCYbpleftAWCrdorn3J9qAjUXd_217oUZFwzGf3LOvkfags5-mJbnjL1aNKmZRT5BGeZCvHyzlED8JQKVbAZhf9euQvHQ=="
+      },
+      {
+        "label": "chosun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGigf0OV9tNWafrnS4mFjLwYSXruEwF3OtSWOliE6GajUbwrM5t0x-5_AGRlUqr0yNw9pOgN5FX52yNxfko1y6GbIYfl1z9LRDvmoeg3aGk4D8QHKgsI061ItfFSn-HtBMrkQs-Aw2uoxRoTLGDxzEK5fzs0Rq7MSBx-PMD5BOQbVoulpLLZYz6G1hi2Q=="
+      },
+      {
+        "label": "swashenterprises",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh0suofYQooiwNpMtKa74vVRfBK0jwVKxI7F3faWCjg-cBGivitpeEXSOXgcz4NGstyjhDoQEg_-0hnqw2Z0v2yBINSJkdSBMSPvl1EA1CXr_srei-KXQClEl_he3oOozU35gTnVSsrcYJsRkleVm3i0C3onzX8TkoFPghv7m5QMpnTEo_Fb-3EwCYbpleftAWCrdorn3J9qAjUXd_217oUZFwzGf3LOvkfags5-mJbnjL1aNKmZRT5BGeZCvHyzlED8JQKVbAZhf9euQvHQ=="
+      },
+      {
+        "label": "swashenterprises",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh0suofYQooiwNpMtKa74vVRfBK0jwVKxI7F3faWCjg-cBGivitpeEXSOXgcz4NGstyjhDoQEg_-0hnqw2Z0v2yBINSJkdSBMSPvl1EA1CXr_srei-KXQClEl_he3oOozU35gTnVSsrcYJsRkleVm3i0C3onzX8TkoFPghv7m5QMpnTEo_Fb-3EwCYbpleftAWCrdorn3J9qAjUXd_217oUZFwzGf3LOvkfags5-mJbnjL1aNKmZRT5BGeZCvHyzlED8JQKVbAZhf9euQvHQ=="
+      },
+      {
+        "label": "expertmarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7aB4gAtufGGYMu2mrKHWPFPlAe7w16wC1A5jN9EbVesDFBW9vFd9HIOglf182O3jPyAoBd6yYi-p05q7xEst9NEELtOttHgYSRXOYngYJ5xkz_VEWg8Z-ZJIEogpLTbfKz_9GlyyegwKfu7TUm6M9KJJrppYschwdHUVSIZ_cIZbudGCr89mucbiGDV9lsRHGz64Q4EMzxLcoEF1L170="
+      },
+      {
+        "label": "expertmarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7aB4gAtufGGYMu2mrKHWPFPlAe7w16wC1A5jN9EbVesDFBW9vFd9HIOglf182O3jPyAoBd6yYi-p05q7xEst9NEELtOttHgYSRXOYngYJ5xkz_VEWg8Z-ZJIEogpLTbfKz_9GlyyegwKfu7TUm6M9KJJrppYschwdHUVSIZ_cIZbudGCr89mucbiGDV9lsRHGz64Q4EMzxLcoEF1L170="
+      },
+      {
+        "label": "expertmarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7aB4gAtufGGYMu2mrKHWPFPlAe7w16wC1A5jN9EbVesDFBW9vFd9HIOglf182O3jPyAoBd6yYi-p05q7xEst9NEELtOttHgYSRXOYngYJ5xkz_VEWg8Z-ZJIEogpLTbfKz_9GlyyegwKfu7TUm6M9KJJrppYschwdHUVSIZ_cIZbudGCr89mucbiGDV9lsRHGz64Q4EMzxLcoEF1L170="
+      },
+      {
+        "label": "investkorea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU10bpWzEDrR9RnlSxXTRSKyqEkanJVnJvywEEI7-Mt1qHZrvMh7_8Tv3taunHnVU7q4yDezAvftStL_3xfIJCtV7j3Klaf5RxiyjvzbdPxTa-CdYtGckgdjLU7PNZV5GK_vGBUN-8-0p2r7vL5PCnb75BbgqkEdqu1l0dtHp0"
+      },
+      {
+        "label": "mordorintelligence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGacXGZfir7N9aBMgziyTb2yHeGBzFJ64DRhE0j4cxGxWe9Mw8Kw_XzvEM_2hDHH4jRicaBIKf5lXYNu1f_9y64q9iXZPMyOKvNUT2PKnahqktA7KCwiQaJwakLPCKS96rbOXp6wmpKV2TDoBppEblTe5xM4RAfELvgMc7bhgJw-nIltmjYfaL1fZYhdXPZAHy8GcScICIwsvT2AjI8thThUg=="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "newspim",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4l0hJvxQm-ExbwBH3cHHdq1lfGu-j74d8xMLYaZxs5HAlj_GY7V3Eu0QX3Auk28eKRcEUv3axD48tEaNXY_kLl_BTDNNd3J8eN0IqXw_4ghD_uXxaVVVrvYw0CYYaijzwjdM_cYmz5gnwTA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "aitimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyL3Led1wfnCz66norAI38hJaHC4xoLuPGGUU_CUhf9ml8SC2FZ15yeLKV6N71S4egSzPSgE1f6GuBDfEG_oUI8QgP85RmG2HHYM9Pc1dLzO85MVJIzWXEqPaTi_xGElH-HNdAPBqKDkloR9qFdphPcL_upPw="
+      },
+      {
+        "label": "yna",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo6kKVc9d7jS0bqID2cErmgcY2G4Kf0cmdR_SUelnHc3gbP9XtX-mvghCYAtFGtAa6u5UqSW3i7nipzkdkFGxDlaix8gnD0ijoYaMuCt0-6uBQvljnEPfF-buzKVPQzidSpD3A4qU6yg2M"
+      },
+      {
+        "label": "yna",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo6kKVc9d7jS0bqID2cErmgcY2G4Kf0cmdR_SUelnHc3gbP9XtX-mvghCYAtFGtAa6u5UqSW3i7nipzkdkFGxDlaix8gnD0ijoYaMuCt0-6uBQvljnEPfF-buzKVPQzidSpD3A4qU6yg2M"
+      },
+      {
+        "label": "aitimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyL3Led1wfnCz66norAI38hJaHC4xoLuPGGUU_CUhf9ml8SC2FZ15yeLKV6N71S4egSzPSgE1f6GuBDfEG_oUI8QgP85RmG2HHYM9Pc1dLzO85MVJIzWXEqPaTi_xGElH-HNdAPBqKDkloR9qFdphPcL_upPw="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "newspim",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4l0hJvxQm-ExbwBH3cHHdq1lfGu-j74d8xMLYaZxs5HAlj_GY7V3Eu0QX3Auk28eKRcEUv3axD48tEaNXY_kLl_BTDNNd3J8eN0IqXw_4ghD_uXxaVVVrvYw0CYYaijzwjdM_cYmz5gnwTA=="
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "newspim",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4l0hJvxQm-ExbwBH3cHHdq1lfGu-j74d8xMLYaZxs5HAlj_GY7V3Eu0QX3Auk28eKRcEUv3axD48tEaNXY_kLl_BTDNNd3J8eN0IqXw_4ghD_uXxaVVVrvYw0CYYaijzwjdM_cYmz5gnwTA=="
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "yna",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo6kKVc9d7jS0bqID2cErmgcY2G4Kf0cmdR_SUelnHc3gbP9XtX-mvghCYAtFGtAa6u5UqSW3i7nipzkdkFGxDlaix8gnD0ijoYaMuCt0-6uBQvljnEPfF-buzKVPQzidSpD3A4qU6yg2M"
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "aitimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyL3Led1wfnCz66norAI38hJaHC4xoLuPGGUU_CUhf9ml8SC2FZ15yeLKV6N71S4egSzPSgE1f6GuBDfEG_oUI8QgP85RmG2HHYM9Pc1dLzO85MVJIzWXEqPaTi_xGElH-HNdAPBqKDkloR9qFdphPcL_upPw="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "aitimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyL3Led1wfnCz66norAI38hJaHC4xoLuPGGUU_CUhf9ml8SC2FZ15yeLKV6N71S4egSzPSgE1f6GuBDfEG_oUI8QgP85RmG2HHYM9Pc1dLzO85MVJIzWXEqPaTi_xGElH-HNdAPBqKDkloR9qFdphPcL_upPw="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "aitimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyL3Led1wfnCz66norAI38hJaHC4xoLuPGGUU_CUhf9ml8SC2FZ15yeLKV6N71S4egSzPSgE1f6GuBDfEG_oUI8QgP85RmG2HHYM9Pc1dLzO85MVJIzWXEqPaTi_xGElH-HNdAPBqKDkloR9qFdphPcL_upPw="
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "mbn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCWpjjMzxKUYY6YMm2wv49Ici089QXER-f31Tl2oNrFzOTLQ-mcCtn70MIqwPnYpvC2z-xbTV1gmZBI7QAU-KRQRs3flSXX7jtlpTZKEeIvfaFUZCx032qyAKLLfDNAmdTGfwKFJIV5LzwErKkGZllFDeQRw=="
+      },
+      {
+        "label": "codedrivenlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHTVkpjHarCsrqe2yd44UKUW6HDfYQnbcAmzGTdIFGlsi05UZhPPnEMFKn5RUjbMtyQWF9XBLPYItd479FXAAxg1dTJ1qXKdyo2fiFiHujR4LH8l-tvyT7Moql3sIvzDCox47WLkJy6m0ADu72ufSP4WY1CCPcBgMtmg6X8PBvECOHcaDeNYQcAyvs2Q=="
+      },
+      {
+        "label": "skelterlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSbDR9AX6Tf5_on4W9VZHYIdPgkZTMZCxMRpp8ZbQ-ST6tCfaZswIGapDVkCtNua3M3u6CG0MvHxKQ62XLy85-LAc5L_ehmfmHgEB5kvnlQguQPj7Nue7iT0zVPH5NdLI7jtUm6Wkrg=="
+      },
+      {
+        "label": "tistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfXFkr_Yl0UTdM4CYyAuXhu8Qa9MdN2dxVkUikWHjFnFmsEH_XlnZNq_Ewr-Bazg6sgA0xV2wmP3krn5qkP37J41mOueobElmgbIKKSgc0-gPYmAr2RYKjyMaXTFheUSWiSkhmkWOKb2dATFzn9kxcEm5Ku4ba9NKtdmaP-QIfvA7cX_uqXN26sQ6KrjNfuzQukolS0lsTFEoqlfCG3gTD4_QeShD9L1mW9BgbldnPifImOy3a1ei0BL5n6RMLK25vVWBFj6pWLFHDLeM3am6A2v0LKm83ue5m3B_BE_cpf93jfLDyDGOLMEWXGFX2V4exYqEjIgvioElRl_yPaKcaJGjLcsuC1G6C5OeiAqyHtdeZJSGGDHKSvqs2f3kby8dJ4IR0s2A="
+      },
+      {
+        "label": "brunch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFue9rknBgZkccH4X6sJmTMIP-I5t0a_gpJ5aaMRmgiLQ_IN-PeHaNMsKwG9MI_gk3Rgwt714AAYaaks0BHDNPSeGykhrq5StcSyVzKJPvJL-ZyXt00Fb3L3dF5qvA="
+      },
+      {
+        "label": "wishket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH8tRMDvsAaVmBTol9ztYa1O6z9Slyd-1mqEIJ_ucGr703CghdY7V8ABLvTpTRK3amdTrVaoTu8dzHtjyWL7IZpmz4c_7V4BvLnJ1jif4QfgQndViNURYPOYaWMnIhpZiZ6WXHqiJ26rs="
+      },
+      {
+        "label": "kore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-83rsdAVKrjUBo8ickMl8FO3HyDrqVSs5Dq8IUoNajwG72mbPcn9Hi0wdy68XWqRJ190ys7VYxzRsvqvrvXw3aMRVGXzFdn-akE="
+      },
+      {
+        "label": "technode",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rgp2usL5g_36MCv63Ccdn7vZJgLYhAGWh_ENd2ga2NFkWbknBXa55MTFOC0iA5eWB75YP9Jes1gsbBvV2UA6Uyc3L5REsr4JIp707kQcJOQyW0O6J3kah6bIgN51WGissuc0PG_crLB1Ois1P-IaDcNmNLKsfv3l7alg_EPN5cQyULQuN1S91IXLGdxwQP6DbqjEtpe0RQK8ibbDQd57WeUOK-NJEKlaMcY0YNKipid50m-CIps-JA=="
+      },
+      {
+        "label": "koreaherald",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWQVEf94AQbXBK8g98uf4LkXAUFPCts-LgFCVYI4H2fhnQYEzVn5CiSb1Pcci5C4ThIxmxiFLMGulq6SLyeEhCXccR3HaSY1jECea4Tr8ltjXFRvy4Ntr7XD3XHMBwELKarjOBmGhT"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6bQSX2UhGBX2fdf14__vVF1fgvWpKLMRms0wRSWq7xVBr6w43xW7VbzQZotq4eX9qJhaJjMx_604iCUVQmswUPsnMej8BYM2WCJHwXlVJG7M_mk_DdB2xqFS9xTpDX-RS88rXrD1uxHrmhv_Nog4icSuoqYuNQsbWy99WH65l-zAAr9ULwjJcdytKi3mURB_w7Qd60v2-hkL1vREv_wLvh7bTXdTbKhowB82k7ZHegvoT122ht-GMsA=="
+      },
+      {
+        "label": "kedglobal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF67IWseMCz6yO92V6l0af8Hgay-S9fAaibNvapHM_5PMVICI8yatkflqS_2GSQqQfwFa8W7nhEfrKUzjlg8dm9Oqf_7imut2pJLf-ObvS6BWTz6r9s5Pa2SREQv6xtP0nt6qXj3c5tY-LFrBM2eQ_Lynb6MjGLiFYNF5WJew=="
+      },
+      {
+        "label": "newsprime",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYA-CjWd1FtJGC_qF5hzgyHGBqjMC0SY2q84hC0yKn7aqO477-JYxTjcyg4Zs07GAnOHHJMnw5bK7U0yj5-b9hFRoei0b22RcXjDLJgpv5niVp0oHYvWiXJXSVxXh2EkRCbNqK_wpUQGVMKZWuNjU"
+      },
+      {
+        "label": "newspim",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4l0hJvxQm-ExbwBH3cHHdq1lfGu-j74d8xMLYaZxs5HAlj_GY7V3Eu0QX3Auk28eKRcEUv3axD48tEaNXY_kLl_BTDNNd3J8eN0IqXw_4ghD_uXxaVVVrvYw0CYYaijzwjdM_cYmz5gnwTA=="
+      },
+      {
+        "label": "ddaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPzyzFSgKnmEcbSK_Zou2DWnoOjnshlgexai0YVCxszlfY1lpQd1xVSYNKELiLkcl0zdb1L89zO09tNvdZRtCtULE1w2DIHSXehkSDKgJc-eslOOGsRM2CvDqXtypG-IK9XEr7RAOOInu3LGcxwH4="
+      },
+      {
+        "label": "daum",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfRymElCZERfjpJpIlOPTBLjXTC-YlzhKI9eF3OngfTIKtnbxwEHbBEUY_bVhqeEPBNeASshCIy_O7LOrzy_1nS78EGvmYIUHHJZsKwGhd1Ytet786DrJYhDIthReNkfGx1mG2GA=="
+      },
+      {
+        "label": "crowdworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU3nM-JHWjeEvQPtZu4iN_7MKId9qgZ6qC_0WHb_-F9EW8R7gMrRBdeTkoThD1ki69Cf5aDziPqbVygOVXHwTNkg8_LuklBVZ5KJoR6DL6D-3xsu_S064Zcy1Jf5QlqPq9V_l9"
+      },
+      {
+        "label": "aitimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyL3Led1wfnCz66norAI38hJaHC4xoLuPGGUU_CUhf9ml8SC2FZ15yeLKV6N71S4egSzPSgE1f6GuBDfEG_oUI8QgP85RmG2HHYM9Pc1dLzO85MVJIzWXEqPaTi_xGElH-HNdAPBqKDkloR9qFdphPcL_upPw="
+      },
+      {
+        "label": "yna",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo6kKVc9d7jS0bqID2cErmgcY2G4Kf0cmdR_SUelnHc3gbP9XtX-mvghCYAtFGtAa6u5UqSW3i7nipzkdkFGxDlaix8gnD0ijoYaMuCt0-6uBQvljnEPfF-buzKVPQzidSpD3A4qU6yg2M"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

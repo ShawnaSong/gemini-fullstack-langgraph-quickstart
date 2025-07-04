@@ -1,0 +1,374 @@
+{
+  "file_name": "state_result_64.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.766092",
+  "data": {
+    "messages": [
+      {
+        "content": "\"what's the record and most recent loss of Carlos Ulberg's most recent opponent?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "a93a1937-5d18-4069-93b9-42726c6bc97d",
+        "example": false
+      },
+      {
+        "content": "Carlos Ulberg's most recent opponent, Jan Blachowicz, has a professional MMA record of 29 wins, 11 losses, and 1 draw [cagewalks](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFau-JQL94-qv8bS3gHXl9aykCfqSmMvmAuNsvHpiCsPoHwEtT089aAoWf09-iT3Wf_Yuczr_RSUBg0KggTaHGEw_r13Dqd8S3xCDIgKsmUd00AaZu4ckn7mtnxklO0RdKjkthVKbknmPI=). His most recent loss was on March 22, 2025, against Carlos Ulberg by unanimous decision [cagesidepress](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtQrbtO5U8NliZLx3y0yjp7KwUKpyqjuXaJLvIAU4DrAoDp0rKyLQ207ejRYTdgHV8nQLjU7t1CRW-pmIu-PrQg4HWZzRuaiWfcPEkwNDLH6vD8064ERVnzS6-Pn0ewDUyH5dLALeISsYbjEai0KmZhKdjqd1rbJlLFW7HpT7ZVPTvv7GKwmp7Sb1yYPlrJZwMBQYerh2x9I0mVAAV9L7hXx3osQhzDA==) [mmaweekly](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWRRDW6tUFcQmtjnTboEtVfcKsPTJKfz_UIdtBIfzlu2xz4nV97DgFHsBC5iV6MafSceO1SOzyg6VjGbtuZqG5ynvqzj2pzfcB4QB0tH6-I7XGP3TqrG5yBWFWMGp-U3g016Uc1WbLKLyij6w5HwonLg2IX7bm7l88JVJwS_2a0AK7Kquvv4GFiEP-tyRnOMFRvNb45bICnuUISh7P5gqdaoKdGT90hQ==) [cagewalks](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFau-JQL94-qv8bS3gHXl9aykCfqSmMvmAuNsvHpiCsPoHwEtT089aAoWf09-iT3Wf_Yuczr_RSUBg0KggTaHGEw_r13Dqd8S3xCDIgKsmUd00AaZu4ckn7mtnxklO0RdKjkthVKbknmPI=) [sofascore](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWCpLKgJf9u2om3uF2Dq8WLgULaZPtASOSjDES0dB6N_1YrzQ1JHKU5SSRsDAxQHfrKJWStyemU2gZbdSDJVsgATjam2X5lQV4yGM0Z8S3UqoI74D1sK0c5R5SUduy5SJaTYk-96WgUm7Jw3yrFeNGK6P37-zADioRhAocwNsrlBiG1ZI7) [fightodds](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4uuwATlccr_5d8swID2dhKoe8ZtxMcwoS391220fGMQCJUTeQ6AFypP1o7EER5XBs2Irnov1gWOUXFLFUKNeAxEXFOfAU7aM5HjNyRFOhTJymb_dywplKPr2QDZcLkBaYF6JSwafqMqISCzehOrOmjESjs3toaLMh0WodBr4nUWEJYd9ajO_A) [sherdog](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIpInkzOVYNWiZ1Zp3yvjShd4_Tg7kvJ44MRV3Mcw01JhX6BCFnsmHACWXFNqaBDUoFZmD8FSJirFfFpPm2UWOIUtVtHuCLBN01oSZ26V9l-KXsUbQH6Xg1rURpViwcIQP7ITAcCNWP1V5uhEbMH0=].",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "9f299f12-0bd8-445e-9b3d-a2a261b66777",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Carlos Ulberg most recent opponent record",
+      "Carlos Ulberg most recent opponent last fight result",
+      "What is Jan Blachowicz's record, including wins, losses, and draws, and when was his most recent loss prior to fighting Carlos Ulberg?"
+    ],
+    "web_research_result": [
+      "Carlos Ulberg's most recent fight was on March 22, 2025, at UFC Fight Night 255 against Jan Blachowicz [theplayoffs](https://vertexaisearch.cloud.google.com/id/0-0) [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1). Ulberg won the fight by unanimous decision after three rounds [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [champinon](https://vertexaisearch.cloud.google.com/id/0-3) [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1).\n\nHere's a summary of Ulberg's recent record:\n\n*   **Overall Record:** 12 wins, 1 loss, 0 draws [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1) [champinon](https://vertexaisearch.cloud.google.com/id/0-3) [verdictmma](https://vertexaisearch.cloud.google.com/id/0-4).\n    *   7 wins by knockout [champinon](https://vertexaisearch.cloud.google.com/id/0-3) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   1 win by submission [champinon](https://vertexaisearch.cloud.google.com/id/0-3) [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   4 wins by decision [champinon](https://vertexaisearch.cloud.google.com/id/0-3) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **UFC Record:** 8 wins, 1 loss [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1) [fightmatrix](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Win Streak:** Ulberg is currently on an 8-fight win streak [empiresportsmedia](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Last 5 Fights:** (Most Recent First) [roster](https://vertexaisearch.cloud.google.com/id/0-7)\n    *   Win vs. Jan Blachowicz (March 22, 2025) by Unanimous Decision [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1) [champinon](https://vertexaisearch.cloud.google.com/id/0-3).\n    *   Win vs. Volkan Oezdemir (November 23, 2024) by Unanimous Decision [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1) [verdictmma](https://vertexaisearch.cloud.google.com/id/0-4).\n    *   Win vs. Alonzo Menifield (May 11, 2024) by KO in the first round [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1) [verdictmma](https://vertexaisearch.cloud.google.com/id/0-4).\n    *   Win vs. Da Un Jung (September 9, 2023) by Submission in the third round [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   Win vs. Ihor Potieria (May 13, 2023) by TKO in the first round [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [cagewalks](https://vertexaisearch.cloud.google.com/id/0-1).\n\nFollowing his win against Blachowicz, Ulberg called for a title shot [essentiallysports](https://vertexaisearch.cloud.google.com/id/0-8). As of March 25, 2025, Carlos Ulberg is ranked #3 in the UFC light heavyweight division [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [empiresportsmedia](https://vertexaisearch.cloud.google.com/id/0-6).\n",
+      "Carlos Ulberg's most recent fight was against Jan Blachowicz at UFC Fight Night 255 on March 22, 2025, at the O2 Arena in London, England [cagewalks](https://vertexaisearch.cloud.google.com/id/1-0) [theplayoffs](https://vertexaisearch.cloud.google.com/id/1-1). Ulberg won the fight by unanimous decision after three rounds [wikipedia](https://vertexaisearch.cloud.google.com/id/1-2) [cagesidepress](https://vertexaisearch.cloud.google.com/id/1-3) [cagewalks](https://vertexaisearch.cloud.google.com/id/1-0). The judges' scorecards all read 29-28 in favor of Ulberg [cagesidepress](https://vertexaisearch.cloud.google.com/id/1-3). This victory marked Ulberg's eighth straight win in the UFC [empiresportsmedia](https://vertexaisearch.cloud.google.com/id/1-4) [cagesidepress](https://vertexaisearch.cloud.google.com/id/1-3). His overall MMA record stands at 12 wins and 1 loss [cagewalks](https://vertexaisearch.cloud.google.com/id/1-0).\n",
+      "Jan Blachowicz's professional MMA record stands at 29 wins, 11 losses, and 1 draw [cagewalks](https://vertexaisearch.cloud.google.com/id/2-0). He has 9 knockout wins and 9 submission wins [cagewalks](https://vertexaisearch.cloud.google.com/id/2-0).\n\nBlachowicz's most recent fight was on March 22, 2025, against Carlos Ulberg at UFC London: Edwards vs. Brady [fightodds](https://vertexaisearch.cloud.google.com/id/2-1) [cagewalks](https://vertexaisearch.cloud.google.com/id/2-0). He lost the fight by unanimous decision after 3 rounds [cagesidepress](https://vertexaisearch.cloud.google.com/id/2-2) [mmaweekly](https://vertexaisearch.cloud.google.com/id/2-3) [cagewalks](https://vertexaisearch.cloud.google.com/id/2-0) [sofascore](https://vertexaisearch.cloud.google.com/id/2-4) [fightodds](https://vertexaisearch.cloud.google.com/id/2-1) [sherdog](https://vertexaisearch.cloud.google.com/id/2-5).\n\nPrior to the Ulberg fight, Blachowicz lost to Alex Pereira by split decision at UFC 291 on July 29, 2023 [wikipedia](https://vertexaisearch.cloud.google.com/id/2-6) [cagesidepress](https://vertexaisearch.cloud.google.com/id/2-2) [sherdog](https://vertexaisearch.cloud.google.com/id/2-5) [sherdog](https://vertexaisearch.cloud.google.com/id/2-7) [mmaweekly](https://vertexaisearch.cloud.google.com/id/2-3).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "theplayoffs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElmQeoDoBQyCNUHf1joH4RdPr_JtKC1dKFAcnQ7sghKRU-Xx6EFJoTHsLMhXuoZko4XXr8ChItsqcLvGGTHknxE6q96LHh9Arig9P8GTLrWKLEN7fn5cPJdb7TKS8OmJ-6dVC24GI7FikcLtKFP6hOtFoYrOg8bJ0Acw=="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "champinon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEvp8FHlURW_ToNTJo1EmHWA0-EEx0aDdmGVlZMuXAPi6JT2dCe6jPlNYgpbVLUPicvltamk05fIUSReSDLgFJvZnriofcg0WGS-paoRrCU5s8M9oFnpjNJ8yUip5jliTNhtAa"
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "champinon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEvp8FHlURW_ToNTJo1EmHWA0-EEx0aDdmGVlZMuXAPi6JT2dCe6jPlNYgpbVLUPicvltamk05fIUSReSDLgFJvZnriofcg0WGS-paoRrCU5s8M9oFnpjNJ8yUip5jliTNhtAa"
+      },
+      {
+        "label": "verdictmma",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoGfpEFb3C9za6x0eE0OFfcrB4MGxIYz4KXn1kcNAyfs3eWY20FqTXMZ_OPalXJgJOxcHqOT5HxWIaAlsBvMpl-oQRTAxMl-uDHeeCj7AISMOqNoAQP5Mm-aphTQtBFb5ax8jBdLCSfE89hhzNhe6ayQ=="
+      },
+      {
+        "label": "champinon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEvp8FHlURW_ToNTJo1EmHWA0-EEx0aDdmGVlZMuXAPi6JT2dCe6jPlNYgpbVLUPicvltamk05fIUSReSDLgFJvZnriofcg0WGS-paoRrCU5s8M9oFnpjNJ8yUip5jliTNhtAa"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "champinon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEvp8FHlURW_ToNTJo1EmHWA0-EEx0aDdmGVlZMuXAPi6JT2dCe6jPlNYgpbVLUPicvltamk05fIUSReSDLgFJvZnriofcg0WGS-paoRrCU5s8M9oFnpjNJ8yUip5jliTNhtAa"
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "champinon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEvp8FHlURW_ToNTJo1EmHWA0-EEx0aDdmGVlZMuXAPi6JT2dCe6jPlNYgpbVLUPicvltamk05fIUSReSDLgFJvZnriofcg0WGS-paoRrCU5s8M9oFnpjNJ8yUip5jliTNhtAa"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "fightmatrix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZB-BYbzKDcys0pPRLt6n1ASeOG6EFVMcAsRg8uiSs03keHUkLZ2_mqNVhIIhjvV2DOQMiiJ0ty1qmsQIHs8PaLRXQ7GKjunuJ1ajJlbZxfuWFGoznbyNjzq_ubAqxeq-R-Exg4l3j4XQrpfpQBHnOHKHe2GKul5UAU5OgLw=="
+      },
+      {
+        "label": "empiresportsmedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpXTGkSsiArK8jB_unybW86VXI25HNXdTmoh4fgjsEEeuMn5z8YLF-ZYtVfeH2CTdNLdZX6S4IIz56lGsL6aUr39v7Glhdt4xvCN2BXRAvUFv5EeLNWtGPP4xUqpSfdfjSJ1qAx44qSD5mAvdcMm0Kzx_Vuw9CjdLgd2943mUs1Tbfzvf6Sofre6yH1kkLmw7u-tqIu1npsWIkS7ESUTDB"
+      },
+      {
+        "label": "roster",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo0M0EA-B1xQI8e3pSEY90yF7LaYSu2SaRJ5YZmkSn9bwwjJ7fQmbM_OYuRNhWPAhm-Em7gI-_FnqXtnvKCpFQ-mkTfLScvGUbodJM_FdG4tWkHozFg45k1bhWZfzubvGvrNSkxs-ZEXXL39toAA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "champinon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEvp8FHlURW_ToNTJo1EmHWA0-EEx0aDdmGVlZMuXAPi6JT2dCe6jPlNYgpbVLUPicvltamk05fIUSReSDLgFJvZnriofcg0WGS-paoRrCU5s8M9oFnpjNJ8yUip5jliTNhtAa"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "verdictmma",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoGfpEFb3C9za6x0eE0OFfcrB4MGxIYz4KXn1kcNAyfs3eWY20FqTXMZ_OPalXJgJOxcHqOT5HxWIaAlsBvMpl-oQRTAxMl-uDHeeCj7AISMOqNoAQP5Mm-aphTQtBFb5ax8jBdLCSfE89hhzNhe6ayQ=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "verdictmma",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoGfpEFb3C9za6x0eE0OFfcrB4MGxIYz4KXn1kcNAyfs3eWY20FqTXMZ_OPalXJgJOxcHqOT5HxWIaAlsBvMpl-oQRTAxMl-uDHeeCj7AISMOqNoAQP5Mm-aphTQtBFb5ax8jBdLCSfE89hhzNhe6ayQ=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWAj98Y13YqBoZWtJOOQS0Ok3RAZ_08E-BLMUrTPIyI2dwHwGV-hnEq1H4qeXqFZugZWF1IScnfqD0x2YWrqR5XxUBDXyNwmQd40wCGQPPUN7vNQXMOblEyhkT4Gb5rxH9Q7JY2Bq_1Q=="
+      },
+      {
+        "label": "essentiallysports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFhlD0bGD9ehWNwNbDFVQtBHnb_dFVs7BK5ApZUILAJJ-5E6YIu8q6dmGaOt5CQPw3KbS1UFx8vRBST7x9ZZLOaY9JewrVf0CfOj8xJvYZhPtnuMGmFHlUP9qfXnX6OhTjnkLKHnpVkhfqgqg5Spj08PwQrWP6Rg-Zt3dSFeChRHz9qQengWefGQ9IZl50crwL0z4won1rCiWR0FI73DmaLERjbcMHjG8XGYzljXaSu3-0AXDkBBxCqKWOsBmRjKZ-4bIV8D0cFoRWZVJIFj7sDrGT8RbZsBSf"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8tPF-yaU0GTL3Wi8Ic4nLirgcT4BzUflIBZg_OjOMKjOEe98CjXewi7f1H1OdbZnIAioPq2hOPuLAh9FTDpN5iPz7Wegyr6MrJ9HMh8seKqGRUREIOEmO6OaMFrAoJuedH3BjYxM="
+      },
+      {
+        "label": "empiresportsmedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpXTGkSsiArK8jB_unybW86VXI25HNXdTmoh4fgjsEEeuMn5z8YLF-ZYtVfeH2CTdNLdZX6S4IIz56lGsL6aUr39v7Glhdt4xvCN2BXRAvUFv5EeLNWtGPP4xUqpSfdfjSJ1qAx44qSD5mAvdcMm0Kzx_Vuw9CjdLgd2943mUs1Tbfzvf6Sofre6yH1kkLmw7u-tqIu1npsWIkS7ESUTDB"
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4bpTgM-RaLCj54mGGE3eVjDJLriyXM8ya5dxYcnfuFJ2HfPl2owPmLTl9G364-6LL0wXlNp0ekq0UjmnFaA63CJhUfew2CFv7l7Kjr6PRIO2k0GfKfc9UeAJexSeJdqUcjJbCZXrqRg=="
+      },
+      {
+        "label": "theplayoffs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPT7fJwenl9M27cIdEO-7xnCHUTReoO488_kjWFPzP03fXQvyzdDylCOefEZv36X8OW3u0cmb3BHUjcdzWJ0sfBDTe_buKf044i7WIeCqeEbqsBERwTlizpiT4sVJe0oz67eDUWjtevwTkYVigiwFSBkWeQ1SfFCalvw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlm7U5MIm4tOwIDBaCWfIRMLHHJIkf2HT9OGR8Uv-edT9px5Ab0j_d86DU4i2gNnjxUpbqPpKiQBGneqB5kF9KVj9w-qSd_uLx8LkiBUBbPFuSb3w3Xru07B5vcCSi_aYUponNr8Y="
+      },
+      {
+        "label": "cagesidepress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGLwwqwkTiaQOjAWZ0cVHwYwGpP1SfOGkDn2icske2sqFQLUVhTIaBSq02FSqN6P38mpqTYMlPJg2RMZ6HdzKbR50YLOsNMDZhVsVPyCnXs0Nhpx996p9mdqaQcq7uGO1WQZgTqXt8FtBmZ30ieOkVXfk9L0ro3nsUDbvn090w6AzB9aQv_y8VFgSfKVfh3wImilK2oty3gh_Y52pwZ7ZydatGhwViw=="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4bpTgM-RaLCj54mGGE3eVjDJLriyXM8ya5dxYcnfuFJ2HfPl2owPmLTl9G364-6LL0wXlNp0ekq0UjmnFaA63CJhUfew2CFv7l7Kjr6PRIO2k0GfKfc9UeAJexSeJdqUcjJbCZXrqRg=="
+      },
+      {
+        "label": "cagesidepress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGLwwqwkTiaQOjAWZ0cVHwYwGpP1SfOGkDn2icske2sqFQLUVhTIaBSq02FSqN6P38mpqTYMlPJg2RMZ6HdzKbR50YLOsNMDZhVsVPyCnXs0Nhpx996p9mdqaQcq7uGO1WQZgTqXt8FtBmZ30ieOkVXfk9L0ro3nsUDbvn090w6AzB9aQv_y8VFgSfKVfh3wImilK2oty3gh_Y52pwZ7ZydatGhwViw=="
+      },
+      {
+        "label": "empiresportsmedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwtvT7785cQp2_E8ylzdisjBpoM3crcVDnpzw-JiDxTOOsG4baZDoWLcyTfXBsf3MXM-6vUYTA-bA_gff9VJLkKCcFrsdO_vfTXGgSQjBWGeSzsnETW8or9owoZ15XtHG14Y7l1gYCkbGQr6riITI9HFmz0-a8CyFp9yeE6X5ijXpoxgGa2Cfk5pemLZcQe_Z4mlRD7Gj2Vq30CfRAhCxm"
+      },
+      {
+        "label": "cagesidepress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbGLwwqwkTiaQOjAWZ0cVHwYwGpP1SfOGkDn2icske2sqFQLUVhTIaBSq02FSqN6P38mpqTYMlPJg2RMZ6HdzKbR50YLOsNMDZhVsVPyCnXs0Nhpx996p9mdqaQcq7uGO1WQZgTqXt8FtBmZ30ieOkVXfk9L0ro3nsUDbvn090w6AzB9aQv_y8VFgSfKVfh3wImilK2oty3gh_Y52pwZ7ZydatGhwViw=="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4bpTgM-RaLCj54mGGE3eVjDJLriyXM8ya5dxYcnfuFJ2HfPl2owPmLTl9G364-6LL0wXlNp0ekq0UjmnFaA63CJhUfew2CFv7l7Kjr6PRIO2k0GfKfc9UeAJexSeJdqUcjJbCZXrqRg=="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFau-JQL94-qv8bS3gHXl9aykCfqSmMvmAuNsvHpiCsPoHwEtT089aAoWf09-iT3Wf_Yuczr_RSUBg0KggTaHGEw_r13Dqd8S3xCDIgKsmUd00AaZu4ckn7mtnxklO0RdKjkthVKbknmPI="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFau-JQL94-qv8bS3gHXl9aykCfqSmMvmAuNsvHpiCsPoHwEtT089aAoWf09-iT3Wf_Yuczr_RSUBg0KggTaHGEw_r13Dqd8S3xCDIgKsmUd00AaZu4ckn7mtnxklO0RdKjkthVKbknmPI="
+      },
+      {
+        "label": "fightodds",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4uuwATlccr_5d8swID2dhKoe8ZtxMcwoS391220fGMQCJUTeQ6AFypP1o7EER5XBs2Irnov1gWOUXFLFUKNeAxEXFOfAU7aM5HjNyRFOhTJymb_dywplKPr2QDZcLkBaYF6JSwafqMqISCzehOrOmjESjs3toaLMh0WodBr4nUWEJYd9ajO_A"
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFau-JQL94-qv8bS3gHXl9aykCfqSmMvmAuNsvHpiCsPoHwEtT089aAoWf09-iT3Wf_Yuczr_RSUBg0KggTaHGEw_r13Dqd8S3xCDIgKsmUd00AaZu4ckn7mtnxklO0RdKjkthVKbknmPI="
+      },
+      {
+        "label": "cagesidepress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtQrbtO5U8NliZLx3y0yjp7KwUKpyqjuXaJLvIAU4DrAoDp0rKyLQ207ejRYTdgHV8nQLjU7t1CRW-pmIu-PrQg4HWZzRuaiWfcPEkwNDLH6vD8064ERVnzS6-Pn0ewDUyH5dLALeISsYbjEai0KmZhKdjqd1rbJlLFW7HpT7ZVPTvv7GKwmp7Sb1yYPlrJZwMBQYerh2x9I0mVAAV9L7hXx3osQhzDA=="
+      },
+      {
+        "label": "mmaweekly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWRRDW6tUFcQmtjnTboEtVfcKsPTJKfz_UIdtBIfzlu2xz4nV97DgFHsBC5iV6MafSceO1SOzyg6VjGbtuZqG5ynvqzj2pzfcB4QB0tH6-I7XGP3TqrG5yBWFWMGp-U3g016Uc1WbLKLyij6w5HwonLg2IX7bm7l88JVJwS_2a0AK7Kquvv4GFiEP-tyRnOMFRvNb45bICnuUISh7P5gqdaoKdGT90hQ=="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFau-JQL94-qv8bS3gHXl9aykCfqSmMvmAuNsvHpiCsPoHwEtT089aAoWf09-iT3Wf_Yuczr_RSUBg0KggTaHGEw_r13Dqd8S3xCDIgKsmUd00AaZu4ckn7mtnxklO0RdKjkthVKbknmPI="
+      },
+      {
+        "label": "sofascore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWCpLKgJf9u2om3uF2Dq8WLgULaZPtASOSjDES0dB6N_1YrzQ1JHKU5SSRsDAxQHfrKJWStyemU2gZbdSDJVsgATjam2X5lQV4yGM0Z8S3UqoI74D1sK0c5R5SUduy5SJaTYk-96WgUm7Jw3yrFeNGK6P37-zADioRhAocwNsrlBiG1ZI7"
+      },
+      {
+        "label": "fightodds",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4uuwATlccr_5d8swID2dhKoe8ZtxMcwoS391220fGMQCJUTeQ6AFypP1o7EER5XBs2Irnov1gWOUXFLFUKNeAxEXFOfAU7aM5HjNyRFOhTJymb_dywplKPr2QDZcLkBaYF6JSwafqMqISCzehOrOmjESjs3toaLMh0WodBr4nUWEJYd9ajO_A"
+      },
+      {
+        "label": "sherdog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIpInkzOVYNWiZ1Zp3yvjShd4_Tg7kvJ44MRV3Mcw01JhX6BCFnsmHACWXFNqaBDUoFZmD8FSJirFfFpPm2UWOIUtVtHuCLBN01oSZ26V9l-KXsUbQH6Xg1rURpViwcIQP7ITAcCNWP1V5uhEbMH0="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJxzXo3rYfK4qXlzjg3JaEPhCxZRpe4YwQ4xKuHc635iD2koeyWTMWPR91bxlUlvD3-c3GYmiqrg_Iul-H_FkSn587tQHwCLdZv_Soqgz_jh9ZkMjGUzwvoQ4HtuLATuRdCeZlOOOLNLUS1g="
+      },
+      {
+        "label": "cagesidepress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtQrbtO5U8NliZLx3y0yjp7KwUKpyqjuXaJLvIAU4DrAoDp0rKyLQ207ejRYTdgHV8nQLjU7t1CRW-pmIu-PrQg4HWZzRuaiWfcPEkwNDLH6vD8064ERVnzS6-Pn0ewDUyH5dLALeISsYbjEai0KmZhKdjqd1rbJlLFW7HpT7ZVPTvv7GKwmp7Sb1yYPlrJZwMBQYerh2x9I0mVAAV9L7hXx3osQhzDA=="
+      },
+      {
+        "label": "sherdog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIpInkzOVYNWiZ1Zp3yvjShd4_Tg7kvJ44MRV3Mcw01JhX6BCFnsmHACWXFNqaBDUoFZmD8FSJirFfFpPm2UWOIUtVtHuCLBN01oSZ26V9l-KXsUbQH6Xg1rURpViwcIQP7ITAcCNWP1V5uhEbMH0="
+      },
+      {
+        "label": "sherdog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1_AvxclKgfuugrbP-TgFJ76vYrftShu4kvdK3vyioPNH0eRaNqEbr1p4UPY_brIOvcfgp2uFo-klW6ZnoEVMUk7KiI86ld6H2Kizg19ycBH4sNaSYffT3hg6dZsAtZZzhluxwdSgZ7gYGfF9tmkBCizhLBPxUjLRUGLhBkxct5aeOQYk04lAX-wi6uIrGOu-LKJngFbyVOIuAkeCprJKjTdGNv8eKMq4="
+      },
+      {
+        "label": "mmaweekly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWRRDW6tUFcQmtjnTboEtVfcKsPTJKfz_UIdtBIfzlu2xz4nV97DgFHsBC5iV6MafSceO1SOzyg6VjGbtuZqG5ynvqzj2pzfcB4QB0tH6-I7XGP3TqrG5yBWFWMGp-U3g016Uc1WbLKLyij6w5HwonLg2IX7bm7l88JVJwS_2a0AK7Kquvv4GFiEP-tyRnOMFRvNb45bICnuUISh7P5gqdaoKdGT90hQ=="
+      },
+      {
+        "label": "cagewalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFau-JQL94-qv8bS3gHXl9aykCfqSmMvmAuNsvHpiCsPoHwEtT089aAoWf09-iT3Wf_Yuczr_RSUBg0KggTaHGEw_r13Dqd8S3xCDIgKsmUd00AaZu4ckn7mtnxklO0RdKjkthVKbknmPI="
+      },
+      {
+        "label": "fightodds",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4uuwATlccr_5d8swID2dhKoe8ZtxMcwoS391220fGMQCJUTeQ6AFypP1o7EER5XBs2Irnov1gWOUXFLFUKNeAxEXFOfAU7aM5HjNyRFOhTJymb_dywplKPr2QDZcLkBaYF6JSwafqMqISCzehOrOmjESjs3toaLMh0WodBr4nUWEJYd9ajO_A"
+      },
+      {
+        "label": "cagesidepress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtQrbtO5U8NliZLx3y0yjp7KwUKpyqjuXaJLvIAU4DrAoDp0rKyLQ207ejRYTdgHV8nQLjU7t1CRW-pmIu-PrQg4HWZzRuaiWfcPEkwNDLH6vD8064ERVnzS6-Pn0ewDUyH5dLALeISsYbjEai0KmZhKdjqd1rbJlLFW7HpT7ZVPTvv7GKwmp7Sb1yYPlrJZwMBQYerh2x9I0mVAAV9L7hXx3osQhzDA=="
+      },
+      {
+        "label": "mmaweekly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWRRDW6tUFcQmtjnTboEtVfcKsPTJKfz_UIdtBIfzlu2xz4nV97DgFHsBC5iV6MafSceO1SOzyg6VjGbtuZqG5ynvqzj2pzfcB4QB0tH6-I7XGP3TqrG5yBWFWMGp-U3g016Uc1WbLKLyij6w5HwonLg2IX7bm7l88JVJwS_2a0AK7Kquvv4GFiEP-tyRnOMFRvNb45bICnuUISh7P5gqdaoKdGT90hQ=="
+      },
+      {
+        "label": "sofascore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWCpLKgJf9u2om3uF2Dq8WLgULaZPtASOSjDES0dB6N_1YrzQ1JHKU5SSRsDAxQHfrKJWStyemU2gZbdSDJVsgATjam2X5lQV4yGM0Z8S3UqoI74D1sK0c5R5SUduy5SJaTYk-96WgUm7Jw3yrFeNGK6P37-zADioRhAocwNsrlBiG1ZI7"
+      },
+      {
+        "label": "sherdog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIpInkzOVYNWiZ1Zp3yvjShd4_Tg7kvJ44MRV3Mcw01JhX6BCFnsmHACWXFNqaBDUoFZmD8FSJirFfFpPm2UWOIUtVtHuCLBN01oSZ26V9l-KXsUbQH6Xg1rURpViwcIQP7ITAcCNWP1V5uhEbMH0="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

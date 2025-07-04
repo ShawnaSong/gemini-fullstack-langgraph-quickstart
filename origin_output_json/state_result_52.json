@@ -1,0 +1,160 @@
+{
+  "file_name": "state_result_52.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.731554",
+  "data": {
+    "messages": [
+      {
+        "content": "Is there any real release of a Mamba model in 2025?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "f4d73323-fa95-4f7d-8480-f1a6a0a0ff5e",
+        "example": false
+      },
+      {
+        "content": "Yes, there have been several releases and developments related to the Mamba model throughout 2025. Mamba, a state-space model (SSM) that offers an alternative to Transformers [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0uEnB6F_w0vpyRrY0iXBFj_blgbj-RASrDZfvg7CkFsJjnoD8SYl8l8Pq2yASyjKE6u-l5qPi5yOS05JXxTR_aBbD1v7N6uefBywVj0jyWJUX6K1BsCCdlhQE) [superteams](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4=), has seen increasing adoption and innovation.\n\nHere's a timeline of key releases:\n\n*   **January 2025:** AI21 Labs released Jamba, a large language model (LLM) that combines Transformers and Mamba architectures [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QbemtU2u8DnjT5srKNuzXUvWR3veZBGKWIaDSC-d2-QlOR245bZFjZe8HjFlqwRAu0NpcYEVZvMh55rIyZEQrOrsIsrTfCWzrZ7qx5_OSNFSNhOAgld9osObDrA0KtTbsSJ88xqm_aoCfO3ke6hX8ENziueeNVuw7lElFkC8InQoAEIwcdjmyLZPGw==). At this time, Mamba was also being considered as a potential replacement for Transformers in NLP [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QbemtU2u8DnjT5srKNuzXUvWR3veZBGKWIaDSC-d2-QlOR245bZFjZe8HjFlqwRAu0NpcYEVZvMh55rIyZEQrOrsIsrTfCWzrZ7qx5_OSNFSNhOAgld9osObDrA0KtTbsSJ88xqm_aoCfO3ke6hX8ENziueeNVuw7lElFkC8InQoAEIwcdjmyLZPGw==).\n*   **March 2025:** A fine-tuned version of Falcon3-Mamba-7B-Instruct, named Falcon3-Mamba-R1-v0, was released, focusing on logical reasoning and structured problem-solving [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeDXvoDBT82K5tLqA_CT_PIKRDKZiCsjH_cAiPpQG-exdjyBPEyGQCjtm8RGtuxpMXQvj4I7H-YPuPnifHiWn2r_ubWxjMCHJFifK-eBzMbHVOhQC1d68Rl6zN1756aLMrlmPWc80MbCEEVvU=]. Also in March, researchers highlighted Mamba as a revolutionary language model capable of learning complex patterns and making accurate predictions [thesciencearchive](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejG_BQ2vWD0HSfoIdgwF3BoEeZ-xVHopUEA78dUHsuVu7CzyQH8yQhWoUmoVDFl6SYfRgEBLxMma6ks4Mki-raenAuvX6BEqg03VkBTV6xazTTESXMgmT9FJoVuD0b8ePf5B9HyM=).\n*   **April 2025:** Cobra, a multi-modal large language model built upon a state-space model, was introduced, replacing Transformer backbones with pre-trained Mamba language models [aaai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOwjswlUJaNNV7RaN87Tn-x-nM5D2QK1_Jqc6qjrMHocDrfbJENEsHABa2_CxsoiFiYOWfkEJ7oquDS3PTMjfMOzjrK-CKpUq8xexEOlohJCf9iymtjx6mwslE442lRGN_tAj-JAmcDv27q3E1OQ9ARA==]. Additionally, Nemotron-H, a family of hybrid Mamba-Transformer models designed to reduce inference costs while maintaining accuracy, was introduced [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0uEnB6F_w0vpyRrY0iXBFj_blgbj-RASrDZfvg7CkFsJjnoD8SYl8l8Pq2yASyjKE6u-l5qPi5yOS05JXxTR_aBbD1v7N6uefBywVj0jyWJUX6K1BsCCdlhQE).\n*   **May 2025:** PROMPTCOT-MAMBA, the first attention-free language model, was introduced, matching or exceeding the performance of Transformer and hybrid baselines on math and code tasks [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu53dWI-62IHP_ZI_g7bgdwPZ8DyUBILyay3Z7uwTJD2lHhPT6GagEDaaNQsP9uwZnB1-G-iE34RyPKB0GPkSMGCKrRd0UcoiW22uZTvcyf9YuYyBfLorOgibk).\n*   **June 2025:** An update to a previous small model was released [mistral](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECD5sJ4Fuf0YH5uDLZs7WjprblL2i4nbWJebyJ0BIWvoIuKIkUdSGB2UFgXmblN4e4IVQ6mcyfrM9kn8HrpNX2GC0Ye-t8Fd8pWJjnUmaBGdqlZFfvTnGe4VJRzSjwXnvd3CEaQJGgkqvLIbcw0Z6hcRYcpzrs1fjB4g==).\n\nThese releases demonstrate the ongoing development and application of Mamba in various domains. Mamba's architecture, known for its efficiency in handling long sequences [superteams](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4=), hardware-friendliness [superteams](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4=), and strong performance across different tasks [superteams](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4=), has led to its integration into new models and fine-tuned versions throughout the year.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "edee7218-7992-4a63-b63c-d5dd54765789",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Mamba language model release date 2025"
+    ],
+    "web_research_result": [
+      "Based on the search results, here's what can be said about the Mamba language model in 2025:\n\n**General Overview of Mamba**\n\n*   Mamba is a state-space model (SSM) and a type of neural network architecture [superteams](https://vertexaisearch.cloud.google.com/id/0-0). It offers an alternative to the attention-based approach used by Transformers [arxiv](https://vertexaisearch.cloud.google.com/id/0-1) [superteams](https://vertexaisearch.cloud.google.com/id/0-0).\n*   It utilizes a \"selective state space\" design, enabling it to efficiently capture long-range dependencies within sequences while maintaining computational efficiency [superteams](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Mamba's architecture is designed to be hardware-friendly, which allows for faster computation and reduced memory requirements compared to traditional models [superteams](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Mamba scales linearly, making it significantly faster for handling long sequences [superteams](https://vertexaisearch.cloud.google.com/id/0-0). It also has a high inference throughput [superteams](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Mamba has demonstrated strong performance across various tasks, including language modeling, audio analysis, and genomics [superteams](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**Key Developments and Releases in 2025**\n\n*   **January 2025:** Mamba was being viewed as a potential replacement for Transformers in natural language processing [medium](https://vertexaisearch.cloud.google.com/id/0-2). AI21 Labs released Jamba, a large language model (LLM) that combines Transformers and Mamba [medium](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **March 2025:** A fine-tuned version of Falcon3-Mamba-7B-Instruct, called Falcon3-Mamba-R1-v0, was released in March 2025. It is optimized for logical reasoning and structured problem-solving [huggingface](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **March 2025:** Researchers have made breakthrough discoveries regarding Mamba, calling it a revolutionary language model that can learn complex patterns in data and make accurate predictions [thesciencearchive](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **April 2025:** Cobra, a multi-modal large language model built upon a state-space model, was introduced. Cobra replaces Transformer-based backbone models with pre-trained Mamba language models [aaai](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **April 2025:** Nemotron-H, a family of hybrid Mamba-Transformer models, was introduced. These models are designed to reduce inference costs while maintaining accuracy [arxiv](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **May 2025:** PROMPTCOT-MAMBA, the first attention-free language model, was introduced. It matches and exceeds the performance of Transformer and hybrid baselines on math and code tasks [arxiv](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **June 2025:** An update to a previous small model was released [mistral](https://vertexaisearch.cloud.google.com/id/0-7).\n\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "superteams",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0uEnB6F_w0vpyRrY0iXBFj_blgbj-RASrDZfvg7CkFsJjnoD8SYl8l8Pq2yASyjKE6u-l5qPi5yOS05JXxTR_aBbD1v7N6uefBywVj0jyWJUX6K1BsCCdlhQE"
+      },
+      {
+        "label": "superteams",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4="
+      },
+      {
+        "label": "superteams",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4="
+      },
+      {
+        "label": "superteams",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4="
+      },
+      {
+        "label": "superteams",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4="
+      },
+      {
+        "label": "superteams",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4="
+      },
+      {
+        "label": "superteams",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QbemtU2u8DnjT5srKNuzXUvWR3veZBGKWIaDSC-d2-QlOR245bZFjZe8HjFlqwRAu0NpcYEVZvMh55rIyZEQrOrsIsrTfCWzrZ7qx5_OSNFSNhOAgld9osObDrA0KtTbsSJ88xqm_aoCfO3ke6hX8ENziueeNVuw7lElFkC8InQoAEIwcdjmyLZPGw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QbemtU2u8DnjT5srKNuzXUvWR3veZBGKWIaDSC-d2-QlOR245bZFjZe8HjFlqwRAu0NpcYEVZvMh55rIyZEQrOrsIsrTfCWzrZ7qx5_OSNFSNhOAgld9osObDrA0KtTbsSJ88xqm_aoCfO3ke6hX8ENziueeNVuw7lElFkC8InQoAEIwcdjmyLZPGw=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeDXvoDBT82K5tLqA_CT_PIKRDKZiCsjH_cAiPpQG-exdjyBPEyGQCjtm8RGtuxpMXQvj4I7H-YPuPnifHiWn2r_ubWxjMCHJFifK-eBzMbHVOhQC1d68Rl6zN1756aLMrlmPWc80MbCEEVvU="
+      },
+      {
+        "label": "thesciencearchive",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejG_BQ2vWD0HSfoIdgwF3BoEeZ-xVHopUEA78dUHsuVu7CzyQH8yQhWoUmoVDFl6SYfRgEBLxMma6ks4Mki-raenAuvX6BEqg03VkBTV6xazTTESXMgmT9FJoVuD0b8ePf5B9HyM="
+      },
+      {
+        "label": "aaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOwjswlUJaNNV7RaN87Tn-x-nM5D2QK1_Jqc6qjrMHocDrfbJENEsHABa2_CxsoiFiYOWfkEJ7oquDS3PTMjfMOzjrK-CKpUq8xexEOlohJCf9iymtjx6mwslE442lRGN_tAj-JAmcDv27q3E1OQ9ARA=="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0uEnB6F_w0vpyRrY0iXBFj_blgbj-RASrDZfvg7CkFsJjnoD8SYl8l8Pq2yASyjKE6u-l5qPi5yOS05JXxTR_aBbD1v7N6uefBywVj0jyWJUX6K1BsCCdlhQE"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu53dWI-62IHP_ZI_g7bgdwPZ8DyUBILyay3Z7uwTJD2lHhPT6GagEDaaNQsP9uwZnB1-G-iE34RyPKB0GPkSMGCKrRd0UcoiW22uZTvcyf9YuYyBfLorOgibk"
+      },
+      {
+        "label": "mistral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECD5sJ4Fuf0YH5uDLZs7WjprblL2i4nbWJebyJ0BIWvoIuKIkUdSGB2UFgXmblN4e4IVQ6mcyfrM9kn8HrpNX2GC0Ye-t8Fd8pWJjnUmaBGdqlZFfvTnGe4VJRzSjwXnvd3CEaQJGgkqvLIbcw0Z6hcRYcpzrs1fjB4g=="
+      },
+      {
+        "label": "superteams",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnn8SFMKMdYwb_VMdL_9Q5tPlljuOS5lfEC3QFBr8jFnrUMB_IZMDpc7qPJ6aj1R1znpmZNrLqCoDxT0MeSF6LZMGhmplSwOioBw4TGtiAuk2YjZPzZlpjMthZpHxq1rAUv98QORnLOZ4="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0uEnB6F_w0vpyRrY0iXBFj_blgbj-RASrDZfvg7CkFsJjnoD8SYl8l8Pq2yASyjKE6u-l5qPi5yOS05JXxTR_aBbD1v7N6uefBywVj0jyWJUX6K1BsCCdlhQE"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2QbemtU2u8DnjT5srKNuzXUvWR3veZBGKWIaDSC-d2-QlOR245bZFjZe8HjFlqwRAu0NpcYEVZvMh55rIyZEQrOrsIsrTfCWzrZ7qx5_OSNFSNhOAgld9osObDrA0KtTbsSJ88xqm_aoCfO3ke6hX8ENziueeNVuw7lElFkC8InQoAEIwcdjmyLZPGw=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeDXvoDBT82K5tLqA_CT_PIKRDKZiCsjH_cAiPpQG-exdjyBPEyGQCjtm8RGtuxpMXQvj4I7H-YPuPnifHiWn2r_ubWxjMCHJFifK-eBzMbHVOhQC1d68Rl6zN1756aLMrlmPWc80MbCEEVvU="
+      },
+      {
+        "label": "thesciencearchive",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejG_BQ2vWD0HSfoIdgwF3BoEeZ-xVHopUEA78dUHsuVu7CzyQH8yQhWoUmoVDFl6SYfRgEBLxMma6ks4Mki-raenAuvX6BEqg03VkBTV6xazTTESXMgmT9FJoVuD0b8ePf5B9HyM="
+      },
+      {
+        "label": "aaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOwjswlUJaNNV7RaN87Tn-x-nM5D2QK1_Jqc6qjrMHocDrfbJENEsHABa2_CxsoiFiYOWfkEJ7oquDS3PTMjfMOzjrK-CKpUq8xexEOlohJCf9iymtjx6mwslE442lRGN_tAj-JAmcDv27q3E1OQ9ARA=="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu53dWI-62IHP_ZI_g7bgdwPZ8DyUBILyay3Z7uwTJD2lHhPT6GagEDaaNQsP9uwZnB1-G-iE34RyPKB0GPkSMGCKrRd0UcoiW22uZTvcyf9YuYyBfLorOgibk"
+      },
+      {
+        "label": "mistral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECD5sJ4Fuf0YH5uDLZs7WjprblL2i4nbWJebyJ0BIWvoIuKIkUdSGB2UFgXmblN4e4IVQ6mcyfrM9kn8HrpNX2GC0Ye-t8Fd8pWJjnUmaBGdqlZFfvTnGe4VJRzSjwXnvd3CEaQJGgkqvLIbcw0Z6hcRYcpzrs1fjB4g=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

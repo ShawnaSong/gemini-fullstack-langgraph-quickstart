@@ -1,0 +1,852 @@
+{
+  "file_name": "state_result_21.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.653452",
+  "data": {
+    "messages": [
+      {
+        "content": "特斯拉过去20年的股价",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "b4909187-3933-43d2-b158-41d60c225977",
+        "example": false
+      },
+      {
+        "content": "Tesla's stock price history is limited to the period after its IPO in 2010 [statmuse](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm6sdOuE8UtOT7zXcBokb5yLUNKHd5FuDKi7adpZ1MG-eNjGfMpz8nvmbEhIImEoC2KDWxp_yiK58wM5D7DAffsrMiSunkPw2SYNbmBG9AInFqHI4460w8va5A21bauRyXWE-sg3QU8lwZWv4iFccNa0qoO2jgq48=) [macrotrends](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg==) [dfcfw](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew==). As of July 03, 2025, the latest closing stock price for Tesla was $315.35 [financecharts](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqylRxWUEY0Esg94yGTt9lnF92KkYja6Gl3m1oqWubKIDHpeQngHvuwWkbznQgeYFA52KIymFpxWxzz9XUMg_fwwbH8DqTEW5PIOd4VCeYmudYjnBIvL5KrS0Bxd9PYet5MfEPeML8P76BDs0LTugwIPc=) [macrotrends](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg==). If an investor had purchased $1,000 worth of Tesla stock at its IPO in 2010, it would be worth approximately $196,997 today [macrotrends](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg==).\n\nThe all-time high closing price for Tesla stock was $479.86 on December 17, 2024 [macrotrends](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg==). The 52-week high is $488.54, 54.9% above the current price, and the 52-week low is $182.00, 42.3% below the current price [macrotrends](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg==). The average stock price for the last 52 weeks is $296.42 [macrotrends](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg==), while the all-time average closing price is $89.14 [statmuse](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnCWIqZ7JISTRiTTS_vflsKSW89tuwNfcpFvwApaIcx6pfettdqKtpOj4mmPU_vfIkYlxFdn7lXVhJ9y07_pEbUGfzNr1RssReRcu1Vf0Q60KuIvlNTGrelq8FnioNeBDzH9VtICAkBtMkaNXfpQ9D8TJ7TRyQuw==) [statmuse](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm6sdOuE8UtOT7zXcBokb5yLUNKHd5FuDKi7adpZ1MG-eNjGfMpz8nvmbEhIImEoC2KDWxp_yiK58wM5D7DAffsrMiSunkPw2SYNbmBG9AInFqHI4460w8va5A21bauRyXWE-sg3QU8lwZWv4iFccNa0qoO2jgq48=).\n\nIn the last 12 months, Tesla's price rose by 27.36 percent, but it has lost 8.74 percent in the last four weeks [tradingeconomics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFu4seyRh1QmPgXWbOGrXsj4FPz0GyYpMMQTPrHaNDghj46TnsY1KYohGHz99WsCb4JKRYjhyto28Q57YWJmo8F_lZGz3XJevY9ZP0NTbJM6wn_9ltHfLJxwRVU6N9Ig==). Macro models project a price of $323.39 by the end of this quarter and $322.71 in one year [tradingeconomics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFu4seyRh1QmPgXWbOGrXsj4FPz0GyYpMMQTPrHaNDghj46TnsY1KYohGHz99WsCb4JKRYjhyto28Q57YWJmo8F_lZGz3XJevY9ZP0NTbJM6wn_9ltHfLJxwRVU6N9Ig==).\n\nSeveral factors have influenced Tesla's stock price, including production and delivery numbers [dfcfw](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew==), company developments [dfcfw](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew==), market sentiment [businessweekly](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlC8vi7hc4O7FEOP3xbgTyoM3cWt9T_X2j7AMz5vZ1EgTjVP0T4xcIDAHi1j3KcOCKipZGnmEpLApapg--NtxJhP8HMOa42avhVObWQsdQj2wsbkCaQd_b9YHdOwLKlUPWuD90SWtaDgzCuyljWReiKKPzFO8dpVYuTpK4piq2tO6cSA==), European sales [coolest-gadgets](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzcJNrZZfZfAEyafXsN7vfbGlBYA_lbh3nFZIqlxAL8mg5cwFoGRR5lI5ozvUbm6OH78OO_Yvlc6Sl2q7eDoigDF25S4DKhbnAl5RDWI1Zvtht3Wi5lWWI_QUbcHvCoYchyMh7gFiGMzy4_EMjK82vi88ls3BRDKSn54O1Uy_pfQXJp2xpY7PSw00dSfYruQ==), and competition [coolest-gadgets](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzcJNrZZfZfAEyafXsN7vfbGlBYA_lbh3nFZIqlxAL8mg5cwFoGRR5lI5ozvUbm6OH78OO_Yvlc6Sl2q7eDoigDF25S4DKhbnAl5RDWI1Zvtht3Wi5lWWI_QUbcHvCoYchyMh7gFiGMzy4_EMjK82vi88ls3BRDKSn54O1Uy_pfQXJp2xpY7PSw00dSfYruQ==). For example, production shortages in 2019 negatively impacted the stock price [dfcfw](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew==), while increased Model 3 deliveries had a positive effect [dfcfw](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew==). Declining European car sales in May 2025 led to a 4.29% stock decrease [coolest-gadgets](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzcJNrZZfZfAEyafXsN7vfbGlBYA_lbh3nFZIqlxAL8mg5cwFoGRR5lI5ozvUbm6OH78OO_Yvlc6Sl2q7eDoigDF25S4DKhbnAl5RDWI1Zvtht3Wi5lWWI_QUbcHvCoYchyMh7gFiGMzy4_EMjK82vi88ls3BRDKSn54O1Uy_pfQXJp2xpY7PSw00dSfYruQ==).\n\nNotably, in 2019, Tesla's stock price was affected by production and delivery numbers [teslarati](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA=) [teslarati](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrOOzygyo9t_bcOaFtl3R5VkZvS2iLDbGR5SS6XM7p_PWCg4AgZxVTb_0VbIKNCDxw8fktUwCAZsnSc0BiyPJ8lXiPIHMfK4mDu9DAkFX2gnVrcrcR8vLPXYg_8BUh89FWNgUQpBV340eJyNnQYKjllbSgz1JhrrejOqSJjg==). Q1 2019 saw a drop in deliveries, leading to bearish sentiments [teslarati](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA=) [teslarati](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrOOzygyo9t_bcOaFtl3R5VkZvS2iLDbGR5SS6XM7p_PWCg4AgZxVTb_0VbIKNCDxw8fktUwCAZsnSc0BiyPJ8lXiPIHMfK4mDu9DAkFX2gnVrcrcR8vLPXYg_8BUh89FWNgUQpBV340eJyNnQYKjllbSgz1JhrrejOqSJjg==), and the stock price fell to $190 per share in H1 2019 [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ==0), hitting a 12-month low of $178.97 on June 3, 2019 [apnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ==1). However, record deliveries in Q2 2019 [insideevs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCEjsjJjqmPQ7XVDBr_8c5IQ2DEMlixB43vrfYHjUc8kAK9HdZ_GbFIoKffCBy7ct98uBAbdhLVUyLXjjDmuCn6Pelp_JMtDaUKk6hahzuymz2aABuWEQ7mcmVqD9lNfXZnCLqVBFXOflMG9KxVHrSZudg7g_4gQeNjsBYM-StgbBvLJhXKOJPO8l9_pwbSYZhFvViw-aVRkPGKkkIlnEBebeFfPOE0d3kFF6DKVg=4) [cleantechnica](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-aWkzZNaLRwG9xZcP9-VzOkDlaoEndEtuN2p-b-12-lM-PyPn4zq2c7VL3d5nVTet6MU0tV0aOYg3HsvQ0T0qNH32my7HqUMI-D-7WfQKpYRqqGa4xpjvCBMIBDMVTpD4zBNyx5oWEagG_3r6jc4PDjUqV3pyaiRmgJpn3QjC0itGyEhZDInPGZoAeLnH9sQ7QEndJcS_wOdI4qoaQQ==) and throughout the second half of the year led to the stock frequently hitting record highs, rising above $500 per share [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ==0). The closing price for Tesla (TSLA) on December 31, 2019, was $27.89, up 36.7% for the year [statmuse](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ==2).\n\nKeep in mind that vehicle deliveries are just one measure of financial performance [tesla](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ==) [tesla](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBWKyRqKrdSiynGDEF_MPOUjTn5JsbfjOuD60aF8uxiOt7S55rZxY2f71aa6oGo8wW8isdBUbeIJ81r97SqAjHLRG6BtmiqxaJdDfGKGTpmiisM-0dor_x9Byx9ZQIzikckDGh_7QglhNH8uExm3I-fv1kf_YblvshPwtXfZpXaS_4rHcxjHuu6w==) [tesla](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA=9) [tesla](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA=3) [globenewswire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA=4) [globenewswire](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCEjsjJjqmPQ7XVDBr_8c5IQ2DEMlixB43vrfYHjUc8kAK9HdZ_GbFIoKffCBy7ct98uBAbdhLVUyLXjjDmuCn6Pelp_JMtDaUKk6hahzuymz2aABuWEQ7mcmVqD9lNfXZnCLqVBFXOflMG9KxVHrSZudg7g_4gQeNjsBYM-StgbBvLJhXKOJPO8l9_pwbSYZhFvViw-aVRkPGKkkIlnEBebeFfPOE0d3kFF6DKVg=1).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "979de79d-9869-49cb-be8c-14bfd690822b",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "特斯拉过去20年的股价",
+      "What were the specific production numbers and delivery figures for Tesla in each quarter of 2019, and how did these figures correlate with the stock price during that period?"
+    ],
+    "web_research_result": [
+      "Tesla's stock price history over the past 20 years is limited since the company's IPO was in 2010 [statmuse](https://vertexaisearch.cloud.google.com/id/0-0) [macrotrends](https://vertexaisearch.cloud.google.com/id/0-1) [dfcfw](https://vertexaisearch.cloud.google.com/id/0-2). The latest closing stock price for Tesla as of July 03, 2025, was $315.35 [financecharts](https://vertexaisearch.cloud.google.com/id/0-3) [macrotrends](https://vertexaisearch.cloud.google.com/id/0-1). An investor who bought $1,000 worth of Tesla stock at the IPO in 2010 would have $196,997 today, roughly 197 times their original investment [macrotrends](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Key milestones in Tesla's stock price history:**\n\n*   **All-Time High:** The all-time high Tesla stock closing price was $479.86 on December 17, 2024 [macrotrends](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **52-Week High and Low:** The Tesla 52-week high stock price is $488.54, which is 54.9% above the current share price. The Tesla 52-week low stock price is $182.00, which is 42.3% below the current share price [macrotrends](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Average Stock Price:** The average Tesla stock price for the last 52 weeks is $296.42 [macrotrends](https://vertexaisearch.cloud.google.com/id/0-1). The average closing price for Tesla (TSLA) all-time is $89.14 [statmuse](https://vertexaisearch.cloud.google.com/id/0-4) [statmuse](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Recent Performance:** Over the last 12 months, Tesla's price rose by 27.36 percent [tradingeconomics](https://vertexaisearch.cloud.google.com/id/0-5). However, over the last four weeks, Tesla lost 8.74 percent [tradingeconomics](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Analyst Projections:** Trading Economics global macro models project Tesla to be priced at 323.39 by the end of this quarter and at 322.71 in one year [tradingeconomics](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**Factors Influencing Tesla's Stock Price:**\n\n*   **Production and Delivery:** Production shortages due to the China-US trade war in 2019 significantly impacted Tesla's stock price [dfcfw](https://vertexaisearch.cloud.google.com/id/0-2). Increased Model 3 deliveries positively influenced the stock price [dfcfw](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Company Developments:** Tesla's announcement of building a factory in China and mass layoffs in Fremont impacted stock prices [dfcfw](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Market Sentiment:** Positive news, such as Hertz ordering 100,000 electric vehicles from Tesla, caused the stock price to surge [businessweekly](https://vertexaisearch.cloud.google.com/id/0-6). Conversely, Elon Musk's share sales and recalls of electric vehicles led to a decline in stock price [businessweekly](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **European Sales:** A decline in European car sales in May 2025 led to a 4.29% fall in Tesla's stock [coolest-gadgets](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Competition:** Increasing competition from Chinese automakers like BYD and MG is pressuring Tesla's pricing model [coolest-gadgets](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Fundamentals:** Disappointing recent business performance has been measured against the stock’s current valuation.\n [nasdaq](https://vertexaisearch.cloud.google.com/id/0-8)\n**Expert Predictions:**\n\n*   **2025 End-of-Year:** Predictions range from $218.90 (WalletInvestor) to $786.21 (StockScan).\n [fxopen](https://vertexaisearch.cloud.google.com/id/0-9)*   **2026 End-of-Year:** Predictions range from $189.08 (WalletInvestor) to $1213.35 (StockScan).\n [fxopen](https://vertexaisearch.cloud.google.com/id/0-9)*   **2027 End-of-Year:** Predictions range from $160.07 (WalletInvestor) to $2000 (ARK Invest).\n [fxopen](https://vertexaisearch.cloud.google.com/id/0-9)*   **2029 End-of-Year:** Predictions range from $328.20 (Gov Capital) to $2036.25 (StockScan).\n [fxopen](https://vertexaisearch.cloud.google.com/id/0-9)",
+      "In 2019, Tesla's production and delivery numbers were as follows:\n\n**Production**\n\n*   **Q1 2019:** 77,100 [benzinga](https://vertexaisearch.cloud.google.com/id/1-0) [teslarati](https://vertexaisearch.cloud.google.com/id/1-1) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-2) [tesla](https://vertexaisearch.cloud.google.com/id/1-3) [teslarati](https://vertexaisearch.cloud.google.com/id/1-4) (62,950 Model 3 and 14,150 Model S/X) [teslarati](https://vertexaisearch.cloud.google.com/id/1-1) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-2) [teslarati](https://vertexaisearch.cloud.google.com/id/1-4) [tesla](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **Q2 2019:** 87,048 [tesla](https://vertexaisearch.cloud.google.com/id/1-5) [benzinga](https://vertexaisearch.cloud.google.com/id/1-0) [benzinga](https://vertexaisearch.cloud.google.com/id/1-6) [teslarati](https://vertexaisearch.cloud.google.com/id/1-7) [nasdaq](https://vertexaisearch.cloud.google.com/id/1-8) [cleantechnica](https://vertexaisearch.cloud.google.com/id/1-9) (72,531 Model 3 and 14,517 Model S/X) [teslarati](https://vertexaisearch.cloud.google.com/id/1-7) [evbite](https://vertexaisearch.cloud.google.com/id/1-10) [cleantechnica](https://vertexaisearch.cloud.google.com/id/1-9) [tesla](https://vertexaisearch.cloud.google.com/id/1-5)\n*   **Q3 2019:** 96,155 [benzinga](https://vertexaisearch.cloud.google.com/id/1-0) [benzinga](https://vertexaisearch.cloud.google.com/id/1-6) [nasdaq](https://vertexaisearch.cloud.google.com/id/1-8) [teslarati](https://vertexaisearch.cloud.google.com/id/1-11) [evnewsdaily](https://vertexaisearch.cloud.google.com/id/1-12) [tesla](https://vertexaisearch.cloud.google.com/id/1-13) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-14) [cleantechnica](https://vertexaisearch.cloud.google.com/id/1-15) [fool](https://vertexaisearch.cloud.google.com/id/1-16) [teslarati](https://vertexaisearch.cloud.google.com/id/1-4) (79,837 Model 3 and 16,318 Model S/X) [teslarati](https://vertexaisearch.cloud.google.com/id/1-11) [evnewsdaily](https://vertexaisearch.cloud.google.com/id/1-12) [fool](https://vertexaisearch.cloud.google.com/id/1-16) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-14)\n*   **Q4 2019:** 104,891 [benzinga](https://vertexaisearch.cloud.google.com/id/1-0) [benzinga](https://vertexaisearch.cloud.google.com/id/1-6) [nasdaq](https://vertexaisearch.cloud.google.com/id/1-8) [teslarati](https://vertexaisearch.cloud.google.com/id/1-17) [cnet](https://vertexaisearch.cloud.google.com/id/1-18) [tesla](https://vertexaisearch.cloud.google.com/id/1-19) (86,958 Model 3 and 17,933 Model S/X) [teslarati](https://vertexaisearch.cloud.google.com/id/1-17) [spglobal](https://vertexaisearch.cloud.google.com/id/1-20) [tesla](https://vertexaisearch.cloud.google.com/id/1-19) [cnet](https://vertexaisearch.cloud.google.com/id/1-18) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-21)\n\n**Deliveries**\n\n*   **Q1 2019:** 63,000 [benzinga](https://vertexaisearch.cloud.google.com/id/1-6) [benzinga](https://vertexaisearch.cloud.google.com/id/1-0) [nasdaq](https://vertexaisearch.cloud.google.com/id/1-8) [teslarati](https://vertexaisearch.cloud.google.com/id/1-1) [forbes](https://vertexaisearch.cloud.google.com/id/1-22) [mashable](https://vertexaisearch.cloud.google.com/id/1-23) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-2) [teslarati](https://vertexaisearch.cloud.google.com/id/1-4) [tesla](https://vertexaisearch.cloud.google.com/id/1-3) (50,900 Model 3 and 12,100 Model S/X) [teslarati](https://vertexaisearch.cloud.google.com/id/1-1) [teslarati](https://vertexaisearch.cloud.google.com/id/1-4) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-2) [mashable](https://vertexaisearch.cloud.google.com/id/1-23) [tesla](https://vertexaisearch.cloud.google.com/id/1-3) [forbes](https://vertexaisearch.cloud.google.com/id/1-22)\n*   **Q2 2019:** 95,200 [tesla](https://vertexaisearch.cloud.google.com/id/1-5) [insideevs](https://vertexaisearch.cloud.google.com/id/1-24) [benzinga](https://vertexaisearch.cloud.google.com/id/1-6) [teslarati](https://vertexaisearch.cloud.google.com/id/1-7) [nasdaq](https://vertexaisearch.cloud.google.com/id/1-8) [cleantechnica](https://vertexaisearch.cloud.google.com/id/1-9) [youtube](https://vertexaisearch.cloud.google.com/id/1-25) [trefis](https://vertexaisearch.cloud.google.com/id/1-26) [teslamotorsclub](https://vertexaisearch.cloud.google.com/id/1-27) [evbite](https://vertexaisearch.cloud.google.com/id/1-10) (77,500 Model 3 and 17,650 Model S/X) [cleantechnica](https://vertexaisearch.cloud.google.com/id/1-9) [teslarati](https://vertexaisearch.cloud.google.com/id/1-7) [tesla](https://vertexaisearch.cloud.google.com/id/1-5) or (77,550 Model 3 and 17,650 Model S/X) [insideevs](https://vertexaisearch.cloud.google.com/id/1-24) or (77,634 Model 3 and 17,722 Model S/X) [evbite](https://vertexaisearch.cloud.google.com/id/1-10)\n*   **Q3 2019:** 97,000 [benzinga](https://vertexaisearch.cloud.google.com/id/1-6) [electrek](https://vertexaisearch.cloud.google.com/id/1-28) [nasdaq](https://vertexaisearch.cloud.google.com/id/1-8) [evnewsdaily](https://vertexaisearch.cloud.google.com/id/1-12) [cleantechnica](https://vertexaisearch.cloud.google.com/id/1-15) [teslarati](https://vertexaisearch.cloud.google.com/id/1-11) [tesla](https://vertexaisearch.cloud.google.com/id/1-13) [fool](https://vertexaisearch.cloud.google.com/id/1-16) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-14) (79,600 Model 3 and 17,400 Model S/X) [teslarati](https://vertexaisearch.cloud.google.com/id/1-11) [evnewsdaily](https://vertexaisearch.cloud.google.com/id/1-12) [fool](https://vertexaisearch.cloud.google.com/id/1-16) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-14)\n*   **Q4 2019:** 112,000 [benzinga](https://vertexaisearch.cloud.google.com/id/1-6) [nasdaq](https://vertexaisearch.cloud.google.com/id/1-8) [teslarati](https://vertexaisearch.cloud.google.com/id/1-17) [spglobal](https://vertexaisearch.cloud.google.com/id/1-20) [tesla](https://vertexaisearch.cloud.google.com/id/1-19) [cnet](https://vertexaisearch.cloud.google.com/id/1-18) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-21) (92,550 Model 3 and 19,450 Model S/X) [teslarati](https://vertexaisearch.cloud.google.com/id/1-17) [tesla](https://vertexaisearch.cloud.google.com/id/1-19) [cnet](https://vertexaisearch.cloud.google.com/id/1-18) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-21) [spglobal](https://vertexaisearch.cloud.google.com/id/1-20)\n\nTesla delivered approximately 367,500 vehicles in 2019, a 50% increase over the previous year, which aligned with their full-year guidance [teslarati](https://vertexaisearch.cloud.google.com/id/1-17) [spglobal](https://vertexaisearch.cloud.google.com/id/1-20) [tesla](https://vertexaisearch.cloud.google.com/id/1-19) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-21) [cnet](https://vertexaisearch.cloud.google.com/id/1-18) [cleantechnica](https://vertexaisearch.cloud.google.com/id/1-29).\n\n**Correlation with Stock Price**\n\n*   **Q1 2019:** Tesla's Q1 2019 earnings call followed a challenging quarter where electric car deliveries fell by around 30% compared to Q4 2018 [teslarati](https://vertexaisearch.cloud.google.com/id/1-1). The drop in production and deliveries led to bearish sentiments from Wall Street, with analysts expressing concerns about Model S and Model X delivery numbers and potential revenue shortfall [teslarati](https://vertexaisearch.cloud.google.com/id/1-1) [teslarati](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **H1 2019:** In the first half of 2019, Tesla struggled with market decline, and its stock price fell to $190 per share [github](https://vertexaisearch.cloud.google.com/id/1-30).\n*   **June 3, 2019:** Tesla stock hit a 12-month low of $178.97 [apnews](https://vertexaisearch.cloud.google.com/id/1-31).\n*   **Q2 2019:** Tesla posted record deliveries, crushing Wall Street estimates [insideevs](https://vertexaisearch.cloud.google.com/id/1-24) [cleantechnica](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **H2 2019:** In the second half of 2019, the stock price frequently hit record highs, rising above $500 per share [github](https://vertexaisearch.cloud.google.com/id/1-30).\n*   **End of 2019:** On December 31, 2019, the closing price for Tesla (TSLA) was $27.89, up 36.7% for the year [statmuse](https://vertexaisearch.cloud.google.com/id/1-32).\n*   **Early January 2020:** Tesla's stock rose by more than 3% to $443.37 a share in early trading [cnet](https://vertexaisearch.cloud.google.com/id/1-18). On January 3, 2020, shares of Tesla hit a record closing price after the company reported its global deliveries rose more than 50% last year [apnews](https://vertexaisearch.cloud.google.com/id/1-31).\n\nIt is important to note that Tesla vehicle deliveries represent only one measure of the company's financial performance and should not be relied upon as an indicator of quarterly financial results [tesla](https://vertexaisearch.cloud.google.com/id/1-3) [tesla](https://vertexaisearch.cloud.google.com/id/1-5) [tesla](https://vertexaisearch.cloud.google.com/id/1-19) [tesla](https://vertexaisearch.cloud.google.com/id/1-13) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-14) [globenewswire](https://vertexaisearch.cloud.google.com/id/1-21).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "statmuse",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm6sdOuE8UtOT7zXcBokb5yLUNKHd5FuDKi7adpZ1MG-eNjGfMpz8nvmbEhIImEoC2KDWxp_yiK58wM5D7DAffsrMiSunkPw2SYNbmBG9AInFqHI4460w8va5A21bauRyXWE-sg3QU8lwZWv4iFccNa0qoO2jgq48="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg=="
+      },
+      {
+        "label": "dfcfw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew=="
+      },
+      {
+        "label": "financecharts",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqylRxWUEY0Esg94yGTt9lnF92KkYja6Gl3m1oqWubKIDHpeQngHvuwWkbznQgeYFA52KIymFpxWxzz9XUMg_fwwbH8DqTEW5PIOd4VCeYmudYjnBIvL5KrS0Bxd9PYet5MfEPeML8P76BDs0LTugwIPc="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg=="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg=="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg=="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg=="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg=="
+      },
+      {
+        "label": "statmuse",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnCWIqZ7JISTRiTTS_vflsKSW89tuwNfcpFvwApaIcx6pfettdqKtpOj4mmPU_vfIkYlxFdn7lXVhJ9y07_pEbUGfzNr1RssReRcu1Vf0Q60KuIvlNTGrelq8FnioNeBDzH9VtICAkBtMkaNXfpQ9D8TJ7TRyQuw=="
+      },
+      {
+        "label": "statmuse",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm6sdOuE8UtOT7zXcBokb5yLUNKHd5FuDKi7adpZ1MG-eNjGfMpz8nvmbEhIImEoC2KDWxp_yiK58wM5D7DAffsrMiSunkPw2SYNbmBG9AInFqHI4460w8va5A21bauRyXWE-sg3QU8lwZWv4iFccNa0qoO2jgq48="
+      },
+      {
+        "label": "tradingeconomics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFu4seyRh1QmPgXWbOGrXsj4FPz0GyYpMMQTPrHaNDghj46TnsY1KYohGHz99WsCb4JKRYjhyto28Q57YWJmo8F_lZGz3XJevY9ZP0NTbJM6wn_9ltHfLJxwRVU6N9Ig=="
+      },
+      {
+        "label": "tradingeconomics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFu4seyRh1QmPgXWbOGrXsj4FPz0GyYpMMQTPrHaNDghj46TnsY1KYohGHz99WsCb4JKRYjhyto28Q57YWJmo8F_lZGz3XJevY9ZP0NTbJM6wn_9ltHfLJxwRVU6N9Ig=="
+      },
+      {
+        "label": "tradingeconomics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFu4seyRh1QmPgXWbOGrXsj4FPz0GyYpMMQTPrHaNDghj46TnsY1KYohGHz99WsCb4JKRYjhyto28Q57YWJmo8F_lZGz3XJevY9ZP0NTbJM6wn_9ltHfLJxwRVU6N9Ig=="
+      },
+      {
+        "label": "dfcfw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew=="
+      },
+      {
+        "label": "dfcfw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew=="
+      },
+      {
+        "label": "dfcfw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew=="
+      },
+      {
+        "label": "businessweekly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlC8vi7hc4O7FEOP3xbgTyoM3cWt9T_X2j7AMz5vZ1EgTjVP0T4xcIDAHi1j3KcOCKipZGnmEpLApapg--NtxJhP8HMOa42avhVObWQsdQj2wsbkCaQd_b9YHdOwLKlUPWuD90SWtaDgzCuyljWReiKKPzFO8dpVYuTpK4piq2tO6cSA=="
+      },
+      {
+        "label": "businessweekly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlC8vi7hc4O7FEOP3xbgTyoM3cWt9T_X2j7AMz5vZ1EgTjVP0T4xcIDAHi1j3KcOCKipZGnmEpLApapg--NtxJhP8HMOa42avhVObWQsdQj2wsbkCaQd_b9YHdOwLKlUPWuD90SWtaDgzCuyljWReiKKPzFO8dpVYuTpK4piq2tO6cSA=="
+      },
+      {
+        "label": "coolest-gadgets",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzcJNrZZfZfAEyafXsN7vfbGlBYA_lbh3nFZIqlxAL8mg5cwFoGRR5lI5ozvUbm6OH78OO_Yvlc6Sl2q7eDoigDF25S4DKhbnAl5RDWI1Zvtht3Wi5lWWI_QUbcHvCoYchyMh7gFiGMzy4_EMjK82vi88ls3BRDKSn54O1Uy_pfQXJp2xpY7PSw00dSfYruQ=="
+      },
+      {
+        "label": "coolest-gadgets",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzcJNrZZfZfAEyafXsN7vfbGlBYA_lbh3nFZIqlxAL8mg5cwFoGRR5lI5ozvUbm6OH78OO_Yvlc6Sl2q7eDoigDF25S4DKhbnAl5RDWI1Zvtht3Wi5lWWI_QUbcHvCoYchyMh7gFiGMzy4_EMjK82vi88ls3BRDKSn54O1Uy_pfQXJp2xpY7PSw00dSfYruQ=="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHER3gDMXtnrqQM26FlWn7THcvu4QKk2q0f5qS1-EJ8uQoHDKhJI-3BZ5Zvdjmx7ZXy8rfnfFcCWoR8O2hI3tuOquo-MUVpUpeqkfmDHkIZaDxLzuim8WWvwN7sN0DCroBpPhTsd3OnFXbqUaiVdIPwVW8v_lYVcNJKY6fEBBIQMXAHhfMbyS1w6mEQZPt5nEDmcQ=="
+      },
+      {
+        "label": "fxopen",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3m7jnlYUbku8p6GYnQ84hK1XdN2YiRhnE1Y18tMO8R6xAEVGOUAsNQp7YdyFLQ01sijAkyjNhCH-xc1HUdjURNpECTuqMG7YFQtSdRaDEXpkrW77-A2NaQHbEe4W0WE9Ytcw26gLVwqihBX8ASYWiRakXlL501EEGRTZ0FlG-aYiuQWo52pyMxtkA-VpzOtk4nAFkmjkX"
+      },
+      {
+        "label": "fxopen",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3m7jnlYUbku8p6GYnQ84hK1XdN2YiRhnE1Y18tMO8R6xAEVGOUAsNQp7YdyFLQ01sijAkyjNhCH-xc1HUdjURNpECTuqMG7YFQtSdRaDEXpkrW77-A2NaQHbEe4W0WE9Ytcw26gLVwqihBX8ASYWiRakXlL501EEGRTZ0FlG-aYiuQWo52pyMxtkA-VpzOtk4nAFkmjkX"
+      },
+      {
+        "label": "fxopen",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3m7jnlYUbku8p6GYnQ84hK1XdN2YiRhnE1Y18tMO8R6xAEVGOUAsNQp7YdyFLQ01sijAkyjNhCH-xc1HUdjURNpECTuqMG7YFQtSdRaDEXpkrW77-A2NaQHbEe4W0WE9Ytcw26gLVwqihBX8ASYWiRakXlL501EEGRTZ0FlG-aYiuQWo52pyMxtkA-VpzOtk4nAFkmjkX"
+      },
+      {
+        "label": "fxopen",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3m7jnlYUbku8p6GYnQ84hK1XdN2YiRhnE1Y18tMO8R6xAEVGOUAsNQp7YdyFLQ01sijAkyjNhCH-xc1HUdjURNpECTuqMG7YFQtSdRaDEXpkrW77-A2NaQHbEe4W0WE9Ytcw26gLVwqihBX8ASYWiRakXlL501EEGRTZ0FlG-aYiuQWo52pyMxtkA-VpzOtk4nAFkmjkX"
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJFmomDoDiw-b2tea5gZZlbTtbwtqhgpKvCeC7OQoplwxsENfpitOp7_ZhIeuAGjs-6agUM5_7alTR5S987eF_tzD5JXm3L2Av39-Q_myJtg9rTbySknfiE1JxpIProzKCIfvwJu3lj6vCnU9rX0fi-fNtM95VXSt1HqUWUWMMcp87tQTWt9VrTOrngI7oFkipaPfXRdPBkSbfUMpVCj9Y_MCv6tMLO_YBQSWD-ikKc4x_"
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCEjsjJjqmPQ7XVDBr_8c5IQ2DEMlixB43vrfYHjUc8kAK9HdZ_GbFIoKffCBy7ct98uBAbdhLVUyLXjjDmuCn6Pelp_JMtDaUKk6hahzuymz2aABuWEQ7mcmVqD9lNfXZnCLqVBFXOflMG9KxVHrSZudg7g_4gQeNjsBYM-StgbBvLJhXKOJPO8l9_pwbSYZhFvViw-aVRkPGKkkIlnEBebeFfPOE0d3kFF6DKVg="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrOOzygyo9t_bcOaFtl3R5VkZvS2iLDbGR5SS6XM7p_PWCg4AgZxVTb_0VbIKNCDxw8fktUwCAZsnSc0BiyPJ8lXiPIHMfK4mDu9DAkFX2gnVrcrcR8vLPXYg_8BUh89FWNgUQpBV340eJyNnQYKjllbSgz1JhrrejOqSJjg=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCEjsjJjqmPQ7XVDBr_8c5IQ2DEMlixB43vrfYHjUc8kAK9HdZ_GbFIoKffCBy7ct98uBAbdhLVUyLXjjDmuCn6Pelp_JMtDaUKk6hahzuymz2aABuWEQ7mcmVqD9lNfXZnCLqVBFXOflMG9KxVHrSZudg7g_4gQeNjsBYM-StgbBvLJhXKOJPO8l9_pwbSYZhFvViw-aVRkPGKkkIlnEBebeFfPOE0d3kFF6DKVg="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrOOzygyo9t_bcOaFtl3R5VkZvS2iLDbGR5SS6XM7p_PWCg4AgZxVTb_0VbIKNCDxw8fktUwCAZsnSc0BiyPJ8lXiPIHMfK4mDu9DAkFX2gnVrcrcR8vLPXYg_8BUh89FWNgUQpBV340eJyNnQYKjllbSgz1JhrrejOqSJjg=="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ=="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBWKyRqKrdSiynGDEF_MPOUjTn5JsbfjOuD60aF8uxiOt7S55rZxY2f71aa6oGo8wW8isdBUbeIJ81r97SqAjHLRG6BtmiqxaJdDfGKGTpmiisM-0dor_x9Byx9ZQIzikckDGh_7QglhNH8uExm3I-fv1kf_YblvshPwtXfZpXaS_4rHcxjHuu6w=="
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJFmomDoDiw-b2tea5gZZlbTtbwtqhgpKvCeC7OQoplwxsENfpitOp7_ZhIeuAGjs-6agUM5_7alTR5S987eF_tzD5JXm3L2Av39-Q_myJtg9rTbySknfiE1JxpIProzKCIfvwJu3lj6vCnU9rX0fi-fNtM95VXSt1HqUWUWMMcp87tQTWt9VrTOrngI7oFkipaPfXRdPBkSbfUMpVCj9Y_MCv6tMLO_YBQSWD-ikKc4x_"
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7XFLLqCTnFlbauRW83bGhn9ZOyjVePgFkTZWA0J-enY4Nq_Lfc_KIg7dTI3Vh2yd8pZ0zcknf6jNTK0s80Am7TStloR1LG_qAsNWjrfXJ_zrxC36EHkp4e8HuQOZ5rgVZuNWnpqym5oxREAU9as06X774HnWAURW5Vk5OnPUc5cDKW50vC0uO-bM2CsdQa15ucuZQRUoUs9MOuIZ8SaeqL5anz9Ylz6bUF5ch1Omum4eIFXD99FbVBC53JinKQE45b7IfWqVT0KcJKrR9"
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmq8y70Hhy2mm08_Q3WoTrdu6TjlK4DbSwQL7lbwJIW2buTtWTV6GG7IIQlaV16htWA9RcbP_VikywL3LFhiqBmq2QJYqSjzjCGUstc-UZ-ELCRi0AgRnbuADNiwq7o0FolCy1TX29157RIPzJDyG8H3TGjMarY0954EfelYeG9GHuQw89rNtzl_e50SYsaQ=="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXwTn42sEDTBH3YGSLJ1qptWdn-aCK0wtRQGJf4-SywsxI5uw2mCF1E4YL9Wte85F9s3cbnFIowTCk5lJ9C6Qi-MkLroQ2SvpE5uilpIVzgagw-vE9dDl0dz3x-RXR5clNK9aeauz2HVuzztQN_3OROWk1q8pf3l3zYB7T1sz4TRoCM2-ffvGzvOHLpFrrEn9yEZ-r7oTmXnYIgZ87jthY6xLVwq-NL29xw=="
+      },
+      {
+        "label": "cleantechnica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-aWkzZNaLRwG9xZcP9-VzOkDlaoEndEtuN2p-b-12-lM-PyPn4zq2c7VL3d5nVTet6MU0tV0aOYg3HsvQ0T0qNH32my7HqUMI-D-7WfQKpYRqqGa4xpjvCBMIBDMVTpD4zBNyx5oWEagG_3r6jc4PDjUqV3pyaiRmgJpn3QjC0itGyEhZDInPGZoAeLnH9sQ7QEndJcS_wOdI4qoaQQ=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmq8y70Hhy2mm08_Q3WoTrdu6TjlK4DbSwQL7lbwJIW2buTtWTV6GG7IIQlaV16htWA9RcbP_VikywL3LFhiqBmq2QJYqSjzjCGUstc-UZ-ELCRi0AgRnbuADNiwq7o0FolCy1TX29157RIPzJDyG8H3TGjMarY0954EfelYeG9GHuQw89rNtzl_e50SYsaQ=="
+      },
+      {
+        "label": "evbite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNG7kwk9TourD1qRfCGji4eB89xIW8Bs11EMP4UxMopDGjNB4m2TQx7tb6lRXwTDjaG-qpPWAmflmK4mDP8N_dqWLXm9cFaxXG5a6y2wElu3yyYu-_RGMxpb2oyM-oVFN2bxRVjg=="
+      },
+      {
+        "label": "cleantechnica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-aWkzZNaLRwG9xZcP9-VzOkDlaoEndEtuN2p-b-12-lM-PyPn4zq2c7VL3d5nVTet6MU0tV0aOYg3HsvQ0T0qNH32my7HqUMI-D-7WfQKpYRqqGa4xpjvCBMIBDMVTpD4zBNyx5oWEagG_3r6jc4PDjUqV3pyaiRmgJpn3QjC0itGyEhZDInPGZoAeLnH9sQ7QEndJcS_wOdI4qoaQQ=="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBWKyRqKrdSiynGDEF_MPOUjTn5JsbfjOuD60aF8uxiOt7S55rZxY2f71aa6oGo8wW8isdBUbeIJ81r97SqAjHLRG6BtmiqxaJdDfGKGTpmiisM-0dor_x9Byx9ZQIzikckDGh_7QglhNH8uExm3I-fv1kf_YblvshPwtXfZpXaS_4rHcxjHuu6w=="
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJFmomDoDiw-b2tea5gZZlbTtbwtqhgpKvCeC7OQoplwxsENfpitOp7_ZhIeuAGjs-6agUM5_7alTR5S987eF_tzD5JXm3L2Av39-Q_myJtg9rTbySknfiE1JxpIProzKCIfvwJu3lj6vCnU9rX0fi-fNtM95VXSt1HqUWUWMMcp87tQTWt9VrTOrngI7oFkipaPfXRdPBkSbfUMpVCj9Y_MCv6tMLO_YBQSWD-ikKc4x_"
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7XFLLqCTnFlbauRW83bGhn9ZOyjVePgFkTZWA0J-enY4Nq_Lfc_KIg7dTI3Vh2yd8pZ0zcknf6jNTK0s80Am7TStloR1LG_qAsNWjrfXJ_zrxC36EHkp4e8HuQOZ5rgVZuNWnpqym5oxREAU9as06X774HnWAURW5Vk5OnPUc5cDKW50vC0uO-bM2CsdQa15ucuZQRUoUs9MOuIZ8SaeqL5anz9Ylz6bUF5ch1Omum4eIFXD99FbVBC53JinKQE45b7IfWqVT0KcJKrR9"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXwTn42sEDTBH3YGSLJ1qptWdn-aCK0wtRQGJf4-SywsxI5uw2mCF1E4YL9Wte85F9s3cbnFIowTCk5lJ9C6Qi-MkLroQ2SvpE5uilpIVzgagw-vE9dDl0dz3x-RXR5clNK9aeauz2HVuzztQN_3OROWk1q8pf3l3zYB7T1sz4TRoCM2-ffvGzvOHLpFrrEn9yEZ-r7oTmXnYIgZ87jthY6xLVwq-NL29xw=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgslXplVwxpLsg86UYP8ujQw652P8ue82shueJ_gY9gWcanEuEYo8e-NQbZgUDUWMyWCtc8jHidKcrkWLVyOPDHb7Z5EclUxi_9HOFNt0UfYV2O7zaLqZVCKDV684zawRIRx0UNW3PRYen5bY_wYcitrIB936OK9ZCRTJ0-EbRcsyz1sk="
+      },
+      {
+        "label": "evnewsdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp7tOjGhMw4t2rD_39_HHnwk95e63lgGNzf3SfXIR6iNZRGRiNv3sDMBmYc1RzUg-BnIoQEOhM87mZ52AGbDas9LnEvKaIr65Wtj0vGoc4SSuWYzu4OQ1_ug5kNDeeH6p738CczAw_esWf7j91TstG48k7Uk7ul3UoOugOO8JOcDlmrDgjaYY="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY4CKZTdVCJZC6JQp6CzBtlcUgiUEhuv1xoa7vbH7OJBGWNNmvMAe16zow-eq1olPcy77sDL1SOBltThhyuHmoE4CPkClFFekgeNZRp7sqras6rEEBPzVqTxXRDFIDOcyeNy68ZSxzv2uhd1GkV14TBJUgyzrnCm7Hb_sBZQKmCN0LFhnb7Qi1zA=="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8mzk7TqeZZ0_KhWk3RcH6DkyCCORKS7YnQp9E7M_SnA08n3xU3_uBQgYmPfoXg14pra4z6d-9FD_60RUFt2fLF8oWUtWPv_XTdDV6rkG5KUUw7X0sdBaH1HV5Wi0YCiFfqRaJgCfHL2Yp6AvukdnAqxy80UwH8XbVW5N8J61UTw7DDtuHr8T0DPgo3vXdV8CiVThfZfRcgvisLucjylv1wo36JBPFHypdmf5q0rRyfcQh3Ft7zKaLcRLPxYiCNhpQ17HivGI="
+      },
+      {
+        "label": "cleantechnica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0G21E8r-FQKJdGWpykK0gzEo5Gnc2uL9O5crMKeRME0dmc-fZPr_IHIWuA5LC7CDBhQGUW3-K_LBElxDeHlBWfUJkzDAHrmZQSoDa44GawdVXg2DhuM6BLx1sWJJy5Jo3WJ0wixFuT_D7XEdiYw6h-0z-PWrtlEWkFqOZTUaxb8SoR9m2KLZ56GgVmAgkMpeObncfXwJc7Geyj5je42hBNpb2HzNuKhlEYQDqlAm6fcm1"
+      },
+      {
+        "label": "fool",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi7WmZaGPRGyx7uiY2dlRVooW884625D6wcUVEJvc5GtgK9UGIMTWMrm8jK4XoGSn3ObAM8EKevnrWQzrkJnPmOxAScSOBVLNiNdHOJeKzzEGGnI4exeUqTd4DsaMNoOhE5c9Q_fr8B91GJKYvej_FhSJR_Xobwcjvt3DqU5naJ9ZlxD3yFwy_uely2-MLTx1LxLXVQCUny397xw=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrOOzygyo9t_bcOaFtl3R5VkZvS2iLDbGR5SS6XM7p_PWCg4AgZxVTb_0VbIKNCDxw8fktUwCAZsnSc0BiyPJ8lXiPIHMfK4mDu9DAkFX2gnVrcrcR8vLPXYg_8BUh89FWNgUQpBV340eJyNnQYKjllbSgz1JhrrejOqSJjg=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgslXplVwxpLsg86UYP8ujQw652P8ue82shueJ_gY9gWcanEuEYo8e-NQbZgUDUWMyWCtc8jHidKcrkWLVyOPDHb7Z5EclUxi_9HOFNt0UfYV2O7zaLqZVCKDV684zawRIRx0UNW3PRYen5bY_wYcitrIB936OK9ZCRTJ0-EbRcsyz1sk="
+      },
+      {
+        "label": "evnewsdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp7tOjGhMw4t2rD_39_HHnwk95e63lgGNzf3SfXIR6iNZRGRiNv3sDMBmYc1RzUg-BnIoQEOhM87mZ52AGbDas9LnEvKaIr65Wtj0vGoc4SSuWYzu4OQ1_ug5kNDeeH6p738CczAw_esWf7j91TstG48k7Uk7ul3UoOugOO8JOcDlmrDgjaYY="
+      },
+      {
+        "label": "fool",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi7WmZaGPRGyx7uiY2dlRVooW884625D6wcUVEJvc5GtgK9UGIMTWMrm8jK4XoGSn3ObAM8EKevnrWQzrkJnPmOxAScSOBVLNiNdHOJeKzzEGGnI4exeUqTd4DsaMNoOhE5c9Q_fr8B91GJKYvej_FhSJR_Xobwcjvt3DqU5naJ9ZlxD3yFwy_uely2-MLTx1LxLXVQCUny397xw=="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8mzk7TqeZZ0_KhWk3RcH6DkyCCORKS7YnQp9E7M_SnA08n3xU3_uBQgYmPfoXg14pra4z6d-9FD_60RUFt2fLF8oWUtWPv_XTdDV6rkG5KUUw7X0sdBaH1HV5Wi0YCiFfqRaJgCfHL2Yp6AvukdnAqxy80UwH8XbVW5N8J61UTw7DDtuHr8T0DPgo3vXdV8CiVThfZfRcgvisLucjylv1wo36JBPFHypdmf5q0rRyfcQh3Ft7zKaLcRLPxYiCNhpQ17HivGI="
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJFmomDoDiw-b2tea5gZZlbTtbwtqhgpKvCeC7OQoplwxsENfpitOp7_ZhIeuAGjs-6agUM5_7alTR5S987eF_tzD5JXm3L2Av39-Q_myJtg9rTbySknfiE1JxpIProzKCIfvwJu3lj6vCnU9rX0fi-fNtM95VXSt1HqUWUWMMcp87tQTWt9VrTOrngI7oFkipaPfXRdPBkSbfUMpVCj9Y_MCv6tMLO_YBQSWD-ikKc4x_"
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7XFLLqCTnFlbauRW83bGhn9ZOyjVePgFkTZWA0J-enY4Nq_Lfc_KIg7dTI3Vh2yd8pZ0zcknf6jNTK0s80Am7TStloR1LG_qAsNWjrfXJ_zrxC36EHkp4e8HuQOZ5rgVZuNWnpqym5oxREAU9as06X774HnWAURW5Vk5OnPUc5cDKW50vC0uO-bM2CsdQa15ucuZQRUoUs9MOuIZ8SaeqL5anz9Ylz6bUF5ch1Omum4eIFXD99FbVBC53JinKQE45b7IfWqVT0KcJKrR9"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXwTn42sEDTBH3YGSLJ1qptWdn-aCK0wtRQGJf4-SywsxI5uw2mCF1E4YL9Wte85F9s3cbnFIowTCk5lJ9C6Qi-MkLroQ2SvpE5uilpIVzgagw-vE9dDl0dz3x-RXR5clNK9aeauz2HVuzztQN_3OROWk1q8pf3l3zYB7T1sz4TRoCM2-ffvGzvOHLpFrrEn9yEZ-r7oTmXnYIgZ87jthY6xLVwq-NL29xw=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFA_S-uF9h7VelnNkQe-OX09hzZfmbkxKmpA8yIYA5a-urNTfhV-1MbtuKuDp-AOxkDNX2amMzrsqqW5NPZ7mWI-ZmAfHhbjScxHAenxGfeHK_gC_c4XhYf0EL-CG-MTeSH2cSvpYcpY5vDz45td7k93qUzBNWZNvc401YF7CHkD8TO3hb3ZX4"
+      },
+      {
+        "label": "cnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0gEua1PA97NuW-3gToRjGSl3Pc9G_odHjRTBCGUoEsDupe134ljq5s8JSvndjDhb8PRUdqZOmyHEPGGiGtvtZ1vD_j4tlbAa3Ed2GWOgkwaXuk0o-SwIblMYKyn-pUF_7yySRRobL8KW09IkqFDgBGCgtGavBJx9apHd_pawQeQWgrQDZ"
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnN4cC8xY1uxaUd5eoCT2h0cKqgPNgACVLaZuA7I5JpVdbcLXuefZulZtNKwNCP7wFOfQXX0achE-NLMio3XRyCtzLuPB-zB2_oMG6Ki56DqxOb02z7jOsn5Zb9Rs8FXPgJx0IW2COBNJlhvBRYalAahpEjDu1oxH74hMwBrEMqfnejTOIDTTiw=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFA_S-uF9h7VelnNkQe-OX09hzZfmbkxKmpA8yIYA5a-urNTfhV-1MbtuKuDp-AOxkDNX2amMzrsqqW5NPZ7mWI-ZmAfHhbjScxHAenxGfeHK_gC_c4XhYf0EL-CG-MTeSH2cSvpYcpY5vDz45td7k93qUzBNWZNvc401YF7CHkD8TO3hb3ZX4"
+      },
+      {
+        "label": "spglobal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-20",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHXPGuT42JJYFyEykr4JLN15_aFE1_BVuuwmgG8OFvMsTS2Ie9pbmkzoIi7qJfumMMiMkfJb-mJOhu1ObtNaeyVKnen-QR9FyRzTaHCPHQqKEnAWk1DR1daazV8Q2T21WYStKMu1ThEG9l4odD_TqQ3ARBWt42K_MKWC-GTWyVjwlUoUZXmdn41cYn3kxHOdOE6nd5bEcyIQXBs6X9-QeA6wJsk85DokXdxKV6IpzCrxXj_W5kTrmJ9qpGYczgJHZ06cCfxKytjQpT8mO2ZQnvG2_SvDcMpX8M"
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnN4cC8xY1uxaUd5eoCT2h0cKqgPNgACVLaZuA7I5JpVdbcLXuefZulZtNKwNCP7wFOfQXX0achE-NLMio3XRyCtzLuPB-zB2_oMG6Ki56DqxOb02z7jOsn5Zb9Rs8FXPgJx0IW2COBNJlhvBRYalAahpEjDu1oxH74hMwBrEMqfnejTOIDTTiw=="
+      },
+      {
+        "label": "cnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0gEua1PA97NuW-3gToRjGSl3Pc9G_odHjRTBCGUoEsDupe134ljq5s8JSvndjDhb8PRUdqZOmyHEPGGiGtvtZ1vD_j4tlbAa3Ed2GWOgkwaXuk0o-SwIblMYKyn-pUF_7yySRRobL8KW09IkqFDgBGCgtGavBJx9apHd_pawQeQWgrQDZ"
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-21",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcnrnpVnX5pcgJae5oNGAsxCut4JgDmiFFl2QD-xjhX_KDsBPuYLlJRwAoEghTKN-MsJdLv5Jwz51ZopTkVG6hkLKrZYBGde4ceqZ2D5OANoZd4L7JVfCGksYfzFgfXFsQHKp4oAEHWpt39-Ki-ibswQCSGe7cQP3CvkhPGJW_wjtEF60gPt99TciWsPm-oR_Z_5cAi90Xa2Gzd2HD0YqLur8iA7922tc4zTSUQvY="
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7XFLLqCTnFlbauRW83bGhn9ZOyjVePgFkTZWA0J-enY4Nq_Lfc_KIg7dTI3Vh2yd8pZ0zcknf6jNTK0s80Am7TStloR1LG_qAsNWjrfXJ_zrxC36EHkp4e8HuQOZ5rgVZuNWnpqym5oxREAU9as06X774HnWAURW5Vk5OnPUc5cDKW50vC0uO-bM2CsdQa15ucuZQRUoUs9MOuIZ8SaeqL5anz9Ylz6bUF5ch1Omum4eIFXD99FbVBC53JinKQE45b7IfWqVT0KcJKrR9"
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJFmomDoDiw-b2tea5gZZlbTtbwtqhgpKvCeC7OQoplwxsENfpitOp7_ZhIeuAGjs-6agUM5_7alTR5S987eF_tzD5JXm3L2Av39-Q_myJtg9rTbySknfiE1JxpIProzKCIfvwJu3lj6vCnU9rX0fi-fNtM95VXSt1HqUWUWMMcp87tQTWt9VrTOrngI7oFkipaPfXRdPBkSbfUMpVCj9Y_MCv6tMLO_YBQSWD-ikKc4x_"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXwTn42sEDTBH3YGSLJ1qptWdn-aCK0wtRQGJf4-SywsxI5uw2mCF1E4YL9Wte85F9s3cbnFIowTCk5lJ9C6Qi-MkLroQ2SvpE5uilpIVzgagw-vE9dDl0dz3x-RXR5clNK9aeauz2HVuzztQN_3OROWk1q8pf3l3zYB7T1sz4TRoCM2-ffvGzvOHLpFrrEn9yEZ-r7oTmXnYIgZ87jthY6xLVwq-NL29xw=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA="
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-22",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFcGRwFnxJOMAAhjR9utwSYxbk2r5z3Twgc5-0Cyy-K--pOrjneEbk6uF4mhCUxGDNjgxZO5NHe1Y2F7PKhsPzbYjuVxsqAnq_xE18hN6jGu-MLwipfjIGF5FxiNiB24hUCegTqepinfkEA3G5O4muW6ejCGgJdEsfvm1-inR7qpZ8MqjFjhaV1tD87CMHO_U7FKD1KkUEo-bnzCgmwSH7fSGQ2GIi1BSuWS0="
+      },
+      {
+        "label": "mashable",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-23",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgd2bgH25eeS1VrgGxIS_oVA7tCHbQavlCL3vFSy8ybZI5VWkMTZxzJpFE9XozFK2UCJYFI0zbC6_1N3q3G2whE3Qqy7cA0QXmjh8Z-_NK1PZnmxBG1iqH421y2FdO5h6-Oj_9bC9S8BjatcXTr7Cv"
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCEjsjJjqmPQ7XVDBr_8c5IQ2DEMlixB43vrfYHjUc8kAK9HdZ_GbFIoKffCBy7ct98uBAbdhLVUyLXjjDmuCn6Pelp_JMtDaUKk6hahzuymz2aABuWEQ7mcmVqD9lNfXZnCLqVBFXOflMG9KxVHrSZudg7g_4gQeNjsBYM-StgbBvLJhXKOJPO8l9_pwbSYZhFvViw-aVRkPGKkkIlnEBebeFfPOE0d3kFF6DKVg="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrOOzygyo9t_bcOaFtl3R5VkZvS2iLDbGR5SS6XM7p_PWCg4AgZxVTb_0VbIKNCDxw8fktUwCAZsnSc0BiyPJ8lXiPIHMfK4mDu9DAkFX2gnVrcrcR8vLPXYg_8BUh89FWNgUQpBV340eJyNnQYKjllbSgz1JhrrejOqSJjg=="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrOOzygyo9t_bcOaFtl3R5VkZvS2iLDbGR5SS6XM7p_PWCg4AgZxVTb_0VbIKNCDxw8fktUwCAZsnSc0BiyPJ8lXiPIHMfK4mDu9DAkFX2gnVrcrcR8vLPXYg_8BUh89FWNgUQpBV340eJyNnQYKjllbSgz1JhrrejOqSJjg=="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCEjsjJjqmPQ7XVDBr_8c5IQ2DEMlixB43vrfYHjUc8kAK9HdZ_GbFIoKffCBy7ct98uBAbdhLVUyLXjjDmuCn6Pelp_JMtDaUKk6hahzuymz2aABuWEQ7mcmVqD9lNfXZnCLqVBFXOflMG9KxVHrSZudg7g_4gQeNjsBYM-StgbBvLJhXKOJPO8l9_pwbSYZhFvViw-aVRkPGKkkIlnEBebeFfPOE0d3kFF6DKVg="
+      },
+      {
+        "label": "mashable",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-23",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgd2bgH25eeS1VrgGxIS_oVA7tCHbQavlCL3vFSy8ybZI5VWkMTZxzJpFE9XozFK2UCJYFI0zbC6_1N3q3G2whE3Qqy7cA0QXmjh8Z-_NK1PZnmxBG1iqH421y2FdO5h6-Oj_9bC9S8BjatcXTr7Cv"
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ=="
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-22",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFcGRwFnxJOMAAhjR9utwSYxbk2r5z3Twgc5-0Cyy-K--pOrjneEbk6uF4mhCUxGDNjgxZO5NHe1Y2F7PKhsPzbYjuVxsqAnq_xE18hN6jGu-MLwipfjIGF5FxiNiB24hUCegTqepinfkEA3G5O4muW6ejCGgJdEsfvm1-inR7qpZ8MqjFjhaV1tD87CMHO_U7FKD1KkUEo-bnzCgmwSH7fSGQ2GIi1BSuWS0="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBWKyRqKrdSiynGDEF_MPOUjTn5JsbfjOuD60aF8uxiOt7S55rZxY2f71aa6oGo8wW8isdBUbeIJ81r97SqAjHLRG6BtmiqxaJdDfGKGTpmiisM-0dor_x9Byx9ZQIzikckDGh_7QglhNH8uExm3I-fv1kf_YblvshPwtXfZpXaS_4rHcxjHuu6w=="
+      },
+      {
+        "label": "insideevs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-24",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElscRXb1qA_NzqRtT2rZP8_tRSBzVKEcdoINoJgyuoJsmTegTIFOPxKGPHqblncpoviybiMWg8aX4XLd3MoF2FUZKgl2Ry2N0qEzuG93ZhvYIItm-xX23Yy52YeLtFVv5tJtVHLynu7dI94GS--ffe4IHlhjpjKE1JpbDWD9GIyiMZdBMFYOV0"
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7XFLLqCTnFlbauRW83bGhn9ZOyjVePgFkTZWA0J-enY4Nq_Lfc_KIg7dTI3Vh2yd8pZ0zcknf6jNTK0s80Am7TStloR1LG_qAsNWjrfXJ_zrxC36EHkp4e8HuQOZ5rgVZuNWnpqym5oxREAU9as06X774HnWAURW5Vk5OnPUc5cDKW50vC0uO-bM2CsdQa15ucuZQRUoUs9MOuIZ8SaeqL5anz9Ylz6bUF5ch1Omum4eIFXD99FbVBC53JinKQE45b7IfWqVT0KcJKrR9"
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmq8y70Hhy2mm08_Q3WoTrdu6TjlK4DbSwQL7lbwJIW2buTtWTV6GG7IIQlaV16htWA9RcbP_VikywL3LFhiqBmq2QJYqSjzjCGUstc-UZ-ELCRi0AgRnbuADNiwq7o0FolCy1TX29157RIPzJDyG8H3TGjMarY0954EfelYeG9GHuQw89rNtzl_e50SYsaQ=="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXwTn42sEDTBH3YGSLJ1qptWdn-aCK0wtRQGJf4-SywsxI5uw2mCF1E4YL9Wte85F9s3cbnFIowTCk5lJ9C6Qi-MkLroQ2SvpE5uilpIVzgagw-vE9dDl0dz3x-RXR5clNK9aeauz2HVuzztQN_3OROWk1q8pf3l3zYB7T1sz4TRoCM2-ffvGzvOHLpFrrEn9yEZ-r7oTmXnYIgZ87jthY6xLVwq-NL29xw=="
+      },
+      {
+        "label": "cleantechnica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-aWkzZNaLRwG9xZcP9-VzOkDlaoEndEtuN2p-b-12-lM-PyPn4zq2c7VL3d5nVTet6MU0tV0aOYg3HsvQ0T0qNH32my7HqUMI-D-7WfQKpYRqqGa4xpjvCBMIBDMVTpD4zBNyx5oWEagG_3r6jc4PDjUqV3pyaiRmgJpn3QjC0itGyEhZDInPGZoAeLnH9sQ7QEndJcS_wOdI4qoaQQ=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-25",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQUsKSN1OvMkaCy5KPQ19iOYfvllk9xShQ38BIjxUcbQC53anTuRIDISjvKstbdW0Hki2-k26lQy8aIxHGqJdSvqNQ5GUDT_9M_OcsnoVzUwnwmUpzRlzLkaZyKXefFG8_dbhZ5mI="
+      },
+      {
+        "label": "trefis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-26",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOQ_sk4zlJ27SJaxuDvVBSa8sWn6icm-knuhC6fFtLMMbRS4EgNbcWAX297P616rNpoij4X8Io58ICRuL9T8xlWkm8wSlm3Fa8u9qHPlirbWnp8BpR4Fn8fBvsxtqC4Nv_LLrtBNpm2OmWa9g="
+      },
+      {
+        "label": "teslamotorsclub",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-27",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWEfTQb1uCN6qIC9LLs5F1_W2Uc7TVmKZNQ_sac_KcidLrS2eTMqEWxoTIwxRysj7NhuYjdqlJFvrDD98JvDj5yz3M_N0r482xni7XN8xNDzxD1Nmagh3DarpsoOZPbjLtAdV-C0vuKo1kphwP8WvWzRKs56CcE0dP6rIBT1lBsg1X3g1BTqASY2ewI6plhUTKs3Y-aPSjjNUKvcf4SzoUzsKjcciq6w8c0QW8Xg=="
+      },
+      {
+        "label": "evbite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNG7kwk9TourD1qRfCGji4eB89xIW8Bs11EMP4UxMopDGjNB4m2TQx7tb6lRXwTDjaG-qpPWAmflmK4mDP8N_dqWLXm9cFaxXG5a6y2wElu3yyYu-_RGMxpb2oyM-oVFN2bxRVjg=="
+      },
+      {
+        "label": "cleantechnica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-aWkzZNaLRwG9xZcP9-VzOkDlaoEndEtuN2p-b-12-lM-PyPn4zq2c7VL3d5nVTet6MU0tV0aOYg3HsvQ0T0qNH32my7HqUMI-D-7WfQKpYRqqGa4xpjvCBMIBDMVTpD4zBNyx5oWEagG_3r6jc4PDjUqV3pyaiRmgJpn3QjC0itGyEhZDInPGZoAeLnH9sQ7QEndJcS_wOdI4qoaQQ=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmq8y70Hhy2mm08_Q3WoTrdu6TjlK4DbSwQL7lbwJIW2buTtWTV6GG7IIQlaV16htWA9RcbP_VikywL3LFhiqBmq2QJYqSjzjCGUstc-UZ-ELCRi0AgRnbuADNiwq7o0FolCy1TX29157RIPzJDyG8H3TGjMarY0954EfelYeG9GHuQw89rNtzl_e50SYsaQ=="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBWKyRqKrdSiynGDEF_MPOUjTn5JsbfjOuD60aF8uxiOt7S55rZxY2f71aa6oGo8wW8isdBUbeIJ81r97SqAjHLRG6BtmiqxaJdDfGKGTpmiisM-0dor_x9Byx9ZQIzikckDGh_7QglhNH8uExm3I-fv1kf_YblvshPwtXfZpXaS_4rHcxjHuu6w=="
+      },
+      {
+        "label": "insideevs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-24",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElscRXb1qA_NzqRtT2rZP8_tRSBzVKEcdoINoJgyuoJsmTegTIFOPxKGPHqblncpoviybiMWg8aX4XLd3MoF2FUZKgl2Ry2N0qEzuG93ZhvYIItm-xX23Yy52YeLtFVv5tJtVHLynu7dI94GS--ffe4IHlhjpjKE1JpbDWD9GIyiMZdBMFYOV0"
+      },
+      {
+        "label": "evbite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNG7kwk9TourD1qRfCGji4eB89xIW8Bs11EMP4UxMopDGjNB4m2TQx7tb6lRXwTDjaG-qpPWAmflmK4mDP8N_dqWLXm9cFaxXG5a6y2wElu3yyYu-_RGMxpb2oyM-oVFN2bxRVjg=="
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7XFLLqCTnFlbauRW83bGhn9ZOyjVePgFkTZWA0J-enY4Nq_Lfc_KIg7dTI3Vh2yd8pZ0zcknf6jNTK0s80Am7TStloR1LG_qAsNWjrfXJ_zrxC36EHkp4e8HuQOZ5rgVZuNWnpqym5oxREAU9as06X774HnWAURW5Vk5OnPUc5cDKW50vC0uO-bM2CsdQa15ucuZQRUoUs9MOuIZ8SaeqL5anz9Ylz6bUF5ch1Omum4eIFXD99FbVBC53JinKQE45b7IfWqVT0KcJKrR9"
+      },
+      {
+        "label": "electrek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-28",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfSrWh8kZnF2KdAapNBVEyWNXCbWJs_cDfWBkee3lxqXisOjjvGfZM1_4KlkIps6X81gt149vCbzJn2IEoMMSKIbwDC-L4wy80ko9Yqn3CmdiRLSjmvpJQXqZ66niBEXop-tGiBU3h4ugVAGfWEv22MbDVmEM="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXwTn42sEDTBH3YGSLJ1qptWdn-aCK0wtRQGJf4-SywsxI5uw2mCF1E4YL9Wte85F9s3cbnFIowTCk5lJ9C6Qi-MkLroQ2SvpE5uilpIVzgagw-vE9dDl0dz3x-RXR5clNK9aeauz2HVuzztQN_3OROWk1q8pf3l3zYB7T1sz4TRoCM2-ffvGzvOHLpFrrEn9yEZ-r7oTmXnYIgZ87jthY6xLVwq-NL29xw=="
+      },
+      {
+        "label": "evnewsdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp7tOjGhMw4t2rD_39_HHnwk95e63lgGNzf3SfXIR6iNZRGRiNv3sDMBmYc1RzUg-BnIoQEOhM87mZ52AGbDas9LnEvKaIr65Wtj0vGoc4SSuWYzu4OQ1_ug5kNDeeH6p738CczAw_esWf7j91TstG48k7Uk7ul3UoOugOO8JOcDlmrDgjaYY="
+      },
+      {
+        "label": "cleantechnica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0G21E8r-FQKJdGWpykK0gzEo5Gnc2uL9O5crMKeRME0dmc-fZPr_IHIWuA5LC7CDBhQGUW3-K_LBElxDeHlBWfUJkzDAHrmZQSoDa44GawdVXg2DhuM6BLx1sWJJy5Jo3WJ0wixFuT_D7XEdiYw6h-0z-PWrtlEWkFqOZTUaxb8SoR9m2KLZ56GgVmAgkMpeObncfXwJc7Geyj5je42hBNpb2HzNuKhlEYQDqlAm6fcm1"
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgslXplVwxpLsg86UYP8ujQw652P8ue82shueJ_gY9gWcanEuEYo8e-NQbZgUDUWMyWCtc8jHidKcrkWLVyOPDHb7Z5EclUxi_9HOFNt0UfYV2O7zaLqZVCKDV684zawRIRx0UNW3PRYen5bY_wYcitrIB936OK9ZCRTJ0-EbRcsyz1sk="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY4CKZTdVCJZC6JQp6CzBtlcUgiUEhuv1xoa7vbH7OJBGWNNmvMAe16zow-eq1olPcy77sDL1SOBltThhyuHmoE4CPkClFFekgeNZRp7sqras6rEEBPzVqTxXRDFIDOcyeNy68ZSxzv2uhd1GkV14TBJUgyzrnCm7Hb_sBZQKmCN0LFhnb7Qi1zA=="
+      },
+      {
+        "label": "fool",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi7WmZaGPRGyx7uiY2dlRVooW884625D6wcUVEJvc5GtgK9UGIMTWMrm8jK4XoGSn3ObAM8EKevnrWQzrkJnPmOxAScSOBVLNiNdHOJeKzzEGGnI4exeUqTd4DsaMNoOhE5c9Q_fr8B91GJKYvej_FhSJR_Xobwcjvt3DqU5naJ9ZlxD3yFwy_uely2-MLTx1LxLXVQCUny397xw=="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8mzk7TqeZZ0_KhWk3RcH6DkyCCORKS7YnQp9E7M_SnA08n3xU3_uBQgYmPfoXg14pra4z6d-9FD_60RUFt2fLF8oWUtWPv_XTdDV6rkG5KUUw7X0sdBaH1HV5Wi0YCiFfqRaJgCfHL2Yp6AvukdnAqxy80UwH8XbVW5N8J61UTw7DDtuHr8T0DPgo3vXdV8CiVThfZfRcgvisLucjylv1wo36JBPFHypdmf5q0rRyfcQh3Ft7zKaLcRLPxYiCNhpQ17HivGI="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgslXplVwxpLsg86UYP8ujQw652P8ue82shueJ_gY9gWcanEuEYo8e-NQbZgUDUWMyWCtc8jHidKcrkWLVyOPDHb7Z5EclUxi_9HOFNt0UfYV2O7zaLqZVCKDV684zawRIRx0UNW3PRYen5bY_wYcitrIB936OK9ZCRTJ0-EbRcsyz1sk="
+      },
+      {
+        "label": "evnewsdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp7tOjGhMw4t2rD_39_HHnwk95e63lgGNzf3SfXIR6iNZRGRiNv3sDMBmYc1RzUg-BnIoQEOhM87mZ52AGbDas9LnEvKaIr65Wtj0vGoc4SSuWYzu4OQ1_ug5kNDeeH6p738CczAw_esWf7j91TstG48k7Uk7ul3UoOugOO8JOcDlmrDgjaYY="
+      },
+      {
+        "label": "fool",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi7WmZaGPRGyx7uiY2dlRVooW884625D6wcUVEJvc5GtgK9UGIMTWMrm8jK4XoGSn3ObAM8EKevnrWQzrkJnPmOxAScSOBVLNiNdHOJeKzzEGGnI4exeUqTd4DsaMNoOhE5c9Q_fr8B91GJKYvej_FhSJR_Xobwcjvt3DqU5naJ9ZlxD3yFwy_uely2-MLTx1LxLXVQCUny397xw=="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8mzk7TqeZZ0_KhWk3RcH6DkyCCORKS7YnQp9E7M_SnA08n3xU3_uBQgYmPfoXg14pra4z6d-9FD_60RUFt2fLF8oWUtWPv_XTdDV6rkG5KUUw7X0sdBaH1HV5Wi0YCiFfqRaJgCfHL2Yp6AvukdnAqxy80UwH8XbVW5N8J61UTw7DDtuHr8T0DPgo3vXdV8CiVThfZfRcgvisLucjylv1wo36JBPFHypdmf5q0rRyfcQh3Ft7zKaLcRLPxYiCNhpQ17HivGI="
+      },
+      {
+        "label": "benzinga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7XFLLqCTnFlbauRW83bGhn9ZOyjVePgFkTZWA0J-enY4Nq_Lfc_KIg7dTI3Vh2yd8pZ0zcknf6jNTK0s80Am7TStloR1LG_qAsNWjrfXJ_zrxC36EHkp4e8HuQOZ5rgVZuNWnpqym5oxREAU9as06X774HnWAURW5Vk5OnPUc5cDKW50vC0uO-bM2CsdQa15ucuZQRUoUs9MOuIZ8SaeqL5anz9Ylz6bUF5ch1Omum4eIFXD99FbVBC53JinKQE45b7IfWqVT0KcJKrR9"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTXwTn42sEDTBH3YGSLJ1qptWdn-aCK0wtRQGJf4-SywsxI5uw2mCF1E4YL9Wte85F9s3cbnFIowTCk5lJ9C6Qi-MkLroQ2SvpE5uilpIVzgagw-vE9dDl0dz3x-RXR5clNK9aeauz2HVuzztQN_3OROWk1q8pf3l3zYB7T1sz4TRoCM2-ffvGzvOHLpFrrEn9yEZ-r7oTmXnYIgZ87jthY6xLVwq-NL29xw=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFA_S-uF9h7VelnNkQe-OX09hzZfmbkxKmpA8yIYA5a-urNTfhV-1MbtuKuDp-AOxkDNX2amMzrsqqW5NPZ7mWI-ZmAfHhbjScxHAenxGfeHK_gC_c4XhYf0EL-CG-MTeSH2cSvpYcpY5vDz45td7k93qUzBNWZNvc401YF7CHkD8TO3hb3ZX4"
+      },
+      {
+        "label": "spglobal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-20",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHXPGuT42JJYFyEykr4JLN15_aFE1_BVuuwmgG8OFvMsTS2Ie9pbmkzoIi7qJfumMMiMkfJb-mJOhu1ObtNaeyVKnen-QR9FyRzTaHCPHQqKEnAWk1DR1daazV8Q2T21WYStKMu1ThEG9l4odD_TqQ3ARBWt42K_MKWC-GTWyVjwlUoUZXmdn41cYn3kxHOdOE6nd5bEcyIQXBs6X9-QeA6wJsk85DokXdxKV6IpzCrxXj_W5kTrmJ9qpGYczgJHZ06cCfxKytjQpT8mO2ZQnvG2_SvDcMpX8M"
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnN4cC8xY1uxaUd5eoCT2h0cKqgPNgACVLaZuA7I5JpVdbcLXuefZulZtNKwNCP7wFOfQXX0achE-NLMio3XRyCtzLuPB-zB2_oMG6Ki56DqxOb02z7jOsn5Zb9Rs8FXPgJx0IW2COBNJlhvBRYalAahpEjDu1oxH74hMwBrEMqfnejTOIDTTiw=="
+      },
+      {
+        "label": "cnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0gEua1PA97NuW-3gToRjGSl3Pc9G_odHjRTBCGUoEsDupe134ljq5s8JSvndjDhb8PRUdqZOmyHEPGGiGtvtZ1vD_j4tlbAa3Ed2GWOgkwaXuk0o-SwIblMYKyn-pUF_7yySRRobL8KW09IkqFDgBGCgtGavBJx9apHd_pawQeQWgrQDZ"
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-21",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcnrnpVnX5pcgJae5oNGAsxCut4JgDmiFFl2QD-xjhX_KDsBPuYLlJRwAoEghTKN-MsJdLv5Jwz51ZopTkVG6hkLKrZYBGde4ceqZ2D5OANoZd4L7JVfCGksYfzFgfXFsQHKp4oAEHWpt39-Ki-ibswQCSGe7cQP3CvkhPGJW_wjtEF60gPt99TciWsPm-oR_Z_5cAi90Xa2Gzd2HD0YqLur8iA7922tc4zTSUQvY="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFA_S-uF9h7VelnNkQe-OX09hzZfmbkxKmpA8yIYA5a-urNTfhV-1MbtuKuDp-AOxkDNX2amMzrsqqW5NPZ7mWI-ZmAfHhbjScxHAenxGfeHK_gC_c4XhYf0EL-CG-MTeSH2cSvpYcpY5vDz45td7k93qUzBNWZNvc401YF7CHkD8TO3hb3ZX4"
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnN4cC8xY1uxaUd5eoCT2h0cKqgPNgACVLaZuA7I5JpVdbcLXuefZulZtNKwNCP7wFOfQXX0achE-NLMio3XRyCtzLuPB-zB2_oMG6Ki56DqxOb02z7jOsn5Zb9Rs8FXPgJx0IW2COBNJlhvBRYalAahpEjDu1oxH74hMwBrEMqfnejTOIDTTiw=="
+      },
+      {
+        "label": "cnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0gEua1PA97NuW-3gToRjGSl3Pc9G_odHjRTBCGUoEsDupe134ljq5s8JSvndjDhb8PRUdqZOmyHEPGGiGtvtZ1vD_j4tlbAa3Ed2GWOgkwaXuk0o-SwIblMYKyn-pUF_7yySRRobL8KW09IkqFDgBGCgtGavBJx9apHd_pawQeQWgrQDZ"
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-21",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcnrnpVnX5pcgJae5oNGAsxCut4JgDmiFFl2QD-xjhX_KDsBPuYLlJRwAoEghTKN-MsJdLv5Jwz51ZopTkVG6hkLKrZYBGde4ceqZ2D5OANoZd4L7JVfCGksYfzFgfXFsQHKp4oAEHWpt39-Ki-ibswQCSGe7cQP3CvkhPGJW_wjtEF60gPt99TciWsPm-oR_Z_5cAi90Xa2Gzd2HD0YqLur8iA7922tc4zTSUQvY="
+      },
+      {
+        "label": "spglobal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-20",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHXPGuT42JJYFyEykr4JLN15_aFE1_BVuuwmgG8OFvMsTS2Ie9pbmkzoIi7qJfumMMiMkfJb-mJOhu1ObtNaeyVKnen-QR9FyRzTaHCPHQqKEnAWk1DR1daazV8Q2T21WYStKMu1ThEG9l4odD_TqQ3ARBWt42K_MKWC-GTWyVjwlUoUZXmdn41cYn3kxHOdOE6nd5bEcyIQXBs6X9-QeA6wJsk85DokXdxKV6IpzCrxXj_W5kTrmJ9qpGYczgJHZ06cCfxKytjQpT8mO2ZQnvG2_SvDcMpX8M"
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFA_S-uF9h7VelnNkQe-OX09hzZfmbkxKmpA8yIYA5a-urNTfhV-1MbtuKuDp-AOxkDNX2amMzrsqqW5NPZ7mWI-ZmAfHhbjScxHAenxGfeHK_gC_c4XhYf0EL-CG-MTeSH2cSvpYcpY5vDz45td7k93qUzBNWZNvc401YF7CHkD8TO3hb3ZX4"
+      },
+      {
+        "label": "spglobal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-20",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHXPGuT42JJYFyEykr4JLN15_aFE1_BVuuwmgG8OFvMsTS2Ie9pbmkzoIi7qJfumMMiMkfJb-mJOhu1ObtNaeyVKnen-QR9FyRzTaHCPHQqKEnAWk1DR1daazV8Q2T21WYStKMu1ThEG9l4odD_TqQ3ARBWt42K_MKWC-GTWyVjwlUoUZXmdn41cYn3kxHOdOE6nd5bEcyIQXBs6X9-QeA6wJsk85DokXdxKV6IpzCrxXj_W5kTrmJ9qpGYczgJHZ06cCfxKytjQpT8mO2ZQnvG2_SvDcMpX8M"
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnN4cC8xY1uxaUd5eoCT2h0cKqgPNgACVLaZuA7I5JpVdbcLXuefZulZtNKwNCP7wFOfQXX0achE-NLMio3XRyCtzLuPB-zB2_oMG6Ki56DqxOb02z7jOsn5Zb9Rs8FXPgJx0IW2COBNJlhvBRYalAahpEjDu1oxH74hMwBrEMqfnejTOIDTTiw=="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-21",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcnrnpVnX5pcgJae5oNGAsxCut4JgDmiFFl2QD-xjhX_KDsBPuYLlJRwAoEghTKN-MsJdLv5Jwz51ZopTkVG6hkLKrZYBGde4ceqZ2D5OANoZd4L7JVfCGksYfzFgfXFsQHKp4oAEHWpt39-Ki-ibswQCSGe7cQP3CvkhPGJW_wjtEF60gPt99TciWsPm-oR_Z_5cAi90Xa2Gzd2HD0YqLur8iA7922tc4zTSUQvY="
+      },
+      {
+        "label": "cnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0gEua1PA97NuW-3gToRjGSl3Pc9G_odHjRTBCGUoEsDupe134ljq5s8JSvndjDhb8PRUdqZOmyHEPGGiGtvtZ1vD_j4tlbAa3Ed2GWOgkwaXuk0o-SwIblMYKyn-pUF_7yySRRobL8KW09IkqFDgBGCgtGavBJx9apHd_pawQeQWgrQDZ"
+      },
+      {
+        "label": "cleantechnica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-29",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQbKOSs1POGDtx-f0Uqso4oUlxrhanPbxePI-9OvjAngC1mzgwtC5W0cUbk1CwFr03aUXe_aYYiC5xx1W588RrHBdFwuP0-RYHHq6SjwuRMScmj_qceZWcjgIwrS1eBJKx66lGi7TIXcfkDb1JukEbOPwpBoyz9B1Lfu2tHVguLUAV9ofkvrCjWX04OsgzL3kHmxNqr6P_-mjEz6gxEM_cgRUdbRA="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrOOzygyo9t_bcOaFtl3R5VkZvS2iLDbGR5SS6XM7p_PWCg4AgZxVTb_0VbIKNCDxw8fktUwCAZsnSc0BiyPJ8lXiPIHMfK4mDu9DAkFX2gnVrcrcR8vLPXYg_8BUh89FWNgUQpBV340eJyNnQYKjllbSgz1JhrrejOqSJjg=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-30",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJKA6pbtE81RglZCp40p1F9i7U0c-GJDrev4LF27Nu45tP36x2YxpBjndiXRdyq7-ahVQ6NOifi8bYeK9abQ0iPnmwnm93C155ZJGRDBKCuXaIth3bFxitcFvkwajQZSc9-cl4roQm73Nfav-HgY-uUjjRWoqgbLDlrpa7iJ8="
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-31",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY_2SdRrd_LJ_LAcyFwPVGwfyeiDwnEVWv0Q6SVr163TaPJLPxgJN5ahPmgDfFye_GDFn3YFpIrLxdjiiJlbkkqSKlaoyQIAEULa1wLF5xPswX9pxDGDxOzFH7sF2xbKSDOOxXyuWADey2S8uaelbmI7-zXo0rvawgsqg="
+      },
+      {
+        "label": "insideevs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-24",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElscRXb1qA_NzqRtT2rZP8_tRSBzVKEcdoINoJgyuoJsmTegTIFOPxKGPHqblncpoviybiMWg8aX4XLd3MoF2FUZKgl2Ry2N0qEzuG93ZhvYIItm-xX23Yy52YeLtFVv5tJtVHLynu7dI94GS--ffe4IHlhjpjKE1JpbDWD9GIyiMZdBMFYOV0"
+      },
+      {
+        "label": "cleantechnica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-aWkzZNaLRwG9xZcP9-VzOkDlaoEndEtuN2p-b-12-lM-PyPn4zq2c7VL3d5nVTet6MU0tV0aOYg3HsvQ0T0qNH32my7HqUMI-D-7WfQKpYRqqGa4xpjvCBMIBDMVTpD4zBNyx5oWEagG_3r6jc4PDjUqV3pyaiRmgJpn3QjC0itGyEhZDInPGZoAeLnH9sQ7QEndJcS_wOdI4qoaQQ=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-30",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJKA6pbtE81RglZCp40p1F9i7U0c-GJDrev4LF27Nu45tP36x2YxpBjndiXRdyq7-ahVQ6NOifi8bYeK9abQ0iPnmwnm93C155ZJGRDBKCuXaIth3bFxitcFvkwajQZSc9-cl4roQm73Nfav-HgY-uUjjRWoqgbLDlrpa7iJ8="
+      },
+      {
+        "label": "statmuse",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-32",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIxYGyW2HdqDYLW4r2BT4F2411OGZtWxIoZIeV6onbCd9svZDPzTrbrAkNBsYnwsTLlzpLayx2WBLA3MXfz0lEGhhCJgaaJbELlTIojBQpdwrKnZ70Nw1Kc7VDh7F7Aus-1ksPekqSgB58WCXksYWZjuaBXtXZmA=="
+      },
+      {
+        "label": "cnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0gEua1PA97NuW-3gToRjGSl3Pc9G_odHjRTBCGUoEsDupe134ljq5s8JSvndjDhb8PRUdqZOmyHEPGGiGtvtZ1vD_j4tlbAa3Ed2GWOgkwaXuk0o-SwIblMYKyn-pUF_7yySRRobL8KW09IkqFDgBGCgtGavBJx9apHd_pawQeQWgrQDZ"
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-31",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY_2SdRrd_LJ_LAcyFwPVGwfyeiDwnEVWv0Q6SVr163TaPJLPxgJN5ahPmgDfFye_GDFn3YFpIrLxdjiiJlbkkqSKlaoyQIAEULa1wLF5xPswX9pxDGDxOzFH7sF2xbKSDOOxXyuWADey2S8uaelbmI7-zXo0rvawgsqg="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ=="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBWKyRqKrdSiynGDEF_MPOUjTn5JsbfjOuD60aF8uxiOt7S55rZxY2f71aa6oGo8wW8isdBUbeIJ81r97SqAjHLRG6BtmiqxaJdDfGKGTpmiisM-0dor_x9Byx9ZQIzikckDGh_7QglhNH8uExm3I-fv1kf_YblvshPwtXfZpXaS_4rHcxjHuu6w=="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVnN4cC8xY1uxaUd5eoCT2h0cKqgPNgACVLaZuA7I5JpVdbcLXuefZulZtNKwNCP7wFOfQXX0achE-NLMio3XRyCtzLuPB-zB2_oMG6Ki56DqxOb02z7jOsn5Zb9Rs8FXPgJx0IW2COBNJlhvBRYalAahpEjDu1oxH74hMwBrEMqfnejTOIDTTiw=="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY4CKZTdVCJZC6JQp6CzBtlcUgiUEhuv1xoa7vbH7OJBGWNNmvMAe16zow-eq1olPcy77sDL1SOBltThhyuHmoE4CPkClFFekgeNZRp7sqras6rEEBPzVqTxXRDFIDOcyeNy68ZSxzv2uhd1GkV14TBJUgyzrnCm7Hb_sBZQKmCN0LFhnb7Qi1zA=="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8mzk7TqeZZ0_KhWk3RcH6DkyCCORKS7YnQp9E7M_SnA08n3xU3_uBQgYmPfoXg14pra4z6d-9FD_60RUFt2fLF8oWUtWPv_XTdDV6rkG5KUUw7X0sdBaH1HV5Wi0YCiFfqRaJgCfHL2Yp6AvukdnAqxy80UwH8XbVW5N8J61UTw7DDtuHr8T0DPgo3vXdV8CiVThfZfRcgvisLucjylv1wo36JBPFHypdmf5q0rRyfcQh3Ft7zKaLcRLPxYiCNhpQ17HivGI="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-21",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcnrnpVnX5pcgJae5oNGAsxCut4JgDmiFFl2QD-xjhX_KDsBPuYLlJRwAoEghTKN-MsJdLv5Jwz51ZopTkVG6hkLKrZYBGde4ceqZ2D5OANoZd4L7JVfCGksYfzFgfXFsQHKp4oAEHWpt39-Ki-ibswQCSGe7cQP3CvkhPGJW_wjtEF60gPt99TciWsPm-oR_Z_5cAi90Xa2Gzd2HD0YqLur8iA7922tc4zTSUQvY="
+      },
+      {
+        "label": "statmuse",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm6sdOuE8UtOT7zXcBokb5yLUNKHd5FuDKi7adpZ1MG-eNjGfMpz8nvmbEhIImEoC2KDWxp_yiK58wM5D7DAffsrMiSunkPw2SYNbmBG9AInFqHI4460w8va5A21bauRyXWE-sg3QU8lwZWv4iFccNa0qoO2jgq48="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFbRCFW4PXGzVACeRRabx6pR2iFdl5ghgeH1zwISsW1scWD7rpukQ6ZpcBya9gPRHhik9wHWO-mLjTMkyt3o0XA6sCZ_e-eJb8Uz1ZhBpghU0NBEgqQuAbw9BNyutuVZi9RbnSODjHsXX_woIZPq1MImU8HrehMitoIowWKxowyxYONg=="
+      },
+      {
+        "label": "dfcfw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyjQHLPvG_xPA89ntHhj3v78zZ-701jw1BU3DrEuxNxvZqBQqdM_oiAoGrr90tEEHI1aGQRWLloMvReeRtFGDvK9H-wj_ybX8urY28-hs52U-mqi-B0euqdsIKbuGBjWFHAxVZradKxMyoDSXzPGLuew=="
+      },
+      {
+        "label": "financecharts",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqylRxWUEY0Esg94yGTt9lnF92KkYja6Gl3m1oqWubKIDHpeQngHvuwWkbznQgeYFA52KIymFpxWxzz9XUMg_fwwbH8DqTEW5PIOd4VCeYmudYjnBIvL5KrS0Bxd9PYet5MfEPeML8P76BDs0LTugwIPc="
+      },
+      {
+        "label": "statmuse",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnCWIqZ7JISTRiTTS_vflsKSW89tuwNfcpFvwApaIcx6pfettdqKtpOj4mmPU_vfIkYlxFdn7lXVhJ9y07_pEbUGfzNr1RssReRcu1Vf0Q60KuIvlNTGrelq8FnioNeBDzH9VtICAkBtMkaNXfpQ9D8TJ7TRyQuw=="
+      },
+      {
+        "label": "tradingeconomics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFu4seyRh1QmPgXWbOGrXsj4FPz0GyYpMMQTPrHaNDghj46TnsY1KYohGHz99WsCb4JKRYjhyto28Q57YWJmo8F_lZGz3XJevY9ZP0NTbJM6wn_9ltHfLJxwRVU6N9Ig=="
+      },
+      {
+        "label": "businessweekly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlC8vi7hc4O7FEOP3xbgTyoM3cWt9T_X2j7AMz5vZ1EgTjVP0T4xcIDAHi1j3KcOCKipZGnmEpLApapg--NtxJhP8HMOa42avhVObWQsdQj2wsbkCaQd_b9YHdOwLKlUPWuD90SWtaDgzCuyljWReiKKPzFO8dpVYuTpK4piq2tO6cSA=="
+      },
+      {
+        "label": "coolest-gadgets",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzcJNrZZfZfAEyafXsN7vfbGlBYA_lbh3nFZIqlxAL8mg5cwFoGRR5lI5ozvUbm6OH78OO_Yvlc6Sl2q7eDoigDF25S4DKhbnAl5RDWI1Zvtht3Wi5lWWI_QUbcHvCoYchyMh7gFiGMzy4_EMjK82vi88ls3BRDKSn54O1Uy_pfQXJp2xpY7PSw00dSfYruQ=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejMQLDOM3eS1_WU1owMTZBGMJe0wkOW9Fk954gHHj5LUb1mm_vceK3ctz63C_7i8oxo4EzSiwhbURG80FZd9GY9GFMlCf8oYYVxGehsai29JOsFhljmEWuos3TW5dHDqNJrd84r_nep_rGrciOCS_ncZZzhmwweWUuzA="
+      },
+      {
+        "label": "globenewswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCEjsjJjqmPQ7XVDBr_8c5IQ2DEMlixB43vrfYHjUc8kAK9HdZ_GbFIoKffCBy7ct98uBAbdhLVUyLXjjDmuCn6Pelp_JMtDaUKk6hahzuymz2aABuWEQ7mcmVqD9lNfXZnCLqVBFXOflMG9KxVHrSZudg7g_4gQeNjsBYM-StgbBvLJhXKOJPO8l9_pwbSYZhFvViw-aVRkPGKkkIlnEBebeFfPOE0d3kFF6DKVg="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD4ntsILA5yPxCgR06zo2wsHJVhVZM6G-QNOii77-z4qJJhTq-96JK5UkiFfNCO5veCWwyLjtIDiH8yYuJlQxU6pNcH7cfCGGMDg8BHLcU-4OGlGZ_DDrqQY6c5td4Y7wmymkH7sPnLYQPj0fQ0etgff2AMxXeqDMSbqpS2xlK-KYPqlTUSiAAuQ=="
+      },
+      {
+        "label": "teslarati",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrOOzygyo9t_bcOaFtl3R5VkZvS2iLDbGR5SS6XM7p_PWCg4AgZxVTb_0VbIKNCDxw8fktUwCAZsnSc0BiyPJ8lXiPIHMfK4mDu9DAkFX2gnVrcrcR8vLPXYg_8BUh89FWNgUQpBV340eJyNnQYKjllbSgz1JhrrejOqSJjg=="
+      },
+      {
+        "label": "tesla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBWKyRqKrdSiynGDEF_MPOUjTn5JsbfjOuD60aF8uxiOt7S55rZxY2f71aa6oGo8wW8isdBUbeIJ81r97SqAjHLRG6BtmiqxaJdDfGKGTpmiisM-0dor_x9Byx9ZQIzikckDGh_7QglhNH8uExm3I-fv1kf_YblvshPwtXfZpXaS_4rHcxjHuu6w=="
+      },
+      {
+        "label": "cleantechnica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-aWkzZNaLRwG9xZcP9-VzOkDlaoEndEtuN2p-b-12-lM-PyPn4zq2c7VL3d5nVTet6MU0tV0aOYg3HsvQ0T0qNH32my7HqUMI-D-7WfQKpYRqqGa4xpjvCBMIBDMVTpD4zBNyx5oWEagG_3r6jc4PDjUqV3pyaiRmgJpn3QjC0itGyEhZDInPGZoAeLnH9sQ7QEndJcS_wOdI4qoaQQ=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}
