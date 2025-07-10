@@ -10,6 +10,7 @@ from langchain_core.runnables import RunnableConfig
 from google.genai import Client
 import json
 import time
+from .tools_and_schemas import vllm_structured_output
 
 from agent.state import (
     OverallState,
@@ -63,15 +64,6 @@ def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerati
     if state.get("initial_search_query_count") is None:
         state["initial_search_query_count"] = configurable.number_of_initial_queries
 
-    # init Gemini 2.0 Flash
-    llm = ChatGoogleGenerativeAI(
-        model=configurable.query_generator_model,
-        temperature=1.0,
-        max_retries=2,
-        api_key=os.getenv("GEMINI_API_KEY"),
-    )
-    structured_llm = llm.with_structured_output(SearchQueryList, include_raw=True)
-
     # Format the prompt
     current_date = get_current_date()
     formatted_prompt = query_writer_instructions.format(
@@ -79,9 +71,29 @@ def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerati
         research_topic=get_research_topic(state["messages"]),
         number_queries=state["initial_search_query_count"],
     )
-    # Generate the search queries
-    result = structured_llm.invoke(formatted_prompt)
-    usage = result["raw"].usage_metadata
+
+    # using gemini
+    # init Gemini 2.0 Flash
+    # llm = ChatGoogleGenerativeAI(
+    #     model=configurable.query_generator_model,
+    #     temperature=1.0,
+    #     max_retries=2,
+    #     api_key=os.getenv("GEMINI_API_KEY"),
+    # )
+    # structured_llm = llm.with_structured_output(SearchQueryList, include_raw=True)
+
+    # # Generate the search queries
+    # result = structured_llm.invoke(formatted_prompt)
+    # usage = result["raw"].usage_metadata
+    # usage["state"] = "generate_query"
+    # usage["timestamp"] = time.time()
+    # with open("usage.json", "a", encoding="utf-8") as f:
+    #     json.dump(usage, f, ensure_ascii=False)
+    #     f.write(',\n')
+
+    # using local deployment of qwen3-8b
+    result = vllm_structured_output(formatted_prompt, SearchQueryList)
+    usage = result["usage"]
     usage["state"] = "generate_query"
     usage["timestamp"] = time.time()
     with open("usage.json", "a", encoding="utf-8") as f:

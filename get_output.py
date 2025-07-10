@@ -32,7 +32,7 @@ with open(csv_file, 'r', encoding='utf-8') as file:
 #             "max_research_loops": 3,
 #             "initial_search_query_count": 3
 #         })
-for question_id, question in questions[76:]:
+for question_id, question in questions[0:1]:
     print("question_id: ", question_id, "start")
     state = graph.invoke({
                 "messages": [{"role": "user", "content": question}],
