@@ -16,7 +16,7 @@ from langchain_core.messages import BaseMessage
 import json
 
 csv_file = "questions_set.csv"  
-results_path = "origin_output/"
+results_path = "dpsk_output/"
 
 # Read questions
 questions = []
@@ -32,7 +32,7 @@ with open(csv_file, 'r', encoding='utf-8') as file:
 #             "max_research_loops": 3,
 #             "initial_search_query_count": 3
 #         })
-for question_id, question in questions[0:1]:
+for question_id, question in questions[0:5]:
     print("question_id: ", question_id, "start")
     state = graph.invoke({
                 "messages": [{"role": "user", "content": question}],

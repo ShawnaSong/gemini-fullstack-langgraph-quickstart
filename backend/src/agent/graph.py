@@ -10,7 +10,7 @@ from langchain_core.runnables import RunnableConfig
 from google.genai import Client
 import json
 import time
-from .tools_and_schemas import vllm_structured_output
+from .tools_and_schemas import client_structured_output, reasoning_structured_output
 
 from agent.state import (
     OverallState,
@@ -42,7 +42,6 @@ if os.getenv("GEMINI_API_KEY") is None:
 
 # Used for Google Search API
 genai_client = Client(api_key=os.getenv("GEMINI_API_KEY"))
-
 
 # Nodes
 def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerationState:
@@ -90,9 +89,10 @@ def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerati
     # with open("usage.json", "a", encoding="utf-8") as f:
     #     json.dump(usage, f, ensure_ascii=False)
     #     f.write(',\n')
+    # return {"query_list": result["parsed"].query}
 
     # using local deployment of qwen3-8b
-    result = vllm_structured_output(formatted_prompt, SearchQueryList)
+    result = client_structured_output(formatted_prompt, SearchQueryList)
     usage = result["usage"]
     usage["state"] = "generate_query"
     usage["timestamp"] = time.time()
@@ -199,15 +199,23 @@ def reflection(state: OverallState, config: RunnableConfig) -> ReflectionState:
         summaries="\n\n---\n\n".join(state["web_research_result"]),
     )
     # init Reasoning Model
-    llm = ChatGoogleGenerativeAI(
-        model=reasoning_model,
-        temperature=1.0,
-        max_retries=2,
-        api_key=os.getenv("GEMINI_API_KEY"),
-    )
-    result = llm.with_structured_output(Reflection, include_raw=True).invoke(formatted_prompt)
+    # llm = ChatGoogleGenerativeAI(
+    #     model=reasoning_model,
+    #     temperature=1.0,
+    #     max_retries=2,
+    #     api_key=os.getenv("GEMINI_API_KEY"),
+    # )
+    # result = llm.with_structured_output(Reflection, include_raw=True).invoke(formatted_prompt)
 
-    usage = result["raw"].usage_metadata
+    # usage = result["raw"].usage_metadata
+    # usage["state"] = "reflection"
+    # usage["timestamp"] = time.time()
+    # with open("usage.json", "a", encoding="utf-8") as f:
+    #     json.dump(usage, f, ensure_ascii=False)
+    #     f.write(',\n')
+
+    result = reasoning_structured_output(formatted_prompt, Reflection)
+    usage = result["usage"]
     usage["state"] = "reflection"
     usage["timestamp"] = time.time()
     with open("usage.json", "a", encoding="utf-8") as f:
@@ -292,25 +300,35 @@ def finalize_answer(state: OverallState, config: RunnableConfig):
     )
 
     # init Reasoning Model, default to Gemini 2.5 Flash
-    llm = ChatGoogleGenerativeAI(
-        model=reasoning_model,
-        temperature=0,
-        max_retries=2,
-        api_key=os.getenv("GEMINI_API_KEY"),
-    )
-    result = llm.invoke(formatted_prompt)
-    usage = result.usage_metadata
-    usage["state"] = "finalize_answer"
+    # llm = ChatGoogleGenerativeAI(
+    #     model=reasoning_model,
+    #     temperature=0,
+    #     max_retries=2,
+    #     api_key=os.getenv("GEMINI_API_KEY"),
+    # )
+    # result = llm.invoke(formatted_prompt)
+    # usage = result.usage_metadata
+    # usage["state"] = "finalize_answer"
+    # usage["timestamp"] = time.time()
+    # with open("usage.json", "a", encoding="utf-8") as f:
+    #     json.dump(usage, f, ensure_ascii=False)
+    #     f.write(',\n')
+
+    output = reasoning_structured_output(formatted_prompt)
+    usage = output["usage"]
+    usage["state"] = "reflection"
     usage["timestamp"] = time.time()
     with open("usage.json", "a", encoding="utf-8") as f:
         json.dump(usage, f, ensure_ascii=False)
         f.write(',\n')
 
+    result = output["parsed"]
+    print(result)
     # Replace the short urls with the original urls and add all used urls to the sources_gathered
     unique_sources = []
     for source in state["sources_gathered"]:
-        if source["short_url"] in result.content:
-            result.content = result.content.replace(
+        if source["short_url"] in result:
+            result = result.replace(
                 source["short_url"], source["value"]
             )
             unique_sources.append(source)
