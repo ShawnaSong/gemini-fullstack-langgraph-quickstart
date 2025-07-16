@@ -12,6 +12,8 @@ import json
 import time
 from .tools_and_schemas import client_structured_output, reasoning_structured_output
 
+usage_file = "new_usage.json"
+
 from agent.state import (
     OverallState,
     QueryGenerationState,
@@ -73,33 +75,35 @@ def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerati
 
     # using gemini
     # init Gemini 2.0 Flash
-    # llm = ChatGoogleGenerativeAI(
-    #     model=configurable.query_generator_model,
-    #     temperature=1.0,
-    #     max_retries=2,
-    #     api_key=os.getenv("GEMINI_API_KEY"),
-    # )
-    # structured_llm = llm.with_structured_output(SearchQueryList, include_raw=True)
+    llm = ChatGoogleGenerativeAI(
+        model=configurable.query_generator_model,
+        temperature=1.0,
+        max_retries=2,
+        api_key=os.getenv("GEMINI_API_KEY"),
+    )
+    structured_llm = llm.with_structured_output(SearchQueryList, include_raw=True)
 
-    # # Generate the search queries
-    # result = structured_llm.invoke(formatted_prompt)
-    # usage = result["raw"].usage_metadata
-    # usage["state"] = "generate_query"
-    # usage["timestamp"] = time.time()
-    # with open("usage.json", "a", encoding="utf-8") as f:
-    #     json.dump(usage, f, ensure_ascii=False)
-    #     f.write(',\n')
-    # return {"query_list": result["parsed"].query}
-
-    # using local deployment of qwen3-8b
-    result = client_structured_output(formatted_prompt, SearchQueryList)
-    usage = result["usage"]
+    # Generate the search queries
+    result = structured_llm.invoke(formatted_prompt)
+    usage = result["raw"].usage_metadata
     usage["state"] = "generate_query"
     usage["timestamp"] = time.time()
-    with open("usage.json", "a", encoding="utf-8") as f:
+    usage["prompt"] = formatted_prompt
+    # usage["output"] = result["parsed"]
+    with open(usage_file, "a", encoding="utf-8") as f:
         json.dump(usage, f, ensure_ascii=False)
         f.write(',\n')
     return {"query_list": result["parsed"].query}
+
+    # using local deployment of qwen3-8b
+    # result = client_structured_output(formatted_prompt, SearchQueryList)
+    # usage = result["usage"]
+    # usage["state"] = "generate_query"
+    # usage["timestamp"] = time.time()
+    # with open(usage_file, "a", encoding="utf-8") as f:
+    #     json.dump(usage, f, ensure_ascii=False)
+    #     f.write(',\n')
+    # return {"query_list": result["parsed"].query}
 
 
 def continue_to_web_research(state: QueryGenerationState):
@@ -144,7 +148,10 @@ def web_research(state: WebSearchState, config: RunnableConfig) -> OverallState:
     usage = response.usage_metadata
     usage = convert_token_format(usage)
     usage["timestamp"] = time.time()
-    with open("usage.json", "a", encoding="utf-8") as f:
+    usage["state"] = "web_research"
+    usage["prompt"] = formatted_prompt
+    usage["output"] = response.text
+    with open(usage_file, "a", encoding="utf-8") as f:
         json.dump(usage, f, ensure_ascii=False)
         f.write(',\n')
 
@@ -199,28 +206,30 @@ def reflection(state: OverallState, config: RunnableConfig) -> ReflectionState:
         summaries="\n\n---\n\n".join(state["web_research_result"]),
     )
     # init Reasoning Model
-    # llm = ChatGoogleGenerativeAI(
-    #     model=reasoning_model,
-    #     temperature=1.0,
-    #     max_retries=2,
-    #     api_key=os.getenv("GEMINI_API_KEY"),
-    # )
-    # result = llm.with_structured_output(Reflection, include_raw=True).invoke(formatted_prompt)
+    llm = ChatGoogleGenerativeAI(
+        model=reasoning_model,
+        temperature=1.0,
+        max_retries=2,
+        api_key=os.getenv("GEMINI_API_KEY"),
+    )
+    result = llm.with_structured_output(Reflection, include_raw=True).invoke(formatted_prompt)
 
-    # usage = result["raw"].usage_metadata
-    # usage["state"] = "reflection"
-    # usage["timestamp"] = time.time()
-    # with open("usage.json", "a", encoding="utf-8") as f:
-    #     json.dump(usage, f, ensure_ascii=False)
-    #     f.write(',\n')
-
-    result = reasoning_structured_output(formatted_prompt, Reflection)
-    usage = result["usage"]
+    usage = result["raw"].usage_metadata
     usage["state"] = "reflection"
     usage["timestamp"] = time.time()
-    with open("usage.json", "a", encoding="utf-8") as f:
+    usage["prompt"] = formatted_prompt
+    # usage["output"] = result["parsed"].model_dump()
+    with open(usage_file, "a", encoding="utf-8") as f:
         json.dump(usage, f, ensure_ascii=False)
         f.write(',\n')
+
+    # result = reasoning_structured_output(formatted_prompt, Reflection)
+    # usage = result["usage"]
+    # usage["state"] = "reflection"
+    # usage["timestamp"] = time.time()
+    # with open(usage_file, "a", encoding="utf-8") as f:
+    #     json.dump(usage, f, ensure_ascii=False)
+    #     f.write(',\n')
 
     return {
         "is_sufficient": result["parsed"].is_sufficient,
@@ -300,30 +309,31 @@ def finalize_answer(state: OverallState, config: RunnableConfig):
     )
 
     # init Reasoning Model, default to Gemini 2.5 Flash
-    # llm = ChatGoogleGenerativeAI(
-    #     model=reasoning_model,
-    #     temperature=0,
-    #     max_retries=2,
-    #     api_key=os.getenv("GEMINI_API_KEY"),
-    # )
-    # result = llm.invoke(formatted_prompt)
-    # usage = result.usage_metadata
-    # usage["state"] = "finalize_answer"
-    # usage["timestamp"] = time.time()
-    # with open("usage.json", "a", encoding="utf-8") as f:
-    #     json.dump(usage, f, ensure_ascii=False)
-    #     f.write(',\n')
-
-    output = reasoning_structured_output(formatted_prompt)
-    usage = output["usage"]
-    usage["state"] = "reflection"
+    llm = ChatGoogleGenerativeAI(
+        model=reasoning_model,
+        temperature=0,
+        max_retries=2,
+        api_key=os.getenv("GEMINI_API_KEY"),
+    )
+    result = llm.invoke(formatted_prompt)
+    usage = result.usage_metadata
+    usage["state"] = "finalize_answer"
     usage["timestamp"] = time.time()
-    with open("usage.json", "a", encoding="utf-8") as f:
+    usage["prompt"] = formatted_prompt
+    # usage["output"] = result.content
+    with open(usage_file, "a", encoding="utf-8") as f:
         json.dump(usage, f, ensure_ascii=False)
         f.write(',\n')
 
-    result = output["parsed"]
-    print(result)
+    # output = reasoning_structured_output(formatted_prompt)
+    # usage = output["usage"]
+    # usage["state"] = "reflection"
+    # usage["timestamp"] = time.time()
+    # with open(usage_file, "a", encoding="utf-8") as f:
+    #     json.dump(usage, f, ensure_ascii=False)
+    #     f.write(',\n')
+    # result = output["parsed"]
+    # print(result)
     # Replace the short urls with the original urls and add all used urls to the sources_gathered
     unique_sources = []
     for source in state["sources_gathered"]:

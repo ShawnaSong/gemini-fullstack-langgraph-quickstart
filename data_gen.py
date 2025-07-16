@@ -24,7 +24,7 @@ def extract_user_questions_from_dataset(num_questions=10, save_to_file=True):
                         })
                     break 
 
-    with open("questions_set.csv", 'w', newline='', encoding='utf-8') as csvfile:
+    with open("questions_set_new.csv", 'w', newline='', encoding='utf-8') as csvfile:
         fieldnames = ['id', 'question']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)   
         writer.writeheader()
@@ -33,4 +33,4 @@ def extract_user_questions_from_dataset(num_questions=10, save_to_file=True):
     return
 
 if __name__ == "__main__":
-    extract_user_questions_from_dataset(num_questions=100)
+    extract_user_questions_from_dataset(num_questions=600)
