@@ -1,0 +1,576 @@
+{
+  "file_name": "state_result_262.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.689269",
+  "data": {
+    "messages": [
+      {
+        "content": "какой есть способ установить пакеты python-minimal и libmariadbclient-dev на  debian bullseye? это старые пакеты, которые ТРЕБУЮТСЯ, как их установить рядом с другими новыми пакетами? фиксить пробовала, не помогает, я просто не понимаю сути.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "ebb823a9-b6a4-4bd2-b6ae-d44a1ba5429e",
+        "example": false
+      },
+      {
+        "content": "Для установки старых пакетов `python-minimal` и `libmariadbclient-dev` на Debian Bullseye, вот несколько подходов, которые можно попробовать:\n\n**1. Использование Debian Backports:**\n\nЭтот метод позволяет использовать более новые версии пакетов на стабильном релизе [debian](https://vertexaisearch.cloud.google.com/id/0-0).\n\n*   Добавьте репозиторий backports в ваш `/etc/apt/sources.list` [baeldung](https://vertexaisearch.cloud.google.com/id/0-1):\n\n    ```\n    echo \"deb http://deb.debian.org/debian bullseye-backports main contrib non-free\" | sudo tee -a /etc/apt/sources.list\n    ```\n\n*   Обновите репозиторий пакетов [baeldung](https://vertexaisearch.cloud.google.com/id/0-1):\n\n    ```\n    sudo apt update\n    ```\n\n*   Установите пакет из backports [baeldung](https://vertexaisearch.cloud.google.com/id/0-1):\n\n    ```\n    sudo apt -t bullseye-backports install <имя_пакета>\n    ```\n\n**2. Использование старых репозиториев Debian:**\n\nЭтот метод позволяет установить старые библиотеки, сохраняя при этом новые пакеты из Debian 12 [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2).\n\n*   Создайте файл `/etc/apt/sources.list.d/bullseye.list` со следующим содержимым [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2):\n\n    ```\n    deb http://deb.debian.org/debian bullseye main contrib non-free\n    deb http://security.debian.org bullseye-security main contrib non-free\n    ```\n\n*   Выполните `sudo apt update` для обновления списка пакетов [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2). После этого вы сможете установить недостающие библиотеки [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**3. Использование снимков старых репозиториев:**\n\nЭтот метод позволяет получить метаданные для старых пакетов [stackexchange](https://vertexaisearch.cloud.google.com/id/0-3).\n\n*   Найдите нужный месяц на `snapshot.debian.org`, выберите снимок за определенный день и используйте его в качестве строки `deb` или найдите соответствующие метаданные [stackexchange](https://vertexaisearch.cloud.google.com/id/0-3).\n\n    ```\n    deb https://snapshot.debian.org/archive/debian/20201101T210343Z/ bullseye main\n    ```\n\n    Это позволит `apt` получить и использовать эти метаданные [stackexchange](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**4. Другие соображения:**\n\n*   **Виртуальные окружения:** Рассмотрите использование виртуального окружения (venv) для старых версий Python [reddit](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Docker:** Используйте Docker для изоляции несовместимых приложений [reddit](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **APT Pinning:** Можно использовать APT pinning, но будьте осторожны с зависимостями [superuser](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Резервные копии:** Перед внесением значительных изменений рекомендуется создать полную резервную копию системы [debian](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**5. Установка конкретной версии пакета:**\n\n*   Укажите имя пакета и версию: `sudo apt install <имя_пакета>=<версия>` [debian-handbook](https://vertexaisearch.cloud.google.com/id/1-3) [github](https://vertexaisearch.cloud.google.com/id/1-1].\n*   Или укажите релиз: `sudo apt install <имя_пакета>/<кодовое_имя>` [stackexchange](https://vertexaisearch.cloud.google.com/id/1-0]. Например: `sudo apt install nginx/bullseye` [stackexchange](https://vertexaisearch.cloud.google.com/id/1-0].\n\n**6. Возможные проблемы и решения:**\n\n*   `python-minimal` может отсутствовать в репозиториях Bullseye [github](https://vertexaisearch.cloud.google.com/id/3-0) [github](https://vertexaisearch.cloud.google.com/id/3-1).\n*   `libmariadbclient-dev` мог быть заменен на `libmariadb-dev` или `libmariadb-dev-compat` [github](https://vertexaisearch.cloud.google.com/id/3-5) [github](https://vertexaisearch.cloud.google.com/id/3-6) [otland](https://vertexaisearch.cloud.google.com/id/3-2). Попробуйте установить их.\n*   Зависимости: `sudo apt-get update --fix-missing` и `sudo dpkg --configure -a` [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-4).\n\n**Важные замечания:**\n\n*   Понижение версии может привести к проблемам с зависимостями [baeldung](https://vertexaisearch.cloud.google.com/id/1-7) [stackexchange](https://vertexaisearch.cloud.google.com/id/1-0) [superuser](https://vertexaisearch.cloud.google.com/id/1-6).\n*   Используйте APT pinning для предотвращения автоматических обновлений [stackexchange](https://vertexaisearch.cloud.google.com/id/1-8) [superuser](https://vertexaisearch.cloud.google.com/id/1-6).\n*   Убедитесь, что нужная версия пакета доступна в репозиториях [debian-handbook](https://vertexaisearch.cloud.google.com/id/1-3) [debian](https://vertexaisearch.cloud.google.com/id/1-10).\n\nПомните о создании резервных копий и будьте осторожны при внесении изменений в систему.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "dc2724f0-e252-40d9-a0d4-24f77740f51f",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "install python-minimal libmariadbclient-dev debian bullseye alongside newer packages",
+      "debian bullseye install specific older package version",
+      "debian bullseye package pinning install old and new versions",
+      "What specific errors or conflicts occur when attempting to install python-minimal and libmariadbclient-dev on Debian Bullseye? Can you provide the exact error messages encountered when using 'apt install', and what steps were taken to 'fix' them?"
+    ],
+    "web_research_result": [
+      "It appears you're trying to install older packages like `python-minimal` and `libmariadbclient-dev` on Debian Bullseye alongside newer packages. Here's a breakdown of how you can approach this, based on the search results:\n\n**1. Using Debian Backports**\n\n*   Debian Backports can allow you to run more up-to-date versions of packages on a stable release [debian](https://vertexaisearch.cloud.google.com/id/0-0). The Debian Backports Team maintains a subset of packages from the next Debian release, adjusted and recompiled for usage on the current Debian stable release [debian](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Packages from `bullseye-backports` have version numbers lower than the version in bookworm, so they should upgrade normally to bookworm in the same way as \"pure\" bullseye packages during the distribution upgrade [debian](https://vertexaisearch.cloud.google.com/id/0-0).\n*   To use backports, you need to add the backports repository to your `/etc/apt/sources.list` file [baeldung](https://vertexaisearch.cloud.google.com/id/0-1):\n\n    ```\n    echo \"deb http://deb.debian.org/debian bullseye-backports main contrib non-free\" | sudo tee -a /etc/apt/sources.list\n    ```\n\n*   Then, update the package repository [baeldung](https://vertexaisearch.cloud.google.com/id/0-1):\n\n    ```\n    sudo apt update\n    ```\n\n*   To install a package from backports [baeldung](https://vertexaisearch.cloud.google.com/id/0-1):\n\n    ```\n    sudo apt -t bullseye-backports install <package-name>\n    ```\n\n**2. Using Older Debian Repositories**\n\n*   You can add Debian 11 (Bullseye) repositories alongside your current Debian 12 repositories [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2). This allows you to install older libraries while still having newer packages from Debian 12 available [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2).\n*   Create a file named `/etc/apt/sources.list.d/bullseye.list` with the following content [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2):\n\n    ```\n    deb http://deb.debian.org/debian bullseye main contrib non-free\n    deb http://security.debian.org bullseye-security main contrib non-free\n    ```\n\n*   Run `sudo apt update` to update the package lists [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2).  You should then be able to install the missing libraries [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2).\n*   Old packages can be installed in parallel with the new ones [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2). Programs will use the specific libraries they were built with (or rather, libraries matching the sonames) [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**3. Using Snapshots of Older Repositories**\n\n*   You can use the Debian archive snapshots to retrieve metadata for older packages [stackexchange](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Look up the month you're interested in on `snapshot.debian.org`, pick a snapshot for a given day, and use that as a `deb` line or find the relevant metadata [stackexchange](https://vertexaisearch.cloud.google.com/id/0-3).\n*   For example [stackexchange](https://vertexaisearch.cloud.google.com/id/0-3):\n\n    ```\n    deb https://snapshot.debian.org/archive/debian/20201101T210343Z/ bullseye main\n    ```\n\n    This will allow `apt` to retrieve and use that metadata [stackexchange](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**4. Other Considerations**\n\n*   **Virtual Environments:** Consider using a virtual environment (venv) for older Python versions [reddit](https://vertexaisearch.cloud.google.com/id/0-4). Tools like `pyenv` can help install and manage multiple Python versions [reddit](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Docker:** Use Docker to contain non-compatible apps within your Bullseye host [reddit](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **VM or Conda:** Create a Buster environment within Bullseye using a virtual machine or Conda [reddit](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Unofficial Sources:** Be cautious when using unofficial sources, as they may cause problems during upgrades due to file conflicts [debian](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **APT Pinning:**  APT pinning can be used, but be very careful with version dependencies [superuser](https://vertexaisearch.cloud.google.com/id/0-5). Upgrading `python3` might involve upgrading many dependent packages, potentially leading to version conflicts [superuser](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Backups:** Before making significant changes, it's strongly recommended to create a full backup of your system, or at least back up any data or configuration information you can't afford to lose [debian](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Clean up:** After installing, you may want to remove the `bullseye.list` file to avoid polluting your system with old packages, but keep in mind that this will also prevent security updates for those packages [stackexchange](https://vertexaisearch.cloud.google.com/id/0-2).\n",
+      "To install a specific older version of a package on Debian Bullseye, you can use the `apt install` command, specifying the package name along with the desired version [stackexchange](https://vertexaisearch.cloud.google.com/id/1-0) [github](https://vertexaisearch.cloud.google.com/id/1-1).\n\nHere's how to do it:\n\n1.  **Identify the desired version:** You need to know the exact version string of the package you want to install [andrewbeacock](https://vertexaisearch.cloud.google.com/id/1-2). You can use `apt-cache show <package-name>` to see the available versions in your configured repositories [andrewbeacock](https://vertexaisearch.cloud.google.com/id/1-2).\n2.  **Use the `apt install` command:**  Specify the package name and version using the following syntax: `sudo apt install <package-name>=<version>` [debian-handbook](https://vertexaisearch.cloud.google.com/id/1-3) [github](https://vertexaisearch.cloud.google.com/id/1-1). For example: `sudo apt install docker-ce-cli:amd64=5:20.10.23~3-0~debian-bullseye` [github](https://vertexaisearch.cloud.google.com/id/1-1).\n3.  **Target a specific release:** Alternatively, you can select the version from a specific release using the following syntax: `sudo apt install <package name>/<codename>` [stackexchange](https://vertexaisearch.cloud.google.com/id/1-0). For example: `sudo apt install nginx/bullseye` [stackexchange](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Important Considerations:**\n\n*   **Downgrading can be tricky:** Downgrading is not always a straightforward process and is not officially supported [stackexchange](https://vertexaisearch.cloud.google.com/id/1-4). It might lead to dependency issues or system instability [debian](https://vertexaisearch.cloud.google.com/id/1-5) [superuser](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Dependencies:** When downgrading, be aware of potential dependency conflicts. The older package version might require older versions of other packages, which could cause problems [baeldung](https://vertexaisearch.cloud.google.com/id/1-7) [stackexchange](https://vertexaisearch.cloud.google.com/id/1-0) [superuser](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **APT Pinning:** For more complex scenarios or to prevent automatic upgrades of the downgraded package, you might need to use APT pinning [stackexchange](https://vertexaisearch.cloud.google.com/id/1-8) [superuser](https://vertexaisearch.cloud.google.com/id/1-6). This involves creating a configuration file in `/etc/apt/preferences.d/` to assign a priority to packages from a specific release [stackexchange](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Backups:** Before making significant changes to your system, it's always recommended to create a backup [debian](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Repositories:** Ensure that the desired package version is available in one of your configured APT repositories. If not, you might need to add the appropriate repository to your `/etc/apt/sources.list` file [debian-handbook](https://vertexaisearch.cloud.google.com/id/1-3) [debian](https://vertexaisearch.cloud.google.com/id/1-10). You can also use the snapshot.debian.org archive if the version is not in your current sources [stackexchange](https://vertexaisearch.cloud.google.com/id/1-11) [debian-handbook](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **apt-get vs apt:** While both `apt` and `apt-get` can be used, `apt` is generally preferred for interactive use, while `apt-get` is better suited for scripting due to its more stable output [debian](https://vertexaisearch.cloud.google.com/id/1-9).\n",
+      "Package pinning in Debian Bullseye allows you to control which versions of packages are installed, which is useful for maintaining system stability, ensuring compatibility, testing, or rolling back updates [baeldung](https://vertexaisearch.cloud.google.com/id/2-0). It involves setting priorities for different package versions, influencing APT's selection process [debian](https://vertexaisearch.cloud.google.com/id/2-1) [debian](https://vertexaisearch.cloud.google.com/id/2-2).\n\n### How APT Preferences Work\nAPT assigns a priority to each available package version and selects the highest priority version for installation, considering dependency constraints [debian](https://vertexaisearch.cloud.google.com/id/2-1). The APT preferences file, `/etc/apt/preferences`, and the files in the `/etc/apt/preferences.d/` directory, can override these default priorities, giving you control over package selection [debian](https://vertexaisearch.cloud.google.com/id/2-1).\n\nWhen multiple APT repositories are enabled, a package can exist in several of them [debian](https://vertexaisearch.cloud.google.com/id/2-2). APT assigns priorities to packages to determine which one should be installed [debian](https://vertexaisearch.cloud.google.com/id/2-2). The default priority is 500 [debian](https://vertexaisearch.cloud.google.com/id/2-2). If packages have the same priority, the most recent version wins [debian](https://vertexaisearch.cloud.google.com/id/2-2). If packages have different priorities, the one with the higher priority wins [debian](https://vertexaisearch.cloud.google.com/id/2-2).\n\n### Configuring APT Pinning\n1.  **APT Preferences File:** Create and modify files in `/etc/apt/preferences.d/` to set priorities for specific packages or sources [debian](https://vertexaisearch.cloud.google.com/id/2-1) [baeldung](https://vertexaisearch.cloud.google.com/id/2-0). The files are parsed in alphanumeric ascending order [debian](https://vertexaisearch.cloud.google.com/id/2-1).\n2.  **Specify Package and Origin:**  Within these files, you can specify the package name and the origin (release, codename, or archive) to which the priority applies [debian-handbook](https://vertexaisearch.cloud.google.com/id/2-3).\n3.  **Set Priorities:** Assign a numerical priority.  Priorities higher than 500 generally favor the version, while those below 500 discourage its installation [debian-handbook](https://vertexaisearch.cloud.google.com/id/2-3) [debian](https://vertexaisearch.cloud.google.com/id/2-1) [debian](https://vertexaisearch.cloud.google.com/id/2-2). A priority higher than 1000 allows downgrading [rabbitmq](https://vertexaisearch.cloud.google.com/id/2-4).\n\n### Example Configuration\nTo assign a high priority to packages from the testing distribution and a lower priority to packages from the unstable distribution, use the following [debian](https://vertexaisearch.cloud.google.com/id/2-1):\n\n```\nPackage: *\nPin: release a=testing\nPin-Priority: 900\n\nPackage: *\nPin: release a=unstable\nPin-Priority: 100\n```\n\n### Installing Specific Versions\nYou can install a specific version of a package using `apt install package=version` [debian-handbook](https://vertexaisearch.cloud.google.com/id/2-3). You can also specify the distribution of origin with `apt install package/distribution` [debian-handbook](https://vertexaisearch.cloud.google.com/id/2-3).\n\n### Important Considerations\n*   **Backup:** Before making changes, back up your data and configuration files [debian](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Compatibility:** Ensure package compatibility yourself, as Debian doesn't guarantee it when mixing repositories [debian](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Comments:** In Debian 11 Bullseye, comments in preference files must start with `#` [stackexchange](https://vertexaisearch.cloud.google.com/id/2-6).\n*   **Order of Preference:** APT considers the most specific entries first, then generic ones [debian-handbook](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Clean up:** After upgrading, clean up leftover configuration files [debian](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Multiple source-list files:** If your system is using multiple source-list files then you will need to ensure they stay consistent [debian](https://vertexaisearch.cloud.google.com/id/2-5).\n\n### Other Methods for Pinning\nBesides using the preferences file, you can also pin packages using:\n\n*   `apt-mark hold` command [baeldung](https://vertexaisearch.cloud.google.com/id/2-0)\n*   `aptitude hold` command [baeldung](https://vertexaisearch.cloud.google.com/id/2-0)\n*   `dpkg --set-selections` command [baeldung](https://vertexaisearch.cloud.google.com/id/2-0)\n\n### When to Use Package Pinning\n*   **Testing or Rollback:** To test older versions or rollback to a previous version if a new update introduces bugs [baeldung](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **System Stability:** To prevent certain packages from being automatically updated, maintaining system stability [baeldung](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Compatibility:** To ensure compatibility with other software [baeldung](https://vertexaisearch.cloud.google.com/id/2-0).\n",
+      "Based on the search results, here's a summary of the issues encountered when installing `python-minimal` and `libmariadbclient-dev` on Debian Bullseye, along with potential solutions:\n\n**1. python-minimal Availability**\n\n*   `python-minimal` may not be available in Debian Bullseye repositories [github](https://vertexaisearch.cloud.google.com/id/3-0) [github](https://vertexaisearch.cloud.google.com/id/3-1). This can cause installation failures if other packages depend on it [github](https://vertexaisearch.cloud.google.com/id/3-1).\n\n**2. libmariadbclient-dev Installation Issues**\n\n*   **Package Not Found:** The error message \"Package libmariadbclient-dev is not available\" can occur [otland](https://vertexaisearch.cloud.google.com/id/3-2). This can happen because the package has been obsoleted or is only available from another source [otland](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Dependency Conflicts:** You might encounter unmet dependencies, such as `libmariadbclient-dev` depending on a specific version of `libmariadbclient18` that conflicts with the version available in the repositories [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-3) [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-4). An example error message is: \"Depends: libmariadbclient18 (= 1:10.1.29-6) but 1:10.3.7+maria~bionic is to be installed E: Unable to correct problems, you have held broken packages\" [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Alternative Packages:** `libmariadbclient-dev` has been replaced by `libmariadb-dev` or `libmariadb-dev-compat` in newer Debian/Ubuntu releases [github](https://vertexaisearch.cloud.google.com/id/3-5) [github](https://vertexaisearch.cloud.google.com/id/3-6) [otland](https://vertexaisearch.cloud.google.com/id/3-2).\n\n**3. Potential Solutions**\n\n*   **Use Alternative Packages:** Try installing `libmariadb-dev` or `libmariadb-dev-compat` instead of `libmariadbclient-dev` [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-3) [github](https://vertexaisearch.cloud.google.com/id/3-5) [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-7) [otland](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Fixing Broken Packages:** Attempt to correct dependency issues by running `sudo apt-get update --fix-missing` and `sudo dpkg --configure -a` [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Check and Repair Database:** If MariaDB fails to start, try enabling database recovery and then performing a database dump, check, and repair [github](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **Proxy Issues:** If you are behind a proxy, ensure that `apt-get` is correctly configured to use it [raspberrypi](https://vertexaisearch.cloud.google.com/id/3-9).\n*   **Version Conflicts:** Problems can arise from version differences between Buster (Python 3.7) and Bullseye (Python 3.9) [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-10). Consider building your application on a Buster build machine with Python 3.9 [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-10).\n*   **Repositories:** There might be issues with the configured APT repositories. One possible error is \"The repository ... does not have a Release file\" [realtechtalk](https://vertexaisearch.cloud.google.com/id/3-11) [github](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **Nodesource Issue:** If you are using Nodesource, ensure you are using the correct package with the right dependency (`python3-minimal` instead of `python-minimal`) [github](https://vertexaisearch.cloud.google.com/id/3-1).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmdOphN3QtsJL51pTMQj5YWONqIQoPchdnblqPBzfYGax09Dgt_PS4uoAMdC7SVJXZexSylG4ZCzdJjaODt-L5pdYzfkblOAzmWhYtdNb1ktBWhVWR_Ke3bXrr3zFn7Vfp3QgXeOSfCfO-D-GeEKhk3LwMsLU9Y53OJ4UY5pNqhFNXtSztwRLV0YY="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmdOphN3QtsJL51pTMQj5YWONqIQoPchdnblqPBzfYGax09Dgt_PS4uoAMdC7SVJXZexSylG4ZCzdJjaODt-L5pdYzfkblOAzmWhYtdNb1ktBWhVWR_Ke3bXrr3zFn7Vfp3QgXeOSfCfO-D-GeEKhk3LwMsLU9Y53OJ4UY5pNqhFNXtSztwRLV0YY="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmdOphN3QtsJL51pTMQj5YWONqIQoPchdnblqPBzfYGax09Dgt_PS4uoAMdC7SVJXZexSylG4ZCzdJjaODt-L5pdYzfkblOAzmWhYtdNb1ktBWhVWR_Ke3bXrr3zFn7Vfp3QgXeOSfCfO-D-GeEKhk3LwMsLU9Y53OJ4UY5pNqhFNXtSztwRLV0YY="
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH8x0r1khzMr1rgHKY1aD2qV-J67yQUmaGomx3yq1JuomHU1VDLPXbSi0N7Aj52mCR_Ab-a8R_IdX0rwZiuXS7tvykswR1PCPHOK6k53z65M98V6mNkZnYl019Q6QPuEg4UKpN2QEE0Jnz8-eomDYm6Uzvwvj-s-lI"
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH8x0r1khzMr1rgHKY1aD2qV-J67yQUmaGomx3yq1JuomHU1VDLPXbSi0N7Aj52mCR_Ab-a8R_IdX0rwZiuXS7tvykswR1PCPHOK6k53z65M98V6mNkZnYl019Q6QPuEg4UKpN2QEE0Jnz8-eomDYm6Uzvwvj-s-lI"
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH8x0r1khzMr1rgHKY1aD2qV-J67yQUmaGomx3yq1JuomHU1VDLPXbSi0N7Aj52mCR_Ab-a8R_IdX0rwZiuXS7tvykswR1PCPHOK6k53z65M98V6mNkZnYl019Q6QPuEg4UKpN2QEE0Jnz8-eomDYm6Uzvwvj-s-lI"
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUaHEEG8lHQBCzmfYx8avhE7VTehHbQK_M9zHQEIoR9QkZiTLPGT9wd3l5IzQyaKaLRKxmzjVrFL00TsWprlzgQgOzietcHp6M991_GUPlw5RZ-TnQm4q6Rtw2NBXbmbJGPIwYm389ORK1Qm4CK-h9xSGL3Dr_3WyXLDLuPsxhAr5YKs="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUaHEEG8lHQBCzmfYx8avhE7VTehHbQK_M9zHQEIoR9QkZiTLPGT9wd3l5IzQyaKaLRKxmzjVrFL00TsWprlzgQgOzietcHp6M991_GUPlw5RZ-TnQm4q6Rtw2NBXbmbJGPIwYm389ORK1Qm4CK-h9xSGL3Dr_3WyXLDLuPsxhAr5YKs="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUaHEEG8lHQBCzmfYx8avhE7VTehHbQK_M9zHQEIoR9QkZiTLPGT9wd3l5IzQyaKaLRKxmzjVrFL00TsWprlzgQgOzietcHp6M991_GUPlw5RZ-TnQm4q6Rtw2NBXbmbJGPIwYm389ORK1Qm4CK-h9xSGL3Dr_3WyXLDLuPsxhAr5YKs="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUaHEEG8lHQBCzmfYx8avhE7VTehHbQK_M9zHQEIoR9QkZiTLPGT9wd3l5IzQyaKaLRKxmzjVrFL00TsWprlzgQgOzietcHp6M991_GUPlw5RZ-TnQm4q6Rtw2NBXbmbJGPIwYm389ORK1Qm4CK-h9xSGL3Dr_3WyXLDLuPsxhAr5YKs="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUaHEEG8lHQBCzmfYx8avhE7VTehHbQK_M9zHQEIoR9QkZiTLPGT9wd3l5IzQyaKaLRKxmzjVrFL00TsWprlzgQgOzietcHp6M991_GUPlw5RZ-TnQm4q6Rtw2NBXbmbJGPIwYm389ORK1Qm4CK-h9xSGL3Dr_3WyXLDLuPsxhAr5YKs="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUaHEEG8lHQBCzmfYx8avhE7VTehHbQK_M9zHQEIoR9QkZiTLPGT9wd3l5IzQyaKaLRKxmzjVrFL00TsWprlzgQgOzietcHp6M991_GUPlw5RZ-TnQm4q6Rtw2NBXbmbJGPIwYm389ORK1Qm4CK-h9xSGL3Dr_3WyXLDLuPsxhAr5YKs="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUaHEEG8lHQBCzmfYx8avhE7VTehHbQK_M9zHQEIoR9QkZiTLPGT9wd3l5IzQyaKaLRKxmzjVrFL00TsWprlzgQgOzietcHp6M991_GUPlw5RZ-TnQm4q6Rtw2NBXbmbJGPIwYm389ORK1Qm4CK-h9xSGL3Dr_3WyXLDLuPsxhAr5YKs="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEI0syOtJ0GPt8jM1IcH9D1-eGJyGb5HvhK9mrTIoP-ElereRKvQy31cLngC05SW4XMQfRU0rKNnjoTjMvqxt_sK14fJiDsTwHwaUDeTHNqYk2qPISlgLbNLKKUEpBmZqJz3i9btKxNi9Bz3Sz61aOJx7xI6TKzUcMGL9_OwnlwpZpgfa1eZqcCFmYdiyHu5HmESx1zL0="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEI0syOtJ0GPt8jM1IcH9D1-eGJyGb5HvhK9mrTIoP-ElereRKvQy31cLngC05SW4XMQfRU0rKNnjoTjMvqxt_sK14fJiDsTwHwaUDeTHNqYk2qPISlgLbNLKKUEpBmZqJz3i9btKxNi9Bz3Sz61aOJx7xI6TKzUcMGL9_OwnlwpZpgfa1eZqcCFmYdiyHu5HmESx1zL0="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEI0syOtJ0GPt8jM1IcH9D1-eGJyGb5HvhK9mrTIoP-ElereRKvQy31cLngC05SW4XMQfRU0rKNnjoTjMvqxt_sK14fJiDsTwHwaUDeTHNqYk2qPISlgLbNLKKUEpBmZqJz3i9btKxNi9Bz3Sz61aOJx7xI6TKzUcMGL9_OwnlwpZpgfa1eZqcCFmYdiyHu5HmESx1zL0="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEI0syOtJ0GPt8jM1IcH9D1-eGJyGb5HvhK9mrTIoP-ElereRKvQy31cLngC05SW4XMQfRU0rKNnjoTjMvqxt_sK14fJiDsTwHwaUDeTHNqYk2qPISlgLbNLKKUEpBmZqJz3i9btKxNi9Bz3Sz61aOJx7xI6TKzUcMGL9_OwnlwpZpgfa1eZqcCFmYdiyHu5HmESx1zL0="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOn6MVLPP8vMvwZ0WyPqVjpSgQSSksExRKIxG-PFI1O1S5xxNvfSS-4Wi_0TCBDPisanPrS8q-yhncowwhAhrxp9T6qJO5EDZVTeKKN6CMZBnenevXAnQDXo7o2ddVtGoZZQHobB3pCabeMqUt3OLHLonvF7GPmRjia89CRAvrgbjdX3wVR41lXOV-lbzzY5w="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOn6MVLPP8vMvwZ0WyPqVjpSgQSSksExRKIxG-PFI1O1S5xxNvfSS-4Wi_0TCBDPisanPrS8q-yhncowwhAhrxp9T6qJO5EDZVTeKKN6CMZBnenevXAnQDXo7o2ddVtGoZZQHobB3pCabeMqUt3OLHLonvF7GPmRjia89CRAvrgbjdX3wVR41lXOV-lbzzY5w="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOn6MVLPP8vMvwZ0WyPqVjpSgQSSksExRKIxG-PFI1O1S5xxNvfSS-4Wi_0TCBDPisanPrS8q-yhncowwhAhrxp9T6qJO5EDZVTeKKN6CMZBnenevXAnQDXo7o2ddVtGoZZQHobB3pCabeMqUt3OLHLonvF7GPmRjia89CRAvrgbjdX3wVR41lXOV-lbzzY5w="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOn6MVLPP8vMvwZ0WyPqVjpSgQSSksExRKIxG-PFI1O1S5xxNvfSS-4Wi_0TCBDPisanPrS8q-yhncowwhAhrxp9T6qJO5EDZVTeKKN6CMZBnenevXAnQDXo7o2ddVtGoZZQHobB3pCabeMqUt3OLHLonvF7GPmRjia89CRAvrgbjdX3wVR41lXOV-lbzzY5w="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmdOphN3QtsJL51pTMQj5YWONqIQoPchdnblqPBzfYGax09Dgt_PS4uoAMdC7SVJXZexSylG4ZCzdJjaODt-L5pdYzfkblOAzmWhYtdNb1ktBWhVWR_Ke3bXrr3zFn7Vfp3QgXeOSfCfO-D-GeEKhk3LwMsLU9Y53OJ4UY5pNqhFNXtSztwRLV0YY="
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEebNUklJRWpH2QqO0-AGtB4Axgc2se-sq0VmFfSjtfQRCAPmsUo4ZoBm0WenoM7kucsk7yd_Jurvf_9GBw9afuO60xChowHYVDXptlMzlFQHyRkuRJZ9bvyS8x1zMKTCSvNWZIwkduU7JAFYxxa8oUPmzTvtOfh1co0jzFtMNfcszCmzN2gFLHNugeDBZPfTYy3kZhJsnHwzEwx1Aa9OJI7BIqAUG0-taVAwEO3Q=="
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEebNUklJRWpH2QqO0-AGtB4Axgc2se-sq0VmFfSjtfQRCAPmsUo4ZoBm0WenoM7kucsk7yd_Jurvf_9GBw9afuO60xChowHYVDXptlMzlFQHyRkuRJZ9bvyS8x1zMKTCSvNWZIwkduU7JAFYxxa8oUPmzTvtOfh1co0jzFtMNfcszCmzN2gFLHNugeDBZPfTYy3kZhJsnHwzEwx1Aa9OJI7BIqAUG0-taVAwEO3Q=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmdOphN3QtsJL51pTMQj5YWONqIQoPchdnblqPBzfYGax09Dgt_PS4uoAMdC7SVJXZexSylG4ZCzdJjaODt-L5pdYzfkblOAzmWhYtdNb1ktBWhVWR_Ke3bXrr3zFn7Vfp3QgXeOSfCfO-D-GeEKhk3LwMsLU9Y53OJ4UY5pNqhFNXtSztwRLV0YY="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiUaHEEG8lHQBCzmfYx8avhE7VTehHbQK_M9zHQEIoR9QkZiTLPGT9wd3l5IzQyaKaLRKxmzjVrFL00TsWprlzgQgOzietcHp6M991_GUPlw5RZ-TnQm4q6Rtw2NBXbmbJGPIwYm389ORK1Qm4CK-h9xSGL3Dr_3WyXLDLuPsxhAr5YKs="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwu8KsXucL7JzCc3kLQ04fFQwh3eIYtE_jFai4cIazltVeX_7iSycoEJPFAhwBrx-sWvs2IPn4mZ1THeqv-UTHVtHYNu2_y4iYIiYaBBT1ufNaEyRvVidKM-F1X_f7CQxXEjB7CKw6pi0onLrvFsLM1miVL1VVdUz08U0gROTJmFGRLx3ctHSGG9sTHnZJffRKVEyg64vOyWPhb4WNfAhroA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6JvYXSe1tcP7LblRvu5HrcDsbNsFLvE7iEPB5G81ko5Qe1pmbQ1_uQ-nLETh14UNTM3dyN5SeytjFMl4t0WFpmq4_a25joeK2I1kUGnJ32ELMATwpQTyZgfSw9YNQnTe7vK6mr0n5Kd91HnorayPGnroSavlaMGMUoxg="
+      },
+      {
+        "label": "andrewbeacock",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0VlayLocU5aYIbmxbWdgI-wGyn5nwtYjRuGTPgZ3Z7wmQbbqNEciK1QoriFjBEmXF-tP9-4VX-wn60xZ9i8sZSxipciFWIg16dJQP2FKBhZU54lAhognjQEXLQ6MsG3Fk3SFMNFkR7z7HGFn72OFG-J0UWR6o_q4SMSUpwme9iCYeLUeJJ_BIJw=="
+      },
+      {
+        "label": "andrewbeacock",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0VlayLocU5aYIbmxbWdgI-wGyn5nwtYjRuGTPgZ3Z7wmQbbqNEciK1QoriFjBEmXF-tP9-4VX-wn60xZ9i8sZSxipciFWIg16dJQP2FKBhZU54lAhognjQEXLQ6MsG3Fk3SFMNFkR7z7HGFn72OFG-J0UWR6o_q4SMSUpwme9iCYeLUeJJ_BIJw=="
+      },
+      {
+        "label": "debian-handbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL6CrJAUFy6WRpMqqCguGc--IXBLRfvN5ovCV6IQMAsbxdNM4mZDJ2qfixCxc1tu3K2BkQpxJeRFZRbyQhF5aXDqXj6UtAepSx2rc-CvyKzJWeSg-vC4jOMBzB9l00kwgeW-L6kTN4NXC_RG7zrez4mprtAqMuFfyEileM5Q=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6JvYXSe1tcP7LblRvu5HrcDsbNsFLvE7iEPB5G81ko5Qe1pmbQ1_uQ-nLETh14UNTM3dyN5SeytjFMl4t0WFpmq4_a25joeK2I1kUGnJ32ELMATwpQTyZgfSw9YNQnTe7vK6mr0n5Kd91HnorayPGnroSavlaMGMUoxg="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6JvYXSe1tcP7LblRvu5HrcDsbNsFLvE7iEPB5G81ko5Qe1pmbQ1_uQ-nLETh14UNTM3dyN5SeytjFMl4t0WFpmq4_a25joeK2I1kUGnJ32ELMATwpQTyZgfSw9YNQnTe7vK6mr0n5Kd91HnorayPGnroSavlaMGMUoxg="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwu8KsXucL7JzCc3kLQ04fFQwh3eIYtE_jFai4cIazltVeX_7iSycoEJPFAhwBrx-sWvs2IPn4mZ1THeqv-UTHVtHYNu2_y4iYIiYaBBT1ufNaEyRvVidKM-F1X_f7CQxXEjB7CKw6pi0onLrvFsLM1miVL1VVdUz08U0gROTJmFGRLx3ctHSGG9sTHnZJffRKVEyg64vOyWPhb4WNfAhroA=="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwu8KsXucL7JzCc3kLQ04fFQwh3eIYtE_jFai4cIazltVeX_7iSycoEJPFAhwBrx-sWvs2IPn4mZ1THeqv-UTHVtHYNu2_y4iYIiYaBBT1ufNaEyRvVidKM-F1X_f7CQxXEjB7CKw6pi0onLrvFsLM1miVL1VVdUz08U0gROTJmFGRLx3ctHSGG9sTHnZJffRKVEyg64vOyWPhb4WNfAhroA=="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEViQLivuhC_li7z3BM0IJ7Sm-4jHrJrFwTU7Zig18Ek68Li5-_AwM6OkHlAXJqzz3dlMtTVGQXPCLGtqgNwxc3pJEB5QYBtlIVNSXJN0bL3LVIx4ke78pzyxrT6pzMDal_hwYsgBxRYxIhMPvmZmhe57vBoUVKCRJH0aPp10dWPhY8GhaivhOn2RixsyglEhd0Fg51YK27qvH7AUOQJhaQhpxwYhAn7VuaHsf9"
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMVyv6AG9Ey1WYgRNls50FqowjZ9f07F1ZWdLJDygLdtemAbjnk7bWH4eOyayYryA3UIaCnFddAUWCiCFbdUoIcTFgPPy5YZhW23vONndUKNULO6tHQxZLlXc6INbN76UDjQ=="
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwxu2HtS-jxW8jXLerFXSRgtv2I8Y0p1FCtRgRec_QoOKII-RTXoRBNJ470MqHaoMNWEC4COEPtGVPY3k5VpGKOnBNVz_2GzUnM4Tm9MwtvWML3Secm11rC3MEQ_lSKPoiCi3rLRF9vt0wGwHQMhIieyRi-g-7qw6CmL6FZIootFCpQAUQbkArSg61FILKF9fjV5AUDT5s3ZfVEbYszBgidM25dHi-M9HLwjWIiWU="
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYi98GWFWYc0EJ3ni8e42Nmsre4o9PBBrH8nmnOC9E7a7-fICdVIAotz1uZK2F2p8i9ZQ70bXAshtdIcKTQ900EuJisfQPnqdZfVMPMbwQjzOAPcDYkFZMgqXxnBkAYDMrIff-hTMICy3B3_N92kXnO5iAFJ7ecsVDzw=="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwu8KsXucL7JzCc3kLQ04fFQwh3eIYtE_jFai4cIazltVeX_7iSycoEJPFAhwBrx-sWvs2IPn4mZ1THeqv-UTHVtHYNu2_y4iYIiYaBBT1ufNaEyRvVidKM-F1X_f7CQxXEjB7CKw6pi0onLrvFsLM1miVL1VVdUz08U0gROTJmFGRLx3ctHSGG9sTHnZJffRKVEyg64vOyWPhb4WNfAhroA=="
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwxu2HtS-jxW8jXLerFXSRgtv2I8Y0p1FCtRgRec_QoOKII-RTXoRBNJ470MqHaoMNWEC4COEPtGVPY3k5VpGKOnBNVz_2GzUnM4Tm9MwtvWML3Secm11rC3MEQ_lSKPoiCi3rLRF9vt0wGwHQMhIieyRi-g-7qw6CmL6FZIootFCpQAUQbkArSg61FILKF9fjV5AUDT5s3ZfVEbYszBgidM25dHi-M9HLwjWIiWU="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtL-ydMm3IF66AvSVUapwLl9STfeb7RyNH7SE6Nm1tPvwLesNH9gIJjgWnMB3FqlO6I7diIrxnMZAEnAL9CHB5jw11QN3zhuFqhOMz21NxkGhN6mJMVfO_hu4NHL2j76XO_WZdO3hCsPYXaW5Ce78v0KHVi2oqPEEG2PlKm5WrAEFpGZn6KoTirjzKOfChQShsHr7_TydPZ556CjSG2HbSKV_47r1I1fE1VJFZ4Q=="
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwxu2HtS-jxW8jXLerFXSRgtv2I8Y0p1FCtRgRec_QoOKII-RTXoRBNJ470MqHaoMNWEC4COEPtGVPY3k5VpGKOnBNVz_2GzUnM4Tm9MwtvWML3Secm11rC3MEQ_lSKPoiCi3rLRF9vt0wGwHQMhIieyRi-g-7qw6CmL6FZIootFCpQAUQbkArSg61FILKF9fjV5AUDT5s3ZfVEbYszBgidM25dHi-M9HLwjWIiWU="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtL-ydMm3IF66AvSVUapwLl9STfeb7RyNH7SE6Nm1tPvwLesNH9gIJjgWnMB3FqlO6I7diIrxnMZAEnAL9CHB5jw11QN3zhuFqhOMz21NxkGhN6mJMVfO_hu4NHL2j76XO_WZdO3hCsPYXaW5Ce78v0KHVi2oqPEEG2PlKm5WrAEFpGZn6KoTirjzKOfChQShsHr7_TydPZ556CjSG2HbSKV_47r1I1fE1VJFZ4Q=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXfireA6L7uPLz6NZiH1PzAZ9I3NG8abY7aRRxwlroJbSf_ulWuarQoPwj68OUlEbtVR_1O5P1-tFkWuEkt1nr4VzmgbRz5B10bciXonrPIK19ek0B0sOjf4b1JeTGdK0cxSk88W7bIovi0LL18UpkXkRWae8LtWLQxiUMXRN1fpcFC1pSJU7F6KYB"
+      },
+      {
+        "label": "debian-handbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL6CrJAUFy6WRpMqqCguGc--IXBLRfvN5ovCV6IQMAsbxdNM4mZDJ2qfixCxc1tu3K2BkQpxJeRFZRbyQhF5aXDqXj6UtAepSx2rc-CvyKzJWeSg-vC4jOMBzB9l00kwgeW-L6kTN4NXC_RG7zrez4mprtAqMuFfyEileM5Q=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXXGzj6ndkVxyLCvPY2GM-TdBvvafDG3vtb5FRQjbBsntwGoq5ePdoXPfhUJJXRZvjy59rzbKA8nvBzA0EEuXYxALcstcPDSbavK-bov_QmC3bED5A6C7J42sXMAMH2iJqgBy32wKDT__tjf_f8VjCgkgc-kY="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFolARqkBZvkzyrJjaB0Jd1QLvjg_5i6HUY0b1SCpWJ9bxfuRQxI7zkkR1k56Y1JCq-21ZlJqcG8TTsfikUfZcFZPPSuJwWdwf8vteRSuh-xt3XmHr7EDrzjwA8AqLIhTcE4F5wYrNGoqYnbElKOi5YrOqQsSt5_mVjYoFLlYJyjhrHHk9IEfRlyfkhbm352bRyqBNsgg=="
+      },
+      {
+        "label": "debian-handbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL6CrJAUFy6WRpMqqCguGc--IXBLRfvN5ovCV6IQMAsbxdNM4mZDJ2qfixCxc1tu3K2BkQpxJeRFZRbyQhF5aXDqXj6UtAepSx2rc-CvyKzJWeSg-vC4jOMBzB9l00kwgeW-L6kTN4NXC_RG7zrez4mprtAqMuFfyEileM5Q=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXfireA6L7uPLz6NZiH1PzAZ9I3NG8abY7aRRxwlroJbSf_ulWuarQoPwj68OUlEbtVR_1O5P1-tFkWuEkt1nr4VzmgbRz5B10bciXonrPIK19ek0B0sOjf4b1JeTGdK0cxSk88W7bIovi0LL18UpkXkRWae8LtWLQxiUMXRN1fpcFC1pSJU7F6KYB"
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfivWdYpGZW9w9KaS5hhclutT0H2ZQdh-y50LhRZ9skWyHh9dje72-8-dayDNyxhb-47yie_GJaKpK-7j3uWdlKA_1rdo5tDL-KCMq-yvUDddbYbzO3ADe7TFuRfAX8j7ab-2OqdYHOv9-Jp511iqQV4Ldlw=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHArbxHVt3XrkyDmh6E3dtoM50C_ibyMYzWg2QVJlskRaNNrI5DATOdX7YFS-p9d5ZZxVwrAMTYV-9IH28-cpG7ufszZV9DJVS8qlgdqf8_qqHoYlStwIELB44BmI-LMr4OBATSjpy8Z-CzhEUnxyNXcKEs50sr_ihMEwRk"
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXAJdreCX59j3yF95A1y22diTDCBNzxVeZGb1Xv-q1q60C1mljH7AmXjIuYjYqtuWp_waysAfOB6viaRLtWhgGre5Br5n2BUXubMlA-Ba9qtuYyLZC8-wNwmPOWqsA8aMRQ=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHArbxHVt3XrkyDmh6E3dtoM50C_ibyMYzWg2QVJlskRaNNrI5DATOdX7YFS-p9d5ZZxVwrAMTYV-9IH28-cpG7ufszZV9DJVS8qlgdqf8_qqHoYlStwIELB44BmI-LMr4OBATSjpy8Z-CzhEUnxyNXcKEs50sr_ihMEwRk"
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHArbxHVt3XrkyDmh6E3dtoM50C_ibyMYzWg2QVJlskRaNNrI5DATOdX7YFS-p9d5ZZxVwrAMTYV-9IH28-cpG7ufszZV9DJVS8qlgdqf8_qqHoYlStwIELB44BmI-LMr4OBATSjpy8Z-CzhEUnxyNXcKEs50sr_ihMEwRk"
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXAJdreCX59j3yF95A1y22diTDCBNzxVeZGb1Xv-q1q60C1mljH7AmXjIuYjYqtuWp_waysAfOB6viaRLtWhgGre5Br5n2BUXubMlA-Ba9qtuYyLZC8-wNwmPOWqsA8aMRQ=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXAJdreCX59j3yF95A1y22diTDCBNzxVeZGb1Xv-q1q60C1mljH7AmXjIuYjYqtuWp_waysAfOB6viaRLtWhgGre5Br5n2BUXubMlA-Ba9qtuYyLZC8-wNwmPOWqsA8aMRQ=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXAJdreCX59j3yF95A1y22diTDCBNzxVeZGb1Xv-q1q60C1mljH7AmXjIuYjYqtuWp_waysAfOB6viaRLtWhgGre5Br5n2BUXubMlA-Ba9qtuYyLZC8-wNwmPOWqsA8aMRQ=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXAJdreCX59j3yF95A1y22diTDCBNzxVeZGb1Xv-q1q60C1mljH7AmXjIuYjYqtuWp_waysAfOB6viaRLtWhgGre5Br5n2BUXubMlA-Ba9qtuYyLZC8-wNwmPOWqsA8aMRQ=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXAJdreCX59j3yF95A1y22diTDCBNzxVeZGb1Xv-q1q60C1mljH7AmXjIuYjYqtuWp_waysAfOB6viaRLtWhgGre5Br5n2BUXubMlA-Ba9qtuYyLZC8-wNwmPOWqsA8aMRQ=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHArbxHVt3XrkyDmh6E3dtoM50C_ibyMYzWg2QVJlskRaNNrI5DATOdX7YFS-p9d5ZZxVwrAMTYV-9IH28-cpG7ufszZV9DJVS8qlgdqf8_qqHoYlStwIELB44BmI-LMr4OBATSjpy8Z-CzhEUnxyNXcKEs50sr_ihMEwRk"
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfivWdYpGZW9w9KaS5hhclutT0H2ZQdh-y50LhRZ9skWyHh9dje72-8-dayDNyxhb-47yie_GJaKpK-7j3uWdlKA_1rdo5tDL-KCMq-yvUDddbYbzO3ADe7TFuRfAX8j7ab-2OqdYHOv9-Jp511iqQV4Ldlw=="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHArbxHVt3XrkyDmh6E3dtoM50C_ibyMYzWg2QVJlskRaNNrI5DATOdX7YFS-p9d5ZZxVwrAMTYV-9IH28-cpG7ufszZV9DJVS8qlgdqf8_qqHoYlStwIELB44BmI-LMr4OBATSjpy8Z-CzhEUnxyNXcKEs50sr_ihMEwRk"
+      },
+      {
+        "label": "debian-handbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH5HqVIEExHslylBOKhIllMsqN7zpJvGdB64pz7Icr6LKliqdSTikkNJa6Xx3Q63zMjNklt99bBswsUKWpgNaLPdu8pGUjhYXtbvqLAYtmjOvwxoBA2_cnR9PMea9D9istpKuAIw8Qa7OEAxEtcqrQLc60ZQf232MN2Ht5"
+      },
+      {
+        "label": "debian-handbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH5HqVIEExHslylBOKhIllMsqN7zpJvGdB64pz7Icr6LKliqdSTikkNJa6Xx3Q63zMjNklt99bBswsUKWpgNaLPdu8pGUjhYXtbvqLAYtmjOvwxoBA2_cnR9PMea9D9istpKuAIw8Qa7OEAxEtcqrQLc60ZQf232MN2Ht5"
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHArbxHVt3XrkyDmh6E3dtoM50C_ibyMYzWg2QVJlskRaNNrI5DATOdX7YFS-p9d5ZZxVwrAMTYV-9IH28-cpG7ufszZV9DJVS8qlgdqf8_qqHoYlStwIELB44BmI-LMr4OBATSjpy8Z-CzhEUnxyNXcKEs50sr_ihMEwRk"
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXAJdreCX59j3yF95A1y22diTDCBNzxVeZGb1Xv-q1q60C1mljH7AmXjIuYjYqtuWp_waysAfOB6viaRLtWhgGre5Br5n2BUXubMlA-Ba9qtuYyLZC8-wNwmPOWqsA8aMRQ=="
+      },
+      {
+        "label": "rabbitmq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxV7FA_0pC0-G2kkH5G543v7gpCu_FcaiaGyXqMRQn6nLklaNaWLt3RglP32MmGzdTtbB7ztF8xvORIC6Re0TNTxKabl4FOgx7UR4HChghrkJ-0hchzfNiwfFTQ_ail91me-ruqwg="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHArbxHVt3XrkyDmh6E3dtoM50C_ibyMYzWg2QVJlskRaNNrI5DATOdX7YFS-p9d5ZZxVwrAMTYV-9IH28-cpG7ufszZV9DJVS8qlgdqf8_qqHoYlStwIELB44BmI-LMr4OBATSjpy8Z-CzhEUnxyNXcKEs50sr_ihMEwRk"
+      },
+      {
+        "label": "debian-handbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH5HqVIEExHslylBOKhIllMsqN7zpJvGdB64pz7Icr6LKliqdSTikkNJa6Xx3Q63zMjNklt99bBswsUKWpgNaLPdu8pGUjhYXtbvqLAYtmjOvwxoBA2_cnR9PMea9D9istpKuAIw8Qa7OEAxEtcqrQLc60ZQf232MN2Ht5"
+      },
+      {
+        "label": "debian-handbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH5HqVIEExHslylBOKhIllMsqN7zpJvGdB64pz7Icr6LKliqdSTikkNJa6Xx3Q63zMjNklt99bBswsUKWpgNaLPdu8pGUjhYXtbvqLAYtmjOvwxoBA2_cnR9PMea9D9istpKuAIw8Qa7OEAxEtcqrQLc60ZQf232MN2Ht5"
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE0_V1rSmx2gstzbJtYxkq7h7-RabRERiLqbB1fvXI8fzAkGE2h8_h4NtmDLCZeuTDmJQJNqg6W3Kg1ItVfw-EAqeOwMqOhcbKmZ3WJwdaK6Tet8uVO3Vej5JW3gW5EvJmzeuB6QMfXwM66nlKxRsYwwUz3K_doLxLqJqhWHatSO7pwcEIL1v41TU="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXAJdreCX59j3yF95A1y22diTDCBNzxVeZGb1Xv-q1q60C1mljH7AmXjIuYjYqtuWp_waysAfOB6viaRLtWhgGre5Br5n2BUXubMlA-Ba9qtuYyLZC8-wNwmPOWqsA8aMRQ=="
+      },
+      {
+        "label": "stackexchange",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwIO4ZxmIEOMvMg7A9Q8NciJPlo8KJ6pSlubauhcLsVF2R0cUbcjB4Ges994BjI25krpgXby3ua8l3zwYKjWCI5amHsX95hpNJWl4OiVBwKp5bOD5VbhtQFCcR2-Vs9aW4zPn7u4bjTCu7OsM869QgQivopVPNw59HNusl6x84VGXXCBcdhE40pKMkptQNYhTpnplFdGRT-CVCFyw899KULvj2PqFmfVM-t1YafYkIBShW2WnLucdt"
+      },
+      {
+        "label": "debian-handbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH5HqVIEExHslylBOKhIllMsqN7zpJvGdB64pz7Icr6LKliqdSTikkNJa6Xx3Q63zMjNklt99bBswsUKWpgNaLPdu8pGUjhYXtbvqLAYtmjOvwxoBA2_cnR9PMea9D9istpKuAIw8Qa7OEAxEtcqrQLc60ZQf232MN2Ht5"
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE0_V1rSmx2gstzbJtYxkq7h7-RabRERiLqbB1fvXI8fzAkGE2h8_h4NtmDLCZeuTDmJQJNqg6W3Kg1ItVfw-EAqeOwMqOhcbKmZ3WJwdaK6Tet8uVO3Vej5JW3gW5EvJmzeuB6QMfXwM66nlKxRsYwwUz3K_doLxLqJqhWHatSO7pwcEIL1v41TU="
+      },
+      {
+        "label": "debian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE0_V1rSmx2gstzbJtYxkq7h7-RabRERiLqbB1fvXI8fzAkGE2h8_h4NtmDLCZeuTDmJQJNqg6W3Kg1ItVfw-EAqeOwMqOhcbKmZ3WJwdaK6Tet8uVO3Vej5JW3gW5EvJmzeuB6QMfXwM66nlKxRsYwwUz3K_doLxLqJqhWHatSO7pwcEIL1v41TU="
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfivWdYpGZW9w9KaS5hhclutT0H2ZQdh-y50LhRZ9skWyHh9dje72-8-dayDNyxhb-47yie_GJaKpK-7j3uWdlKA_1rdo5tDL-KCMq-yvUDddbYbzO3ADe7TFuRfAX8j7ab-2OqdYHOv9-Jp511iqQV4Ldlw=="
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfivWdYpGZW9w9KaS5hhclutT0H2ZQdh-y50LhRZ9skWyHh9dje72-8-dayDNyxhb-47yie_GJaKpK-7j3uWdlKA_1rdo5tDL-KCMq-yvUDddbYbzO3ADe7TFuRfAX8j7ab-2OqdYHOv9-Jp511iqQV4Ldlw=="
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfivWdYpGZW9w9KaS5hhclutT0H2ZQdh-y50LhRZ9skWyHh9dje72-8-dayDNyxhb-47yie_GJaKpK-7j3uWdlKA_1rdo5tDL-KCMq-yvUDddbYbzO3ADe7TFuRfAX8j7ab-2OqdYHOv9-Jp511iqQV4Ldlw=="
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfivWdYpGZW9w9KaS5hhclutT0H2ZQdh-y50LhRZ9skWyHh9dje72-8-dayDNyxhb-47yie_GJaKpK-7j3uWdlKA_1rdo5tDL-KCMq-yvUDddbYbzO3ADe7TFuRfAX8j7ab-2OqdYHOv9-Jp511iqQV4Ldlw=="
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfivWdYpGZW9w9KaS5hhclutT0H2ZQdh-y50LhRZ9skWyHh9dje72-8-dayDNyxhb-47yie_GJaKpK-7j3uWdlKA_1rdo5tDL-KCMq-yvUDddbYbzO3ADe7TFuRfAX8j7ab-2OqdYHOv9-Jp511iqQV4Ldlw=="
+      },
+      {
+        "label": "baeldung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfivWdYpGZW9w9KaS5hhclutT0H2ZQdh-y50LhRZ9skWyHh9dje72-8-dayDNyxhb-47yie_GJaKpK-7j3uWdlKA_1rdo5tDL-KCMq-yvUDddbYbzO3ADe7TFuRfAX8j7ab-2OqdYHOv9-Jp511iqQV4Ldlw=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMGU4EnaePH_lcjB7HNtmfrYvpCyJ-HLcQ1kJb196w0WYGfABa-pFwZF9BUyLKXhjxA3kyMP1xmcJTV9_tLWVygO82Z4EamZJtymJkzg04oPWw4LrG9QjEouRqSnLePNo7Bw0ewwuOGORViC3d84h11gE="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu6R80l1x6GpCffJd5x5zymHis0rZr5ARWOnSxzQpHvzf9hR2twTEwLGaji-ZvuLC4tGx3vOrLbznVobiphq_KQf3qcOprlMeRGINE2_Vu0iHSBbzMtqbK9SkpyiHSe-YoDZXiY4ByXV5uQnrXy6Vndw=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu6R80l1x6GpCffJd5x5zymHis0rZr5ARWOnSxzQpHvzf9hR2twTEwLGaji-ZvuLC4tGx3vOrLbznVobiphq_KQf3qcOprlMeRGINE2_Vu0iHSBbzMtqbK9SkpyiHSe-YoDZXiY4ByXV5uQnrXy6Vndw=="
+      },
+      {
+        "label": "otland",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEs70YWy-stwY9kSkC5IdALX9CGlwzqDZESmQlKaqEBi0OVLS8p8TANBs5v6Snz8zlsxs8w_vqZKSkvF9zNx-5LnEJYCPNMjQJ7zNqdZNkEtkPUqywKpAZInbjoeMWhgzRSvml0T8Stwjvbw5twLmVBFoC_WI="
+      },
+      {
+        "label": "otland",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEs70YWy-stwY9kSkC5IdALX9CGlwzqDZESmQlKaqEBi0OVLS8p8TANBs5v6Snz8zlsxs8w_vqZKSkvF9zNx-5LnEJYCPNMjQJ7zNqdZNkEtkPUqywKpAZInbjoeMWhgzRSvml0T8Stwjvbw5twLmVBFoC_WI="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEL_t7RzsPL1s3pjHkwJvvLrRrpDh_diuVYNR1DjnL3siGV_XscMgefc1wp0W2abjXQgxvPXe4Q5ZmVNtvNA_vRUMW5Il1VgPRYGZa_0feEa2a_JNky7dMExwWideB3n6L9wNfLEaZEiEU21mddTJb51nBDfVIYEhYRkrGrv9NCfh3nEUl4G0uPE8FdRGb4gdpJekJG434TaHkX3xhavw_VSk5UA=="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ACCavLBdlxd7liYudNjsAZiXAWubDFbiRdRdl2N7PtNxYTo6s5uuSi4Ozb-MdMBKHG8OecK9CqTm45so0eH1Fq0BuyPSrAt8xfNV-VelcrjGOfQ0n4rZ2A5newHHoSe9e6BFAoVyy2E-U5mKU7Uioc6RtflYqQw82a8VUllSZsPaBsqspFNvsERz94CgUvOQPvLGl8JYpn5hQ0Am8FCJdoBWFRTbXVua2hfBwSiH4Xjiz_yF90="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEL_t7RzsPL1s3pjHkwJvvLrRrpDh_diuVYNR1DjnL3siGV_XscMgefc1wp0W2abjXQgxvPXe4Q5ZmVNtvNA_vRUMW5Il1VgPRYGZa_0feEa2a_JNky7dMExwWideB3n6L9wNfLEaZEiEU21mddTJb51nBDfVIYEhYRkrGrv9NCfh3nEUl4G0uPE8FdRGb4gdpJekJG434TaHkX3xhavw_VSk5UA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_V5Ax16Oon90SZxGTVYJRyS5vmoF53XBgvRKn5mog0xf-q8DdrYCHX_-Haiy8RtUAzV_S7rlQeSUT6AI2c_5FY3d5zInGb_9SYdy2bVbbl5xMd2B3kLFM5ss98YzE4y5Mjt_0Q=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE-pKpxngYRCiM4JkP-LGTXtQkNPQ_ixRDHWkw0iJdvthd5Z5wcseUWvMxpQ-n88CFxhTMkmTxsxHtIuV79wYtrqybW1pRc18Ga-wKdgf1JSozrKYfGwGVX1tRuSdBUAb0G9w="
+      },
+      {
+        "label": "otland",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEs70YWy-stwY9kSkC5IdALX9CGlwzqDZESmQlKaqEBi0OVLS8p8TANBs5v6Snz8zlsxs8w_vqZKSkvF9zNx-5LnEJYCPNMjQJ7zNqdZNkEtkPUqywKpAZInbjoeMWhgzRSvml0T8Stwjvbw5twLmVBFoC_WI="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEL_t7RzsPL1s3pjHkwJvvLrRrpDh_diuVYNR1DjnL3siGV_XscMgefc1wp0W2abjXQgxvPXe4Q5ZmVNtvNA_vRUMW5Il1VgPRYGZa_0feEa2a_JNky7dMExwWideB3n6L9wNfLEaZEiEU21mddTJb51nBDfVIYEhYRkrGrv9NCfh3nEUl4G0uPE8FdRGb4gdpJekJG434TaHkX3xhavw_VSk5UA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg_V5Ax16Oon90SZxGTVYJRyS5vmoF53XBgvRKn5mog0xf-q8DdrYCHX_-Haiy8RtUAzV_S7rlQeSUT6AI2c_5FY3d5zInGb_9SYdy2bVbbl5xMd2B3kLFM5ss98YzE4y5Mjt_0Q=="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmTkzlEy9RvBjat3HN38jDooEEm0va9jq5waH5vln09e_ZRE4NNj-VZ1VLchEaMlulNClhI7CDHV0DeGUBScZNOZnCIi15m3GXVt5l622wcO9Srxgl5C00SKgvIE_rLg2_Ntr34orGdzp9Fvp1V-HI4vImS2qdYiHmxAndBAmpIDzmbH4efD24l5zkqeU-WDL49JJSFh2ZkxMK7Erg4Ak6Dw5bfhyTqk_fNpmoJIqmJYTwxw=="
+      },
+      {
+        "label": "otland",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEs70YWy-stwY9kSkC5IdALX9CGlwzqDZESmQlKaqEBi0OVLS8p8TANBs5v6Snz8zlsxs8w_vqZKSkvF9zNx-5LnEJYCPNMjQJ7zNqdZNkEtkPUqywKpAZInbjoeMWhgzRSvml0T8Stwjvbw5twLmVBFoC_WI="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7ACCavLBdlxd7liYudNjsAZiXAWubDFbiRdRdl2N7PtNxYTo6s5uuSi4Ozb-MdMBKHG8OecK9CqTm45so0eH1Fq0BuyPSrAt8xfNV-VelcrjGOfQ0n4rZ2A5newHHoSe9e6BFAoVyy2E-U5mKU7Uioc6RtflYqQw82a8VUllSZsPaBsqspFNvsERz94CgUvOQPvLGl8JYpn5hQ0Am8FCJdoBWFRTbXVua2hfBwSiH4Xjiz_yF90="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9fB-NAcNRSEBwRsNDL-XzWoNQGhMFCsW91PjHdMN9N8Xd_9LJIqva8aUNZ_6GshUmh4V92Ff9zhqJsZlOSQlJrOFaFGAIPckhdPkORXuHq7kAsoyD3lLqTJjWQ2rXsu2JzPo3SjyQ4Q=="
+      },
+      {
+        "label": "raspberrypi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX0H-LtAX8I7PqkyJdzXqUz2yNRKIvUvUI4Mo1WmbEtCm63CCBwQS43IalOSI5nO8Al1hvpCJaFf7MaxzNJHG4wzqH_qY-jWBr0Q8LdNkKBXeezqGX6UidHwz0_vydqDn1G3nn21LyyqLIlDT757s="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmhDIMf7MKDJ6GZJ2i8dz1wR3bALDZMHF8Lm4XuQ1HwobGRVo-kXrP8v6o-BK2GZl1ZQQTQEbPpL3eDMPK7eS0GCngEKlgVMLbjuWSXYrwx2l8veO81egxk61vKelBHVcQ8lsmxdiAlmV65OE3v-T27RSkJmFFm6-80rZjbCVK3EcYQMyQAIiSxsGu7E_AXuLOtXxnoV5ygNuSSVRH47G2e1EPxs4w87_W93D"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQmhDIMf7MKDJ6GZJ2i8dz1wR3bALDZMHF8Lm4XuQ1HwobGRVo-kXrP8v6o-BK2GZl1ZQQTQEbPpL3eDMPK7eS0GCngEKlgVMLbjuWSXYrwx2l8veO81egxk61vKelBHVcQ8lsmxdiAlmV65OE3v-T27RSkJmFFm6-80rZjbCVK3EcYQMyQAIiSxsGu7E_AXuLOtXxnoV5ygNuSSVRH47G2e1EPxs4w87_W93D"
+      },
+      {
+        "label": "realtechtalk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzQ6zlg4yt-fUkHrup2nu7prPl0RQMtdguT5pX0ctL2dScbzEeZX0fOD3VI9Q7gxT2heIJB3FrUbz430yPaku9Wzwst2EcvfI98eh5h5Musw15ndwMf83zuxAUkEyj1_9C"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9fB-NAcNRSEBwRsNDL-XzWoNQGhMFCsW91PjHdMN9N8Xd_9LJIqva8aUNZ_6GshUmh4V92Ff9zhqJsZlOSQlJrOFaFGAIPckhdPkORXuHq7kAsoyD3lLqTJjWQ2rXsu2JzPo3SjyQ4Q=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu6R80l1x6GpCffJd5x5zymHis0rZr5ARWOnSxzQpHvzf9hR2twTEwLGaji-ZvuLC4tGx3vOrLbznVobiphq_KQf3qcOprlMeRGINE2_Vu0iHSBbzMtqbK9SkpyiHSe-YoDZXiY4ByXV5uQnrXy6Vndw=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

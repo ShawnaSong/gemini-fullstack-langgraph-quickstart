@@ -1,0 +1,1085 @@
+{
+  "file_name": "state_result_295.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.637556",
+  "data": {
+    "messages": [
+      {
+        "content": "Сколько параметров в gpt o1 и gpt 4?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "dc3c76e5-964c-4798-81b3-89cd9f7e640c",
+        "example": false
+      },
+      {
+        "content": "GPT-o1 and GPT-4 have different architectures and parameter counts. While OpenAI has not officially released the exact number of parameters for GPT-4, it is estimated to have roughly 1.8 trillion parameters [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-0) [the-decoder](https://vertexaisearch.cloud.google.com/id/1-1) [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-0). This estimate is supported by multiple sources and AI experts [the-decoder](https://vertexaisearch.cloud.google.com/id/1-1) [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-0). The architecture is rumored to consist of eight models, with each internal model containing approximately 220 billion parameters [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-0].\n\nGPT-o1 has different versions with varying parameter counts:\n\n*   **GPT-o1:** Some sources state that GPT-o1 has 175 billion parameters [leanware](https://vertexaisearch.cloud.google.com/id/0-2) [parametric-architecture](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **GPT-o1 (15B):** One variant of GPT-o1 has 15 billion parameters [horay](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **GPT-o1 (10B):** A more compact version of GPT-o1 has 10 billion parameters [horay](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **GPT-o1-mini:** This model contains approximately 100 billion parameters [substack](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **GPT-o1-preview:** This model features approximately 300 billion parameters [substack](https://vertexaisearch.cloud.google.com/id/0-7).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "3369cce5-3efd-4104-bdb2-027f28a97cc5",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "GPT-O1 number of parameters",
+      "GPT-4 number of parameters",
+      "What is the exact architecture used in GPT-o1 and GPT-4 models, including specific details about the transformer layers, attention mechanisms, and any other novel architectural components?",
+      "How do the training datasets for GPT-o1 and GPT-4 differ in size, composition, and diversity, and how do these differences impact the models' performance?",
+      "What are the reasoning tokens in GPT-o1, and how do they function within the model's architecture to improve reasoning capabilities?",
+      "What specific benchmarks were used to evaluate GPT-4.1 mini, and how does it compare to GPT-4o in those benchmarks?"
+    ],
+    "web_research_result": [
+      "GPT-o1 is a series of advanced AI models developed by OpenAI, designed with enhanced reasoning and problem-solving capabilities [forbes](https://vertexaisearch.cloud.google.com/id/0-0) [plainenglish](https://vertexaisearch.cloud.google.com/id/0-1). Key features of GPT-o1 include chain-of-thought reasoning, improved context understanding, and the ability to handle complex tasks [leanware](https://vertexaisearch.cloud.google.com/id/0-2) [stockimg](https://vertexaisearch.cloud.google.com/id/0-3) [medium](https://vertexaisearch.cloud.google.com/id/0-4).\n\nHere's a breakdown of the number of parameters associated with different GPT-o1 models:\n\n*   **GPT-o1:** Some sources state that GPT-o1 has 175 billion parameters [leanware](https://vertexaisearch.cloud.google.com/id/0-2) [parametric-architecture](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **GPT-o1 (15B):** One variant of GPT-o1 has 15 billion parameters and features a transformer-based architecture with 32 layers, 24 attention heads, and a hidden size of 2048 [horay](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **GPT-o1 (10B):** A more compact version of GPT-o1 with 10 billion parameters is designed for efficient performance and rapid response tasks [horay](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **GPT-o1-mini:** This model contains approximately 100 billion parameters [substack](https://vertexaisearch.cloud.google.com/id/0-7). It is optimized for coding tasks and is faster and more efficient than the o1-preview [forbes](https://vertexaisearch.cloud.google.com/id/0-0) [chetty](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **GPT-o1-preview:** This model features approximately 300 billion parameters [substack](https://vertexaisearch.cloud.google.com/id/0-7).\n\nGPT-o1 also utilizes \"reasoning tokens\" as part of its architecture, enabling it to break down tasks into smaller, logical steps [medium](https://vertexaisearch.cloud.google.com/id/0-9) [manageengine](https://vertexaisearch.cloud.google.com/id/0-10). These tokens occupy space in the model's context window and are billed as output tokens [chetty](https://vertexaisearch.cloud.google.com/id/0-8). The context window for both o1-preview and o1-mini is 128,000 tokens [chetty](https://vertexaisearch.cloud.google.com/id/0-8).\n",
+      "GPT-4's architecture and parameter count have been subjects of much discussion and speculation. While OpenAI has not officially released the exact number of parameters, it is estimated that GPT-4 has roughly 1.8 trillion parameters [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-0). This estimate has been supported by multiple sources and AI experts [the-decoder](https://vertexaisearch.cloud.google.com/id/1-1) [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-0). Specifically, the architecture is rumored to consist of eight models, with each internal model containing approximately 220 billion parameters [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-0). This makes GPT-4 over ten times larger than its predecessor, GPT-3 [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-0).\n\nThe large number of parameters allows GPT-4 to store vast amounts of information and patterns from the training data, generating more nuanced and contextually accurate text [aimultiple](https://vertexaisearch.cloud.google.com/id/1-2). The model was pre-trained on an extensive dataset comprising diverse text sources, including books, articles, websites, and other written content [aimultiple](https://vertexaisearch.cloud.google.com/id/1-2). This training data spans a wide range of topics, styles, and languages [aimultiple](https://vertexaisearch.cloud.google.com/id/1-2). GPT-4 utilizes a combination of an advanced Transformer architecture, self-attention mechanisms, and reinforcement learning to produce human-like text and even process multimodal inputs like images [aimultiple](https://vertexaisearch.cloud.google.com/id/1-2).\n\nGPT-4 has undergone significant enhancements since its initial release, including the launch of GPT-4 Turbo in November 2023, a faster and more cost-effective variant [aimultiple](https://vertexaisearch.cloud.google.com/id/1-2). GPT-4 now supports multimodal inputs, allowing users to incorporate images alongside text prompts [aimultiple](https://vertexaisearch.cloud.google.com/id/1-2). The model can analyze images, generate descriptive text based on images, or even create images based on textual descriptions [aimultiple](https://vertexaisearch.cloud.google.com/id/1-2).\n\nIn April 2025, OpenAI released GPT-4.1, a new family of general-purpose models with a strong developer focus [techtarget](https://vertexaisearch.cloud.google.com/id/1-3). The GPT-4.1 series includes three models: GPT-4.1, GPT-4.1 mini, and GPT-4.1 nano [techtarget](https://vertexaisearch.cloud.google.com/id/1-3). These models can process up to 1 million tokens of context [openai](https://vertexaisearch.cloud.google.com/id/1-4). GPT-4.1 mini is a significant leap in small model performance, even beating GPT-4o in many benchmarks [openai](https://vertexaisearch.cloud.google.com/id/1-4). GPT-4.1 nano is the fastest and cheapest model available, delivering exceptional performance at a small size [openai](https://vertexaisearch.cloud.google.com/id/1-4).\n\nRumors around GPT-5 suggest a 5-50 trillion parameter model [medium](https://vertexaisearch.cloud.google.com/id/1-5). However, Sam Altman has stated that the era of scaling just by parameters is over and that GPT-5 will be smarter with better architecture, more efficiency, and improved memory [medium](https://vertexaisearch.cloud.google.com/id/1-5).\n",
+      "The search results provide some details regarding the architectures of GPT-o1 and GPT-4. Here's a summary of the key findings:\n\n**GPT-4 Architecture**\n\n*   **Transformer-based Architecture:** GPT-4 is built upon the transformer architecture [kaggle](https://vertexaisearch.cloud.google.com/id/2-0) [medium](https://vertexaisearch.cloud.google.com/id/2-1) [plainconcepts](https://vertexaisearch.cloud.google.com/id/2-2). This includes key components like an embedding layer, positional encoding, and stacked transformer blocks [kaggle](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Transformer Blocks:** Each block incorporates multi-head self-attention, layer normalization, feed-forward neural networks, and residual connections [kaggle](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Multi-Head Self-Attention:** This mechanism allows the model to weigh the relevance of different words in a sentence using query, key, and value vectors [gptfrontier](https://vertexaisearch.cloud.google.com/id/2-3) [kaggle](https://vertexaisearch.cloud.google.com/id/2-0). Scaled dot-product attention is used to calculate attention scores, and multiple attention heads are combined [kaggle](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Mixture of Experts (MoE):** GPT-4 uses a Mixture of Experts (MoE) architecture to improve scalability and specialization [acorn](https://vertexaisearch.cloud.google.com/id/2-4) [medium](https://vertexaisearch.cloud.google.com/id/2-1) [klu](https://vertexaisearch.cloud.google.com/id/2-5). It consists of multiple expert neural networks, each specializing in specific tasks or data types [acorn](https://vertexaisearch.cloud.google.com/id/2-4) [medium](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   GPT-4 consists of 16 expert models, each with approximately 111 billion parameters [klu](https://vertexaisearch.cloud.google.com/id/2-5) [reddit](https://vertexaisearch.cloud.google.com/id/2-6).\n    *   During inference, two experts are activated per query, resulting in approximately 280 billion parameters being used [klu](https://vertexaisearch.cloud.google.com/id/2-5).\n    *   It also uses 55 billion shared parameters for attention [klu](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Parameters:** GPT-4 is estimated to have around 1.8 trillion parameters [acorn](https://vertexaisearch.cloud.google.com/id/2-4) [klu](https://vertexaisearch.cloud.google.com/id/2-5) [reddit](https://vertexaisearch.cloud.google.com/id/2-6).\n*   **Context Length:** It supports context lengths of up to 32,000 tokens [klu](https://vertexaisearch.cloud.google.com/id/2-5). Some sources mention a context window of 128,000 tokens for GPT-4 Turbo and GPT-4o [acorn](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Multimodal Capabilities:** GPT-4 can process different data types by converting them into a textual format [kaggle](https://vertexaisearch.cloud.google.com/id/2-0). It can handle text directly, process images by converting pixel data into textual descriptions (using models like CLIP), convert audio to text using speech-to-text models, and represent structured data as text through templates or descriptive sentences [kaggle](https://vertexaisearch.cloud.google.com/id/2-0). It may use a combination of Vision Transformer (ViT) and Flamingo visual language model for image processing [medium](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Training Details:** GPT-4 was trained on approximately 25,000 Nvidia A100 GPUs over 90-100 days, using a dataset of approximately 13 trillion tokens [acorn](https://vertexaisearch.cloud.google.com/id/2-4) [klu](https://vertexaisearch.cloud.google.com/id/2-5). The training cost is estimated to be around $63 million [reddit](https://vertexaisearch.cloud.google.com/id/2-6).\n*   **Inference Details:** Inference runs on clusters of 128 A100 GPUs, leveraging 8-way tensor parallelism and 16-way pipeline parallelism [the-decoder](https://vertexaisearch.cloud.google.com/id/2-8) [klu](https://vertexaisearch.cloud.google.com/id/2-5).\n\n**GPT-o1 Architecture**\n\n*   **Transformer-based Architecture:** GPT-o1 is also built on a transformer-based architecture [leanware](https://vertexaisearch.cloud.google.com/id/2-9) [medium](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Chain-of-Thought Reasoning:** GPT-o1 models are trained to utilize chain-of-thought reasoning, where the model thinks through problems step-by-step before providing an answer [forbes](https://vertexaisearch.cloud.google.com/id/2-11) [leanware](https://vertexaisearch.cloud.google.com/id/2-9) [medium](https://vertexaisearch.cloud.google.com/id/2-12) [medium](https://vertexaisearch.cloud.google.com/id/2-13). This is a key differentiator from previous GPT models [medium](https://vertexaisearch.cloud.google.com/id/2-14) [medium](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **Reinforcement Learning:** The models are trained via reinforcement learning to consistently employ chain-of-thought reasoning [medium](https://vertexaisearch.cloud.google.com/id/2-12) [gitconnected](https://vertexaisearch.cloud.google.com/id/2-15). This training enhances the models’ ability to refine their thinking process, explore different strategies, and recognize mistakes.\n [gitconnected](https://vertexaisearch.cloud.google.com/id/2-15) [medium](https://vertexaisearch.cloud.google.com/id/2-12)*   **Parameters:** GPT-o1 has 175 billion parameters.\n [leanware](https://vertexaisearch.cloud.google.com/id/2-9)*   **Context Window:** GPT-o1 can handle a massive context window of up to 128,000 tokens.\n [medium](https://vertexaisearch.cloud.google.com/id/2-14)*   **Multimodal AI:** GPT-o1 processes both text and images.  [leanware](https://vertexaisearch.cloud.google.com/id/2-9)In image processing, it uses a Vision Transformer (ViT).\n [medium](https://vertexaisearch.cloud.google.com/id/2-1)*   **Reasoning Tokens:** GPT-o1 introduces reasoning tokens that enable the model to break down tasks into smaller logical steps.\n [medium](https://vertexaisearch.cloud.google.com/id/2-14)*   **Training Data:** GPT-o1 models were pre-trained on diverse datasets, including publicly available data, proprietary data accessed through partnerships, and custom datasets developed in-house.\n [lifearchitect](https://vertexaisearch.cloud.google.com/id/2-16) [gitconnected](https://vertexaisearch.cloud.google.com/id/2-15)*   **Limitations:** GPT-o1 has higher computational and memory requirements and slower response times compared to previous models.\n [medium](https://vertexaisearch.cloud.google.com/id/2-12)\n**Key Differences Between GPT-4 and GPT-o1**\n\n*   **Reasoning:** GPT-o1 is specifically designed for tasks that involve deep reasoning and multi-step problem-solving, while GPT-4 is more focused on language generation.\n [medium](https://vertexaisearch.cloud.google.com/id/2-14)*   **Chain-of-Thought:** GPT-o1 uses chain-of-thought reasoning, which allows it to break down complex problems into sequential steps, while GPT-4 does not have this capability.\n [forbes](https://vertexaisearch.cloud.google.com/id/2-11) [medium](https://vertexaisearch.cloud.google.com/id/2-12) [medium](https://vertexaisearch.cloud.google.com/id/2-13)*   **Training:** GPT-o1 is trained with reinforcement learning to refine its chain of thought and improve reasoning strategies, while GPT-4 is not.\n [medium](https://vertexaisearch.cloud.google.com/id/2-12) [gitconnected](https://vertexaisearch.cloud.google.com/id/2-15)*   **Performance:** GPT-o1 outperforms GPT-4 in various domains requiring complex reasoning, such as coding, mathematics, and general science.\n [medium](https://vertexaisearch.cloud.google.com/id/2-13)*   **Speed:** GPT-o1 is slower than GPT-4 because it takes more time to think through problems.\n [forbes](https://vertexaisearch.cloud.google.com/id/2-11) [medium](https://vertexaisearch.cloud.google.com/id/2-14)\nPlease note that some details, especially regarding the architecture of GPT-4, are based on industry reports and leaked information, as OpenAI has not disclosed all the specifics.\n [acorn](https://vertexaisearch.cloud.google.com/id/2-4) [medium](https://vertexaisearch.cloud.google.com/id/2-1)",
+      "It's challenging to provide precise details on the exact training datasets of GPT-o1 and GPT-4 due to OpenAI's decision to keep those details confidential, citing competitive and safety concerns [medium](https://vertexaisearch.cloud.google.com/id/3-0). However, based on available information, here's a comparison of how the training datasets likely differ and the impact of those differences: \n\n **1. Size:** \n\n *   While the specific size of GPT-4's training data hasn't been disclosed, it is widely believed to be significantly larger than that of GPT-3 [grammarly](https://vertexaisearch.cloud.google.com/id/3-1). GPT-3 was trained on over a trillion words [grammarly](https://vertexaisearch.cloud.google.com/id/3-1). GPT-o1's dataset is expected to be similar to GPT-4 [lifearchitect](https://vertexaisearch.cloud.google.com/id/3-2).\n *   GPT-4 has hundreds of billions of parameters, enabling it to store vast amounts of information and patterns from the training data [aimultiple](https://vertexaisearch.cloud.google.com/id/3-3). \n\n **2. Composition:** \n\n *   **GPT-4:** Trained on an extensive dataset comprising diverse text sources, including books, articles, websites, and other written content [aimultiple](https://vertexaisearch.cloud.google.com/id/3-3) [data-sleek](https://vertexaisearch.cloud.google.com/id/3-4). It likely includes a larger portion of code (e.g., GitHub) and technical content to improve its abilities in math, science, and coding [medium](https://vertexaisearch.cloud.google.com/id/3-0). It is also a multimodal model, trained on image data in addition to text [medium](https://vertexaisearch.cloud.google.com/id/3-0) [openai](https://vertexaisearch.cloud.google.com/id/3-5).\n *   **GPT-o1:** Pre-trained on diverse datasets, including a mix of publicly available data, proprietary data accessed through partnerships, and custom datasets developed in-house [lifearchitect](https://vertexaisearch.cloud.google.com/id/3-2) [arxiv](https://vertexaisearch.cloud.google.com/id/3-6). Public data includes web data, open-source datasets, reasoning data, and scientific literature [arxiv](https://vertexaisearch.cloud.google.com/id/3-6).\n\n **3. Diversity:** \n\n *   **GPT-4:** The training data spans a wide range of topics, styles, and languages [aimultiple](https://vertexaisearch.cloud.google.com/id/3-3). To prevent the model from refusing valid requests, a diverse dataset from various sources is collected [openai](https://vertexaisearch.cloud.google.com/id/3-5).\n *  **GPT-o1:** To enhance capabilities, OpenAI formed partnerships to access high-value non-public datasets, including paywalled content, specialized archives, and other domain-specific datasets [arxiv](https://vertexaisearch.cloud.google.com/id/3-6).\n\n **4. Impact on Model Performance:** \n\n *   **GPT-4:** Shows human-level performance on various professional and academic benchmarks [openai](https://vertexaisearch.cloud.google.com/id/3-5). It is more reliable, creative, and able to handle much more nuanced instructions than GPT-3.5 [openai](https://vertexaisearch.cloud.google.com/id/3-5). GPT-4o excels in natural language processing and is quicker and more efficient when handling typical conversational AI tasks [medium](https://vertexaisearch.cloud.google.com/id/3-7).\n *   **GPT-o1:** Excels in complex reasoning tasks and benchmarks, such as advanced academic and science questions [cointelegraph](https://vertexaisearch.cloud.google.com/id/3-8). It utilizes a step-by-step chain-of-thought process to handle challenging problems [cointelegraph](https://vertexaisearch.cloud.google.com/id/3-8) [wikipedia](https://vertexaisearch.cloud.google.com/id/3-9). It is designed for complex tasks requiring extensive commonsense knowledge [abaka](https://vertexaisearch.cloud.google.com/id/3-10).\n\n **5. Key Differences & Considerations** \n\n *   **Reasoning vs. General Language:** o1 models are better for tasks needing heavy reasoning, while GPT-4 models work better for tasks needing quick answers or image inputs [cointelegraph](https://vertexaisearch.cloud.google.com/id/3-8).\n *   **Cost & Accessibility:** GPT-4o is more widely accessible and affordable [cointelegraph](https://vertexaisearch.cloud.google.com/id/3-8). Accessing the o1 models through the API is more expensive [cointelegraph](https://vertexaisearch.cloud.google.com/id/3-8).\n *   **Speed:** o1 is much slower than GPT-4o [medium](https://vertexaisearch.cloud.google.com/id/3-7).\n *   **Context Window:** GPT-4 has a larger context window, allowing it to process more information before losing context [grammarly](https://vertexaisearch.cloud.google.com/id/3-1).\n *   **Data Cutoff:** GPT-4 and o1 share a training data cutoff date of October 2023 [lifearchitect](https://vertexaisearch.cloud.google.com/id/3-2).\n\n In summary, while specific dataset details are not public, the differences in training data size, composition, and diversity contribute to the distinct capabilities of each model. GPT-4 demonstrates strength in general language tasks, while the o1 model excels in complex reasoning [cointelegraph](https://vertexaisearch.cloud.google.com/id/3-8).\n",
+      "GPT-o1 is a reflective generative pre-trained transformer (GPT) that was initially released as a preview on September 12, 2024, and fully released on December 5, 2024 [wikipedia](https://vertexaisearch.cloud.google.com/id/4-0). OpenAI has emphasized that o1 is designed to complement GPT-4o, not replace it [medium](https://vertexaisearch.cloud.google.com/id/4-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/4-0). It distinguishes itself by spending more time \"thinking\" before generating an answer, which enhances its performance in complex reasoning tasks, particularly in science, mathematics, and coding [wikipedia](https://vertexaisearch.cloud.google.com/id/4-0) [medium](https://vertexaisearch.cloud.google.com/id/4-1) [datacamp](https://vertexaisearch.cloud.google.com/id/4-2).\n\n**Reasoning Tokens and Functionality:**\n\n*   **Reasoning Tokens:** GPT-o1 uses \"reasoning tokens\" to facilitate a deeper thought process [medium](https://vertexaisearch.cloud.google.com/id/4-3) [plainenglish](https://vertexaisearch.cloud.google.com/id/4-4). These tokens enable the model to break down prompts, consider various approaches, and formulate responses in a more nuanced manner [datacamp](https://vertexaisearch.cloud.google.com/id/4-2) [medium](https://vertexaisearch.cloud.google.com/id/4-5) [plainenglish](https://vertexaisearch.cloud.google.com/id/4-4) [hashnode](https://vertexaisearch.cloud.google.com/id/4-6) [reddit](https://vertexaisearch.cloud.google.com/id/4-7).\n*   **Internal Thought Process:** Reasoning tokens represent the model's internal thought process as it deconstructs the prompt [datacamp](https://vertexaisearch.cloud.google.com/id/4-2). The model simulates thought processes to consider different paths before reaching a solution [hashnode](https://vertexaisearch.cloud.google.com/id/4-6).\n*   **Step-by-Step Reasoning:** These tokens guide the system to perform step-by-step reasoning [medium](https://vertexaisearch.cloud.google.com/id/4-8). The model breaks down tasks into smaller, logical steps [medium](https://vertexaisearch.cloud.google.com/id/4-3).\n*   **Discarding Tokens:** After the reasoning tokens have served their purpose in determining the best approach, they are discarded [hashnode](https://vertexaisearch.cloud.google.com/id/4-6).\n*   **Cost and Context:** Reasoning tokens are considered in context, affecting the size of the context window, and are included in billing as completion tokens [medium](https://vertexaisearch.cloud.google.com/id/4-5).\n\n**Architectural Innovations and Reasoning Capabilities:**\n\n*   **Chain-of-Thought (CoT):** GPT-o1 excels in complex reasoning tasks, particularly through Chain-of-Thought (CoT) reasoning [leanware](https://vertexaisearch.cloud.google.com/id/4-9) [medium](https://vertexaisearch.cloud.google.com/id/4-1). Unlike earlier LLMs, GPT-o1 incorporates advanced reasoning frameworks such as Chain of Thought (CoT), Skeleton of Thought, and Tree of Thought prompting [substack](https://vertexaisearch.cloud.google.com/id/4-10).\n*   **Multi-Step Reasoning:** O1 models are optimized for methodical, multi-step reasoning [microsoft](https://vertexaisearch.cloud.google.com/id/4-11). They \"think longer\" before answering, yielding more accurate solutions on complex tasks [microsoft](https://vertexaisearch.cloud.google.com/id/4-11).\n*   **Reinforcement Learning (RL):** Reinforcement learning is a key component of GPT-o1's training, significantly contributing to its enhanced reasoning capabilities [medium](https://vertexaisearch.cloud.google.com/id/4-3) [plainenglish](https://vertexaisearch.cloud.google.com/id/4-4) [medium](https://vertexaisearch.cloud.google.com/id/4-1) [datacamp](https://vertexaisearch.cloud.google.com/id/4-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/4-0) [towardsai](https://vertexaisearch.cloud.google.com/id/4-12). Through RL, the model explores multiple reasoning paths and evaluates the effectiveness of each approach [plainenglish](https://vertexaisearch.cloud.google.com/id/4-4).\n*   **Structured Problem Solving:** GPT-o1 engages in a multi-step reasoning process that includes decomposition, exploration, evaluation, and refinement [substack](https://vertexaisearch.cloud.google.com/id/4-10). The model divides the problem into subproblems, considers multiple approaches, tests potential solutions, and refines its strategies if an approach fails [substack](https://vertexaisearch.cloud.google.com/id/4-10).\n*   **System 2 Thinking:** GPT-o1 provides models the ability to perform System 2 thinking by introducing “reasoning tokens”. Re [github](https://vertexaisearch.cloud.google.com/id/4-13)asoning is System 2 thinking, where models or systems take time to deliberate to solve more complex problems.\n\n* [github](https://vertexaisearch.cloud.google.com/id/4-13)*Reasoning Patterns:**\n\n*   Recent studies have identified six reasoning patterns in GPT-o1: Systematic Analysis (SA), Method Reuse (MR), Divide and Conquer (DC), Self-Refinement (SR), Context Identification (CI), and Emphasizing Constraints (EC). Di [substack](https://vertexaisearch.cloud.google.com/id/4-10)vide and Conquer (DC) and Self-Refinement (SR) are particularly prominent in tasks like math and coding.\n\n* [substack](https://vertexaisearch.cloud.google.com/id/4-10)*Limitations:**\n\n*   **Computational Cost:** O1 usually requires more computing time and power than other GPT models because it generates long chains of thought before making the final response.\n*  [wikipedia](https://vertexaisearch.cloud.google.com/id/4-0)  **Hallucination:** Despite improvements, o1 models still hallucinate in specific scenarios and may even appear more convincing due to their detailed responses.\n*  [medium](https://vertexaisearch.cloud.google.com/id/4-1)  **Hidden Reasoning Process:** OpenAI forbids users from trying to reveal o1's chain of thought, which is hidden by design.\n [wikipedia](https://vertexaisearch.cloud.google.com/id/4-0)",
+      "GPT-4.1 mini is a mid-tier model that delivers performance competitive with GPT-4o while significantly reducing latency and cost [openrouter](https://vertexaisearch.cloud.google.com/id/5-0) [artificialanalysis](https://vertexaisearch.cloud.google.com/id/5-1). It often matches or exceeds GPT-4o in various benchmarks, including instruction following and image-based reasoning [datacamp](https://vertexaisearch.cloud.google.com/id/5-2) [openai](https://vertexaisearch.cloud.google.com/id/5-3). OpenAI released GPT-4.1 on April 14, 2025 [medium](https://vertexaisearch.cloud.google.com/id/5-4).\n\nHere's a comparison of specific benchmarks used to evaluate GPT-4.1 mini and how it compares to GPT-4o:\n\n**General Performance & Intelligence:**\n\n*   **MMLU (Massive Multitask Language Understanding):** GPT-4.1 mini scores 80.1%, even higher than GPT-4o mini [openai](https://vertexaisearch.cloud.google.com/id/5-3). GPT-4.1 achieved 87.3% compared to GPT-4o's 81.4% in Multilingual MMLU [medium](https://vertexaisearch.cloud.google.com/id/5-4). GPT-4o (Nov '24) has a MMLU score of 0.748 [artificialanalysis](https://vertexaisearch.cloud.google.com/id/5-5).\n*   **Intelligence Index:** GPT-4.1 has an Intelligence Index of 53 [artificialanalysis](https://vertexaisearch.cloud.google.com/id/5-6). GPT-4o (Nov '24) has an Intelligence Index of 41 [artificialanalysis](https://vertexaisearch.cloud.google.com/id/5-5).\n*   **GPQA (Graduate-Level QA):** GPT-4.1 mini scores 50.3% [openai](https://vertexaisearch.cloud.google.com/id/5-3).\n*   **IFEval:** GPT-4.1 mini scores 84.1% [openrouter](https://vertexaisearch.cloud.google.com/id/5-0).\n\n**Coding:**\n\n*   **SWE-bench Verified:** GPT-4.1 scores 54.6%, a 21.4% absolute improvement over GPT-4o [medium](https://vertexaisearch.cloud.google.com/id/5-7) [openai](https://vertexaisearch.cloud.google.com/id/5-3) [medium](https://vertexaisearch.cloud.google.com/id/5-8).\n*   **Aider Polyglot Coding:** GPT-4.1 mini scores 9.8%, higher than GPT-4o mini [openai](https://vertexaisearch.cloud.google.com/id/5-3). Another source indicates GPT-4.1 reaches 52.9% accuracy on verified tasks on the Aider polyglot diff benchmark, almost doubling GPT-4.0's performance [monterail](https://vertexaisearch.cloud.google.com/id/5-9). GPT-4.1 Mini scored 31.6% on Aider's polyglot diff benchmark [openrouter](https://vertexaisearch.cloud.google.com/id/5-0).\n*   GPT-4.1 is significantly better than GPT-4o at various coding tasks, including agentically solving coding tasks and frontend coding [openai](https://vertexaisearch.cloud.google.com/id/5-3).\n\n**Instruction Following:**\n\n*   **Scale's MultiChallenge:** GPT-4.1 scores 38.3%, a 10.5% absolute increase over GPT-4o [openai](https://vertexaisearch.cloud.google.com/id/5-3). GPT-4.1 Mini scores 35.8% [openrouter](https://vertexaisearch.cloud.google.com/id/5-0).\n*   **OpenAI's internal instruction following eval (hard subset):** GPT-4.1 scored 49.1%, compared to 29.2% for GPT-4o [datacamp](https://vertexaisearch.cloud.google.com/id/5-2).\n\n**Long Context Understanding:**\n\n*   **Video-MME (multimodal long context understanding):** GPT-4.1 sets a new state-of-the-art result, scoring 72.0% on the long, no subtitles category, a 6.7% absolute improvement over GPT-4o [openai](https://vertexaisearch.cloud.google.com/id/5-3).\n*   **Graphwalks:** GPT-4.1 scores 61.7%, a jump from GPT-4o's 41.7% [datacamp](https://vertexaisearch.cloud.google.com/id/5-2).\n*   GPT-4.1 can process up to 1 million tokens of context [openai](https://vertexaisearch.cloud.google.com/id/5-3).\n\n**Multimodal & Vision Tasks:**\n\n*   **Video-MME:** GPT-4.1 scored 72.0%, up from 65.3% with GPT-4o [datacamp](https://vertexaisearch.cloud.google.com/id/5-2).\n*   **MMMU (image-heavy benchmarks):** GPT-4.1 reaches 74.8% vs. 68.7% for GPT-4o [datacamp](https://vertexaisearch.cloud.google.com/id/5-2). GPT 4.1 Mini achieved 72.7% vs 68.7% for GPT-4o [mymeet](https://vertexaisearch.cloud.google.com/id/5-10).\n*   **MathVista (charts, graphs, and math visuals):** GPT-4.1 hits 72.2%. GPT-4.1 Mini slightly outscored GPT-4.1 at 73.1% [datacamp](https://vertexaisearch.cloud.google.com/id/5-2). GPT 4.1 Mini achieved 73.1% vs 61.4% for GPT-4o [mymeet](https://vertexaisearch.cloud.google.com/id/5-10).\n*   **CharXiv-Reasoning (Charts):** GPT 4.1 Mini achieved 56.8% vs 52.7% for GPT-4o [mymeet](https://vertexaisearch.cloud.google.com/id/5-10).\n\n**Other Metrics:**\n\n*   **Latency:** GPT-4.1 mini has a lower latency compared to GPT-4o [artificialanalysis](https://vertexaisearch.cloud.google.com/id/5-6). GPT-4.1 Mini delivers responses with 0.55 seconds average latency [mymeet](https://vertexaisearch.cloud.google.com/id/5-10).\n*   **Output Speed:** GPT-4.1 is faster compared to average, with an output speed of 128.2 tokens per second [artificialanalysis](https://vertexaisearch.cloud.google.com/id/5-6).\n*   **Context Window:** GPT-4.1 has a context window of 1 million tokens [artificialanalysis](https://vertexaisearch.cloud.google.com/id/5-6). GPT-4.1 Mini has a context window of 1,047,576 tokens [mymeet](https://vertexaisearch.cloud.google.com/id/5-10).\n*   **Pricing:** GPT-4.1 is cheaper compared to average, with a price of $3.50 per 1M Tokens (blended 3:1) [artificialanalysis](https://vertexaisearch.cloud.google.com/id/5-6). GPT-4.1 Mini cuts costs by 83% compared to GPT-4o [mymeet](https://vertexaisearch.cloud.google.com/id/5-10).\n\nGPT-4.1 mini is optimized for low latency, making it suitable for tasks like classification or autocompletion [openai](https://vertexaisearch.cloud.google.com/id/5-3). It is also more reliable when following instructions, especially for tasks involving multiple steps or formatting rules [datacamp](https://vertexaisearch.cloud.google.com/id/5-2).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDT01Vtj-XTlgwFSejHtVj8PXs55M1MZYdekc-QYLUGP2IwJQeNmGdOhMTAMXMX04gfZLWTy87jkK6GX7SiRVKYVBczZiPeXDMjBdSBIJfmrDaoWRM6Oj7xbkz-SSFM6doY-3nqFtvhnM-lWnKOp_eU9txp_uEcXiA-1g7b9FbXlnPdZYQ3o8uVyDi3oZauf9t9eGRyzDMYrQA4t2rxLiRpjAeWE3gORm67g=="
+      },
+      {
+        "label": "plainenglish",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp3Sko8kaqAkw1qUmFHsFSbfiaKn9UDR3W7WkIdLuDiu-gKGVqGFenEJTSDEtcy9vAq2Zl9qimLcHB1gJldZjpBjLCctupaoDXxdRw45AfktYMwqm3xSXYLy6CetYcYLxku4urNa_64A3dJToq3kpwzmwGl9k6TQ=="
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEwAoO4zzqBYq3xaLOp-he5TNsIuWV9ajsB-afgaUYI74vlFpPFW6RROXmmYqb3G_PdHCv0-XYwCghrrvgN3D8gqVcE_lntUtN8Znz8b60Ml9zfZ_yWi4fhGu53IyaJujSPYO27b2clVR83CTFiTdu"
+      },
+      {
+        "label": "stockimg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdmVtfDEWDeUuvWHr-KvKxg63x5zXP0FmRC7RSWlZpqfUXSEp_-Zlej4VxKfPLdJtwGHB5mIBq2kQ2aN1Gr_WyxyfrOjsVdhXZH_BvmaAIY_sXgqNDCgs4PeMWPXsFQuN0yXn-TizZN6VDCmBfDV43BZo3vOK_Ww=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvzIMZdQtzCfksrRG20xh9MQX7ZGcesglaMiqtZAPLVNZ0c9Xe5jL_3B_3L66ArlR6ihvR9ognvYKEQg0R_gUexBEK0zS5_qTyanAREoSkpGNZX4nP6d9c4CYs7u8IAO7BTq9vOTinaCLm5QqftKvPVRISpDqgncpeVILE4Wpo8G5BYFCQs_kH0qy19h0Yhj-TY_YRCy5i4-mWWhSTJGdC754YCQboptF4uTopAoSLu-JpA6EOcLQ="
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEwAoO4zzqBYq3xaLOp-he5TNsIuWV9ajsB-afgaUYI74vlFpPFW6RROXmmYqb3G_PdHCv0-XYwCghrrvgN3D8gqVcE_lntUtN8Znz8b60Ml9zfZ_yWi4fhGu53IyaJujSPYO27b2clVR83CTFiTdu"
+      },
+      {
+        "label": "parametric-architecture",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdRkXKx3V2zaZEfZd31j48o-1whgHMr2gvjjINaqtCYfO0dKXG7XkQfHWujrN7ZgAT_oFEMLnO-waIKzSm0T_Lf8TVgvSUfBlCYG73jH1jHr3Igf0OVPtrc0bZ7vU7bPnrRNa5xtZORvRHb5osWjamrldLcCw="
+      },
+      {
+        "label": "horay",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEffLSMbrjISOuv4xXfxIwYzSguHhAZ2K4Xde3k_r7eVYj51ixAqxx76QNp4Mv3sa5jMF-1EY_HFD6R_cYk9Ee9sZr6IycpMjKJvNYLO7P1yU08_qv2iyvk0GDpCkNIc-NVw2fMGPsop-ZI"
+      },
+      {
+        "label": "horay",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEffLSMbrjISOuv4xXfxIwYzSguHhAZ2K4Xde3k_r7eVYj51ixAqxx76QNp4Mv3sa5jMF-1EY_HFD6R_cYk9Ee9sZr6IycpMjKJvNYLO7P1yU08_qv2iyvk0GDpCkNIc-NVw2fMGPsop-ZI"
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEhYw3ba269_xBebIP0ov_65o9KMu97Pkr61xOeK0RT6tBVJ81TxWjhakQqc1sEyjB0DPmCMkEIOVmwH1kT95F0QAHA6Yyw9WxOgBjro0fEtRUdPipFW13tr1Qp2E7w0NG5QycYPMhlQqkoPrlrEWgx9cydlFtW0tEBYBU2kaHHA=="
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDT01Vtj-XTlgwFSejHtVj8PXs55M1MZYdekc-QYLUGP2IwJQeNmGdOhMTAMXMX04gfZLWTy87jkK6GX7SiRVKYVBczZiPeXDMjBdSBIJfmrDaoWRM6Oj7xbkz-SSFM6doY-3nqFtvhnM-lWnKOp_eU9txp_uEcXiA-1g7b9FbXlnPdZYQ3o8uVyDi3oZauf9t9eGRyzDMYrQA4t2rxLiRpjAeWE3gORm67g=="
+      },
+      {
+        "label": "chetty",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLrftx9TVCvh_JGEzTa0oA39DYyvJgqz_VU8zobBkjPqfrrNms6mEO4csXScTR7Sx0GYw1R8sODJ44WqA7X9-yJoKlhAmIrT7ZgrPBmUowpfQgEtTMKd-w903uSpLcLRdy4weNequ_Xtg="
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEhYw3ba269_xBebIP0ov_65o9KMu97Pkr61xOeK0RT6tBVJ81TxWjhakQqc1sEyjB0DPmCMkEIOVmwH1kT95F0QAHA6Yyw9WxOgBjro0fEtRUdPipFW13tr1Qp2E7w0NG5QycYPMhlQqkoPrlrEWgx9cydlFtW0tEBYBU2kaHHA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9StJw3iDDrVhJH7_aVEugW9bIaGL0HIqWst_we_ZP3SJtyBjq3jMTVJvyf7W8tsqdya7TktDzGNBItyRFgHz27a9iL3ODXi3RkTbvz_Eq7wH4eM7BW_Age_ISwdLpVhtEZsBihnEPn8SGaInKodqaByQHirOLOGgUTaE7JjadeFGpo2RSWJ7HNlN8O9eVlY3aWMirRmwgAA3MOYQ1Rj2iHGTf4XQQoFtmq7VFnvs="
+      },
+      {
+        "label": "manageengine",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjGhj03GNjBjDXMI37ikH4aI1_68DJyvywp0dGBQ4RswTy9DZKvVp1TSnwPaKdYSKNog5CFsU2cMrarNXp7ux6vKVDFEJ9UZGj3pXbdsq4TsJZmAODpGHQqjAas39y65JVj4OeME0L56jR5qLS2ZJAfyRtYOisxkYfPrXOcvQ="
+      },
+      {
+        "label": "chetty",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLrftx9TVCvh_JGEzTa0oA39DYyvJgqz_VU8zobBkjPqfrrNms6mEO4csXScTR7Sx0GYw1R8sODJ44WqA7X9-yJoKlhAmIrT7ZgrPBmUowpfQgEtTMKd-w903uSpLcLRdy4weNequ_Xtg="
+      },
+      {
+        "label": "chetty",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLrftx9TVCvh_JGEzTa0oA39DYyvJgqz_VU8zobBkjPqfrrNms6mEO4csXScTR7Sx0GYw1R8sODJ44WqA7X9-yJoKlhAmIrT7ZgrPBmUowpfQgEtTMKd-w903uSpLcLRdy4weNequ_Xtg="
+      },
+      {
+        "label": "explodingtopics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtKlAsPMn4rMMUKBJ8031Vt1UaNs00p-JW20IB_3qQo7nJsWLBpZykbfyYJIb52EHoYuLp2X_p1-PEPi8n4YtU6Ykrg_NAzRN3gQs7x2xEqSdGzyjAbbBhsAEP1D3sZj-mjxPSFxiNxGPm"
+      },
+      {
+        "label": "the-decoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFw6RUWgDjagg08ElId1xvKTtcqkOA8KqWCszbC6qigAfR3OGBs6iHpmIoGpXOgJ0XgfnMDIlFaLtNrfINMH0fHk4wdYcKc8XnU3swR8dzNUbgVb5KTZZJiWua4uvHHU3tDicxGXEeHyI8wHXpFb27_xVXs_owXYtmZxEz9HIkSwDxZPEl4"
+      },
+      {
+        "label": "explodingtopics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtKlAsPMn4rMMUKBJ8031Vt1UaNs00p-JW20IB_3qQo7nJsWLBpZykbfyYJIb52EHoYuLp2X_p1-PEPi8n4YtU6Ykrg_NAzRN3gQs7x2xEqSdGzyjAbbBhsAEP1D3sZj-mjxPSFxiNxGPm"
+      },
+      {
+        "label": "explodingtopics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtKlAsPMn4rMMUKBJ8031Vt1UaNs00p-JW20IB_3qQo7nJsWLBpZykbfyYJIb52EHoYuLp2X_p1-PEPi8n4YtU6Ykrg_NAzRN3gQs7x2xEqSdGzyjAbbBhsAEP1D3sZj-mjxPSFxiNxGPm"
+      },
+      {
+        "label": "explodingtopics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtKlAsPMn4rMMUKBJ8031Vt1UaNs00p-JW20IB_3qQo7nJsWLBpZykbfyYJIb52EHoYuLp2X_p1-PEPi8n4YtU6Ykrg_NAzRN3gQs7x2xEqSdGzyjAbbBhsAEP1D3sZj-mjxPSFxiNxGPm"
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSR6Z6JMpTwcwD1I60xYweSNV8_X5aqHbGzF5I00dun1TR630v22lWsqh27Gkd2DlX8orlpuny2nOXtK3Oe_j77bfNLxtPMB6VaB2El5-hC7X-NrUtVnP6raiUdM3RZl4="
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSR6Z6JMpTwcwD1I60xYweSNV8_X5aqHbGzF5I00dun1TR630v22lWsqh27Gkd2DlX8orlpuny2nOXtK3Oe_j77bfNLxtPMB6VaB2El5-hC7X-NrUtVnP6raiUdM3RZl4="
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSR6Z6JMpTwcwD1I60xYweSNV8_X5aqHbGzF5I00dun1TR630v22lWsqh27Gkd2DlX8orlpuny2nOXtK3Oe_j77bfNLxtPMB6VaB2El5-hC7X-NrUtVnP6raiUdM3RZl4="
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSR6Z6JMpTwcwD1I60xYweSNV8_X5aqHbGzF5I00dun1TR630v22lWsqh27Gkd2DlX8orlpuny2nOXtK3Oe_j77bfNLxtPMB6VaB2El5-hC7X-NrUtVnP6raiUdM3RZl4="
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSR6Z6JMpTwcwD1I60xYweSNV8_X5aqHbGzF5I00dun1TR630v22lWsqh27Gkd2DlX8orlpuny2nOXtK3Oe_j77bfNLxtPMB6VaB2El5-hC7X-NrUtVnP6raiUdM3RZl4="
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSR6Z6JMpTwcwD1I60xYweSNV8_X5aqHbGzF5I00dun1TR630v22lWsqh27Gkd2DlX8orlpuny2nOXtK3Oe_j77bfNLxtPMB6VaB2El5-hC7X-NrUtVnP6raiUdM3RZl4="
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSR6Z6JMpTwcwD1I60xYweSNV8_X5aqHbGzF5I00dun1TR630v22lWsqh27Gkd2DlX8orlpuny2nOXtK3Oe_j77bfNLxtPMB6VaB2El5-hC7X-NrUtVnP6raiUdM3RZl4="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz0EfHDyPkG8NCFzpLUXSebtUYGI5b3RseMe8i7s3gac7dy85UU529NTSwXQOzWOaPPKcCsJG6O7vyXJ67VGFyqCXXgfp_v81oSRoanV1duCP5Ju3UqAobggK8kMZLnMN6O_4-Qm2lQYji6xjT3jEdcx7p80P1fc7aDcx1_5PbUdmN80zhBE31n03qjYrnynG-"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz0EfHDyPkG8NCFzpLUXSebtUYGI5b3RseMe8i7s3gac7dy85UU529NTSwXQOzWOaPPKcCsJG6O7vyXJ67VGFyqCXXgfp_v81oSRoanV1duCP5Ju3UqAobggK8kMZLnMN6O_4-Qm2lQYji6xjT3jEdcx7p80P1fc7aDcx1_5PbUdmN80zhBE31n03qjYrnynG-"
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPZpQ6Xdvq05kCuum6TPS-AtOOBirAkd2h7pa26l7GdIW1oHttHxcFZ9gfUjovhlvVScjT9uBd-7ERDYWg-UJp_QRZd-2jL15crl6ddaR1lUNi39QpxZbcAMp5DQ=="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPZpQ6Xdvq05kCuum6TPS-AtOOBirAkd2h7pa26l7GdIW1oHttHxcFZ9gfUjovhlvVScjT9uBd-7ERDYWg-UJp_QRZd-2jL15crl6ddaR1lUNi39QpxZbcAMp5DQ=="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPZpQ6Xdvq05kCuum6TPS-AtOOBirAkd2h7pa26l7GdIW1oHttHxcFZ9gfUjovhlvVScjT9uBd-7ERDYWg-UJp_QRZd-2jL15crl6ddaR1lUNi39QpxZbcAMp5DQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvJWExMOQN5SMMAF7GoHCG9oaUnoKP0snHrqvMumoIS0O9CvY_hB1oLayTTLQ09nqiEcrO-cuKqebg2LtD3EbvuIVD-S3gfrUPfZgvkuKgXJprpsbxE0oQdIHnaz_Wp0vV41MIVKWWYgNltxOF4Y9SpwRH_xtGuMJo4U6YFJeMH4d5kVW9JqKRBTKy2X57W3VJdmjyLwEUWNYs"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvJWExMOQN5SMMAF7GoHCG9oaUnoKP0snHrqvMumoIS0O9CvY_hB1oLayTTLQ09nqiEcrO-cuKqebg2LtD3EbvuIVD-S3gfrUPfZgvkuKgXJprpsbxE0oQdIHnaz_Wp0vV41MIVKWWYgNltxOF4Y9SpwRH_xtGuMJo4U6YFJeMH4d5kVW9JqKRBTKy2X57W3VJdmjyLwEUWNYs"
+      },
+      {
+        "label": "kaggle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFm3whGADp4FeNcjoGqx-YQoIoVrVxlEPVaVtQGr5mNfmjKmsYPpD72ju8CM2cnmXhCnVzOGIr-P7g8EDbLc7hwa0ITPMoEHwZ5TFndE18vziopTDNAUuaWeMm06ctA9mVr-ZGRPv2FNcjDo4="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHydyrVMFPlpf5nOa9KZyT1NXtBkS4MH9IbqwSKM1YO5Y2T_lbGzR-H37ntvJrKx-3xh3SvZjCtqg6TcB4h352VphDwVq-C3RSF1mN8SfFR6izPvLwyr7bcCp0Ot2teg7v2YUDXOpcwnGak3HqcLZYAKcLT1unPJSjGR_uW1Oi58VuFcWvdsg7X5B5TAGTz0NfhpZeUkQ13NC8C-4TZX9fncF13Z208ePCfs76DQ7O1cYP6DiZ6ablL4_oa_tzIA-D4"
+      },
+      {
+        "label": "plainconcepts",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHt7RKGjxhZFRAsHKF6OCcHMmCFba61_99wMw9jaeZdJLP-0EMdyZepaaAndHgCuf5dgsB0Fro-CKBpIoJUjVZECEo7xEneGdCcVxZB__h4dXRH-EUW9G2rvw-5xSJRkdTPEFlqQ=="
+      },
+      {
+        "label": "kaggle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFm3whGADp4FeNcjoGqx-YQoIoVrVxlEPVaVtQGr5mNfmjKmsYPpD72ju8CM2cnmXhCnVzOGIr-P7g8EDbLc7hwa0ITPMoEHwZ5TFndE18vziopTDNAUuaWeMm06ctA9mVr-ZGRPv2FNcjDo4="
+      },
+      {
+        "label": "kaggle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFm3whGADp4FeNcjoGqx-YQoIoVrVxlEPVaVtQGr5mNfmjKmsYPpD72ju8CM2cnmXhCnVzOGIr-P7g8EDbLc7hwa0ITPMoEHwZ5TFndE18vziopTDNAUuaWeMm06ctA9mVr-ZGRPv2FNcjDo4="
+      },
+      {
+        "label": "gptfrontier",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErdb4qHpnEAdgQTMSPDj9T02xpS4eSiJcfJLWct2elnwucfFWCCq1tht1ZgaSA7qQo99AVlhd1w8KZtLKgtzhgrbvgRpSat0rVaBi_ErTm8PBc9CL66USDqD8gaqHETGEYopYukDv7wrJimNJ_sUUQW_gJftlogJUneb-wCvDretXHAGSG87AEZAkxNP5OHxYxI5EGkVXbQwG5EtEn16SCJE5GT--KcfMSup9kfYw="
+      },
+      {
+        "label": "kaggle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFm3whGADp4FeNcjoGqx-YQoIoVrVxlEPVaVtQGr5mNfmjKmsYPpD72ju8CM2cnmXhCnVzOGIr-P7g8EDbLc7hwa0ITPMoEHwZ5TFndE18vziopTDNAUuaWeMm06ctA9mVr-ZGRPv2FNcjDo4="
+      },
+      {
+        "label": "kaggle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFm3whGADp4FeNcjoGqx-YQoIoVrVxlEPVaVtQGr5mNfmjKmsYPpD72ju8CM2cnmXhCnVzOGIr-P7g8EDbLc7hwa0ITPMoEHwZ5TFndE18vziopTDNAUuaWeMm06ctA9mVr-ZGRPv2FNcjDo4="
+      },
+      {
+        "label": "acorn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2CncVXRLimqSUHiLjSbsv9B7WdNmg9aF357S5ydNoPuCucGIuU3Sx63-Hpn9vodAG2nfXFwLxsJ5llpCtxSZh-mxcVzvuJiPEXpbAYH88jPQSeTRd-pWx7wdXrSH1pcjphtltis_HktaxRXEKrQ2iFQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHydyrVMFPlpf5nOa9KZyT1NXtBkS4MH9IbqwSKM1YO5Y2T_lbGzR-H37ntvJrKx-3xh3SvZjCtqg6TcB4h352VphDwVq-C3RSF1mN8SfFR6izPvLwyr7bcCp0Ot2teg7v2YUDXOpcwnGak3HqcLZYAKcLT1unPJSjGR_uW1Oi58VuFcWvdsg7X5B5TAGTz0NfhpZeUkQ13NC8C-4TZX9fncF13Z208ePCfs76DQ7O1cYP6DiZ6ablL4_oa_tzIA-D4"
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq6es9WdeTUPeMM6MYw_uDN1AqeXMOYmQqwbgfgAE0wbclu01QF-TsC_THm4R1d8L_pVBc_2ZxnC_cKkWgfb7chZ9I3XscrJAodXL8V4hJxpFq2hWHDGWt"
+      },
+      {
+        "label": "acorn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2CncVXRLimqSUHiLjSbsv9B7WdNmg9aF357S5ydNoPuCucGIuU3Sx63-Hpn9vodAG2nfXFwLxsJ5llpCtxSZh-mxcVzvuJiPEXpbAYH88jPQSeTRd-pWx7wdXrSH1pcjphtltis_HktaxRXEKrQ2iFQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHydyrVMFPlpf5nOa9KZyT1NXtBkS4MH9IbqwSKM1YO5Y2T_lbGzR-H37ntvJrKx-3xh3SvZjCtqg6TcB4h352VphDwVq-C3RSF1mN8SfFR6izPvLwyr7bcCp0Ot2teg7v2YUDXOpcwnGak3HqcLZYAKcLT1unPJSjGR_uW1Oi58VuFcWvdsg7X5B5TAGTz0NfhpZeUkQ13NC8C-4TZX9fncF13Z208ePCfs76DQ7O1cYP6DiZ6ablL4_oa_tzIA-D4"
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq6es9WdeTUPeMM6MYw_uDN1AqeXMOYmQqwbgfgAE0wbclu01QF-TsC_THm4R1d8L_pVBc_2ZxnC_cKkWgfb7chZ9I3XscrJAodXL8V4hJxpFq2hWHDGWt"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpzB9-W3IEa366vw_XDmDd-cIhJAKo_r1an5FYMjwFfcSihroM4KSIVWwG9IDdXPbu81aFSJkAAglmcU6PiB8rm3pxhH1WgXvg_EyfXKOfnVMzF4ceso84Hew0nqPixjh3H2sJa9PNHulxb3VY62JLyYI6VVsqOl3pleALfOrEJb80vZ4="
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq6es9WdeTUPeMM6MYw_uDN1AqeXMOYmQqwbgfgAE0wbclu01QF-TsC_THm4R1d8L_pVBc_2ZxnC_cKkWgfb7chZ9I3XscrJAodXL8V4hJxpFq2hWHDGWt"
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq6es9WdeTUPeMM6MYw_uDN1AqeXMOYmQqwbgfgAE0wbclu01QF-TsC_THm4R1d8L_pVBc_2ZxnC_cKkWgfb7chZ9I3XscrJAodXL8V4hJxpFq2hWHDGWt"
+      },
+      {
+        "label": "acorn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2CncVXRLimqSUHiLjSbsv9B7WdNmg9aF357S5ydNoPuCucGIuU3Sx63-Hpn9vodAG2nfXFwLxsJ5llpCtxSZh-mxcVzvuJiPEXpbAYH88jPQSeTRd-pWx7wdXrSH1pcjphtltis_HktaxRXEKrQ2iFQ=="
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq6es9WdeTUPeMM6MYw_uDN1AqeXMOYmQqwbgfgAE0wbclu01QF-TsC_THm4R1d8L_pVBc_2ZxnC_cKkWgfb7chZ9I3XscrJAodXL8V4hJxpFq2hWHDGWt"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpzB9-W3IEa366vw_XDmDd-cIhJAKo_r1an5FYMjwFfcSihroM4KSIVWwG9IDdXPbu81aFSJkAAglmcU6PiB8rm3pxhH1WgXvg_EyfXKOfnVMzF4ceso84Hew0nqPixjh3H2sJa9PNHulxb3VY62JLyYI6VVsqOl3pleALfOrEJb80vZ4="
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq6es9WdeTUPeMM6MYw_uDN1AqeXMOYmQqwbgfgAE0wbclu01QF-TsC_THm4R1d8L_pVBc_2ZxnC_cKkWgfb7chZ9I3XscrJAodXL8V4hJxpFq2hWHDGWt"
+      },
+      {
+        "label": "acorn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2CncVXRLimqSUHiLjSbsv9B7WdNmg9aF357S5ydNoPuCucGIuU3Sx63-Hpn9vodAG2nfXFwLxsJ5llpCtxSZh-mxcVzvuJiPEXpbAYH88jPQSeTRd-pWx7wdXrSH1pcjphtltis_HktaxRXEKrQ2iFQ=="
+      },
+      {
+        "label": "kaggle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFm3whGADp4FeNcjoGqx-YQoIoVrVxlEPVaVtQGr5mNfmjKmsYPpD72ju8CM2cnmXhCnVzOGIr-P7g8EDbLc7hwa0ITPMoEHwZ5TFndE18vziopTDNAUuaWeMm06ctA9mVr-ZGRPv2FNcjDo4="
+      },
+      {
+        "label": "kaggle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFm3whGADp4FeNcjoGqx-YQoIoVrVxlEPVaVtQGr5mNfmjKmsYPpD72ju8CM2cnmXhCnVzOGIr-P7g8EDbLc7hwa0ITPMoEHwZ5TFndE18vziopTDNAUuaWeMm06ctA9mVr-ZGRPv2FNcjDo4="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5ATQqrXSriH2rIsYSzY5m3vbZBJkzzEIX86EaowiiHXza94OD_FX5N5uYOQ9FBi9WFoSi219Hkte8ybWm9_U1AQigqD6AkFv1iu5C7NqLa8UClVdZ7Um0-XxHjl2PelSUw_l6SDWFJyyC3mUJTwEiRky3pVu3i2wYXoefKJf_OP-j5Qbuqz4Km_WkGgpYzMqkp6t1Qc4EvIWTf4gABQ0DHqAM9C1QZ2GcPENTBbLZaBcT42QmOjCZ-5A3jjli_nWLennhQUU="
+      },
+      {
+        "label": "acorn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2CncVXRLimqSUHiLjSbsv9B7WdNmg9aF357S5ydNoPuCucGIuU3Sx63-Hpn9vodAG2nfXFwLxsJ5llpCtxSZh-mxcVzvuJiPEXpbAYH88jPQSeTRd-pWx7wdXrSH1pcjphtltis_HktaxRXEKrQ2iFQ=="
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq6es9WdeTUPeMM6MYw_uDN1AqeXMOYmQqwbgfgAE0wbclu01QF-TsC_THm4R1d8L_pVBc_2ZxnC_cKkWgfb7chZ9I3XscrJAodXL8V4hJxpFq2hWHDGWt"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpzB9-W3IEa366vw_XDmDd-cIhJAKo_r1an5FYMjwFfcSihroM4KSIVWwG9IDdXPbu81aFSJkAAglmcU6PiB8rm3pxhH1WgXvg_EyfXKOfnVMzF4ceso84Hew0nqPixjh3H2sJa9PNHulxb3VY62JLyYI6VVsqOl3pleALfOrEJb80vZ4="
+      },
+      {
+        "label": "the-decoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ7rf5dgvE9FVA4U3jDO8Dftk2DktsP-C-UlK_refauyqSg4RCiM1eTh2cu1UGMyXq6Pp8jfbfhkLDa6LC-xporVHEOBuLJziO9yAkZ5hpVMxpbEA9EmMyC9ERE5gjYlqHja71cg9-djZExhBgiJeo7WvUg_TgVw4J5g2mqkcSdFOX9k13"
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq6es9WdeTUPeMM6MYw_uDN1AqeXMOYmQqwbgfgAE0wbclu01QF-TsC_THm4R1d8L_pVBc_2ZxnC_cKkWgfb7chZ9I3XscrJAodXL8V4hJxpFq2hWHDGWt"
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaqfgj5fRHvIlAFvSkirZmZ2nPS80_mdsItOlDpk7MzxOUOkN_TKjmDtRJUjLvLiAVo-ILcnzGGO2uEnmRqo1T29smjE97UnWE1opnMTNT5PwL5snw9JVrGU_lIlbtlbV0J1nLiR42OonMUsZCyHJOGA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlSl5RPfgfQ7EtQ3yoEFhFKgltnbW1vKaKxxG4aQf1Qvg__2P2mEes9RlzVw4c3Gnr8wFmBYvbehG_g-IXCOdN1zcfP9CRdnKilhrV7qxbreDWIJMN_uRGmN8tYSEF6kePFaz2YahFJV3dFpO3qG11gBoDoXijToRpDqk-uwFK2eORrPC25U0wfI-EVSENQkP2vOC2WxjWFmjc3BxzuNWay3Mn6MTlympn"
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXNYk8q9xaFdhHGqXuFGbOFaDyoNKol9zTCnCvZEp_gwrvjlqJI4CjYi7yZj30fw8hxRSq8HrVCR1J7da6txa_DSX04qR7t_Y0i10YD9bi0hRNFNZgzI9bHOkvPRdo39HgMV6AmBXaEynEKo-DAVjD42eJzhgSyZlE7WT6HXcSGqBMmTLTLbVwASYvBKE-q9B2vw5GKluX015qZJYCH9y7jGyHR8Cz15_Qnkk="
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaqfgj5fRHvIlAFvSkirZmZ2nPS80_mdsItOlDpk7MzxOUOkN_TKjmDtRJUjLvLiAVo-ILcnzGGO2uEnmRqo1T29smjE97UnWE1opnMTNT5PwL5snw9JVrGU_lIlbtlbV0J1nLiR42OonMUsZCyHJOGA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKCmRWhcBgRfzvADPRS3Dljm97TwSKRyu4qEvmJWo7m7xSZAJcd9P6623Ks4HUKOznTvF4F2ThFl6kEsaLlWlMhBqwCY2CLtEr22QWjN2X_VTas1BJr3dlKwgI-P5yVlIGjL3x-1_p64l-l51kjSDmtjorkBTDpPw_6w9sqjnMvF6TSGpGrgiEmoGC8fNKbiNeg2vuvj9BImfFVGZIEqtCzJGaCDHibmhThsBdbGKVc1EKhHOnU1Eh"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq4XxXuuukOIq7w1fbp4xHr5r8JdGHafLWn3vgqv8FnY7Lic9pwHVJFhWF6PWgvCtnC-403gOoxtfzqI_a2JXQ3R5fCJ3GSL2c8Ks9GdDWO-8eShBiRq7goOCu4eMQaUuLsgZpG_9qY7tNyhUrk4yiM2_xkQyhPjKKqF6psIOVkQQucyVotLGHkYHJMIQ6pQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9H1qsA7Obxgmrg3db1bFGluK7jtLjwAgWy6hOeIk5STPvNdv7QexoF8QZE8w4jEJbPNHYDwfGxnbhrdrZ-Ot8arT9og0KXhBuGgr8BK_svhLMvu0nfTkAVdFuMwM0CvEgjL7it_7OVyfRHN1_7GlKcJipBva56pDLhLsh0228qWRIAtpzLY2umymRIaZBMM7A-ErxCne7-Zn5NoOopTcNSdOGpuuRazVPLTMtx85X"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKCmRWhcBgRfzvADPRS3Dljm97TwSKRyu4qEvmJWo7m7xSZAJcd9P6623Ks4HUKOznTvF4F2ThFl6kEsaLlWlMhBqwCY2CLtEr22QWjN2X_VTas1BJr3dlKwgI-P5yVlIGjL3x-1_p64l-l51kjSDmtjorkBTDpPw_6w9sqjnMvF6TSGpGrgiEmoGC8fNKbiNeg2vuvj9BImfFVGZIEqtCzJGaCDHibmhThsBdbGKVc1EKhHOnU1Eh"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKCmRWhcBgRfzvADPRS3Dljm97TwSKRyu4qEvmJWo7m7xSZAJcd9P6623Ks4HUKOznTvF4F2ThFl6kEsaLlWlMhBqwCY2CLtEr22QWjN2X_VTas1BJr3dlKwgI-P5yVlIGjL3x-1_p64l-l51kjSDmtjorkBTDpPw_6w9sqjnMvF6TSGpGrgiEmoGC8fNKbiNeg2vuvj9BImfFVGZIEqtCzJGaCDHibmhThsBdbGKVc1EKhHOnU1Eh"
+      },
+      {
+        "label": "gitconnected",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIaLZHrdr13jFRS91aq6wfI7Z9gRERaZTeOdKlojLxdfHJ1fN3aqnh84NoHIvb6U9URDJqFrkqmHUIHWeNDWWhl9fgHHP5nD9xmsxpmPYuo42r8s-IsMdJdR0DiJ3YXyAwkBdV21NxqZVjjktTgsgHceayV6OznpH1UgVNbooEqYNvQJD6li7tVc7avum2"
+      },
+      {
+        "label": "gitconnected",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIaLZHrdr13jFRS91aq6wfI7Z9gRERaZTeOdKlojLxdfHJ1fN3aqnh84NoHIvb6U9URDJqFrkqmHUIHWeNDWWhl9fgHHP5nD9xmsxpmPYuo42r8s-IsMdJdR0DiJ3YXyAwkBdV21NxqZVjjktTgsgHceayV6OznpH1UgVNbooEqYNvQJD6li7tVc7avum2"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKCmRWhcBgRfzvADPRS3Dljm97TwSKRyu4qEvmJWo7m7xSZAJcd9P6623Ks4HUKOznTvF4F2ThFl6kEsaLlWlMhBqwCY2CLtEr22QWjN2X_VTas1BJr3dlKwgI-P5yVlIGjL3x-1_p64l-l51kjSDmtjorkBTDpPw_6w9sqjnMvF6TSGpGrgiEmoGC8fNKbiNeg2vuvj9BImfFVGZIEqtCzJGaCDHibmhThsBdbGKVc1EKhHOnU1Eh"
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaqfgj5fRHvIlAFvSkirZmZ2nPS80_mdsItOlDpk7MzxOUOkN_TKjmDtRJUjLvLiAVo-ILcnzGGO2uEnmRqo1T29smjE97UnWE1opnMTNT5PwL5snw9JVrGU_lIlbtlbV0J1nLiR42OonMUsZCyHJOGA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9H1qsA7Obxgmrg3db1bFGluK7jtLjwAgWy6hOeIk5STPvNdv7QexoF8QZE8w4jEJbPNHYDwfGxnbhrdrZ-Ot8arT9og0KXhBuGgr8BK_svhLMvu0nfTkAVdFuMwM0CvEgjL7it_7OVyfRHN1_7GlKcJipBva56pDLhLsh0228qWRIAtpzLY2umymRIaZBMM7A-ErxCne7-Zn5NoOopTcNSdOGpuuRazVPLTMtx85X"
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaqfgj5fRHvIlAFvSkirZmZ2nPS80_mdsItOlDpk7MzxOUOkN_TKjmDtRJUjLvLiAVo-ILcnzGGO2uEnmRqo1T29smjE97UnWE1opnMTNT5PwL5snw9JVrGU_lIlbtlbV0J1nLiR42OonMUsZCyHJOGA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHydyrVMFPlpf5nOa9KZyT1NXtBkS4MH9IbqwSKM1YO5Y2T_lbGzR-H37ntvJrKx-3xh3SvZjCtqg6TcB4h352VphDwVq-C3RSF1mN8SfFR6izPvLwyr7bcCp0Ot2teg7v2YUDXOpcwnGak3HqcLZYAKcLT1unPJSjGR_uW1Oi58VuFcWvdsg7X5B5TAGTz0NfhpZeUkQ13NC8C-4TZX9fncF13Z208ePCfs76DQ7O1cYP6DiZ6ablL4_oa_tzIA-D4"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9H1qsA7Obxgmrg3db1bFGluK7jtLjwAgWy6hOeIk5STPvNdv7QexoF8QZE8w4jEJbPNHYDwfGxnbhrdrZ-Ot8arT9og0KXhBuGgr8BK_svhLMvu0nfTkAVdFuMwM0CvEgjL7it_7OVyfRHN1_7GlKcJipBva56pDLhLsh0228qWRIAtpzLY2umymRIaZBMM7A-ErxCne7-Zn5NoOopTcNSdOGpuuRazVPLTMtx85X"
+      },
+      {
+        "label": "lifearchitect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXBpRfEFoUT0TwmX7lFPVbjX3U6HNVjxu_VwRhDltxFyLI9zwpGO0sOfNknvpim3UJq06-uih4OE1b7xwNP8ByxwNteQXOcQKJIN1dK0FlK3nFjsMyOwU="
+      },
+      {
+        "label": "gitconnected",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIaLZHrdr13jFRS91aq6wfI7Z9gRERaZTeOdKlojLxdfHJ1fN3aqnh84NoHIvb6U9URDJqFrkqmHUIHWeNDWWhl9fgHHP5nD9xmsxpmPYuo42r8s-IsMdJdR0DiJ3YXyAwkBdV21NxqZVjjktTgsgHceayV6OznpH1UgVNbooEqYNvQJD6li7tVc7avum2"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKCmRWhcBgRfzvADPRS3Dljm97TwSKRyu4qEvmJWo7m7xSZAJcd9P6623Ks4HUKOznTvF4F2ThFl6kEsaLlWlMhBqwCY2CLtEr22QWjN2X_VTas1BJr3dlKwgI-P5yVlIGjL3x-1_p64l-l51kjSDmtjorkBTDpPw_6w9sqjnMvF6TSGpGrgiEmoGC8fNKbiNeg2vuvj9BImfFVGZIEqtCzJGaCDHibmhThsBdbGKVc1EKhHOnU1Eh"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9H1qsA7Obxgmrg3db1bFGluK7jtLjwAgWy6hOeIk5STPvNdv7QexoF8QZE8w4jEJbPNHYDwfGxnbhrdrZ-Ot8arT9og0KXhBuGgr8BK_svhLMvu0nfTkAVdFuMwM0CvEgjL7it_7OVyfRHN1_7GlKcJipBva56pDLhLsh0228qWRIAtpzLY2umymRIaZBMM7A-ErxCne7-Zn5NoOopTcNSdOGpuuRazVPLTMtx85X"
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXNYk8q9xaFdhHGqXuFGbOFaDyoNKol9zTCnCvZEp_gwrvjlqJI4CjYi7yZj30fw8hxRSq8HrVCR1J7da6txa_DSX04qR7t_Y0i10YD9bi0hRNFNZgzI9bHOkvPRdo39HgMV6AmBXaEynEKo-DAVjD42eJzhgSyZlE7WT6HXcSGqBMmTLTLbVwASYvBKE-q9B2vw5GKluX015qZJYCH9y7jGyHR8Cz15_Qnkk="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKCmRWhcBgRfzvADPRS3Dljm97TwSKRyu4qEvmJWo7m7xSZAJcd9P6623Ks4HUKOznTvF4F2ThFl6kEsaLlWlMhBqwCY2CLtEr22QWjN2X_VTas1BJr3dlKwgI-P5yVlIGjL3x-1_p64l-l51kjSDmtjorkBTDpPw_6w9sqjnMvF6TSGpGrgiEmoGC8fNKbiNeg2vuvj9BImfFVGZIEqtCzJGaCDHibmhThsBdbGKVc1EKhHOnU1Eh"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq4XxXuuukOIq7w1fbp4xHr5r8JdGHafLWn3vgqv8FnY7Lic9pwHVJFhWF6PWgvCtnC-403gOoxtfzqI_a2JXQ3R5fCJ3GSL2c8Ks9GdDWO-8eShBiRq7goOCu4eMQaUuLsgZpG_9qY7tNyhUrk4yiM2_xkQyhPjKKqF6psIOVkQQucyVotLGHkYHJMIQ6pQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKCmRWhcBgRfzvADPRS3Dljm97TwSKRyu4qEvmJWo7m7xSZAJcd9P6623Ks4HUKOznTvF4F2ThFl6kEsaLlWlMhBqwCY2CLtEr22QWjN2X_VTas1BJr3dlKwgI-P5yVlIGjL3x-1_p64l-l51kjSDmtjorkBTDpPw_6w9sqjnMvF6TSGpGrgiEmoGC8fNKbiNeg2vuvj9BImfFVGZIEqtCzJGaCDHibmhThsBdbGKVc1EKhHOnU1Eh"
+      },
+      {
+        "label": "gitconnected",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIaLZHrdr13jFRS91aq6wfI7Z9gRERaZTeOdKlojLxdfHJ1fN3aqnh84NoHIvb6U9URDJqFrkqmHUIHWeNDWWhl9fgHHP5nD9xmsxpmPYuo42r8s-IsMdJdR0DiJ3YXyAwkBdV21NxqZVjjktTgsgHceayV6OznpH1UgVNbooEqYNvQJD6li7tVc7avum2"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq4XxXuuukOIq7w1fbp4xHr5r8JdGHafLWn3vgqv8FnY7Lic9pwHVJFhWF6PWgvCtnC-403gOoxtfzqI_a2JXQ3R5fCJ3GSL2c8Ks9GdDWO-8eShBiRq7goOCu4eMQaUuLsgZpG_9qY7tNyhUrk4yiM2_xkQyhPjKKqF6psIOVkQQucyVotLGHkYHJMIQ6pQ=="
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXNYk8q9xaFdhHGqXuFGbOFaDyoNKol9zTCnCvZEp_gwrvjlqJI4CjYi7yZj30fw8hxRSq8HrVCR1J7da6txa_DSX04qR7t_Y0i10YD9bi0hRNFNZgzI9bHOkvPRdo39HgMV6AmBXaEynEKo-DAVjD42eJzhgSyZlE7WT6HXcSGqBMmTLTLbVwASYvBKE-q9B2vw5GKluX015qZJYCH9y7jGyHR8Cz15_Qnkk="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9H1qsA7Obxgmrg3db1bFGluK7jtLjwAgWy6hOeIk5STPvNdv7QexoF8QZE8w4jEJbPNHYDwfGxnbhrdrZ-Ot8arT9og0KXhBuGgr8BK_svhLMvu0nfTkAVdFuMwM0CvEgjL7it_7OVyfRHN1_7GlKcJipBva56pDLhLsh0228qWRIAtpzLY2umymRIaZBMM7A-ErxCne7-Zn5NoOopTcNSdOGpuuRazVPLTMtx85X"
+      },
+      {
+        "label": "acorn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2CncVXRLimqSUHiLjSbsv9B7WdNmg9aF357S5ydNoPuCucGIuU3Sx63-Hpn9vodAG2nfXFwLxsJ5llpCtxSZh-mxcVzvuJiPEXpbAYH88jPQSeTRd-pWx7wdXrSH1pcjphtltis_HktaxRXEKrQ2iFQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHydyrVMFPlpf5nOa9KZyT1NXtBkS4MH9IbqwSKM1YO5Y2T_lbGzR-H37ntvJrKx-3xh3SvZjCtqg6TcB4h352VphDwVq-C3RSF1mN8SfFR6izPvLwyr7bcCp0Ot2teg7v2YUDXOpcwnGak3HqcLZYAKcLT1unPJSjGR_uW1Oi58VuFcWvdsg7X5B5TAGTz0NfhpZeUkQ13NC8C-4TZX9fncF13Z208ePCfs76DQ7O1cYP6DiZ6ablL4_oa_tzIA-D4"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmg3D_8mBP-qr6n0rUqeBvTX4KfVI4uwPH0gBr5tYZcVy6HvBnWvz0PclKVC7ZR7Tc3lUeN8HocDtdT7UpbJxBSmXFxc7nbC1HWR9VUL4oJOznI_-aFYu6UXg1HxU2-tsebmM5E-r24KPOEnAld5X1Xgq_zVMm6qLc5q_tVXqezTRbR5lQFOhJ6xsNE0bMvUlrtULnkfaQGsaB_V1Af5K_1_1mahCkGzMd6y3ODEql-1Mqd64d9ASkrlRcWWol9XMfBkOdm7SKoA=="
+      },
+      {
+        "label": "grammarly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSh5jpyDaGNedDWrP6ofDL43fL-Z08Subz0DNECm7E2btzlxDIOnS9SQEOwi8mQVBtx1TbCA5heF4e7_PptwVSkWn61rTu3rJuTqwfH_kdA7aQSN4z1sOMcn9dKAH20rEl2u_O3JiZP86cnEo="
+      },
+      {
+        "label": "grammarly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSh5jpyDaGNedDWrP6ofDL43fL-Z08Subz0DNECm7E2btzlxDIOnS9SQEOwi8mQVBtx1TbCA5heF4e7_PptwVSkWn61rTu3rJuTqwfH_kdA7aQSN4z1sOMcn9dKAH20rEl2u_O3JiZP86cnEo="
+      },
+      {
+        "label": "lifearchitect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG20mAbR9dFml3bzKCEwnCAIbzFBxqlC0gzC3-KDOt6laorNxboPfgMnFRF0vrrXS83meP1qkJmS_PXTu4yDmhleNUlDwiIGDjW6XoX9WmsVG7O96AdyUU="
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYxDORt_V2a5ajBE9R-kNbm8SLwzJ999cOy6PQfq1-L-uGei1ZHaDDIASt69-mQoAIo2cavatXE1ELTlA7k9jJXL0CDeP2HQEpcVytd2SZD_M3j9EDq-6CDqq5GhM-Mqg="
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYxDORt_V2a5ajBE9R-kNbm8SLwzJ999cOy6PQfq1-L-uGei1ZHaDDIASt69-mQoAIo2cavatXE1ELTlA7k9jJXL0CDeP2HQEpcVytd2SZD_M3j9EDq-6CDqq5GhM-Mqg="
+      },
+      {
+        "label": "data-sleek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB-JtFUt9NTI5VlnJb4bVsUNN9HsITElE861lZ7cG3AVhMX2Bp5-qf0TGRQzAG4fqh2of1CRvYePWDH1EZZ6xF2fOvtsAitNTyoga2KEw4xdZzbWlyVL7hiRWf4lBnz2Qak4G_eMRLsWfW7_M2pdGCOlQ="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmg3D_8mBP-qr6n0rUqeBvTX4KfVI4uwPH0gBr5tYZcVy6HvBnWvz0PclKVC7ZR7Tc3lUeN8HocDtdT7UpbJxBSmXFxc7nbC1HWR9VUL4oJOznI_-aFYu6UXg1HxU2-tsebmM5E-r24KPOEnAld5X1Xgq_zVMm6qLc5q_tVXqezTRbR5lQFOhJ6xsNE0bMvUlrtULnkfaQGsaB_V1Af5K_1_1mahCkGzMd6y3ODEql-1Mqd64d9ASkrlRcWWol9XMfBkOdm7SKoA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmg3D_8mBP-qr6n0rUqeBvTX4KfVI4uwPH0gBr5tYZcVy6HvBnWvz0PclKVC7ZR7Tc3lUeN8HocDtdT7UpbJxBSmXFxc7nbC1HWR9VUL4oJOznI_-aFYu6UXg1HxU2-tsebmM5E-r24KPOEnAld5X1Xgq_zVMm6qLc5q_tVXqezTRbR5lQFOhJ6xsNE0bMvUlrtULnkfaQGsaB_V1Af5K_1_1mahCkGzMd6y3ODEql-1Mqd64d9ASkrlRcWWol9XMfBkOdm7SKoA=="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRll8RSRTlIGHTHidrtGtZJwtr9eJZhjmibNWkzuFm_d1xCq7-h2HB0hALPDfJHkGIqXwFv5V92VKsRHssggGusALS_I91zQBZQp1BhI1ajCJXQxTxShDQIH2-cAD4Aqiti8k="
+      },
+      {
+        "label": "lifearchitect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG20mAbR9dFml3bzKCEwnCAIbzFBxqlC0gzC3-KDOt6laorNxboPfgMnFRF0vrrXS83meP1qkJmS_PXTu4yDmhleNUlDwiIGDjW6XoX9WmsVG7O96AdyUU="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt9YOypMGXLIbJWVWaWd2yd8aGmE1kZC3hK8cXi0Oe-opDRUCDT28BmnWh5mCUgaH3qxP9moUNm_B43nNLThDm3jjhkFKVMb8lxB-8hW8N9Qs4SKVBDOcKShoE6gj5"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt9YOypMGXLIbJWVWaWd2yd8aGmE1kZC3hK8cXi0Oe-opDRUCDT28BmnWh5mCUgaH3qxP9moUNm_B43nNLThDm3jjhkFKVMb8lxB-8hW8N9Qs4SKVBDOcKShoE6gj5"
+      },
+      {
+        "label": "aimultiple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYxDORt_V2a5ajBE9R-kNbm8SLwzJ999cOy6PQfq1-L-uGei1ZHaDDIASt69-mQoAIo2cavatXE1ELTlA7k9jJXL0CDeP2HQEpcVytd2SZD_M3j9EDq-6CDqq5GhM-Mqg="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRll8RSRTlIGHTHidrtGtZJwtr9eJZhjmibNWkzuFm_d1xCq7-h2HB0hALPDfJHkGIqXwFv5V92VKsRHssggGusALS_I91zQBZQp1BhI1ajCJXQxTxShDQIH2-cAD4Aqiti8k="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt9YOypMGXLIbJWVWaWd2yd8aGmE1kZC3hK8cXi0Oe-opDRUCDT28BmnWh5mCUgaH3qxP9moUNm_B43nNLThDm3jjhkFKVMb8lxB-8hW8N9Qs4SKVBDOcKShoE6gj5"
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRll8RSRTlIGHTHidrtGtZJwtr9eJZhjmibNWkzuFm_d1xCq7-h2HB0hALPDfJHkGIqXwFv5V92VKsRHssggGusALS_I91zQBZQp1BhI1ajCJXQxTxShDQIH2-cAD4Aqiti8k="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRll8RSRTlIGHTHidrtGtZJwtr9eJZhjmibNWkzuFm_d1xCq7-h2HB0hALPDfJHkGIqXwFv5V92VKsRHssggGusALS_I91zQBZQp1BhI1ajCJXQxTxShDQIH2-cAD4Aqiti8k="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXTB9myRqa-nQeJDyFGCc0QBllQ9tbvvi8QiFTT7NwoAg-8yMWLAGunTWjJVeH7toAZD-OzK78RDMxVQX-cE8niYbfKPTtPwdcWNwtMnOHzaUaU_RROrrBmqQ2HcU648AIpJlO_SWa1piyA4-zOZxdtwUy2SZaGJ7CGma98p_losW5gchnQU-IhmnEg95p3XB3cFZqC4-9IRQhzrHv_rY0TzmGBp0hABnKw4MCjcE_1pCYjgZMEg-kF-YrNqi2LHaX6XyzrxtJlmimVDXlUOGs"
+      },
+      {
+        "label": "cointelegraph",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvWh1A98XhMHYe4XP_LS8MCCOkd-Y0gU8VSR0ZufovLpxCKfCbi9b_y0imxQMkIVyLBhxwWBZhEh5Z8xpu2AxjSZxkCaBnlaJ7MERrjWum6guuwxdGecIXBPN_fM8-8-52E8QttGizbjjauX-WN0CGg6b3LPPGaEGEsPYyn4qtPNyZD1E"
+      },
+      {
+        "label": "cointelegraph",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvWh1A98XhMHYe4XP_LS8MCCOkd-Y0gU8VSR0ZufovLpxCKfCbi9b_y0imxQMkIVyLBhxwWBZhEh5Z8xpu2AxjSZxkCaBnlaJ7MERrjWum6guuwxdGecIXBPN_fM8-8-52E8QttGizbjjauX-WN0CGg6b3LPPGaEGEsPYyn4qtPNyZD1E"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyTcMYW0-xcoAmfzeg7QYVlM53Jnd1QAJDTKtXd3Xq9ApNUyukwzNnkferh8JgBR7o8zxrjTysAVgdziGrHX83f0crmiWeJd5vtnoGVdXua3yPLX3zlTBNeJ3sgRyVa4qgpw=="
+      },
+      {
+        "label": "abaka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY8w9wQXJ2PL2qeIvBRMIMcaewo9EScRA0Hjao7e_zifYKjnTrYpU02_aBfnwq1IaAIYGBnrUZfWT3pllHgIfMBviu7PEJu9IHot0XTNitILy1GyFmmXqRGD9ZRrboTiXpt7YNaRw="
+      },
+      {
+        "label": "cointelegraph",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvWh1A98XhMHYe4XP_LS8MCCOkd-Y0gU8VSR0ZufovLpxCKfCbi9b_y0imxQMkIVyLBhxwWBZhEh5Z8xpu2AxjSZxkCaBnlaJ7MERrjWum6guuwxdGecIXBPN_fM8-8-52E8QttGizbjjauX-WN0CGg6b3LPPGaEGEsPYyn4qtPNyZD1E"
+      },
+      {
+        "label": "cointelegraph",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvWh1A98XhMHYe4XP_LS8MCCOkd-Y0gU8VSR0ZufovLpxCKfCbi9b_y0imxQMkIVyLBhxwWBZhEh5Z8xpu2AxjSZxkCaBnlaJ7MERrjWum6guuwxdGecIXBPN_fM8-8-52E8QttGizbjjauX-WN0CGg6b3LPPGaEGEsPYyn4qtPNyZD1E"
+      },
+      {
+        "label": "cointelegraph",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvWh1A98XhMHYe4XP_LS8MCCOkd-Y0gU8VSR0ZufovLpxCKfCbi9b_y0imxQMkIVyLBhxwWBZhEh5Z8xpu2AxjSZxkCaBnlaJ7MERrjWum6guuwxdGecIXBPN_fM8-8-52E8QttGizbjjauX-WN0CGg6b3LPPGaEGEsPYyn4qtPNyZD1E"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXTB9myRqa-nQeJDyFGCc0QBllQ9tbvvi8QiFTT7NwoAg-8yMWLAGunTWjJVeH7toAZD-OzK78RDMxVQX-cE8niYbfKPTtPwdcWNwtMnOHzaUaU_RROrrBmqQ2HcU648AIpJlO_SWa1piyA4-zOZxdtwUy2SZaGJ7CGma98p_losW5gchnQU-IhmnEg95p3XB3cFZqC4-9IRQhzrHv_rY0TzmGBp0hABnKw4MCjcE_1pCYjgZMEg-kF-YrNqi2LHaX6XyzrxtJlmimVDXlUOGs"
+      },
+      {
+        "label": "grammarly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSh5jpyDaGNedDWrP6ofDL43fL-Z08Subz0DNECm7E2btzlxDIOnS9SQEOwi8mQVBtx1TbCA5heF4e7_PptwVSkWn61rTu3rJuTqwfH_kdA7aQSN4z1sOMcn9dKAH20rEl2u_O3JiZP86cnEo="
+      },
+      {
+        "label": "lifearchitect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG20mAbR9dFml3bzKCEwnCAIbzFBxqlC0gzC3-KDOt6laorNxboPfgMnFRF0vrrXS83meP1qkJmS_PXTu4yDmhleNUlDwiIGDjW6XoX9WmsVG7O96AdyUU="
+      },
+      {
+        "label": "cointelegraph",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvWh1A98XhMHYe4XP_LS8MCCOkd-Y0gU8VSR0ZufovLpxCKfCbi9b_y0imxQMkIVyLBhxwWBZhEh5Z8xpu2AxjSZxkCaBnlaJ7MERrjWum6guuwxdGecIXBPN_fM8-8-52E8QttGizbjjauX-WN0CGg6b3LPPGaEGEsPYyn4qtPNyZD1E"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJT2IfpxLi9wjJn5reIX4W2twS-vufsUxkQBFxxZQXjoA7xGfKI01C4FNHe1oIMxXr3EHEqbuSfd1IC60QxcH3IfVvv9A7iJiBl4-fDS8mPWbdrK6PoLjuhm9vPJRORMlR1Q=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEqB6gpMRMP9VVbXou7j6HaF7dgOaXAj5sYJGSo7YTmyLbwbn07NA2i8ujrbxfL-uBXkBijsP2AFyrBbsAjESFJO_WjtMo-cDlChjv9dNsZ9kup82TlOoHSjHpHtTz_ZbknD2YXhsr-sG0rc3o3w11t5u7nQXNKNHAuCa4cgaHFfpht3v6-c1VtjBt_eYeqo6gohQMcYc="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJT2IfpxLi9wjJn5reIX4W2twS-vufsUxkQBFxxZQXjoA7xGfKI01C4FNHe1oIMxXr3EHEqbuSfd1IC60QxcH3IfVvv9A7iJiBl4-fDS8mPWbdrK6PoLjuhm9vPJRORMlR1Q=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJT2IfpxLi9wjJn5reIX4W2twS-vufsUxkQBFxxZQXjoA7xGfKI01C4FNHe1oIMxXr3EHEqbuSfd1IC60QxcH3IfVvv9A7iJiBl4-fDS8mPWbdrK6PoLjuhm9vPJRORMlR1Q=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEqB6gpMRMP9VVbXou7j6HaF7dgOaXAj5sYJGSo7YTmyLbwbn07NA2i8ujrbxfL-uBXkBijsP2AFyrBbsAjESFJO_WjtMo-cDlChjv9dNsZ9kup82TlOoHSjHpHtTz_ZbknD2YXhsr-sG0rc3o3w11t5u7nQXNKNHAuCa4cgaHFfpht3v6-c1VtjBt_eYeqo6gohQMcYc="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7yRBntl-iMZRpGBz1HkLanYHc9vO_A-VDGpCECv-2HC8kkXhhLZvdpjxlUKyMrz-plQxyxMvvb-ZDpUkYrEDxdDh0tk3QfKVhxfIJCuKPmDSNGporXgCKLM_5Dm0oNdlOS90="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2h8S2GM2Ht-S9em91jxm7jd3QP6xMAC7_FRa18_VgrsUWKbgwntw5tWex31Chs-WvP4_f_yVzX_xZpFj-qzjmiZTCUcio-yHZg5YpPCsqRAZXqOjnvsZY3XoNZ4RDBfVsb2hGUDmkU2zgIC7tUb8pUqJiRCdDV-lRpoMbwWEBZzFTRhDqxy8s4pTx0nTEtRJC5VGaq6O7qJl3NuaGrHNfyOLnj6C_682nQ80XjLAl"
+      },
+      {
+        "label": "plainenglish",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtBCGdpIit39X2IDCwUrQS17Z01IjyHz9u5QduJgTwggk4V8tG2zduNVgclCH_1tP-W9iNeHJdcuc94ghpg3cdJ1kzIxAqSRrk8heJK11LldGkJ3I0mywPomLzzS4GqTBnVWaf8n8rEheRa8UezX-ssaqVfnMhscQ="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7yRBntl-iMZRpGBz1HkLanYHc9vO_A-VDGpCECv-2HC8kkXhhLZvdpjxlUKyMrz-plQxyxMvvb-ZDpUkYrEDxdDh0tk3QfKVhxfIJCuKPmDSNGporXgCKLM_5Dm0oNdlOS90="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBCBRtHehn5thtYuGu_LiGMv3wtnqo-v71EiAwsZC-0HObWMotlCdnS6YDgUzJgsOAvW7dGKeK8A5Qe-bSab2Pa4SYwpK0O-_4azGquc2yhCUU6mtOEydYGc4aaYPALLcc8URDP_6DNS0M4xGwtmQWSR1jFoWojiyaNrflV_q2V50NlwzB1pH5A0Iud75jCHB4628dKziU79g_4XfgRzS"
+      },
+      {
+        "label": "plainenglish",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtBCGdpIit39X2IDCwUrQS17Z01IjyHz9u5QduJgTwggk4V8tG2zduNVgclCH_1tP-W9iNeHJdcuc94ghpg3cdJ1kzIxAqSRrk8heJK11LldGkJ3I0mywPomLzzS4GqTBnVWaf8n8rEheRa8UezX-ssaqVfnMhscQ="
+      },
+      {
+        "label": "hashnode",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyItwbhg-dhw0dpViIP3uXYECuHQMnCmgAaZY4SvWqEMhsveFdrHAjH0JkxWVZuzqFMEECrLLETasAt_7Z2kgWVh5B2JgbU8UYJ-cwt7qL3T_vbN1DAj-LKxPnfFxs7Dq51JOibU3juUQECzPpsRrySNnSz-qZF_oPCn0s0A=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUkJEUj8_hCI4xekjger5Ao_Zgo4fwiXxuTjkuGR4KYA7PAnvvCyeMZ5nQlHBDnzHDkPted39Mopgh_wI1ohXYR-vFJY46osu5vvfZvn41ozoQn0O1fDuj2zh8Rrza-IkBTIlc5ub6c0cHwFw1FLF4iauWBF0dXSkscOxUTr3TQqXvvRDN7NS6LiXrlPyprVs="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7yRBntl-iMZRpGBz1HkLanYHc9vO_A-VDGpCECv-2HC8kkXhhLZvdpjxlUKyMrz-plQxyxMvvb-ZDpUkYrEDxdDh0tk3QfKVhxfIJCuKPmDSNGporXgCKLM_5Dm0oNdlOS90="
+      },
+      {
+        "label": "hashnode",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyItwbhg-dhw0dpViIP3uXYECuHQMnCmgAaZY4SvWqEMhsveFdrHAjH0JkxWVZuzqFMEECrLLETasAt_7Z2kgWVh5B2JgbU8UYJ-cwt7qL3T_vbN1DAj-LKxPnfFxs7Dq51JOibU3juUQECzPpsRrySNnSz-qZF_oPCn0s0A=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE62py_dvb3pAbPiIfcaHaAYxSPiD2di2m6NaialC73qfWHWxoqFGsiJyf6xEHo6BepI8QVd5xTuWCf3o8jORWOYWhUMTQnu-KS7MFjl5xrVTAQVr-bZB1ou7YPOXJ_7Lw3MxyH8QQg4leTAKMoIrh97jgi45ELa8QjXBDeLG76Rq3y6xf4Se6jz0-ecUA2lzLD2UxrcTrIKBI92EV7ny9MYSAsXVxRE6oWc_rQjYSCrZo="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2h8S2GM2Ht-S9em91jxm7jd3QP6xMAC7_FRa18_VgrsUWKbgwntw5tWex31Chs-WvP4_f_yVzX_xZpFj-qzjmiZTCUcio-yHZg5YpPCsqRAZXqOjnvsZY3XoNZ4RDBfVsb2hGUDmkU2zgIC7tUb8pUqJiRCdDV-lRpoMbwWEBZzFTRhDqxy8s4pTx0nTEtRJC5VGaq6O7qJl3NuaGrHNfyOLnj6C_682nQ80XjLAl"
+      },
+      {
+        "label": "hashnode",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyItwbhg-dhw0dpViIP3uXYECuHQMnCmgAaZY4SvWqEMhsveFdrHAjH0JkxWVZuzqFMEECrLLETasAt_7Z2kgWVh5B2JgbU8UYJ-cwt7qL3T_vbN1DAj-LKxPnfFxs7Dq51JOibU3juUQECzPpsRrySNnSz-qZF_oPCn0s0A=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiBCBRtHehn5thtYuGu_LiGMv3wtnqo-v71EiAwsZC-0HObWMotlCdnS6YDgUzJgsOAvW7dGKeK8A5Qe-bSab2Pa4SYwpK0O-_4azGquc2yhCUU6mtOEydYGc4aaYPALLcc8URDP_6DNS0M4xGwtmQWSR1jFoWojiyaNrflV_q2V50NlwzB1pH5A0Iud75jCHB4628dKziU79g_4XfgRzS"
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFJSUpwTalpCBexJEZwCYBfd5Gwd8Kp-DOX-ol2rDWRyXo_bS20fdTtlvUZHNwcE7RCCcZd659HxUQ3BzK1h--4PMTGa5Etp6_KGhC4nPhkOfGGnQGVup0wS-yelE1qjTVX8nJCLxFTAJABezJElaOHQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEqB6gpMRMP9VVbXou7j6HaF7dgOaXAj5sYJGSo7YTmyLbwbn07NA2i8ujrbxfL-uBXkBijsP2AFyrBbsAjESFJO_WjtMo-cDlChjv9dNsZ9kup82TlOoHSjHpHtTz_ZbknD2YXhsr-sG0rc3o3w11t5u7nQXNKNHAuCa4cgaHFfpht3v6-c1VtjBt_eYeqo6gohQMcYc="
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHt-BzDaASMGgf1f0FlEkgis-SfLE65uJdwixRvKg-67qiWh-iYiRqOrzhmW2cPcWaNMh-5dSQdRuQHpwjBNad6KiC3NN5uU-HXtKtuf-s_IeOT2hPlLKsC9xf09QF4mbLUP1aWLvZV7aZH9I8TvqWWSb8nPiVmLL0_DmWvC0="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVHP4-ErTRg78p6BET_Qpzz98ok70lzF8Iq7SO-_fmzBLVFFFf3ulwcGnCRunIeIlJGvLgjki7Zj6fvqcz78mjLuBXygWvb_r_i5ValOHfG8UDDDf5A8UlLxBIP1b1D_Ot_Hh8_2DmUUGnEFOibWkZDUwtespacOjwpNad_ScY8-IrSNgsCKFexpz8BDHODghY3iFx-U7Ff0fPrOcHIT0CQDIhg_xKnutL52wPojgUkOHZxa5hXk13Mjg9nn0v_Sowg0DDdvJENZi2Ig=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVHP4-ErTRg78p6BET_Qpzz98ok70lzF8Iq7SO-_fmzBLVFFFf3ulwcGnCRunIeIlJGvLgjki7Zj6fvqcz78mjLuBXygWvb_r_i5ValOHfG8UDDDf5A8UlLxBIP1b1D_Ot_Hh8_2DmUUGnEFOibWkZDUwtespacOjwpNad_ScY8-IrSNgsCKFexpz8BDHODghY3iFx-U7Ff0fPrOcHIT0CQDIhg_xKnutL52wPojgUkOHZxa5hXk13Mjg9nn0v_Sowg0DDdvJENZi2Ig=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2h8S2GM2Ht-S9em91jxm7jd3QP6xMAC7_FRa18_VgrsUWKbgwntw5tWex31Chs-WvP4_f_yVzX_xZpFj-qzjmiZTCUcio-yHZg5YpPCsqRAZXqOjnvsZY3XoNZ4RDBfVsb2hGUDmkU2zgIC7tUb8pUqJiRCdDV-lRpoMbwWEBZzFTRhDqxy8s4pTx0nTEtRJC5VGaq6O7qJl3NuaGrHNfyOLnj6C_682nQ80XjLAl"
+      },
+      {
+        "label": "plainenglish",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtBCGdpIit39X2IDCwUrQS17Z01IjyHz9u5QduJgTwggk4V8tG2zduNVgclCH_1tP-W9iNeHJdcuc94ghpg3cdJ1kzIxAqSRrk8heJK11LldGkJ3I0mywPomLzzS4GqTBnVWaf8n8rEheRa8UezX-ssaqVfnMhscQ="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEqB6gpMRMP9VVbXou7j6HaF7dgOaXAj5sYJGSo7YTmyLbwbn07NA2i8ujrbxfL-uBXkBijsP2AFyrBbsAjESFJO_WjtMo-cDlChjv9dNsZ9kup82TlOoHSjHpHtTz_ZbknD2YXhsr-sG0rc3o3w11t5u7nQXNKNHAuCa4cgaHFfpht3v6-c1VtjBt_eYeqo6gohQMcYc="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7yRBntl-iMZRpGBz1HkLanYHc9vO_A-VDGpCECv-2HC8kkXhhLZvdpjxlUKyMrz-plQxyxMvvb-ZDpUkYrEDxdDh0tk3QfKVhxfIJCuKPmDSNGporXgCKLM_5Dm0oNdlOS90="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJT2IfpxLi9wjJn5reIX4W2twS-vufsUxkQBFxxZQXjoA7xGfKI01C4FNHe1oIMxXr3EHEqbuSfd1IC60QxcH3IfVvv9A7iJiBl4-fDS8mPWbdrK6PoLjuhm9vPJRORMlR1Q=="
+      },
+      {
+        "label": "towardsai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8UhIPGZ3M1fOL3WxWAfPi17Feq5JdaGZ6bfEMTN4O6ROleWmSckfeJDJu_rIJhtHsKIIQMZeGFPDUgsUTAYexzFkTNrIzQ9hKDv9yOXcsULYyd8GuTmpjDH48ATNuk2SpYAyvGvWkCQ9fH3EMy5d1gEPXdqRRN8fBzA9D90dhGmLcTp3U-2w="
+      },
+      {
+        "label": "plainenglish",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtBCGdpIit39X2IDCwUrQS17Z01IjyHz9u5QduJgTwggk4V8tG2zduNVgclCH_1tP-W9iNeHJdcuc94ghpg3cdJ1kzIxAqSRrk8heJK11LldGkJ3I0mywPomLzzS4GqTBnVWaf8n8rEheRa8UezX-ssaqVfnMhscQ="
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHt-BzDaASMGgf1f0FlEkgis-SfLE65uJdwixRvKg-67qiWh-iYiRqOrzhmW2cPcWaNMh-5dSQdRuQHpwjBNad6KiC3NN5uU-HXtKtuf-s_IeOT2hPlLKsC9xf09QF4mbLUP1aWLvZV7aZH9I8TvqWWSb8nPiVmLL0_DmWvC0="
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHt-BzDaASMGgf1f0FlEkgis-SfLE65uJdwixRvKg-67qiWh-iYiRqOrzhmW2cPcWaNMh-5dSQdRuQHpwjBNad6KiC3NN5uU-HXtKtuf-s_IeOT2hPlLKsC9xf09QF4mbLUP1aWLvZV7aZH9I8TvqWWSb8nPiVmLL0_DmWvC0="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVKQ1gAKMd66_Bp5nw7M7wqGg5n_vxcmmsZWSVoGrxQmvZ3o_B7Ak3EpwclpTNSZTeo0qxbjfjv4hwiOjxE9tKnD-p50FB8tZiY0XMcO983Ly03Yf_XrJAlnru86SjVWbzPbcFrV2Vi4E6kjL00RIfurVXkx9FToVgCZOUVliJjoDYl47G"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVKQ1gAKMd66_Bp5nw7M7wqGg5n_vxcmmsZWSVoGrxQmvZ3o_B7Ak3EpwclpTNSZTeo0qxbjfjv4hwiOjxE9tKnD-p50FB8tZiY0XMcO983Ly03Yf_XrJAlnru86SjVWbzPbcFrV2Vi4E6kjL00RIfurVXkx9FToVgCZOUVliJjoDYl47G"
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHt-BzDaASMGgf1f0FlEkgis-SfLE65uJdwixRvKg-67qiWh-iYiRqOrzhmW2cPcWaNMh-5dSQdRuQHpwjBNad6KiC3NN5uU-HXtKtuf-s_IeOT2hPlLKsC9xf09QF4mbLUP1aWLvZV7aZH9I8TvqWWSb8nPiVmLL0_DmWvC0="
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHt-BzDaASMGgf1f0FlEkgis-SfLE65uJdwixRvKg-67qiWh-iYiRqOrzhmW2cPcWaNMh-5dSQdRuQHpwjBNad6KiC3NN5uU-HXtKtuf-s_IeOT2hPlLKsC9xf09QF4mbLUP1aWLvZV7aZH9I8TvqWWSb8nPiVmLL0_DmWvC0="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJT2IfpxLi9wjJn5reIX4W2twS-vufsUxkQBFxxZQXjoA7xGfKI01C4FNHe1oIMxXr3EHEqbuSfd1IC60QxcH3IfVvv9A7iJiBl4-fDS8mPWbdrK6PoLjuhm9vPJRORMlR1Q=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEqB6gpMRMP9VVbXou7j6HaF7dgOaXAj5sYJGSo7YTmyLbwbn07NA2i8ujrbxfL-uBXkBijsP2AFyrBbsAjESFJO_WjtMo-cDlChjv9dNsZ9kup82TlOoHSjHpHtTz_ZbknD2YXhsr-sG0rc3o3w11t5u7nQXNKNHAuCa4cgaHFfpht3v6-c1VtjBt_eYeqo6gohQMcYc="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJT2IfpxLi9wjJn5reIX4W2twS-vufsUxkQBFxxZQXjoA7xGfKI01C4FNHe1oIMxXr3EHEqbuSfd1IC60QxcH3IfVvv9A7iJiBl4-fDS8mPWbdrK6PoLjuhm9vPJRORMlR1Q=="
+      },
+      {
+        "label": "openrouter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRu9dtT_CV3Ce33qecjIYea3ks_lBlmT7UdRVUsr-kOFas8O5nZdVnZIz4i2KZZB7aodOrlLxadzFVYChF2CyRmCOP7dCaP0jbdUoWKqKmluPVYKxa7mn0BrqhVUqxbFAxpe1w"
+      },
+      {
+        "label": "artificialanalysis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRStOn5jA9LrKyDC3vhA4-O1rjunlqeLj5ou3GO1bW4MHgtkelBwM88qbpV4HCrHk85F2fmtUB1-z6VKfLw4R0_XsZxWL7CKB1GUIJpbeiiuvEuZunjeZUIGAX1uvRpWr2G_wSQ6lR0ylWyPbqvKbIBlEASNAk"
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-W1sM2MEDtM3Y1ahc-X3uTbbNjE049snXljMasGsGvqYj59dkNzvLREAQpAKEMCki17o56kr7eiF_WDKCADi_Av7ilzQO9GfASDBu0QWb88JhOE9vUmfWGTyXYn7eTQ="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy8EHG8dcSljOqOVomm-N5TFbRL3Y6bi0Iwqw73Tw0xonlGDpYsPICAH2QpD5mCCExGMCH4_3rMuia96qFw1HqFQLqcQv5ZPR53wTLBk6CVO5lUr8yBhsokkcAqurt-yGEmb6PmbuMy6pcVghfGJAfzKyWoPyeWEeuK6Gf17SQQq1kTrtiC0z4nESfS_8X4nKOjbsA-vRgBf0P9WIn"
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy8EHG8dcSljOqOVomm-N5TFbRL3Y6bi0Iwqw73Tw0xonlGDpYsPICAH2QpD5mCCExGMCH4_3rMuia96qFw1HqFQLqcQv5ZPR53wTLBk6CVO5lUr8yBhsokkcAqurt-yGEmb6PmbuMy6pcVghfGJAfzKyWoPyeWEeuK6Gf17SQQq1kTrtiC0z4nESfS_8X4nKOjbsA-vRgBf0P9WIn"
+      },
+      {
+        "label": "artificialanalysis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJnDAhLqi4PaEAzpePHMuyQjUvhAg-HRUwDwIVi4c8Sqe5YkjYDrtxE2nXpKc5MVAbXAkBnV66ei-oz9GQ-USyDpVGwNro0PharfDTqnnhLUn_At20CbOUonuTxOk4--R6zk-FwEs="
+      },
+      {
+        "label": "artificialanalysis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW3NlGwOAKnyQ9T-cjcWnFEh3XeqSCbiFL49nTB44NIe5EzbMjHjZknHe-Ls1BcCjPKw2Wo7IDw7XPdR7xmHGiUgGcdhiJ6dgKi0Q92ynJjjc9M699Yw8ZBNMpryfOrh_E3fwOabFV"
+      },
+      {
+        "label": "artificialanalysis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJnDAhLqi4PaEAzpePHMuyQjUvhAg-HRUwDwIVi4c8Sqe5YkjYDrtxE2nXpKc5MVAbXAkBnV66ei-oz9GQ-USyDpVGwNro0PharfDTqnnhLUn_At20CbOUonuTxOk4--R6zk-FwEs="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "openrouter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRu9dtT_CV3Ce33qecjIYea3ks_lBlmT7UdRVUsr-kOFas8O5nZdVnZIz4i2KZZB7aodOrlLxadzFVYChF2CyRmCOP7dCaP0jbdUoWKqKmluPVYKxa7mn0BrqhVUqxbFAxpe1w"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw_H8e8r8cTfKGvWYOLXRtIOdVkBfarePPOqXUIDZiSCfF-gAwgu0Yg7etgsv8T60vcEORzlh-Dh4EJa0Z1VE8NQhAV_9Ay-UYB6bv36KmuH00f8b3OWEZloUib1UMA07tVHhmqZCbUOBPtr0TpdAsIIg7ErghJdbInqXwmrFvabyzmQRJWCTynXBmidpQzNdg5ckSWZ9Sg3Om-Q03zQ1CEAaIPLLXpejpF4J5t4RyiLFQ"
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJp5hE693-bYrAo4JNrwigGB_bvptHOLHlnJCohvIo7YUw96AXb9ORdYg4SO5By_OAi20BOtpuRVpgPW2XtfF_SIUpWk8c1_RdKxZxIn4oMEBWeKQoOtk_ghXhX7z4WHI9dbB0hCHePZrVm1XJH34vUtDzxEfCJQwEUuhv1mjdNjSf8Cc="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "monterail",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkeQ9ht5hZCxYeN_xvvc0MQoA_Uv4wiWFRF8dTNYNMiGwta_Mdg2mldL6T5UtpX_3CDMVs51RKAFVpnULF01LA2J8u3Lq0X2lvUNAjblVC_0J4O4XVsYCNyrpknkc0G0bAefjyIty6Qqyt0JdOLWZ6eitHopHGlRmfmAA6s-KBgTapD0pAG62Bmq6jFA=="
+      },
+      {
+        "label": "openrouter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRu9dtT_CV3Ce33qecjIYea3ks_lBlmT7UdRVUsr-kOFas8O5nZdVnZIz4i2KZZB7aodOrlLxadzFVYChF2CyRmCOP7dCaP0jbdUoWKqKmluPVYKxa7mn0BrqhVUqxbFAxpe1w"
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "openrouter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRu9dtT_CV3Ce33qecjIYea3ks_lBlmT7UdRVUsr-kOFas8O5nZdVnZIz4i2KZZB7aodOrlLxadzFVYChF2CyRmCOP7dCaP0jbdUoWKqKmluPVYKxa7mn0BrqhVUqxbFAxpe1w"
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-W1sM2MEDtM3Y1ahc-X3uTbbNjE049snXljMasGsGvqYj59dkNzvLREAQpAKEMCki17o56kr7eiF_WDKCADi_Av7ilzQO9GfASDBu0QWb88JhOE9vUmfWGTyXYn7eTQ="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-W1sM2MEDtM3Y1ahc-X3uTbbNjE049snXljMasGsGvqYj59dkNzvLREAQpAKEMCki17o56kr7eiF_WDKCADi_Av7ilzQO9GfASDBu0QWb88JhOE9vUmfWGTyXYn7eTQ="
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-W1sM2MEDtM3Y1ahc-X3uTbbNjE049snXljMasGsGvqYj59dkNzvLREAQpAKEMCki17o56kr7eiF_WDKCADi_Av7ilzQO9GfASDBu0QWb88JhOE9vUmfWGTyXYn7eTQ="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-W1sM2MEDtM3Y1ahc-X3uTbbNjE049snXljMasGsGvqYj59dkNzvLREAQpAKEMCki17o56kr7eiF_WDKCADi_Av7ilzQO9GfASDBu0QWb88JhOE9vUmfWGTyXYn7eTQ="
+      },
+      {
+        "label": "mymeet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbo1b8JSMfxg_rW3bKTcER6D8GB9bAKV6_S6gaqBT32CQHiNlxK8FTmE6oqDKkHDYoUw4IkBkYG5Mxw9hC7zV649WGwptddqtQJaiynTevEWL22otIIOzL5VRa2z3ny5-fxbdd"
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-W1sM2MEDtM3Y1ahc-X3uTbbNjE049snXljMasGsGvqYj59dkNzvLREAQpAKEMCki17o56kr7eiF_WDKCADi_Av7ilzQO9GfASDBu0QWb88JhOE9vUmfWGTyXYn7eTQ="
+      },
+      {
+        "label": "mymeet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbo1b8JSMfxg_rW3bKTcER6D8GB9bAKV6_S6gaqBT32CQHiNlxK8FTmE6oqDKkHDYoUw4IkBkYG5Mxw9hC7zV649WGwptddqtQJaiynTevEWL22otIIOzL5VRa2z3ny5-fxbdd"
+      },
+      {
+        "label": "mymeet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbo1b8JSMfxg_rW3bKTcER6D8GB9bAKV6_S6gaqBT32CQHiNlxK8FTmE6oqDKkHDYoUw4IkBkYG5Mxw9hC7zV649WGwptddqtQJaiynTevEWL22otIIOzL5VRa2z3ny5-fxbdd"
+      },
+      {
+        "label": "artificialanalysis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW3NlGwOAKnyQ9T-cjcWnFEh3XeqSCbiFL49nTB44NIe5EzbMjHjZknHe-Ls1BcCjPKw2Wo7IDw7XPdR7xmHGiUgGcdhiJ6dgKi0Q92ynJjjc9M699Yw8ZBNMpryfOrh_E3fwOabFV"
+      },
+      {
+        "label": "mymeet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbo1b8JSMfxg_rW3bKTcER6D8GB9bAKV6_S6gaqBT32CQHiNlxK8FTmE6oqDKkHDYoUw4IkBkYG5Mxw9hC7zV649WGwptddqtQJaiynTevEWL22otIIOzL5VRa2z3ny5-fxbdd"
+      },
+      {
+        "label": "artificialanalysis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW3NlGwOAKnyQ9T-cjcWnFEh3XeqSCbiFL49nTB44NIe5EzbMjHjZknHe-Ls1BcCjPKw2Wo7IDw7XPdR7xmHGiUgGcdhiJ6dgKi0Q92ynJjjc9M699Yw8ZBNMpryfOrh_E3fwOabFV"
+      },
+      {
+        "label": "artificialanalysis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW3NlGwOAKnyQ9T-cjcWnFEh3XeqSCbiFL49nTB44NIe5EzbMjHjZknHe-Ls1BcCjPKw2Wo7IDw7XPdR7xmHGiUgGcdhiJ6dgKi0Q92ynJjjc9M699Yw8ZBNMpryfOrh_E3fwOabFV"
+      },
+      {
+        "label": "mymeet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbo1b8JSMfxg_rW3bKTcER6D8GB9bAKV6_S6gaqBT32CQHiNlxK8FTmE6oqDKkHDYoUw4IkBkYG5Mxw9hC7zV649WGwptddqtQJaiynTevEWL22otIIOzL5VRa2z3ny5-fxbdd"
+      },
+      {
+        "label": "artificialanalysis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW3NlGwOAKnyQ9T-cjcWnFEh3XeqSCbiFL49nTB44NIe5EzbMjHjZknHe-Ls1BcCjPKw2Wo7IDw7XPdR7xmHGiUgGcdhiJ6dgKi0Q92ynJjjc9M699Yw8ZBNMpryfOrh_E3fwOabFV"
+      },
+      {
+        "label": "mymeet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbo1b8JSMfxg_rW3bKTcER6D8GB9bAKV6_S6gaqBT32CQHiNlxK8FTmE6oqDKkHDYoUw4IkBkYG5Mxw9hC7zV649WGwptddqtQJaiynTevEWL22otIIOzL5VRa2z3ny5-fxbdd"
+      },
+      {
+        "label": "openai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgvZuE9kqjzjcbvMEB33fWhlnvdACGDK8-dqQYCuz4UTspwYGARB6HafkIC0wsPuXlpwiWjlR9ShC2PWfZit1WaeaoaEOFqCW9Zxd-vUteOA1Tj1gzYyjo9ElVZQ=="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD-W1sM2MEDtM3Y1ahc-X3uTbbNjE049snXljMasGsGvqYj59dkNzvLREAQpAKEMCki17o56kr7eiF_WDKCADi_Av7ilzQO9GfASDBu0QWb88JhOE9vUmfWGTyXYn7eTQ="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

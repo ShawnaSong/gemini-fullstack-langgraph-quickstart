@@ -1,0 +1,1049 @@
+{
+  "file_name": "state_result_164.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.619782",
+  "data": {
+    "messages": [
+      {
+        "content": "I am an experienced LLM prompt creator, including having created a few RAG/LLM systems, and I have significant experience prompt engineering. Can you find the absolute best technical resources for me for prompt engineering, that help me improve my prompts. Be specific: give me the exact resources you deem will most help me.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "d1692ca8-7cfb-4dbb-bb94-3735e2ef95d2",
+        "example": false
+      },
+      {
+        "content": "For an experienced LLM prompt creator like yourself, here are the top technical resources to enhance your prompt engineering skills as of July 16, 2025:\n\n**I. Advanced Prompting Techniques & Strategies:**\n\n*   **Meta-Prompting:** Shift your focus to structuring and guiding LLM responses with organized logic and format, rather than relying solely on detailed examples [k2view](https://vertexaisearch.cloud.google.com/id/0-1), [k2view](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Chain-of-Thought (CoT), Self-Consistency, and Tree-of-Thought (ToT) Prompting:** Master these advanced reasoning techniques to improve accuracy and handle complex tasks [k2view](https://vertexaisearch.cloud.google.com/id/0-1), [k2view](https://vertexaisearch.cloud.google.com/id/1-3), [medium](https://vertexaisearch.cloud.google.com/id/1-6), [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0). Self-consistency improves CoT reasoning by sampling multiple reasoning paths and selecting the most consistent answer [k2view](https://vertexaisearch.cloud.google.com/id/1-3). ToT encourages the model to generate multiple reasoning paths, evaluate promising branches, backtrack when necessary, and integrate insights across branches [bridgemind](https://vertexaisearch.cloud.google.com/id/0-2), [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **ReAct (Reasoning + Acting):** Combine reasoning with tool use (e.g., calculator, web search) for more accurate answers [medium](https://vertexaisearch.cloud.google.com/id/1-6), [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Recursive Self-Improvement Prompting (RSIP):** Leverage the model's ability to critique and iteratively improve its own outputs [reddit](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Context-Aware Decomposition:** Focus on improving solution quality for programming and systems design challenges [reddit](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Calibrated Confidence Prompting:** Reduce confidently stated misinformation while preserving useful insights [reddit](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Multi-Perspective Simulations:** Simulate different viewpoints to create a more nuanced analysis of complex issues [reddit](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Prompt Chaining:** Break down complex tasks into sequences of simpler prompts that build on each other [medium](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**II. Automated Prompt Optimization Tools & Frameworks:**\n\nGiven that manual prompt crafting is becoming more of a development practice, focus on mastering automated prompt optimization [aakashg](https://vertexaisearch.cloud.google.com/id/1-8).\n\n*   **DSPy and TextGrad:** These frameworks consistently outperform hand-crafted prompts by automatically generating and testing variations [aakashg](https://vertexaisearch.cloud.google.com/id/2-0), [acm](https://vertexaisearch.cloud.google.com/id/2-1), [arize](https://vertexaisearch.cloud.google.com/id/2-2). DSPy automates the search for optimized prompts [arize](https://vertexaisearch.cloud.google.com/id/2-2), while TextGrad uses backpropagation and text-based feedback [acm](https://vertexaisearch.cloud.google.com/id/2-1).\n*   **Meta-Prompting (OPRO):** Utilize LLMs to optimize prompts by considering previous prompts, training accuracy, task descriptions, and examples [acm](https://vertexaisearch.cloud.google.com/id/2-1).\n*   **Reinforcement Learning (RL):** Explore RL to allow AI models to experiment, evaluate, and refine prompts using a reward-based system [newline](https://vertexaisearch.cloud.google.com/id/2-3), [substack](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Automated Prompt Testing Tools:** Become proficient with tools like Helicone, OpenAI Eval, Promptfoo, and LangChain for automated prompt testing [newline](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Orq.ai:** Leverage this platform for advanced prompt engineering capabilities, RAG pipeline support, and AI observability [orq](https://vertexaisearch.cloud.google.com/id/0-8), [orq](https://vertexaisearch.cloud.google.com/id/2-5). It also supports feedback-driven self-evolving prompts [orq](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **PromptPerfect:** Use this tool to optimize prompt clarity and efficiency by generating variants and testing performance [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9), [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/0-7), [orq](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**III. Prompt Engineering Platforms & Tools:**\n\n*   **Lilypad:** Collaborative prompt engineering for business users and software developers [mirascope](https://vertexaisearch.cloud.google.com/id/0-6), [mirascope](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Mirascope:** Lightweight and user-friendly LLM toolkit for software developers [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **LangSmith:** Specialized in logging and experimenting with prompts [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Weave:** Trace-based debugging and scoring for LLM applications [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Langfuse:** Streamlined prompt management and evaluation [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Haystack:** Effective for structuring prompt pipelines with an open-source repository for prompt templates [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Agenta:** Rapid and collaborative LLM application development [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **LangChain:** Scalable and customizable LLM application framework [mirascope](https://vertexaisearch.cloud.google.com/id/0-6), [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **PromptLayer:** For prompt versioning and monitoring [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **HumanLoop:** For feedback and human-in-the-loop evaluation [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **TruLens:** For LLM behavior auditing and metrics [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **LlamaIndex:** For retrieval-augmented generation (RAG) and advanced prompt customization [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9), [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Helicone:** For monitoring prompt usage and cost [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9), [orq](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Pinecone:** For scalable semantic search and vector retrieval [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **PromptFlow (by Azure):** For visual prompt design and model chaining [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Chainlit:** For fast prototyping of LangChain apps with UI support [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Reka:** An observability tool to monitor LLM outputs in real time [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Guardrails.ai:** For enforcing schema and format consistency in prompts [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **IBM Watsonx Prompt Lab:** A tool designed to maximize prompt engineering capabilities [fonzi](https://vertexaisearch.cloud.google.com/id/0-10).\n\n**IV. Key Metrics for Measuring Prompt Performance:**\n\nFocus on metrics that demonstrate the outperformance of automated optimization, including:\n\n*   **Accuracy:** Use metrics like F1, BLEU, and ROUGE [arsturn](https://vertexaisearch.cloud.google.com/id/2-7), [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8), [newline](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Relevance:** Assess how well the generated text addresses the prompt [arsturn](https://vertexaisearch.cloud.google.com/id/2-7), [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Consistency:** Measure output quality variation across similar prompts [profiletree](https://vertexaisearch.cloud.google.com/id/2-9), [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8), [arsturn](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Efficiency:** Measure how quickly and effectively the AI generates outputs [arsturn](https://vertexaisearch.cloud.google.com/id/2-7), [profiletree](https://vertexaisearch.cloud.google.com/id/2-9).\n*   **Context Match Score (CMS), Meaning Similarity Score (MSS), Input-Output Match Score (IOMS), Context Fit Rate (CFR), and Prompt Complexity Index (PCI):** These metrics provide a granular view of prompt effectiveness [ghost](https://vertexaisearch.cloud.google.com/id/2-10).\n\n**V. Courses and Learning Resources:**\n\n*   **Advanced Prompt Engineering Course (Coursera):** Covers crafting effective prompts, core and advanced prompting techniques, building dynamic prompts with LangChain, and designing scalable GenAI workflows [coursera](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Advanced Prompt Engineering in Generative AI Course (Clarusway):** Covers foundational AI concepts and advanced prompting techniques with models like ChatGPT and Gemini [clarusway](https://vertexaisearch.cloud.google.com/id/0-13).\n*   **GSDC Global Generative AI Advance Prompt Engineering Webinar 2025:** Provides advanced techniques in prompt engineering for Generative AI [gsdcouncil](https://vertexaisearch.cloud.google.com/id/0-14).\n\nBy focusing on these resources, you'll be well-equipped to stay at the forefront of prompt engineering in 2025.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "24739487-5409-41b8-8861-337d85096a0a",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "best prompt engineering resources for experienced LLM prompt creators July 2025",
+      "advanced prompt engineering techniques July 2025",
+      "What are the most effective automated prompt optimization techniques and tools used in July 2025, specifically focusing on how they outperform manual prompt crafting, and what metrics are used to measure this outperformance?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"best prompt engineering resources for experienced LLM prompt creators July 2025\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a synthesis of information regarding the best prompt engineering resources for experienced LLM prompt creators in July 2025:\n\n**Key Trends and Techniques:**\n\n*   **Advanced Prompting Techniques:** Experienced prompt engineers in 2025 are moving beyond basic \"role + task + format\" templates [reddit](https://vertexaisearch.cloud.google.com/id/0-0). They are employing techniques like:\n    *   **Meta-Prompting:** This involves structuring and guiding LLM responses in an organized manner, emphasizing the format and logic of queries rather than relying on detailed examples [k2view](https://vertexaisearch.cloud.google.com/id/0-1). Meta prompting focuses on logical structures and abstract prompts, ensuring the task's format is clearly defined [k2view](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   **Chain of Thought (CoT) Prompting:** Enhances reasoning by breaking down complex tasks into simpler sub-steps [k2view](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   **Self-Consistency Prompting:** Generates multiple reasoning paths and selects the most consistent answer, improving accuracy [k2view](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   **Tree-of-Thought (ToT) Prompting:** Encourages the model to generate multiple reasoning paths, evaluate promising branches, backtrack when necessary, and integrate insights across branches [bridgemind](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   **Recursive Self-Improvement Prompting (RSIP):** Leverages the model's ability to critique and improve its own outputs iteratively [reddit](https://vertexaisearch.cloud.google.com/id/0-0).\n    *   **Context-Aware Decomposition:** Improves solution quality on difficult programming and systems design challenges [reddit](https://vertexaisearch.cloud.google.com/id/0-0).\n    *   **Calibrated Confidence Prompting:** Reduces instances of confidently stated misinformation while preserving useful insights [reddit](https://vertexaisearch.cloud.google.com/id/0-0).\n    *   **Multi-Perspective Simulations:** Simulates different viewpoints to create a more nuanced analysis of complex issues [reddit](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Prompt Chaining:** Breaking down complex tasks into sequences of simpler prompts that build on each other [medium](https://vertexaisearch.cloud.google.com/id/0-3). For example, generating article topics, outlining a structure, writing the introduction, expanding each section, and then refining the article [medium](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Zero-Shot Prompting:** Instructing an LLM to perform a task without providing any examples [plainenglish](https://vertexaisearch.cloud.google.com/id/0-4) [k2view](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Few-Shot Prompting:** Providing the model with a few input-output examples as part of the prompt [k2view](https://vertexaisearch.cloud.google.com/id/0-1) [plainenglish](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Parameter Tuning:** Adjusting LLM parameters like temperature to control the randomness of responses. Lower temperatures (0.1-0.3) are used for factual responses, while higher temperatures (0.7-1.0) are used for creative writing [plainenglish](https://vertexaisearch.cloud.google.com/id/0-4) [medium](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Specifying Output Format:** Explicitly telling the model what format to use (e.g., bullet points, tables, JSON) [mirascope](https://vertexaisearch.cloud.google.com/id/0-5) [plainenglish](https://vertexaisearch.cloud.google.com/id/0-4).\n\n**Essential Skills and Practices:**\n\n*   **Iterative Refinement:** Treating prompt creation as an iterative process [medium](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Specificity and Constraints:** Being specific about constraints and limitations to guide the model [medium](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Strategic Use of Delimiters:** Using consistent delimiters to help the model distinguish between different parts of the prompt [medium](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Clear and Action-Oriented Instructions:** Starting prompts with strong action verbs [mirascope](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Simple and Accessible Language:** Using clear, direct, and easy-to-understand language [mirascope](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Role Assignment:** Assigning the model a specific role to guide tone, vocabulary, and level of formality [mirascope](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**Prompt Engineering Tools:**\n\n*   **Platforms:**\n    *   **Lilypad:** Collaborative prompt engineering for business users and software developers [mirascope](https://vertexaisearch.cloud.google.com/id/0-6) [mirascope](https://vertexaisearch.cloud.google.com/id/0-5).\n    *   **Mirascope:** Lightweight and user-friendly LLM toolkit for software developers [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   **LangSmith:** Specialized in logging and experimenting with prompts [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   **Weave:** Trace-based debugging and scoring for LLM applications [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   **Langfuse:** Streamlined prompt management and evaluation [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   **Haystack:** Effective for structuring prompt pipelines with an open-source repository for prompt templates [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   **Agenta:** Rapid and collaborative LLM application development [mirascope](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   **LangChain:** Scalable and customizable LLM application framework [mirascope](https://vertexaisearch.cloud.google.com/id/0-6) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/0-7).\n    *   **Orq.ai:** Offers advanced prompt engineering capabilities, RAG pipeline support, and AI observability [orq](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **PromptLayer:** For prompt versioning and monitoring [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n    *   **PromptPerfect:** For optimizing prompt clarity and efficiency by generating variants and testing performance [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/0-7) [orq](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **HumanLoop:** For feedback and human-in-the-loop evaluation [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n    *   **TruLens:** For LLM behavior auditing and metrics [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n    *   **LlamaIndex:** For retrieval-augmented generation (RAG) and advanced prompt customization [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/0-7).\n    *   **Helicone:** For monitoring prompt usage and cost [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9) [orq](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **Pinecone:** For scalable semantic search and vector retrieval [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Interfaces:**\n    *   **OpenAI Playground:** For fast iteration and prototyping [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9) [orq](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Additional Tools:**\n    *   **PromptFlow (by Azure):** For visual prompt design and model chaining [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n    *   **Chainlit:** For fast prototyping of LangChain apps with UI support [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n    *   **Reka:** An observability tool to monitor LLM outputs in real time [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n    *   **Guardrails.ai:** For enforcing schema and format consistency in prompts [learningdaily](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **IBM Watsonx Prompt Lab:** A tool designed to maximize prompt engineering capabilities [fonzi](https://vertexaisearch.cloud.google.com/id/0-10).\n\n**Courses and Learning Resources:**\n\n*   **B.Sc in Applied AI & Data Science – IIT Jodhpur x Futurense:** Integrates prompt engineering as a core skill.\n [futurense](https://vertexaisearch.cloud.google.com/id/0-11)*   **Prompt Engineering for LLMs – DeepLearning.AI (via Coursera):** A short course for AI analysts, prompt specialists, and LLM evaluators.\n*  [futurense](https://vertexaisearch.cloud.google.com/id/0-11)  **Google Cloud's Prompt Engineering Course – Google Cloud Skills Boost:** Teaches prompt design using enterprise-level tools like Vertex AI.\n*    [futurense](https://vertexaisearch.cloud.google.com/id/0-11)**Learn Prompting Bootcamp – LearnPrompting.org**.\n*   ** [futurense](https://vertexaisearch.cloud.google.com/id/0-11)Prompt Engineering for Coders – Cohere Academy**.\n*   **Ap [futurense](https://vertexaisearch.cloud.google.com/id/0-11)plied Prompt Engineering – HarvardX (via edX)**.\n*   **Prom [futurense](https://vertexaisearch.cloud.google.com/id/0-11)pt Engineering with Python – Udemy**.\n*   **Prompt [futurense](https://vertexaisearch.cloud.google.com/id/0-11) Design for AI Apps – Replit & Hugging Face:** Focuses on rapid prototyping of AI apps using prompts.\n*   **Advanced [futurense](https://vertexaisearch.cloud.google.com/id/0-11) Prompt Tactics – FastAI Specialization**.\n*   **Advanced P [futurense](https://vertexaisearch.cloud.google.com/id/0-11)rompt Engineering Course (Coursera):** Covers crafting effective prompts, core and advanced prompting techniques, building dynamic prompts with LangChain, and designing scalable GenAI workflows.\n*   **Advanced P [coursera](https://vertexaisearch.cloud.google.com/id/0-12)rompt Engineering in Generative AI Course (Clarusway):** Covers foundational AI concepts and advanced prompting techniques with models like ChatGPT and Gemini.\n*   **IBM Genera [clarusway](https://vertexaisearch.cloud.google.com/id/0-13)tive AI Classroom:** Teaches techniques like zero-shot and few-shot prompting with hands-on labs.\n*   **GSDC Globa [fonzi](https://vertexaisearch.cloud.google.com/id/0-10)l Generative AI Advance Prompt Engineering Webinar 2025:** Provides advanced techniques in prompt engineering for Generative AI.\n*   **Free Cours [gsdcouncil](https://vertexaisearch.cloud.google.com/id/0-14)es:**\n    *   **Introduction to Prompt Engineering for Generative AI:** Covers text generation, AI-generated images, and advanced concepts.\n    *   **Prompt [coursesity](https://vertexaisearch.cloud.google.com/id/0-15) Engineering: How to Talk to the AIs:** Introduces prompt engineering and LLMs.\n\n**Key Considera [coursesity](https://vertexaisearch.cloud.google.com/id/0-15)tions for 2025:**\n\n*   **Multimodal AI Prompting:** Combining text, images, and code.\n*   **Automated  [dataunboxed](https://vertexaisearch.cloud.google.com/id/0-16)Prompt Optimization:** Using AI to improve prompts.\n*   **Context-Aw [dataunboxed](https://vertexaisearch.cloud.google.com/id/0-16) [bridgemind](https://vertexaisearch.cloud.google.com/id/0-2)are Prompting:** Adapting prompts based on conversation history.\n*   **Tool-Integ [dataunboxed](https://vertexaisearch.cloud.google.com/id/0-16)rated Prompting:** For complex, multi-step AI workflows.\n*   **Voice-Base [dataunboxed](https://vertexaisearch.cloud.google.com/id/0-16)d Prompt Engineering:** For conversational AI interfaces.\n*   **Cost Optim [dataunboxed](https://vertexaisearch.cloud.google.com/id/0-16)ization:** Balancing model performance against cost by using shorter, structured prompts.\n [aakashg](https://vertexaisearch.cloud.google.com/id/0-17)",
+      "Okay, I will conduct Google Searches to gather the most recent information on \"advanced prompt engineering techniques July 2025\" and synthesize it into a verifiable text artifact.\nAdvanced prompt engineering techniques in July 2025 focus on crafting effective inputs to get desired outputs from language models (LLMs) like GPT [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0). A well-designed prompt can greatly improve the accuracy, relevance, and usability of results [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0). Prompt engineering is no longer just a technical trick; it's a skill that defines how effectively we harness models like ChatGPT, Claude, and Gemini [kanerika](https://vertexaisearch.cloud.google.com/id/1-1). In 2025, the global prompt engineering market is expected to reach $505 billion, growing at a 33% CAGR through 2034 [kanerika](https://vertexaisearch.cloud.google.com/id/1-1). However, research indicates that 78% of AI project failures stem from poor prompt design, highlighting the importance of prompt quality [kanerika](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Core Prompt Engineering Techniques**\n\n*   **Zero-shot prompting:** Asking the model to perform a task without any examples [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0) [medium](https://vertexaisearch.cloud.google.com/id/1-2) [k2view](https://vertexaisearch.cloud.google.com/id/1-3) [medium](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **One-shot and few-shot prompting:** Providing one or more examples to improve model performance [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0) [medium](https://vertexaisearch.cloud.google.com/id/1-2) [microsoft](https://vertexaisearch.cloud.google.com/id/1-5) [medium](https://vertexaisearch.cloud.google.com/id/1-4). Few-shot prompting is a technique where examples are included in the prompt, thus facilitating LLM AI learning [k2view](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Chain-of-thought prompting:** Encouraging the model to reason step-by-step by explicitly asking for intermediate steps [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0) [medium](https://vertexaisearch.cloud.google.com/id/1-6) [medium](https://vertexaisearch.cloud.google.com/id/1-2) [k2view](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Self-consistency:** Sampling multiple reasoning paths and selecting the most consistent answer [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0) [k2view](https://vertexaisearch.cloud.google.com/id/1-3). Self-consistency prompting is an advanced technique that improves the accuracy of chain-of-thought reasoning [k2view](https://vertexaisearch.cloud.google.com/id/1-3).\n\n**Advanced Prompting Strategies**\n\n*   **Role prompting:** Assigning the model a persona or role (e.g., \"You are a legal expert…\") to guide tone and domain expertise.\n [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0) [campusrecmag](https://vertexaisearch.cloud.google.com/id/1-7)*   **Recursive prompting:** Using the model's output as input to further refine or iterate answers.\n [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0)*   **ReAct (Reasoning + Acting):** Combining reasoning with tool use, like a calculator or web search, to reach answers more accurately.\n [medium](https://vertexaisearch.cloud.google.com/id/1-6) [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0)*   **Tree of Thought (ToT):** Exploring multiple reasoning paths in a tree structure to evaluate and select the best solution.\n [medium](https://vertexaisearch.cloud.google.com/id/1-6) [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0)*   **Prompt tuning:** Fine-tuning prompts through trial and error or automated systems.\n [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0)*   **Temperature and top-k/top-p settings:** Controlling randomness and creativity of outputs.\n [ninjaai](https://vertexaisearch.cloud.google.com/id/1-0)*   **Meta prompting:** A more abstract approach that emphasizes the format and logic of queries.\n [k2view](https://vertexaisearch.cloud.google.com/id/1-3)\n**Best Practices for Effective Prompt Engineering**\n\n*   **Be Specific:** Always be specific, detailed, and accurate.  [aakashg](https://vertexaisearch.cloud.google.com/id/1-8)Provide detailed context, establish comprehensive background information including the subject matter, scope, constraints, and situational factors.\n [kanerika](https://vertexaisearch.cloud.google.com/id/1-1)*   **Use Step-by-Step Instructions:** Use step-by-step instructions.  [kanerika](https://vertexaisearch.cloud.google.com/id/1-1)Break down the task into smaller steps.\n [microsoft](https://vertexaisearch.cloud.google.com/id/1-5)*   **Give Role or Persona to the AI:** Assign a role or persona to the AI.\n [kanerika](https://vertexaisearch.cloud.google.com/id/1-1) [campusrecmag](https://vertexaisearch.cloud.google.com/id/1-7)*   **Use Examples in the Prompt:** Supply relevant examples or background information to help the AI grasp the scenario.\n [medium](https://vertexaisearch.cloud.google.com/id/1-4)*   **Avoid Overcomplicated Language:** Use clear and concise language.  [medium](https://vertexaisearch.cloud.google.com/id/1-4)Avoid ambiguity by using precise language.\n [medium](https://vertexaisearch.cloud.google.com/id/1-4)*   **Test Across Use Cases and Models:** Test which format works best for your specific model.\n [aakashg](https://vertexaisearch.cloud.google.com/id/1-8)*   **Log and Version Your Prompts:**\n*   **Specify Output Format:** Explicitly define how you want information structured.\n [medium](https://vertexaisearch.cloud.google.com/id/1-4) [kanerika](https://vertexaisearch.cloud.google.com/id/1-1)*   **Iterate and Refine:** Refine your prompts based on the responses you receive.\n [medium](https://vertexaisearch.cloud.google.com/id/1-4) [campusrecmag](https://vertexaisearch.cloud.google.com/id/1-7)\n**Key Trends in 2025**\n\n*   **Generative AI for Prompt Creation:** Using generative AI to create prompts.\n [solguruz](https://vertexaisearch.cloud.google.com/id/1-9)*   **Mega-Prompts:** The rise of mega-prompts or long prompts.\n [solguruz](https://vertexaisearch.cloud.google.com/id/1-9)*   **Adaptive and Context-Aware Prompting:** Adapting prompts according to the given situation.\n [solguruz](https://vertexaisearch.cloud.google.com/id/1-9)*   **Multimodal Prompting:** Using audio, visual, and video inputs to produce output in various forms.\n [solguruz](https://vertexaisearch.cloud.google.com/id/1-9)*   **Automated Prompt Optimization:** Automating prompt optimization.\n [solguruz](https://vertexaisearch.cloud.google.com/id/1-9) [aakashg](https://vertexaisearch.cloud.google.com/id/1-8)*   **Ethical Prompting:** Considering ethical implications in prompt engineering.\n [solguruz](https://vertexaisearch.cloud.google.com/id/1-9)\nIt's important to note that manual prompt crafting is becoming more of a development practice rather than a production strategy, with automated prompt optimization outperforming human experts.\n [aakashg](https://vertexaisearch.cloud.google.com/id/1-8)",
+      "Based on the search results, here's a synthesis of effective automated prompt optimization techniques and tools used in July 2025, focusing on their outperformance of manual prompt crafting and the metrics used to measure this:\n\n**1. Automated Prompt Optimization Techniques & Tools:**\n\n*   **AI-Driven Prompt Engineers:** AI systems can create better prompts in significantly less time than human experts [aakashg](https://vertexaisearch.cloud.google.com/id/2-0). For example, one study showed an AI prompt engineer created better prompts in 10 minutes compared to 20 hours of manual optimization [aakashg](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Frameworks like DSPy and TextGrad:** These frameworks consistently outperform hand-crafted prompts by generating and testing numerous variations automatically [aakashg](https://vertexaisearch.cloud.google.com/id/2-0) [acm](https://vertexaisearch.cloud.google.com/id/2-1) [arize](https://vertexaisearch.cloud.google.com/id/2-2). DSPy, in particular, automates the search for optimized prompts, enabling more scalable and systematic improvements [arize](https://vertexaisearch.cloud.google.com/id/2-2). TextGrad uses backpropagation and text-based feedback to evaluate and improve prompts [acm](https://vertexaisearch.cloud.google.com/id/2-1).\n*   **Meta-Prompting (e.g., Optimization by Prompting - OPRO):**  LLMs optimize prompts by considering previous prompts and their training accuracy, along with task descriptions and examples [acm](https://vertexaisearch.cloud.google.com/id/2-1).\n*   **Reinforcement Learning (RL):** RL allows AI models to experiment, evaluate, and refine prompts on their own using a reward-based system [newline](https://vertexaisearch.cloud.google.com/id/2-3) [substack](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Automated Prompt Testing Tools:** Tools like Helicone, OpenAI Eval, Promptfoo, and LangChain are used for automated prompt testing [newline](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Feedback-Driven Self-Evolving Prompts:** AI systems iteratively adjust responses based on user feedback, detecting inconsistencies and rewriting prompts to refine future outputs [orq](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Evolutionary Algorithms:** These algorithms generate candidate prompts, making them more general [arxiv](https://vertexaisearch.cloud.google.com/id/2-6).\n\n**2. How Automated Optimization Outperforms Manual Prompt Crafting:**\n\n*   **Scalability:** Manual prompt crafting doesn't scale well [aakashg](https://vertexaisearch.cloud.google.com/id/2-0) [orq](https://vertexaisearch.cloud.google.com/id/2-5). Automated approaches are more practical for large-scale AI applications [orq](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Efficiency:** Automated prompt optimization saves time and resources by eliminating manual trial-and-error [newline](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Reduced Human Bias:** Automated systems minimize human error and bias, helping to identify optimal configurations [newline](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Systematic Testing:** Automated systems allow for A/B testing, automated evaluation, and continuous optimization [aakashg](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Finding Missed Optimizations:** Automated systems generate and test hundreds of variations, finding optimizations that humans might miss [aakashg](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Improved Performance:** Studies show that organizations with systematic prompt engineering processes see 20-30% better performance than those relying on ad-hoc optimization [aakashg](https://vertexaisearch.cloud.google.com/id/2-0). Research indicates AI can outperform human-generated prompts by up to 50% in specific tasks [acm](https://vertexaisearch.cloud.google.com/id/2-1) [newline](https://vertexaisearch.cloud.google.com/id/2-3).\n\n**3. Metrics for Measuring Outperformance:**\n\n*   **Accuracy:** Measures how correct the AI's responses are compared to a known correct output [arsturn](https://vertexaisearch.cloud.google.com/id/2-7) [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8) [newline](https://vertexaisearch.cloud.google.com/id/2-3) [profiletree](https://vertexaisearch.cloud.google.com/id/2-9). Metrics like F1, BLEU, and ROUGE are used [newline](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Relevance:** Assesses how well the generated text addresses the prompt [arsturn](https://vertexaisearch.cloud.google.com/id/2-7) [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Consistency:** Measures the variation in output quality across similar prompts and contexts [profiletree](https://vertexaisearch.cloud.google.com/id/2-9) [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8) [arsturn](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Efficiency:** Measures how quickly and effectively the AI generates outputs [arsturn](https://vertexaisearch.cloud.google.com/id/2-7) [profiletree](https://vertexaisearch.cloud.google.com/id/2-9).\n*   **Context Match Score (CMS):** Evaluates how well a prompt aligns with its intended purpose and generates contextually accurate responses [ghost](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Meaning Similarity Score (MSS):** Measures how well a prompt retains its semantic intent and deeper meaning across interactions [ghost](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Input-Output Match Score (IOMS):** Evaluates how well inputs align with outputs in LLM responses [ghost](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Context Fit Rate (CFR):** Ensures prompts address specific use cases while staying within contextual boundaries [ghost](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Prompt Complexity Index (PCI):** Balances clarity and detail in prompts to avoid overloading the model [ghost](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **User Satisfaction Score:** Measures user satisfaction with the AI's responses [arsturn](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Response Latency:** Measures the time it takes for the AI to generate a response [arsturn](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Response Rate:** Measures the percentage of users who interact with prompts [jonathanmast](https://vertexaisearch.cloud.google.com/id/2-11).\n*   **Conversion Rate:** Tracks how many users take the desired action after interacting with prompts [jonathanmast](https://vertexaisearch.cloud.google.com/id/2-11).\n*   **Computational Cost:** Measures the resources required to generate outputs [newline](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Error Rate:** Frequency of inappropriate, inaccurate, or irrelevant AI responses [profiletree](https://vertexaisearch.cloud.google.com/id/2-9).\n\n**4. Key Considerations for Effective Prompt Optimization:**\n\n*   **Clarity and Specificity:** Using clear and specific language is crucial for effective prompt engineering [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **Detailed Instructions:** Breaking tasks into smaller steps and tailoring instructions to the specific use case is important [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **Context Provision:** Providing relevant background information helps the model understand the broader situation and produce more contextually appropriate responses [medium](https://vertexaisearch.cloud.google.com/id/2-13) [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8) [campusrecmag](https://vertexaisearch.cloud.google.com/id/2-14).\n*   **Output Format Specifications:** Explicitly defining how you want information structured ensures consistency and usability [medium](https://vertexaisearch.cloud.google.com/id/2-13) [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8) [campusrecmag](https://vertexaisearch.cloud.google.com/id/2-14).\n*   **Iterative Refinement:** Treat prompt creation as an iterative process, analyzing the output and refining the prompt to address shortcomings [medium](https://vertexaisearch.cloud.google.com/id/2-13) [campusrecmag](https://vertexaisearch.cloud.google.com/id/2-14) [promptmixer](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Systematic Evaluation:** Implement systematic measurement and optimization processes [profiletree](https://vertexaisearch.cloud.google.com/id/2-9) [aakashg](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Understanding Model Capabilities:**  Consider the model's capabilities, task requirements, and potential edge cases when designing prompts [medium](https://vertexaisearch.cloud.google.com/id/2-13).\n*    **Context Engineering:** Focus on optimizing the entire context window with the right information, not just the instruction text [aakashg](https://vertexaisearch.cloud.google.com/id/2-0).\n\n**5. Tools & Resources:**\n\n*   **OpenAI Playground:** Test and refine prompts with real-time feedback [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **PromptBase:** Marketplace for buying, selling, and discovering optimized prompts [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **PromptChainer:** Build workflows by connecting multiple prompts [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **Helicone:** Track, analyze, and optimize AI prompt performance [newline](https://vertexaisearch.cloud.google.com/id/2-3) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **Agenta:** Collaborate, test, and improve prompts as a team [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **Orq.ai:** Enables seamless collaboration and real-time prompt refinement [orq](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Arize Phoenix:** Track and compare different strategies [arize](https://vertexaisearch.cloud.google.com/id/2-2).\n\nIn conclusion, automated prompt optimization techniques and tools are significantly outperforming manual prompt crafting in July 2025. This is due to their ability to scale, improve efficiency, reduce bias, and systematically test numerous prompt variations. Key metrics for measuring this outperformance include accuracy, relevance, consistency, efficiency, and user satisfaction. By leveraging these techniques and tools, organizations can unlock the full potential of AI and achieve better results with less effort.\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbxkLV6bn_RmFTxclZVkSNIkBVYzFBAKN6OYJmEBogsZqIihAZctLR88i4BU8ou0Znc25ZE45H81MyBFVRG_3EGyWgmvnWEcNWW16tczznw3rAWXl4wiT3zgZW3kGz8dOM6f4R2p-w16GM2oFmkYhXYXVW76wrQrqEGyFBdIdxeWVv1-z5FjSr7nvbTOVLob-NVIYfRTDEzdbXBtzp4VrP432IV7okgw=="
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7rqZivBTEDJn3tzeV-hH1_mE_0uUwAMc6K51s6RZjPkigsDqv-154tW4wiz-zasOYues1jcohlWi8UHMnObp9p6XxfIv46RtF-e7KJdPs65_nJ8DI3T2vM40rF3Os9X2rbvUP6wjyp71YURV5EkiJg-AIRc="
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7rqZivBTEDJn3tzeV-hH1_mE_0uUwAMc6K51s6RZjPkigsDqv-154tW4wiz-zasOYues1jcohlWi8UHMnObp9p6XxfIv46RtF-e7KJdPs65_nJ8DI3T2vM40rF3Os9X2rbvUP6wjyp71YURV5EkiJg-AIRc="
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7rqZivBTEDJn3tzeV-hH1_mE_0uUwAMc6K51s6RZjPkigsDqv-154tW4wiz-zasOYues1jcohlWi8UHMnObp9p6XxfIv46RtF-e7KJdPs65_nJ8DI3T2vM40rF3Os9X2rbvUP6wjyp71YURV5EkiJg-AIRc="
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7rqZivBTEDJn3tzeV-hH1_mE_0uUwAMc6K51s6RZjPkigsDqv-154tW4wiz-zasOYues1jcohlWi8UHMnObp9p6XxfIv46RtF-e7KJdPs65_nJ8DI3T2vM40rF3Os9X2rbvUP6wjyp71YURV5EkiJg-AIRc="
+      },
+      {
+        "label": "bridgemind",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG357gNOS5GP_sFYUNs7ScPsFtOU9tcmJJ3Q6UWbG01uq7fgRL26bAyw3-GD1D4sn5iUmRLdsSLZ_amXGR9oSp79Cr4NjSBrsz_IZ4jEB7mXZfBd8QQ-KZb94dpCV9ZjjcnaGGZE5jCm4fLv8k_wv4jaqdhXtvzdIm-fa6LQaks7Q=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbxkLV6bn_RmFTxclZVkSNIkBVYzFBAKN6OYJmEBogsZqIihAZctLR88i4BU8ou0Znc25ZE45H81MyBFVRG_3EGyWgmvnWEcNWW16tczznw3rAWXl4wiT3zgZW3kGz8dOM6f4R2p-w16GM2oFmkYhXYXVW76wrQrqEGyFBdIdxeWVv1-z5FjSr7nvbTOVLob-NVIYfRTDEzdbXBtzp4VrP432IV7okgw=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbxkLV6bn_RmFTxclZVkSNIkBVYzFBAKN6OYJmEBogsZqIihAZctLR88i4BU8ou0Znc25ZE45H81MyBFVRG_3EGyWgmvnWEcNWW16tczznw3rAWXl4wiT3zgZW3kGz8dOM6f4R2p-w16GM2oFmkYhXYXVW76wrQrqEGyFBdIdxeWVv1-z5FjSr7nvbTOVLob-NVIYfRTDEzdbXBtzp4VrP432IV7okgw=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbxkLV6bn_RmFTxclZVkSNIkBVYzFBAKN6OYJmEBogsZqIihAZctLR88i4BU8ou0Znc25ZE45H81MyBFVRG_3EGyWgmvnWEcNWW16tczznw3rAWXl4wiT3zgZW3kGz8dOM6f4R2p-w16GM2oFmkYhXYXVW76wrQrqEGyFBdIdxeWVv1-z5FjSr7nvbTOVLob-NVIYfRTDEzdbXBtzp4VrP432IV7okgw=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbxkLV6bn_RmFTxclZVkSNIkBVYzFBAKN6OYJmEBogsZqIihAZctLR88i4BU8ou0Znc25ZE45H81MyBFVRG_3EGyWgmvnWEcNWW16tczznw3rAWXl4wiT3zgZW3kGz8dOM6f4R2p-w16GM2oFmkYhXYXVW76wrQrqEGyFBdIdxeWVv1-z5FjSr7nvbTOVLob-NVIYfRTDEzdbXBtzp4VrP432IV7okgw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rlkHn-fkgq4nJiMlKPoVWVtM3y19zgrPLvNWtbhMyQxsbWfUSFuGjJCBXQyqKVR3YwN0FWYoCUzVUHjstB4paC_myiwUnUjaxX_JH8Gl7Qk0e4ba4p0N9mgTZcc3m8FK01W0xhaxcJj9fyqpvzyqP3GheRpNwUYhO0JRja6-mD6IBVRgE0dB9Qe-BJ0YWER9GbZygJ4BSuqmCWMclTJkmB5b38umJDcTYaqu-XwVsTgKJt_NsYpSOA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rlkHn-fkgq4nJiMlKPoVWVtM3y19zgrPLvNWtbhMyQxsbWfUSFuGjJCBXQyqKVR3YwN0FWYoCUzVUHjstB4paC_myiwUnUjaxX_JH8Gl7Qk0e4ba4p0N9mgTZcc3m8FK01W0xhaxcJj9fyqpvzyqP3GheRpNwUYhO0JRja6-mD6IBVRgE0dB9Qe-BJ0YWER9GbZygJ4BSuqmCWMclTJkmB5b38umJDcTYaqu-XwVsTgKJt_NsYpSOA=="
+      },
+      {
+        "label": "plainenglish",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBLgXxqzh4S9Hf4OjQAPfOtczN3oB1wokL_N756bmEgl1qe3Rsz9Auvbl0RGE_bkZu-ddH_nRP4BxVwkzmHF6frMvBBhKBrFWPrjiZZ5MiyXDaxzrsb27K69ta9CYXqwqhrE57TZJXSu-mTPr4yLwTiCcw1tvS4V9ZYqfifMM5p2a0o-ROFXbsT_8WjcgoBbia35zjgEdr5neMKg=="
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7rqZivBTEDJn3tzeV-hH1_mE_0uUwAMc6K51s6RZjPkigsDqv-154tW4wiz-zasOYues1jcohlWi8UHMnObp9p6XxfIv46RtF-e7KJdPs65_nJ8DI3T2vM40rF3Os9X2rbvUP6wjyp71YURV5EkiJg-AIRc="
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq7rqZivBTEDJn3tzeV-hH1_mE_0uUwAMc6K51s6RZjPkigsDqv-154tW4wiz-zasOYues1jcohlWi8UHMnObp9p6XxfIv46RtF-e7KJdPs65_nJ8DI3T2vM40rF3Os9X2rbvUP6wjyp71YURV5EkiJg-AIRc="
+      },
+      {
+        "label": "plainenglish",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBLgXxqzh4S9Hf4OjQAPfOtczN3oB1wokL_N756bmEgl1qe3Rsz9Auvbl0RGE_bkZu-ddH_nRP4BxVwkzmHF6frMvBBhKBrFWPrjiZZ5MiyXDaxzrsb27K69ta9CYXqwqhrE57TZJXSu-mTPr4yLwTiCcw1tvS4V9ZYqfifMM5p2a0o-ROFXbsT_8WjcgoBbia35zjgEdr5neMKg=="
+      },
+      {
+        "label": "plainenglish",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBLgXxqzh4S9Hf4OjQAPfOtczN3oB1wokL_N756bmEgl1qe3Rsz9Auvbl0RGE_bkZu-ddH_nRP4BxVwkzmHF6frMvBBhKBrFWPrjiZZ5MiyXDaxzrsb27K69ta9CYXqwqhrE57TZJXSu-mTPr4yLwTiCcw1tvS4V9ZYqfifMM5p2a0o-ROFXbsT_8WjcgoBbia35zjgEdr5neMKg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rlkHn-fkgq4nJiMlKPoVWVtM3y19zgrPLvNWtbhMyQxsbWfUSFuGjJCBXQyqKVR3YwN0FWYoCUzVUHjstB4paC_myiwUnUjaxX_JH8Gl7Qk0e4ba4p0N9mgTZcc3m8FK01W0xhaxcJj9fyqpvzyqP3GheRpNwUYhO0JRja6-mD6IBVRgE0dB9Qe-BJ0YWER9GbZygJ4BSuqmCWMclTJkmB5b38umJDcTYaqu-XwVsTgKJt_NsYpSOA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfx2hrvlHcWVqS7IIWj4l4waDmBiy9OIIi-LVFRgNtoCEPya8A8Nf0kZxi4oChlLlesNcod_VJflwMt5LG6EeF3GAQkZKdgNbG-zZ1rmR70bigob5opz8iU5ieqmJn4x0dcCBZ9ArPrcD6E9XUV-h58Z0rOfYGGA=="
+      },
+      {
+        "label": "plainenglish",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBLgXxqzh4S9Hf4OjQAPfOtczN3oB1wokL_N756bmEgl1qe3Rsz9Auvbl0RGE_bkZu-ddH_nRP4BxVwkzmHF6frMvBBhKBrFWPrjiZZ5MiyXDaxzrsb27K69ta9CYXqwqhrE57TZJXSu-mTPr4yLwTiCcw1tvS4V9ZYqfifMM5p2a0o-ROFXbsT_8WjcgoBbia35zjgEdr5neMKg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rlkHn-fkgq4nJiMlKPoVWVtM3y19zgrPLvNWtbhMyQxsbWfUSFuGjJCBXQyqKVR3YwN0FWYoCUzVUHjstB4paC_myiwUnUjaxX_JH8Gl7Qk0e4ba4p0N9mgTZcc3m8FK01W0xhaxcJj9fyqpvzyqP3GheRpNwUYhO0JRja6-mD6IBVRgE0dB9Qe-BJ0YWER9GbZygJ4BSuqmCWMclTJkmB5b38umJDcTYaqu-XwVsTgKJt_NsYpSOA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rlkHn-fkgq4nJiMlKPoVWVtM3y19zgrPLvNWtbhMyQxsbWfUSFuGjJCBXQyqKVR3YwN0FWYoCUzVUHjstB4paC_myiwUnUjaxX_JH8Gl7Qk0e4ba4p0N9mgTZcc3m8FK01W0xhaxcJj9fyqpvzyqP3GheRpNwUYhO0JRja6-mD6IBVRgE0dB9Qe-BJ0YWER9GbZygJ4BSuqmCWMclTJkmB5b38umJDcTYaqu-XwVsTgKJt_NsYpSOA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_rlkHn-fkgq4nJiMlKPoVWVtM3y19zgrPLvNWtbhMyQxsbWfUSFuGjJCBXQyqKVR3YwN0FWYoCUzVUHjstB4paC_myiwUnUjaxX_JH8Gl7Qk0e4ba4p0N9mgTZcc3m8FK01W0xhaxcJj9fyqpvzyqP3GheRpNwUYhO0JRja6-mD6IBVRgE0dB9Qe-BJ0YWER9GbZygJ4BSuqmCWMclTJkmB5b38umJDcTYaqu-XwVsTgKJt_NsYpSOA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfx2hrvlHcWVqS7IIWj4l4waDmBiy9OIIi-LVFRgNtoCEPya8A8Nf0kZxi4oChlLlesNcod_VJflwMt5LG6EeF3GAQkZKdgNbG-zZ1rmR70bigob5opz8iU5ieqmJn4x0dcCBZ9ArPrcD6E9XUV-h58Z0rOfYGGA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfx2hrvlHcWVqS7IIWj4l4waDmBiy9OIIi-LVFRgNtoCEPya8A8Nf0kZxi4oChlLlesNcod_VJflwMt5LG6EeF3GAQkZKdgNbG-zZ1rmR70bigob5opz8iU5ieqmJn4x0dcCBZ9ArPrcD6E9XUV-h58Z0rOfYGGA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfx2hrvlHcWVqS7IIWj4l4waDmBiy9OIIi-LVFRgNtoCEPya8A8Nf0kZxi4oChlLlesNcod_VJflwMt5LG6EeF3GAQkZKdgNbG-zZ1rmR70bigob5opz8iU5ieqmJn4x0dcCBZ9ArPrcD6E9XUV-h58Z0rOfYGGA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiRaVo3O1t1GHM31lDVAnpWkN7gSQULo5sN8coMEcOex6QghFphWc81p-yFx1mJ5hKlxKPFGRlXfC8yxwTxzEgNu2_aWtncc83ibuIrHtOrPb7AvctuEcA05G_189nQDKLwtWT61PhooiTQJjXeA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfx2hrvlHcWVqS7IIWj4l4waDmBiy9OIIi-LVFRgNtoCEPya8A8Nf0kZxi4oChlLlesNcod_VJflwMt5LG6EeF3GAQkZKdgNbG-zZ1rmR70bigob5opz8iU5ieqmJn4x0dcCBZ9ArPrcD6E9XUV-h58Z0rOfYGGA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiRaVo3O1t1GHM31lDVAnpWkN7gSQULo5sN8coMEcOex6QghFphWc81p-yFx1mJ5hKlxKPFGRlXfC8yxwTxzEgNu2_aWtncc83ibuIrHtOrPb7AvctuEcA05G_189nQDKLwtWT61PhooiTQJjXeA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiRaVo3O1t1GHM31lDVAnpWkN7gSQULo5sN8coMEcOex6QghFphWc81p-yFx1mJ5hKlxKPFGRlXfC8yxwTxzEgNu2_aWtncc83ibuIrHtOrPb7AvctuEcA05G_189nQDKLwtWT61PhooiTQJjXeA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiRaVo3O1t1GHM31lDVAnpWkN7gSQULo5sN8coMEcOex6QghFphWc81p-yFx1mJ5hKlxKPFGRlXfC8yxwTxzEgNu2_aWtncc83ibuIrHtOrPb7AvctuEcA05G_189nQDKLwtWT61PhooiTQJjXeA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiRaVo3O1t1GHM31lDVAnpWkN7gSQULo5sN8coMEcOex6QghFphWc81p-yFx1mJ5hKlxKPFGRlXfC8yxwTxzEgNu2_aWtncc83ibuIrHtOrPb7AvctuEcA05G_189nQDKLwtWT61PhooiTQJjXeA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiRaVo3O1t1GHM31lDVAnpWkN7gSQULo5sN8coMEcOex6QghFphWc81p-yFx1mJ5hKlxKPFGRlXfC8yxwTxzEgNu2_aWtncc83ibuIrHtOrPb7AvctuEcA05G_189nQDKLwtWT61PhooiTQJjXeA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiRaVo3O1t1GHM31lDVAnpWkN7gSQULo5sN8coMEcOex6QghFphWc81p-yFx1mJ5hKlxKPFGRlXfC8yxwTxzEgNu2_aWtncc83ibuIrHtOrPb7AvctuEcA05G_189nQDKLwtWT61PhooiTQJjXeA=="
+      },
+      {
+        "label": "mirascope",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiRaVo3O1t1GHM31lDVAnpWkN7gSQULo5sN8coMEcOex6QghFphWc81p-yFx1mJ5hKlxKPFGRlXfC8yxwTxzEgNu2_aWtncc83ibuIrHtOrPb7AvctuEcA05G_189nQDKLwtWT61PhooiTQJjXeA=="
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj_9CD9-hirpO7KAANyfY7vuzx5eaBHkZI-ChCoHaZSIeoC6VyvGCtmSxvazxLF4n0jJpY5s1GSi5r6F6lk76bHMApicUC4osUj7Dr2LcyMUTDUKUrMnpoy_WItjhEFIdEf_0-T-p2bK9GrEluVxNk1CKgIBMMfw=="
+      },
+      {
+        "label": "orq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZC2goj8ZfyZTgdhzcRQbgzOjQHaSwB5YvYxxgdbfPDNJJlmBxquW8YaiL2yZPxhE_hw6LAg9Ozp7jJdjzweq44ERcgtS31mjScOZjmngop7VTkvmY21sSrYWDwl0y9tSzq8gO90bJ"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj_9CD9-hirpO7KAANyfY7vuzx5eaBHkZI-ChCoHaZSIeoC6VyvGCtmSxvazxLF4n0jJpY5s1GSi5r6F6lk76bHMApicUC4osUj7Dr2LcyMUTDUKUrMnpoy_WItjhEFIdEf_0-T-p2bK9GrEluVxNk1CKgIBMMfw=="
+      },
+      {
+        "label": "orq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZC2goj8ZfyZTgdhzcRQbgzOjQHaSwB5YvYxxgdbfPDNJJlmBxquW8YaiL2yZPxhE_hw6LAg9Ozp7jJdjzweq44ERcgtS31mjScOZjmngop7VTkvmY21sSrYWDwl0y9tSzq8gO90bJ"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj_9CD9-hirpO7KAANyfY7vuzx5eaBHkZI-ChCoHaZSIeoC6VyvGCtmSxvazxLF4n0jJpY5s1GSi5r6F6lk76bHMApicUC4osUj7Dr2LcyMUTDUKUrMnpoy_WItjhEFIdEf_0-T-p2bK9GrEluVxNk1CKgIBMMfw=="
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "orq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZC2goj8ZfyZTgdhzcRQbgzOjQHaSwB5YvYxxgdbfPDNJJlmBxquW8YaiL2yZPxhE_hw6LAg9Ozp7jJdjzweq44ERcgtS31mjScOZjmngop7VTkvmY21sSrYWDwl0y9tSzq8gO90bJ"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "orq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZC2goj8ZfyZTgdhzcRQbgzOjQHaSwB5YvYxxgdbfPDNJJlmBxquW8YaiL2yZPxhE_hw6LAg9Ozp7jJdjzweq44ERcgtS31mjScOZjmngop7VTkvmY21sSrYWDwl0y9tSzq8gO90bJ"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "learningdaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOo9LKC7BTUcoQGkbYzD7LF0dFTqIBSGtuaczRhMSkFhKZ-U2-0BI3MYEKJqXLCKXrpEeNF_NKraq54nYZIXXF-f46ibFKmB7VfuoUR1h7EIbP_5Bp-8q4YWSHQjbTUzFCuIfRrTeCfnCVgeyFJ-qlTmt65jeQ01ouQJcpeOBktAOaOjmLFUnv9J33x28hRE1FOTcPNqAa44Y8"
+      },
+      {
+        "label": "fonzi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu2fUHt0L4fu-nd7QmfNs4AstBCnUEkx8F5V5KjmLCXMYD2GYkwfStEx0d_4bdFlmE8Fap0ic2uX317RwKxD-joL5UIrcgZ35UAP5rpoC_FRRmBClxplREZ2oEHW2C2-2CqlJ3LfM0BIQQ"
+      },
+      {
+        "label": "futurense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVQJX5--4_dQRWwuUJsjSy-G1pV3jOWxXDU4Ao2lrRt1e9hK8SRsUUl1a6xIyziaWNLa7WQtYilwBPURCi3f5TbbVvaLxEbY6lNnD2bipAsmZ7IGc_Iyf95vfV9U-1PMSOpX93O65kPbGhJiTL5kcdHF1BAecdEN7LMfIhg=="
+      },
+      {
+        "label": "futurense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVQJX5--4_dQRWwuUJsjSy-G1pV3jOWxXDU4Ao2lrRt1e9hK8SRsUUl1a6xIyziaWNLa7WQtYilwBPURCi3f5TbbVvaLxEbY6lNnD2bipAsmZ7IGc_Iyf95vfV9U-1PMSOpX93O65kPbGhJiTL5kcdHF1BAecdEN7LMfIhg=="
+      },
+      {
+        "label": "futurense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVQJX5--4_dQRWwuUJsjSy-G1pV3jOWxXDU4Ao2lrRt1e9hK8SRsUUl1a6xIyziaWNLa7WQtYilwBPURCi3f5TbbVvaLxEbY6lNnD2bipAsmZ7IGc_Iyf95vfV9U-1PMSOpX93O65kPbGhJiTL5kcdHF1BAecdEN7LMfIhg=="
+      },
+      {
+        "label": "futurense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVQJX5--4_dQRWwuUJsjSy-G1pV3jOWxXDU4Ao2lrRt1e9hK8SRsUUl1a6xIyziaWNLa7WQtYilwBPURCi3f5TbbVvaLxEbY6lNnD2bipAsmZ7IGc_Iyf95vfV9U-1PMSOpX93O65kPbGhJiTL5kcdHF1BAecdEN7LMfIhg=="
+      },
+      {
+        "label": "futurense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVQJX5--4_dQRWwuUJsjSy-G1pV3jOWxXDU4Ao2lrRt1e9hK8SRsUUl1a6xIyziaWNLa7WQtYilwBPURCi3f5TbbVvaLxEbY6lNnD2bipAsmZ7IGc_Iyf95vfV9U-1PMSOpX93O65kPbGhJiTL5kcdHF1BAecdEN7LMfIhg=="
+      },
+      {
+        "label": "futurense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVQJX5--4_dQRWwuUJsjSy-G1pV3jOWxXDU4Ao2lrRt1e9hK8SRsUUl1a6xIyziaWNLa7WQtYilwBPURCi3f5TbbVvaLxEbY6lNnD2bipAsmZ7IGc_Iyf95vfV9U-1PMSOpX93O65kPbGhJiTL5kcdHF1BAecdEN7LMfIhg=="
+      },
+      {
+        "label": "futurense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVQJX5--4_dQRWwuUJsjSy-G1pV3jOWxXDU4Ao2lrRt1e9hK8SRsUUl1a6xIyziaWNLa7WQtYilwBPURCi3f5TbbVvaLxEbY6lNnD2bipAsmZ7IGc_Iyf95vfV9U-1PMSOpX93O65kPbGhJiTL5kcdHF1BAecdEN7LMfIhg=="
+      },
+      {
+        "label": "futurense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVQJX5--4_dQRWwuUJsjSy-G1pV3jOWxXDU4Ao2lrRt1e9hK8SRsUUl1a6xIyziaWNLa7WQtYilwBPURCi3f5TbbVvaLxEbY6lNnD2bipAsmZ7IGc_Iyf95vfV9U-1PMSOpX93O65kPbGhJiTL5kcdHF1BAecdEN7LMfIhg=="
+      },
+      {
+        "label": "futurense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVQJX5--4_dQRWwuUJsjSy-G1pV3jOWxXDU4Ao2lrRt1e9hK8SRsUUl1a6xIyziaWNLa7WQtYilwBPURCi3f5TbbVvaLxEbY6lNnD2bipAsmZ7IGc_Iyf95vfV9U-1PMSOpX93O65kPbGhJiTL5kcdHF1BAecdEN7LMfIhg=="
+      },
+      {
+        "label": "coursera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa70EuCBPMGGDNINcsiBpAIyXiao_RD0_VIXH_Ut0lysqwEWrBZp433eJuIMireyU75u7HA08re0sHL2OwG1bIcVSprTlU_XJ8ebgiWTg6BuMHicL43_PhzqPBbTlGy7dIpTCtWH0gTlq10SXG6gDaEQ5GHj-WPcoEF1Qg"
+      },
+      {
+        "label": "clarusway",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoJMUJeLjINiI2EioK5s9GIOMgmIPuWas-1zI0i1gg4GbWewDXHAwJMqrPkBSIyRg7l6BzZCRiNH2cT6AXclWXaRDUpWzMjORjV1tH2UrwBiH1oLig4C5B1tEG_ojKOw7RyGHgbDrBlLkVXIleZQ9ZEFi7K_TbwfT7KYT8Vh9BPWZ_rJ8FFA=="
+      },
+      {
+        "label": "fonzi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu2fUHt0L4fu-nd7QmfNs4AstBCnUEkx8F5V5KjmLCXMYD2GYkwfStEx0d_4bdFlmE8Fap0ic2uX317RwKxD-joL5UIrcgZ35UAP5rpoC_FRRmBClxplREZ2oEHW2C2-2CqlJ3LfM0BIQQ"
+      },
+      {
+        "label": "gsdcouncil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQMOfV_DHeAzybSNa_dPTTgAPN-GLP7ZOIaONe0owyMuaRMhVk5EPcUlQyfkPTr-nv0MUSlRMR9NcABQ5cWwhrFBNaDRBfpmXkUFDfREJXGq1RynYB4kxl9vF-kfybAcD9B0Cp8EzCAUt7-pDLoPbOd09akHJfKmm13vfE5zNpzVjlyIYM"
+      },
+      {
+        "label": "coursesity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKYivgdxlOB2i8KLhd-JUmfXHtvUUYMVW-by7fr8L5SytdO7xQE3CoQ-vdbJbON4rf-_73pFjoTGDyMahAhMAuvsvvq2xmcWNqTnRbqlaRpjZAinSqGkWc58bpbug6yzypWeLBYb7VDMGUrlx2edjp9F_U0_G2Cw=="
+      },
+      {
+        "label": "coursesity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKYivgdxlOB2i8KLhd-JUmfXHtvUUYMVW-by7fr8L5SytdO7xQE3CoQ-vdbJbON4rf-_73pFjoTGDyMahAhMAuvsvvq2xmcWNqTnRbqlaRpjZAinSqGkWc58bpbug6yzypWeLBYb7VDMGUrlx2edjp9F_U0_G2Cw=="
+      },
+      {
+        "label": "dataunboxed",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXjvDvy9bTYt2PJSN9BEJcmakAExVU9hGI5cVAwTS9BNJkp_GizuL7HZZyuDXWqfM9H-Ow8BVHkWsbHFKv33dPNkT1UHFH-INGXz5K-ANkU0zhV0ff_jlhSsPJXATlBTJxO-1A9KKUzFJcZaAWN_ErYL0wmk1xnFmlYFr2nl47I9DxDZETRzj7Q6XDDrEk1usWy7ccoASp1wpsz_a2dvFaUgpfA=="
+      },
+      {
+        "label": "dataunboxed",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXjvDvy9bTYt2PJSN9BEJcmakAExVU9hGI5cVAwTS9BNJkp_GizuL7HZZyuDXWqfM9H-Ow8BVHkWsbHFKv33dPNkT1UHFH-INGXz5K-ANkU0zhV0ff_jlhSsPJXATlBTJxO-1A9KKUzFJcZaAWN_ErYL0wmk1xnFmlYFr2nl47I9DxDZETRzj7Q6XDDrEk1usWy7ccoASp1wpsz_a2dvFaUgpfA=="
+      },
+      {
+        "label": "bridgemind",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG357gNOS5GP_sFYUNs7ScPsFtOU9tcmJJ3Q6UWbG01uq7fgRL26bAyw3-GD1D4sn5iUmRLdsSLZ_amXGR9oSp79Cr4NjSBrsz_IZ4jEB7mXZfBd8QQ-KZb94dpCV9ZjjcnaGGZE5jCm4fLv8k_wv4jaqdhXtvzdIm-fa6LQaks7Q=="
+      },
+      {
+        "label": "dataunboxed",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXjvDvy9bTYt2PJSN9BEJcmakAExVU9hGI5cVAwTS9BNJkp_GizuL7HZZyuDXWqfM9H-Ow8BVHkWsbHFKv33dPNkT1UHFH-INGXz5K-ANkU0zhV0ff_jlhSsPJXATlBTJxO-1A9KKUzFJcZaAWN_ErYL0wmk1xnFmlYFr2nl47I9DxDZETRzj7Q6XDDrEk1usWy7ccoASp1wpsz_a2dvFaUgpfA=="
+      },
+      {
+        "label": "dataunboxed",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXjvDvy9bTYt2PJSN9BEJcmakAExVU9hGI5cVAwTS9BNJkp_GizuL7HZZyuDXWqfM9H-Ow8BVHkWsbHFKv33dPNkT1UHFH-INGXz5K-ANkU0zhV0ff_jlhSsPJXATlBTJxO-1A9KKUzFJcZaAWN_ErYL0wmk1xnFmlYFr2nl47I9DxDZETRzj7Q6XDDrEk1usWy7ccoASp1wpsz_a2dvFaUgpfA=="
+      },
+      {
+        "label": "dataunboxed",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXjvDvy9bTYt2PJSN9BEJcmakAExVU9hGI5cVAwTS9BNJkp_GizuL7HZZyuDXWqfM9H-Ow8BVHkWsbHFKv33dPNkT1UHFH-INGXz5K-ANkU0zhV0ff_jlhSsPJXATlBTJxO-1A9KKUzFJcZaAWN_ErYL0wmk1xnFmlYFr2nl47I9DxDZETRzj7Q6XDDrEk1usWy7ccoASp1wpsz_a2dvFaUgpfA=="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh5VQVf-2-Ar8-9_C-ffAaRrvOTTcVUH65VNayqaJT0Cwz-qomMCKcjdu3r4vqj7YAmvqpNQ8w9oU0YXZPU9BFc4IX5AL_xQ-bkEc8WK1LEa1_Y1OmMe89Jcj5HH3rCX8IdDMACUHkhzh6A70="
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "kanerika",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3Pa3iFYFAN3Y6T-2cHjE3M26dNY1p6m1MbPQTe0X719N3m4CPiBiI1Ur5ueq5m0t3KXZWGDjhzTRYA0A_LRGbsVMrLlytD-X7ZwELKB-fKYXKl-PGpFpSOsXEHnIg_OYEztMzeMpaETfaLK1Cu_VQ5quJhBDUMQ7vto="
+      },
+      {
+        "label": "kanerika",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3Pa3iFYFAN3Y6T-2cHjE3M26dNY1p6m1MbPQTe0X719N3m4CPiBiI1Ur5ueq5m0t3KXZWGDjhzTRYA0A_LRGbsVMrLlytD-X7ZwELKB-fKYXKl-PGpFpSOsXEHnIg_OYEztMzeMpaETfaLK1Cu_VQ5quJhBDUMQ7vto="
+      },
+      {
+        "label": "kanerika",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3Pa3iFYFAN3Y6T-2cHjE3M26dNY1p6m1MbPQTe0X719N3m4CPiBiI1Ur5ueq5m0t3KXZWGDjhzTRYA0A_LRGbsVMrLlytD-X7ZwELKB-fKYXKl-PGpFpSOsXEHnIg_OYEztMzeMpaETfaLK1Cu_VQ5quJhBDUMQ7vto="
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6zfuUWi6F7RUrU2QfTEXVbnw2KqjXbPUKedbJJXQcIORM25xcRDijnGViyZyQMi5ROhNPq2Gy6ng-bihha69GDuBv6fI0hRxYFSOkgp5impBXs8cvcoW7jwylKFpNXGHMFVrAmDTTZtxf5-m_EOH8G8V5onv1D1PIXkHrlMDTzkznMtJmQ6zUMO6B6W9KTV-U9w9IwwU5HRu3Q0jcKK2uZc8UGwcGSniL"
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo23v_-nQiy1wpuI2JafvcIz8fAoqXNZ31h-9sqLDI5fz-ute2_KwGyYIdStAh8UDWOK1i8Gzb1ac6A_wfn6kpO-1jdT1VPpimAunhBqzU-lxHhWaJ0Pw9WJ6M5tniyWk68Z4S8r-7sOCdVOuiTcQl-cHSNg="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3u6P4ZB3ZycsR-JESoU24S6xwz5aIAGYHIGdMUH4yiKXYBwZDYFFIY3J8MyP_iiqvd08UB1wcRqx72XKuqBJf3xli1YmaMpiqjBwUR6tk1npcXGzCyGVvlI55jc5kFGFFAn7Pg2eK1aziB3MZOT0_I1woQ08oYyQdEV23YOP8kH1rRzockqxS9bAuVJ3KumOf7UVe63JQpSwdwp02veY7n2OR99WgSBCAbm3q"
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6zfuUWi6F7RUrU2QfTEXVbnw2KqjXbPUKedbJJXQcIORM25xcRDijnGViyZyQMi5ROhNPq2Gy6ng-bihha69GDuBv6fI0hRxYFSOkgp5impBXs8cvcoW7jwylKFpNXGHMFVrAmDTTZtxf5-m_EOH8G8V5onv1D1PIXkHrlMDTzkznMtJmQ6zUMO6B6W9KTV-U9w9IwwU5HRu3Q0jcKK2uZc8UGwcGSniL"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ9xYnNevY_cAWVVGXsI3xR7xmuSt3_Ad2X3SET0jXhD1wFKPCV4mnnvdZvCzdg1vTEvtS9a-T4dOak2YvyIfZ5EaBeBuXUylWbJ4_Chhb35YqeHeVKNCiaZ8EoeAAjFHQhpKXMHeorB76i6_3AuUBgFJrqGcWaPLY0kjTpVRrfGZzM1we0W0mKYOBYtJJI9w="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3u6P4ZB3ZycsR-JESoU24S6xwz5aIAGYHIGdMUH4yiKXYBwZDYFFIY3J8MyP_iiqvd08UB1wcRqx72XKuqBJf3xli1YmaMpiqjBwUR6tk1npcXGzCyGVvlI55jc5kFGFFAn7Pg2eK1aziB3MZOT0_I1woQ08oYyQdEV23YOP8kH1rRzockqxS9bAuVJ3KumOf7UVe63JQpSwdwp02veY7n2OR99WgSBCAbm3q"
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo23v_-nQiy1wpuI2JafvcIz8fAoqXNZ31h-9sqLDI5fz-ute2_KwGyYIdStAh8UDWOK1i8Gzb1ac6A_wfn6kpO-1jdT1VPpimAunhBqzU-lxHhWaJ0Pw9WJ6M5tniyWk68Z4S8r-7sOCdVOuiTcQl-cHSNg="
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHa7FyjyzcO3s6zv2RgeIHzlEYDjP-A0vCEI8-c9r0e7ubbxTGf1xZsEKxO4qYS7C2QhETXER1ysc6eTFgoJZQ0bTjL9A4utTwmAJILMwQan2pumz_E_e3dXwnjv1xKNxT_i7x1bC8yqGMvLXquxHsEUmOXlaEEcz-WjNTV46tpZHc4-aGdbKTZyY8HE52FV2VakJcEIV4AScS26e7GhpBsXR0oQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6zfuUWi6F7RUrU2QfTEXVbnw2KqjXbPUKedbJJXQcIORM25xcRDijnGViyZyQMi5ROhNPq2Gy6ng-bihha69GDuBv6fI0hRxYFSOkgp5impBXs8cvcoW7jwylKFpNXGHMFVrAmDTTZtxf5-m_EOH8G8V5onv1D1PIXkHrlMDTzkznMtJmQ6zUMO6B6W9KTV-U9w9IwwU5HRu3Q0jcKK2uZc8UGwcGSniL"
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo23v_-nQiy1wpuI2JafvcIz8fAoqXNZ31h-9sqLDI5fz-ute2_KwGyYIdStAh8UDWOK1i8Gzb1ac6A_wfn6kpO-1jdT1VPpimAunhBqzU-lxHhWaJ0Pw9WJ6M5tniyWk68Z4S8r-7sOCdVOuiTcQl-cHSNg="
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo23v_-nQiy1wpuI2JafvcIz8fAoqXNZ31h-9sqLDI5fz-ute2_KwGyYIdStAh8UDWOK1i8Gzb1ac6A_wfn6kpO-1jdT1VPpimAunhBqzU-lxHhWaJ0Pw9WJ6M5tniyWk68Z4S8r-7sOCdVOuiTcQl-cHSNg="
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo23v_-nQiy1wpuI2JafvcIz8fAoqXNZ31h-9sqLDI5fz-ute2_KwGyYIdStAh8UDWOK1i8Gzb1ac6A_wfn6kpO-1jdT1VPpimAunhBqzU-lxHhWaJ0Pw9WJ6M5tniyWk68Z4S8r-7sOCdVOuiTcQl-cHSNg="
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "campusrecmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEH0yZ_DJBvauJC8-xjEFYdblER_EEe09mVilnq4O76e1hnNLe95oaqJ3X2kaWTwFufpZ88GqIXAQHJs6stWlEabKrM19MtDL_n8xfogTZwi5txZ1LDLCeuDDerEj8l5QzJeZ-fbIPKs-qIfZop-9WjkxEF82aSMinDXqsGsoRQE7v6g=="
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHa7FyjyzcO3s6zv2RgeIHzlEYDjP-A0vCEI8-c9r0e7ubbxTGf1xZsEKxO4qYS7C2QhETXER1ysc6eTFgoJZQ0bTjL9A4utTwmAJILMwQan2pumz_E_e3dXwnjv1xKNxT_i7x1bC8yqGMvLXquxHsEUmOXlaEEcz-WjNTV46tpZHc4-aGdbKTZyY8HE52FV2VakJcEIV4AScS26e7GhpBsXR0oQ=="
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHa7FyjyzcO3s6zv2RgeIHzlEYDjP-A0vCEI8-c9r0e7ubbxTGf1xZsEKxO4qYS7C2QhETXER1ysc6eTFgoJZQ0bTjL9A4utTwmAJILMwQan2pumz_E_e3dXwnjv1xKNxT_i7x1bC8yqGMvLXquxHsEUmOXlaEEcz-WjNTV46tpZHc4-aGdbKTZyY8HE52FV2VakJcEIV4AScS26e7GhpBsXR0oQ=="
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "ninjaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlUNhjLOGKD2EBB9JKKpvZSwniycSdLiuxsK69avMKiBOs0UwfhR8S8nRY3qQUMWMrtPK2n4UAQA3_nXsf366mjBvg33QEkZ8in8b_NigT27b7B0Frwk3TLU1UPiE2s27TykOFecQWfmdZHorklwRSkORKYT8UQRFz"
+      },
+      {
+        "label": "k2view",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo23v_-nQiy1wpuI2JafvcIz8fAoqXNZ31h-9sqLDI5fz-ute2_KwGyYIdStAh8UDWOK1i8Gzb1ac6A_wfn6kpO-1jdT1VPpimAunhBqzU-lxHhWaJ0Pw9WJ6M5tniyWk68Z4S8r-7sOCdVOuiTcQl-cHSNg="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa3CN5KazN_S0ZaI8zngPhkLZ-b4xN6SQrnnzE0jDgVgsjbPgAw0eQ9_8bWlCt0jKuvqBga6NqyMHoNYkKoXWFbm_dicLEvvnjuoXBQOkoX_W8GIVM6ox1s99kY0YhB3aYpiJHe6uT82Dqszw="
+      },
+      {
+        "label": "kanerika",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3Pa3iFYFAN3Y6T-2cHjE3M26dNY1p6m1MbPQTe0X719N3m4CPiBiI1Ur5ueq5m0t3KXZWGDjhzTRYA0A_LRGbsVMrLlytD-X7ZwELKB-fKYXKl-PGpFpSOsXEHnIg_OYEztMzeMpaETfaLK1Cu_VQ5quJhBDUMQ7vto="
+      },
+      {
+        "label": "kanerika",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3Pa3iFYFAN3Y6T-2cHjE3M26dNY1p6m1MbPQTe0X719N3m4CPiBiI1Ur5ueq5m0t3KXZWGDjhzTRYA0A_LRGbsVMrLlytD-X7ZwELKB-fKYXKl-PGpFpSOsXEHnIg_OYEztMzeMpaETfaLK1Cu_VQ5quJhBDUMQ7vto="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ9xYnNevY_cAWVVGXsI3xR7xmuSt3_Ad2X3SET0jXhD1wFKPCV4mnnvdZvCzdg1vTEvtS9a-T4dOak2YvyIfZ5EaBeBuXUylWbJ4_Chhb35YqeHeVKNCiaZ8EoeAAjFHQhpKXMHeorB76i6_3AuUBgFJrqGcWaPLY0kjTpVRrfGZzM1we0W0mKYOBYtJJI9w="
+      },
+      {
+        "label": "kanerika",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3Pa3iFYFAN3Y6T-2cHjE3M26dNY1p6m1MbPQTe0X719N3m4CPiBiI1Ur5ueq5m0t3KXZWGDjhzTRYA0A_LRGbsVMrLlytD-X7ZwELKB-fKYXKl-PGpFpSOsXEHnIg_OYEztMzeMpaETfaLK1Cu_VQ5quJhBDUMQ7vto="
+      },
+      {
+        "label": "campusrecmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEH0yZ_DJBvauJC8-xjEFYdblER_EEe09mVilnq4O76e1hnNLe95oaqJ3X2kaWTwFufpZ88GqIXAQHJs6stWlEabKrM19MtDL_n8xfogTZwi5txZ1LDLCeuDDerEj8l5QzJeZ-fbIPKs-qIfZop-9WjkxEF82aSMinDXqsGsoRQE7v6g=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3u6P4ZB3ZycsR-JESoU24S6xwz5aIAGYHIGdMUH4yiKXYBwZDYFFIY3J8MyP_iiqvd08UB1wcRqx72XKuqBJf3xli1YmaMpiqjBwUR6tk1npcXGzCyGVvlI55jc5kFGFFAn7Pg2eK1aziB3MZOT0_I1woQ08oYyQdEV23YOP8kH1rRzockqxS9bAuVJ3KumOf7UVe63JQpSwdwp02veY7n2OR99WgSBCAbm3q"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3u6P4ZB3ZycsR-JESoU24S6xwz5aIAGYHIGdMUH4yiKXYBwZDYFFIY3J8MyP_iiqvd08UB1wcRqx72XKuqBJf3xli1YmaMpiqjBwUR6tk1npcXGzCyGVvlI55jc5kFGFFAn7Pg2eK1aziB3MZOT0_I1woQ08oYyQdEV23YOP8kH1rRzockqxS9bAuVJ3KumOf7UVe63JQpSwdwp02veY7n2OR99WgSBCAbm3q"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3u6P4ZB3ZycsR-JESoU24S6xwz5aIAGYHIGdMUH4yiKXYBwZDYFFIY3J8MyP_iiqvd08UB1wcRqx72XKuqBJf3xli1YmaMpiqjBwUR6tk1npcXGzCyGVvlI55jc5kFGFFAn7Pg2eK1aziB3MZOT0_I1woQ08oYyQdEV23YOP8kH1rRzockqxS9bAuVJ3KumOf7UVe63JQpSwdwp02veY7n2OR99WgSBCAbm3q"
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa3CN5KazN_S0ZaI8zngPhkLZ-b4xN6SQrnnzE0jDgVgsjbPgAw0eQ9_8bWlCt0jKuvqBga6NqyMHoNYkKoXWFbm_dicLEvvnjuoXBQOkoX_W8GIVM6ox1s99kY0YhB3aYpiJHe6uT82Dqszw="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3u6P4ZB3ZycsR-JESoU24S6xwz5aIAGYHIGdMUH4yiKXYBwZDYFFIY3J8MyP_iiqvd08UB1wcRqx72XKuqBJf3xli1YmaMpiqjBwUR6tk1npcXGzCyGVvlI55jc5kFGFFAn7Pg2eK1aziB3MZOT0_I1woQ08oYyQdEV23YOP8kH1rRzockqxS9bAuVJ3KumOf7UVe63JQpSwdwp02veY7n2OR99WgSBCAbm3q"
+      },
+      {
+        "label": "kanerika",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy3Pa3iFYFAN3Y6T-2cHjE3M26dNY1p6m1MbPQTe0X719N3m4CPiBiI1Ur5ueq5m0t3KXZWGDjhzTRYA0A_LRGbsVMrLlytD-X7ZwELKB-fKYXKl-PGpFpSOsXEHnIg_OYEztMzeMpaETfaLK1Cu_VQ5quJhBDUMQ7vto="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3u6P4ZB3ZycsR-JESoU24S6xwz5aIAGYHIGdMUH4yiKXYBwZDYFFIY3J8MyP_iiqvd08UB1wcRqx72XKuqBJf3xli1YmaMpiqjBwUR6tk1npcXGzCyGVvlI55jc5kFGFFAn7Pg2eK1aziB3MZOT0_I1woQ08oYyQdEV23YOP8kH1rRzockqxS9bAuVJ3KumOf7UVe63JQpSwdwp02veY7n2OR99WgSBCAbm3q"
+      },
+      {
+        "label": "campusrecmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEH0yZ_DJBvauJC8-xjEFYdblER_EEe09mVilnq4O76e1hnNLe95oaqJ3X2kaWTwFufpZ88GqIXAQHJs6stWlEabKrM19MtDL_n8xfogTZwi5txZ1LDLCeuDDerEj8l5QzJeZ-fbIPKs-qIfZop-9WjkxEF82aSMinDXqsGsoRQE7v6g=="
+      },
+      {
+        "label": "solguruz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxeTg6oAD22a6wtZFHyABdi-rBJQK7ReJw1uPQQAQx723Akfydvo-WjTuvRqA7roLk3l4yQ2vx7MgQI6ownRe1AOwuiksbmrp6fv95lVqiR2IjMgTcsyz_VZEdQVVLnhzwyH4dh80Faj9zFUPhRg7NqZ8="
+      },
+      {
+        "label": "solguruz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxeTg6oAD22a6wtZFHyABdi-rBJQK7ReJw1uPQQAQx723Akfydvo-WjTuvRqA7roLk3l4yQ2vx7MgQI6ownRe1AOwuiksbmrp6fv95lVqiR2IjMgTcsyz_VZEdQVVLnhzwyH4dh80Faj9zFUPhRg7NqZ8="
+      },
+      {
+        "label": "solguruz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxeTg6oAD22a6wtZFHyABdi-rBJQK7ReJw1uPQQAQx723Akfydvo-WjTuvRqA7roLk3l4yQ2vx7MgQI6ownRe1AOwuiksbmrp6fv95lVqiR2IjMgTcsyz_VZEdQVVLnhzwyH4dh80Faj9zFUPhRg7NqZ8="
+      },
+      {
+        "label": "solguruz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxeTg6oAD22a6wtZFHyABdi-rBJQK7ReJw1uPQQAQx723Akfydvo-WjTuvRqA7roLk3l4yQ2vx7MgQI6ownRe1AOwuiksbmrp6fv95lVqiR2IjMgTcsyz_VZEdQVVLnhzwyH4dh80Faj9zFUPhRg7NqZ8="
+      },
+      {
+        "label": "solguruz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxeTg6oAD22a6wtZFHyABdi-rBJQK7ReJw1uPQQAQx723Akfydvo-WjTuvRqA7roLk3l4yQ2vx7MgQI6ownRe1AOwuiksbmrp6fv95lVqiR2IjMgTcsyz_VZEdQVVLnhzwyH4dh80Faj9zFUPhRg7NqZ8="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa3CN5KazN_S0ZaI8zngPhkLZ-b4xN6SQrnnzE0jDgVgsjbPgAw0eQ9_8bWlCt0jKuvqBga6NqyMHoNYkKoXWFbm_dicLEvvnjuoXBQOkoX_W8GIVM6ox1s99kY0YhB3aYpiJHe6uT82Dqszw="
+      },
+      {
+        "label": "solguruz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxeTg6oAD22a6wtZFHyABdi-rBJQK7ReJw1uPQQAQx723Akfydvo-WjTuvRqA7roLk3l4yQ2vx7MgQI6ownRe1AOwuiksbmrp6fv95lVqiR2IjMgTcsyz_VZEdQVVLnhzwyH4dh80Faj9zFUPhRg7NqZ8="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa3CN5KazN_S0ZaI8zngPhkLZ-b4xN6SQrnnzE0jDgVgsjbPgAw0eQ9_8bWlCt0jKuvqBga6NqyMHoNYkKoXWFbm_dicLEvvnjuoXBQOkoX_W8GIVM6ox1s99kY0YhB3aYpiJHe6uT82Dqszw="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVXK4-CO9ZtsFLVZDZzPjHv9pc9CtCuPD2uXkxC2BqeEnKW6jCgGUve9FDh8IpMIncC7HcLlG47KEci5_W8eTqR0x-PFI3Ud2YPESY366Y9cgstQEC9zAeoBAdScGe760Lrdn_JzB42C4BAM="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVXK4-CO9ZtsFLVZDZzPjHv9pc9CtCuPD2uXkxC2BqeEnKW6jCgGUve9FDh8IpMIncC7HcLlG47KEci5_W8eTqR0x-PFI3Ud2YPESY366Y9cgstQEC9zAeoBAdScGe760Lrdn_JzB42C4BAM="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVXK4-CO9ZtsFLVZDZzPjHv9pc9CtCuPD2uXkxC2BqeEnKW6jCgGUve9FDh8IpMIncC7HcLlG47KEci5_W8eTqR0x-PFI3Ud2YPESY366Y9cgstQEC9zAeoBAdScGe760Lrdn_JzB42C4BAM="
+      },
+      {
+        "label": "acm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_plMJHK5NosP2KkS7Bo-NpB1_0WD79tEfCswaOkjQ2CV6WC3Ojg_oS6HozKujGyzavmoqEOWhhS07gGgWbtaV0fi5MnjdEPJpBM__ULY0JXyvbH3CKQAhag8VOXoxJYr9CnngHYgbPWPrb4eopy3_YWo4QmD67AIkX4wFUg=="
+      },
+      {
+        "label": "arize",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9VGxVcVe4di3B4Q_IgFo251VYTJpBC-d0qbe95czdgwchXBeObqHyNfNKh3j9gtzXYJ6fwkR2RT-X8qN3-HfuYGKotBQNIs11NEqXX0uOn2q0XDrtKf474SkcRKl6Pm0MCN7yNop_swh-QkaAd8UbOO5VSSMSZ2am"
+      },
+      {
+        "label": "arize",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9VGxVcVe4di3B4Q_IgFo251VYTJpBC-d0qbe95czdgwchXBeObqHyNfNKh3j9gtzXYJ6fwkR2RT-X8qN3-HfuYGKotBQNIs11NEqXX0uOn2q0XDrtKf474SkcRKl6Pm0MCN7yNop_swh-QkaAd8UbOO5VSSMSZ2am"
+      },
+      {
+        "label": "acm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_plMJHK5NosP2KkS7Bo-NpB1_0WD79tEfCswaOkjQ2CV6WC3Ojg_oS6HozKujGyzavmoqEOWhhS07gGgWbtaV0fi5MnjdEPJpBM__ULY0JXyvbH3CKQAhag8VOXoxJYr9CnngHYgbPWPrb4eopy3_YWo4QmD67AIkX4wFUg=="
+      },
+      {
+        "label": "acm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_plMJHK5NosP2KkS7Bo-NpB1_0WD79tEfCswaOkjQ2CV6WC3Ojg_oS6HozKujGyzavmoqEOWhhS07gGgWbtaV0fi5MnjdEPJpBM__ULY0JXyvbH3CKQAhag8VOXoxJYr9CnngHYgbPWPrb4eopy3_YWo4QmD67AIkX4wFUg=="
+      },
+      {
+        "label": "newline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_MRoVTGKhV8qkT-GBQLImLJEmVTiM69RN8-pquTaxkeAcSXofFcCNcSsLHi4ka3aUP9lt8EnBbZE4Kl61TP1S_nmDRN1KQTIixSDVpbj8ovReKmLBJ-EtBsNoU1WCClXKT8-JEX5vHdCJ3MLSYpSAZL0ZvNvDUbp9wD7IjC6AnRxFhkiADmxpL9DBLK1qcA=="
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWuoGe1_qehu2px2pp1etv7wXvkuVif4rK7JYzzUwKQG4Ps_nBVLLIJa4LVjAOdFReMnqG8dty6F5Dw4CIrcD8RIMGudfGLNNzpc3JJVON1enDxoHMBkgy2NLZNA2CfNdTE14G1bTXX-0OJt4IYUPDj2ufLBM7VnfwqSBMqA=="
+      },
+      {
+        "label": "newline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_MRoVTGKhV8qkT-GBQLImLJEmVTiM69RN8-pquTaxkeAcSXofFcCNcSsLHi4ka3aUP9lt8EnBbZE4Kl61TP1S_nmDRN1KQTIixSDVpbj8ovReKmLBJ-EtBsNoU1WCClXKT8-JEX5vHdCJ3MLSYpSAZL0ZvNvDUbp9wD7IjC6AnRxFhkiADmxpL9DBLK1qcA=="
+      },
+      {
+        "label": "orq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF9NQGeRe0IsOlZNzuyiHV-wiBU84y4czVuYtt2FeSMf9Zp2AElyS4-G4orTwclDZEZ5m1_VZycMdSfdkGzD7rjOEp4iClUrFFrBzYy5BPW4nMdxzDqWPgKU5pBmtUQmuSog=="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH9-4B9AyYi1VIk9VMRktQ5Dx3WuhtmK1OWnBN7g1m1W_Fpy26EnKw6hotOVaGuk6qscSMqbg59Bi_i-L7IoJ16JAQKqCdS2w8UNi7Dx_a9zXZwpHkhESiFjK4lPK7"
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVXK4-CO9ZtsFLVZDZzPjHv9pc9CtCuPD2uXkxC2BqeEnKW6jCgGUve9FDh8IpMIncC7HcLlG47KEci5_W8eTqR0x-PFI3Ud2YPESY366Y9cgstQEC9zAeoBAdScGe760Lrdn_JzB42C4BAM="
+      },
+      {
+        "label": "orq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF9NQGeRe0IsOlZNzuyiHV-wiBU84y4czVuYtt2FeSMf9Zp2AElyS4-G4orTwclDZEZ5m1_VZycMdSfdkGzD7rjOEp4iClUrFFrBzYy5BPW4nMdxzDqWPgKU5pBmtUQmuSog=="
+      },
+      {
+        "label": "orq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF9NQGeRe0IsOlZNzuyiHV-wiBU84y4czVuYtt2FeSMf9Zp2AElyS4-G4orTwclDZEZ5m1_VZycMdSfdkGzD7rjOEp4iClUrFFrBzYy5BPW4nMdxzDqWPgKU5pBmtUQmuSog=="
+      },
+      {
+        "label": "newline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_MRoVTGKhV8qkT-GBQLImLJEmVTiM69RN8-pquTaxkeAcSXofFcCNcSsLHi4ka3aUP9lt8EnBbZE4Kl61TP1S_nmDRN1KQTIixSDVpbj8ovReKmLBJ-EtBsNoU1WCClXKT8-JEX5vHdCJ3MLSYpSAZL0ZvNvDUbp9wD7IjC6AnRxFhkiADmxpL9DBLK1qcA=="
+      },
+      {
+        "label": "newline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_MRoVTGKhV8qkT-GBQLImLJEmVTiM69RN8-pquTaxkeAcSXofFcCNcSsLHi4ka3aUP9lt8EnBbZE4Kl61TP1S_nmDRN1KQTIixSDVpbj8ovReKmLBJ-EtBsNoU1WCClXKT8-JEX5vHdCJ3MLSYpSAZL0ZvNvDUbp9wD7IjC6AnRxFhkiADmxpL9DBLK1qcA=="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVXK4-CO9ZtsFLVZDZzPjHv9pc9CtCuPD2uXkxC2BqeEnKW6jCgGUve9FDh8IpMIncC7HcLlG47KEci5_W8eTqR0x-PFI3Ud2YPESY366Y9cgstQEC9zAeoBAdScGe760Lrdn_JzB42C4BAM="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVXK4-CO9ZtsFLVZDZzPjHv9pc9CtCuPD2uXkxC2BqeEnKW6jCgGUve9FDh8IpMIncC7HcLlG47KEci5_W8eTqR0x-PFI3Ud2YPESY366Y9cgstQEC9zAeoBAdScGe760Lrdn_JzB42C4BAM="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVXK4-CO9ZtsFLVZDZzPjHv9pc9CtCuPD2uXkxC2BqeEnKW6jCgGUve9FDh8IpMIncC7HcLlG47KEci5_W8eTqR0x-PFI3Ud2YPESY366Y9cgstQEC9zAeoBAdScGe760Lrdn_JzB42C4BAM="
+      },
+      {
+        "label": "acm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_plMJHK5NosP2KkS7Bo-NpB1_0WD79tEfCswaOkjQ2CV6WC3Ojg_oS6HozKujGyzavmoqEOWhhS07gGgWbtaV0fi5MnjdEPJpBM__ULY0JXyvbH3CKQAhag8VOXoxJYr9CnngHYgbPWPrb4eopy3_YWo4QmD67AIkX4wFUg=="
+      },
+      {
+        "label": "newline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_MRoVTGKhV8qkT-GBQLImLJEmVTiM69RN8-pquTaxkeAcSXofFcCNcSsLHi4ka3aUP9lt8EnBbZE4Kl61TP1S_nmDRN1KQTIixSDVpbj8ovReKmLBJ-EtBsNoU1WCClXKT8-JEX5vHdCJ3MLSYpSAZL0ZvNvDUbp9wD7IjC6AnRxFhkiADmxpL9DBLK1qcA=="
+      },
+      {
+        "label": "arsturn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVqENN5lNpO4aadX7xNbN9uJlnjf_hVsZeA94LBQ6ccwqCtEvq8e9UsaQM_c3pOm1q_hJAVkqXyxk-lnD6E7qcKRlmunR_M3tD_5-UJKbJwwX7ZKjIyIY853D4pXuBtuYPzQ570sl-okCDPBCONr5nnYQiCbG8urjVYthY6JL3ClYMjE00m6gZ6DssQciz574agfNqsTx3wXs="
+      },
+      {
+        "label": "promptmixer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrxD-RjlmY-7NjBrr1q5mcZawA4A_BvmGJ12GoCFSQPAjWdPZW7-Bi5WvirmwWS605ci1M3MVhZNKk4RXrwgiR4nJyWTEldjAvdy5oZYrIrZvWcYuznpXmLqchH3E1BBqyzmD9uWyEzNLjfBpfjewY874CHZ7jrwVxpTg_1nryQzwFBJ_I905F_guixG7Z"
+      },
+      {
+        "label": "newline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_MRoVTGKhV8qkT-GBQLImLJEmVTiM69RN8-pquTaxkeAcSXofFcCNcSsLHi4ka3aUP9lt8EnBbZE4Kl61TP1S_nmDRN1KQTIixSDVpbj8ovReKmLBJ-EtBsNoU1WCClXKT8-JEX5vHdCJ3MLSYpSAZL0ZvNvDUbp9wD7IjC6AnRxFhkiADmxpL9DBLK1qcA=="
+      },
+      {
+        "label": "profiletree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd8ScvtZkf7jw4jcOjVwZsfCiZ-3hGZSZlmbZ_YsMp1xc0EX_mo23RRWNvUNGQ6IoAn2NRR72B8NWVXBTiZStY1kC1GHbUG7pYEepxALwkqC8iNLUJEhGlFJMuExOJ3OPBFQBIqR_g2mZNy6-ma7232zEZ5HRJU8m8RLjPmikGpelM_BI6tm07W75jx7dvXM_RDwQuSbzy1UoZBg=="
+      },
+      {
+        "label": "newline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_MRoVTGKhV8qkT-GBQLImLJEmVTiM69RN8-pquTaxkeAcSXofFcCNcSsLHi4ka3aUP9lt8EnBbZE4Kl61TP1S_nmDRN1KQTIixSDVpbj8ovReKmLBJ-EtBsNoU1WCClXKT8-JEX5vHdCJ3MLSYpSAZL0ZvNvDUbp9wD7IjC6AnRxFhkiADmxpL9DBLK1qcA=="
+      },
+      {
+        "label": "arsturn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVqENN5lNpO4aadX7xNbN9uJlnjf_hVsZeA94LBQ6ccwqCtEvq8e9UsaQM_c3pOm1q_hJAVkqXyxk-lnD6E7qcKRlmunR_M3tD_5-UJKbJwwX7ZKjIyIY853D4pXuBtuYPzQ570sl-okCDPBCONr5nnYQiCbG8urjVYthY6JL3ClYMjE00m6gZ6DssQciz574agfNqsTx3wXs="
+      },
+      {
+        "label": "promptmixer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrxD-RjlmY-7NjBrr1q5mcZawA4A_BvmGJ12GoCFSQPAjWdPZW7-Bi5WvirmwWS605ci1M3MVhZNKk4RXrwgiR4nJyWTEldjAvdy5oZYrIrZvWcYuznpXmLqchH3E1BBqyzmD9uWyEzNLjfBpfjewY874CHZ7jrwVxpTg_1nryQzwFBJ_I905F_guixG7Z"
+      },
+      {
+        "label": "profiletree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd8ScvtZkf7jw4jcOjVwZsfCiZ-3hGZSZlmbZ_YsMp1xc0EX_mo23RRWNvUNGQ6IoAn2NRR72B8NWVXBTiZStY1kC1GHbUG7pYEepxALwkqC8iNLUJEhGlFJMuExOJ3OPBFQBIqR_g2mZNy6-ma7232zEZ5HRJU8m8RLjPmikGpelM_BI6tm07W75jx7dvXM_RDwQuSbzy1UoZBg=="
+      },
+      {
+        "label": "promptmixer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrxD-RjlmY-7NjBrr1q5mcZawA4A_BvmGJ12GoCFSQPAjWdPZW7-Bi5WvirmwWS605ci1M3MVhZNKk4RXrwgiR4nJyWTEldjAvdy5oZYrIrZvWcYuznpXmLqchH3E1BBqyzmD9uWyEzNLjfBpfjewY874CHZ7jrwVxpTg_1nryQzwFBJ_I905F_guixG7Z"
+      },
+      {
+        "label": "arsturn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVqENN5lNpO4aadX7xNbN9uJlnjf_hVsZeA94LBQ6ccwqCtEvq8e9UsaQM_c3pOm1q_hJAVkqXyxk-lnD6E7qcKRlmunR_M3tD_5-UJKbJwwX7ZKjIyIY853D4pXuBtuYPzQ570sl-okCDPBCONr5nnYQiCbG8urjVYthY6JL3ClYMjE00m6gZ6DssQciz574agfNqsTx3wXs="
+      },
+      {
+        "label": "arsturn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVqENN5lNpO4aadX7xNbN9uJlnjf_hVsZeA94LBQ6ccwqCtEvq8e9UsaQM_c3pOm1q_hJAVkqXyxk-lnD6E7qcKRlmunR_M3tD_5-UJKbJwwX7ZKjIyIY853D4pXuBtuYPzQ570sl-okCDPBCONr5nnYQiCbG8urjVYthY6JL3ClYMjE00m6gZ6DssQciz574agfNqsTx3wXs="
+      },
+      {
+        "label": "profiletree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd8ScvtZkf7jw4jcOjVwZsfCiZ-3hGZSZlmbZ_YsMp1xc0EX_mo23RRWNvUNGQ6IoAn2NRR72B8NWVXBTiZStY1kC1GHbUG7pYEepxALwkqC8iNLUJEhGlFJMuExOJ3OPBFQBIqR_g2mZNy6-ma7232zEZ5HRJU8m8RLjPmikGpelM_BI6tm07W75jx7dvXM_RDwQuSbzy1UoZBg=="
+      },
+      {
+        "label": "ghost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe_pH3wdrlWWnYU2V0s28c-Dmmq4nLVAb3b5mkDTfem27zOw4PPFRZQKBjugmiHxssfWyWzgORgZFlmZ9wLkSSKB0qJf7R48DLXsXHzGEnpcD9D_hJzrrSFwJU8icSFZOVCwvWGtvLEoN8HuPSCuS_rJbUS1rvg_YEhPWfqJHJ6TDtijnBVRR4Bb-fAEY="
+      },
+      {
+        "label": "ghost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe_pH3wdrlWWnYU2V0s28c-Dmmq4nLVAb3b5mkDTfem27zOw4PPFRZQKBjugmiHxssfWyWzgORgZFlmZ9wLkSSKB0qJf7R48DLXsXHzGEnpcD9D_hJzrrSFwJU8icSFZOVCwvWGtvLEoN8HuPSCuS_rJbUS1rvg_YEhPWfqJHJ6TDtijnBVRR4Bb-fAEY="
+      },
+      {
+        "label": "ghost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe_pH3wdrlWWnYU2V0s28c-Dmmq4nLVAb3b5mkDTfem27zOw4PPFRZQKBjugmiHxssfWyWzgORgZFlmZ9wLkSSKB0qJf7R48DLXsXHzGEnpcD9D_hJzrrSFwJU8icSFZOVCwvWGtvLEoN8HuPSCuS_rJbUS1rvg_YEhPWfqJHJ6TDtijnBVRR4Bb-fAEY="
+      },
+      {
+        "label": "ghost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe_pH3wdrlWWnYU2V0s28c-Dmmq4nLVAb3b5mkDTfem27zOw4PPFRZQKBjugmiHxssfWyWzgORgZFlmZ9wLkSSKB0qJf7R48DLXsXHzGEnpcD9D_hJzrrSFwJU8icSFZOVCwvWGtvLEoN8HuPSCuS_rJbUS1rvg_YEhPWfqJHJ6TDtijnBVRR4Bb-fAEY="
+      },
+      {
+        "label": "ghost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe_pH3wdrlWWnYU2V0s28c-Dmmq4nLVAb3b5mkDTfem27zOw4PPFRZQKBjugmiHxssfWyWzgORgZFlmZ9wLkSSKB0qJf7R48DLXsXHzGEnpcD9D_hJzrrSFwJU8icSFZOVCwvWGtvLEoN8HuPSCuS_rJbUS1rvg_YEhPWfqJHJ6TDtijnBVRR4Bb-fAEY="
+      },
+      {
+        "label": "arsturn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVqENN5lNpO4aadX7xNbN9uJlnjf_hVsZeA94LBQ6ccwqCtEvq8e9UsaQM_c3pOm1q_hJAVkqXyxk-lnD6E7qcKRlmunR_M3tD_5-UJKbJwwX7ZKjIyIY853D4pXuBtuYPzQ570sl-okCDPBCONr5nnYQiCbG8urjVYthY6JL3ClYMjE00m6gZ6DssQciz574agfNqsTx3wXs="
+      },
+      {
+        "label": "arsturn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVqENN5lNpO4aadX7xNbN9uJlnjf_hVsZeA94LBQ6ccwqCtEvq8e9UsaQM_c3pOm1q_hJAVkqXyxk-lnD6E7qcKRlmunR_M3tD_5-UJKbJwwX7ZKjIyIY853D4pXuBtuYPzQ570sl-okCDPBCONr5nnYQiCbG8urjVYthY6JL3ClYMjE00m6gZ6DssQciz574agfNqsTx3wXs="
+      },
+      {
+        "label": "jonathanmast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF788GxVl6Ki70GaLDtl_iNd5bkcDXDbr6crlUQDRenx3fvvRo0Kodsur8cQyq8HbBsclTOfCk_V59GXIh_urxbV1mwPZXCQHHumFpgV3NyfwvA76cMFr9X0GPLmOBucJljlZ0C0QnLm-aA4SDO9pjFieYWEEX0kE4uTKuZKELwg9Q="
+      },
+      {
+        "label": "jonathanmast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF788GxVl6Ki70GaLDtl_iNd5bkcDXDbr6crlUQDRenx3fvvRo0Kodsur8cQyq8HbBsclTOfCk_V59GXIh_urxbV1mwPZXCQHHumFpgV3NyfwvA76cMFr9X0GPLmOBucJljlZ0C0QnLm-aA4SDO9pjFieYWEEX0kE4uTKuZKELwg9Q="
+      },
+      {
+        "label": "newline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_MRoVTGKhV8qkT-GBQLImLJEmVTiM69RN8-pquTaxkeAcSXofFcCNcSsLHi4ka3aUP9lt8EnBbZE4Kl61TP1S_nmDRN1KQTIixSDVpbj8ovReKmLBJ-EtBsNoU1WCClXKT8-JEX5vHdCJ3MLSYpSAZL0ZvNvDUbp9wD7IjC6AnRxFhkiADmxpL9DBLK1qcA=="
+      },
+      {
+        "label": "profiletree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd8ScvtZkf7jw4jcOjVwZsfCiZ-3hGZSZlmbZ_YsMp1xc0EX_mo23RRWNvUNGQ6IoAn2NRR72B8NWVXBTiZStY1kC1GHbUG7pYEepxALwkqC8iNLUJEhGlFJMuExOJ3OPBFQBIqR_g2mZNy6-ma7232zEZ5HRJU8m8RLjPmikGpelM_BI6tm07W75jx7dvXM_RDwQuSbzy1UoZBg=="
+      },
+      {
+        "label": "promptmixer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrxD-RjlmY-7NjBrr1q5mcZawA4A_BvmGJ12GoCFSQPAjWdPZW7-Bi5WvirmwWS605ci1M3MVhZNKk4RXrwgiR4nJyWTEldjAvdy5oZYrIrZvWcYuznpXmLqchH3E1BBqyzmD9uWyEzNLjfBpfjewY874CHZ7jrwVxpTg_1nryQzwFBJ_I905F_guixG7Z"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh_6vRQcXhFmv84pZE20PJO9wZgcQU1qsmRygOm1IgoVnbi6tqd64YE2cZR7XNuKLm8EpBO-TJSQ8S3PIpbTy-EdUf5SNT_OXNCuEadTEjRujGJu2NSiElZc6CjB8Glfd0gF52yql6PUyIW6B6hJn4i461tqm_2XxrgCWl02Nk14U="
+      },
+      {
+        "label": "promptmixer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrxD-RjlmY-7NjBrr1q5mcZawA4A_BvmGJ12GoCFSQPAjWdPZW7-Bi5WvirmwWS605ci1M3MVhZNKk4RXrwgiR4nJyWTEldjAvdy5oZYrIrZvWcYuznpXmLqchH3E1BBqyzmD9uWyEzNLjfBpfjewY874CHZ7jrwVxpTg_1nryQzwFBJ_I905F_guixG7Z"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh_6vRQcXhFmv84pZE20PJO9wZgcQU1qsmRygOm1IgoVnbi6tqd64YE2cZR7XNuKLm8EpBO-TJSQ8S3PIpbTy-EdUf5SNT_OXNCuEadTEjRujGJu2NSiElZc6CjB8Glfd0gF52yql6PUyIW6B6hJn4i461tqm_2XxrgCWl02Nk14U="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB8OKIHJNkD_XQcr2XONnokDhZBEg2YmkQCdT4KxAEnGgRl1SL5G4l_0ZF8P-u_veatsqOu2d4yTbPQQcupG3-AdNacIfR4wZV1KhV6BSsLTsLXYC5wQ7488CkLLg2EwnsU-U14Jrx4Wg1BO5nRvsnQ-LWV4gXpE2d7oLaSU9T-fwWMs6wqbpqfBiLIUddV1K0w7THkTDuLAlCVsbSxMoqxRBPs5_n6dDKGP16HA5qvF9r1p26Amm5jQ=="
+      },
+      {
+        "label": "promptmixer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrxD-RjlmY-7NjBrr1q5mcZawA4A_BvmGJ12GoCFSQPAjWdPZW7-Bi5WvirmwWS605ci1M3MVhZNKk4RXrwgiR4nJyWTEldjAvdy5oZYrIrZvWcYuznpXmLqchH3E1BBqyzmD9uWyEzNLjfBpfjewY874CHZ7jrwVxpTg_1nryQzwFBJ_I905F_guixG7Z"
+      },
+      {
+        "label": "campusrecmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_dv-MVYWyobd6ls2-wZKbhnbUfU0KFoEqGeyWoVhZl02I2jNaweyTlJRddGklX5XY0BMrI6SxzrDWcetu_NQXNqLmsyawiFjoZ_gsnyOZtTEzPPmsRhkTsPY7nLbG8sIzfXGzDJC_4rgX3hIOnlLUl3dkag15Z0ZBdznc7CCNn3We0Q=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB8OKIHJNkD_XQcr2XONnokDhZBEg2YmkQCdT4KxAEnGgRl1SL5G4l_0ZF8P-u_veatsqOu2d4yTbPQQcupG3-AdNacIfR4wZV1KhV6BSsLTsLXYC5wQ7488CkLLg2EwnsU-U14Jrx4Wg1BO5nRvsnQ-LWV4gXpE2d7oLaSU9T-fwWMs6wqbpqfBiLIUddV1K0w7THkTDuLAlCVsbSxMoqxRBPs5_n6dDKGP16HA5qvF9r1p26Amm5jQ=="
+      },
+      {
+        "label": "promptmixer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrxD-RjlmY-7NjBrr1q5mcZawA4A_BvmGJ12GoCFSQPAjWdPZW7-Bi5WvirmwWS605ci1M3MVhZNKk4RXrwgiR4nJyWTEldjAvdy5oZYrIrZvWcYuznpXmLqchH3E1BBqyzmD9uWyEzNLjfBpfjewY874CHZ7jrwVxpTg_1nryQzwFBJ_I905F_guixG7Z"
+      },
+      {
+        "label": "campusrecmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_dv-MVYWyobd6ls2-wZKbhnbUfU0KFoEqGeyWoVhZl02I2jNaweyTlJRddGklX5XY0BMrI6SxzrDWcetu_NQXNqLmsyawiFjoZ_gsnyOZtTEzPPmsRhkTsPY7nLbG8sIzfXGzDJC_4rgX3hIOnlLUl3dkag15Z0ZBdznc7CCNn3We0Q=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB8OKIHJNkD_XQcr2XONnokDhZBEg2YmkQCdT4KxAEnGgRl1SL5G4l_0ZF8P-u_veatsqOu2d4yTbPQQcupG3-AdNacIfR4wZV1KhV6BSsLTsLXYC5wQ7488CkLLg2EwnsU-U14Jrx4Wg1BO5nRvsnQ-LWV4gXpE2d7oLaSU9T-fwWMs6wqbpqfBiLIUddV1K0w7THkTDuLAlCVsbSxMoqxRBPs5_n6dDKGP16HA5qvF9r1p26Amm5jQ=="
+      },
+      {
+        "label": "campusrecmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_dv-MVYWyobd6ls2-wZKbhnbUfU0KFoEqGeyWoVhZl02I2jNaweyTlJRddGklX5XY0BMrI6SxzrDWcetu_NQXNqLmsyawiFjoZ_gsnyOZtTEzPPmsRhkTsPY7nLbG8sIzfXGzDJC_4rgX3hIOnlLUl3dkag15Z0ZBdznc7CCNn3We0Q=="
+      },
+      {
+        "label": "promptmixer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrxD-RjlmY-7NjBrr1q5mcZawA4A_BvmGJ12GoCFSQPAjWdPZW7-Bi5WvirmwWS605ci1M3MVhZNKk4RXrwgiR4nJyWTEldjAvdy5oZYrIrZvWcYuznpXmLqchH3E1BBqyzmD9uWyEzNLjfBpfjewY874CHZ7jrwVxpTg_1nryQzwFBJ_I905F_guixG7Z"
+      },
+      {
+        "label": "profiletree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd8ScvtZkf7jw4jcOjVwZsfCiZ-3hGZSZlmbZ_YsMp1xc0EX_mo23RRWNvUNGQ6IoAn2NRR72B8NWVXBTiZStY1kC1GHbUG7pYEepxALwkqC8iNLUJEhGlFJMuExOJ3OPBFQBIqR_g2mZNy6-ma7232zEZ5HRJU8m8RLjPmikGpelM_BI6tm07W75jx7dvXM_RDwQuSbzy1UoZBg=="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVXK4-CO9ZtsFLVZDZzPjHv9pc9CtCuPD2uXkxC2BqeEnKW6jCgGUve9FDh8IpMIncC7HcLlG47KEci5_W8eTqR0x-PFI3Ud2YPESY366Y9cgstQEC9zAeoBAdScGe760Lrdn_JzB42C4BAM="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB8OKIHJNkD_XQcr2XONnokDhZBEg2YmkQCdT4KxAEnGgRl1SL5G4l_0ZF8P-u_veatsqOu2d4yTbPQQcupG3-AdNacIfR4wZV1KhV6BSsLTsLXYC5wQ7488CkLLg2EwnsU-U14Jrx4Wg1BO5nRvsnQ-LWV4gXpE2d7oLaSU9T-fwWMs6wqbpqfBiLIUddV1K0w7THkTDuLAlCVsbSxMoqxRBPs5_n6dDKGP16HA5qvF9r1p26Amm5jQ=="
+      },
+      {
+        "label": "aakashg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAVXK4-CO9ZtsFLVZDZzPjHv9pc9CtCuPD2uXkxC2BqeEnKW6jCgGUve9FDh8IpMIncC7HcLlG47KEci5_W8eTqR0x-PFI3Ud2YPESY366Y9cgstQEC9zAeoBAdScGe760Lrdn_JzB42C4BAM="
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh_6vRQcXhFmv84pZE20PJO9wZgcQU1qsmRygOm1IgoVnbi6tqd64YE2cZR7XNuKLm8EpBO-TJSQ8S3PIpbTy-EdUf5SNT_OXNCuEadTEjRujGJu2NSiElZc6CjB8Glfd0gF52yql6PUyIW6B6hJn4i461tqm_2XxrgCWl02Nk14U="
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh_6vRQcXhFmv84pZE20PJO9wZgcQU1qsmRygOm1IgoVnbi6tqd64YE2cZR7XNuKLm8EpBO-TJSQ8S3PIpbTy-EdUf5SNT_OXNCuEadTEjRujGJu2NSiElZc6CjB8Glfd0gF52yql6PUyIW6B6hJn4i461tqm_2XxrgCWl02Nk14U="
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh_6vRQcXhFmv84pZE20PJO9wZgcQU1qsmRygOm1IgoVnbi6tqd64YE2cZR7XNuKLm8EpBO-TJSQ8S3PIpbTy-EdUf5SNT_OXNCuEadTEjRujGJu2NSiElZc6CjB8Glfd0gF52yql6PUyIW6B6hJn4i461tqm_2XxrgCWl02Nk14U="
+      },
+      {
+        "label": "newline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_MRoVTGKhV8qkT-GBQLImLJEmVTiM69RN8-pquTaxkeAcSXofFcCNcSsLHi4ka3aUP9lt8EnBbZE4Kl61TP1S_nmDRN1KQTIixSDVpbj8ovReKmLBJ-EtBsNoU1WCClXKT8-JEX5vHdCJ3MLSYpSAZL0ZvNvDUbp9wD7IjC6AnRxFhkiADmxpL9DBLK1qcA=="
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh_6vRQcXhFmv84pZE20PJO9wZgcQU1qsmRygOm1IgoVnbi6tqd64YE2cZR7XNuKLm8EpBO-TJSQ8S3PIpbTy-EdUf5SNT_OXNCuEadTEjRujGJu2NSiElZc6CjB8Glfd0gF52yql6PUyIW6B6hJn4i461tqm_2XxrgCWl02Nk14U="
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh_6vRQcXhFmv84pZE20PJO9wZgcQU1qsmRygOm1IgoVnbi6tqd64YE2cZR7XNuKLm8EpBO-TJSQ8S3PIpbTy-EdUf5SNT_OXNCuEadTEjRujGJu2NSiElZc6CjB8Glfd0gF52yql6PUyIW6B6hJn4i461tqm_2XxrgCWl02Nk14U="
+      },
+      {
+        "label": "orq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF9NQGeRe0IsOlZNzuyiHV-wiBU84y4czVuYtt2FeSMf9Zp2AElyS4-G4orTwclDZEZ5m1_VZycMdSfdkGzD7rjOEp4iClUrFFrBzYy5BPW4nMdxzDqWPgKU5pBmtUQmuSog=="
+      },
+      {
+        "label": "arize",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9VGxVcVe4di3B4Q_IgFo251VYTJpBC-d0qbe95czdgwchXBeObqHyNfNKh3j9gtzXYJ6fwkR2RT-X8qN3-HfuYGKotBQNIs11NEqXX0uOn2q0XDrtKf474SkcRKl6Pm0MCN7yNop_swh-QkaAd8UbOO5VSSMSZ2am"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

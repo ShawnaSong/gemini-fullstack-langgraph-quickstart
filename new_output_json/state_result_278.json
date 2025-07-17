@@ -1,0 +1,372 @@
+{
+  "file_name": "state_result_278.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.706345",
+  "data": {
+    "messages": [
+      {
+        "content": "Please make a summary of the main news about programming in the last month. Make something light and easy to read, with humor but not so much",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "3edc76bb-74a2-4f70-824a-47d53562087c",
+        "example": false
+      },
+      {
+        "content": "Alright, here's a lighthearted look at the latest in programming news from June 2025:\n\n**AI is Taking Over (But Not Really)**\n\nAI is shaking things up in the programming world, helping developers focus on the fun stuff by handling those tedious, repetitive tasks [analyticsindiamag](https://vertexaisearch.cloud.google.com/id/0-0). It's like having a tireless intern, but one that occasionally hallucinates code. There's even talk about \"Vibe Coding,\" using AI to express intent when building products [medium](https://vertexaisearch.cloud.google.com/id/0-1). Just remember, AI is a tool, and you still need to know how to wield it [tiktok](https://vertexaisearch.cloud.google.com/id/0-2). On the AI front, HubSpot even launched a Deep Research CRM Connector for ChatGPT, letting businesses securely tap into CRM data without a complicated setup [programmerweekly](https://vertexaisearch.cloud.google.com/id/0-3].\n\nOf course, with AI-generated code comes the need for extra caution. Treat it like code from an unknown developer, scrutinizing it with reviews, linting, and security testing [techtarget](https://vertexaisearch.cloud.google.com/id/1-0). Remember, AI can suggest syntactically correct code that isn't optimized for security or performance [secureflag](https://vertexaisearch.cloud.google.com/id/1-2]. So, keep those human eyes peeled!\n\n**Community Shenanigans**\n\nOver on GitHub, the usual Python vs. JavaScript debates raged on [github](https://vertexaisearch.cloud.google.com/id/0-4). There were also some humorous discussions, like \"What are some Python practices that should be illegal?\" and \"Best web framework for Python?\" [github](https://vertexaisearch.cloud.google.com/id/0-4).\n\n**Education and Fun**\n\nKreativWerkstatt Ried hosted \"Coding Tuesday,\" teaching kids programming with MicroBits and Scratch [forum-media](https://vertexaisearch.cloud.google.com/id/0-5). They even got to control a small rocket while collecting data [forum-media](https://vertexaisearch.cloud.google.com/id/0-5)! Micro:bits continue to be a fun way to blend coding, creativity, and problem-solving [microbit](https://vertexaisearch.cloud.google.com/id/0-6).\n\n**Software Updates**\n\nFor the Rustaceans out there, Hypershell, an experimental type-level DSL for shell-scripting, is making waves [programmerweekly](https://vertexaisearch.cloud.google.com/id/0-3].\n\n**Oops!**\n\nGoogle Cloud had a bit of a hiccup on June 12th due to a new Service Control feature lacking error handling [reddit](https://vertexaisearch.cloud.google.com/id/0-10]. It just goes to show, even the giants stumble sometimes.\n\n**Quantum Leap**\n\nOn a more serious note, researchers achieved an exponential speedup in quantum computing using error correction and IBM's 127-qubit processors [sciencedaily](https://vertexaisearch.cloud.google.com/id/0-11]. The future is quantum, baby!\n\n**Mitigation of AI Technical Debt**\n\nAI-generated code often lacks the structure, documentation, and clarity necessary for long-term maintenance, potentially requiring costly rewrites [zencoder](https://vertexaisearch.cloud.google.com/id/1-5].\n\n**Bloopers**\n\nIf you need a laugh, check out the funny news blooper compilations on YouTube [youtube](https://vertexaisearch.cloud.google.com/id/0-7) [youtube](https://vertexaisearch.cloud.google.com/id/0-8) [youtube](https://vertexaisearch.cloud.google.com/id/0-9].\n\nSo, that's the programming world in a nutshell for June 2025. Keep coding, keep learning, and keep laughing!",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "5fde80b9-3713-4d5b-9205-0c1a7d37d67d",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "programming news summary last month humor",
+      "What specific techniques are being developed to address the potential problems with AI-generated code mentioned in the summaries, and what are their limitations?"
+    ],
+    "web_research_result": [
+      "Here's a summary of programming news and humor from June 2025:\n\n**Programming and AI Trends**\n\n*   AI tools are changing how programmers work, making the field more exciting by taking on tedious and repetitive tasks [analyticsindiamag](https://vertexaisearch.cloud.google.com/id/0-0).\n*   AI is helping programmers focus on what matters, with developers embracing AI-powered programming despite potential problems with AI-generated code [analyticsindiamag](https://vertexaisearch.cloud.google.com/id/0-0).\n*   AI tools can help with broken documentation, allowing programmers to build things quickly [analyticsindiamag](https://vertexaisearch.cloud.google.com/id/0-0).\n*   There's a discussion around \"Vibe Coding,\" which is the use of AI coding tools to express intent when building products [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n*   AI is seen as a tool that needs developers who know how to leverage it fully [tiktok](https://vertexaisearch.cloud.google.com/id/0-2).\n*   HubSpot launched a Deep Research CRM Connector for ChatGPT, enabling businesses to securely access CRM data via ChatGPT without local setup [programmerweekly](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Community Discussions & Humor**\n\n*   The GitHub Programming Help category had active discussions in June 2025, including Python debates and JavaScript struggles [github](https://vertexaisearch.cloud.google.com/id/0-4).\n*   Two discussions on GitHub mixed humor and insights: \"What are some Python practices that should be illegal?\" and \"Best web framework for Python?\" [github](https://vertexaisearch.cloud.google.com/id/0-4).\n\n**Education and Fun in Programming**\n\n*   KreativWerkstatt Ried offered \"Coding Tuesday,\" a course for children to learn programming with MicroBits and the Scratch platform [forum-media](https://vertexaisearch.cloud.google.com/id/0-5).\n*   The \"Coding Tuesday\" course allowed children to implement mini-projects and control a small rocket while collecting measurement data [forum-media](https://vertexaisearch.cloud.google.com/id/0-5).\n*   Micro:bits are used in playful projects to blend coding, creativity, and hands-on problem-solving [microbit](https://vertexaisearch.cloud.google.com/id/0-6).\n\n**Software Development**\n\n*   Hypershell is an experimental type-level DSL for shell-scripting in Rust [programmerweekly](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Bloopers and Humor**\n\n*   There are compilations of funny news bloopers from June 2025 available on YouTube [youtube](https://vertexaisearch.cloud.google.com/id/0-7) [youtube](https://vertexaisearch.cloud.google.com/id/0-8).\n*   ToastyBros also released a blooper reel for June 2025 [youtube](https://vertexaisearch.cloud.google.com/id/0-9).\n\n**Other News**\n\n*   A Google Cloud outage occurred on June 12, 2025, due to a new Service Control feature lacking error handling and feature flag protection [reddit](https://vertexaisearch.cloud.google.com/id/0-10).\n*   A research team has achieved an exponential speedup in quantum computing using error correction and IBM's 127-qubit processors [sciencedaily](https://vertexaisearch.cloud.google.com/id/0-11).\n",
+      "To address the potential problems with AI-generated code, several techniques are being developed, each with its own limitations. These techniques span various stages of the software development lifecycle, from code generation to testing and deployment.\n\n**1. Secure Coding Practices and Training:**\n\n*   **Practices:** Treat AI-generated code as unreviewed code, applying the same scrutiny as code from an unknown developer [techtarget](https://vertexaisearch.cloud.google.com/id/1-0). This includes code reviews, linting, and security testing [techtarget](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Training:** Invest in developer education that goes beyond general secure coding principles, focusing on the unique risks posed by AI tools [checkmarx](https://vertexaisearch.cloud.google.com/id/1-1). Developers should understand how AI models generate code, the security weaknesses they're prone to introducing, and how to critically evaluate AI-generated snippets [checkmarx](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Limitations:** Manual reviews alone struggle with scalability [checkmarx](https://vertexaisearch.cloud.google.com/id/1-1). Developers may not fully understand the AI-generated solutions, increasing the risk of disorganized and difficult-to-maintain code [secureflag](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**2. Access Control and Sandboxing:**\n\n*   **Techniques:** Implement role-based access control (RBAC) to restrict access to sensitive data and business-specific logic [leanware](https://vertexaisearch.cloud.google.com/id/1-3). Use sandboxed environments for testing AI-generated code to prevent unauthorized access to production data [leanware](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Limitations:** AI tools often lack awareness of the specific application context, deployment environment, and security requirements, potentially leading to vulnerabilities in production [jit](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**3. Code Review and Static Analysis:**\n\n*   **Techniques:** Establish rigorous review processes specifically designed for AI-generated code, focusing on identifying inconsistencies, redundancies, and architectural misalignments [zencoder](https://vertexaisearch.cloud.google.com/id/1-5). Employ static analysis tools to check for common coding errors, performance bottlenecks, and security vulnerabilities [zencoder](https://vertexaisearch.cloud.google.com/id/1-6) [jit](https://vertexaisearch.cloud.google.com/id/1-4). Real-time scanning inside the IDE can help developers flag potential risks and coding patterns that lack best practices [checkmarx](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Limitations:** AI-generated code can function as a black box, making it difficult to debug or verify [jit](https://vertexaisearch.cloud.google.com/id/1-4). AI may suggest patterns or logic that are syntactically correct but not optimized for security or performance [secureflag](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**4. Testing and Quality Assurance:**\n\n*   **Techniques:** Implement Test-Driven Development (TDD) practices where tests are written before AI generates code [zencoder](https://vertexaisearch.cloud.google.com/id/1-5). Utilize AI-powered tools to automate repetitive tasks like regression testing, freeing up testers for more complex, exploratory testing [testdevlab](https://vertexaisearch.cloud.google.com/id/1-7). Employ visual testing to validate entire business scenarios visually, understanding what users actually see and experience [shapedthoughts](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Limitations:** Requires thorough setup and configuration to ensure accurate testing, as poorly set up tests can lead to invalid results [testdevlab](https://vertexaisearch.cloud.google.com/id/1-7). Relies heavily on having accurate and up-to-date API documentation, as discrepancies can lead to incorrect test cases or missed bugs [testdevlab](https://vertexaisearch.cloud.google.com/id/1-7).\n\n**5. Dependency Management:**\n\n*   **Techniques:** Verify the source and maintainability of suggested third-party libraries before integrating them into the project [leanware](https://vertexaisearch.cloud.google.com/id/1-3). Use tools like OWASP Dependency-Check or GitHub Dependabot to monitor and identify any security vulnerabilities in the dependencies [leanware](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Limitations:** AI-generated code often suggests external libraries or dependencies, which may introduce security vulnerabilities, outdated software, or malicious code if not properly vetted [leanware](https://vertexaisearch.cloud.google.com/id/1-3).\n\n**6. AI-Driven Security Tools:**\n\n*   **Techniques:** Utilize AI-driven tools for API security, offering automated discovery, traffic inspection, anomaly detection, and AI-driven exploit prevention [checkmarx](https://vertexaisearch.cloud.google.com/id/1-1). Implement real-time IDE scanning to help developers flag potential risks and coding patterns that lack best practices [checkmarx](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Limitations:** Limited transparency, as they provide only vague details on their model training or AI vulnerabilities [checkmarx](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**7. Ethical Frameworks and Human Oversight:**\n\n*   **Techniques:** Develop and enforce clear ethical guidelines and principles (e.g., fairness, transparency, accountability, privacy, safety) [baytechconsulting](https://vertexaisearch.cloud.google.com/id/1-9). Maintain human involvement in reviewing AI outputs, making critical decisions, and intervening when necessary [baytechconsulting](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Limitations:** AI models lack deep domain knowledge, business context awareness, and understanding of implicit requirements or ethical considerations specific to a project or industry [baytechconsulting](https://vertexaisearch.cloud.google.com/id/1-9).\n\n**8. Mitigation of Technical Debt:**\n\n*   **Techniques:** Implement tools to quantify and visualize technical debt [zencoder](https://vertexaisearch.cloud.google.com/id/1-5). Dedicate specific sprint cycles to refactoring AI-generated code [zencoder](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Limitations:** AI-generated code often lacks the structure, documentation, and clarity necessary for long-term maintenance, potentially requiring costly rewrites [zencoder](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**9. Addressing \"Vibe Coding\" Risks:**\n\n*   **Techniques:** Establish a rigorous review process specifically designed for AI-generated code [zencoder](https://vertexaisearch.cloud.google.com/id/1-5). Implement tools to automatically scan AI-generated code for common vulnerabilities [zencoder](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Limitations:** Inconsistent coding patterns emerge as AI generates solutions based on different prompts without a unified architectural vision [zencoder](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**10. Input Validation and Filtering:**\n\n*   **Techniques:** Establish strict input validation and filtering techniques to sanitize all user inputs before they are processed by AI models [leanware](https://vertexaisearch.cloud.google.com/id/1-3). Avoid allowing user inputs to directly influence system commands or sensitive AI prompts [leanware](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Limitations:** AI models replicate patterns from their training data, including insecure ones [jit](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**11. Continuous Improvement and Feedback Loops:**\n\n*   **Techniques:** Create formal processes for feeding identified AI-generated vulnerabilities back into training and documentation [jit](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Limitations:** Requires a proactive approach and ongoing effort to maintain and improve the AI models [baytechconsulting](https://vertexaisearch.cloud.google.com/id/1-9).\n\n**12. Progressive Rollout and Monitoring:**\n\n*   **Techniques:** Adopt tools that progressively roll out new code, identify issues, and automatically roll back problematic features [devops](https://vertexaisearch.cloud.google.com/id/1-10).\n*   **Limitations:** Requires careful planning and monitoring to ensure that disruptions are minimized [devops](https://vertexaisearch.cloud.google.com/id/1-10).\n\n**General Limitations:**\n\n*   **Contextual Understanding:** AI tools often lack a deep understanding of the overall project architecture, business logic, specific constraints, or team coding standards [baytechconsulting](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Novelty and Complexity:** Devising truly innovative algorithms or handling highly complex, unprecedented problems remains a challenge for AI [baytechconsulting](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Data Quality:** The quality of AI-generated code is heavily dependent on the training data [zencoder](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Security Vulnerabilities:** AI coding tools can inadvertently introduce serious security flaws [baytechconsulting](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Over-reliance:** Over-reliance on AI tools might reduce developers' hands-on understanding of their codebase [legitsecurity](https://vertexaisearch.cloud.google.com/id/1-11).\n\nThe key to successfully addressing the potential problems with AI-generated code lies in a combination of these techniques, with a strong emphasis on human oversight, continuous learning, and a proactive approach to security and quality assurance [zencoder](https://vertexaisearch.cloud.google.com/id/1-6) [dev](https://vertexaisearch.cloud.google.com/id/1-12).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "analyticsindiamag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwe78YIf05UloiRusF3eimpWa-nMOKlSqka38p29ujwi0P5chYEErkDsG6UpVihLNJiPMaZjSc0sPcWlUWKD3n0bwiB3KGRs2J6THt-rVVpIfGjOwv4dxlN_u1irkVhYMQaCiDF1dJBIViWBIUpa6jixMOH0li2AHF-xZFyW-v8_FePK9lP5O7zYDaRjAFZqKL5Ho="
+      },
+      {
+        "label": "analyticsindiamag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwe78YIf05UloiRusF3eimpWa-nMOKlSqka38p29ujwi0P5chYEErkDsG6UpVihLNJiPMaZjSc0sPcWlUWKD3n0bwiB3KGRs2J6THt-rVVpIfGjOwv4dxlN_u1irkVhYMQaCiDF1dJBIViWBIUpa6jixMOH0li2AHF-xZFyW-v8_FePK9lP5O7zYDaRjAFZqKL5Ho="
+      },
+      {
+        "label": "analyticsindiamag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwe78YIf05UloiRusF3eimpWa-nMOKlSqka38p29ujwi0P5chYEErkDsG6UpVihLNJiPMaZjSc0sPcWlUWKD3n0bwiB3KGRs2J6THt-rVVpIfGjOwv4dxlN_u1irkVhYMQaCiDF1dJBIViWBIUpa6jixMOH0li2AHF-xZFyW-v8_FePK9lP5O7zYDaRjAFZqKL5Ho="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFXBqTvXaEqi9OL8kx0n1iyNNEYL4U9yWfnFx5rw-c5oDktgfGhfoC_vzGXy-eBeJdaDTZGwY1l8NMHmByiZD4r1bNmx-bfuALw5j3J7d8bCJqgFlueBIIre8BpvANp0ecMBGexpVks7PAlOezxTZzCiPZsh7ofDNLGE6VP6qWSJPhkGEeXJ0nLZ3-fdAdVqK_ukGyF53w8T2j3FVCvdZjAD2f6w=="
+      },
+      {
+        "label": "tiktok",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnMtqEwKq9uDYqzhQyi3-ySMKiJ-pBC2lcnoiPtSJi-wrwYZQOGWxBfkLO8MrvID6OjlRXUm7Hjsybh6AMqVe9N_F6ThByErqau-9rnxmUFTYsntgg2DGo7r1aibsxBABkCqAvjBHU2j8RYDXUgv6FO8WGVBY="
+      },
+      {
+        "label": "programmerweekly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvIFVXYHrrlhDrHbm8lQfE8cVkUzgHbRR5gUZcFIHcjeR21Jcp3X05NLozRdW0_lFyFg5v2bnhMmwijQ4BKFK81BlLhiKzJG-1gWD_JRCdNUR3LD1v7Jb23mHj0bdlzXha-SkyQkQVqgSrBDzma_6H_xISLa65PAUr6CGb5mJiDkIU9J-lOg=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbQ5zyWLaZrSgHY4KBBk-H9FkeNPeanhHle_hxtm32TAjef88Sl_MJF0BCLZCwu1mMiZj9qk6IP6KQhK9qpNqjtM7l7vBL-IQEEUKyG1cPGowcOgLUOq3ZSaWNUHyZ9gJy4g4CjfOO94uUbnz_6EQ="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbQ5zyWLaZrSgHY4KBBk-H9FkeNPeanhHle_hxtm32TAjef88Sl_MJF0BCLZCwu1mMiZj9qk6IP6KQhK9qpNqjtM7l7vBL-IQEEUKyG1cPGowcOgLUOq3ZSaWNUHyZ9gJy4g4CjfOO94uUbnz_6EQ="
+      },
+      {
+        "label": "forum-media",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGANNfOAjSgrBin4Gg9UF_76Mp4OIR0DFJpSPTX2HHoftkBEupNWVKD245JZ5e0zOWqXWLV5IrpItOHTykN5dlpBI8CLo_gOJrtkHsOR9BevN29Lz_r8Mh0mnT0IpbUKQx4SIzZXZR1NWy_cFrR7eIYwG-p1kgs2JAWwyQV"
+      },
+      {
+        "label": "forum-media",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGANNfOAjSgrBin4Gg9UF_76Mp4OIR0DFJpSPTX2HHoftkBEupNWVKD245JZ5e0zOWqXWLV5IrpItOHTykN5dlpBI8CLo_gOJrtkHsOR9BevN29Lz_r8Mh0mnT0IpbUKQx4SIzZXZR1NWy_cFrR7eIYwG-p1kgs2JAWwyQV"
+      },
+      {
+        "label": "microbit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_nkIZQWNCNBR924Sj7a0sZCybFdOM0GzeOsvUg6T8Wr9sNYk0xVZQyQQLxI6lWtyaJy6DCTbvvjq6llRLTfmOIkS7ViJL8fPjBBUwBHOuD2LfrHyDY8rHbrBQd6T-fePzFcTY6NeYavdxMgh_u8X-2oqmDg=="
+      },
+      {
+        "label": "programmerweekly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvIFVXYHrrlhDrHbm8lQfE8cVkUzgHbRR5gUZcFIHcjeR21Jcp3X05NLozRdW0_lFyFg5v2bnhMmwijQ4BKFK81BlLhiKzJG-1gWD_JRCdNUR3LD1v7Jb23mHj0bdlzXha-SkyQkQVqgSrBDzma_6H_xISLa65PAUr6CGb5mJiDkIU9J-lOg=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF17P0WYtEWZV0N89x2SNB5GBgXLLOEsTWTvvduDlqV13twbCGguJV3e43YHy14XRvZpI7GZhTyt3ogZkbR6F12JIv1C-WrGTO5vbPsKnrAjVOEe8MRE2BGUsy_SD1x2c7amdl5XyY="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnnNKVyzDUHnT7DP4uHtPOa5-mofl4K7L2Up0v6Q9witXQoK3JsqO7XWXkTSzm2ePmDPDHhqimzJ_JWKYpDjkvf-FNnUmWp5Izuhs2GxC4_9JxtBxHfsfJXv7EBCJBFy9jcobgC9A="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPxw_uZr4JzMCDPKtBqjZ5ujP1uch0C9R8rCxuoLI07DZrnpUpfD5oWPgXjl2KRXw8QgS9dttf9ROtpCJ3rkh3ICgolW5jgz74uLDg5-6_TWoPq-7xejdYK9zxk1M-djtHZ_NFuGVoN7GoOd-d9bp3AZC3xmH8B_s="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKwMTlKG0KnrxKo7OlbhEM4PxItIVv6Xusazw6bMKDgcqp8fA95pol8bhfdTPHhGIrdKFqfFPm06xoB0eVV9AtNgppvt6rZHWDGoExSHPOTxIt1ZI3hEfJhshMzxFtM6AOckSeKxVX2gDA5Nq6XFHPZ5hZdp6vjK3FOiNEik2M7bJYzZgpLUpTA879ab2vjCQZvnKdzwZQ-5kR6dqhAd96b8MaJw=="
+      },
+      {
+        "label": "sciencedaily",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf40k9Y3OFLp4YXPrITYGZfDHSoYMYo7YWOm4G2rMQMsrETBfSKIrFup1qXSjrtyg4c4W0yGCXMfbVpuyo5Cg03cu0jge6nQjx1Hu449oLJNYaUumZQRURhOAthqsZS3z9i1uBP6K4uIX3ztCzjEMq6Ss1TQM6m20JfzFAcsbFusI="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-vN3GrWgMwdd97V-AXcwuulwJL8LYgN4Y_QvFqfiS4lD5lmzwhGdy5AMAWOaMMfZjxUMgZwMTvJ-gRWpny6Z3tlR4lgprhTx9vt0OLR_mdMT1O9BYRCEK_1lrX4FKTvX3xkR-yzY0GlSmS4MCzolwsgVIrcoY-SczeplEuICJHZ5Q1xRzmYw6qcyGDdsbxP9oMuP3WjP-VDVcZAK3c2NwRmYb"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-vN3GrWgMwdd97V-AXcwuulwJL8LYgN4Y_QvFqfiS4lD5lmzwhGdy5AMAWOaMMfZjxUMgZwMTvJ-gRWpny6Z3tlR4lgprhTx9vt0OLR_mdMT1O9BYRCEK_1lrX4FKTvX3xkR-yzY0GlSmS4MCzolwsgVIrcoY-SczeplEuICJHZ5Q1xRzmYw6qcyGDdsbxP9oMuP3WjP-VDVcZAK3c2NwRmYb"
+      },
+      {
+        "label": "checkmarx",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdXYhO8FOYrB9vsbENKIQvVhX-EktgolzTdtpzAPMiTniUpUbOdPDjJnL1Dyb7-TM1_vjohuREA0uGl8E6nIUh-71CgIs0IX6cilARauMdGlnojufvXG_TVxq3ZSKjmyeN4jJ-GGwJ5wd2z2bNE7qoF72TeRASZtNMImDmOU6jq0KWyDCo"
+      },
+      {
+        "label": "checkmarx",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdXYhO8FOYrB9vsbENKIQvVhX-EktgolzTdtpzAPMiTniUpUbOdPDjJnL1Dyb7-TM1_vjohuREA0uGl8E6nIUh-71CgIs0IX6cilARauMdGlnojufvXG_TVxq3ZSKjmyeN4jJ-GGwJ5wd2z2bNE7qoF72TeRASZtNMImDmOU6jq0KWyDCo"
+      },
+      {
+        "label": "checkmarx",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdXYhO8FOYrB9vsbENKIQvVhX-EktgolzTdtpzAPMiTniUpUbOdPDjJnL1Dyb7-TM1_vjohuREA0uGl8E6nIUh-71CgIs0IX6cilARauMdGlnojufvXG_TVxq3ZSKjmyeN4jJ-GGwJ5wd2z2bNE7qoF72TeRASZtNMImDmOU6jq0KWyDCo"
+      },
+      {
+        "label": "secureflag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN2z8EN5FeaBX52c3GP2K2YzcA6m0nKJNqHk57XP6kSOu8kfi96dTNdAMoZWel-ELQ_HS3kG90QwPy4SYnfZmTo3sF-zy1CIIdrStVyo8wIaXVSOk_8pPIxhB-Z_MXYRuCl3LKu_huRwdYuV1I7KBQB_hw4RVYM2UDEI3HEnj03_gPjH3_wBq9tVpBoy7RbQYapFvBGXoIh5Dc20c="
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEdwqmwtYWUY6f3drt0nkGNezJbXhREIhUFpJTaFyU4xditdNvhl5JCRq67KRt4e_n_nv9Jy9kjw5s49ND5tIXFyaS_yrTl8nGtCnk1QlWm0R1h01nrSVr5YkcOX30zQukm_8M4WSUHAB3Coi5SkJQnJL8PlfwMQ3qqxM2LgePrn1"
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEdwqmwtYWUY6f3drt0nkGNezJbXhREIhUFpJTaFyU4xditdNvhl5JCRq67KRt4e_n_nv9Jy9kjw5s49ND5tIXFyaS_yrTl8nGtCnk1QlWm0R1h01nrSVr5YkcOX30zQukm_8M4WSUHAB3Coi5SkJQnJL8PlfwMQ3qqxM2LgePrn1"
+      },
+      {
+        "label": "jit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf0IscD0nmakuwIJDbN5qUweRKxbJOj0vn7YFNTbh8EUAMqDc4iUEprvxOnClG58cP8Em2_J9YoncePLiwRo3WM8YH4tpx0i4OoVROS6YieFjFLu21Fb_Dpa89mP0WiKg7fPVaMbG3-rtKcm6oJpAKzP7ZkdfhMYf7RnJLCe0hUI4BSTFI1LIXsNUJTjtllecjUCf-FkXkj_uldiBXx6GN7A=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKGqU57xfVuSFKsJ9qzAksMMg-PNNjqKXbw8AdFA00eH0Y2IHPPMk0650CWKpqaZKLK_RwvBll5us0Chh8Oxm8As8T07sl1EN1tYtf8XzS_0IT-0cUJ4ogast9wKvsF1IFsgUcYQ=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFby0xPB8fIzjMKYDqwtfQtzqlyiQsDFmiOYHEzvG1mgiDTy5N4cYUuUAQWLzq7z00rhL03p_5vNj7ud-ZZhA-5Ii_Xz9PVMNNj2ak4KyiAFpHIVKsq3paEj3Pmwuvk1Fi1a0gJjjIysz5hrTjcHcpk--7gXc-XgNgkfQ3iqDEBnMMs"
+      },
+      {
+        "label": "jit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf0IscD0nmakuwIJDbN5qUweRKxbJOj0vn7YFNTbh8EUAMqDc4iUEprvxOnClG58cP8Em2_J9YoncePLiwRo3WM8YH4tpx0i4OoVROS6YieFjFLu21Fb_Dpa89mP0WiKg7fPVaMbG3-rtKcm6oJpAKzP7ZkdfhMYf7RnJLCe0hUI4BSTFI1LIXsNUJTjtllecjUCf-FkXkj_uldiBXx6GN7A=="
+      },
+      {
+        "label": "checkmarx",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdXYhO8FOYrB9vsbENKIQvVhX-EktgolzTdtpzAPMiTniUpUbOdPDjJnL1Dyb7-TM1_vjohuREA0uGl8E6nIUh-71CgIs0IX6cilARauMdGlnojufvXG_TVxq3ZSKjmyeN4jJ-GGwJ5wd2z2bNE7qoF72TeRASZtNMImDmOU6jq0KWyDCo"
+      },
+      {
+        "label": "jit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf0IscD0nmakuwIJDbN5qUweRKxbJOj0vn7YFNTbh8EUAMqDc4iUEprvxOnClG58cP8Em2_J9YoncePLiwRo3WM8YH4tpx0i4OoVROS6YieFjFLu21Fb_Dpa89mP0WiKg7fPVaMbG3-rtKcm6oJpAKzP7ZkdfhMYf7RnJLCe0hUI4BSTFI1LIXsNUJTjtllecjUCf-FkXkj_uldiBXx6GN7A=="
+      },
+      {
+        "label": "secureflag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN2z8EN5FeaBX52c3GP2K2YzcA6m0nKJNqHk57XP6kSOu8kfi96dTNdAMoZWel-ELQ_HS3kG90QwPy4SYnfZmTo3sF-zy1CIIdrStVyo8wIaXVSOk_8pPIxhB-Z_MXYRuCl3LKu_huRwdYuV1I7KBQB_hw4RVYM2UDEI3HEnj03_gPjH3_wBq9tVpBoy7RbQYapFvBGXoIh5Dc20c="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKGqU57xfVuSFKsJ9qzAksMMg-PNNjqKXbw8AdFA00eH0Y2IHPPMk0650CWKpqaZKLK_RwvBll5us0Chh8Oxm8As8T07sl1EN1tYtf8XzS_0IT-0cUJ4ogast9wKvsF1IFsgUcYQ=="
+      },
+      {
+        "label": "testdevlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6AgeqborIBvqy5jCh2VwU7dNevEdvIF-tOMlUHIua5w_CeVQ7ovx8rdJKVY3WjRlNMkH9mVFGQ5dBil-IhXBnVh_eA3cNjASA_k8m9NsU2A-CBura963We4BiXZjX3-OOUPdzznaIcyRay1ZctHTFr0V2J4wMiHsftoVA"
+      },
+      {
+        "label": "shapedthoughts",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHx-uQYGdEZD6A4-iFuanuwUMGycg7URoeI7H1vgF-c5M7fW2JXfWn1bM1dq5zdgZRACObZ0DesRog9ypy2-DIZce68Sj6GpdXHI-cwUeSBlabbVwl1NbujucFGoxQ1rhKBEaNo1DAln6CPytRHM1VUwj6k-HLXeLVd3uvkX2KnmPTGO_ZGNNjE0ttBlQ2YnQ=="
+      },
+      {
+        "label": "testdevlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6AgeqborIBvqy5jCh2VwU7dNevEdvIF-tOMlUHIua5w_CeVQ7ovx8rdJKVY3WjRlNMkH9mVFGQ5dBil-IhXBnVh_eA3cNjASA_k8m9NsU2A-CBura963We4BiXZjX3-OOUPdzznaIcyRay1ZctHTFr0V2J4wMiHsftoVA"
+      },
+      {
+        "label": "testdevlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6AgeqborIBvqy5jCh2VwU7dNevEdvIF-tOMlUHIua5w_CeVQ7ovx8rdJKVY3WjRlNMkH9mVFGQ5dBil-IhXBnVh_eA3cNjASA_k8m9NsU2A-CBura963We4BiXZjX3-OOUPdzznaIcyRay1ZctHTFr0V2J4wMiHsftoVA"
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEdwqmwtYWUY6f3drt0nkGNezJbXhREIhUFpJTaFyU4xditdNvhl5JCRq67KRt4e_n_nv9Jy9kjw5s49ND5tIXFyaS_yrTl8nGtCnk1QlWm0R1h01nrSVr5YkcOX30zQukm_8M4WSUHAB3Coi5SkJQnJL8PlfwMQ3qqxM2LgePrn1"
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEdwqmwtYWUY6f3drt0nkGNezJbXhREIhUFpJTaFyU4xditdNvhl5JCRq67KRt4e_n_nv9Jy9kjw5s49ND5tIXFyaS_yrTl8nGtCnk1QlWm0R1h01nrSVr5YkcOX30zQukm_8M4WSUHAB3Coi5SkJQnJL8PlfwMQ3qqxM2LgePrn1"
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEdwqmwtYWUY6f3drt0nkGNezJbXhREIhUFpJTaFyU4xditdNvhl5JCRq67KRt4e_n_nv9Jy9kjw5s49ND5tIXFyaS_yrTl8nGtCnk1QlWm0R1h01nrSVr5YkcOX30zQukm_8M4WSUHAB3Coi5SkJQnJL8PlfwMQ3qqxM2LgePrn1"
+      },
+      {
+        "label": "checkmarx",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdXYhO8FOYrB9vsbENKIQvVhX-EktgolzTdtpzAPMiTniUpUbOdPDjJnL1Dyb7-TM1_vjohuREA0uGl8E6nIUh-71CgIs0IX6cilARauMdGlnojufvXG_TVxq3ZSKjmyeN4jJ-GGwJ5wd2z2bNE7qoF72TeRASZtNMImDmOU6jq0KWyDCo"
+      },
+      {
+        "label": "checkmarx",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdXYhO8FOYrB9vsbENKIQvVhX-EktgolzTdtpzAPMiTniUpUbOdPDjJnL1Dyb7-TM1_vjohuREA0uGl8E6nIUh-71CgIs0IX6cilARauMdGlnojufvXG_TVxq3ZSKjmyeN4jJ-GGwJ5wd2z2bNE7qoF72TeRASZtNMImDmOU6jq0KWyDCo"
+      },
+      {
+        "label": "checkmarx",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdXYhO8FOYrB9vsbENKIQvVhX-EktgolzTdtpzAPMiTniUpUbOdPDjJnL1Dyb7-TM1_vjohuREA0uGl8E6nIUh-71CgIs0IX6cilARauMdGlnojufvXG_TVxq3ZSKjmyeN4jJ-GGwJ5wd2z2bNE7qoF72TeRASZtNMImDmOU6jq0KWyDCo"
+      },
+      {
+        "label": "baytechconsulting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wbKPK3iKXSir8NQbQTI4Dc8na7Du57qVRDS8K-f_KH5iaUocQd2XVv-_KSl9ASdq2mJ97x4JkA7bkdS5MlwBo_KGmbPuz85anU4DD7JZ_Czwb2dP187WEnKhMOj-ua9Rp2FmpT32K7aZ311EJXprIV8kzGaaOC1PGJ82lgIXPoun"
+      },
+      {
+        "label": "baytechconsulting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wbKPK3iKXSir8NQbQTI4Dc8na7Du57qVRDS8K-f_KH5iaUocQd2XVv-_KSl9ASdq2mJ97x4JkA7bkdS5MlwBo_KGmbPuz85anU4DD7JZ_Czwb2dP187WEnKhMOj-ua9Rp2FmpT32K7aZ311EJXprIV8kzGaaOC1PGJ82lgIXPoun"
+      },
+      {
+        "label": "baytechconsulting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wbKPK3iKXSir8NQbQTI4Dc8na7Du57qVRDS8K-f_KH5iaUocQd2XVv-_KSl9ASdq2mJ97x4JkA7bkdS5MlwBo_KGmbPuz85anU4DD7JZ_Czwb2dP187WEnKhMOj-ua9Rp2FmpT32K7aZ311EJXprIV8kzGaaOC1PGJ82lgIXPoun"
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKGqU57xfVuSFKsJ9qzAksMMg-PNNjqKXbw8AdFA00eH0Y2IHPPMk0650CWKpqaZKLK_RwvBll5us0Chh8Oxm8As8T07sl1EN1tYtf8XzS_0IT-0cUJ4ogast9wKvsF1IFsgUcYQ=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKGqU57xfVuSFKsJ9qzAksMMg-PNNjqKXbw8AdFA00eH0Y2IHPPMk0650CWKpqaZKLK_RwvBll5us0Chh8Oxm8As8T07sl1EN1tYtf8XzS_0IT-0cUJ4ogast9wKvsF1IFsgUcYQ=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKGqU57xfVuSFKsJ9qzAksMMg-PNNjqKXbw8AdFA00eH0Y2IHPPMk0650CWKpqaZKLK_RwvBll5us0Chh8Oxm8As8T07sl1EN1tYtf8XzS_0IT-0cUJ4ogast9wKvsF1IFsgUcYQ=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKGqU57xfVuSFKsJ9qzAksMMg-PNNjqKXbw8AdFA00eH0Y2IHPPMk0650CWKpqaZKLK_RwvBll5us0Chh8Oxm8As8T07sl1EN1tYtf8XzS_0IT-0cUJ4ogast9wKvsF1IFsgUcYQ=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKGqU57xfVuSFKsJ9qzAksMMg-PNNjqKXbw8AdFA00eH0Y2IHPPMk0650CWKpqaZKLK_RwvBll5us0Chh8Oxm8As8T07sl1EN1tYtf8XzS_0IT-0cUJ4ogast9wKvsF1IFsgUcYQ=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKGqU57xfVuSFKsJ9qzAksMMg-PNNjqKXbw8AdFA00eH0Y2IHPPMk0650CWKpqaZKLK_RwvBll5us0Chh8Oxm8As8T07sl1EN1tYtf8XzS_0IT-0cUJ4ogast9wKvsF1IFsgUcYQ=="
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEdwqmwtYWUY6f3drt0nkGNezJbXhREIhUFpJTaFyU4xditdNvhl5JCRq67KRt4e_n_nv9Jy9kjw5s49ND5tIXFyaS_yrTl8nGtCnk1QlWm0R1h01nrSVr5YkcOX30zQukm_8M4WSUHAB3Coi5SkJQnJL8PlfwMQ3qqxM2LgePrn1"
+      },
+      {
+        "label": "leanware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzEdwqmwtYWUY6f3drt0nkGNezJbXhREIhUFpJTaFyU4xditdNvhl5JCRq67KRt4e_n_nv9Jy9kjw5s49ND5tIXFyaS_yrTl8nGtCnk1QlWm0R1h01nrSVr5YkcOX30zQukm_8M4WSUHAB3Coi5SkJQnJL8PlfwMQ3qqxM2LgePrn1"
+      },
+      {
+        "label": "jit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf0IscD0nmakuwIJDbN5qUweRKxbJOj0vn7YFNTbh8EUAMqDc4iUEprvxOnClG58cP8Em2_J9YoncePLiwRo3WM8YH4tpx0i4OoVROS6YieFjFLu21Fb_Dpa89mP0WiKg7fPVaMbG3-rtKcm6oJpAKzP7ZkdfhMYf7RnJLCe0hUI4BSTFI1LIXsNUJTjtllecjUCf-FkXkj_uldiBXx6GN7A=="
+      },
+      {
+        "label": "jit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf0IscD0nmakuwIJDbN5qUweRKxbJOj0vn7YFNTbh8EUAMqDc4iUEprvxOnClG58cP8Em2_J9YoncePLiwRo3WM8YH4tpx0i4OoVROS6YieFjFLu21Fb_Dpa89mP0WiKg7fPVaMbG3-rtKcm6oJpAKzP7ZkdfhMYf7RnJLCe0hUI4BSTFI1LIXsNUJTjtllecjUCf-FkXkj_uldiBXx6GN7A=="
+      },
+      {
+        "label": "baytechconsulting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wbKPK3iKXSir8NQbQTI4Dc8na7Du57qVRDS8K-f_KH5iaUocQd2XVv-_KSl9ASdq2mJ97x4JkA7bkdS5MlwBo_KGmbPuz85anU4DD7JZ_Czwb2dP187WEnKhMOj-ua9Rp2FmpT32K7aZ311EJXprIV8kzGaaOC1PGJ82lgIXPoun"
+      },
+      {
+        "label": "devops",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNVzVvPu5CAs3Qi3_ebTTtuMSXjKoMNwnYAkENbeeR26O4QMlqb8MpSfF-xiJYHTQGrWtKZ3UzdMt-GzaZddE-nyBAwBh6gNHNehZtFFCQEHvTLpDxMB-_q0frVN_p87n1mUKSoMJuOwnCiIeb8qNn8CHIEhDRO8GNT0nnINU="
+      },
+      {
+        "label": "devops",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNVzVvPu5CAs3Qi3_ebTTtuMSXjKoMNwnYAkENbeeR26O4QMlqb8MpSfF-xiJYHTQGrWtKZ3UzdMt-GzaZddE-nyBAwBh6gNHNehZtFFCQEHvTLpDxMB-_q0frVN_p87n1mUKSoMJuOwnCiIeb8qNn8CHIEhDRO8GNT0nnINU="
+      },
+      {
+        "label": "baytechconsulting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wbKPK3iKXSir8NQbQTI4Dc8na7Du57qVRDS8K-f_KH5iaUocQd2XVv-_KSl9ASdq2mJ97x4JkA7bkdS5MlwBo_KGmbPuz85anU4DD7JZ_Czwb2dP187WEnKhMOj-ua9Rp2FmpT32K7aZ311EJXprIV8kzGaaOC1PGJ82lgIXPoun"
+      },
+      {
+        "label": "baytechconsulting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wbKPK3iKXSir8NQbQTI4Dc8na7Du57qVRDS8K-f_KH5iaUocQd2XVv-_KSl9ASdq2mJ97x4JkA7bkdS5MlwBo_KGmbPuz85anU4DD7JZ_Czwb2dP187WEnKhMOj-ua9Rp2FmpT32K7aZ311EJXprIV8kzGaaOC1PGJ82lgIXPoun"
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFby0xPB8fIzjMKYDqwtfQtzqlyiQsDFmiOYHEzvG1mgiDTy5N4cYUuUAQWLzq7z00rhL03p_5vNj7ud-ZZhA-5Ii_Xz9PVMNNj2ak4KyiAFpHIVKsq3paEj3Pmwuvk1Fi1a0gJjjIysz5hrTjcHcpk--7gXc-XgNgkfQ3iqDEBnMMs"
+      },
+      {
+        "label": "baytechconsulting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wbKPK3iKXSir8NQbQTI4Dc8na7Du57qVRDS8K-f_KH5iaUocQd2XVv-_KSl9ASdq2mJ97x4JkA7bkdS5MlwBo_KGmbPuz85anU4DD7JZ_Czwb2dP187WEnKhMOj-ua9Rp2FmpT32K7aZ311EJXprIV8kzGaaOC1PGJ82lgIXPoun"
+      },
+      {
+        "label": "legitsecurity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-6FScM3RjRcxjkF8-Gil3lA5O4-onluwft_Lvqc0I2gys0O_QlRU9Ts4PKotWN8IIjBHRz9CLU7vnw61dg8HdHMYlwFLt3eJY0d5sPD8J0xtPsq7GUv4XOF1DOdDxY2vRiW19pHtuJD4oava39STiwdVy02APwm4EV8ATsL8CCkdnmLtF45Ot-AQYBfY1Q2AFfA=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFby0xPB8fIzjMKYDqwtfQtzqlyiQsDFmiOYHEzvG1mgiDTy5N4cYUuUAQWLzq7z00rhL03p_5vNj7ud-ZZhA-5Ii_Xz9PVMNNj2ak4KyiAFpHIVKsq3paEj3Pmwuvk1Fi1a0gJjjIysz5hrTjcHcpk--7gXc-XgNgkfQ3iqDEBnMMs"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBS4YMxE6vuycZ3WQLv0h7jbs9dBvHSzIqoRLbTRHRyWylh3cnqnk8hP3a785wCjidS9sOiiyIfop834YTtrTAmMOwHrUfmaqHWFM5oLvYl4I6XGpXllcKmKIHsAV-DZrew-M5vDcsY6_qf4eiSK4m8-_1cGde-wBPv2BzrajJRAN4t62owomfvfJyTk3oBpc1nvBIVE0Brj5y"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

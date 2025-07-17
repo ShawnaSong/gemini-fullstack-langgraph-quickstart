@@ -1,0 +1,85 @@
+{
+  "file_name": "state_result_124.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.636078",
+  "data": {
+    "messages": [
+      {
+        "content": "现在北京时间几点",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "1a2c0a8f-7c8f-4423-a915-760e3e8991c2",
+        "example": false
+      },
+      {
+        "content": "现在北京时间是2025年7月16日下午1点54分 [Current time information in CN](https://vertexaisearch.cloud.google.com/id/0-0)。北京位于Asia/Shanghai时区，为UTC+8时区 [Current time information in CN](https://vertexaisearch.cloud.google.com/id/0-0)。北京不实行夏令时 [timeanddate](https://vertexaisearch.cloud.google.com/id/0-1) [time](https://vertexaisearch.cloud.google.com/id/0-2)。",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "a5685879-7cce-4512-8f3b-cc3f6c37c5ae",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "current time Beijing"
+    ],
+    "web_research_result": [
+      "As of July 16, 2025, at 1:54 PM local time, Beijing, China is in the Asia/Shanghai time zone, which is UTC+8 [Current time information in CN](https://vertexaisearch.cloud.google.com/id/0-0). Beijing does not observe Daylight Saving Time [timeanddate](https://vertexaisearch.cloud.google.com/id/0-1) [time](https://vertexaisearch.cloud.google.com/id/0-2).\n\nAdditional details:\n\n*   **Time Difference:** Beijing is 13 hours ahead of New York when New York is on standard time, and 12 hours ahead when New York is on daylight saving time [time](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Sunrise and Sunset:** The sun rose in Beijing at 4:59 AM and will set at 7:41 PM. The day length is 14 hours, 42 minutes [timeanddate](https://vertexaisearch.cloud.google.com/id/0-1). Another source states sunrise at 4:58 AM and sunset at 7:43 PM, with a day length of 14 hours and 45 minutes [time](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Weather:** The weather in Beijing is partly cloudy with a temperature of 86°F (30°C), but it feels like 91°F (33°C). The humidity is around 61%.\n*   **Moon:** The moon is in the waning gibbous phase with 83.7% illumination. Mo [time](https://vertexaisearch.cloud.google.com/id/0-2)onset occurred at 10:32 AM. Th [timeanddate](https://vertexaisearch.cloud.google.com/id/0-1)e next moonrise is today at 10:21 PM.\n [time](https://vertexaisearch.cloud.google.com/id/0-2)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "Current time information in CN",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://www.google.com/search?q=time+in+CN"
+      },
+      {
+        "label": "timeanddate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaqJO4k5ofxBOwvvwEKS4s95R2qU1OsdO9pTXSViuBVHX8X7dVGVWgesckCwUaCksu-XH9z6dxpwq87Y2GW4hlJhbB_2HnMxe7iEPRh2mu4J5aqt7y1KpMGaPDw8i9fCKsK5lrP4vc8eQFJAx-KB0="
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpg3XHIme0rA2upK_bkRbCmaHTNFBKVMWFWYQD6usVhnrgZ879dshq7IPvM_Ub-33O1qjTBchTiJ3WQuoFgb-fjWjpJVEOm921r5w2hd-L88cmiaM="
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBajK50T-fvFdZZqXbZ-_KRbPX6f4-83CMnX0f_5le-FDL0jSQ_AZuR6swdp1OGONBghMwCOXaFv4ZjU4cbN0bydG8QElXwJXu_ykru4dcFyyQ"
+      },
+      {
+        "label": "timeanddate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaqJO4k5ofxBOwvvwEKS4s95R2qU1OsdO9pTXSViuBVHX8X7dVGVWgesckCwUaCksu-XH9z6dxpwq87Y2GW4hlJhbB_2HnMxe7iEPRh2mu4J5aqt7y1KpMGaPDw8i9fCKsK5lrP4vc8eQFJAx-KB0="
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBajK50T-fvFdZZqXbZ-_KRbPX6f4-83CMnX0f_5le-FDL0jSQ_AZuR6swdp1OGONBghMwCOXaFv4ZjU4cbN0bydG8QElXwJXu_ykru4dcFyyQ"
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpg3XHIme0rA2upK_bkRbCmaHTNFBKVMWFWYQD6usVhnrgZ879dshq7IPvM_Ub-33O1qjTBchTiJ3WQuoFgb-fjWjpJVEOm921r5w2hd-L88cmiaM="
+      },
+      {
+        "label": "timeanddate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaqJO4k5ofxBOwvvwEKS4s95R2qU1OsdO9pTXSViuBVHX8X7dVGVWgesckCwUaCksu-XH9z6dxpwq87Y2GW4hlJhbB_2HnMxe7iEPRh2mu4J5aqt7y1KpMGaPDw8i9fCKsK5lrP4vc8eQFJAx-KB0="
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpg3XHIme0rA2upK_bkRbCmaHTNFBKVMWFWYQD6usVhnrgZ879dshq7IPvM_Ub-33O1qjTBchTiJ3WQuoFgb-fjWjpJVEOm921r5w2hd-L88cmiaM="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

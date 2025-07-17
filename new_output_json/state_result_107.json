@@ -1,0 +1,90 @@
+{
+  "file_name": "state_result_107.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.657242",
+  "data": {
+    "messages": [
+      {
+        "content": "Who is the Essendon Football Club playing this weekend?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "c9b97551-f2f4-48b9-8df6-2f56c9c35353",
+        "example": false
+      },
+      {
+        "content": "This weekend, July 17, 2025, the Essendon Football Club is scheduled to play against the GWS GIANTS at Marvel Stadium in Round 19 [afl](https://vertexaisearch.cloud.google.com/id/0-0). In Round 18, Essendon played Richmond on Saturday, July 12, 2025, at the MCG, where they were defeated 46-37 [afl](https://vertexaisearch.cloud.google.com/id/0-0) [aflua](https://vertexaisearch.cloud.google.com/id/0-1) [fixturedownload](https://vertexaisearch.cloud.google.com/id/0-2).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "7834ad9b-6406-4b0b-815b-d0f4f4c25c4f",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Essendon Football Club fixture round 18 2025"
+    ],
+    "web_research_result": [
+      "Essendon Football Club's Round 18, 2025 match was against Richmond, and was played on Saturday, July 12, 2025, at the MCG [afl](https://vertexaisearch.cloud.google.com/id/0-0) [aflua](https://vertexaisearch.cloud.google.com/id/0-1). Richmond defeated Essendon 46-37 [fixturedownload](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**Round 18 Results:**\n\nHere are the results of other round 18 matches [afl](https://vertexaisearch.cloud.google.com/id/0-0):\n*   Carlton vs. Brisbane Lions (MRVL) on Thursday, July 10\n*   Gold Coast SUNS vs. Collingwood (PFS) on Friday, July 11\n*   Western Bulldogs vs. Adelaide Crows (MRVL) on Saturday, July 12\n*   GWS GIANTS vs. Geelong Cats (ES) on Saturday, July 12\n*   Fremantle vs. Hawthorn (OS) on Saturday, July 12\n*   Melbourne vs. North Melbourne (MCG) on Sunday, July 13\n*   St Kilda vs. Sydney Swans (MRVL) on Sunday, July 13\n*   Port Adelaide vs. West Coast Eagles (AO) on Sunday, July 13\n\n**Additional Information**\n\n*   The 2025 AFL season will run from March 7 to September 27 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-3).\n*   The Essendon Football Club is celebrating its 127th season in the AFL in 2025 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-4).\n*   Essendon will play Geelong at the newly revamped GMHBA Stadium in round 22 [essendonfc](https://vertexaisearch.cloud.google.com/id/0-5).\n*   Essendon had a bye in Round 4 [essendonfc](https://vertexaisearch.cloud.google.com/id/0-6) [afl](https://vertexaisearch.cloud.google.com/id/0-0).\n*   In Round 19, Essendon is scheduled to play against GWS GIANTS at Marvel Stadium on Thursday, July 17 [afl](https://vertexaisearch.cloud.google.com/id/0-0).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "afl",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM94cyw_6zQGQiPh9Ncce_uL_WTodBykNqFMfcopng4DciwwA2ISA6nibpYTBeIV8xRHsqOvlHJH5zrUeymI87Nvsrtx4pNmiA-IvWG9MBeGqUD-WMf-grTM-5KjdRSf_h2RplBMTu9EjcKvVJ4EyJVM78TXgNqlHvN9LsdIrLOZAZw8wG0oFxCAMDm5-bMOlECc6iXhcOXtcg-Hu88_ncpkAEROZRzvy04tM8xLIEyC0xMboVSKf2kWfQSAIvU6VH957RLd6fDOIgU6_i"
+      },
+      {
+        "label": "aflua",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx_EiD9ZxgmHqh-b5iljEB6RMp7sZCrofSWdBQIDaSXY8ZfaZNx9M2BfbhNPVFISrIsx05f94hMRStRXRJd2FLcCfMq2SX87ZwOkvapCnuF1_40sdW4KXbZdOWtQC3KNXoMgQ1hdBvgYfE3Ek5s5Dn8rM7DjQNLg=="
+      },
+      {
+        "label": "fixturedownload",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK6dntVw93Cq7ms2QiKmj0LhKrT7RZ-WlesnskK2wFnunfE9gdThQ99YEBjyoad0i2QKfHrN_SQ4ciyit66moXmg_nngi0AXtxEeOZqunDw1B084z7-sqJDgraBmxReuSdOyATAnWc0NnL2SFKDQm9"
+      },
+      {
+        "label": "afl",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM94cyw_6zQGQiPh9Ncce_uL_WTodBykNqFMfcopng4DciwwA2ISA6nibpYTBeIV8xRHsqOvlHJH5zrUeymI87Nvsrtx4pNmiA-IvWG9MBeGqUD-WMf-grTM-5KjdRSf_h2RplBMTu9EjcKvVJ4EyJVM78TXgNqlHvN9LsdIrLOZAZw8wG0oFxCAMDm5-bMOlECc6iXhcOXtcg-Hu88_ncpkAEROZRzvy04tM8xLIEyC0xMboVSKf2kWfQSAIvU6VH957RLd6fDOIgU6_i"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoy8ygnHzZLdcd4XkCdTsTsUZWQAVOKjryRFTPakhHPMbOPbutj8hKIjdGgP280vRC0H1tLDCfNs9AfHyqfWFjOtvHLY5CkhkH3OXY-r7Z3_KsdS4ejzU0k5dn_DxjRRxIQHKzfgysVA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHN99eqf6JZjjkAvpPU3wFocDzcbYBSt84y1c3msyIeyPSg7lS-0p2qmtXxez73z6NPPFgQny7ax_SCYUzv-rUO6ZtDTDidFmnSUNcTCWit6xvot-Ixdi9fQNZoywMcW1kVTCjFRrmGH4BOKOSj-dOY8mrJDuPQGf31gYk="
+      },
+      {
+        "label": "essendonfc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOHPcjbD27309xngQyethjglne_PuNBiZ_NwSG0osDmokMJLXTZZGkIdrgTggMY2LxxV5EOv08e6AHTuvHZQDJhAOVbMBgKCQnj6PwAUrQHgEJNCW190xtbHLrehaBbZW9ejTZCXRcEV4jbDd2g6HwiCnWo9GjdvHmLvHM37Lw9Q2qJkjvqT0kqunD35rvicTWP8NmHu1BXP3qectA2j-T1yk6HcbS-3PWX1nzpQ-G-lyu9f4="
+      },
+      {
+        "label": "essendonfc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCIng5icL4sOuK9dHLQR1EAclIkn8XUSyeF5QK7HKhn11Hl4cg6rWLu8NW23erWjUbXjDBWj6uqhUBha_F0ZGBda9YChU1nyqBDJH84pqukFirNP0XgsbWs2hMueajeGCZgl112cnh8_BqXNFkWw=="
+      },
+      {
+        "label": "afl",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM94cyw_6zQGQiPh9Ncce_uL_WTodBykNqFMfcopng4DciwwA2ISA6nibpYTBeIV8xRHsqOvlHJH5zrUeymI87Nvsrtx4pNmiA-IvWG9MBeGqUD-WMf-grTM-5KjdRSf_h2RplBMTu9EjcKvVJ4EyJVM78TXgNqlHvN9LsdIrLOZAZw8wG0oFxCAMDm5-bMOlECc6iXhcOXtcg-Hu88_ncpkAEROZRzvy04tM8xLIEyC0xMboVSKf2kWfQSAIvU6VH957RLd6fDOIgU6_i"
+      },
+      {
+        "label": "afl",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM94cyw_6zQGQiPh9Ncce_uL_WTodBykNqFMfcopng4DciwwA2ISA6nibpYTBeIV8xRHsqOvlHJH5zrUeymI87Nvsrtx4pNmiA-IvWG9MBeGqUD-WMf-grTM-5KjdRSf_h2RplBMTu9EjcKvVJ4EyJVM78TXgNqlHvN9LsdIrLOZAZw8wG0oFxCAMDm5-bMOlECc6iXhcOXtcg-Hu88_ncpkAEROZRzvy04tM8xLIEyC0xMboVSKf2kWfQSAIvU6VH957RLd6fDOIgU6_i"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

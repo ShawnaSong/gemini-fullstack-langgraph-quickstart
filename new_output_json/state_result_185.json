@@ -1,0 +1,781 @@
+{
+  "file_name": "state_result_185.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.664427",
+  "data": {
+    "messages": [
+      {
+        "content": "Quem foi Apolônio de Tiana?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "a663201e-5e03-4510-aea6-eaa4894f6a2b",
+        "example": false
+      },
+      {
+        "content": "Apolônio de Tiana (c. 15 d.C. – c. 100 d.C.) foi um filósofo neopitagórico, professor e adepto do ascetismo de origem grega, nascido em Tiana, Capadócia (atual Kemerhisar, Turquia) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-1). Ele viajou pela Babilônia, Índia e Roma, absorvendo o misticismo oriental [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0).\n\nA principal fonte sobre sua biografia é a \"Vida de Apolônio\" escrita por Flávio Filóstrato, um filósofo sofista, no início do século III d.C [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0). Filóstrato baseou-se em diários e relatos anteriores, retratando Apolônio como um filósofo divino dedicado ao serviço da humanidade [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2). Apolônio também é citado nas obras \"A Vida de Pitágoras\", do filósofo neoplatônico Porfírio, e \"A Vida Pitagórica\", do filósofo neoplatônico assírio Jâmblico [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4).\n\nApolônio era vegetariano e discípulo de Pitágoras [antoniofontoura](https://vertexaisearch.cloud.google.com/id/0-3) [ufmg](https://vertexaisearch.cloud.google.com/id/0-4) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [megacurioso](https://vertexaisearch.cloud.google.com/id/1-3) [ecured](https://vertexaisearch.cloud.google.com/id/1-2). Ele adotou uma dieta vegetariana rigorosa, absteve-se de bebidas alcoólicas e praticou o silêncio por cinco anos, buscando a purificação do corpo e da mente [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0). Ele enfatizava a pureza, a disciplina e a conexão direta com o divino [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0).\n\nSua busca por conhecimento o levou a viajar por diversas regiões, incluindo Babilônia, Índia, Egito, Grécia, Itália e Espanha [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2) [ipeak](https://vertexaisearch.cloud.google.com/id/1-5) [ecured](https://vertexaisearch.cloud.google.com/id/1-2). Nessas viagens, interagiu com brâmanes na Índia e sacerdotes no Egito, aprofundando seu entendimento espiritual e filosófico [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1) [ipeak](https://vertexaisearch.cloud.google.com/id/1-5) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [ecured](https://vertexaisearch.cloud.google.com/id/1-2) [megacurioso](https://vertexaisearch.cloud.google.com/id/1-3).\n\nA ele foram atribuídos milagres e profecias, ganhando a reputação de mago e possível rival de Jesus, como um tipo de messias pagão [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1) [ecured](https://vertexaisearch.cloud.google.com/id/1-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0). Apolônio ficou conhecido por realizar milagres, como trazer uma jovem de volta à vida [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1). Em seu retorno à Europa, foi saudado como um mágico e recebeu honras de sacerdotes e pessoas em geral [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1) [megacurioso](https://vertexaisearch.cloud.google.com/id/0-5). Ele se atribuiu o poder de prever o futuro e teria ressuscitado o filho de um senador romano [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0).\n\nA história de Apolônio atraiu seguidores devido às similaridades entre seus relatos e os episódios e a trajetória de Jesus [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2) [antoniofontoura](https://vertexaisearch.cloud.google.com/id/0-6) [megacurioso](https://vertexaisearch.cloud.google.com/id/0-5) [proximolivro](https://vertexaisearch.cloud.google.com/id/0-7). Alguns estudiosos acreditam que Filóstrato tentou construir uma figura rival de Jesus em sua biografia de Apolônio [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2) [megacurioso](https://vertexaisearch.cloud.google.com/id/1-3) [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4).\n\nNo contexto islâmico, Apolônio de Tiana era conhecido como \"Balinus\" e reverenciado como o \"Mestre dos Talismãs\" [wikipedia](https://vertexaisearch.cloud.google.com/id/3-0) [rubedo](https://vertexaisearch.cloud.google.com/id/3-2) [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/3-1). Várias obras alquímicas árabes são atribuídas a ele, sendo a mais influente o *Sirr al-Khaliqa wa-san'at al-tabi'a* (\"Segredos da Criação e a Arte da Natureza\"), onde é narrada a história de como Apolônio descobriu a Tábua de Esmeralda no cripta de Hermes Trismegisto [rubedo](https://vertexaisearch.cloud.google.com/id/3-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/3-0).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "7e7f797b-fc35-48cf-bd58-c5e60705738c",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Apolônio de Tiana biografia",
+      "Apolônio de Tiana história",
+      "Apolônio de Tiana feitos",
+      "What specific alchemical knowledge is attributed to Apollonius of Tyana (Balinus) in Islamic traditions, and what is the Emerald Tablet's significance in this context?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent and credible information on \"Apolônio de Tiana biografia\" and synthesize it into a verifiable text artifact.\nApolônio de Tiana (c. 15 d.C. – c. 100 d.C.) foi um filósofo neopitagórico, professor e adepto do ascetismo de origem grega. Nasc [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)ido em Tiana, Capadócia, ele viajou pela Babilônia, Índia e Roma, absorvendo o misticismo oriental. A ele f [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)oram atribuídos milagres e profecias, ganhando a reputação de mago e possível rival de Jesus, como um tipo de messias pagão.\n\n**Fontes Hi [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)stóricas:** A principal fonte sobre sua biografia é a \"Vida de Apolônio\" escrita por Flávio Filóstrato, um filósofo sofista, no início do século III d.C. Filóstrato baseou-se [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) em diários e relatos anteriores, retratando Apolônio como um filósofo divino dedicado ao serviço da humanidade. Alguns estudiosos identif [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2)icam na obra de Filóstrato uma tentativa de construir uma figura rival de Jesus. Apolônio também é citado n [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)as obras \"A Vida de Pitágoras\", do filósofo neoplatônico Porfírio, e \"A Vida Pitagórica\", do filósofo neoplatônico assírio Jâmblico. Outras fontes incluem um livro escrito [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) por Moeragenes, que Filóstrato rejeitou por ser ignorante de vários aspectos da vida de Apolônio, e relatos de Dâmis, um discípulo de Apolônio.\n\n**Vida e Ensinamentos:** Apolônio era veget [antoniofontoura](https://vertexaisearch.cloud.google.com/id/0-3) [ufmg](https://vertexaisearch.cloud.google.com/id/0-4)ariano e discípulo de Pitágoras. Ele adotou uma dieta vegetariana rigorosa, abst [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)eve-se de bebidas alcoólicas e praticou o silêncio por cinco anos, buscando a purificação do corpo e da mente. Ele enfatizava a pureza, a disciplina e a conexão d [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1)ireta com o divino.\n\n**Viagens e Influências:** Sua busca por conhecimen [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2)to o levou a viajar por diversas regiões, incluindo Babilônia, Índia, Egito, Grécia, Itália e Espanha. Nessas viagens, interagiu com brâmanes na Índia e sacerdot [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1)es no Egito, aprofundando seu entendimento espiritual e filosófico.\n\n**Reputação e Legado:** Apolônio ficou conhecido por realiza [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1)r milagres, como trazer uma jovem de volta à vida. Em seu retorno à Europa, foi saudado como um mágico e recebeu hon [macaibaemfoco](https://vertexaisearch.cloud.google.com/id/0-1) [megacurioso](https://vertexaisearch.cloud.google.com/id/0-5)ras de sacerdotes e pessoas em geral. Ele se atribuiu o poder de prever o futuro e teria ressuscitado o f [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)ilho de um senador romano. Sua reputação era comparável à dos maiores mestres espirituais. Ape [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0)sar da censura histórica, sua influência perdurou, tornando-se uma f [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2)igura chave na tradição esotérica ocidental, especialmente no Gnosticismo.\n\n**Paralelos com Jesus:** A história de Apolônio atraiu seguidores devido às [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/0-2) similaridades entre seus relatos e os episódios e a trajetória de Jesus, como o nascimento em circunstâncias misteriosas, a demonstração precoce de sabedoria superior, a realização de milagres, as jornadas de ensinamento, a presença de discípulos, o confronto com autoridades romanas, um falecimento cercado de mistério e uma possível ressurreição.\n [antoniofontoura](https://vertexaisearch.cloud.google.com/id/0-6) [megacurioso](https://vertexaisearch.cloud.google.com/id/0-5) [proximolivro](https://vertexaisearch.cloud.google.com/id/0-7)",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Apolônio de Tiana história\" and synthesize it into a verifiable text artifact.\nApolônio de Tiana foi um filósofo, matemático e místico neopitagórico grego que viveu no século I d.C.. Ele na [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-1)sceu em Tiana, na Capadócia (atual Kemerhisar, Turquia), por volta de 3 a.C.. e falec [ecured](https://vertexaisearch.cloud.google.com/id/1-2) [megacurioso](https://vertexaisearch.cloud.google.com/id/1-3) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-1)eu em Éfeso, por volta de 97 d.C..\n\n**Biogr [wikipedia](https://vertexaisearch.cloud.google.com/id/1-1)afia**\n\nA principal fonte de informações sobre Apolônio de Tiana é a obra \"Vida de Apolônio\", escrita por Flávio Filóstrato no início do século III d.C.. Filóstrato baseou [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4)-se em diários e relatos anteriores. Outras fontes que o [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4) mencionam são \"A Vida de Pitágoras\", de Porfírio, e \"A Vida Pitagórica\", de Jâmblico.\n\nApolônio demonstrou gra [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0)nde inteligência e memória desde cedo. Ele adotou a filosofia de P [ipeak](https://vertexaisearch.cloud.google.com/id/1-5) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-1)itágoras, seguindo seus preceitos rigorosamente. Renunciou a uma grande heran [ipeak](https://vertexaisearch.cloud.google.com/id/1-5) [ecured](https://vertexaisearch.cloud.google.com/id/1-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0)ça para viver com pouco. Viajou extensivamente pela As [ipeak](https://vertexaisearch.cloud.google.com/id/1-5) [ecured](https://vertexaisearch.cloud.google.com/id/1-2)síria, Cítia, Índia, Egito, Grécia, Itália e Espanha, ensinando sabedoria. Na Índia, buscou conhecimento dire [ipeak](https://vertexaisearch.cloud.google.com/id/1-5) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [ecured](https://vertexaisearch.cloud.google.com/id/1-2) [megacurioso](https://vertexaisearch.cloud.google.com/id/1-3)tamente com os brâmanes.\n\n**Características e feitos notáveis [ipeak](https://vertexaisearch.cloud.google.com/id/1-5) [ufmg](https://vertexaisearch.cloud.google.com/id/1-6)**\n\n*   **Ascetismo:** Apolônio era adepto do ascetismo, praticando a castidade e defendendo uma vida simples e modesta.\n*   **Vegetarianismo:** Era vegetariano [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [megacurioso](https://vertexaisearch.cloud.google.com/id/1-3) [ecured](https://vertexaisearch.cloud.google.com/id/1-2), abstendo-se do consumo de carne.\n*   **Milagres e curas:** Apolônio era  [ecured](https://vertexaisearch.cloud.google.com/id/1-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0)conhecido como um poderoso curador, com relatos de curas milagrosas.\n*   **Misticismo:** Absorveu o misticism [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4) [megacurioso](https://vertexaisearch.cloud.google.com/id/1-3)o oriental em suas viagens, ganhando reputação de mago.\n*   **Ensinamentos:** Seus ensinamentos vi [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0)savam a transformação integral do ser humano, enfatizando a pureza, a disciplina e a conexão com o divino.\n\n**Influência e Legado**\n\nApolônio de Tiana é [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4) frequentemente comparado a Jesus Cristo. Alguns estudiosos acreditam que Filóstrato tento [megacurioso](https://vertexaisearch.cloud.google.com/id/1-3) [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4)u construir uma figura rival de Jesus em sua biografia de Apolônio. Sua influência perdurou na tradição esotérica ocid [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0)ental, especialmente no Gnosticismo.\n\n**Morte**\n\nO fim da vida de Apolônio é envolto em mis [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4)tério. Éfeso, Rodes e Creta afirmam ter sua tumba. Lendas esotér [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4)icas oferecem perspectivas sobre seu destino  [ecured](https://vertexaisearch.cloud.google.com/id/1-2)final.\n [gnosisbrasil](https://vertexaisearch.cloud.google.com/id/1-4)",
+      "Okay, I will conduct Google Searches to gather the most recent and credible information on \"Apolônio de Tiana feitos\" (the deeds/achievements of Apollonius of Tyana) and synthesize it into a verifiable text artifact.\n\nApollonius of Tyana was a Greek philosopher and religious leader from Tyana, Cappadocia, in Roman Anatolia, who lived approximately from AD 15 to c. AD 100. [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0) He is considered a central figure in Neopythagoreanism and was renowned as a miracle worker. [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)\n\n**Life and Historical Context:**\n\n*   Apollonius was born into a respected and wealthy aristocratic Greek family. [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)\n*   His primary biographer, Philostratus, places his birth around 3 BC – AD 97, while historian Cassius Dio suggests a birth year around AD 40.\n* [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)   He spent his life traveling and teaching in the Middle East, North Africa, and India.\n* [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)   Apollonius adhered to Pythagorean principles, including vegetarianism, frugality, and the rejection of animal sacrifices.\n* [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1)   He entered the temple of Aesculapius during his teens and learned the art of healing.\n\n [theosociety](https://vertexaisearch.cloud.google.com/id/2-2) [theosophy](https://vertexaisearch.cloud.google.com/id/2-3)**Miracles and Legends:**\n\n*   Many legends surround Apollonius, with numerous reports of miracles performed as a wandering sage with his companion Damis.\n* [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)   He was said to have performed miraculous cures, restored sight to the blind, cast out devils, enabled the lame to walk, and even reanimated the dead.\n* [ugm](https://vertexaisearch.cloud.google.com/id/2-4)   Other accounts credit him with prophecy and remote viewing. O [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1)ne story claims he predicted Emperor Domitian's death in real-time from afar.\n* [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1)   Followers believed he underwent heavenly ascension after his conviction and death penalty for allegedly conspiring against the emperor through magic.\n* [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)   Talismans made by Apollonius appeared in several cities of the Eastern Roman Empire in Late Antiquity.\n\n [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)**Sources and Writings:**\n\n*   The most detailed source on his life is *Life of Apollonius of Tyana*, written by Philostratus in the 3rd century AD at the request of Empress Julia Domna.\n* [britannica](https://vertexaisearch.cloud.google.com/id/2-5) [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0) [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1)   Philostratus claimed to have used the \"memoirs\" of Damis, Apollonius's acolyte and companion, as a source. O [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)ther sources include a book on Apollonius's youth by Maximus of Aegae and local knowledge from various cities.\n* [wikipedia](https://vertexaisearch.cloud.google.com/id/2-6)   Philostratus's biography portrays Apollonius as a philosopher, miracle-worker, and defender of Pythagorean ideals. S [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1)ome scholars believe the biography is more fiction than fact.\n* [britannica](https://vertexaisearch.cloud.google.com/id/2-5)   Apollonius wrote books and treatises on science, medicine, and philosophy.\n\n [crystalinks](https://vertexaisearch.cloud.google.com/id/2-7)**Comparisons with Jesus:**\n\n*   Philostratus's description of Apollonius's life and deeds contains similarities to the life and claimed miracles of Jesus.\n* [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0) [aboutbibleprophecy](https://vertexaisearch.cloud.google.com/id/2-8)   Some scholars suggest that Philostratus's biography was an attempt to create a pagan alternative to Jesus and compete with Christianity.\n\n [aboutbibleprophecy](https://vertexaisearch.cloud.google.com/id/2-8)**Impact and Legacy:**\n\n*   Apollonius's exceptional personality and mystical way of life impressed his contemporaries and had a lasting cultural influence.\n* [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)   Emperor Aurelian spared Tyana from destruction after reportedly having a vision of Apollonius.\n* [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0) [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1)   In Islamic traditions, he was revered as \"Balinus\" and credited with discovering the Emerald Tablet and contributing to alchemical knowledge.\n\n [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/2-1)It is important to note that while most modern scholars agree that Apollonius existed historically, the miraculous accounts attributed to him are subject to debate. S [theosophy](https://vertexaisearch.cloud.google.com/id/2-3) [aboutbibleprophecy](https://vertexaisearch.cloud.google.com/id/2-8) [wikipedia](https://vertexaisearch.cloud.google.com/id/2-0)ome scholars believe that the oldest known record of Apollonius's miracles comes from Philostratus's book, written long after Apollonius lived, and may have borrowed details from the Gospel accounts of Jesus' miracles.\n [carm](https://vertexaisearch.cloud.google.com/id/2-9) [aboutbibleprophecy](https://vertexaisearch.cloud.google.com/id/2-8)",
+      "Apollonius of Tyana, known as \"Balinus\" in Islamic traditions, is a significant figure in the history of alchemy, largely due to his association with the Emerald Tablet [wikipedia](https://vertexaisearch.cloud.google.com/id/3-0) [worldhistoryedu](https://vertexaisearch.cloud.google.com/id/3-1). Here's a breakdown of his attributed alchemical knowledge and the Emerald Tablet's significance:\n\n**Apollonius of Tyana (Balinus) and Alchemy in Islamic Traditions:**\n\n*   **Master of Talismans:** Apollonius was revered as the \"Master of Talismans\" (Sahib at-tilasmat) in Arabic traditions [rubedo](https://vertexaisearch.cloud.google.com/id/3-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Attribution of Alchemical Works:** Several Arabic alchemical works, for which no Greek originals exist, are attributed to Apollonius of Tyana [rubedo](https://vertexaisearch.cloud.google.com/id/3-2). While most scholars consider these works pseudepigraphal, they reveal genuine currents of Graeco-Arabic Hermeticism [rubedo](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Sirr al-Khaliqa (The Secret of Creation):** The most influential work associated with Balinus is the *Sirr al-Khaliqa wa-san'at al-tabi'a* (\"Secrets of Creation and the Art of Nature\"), also known as *Kitab al-'Ilal* (\"Book of Causes\") [rubedo](https://vertexaisearch.cloud.google.com/id/3-2). This 9th-century book expounds on the origins of the cosmos and situates alchemy as a science of cosmogenesis [rubedo](https://vertexaisearch.cloud.google.com/id/3-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/3-0). It significantly influenced the alchemical school of Jabir ibn-Hayyan [rubedo](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Discovery of the Emerald Tablet:** The *Sirr al-Khaliqa* narrates the story of how Apollonius entered the crypt of Hermes Trismegistus and discovered the Emerald Tablet [wikipedia](https://vertexaisearch.cloud.google.com/id/3-0). In this narrative, Balinus finds an old man seated on a golden throne holding an emerald tablet, and in front of him was a book with the secrets of creation [mountainman](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Philosophical and Alchemical Successor to Hermes Trismegistus:** Through this association with the Emerald Tablet, Apollonius becomes the philosophical and alchemical successor to Hermes Trismegistus [wikipedia](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Other Attributed Works:** Jábir ibn Hayyán and other Muslim scientists considered Balínús a natural philosopher and attributed several cosmological, astrological, and alchemical treatises to him. Th [onelittleangel](https://vertexaisearch.cloud.google.com/id/3-4) [crystalinks](https://vertexaisearch.cloud.google.com/id/3-5) [mountainman](https://vertexaisearch.cloud.google.com/id/3-3)ese include *Kitab al-Ahjar 'alá ra'y Balinas* and *Kitáb at-Talásim al-Akbar* (The Great Book of Talismans). The * [mountainman](https://vertexaisearch.cloud.google.com/id/3-3)Kitab al-Ahjar* (Book of Stones) by Jabir ibn Hayyan contains a lengthy analysis of alchemical works attributed to Apollonius.\n\n**Si [crystalinks](https://vertexaisearch.cloud.google.com/id/3-5) [newworldencyclopedia](https://vertexaisearch.cloud.google.com/id/3-6) [onelittleangel](https://vertexaisearch.cloud.google.com/id/3-4)gnificance of the Emerald Tablet:**\n\n*   **Foundational Text of Alchemy:** The Emerald Tablet (Tabula Smaragdina) became a foundational text of alchemy. It wa [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7) [wikipedia](https://vertexaisearch.cloud.google.com/id/3-0) [occult](https://vertexaisearch.cloud.google.com/id/3-8)s highly regarded by Islamic and European alchemists.\n*   * [occult](https://vertexaisearch.cloud.google.com/id/3-8)*Origins:** The earliest known versions of the Emerald Tablet are four Arabic recensions preserved in mystical and alchemical treatises between the 8th and 10th centuries CE. These [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7) [occult](https://vertexaisearch.cloud.google.com/id/3-8) are found chiefly in the *Secret of Creation (Sirr al-Khalīqa)* and the *Secret of Secrets (Sirr al-Asrār)*.\n*   **C [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)ontent:** The Emerald Tablet is a compact and cryptic text attributed to Hermes Trismegistus. It is b [occult](https://vertexaisearch.cloud.google.com/id/3-8) [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)elieved to contain the secrets of the alchemical process and the creation of the philosopher's stone. The mos [obsidian](https://vertexaisearch.cloud.google.com/id/3-9)t famous line, \"As above, so below,\" expresses the Hermetic principle that the macrocosm (the universe) is reflected in the microcosm. The tex [obsidian](https://vertexaisearch.cloud.google.com/id/3-9)t introduces the theory that all metals are formed from sulphur and mercury, a foundational concept in medieval alchemy. It outl [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)ines the alchemical process of \"solve et coagula\" (dissolve and coagulate).\n*   **D [obsidian](https://vertexaisearch.cloud.google.com/id/3-9)iscovery Narrative:** The Emerald Tablet was often accompanied by a frame story about its discovery in Hermes' tomb. Balinus [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)'s version describes finding the tablet in a crypt beneath a statue of Hermes in Tyana.\n*   **I [allaboutheaven](https://vertexaisearch.cloud.google.com/id/3-10) [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)nfluence:** The Emerald Tablet has been influential in both Western and Islamic alchemical traditions. From th [obsidian](https://vertexaisearch.cloud.google.com/id/3-9)e 12th century onward, Latin translations introduced the text to Europe, attracting scholarly interest. Medieva [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)l commentators interpreted it as a foundational text for producing the philosopher's stone and making gold. During  [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)the Renaissance, it was read through Neoplatonic, allegorical, and Christian lenses.\n*   **P [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)ossible Origins:** Some scholars believe the Emerald Tablet may be a translation of an older Greek or Syriac original, while others think it was an original Arabic composition based on older materials. The Ara [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)bic text presents itself as a translation of a work by Apollonius of Tyana.\n\nIn sum [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)mary, Apollonius of Tyana (Balinus) is a key figure in Islamic alchemy due to the attribution of *Sirr al-Khaliqa* and his association with the discovery of the Emerald Tablet, a foundational text in alchemy. The Eme [wikipedia](https://vertexaisearch.cloud.google.com/id/3-0) [rubedo](https://vertexaisearch.cloud.google.com/id/3-2)rald Tablet's cryptic content and its connection to Hermes Trismegistus have made it a subject of fascination and interpretation for centuries.\n [obsidian](https://vertexaisearch.cloud.google.com/id/3-9) [wikipedia](https://vertexaisearch.cloud.google.com/id/3-7)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDEmXWQl45YbFYcq-k5zQ2cRk7HNkdlQztG1fWP8NXaomCc5It-iCQ165NYnGyyRM6WSaKKwhXSHvk-CEkJa0Hsucovp9Z6NYafZnZOXNNCpPRQhDa_GUrx8Sj9KbAGmHWfWhkZjb5a1Xtp15zGs="
+      },
+      {
+        "label": "macaibaemfoco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbZbZC1ZiZh_SNHifueHNf-8xC2b9Bb_vV9jTxSVuyLi80ZD2cCsK3Wx1mA2-Yk1qu4kK6aQ_znA9G45nhXUzY4TdJwXvtTITNXFM9xOZRUUDO0UlZpPE25_qssKzYU1s-Fs_oXKAsDfIrR2yEUbkzF81ou1dfXc0="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDEmXWQl45YbFYcq-k5zQ2cRk7HNkdlQztG1fWP8NXaomCc5It-iCQ165NYnGyyRM6WSaKKwhXSHvk-CEkJa0Hsucovp9Z6NYafZnZOXNNCpPRQhDa_GUrx8Sj9KbAGmHWfWhkZjb5a1Xtp15zGs="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDEmXWQl45YbFYcq-k5zQ2cRk7HNkdlQztG1fWP8NXaomCc5It-iCQ165NYnGyyRM6WSaKKwhXSHvk-CEkJa0Hsucovp9Z6NYafZnZOXNNCpPRQhDa_GUrx8Sj9KbAGmHWfWhkZjb5a1Xtp15zGs="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKHVuSo-jgMF7XQLdUkfwSamZyoLoyKlqw_UoOpwr0K8-1FanCv2iHr7MELoi2BmkvlElGh1wMf2u7sCJ0Lrf4VR0T_9PYV2UYxPN2TvCxVFgBjHb1PXkkeCP4yBvNo0wVvEea110t_hrwRfU6Gw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDEmXWQl45YbFYcq-k5zQ2cRk7HNkdlQztG1fWP8NXaomCc5It-iCQ165NYnGyyRM6WSaKKwhXSHvk-CEkJa0Hsucovp9Z6NYafZnZOXNNCpPRQhDa_GUrx8Sj9KbAGmHWfWhkZjb5a1Xtp15zGs="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKHVuSo-jgMF7XQLdUkfwSamZyoLoyKlqw_UoOpwr0K8-1FanCv2iHr7MELoi2BmkvlElGh1wMf2u7sCJ0Lrf4VR0T_9PYV2UYxPN2TvCxVFgBjHb1PXkkeCP4yBvNo0wVvEea110t_hrwRfU6Gw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDEmXWQl45YbFYcq-k5zQ2cRk7HNkdlQztG1fWP8NXaomCc5It-iCQ165NYnGyyRM6WSaKKwhXSHvk-CEkJa0Hsucovp9Z6NYafZnZOXNNCpPRQhDa_GUrx8Sj9KbAGmHWfWhkZjb5a1Xtp15zGs="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDEmXWQl45YbFYcq-k5zQ2cRk7HNkdlQztG1fWP8NXaomCc5It-iCQ165NYnGyyRM6WSaKKwhXSHvk-CEkJa0Hsucovp9Z6NYafZnZOXNNCpPRQhDa_GUrx8Sj9KbAGmHWfWhkZjb5a1Xtp15zGs="
+      },
+      {
+        "label": "antoniofontoura",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd6vPKRELKmt5Bzd9PHFcOKUXjJCAAiwU1iClu1q9cyovm35THWr-fHK75ju9JZZZB_IHQgNSKU_0RBq7aKhsI1r9C3FMEn_VbEfg_bKxGRPFn_T54YS-HvuM5Jlva6HQOaWF0mqZrmL3UJfRFkjkj1xVLIxH6g27ouyesdHkwEoRL5p5hiw=="
+      },
+      {
+        "label": "ufmg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnfLMHgOV8Rp2Ww9R4tS4CwQsZr7KUdumptezNbN0pSKIa4e6JWF3OIW3Bd4LMJlXp30pNInkxi0BQAaPX8L-8HqQyWfVsH4i6MKNS4Ix3SKmVBDPyowQE8aSuS2-JgsD4ngd01w3dSW1hPqhMpNye1LTpWCntLkX94wrfbeVtYYfclWczbFS7sxrQbsmVAlV8bAjclSFg"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDEmXWQl45YbFYcq-k5zQ2cRk7HNkdlQztG1fWP8NXaomCc5It-iCQ165NYnGyyRM6WSaKKwhXSHvk-CEkJa0Hsucovp9Z6NYafZnZOXNNCpPRQhDa_GUrx8Sj9KbAGmHWfWhkZjb5a1Xtp15zGs="
+      },
+      {
+        "label": "macaibaemfoco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbZbZC1ZiZh_SNHifueHNf-8xC2b9Bb_vV9jTxSVuyLi80ZD2cCsK3Wx1mA2-Yk1qu4kK6aQ_znA9G45nhXUzY4TdJwXvtTITNXFM9xOZRUUDO0UlZpPE25_qssKzYU1s-Fs_oXKAsDfIrR2yEUbkzF81ou1dfXc0="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKHVuSo-jgMF7XQLdUkfwSamZyoLoyKlqw_UoOpwr0K8-1FanCv2iHr7MELoi2BmkvlElGh1wMf2u7sCJ0Lrf4VR0T_9PYV2UYxPN2TvCxVFgBjHb1PXkkeCP4yBvNo0wVvEea110t_hrwRfU6Gw=="
+      },
+      {
+        "label": "macaibaemfoco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbZbZC1ZiZh_SNHifueHNf-8xC2b9Bb_vV9jTxSVuyLi80ZD2cCsK3Wx1mA2-Yk1qu4kK6aQ_znA9G45nhXUzY4TdJwXvtTITNXFM9xOZRUUDO0UlZpPE25_qssKzYU1s-Fs_oXKAsDfIrR2yEUbkzF81ou1dfXc0="
+      },
+      {
+        "label": "macaibaemfoco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbZbZC1ZiZh_SNHifueHNf-8xC2b9Bb_vV9jTxSVuyLi80ZD2cCsK3Wx1mA2-Yk1qu4kK6aQ_znA9G45nhXUzY4TdJwXvtTITNXFM9xOZRUUDO0UlZpPE25_qssKzYU1s-Fs_oXKAsDfIrR2yEUbkzF81ou1dfXc0="
+      },
+      {
+        "label": "macaibaemfoco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbZbZC1ZiZh_SNHifueHNf-8xC2b9Bb_vV9jTxSVuyLi80ZD2cCsK3Wx1mA2-Yk1qu4kK6aQ_znA9G45nhXUzY4TdJwXvtTITNXFM9xOZRUUDO0UlZpPE25_qssKzYU1s-Fs_oXKAsDfIrR2yEUbkzF81ou1dfXc0="
+      },
+      {
+        "label": "megacurioso",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Q619PVJm4lefOnT1XUi3ynNKEN8dZR97zOjCz1Y2PPboRrbr_Uy8jeSkavDyq4WOBq7EQDzHlW3wLlqk51g5QhiHJUservntOW9_YE9QJDapmc3EnW7EJhJnuqgJ9PDebdDhzD6mIdgUAeUwPtC7CpM9D3rlIaqZMyiygA3HWZYLJtanpQjw0EsY4O0m2B3MI-_4Lao5OfFeKpJNGn8olqYNPRgCpEHhJv0tdSjX"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDEmXWQl45YbFYcq-k5zQ2cRk7HNkdlQztG1fWP8NXaomCc5It-iCQ165NYnGyyRM6WSaKKwhXSHvk-CEkJa0Hsucovp9Z6NYafZnZOXNNCpPRQhDa_GUrx8Sj9KbAGmHWfWhkZjb5a1Xtp15zGs="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsDEmXWQl45YbFYcq-k5zQ2cRk7HNkdlQztG1fWP8NXaomCc5It-iCQ165NYnGyyRM6WSaKKwhXSHvk-CEkJa0Hsucovp9Z6NYafZnZOXNNCpPRQhDa_GUrx8Sj9KbAGmHWfWhkZjb5a1Xtp15zGs="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKHVuSo-jgMF7XQLdUkfwSamZyoLoyKlqw_UoOpwr0K8-1FanCv2iHr7MELoi2BmkvlElGh1wMf2u7sCJ0Lrf4VR0T_9PYV2UYxPN2TvCxVFgBjHb1PXkkeCP4yBvNo0wVvEea110t_hrwRfU6Gw=="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKHVuSo-jgMF7XQLdUkfwSamZyoLoyKlqw_UoOpwr0K8-1FanCv2iHr7MELoi2BmkvlElGh1wMf2u7sCJ0Lrf4VR0T_9PYV2UYxPN2TvCxVFgBjHb1PXkkeCP4yBvNo0wVvEea110t_hrwRfU6Gw=="
+      },
+      {
+        "label": "antoniofontoura",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnAqrnsbkzUvK-xtKmdCEAAsgSpmdJFD_5LdXAqtJVbY4VAQP3BvYX8VD3a3shlnYqmoGn7Uf_i0xEOs8H3olQMU4cHYWu9q5ImdhITJUhJQziu2xD3fbd_SwbUaDVFw1nzOSwGofcb1KNCfHeFJ4JRMlWn_INqws1igIADxuGKaMxnYr6JwhOIkGmlA=="
+      },
+      {
+        "label": "megacurioso",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Q619PVJm4lefOnT1XUi3ynNKEN8dZR97zOjCz1Y2PPboRrbr_Uy8jeSkavDyq4WOBq7EQDzHlW3wLlqk51g5QhiHJUservntOW9_YE9QJDapmc3EnW7EJhJnuqgJ9PDebdDhzD6mIdgUAeUwPtC7CpM9D3rlIaqZMyiygA3HWZYLJtanpQjw0EsY4O0m2B3MI-_4Lao5OfFeKpJNGn8olqYNPRgCpEHhJv0tdSjX"
+      },
+      {
+        "label": "proximolivro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs2Rpp9XRVY49oGh1VVdaugjaQVpv4gYwLaOmjYnc9EdOXFwmXGznxK42L-9Jym-bAlzixg8XM1HBOIX8cUl1PrBlwgyadjf_luBemtcoFGtN-myzYqzebcwVEEQVQOmxsPHuiz9thSVCyjfTtUAqX-kkdQx1Pv6an6Kb86g=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2lehMQvESXMmEqhqGtj50UrWAqOnE24sW2SrH5kV1GnEQgDkwdEWNFZwpxlzsO63LzTmxdwhEJynjNPrZ54-KIwgCjH1HzPuOuLZ-G_n5pN6uSALF-TdWL1rGF2DQzqsm_X6KKbM1TacrTlYNUf4="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEzxlrjHHnLVhCzeWSlNaaxF19gTzOkwNRG8s1FvCWJRRl7_XAgkM4_aGVOmVZAQvjFWkbkOBloaItZd0inwCzXuwtw2WdgnHt0AQcV2IunC6J8MjYgnhFkdSF-PsbhxXhChOAaapYcR8N"
+      },
+      {
+        "label": "ecured",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETwxHDnTrbQ0t-pU2PqDkuWnGeMt_X-fpuYoRy2a1q0krv7yUWPaGPz6rHSxJQErvvuNDiZQUJTZh0j2oTu7zV-M33fZX9sLieb_RHoCtwKKdZgA5_FBkI_iTjc_QqwnT4ag=="
+      },
+      {
+        "label": "megacurioso",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj_wSTB2vY50CYMvzm7yi-LSOv2XsMr9zj-iZ9HU9F3yCQpdK83fqaV-ZjByTMvyyZ2tub0pccsPaAwG99jeoxNQ6Fp6Pfc9osgcE6wT625q0NzR-7hNSDelBdu2x_YTl0kr6jFoYD4KBpusEexDwEzyaLZa9_qCo5mFcI7MpAChC406zjBsgy-9zOuVmzG5847kdnl5l7MqbtJGLVa0msTHSG-7rt-34fZQowXZjh"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEzxlrjHHnLVhCzeWSlNaaxF19gTzOkwNRG8s1FvCWJRRl7_XAgkM4_aGVOmVZAQvjFWkbkOBloaItZd0inwCzXuwtw2WdgnHt0AQcV2IunC6J8MjYgnhFkdSF-PsbhxXhChOAaapYcR8N"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEzxlrjHHnLVhCzeWSlNaaxF19gTzOkwNRG8s1FvCWJRRl7_XAgkM4_aGVOmVZAQvjFWkbkOBloaItZd0inwCzXuwtw2WdgnHt0AQcV2IunC6J8MjYgnhFkdSF-PsbhxXhChOAaapYcR8N"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2lehMQvESXMmEqhqGtj50UrWAqOnE24sW2SrH5kV1GnEQgDkwdEWNFZwpxlzsO63LzTmxdwhEJynjNPrZ54-KIwgCjH1HzPuOuLZ-G_n5pN6uSALF-TdWL1rGF2DQzqsm_X6KKbM1TacrTlYNUf4="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0J09_3yB5w-2kT7Uxqq5-wDZ-Xp62jGOiS32nlnYpPJYgOXGKogPWVHBW8jJqc-PRlRSUawgb4mORB2r3xkaXwznkJcky_CjOD1Wq2Zgq3jzWMZ-PlRgazy7rIbI6a45V5hGIHp2xAwMOLwHIIg=="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0J09_3yB5w-2kT7Uxqq5-wDZ-Xp62jGOiS32nlnYpPJYgOXGKogPWVHBW8jJqc-PRlRSUawgb4mORB2r3xkaXwznkJcky_CjOD1Wq2Zgq3jzWMZ-PlRgazy7rIbI6a45V5hGIHp2xAwMOLwHIIg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2lehMQvESXMmEqhqGtj50UrWAqOnE24sW2SrH5kV1GnEQgDkwdEWNFZwpxlzsO63LzTmxdwhEJynjNPrZ54-KIwgCjH1HzPuOuLZ-G_n5pN6uSALF-TdWL1rGF2DQzqsm_X6KKbM1TacrTlYNUf4="
+      },
+      {
+        "label": "ipeak",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKPucrNmNJElQd8QgrZdKQzN6zuJ7A6o7RumibrtU_jm3HqfbLnMNUE0nXqFL47tF6sMuZk5AvPv0Lo8s8vkfdULxBD0CiUl0-Xrd8eONDFJsFcDbEsiWJJ0LLwXHbe6Lz4JEjT5Q2rhk7dg0Nwn_jKl_1X9s="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEzxlrjHHnLVhCzeWSlNaaxF19gTzOkwNRG8s1FvCWJRRl7_XAgkM4_aGVOmVZAQvjFWkbkOBloaItZd0inwCzXuwtw2WdgnHt0AQcV2IunC6J8MjYgnhFkdSF-PsbhxXhChOAaapYcR8N"
+      },
+      {
+        "label": "ipeak",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKPucrNmNJElQd8QgrZdKQzN6zuJ7A6o7RumibrtU_jm3HqfbLnMNUE0nXqFL47tF6sMuZk5AvPv0Lo8s8vkfdULxBD0CiUl0-Xrd8eONDFJsFcDbEsiWJJ0LLwXHbe6Lz4JEjT5Q2rhk7dg0Nwn_jKl_1X9s="
+      },
+      {
+        "label": "ecured",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETwxHDnTrbQ0t-pU2PqDkuWnGeMt_X-fpuYoRy2a1q0krv7yUWPaGPz6rHSxJQErvvuNDiZQUJTZh0j2oTu7zV-M33fZX9sLieb_RHoCtwKKdZgA5_FBkI_iTjc_QqwnT4ag=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2lehMQvESXMmEqhqGtj50UrWAqOnE24sW2SrH5kV1GnEQgDkwdEWNFZwpxlzsO63LzTmxdwhEJynjNPrZ54-KIwgCjH1HzPuOuLZ-G_n5pN6uSALF-TdWL1rGF2DQzqsm_X6KKbM1TacrTlYNUf4="
+      },
+      {
+        "label": "ipeak",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKPucrNmNJElQd8QgrZdKQzN6zuJ7A6o7RumibrtU_jm3HqfbLnMNUE0nXqFL47tF6sMuZk5AvPv0Lo8s8vkfdULxBD0CiUl0-Xrd8eONDFJsFcDbEsiWJJ0LLwXHbe6Lz4JEjT5Q2rhk7dg0Nwn_jKl_1X9s="
+      },
+      {
+        "label": "ecured",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETwxHDnTrbQ0t-pU2PqDkuWnGeMt_X-fpuYoRy2a1q0krv7yUWPaGPz6rHSxJQErvvuNDiZQUJTZh0j2oTu7zV-M33fZX9sLieb_RHoCtwKKdZgA5_FBkI_iTjc_QqwnT4ag=="
+      },
+      {
+        "label": "ipeak",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKPucrNmNJElQd8QgrZdKQzN6zuJ7A6o7RumibrtU_jm3HqfbLnMNUE0nXqFL47tF6sMuZk5AvPv0Lo8s8vkfdULxBD0CiUl0-Xrd8eONDFJsFcDbEsiWJJ0LLwXHbe6Lz4JEjT5Q2rhk7dg0Nwn_jKl_1X9s="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2lehMQvESXMmEqhqGtj50UrWAqOnE24sW2SrH5kV1GnEQgDkwdEWNFZwpxlzsO63LzTmxdwhEJynjNPrZ54-KIwgCjH1HzPuOuLZ-G_n5pN6uSALF-TdWL1rGF2DQzqsm_X6KKbM1TacrTlYNUf4="
+      },
+      {
+        "label": "ecured",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETwxHDnTrbQ0t-pU2PqDkuWnGeMt_X-fpuYoRy2a1q0krv7yUWPaGPz6rHSxJQErvvuNDiZQUJTZh0j2oTu7zV-M33fZX9sLieb_RHoCtwKKdZgA5_FBkI_iTjc_QqwnT4ag=="
+      },
+      {
+        "label": "megacurioso",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj_wSTB2vY50CYMvzm7yi-LSOv2XsMr9zj-iZ9HU9F3yCQpdK83fqaV-ZjByTMvyyZ2tub0pccsPaAwG99jeoxNQ6Fp6Pfc9osgcE6wT625q0NzR-7hNSDelBdu2x_YTl0kr6jFoYD4KBpusEexDwEzyaLZa9_qCo5mFcI7MpAChC406zjBsgy-9zOuVmzG5847kdnl5l7MqbtJGLVa0msTHSG-7rt-34fZQowXZjh"
+      },
+      {
+        "label": "ipeak",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKPucrNmNJElQd8QgrZdKQzN6zuJ7A6o7RumibrtU_jm3HqfbLnMNUE0nXqFL47tF6sMuZk5AvPv0Lo8s8vkfdULxBD0CiUl0-Xrd8eONDFJsFcDbEsiWJJ0LLwXHbe6Lz4JEjT5Q2rhk7dg0Nwn_jKl_1X9s="
+      },
+      {
+        "label": "ufmg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8cii3cMt-Vw46cLoaecIN1mN3LWqHBkCwWup5OlHrSss1g0MvpBgXceZdf7fwhFlUZYsIh09NyzS-6I3_fmSW4ApLt7eh4rc8QadXmbGtYKx09kZx59vFFqLnti41sIPvTHR_l5v9CYapGorkpqFRLmhdH9WdqB--IQjUg-yA1SwwCfpNiraqbDY004NB1xSQI_2pcryE"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2lehMQvESXMmEqhqGtj50UrWAqOnE24sW2SrH5kV1GnEQgDkwdEWNFZwpxlzsO63LzTmxdwhEJynjNPrZ54-KIwgCjH1HzPuOuLZ-G_n5pN6uSALF-TdWL1rGF2DQzqsm_X6KKbM1TacrTlYNUf4="
+      },
+      {
+        "label": "megacurioso",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj_wSTB2vY50CYMvzm7yi-LSOv2XsMr9zj-iZ9HU9F3yCQpdK83fqaV-ZjByTMvyyZ2tub0pccsPaAwG99jeoxNQ6Fp6Pfc9osgcE6wT625q0NzR-7hNSDelBdu2x_YTl0kr6jFoYD4KBpusEexDwEzyaLZa9_qCo5mFcI7MpAChC406zjBsgy-9zOuVmzG5847kdnl5l7MqbtJGLVa0msTHSG-7rt-34fZQowXZjh"
+      },
+      {
+        "label": "ecured",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETwxHDnTrbQ0t-pU2PqDkuWnGeMt_X-fpuYoRy2a1q0krv7yUWPaGPz6rHSxJQErvvuNDiZQUJTZh0j2oTu7zV-M33fZX9sLieb_RHoCtwKKdZgA5_FBkI_iTjc_QqwnT4ag=="
+      },
+      {
+        "label": "ecured",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETwxHDnTrbQ0t-pU2PqDkuWnGeMt_X-fpuYoRy2a1q0krv7yUWPaGPz6rHSxJQErvvuNDiZQUJTZh0j2oTu7zV-M33fZX9sLieb_RHoCtwKKdZgA5_FBkI_iTjc_QqwnT4ag=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2lehMQvESXMmEqhqGtj50UrWAqOnE24sW2SrH5kV1GnEQgDkwdEWNFZwpxlzsO63LzTmxdwhEJynjNPrZ54-KIwgCjH1HzPuOuLZ-G_n5pN6uSALF-TdWL1rGF2DQzqsm_X6KKbM1TacrTlYNUf4="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0J09_3yB5w-2kT7Uxqq5-wDZ-Xp62jGOiS32nlnYpPJYgOXGKogPWVHBW8jJqc-PRlRSUawgb4mORB2r3xkaXwznkJcky_CjOD1Wq2Zgq3jzWMZ-PlRgazy7rIbI6a45V5hGIHp2xAwMOLwHIIg=="
+      },
+      {
+        "label": "megacurioso",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj_wSTB2vY50CYMvzm7yi-LSOv2XsMr9zj-iZ9HU9F3yCQpdK83fqaV-ZjByTMvyyZ2tub0pccsPaAwG99jeoxNQ6Fp6Pfc9osgcE6wT625q0NzR-7hNSDelBdu2x_YTl0kr6jFoYD4KBpusEexDwEzyaLZa9_qCo5mFcI7MpAChC406zjBsgy-9zOuVmzG5847kdnl5l7MqbtJGLVa0msTHSG-7rt-34fZQowXZjh"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2lehMQvESXMmEqhqGtj50UrWAqOnE24sW2SrH5kV1GnEQgDkwdEWNFZwpxlzsO63LzTmxdwhEJynjNPrZ54-KIwgCjH1HzPuOuLZ-G_n5pN6uSALF-TdWL1rGF2DQzqsm_X6KKbM1TacrTlYNUf4="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0J09_3yB5w-2kT7Uxqq5-wDZ-Xp62jGOiS32nlnYpPJYgOXGKogPWVHBW8jJqc-PRlRSUawgb4mORB2r3xkaXwznkJcky_CjOD1Wq2Zgq3jzWMZ-PlRgazy7rIbI6a45V5hGIHp2xAwMOLwHIIg=="
+      },
+      {
+        "label": "megacurioso",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj_wSTB2vY50CYMvzm7yi-LSOv2XsMr9zj-iZ9HU9F3yCQpdK83fqaV-ZjByTMvyyZ2tub0pccsPaAwG99jeoxNQ6Fp6Pfc9osgcE6wT625q0NzR-7hNSDelBdu2x_YTl0kr6jFoYD4KBpusEexDwEzyaLZa9_qCo5mFcI7MpAChC406zjBsgy-9zOuVmzG5847kdnl5l7MqbtJGLVa0msTHSG-7rt-34fZQowXZjh"
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0J09_3yB5w-2kT7Uxqq5-wDZ-Xp62jGOiS32nlnYpPJYgOXGKogPWVHBW8jJqc-PRlRSUawgb4mORB2r3xkaXwznkJcky_CjOD1Wq2Zgq3jzWMZ-PlRgazy7rIbI6a45V5hGIHp2xAwMOLwHIIg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2lehMQvESXMmEqhqGtj50UrWAqOnE24sW2SrH5kV1GnEQgDkwdEWNFZwpxlzsO63LzTmxdwhEJynjNPrZ54-KIwgCjH1HzPuOuLZ-G_n5pN6uSALF-TdWL1rGF2DQzqsm_X6KKbM1TacrTlYNUf4="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0J09_3yB5w-2kT7Uxqq5-wDZ-Xp62jGOiS32nlnYpPJYgOXGKogPWVHBW8jJqc-PRlRSUawgb4mORB2r3xkaXwznkJcky_CjOD1Wq2Zgq3jzWMZ-PlRgazy7rIbI6a45V5hGIHp2xAwMOLwHIIg=="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0J09_3yB5w-2kT7Uxqq5-wDZ-Xp62jGOiS32nlnYpPJYgOXGKogPWVHBW8jJqc-PRlRSUawgb4mORB2r3xkaXwznkJcky_CjOD1Wq2Zgq3jzWMZ-PlRgazy7rIbI6a45V5hGIHp2xAwMOLwHIIg=="
+      },
+      {
+        "label": "ecured",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETwxHDnTrbQ0t-pU2PqDkuWnGeMt_X-fpuYoRy2a1q0krv7yUWPaGPz6rHSxJQErvvuNDiZQUJTZh0j2oTu7zV-M33fZX9sLieb_RHoCtwKKdZgA5_FBkI_iTjc_QqwnT4ag=="
+      },
+      {
+        "label": "gnosisbrasil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0J09_3yB5w-2kT7Uxqq5-wDZ-Xp62jGOiS32nlnYpPJYgOXGKogPWVHBW8jJqc-PRlRSUawgb4mORB2r3xkaXwznkJcky_CjOD1Wq2Zgq3jzWMZ-PlRgazy7rIbI6a45V5hGIHp2xAwMOLwHIIg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "theosociety",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-7g6xcoGp3lYUI3Xp5I2cHEoNdHmzXfX9i2Zt-AYcMG0-gyrikJzyPsU3E140Bd6t8Vkccjl90PUMchTz5SYq6ST28XZyXNktVVJHykq1N2BKQNQ_skWArOJFtAqebYC4oohw-vhFjIoLTBUBVA1wC8dpCgbex8Uq_drF"
+      },
+      {
+        "label": "theosophy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrr4M37glKu-fzQJaoZIaQBZg_A-xfeuP7v8tnYJFgyJvUAlQNVSDfiX9PrA56IKcdn7twAhzMO3t_OPWAf0_qdEHfpHZv9Jc7JhYWlVC5BTH3wcF14OMWR2UOya69w6tVXDHe-gOrlpx3GAV_No6j7U16KA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "ugm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGOyv1QcoMkSZfV2lRGAJgSqLlUr-V6SCFBLe7auFM56_CrU_oKzSQfMa5o-fD2u4JNZJ5UDkHOvEzo_xDcGFyzQ2vntOngAaoqrdvN9tbUlzMsCG26CTpe33laec-uUC-d1EZWPt9sNk6NY2s2fj5VwrrPzmfIKY1w1c="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjxQIy5noRYkC9JMRPzK-UkRX2Y3JkT8hc7BpclAC0x4NCJq3eOWZwJTvUKOw36ajRemUXQveCAaA-mEJpMGcmi2GbWOIIIG32D2dNkIiNf2A7y9EGX1T_RNWpyWElaX3ppcNoSYzMaERc0wYQvN5AYh3G"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV1Nu0awBPjyr4QY7-h9Xt0bpIQv6ebz3T8j_Zzr3HFcfPuFR02rAOl8XippXxdL3TlbVrCzP0yTjbtv_8utLAZ-FlMpXSUjDSJeb8G8JIHi0RkBXwWjbzbPC9I3sOpqyXLdDSuhfa7SNNdBTmlsmeK_cBGg=="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjxQIy5noRYkC9JMRPzK-UkRX2Y3JkT8hc7BpclAC0x4NCJq3eOWZwJTvUKOw36ajRemUXQveCAaA-mEJpMGcmi2GbWOIIIG32D2dNkIiNf2A7y9EGX1T_RNWpyWElaX3ppcNoSYzMaERc0wYQvN5AYh3G"
+      },
+      {
+        "label": "crystalinks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlvFXKnzAD2Qnx6lgSMFNXYyOqqYoHJ7n_D1_qiqGapXAhxvHpXTi1vwuSxqE4zcmpN306m4i0AmQxVsrKn2tJLpaMqV1Ynm9PCc6-SgKw1OK1sHDbDvx3agLzaxOiMBxC9L21_gXYVewIag=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "aboutbibleprophecy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDjUcj1c0ERmJDVWjsaeVPJpbX00nKV5XMj1cXVnT_3hjVRdnuZwed0DYO2XfT3yNUENp6p5b3tDafWSGwHOGD8Ues044STmQSxqXHr8WBZ_NvtBNvS9fk5mtEfjDN897JU515ZprU5MhSsJvfQV5nso-UIg=="
+      },
+      {
+        "label": "aboutbibleprophecy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDjUcj1c0ERmJDVWjsaeVPJpbX00nKV5XMj1cXVnT_3hjVRdnuZwed0DYO2XfT3yNUENp6p5b3tDafWSGwHOGD8Ues044STmQSxqXHr8WBZ_NvtBNvS9fk5mtEfjDN897JU515ZprU5MhSsJvfQV5nso-UIg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIf4bIgolm5Y5QXPypVTRbHzZ4uqzArKL2Kb4FYZba5P8ikOtanNfTwkMjuR8iOP9RieR2m19RYyEOBXKSdC5gKzSB_MIKOlMebIVmXYQvdfYEzOHNvon83hyfg4QRDzVpfxkujoyhjFhUig=="
+      },
+      {
+        "label": "theosophy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrr4M37glKu-fzQJaoZIaQBZg_A-xfeuP7v8tnYJFgyJvUAlQNVSDfiX9PrA56IKcdn7twAhzMO3t_OPWAf0_qdEHfpHZv9Jc7JhYWlVC5BTH3wcF14OMWR2UOya69w6tVXDHe-gOrlpx3GAV_No6j7U16KA=="
+      },
+      {
+        "label": "aboutbibleprophecy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDjUcj1c0ERmJDVWjsaeVPJpbX00nKV5XMj1cXVnT_3hjVRdnuZwed0DYO2XfT3yNUENp6p5b3tDafWSGwHOGD8Ues044STmQSxqXHr8WBZ_NvtBNvS9fk5mtEfjDN897JU515ZprU5MhSsJvfQV5nso-UIg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXa7HvP999GwdsacJVpsmgouLxXB9_-Ejwnhg5Unz7yvG9ykgNeqIVZqKRN1PS65MzdfOTsBu7-VL_3CAj9HtfgTo3J3xa9XZIKSt4IqK2vdoyYdXh9syU2DygyJ3mCUGQzHssfu2eFLBYL5g="
+      },
+      {
+        "label": "carm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFbA4AUWheSwUkKIA76jDKvJG9R7_oG5DPtQuX8-hkuOmt0aOqxV9fsyf7rHMSLytNgQduO7BLRzbh4aL0OCrVZmiAhVlGOJX4JbWrFZzcR90gGtiHsTrv0oO9FzK-XldVknyyEJxgxBmmtKlIo50C7V4qMTIpwvk6v0FWZoHNmlFSZK30ppDj5vZ82NNR4keFhtqKjCBPpaHZd4eC6qQ="
+      },
+      {
+        "label": "aboutbibleprophecy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDjUcj1c0ERmJDVWjsaeVPJpbX00nKV5XMj1cXVnT_3hjVRdnuZwed0DYO2XfT3yNUENp6p5b3tDafWSGwHOGD8Ues044STmQSxqXHr8WBZ_NvtBNvS9fk5mtEfjDN897JU515ZprU5MhSsJvfQV5nso-UIg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnEjDVkQgSgla4YsdVdTnDYGwCJ32cajqNxrx_2PH2gf0mEboZ9m6sZ8RxaJF2DIFL40aSaioUu4HQPKu5ZWEuJWPSkP-g6kon7QaVOkGBrpGzoDt2IXWXYWVLDzOIGd1FrMEWAYZRzEYdyY0="
+      },
+      {
+        "label": "worldhistoryedu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0XnSUTOc3apYwdWn8flzKKVOx4ddJ4RmeURgHs2JfTHlEzONKOLHvF2ArQE1JFzTdHgSjlbe5-AkB8WjqSV21WrepFQr2IdxGAVndHIS2_PITibTeTMyvR_Yl53b2M3CJftAYR4zpPV-6DQ=="
+      },
+      {
+        "label": "rubedo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFCsIiEpR96wW-13TbHnhtvTctaCq8vURJpC_0_h_bZ3bs7TcnamdZzossbqZihIA4iG8V5ob3ReJ2Q_6C36wpIkmXmy77b44HgeKtb1lz7_aKjlq3rKUhUEh_aq1l_uS0fXlHJNrhxlezDwhWir8XIJC"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnEjDVkQgSgla4YsdVdTnDYGwCJ32cajqNxrx_2PH2gf0mEboZ9m6sZ8RxaJF2DIFL40aSaioUu4HQPKu5ZWEuJWPSkP-g6kon7QaVOkGBrpGzoDt2IXWXYWVLDzOIGd1FrMEWAYZRzEYdyY0="
+      },
+      {
+        "label": "rubedo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFCsIiEpR96wW-13TbHnhtvTctaCq8vURJpC_0_h_bZ3bs7TcnamdZzossbqZihIA4iG8V5ob3ReJ2Q_6C36wpIkmXmy77b44HgeKtb1lz7_aKjlq3rKUhUEh_aq1l_uS0fXlHJNrhxlezDwhWir8XIJC"
+      },
+      {
+        "label": "rubedo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFCsIiEpR96wW-13TbHnhtvTctaCq8vURJpC_0_h_bZ3bs7TcnamdZzossbqZihIA4iG8V5ob3ReJ2Q_6C36wpIkmXmy77b44HgeKtb1lz7_aKjlq3rKUhUEh_aq1l_uS0fXlHJNrhxlezDwhWir8XIJC"
+      },
+      {
+        "label": "rubedo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFCsIiEpR96wW-13TbHnhtvTctaCq8vURJpC_0_h_bZ3bs7TcnamdZzossbqZihIA4iG8V5ob3ReJ2Q_6C36wpIkmXmy77b44HgeKtb1lz7_aKjlq3rKUhUEh_aq1l_uS0fXlHJNrhxlezDwhWir8XIJC"
+      },
+      {
+        "label": "rubedo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFCsIiEpR96wW-13TbHnhtvTctaCq8vURJpC_0_h_bZ3bs7TcnamdZzossbqZihIA4iG8V5ob3ReJ2Q_6C36wpIkmXmy77b44HgeKtb1lz7_aKjlq3rKUhUEh_aq1l_uS0fXlHJNrhxlezDwhWir8XIJC"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnEjDVkQgSgla4YsdVdTnDYGwCJ32cajqNxrx_2PH2gf0mEboZ9m6sZ8RxaJF2DIFL40aSaioUu4HQPKu5ZWEuJWPSkP-g6kon7QaVOkGBrpGzoDt2IXWXYWVLDzOIGd1FrMEWAYZRzEYdyY0="
+      },
+      {
+        "label": "rubedo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFCsIiEpR96wW-13TbHnhtvTctaCq8vURJpC_0_h_bZ3bs7TcnamdZzossbqZihIA4iG8V5ob3ReJ2Q_6C36wpIkmXmy77b44HgeKtb1lz7_aKjlq3rKUhUEh_aq1l_uS0fXlHJNrhxlezDwhWir8XIJC"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnEjDVkQgSgla4YsdVdTnDYGwCJ32cajqNxrx_2PH2gf0mEboZ9m6sZ8RxaJF2DIFL40aSaioUu4HQPKu5ZWEuJWPSkP-g6kon7QaVOkGBrpGzoDt2IXWXYWVLDzOIGd1FrMEWAYZRzEYdyY0="
+      },
+      {
+        "label": "mountainman",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvtrC96gAqhuMdYm0jpVnA2r4S4S0yfBXr7iiFnyaa2TOKxrjTi8I92hXvTdJV2sJHByFidIVzZrha370BaE8_ta3PZ2z0zPXEyrg6L_M1YnT-tJMkb4LahEtZ8ujUHWc5FtmgaSPr_F0-uwe2eQK21FBayXOSdM8mvSQYHCsu"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnEjDVkQgSgla4YsdVdTnDYGwCJ32cajqNxrx_2PH2gf0mEboZ9m6sZ8RxaJF2DIFL40aSaioUu4HQPKu5ZWEuJWPSkP-g6kon7QaVOkGBrpGzoDt2IXWXYWVLDzOIGd1FrMEWAYZRzEYdyY0="
+      },
+      {
+        "label": "onelittleangel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL0qDQjWjjhxIdpBl11zlJ6WL-ILWuXd65199ZJf1mSmrxWYoufkPNFS3AyfxF7BMGT__7iMKLhje3hAnP2ggehYum-sOz33kZMym1Ut1Uz0mwcYhtQvVdmYN_B7dc84hXphHWf129pRfi4JZTBelQvPpWBnpKrKOjt-82aNtP"
+      },
+      {
+        "label": "crystalinks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKl7EhZ6p_5kB6_iDhxbrYuu2eiEFtx9MbqcODuZ1R-8nDeCp0GB0slz23WQAY_loFTId4eyZWRLVBUVmU24hiWFZedy8fpJ4GJRiqOp-nuHIkrSslrTdLsnHa8oJk15aDTfuJkkrsQSMvpQ=="
+      },
+      {
+        "label": "mountainman",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvtrC96gAqhuMdYm0jpVnA2r4S4S0yfBXr7iiFnyaa2TOKxrjTi8I92hXvTdJV2sJHByFidIVzZrha370BaE8_ta3PZ2z0zPXEyrg6L_M1YnT-tJMkb4LahEtZ8ujUHWc5FtmgaSPr_F0-uwe2eQK21FBayXOSdM8mvSQYHCsu"
+      },
+      {
+        "label": "mountainman",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvtrC96gAqhuMdYm0jpVnA2r4S4S0yfBXr7iiFnyaa2TOKxrjTi8I92hXvTdJV2sJHByFidIVzZrha370BaE8_ta3PZ2z0zPXEyrg6L_M1YnT-tJMkb4LahEtZ8ujUHWc5FtmgaSPr_F0-uwe2eQK21FBayXOSdM8mvSQYHCsu"
+      },
+      {
+        "label": "crystalinks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKl7EhZ6p_5kB6_iDhxbrYuu2eiEFtx9MbqcODuZ1R-8nDeCp0GB0slz23WQAY_loFTId4eyZWRLVBUVmU24hiWFZedy8fpJ4GJRiqOp-nuHIkrSslrTdLsnHa8oJk15aDTfuJkkrsQSMvpQ=="
+      },
+      {
+        "label": "newworldencyclopedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG57XE5n0DZJxnSc9TWYbTaPoY_gb9al6j1xop5qlx3uyoICId2nmsdf2a3y2GdKkxsC0UVm8JQS6xzVAPfVi0obl4_f_SxGXNGUf0ZCjsN5vi7e1ynL08JXhf_uBffrMoAbA-axjMKv-pCP-nqQRcs7ao-H9Doq70I"
+      },
+      {
+        "label": "onelittleangel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL0qDQjWjjhxIdpBl11zlJ6WL-ILWuXd65199ZJf1mSmrxWYoufkPNFS3AyfxF7BMGT__7iMKLhje3hAnP2ggehYum-sOz33kZMym1Ut1Uz0mwcYhtQvVdmYN_B7dc84hXphHWf129pRfi4JZTBelQvPpWBnpKrKOjt-82aNtP"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnEjDVkQgSgla4YsdVdTnDYGwCJ32cajqNxrx_2PH2gf0mEboZ9m6sZ8RxaJF2DIFL40aSaioUu4HQPKu5ZWEuJWPSkP-g6kon7QaVOkGBrpGzoDt2IXWXYWVLDzOIGd1FrMEWAYZRzEYdyY0="
+      },
+      {
+        "label": "occult",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhz1PP4n13xGJ2vE6rpnrvuuA-DImP02qCTq5nRcpHg7q-VncMSZDJb48IgNIwal_UyCWCHDL05S4im9U9tjzJEaACzsJikYuDuVE-n3SHo02u3ac68GFeCZF1_D8iiM7XnRYOsYRJgT3-LeZu9uAxJyy3CN147gK9ZXY4DJMRtPC72J8uaJauXejBRYo-wDQlCg=="
+      },
+      {
+        "label": "occult",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhz1PP4n13xGJ2vE6rpnrvuuA-DImP02qCTq5nRcpHg7q-VncMSZDJb48IgNIwal_UyCWCHDL05S4im9U9tjzJEaACzsJikYuDuVE-n3SHo02u3ac68GFeCZF1_D8iiM7XnRYOsYRJgT3-LeZu9uAxJyy3CN147gK9ZXY4DJMRtPC72J8uaJauXejBRYo-wDQlCg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "occult",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhz1PP4n13xGJ2vE6rpnrvuuA-DImP02qCTq5nRcpHg7q-VncMSZDJb48IgNIwal_UyCWCHDL05S4im9U9tjzJEaACzsJikYuDuVE-n3SHo02u3ac68GFeCZF1_D8iiM7XnRYOsYRJgT3-LeZu9uAxJyy3CN147gK9ZXY4DJMRtPC72J8uaJauXejBRYo-wDQlCg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "occult",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhz1PP4n13xGJ2vE6rpnrvuuA-DImP02qCTq5nRcpHg7q-VncMSZDJb48IgNIwal_UyCWCHDL05S4im9U9tjzJEaACzsJikYuDuVE-n3SHo02u3ac68GFeCZF1_D8iiM7XnRYOsYRJgT3-LeZu9uAxJyy3CN147gK9ZXY4DJMRtPC72J8uaJauXejBRYo-wDQlCg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "obsidian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncMqSarB369UycXaxrkkuUzuIi4rrkvhMDD-hfrBCFkUuj0baVrEp6nMyq7kMRZQqIs1n54_nFervFsSn8CB_pQcmIC9h8dYq2VilBurK2LxrfoMLyXpWXLOdm8yK9bHZFR521Q7xefGJwvOEvh7aq7v8Yns="
+      },
+      {
+        "label": "obsidian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncMqSarB369UycXaxrkkuUzuIi4rrkvhMDD-hfrBCFkUuj0baVrEp6nMyq7kMRZQqIs1n54_nFervFsSn8CB_pQcmIC9h8dYq2VilBurK2LxrfoMLyXpWXLOdm8yK9bHZFR521Q7xefGJwvOEvh7aq7v8Yns="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "obsidian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncMqSarB369UycXaxrkkuUzuIi4rrkvhMDD-hfrBCFkUuj0baVrEp6nMyq7kMRZQqIs1n54_nFervFsSn8CB_pQcmIC9h8dYq2VilBurK2LxrfoMLyXpWXLOdm8yK9bHZFR521Q7xefGJwvOEvh7aq7v8Yns="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "allaboutheaven",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELGsAKZhjPajlrgaS-G8u3baM9QuAC2W4oy-yphgwZBFc8K0q2ehNMRitAILRJF4l9-137998CKhypHzJ1YeMkdQz381L1Qhhq2xwNLP_AkRvDH7_GPLfe9Sn_voMHtBZwY5tJszW_q3og3v2r_G31qjaa"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "obsidian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncMqSarB369UycXaxrkkuUzuIi4rrkvhMDD-hfrBCFkUuj0baVrEp6nMyq7kMRZQqIs1n54_nFervFsSn8CB_pQcmIC9h8dYq2VilBurK2LxrfoMLyXpWXLOdm8yK9bHZFR521Q7xefGJwvOEvh7aq7v8Yns="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnEjDVkQgSgla4YsdVdTnDYGwCJ32cajqNxrx_2PH2gf0mEboZ9m6sZ8RxaJF2DIFL40aSaioUu4HQPKu5ZWEuJWPSkP-g6kon7QaVOkGBrpGzoDt2IXWXYWVLDzOIGd1FrMEWAYZRzEYdyY0="
+      },
+      {
+        "label": "rubedo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFCsIiEpR96wW-13TbHnhtvTctaCq8vURJpC_0_h_bZ3bs7TcnamdZzossbqZihIA4iG8V5ob3ReJ2Q_6C36wpIkmXmy77b44HgeKtb1lz7_aKjlq3rKUhUEh_aq1l_uS0fXlHJNrhxlezDwhWir8XIJC"
+      },
+      {
+        "label": "obsidian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEncMqSarB369UycXaxrkkuUzuIi4rrkvhMDD-hfrBCFkUuj0baVrEp6nMyq7kMRZQqIs1n54_nFervFsSn8CB_pQcmIC9h8dYq2VilBurK2LxrfoMLyXpWXLOdm8yK9bHZFR521Q7xefGJwvOEvh7aq7v8Yns="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaPH37FFX-DEgRcRPloEiOM0RXou7G5U21htoAdwZGE6kkl8zweEZFI5QXXQZO1xE8eRxU1T4l4UrNyjCghFlODCNlORzc_E56vwEGhlnpWj5l7oKTca3buk79tIPrfE7jeO5cC6Qx"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

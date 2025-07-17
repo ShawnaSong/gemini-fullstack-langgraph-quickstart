@@ -1,0 +1,1081 @@
+{
+  "file_name": "state_result_253.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.731971",
+  "data": {
+    "messages": [
+      {
+        "content": "Code a front-end for a marketing analytics application, designed to pair geo-demographic data from the Census dataset, with customer information from a CRM, and Google Ads/Analytics audience segments",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "2bbb5b61-d5ff-4b84-8718-0ad8b4f4a003",
+        "example": false
+      },
+      {
+        "content": "To code a front-end for a marketing analytics application that effectively combines geo-demographic data from the Census dataset with customer information from a CRM and Google Ads/Analytics audience segments, consider the following key aspects:\n\n**1. Front-End Architecture and Frameworks:**\n\n*   **Framework Selection:** Choose a robust front-end framework like React, Angular, or Vue.js for building dynamic and interactive user interfaces [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [darwinapps](https://vertexaisearch.cloud.google.com/id/0-4) [prateeksha](https://vertexaisearch.cloud.google.com/id/0-5) [scaletech](https://vertexaisearch.cloud.google.com/id/0-6]. React's component-based architecture is particularly useful for efficient UI development [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [darwinapps](https://vertexaisearch.cloud.google.com/id/0-4) [prateeksha](https://vertexaisearch.cloud.google.com/id/0-5) [scaletech](https://vertexaisearch.cloud.google.com/id/0-6]. Emerging frameworks like Svelte, Solid.js and Qwik are also gaining traction [darwinapps](https://vertexaisearch.cloud.google.com/id/0-4) [scaletech](https://vertexaisearch.cloud.google.com/id/0-6) [roadmap](https://vertexaisearch.cloud.google.com/id/0-7) [prateeksha](https://vertexaisearch.cloud.google.com/id/0-5].\n*   **Architecture Patterns:** Consider JAMstack for enhanced performance, security, and scalability by decoupling the front end from the back end [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [sprints](https://vertexaisearch.cloud.google.com/id/0-8]. Micro frontends can also be used to divide the application into smaller, independently deployable modules [wearebrain](https://vertexaisearch.cloud.google.com/id/0-9) [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**2. Data Visualization Libraries:**\n\n*   **Charting Libraries:** Utilize JavaScript charting libraries to visualize data effectively [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0). Popular choices include Chart.js for simplicity [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0), D3.js for high customization [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6) [ruleranalytics](https://vertexaisearch.cloud.google.com/id/1-5) [dotsquares](https://vertexaisearch.cloud.google.com/id/1-7) [d3js](https://vertexaisearch.cloud.google.com/id/1-8), Highcharts for feature-rich charts [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6) [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [coderpad](https://vertexaisearch.cloud.google.com/id/1-4) [dotsquares](https://vertexaisearch.cloud.google.com/id/1-7), and ECharts for handling large datasets [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6) [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Mapping Libraries:** For geo-demographic data, consider mapping libraries like Leaflet for basic maps [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3), Mapbox GL JS for high customization [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3), or OpenLayers for robust mapping with vector and raster layers [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [geoawesome](https://vertexaisearch.cloud.google.com/id/1-11).\n\n**3. Data Integration Techniques:**\n\n*   **Centralized Data Repository:** Create a single source of truth (SSOT) by consolidating data into a unified platform [adverity](https://vertexaisearch.cloud.google.com/id/2-4) [dotanalytics](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **API Integration:** Use APIs to facilitate seamless communication between different digital tools, enabling real-time data syncing and sharing [estuary](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Data Transformation:** Transform data in the source to ensure cleaner, richer, and faster data across various marketing tools [getcensus](https://vertexaisearch.cloud.google.com/id/2-7). Platforms like Census offer no-code interfaces to transform, segment, and move data [getcensus](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Reverse ETL:** Consider using Reverse ETL to sync data from the data warehouse back to business applications [sacra](https://vertexaisearch.cloud.google.com/id/0-14).\n\n**4. UI/UX Considerations:**\n\n*   **Information Hierarchy:** Prioritize key metrics and trends using visual hierarchy [medium](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **User Role Design:** Customize dashboards based on user personas and job tasks [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Data Visualization:** Choose appropriate chart types and keep visualizations simple [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Clear Navigation:** Ensure easy navigation [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Real-Time Feedback:** Provide real-time updates in a controlled manner [medium](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Responsiveness:** Optimize for different devices [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Customization:** Enable users to personalize widgets and views [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Accessibility:** Ensure accessibility with screen readers and adjustable font sizes [fuselabcreative](https://vertexaisearch.cloud.google.com/id/0-2) [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Actionable Metrics:** Connect metrics with actions by including thresholds and suggestions [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**5. Performance Optimization:**\n\n*   **Web Performance:** Optimize front-end elements for swift loading [strapi](https://vertexaisearch.cloud.google.com/id/0-10) [sprints](https://vertexaisearch.cloud.google.com/id/0-8) [owdt](https://vertexaisearch.cloud.google.com/id/0-11) [medium](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Loading Sequence:** Prioritize loading above-the-fold content first [medium](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Bundle Size:** Minimize JavaScript bundle size using tree shaking and code splitting [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Image Formats:** Use modern image formats like WebP and AVIF [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Browser Caching:** Leverage browser caching [strapi](https://vertexaisearch.cloud.google.com/id/0-10) [owdt](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **CDNs:** Use Content Delivery Networks (CDNs) [strapi](https://vertexaisearch.cloud.google.com/id/0-10) [medium](https://vertexaisearch.cloud.google.com/id/0-12) [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**6. AI Integration:**\n\n*   **AI-Driven Personalization:** Integrate AI for real-time user personalization and dynamic UI updates [sprints](https://vertexaisearch.cloud.google.com/id/0-8) [wearebrain](https://vertexaisearch.cloud.google.com/id/0-9). McKinsey reports that 71% of consumers expect personalized interactions [5datainc](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Predictive Analytics:** Utilize AI for predictive analytics to enhance user journeys [sprints](https://vertexaisearch.cloud.google.com/id/0-8) [wearebrain](https://vertexaisearch.cloud.google.com/id/0-9].\n*   **AI-Generated Summaries:** Implement AI to provide summaries of dashboards and answer follow-up questions [hockeystack](https://vertexaisearch.cloud.google.com/id/3-3).\n\n**7. Data Governance and Quality:**\n\n*   **Data Governance:** Implement strong data governance practices for data accuracy [adverity](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Data Quality:** Ensure data cleansing and standardization processes to address inconsistencies [ossisto](https://vertexaisearch.cloud.google.com/id/2-9).\n\nBy integrating these strategies, you can create a powerful and user-friendly marketing analytics application that provides valuable insights for data-driven decision-making [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [strapi](https://vertexaisearch.cloud.google.com/id/0-10) [medium](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1) [idatafusion](https://vertexaisearch.cloud.google.com/id/0-16).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "18e5521d-b046-4b47-b279-9c79a5eb98cb",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "front-end architecture for marketing analytics applications combining census data, CRM data, and Google Ads/Analytics data",
+      "best javascript libraries for visualizing geo-demographic data combined with customer and advertising data",
+      "data integration techniques for census data, CRM data, and Google Ads/Analytics data in marketing analytics",
+      "What are some specific examples of using AI for real-time user personalization and dynamic UI updates in marketing analytics dashboards, and what are the key technical considerations for implementing these features?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"front-end architecture for marketing analytics applications combining census data, CRM data, and Google Ads/Analytics data\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a synthesis of information on front-end architecture for marketing analytics applications combining census data, CRM data, and Google Ads/Analytics data:\n\n**1. Key UI/UX Considerations for Marketing Analytics Dashboards:**\n\n*   **Prioritize Information Hierarchy:** Use visual hierarchy to highlight key metrics, trends, and alerts. What matters most should be seen first [medium](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Design for the User Role:** Customize dashboards based on user personas and job tasks to reduce noise and increase productivity [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Use Data Visualization Wisely:** Choose the right chart type for the data you're presenting (line charts for trends, bar charts for comparisons, pie charts for breakdowns) and keep it simple [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Implement Clear Navigation:** Ensure that users can easily find the information they need [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Show Real-Time Feedback and States:** Provide updates and feedback to users in real-time [medium](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1). However, real-time updates should feel controlled to avoid overwhelming users [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Optimize for Responsiveness:** Ensure the dashboard works well on different devices [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Keep it Minimal and Actionable:** Focus on clarity, not complexity [medium](https://vertexaisearch.cloud.google.com/id/0-1) [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Enable Customization and Filters:** Allow users to personalize widgets and views [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Ensure Accessibility and Inclusivity:** Make dashboards compatible with screen readers and offer adjustable font sizes and color contrasts [fuselabcreative](https://vertexaisearch.cloud.google.com/id/0-2) [medium](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Make Metrics Actionable:** Connect metrics with actions by including thresholds, indicators, or suggestions based on data trends [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**2. Dashboard Design Trends in 2025:**\n\n*   **Increased Focus on User Experience (UX):** Dashboards are designed with simplicity in mind, minimizing clutter and distractions [fuselabcreative](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Data Storytelling:** Guide users through the data, highlighting key trends and insights [fuselabcreative](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Micro-Interactivity:** Implement interactive elements like \"what-if\" analysis to allow users to engage with data in dynamic ways [fuselabcreative](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**3. Front-End Frameworks and Technologies:**\n\n*   **Popular Frameworks:** React, Angular, and Vue.js are popular choices for building dynamic and interactive user interfaces [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [darwinapps](https://vertexaisearch.cloud.google.com/id/0-4) [prateeksha](https://vertexaisearch.cloud.google.com/id/0-5) [scaletech](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   React's component-based architecture and virtual DOM enable efficient, dynamic UIs [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [darwinapps](https://vertexaisearch.cloud.google.com/id/0-4) [prateeksha](https://vertexaisearch.cloud.google.com/id/0-5) [scaletech](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   Angular, backed by Google, is a robust framework suitable for complex enterprise solutions [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [darwinapps](https://vertexaisearch.cloud.google.com/id/0-4) [scaletech](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   Vue.js is known for its simplicity and flexibility, making it ideal for projects of any size [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [scaletech](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Emerging Frameworks:** Svelte, Solid.js and Qwik are gaining traction [darwinapps](https://vertexaisearch.cloud.google.com/id/0-4) [scaletech](https://vertexaisearch.cloud.google.com/id/0-6) [roadmap](https://vertexaisearch.cloud.google.com/id/0-7) [prateeksha](https://vertexaisearch.cloud.google.com/id/0-5).\n    *   Qwik focuses on instant loading and performance with its resumable architecture [roadmap](https://vertexaisearch.cloud.google.com/id/0-7) [prateeksha](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **JAMstack:** This architecture decouples the front end from the back end, enhancing performance, security, and scalability [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Micro Frontends:** This approach divides large applications into smaller, independently deployable modules [wearebrain](https://vertexaisearch.cloud.google.com/id/0-9) [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **WebAssembly (WASM):** Enables high-performance front-end solutions by allowing code written in languages like C, C++, and Rust to run in the browser [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [wearebrain](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **D3.js:** A powerful library for creating dynamic and interactive data visualizations [prateeksha](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**4. Performance Optimization:**\n\n*   **Prioritize Web Performance:** Optimize front-end elements to ensure swift loading and reduce bounce rates [strapi](https://vertexaisearch.cloud.google.com/id/0-10) [sprints](https://vertexaisearch.cloud.google.com/id/0-8) [owdt](https://vertexaisearch.cloud.google.com/id/0-11) [medium](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Optimize Loading Sequence:** Prioritize critical resources to load above-the-fold content first [medium](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Minimize JavaScript Bundle Size:** Use tree shaking and code splitting [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Use Modern Image Formats:** Employ formats like WebP and AVIF [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Leverage Browser Caching:** Use browser caching to reduce load time on return visits [strapi](https://vertexaisearch.cloud.google.com/id/0-10) [owdt](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Use Content Delivery Networks (CDNs):** Improve website speed by using CDNs [strapi](https://vertexaisearch.cloud.google.com/id/0-10) [medium](https://vertexaisearch.cloud.google.com/id/0-12) [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**5. Data Integration and Management:**\n\n*   **Data Activation Platforms:** Platforms like Census and Integrate.io bridge the gap between data warehouses and operational apps, facilitating the seamless movement and integration of customer data [integrate](https://vertexaisearch.cloud.google.com/id/0-13).\n*   **Reverse ETL:** This approach involves taking data from the data warehouse and syncing it back to various business applications [sacra](https://vertexaisearch.cloud.google.com/id/0-14).\n*   **UTM Tracking:** Ensure proper UTM tracking in Google Ads campaigns to tie back revenue to specific campaigns and keywords [seerinteractive](https://vertexaisearch.cloud.google.com/id/0-15).\n\n**6. Integrating Data Sources:**\n\n*   **CRM and Google Ads Data:** Combining CRM data with Google Ads data provides insights into which keywords or campaigns drive the most qualified leads and revenue [seerinteractive](https://vertexaisearch.cloud.google.com/id/0-15).\n*   **Google Analytics:** This tool provides insights into website traffic, user behavior, and conversions [idatafusion](https://vertexaisearch.cloud.google.com/id/0-16) [google](https://vertexaisearch.cloud.google.com/id/0-17) [octoboard](https://vertexaisearch.cloud.google.com/id/0-18) [google](https://vertexaisearch.cloud.google.com/id/0-19).\n*   **Census:** This platform helps sync audience and segmentation data from a single source to all your ads tools [getcensus](https://vertexaisearch.cloud.google.com/id/0-20).\n\n**7. The Role of AI:**\n\n*   **AI-Driven Tools:** Use tools like GitHub Copilot and ChatGPT for automated coding and bug fixing [sprints](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **AI for Personalization:** Integrate AI for real-time user personalization and dynamic UI updates [sprints](https://vertexaisearch.cloud.google.com/id/0-8) [wearebrain](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Predictive Analytics:** Utilize predictive analytics to enhance front-end user journeys [sprints](https://vertexaisearch.cloud.google.com/id/0-8) [wearebrain](https://vertexaisearch.cloud.google.com/id/0-9).\n\nBy applying these UI/UX strategies, leveraging appropriate front-end technologies, focusing on performance optimization, and implementing effective data integration techniques, developers can create powerful and user-friendly marketing analytics applications that provide valuable insights for data-driven decision-making [unifiedinfotech](https://vertexaisearch.cloud.google.com/id/0-3) [strapi](https://vertexaisearch.cloud.google.com/id/0-10) [medium](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1) [idatafusion](https://vertexaisearch.cloud.google.com/id/0-16).\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"best javascript libraries for visualizing geo-demographic data combined with customer and advertising data\" and synthesize it into a verifiable text artifact.\nData visualization is crucial for transforming raw data into understandable insights, especially in 2025 where data-driven decision-making is essential [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0) [monterail](https://vertexaisearch.cloud.google.com/id/1-1). JavaScript charting libraries are vital tools for creating interactive charts, graphs, and dashboards in web browsers [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0). These libraries use technologies like HTML5 Canvas, SVG, and WebGL to handle complex calculations, rendering, and user interactions [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0).\n\nHere's a synthesis of some of the best JavaScript libraries for visualizing geo-demographic data combined with customer and advertising data:\n\n**General Charting Libraries:**\n\n*   **Chart.js:** A simple, flexible, and widely used library, ideal for those just starting [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0). It offers various chart types, is easy to integrate, and provides customization options [coderpad](https://vertexaisearch.cloud.google.com/id/1-4) [ruleranalytics](https://vertexaisearch.cloud.google.com/id/1-5) [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **D3.js (Data-Driven Documents):** A powerful and highly customizable open-source library for creating dynamic and interactive data visualizations [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6) [ruleranalytics](https://vertexaisearch.cloud.google.com/id/1-5) [dotsquares](https://vertexaisearch.cloud.google.com/id/1-7) [d3js](https://vertexaisearch.cloud.google.com/id/1-8). It allows developers to correlate data with DOM elements, offering greater customization [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6). D3.js is suitable for complex visualizations and custom data representations [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Highcharts:** A feature-rich library that supports real-time updates and offers a wide range of customizable chart types [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6) [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [coderpad](https://vertexaisearch.cloud.google.com/id/1-4) [dotsquares](https://vertexaisearch.cloud.google.com/id/1-7). It is a premium offering with a paid licensing model [dotsquares](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **ECharts:** Known for its excellent rendering efficiency and ability to handle large datasets [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6) [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3). Developed by Baidu, it supports real-time data updates and integrates seamlessly with popular frameworks [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **amCharts:** Well-suited for projects requiring diverse chart types and geographical visualizations [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6) [themeisle](https://vertexaisearch.cloud.google.com/id/1-9). It offers an extensive map collection and customization options, making it ideal for location-based data analysis and demographic studies [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **ApexCharts:** A modern JavaScript charting library with a simple API for creating interactive charts and graphs [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6) [themeisle](https://vertexaisearch.cloud.google.com/id/1-9) [coderpad](https://vertexaisearch.cloud.google.com/id/1-4). It is suitable for developers who prioritize interactive chart designs with minimal setup [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Recharts:** A React-based library that is easy to use and provides simple but fluid animations [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [xenonstack](https://vertexaisearch.cloud.google.com/id/1-10) [monterail](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Mapping Libraries (Geo-Demographic Data):**\n\n*   **Leaflet:** Lightweight and ideal for basic maps [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Mapbox GL JS:** A WebGL-powered library that is highly customizable [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Google Maps JavaScript API:** Well-integrated with location services [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **OpenLayers:** Offers robust mapping with vector and raster layers [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [geoawesome](https://vertexaisearch.cloud.google.com/id/1-11). It is an open-source JavaScript library for displaying map data in web browsers [geoawesome](https://vertexaisearch.cloud.google.com/id/1-11).\n*   **Deck.gl:** A high-performance library for 2D & 3D geospatial data visualization [medium](https://vertexaisearch.cloud.google.com/id/1-2) [dev](https://vertexaisearch.cloud.google.com/id/1-3).\n\n**Considerations for Choosing a Library:**\n\n*   **Specific Requirements:**  Consider the specific types of charts and data that need to be visualized [medium](https://vertexaisearch.cloud.google.com/id/1-12).\n*   **Customization Needs:** Determine the level of customization required for the visualizations [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Data Size and Performance:**  Choose a library that can handle large datasets efficiently [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Integration with Frameworks:**  Ensure the library integrates well with the chosen JavaScript frameworks (e.g., React, Vue) [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0) [geeksforgeeks](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Licensing:**  Consider the licensing model (open-source vs. commercial) and associated costs [dotsquares](https://vertexaisearch.cloud.google.com/id/1-7) [coderpad](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Interactivity:** Look for features like tooltips, zooming, and real-time updates [tomsawyer](https://vertexaisearch.cloud.google.com/id/1-13).\n\nBy carefully evaluating these libraries and their features, developers can select the most appropriate tools for visualizing geo-demographic data combined with customer and advertising data, creating insightful and actionable visualizations [tomsawyer](https://vertexaisearch.cloud.google.com/id/1-13) [usedatabrain](https://vertexaisearch.cloud.google.com/id/1-0).\n",
+      "Okay, I will conduct Google Searches to gather the most recent information on data integration techniques for census data, CRM data, and Google Ads/Analytics data in marketing analytics and synthesize it into a verifiable text artifact.\nData integration is crucial for marketing analytics in 2025, enabling businesses to gain valuable insights from multiple channels [dotanalytics](https://vertexaisearch.cloud.google.com/id/2-0). Effective data integration combines data from various sources into a single, cohesive view, which is essential for understanding customer behavior and optimizing marketing strategies [adriel](https://vertexaisearch.cloud.google.com/id/2-1) [estuary](https://vertexaisearch.cloud.google.com/id/2-2) [decisionfoundry](https://vertexaisearch.cloud.google.com/id/2-3).\n\n**Key Techniques and Strategies:**\n\n*   **Centralized Data Repository:** Creating a single source of truth (SSOT) by consolidating marketing data into a unified platform is essential for reducing fragmentation and inaccuracies [adverity](https://vertexaisearch.cloud.google.com/id/2-4) [dotanalytics](https://vertexaisearch.cloud.google.com/id/2-0). This often involves building a modern data warehouse where data is cleaned, consolidated, and transformed [pentifyinsights](https://vertexaisearch.cloud.google.com/id/2-5). Tools like Google Data Studio or Domo can gather data from various channels, making it easier to access and analyze [dotanalytics](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Data Governance:** Implementing strong data governance practices is crucial for maintaining data accuracy. This includes establishing standardized procedures for data entry, validation, and storage across the organization [adverity](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Automation:** Using automated data integration tools reduces the risk of human error and ensures consistent data collection across platforms like social media, paid ad platforms, and email marketing tools [adverity](https://vertexaisearch.cloud.google.com/id/2-4). Automation helps maintain a single source of truth and ensures data used in decision-making is up to date [adverity](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **API Integration:** API data integration facilitates seamless communication between different digital tools, such as CRMs, e-commerce platforms, and marketing automation systems, enabling real-time data syncing and sharing [estuary](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Real-time Data Integration:** Streaming data integration involves continuously integrating various data streams into data stores and analytics systems in real-time, ensuring the latest data is accessible for analytics and decision-making [estuary](https://vertexaisearch.cloud.google.com/id/2-2) [improvado](https://vertexaisearch.cloud.google.com/id/2-6).\n*   **AI-Powered Tools:** Utilizing AI-powered platforms like Salesforce Einstein or HubSpot can analyze customer sentiments from past interactions and automate reporting [dotanalytics](https://vertexaisearch.cloud.google.com/id/2-0). AI can also be used for predictive analysis to forecast customer behavior and adjust marketing campaigns accordingly [dotanalytics](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Data Transformation:** Transforming data in the source helps ensure cleaner, richer, and faster data across various marketing tools [getcensus](https://vertexaisearch.cloud.google.com/id/2-7). Platforms like Census offer no-code interfaces to transform, segment, and move data, allowing marketers to use the same trusted data models across different platforms [getcensus](https://vertexaisearch.cloud.google.com/id/2-7).\n\n**Integrating Specific Data Types:**\n\n*   **CRM Data:** Integrating CRM data with Google Analytics provides a complete view of the customer journey [promodo](https://vertexaisearch.cloud.google.com/id/2-8). This combination helps track how marketing efforts lead to conversions, understand customer behaviors, and make informed decisions [promodo](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Google Ads/Analytics Data:** Integrating Google Analytics and Facebook Ads data helps determine which Facebook ads bring the most visitors to a website and drive actions like purchases or sign-ups [estuary](https://vertexaisearch.cloud.google.com/id/2-2). This enables better allocation of resources [estuary](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Census Data:** Census data can be used to enrich customer profiles and improve targeted campaigns [getcensus](https://vertexaisearch.cloud.google.com/id/2-7).\n\n**Best Practices for Effective Data Integration:**\n\n*   **Crafting a Solid Data Integration Plan:** An effective strategy outlines the objectives, goals, and methodologies for integrating data from different sources [estuary](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Choosing the Right Tools:** Select tools based on your scale, tech stack, and internal capabilities [pentifyinsights](https://vertexaisearch.cloud.google.com/id/2-5). Options include low-code platforms like Make or Zapier for quick integrations, Workato or Tray.io for more complex logic, and dbt for serious data transformation [pentifyinsights](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Building Rules, Not Just Workflows:** Effective data integration needs business rules to ensure that only relevant data is synced [pentifyinsights](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Ensuring Data Quality:** Implement data cleansing and standardization processes to address inconsistencies, errors, and duplicates in raw marketing data [ossisto](https://vertexaisearch.cloud.google.com/id/2-9).\n*   **Monitoring and Observability:** Implement monitoring and alerting systems to track data pipeline performance and identify potential issues [getcensus](https://vertexaisearch.cloud.google.com/id/2-10).\n\n**Challenges and Solutions:**\n\n*   **Data Quality Issues:** Inaccurate or incomplete data from CRMs can lead to poor insights [promodo](https://vertexaisearch.cloud.google.com/id/2-8). Solutions include implementing data governance practices and using data cleansing tools [adverity](https://vertexaisearch.cloud.google.com/id/2-4) [ossisto](https://vertexaisearch.cloud.google.com/id/2-9).\n*   **Inconsistent Tagging:** Incorrectly set up Google Analytics tags can prevent accurate syncing of CRM data [promodo](https://vertexaisearch.cloud.google.com/id/2-8). Regularly audit and ensure correct tag implementation [dotanalytics](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Complex Integration:** The integration process can be technical and time-consuming [promodo](https://vertexaisearch.cloud.google.com/id/2-8). Consider consulting experts or using user-friendly platforms like Census to simplify the process [getcensus](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Data Privacy and Security:** With growing privacy concerns, ensure strict governance policies, access control, and encryption methods to protect sensitive customer data [ossisto](https://vertexaisearch.cloud.google.com/id/2-9) [improvado](https://vertexaisearch.cloud.google.com/id/2-6).\n\nBy following these techniques and best practices, marketers can leverage data integration to improve decision-making, optimize campaigns, and enhance overall marketing performance in 2025 [ossisto](https://vertexaisearch.cloud.google.com/id/2-9) [estuary](https://vertexaisearch.cloud.google.com/id/2-2).\n",
+      "AI is transforming marketing analytics dashboards by enabling real-time user personalization and dynamic UI updates. Here are specific examples and key technical considerations for implementing these features:\n\n**Specific Examples of AI-Powered Personalization and Dynamic UI Updates:**\n\n*   **Real-time Personalized Interactions:** AI enables brands to deliver personalized interactions in real-time, tailoring experiences to individual behaviors and contexts [5datainc](https://vertexaisearch.cloud.google.com/id/3-0). McKinsey reports that 71% of consumers expect personalized interactions [5datainc](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Dynamic UI Adaptation:** AI-driven dashboards can reorganize themselves by prioritizing frequently accessed features, reducing cognitive load and improving efficiency [datasciencecentral](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Personalized Content Delivery:** AI algorithms predict user intent by analyzing clickstream data and engagement history, enabling platforms to deliver customized recommendations and dynamically adjust homepage content based on real-time interactions [datasciencecentral](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **AI-Driven Product Recommendations:** AI surfaces the most relevant products for each customer based on behavioral data, affinities, and purchase history, injecting these recommendations into email, web, or mobile content blocks automatically [emarsys](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Automated Landing Page Generation:** AI streamlines the creation of personalized landing pages, ensuring relevant content is dynamically tailored to user intent [datasciencecentral](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Dynamic Pricing:** AI systems can set micro-adjustments across thousands of products simultaneously to create personalized pricing opportunities based on customer loyalty, purchase history, and real-time behavior [hockeystack](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **AI-Generated Summaries:** AI can provide summaries of dashboards and answer follow-up questions to drill deeper into the data [hockeystack](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Tailored Dashboards:** AI can tailor dashboards to individual roles and preferences [fuselabcreative](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Predictive Analytics:** AI algorithms can analyze vast amounts of customer data to identify patterns, trends, and insights, enabling targeted marketing strategies [improvado](https://vertexaisearch.cloud.google.com/id/3-5).\n*   **Real-Time Campaign Optimization:** AI can monitor campaign performance, customer engagement, and creative effectiveness instantly, triggering alerts and suggesting adjustments [revvgrowth](https://vertexaisearch.cloud.google.com/id/3-6).\n*   **Personalized Journeys:** AI-powered platforms unify customer identity, preferences, and behaviors across multiple channels, enabling marketers to build journeys that adapt in real-time [emarsys](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **AI-Driven Chatbots:** AI-powered chatbots provide round-the-clock customer engagement [smartosc](https://vertexaisearch.cloud.google.com/id/3-7).\n\n**Key Technical Considerations for Implementation:**\n\n*   **Data Collection and Preprocessing:** AI systems gather data from multiple sources, such as browsing history, demographic details, purchase behavior, and device interactions. This data is then cleaned, structured, and anonymized to ensure privacy compliance [datasciencecentral](https://vertexaisearch.cloud.google.com/id/3-1). Data quality remains a primary technical barrier, with 74% of implementations facing data quality issues [staymodern](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **AI Algorithm Selection:** The choice of algorithms depends on the specific analytical goals, such as predictive modeling, anomaly detection, or natural language processing [fuselabcreative](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Integration with Existing Systems:** AI tools must integrate seamlessly with existing systems like CRM and marketing automation platforms [zerogravitymarketing](https://vertexaisearch.cloud.google.com/id/3-9). Companies may adopt a Customer Data Platform (CDP) to unify fragmented data sources [zerogravitymarketing](https://vertexaisearch.cloud.google.com/id/3-9).\n*   **Real-time Data Processing:** AI personalization tools require real-time processing capabilities to respond instantly to user behavior [zerogravitymarketing](https://vertexaisearch.cloud.google.com/id/3-9).\n*   **Explainable AI (XAI):** Implementing XAI offers transparent insights into how AI models arrive at specific answers/outcomes [fuselabcreative](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Data Security and Privacy:** Data must be anonymized to ensure privacy compliance [datasciencecentral](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Team Collaboration:** Effective AI solutions require close collaboration between marketing, data science, and IT departments [improvado](https://vertexaisearch.cloud.google.com/id/3-5).\n*   **Monitoring and Refinement:** Personalization isn't \"set it and forget it.\" Real-time audience dashboards reveal which segments, messages, or channels generate the most revenue, allowing for continuous improvement through data-backed decisions [emarsys](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Clear Communication and Success Criteria:** Establish clear communication channels and success criteria for vendor relationship management [staymodern](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **Matching AI Capabilities with Business Needs:** Align AI capabilities with business needs rather than pursuing advanced features without clear use cases [staymodern](https://vertexaisearch.cloud.google.com/id/3-8).\n\nSeveral platforms offer AI-driven marketing analytics tools, including HubSpot Marketing Hub, Google Analytics 4 (GA4), Salesforce Marketing Cloud, Adobe Marketo Measure, Optimove, and HockeyStack [cometly](https://vertexaisearch.cloud.google.com/id/3-10) [hockeystack](https://vertexaisearch.cloud.google.com/id/3-3). These tools provide features like predictive analytics, automated reporting, and personalized recommendations [hockeystack](https://vertexaisearch.cloud.google.com/id/3-3).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHcqpY5gIasD6yGbbdc7h1sUZpKyqvtBTGtSfSMRI-CNim7W2eqBtanjK0eJOFBgw97P1pe6Dp3suWUwtZmg8D0NWhjAMa0Zr3i66ezQmpcUThMdjLycrpYX95Qg1qbe4V5g3OzTfu6h_eyeguyMx8lrY_AjGZKpe8PiXnEKMg6wx0SEn5axSaxwtrg5AwRMOOhaVetW8ZipEKHmTz26gxk8Um2Q="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHcqpY5gIasD6yGbbdc7h1sUZpKyqvtBTGtSfSMRI-CNim7W2eqBtanjK0eJOFBgw97P1pe6Dp3suWUwtZmg8D0NWhjAMa0Zr3i66ezQmpcUThMdjLycrpYX95Qg1qbe4V5g3OzTfu6h_eyeguyMx8lrY_AjGZKpe8PiXnEKMg6wx0SEn5axSaxwtrg5AwRMOOhaVetW8ZipEKHmTz26gxk8Um2Q="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHcqpY5gIasD6yGbbdc7h1sUZpKyqvtBTGtSfSMRI-CNim7W2eqBtanjK0eJOFBgw97P1pe6Dp3suWUwtZmg8D0NWhjAMa0Zr3i66ezQmpcUThMdjLycrpYX95Qg1qbe4V5g3OzTfu6h_eyeguyMx8lrY_AjGZKpe8PiXnEKMg6wx0SEn5axSaxwtrg5AwRMOOhaVetW8ZipEKHmTz26gxk8Um2Q="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHcqpY5gIasD6yGbbdc7h1sUZpKyqvtBTGtSfSMRI-CNim7W2eqBtanjK0eJOFBgw97P1pe6Dp3suWUwtZmg8D0NWhjAMa0Zr3i66ezQmpcUThMdjLycrpYX95Qg1qbe4V5g3OzTfu6h_eyeguyMx8lrY_AjGZKpe8PiXnEKMg6wx0SEn5axSaxwtrg5AwRMOOhaVetW8ZipEKHmTz26gxk8Um2Q="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "fuselabcreative",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEODnepQpWxjiJp2BPIYnEhmhhieXnHGPdhYnT3aygajZ9xvLYqqbh5nF_cb7EcqtJU2sxa3N40eUR7T_djrs2ka3wLY6a4gLeUEGQQZGr-wDbDg5z43MQo8_zhLPxcvwgyXu785xvqbU9Umfo4lVaPD-jw-zSIz3Q="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHcqpY5gIasD6yGbbdc7h1sUZpKyqvtBTGtSfSMRI-CNim7W2eqBtanjK0eJOFBgw97P1pe6Dp3suWUwtZmg8D0NWhjAMa0Zr3i66ezQmpcUThMdjLycrpYX95Qg1qbe4V5g3OzTfu6h_eyeguyMx8lrY_AjGZKpe8PiXnEKMg6wx0SEn5axSaxwtrg5AwRMOOhaVetW8ZipEKHmTz26gxk8Um2Q="
+      },
+      {
+        "label": "fuselabcreative",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEODnepQpWxjiJp2BPIYnEhmhhieXnHGPdhYnT3aygajZ9xvLYqqbh5nF_cb7EcqtJU2sxa3N40eUR7T_djrs2ka3wLY6a4gLeUEGQQZGr-wDbDg5z43MQo8_zhLPxcvwgyXu785xvqbU9Umfo4lVaPD-jw-zSIz3Q="
+      },
+      {
+        "label": "fuselabcreative",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEODnepQpWxjiJp2BPIYnEhmhhieXnHGPdhYnT3aygajZ9xvLYqqbh5nF_cb7EcqtJU2sxa3N40eUR7T_djrs2ka3wLY6a4gLeUEGQQZGr-wDbDg5z43MQo8_zhLPxcvwgyXu785xvqbU9Umfo4lVaPD-jw-zSIz3Q="
+      },
+      {
+        "label": "fuselabcreative",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEODnepQpWxjiJp2BPIYnEhmhhieXnHGPdhYnT3aygajZ9xvLYqqbh5nF_cb7EcqtJU2sxa3N40eUR7T_djrs2ka3wLY6a4gLeUEGQQZGr-wDbDg5z43MQo8_zhLPxcvwgyXu785xvqbU9Umfo4lVaPD-jw-zSIz3Q="
+      },
+      {
+        "label": "unifiedinfotech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGzF4ZBzlgOpo_2eK-TTsa4n9MdZMlRfx9CiOvVZCvNHiG-MQiNRBaKrDd7RJUHXyQnOYO5StTUG9trEIKRvbCX0YnPN_UH-0wA_Yg3gw7HDeZIzlATIEXx55CGjP_JX7GsAZtcU7irG4edJOKzDMRtVyGBqh1hgvAXpbTSnWvCUFFaAEfZzNILQ7nY2S4KteT8NllUUVNVjpnRggt9jrqKY="
+      },
+      {
+        "label": "darwinapps",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdWQWu06FxiIWOJTFjuhXs8HF_WHnGx4XQPfEsYBojboFZO2_O8J8Vb_8vB47socina4K4K8FF8Tdpt1dvoyhMXMdRPLgn-upZ0Mt9FZ6T9PZae_ONNtZXiWQnwCLsAvWDwKzL6BmoGhBgPc7YMRmO-RW5JzBTkBxHsTH-1PtxSJG6OanaKVPDFy_tzA=="
+      },
+      {
+        "label": "prateeksha",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpCxkIwbyyVJ7uMZVYQIaZbQrvrHo7Os_ZO9F9zSant4jTXljPiw_3OdwgXXP0BdenFWRgZzuTlXFDJWxtrAKT5oijgBZhCC1_1DHBWtNeT0gJsGH8x29PaH8kE_IhZm9SsFOgVkSEjwa3KQMbFkD58OtKfoKE_a1oK0cfVo8giW9ERNdZ9BM="
+      },
+      {
+        "label": "scaletech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFM3iC7weekeiU-gjD8nqLqL_956n0TxqIhDEdEBNza9gnCQzFf6fqQtNngqHUf2oFzF9Oo9-zQnum-ayMUPKkQj-szaYCJ05iYAJUlPfb8_GqeYz2xBzId2QbmJTV-gaIfQ6gAwbwdrFN6zmzCnfDuxZnujCVS58R_TAb"
+      },
+      {
+        "label": "unifiedinfotech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGzF4ZBzlgOpo_2eK-TTsa4n9MdZMlRfx9CiOvVZCvNHiG-MQiNRBaKrDd7RJUHXyQnOYO5StTUG9trEIKRvbCX0YnPN_UH-0wA_Yg3gw7HDeZIzlATIEXx55CGjP_JX7GsAZtcU7irG4edJOKzDMRtVyGBqh1hgvAXpbTSnWvCUFFaAEfZzNILQ7nY2S4KteT8NllUUVNVjpnRggt9jrqKY="
+      },
+      {
+        "label": "darwinapps",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdWQWu06FxiIWOJTFjuhXs8HF_WHnGx4XQPfEsYBojboFZO2_O8J8Vb_8vB47socina4K4K8FF8Tdpt1dvoyhMXMdRPLgn-upZ0Mt9FZ6T9PZae_ONNtZXiWQnwCLsAvWDwKzL6BmoGhBgPc7YMRmO-RW5JzBTkBxHsTH-1PtxSJG6OanaKVPDFy_tzA=="
+      },
+      {
+        "label": "prateeksha",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpCxkIwbyyVJ7uMZVYQIaZbQrvrHo7Os_ZO9F9zSant4jTXljPiw_3OdwgXXP0BdenFWRgZzuTlXFDJWxtrAKT5oijgBZhCC1_1DHBWtNeT0gJsGH8x29PaH8kE_IhZm9SsFOgVkSEjwa3KQMbFkD58OtKfoKE_a1oK0cfVo8giW9ERNdZ9BM="
+      },
+      {
+        "label": "scaletech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFM3iC7weekeiU-gjD8nqLqL_956n0TxqIhDEdEBNza9gnCQzFf6fqQtNngqHUf2oFzF9Oo9-zQnum-ayMUPKkQj-szaYCJ05iYAJUlPfb8_GqeYz2xBzId2QbmJTV-gaIfQ6gAwbwdrFN6zmzCnfDuxZnujCVS58R_TAb"
+      },
+      {
+        "label": "unifiedinfotech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGzF4ZBzlgOpo_2eK-TTsa4n9MdZMlRfx9CiOvVZCvNHiG-MQiNRBaKrDd7RJUHXyQnOYO5StTUG9trEIKRvbCX0YnPN_UH-0wA_Yg3gw7HDeZIzlATIEXx55CGjP_JX7GsAZtcU7irG4edJOKzDMRtVyGBqh1hgvAXpbTSnWvCUFFaAEfZzNILQ7nY2S4KteT8NllUUVNVjpnRggt9jrqKY="
+      },
+      {
+        "label": "darwinapps",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdWQWu06FxiIWOJTFjuhXs8HF_WHnGx4XQPfEsYBojboFZO2_O8J8Vb_8vB47socina4K4K8FF8Tdpt1dvoyhMXMdRPLgn-upZ0Mt9FZ6T9PZae_ONNtZXiWQnwCLsAvWDwKzL6BmoGhBgPc7YMRmO-RW5JzBTkBxHsTH-1PtxSJG6OanaKVPDFy_tzA=="
+      },
+      {
+        "label": "scaletech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFM3iC7weekeiU-gjD8nqLqL_956n0TxqIhDEdEBNza9gnCQzFf6fqQtNngqHUf2oFzF9Oo9-zQnum-ayMUPKkQj-szaYCJ05iYAJUlPfb8_GqeYz2xBzId2QbmJTV-gaIfQ6gAwbwdrFN6zmzCnfDuxZnujCVS58R_TAb"
+      },
+      {
+        "label": "unifiedinfotech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGzF4ZBzlgOpo_2eK-TTsa4n9MdZMlRfx9CiOvVZCvNHiG-MQiNRBaKrDd7RJUHXyQnOYO5StTUG9trEIKRvbCX0YnPN_UH-0wA_Yg3gw7HDeZIzlATIEXx55CGjP_JX7GsAZtcU7irG4edJOKzDMRtVyGBqh1hgvAXpbTSnWvCUFFaAEfZzNILQ7nY2S4KteT8NllUUVNVjpnRggt9jrqKY="
+      },
+      {
+        "label": "scaletech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFM3iC7weekeiU-gjD8nqLqL_956n0TxqIhDEdEBNza9gnCQzFf6fqQtNngqHUf2oFzF9Oo9-zQnum-ayMUPKkQj-szaYCJ05iYAJUlPfb8_GqeYz2xBzId2QbmJTV-gaIfQ6gAwbwdrFN6zmzCnfDuxZnujCVS58R_TAb"
+      },
+      {
+        "label": "darwinapps",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdWQWu06FxiIWOJTFjuhXs8HF_WHnGx4XQPfEsYBojboFZO2_O8J8Vb_8vB47socina4K4K8FF8Tdpt1dvoyhMXMdRPLgn-upZ0Mt9FZ6T9PZae_ONNtZXiWQnwCLsAvWDwKzL6BmoGhBgPc7YMRmO-RW5JzBTkBxHsTH-1PtxSJG6OanaKVPDFy_tzA=="
+      },
+      {
+        "label": "scaletech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFM3iC7weekeiU-gjD8nqLqL_956n0TxqIhDEdEBNza9gnCQzFf6fqQtNngqHUf2oFzF9Oo9-zQnum-ayMUPKkQj-szaYCJ05iYAJUlPfb8_GqeYz2xBzId2QbmJTV-gaIfQ6gAwbwdrFN6zmzCnfDuxZnujCVS58R_TAb"
+      },
+      {
+        "label": "roadmap",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_fX1Mpv_4knL_W0tXlUVZLxwRXKTUmEuDENseop-onhYAjv4X03MFq-Fb55cps1bgftRnzJ18LQeQcsQi6Vqr0q9qzsC_JLROdh-Qv_xwoM9hGVWVRNaOrhCUeGLELNaK"
+      },
+      {
+        "label": "prateeksha",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpCxkIwbyyVJ7uMZVYQIaZbQrvrHo7Os_ZO9F9zSant4jTXljPiw_3OdwgXXP0BdenFWRgZzuTlXFDJWxtrAKT5oijgBZhCC1_1DHBWtNeT0gJsGH8x29PaH8kE_IhZm9SsFOgVkSEjwa3KQMbFkD58OtKfoKE_a1oK0cfVo8giW9ERNdZ9BM="
+      },
+      {
+        "label": "roadmap",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_fX1Mpv_4knL_W0tXlUVZLxwRXKTUmEuDENseop-onhYAjv4X03MFq-Fb55cps1bgftRnzJ18LQeQcsQi6Vqr0q9qzsC_JLROdh-Qv_xwoM9hGVWVRNaOrhCUeGLELNaK"
+      },
+      {
+        "label": "prateeksha",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpCxkIwbyyVJ7uMZVYQIaZbQrvrHo7Os_ZO9F9zSant4jTXljPiw_3OdwgXXP0BdenFWRgZzuTlXFDJWxtrAKT5oijgBZhCC1_1DHBWtNeT0gJsGH8x29PaH8kE_IhZm9SsFOgVkSEjwa3KQMbFkD58OtKfoKE_a1oK0cfVo8giW9ERNdZ9BM="
+      },
+      {
+        "label": "unifiedinfotech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGzF4ZBzlgOpo_2eK-TTsa4n9MdZMlRfx9CiOvVZCvNHiG-MQiNRBaKrDd7RJUHXyQnOYO5StTUG9trEIKRvbCX0YnPN_UH-0wA_Yg3gw7HDeZIzlATIEXx55CGjP_JX7GsAZtcU7irG4edJOKzDMRtVyGBqh1hgvAXpbTSnWvCUFFaAEfZzNILQ7nY2S4KteT8NllUUVNVjpnRggt9jrqKY="
+      },
+      {
+        "label": "sprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrd-mfimDL6DyXsopx6jHp9OOXuQuYVyvEzlL7g77P081p8v91wKleCXCHui0byQqr1zavDC80PGVAx75wLfiRe5oigTzFKU1WCWYt45DBs8hUOZFT4z9q3vJpk3tNukRMBD3YXVCP7-nmLxlR0_DOdsY_hQ=="
+      },
+      {
+        "label": "wearebrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgrukNFFaJ2RIcG9yFx3DuHsAOMmlvhiyOvqySYeuBPnAPMuDVKcyNR9Ddat1aRVQU2xBYmkRl1F4Zah_BADc3in5j1zkywCRkcrZiA5R0S6qMy395NaB3-3ajBzbE7fO-kk9V1aDhCSXoSIk="
+      },
+      {
+        "label": "unifiedinfotech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGzF4ZBzlgOpo_2eK-TTsa4n9MdZMlRfx9CiOvVZCvNHiG-MQiNRBaKrDd7RJUHXyQnOYO5StTUG9trEIKRvbCX0YnPN_UH-0wA_Yg3gw7HDeZIzlATIEXx55CGjP_JX7GsAZtcU7irG4edJOKzDMRtVyGBqh1hgvAXpbTSnWvCUFFaAEfZzNILQ7nY2S4KteT8NllUUVNVjpnRggt9jrqKY="
+      },
+      {
+        "label": "sprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrd-mfimDL6DyXsopx6jHp9OOXuQuYVyvEzlL7g77P081p8v91wKleCXCHui0byQqr1zavDC80PGVAx75wLfiRe5oigTzFKU1WCWYt45DBs8hUOZFT4z9q3vJpk3tNukRMBD3YXVCP7-nmLxlR0_DOdsY_hQ=="
+      },
+      {
+        "label": "unifiedinfotech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGzF4ZBzlgOpo_2eK-TTsa4n9MdZMlRfx9CiOvVZCvNHiG-MQiNRBaKrDd7RJUHXyQnOYO5StTUG9trEIKRvbCX0YnPN_UH-0wA_Yg3gw7HDeZIzlATIEXx55CGjP_JX7GsAZtcU7irG4edJOKzDMRtVyGBqh1hgvAXpbTSnWvCUFFaAEfZzNILQ7nY2S4KteT8NllUUVNVjpnRggt9jrqKY="
+      },
+      {
+        "label": "wearebrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgrukNFFaJ2RIcG9yFx3DuHsAOMmlvhiyOvqySYeuBPnAPMuDVKcyNR9Ddat1aRVQU2xBYmkRl1F4Zah_BADc3in5j1zkywCRkcrZiA5R0S6qMy395NaB3-3ajBzbE7fO-kk9V1aDhCSXoSIk="
+      },
+      {
+        "label": "prateeksha",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpCxkIwbyyVJ7uMZVYQIaZbQrvrHo7Os_ZO9F9zSant4jTXljPiw_3OdwgXXP0BdenFWRgZzuTlXFDJWxtrAKT5oijgBZhCC1_1DHBWtNeT0gJsGH8x29PaH8kE_IhZm9SsFOgVkSEjwa3KQMbFkD58OtKfoKE_a1oK0cfVo8giW9ERNdZ9BM="
+      },
+      {
+        "label": "strapi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpH1s3U9cB3OPZKgNpSGFbGK6HLc2LJdJbjEdaqN67wvlB3gGqkzVRncCVE3jcR7fe-5iEvFwsyiycpLVqHjyJMVebN4VBDxNrlBlKKGjS-N5wCyw2QZqwU7ZQ0WImkr5tXYowmri4gbZamExYW7q3aKkh6v9oIcEa"
+      },
+      {
+        "label": "sprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrd-mfimDL6DyXsopx6jHp9OOXuQuYVyvEzlL7g77P081p8v91wKleCXCHui0byQqr1zavDC80PGVAx75wLfiRe5oigTzFKU1WCWYt45DBs8hUOZFT4z9q3vJpk3tNukRMBD3YXVCP7-nmLxlR0_DOdsY_hQ=="
+      },
+      {
+        "label": "owdt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4NFrYwl1PwLHlYvOU4iSLsxWrFQT4kpKCmGGw6MJTpOcC637EjcWcaXYqG9ISA_l3Q6dgqwdYnxxJ8new0pbFkVYItJG1fD36ngF9u0ufJjp7zS0XPaF81AyEkkfXyU7cXNJNTe0LIuO6h2JN4eHoklO2SJPfS0o8-w3ntO4QGkxTpjiD"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUC2DJxRWD5bnCwiY9Hztj4v4H-lezpX8Ly2M8h7j9WWwZIy-SAjYO3DE9JxJvRPN0uqp7WoHs2g_Uy6IMtw_pneTC08MAQ0hRn1RwvJ-bv0Y410iYlUF9OkQSlosffr7nHHIsG_LCI5UoL7fkqfD4LsWhRJE2fhHRzlOHp1YfSkYCBBn-22FQFw79_PPyfosu1goxpDKWcOiYQOuUSmTmQw-UPg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUC2DJxRWD5bnCwiY9Hztj4v4H-lezpX8Ly2M8h7j9WWwZIy-SAjYO3DE9JxJvRPN0uqp7WoHs2g_Uy6IMtw_pneTC08MAQ0hRn1RwvJ-bv0Y410iYlUF9OkQSlosffr7nHHIsG_LCI5UoL7fkqfD4LsWhRJE2fhHRzlOHp1YfSkYCBBn-22FQFw79_PPyfosu1goxpDKWcOiYQOuUSmTmQw-UPg=="
+      },
+      {
+        "label": "sprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrd-mfimDL6DyXsopx6jHp9OOXuQuYVyvEzlL7g77P081p8v91wKleCXCHui0byQqr1zavDC80PGVAx75wLfiRe5oigTzFKU1WCWYt45DBs8hUOZFT4z9q3vJpk3tNukRMBD3YXVCP7-nmLxlR0_DOdsY_hQ=="
+      },
+      {
+        "label": "sprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrd-mfimDL6DyXsopx6jHp9OOXuQuYVyvEzlL7g77P081p8v91wKleCXCHui0byQqr1zavDC80PGVAx75wLfiRe5oigTzFKU1WCWYt45DBs8hUOZFT4z9q3vJpk3tNukRMBD3YXVCP7-nmLxlR0_DOdsY_hQ=="
+      },
+      {
+        "label": "strapi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpH1s3U9cB3OPZKgNpSGFbGK6HLc2LJdJbjEdaqN67wvlB3gGqkzVRncCVE3jcR7fe-5iEvFwsyiycpLVqHjyJMVebN4VBDxNrlBlKKGjS-N5wCyw2QZqwU7ZQ0WImkr5tXYowmri4gbZamExYW7q3aKkh6v9oIcEa"
+      },
+      {
+        "label": "owdt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4NFrYwl1PwLHlYvOU4iSLsxWrFQT4kpKCmGGw6MJTpOcC637EjcWcaXYqG9ISA_l3Q6dgqwdYnxxJ8new0pbFkVYItJG1fD36ngF9u0ufJjp7zS0XPaF81AyEkkfXyU7cXNJNTe0LIuO6h2JN4eHoklO2SJPfS0o8-w3ntO4QGkxTpjiD"
+      },
+      {
+        "label": "strapi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpH1s3U9cB3OPZKgNpSGFbGK6HLc2LJdJbjEdaqN67wvlB3gGqkzVRncCVE3jcR7fe-5iEvFwsyiycpLVqHjyJMVebN4VBDxNrlBlKKGjS-N5wCyw2QZqwU7ZQ0WImkr5tXYowmri4gbZamExYW7q3aKkh6v9oIcEa"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUC2DJxRWD5bnCwiY9Hztj4v4H-lezpX8Ly2M8h7j9WWwZIy-SAjYO3DE9JxJvRPN0uqp7WoHs2g_Uy6IMtw_pneTC08MAQ0hRn1RwvJ-bv0Y410iYlUF9OkQSlosffr7nHHIsG_LCI5UoL7fkqfD4LsWhRJE2fhHRzlOHp1YfSkYCBBn-22FQFw79_PPyfosu1goxpDKWcOiYQOuUSmTmQw-UPg=="
+      },
+      {
+        "label": "sprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrd-mfimDL6DyXsopx6jHp9OOXuQuYVyvEzlL7g77P081p8v91wKleCXCHui0byQqr1zavDC80PGVAx75wLfiRe5oigTzFKU1WCWYt45DBs8hUOZFT4z9q3vJpk3tNukRMBD3YXVCP7-nmLxlR0_DOdsY_hQ=="
+      },
+      {
+        "label": "integrate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTiU3Ev3CCOGQjO1rYu1y11dp0I2h55ADYbn_I6sagQeIAcfCi8Jv0T7v3B230vwjgsnaoSeXpRy73kPI7eNS-T4_T_pAP8fy-1rSVT3MyelsJTXsF0lYoANGk9IRYTn0HNwtbcbxMqb-veK-BnPsksC_8QB2iUoRs5SixA9ni2PYD9a2pcQ=="
+      },
+      {
+        "label": "sacra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWFGxdRFuMu7TRMlu1P1UcVnYLVudfeM-3cc8mxhmejPni67p3Ldwc8trLDBnx19WHVv3hCbY8UrwUZTKS_dRB_-QQOxSAszSsUma_stlzJZSJyGMht-nvajCCZIVj7ZX4dJEyLJ98cQqjy55Kw-Vv9YdBMev637EpFw=="
+      },
+      {
+        "label": "seerinteractive",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTIdReBprOGD4VIveT6Ns25xcVCJyYTUnesRplx2BGTKCjVRWlTIQ2B0F7810cpsybUZzzE-nELeUkOq3wAjgIAKyhIWWS624yVHO8LSvMNT8y4-EcK_-KMJ97Dh_vgCMv_KW6-JPpO4R1v0fjVCdU4bLhZeQCyHDWU2l0Ff1sUtOGxS5PaMx502Tiz-dpyEc="
+      },
+      {
+        "label": "seerinteractive",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTIdReBprOGD4VIveT6Ns25xcVCJyYTUnesRplx2BGTKCjVRWlTIQ2B0F7810cpsybUZzzE-nELeUkOq3wAjgIAKyhIWWS624yVHO8LSvMNT8y4-EcK_-KMJ97Dh_vgCMv_KW6-JPpO4R1v0fjVCdU4bLhZeQCyHDWU2l0Ff1sUtOGxS5PaMx502Tiz-dpyEc="
+      },
+      {
+        "label": "idatafusion",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdMHdtHerUuncuzksAd85yoGEV1MjPqx6lugb_jw5j5v7ChR3g9cQyD9a0OE-xrIb8KUJNMAtjafNn6kgbHpNvCk0kxg92DM6_C5B6eAszNuFw1kRGs1LXuG0SK3UOIoQ2hOfGslmSr37b3TC2eVZZ2tGJgnrtvODr2VhQsNvvrHzAJI7nzkaSy0nSWor8LiCtAQ=="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFl-lCJ4oTx9gEB43r_8Dh5fVGqd9AuwTx6B4Z0OctuDjwLeDAVGHwEMc_aZp4PgehpzSWGRGB_DxRBu7tYpoQmGbZOxQjYtWA7LtAgPgUtN27VdON8LAKyDz0ngzDEpLLgDw=="
+      },
+      {
+        "label": "octoboard",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgEJIJxcBfnHzAqewn3dTpjedTLQz9JkY2A9yfT1Lf3MRRvCOX8UPSBezip7scakddJM6doqGzw660FFbrUfDDs7DHMHG1oeTLvqD6EFopwe45-xEdW_vKGEL3T-xRChEmC25qiLgN72SXfVT57AM6nM92wtyaJnkuSSCDAB6vanI0lcJU0rrBjNpawdv14Qg="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIspVeqN2YfcloMTxoC8A7FEYR39jyJmzJKpKP2ZlyIgh92Y8_oK9NH8pVZx_xBXUbrHUsUf5XSYKMrLx_2HoHeB5kCu6sDcPhXJ0D__toGWoX-98YNEFOzm4bwYsodeJHyRbcclDZqz73BpXhZ3w"
+      },
+      {
+        "label": "getcensus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-20",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_uuQ7zVtmfAlcWE-BbtzHocE_L2kBc1K7F5Y3bNvKZAAlNdYLBZRJqsRFnbK-0L7ltnmk_EsJYY4TRhw1glcgg7WzYXxHVEavBAAS7nC0fqDzan6WYDOypbBjqneWrwT438mdmq1sgIwE7J50RHMjeoRK7wXW"
+      },
+      {
+        "label": "sprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrd-mfimDL6DyXsopx6jHp9OOXuQuYVyvEzlL7g77P081p8v91wKleCXCHui0byQqr1zavDC80PGVAx75wLfiRe5oigTzFKU1WCWYt45DBs8hUOZFT4z9q3vJpk3tNukRMBD3YXVCP7-nmLxlR0_DOdsY_hQ=="
+      },
+      {
+        "label": "sprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrd-mfimDL6DyXsopx6jHp9OOXuQuYVyvEzlL7g77P081p8v91wKleCXCHui0byQqr1zavDC80PGVAx75wLfiRe5oigTzFKU1WCWYt45DBs8hUOZFT4z9q3vJpk3tNukRMBD3YXVCP7-nmLxlR0_DOdsY_hQ=="
+      },
+      {
+        "label": "wearebrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgrukNFFaJ2RIcG9yFx3DuHsAOMmlvhiyOvqySYeuBPnAPMuDVKcyNR9Ddat1aRVQU2xBYmkRl1F4Zah_BADc3in5j1zkywCRkcrZiA5R0S6qMy395NaB3-3ajBzbE7fO-kk9V1aDhCSXoSIk="
+      },
+      {
+        "label": "sprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrd-mfimDL6DyXsopx6jHp9OOXuQuYVyvEzlL7g77P081p8v91wKleCXCHui0byQqr1zavDC80PGVAx75wLfiRe5oigTzFKU1WCWYt45DBs8hUOZFT4z9q3vJpk3tNukRMBD3YXVCP7-nmLxlR0_DOdsY_hQ=="
+      },
+      {
+        "label": "wearebrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgrukNFFaJ2RIcG9yFx3DuHsAOMmlvhiyOvqySYeuBPnAPMuDVKcyNR9Ddat1aRVQU2xBYmkRl1F4Zah_BADc3in5j1zkywCRkcrZiA5R0S6qMy395NaB3-3ajBzbE7fO-kk9V1aDhCSXoSIk="
+      },
+      {
+        "label": "unifiedinfotech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNGzF4ZBzlgOpo_2eK-TTsa4n9MdZMlRfx9CiOvVZCvNHiG-MQiNRBaKrDd7RJUHXyQnOYO5StTUG9trEIKRvbCX0YnPN_UH-0wA_Yg3gw7HDeZIzlATIEXx55CGjP_JX7GsAZtcU7irG4edJOKzDMRtVyGBqh1hgvAXpbTSnWvCUFFaAEfZzNILQ7nY2S4KteT8NllUUVNVjpnRggt9jrqKY="
+      },
+      {
+        "label": "strapi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpH1s3U9cB3OPZKgNpSGFbGK6HLc2LJdJbjEdaqN67wvlB3gGqkzVRncCVE3jcR7fe-5iEvFwsyiycpLVqHjyJMVebN4VBDxNrlBlKKGjS-N5wCyw2QZqwU7ZQ0WImkr5tXYowmri4gbZamExYW7q3aKkh6v9oIcEa"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZneNx4Z53qrZ3L_fU22KkcRTAcaLBmyJg0BwREsyxdSGxw3O-HCPgI-_HdiUVP3tgw4rt3EwT8WuuHxtTzfRH-NySURiQo39YfILCtCC5nsuHKijSJPzgxfIhpjh8oHM5V0eaHXAf2Iu9e_wVOA6YaX_FCJ-SpIdw54JelQo03CHSZzOis2UPugJ7KrHv_iJlue-neQelpOvfn38HXPnG4A1IiJrjJcsYGyOHtg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzHcqpY5gIasD6yGbbdc7h1sUZpKyqvtBTGtSfSMRI-CNim7W2eqBtanjK0eJOFBgw97P1pe6Dp3suWUwtZmg8D0NWhjAMa0Zr3i66ezQmpcUThMdjLycrpYX95Qg1qbe4V5g3OzTfu6h_eyeguyMx8lrY_AjGZKpe8PiXnEKMg6wx0SEn5axSaxwtrg5AwRMOOhaVetW8ZipEKHmTz26gxk8Um2Q="
+      },
+      {
+        "label": "idatafusion",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdMHdtHerUuncuzksAd85yoGEV1MjPqx6lugb_jw5j5v7ChR3g9cQyD9a0OE-xrIb8KUJNMAtjafNn6kgbHpNvCk0kxg92DM6_C5B6eAszNuFw1kRGs1LXuG0SK3UOIoQ2hOfGslmSr37b3TC2eVZZ2tGJgnrtvODr2VhQsNvvrHzAJI7nzkaSy0nSWor8LiCtAQ=="
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "monterail",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFZ7hXglaCrpwrNc79Y90seoeyzVcD41ZhK5hkhmLZzgUe9xJWmwI3_xQwR4whSUO-HdnneQLjlUHCXOUBrqC_6vnB7vT9Jboqooscck32ItqQHE__J1OraDb-tzRcMbz8o5EigufAye9aIrJkApbhr2QGQtCFYkcV4UT1BILtuQ=="
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNn8T_DJTV2F-4wrsMvHYAI5FXHN6cVMjFbXmJ4Zwve9HMFee941wc5n6JPGdwcWsQzddf1E0klj8xX8cHKcCXpG0F2VfwcSYo_BQl9-jqkLXA4OdDugbVFYfXhOiIEo559jD_PztMSC9k9RkSfoLqBa82AiE8yim_i9REqWSzvaAPb6-HIOonf6hytOvQD4Sb"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7rFTMR0hu5OD5UQqHR8eHKBSxuTzdA4xF8kfp7aNGjJSAQghmbSkgj5L6zqJrlDIGTPIj7T8n2rZdEafH6JiMcy5_pfl6tg-NJ1-R-3b8KRiERCZTnl66hUtH1PNAr_JAQO3zYvAH5EYhLybZGQmMPnrQHPyeR4QD3Xd20YiKb1hEhKJRJVcfgDUu0g9AwgTKjvS"
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "coderpad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvGwFb1Y9fZeejRtHIGsaQXv7D89TJzRBqvsIbrdV1ZzkM9Lz0-2q1VjA_c1agAwHVjD-AVFlBzq4sOuKGfCKAtTaL1_IevSxxlT94NkEkcioMq0puMfsxZ49zWsvYh_IoBjSriX4BTSiKbqsdcwCR6_F_L47XDAmcgMFkTFtkjsf7SRva"
+      },
+      {
+        "label": "ruleranalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHfcQ1rrltUvgLeNUXIQrtSyb6CPCSSRQutQ_69hJfuZb3G1xodoXcDYKFzLtAYUoaulHv4Qu3ICbAXLvyFiGMnf9wr4mD132jelIcMYbyRG-SgCEQQpz9Gad4m81Rhn6DwNG0_QDZdtJ74tQU6kLb0AZ7Krl9c1xqz28VOD-ld4Q="
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX10ptA4aLqZppBoLVgR77yHEoAZ9FYYXYBA73KFSaSp_WBKwH1vaDGrfyfYiX-0OtZ1OdqIGGUTvwjI3fvim2SmXY8mM_63o80NYxEybd04rNffVFx6c3nGOidrhA-Upjf77tPQwB0Y15N0QDbrJuVBtXH98NAARz6GTH1u87VQJwuqrKuZrijnDhGwW4Hg=="
+      },
+      {
+        "label": "ruleranalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHfcQ1rrltUvgLeNUXIQrtSyb6CPCSSRQutQ_69hJfuZb3G1xodoXcDYKFzLtAYUoaulHv4Qu3ICbAXLvyFiGMnf9wr4mD132jelIcMYbyRG-SgCEQQpz9Gad4m81Rhn6DwNG0_QDZdtJ74tQU6kLb0AZ7Krl9c1xqz28VOD-ld4Q="
+      },
+      {
+        "label": "dotsquares",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpVyAeTSJIp9J4dhp3V3vluI9CBOPUafKvTpv-KobnBN-gtST7v0lLQbNrm6wQkgktINw4FUkvgnWj-f_e0UYE6GcDtcxzEdLOnpEUgydxecBLcjUJXbRzarJ3-nApnxard5tdkuiVmsjh8pmEzsvKIFBeyIa_Ybv851ns9db_2dhm-e8FdLRFJRtCqWMmPzYLLssGVM9U79g="
+      },
+      {
+        "label": "d3js",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHulm8IMGiRBaRFPlzIWh1U8bpvRDuLrGqSeF8E0CvPjcRZ4u3537c6H3bq3q1lmARTJ_PUCwRDdUV2FtSltxO4FOvXITqsfeBgdhI="
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX10ptA4aLqZppBoLVgR77yHEoAZ9FYYXYBA73KFSaSp_WBKwH1vaDGrfyfYiX-0OtZ1OdqIGGUTvwjI3fvim2SmXY8mM_63o80NYxEybd04rNffVFx6c3nGOidrhA-Upjf77tPQwB0Y15N0QDbrJuVBtXH98NAARz6GTH1u87VQJwuqrKuZrijnDhGwW4Hg=="
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX10ptA4aLqZppBoLVgR77yHEoAZ9FYYXYBA73KFSaSp_WBKwH1vaDGrfyfYiX-0OtZ1OdqIGGUTvwjI3fvim2SmXY8mM_63o80NYxEybd04rNffVFx6c3nGOidrhA-Upjf77tPQwB0Y15N0QDbrJuVBtXH98NAARz6GTH1u87VQJwuqrKuZrijnDhGwW4Hg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNn8T_DJTV2F-4wrsMvHYAI5FXHN6cVMjFbXmJ4Zwve9HMFee941wc5n6JPGdwcWsQzddf1E0klj8xX8cHKcCXpG0F2VfwcSYo_BQl9-jqkLXA4OdDugbVFYfXhOiIEo559jD_PztMSC9k9RkSfoLqBa82AiE8yim_i9REqWSzvaAPb6-HIOonf6hytOvQD4Sb"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7rFTMR0hu5OD5UQqHR8eHKBSxuTzdA4xF8kfp7aNGjJSAQghmbSkgj5L6zqJrlDIGTPIj7T8n2rZdEafH6JiMcy5_pfl6tg-NJ1-R-3b8KRiERCZTnl66hUtH1PNAr_JAQO3zYvAH5EYhLybZGQmMPnrQHPyeR4QD3Xd20YiKb1hEhKJRJVcfgDUu0g9AwgTKjvS"
+      },
+      {
+        "label": "coderpad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvGwFb1Y9fZeejRtHIGsaQXv7D89TJzRBqvsIbrdV1ZzkM9Lz0-2q1VjA_c1agAwHVjD-AVFlBzq4sOuKGfCKAtTaL1_IevSxxlT94NkEkcioMq0puMfsxZ49zWsvYh_IoBjSriX4BTSiKbqsdcwCR6_F_L47XDAmcgMFkTFtkjsf7SRva"
+      },
+      {
+        "label": "dotsquares",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpVyAeTSJIp9J4dhp3V3vluI9CBOPUafKvTpv-KobnBN-gtST7v0lLQbNrm6wQkgktINw4FUkvgnWj-f_e0UYE6GcDtcxzEdLOnpEUgydxecBLcjUJXbRzarJ3-nApnxard5tdkuiVmsjh8pmEzsvKIFBeyIa_Ybv851ns9db_2dhm-e8FdLRFJRtCqWMmPzYLLssGVM9U79g="
+      },
+      {
+        "label": "dotsquares",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpVyAeTSJIp9J4dhp3V3vluI9CBOPUafKvTpv-KobnBN-gtST7v0lLQbNrm6wQkgktINw4FUkvgnWj-f_e0UYE6GcDtcxzEdLOnpEUgydxecBLcjUJXbRzarJ3-nApnxard5tdkuiVmsjh8pmEzsvKIFBeyIa_Ybv851ns9db_2dhm-e8FdLRFJRtCqWMmPzYLLssGVM9U79g="
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX10ptA4aLqZppBoLVgR77yHEoAZ9FYYXYBA73KFSaSp_WBKwH1vaDGrfyfYiX-0OtZ1OdqIGGUTvwjI3fvim2SmXY8mM_63o80NYxEybd04rNffVFx6c3nGOidrhA-Upjf77tPQwB0Y15N0QDbrJuVBtXH98NAARz6GTH1u87VQJwuqrKuZrijnDhGwW4Hg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNn8T_DJTV2F-4wrsMvHYAI5FXHN6cVMjFbXmJ4Zwve9HMFee941wc5n6JPGdwcWsQzddf1E0klj8xX8cHKcCXpG0F2VfwcSYo_BQl9-jqkLXA4OdDugbVFYfXhOiIEo559jD_PztMSC9k9RkSfoLqBa82AiE8yim_i9REqWSzvaAPb6-HIOonf6hytOvQD4Sb"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7rFTMR0hu5OD5UQqHR8eHKBSxuTzdA4xF8kfp7aNGjJSAQghmbSkgj5L6zqJrlDIGTPIj7T8n2rZdEafH6JiMcy5_pfl6tg-NJ1-R-3b8KRiERCZTnl66hUtH1PNAr_JAQO3zYvAH5EYhLybZGQmMPnrQHPyeR4QD3Xd20YiKb1hEhKJRJVcfgDUu0g9AwgTKjvS"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX10ptA4aLqZppBoLVgR77yHEoAZ9FYYXYBA73KFSaSp_WBKwH1vaDGrfyfYiX-0OtZ1OdqIGGUTvwjI3fvim2SmXY8mM_63o80NYxEybd04rNffVFx6c3nGOidrhA-Upjf77tPQwB0Y15N0QDbrJuVBtXH98NAARz6GTH1u87VQJwuqrKuZrijnDhGwW4Hg=="
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX10ptA4aLqZppBoLVgR77yHEoAZ9FYYXYBA73KFSaSp_WBKwH1vaDGrfyfYiX-0OtZ1OdqIGGUTvwjI3fvim2SmXY8mM_63o80NYxEybd04rNffVFx6c3nGOidrhA-Upjf77tPQwB0Y15N0QDbrJuVBtXH98NAARz6GTH1u87VQJwuqrKuZrijnDhGwW4Hg=="
+      },
+      {
+        "label": "themeisle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyIXlaiYnAaBPnn9WrMnA8R3UEGm37PtIJfXJA_Vl9G2Z_Nq8AjKPekvmukIk1o8yCf8T0ZufgBWW4xdCHmzp9hxPTH8DL-3tEdr1L-P-TrhUBHZhPSYf3XOaNov2UlBFLnXihNh-JByws7AUXuJVYeORumtBbIF2E3ZYtnhVK_omM"
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX10ptA4aLqZppBoLVgR77yHEoAZ9FYYXYBA73KFSaSp_WBKwH1vaDGrfyfYiX-0OtZ1OdqIGGUTvwjI3fvim2SmXY8mM_63o80NYxEybd04rNffVFx6c3nGOidrhA-Upjf77tPQwB0Y15N0QDbrJuVBtXH98NAARz6GTH1u87VQJwuqrKuZrijnDhGwW4Hg=="
+      },
+      {
+        "label": "themeisle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyIXlaiYnAaBPnn9WrMnA8R3UEGm37PtIJfXJA_Vl9G2Z_Nq8AjKPekvmukIk1o8yCf8T0ZufgBWW4xdCHmzp9hxPTH8DL-3tEdr1L-P-TrhUBHZhPSYf3XOaNov2UlBFLnXihNh-JByws7AUXuJVYeORumtBbIF2E3ZYtnhVK_omM"
+      },
+      {
+        "label": "coderpad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvGwFb1Y9fZeejRtHIGsaQXv7D89TJzRBqvsIbrdV1ZzkM9Lz0-2q1VjA_c1agAwHVjD-AVFlBzq4sOuKGfCKAtTaL1_IevSxxlT94NkEkcioMq0puMfsxZ49zWsvYh_IoBjSriX4BTSiKbqsdcwCR6_F_L47XDAmcgMFkTFtkjsf7SRva"
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNn8T_DJTV2F-4wrsMvHYAI5FXHN6cVMjFbXmJ4Zwve9HMFee941wc5n6JPGdwcWsQzddf1E0klj8xX8cHKcCXpG0F2VfwcSYo_BQl9-jqkLXA4OdDugbVFYfXhOiIEo559jD_PztMSC9k9RkSfoLqBa82AiE8yim_i9REqWSzvaAPb6-HIOonf6hytOvQD4Sb"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7rFTMR0hu5OD5UQqHR8eHKBSxuTzdA4xF8kfp7aNGjJSAQghmbSkgj5L6zqJrlDIGTPIj7T8n2rZdEafH6JiMcy5_pfl6tg-NJ1-R-3b8KRiERCZTnl66hUtH1PNAr_JAQO3zYvAH5EYhLybZGQmMPnrQHPyeR4QD3Xd20YiKb1hEhKJRJVcfgDUu0g9AwgTKjvS"
+      },
+      {
+        "label": "xenonstack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx9bK-qa54c66tmIc8croTuAI4pNJ7GSPTVRUPP29khl-vobSyzQ91nFEf9G2-iO0f_hAhou0kyqBpRXf0jJBefX3FTyoJVGizagnnNTspHLB6-riDjdagbzROiuLHvxsElu445PBcwsQN4F6_ONpBUbGrLBzddEdoq36t"
+      },
+      {
+        "label": "monterail",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFZ7hXglaCrpwrNc79Y90seoeyzVcD41ZhK5hkhmLZzgUe9xJWmwI3_xQwR4whSUO-HdnneQLjlUHCXOUBrqC_6vnB7vT9Jboqooscck32ItqQHE__J1OraDb-tzRcMbz8o5EigufAye9aIrJkApbhr2QGQtCFYkcV4UT1BILtuQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNn8T_DJTV2F-4wrsMvHYAI5FXHN6cVMjFbXmJ4Zwve9HMFee941wc5n6JPGdwcWsQzddf1E0klj8xX8cHKcCXpG0F2VfwcSYo_BQl9-jqkLXA4OdDugbVFYfXhOiIEo559jD_PztMSC9k9RkSfoLqBa82AiE8yim_i9REqWSzvaAPb6-HIOonf6hytOvQD4Sb"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7rFTMR0hu5OD5UQqHR8eHKBSxuTzdA4xF8kfp7aNGjJSAQghmbSkgj5L6zqJrlDIGTPIj7T8n2rZdEafH6JiMcy5_pfl6tg-NJ1-R-3b8KRiERCZTnl66hUtH1PNAr_JAQO3zYvAH5EYhLybZGQmMPnrQHPyeR4QD3Xd20YiKb1hEhKJRJVcfgDUu0g9AwgTKjvS"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNn8T_DJTV2F-4wrsMvHYAI5FXHN6cVMjFbXmJ4Zwve9HMFee941wc5n6JPGdwcWsQzddf1E0klj8xX8cHKcCXpG0F2VfwcSYo_BQl9-jqkLXA4OdDugbVFYfXhOiIEo559jD_PztMSC9k9RkSfoLqBa82AiE8yim_i9REqWSzvaAPb6-HIOonf6hytOvQD4Sb"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7rFTMR0hu5OD5UQqHR8eHKBSxuTzdA4xF8kfp7aNGjJSAQghmbSkgj5L6zqJrlDIGTPIj7T8n2rZdEafH6JiMcy5_pfl6tg-NJ1-R-3b8KRiERCZTnl66hUtH1PNAr_JAQO3zYvAH5EYhLybZGQmMPnrQHPyeR4QD3Xd20YiKb1hEhKJRJVcfgDUu0g9AwgTKjvS"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNn8T_DJTV2F-4wrsMvHYAI5FXHN6cVMjFbXmJ4Zwve9HMFee941wc5n6JPGdwcWsQzddf1E0klj8xX8cHKcCXpG0F2VfwcSYo_BQl9-jqkLXA4OdDugbVFYfXhOiIEo559jD_PztMSC9k9RkSfoLqBa82AiE8yim_i9REqWSzvaAPb6-HIOonf6hytOvQD4Sb"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7rFTMR0hu5OD5UQqHR8eHKBSxuTzdA4xF8kfp7aNGjJSAQghmbSkgj5L6zqJrlDIGTPIj7T8n2rZdEafH6JiMcy5_pfl6tg-NJ1-R-3b8KRiERCZTnl66hUtH1PNAr_JAQO3zYvAH5EYhLybZGQmMPnrQHPyeR4QD3Xd20YiKb1hEhKJRJVcfgDUu0g9AwgTKjvS"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNn8T_DJTV2F-4wrsMvHYAI5FXHN6cVMjFbXmJ4Zwve9HMFee941wc5n6JPGdwcWsQzddf1E0klj8xX8cHKcCXpG0F2VfwcSYo_BQl9-jqkLXA4OdDugbVFYfXhOiIEo559jD_PztMSC9k9RkSfoLqBa82AiE8yim_i9REqWSzvaAPb6-HIOonf6hytOvQD4Sb"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7rFTMR0hu5OD5UQqHR8eHKBSxuTzdA4xF8kfp7aNGjJSAQghmbSkgj5L6zqJrlDIGTPIj7T8n2rZdEafH6JiMcy5_pfl6tg-NJ1-R-3b8KRiERCZTnl66hUtH1PNAr_JAQO3zYvAH5EYhLybZGQmMPnrQHPyeR4QD3Xd20YiKb1hEhKJRJVcfgDUu0g9AwgTKjvS"
+      },
+      {
+        "label": "geoawesome",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmLmbRacc1_qOn5ZomhugSzp09LOmklAooA-zZdHRsoXLEym8MITcRrZgRKaupnk0v-HVup4sCyTEHzTRnqZnau8hnnsVrQHHARJGySfUaMc7qwANE8XYUBlkCje-M4FBIoFRYAPF8LY3VyCULp8cn62Ucl_o5rb8aHKxBBktTZIu32FtLZyZUuDAmYtUV1HTA7EvT"
+      },
+      {
+        "label": "geoawesome",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmLmbRacc1_qOn5ZomhugSzp09LOmklAooA-zZdHRsoXLEym8MITcRrZgRKaupnk0v-HVup4sCyTEHzTRnqZnau8hnnsVrQHHARJGySfUaMc7qwANE8XYUBlkCje-M4FBIoFRYAPF8LY3VyCULp8cn62Ucl_o5rb8aHKxBBktTZIu32FtLZyZUuDAmYtUV1HTA7EvT"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNn8T_DJTV2F-4wrsMvHYAI5FXHN6cVMjFbXmJ4Zwve9HMFee941wc5n6JPGdwcWsQzddf1E0klj8xX8cHKcCXpG0F2VfwcSYo_BQl9-jqkLXA4OdDugbVFYfXhOiIEo559jD_PztMSC9k9RkSfoLqBa82AiE8yim_i9REqWSzvaAPb6-HIOonf6hytOvQD4Sb"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK7rFTMR0hu5OD5UQqHR8eHKBSxuTzdA4xF8kfp7aNGjJSAQghmbSkgj5L6zqJrlDIGTPIj7T8n2rZdEafH6JiMcy5_pfl6tg-NJ1-R-3b8KRiERCZTnl66hUtH1PNAr_JAQO3zYvAH5EYhLybZGQmMPnrQHPyeR4QD3Xd20YiKb1hEhKJRJVcfgDUu0g9AwgTKjvS"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF18JtDiNvtCH0pZyQPZRj98WCoXYXA9ckKOg4OJsz0gqgXi9TvDFDOxIpMSVY2YXZFDkBhl4YZUxbhqBuPfzgCrSakVrDlfeK3LiB2gYQObDhtT_0RWIFExw0RuGrdwOT2bSsVwKe0V0ibtDFDB8LRfPNgNAXi7731NwkmMqBP-waDSQWr_I="
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX10ptA4aLqZppBoLVgR77yHEoAZ9FYYXYBA73KFSaSp_WBKwH1vaDGrfyfYiX-0OtZ1OdqIGGUTvwjI3fvim2SmXY8mM_63o80NYxEybd04rNffVFx6c3nGOidrhA-Upjf77tPQwB0Y15N0QDbrJuVBtXH98NAARz6GTH1u87VQJwuqrKuZrijnDhGwW4Hg=="
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "geeksforgeeks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX10ptA4aLqZppBoLVgR77yHEoAZ9FYYXYBA73KFSaSp_WBKwH1vaDGrfyfYiX-0OtZ1OdqIGGUTvwjI3fvim2SmXY8mM_63o80NYxEybd04rNffVFx6c3nGOidrhA-Upjf77tPQwB0Y15N0QDbrJuVBtXH98NAARz6GTH1u87VQJwuqrKuZrijnDhGwW4Hg=="
+      },
+      {
+        "label": "dotsquares",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpVyAeTSJIp9J4dhp3V3vluI9CBOPUafKvTpv-KobnBN-gtST7v0lLQbNrm6wQkgktINw4FUkvgnWj-f_e0UYE6GcDtcxzEdLOnpEUgydxecBLcjUJXbRzarJ3-nApnxard5tdkuiVmsjh8pmEzsvKIFBeyIa_Ybv851ns9db_2dhm-e8FdLRFJRtCqWMmPzYLLssGVM9U79g="
+      },
+      {
+        "label": "coderpad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvGwFb1Y9fZeejRtHIGsaQXv7D89TJzRBqvsIbrdV1ZzkM9Lz0-2q1VjA_c1agAwHVjD-AVFlBzq4sOuKGfCKAtTaL1_IevSxxlT94NkEkcioMq0puMfsxZ49zWsvYh_IoBjSriX4BTSiKbqsdcwCR6_F_L47XDAmcgMFkTFtkjsf7SRva"
+      },
+      {
+        "label": "tomsawyer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJIZ2FfVacDF6KBH6d9He0Dw33iBf2ON5eOu1YgW9uJW_eTbvjJ1PNTcPTo3Iocv9_GBK970C3_Q_VjaS5yRbLkaxtsPWg7gzhjbQN5QaPTQ_oOosuO5Q0BG9OrsHF0Jf5gvMwoRI3k4GGsc0b-0b2zdtb67I="
+      },
+      {
+        "label": "tomsawyer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJIZ2FfVacDF6KBH6d9He0Dw33iBf2ON5eOu1YgW9uJW_eTbvjJ1PNTcPTo3Iocv9_GBK970C3_Q_VjaS5yRbLkaxtsPWg7gzhjbQN5QaPTQ_oOosuO5Q0BG9OrsHF0Jf5gvMwoRI3k4GGsc0b-0b2zdtb67I="
+      },
+      {
+        "label": "usedatabrain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOyXbBxjTUZwEo9eid_zAEt3xWTiESzcu8emxGMb6vnG1vhJqWjp0aehctrzyWst5ED_-tSJQA_gCT_nNLeppSva6VY1IcwYpB-jyP7agrkFWB-nWE9hvSG12F1XracQ_9lHc0sQ9YrN59qu2-0dw-iqIzjkT"
+      },
+      {
+        "label": "dotanalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQeknnEhx4qCXLIWO1k3Aszpn6-nMjcYV-W3_2QcR8axA0pJsR7kffMc0h5q5Ewuem0PzrYt4MydYhHfPF3DRJ4aWqX6L5fXYkH3yoEEot-5sDRaYtbLHIv2_TCsk-LZebqYuPMuIKOcKi7EEV61KN4RFxPi4lCzbjTh4="
+      },
+      {
+        "label": "adriel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhl4CH4OUXmYyGUQ557V8NOMY7EERI5T8n-hpq_2DEeFTxNkIpRMHI__YyB5DfJUfu5x1ivNSdX0LPm9jLz8338wcD83L-Q3bndgJrwfd2Ruo_UsZ8dNmn8mmSij88Mjo62_2cJheg-sweAzTnnnCeppqSVgIbdZjy6clzn854pzeTBrikCUEJg-l9Uj7uRA=="
+      },
+      {
+        "label": "estuary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqCaFPzA-IPGRR3GDkCn9c9_zCGqXTBtbPVKkIliAN7UGN1hgs-ktfp1Ty5X545DO9n_z-UfHRShmEkMLrW98YRIy7zdFl7ybiWSHrByrR6VHb_h28vg4t2sAJXOClkDzB_57A9ZmEE6q5Ui3qV9k="
+      },
+      {
+        "label": "decisionfoundry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9qHVQjRv_zJClS1ye2o8zR3ykfkWYIuc6lq6R2Gg9ffWc4kUQGT0jub4MDSQLZTl1llsIX_8u1JEJMsVZiD37IWzHkHkJsVnveHMKqkHYGkgknxT5Jt7_z3BQKX4K7Shg4Y7MGaph1xKB1F0F29896c6ayV-Cwbvey83FHUUyFI9bozIv7_9NDKKN3TiSPhpkkzm4DgomISMYXuRoVExfwgDM0g=="
+      },
+      {
+        "label": "adverity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG38Z-SVR6J6kbHnD5FettfQhfNnlMOGRxVU1yZUekZ_st-TiSq-owVy8bQZ_oizbekYkbYb1Q9xP-4F3ctCre0ZYXspCxsY-_ILg5ZETA9hznJILYoEopvLyfYVgtnG58rADWvQQW6iBn-gQ5zsyHaa9jTlF2qmiywZvqv1EUo7y8DQ1wt5wOA-ZoFxcRLpoSUa1hjW5SOTk0241604JMZ"
+      },
+      {
+        "label": "dotanalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQeknnEhx4qCXLIWO1k3Aszpn6-nMjcYV-W3_2QcR8axA0pJsR7kffMc0h5q5Ewuem0PzrYt4MydYhHfPF3DRJ4aWqX6L5fXYkH3yoEEot-5sDRaYtbLHIv2_TCsk-LZebqYuPMuIKOcKi7EEV61KN4RFxPi4lCzbjTh4="
+      },
+      {
+        "label": "pentifyinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtFrYf2fGsksdXpDqD7OhbDueExVvNM2YIvF9zubkb6-9Oei0yvrLxRLqR4fWc3JdzXNpLzQhokd1Lf4ATlTlDDj_DNXwxAy77w5hxiNlK9W6gKwsMmYNwNWvGMd7ChDZh_rjazYwHUYDuEmLQwXBSRwCBppPpny5QCsX0BKAVxL5GWV9JgIstVwHEL6MZQgBy38DN7fhiveb0h_orG6NXsyD2LpE4K8g="
+      },
+      {
+        "label": "dotanalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQeknnEhx4qCXLIWO1k3Aszpn6-nMjcYV-W3_2QcR8axA0pJsR7kffMc0h5q5Ewuem0PzrYt4MydYhHfPF3DRJ4aWqX6L5fXYkH3yoEEot-5sDRaYtbLHIv2_TCsk-LZebqYuPMuIKOcKi7EEV61KN4RFxPi4lCzbjTh4="
+      },
+      {
+        "label": "adverity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG38Z-SVR6J6kbHnD5FettfQhfNnlMOGRxVU1yZUekZ_st-TiSq-owVy8bQZ_oizbekYkbYb1Q9xP-4F3ctCre0ZYXspCxsY-_ILg5ZETA9hznJILYoEopvLyfYVgtnG58rADWvQQW6iBn-gQ5zsyHaa9jTlF2qmiywZvqv1EUo7y8DQ1wt5wOA-ZoFxcRLpoSUa1hjW5SOTk0241604JMZ"
+      },
+      {
+        "label": "adverity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG38Z-SVR6J6kbHnD5FettfQhfNnlMOGRxVU1yZUekZ_st-TiSq-owVy8bQZ_oizbekYkbYb1Q9xP-4F3ctCre0ZYXspCxsY-_ILg5ZETA9hznJILYoEopvLyfYVgtnG58rADWvQQW6iBn-gQ5zsyHaa9jTlF2qmiywZvqv1EUo7y8DQ1wt5wOA-ZoFxcRLpoSUa1hjW5SOTk0241604JMZ"
+      },
+      {
+        "label": "adverity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG38Z-SVR6J6kbHnD5FettfQhfNnlMOGRxVU1yZUekZ_st-TiSq-owVy8bQZ_oizbekYkbYb1Q9xP-4F3ctCre0ZYXspCxsY-_ILg5ZETA9hznJILYoEopvLyfYVgtnG58rADWvQQW6iBn-gQ5zsyHaa9jTlF2qmiywZvqv1EUo7y8DQ1wt5wOA-ZoFxcRLpoSUa1hjW5SOTk0241604JMZ"
+      },
+      {
+        "label": "estuary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqCaFPzA-IPGRR3GDkCn9c9_zCGqXTBtbPVKkIliAN7UGN1hgs-ktfp1Ty5X545DO9n_z-UfHRShmEkMLrW98YRIy7zdFl7ybiWSHrByrR6VHb_h28vg4t2sAJXOClkDzB_57A9ZmEE6q5Ui3qV9k="
+      },
+      {
+        "label": "estuary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqCaFPzA-IPGRR3GDkCn9c9_zCGqXTBtbPVKkIliAN7UGN1hgs-ktfp1Ty5X545DO9n_z-UfHRShmEkMLrW98YRIy7zdFl7ybiWSHrByrR6VHb_h28vg4t2sAJXOClkDzB_57A9ZmEE6q5Ui3qV9k="
+      },
+      {
+        "label": "improvado",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4WsrOb46jqPWFhwcqTMG_dY4OJ7GsoEzltOE8RzpLegAUwwT0CBcIh8flVCM56mkSDC6jX_7bl16Mjkqte0mG49uIoo532ZJBZD4yQH4v3nG0FXlO36mqJHmJ7CeVrUyQtAbUZ88QVLVvXjsV45VHiQW"
+      },
+      {
+        "label": "dotanalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQeknnEhx4qCXLIWO1k3Aszpn6-nMjcYV-W3_2QcR8axA0pJsR7kffMc0h5q5Ewuem0PzrYt4MydYhHfPF3DRJ4aWqX6L5fXYkH3yoEEot-5sDRaYtbLHIv2_TCsk-LZebqYuPMuIKOcKi7EEV61KN4RFxPi4lCzbjTh4="
+      },
+      {
+        "label": "dotanalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQeknnEhx4qCXLIWO1k3Aszpn6-nMjcYV-W3_2QcR8axA0pJsR7kffMc0h5q5Ewuem0PzrYt4MydYhHfPF3DRJ4aWqX6L5fXYkH3yoEEot-5sDRaYtbLHIv2_TCsk-LZebqYuPMuIKOcKi7EEV61KN4RFxPi4lCzbjTh4="
+      },
+      {
+        "label": "getcensus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4mT0fkmRPjfJWhPYbLzrdDZe_euGLGbEhLNapwcJDExPFr_oXX6_M4pw_J5H00SHiP6nk0CtRCwhvqLPcSOQ_5QhbZ4yKAQYPhACvIlH4W6dTDlfhY8BuaEQDnUwvdM-ISIGH-BaFsx4xM1GQGSFZrDFhOLXShrABZ1qmxR_5P10p4si3GYSLE497sVPW"
+      },
+      {
+        "label": "getcensus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4mT0fkmRPjfJWhPYbLzrdDZe_euGLGbEhLNapwcJDExPFr_oXX6_M4pw_J5H00SHiP6nk0CtRCwhvqLPcSOQ_5QhbZ4yKAQYPhACvIlH4W6dTDlfhY8BuaEQDnUwvdM-ISIGH-BaFsx4xM1GQGSFZrDFhOLXShrABZ1qmxR_5P10p4si3GYSLE497sVPW"
+      },
+      {
+        "label": "promodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4evgtpnyxSBddQMKBW6k3GcWHY1akm_sQ0gdfKaYH245cMbMljM3b6tqE7M-N8ujkQIuxJ5KdSD0mDVKoYiw3lHkN5VcFqwboMvHulmywjc4RVzQ0htFtu8Kq6KMAomSpkj-Rc34viL-oVCu0hOu92boprWNhmcbJLJV0dATK82fyoW3mS6dTfaF5Uxch6Xnt"
+      },
+      {
+        "label": "promodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4evgtpnyxSBddQMKBW6k3GcWHY1akm_sQ0gdfKaYH245cMbMljM3b6tqE7M-N8ujkQIuxJ5KdSD0mDVKoYiw3lHkN5VcFqwboMvHulmywjc4RVzQ0htFtu8Kq6KMAomSpkj-Rc34viL-oVCu0hOu92boprWNhmcbJLJV0dATK82fyoW3mS6dTfaF5Uxch6Xnt"
+      },
+      {
+        "label": "estuary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqCaFPzA-IPGRR3GDkCn9c9_zCGqXTBtbPVKkIliAN7UGN1hgs-ktfp1Ty5X545DO9n_z-UfHRShmEkMLrW98YRIy7zdFl7ybiWSHrByrR6VHb_h28vg4t2sAJXOClkDzB_57A9ZmEE6q5Ui3qV9k="
+      },
+      {
+        "label": "estuary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqCaFPzA-IPGRR3GDkCn9c9_zCGqXTBtbPVKkIliAN7UGN1hgs-ktfp1Ty5X545DO9n_z-UfHRShmEkMLrW98YRIy7zdFl7ybiWSHrByrR6VHb_h28vg4t2sAJXOClkDzB_57A9ZmEE6q5Ui3qV9k="
+      },
+      {
+        "label": "getcensus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4mT0fkmRPjfJWhPYbLzrdDZe_euGLGbEhLNapwcJDExPFr_oXX6_M4pw_J5H00SHiP6nk0CtRCwhvqLPcSOQ_5QhbZ4yKAQYPhACvIlH4W6dTDlfhY8BuaEQDnUwvdM-ISIGH-BaFsx4xM1GQGSFZrDFhOLXShrABZ1qmxR_5P10p4si3GYSLE497sVPW"
+      },
+      {
+        "label": "estuary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqCaFPzA-IPGRR3GDkCn9c9_zCGqXTBtbPVKkIliAN7UGN1hgs-ktfp1Ty5X545DO9n_z-UfHRShmEkMLrW98YRIy7zdFl7ybiWSHrByrR6VHb_h28vg4t2sAJXOClkDzB_57A9ZmEE6q5Ui3qV9k="
+      },
+      {
+        "label": "pentifyinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtFrYf2fGsksdXpDqD7OhbDueExVvNM2YIvF9zubkb6-9Oei0yvrLxRLqR4fWc3JdzXNpLzQhokd1Lf4ATlTlDDj_DNXwxAy77w5hxiNlK9W6gKwsMmYNwNWvGMd7ChDZh_rjazYwHUYDuEmLQwXBSRwCBppPpny5QCsX0BKAVxL5GWV9JgIstVwHEL6MZQgBy38DN7fhiveb0h_orG6NXsyD2LpE4K8g="
+      },
+      {
+        "label": "pentifyinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtFrYf2fGsksdXpDqD7OhbDueExVvNM2YIvF9zubkb6-9Oei0yvrLxRLqR4fWc3JdzXNpLzQhokd1Lf4ATlTlDDj_DNXwxAy77w5hxiNlK9W6gKwsMmYNwNWvGMd7ChDZh_rjazYwHUYDuEmLQwXBSRwCBppPpny5QCsX0BKAVxL5GWV9JgIstVwHEL6MZQgBy38DN7fhiveb0h_orG6NXsyD2LpE4K8g="
+      },
+      {
+        "label": "pentifyinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtFrYf2fGsksdXpDqD7OhbDueExVvNM2YIvF9zubkb6-9Oei0yvrLxRLqR4fWc3JdzXNpLzQhokd1Lf4ATlTlDDj_DNXwxAy77w5hxiNlK9W6gKwsMmYNwNWvGMd7ChDZh_rjazYwHUYDuEmLQwXBSRwCBppPpny5QCsX0BKAVxL5GWV9JgIstVwHEL6MZQgBy38DN7fhiveb0h_orG6NXsyD2LpE4K8g="
+      },
+      {
+        "label": "ossisto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7RTwli8UntkC2RN6yHt387STHiv3jqKTa18ZMULaXjlDTeB3BRqeey_PhhUuX5MvdNArXN9SJ0NYXBuc1h0RwInTLJ8KCZPzHNOAH16M5JyiA40WVFZHwLKTREJhxC9AKhruK4lK7jsnCU0wW6CE="
+      },
+      {
+        "label": "getcensus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGxDb_YXYWNxjJmIA-F4oI5RCmgkJQ9dibemW_sV7oi071BK26713Sitpjl00TEKmVf-04UErKt2m650P04erTsTe5ACmUhqeINZx2LDSO2cKz6weZ"
+      },
+      {
+        "label": "promodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4evgtpnyxSBddQMKBW6k3GcWHY1akm_sQ0gdfKaYH245cMbMljM3b6tqE7M-N8ujkQIuxJ5KdSD0mDVKoYiw3lHkN5VcFqwboMvHulmywjc4RVzQ0htFtu8Kq6KMAomSpkj-Rc34viL-oVCu0hOu92boprWNhmcbJLJV0dATK82fyoW3mS6dTfaF5Uxch6Xnt"
+      },
+      {
+        "label": "adverity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG38Z-SVR6J6kbHnD5FettfQhfNnlMOGRxVU1yZUekZ_st-TiSq-owVy8bQZ_oizbekYkbYb1Q9xP-4F3ctCre0ZYXspCxsY-_ILg5ZETA9hznJILYoEopvLyfYVgtnG58rADWvQQW6iBn-gQ5zsyHaa9jTlF2qmiywZvqv1EUo7y8DQ1wt5wOA-ZoFxcRLpoSUa1hjW5SOTk0241604JMZ"
+      },
+      {
+        "label": "ossisto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7RTwli8UntkC2RN6yHt387STHiv3jqKTa18ZMULaXjlDTeB3BRqeey_PhhUuX5MvdNArXN9SJ0NYXBuc1h0RwInTLJ8KCZPzHNOAH16M5JyiA40WVFZHwLKTREJhxC9AKhruK4lK7jsnCU0wW6CE="
+      },
+      {
+        "label": "promodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4evgtpnyxSBddQMKBW6k3GcWHY1akm_sQ0gdfKaYH245cMbMljM3b6tqE7M-N8ujkQIuxJ5KdSD0mDVKoYiw3lHkN5VcFqwboMvHulmywjc4RVzQ0htFtu8Kq6KMAomSpkj-Rc34viL-oVCu0hOu92boprWNhmcbJLJV0dATK82fyoW3mS6dTfaF5Uxch6Xnt"
+      },
+      {
+        "label": "dotanalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQeknnEhx4qCXLIWO1k3Aszpn6-nMjcYV-W3_2QcR8axA0pJsR7kffMc0h5q5Ewuem0PzrYt4MydYhHfPF3DRJ4aWqX6L5fXYkH3yoEEot-5sDRaYtbLHIv2_TCsk-LZebqYuPMuIKOcKi7EEV61KN4RFxPi4lCzbjTh4="
+      },
+      {
+        "label": "promodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4evgtpnyxSBddQMKBW6k3GcWHY1akm_sQ0gdfKaYH245cMbMljM3b6tqE7M-N8ujkQIuxJ5KdSD0mDVKoYiw3lHkN5VcFqwboMvHulmywjc4RVzQ0htFtu8Kq6KMAomSpkj-Rc34viL-oVCu0hOu92boprWNhmcbJLJV0dATK82fyoW3mS6dTfaF5Uxch6Xnt"
+      },
+      {
+        "label": "getcensus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4mT0fkmRPjfJWhPYbLzrdDZe_euGLGbEhLNapwcJDExPFr_oXX6_M4pw_J5H00SHiP6nk0CtRCwhvqLPcSOQ_5QhbZ4yKAQYPhACvIlH4W6dTDlfhY8BuaEQDnUwvdM-ISIGH-BaFsx4xM1GQGSFZrDFhOLXShrABZ1qmxR_5P10p4si3GYSLE497sVPW"
+      },
+      {
+        "label": "ossisto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7RTwli8UntkC2RN6yHt387STHiv3jqKTa18ZMULaXjlDTeB3BRqeey_PhhUuX5MvdNArXN9SJ0NYXBuc1h0RwInTLJ8KCZPzHNOAH16M5JyiA40WVFZHwLKTREJhxC9AKhruK4lK7jsnCU0wW6CE="
+      },
+      {
+        "label": "improvado",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc4WsrOb46jqPWFhwcqTMG_dY4OJ7GsoEzltOE8RzpLegAUwwT0CBcIh8flVCM56mkSDC6jX_7bl16Mjkqte0mG49uIoo532ZJBZD4yQH4v3nG0FXlO36mqJHmJ7CeVrUyQtAbUZ88QVLVvXjsV45VHiQW"
+      },
+      {
+        "label": "ossisto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7RTwli8UntkC2RN6yHt387STHiv3jqKTa18ZMULaXjlDTeB3BRqeey_PhhUuX5MvdNArXN9SJ0NYXBuc1h0RwInTLJ8KCZPzHNOAH16M5JyiA40WVFZHwLKTREJhxC9AKhruK4lK7jsnCU0wW6CE="
+      },
+      {
+        "label": "estuary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqCaFPzA-IPGRR3GDkCn9c9_zCGqXTBtbPVKkIliAN7UGN1hgs-ktfp1Ty5X545DO9n_z-UfHRShmEkMLrW98YRIy7zdFl7ybiWSHrByrR6VHb_h28vg4t2sAJXOClkDzB_57A9ZmEE6q5Ui3qV9k="
+      },
+      {
+        "label": "5datainc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF8ULHz_JSNZLxsntk1NF9f0dl997FUUTA4yTRkGmghf51G5302EvrOImpztaBhVeFX-oWwiRsa2gM5hOKd1vT6mkK-MVKI2BUW4E8tGiRXR-vLNRYpn_a9j9mXadtDM33KZxi-tsD4kvvLj-GStbWDNoqM1HGJlAkLMrZgVmVaTD3HO9AVWcRi-prEqG2hf739kDS_kt1YDupgSUGom5RaUnQ0L1Qzg=="
+      },
+      {
+        "label": "5datainc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF8ULHz_JSNZLxsntk1NF9f0dl997FUUTA4yTRkGmghf51G5302EvrOImpztaBhVeFX-oWwiRsa2gM5hOKd1vT6mkK-MVKI2BUW4E8tGiRXR-vLNRYpn_a9j9mXadtDM33KZxi-tsD4kvvLj-GStbWDNoqM1HGJlAkLMrZgVmVaTD3HO9AVWcRi-prEqG2hf739kDS_kt1YDupgSUGom5RaUnQ0L1Qzg=="
+      },
+      {
+        "label": "datasciencecentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY0FIIwPk3pMGH0VnyKq2F_RZNzdPKxoO6TqJr_y_7JQLAyG227apfzPd1fwNhkk_dT3rnBP0KDcNWGSztl2uqPcezvqPO_Di6R42z5m7dY_DDl9XAx0Ht9Q35sexqVNyi_1out6skFyy1cmtzSYiWRumE2iE-9zQ3-p8DKKNFHknmcrzd_IKQJG7nCSrZV0W0wpgu-COOmoiXjPDToOQ3uNo="
+      },
+      {
+        "label": "datasciencecentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY0FIIwPk3pMGH0VnyKq2F_RZNzdPKxoO6TqJr_y_7JQLAyG227apfzPd1fwNhkk_dT3rnBP0KDcNWGSztl2uqPcezvqPO_Di6R42z5m7dY_DDl9XAx0Ht9Q35sexqVNyi_1out6skFyy1cmtzSYiWRumE2iE-9zQ3-p8DKKNFHknmcrzd_IKQJG7nCSrZV0W0wpgu-COOmoiXjPDToOQ3uNo="
+      },
+      {
+        "label": "emarsys",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp4M0TGOR_CiTg6425z8LIW8TLfXH3BPGJsD8SqWcvgM7m1584oVgHNloBFHxOYsYd9JrZYgYfZO_GY7C03iIovpgbAslpAq9r6VDt_Dw4hT_aSr3CRMeC4iQwbU9trW3jF_OyJ3FuH61L58NGwb2KVTRoseoaEzeQsIi4io5NUWc-NPE9sQ=="
+      },
+      {
+        "label": "datasciencecentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY0FIIwPk3pMGH0VnyKq2F_RZNzdPKxoO6TqJr_y_7JQLAyG227apfzPd1fwNhkk_dT3rnBP0KDcNWGSztl2uqPcezvqPO_Di6R42z5m7dY_DDl9XAx0Ht9Q35sexqVNyi_1out6skFyy1cmtzSYiWRumE2iE-9zQ3-p8DKKNFHknmcrzd_IKQJG7nCSrZV0W0wpgu-COOmoiXjPDToOQ3uNo="
+      },
+      {
+        "label": "hockeystack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFos3W9dZE6qK1pHBVn0iZocbAMWikDlE-PI3FGz3cWD0y3DEmV75pMlfWwq0npUrz7A-1LC5CsIi0VGX6gPPsXlDEh8H0Oa8FHcyb46VXiMzjsPaZykrZx29saR7AoYJsyiXNhaYFGaFWwRB4xmw8sBg68BPswYcI="
+      },
+      {
+        "label": "hockeystack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFos3W9dZE6qK1pHBVn0iZocbAMWikDlE-PI3FGz3cWD0y3DEmV75pMlfWwq0npUrz7A-1LC5CsIi0VGX6gPPsXlDEh8H0Oa8FHcyb46VXiMzjsPaZykrZx29saR7AoYJsyiXNhaYFGaFWwRB4xmw8sBg68BPswYcI="
+      },
+      {
+        "label": "fuselabcreative",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpfteHpdWaGsuRpQXWiymylZk__QBgZQyogpusXztt9i9e6_lqXkGl978jRlMIPiBV5y66NfCmcW8OOGMPJMs-E4NHOz5d8An182x1_-fNMUqhUDY7QmJ4mc2XukqTEsdVPiGjVLwJ09TPuEZcMeNbZGloqUptJwPcgKeNUO6E7nOqOzQ-GE="
+      },
+      {
+        "label": "improvado",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwf30ZdEZzB1fuIerGug_WX-dtyWYEDNGo48bBIDgd7b09my9gwfzc7d3jcBu_wDtoF7SDzeQdXuBJB-epPiQLWgmWeSNv7uP3pfET1aVX0FngnrOfwQqkeeN1czJLVmJnKZbkiS5FjBrBwA=="
+      },
+      {
+        "label": "revvgrowth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfIxvWLJF15eOHBhjVpAjVCqLN09ot2jTKDAXQrskRhtg5Xq3NRHgRT1x6z5hEKsreCAzDnmfStjCSDjSbBlC16qCFmLxqIps7upOMDVpFeOkmp032fNd2X7cQnRVNZ36bMHXPYoq99rDZCHw="
+      },
+      {
+        "label": "emarsys",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp4M0TGOR_CiTg6425z8LIW8TLfXH3BPGJsD8SqWcvgM7m1584oVgHNloBFHxOYsYd9JrZYgYfZO_GY7C03iIovpgbAslpAq9r6VDt_Dw4hT_aSr3CRMeC4iQwbU9trW3jF_OyJ3FuH61L58NGwb2KVTRoseoaEzeQsIi4io5NUWc-NPE9sQ=="
+      },
+      {
+        "label": "smartosc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB_UByc1ObBzdeL3RCnTFB0HTsrvbm1lJJBZRFjF98iGubdEu_Ixvk5_vZwUoER8V0zvrxREUALMe0iPbg2vy1-RYp9IC91NZvS7vTi0dZ9UaxVRslBclB0Dqo9aF5MKdyZWNyToad1QCfwhL9NEXdoF5h5D--w2PbhYCC--pIkDJ0Gaj2"
+      },
+      {
+        "label": "datasciencecentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY0FIIwPk3pMGH0VnyKq2F_RZNzdPKxoO6TqJr_y_7JQLAyG227apfzPd1fwNhkk_dT3rnBP0KDcNWGSztl2uqPcezvqPO_Di6R42z5m7dY_DDl9XAx0Ht9Q35sexqVNyi_1out6skFyy1cmtzSYiWRumE2iE-9zQ3-p8DKKNFHknmcrzd_IKQJG7nCSrZV0W0wpgu-COOmoiXjPDToOQ3uNo="
+      },
+      {
+        "label": "staymodern",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpGfVSEd6I6gFR0xydmkEZjue48ZgXXIj_Bf2BOV9tvOz-CXBPX5fQds_KgjKN0EW_vBj4LLehtwVL_n6PTlq141qc0BABh5SlGOIYhkNVMN0r7_EOxlhpNhwBULPQXV65NJ6b-Wu40gtVwSqqmcHew5zVGlmXNQHz8xXI4Pyw3CkjnO5pCg=="
+      },
+      {
+        "label": "fuselabcreative",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpfteHpdWaGsuRpQXWiymylZk__QBgZQyogpusXztt9i9e6_lqXkGl978jRlMIPiBV5y66NfCmcW8OOGMPJMs-E4NHOz5d8An182x1_-fNMUqhUDY7QmJ4mc2XukqTEsdVPiGjVLwJ09TPuEZcMeNbZGloqUptJwPcgKeNUO6E7nOqOzQ-GE="
+      },
+      {
+        "label": "zerogravitymarketing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmUp5FzDFX86nm0nKX3yx7ickLFl4rkLHImWl2_ldANTSaHXaP39iX1IngF7BtWY8_2D-193kOk1s_ztRwdgls9hJhUGQMlcZV1O8aub_vKanRtQTWhuQ6KOS9tGXNDOgc_6YuPPi3o2F_Ub_1qbLMzJ4YMTq-2iBYzU0IadPeiMlnXUVcoTT4zUOoMRDZ6Xr83Q=="
+      },
+      {
+        "label": "zerogravitymarketing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmUp5FzDFX86nm0nKX3yx7ickLFl4rkLHImWl2_ldANTSaHXaP39iX1IngF7BtWY8_2D-193kOk1s_ztRwdgls9hJhUGQMlcZV1O8aub_vKanRtQTWhuQ6KOS9tGXNDOgc_6YuPPi3o2F_Ub_1qbLMzJ4YMTq-2iBYzU0IadPeiMlnXUVcoTT4zUOoMRDZ6Xr83Q=="
+      },
+      {
+        "label": "zerogravitymarketing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmUp5FzDFX86nm0nKX3yx7ickLFl4rkLHImWl2_ldANTSaHXaP39iX1IngF7BtWY8_2D-193kOk1s_ztRwdgls9hJhUGQMlcZV1O8aub_vKanRtQTWhuQ6KOS9tGXNDOgc_6YuPPi3o2F_Ub_1qbLMzJ4YMTq-2iBYzU0IadPeiMlnXUVcoTT4zUOoMRDZ6Xr83Q=="
+      },
+      {
+        "label": "fuselabcreative",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEpfteHpdWaGsuRpQXWiymylZk__QBgZQyogpusXztt9i9e6_lqXkGl978jRlMIPiBV5y66NfCmcW8OOGMPJMs-E4NHOz5d8An182x1_-fNMUqhUDY7QmJ4mc2XukqTEsdVPiGjVLwJ09TPuEZcMeNbZGloqUptJwPcgKeNUO6E7nOqOzQ-GE="
+      },
+      {
+        "label": "datasciencecentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY0FIIwPk3pMGH0VnyKq2F_RZNzdPKxoO6TqJr_y_7JQLAyG227apfzPd1fwNhkk_dT3rnBP0KDcNWGSztl2uqPcezvqPO_Di6R42z5m7dY_DDl9XAx0Ht9Q35sexqVNyi_1out6skFyy1cmtzSYiWRumE2iE-9zQ3-p8DKKNFHknmcrzd_IKQJG7nCSrZV0W0wpgu-COOmoiXjPDToOQ3uNo="
+      },
+      {
+        "label": "improvado",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwf30ZdEZzB1fuIerGug_WX-dtyWYEDNGo48bBIDgd7b09my9gwfzc7d3jcBu_wDtoF7SDzeQdXuBJB-epPiQLWgmWeSNv7uP3pfET1aVX0FngnrOfwQqkeeN1czJLVmJnKZbkiS5FjBrBwA=="
+      },
+      {
+        "label": "emarsys",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp4M0TGOR_CiTg6425z8LIW8TLfXH3BPGJsD8SqWcvgM7m1584oVgHNloBFHxOYsYd9JrZYgYfZO_GY7C03iIovpgbAslpAq9r6VDt_Dw4hT_aSr3CRMeC4iQwbU9trW3jF_OyJ3FuH61L58NGwb2KVTRoseoaEzeQsIi4io5NUWc-NPE9sQ=="
+      },
+      {
+        "label": "staymodern",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpGfVSEd6I6gFR0xydmkEZjue48ZgXXIj_Bf2BOV9tvOz-CXBPX5fQds_KgjKN0EW_vBj4LLehtwVL_n6PTlq141qc0BABh5SlGOIYhkNVMN0r7_EOxlhpNhwBULPQXV65NJ6b-Wu40gtVwSqqmcHew5zVGlmXNQHz8xXI4Pyw3CkjnO5pCg=="
+      },
+      {
+        "label": "staymodern",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpGfVSEd6I6gFR0xydmkEZjue48ZgXXIj_Bf2BOV9tvOz-CXBPX5fQds_KgjKN0EW_vBj4LLehtwVL_n6PTlq141qc0BABh5SlGOIYhkNVMN0r7_EOxlhpNhwBULPQXV65NJ6b-Wu40gtVwSqqmcHew5zVGlmXNQHz8xXI4Pyw3CkjnO5pCg=="
+      },
+      {
+        "label": "cometly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCF5ms2W9i71PgEqcsnYxNaPPJbXYGN910KO72YVb38MJyH9JTrTAbnnxKkhXBUIYmAGXUDUe66Yy46xn2K5En8de_CC7lKctI1Kv0UQQ1PTpkfISPJ1YpmgzszZOf5SQ_LCeDg1PCdVe6s3DyhQrNy5CuWA=="
+      },
+      {
+        "label": "hockeystack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFos3W9dZE6qK1pHBVn0iZocbAMWikDlE-PI3FGz3cWD0y3DEmV75pMlfWwq0npUrz7A-1LC5CsIi0VGX6gPPsXlDEh8H0Oa8FHcyb46VXiMzjsPaZykrZx29saR7AoYJsyiXNhaYFGaFWwRB4xmw8sBg68BPswYcI="
+      },
+      {
+        "label": "hockeystack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFos3W9dZE6qK1pHBVn0iZocbAMWikDlE-PI3FGz3cWD0y3DEmV75pMlfWwq0npUrz7A-1LC5CsIi0VGX6gPPsXlDEh8H0Oa8FHcyb46VXiMzjsPaZykrZx29saR7AoYJsyiXNhaYFGaFWwRB4xmw8sBg68BPswYcI="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "file_name": "state_result_284.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.573271",
+  "data": {
+    "messages": [
+      {
+        "content": "FLIPFLOPsがサンデーうぇぶりに連載しているマンガ『ロードマギアの弟子』を調べて、世界観設定、個々のメインキャラクターの自己紹介文を各々200文字程度にまとめてください",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "386b5d67-406d-43c9-a601-7a39162c8d26",
+        "example": false
+      },
+      {
+        "content": "\"ロードマギアの弟子\" (Lord Magia no Deshi) is a Japanese manga series written and illustrated by FLIPFLOPs, also known for \"Darwin's Game\" [note](https://vertexaisearch.cloud.google.com/id/0-0) [comirano](https://vertexaisearch.cloud.google.com/id/0-1) [cmoa](https://vertexaisearch.cloud.google.com/id/0-2) [shogakukan](https://vertexaisearch.cloud.google.com/id/0-3) [k-manga](https://vertexaisearch.cloud.google.com/id/0-4) [shogakukan](https://vertexaisearch.cloud.google.com/id/0-5) [bookshop-ps](https://vertexaisearch.cloud.google.com/id/0-6) [mechacomic](https://vertexaisearch.cloud.google.com/id/0-7) [bookwalker](https://vertexaisearch.cloud.google.com/id/0-8) [rakuten](https://vertexaisearch.cloud.google.com/id/0-9). Serialized in Sunday Webry [comirano](https://vertexaisearch.cloud.google.com/id/0-1) [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-10) [mechacomic](https://vertexaisearch.cloud.google.com/id/0-7) [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-12) [bookwalker](https://vertexaisearch.cloud.google.com/id/0-8) [shogakukan](https://vertexaisearch.cloud.google.com/id/0-5) [comirano](https://vertexaisearch.cloud.google.com/id/0-1), it is a sword and magic fantasy adventure [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0) [flipflops](https://vertexaisearch.cloud.google.com/id/1-1) that follows Gal, a young mercenary, and Quon, a world-class magician, as they become master and apprentice [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0) [papy](https://vertexaisearch.cloud.google.com/id/1-2). The world contains powerful magicians, and magic and swordsmanship clash in battles [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [cmoa](https://vertexaisearch.cloud.google.com/id/2-2) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1). The story involves knights and magicians, suggesting a conflict between these groups [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1).\n\n**Main Characters:**\n\n*   **Gal:** A young mercenary known as the \"Undying White Wolf\" [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0) [papy](https://vertexaisearch.cloud.google.com/id/1-2). Saved by Quon as a child, he is a skilled swordsman who becomes Quon's apprentice despite his lack of magical ability or interest [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Quon:** A high-ranking magician who saved Gal's life and becomes his master [papy](https://vertexaisearch.cloud.google.com/id/1-2). He is a super high-level magician [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-3) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "62ddfc9b-3d56-4e53-8b74-43598e0affad",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "\"ロードマギアの弟子\" 世界観設定",
+      "\"ロードマギアの弟子\" キャラクター紹介",
+      "What are the specific magic systems, races, nations, and conflicts that define the world of \"ロードマギアの弟子\"? What is the overall power scale and what are the limitations of magic in this world?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"\"ロードマギアの弟子\" 世界観設定\" and synthesize it into a verifiable text artifact.\n\"ロードマギアの弟子\" (Lord Magia no Deshi), is a Japanese manga series written and illustrated by FLIPFLOPs, the same author as \"Darwin's Game\". It is a sword and magic fantasy story about  [note](https://vertexaisearch.cloud.google.com/id/0-0) [comirano](https://vertexaisearch.cloud.google.com/id/0-1) [cmoa](https://vertexaisearch.cloud.google.com/id/0-2) [shogakukan](https://vertexaisearch.cloud.google.com/id/0-3) [k-manga](https://vertexaisearch.cloud.google.com/id/0-4) [shogakukan](https://vertexaisearch.cloud.google.com/id/0-5) [bookshop-ps](https://vertexaisearch.cloud.google.com/id/0-6) [mechacomic](https://vertexaisearch.cloud.google.com/id/0-7) [bookwalker](https://vertexaisearch.cloud.google.com/id/0-8) [rakuten](https://vertexaisearch.cloud.google.com/id/0-9)a young mercenary boy named Gal who was saved by a high-ranking magician named Quon. Gal ends up becoming Quon's apprentice. Alth [comirano](https://vertexaisearch.cloud.google.com/id/0-1) [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-10) [hateblo](https://vertexaisearch.cloud.google.com/id/0-11) [cmoa](https://vertexaisearch.cloud.google.com/id/0-2) [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-12) [mechacomic](https://vertexaisearch.cloud.google.com/id/0-7) [bookwalker](https://vertexaisearch.cloud.google.com/id/0-8) [shogakukan](https://vertexaisearch.cloud.google.com/id/0-5)ough Gal doesn't know or is interested i [cmoa](https://vertexaisearch.cloud.google.com/id/0-2) [bookwalker](https://vertexaisearch.cloud.google.com/id/0-8) [shogakukan](https://vertexaisearch.cloud.google.com/id/0-5) [comirano](https://vertexaisearch.cloud.google.com/id/0-1)n magic, he becomes the apprentice of one of the world's best magicians, and together they weave a sword and magic adventure.\n\nThe story begins with Gal, a mercenary boy, [shogakukan](https://vertexaisearch.cloud.google.com/id/0-5) [comirano](https://vertexaisearch.cloud.google.com/id/0-1) being saved by a magician. He takes on a job from the Knights to subjug [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-10) [mechacomic](https://vertexaisearch.cloud.google.com/id/0-7) [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-12) [cmoa](https://vertexaisearch.cloud.google.com/id/0-2) [bookwalker](https://vertexaisearch.cloud.google.com/id/0-8) [shogakukan](https://vertexaisearch.cloud.google.com/id/0-5) [comirano](https://vertexaisearch.cloud.google.com/id/0-1)ate a magician who stole a magic item. However, on the way to the magician, the Kni [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-10) [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-12)ghts are found by the magician and a battle ensues.\n\nThe manga is published by Shogakukan and se [comirano](https://vertexaisearch.cloud.google.com/id/0-1) [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-10) [mechacomic](https://vertexaisearch.cloud.google.com/id/0-7) [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-12) [bookwalker](https://vertexaisearch.cloud.google.com/id/0-8) [shogakukan](https://vertexaisearch.cloud.google.com/id/0-5)rialized in Sunday Webry.\n [sunday-webry](https://vertexaisearch.cloud.google.com/id/0-10) [note](https://vertexaisearch.cloud.google.com/id/0-0)",
+      "\"ロードマギアの弟子\" (Lord Magia no Deshi) is a Japanese manga series by FLIPFLOPs, the creators of \"Darwin's Game\". It is a sword an [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0) [flipflops](https://vertexaisearch.cloud.google.com/id/1-1)d magic fantasy adventure that follows the story of a mercenary boy and a world-class magician who become master and apprentice. The manga began  [papy](https://vertexaisearch.cloud.google.com/id/1-2) [hateblo](https://vertexaisearch.cloud.google.com/id/1-3) [shogakukan](https://vertexaisearch.cloud.google.com/id/1-4)serialization on the Sunday Webry manga app on June 19, 2024.\n\n**Main Characte [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0)rs:**\n\n*   **ガル (Garu):** A young mercenary who was saved by the archmage Quon as a child. He is a skilled swor [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0) [papy](https://vertexaisearch.cloud.google.com/id/1-2)dsman known as the \"Undying White Wolf\". He ends up becoming  [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0)Quon's apprentice despite not being able to use magic and not having any interest in it.\n*   **クオン (Quon):**  [papy](https://vertexaisearch.cloud.google.com/id/1-2)A high-ranking magician who saved Garu's life. He becomes Garu's master.\n [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0) [papy](https://vertexaisearch.cloud.google.com/id/1-2)\nThe story begins with Gar [papy](https://vertexaisearch.cloud.google.com/id/1-2)u working as a mercenary for a knight order tasked with defeating a magician who stole a magical artifact. The knights encounter the  [hatenablog](https://vertexaisearch.cloud.google.com/id/1-0) [papy](https://vertexaisearch.cloud.google.com/id/1-2) [sunday-webry](https://vertexaisearch.cloud.google.com/id/1-5) [sunday-webry](https://vertexaisearch.cloud.google.com/id/1-6) [sunday-webry](https://vertexaisearch.cloud.google.com/id/1-7) [nicovideo](https://vertexaisearch.cloud.google.com/id/1-8)magician before reaching their destination and are defeated. Garu then becomes Quon's a [papy](https://vertexaisearch.cloud.google.com/id/1-2) [sunday-webry](https://vertexaisearch.cloud.google.com/id/1-5) [sunday-webry](https://vertexaisearch.cloud.google.com/id/1-6) [sunday-webry](https://vertexaisearch.cloud.google.com/id/1-7) [nicovideo](https://vertexaisearch.cloud.google.com/id/1-8)pprentice.\n [papy](https://vertexaisearch.cloud.google.com/id/1-2)",
+      "Based on the search results, here's what can be gathered about \"ロードマギアの弟子\" (Lord Magia no Deshi):\n\n**General Setting and Plot:**\n\n*   \"ロードマギアの弟子\" is a sword and magic adventure fantasy series.\n*   The story involves a young mer [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1) [cmoa](https://vertexaisearch.cloud.google.com/id/2-2)cenary boy named Gal who was saved by a high-ranking magician named Quon.\n*   Gal, despite not being able to [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [cmoa](https://vertexaisearch.cloud.google.com/id/2-2) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1) use magic and not having any interest in it, ends up becoming Quon's apprentice.\n*   The story begins with Gal taki [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [cmoa](https://vertexaisearch.cloud.google.com/id/2-2)ng a job with a knight order to subjugate magicians, but the order is ambushed.\n\n**Magic System:**\n\n*   The world  [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1)contains powerful magicians.\n*   Magic and swordsmanship clash  [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [cmoa](https://vertexaisearch.cloud.google.com/id/2-2) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1)in battles.\n*   Quon is a super high-level mag [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-3) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1)ician.\n*   Gal is taught magic by Quon, s [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [cmoa](https://vertexaisearch.cloud.google.com/id/2-2)tarting with extinguishing fire rather than creating it.\n*   Large-scale magic battles occu [cmoa](https://vertexaisearch.cloud.google.com/id/2-2)r between top-tier magicians.\n\n**Races, Nations, and Conflicts:* [cmoa](https://vertexaisearch.cloud.google.com/id/2-2)*\n\n*   The story involves knights and magicians, suggesting a conflict between these groups.\n*   Gal takes a job with a knight  [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1)order to subjugate magicians.\n [comirano](https://vertexaisearch.cloud.google.com/id/2-0) [sunday-webry](https://vertexaisearch.cloud.google.com/id/2-1)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "note",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqn9hUtad8o8XU4xpwvQLNzY6txhiqThZi936grXLeE9grhkbfGVtEl9aeuMI4re9NhCcyNDaJbvjasIjYE03YUiuddRV7s1LXvLwK5857lbY3L4zkHcZ8XZExLw-NqMTD1w=="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEveLrgJXhkO36nmHdIZ-IRmJ9vkIdiQDx5qxCbgGqu3KrIJG-UeZ9RVqf8FsJxEINMunBLMYHqRYvaScdqmNmNt9fyw3X52PQaJTsKWyyq22FIXYihY4J0wr2tQ4T6-59dbDZWb25HW7hKTHkjYnJ4MuFQKxNfOjeuW55XEkKOO03Xo_DZMVRPLM3XZfmibsu201xZ5mhgmdCzoTT-eEvnScsX8MrBrIhZ3YlERH5v47-jOkSr"
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB6uOfBCoKFoCJaOCEdmjhzWmVuXbu_AwsAPsAxEC0nGNGao3srTq2GGboRTi61wHp5WlXdIAqfBtgxAwPH5lUdelwa9ALTuJuGEh9s0M3o6Uw0obfpikK1sTm"
+      },
+      {
+        "label": "shogakukan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCQatYELRWImW4QUECrOxXp_XLJ4YxkUqYkvbWJHtRcH8tREp9aF9aqGJtqEG1aYW0AYVndvhqWIKG0_I57C-sKcR155E8inmeCtmQLq0heA3pnmprYjBfi6U50WBPM2CEaQpehg=="
+      },
+      {
+        "label": "k-manga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDpifL8C043ByZdliVWkWKJ54b1A0nkbwlGf7f58G1GKQ51V2qzkoAH2Sr1Sk587GnPDjgGhl_72vJ8G0jnUxIawHbnWbCQrUBp5UigTTW4fldKwfEbpULDXQkTOs2sB5Of5NnYw=="
+      },
+      {
+        "label": "shogakukan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL6Dz4WYo9v4Gc8L70QoyNntQinTR3JZIMxmIfb0cKu6_PgAbyN2B1j6ciuFrjUw1xPWDsL0S9MEODVtXG1wGUH6-D5p5QvA_5L6ljy_knn-uAHAZ3MQLCS48U9TQB8s1d_Yo6H9SNu7EqeQ=="
+      },
+      {
+        "label": "bookshop-ps",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_D6BigT35w8mBa_1Mpt6HTRjlxufuY77u5iMcRdTX7fLprou8dnkjkgS-jfS6BR9QS9jTgRmr3PEe0qMXb9q8NxQnGxbc1Ly-Opd-TlueQm8d0N0J3AbW3ggwUJPFf4O3h_Ym2sBHIrD-MdRW6MPBXBpHa5r2qw=="
+      },
+      {
+        "label": "mechacomic",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjCmWpuJjkVAhtTZOOe5BydkiIAC5C6YL28dXRiPJv0ud4SmHDzBY0OGZy-AGyn6wCQ3djyr4Np80mXlfl_fxQ6Z5DsN9-6YvYnucCy-vB6w0QuHIsQqKKL9jDzQ=="
+      },
+      {
+        "label": "bookwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6kzH4BcLEzG4b18NsRnyiGPaOM7HIuGJUsKk1zQsi1cNeYli1o3Sv4UBKlxgJ_AiIv-QgsJqUS3VO7RqTZmHL-BWXXeH_zoI4WkbAcGo4shE7S1c5W9dNLgPKFP89Wkb8787E2GF4yUyyKJBmiMVIzqu8nzA3Lw=="
+      },
+      {
+        "label": "rakuten",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcCQ3c7VBlJbgJZ5Vwr9n3H8ScCeF2btJ-T4Kn0OoXzDFMWBoI6DaRAi4dlARQg5N5YoFQ_7jhMWJftodPyYNnZih_LZqpJI3uosgXjebyaMQPszveed98qxInC-RHGB4wiQ=="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEveLrgJXhkO36nmHdIZ-IRmJ9vkIdiQDx5qxCbgGqu3KrIJG-UeZ9RVqf8FsJxEINMunBLMYHqRYvaScdqmNmNt9fyw3X52PQaJTsKWyyq22FIXYihY4J0wr2tQ4T6-59dbDZWb25HW7hKTHkjYnJ4MuFQKxNfOjeuW55XEkKOO03Xo_DZMVRPLM3XZfmibsu201xZ5mhgmdCzoTT-eEvnScsX8MrBrIhZ3YlERH5v47-jOkSr"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsVfSqtij_Jgj9TbhwsSayz5idOKjvXaKGOF6ntJvUDLNFVaO-bKBcGPpuNBhsFtj-AAnwhlHeoocw2m6ju3kZpHxaoEc6d0woku9T6QgVix2CKAO8rCrzLyxk9eFpKLT6_ufUgPhNB2UjvnrPpDIRieo="
+      },
+      {
+        "label": "hateblo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMkphyAwIAKOo7qtaK0l_X7WZp5kvnuCaVHzmkn9_a9ErwY0nUVdXXcY92-43JnT5MO8giA9MlnqiPkww12XPBXntspemUDte-3uoj4hYRgm0utWcbRszBHmV4JpJDqfPbAlFliY5p01YvE7We6w=="
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB6uOfBCoKFoCJaOCEdmjhzWmVuXbu_AwsAPsAxEC0nGNGao3srTq2GGboRTi61wHp5WlXdIAqfBtgxAwPH5lUdelwa9ALTuJuGEh9s0M3o6Uw0obfpikK1sTm"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM6Qa7z_2VAE-40FDqS2EpW4yMld6GZI6OYcNljHb-VSKiHQHQ1xt_NzruVKY2eAUz3amuAIMts876EGpx6l-HWFSglaJ96jS-xzluSmQMK_PVBEmixiUaQ9CGd2SRqd0VKQri1p_iDHYDMD-Un-DOzeQ="
+      },
+      {
+        "label": "mechacomic",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjCmWpuJjkVAhtTZOOe5BydkiIAC5C6YL28dXRiPJv0ud4SmHDzBY0OGZy-AGyn6wCQ3djyr4Np80mXlfl_fxQ6Z5DsN9-6YvYnucCy-vB6w0QuHIsQqKKL9jDzQ=="
+      },
+      {
+        "label": "bookwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6kzH4BcLEzG4b18NsRnyiGPaOM7HIuGJUsKk1zQsi1cNeYli1o3Sv4UBKlxgJ_AiIv-QgsJqUS3VO7RqTZmHL-BWXXeH_zoI4WkbAcGo4shE7S1c5W9dNLgPKFP89Wkb8787E2GF4yUyyKJBmiMVIzqu8nzA3Lw=="
+      },
+      {
+        "label": "shogakukan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL6Dz4WYo9v4Gc8L70QoyNntQinTR3JZIMxmIfb0cKu6_PgAbyN2B1j6ciuFrjUw1xPWDsL0S9MEODVtXG1wGUH6-D5p5QvA_5L6ljy_knn-uAHAZ3MQLCS48U9TQB8s1d_Yo6H9SNu7EqeQ=="
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB6uOfBCoKFoCJaOCEdmjhzWmVuXbu_AwsAPsAxEC0nGNGao3srTq2GGboRTi61wHp5WlXdIAqfBtgxAwPH5lUdelwa9ALTuJuGEh9s0M3o6Uw0obfpikK1sTm"
+      },
+      {
+        "label": "bookwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6kzH4BcLEzG4b18NsRnyiGPaOM7HIuGJUsKk1zQsi1cNeYli1o3Sv4UBKlxgJ_AiIv-QgsJqUS3VO7RqTZmHL-BWXXeH_zoI4WkbAcGo4shE7S1c5W9dNLgPKFP89Wkb8787E2GF4yUyyKJBmiMVIzqu8nzA3Lw=="
+      },
+      {
+        "label": "shogakukan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL6Dz4WYo9v4Gc8L70QoyNntQinTR3JZIMxmIfb0cKu6_PgAbyN2B1j6ciuFrjUw1xPWDsL0S9MEODVtXG1wGUH6-D5p5QvA_5L6ljy_knn-uAHAZ3MQLCS48U9TQB8s1d_Yo6H9SNu7EqeQ=="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEveLrgJXhkO36nmHdIZ-IRmJ9vkIdiQDx5qxCbgGqu3KrIJG-UeZ9RVqf8FsJxEINMunBLMYHqRYvaScdqmNmNt9fyw3X52PQaJTsKWyyq22FIXYihY4J0wr2tQ4T6-59dbDZWb25HW7hKTHkjYnJ4MuFQKxNfOjeuW55XEkKOO03Xo_DZMVRPLM3XZfmibsu201xZ5mhgmdCzoTT-eEvnScsX8MrBrIhZ3YlERH5v47-jOkSr"
+      },
+      {
+        "label": "shogakukan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL6Dz4WYo9v4Gc8L70QoyNntQinTR3JZIMxmIfb0cKu6_PgAbyN2B1j6ciuFrjUw1xPWDsL0S9MEODVtXG1wGUH6-D5p5QvA_5L6ljy_knn-uAHAZ3MQLCS48U9TQB8s1d_Yo6H9SNu7EqeQ=="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEveLrgJXhkO36nmHdIZ-IRmJ9vkIdiQDx5qxCbgGqu3KrIJG-UeZ9RVqf8FsJxEINMunBLMYHqRYvaScdqmNmNt9fyw3X52PQaJTsKWyyq22FIXYihY4J0wr2tQ4T6-59dbDZWb25HW7hKTHkjYnJ4MuFQKxNfOjeuW55XEkKOO03Xo_DZMVRPLM3XZfmibsu201xZ5mhgmdCzoTT-eEvnScsX8MrBrIhZ3YlERH5v47-jOkSr"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsVfSqtij_Jgj9TbhwsSayz5idOKjvXaKGOF6ntJvUDLNFVaO-bKBcGPpuNBhsFtj-AAnwhlHeoocw2m6ju3kZpHxaoEc6d0woku9T6QgVix2CKAO8rCrzLyxk9eFpKLT6_ufUgPhNB2UjvnrPpDIRieo="
+      },
+      {
+        "label": "mechacomic",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjCmWpuJjkVAhtTZOOe5BydkiIAC5C6YL28dXRiPJv0ud4SmHDzBY0OGZy-AGyn6wCQ3djyr4Np80mXlfl_fxQ6Z5DsN9-6YvYnucCy-vB6w0QuHIsQqKKL9jDzQ=="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM6Qa7z_2VAE-40FDqS2EpW4yMld6GZI6OYcNljHb-VSKiHQHQ1xt_NzruVKY2eAUz3amuAIMts876EGpx6l-HWFSglaJ96jS-xzluSmQMK_PVBEmixiUaQ9CGd2SRqd0VKQri1p_iDHYDMD-Un-DOzeQ="
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB6uOfBCoKFoCJaOCEdmjhzWmVuXbu_AwsAPsAxEC0nGNGao3srTq2GGboRTi61wHp5WlXdIAqfBtgxAwPH5lUdelwa9ALTuJuGEh9s0M3o6Uw0obfpikK1sTm"
+      },
+      {
+        "label": "bookwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6kzH4BcLEzG4b18NsRnyiGPaOM7HIuGJUsKk1zQsi1cNeYli1o3Sv4UBKlxgJ_AiIv-QgsJqUS3VO7RqTZmHL-BWXXeH_zoI4WkbAcGo4shE7S1c5W9dNLgPKFP89Wkb8787E2GF4yUyyKJBmiMVIzqu8nzA3Lw=="
+      },
+      {
+        "label": "shogakukan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL6Dz4WYo9v4Gc8L70QoyNntQinTR3JZIMxmIfb0cKu6_PgAbyN2B1j6ciuFrjUw1xPWDsL0S9MEODVtXG1wGUH6-D5p5QvA_5L6ljy_knn-uAHAZ3MQLCS48U9TQB8s1d_Yo6H9SNu7EqeQ=="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEveLrgJXhkO36nmHdIZ-IRmJ9vkIdiQDx5qxCbgGqu3KrIJG-UeZ9RVqf8FsJxEINMunBLMYHqRYvaScdqmNmNt9fyw3X52PQaJTsKWyyq22FIXYihY4J0wr2tQ4T6-59dbDZWb25HW7hKTHkjYnJ4MuFQKxNfOjeuW55XEkKOO03Xo_DZMVRPLM3XZfmibsu201xZ5mhgmdCzoTT-eEvnScsX8MrBrIhZ3YlERH5v47-jOkSr"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsVfSqtij_Jgj9TbhwsSayz5idOKjvXaKGOF6ntJvUDLNFVaO-bKBcGPpuNBhsFtj-AAnwhlHeoocw2m6ju3kZpHxaoEc6d0woku9T6QgVix2CKAO8rCrzLyxk9eFpKLT6_ufUgPhNB2UjvnrPpDIRieo="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM6Qa7z_2VAE-40FDqS2EpW4yMld6GZI6OYcNljHb-VSKiHQHQ1xt_NzruVKY2eAUz3amuAIMts876EGpx6l-HWFSglaJ96jS-xzluSmQMK_PVBEmixiUaQ9CGd2SRqd0VKQri1p_iDHYDMD-Un-DOzeQ="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEveLrgJXhkO36nmHdIZ-IRmJ9vkIdiQDx5qxCbgGqu3KrIJG-UeZ9RVqf8FsJxEINMunBLMYHqRYvaScdqmNmNt9fyw3X52PQaJTsKWyyq22FIXYihY4J0wr2tQ4T6-59dbDZWb25HW7hKTHkjYnJ4MuFQKxNfOjeuW55XEkKOO03Xo_DZMVRPLM3XZfmibsu201xZ5mhgmdCzoTT-eEvnScsX8MrBrIhZ3YlERH5v47-jOkSr"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsVfSqtij_Jgj9TbhwsSayz5idOKjvXaKGOF6ntJvUDLNFVaO-bKBcGPpuNBhsFtj-AAnwhlHeoocw2m6ju3kZpHxaoEc6d0woku9T6QgVix2CKAO8rCrzLyxk9eFpKLT6_ufUgPhNB2UjvnrPpDIRieo="
+      },
+      {
+        "label": "mechacomic",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjCmWpuJjkVAhtTZOOe5BydkiIAC5C6YL28dXRiPJv0ud4SmHDzBY0OGZy-AGyn6wCQ3djyr4Np80mXlfl_fxQ6Z5DsN9-6YvYnucCy-vB6w0QuHIsQqKKL9jDzQ=="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM6Qa7z_2VAE-40FDqS2EpW4yMld6GZI6OYcNljHb-VSKiHQHQ1xt_NzruVKY2eAUz3amuAIMts876EGpx6l-HWFSglaJ96jS-xzluSmQMK_PVBEmixiUaQ9CGd2SRqd0VKQri1p_iDHYDMD-Un-DOzeQ="
+      },
+      {
+        "label": "bookwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6kzH4BcLEzG4b18NsRnyiGPaOM7HIuGJUsKk1zQsi1cNeYli1o3Sv4UBKlxgJ_AiIv-QgsJqUS3VO7RqTZmHL-BWXXeH_zoI4WkbAcGo4shE7S1c5W9dNLgPKFP89Wkb8787E2GF4yUyyKJBmiMVIzqu8nzA3Lw=="
+      },
+      {
+        "label": "shogakukan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL6Dz4WYo9v4Gc8L70QoyNntQinTR3JZIMxmIfb0cKu6_PgAbyN2B1j6ciuFrjUw1xPWDsL0S9MEODVtXG1wGUH6-D5p5QvA_5L6ljy_knn-uAHAZ3MQLCS48U9TQB8s1d_Yo6H9SNu7EqeQ=="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsVfSqtij_Jgj9TbhwsSayz5idOKjvXaKGOF6ntJvUDLNFVaO-bKBcGPpuNBhsFtj-AAnwhlHeoocw2m6ju3kZpHxaoEc6d0woku9T6QgVix2CKAO8rCrzLyxk9eFpKLT6_ufUgPhNB2UjvnrPpDIRieo="
+      },
+      {
+        "label": "note",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqn9hUtad8o8XU4xpwvQLNzY6txhiqThZi936grXLeE9grhkbfGVtEl9aeuMI4re9NhCcyNDaJbvjasIjYE03YUiuddRV7s1LXvLwK5857lbY3L4zkHcZ8XZExLw-NqMTD1w=="
+      },
+      {
+        "label": "hatenablog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX98m-bCM_IfSnP7WlyhcbwgSxdWVb3youA6E79hBDM_cVtDSZeBz6UYRwaL6sksygYEf9SAgWp1YIyr4ARjgBG1fmINW-HiNx1PtYmWZ6mx8vFrYcKiopq2eSJmFR1zOM5yz3fl4yHz0pUlw8RT_d"
+      },
+      {
+        "label": "flipflops",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIRqL0G-7CCj0rpFxVTSgJhm6ktGaqGeayw79vbRPCm3aHKZq-Zbt7CTizHHkWYKpCm7jsBPOiB-dMskf8Skj2MwDyA-WvpdfAEvPEOMQXtZlV0-dgBXlG99aXKkv75TEfZYg8"
+      },
+      {
+        "label": "papy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOYZgS3lRD40p95_aO1afxUxIpQKjU5buMpq--G_ZzeRJpAvCVfhYxKqyjPfBPveUbQ_HIt5KJub45FB3YRzPiR3YVtQ3YOuw1HBgOSRkHzA6M0PKgDdbVm1uAqyzDKMvdPNo05kwGR1iLEAw="
+      },
+      {
+        "label": "hateblo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEE25A37tB-JwZth6C-RVJ5UMxyMcC9J09xGU6b2RRFJc2V6dwYovj0rk7uYtkuT1ImfkJos3afU3DS_-EI2t0HM-Y4Us9N7ZXJgerZxIC7edeknZqwBt5FZsgEbAXdYdtzU5K40FPt_tqDOn2OVw=="
+      },
+      {
+        "label": "shogakukan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWxjCC3UwbN6w_93AAebJ-X76WmDNOPA96uTYVRgigsphld3_ADtAUSkqfAyui9yyg3BtHBr84zvFBgue9UvQSLYUphk_ZGd98h_AsoGVix4YKycHplBNfGdUyxCpGLFrpHLdIhg=="
+      },
+      {
+        "label": "hatenablog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX98m-bCM_IfSnP7WlyhcbwgSxdWVb3youA6E79hBDM_cVtDSZeBz6UYRwaL6sksygYEf9SAgWp1YIyr4ARjgBG1fmINW-HiNx1PtYmWZ6mx8vFrYcKiopq2eSJmFR1zOM5yz3fl4yHz0pUlw8RT_d"
+      },
+      {
+        "label": "hatenablog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX98m-bCM_IfSnP7WlyhcbwgSxdWVb3youA6E79hBDM_cVtDSZeBz6UYRwaL6sksygYEf9SAgWp1YIyr4ARjgBG1fmINW-HiNx1PtYmWZ6mx8vFrYcKiopq2eSJmFR1zOM5yz3fl4yHz0pUlw8RT_d"
+      },
+      {
+        "label": "papy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOYZgS3lRD40p95_aO1afxUxIpQKjU5buMpq--G_ZzeRJpAvCVfhYxKqyjPfBPveUbQ_HIt5KJub45FB3YRzPiR3YVtQ3YOuw1HBgOSRkHzA6M0PKgDdbVm1uAqyzDKMvdPNo05kwGR1iLEAw="
+      },
+      {
+        "label": "hatenablog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX98m-bCM_IfSnP7WlyhcbwgSxdWVb3youA6E79hBDM_cVtDSZeBz6UYRwaL6sksygYEf9SAgWp1YIyr4ARjgBG1fmINW-HiNx1PtYmWZ6mx8vFrYcKiopq2eSJmFR1zOM5yz3fl4yHz0pUlw8RT_d"
+      },
+      {
+        "label": "papy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOYZgS3lRD40p95_aO1afxUxIpQKjU5buMpq--G_ZzeRJpAvCVfhYxKqyjPfBPveUbQ_HIt5KJub45FB3YRzPiR3YVtQ3YOuw1HBgOSRkHzA6M0PKgDdbVm1uAqyzDKMvdPNo05kwGR1iLEAw="
+      },
+      {
+        "label": "hatenablog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX98m-bCM_IfSnP7WlyhcbwgSxdWVb3youA6E79hBDM_cVtDSZeBz6UYRwaL6sksygYEf9SAgWp1YIyr4ARjgBG1fmINW-HiNx1PtYmWZ6mx8vFrYcKiopq2eSJmFR1zOM5yz3fl4yHz0pUlw8RT_d"
+      },
+      {
+        "label": "papy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOYZgS3lRD40p95_aO1afxUxIpQKjU5buMpq--G_ZzeRJpAvCVfhYxKqyjPfBPveUbQ_HIt5KJub45FB3YRzPiR3YVtQ3YOuw1HBgOSRkHzA6M0PKgDdbVm1uAqyzDKMvdPNo05kwGR1iLEAw="
+      },
+      {
+        "label": "papy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOYZgS3lRD40p95_aO1afxUxIpQKjU5buMpq--G_ZzeRJpAvCVfhYxKqyjPfBPveUbQ_HIt5KJub45FB3YRzPiR3YVtQ3YOuw1HBgOSRkHzA6M0PKgDdbVm1uAqyzDKMvdPNo05kwGR1iLEAw="
+      },
+      {
+        "label": "hatenablog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX98m-bCM_IfSnP7WlyhcbwgSxdWVb3youA6E79hBDM_cVtDSZeBz6UYRwaL6sksygYEf9SAgWp1YIyr4ARjgBG1fmINW-HiNx1PtYmWZ6mx8vFrYcKiopq2eSJmFR1zOM5yz3fl4yHz0pUlw8RT_d"
+      },
+      {
+        "label": "papy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOYZgS3lRD40p95_aO1afxUxIpQKjU5buMpq--G_ZzeRJpAvCVfhYxKqyjPfBPveUbQ_HIt5KJub45FB3YRzPiR3YVtQ3YOuw1HBgOSRkHzA6M0PKgDdbVm1uAqyzDKMvdPNo05kwGR1iLEAw="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEWlxNYNCVrXTXuouXqpy1AQsZCf3oqtORdiNRCXaqZYISqhXUGEUSHmvMjaRVHk6B3SrNfE_6re016k8C41eT4oZM5o6kj1zuuqgXTrHqbFV49lSVgADdV8TsYxWuyfOihAK2beyaqQHN2rNMra_6bz8="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXT5zaRhKh_SCnG5cvIVHD2S0PRk8pAhY94CH-0g9I1kn3JLKpXU8lliJm03EbsmJuiJisVaMJx6RoQxoKiI4oTDeRRHMtut8qQo3nlkaEyjCxeZfD7x4NkR--8hlIwQxO5-4s9lt7U0VnWzt40JUDkug="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPGrnyKRdl1AEoKm095XqZVAQg30KaZ7oIovlxhVeUVkvMkFG-1sK_vHhMJ_4AeioxI9R4gSJ8MKub4y-hi1GVj3J5mdhhOt6mXxhKfe4SQviL1A0Z4761TMz9TFSYv_oZ9nOMZn6KN6BFVrbyUIBABmE="
+      },
+      {
+        "label": "nicovideo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFIgEVrruZeVr0IeP1F0VKl048K-NHTKxoB3ZcrSqeRnggVhRTL6SZCSOF4AYXwLop9MAUNKQAcYW8sGsdpZZO7y62A6JOx73EvJ6heMRAZFTUgpIsRHtr0lqb0o71HNU="
+      },
+      {
+        "label": "papy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOYZgS3lRD40p95_aO1afxUxIpQKjU5buMpq--G_ZzeRJpAvCVfhYxKqyjPfBPveUbQ_HIt5KJub45FB3YRzPiR3YVtQ3YOuw1HBgOSRkHzA6M0PKgDdbVm1uAqyzDKMvdPNo05kwGR1iLEAw="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEWlxNYNCVrXTXuouXqpy1AQsZCf3oqtORdiNRCXaqZYISqhXUGEUSHmvMjaRVHk6B3SrNfE_6re016k8C41eT4oZM5o6kj1zuuqgXTrHqbFV49lSVgADdV8TsYxWuyfOihAK2beyaqQHN2rNMra_6bz8="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXT5zaRhKh_SCnG5cvIVHD2S0PRk8pAhY94CH-0g9I1kn3JLKpXU8lliJm03EbsmJuiJisVaMJx6RoQxoKiI4oTDeRRHMtut8qQo3nlkaEyjCxeZfD7x4NkR--8hlIwQxO5-4s9lt7U0VnWzt40JUDkug="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPGrnyKRdl1AEoKm095XqZVAQg30KaZ7oIovlxhVeUVkvMkFG-1sK_vHhMJ_4AeioxI9R4gSJ8MKub4y-hi1GVj3J5mdhhOt6mXxhKfe4SQviL1A0Z4761TMz9TFSYv_oZ9nOMZn6KN6BFVrbyUIBABmE="
+      },
+      {
+        "label": "nicovideo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFIgEVrruZeVr0IeP1F0VKl048K-NHTKxoB3ZcrSqeRnggVhRTL6SZCSOF4AYXwLop9MAUNKQAcYW8sGsdpZZO7y62A6JOx73EvJ6heMRAZFTUgpIsRHtr0lqb0o71HNU="
+      },
+      {
+        "label": "papy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOYZgS3lRD40p95_aO1afxUxIpQKjU5buMpq--G_ZzeRJpAvCVfhYxKqyjPfBPveUbQ_HIt5KJub45FB3YRzPiR3YVtQ3YOuw1HBgOSRkHzA6M0PKgDdbVm1uAqyzDKMvdPNo05kwGR1iLEAw="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpwrOc4F1cYWgGhzIzYeu50wfR2ajSF9yBJ3--bCSt0c7m9-RJI4duVwNpULIv31drA_7tUas8KggCRm1B8FJRzSwwED3z4SF9TqQNeagJsof6fflnjnJy_9vxWl1Sp22p8ItdMIO3iifS1IQ4tFp2qYJaS3VhjdLJN5cyiHPDxTs3mCQt-lJ_ttnjayC9QHESNWDFQsTvtjeK4sbUUd_Kl9z7EpJcgyTgosQyMi9e-bx5WADW"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUkQe030mC_GZd69y7dtxLFQcNJtYsueGVGCdgOo1stgkpWFzBknMt2wv_KN0zeW15XUrId2DCqqDgl1mjQfZHR8D_046QblGoXJ2W-pB0ifwDFqlW8le_9EBamm8DPqbNCjstXSrKXD3m5JYwOWlOwqY="
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhX6JP6_FqVG7Pvsgq-Ar3D9EvHJw72GkuuWWWUAXABEHd4U46MYnbpWrDHDQCtMaaYEhXYXA_WgmNniwbhDwD6XCZPsT5IJJPopJe9-UTIhBq_-aNEgrDucxr"
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpwrOc4F1cYWgGhzIzYeu50wfR2ajSF9yBJ3--bCSt0c7m9-RJI4duVwNpULIv31drA_7tUas8KggCRm1B8FJRzSwwED3z4SF9TqQNeagJsof6fflnjnJy_9vxWl1Sp22p8ItdMIO3iifS1IQ4tFp2qYJaS3VhjdLJN5cyiHPDxTs3mCQt-lJ_ttnjayC9QHESNWDFQsTvtjeK4sbUUd_Kl9z7EpJcgyTgosQyMi9e-bx5WADW"
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhX6JP6_FqVG7Pvsgq-Ar3D9EvHJw72GkuuWWWUAXABEHd4U46MYnbpWrDHDQCtMaaYEhXYXA_WgmNniwbhDwD6XCZPsT5IJJPopJe9-UTIhBq_-aNEgrDucxr"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUkQe030mC_GZd69y7dtxLFQcNJtYsueGVGCdgOo1stgkpWFzBknMt2wv_KN0zeW15XUrId2DCqqDgl1mjQfZHR8D_046QblGoXJ2W-pB0ifwDFqlW8le_9EBamm8DPqbNCjstXSrKXD3m5JYwOWlOwqY="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpwrOc4F1cYWgGhzIzYeu50wfR2ajSF9yBJ3--bCSt0c7m9-RJI4duVwNpULIv31drA_7tUas8KggCRm1B8FJRzSwwED3z4SF9TqQNeagJsof6fflnjnJy_9vxWl1Sp22p8ItdMIO3iifS1IQ4tFp2qYJaS3VhjdLJN5cyiHPDxTs3mCQt-lJ_ttnjayC9QHESNWDFQsTvtjeK4sbUUd_Kl9z7EpJcgyTgosQyMi9e-bx5WADW"
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhX6JP6_FqVG7Pvsgq-Ar3D9EvHJw72GkuuWWWUAXABEHd4U46MYnbpWrDHDQCtMaaYEhXYXA_WgmNniwbhDwD6XCZPsT5IJJPopJe9-UTIhBq_-aNEgrDucxr"
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpwrOc4F1cYWgGhzIzYeu50wfR2ajSF9yBJ3--bCSt0c7m9-RJI4duVwNpULIv31drA_7tUas8KggCRm1B8FJRzSwwED3z4SF9TqQNeagJsof6fflnjnJy_9vxWl1Sp22p8ItdMIO3iifS1IQ4tFp2qYJaS3VhjdLJN5cyiHPDxTs3mCQt-lJ_ttnjayC9QHESNWDFQsTvtjeK4sbUUd_Kl9z7EpJcgyTgosQyMi9e-bx5WADW"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUkQe030mC_GZd69y7dtxLFQcNJtYsueGVGCdgOo1stgkpWFzBknMt2wv_KN0zeW15XUrId2DCqqDgl1mjQfZHR8D_046QblGoXJ2W-pB0ifwDFqlW8le_9EBamm8DPqbNCjstXSrKXD3m5JYwOWlOwqY="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpwrOc4F1cYWgGhzIzYeu50wfR2ajSF9yBJ3--bCSt0c7m9-RJI4duVwNpULIv31drA_7tUas8KggCRm1B8FJRzSwwED3z4SF9TqQNeagJsof6fflnjnJy_9vxWl1Sp22p8ItdMIO3iifS1IQ4tFp2qYJaS3VhjdLJN5cyiHPDxTs3mCQt-lJ_ttnjayC9QHESNWDFQsTvtjeK4sbUUd_Kl9z7EpJcgyTgosQyMi9e-bx5WADW"
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhX6JP6_FqVG7Pvsgq-Ar3D9EvHJw72GkuuWWWUAXABEHd4U46MYnbpWrDHDQCtMaaYEhXYXA_WgmNniwbhDwD6XCZPsT5IJJPopJe9-UTIhBq_-aNEgrDucxr"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUkQe030mC_GZd69y7dtxLFQcNJtYsueGVGCdgOo1stgkpWFzBknMt2wv_KN0zeW15XUrId2DCqqDgl1mjQfZHR8D_046QblGoXJ2W-pB0ifwDFqlW8le_9EBamm8DPqbNCjstXSrKXD3m5JYwOWlOwqY="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExxBp0Zel7gQ8_S7ZqJlTcAewjiDdHuF5LWqYhFstmUHpf4CpIvLb2iV3X8O_oBEIrJcP7Geb6POUmNxQZKHjTFIJCzVQ09ydLkqwYDUuGmdHnORKYX_htg7WyogMzh0qXEOLY8E3_AjeWuXiPSvD5E4w="
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUkQe030mC_GZd69y7dtxLFQcNJtYsueGVGCdgOo1stgkpWFzBknMt2wv_KN0zeW15XUrId2DCqqDgl1mjQfZHR8D_046QblGoXJ2W-pB0ifwDFqlW8le_9EBamm8DPqbNCjstXSrKXD3m5JYwOWlOwqY="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpwrOc4F1cYWgGhzIzYeu50wfR2ajSF9yBJ3--bCSt0c7m9-RJI4duVwNpULIv31drA_7tUas8KggCRm1B8FJRzSwwED3z4SF9TqQNeagJsof6fflnjnJy_9vxWl1Sp22p8ItdMIO3iifS1IQ4tFp2qYJaS3VhjdLJN5cyiHPDxTs3mCQt-lJ_ttnjayC9QHESNWDFQsTvtjeK4sbUUd_Kl9z7EpJcgyTgosQyMi9e-bx5WADW"
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhX6JP6_FqVG7Pvsgq-Ar3D9EvHJw72GkuuWWWUAXABEHd4U46MYnbpWrDHDQCtMaaYEhXYXA_WgmNniwbhDwD6XCZPsT5IJJPopJe9-UTIhBq_-aNEgrDucxr"
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhX6JP6_FqVG7Pvsgq-Ar3D9EvHJw72GkuuWWWUAXABEHd4U46MYnbpWrDHDQCtMaaYEhXYXA_WgmNniwbhDwD6XCZPsT5IJJPopJe9-UTIhBq_-aNEgrDucxr"
+      },
+      {
+        "label": "cmoa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhX6JP6_FqVG7Pvsgq-Ar3D9EvHJw72GkuuWWWUAXABEHd4U46MYnbpWrDHDQCtMaaYEhXYXA_WgmNniwbhDwD6XCZPsT5IJJPopJe9-UTIhBq_-aNEgrDucxr"
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpwrOc4F1cYWgGhzIzYeu50wfR2ajSF9yBJ3--bCSt0c7m9-RJI4duVwNpULIv31drA_7tUas8KggCRm1B8FJRzSwwED3z4SF9TqQNeagJsof6fflnjnJy_9vxWl1Sp22p8ItdMIO3iifS1IQ4tFp2qYJaS3VhjdLJN5cyiHPDxTs3mCQt-lJ_ttnjayC9QHESNWDFQsTvtjeK4sbUUd_Kl9z7EpJcgyTgosQyMi9e-bx5WADW"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUkQe030mC_GZd69y7dtxLFQcNJtYsueGVGCdgOo1stgkpWFzBknMt2wv_KN0zeW15XUrId2DCqqDgl1mjQfZHR8D_046QblGoXJ2W-pB0ifwDFqlW8le_9EBamm8DPqbNCjstXSrKXD3m5JYwOWlOwqY="
+      },
+      {
+        "label": "comirano",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpwrOc4F1cYWgGhzIzYeu50wfR2ajSF9yBJ3--bCSt0c7m9-RJI4duVwNpULIv31drA_7tUas8KggCRm1B8FJRzSwwED3z4SF9TqQNeagJsof6fflnjnJy_9vxWl1Sp22p8ItdMIO3iifS1IQ4tFp2qYJaS3VhjdLJN5cyiHPDxTs3mCQt-lJ_ttnjayC9QHESNWDFQsTvtjeK4sbUUd_Kl9z7EpJcgyTgosQyMi9e-bx5WADW"
+      },
+      {
+        "label": "sunday-webry",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUkQe030mC_GZd69y7dtxLFQcNJtYsueGVGCdgOo1stgkpWFzBknMt2wv_KN0zeW15XUrId2DCqqDgl1mjQfZHR8D_046QblGoXJ2W-pB0ifwDFqlW8le_9EBamm8DPqbNCjstXSrKXD3m5JYwOWlOwqY="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "file_name": "state_result_170.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.680349",
+  "data": {
+    "messages": [
+      {
+        "content": "What is governmentality for Foucault?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "b99e6c40-be10-408c-80f0-926a9faa3eb8",
+        "example": false
+      },
+      {
+        "content": "For Michel Foucault, governmentality is a concept that combines \"government\" and \"rationality\" to describe how states govern populations and how individuals govern themselves [ebsco](https://vertexaisearch.cloud.google.com/id/0-0) [britannica](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2). He introduced this concept in his 1977-78 lecture series [numberanalytics](https://vertexaisearch.cloud.google.com/id/0-4). \"Government\" in this context refers to activities that shape or guide people's conduct, including self-governance [britannica](https://vertexaisearch.cloud.google.com/id/0-1) [lotusarise](https://vertexaisearch.cloud.google.com/id/0-3).\n\nKey aspects of Foucault's governmentality include:\n\n*   **Power and Conduct:** It emphasizes governing people's conduct through positive means rather than relying on sovereign power to enforce laws [britannica](https://vertexaisearch.cloud.google.com/id/0-1) [lotusarise](https://vertexaisearch.cloud.google.com/id/0-3]. Power is a pervasive feature of society, mediated and negotiated to create a perceived truth [ebsco](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Beyond the State:** Governmentality expands the definition of government beyond the state's exercise of political power to include individuals' willingness to participate in their own governance [lotusarise](https://vertexaisearch.cloud.google.com/id/0-3) [britannica](https://vertexaisearch.cloud.google.com/id/0-1]. The state is not the only form of governing [britannica](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Rationality and Knowledge:** Rationality involves systematic thinking to define and manage populations [britannica](https://vertexaisearch.cloud.google.com/id/0-1]. The state uses systems to define populations, making them visible through management, administration, and classification [britannica](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Technologies and Practices:** It focuses on the rationalities, practices, and technologies of government, with freedom being central to contemporary governing strategies [oup](https://vertexaisearch.cloud.google.com/id/0-5]. Individuals are expected to be free, responsible, and accountable [oup](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Target Population:** Governmentality is a form of power that targets the population, using political economy as its principal form of knowledge and security apparatuses as its essential technical means [cambridge](https://vertexaisearch.cloud.google.com/id/0-6) [numberanalytics](https://vertexaisearch.cloud.google.com/id/0-4].\n*   **Normalization:** Governmentality operates through normalization, where individuals conform to dominant norms [lotusarise](https://vertexaisearch.cloud.google.com/id/0-3].\n\nFoucault's concept provides a framework for analyzing how power operates in society, encompassing the ways in which individuals and populations are governed through various techniques and rationalities [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [lotusarise](https://vertexaisearch.cloud.google.com/id/1-1) [britannica](https://vertexaisearch.cloud.google.com/id/1-2]. It examines the \"conduct of conduct,\" or how behavior is shaped and directed through organized practices, mentalities, and techniques [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0]. This includes not only the actions of the state but also the ways individuals govern themselves [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0). Foucault's work explores the evolution of governance from sovereign power to disciplinary power and, finally, to governmentality, which focuses on managing populations and fostering their well-being [oxfordreference](https://vertexaisearch.cloud.google.com/id/1-3) [britannica](https://vertexaisearch.cloud.google.com/id/1-2].",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "3e897047-d655-46a9-a1ad-1308142758b6",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Foucault governmentality definition",
+      "How does Foucault's concept of governmentality relate to specific historical examples of governance, such as the management of epidemics or the development of social welfare programs?"
+    ],
+    "web_research_result": [
+      "Michel Foucault's concept of governmentality, developed primarily between 1977 and 1984, combines \"government\" and \"rationality\" to describe how states govern populations and how individuals govern themselves [ebsco](https://vertexaisearch.cloud.google.com/id/0-0) [britannica](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2). \"Government\" refers to activities that shape or guide people's conduct, including self-governance [britannica](https://vertexaisearch.cloud.google.com/id/0-1) [lotusarise](https://vertexaisearch.cloud.google.com/id/0-3). Foucault introduced the concept in his 1977-78 lecture series at the Collège de France. [numberanalytics](https://vertexaisearch.cloud.google.com/id/0-4)\n\nKey aspects of Foucault's governmentality include:\n\n*   **Power and Conduct:** Governmentality emphasizes governing people's conduct through positive means rather than relying on sovereign power to enforce laws. [britannica](https://vertexaisearch.cloud.google.com/id/0-1) [lotusarise](https://vertexaisearch.cloud.google.com/id/0-3) It suggests power is not just wielded by institutions but is a pervasive feature of society, mediated and negotiated to create a perceived truth. [ebsco](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Beyond the State:** Governmentality expands the definition of government beyond the state's exercise of political power to include individuals' willingness to participate in their own governance. [lotusarise](https://vertexaisearch.cloud.google.com/id/0-3) [britannica](https://vertexaisearch.cloud.google.com/id/0-1) It posits that the state is not the only form of governing. [britannica](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Rationality and Knowledge:** Rationality, in this context, involves systematic thinking to define and manage populations. [britannica](https://vertexaisearch.cloud.google.com/id/0-1) The state uses systems to define populations, making them visible through management, administration, and classification. [britannica](https://vertexaisearch.cloud.google.com/id/0-1)\n*   **Technologies and Practices:** Governmentality focuses on the rationalities, practices, and technologies of government, with freedom being central to contemporary governing strategies. [oup](https://vertexaisearch.cloud.google.com/id/0-5) Individuals are expected to be free, responsible, and accountable. [oup](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **Neoliberalism:** Foucault's analysis extends to neoliberalism, where governance is characterized by market-driven principles that prioritize individual economic agency but may foster social inequality. [ebsco](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Target Population:** Governmentality is a form of power that targets the population, using political economy as its principal form of knowledge and security apparatuses as its essential technical means. [cambridge](https://vertexaisearch.cloud.google.com/id/0-6) [numberanalytics](https://vertexaisearch.cloud.google.com/id/0-4)\n*   **Normalization:** Governmentality operates through normalization, where individuals conform to dominant norms. [lotusarise](https://vertexaisearch.cloud.google.com/id/0-3)\n*   **Evolution of Governance:** It explores the evolution and mechanisms of control within societies, transitioning from traditional authority to modern administrative states. [ebsco](https://vertexaisearch.cloud.google.com/id/0-0)\n",
+      "Foucault's concept of governmentality provides a framework for analyzing how power operates in society, extending beyond traditional notions of state control to encompass the ways in which individuals and populations are governed through various techniques and rationalities [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [lotusarise](https://vertexaisearch.cloud.google.com/id/1-1) [britannica](https://vertexaisearch.cloud.google.com/id/1-2). It examines the \"conduct of conduct,\" or how behavior is shaped and directed through organized practices, mentalities, and techniques [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0). This includes not only the actions of the state but also the ways individuals govern themselves [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0). Foucault's work explores the evolution of governance from sovereign power to disciplinary power and, finally, to governmentality, which focuses on managing populations and fostering their well-being [oxfordreference](https://vertexaisearch.cloud.google.com/id/1-3) [britannica](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**Historical Examples and Governmentality:**\n\n1.  **Management of Epidemics:** Foucault examined how responses to epidemics, such as leprosy, plague, and smallpox, have shaped governmental techniques [stay-in-touch](https://vertexaisearch.cloud.google.com/id/1-4) [bmj](https://vertexaisearch.cloud.google.com/id/1-5).\n\n    *   **Leprosy:** The response to leprosy involved exclusion and confinement, serving as a model for later social exclusion practices [bmj](https://vertexaisearch.cloud.google.com/id/1-5) [stay-in-touch](https://vertexaisearch.cloud.google.com/id/1-4). This represents sovereign power, characterized by coercive and repressive measures [oxfordreference](https://vertexaisearch.cloud.google.com/id/1-3) [bmj](https://vertexaisearch.cloud.google.com/id/1-5) [britannica](https://vertexaisearch.cloud.google.com/id/1-2).\n    *   **Plague:** The plague led to disciplinary projects involving strict control of movement and confinement of individuals to their homes [genealogy-critique](https://vertexaisearch.cloud.google.com/id/1-6) [bmj](https://vertexaisearch.cloud.google.com/id/1-5) [stay-in-touch](https://vertexaisearch.cloud.google.com/id/1-4). This illustrates disciplinary power, which focuses on regulating and ordering people within a territory [oxfordreference](https://vertexaisearch.cloud.google.com/id/1-3) [britannica](https://vertexaisearch.cloud.google.com/id/1-2).\n    *   **Smallpox:** The management of smallpox through inoculation and vaccination exemplifies biopower, a governmental technique grounded in security and statistical normalization [bmj](https://vertexaisearch.cloud.google.com/id/1-5) [stay-in-touch](https://vertexaisearch.cloud.google.com/id/1-4). This approach focuses on managing the population's health and well-being through measures such as vaccination, which relies on risk calculation and statistical estimates rather than solely on medical evidence [bmj](https://vertexaisearch.cloud.google.com/id/1-5) [unibo](https://vertexaisearch.cloud.google.com/id/1-7) [stay-in-touch](https://vertexaisearch.cloud.google.com/id/1-4).\n    *   **COVID-19:** The COVID-19 pandemic has also been analyzed through the lens of governmentality, with responses drawing on elements of sovereign power (e.g., special presidential powers), disciplinary power (e.g., lockdowns), and biopower (e.g., vaccination campaigns) [bmj](https://vertexaisearch.cloud.google.com/id/1-5). Some analyses suggest that the pandemic has led to a \"securitization\" of health, with an emphasis on control and security measures [bmj](https://vertexaisearch.cloud.google.com/id/1-5).\n\n2.  **Development of Social Welfare Programs:** Foucault's concept of governmentality is also relevant to understanding the development of social welfare programs [researchgate](https://vertexaisearch.cloud.google.com/id/1-8) [ug](https://vertexaisearch.cloud.google.com/id/1-9) [idunn](https://vertexaisearch.cloud.google.com/id/1-10).\n\n    *   **Welfare State:** The rise of the welfare state in the late 19th and early 20th centuries represents a new formula for exercising rule, where expertise is linked to the formal political apparatus [researchgate](https://vertexaisearch.cloud.google.com/id/1-8). Social welfare programs can be seen as governmental technologies that aim to foster and optimize the capacities and relations between people as resources [britannica](https://vertexaisearch.cloud.google.com/id/1-2).\n    *   **Neoliberalism:** Contemporary social welfare is challenged by neoliberal governmentality, which posits that states should limit their interventions and govern indirectly through autonomous actors [idunn](https://vertexaisearch.cloud.google.com/id/1-10). Neoliberal governance structures seek to minimize taxation and government regulation, resist mass-scale attempts to organize labor, and cast inequality as the inherent and necessary outcome of meritocratic social organization [ebsco](https://vertexaisearch.cloud.google.com/id/1-11).\n    *   **Social Work:** Social work practices can be analyzed as techniques of governmentality, involving disciplinary power and the creation of self-governing individuals [ug](https://vertexaisearch.cloud.google.com/id/1-9). Social workers act as \"modern pastors,\" using techniques such as counseling and expertise to gather information about the population and promote self-governance [ug](https://vertexaisearch.cloud.google.com/id/1-9).\n\nIn summary, Foucault's concept of governmentality provides a valuable framework for understanding how power operates in various historical and contemporary contexts, including the management of epidemics and the development of social welfare programs [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [lotusarise](https://vertexaisearch.cloud.google.com/id/1-1) [britannica](https://vertexaisearch.cloud.google.com/id/1-2). By analyzing the rationalities, techniques, and practices of governance, it is possible to gain insights into the ways in which individuals and populations are shaped and directed [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdaRJRK23w6ol9o0eEKHHRro03rVCbMCrWhBFwNRW_9trY77sVdukb8fQfyDF_nFeipCsO1udxwnlu8C5K_qgZoTVHJtunhwxSAUIBh_LF6TURWpe7PfstaFsGRNcFEYjHUyRKaqv9zzhopW6cSziSgFrrhnOBiTK74SnBjVtMtlYEi0l4IdSUfQ=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6-dt4vxUIZgdkrEScrxeW1U6nHADXniw7sC3U3JbR28C8lIzNK1vt9CX8XLi4xaTmMPCA79mVFcdL74emHZiPYMpAz--GdIeb9kCMtonoEMCSGJ1ctG3VmlqBQX_s-OOsd6j5pg4o0E1Q"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkCSKzfSH2b4VFCG3th7hUxvr3Sf504QV4D9Th2kK7Qj0MN8N1Yppdx8q7HZZeQPBMiCX1xAqUgRan_ds53RotiJGa_1vIMFcgbrynaKJRi-szbQt4wYYjcwipHHPGUhMNPJ74rEbF"
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6-dt4vxUIZgdkrEScrxeW1U6nHADXniw7sC3U3JbR28C8lIzNK1vt9CX8XLi4xaTmMPCA79mVFcdL74emHZiPYMpAz--GdIeb9kCMtonoEMCSGJ1ctG3VmlqBQX_s-OOsd6j5pg4o0E1Q"
+      },
+      {
+        "label": "lotusarise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDKQ93ZbvBM_todTkMUXpsvE5LMjGm8lVp7cv_ja-jqkq79PURye_LJjWco4jlE-iAm90iymlNbhYcKhJJ6fkWa8eXmKDTKrSLc8kTL_OfUoaH8oJusra4afJH_izwvByw"
+      },
+      {
+        "label": "numberanalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaZuyF6d_JwLC7oOboeuuaQ29whGcUxLH0GDQv_gy3RlrFUza1UpXiO_T0yMgIVPMiDFysfAZ5AWdI0C-WNKwWKyrTDltS3NZNo3iDe45n0DGGZyVrlZm21xoPVRUjDfNaSz0V0YiNJdRJiLHmFLdFzKEfNgqV_CSJR01eRo-OPZCSG-Li73qLDKIsLgOxX7iTXBNt6g=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6-dt4vxUIZgdkrEScrxeW1U6nHADXniw7sC3U3JbR28C8lIzNK1vt9CX8XLi4xaTmMPCA79mVFcdL74emHZiPYMpAz--GdIeb9kCMtonoEMCSGJ1ctG3VmlqBQX_s-OOsd6j5pg4o0E1Q"
+      },
+      {
+        "label": "lotusarise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDKQ93ZbvBM_todTkMUXpsvE5LMjGm8lVp7cv_ja-jqkq79PURye_LJjWco4jlE-iAm90iymlNbhYcKhJJ6fkWa8eXmKDTKrSLc8kTL_OfUoaH8oJusra4afJH_izwvByw"
+      },
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdaRJRK23w6ol9o0eEKHHRro03rVCbMCrWhBFwNRW_9trY77sVdukb8fQfyDF_nFeipCsO1udxwnlu8C5K_qgZoTVHJtunhwxSAUIBh_LF6TURWpe7PfstaFsGRNcFEYjHUyRKaqv9zzhopW6cSziSgFrrhnOBiTK74SnBjVtMtlYEi0l4IdSUfQ=="
+      },
+      {
+        "label": "lotusarise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDKQ93ZbvBM_todTkMUXpsvE5LMjGm8lVp7cv_ja-jqkq79PURye_LJjWco4jlE-iAm90iymlNbhYcKhJJ6fkWa8eXmKDTKrSLc8kTL_OfUoaH8oJusra4afJH_izwvByw"
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6-dt4vxUIZgdkrEScrxeW1U6nHADXniw7sC3U3JbR28C8lIzNK1vt9CX8XLi4xaTmMPCA79mVFcdL74emHZiPYMpAz--GdIeb9kCMtonoEMCSGJ1ctG3VmlqBQX_s-OOsd6j5pg4o0E1Q"
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6-dt4vxUIZgdkrEScrxeW1U6nHADXniw7sC3U3JbR28C8lIzNK1vt9CX8XLi4xaTmMPCA79mVFcdL74emHZiPYMpAz--GdIeb9kCMtonoEMCSGJ1ctG3VmlqBQX_s-OOsd6j5pg4o0E1Q"
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6-dt4vxUIZgdkrEScrxeW1U6nHADXniw7sC3U3JbR28C8lIzNK1vt9CX8XLi4xaTmMPCA79mVFcdL74emHZiPYMpAz--GdIeb9kCMtonoEMCSGJ1ctG3VmlqBQX_s-OOsd6j5pg4o0E1Q"
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6-dt4vxUIZgdkrEScrxeW1U6nHADXniw7sC3U3JbR28C8lIzNK1vt9CX8XLi4xaTmMPCA79mVFcdL74emHZiPYMpAz--GdIeb9kCMtonoEMCSGJ1ctG3VmlqBQX_s-OOsd6j5pg4o0E1Q"
+      },
+      {
+        "label": "oup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVQDSe89XX2U9tJ9JE2zruhqGxq44ixZdyO-ZV2AIrGl3jhmAZXkw_46DRuprmHSikmMFF6d0eP4SdDP-dPhsMcd7mAFhhBEnpm9r0X0jY-5BIoXv5IWPxFkqO7xVKjvZY1Dxtckhnt7k0UrZuu1I="
+      },
+      {
+        "label": "oup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVQDSe89XX2U9tJ9JE2zruhqGxq44ixZdyO-ZV2AIrGl3jhmAZXkw_46DRuprmHSikmMFF6d0eP4SdDP-dPhsMcd7mAFhhBEnpm9r0X0jY-5BIoXv5IWPxFkqO7xVKjvZY1Dxtckhnt7k0UrZuu1I="
+      },
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdaRJRK23w6ol9o0eEKHHRro03rVCbMCrWhBFwNRW_9trY77sVdukb8fQfyDF_nFeipCsO1udxwnlu8C5K_qgZoTVHJtunhwxSAUIBh_LF6TURWpe7PfstaFsGRNcFEYjHUyRKaqv9zzhopW6cSziSgFrrhnOBiTK74SnBjVtMtlYEi0l4IdSUfQ=="
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELoip7JiLM0X3ssf3o90-ds5ifl2cWccFlWW7RD1kbkY6spZ8459xhFNbPFefcIrMEvd5xUmgeQlulaY668rwa_a2wUYzKsgLJ_we62PtjBKO3HMmgxbCYDCdQpmi3TKDPVG-MWA-QBnb6zZ1zqWR0-QUQesH9QcErcsJfe8X7lOUjaXtwA8j-00OIFdN3Xg8_08yaEYeFra_jkCqy_TZ6sJ5MtUKgi3UvCQ=="
+      },
+      {
+        "label": "numberanalytics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaZuyF6d_JwLC7oOboeuuaQ29whGcUxLH0GDQv_gy3RlrFUza1UpXiO_T0yMgIVPMiDFysfAZ5AWdI0C-WNKwWKyrTDltS3NZNo3iDe45n0DGGZyVrlZm21xoPVRUjDfNaSz0V0YiNJdRJiLHmFLdFzKEfNgqV_CSJR01eRo-OPZCSG-Li73qLDKIsLgOxX7iTXBNt6g=="
+      },
+      {
+        "label": "lotusarise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDKQ93ZbvBM_todTkMUXpsvE5LMjGm8lVp7cv_ja-jqkq79PURye_LJjWco4jlE-iAm90iymlNbhYcKhJJ6fkWa8eXmKDTKrSLc8kTL_OfUoaH8oJusra4afJH_izwvByw"
+      },
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdaRJRK23w6ol9o0eEKHHRro03rVCbMCrWhBFwNRW_9trY77sVdukb8fQfyDF_nFeipCsO1udxwnlu8C5K_qgZoTVHJtunhwxSAUIBh_LF6TURWpe7PfstaFsGRNcFEYjHUyRKaqv9zzhopW6cSziSgFrrhnOBiTK74SnBjVtMtlYEi0l4IdSUfQ=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxtv8ppdU_QORJLtS5zJZ_DerKM1IAq2Siy1Za5LXXuXvs5ddZwx8IGNmyHPXlI-JdJyWV__9pL_jhhoWhvKIkENjmJW_cOdVCtbi6Q2y8X_z3u8ESLqIswiNAdaxymAnQCWH_vqM04Q=="
+      },
+      {
+        "label": "lotusarise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJYz4XzZ9xL4UdU3dohxX4wt89oUgi6DC8UZzN1u7CXjJlYr2DZcAS2wmSd1O6aweZ-EfTgCBnM4mSGBjUsmJfM2isANZuO_u5e6Hg1RdoYKavNcQJv7rcG7J7FLA4RsOu9g=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPPywsv3eSKnqEFUoTVv_O29mxwaudvAI2oMGv1BR2KRK5ujC6WkyiULgb2AFdhhFApZIN23p47ksxf4ORgqLRWtvMzgqwEoSoq9lywmKQU-4qlN2gvLXt7VEdnyTMv3CN23qmDJgvETmZiQ=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxtv8ppdU_QORJLtS5zJZ_DerKM1IAq2Siy1Za5LXXuXvs5ddZwx8IGNmyHPXlI-JdJyWV__9pL_jhhoWhvKIkENjmJW_cOdVCtbi6Q2y8X_z3u8ESLqIswiNAdaxymAnQCWH_vqM04Q=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxtv8ppdU_QORJLtS5zJZ_DerKM1IAq2Siy1Za5LXXuXvs5ddZwx8IGNmyHPXlI-JdJyWV__9pL_jhhoWhvKIkENjmJW_cOdVCtbi6Q2y8X_z3u8ESLqIswiNAdaxymAnQCWH_vqM04Q=="
+      },
+      {
+        "label": "oxfordreference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLH3_VyTk2X_eVMaWIXTVZ5dqcr6KvjnnIf6dd2sbnG7fDca-HsqfW2RNI5VVcsoLwxDlR5uyseoVKrK8k9nBoXm5ba_aV8-_oj_IrnqcEQy55bQM1k8yBCf7ohLfyZlb8tyiMe0W3Orr8yO8Dniz3pRs8l2pGMQf_F_uGY0ENBb4mvXWqBnQboA=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPPywsv3eSKnqEFUoTVv_O29mxwaudvAI2oMGv1BR2KRK5ujC6WkyiULgb2AFdhhFApZIN23p47ksxf4ORgqLRWtvMzgqwEoSoq9lywmKQU-4qlN2gvLXt7VEdnyTMv3CN23qmDJgvETmZiQ=="
+      },
+      {
+        "label": "stay-in-touch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ65nUQMww2d8Bpgh33PxenkXW-mm3N4fUHpGEoYnPlG8ycFNEzqKp4xtH1YtECsOAPc6SyJtO5uzHnwEawG-l_UTmgBe4Nes8Fzm8kVvpr0r7cV9XEsynHTo3YtPCFaRwKV-7tWGcp4-bOFxUlD6JoAHWK-9bmuIL18DIxnfuBJXtMNok"
+      },
+      {
+        "label": "bmj",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE_a86VeBaqBcv8JqwXmLmiCJKiEmPZu_skNzSTOQb9CeMn6CSe4dgZXJgAy5B5Fdr_2uJuQ8Lw3Jvp30gxS85MgPyDkP4ktiA3rKUlnf0LzD18Q-9QNvG-wmE28tCbwMcIQ=="
+      },
+      {
+        "label": "bmj",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE_a86VeBaqBcv8JqwXmLmiCJKiEmPZu_skNzSTOQb9CeMn6CSe4dgZXJgAy5B5Fdr_2uJuQ8Lw3Jvp30gxS85MgPyDkP4ktiA3rKUlnf0LzD18Q-9QNvG-wmE28tCbwMcIQ=="
+      },
+      {
+        "label": "stay-in-touch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ65nUQMww2d8Bpgh33PxenkXW-mm3N4fUHpGEoYnPlG8ycFNEzqKp4xtH1YtECsOAPc6SyJtO5uzHnwEawG-l_UTmgBe4Nes8Fzm8kVvpr0r7cV9XEsynHTo3YtPCFaRwKV-7tWGcp4-bOFxUlD6JoAHWK-9bmuIL18DIxnfuBJXtMNok"
+      },
+      {
+        "label": "oxfordreference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLH3_VyTk2X_eVMaWIXTVZ5dqcr6KvjnnIf6dd2sbnG7fDca-HsqfW2RNI5VVcsoLwxDlR5uyseoVKrK8k9nBoXm5ba_aV8-_oj_IrnqcEQy55bQM1k8yBCf7ohLfyZlb8tyiMe0W3Orr8yO8Dniz3pRs8l2pGMQf_F_uGY0ENBb4mvXWqBnQboA=="
+      },
+      {
+        "label": "bmj",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE_a86VeBaqBcv8JqwXmLmiCJKiEmPZu_skNzSTOQb9CeMn6CSe4dgZXJgAy5B5Fdr_2uJuQ8Lw3Jvp30gxS85MgPyDkP4ktiA3rKUlnf0LzD18Q-9QNvG-wmE28tCbwMcIQ=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPPywsv3eSKnqEFUoTVv_O29mxwaudvAI2oMGv1BR2KRK5ujC6WkyiULgb2AFdhhFApZIN23p47ksxf4ORgqLRWtvMzgqwEoSoq9lywmKQU-4qlN2gvLXt7VEdnyTMv3CN23qmDJgvETmZiQ=="
+      },
+      {
+        "label": "genealogy-critique",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVxtDXop3VjoVhB2myKcE657yp9IN0-wUU9uwDU-HFoBag6cNlymUwcJD294zvUvBiDzMibR1bdJEgVmUVv_Ho9dt7C-rzcgB2XL4I5WL0VPEOxnmvKT-918eVtSVtoZhKgv0CP5aMXJVa-93fQt3EgdF3XSos1nmFRVl0WNSPV40DVujmQbVwDc6z7w=="
+      },
+      {
+        "label": "bmj",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE_a86VeBaqBcv8JqwXmLmiCJKiEmPZu_skNzSTOQb9CeMn6CSe4dgZXJgAy5B5Fdr_2uJuQ8Lw3Jvp30gxS85MgPyDkP4ktiA3rKUlnf0LzD18Q-9QNvG-wmE28tCbwMcIQ=="
+      },
+      {
+        "label": "stay-in-touch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ65nUQMww2d8Bpgh33PxenkXW-mm3N4fUHpGEoYnPlG8ycFNEzqKp4xtH1YtECsOAPc6SyJtO5uzHnwEawG-l_UTmgBe4Nes8Fzm8kVvpr0r7cV9XEsynHTo3YtPCFaRwKV-7tWGcp4-bOFxUlD6JoAHWK-9bmuIL18DIxnfuBJXtMNok"
+      },
+      {
+        "label": "oxfordreference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLH3_VyTk2X_eVMaWIXTVZ5dqcr6KvjnnIf6dd2sbnG7fDca-HsqfW2RNI5VVcsoLwxDlR5uyseoVKrK8k9nBoXm5ba_aV8-_oj_IrnqcEQy55bQM1k8yBCf7ohLfyZlb8tyiMe0W3Orr8yO8Dniz3pRs8l2pGMQf_F_uGY0ENBb4mvXWqBnQboA=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPPywsv3eSKnqEFUoTVv_O29mxwaudvAI2oMGv1BR2KRK5ujC6WkyiULgb2AFdhhFApZIN23p47ksxf4ORgqLRWtvMzgqwEoSoq9lywmKQU-4qlN2gvLXt7VEdnyTMv3CN23qmDJgvETmZiQ=="
+      },
+      {
+        "label": "bmj",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE_a86VeBaqBcv8JqwXmLmiCJKiEmPZu_skNzSTOQb9CeMn6CSe4dgZXJgAy5B5Fdr_2uJuQ8Lw3Jvp30gxS85MgPyDkP4ktiA3rKUlnf0LzD18Q-9QNvG-wmE28tCbwMcIQ=="
+      },
+      {
+        "label": "stay-in-touch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ65nUQMww2d8Bpgh33PxenkXW-mm3N4fUHpGEoYnPlG8ycFNEzqKp4xtH1YtECsOAPc6SyJtO5uzHnwEawG-l_UTmgBe4Nes8Fzm8kVvpr0r7cV9XEsynHTo3YtPCFaRwKV-7tWGcp4-bOFxUlD6JoAHWK-9bmuIL18DIxnfuBJXtMNok"
+      },
+      {
+        "label": "bmj",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE_a86VeBaqBcv8JqwXmLmiCJKiEmPZu_skNzSTOQb9CeMn6CSe4dgZXJgAy5B5Fdr_2uJuQ8Lw3Jvp30gxS85MgPyDkP4ktiA3rKUlnf0LzD18Q-9QNvG-wmE28tCbwMcIQ=="
+      },
+      {
+        "label": "unibo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETSZA8wNL7-4vVU4X802Nn9ln7wN04Gza8egr1zEdf06LSpPm1E1-gWXlgfn8iuUk_oyg9q2JMaGUPrsy8YRTLzS3IsNoVsYTnR1Coz9agupu1KojWJ4cvD_H_Xwtym3b8MOpGlq9hW7vZ15OoUOKP"
+      },
+      {
+        "label": "stay-in-touch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ65nUQMww2d8Bpgh33PxenkXW-mm3N4fUHpGEoYnPlG8ycFNEzqKp4xtH1YtECsOAPc6SyJtO5uzHnwEawG-l_UTmgBe4Nes8Fzm8kVvpr0r7cV9XEsynHTo3YtPCFaRwKV-7tWGcp4-bOFxUlD6JoAHWK-9bmuIL18DIxnfuBJXtMNok"
+      },
+      {
+        "label": "bmj",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE_a86VeBaqBcv8JqwXmLmiCJKiEmPZu_skNzSTOQb9CeMn6CSe4dgZXJgAy5B5Fdr_2uJuQ8Lw3Jvp30gxS85MgPyDkP4ktiA3rKUlnf0LzD18Q-9QNvG-wmE28tCbwMcIQ=="
+      },
+      {
+        "label": "bmj",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHE_a86VeBaqBcv8JqwXmLmiCJKiEmPZu_skNzSTOQb9CeMn6CSe4dgZXJgAy5B5Fdr_2uJuQ8Lw3Jvp30gxS85MgPyDkP4ktiA3rKUlnf0LzD18Q-9QNvG-wmE28tCbwMcIQ=="
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF06I35uZ0EJnyg_QXj6IOT-j21ytqfCmJJyZak4jVNkpt_B3jVnOWykay4bkvt-1vnKpX9HtrGxoS-BjaAXRxH6ZgmKIhpKvjBG6UgKaeeYRIXP9WohBxjrN40Ja9viCj6toSFuyM5LvZaa_bpEvYQa1pY1GtjkWwzSCJy2wqoWUirvZlp4_xOwY9DuMcwpxz39d-6mOk4FoBfkwOj"
+      },
+      {
+        "label": "ug",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6hY-FXmnj6Xp3wBem_tlTXPgQ_OOtTR7SjKYOpc4_qK13TgTvDPDCkk_u85xG2ggode4TnrjMjOLPLn4tcfLxcWEs-3FAYjXWTuPTbgaaI6lc18X0A71bsgCIV1gnk9VB98pN7K06k0F2epj0KKJMuQbZ95wZGV5EqzmCkIRkxSNkzeluo2u47A=="
+      },
+      {
+        "label": "idunn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVC40bz--QHWJOR_18VHefMD_D47AtbxH8YoMe6q70Om4YsRBDejkurTbOfZOSDSanDtbEDfNcJKV7XAZjR9qZKTQF5uVnRUTiSG76i2zCMneB12hDTnLr9Hdsv_CVpIeNcN1Qt98ueA=="
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF06I35uZ0EJnyg_QXj6IOT-j21ytqfCmJJyZak4jVNkpt_B3jVnOWykay4bkvt-1vnKpX9HtrGxoS-BjaAXRxH6ZgmKIhpKvjBG6UgKaeeYRIXP9WohBxjrN40Ja9viCj6toSFuyM5LvZaa_bpEvYQa1pY1GtjkWwzSCJy2wqoWUirvZlp4_xOwY9DuMcwpxz39d-6mOk4FoBfkwOj"
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPPywsv3eSKnqEFUoTVv_O29mxwaudvAI2oMGv1BR2KRK5ujC6WkyiULgb2AFdhhFApZIN23p47ksxf4ORgqLRWtvMzgqwEoSoq9lywmKQU-4qlN2gvLXt7VEdnyTMv3CN23qmDJgvETmZiQ=="
+      },
+      {
+        "label": "idunn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVC40bz--QHWJOR_18VHefMD_D47AtbxH8YoMe6q70Om4YsRBDejkurTbOfZOSDSanDtbEDfNcJKV7XAZjR9qZKTQF5uVnRUTiSG76i2zCMneB12hDTnLr9Hdsv_CVpIeNcN1Qt98ueA=="
+      },
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs3oBJOsgmUdxhx4rEZT2Q1--MJx8vqNe_674Uj9noManhEemUjFg0OBJc-S87tPjQUnPSGqd7IPQrG1IlqoEmxE4HdcB7ZYNKvmrUryEScD363laz-Z-w4jaDKUpyMFWyG1MugGfV5HIoQSek0r4KKUOAzqosW18o91GfDdpNgWrA58uoX8ZgBDM="
+      },
+      {
+        "label": "ug",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6hY-FXmnj6Xp3wBem_tlTXPgQ_OOtTR7SjKYOpc4_qK13TgTvDPDCkk_u85xG2ggode4TnrjMjOLPLn4tcfLxcWEs-3FAYjXWTuPTbgaaI6lc18X0A71bsgCIV1gnk9VB98pN7K06k0F2epj0KKJMuQbZ95wZGV5EqzmCkIRkxSNkzeluo2u47A=="
+      },
+      {
+        "label": "ug",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6hY-FXmnj6Xp3wBem_tlTXPgQ_OOtTR7SjKYOpc4_qK13TgTvDPDCkk_u85xG2ggode4TnrjMjOLPLn4tcfLxcWEs-3FAYjXWTuPTbgaaI6lc18X0A71bsgCIV1gnk9VB98pN7K06k0F2epj0KKJMuQbZ95wZGV5EqzmCkIRkxSNkzeluo2u47A=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxtv8ppdU_QORJLtS5zJZ_DerKM1IAq2Siy1Za5LXXuXvs5ddZwx8IGNmyHPXlI-JdJyWV__9pL_jhhoWhvKIkENjmJW_cOdVCtbi6Q2y8X_z3u8ESLqIswiNAdaxymAnQCWH_vqM04Q=="
+      },
+      {
+        "label": "lotusarise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJYz4XzZ9xL4UdU3dohxX4wt89oUgi6DC8UZzN1u7CXjJlYr2DZcAS2wmSd1O6aweZ-EfTgCBnM4mSGBjUsmJfM2isANZuO_u5e6Hg1RdoYKavNcQJv7rcG7J7FLA4RsOu9g=="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPPywsv3eSKnqEFUoTVv_O29mxwaudvAI2oMGv1BR2KRK5ujC6WkyiULgb2AFdhhFApZIN23p47ksxf4ORgqLRWtvMzgqwEoSoq9lywmKQU-4qlN2gvLXt7VEdnyTMv3CN23qmDJgvETmZiQ=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxtv8ppdU_QORJLtS5zJZ_DerKM1IAq2Siy1Za5LXXuXvs5ddZwx8IGNmyHPXlI-JdJyWV__9pL_jhhoWhvKIkENjmJW_cOdVCtbi6Q2y8X_z3u8ESLqIswiNAdaxymAnQCWH_vqM04Q=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

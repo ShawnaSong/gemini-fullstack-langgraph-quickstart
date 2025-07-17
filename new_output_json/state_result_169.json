@@ -1,0 +1,444 @@
+{
+  "file_name": "state_result_169.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.647477",
+  "data": {
+    "messages": [
+      {
+        "content": "latest events in sf",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "57b8ca1d-2405-4b99-bef4-7656d9d37ce6",
+        "example": false
+      },
+      {
+        "content": "Here's a summary of recent events in San Francisco as of July 16, 2025:\n\n**Events and Festivals:**\n\nSan Francisco is bustling with activities this July. You can enjoy the free Bhangra & Beats Night Market in downtown San Francisco on select Fridays [sftravel](https://vertexaisearch.cloud.google.com/id/0-0). Sports fans might have enjoyed the California Classic NBA Summer League at Chase Center earlier in the month [sftravel](https://vertexaisearch.cloud.google.com/id/0-0]. Bastille on Belden was celebrated on July 11th in the French Quarter [sftravel](https://vertexaisearch.cloud.google.com/id/0-0]. Looking ahead, Circus Bella will be performing free shows at PROXY in Hayes Valley on July 19th and Salesforce Park Amphitheatre on July 20th [sftravel](https://vertexaisearch.cloud.google.com/id/0-0]. Other events include SOMA Nights, the San Francisco Jewish Film Festival [bernalconnect](https://vertexaisearch.cloud.google.com/id/0-1) [sftravel](https://vertexaisearch.cloud.google.com/id/0-0], SF's Annual Dance Day at Yerba Buena Gardens, \"Sunday Streets\" in the Mission District, and the Sugartown Festival in Crockett, all on July 20th [funcheap](https://vertexaisearch.cloud.google.com/id/0-2]. Larkin Street between Eddy and O'Farrell was closed for a Shared Spaces event on July 12th [sfmta](https://vertexaisearch.cloud.google.com/id/0-3]. The annual Fourth of July celebration took place at Pier 39 with fireworks [bernalconnect](https://vertexaisearch.cloud.google.com/id/0-1) [cbsnews](https://vertexaisearch.cloud.google.com/id/0-4].\n\n**Ongoing Events & Attractions:**\n\nConsider taking a Golden Gate Bay Cruise [myguidesanfrancisco](https://vertexaisearch.cloud.google.com/id/0-5), or a day trip to Yosemite National Park [myguidesanfrancisco](https://vertexaisearch.cloud.google.com/id/0-5]. The San Francisco Giants have home games at Oracle Park throughout July and August [hautelivingsf](https://vertexaisearch.cloud.google.com/id/0-6) [san-francisco](https://vertexaisearch.cloud.google.com/id/0-7]. Several museum exhibitions are also running, including \"Matisse's Jazz Unbound\" at the de Young Museum (through July 27th), \"Wayne Thiebold: Art Comes from Art\" at the Legion of Honor (through August), and \"Ruth Azawa: Retrospective\" at SFMOMA (through September) [hautelivingsf](https://vertexaisearch.cloud.google.com/id/0-6]. \"My Fair Lady\" is playing at the San Francisco Playhouse throughout July [san-francisco](https://vertexaisearch.cloud.google.com/id/0-7) [hautelivingsf](https://vertexaisearch.cloud.google.com/id/0-6) [san-francisco](https://vertexaisearch.cloud.google.com/id/0-8].\n\n**Other News:**\n\nUnfortunately, there was a shooting in the Bayview neighborhood on July 5th, resulting in one death and four injuries [sfchronicle](https://vertexaisearch.cloud.google.com/id/0-9]. The SFPD announced the arrest of a park district homicide suspect on July 14th [sanfranciscopolice](https://vertexaisearch.cloud.google.com/id/0-10].\n\n**SFMTA and Transportation:**\n\nThe SFMTA Board of Directors held a meeting on July 15, 2025, addressing a significant budget deficit projected for July 2026 [sfmta](https://vertexaisearch.cloud.google.com/id/1-0) [sfmta](https://vertexaisearch.cloud.google.com/id/1-1) [sfmta](https://vertexaisearch.cloud.google.com/id/1-2) [sf](https://vertexaisearch.cloud.google.com/id/1-3) [sfchronicle](https://vertexaisearch.cloud.google.com/id/1-4) [localnewsmatters](https://vertexaisearch.cloud.google.com/id/1-5]. Potential Muni service cuts are being considered to address a $50 million shortfall, including shortening or combining bus routes [localnewsmatters](https://vertexaisearch.cloud.google.com/id/1-5]. The performance of the Central Subway and plans for its extension were also discussed [thevoicesf](https://vertexaisearch.cloud.google.com/id/1-7].\n\n**Republic Services Strike:**\n\nThe Republic Services workers in the Bay Area are on strike, seeking better wages, decent benefits, fair labor contracts, and safer working conditions [sfchronicle](https://vertexaisearch.cloud.google.com/id/2-0) [nbcpalmsprings](https://vertexaisearch.cloud.google.com/id/2-1) [ktvu](https://vertexaisearch.cloud.google.com/id/2-2) [wsws](https://vertexaisearch.cloud.google.com/id/2-3) [truthout](https://vertexaisearch.cloud.google.com/id/2-4) [wsws](https://vertexaisearch.cloud.google.com/id/2-5). This has led to trash piling up in some areas [sfchronicle](https://vertexaisearch.cloud.google.com/id/0-11).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "4e4af071-b24e-4849-90a0-0668f38051ef",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "recent events San Francisco July 2025",
+      "What specific topics were discussed during the SFMTA Board of Directors Meeting on July 15, 2025, and what decisions were made?",
+      "What are the specific demands of the Republic Services workers on strike in the Bay Area in July 2025?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"recent events San Francisco July 2025\" and synthesize it into a verifiable text artifact.\nHere's a summary of recent and upcoming events in San Francisco for July 2025, based on the search results:\n\n**Events & Festivals:**\n\n*   **Bhangra & Beats Night Market:** This free event celebrates San Francisco's diverse culture with Bhangra music, food, cocktails, and shopping. It takes place over two Fridays in July 2025 in downtown San Francisco [sftravel](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **California Classic NBA Summer League:** Early July at Chase Center, featuring rookies from the 2025 NBA Draft and players competing for NBA and G League roster spots. Teams include the Golden State Warriors, San Antonio Spurs, Los Angeles Lakers, and Miami Heat [sftravel](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Bastille on Belden:** Celebrated on July 11th in San Francisco's French Quarter (Belden Place) with live music, French wine, desserts, and themed dishes [sftravel](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Circus in the Parks:** Free circus performances by Circus Bella at various locations, including PROXY in Hayes Valley on July 19th and Salesforce Park Amphitheatre on July 20th [sftravel](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **San Francisco City FC:** Home games at Kezar Stadium on July 2nd, 6th, and 9th [sftravel](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **San Francisco Free Folk Festival:** The 48th annual festival will be held in person in Golden Gate Park on July 13th [sftravel](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **SOMA Nights:** A monthly festival on Folsom Street with art, food, and culture [sftravel](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **San Francisco Jewish Film Festival:** Showcases the diversity of Jewish culture through films [bernalconnect](https://vertexaisearch.cloud.google.com/id/0-1) [sftravel](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **SF's Annual Dance Day at Yerba Buena Gardens:** July 20th [funcheap](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **\"Sunday Streets\" SF's Free 1 Mile-Long Street Festival & Block Party (Mission Dist.):** July 20th [funcheap](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Sugartown Festival 2025 (Crockett):** July 20th [funcheap](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Larkin Street Shared Spaces:** On July 12th, Larkin Street between Eddy and O'Farrell will be closed for a Shared Spaces event. This event will reoccur every second Saturday of each month [sfmta](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Fourth of July Celebration at The Pier:** The annual waterfront party at PIER 39 features fireworks, local bands, food, and arts and crafts [bernalconnect](https://vertexaisearch.cloud.google.com/id/0-1) [cbsnews](https://vertexaisearch.cloud.google.com/id/0-4). The fireworks show started at 9:30 p.m. on July 4th from two barges on San Francisco Bay, one at Pier 39 and another at Aquatic Park [cbsnews](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Across The Bay 12K and 5K:** A point-to-point race starting in Sausalito, crossing the Golden Gate Bridge, and finishing in Aquatic Park [bernalconnect](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Ongoing Events & Attractions:**\n\n*   **Golden Gate Bay Cruise:** A one-hour cruise along San Francisco's waterfront, under the Golden Gate Bridge, and around Alcatraz Island [myguidesanfrancisco](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Day Trip to Yosemite National Park:** [myguidesanfrancisco](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **Napa and Sonoma Valley Wine Tour:** [myguidesanfrancisco](https://vertexaisearch.cloud.google.com/id/0-5)\n*   **San Francisco Giants at Oracle Park:** Home games throughout July and August [hautelivingsf](https://vertexaisearch.cloud.google.com/id/0-6) [san-francisco](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **de Young Museum:** \"Matisse's Jazz Unbound\" exhibition through July 27th [hautelivingsf](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Legion of Honor:** \"Wayne Thiebold: Art Comes from Art\" exhibition through August [hautelivingsf](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **SFMOMA:** \"Ruth Azawa: Retrospective\" through September [hautelivingsf](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Stern Grove Festival:** Free summertime music on Sunday afternoons. The SF Symphony performed on July 6th [hautelivingsf](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **My Fair Lady:** Playing through July at the San Francisco Playhouse [san-francisco](https://vertexaisearch.cloud.google.com/id/0-7) [hautelivingsf](https://vertexaisearch.cloud.google.com/id/0-6) [san-francisco](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**Other News & Events:**\n\n*   **Shooting in Bayview:** On July 5th, a shooting in the Bayview neighborhood killed one person and injured four others [sfchronicle](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **SFPD Arrests:** On July 14th, the SFPD announced the arrest of a park district homicide suspect [sanfranciscopolice](https://vertexaisearch.cloud.google.com/id/0-10). On July 10th, an off-duty officer made an immediate arrest of a robbery suspect [sanfranciscopolice](https://vertexaisearch.cloud.google.com/id/0-10).\n*   **Muni:** Difficulty of getting voters to approve tax measure 'should not be taken lightly' [sfchronicle](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Republic Services Strike:** Bay Area trash piles up as Republic Services strike enters second week [sfchronicle](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Board of Directors Meeting:** The SFMTA Board of Directors Meeting was held on July 15, 2025 [sfmta](https://vertexaisearch.cloud.google.com/id/0-3).\n\nPlease note that this is not an exhaustive list, and events are subject to change. For the most up-to-date information, it's recommended to check local event listings and news sources [cbsnews](https://vertexaisearch.cloud.google.com/id/0-12) [sfchronicle](https://vertexaisearch.cloud.google.com/id/0-11) [sfmta](https://vertexaisearch.cloud.google.com/id/0-3).\n",
+      "On July 15, 2025, the SFMTA Board of Directors held a public hearing covering several key items [sfmta](https://vertexaisearch.cloud.google.com/id/1-0) [sfmta](https://vertexaisearch.cloud.google.com/id/1-1). The meeting, which commenced at 1:00 PM, took place at City Hall, located at 1 Dr. Carlton B. Goodlett Place, San Francisco, CA [sfmta](https://vertexaisearch.cloud.google.com/id/1-2) [sfmta](https://vertexaisearch.cloud.google.com/id/1-1).\n\nHere's a summary of the topics discussed and potential decisions:\n\n*   **Budget Deficit:** The SFMTA is facing a significant budget deficit, projected to reach $322 million by July 2026 [sf](https://vertexaisearch.cloud.google.com/id/1-3) [sfchronicle](https://vertexaisearch.cloud.google.com/id/1-4) [localnewsmatters](https://vertexaisearch.cloud.google.com/id/1-5). A report was released by the Controller's Office that identifies potential options to address this deficit and avoid service cuts [sf](https://vertexaisearch.cloud.google.com/id/1-3). These options include a combination of service cuts, funding options, and efficiencies [sf](https://vertexaisearch.cloud.google.com/id/1-3) [sf](https://vertexaisearch.cloud.google.com/id/1-6). The SFMTA Board, along with the Mayor and Board of Supervisors, will make final decisions on these options as part of the FY27 budget process, starting in fall 2025 [sf](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Muni Service Cuts:** The SFMTA is considering shortening or combining five Muni bus routes to close a looming $50 million budget deficit [localnewsmatters](https://vertexaisearch.cloud.google.com/id/1-5). The 5-Fulton and 9-San Bruno buses might turn around once they hit Market Street, while the 31-Balboa bus would also turn around [localnewsmatters](https://vertexaisearch.cloud.google.com/id/1-5). The 6-Haight/Parnassus and 21-Hayes routes could combine into one line [localnewsmatters](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Central Subway:** A hearing was requested from the SFMTA to address the performance of the Central Subway since its opening in January 2023, as well as plans for an extension to North Beach and Fisherman's Wharf [thevoicesf](https://vertexaisearch.cloud.google.com/id/1-7). Short-term plans to improve the subway service's speed and reliability were also to be discussed [thevoicesf](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **Parking Regulations:** The board considered approving parking regulations and amending the Transportation Code regarding permit parking near City Hall [sfmta](https://vertexaisearch.cloud.google.com/id/1-0). This included establishing commercial loading, passenger loading, short-term parking, and blue zone parking on Grove Street, Van Ness Avenue, and Dr. Carlton B. Goodlett Place [sfmta](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Muni Vehicle Parking:** An amendment to the Transportation Code was proposed to designate full-time and part-time Muni Vehicle Parking on Lenox Way [sfmta](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Lease Amendment:** A lease amendment for the TJPA Salesforce Transit Center was on the agenda [sfmta](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Disadvantaged Business Enterprises (DBE) Goal:** The board was expected to discuss and potentially approve the FY26-28 Overall Disadvantaged Business Enterprises (DBE) Goal [sfmta](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Contract Approval:** A contract approval for the Potrero Yard Modernization Project was listed on the agenda [sfmta](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Quarterly Transit Update:** A quarterly transit update was scheduled to be presented [sfmta](https://vertexaisearch.cloud.google.com/id/1-1).\n\nPlease note that the information above is based on the meeting agenda and related documents. For detailed outcomes and decisions, the official meeting minutes should be consulted [sfbos](https://vertexaisearch.cloud.google.com/id/1-8) [sfmta](https://vertexaisearch.cloud.google.com/id/1-1).\n",
+      "The Republic Services workers in the Bay Area are currently on strike, primarily represented by the International Brotherhood of Teamsters Union [sfchronicle](https://vertexaisearch.cloud.google.com/id/2-0). The strike is a solidarity action with other Republic Services workers across the nation who are also striking [nbcpalmsprings](https://vertexaisearch.cloud.google.com/id/2-1) [sfchronicle](https://vertexaisearch.cloud.google.com/id/2-0) [ktvu](https://vertexaisearch.cloud.google.com/id/2-2). The key demands of the striking workers include:\n\n*   **Better Wages:** Workers are seeking \"living wages\" that allow them to afford to live in the expensive areas they serve, such as San Francisco and Boston [wsws](https://vertexaisearch.cloud.google.com/id/2-3). They are asking for substantial pay increases [wsws](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Decent Benefits:** The workers are asking for better benefits, specifically affordable health insurance and retirement security [wsws](https://vertexaisearch.cloud.google.com/id/2-3) [ktvu](https://vertexaisearch.cloud.google.com/id/2-2) [sfchronicle](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Fair Labor Contracts:** The Teamsters accuse Republic Services of not bargaining in good faith and not settling fair labor contracts [truthout](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Safer Working Conditions:** Sanitation work is considered one of the deadliest jobs in the country, and workers are demanding safer working conditions [wsws](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Comparable Wages and Benefits:** Republic Services trash haulers are seeking wages and benefits comparable to competitors like Capitol Waste and Star Waste Systems [wsws](https://vertexaisearch.cloud.google.com/id/2-5).\n\nTeamsters General President Sean M. O'Brien stated that Republic Services is unwilling to offer workers good wages, decent benefits, or a fair contract [sfchronicle](https://vertexaisearch.cloud.google.com/id/2-0). He also accused the company of burning massive profits and funneling money to \"undeserving, corrupt executives\" [truthout](https://vertexaisearch.cloud.google.com/id/2-4). The union has warned that the strike could spread and shut down garbage collection in state after state if their demands are not met [truthout](https://vertexaisearch.cloud.google.com/id/2-4) [ktvu](https://vertexaisearch.cloud.google.com/id/2-6) [ktvu](https://vertexaisearch.cloud.google.com/id/2-2).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "sftravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwSv1sa4auCGxxnroEJIkK1dTG4E_Y4HP8w-eVaoSPNZE3TiN6i0uegUHfdeh6eVCZ0qa2DHdKftqE4p1qHK0RBnTxAgpCmPQyeYyOnNTx_QoXOm60edCAfQzOF6Fhf29BuZhArn3WCrRQ2XtTh1bw_OZBZMZALDaUuqeVvta3"
+      },
+      {
+        "label": "sftravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwSv1sa4auCGxxnroEJIkK1dTG4E_Y4HP8w-eVaoSPNZE3TiN6i0uegUHfdeh6eVCZ0qa2DHdKftqE4p1qHK0RBnTxAgpCmPQyeYyOnNTx_QoXOm60edCAfQzOF6Fhf29BuZhArn3WCrRQ2XtTh1bw_OZBZMZALDaUuqeVvta3"
+      },
+      {
+        "label": "sftravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwSv1sa4auCGxxnroEJIkK1dTG4E_Y4HP8w-eVaoSPNZE3TiN6i0uegUHfdeh6eVCZ0qa2DHdKftqE4p1qHK0RBnTxAgpCmPQyeYyOnNTx_QoXOm60edCAfQzOF6Fhf29BuZhArn3WCrRQ2XtTh1bw_OZBZMZALDaUuqeVvta3"
+      },
+      {
+        "label": "sftravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwSv1sa4auCGxxnroEJIkK1dTG4E_Y4HP8w-eVaoSPNZE3TiN6i0uegUHfdeh6eVCZ0qa2DHdKftqE4p1qHK0RBnTxAgpCmPQyeYyOnNTx_QoXOm60edCAfQzOF6Fhf29BuZhArn3WCrRQ2XtTh1bw_OZBZMZALDaUuqeVvta3"
+      },
+      {
+        "label": "sftravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwSv1sa4auCGxxnroEJIkK1dTG4E_Y4HP8w-eVaoSPNZE3TiN6i0uegUHfdeh6eVCZ0qa2DHdKftqE4p1qHK0RBnTxAgpCmPQyeYyOnNTx_QoXOm60edCAfQzOF6Fhf29BuZhArn3WCrRQ2XtTh1bw_OZBZMZALDaUuqeVvta3"
+      },
+      {
+        "label": "sftravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwSv1sa4auCGxxnroEJIkK1dTG4E_Y4HP8w-eVaoSPNZE3TiN6i0uegUHfdeh6eVCZ0qa2DHdKftqE4p1qHK0RBnTxAgpCmPQyeYyOnNTx_QoXOm60edCAfQzOF6Fhf29BuZhArn3WCrRQ2XtTh1bw_OZBZMZALDaUuqeVvta3"
+      },
+      {
+        "label": "sftravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwSv1sa4auCGxxnroEJIkK1dTG4E_Y4HP8w-eVaoSPNZE3TiN6i0uegUHfdeh6eVCZ0qa2DHdKftqE4p1qHK0RBnTxAgpCmPQyeYyOnNTx_QoXOm60edCAfQzOF6Fhf29BuZhArn3WCrRQ2XtTh1bw_OZBZMZALDaUuqeVvta3"
+      },
+      {
+        "label": "bernalconnect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWGytaTWgJ9pkQQDixzIBoLYnp_t_eIzTw4dCZL8K4z_GwfJBX3rCw-p9san1oX9Zq4ec6dLXFG7Q1CDHMwqZSBuLxXOFImNcVwxaXwRlCtVnuQbG2U4KRo2waJrgL59NpKsSY0chlPNejTdFx44I="
+      },
+      {
+        "label": "sftravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwSv1sa4auCGxxnroEJIkK1dTG4E_Y4HP8w-eVaoSPNZE3TiN6i0uegUHfdeh6eVCZ0qa2DHdKftqE4p1qHK0RBnTxAgpCmPQyeYyOnNTx_QoXOm60edCAfQzOF6Fhf29BuZhArn3WCrRQ2XtTh1bw_OZBZMZALDaUuqeVvta3"
+      },
+      {
+        "label": "funcheap",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaWqEfbe7miJnG9Nl941ESnncnYaIc2PUt43ZRYN44iYd6bNUSAGgtsP27Lkom4hI4lUrU3vK37r7mxnlCwEodl13xHf8UC4h8GuoAPqibgemWDF_E3jfF7qKmxrIE"
+      },
+      {
+        "label": "funcheap",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaWqEfbe7miJnG9Nl941ESnncnYaIc2PUt43ZRYN44iYd6bNUSAGgtsP27Lkom4hI4lUrU3vK37r7mxnlCwEodl13xHf8UC4h8GuoAPqibgemWDF_E3jfF7qKmxrIE"
+      },
+      {
+        "label": "funcheap",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaWqEfbe7miJnG9Nl941ESnncnYaIc2PUt43ZRYN44iYd6bNUSAGgtsP27Lkom4hI4lUrU3vK37r7mxnlCwEodl13xHf8UC4h8GuoAPqibgemWDF_E3jfF7qKmxrIE"
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbhb9-8RYsiBiZeIM8eMX5MdrK8_JctyWSafHSys3rjN5KexxKpiVOKsc_tbsw--tYvGNxm4io0Vj-xKBTN6yTlOXPrdym3NsReqcFI1wJsRylUgsZj-RqVe5wsCt22KwP4afMC3P0W8Xgz7CLOiM="
+      },
+      {
+        "label": "bernalconnect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWGytaTWgJ9pkQQDixzIBoLYnp_t_eIzTw4dCZL8K4z_GwfJBX3rCw-p9san1oX9Zq4ec6dLXFG7Q1CDHMwqZSBuLxXOFImNcVwxaXwRlCtVnuQbG2U4KRo2waJrgL59NpKsSY0chlPNejTdFx44I="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4pvWoYqUR9cE4h-qxSoKHQYhRdzuXeQIBBn5tLRh10-dLcgvg3QKPHdaKGwcEMf2OzEq_LiRgHQl20_vRv6IwS6VSDvi56HWlro9kU1Q5lZnh7VYchXCdQYA2mBfcmsvnRawpPW3rnzBBuX6Ys6vCn6ctcNgvDzXxXjM3zd5SlAnCnuaTKniswrVKcbLcVPdcQdpZFLadPKgeSPta"
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4pvWoYqUR9cE4h-qxSoKHQYhRdzuXeQIBBn5tLRh10-dLcgvg3QKPHdaKGwcEMf2OzEq_LiRgHQl20_vRv6IwS6VSDvi56HWlro9kU1Q5lZnh7VYchXCdQYA2mBfcmsvnRawpPW3rnzBBuX6Ys6vCn6ctcNgvDzXxXjM3zd5SlAnCnuaTKniswrVKcbLcVPdcQdpZFLadPKgeSPta"
+      },
+      {
+        "label": "bernalconnect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWGytaTWgJ9pkQQDixzIBoLYnp_t_eIzTw4dCZL8K4z_GwfJBX3rCw-p9san1oX9Zq4ec6dLXFG7Q1CDHMwqZSBuLxXOFImNcVwxaXwRlCtVnuQbG2U4KRo2waJrgL59NpKsSY0chlPNejTdFx44I="
+      },
+      {
+        "label": "myguidesanfrancisco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWeriyalEzNY4wMjpWsV644QJ5XhZjMuJGAjht2LVjDL5xwlEqVDQiEJNK0BIzxEWQyT0psC7y9xO3s2NhoKdrZBvp70cWYqp14y_8MdfnNOWzXKJgrF0yRwvHJyqSnXkXbNzgQJBCQyRljJ71QIc="
+      },
+      {
+        "label": "myguidesanfrancisco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWeriyalEzNY4wMjpWsV644QJ5XhZjMuJGAjht2LVjDL5xwlEqVDQiEJNK0BIzxEWQyT0psC7y9xO3s2NhoKdrZBvp70cWYqp14y_8MdfnNOWzXKJgrF0yRwvHJyqSnXkXbNzgQJBCQyRljJ71QIc="
+      },
+      {
+        "label": "myguidesanfrancisco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWeriyalEzNY4wMjpWsV644QJ5XhZjMuJGAjht2LVjDL5xwlEqVDQiEJNK0BIzxEWQyT0psC7y9xO3s2NhoKdrZBvp70cWYqp14y_8MdfnNOWzXKJgrF0yRwvHJyqSnXkXbNzgQJBCQyRljJ71QIc="
+      },
+      {
+        "label": "hautelivingsf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-mXu18vz3zZWtrYCZakM-aG0bDuIfd8NpS5IOHj64dQTYwNeXHDTIT7xsCACSFw0mK9xuPUbGGBzS3DIj5Gr8x9jB2F9Rm__tETUPiEm80Z4JNkqzNTNKIh3fyxY7QR81-77liICPTpPxHU87wGpMcGKoeim_10N3P6eWCnY="
+      },
+      {
+        "label": "san-francisco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXbWasi-apPXz0zJurc1xIG0ndEMf9IfuJ8GgWnW8n0MVrZUHDKATmxY7f7dCoTXWeGX_-uxNMr4bMo4ZfAaxOZKrtdS2lHCjahmQVm3oYoHa_m9R2Xe9"
+      },
+      {
+        "label": "hautelivingsf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-mXu18vz3zZWtrYCZakM-aG0bDuIfd8NpS5IOHj64dQTYwNeXHDTIT7xsCACSFw0mK9xuPUbGGBzS3DIj5Gr8x9jB2F9Rm__tETUPiEm80Z4JNkqzNTNKIh3fyxY7QR81-77liICPTpPxHU87wGpMcGKoeim_10N3P6eWCnY="
+      },
+      {
+        "label": "hautelivingsf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-mXu18vz3zZWtrYCZakM-aG0bDuIfd8NpS5IOHj64dQTYwNeXHDTIT7xsCACSFw0mK9xuPUbGGBzS3DIj5Gr8x9jB2F9Rm__tETUPiEm80Z4JNkqzNTNKIh3fyxY7QR81-77liICPTpPxHU87wGpMcGKoeim_10N3P6eWCnY="
+      },
+      {
+        "label": "hautelivingsf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-mXu18vz3zZWtrYCZakM-aG0bDuIfd8NpS5IOHj64dQTYwNeXHDTIT7xsCACSFw0mK9xuPUbGGBzS3DIj5Gr8x9jB2F9Rm__tETUPiEm80Z4JNkqzNTNKIh3fyxY7QR81-77liICPTpPxHU87wGpMcGKoeim_10N3P6eWCnY="
+      },
+      {
+        "label": "hautelivingsf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-mXu18vz3zZWtrYCZakM-aG0bDuIfd8NpS5IOHj64dQTYwNeXHDTIT7xsCACSFw0mK9xuPUbGGBzS3DIj5Gr8x9jB2F9Rm__tETUPiEm80Z4JNkqzNTNKIh3fyxY7QR81-77liICPTpPxHU87wGpMcGKoeim_10N3P6eWCnY="
+      },
+      {
+        "label": "san-francisco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMXbWasi-apPXz0zJurc1xIG0ndEMf9IfuJ8GgWnW8n0MVrZUHDKATmxY7f7dCoTXWeGX_-uxNMr4bMo4ZfAaxOZKrtdS2lHCjahmQVm3oYoHa_m9R2Xe9"
+      },
+      {
+        "label": "hautelivingsf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-mXu18vz3zZWtrYCZakM-aG0bDuIfd8NpS5IOHj64dQTYwNeXHDTIT7xsCACSFw0mK9xuPUbGGBzS3DIj5Gr8x9jB2F9Rm__tETUPiEm80Z4JNkqzNTNKIh3fyxY7QR81-77liICPTpPxHU87wGpMcGKoeim_10N3P6eWCnY="
+      },
+      {
+        "label": "san-francisco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN6l93oLuJV_-nCPIaELUFGMxf7Kg-57ymuRD1W7dpG7p0bEsVdZCsnwJQq7Bw7287NqtFjFb6PKsDna3Ud40wULQ3f1Kz7tZfcw-hS_gs3GKcdcwosNTiSNU-oK8="
+      },
+      {
+        "label": "sfchronicle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuV6QC97kcGXLub-A6T3og-BAp6JBzNp5of55AENmU0yNB7FgtrcNc58x3vdzDT_2hWEkl-hxh6Kvcygi12ud-mv92XaA56GGyy-P-UZUZ6dYYEJi0e4aKHJwiyfNIb__Qcz_KYaWSWmPj62UVllQ8YcLQ0iBGK3L_KbWaLNrSPp4v5vxOx0ydf5Im"
+      },
+      {
+        "label": "sanfranciscopolice",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4sjNs7YOwlVRnIj2oJnsWTBpSFXC6EH1CcYIdBrnaw6E5csjoEZaBt2Zo9OdjHYYOCx09OIxSpg1VD_RMIU1ueSnuxUxsdUyA2V2es3eV0TcvJoEBIwMx9zysF2l"
+      },
+      {
+        "label": "sanfranciscopolice",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4sjNs7YOwlVRnIj2oJnsWTBpSFXC6EH1CcYIdBrnaw6E5csjoEZaBt2Zo9OdjHYYOCx09OIxSpg1VD_RMIU1ueSnuxUxsdUyA2V2es3eV0TcvJoEBIwMx9zysF2l"
+      },
+      {
+        "label": "sfchronicle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd9xONycFwme4z38uIATxum-ffwWaK7bqsZAErf1YKo3oqvh9mna3Y9vzJgU1-18PeJ__0GXl3c5rM-r1oo5-r1DMhv5YoahU5MWQvtNvhZwFfkshv28M="
+      },
+      {
+        "label": "sfchronicle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd9xONycFwme4z38uIATxum-ffwWaK7bqsZAErf1YKo3oqvh9mna3Y9vzJgU1-18PeJ__0GXl3c5rM-r1oo5-r1DMhv5YoahU5MWQvtNvhZwFfkshv28M="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbhb9-8RYsiBiZeIM8eMX5MdrK8_JctyWSafHSys3rjN5KexxKpiVOKsc_tbsw--tYvGNxm4io0Vj-xKBTN6yTlOXPrdym3NsReqcFI1wJsRylUgsZj-RqVe5wsCt22KwP4afMC3P0W8Xgz7CLOiM="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3s9xM0Zs1hkuD6-FhwJ9SRxXVrxEwlkOpb7t4G9180mclOtQcxa09u53GGWy4kSoScaIoGTw6Bo8fW51J5bviOG3xaJ1Pnqi7TlKtd_UEgCYI_NOkwFOmVcyXEQnMNnBuMNUSu2sB9tK9z-kUVEKuCA4M_F4x2E0sPYDrJfD-tZMZOr1kaw=="
+      },
+      {
+        "label": "sfchronicle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd9xONycFwme4z38uIATxum-ffwWaK7bqsZAErf1YKo3oqvh9mna3Y9vzJgU1-18PeJ__0GXl3c5rM-r1oo5-r1DMhv5YoahU5MWQvtNvhZwFfkshv28M="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbhb9-8RYsiBiZeIM8eMX5MdrK8_JctyWSafHSys3rjN5KexxKpiVOKsc_tbsw--tYvGNxm4io0Vj-xKBTN6yTlOXPrdym3NsReqcFI1wJsRylUgsZj-RqVe5wsCt22KwP4afMC3P0W8Xgz7CLOiM="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQRs0itQUOw0Wqe5PBcDjUu8Joj5GhNRrT0oqDJ5eJvugfsn7-lCRMG1QykEgwltQb4tL3zAsUU_KreT09BXa9oCsR6EHCuefAXG754UfzW1WcCBtrscFi1OOFyBni8zxVwlrKdq7RO7P-3fEwK6cQwjXfmw-KCMD3Moc0nqKfHD9x1tUDc8W5r50-2358qzLCNYli-y9cbAM="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKflSlWHsxCXYbS8hNKecZMwHc-RQKb0AKJE-AUAR5m5QH8m53OA2ruOIgHn2U8Q9U0sadXo5ItXtDNO1nNFvILNmMy006xzS6OsCF9YdEYiMfnHQyT2fk7HfHI3QAK4TyXmrvwrSLEPxI9I6Hps8akFzbCwWBNR76fvvdxv4="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHvxyyKApuhzxbH_lMYdGYlnYWa1p3WvISNcmRkHD-cy246Ivt_SzgIQpfC-YP0yFNtxTRwDB8lFyR74TmgJofvjbSXYUZ_E8Ub7UgswKDE9ciVZasseuiRyCXlFoEvBk="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKflSlWHsxCXYbS8hNKecZMwHc-RQKb0AKJE-AUAR5m5QH8m53OA2ruOIgHn2U8Q9U0sadXo5ItXtDNO1nNFvILNmMy006xzS6OsCF9YdEYiMfnHQyT2fk7HfHI3QAK4TyXmrvwrSLEPxI9I6Hps8akFzbCwWBNR76fvvdxv4="
+      },
+      {
+        "label": "sf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQRdTLIb8O5OTgLW2hkgsUUeM0b-_tDyvrDP9JW1frYSeEJzYfpRGb9GCpJQxWbYiC_33T-SWWMbJYuoMx07RdzuZTtnlHlIxdNMRHTGDVme-Y-qcBtIAUHIlP4XLOPeVHA-KgBcyB_8m7H3Ov0jvOIYJoRxuR1ZdjSQ_A6XIdfItM4AY9Z2uB-GM_4wnErIKKtnqwt_vmgRFW4YVFxS34LdZmU-VujtaaBh5DX7BjGJswJJjgO2o="
+      },
+      {
+        "label": "sfchronicle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs3ll-2bznVXGsWDJPK_JMO3lpKDoqHIk-hh3xMQwO1jDKoXHz2bCgGkFLE-WF7tBoGr5v8sax1p2yAI-fUgCgTK7pJXHVrqQe7BuJFrS17XmtfASl5hVHoqarEVx2NWdw2hjQVH4RbmjUdPGiRGsmxPv8sNuJUpPbeJDXxHHM"
+      },
+      {
+        "label": "localnewsmatters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOgKRopo5iZ0rHUBRj79dn5eRQliAfY7V-fuZ5imfOlWAKg2TkKbCHh6pwH_56EyaLouLYv0s62-22PG-xTs1rts3cRHru9TOet6LluwEj7IKDrdzUSgv5zvxpJtrM7mhnDldae8tyFtZN94EBARUXme4XW7JBHXKSsox4WS2i9fH2nfbOYK96IaTPzr7hTVFgW9mMd8XL4YGWc4PHgus3xEg-IAPAjSGprqYgH5mzCLTk"
+      },
+      {
+        "label": "sf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQRdTLIb8O5OTgLW2hkgsUUeM0b-_tDyvrDP9JW1frYSeEJzYfpRGb9GCpJQxWbYiC_33T-SWWMbJYuoMx07RdzuZTtnlHlIxdNMRHTGDVme-Y-qcBtIAUHIlP4XLOPeVHA-KgBcyB_8m7H3Ov0jvOIYJoRxuR1ZdjSQ_A6XIdfItM4AY9Z2uB-GM_4wnErIKKtnqwt_vmgRFW4YVFxS34LdZmU-VujtaaBh5DX7BjGJswJJjgO2o="
+      },
+      {
+        "label": "sf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQRdTLIb8O5OTgLW2hkgsUUeM0b-_tDyvrDP9JW1frYSeEJzYfpRGb9GCpJQxWbYiC_33T-SWWMbJYuoMx07RdzuZTtnlHlIxdNMRHTGDVme-Y-qcBtIAUHIlP4XLOPeVHA-KgBcyB_8m7H3Ov0jvOIYJoRxuR1ZdjSQ_A6XIdfItM4AY9Z2uB-GM_4wnErIKKtnqwt_vmgRFW4YVFxS34LdZmU-VujtaaBh5DX7BjGJswJJjgO2o="
+      },
+      {
+        "label": "sf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2uQ3JT5jC8elI6qlA-Xzy4WcTM07j2HFvYecMJEVCK5dzkQZ0u3gAOSYgYMhDFTuQalJMPIHN3YajZaTjMbITM7NMa5TwLhBp6uBP-RVl9s2WBWdPOF33DsTgD8pvVReNLNyMweZxfQ=="
+      },
+      {
+        "label": "sf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQRdTLIb8O5OTgLW2hkgsUUeM0b-_tDyvrDP9JW1frYSeEJzYfpRGb9GCpJQxWbYiC_33T-SWWMbJYuoMx07RdzuZTtnlHlIxdNMRHTGDVme-Y-qcBtIAUHIlP4XLOPeVHA-KgBcyB_8m7H3Ov0jvOIYJoRxuR1ZdjSQ_A6XIdfItM4AY9Z2uB-GM_4wnErIKKtnqwt_vmgRFW4YVFxS34LdZmU-VujtaaBh5DX7BjGJswJJjgO2o="
+      },
+      {
+        "label": "localnewsmatters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOgKRopo5iZ0rHUBRj79dn5eRQliAfY7V-fuZ5imfOlWAKg2TkKbCHh6pwH_56EyaLouLYv0s62-22PG-xTs1rts3cRHru9TOet6LluwEj7IKDrdzUSgv5zvxpJtrM7mhnDldae8tyFtZN94EBARUXme4XW7JBHXKSsox4WS2i9fH2nfbOYK96IaTPzr7hTVFgW9mMd8XL4YGWc4PHgus3xEg-IAPAjSGprqYgH5mzCLTk"
+      },
+      {
+        "label": "localnewsmatters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOgKRopo5iZ0rHUBRj79dn5eRQliAfY7V-fuZ5imfOlWAKg2TkKbCHh6pwH_56EyaLouLYv0s62-22PG-xTs1rts3cRHru9TOet6LluwEj7IKDrdzUSgv5zvxpJtrM7mhnDldae8tyFtZN94EBARUXme4XW7JBHXKSsox4WS2i9fH2nfbOYK96IaTPzr7hTVFgW9mMd8XL4YGWc4PHgus3xEg-IAPAjSGprqYgH5mzCLTk"
+      },
+      {
+        "label": "localnewsmatters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOgKRopo5iZ0rHUBRj79dn5eRQliAfY7V-fuZ5imfOlWAKg2TkKbCHh6pwH_56EyaLouLYv0s62-22PG-xTs1rts3cRHru9TOet6LluwEj7IKDrdzUSgv5zvxpJtrM7mhnDldae8tyFtZN94EBARUXme4XW7JBHXKSsox4WS2i9fH2nfbOYK96IaTPzr7hTVFgW9mMd8XL4YGWc4PHgus3xEg-IAPAjSGprqYgH5mzCLTk"
+      },
+      {
+        "label": "thevoicesf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvpCkEJdrJDH2ZcEU5iWH9pKblGCkahRZLgT6JpFrZtvk1VuH-V6vBIkR8JL2XYUgkYenqZ-LXeYiv4empFYhasmSut9meX38HYwqkRaoG8hcNyT2lbUY61AEhBoJy-F6XfkG9iD7SjgOPCrS7uPsmR69RDejRjifxOOH4km0r-Zpdm9Lsdy1vf_P32zNc0D8L6uDQICsPDdyPOeP4Sas="
+      },
+      {
+        "label": "thevoicesf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvpCkEJdrJDH2ZcEU5iWH9pKblGCkahRZLgT6JpFrZtvk1VuH-V6vBIkR8JL2XYUgkYenqZ-LXeYiv4empFYhasmSut9meX38HYwqkRaoG8hcNyT2lbUY61AEhBoJy-F6XfkG9iD7SjgOPCrS7uPsmR69RDejRjifxOOH4km0r-Zpdm9Lsdy1vf_P32zNc0D8L6uDQICsPDdyPOeP4Sas="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQRs0itQUOw0Wqe5PBcDjUu8Joj5GhNRrT0oqDJ5eJvugfsn7-lCRMG1QykEgwltQb4tL3zAsUU_KreT09BXa9oCsR6EHCuefAXG754UfzW1WcCBtrscFi1OOFyBni8zxVwlrKdq7RO7P-3fEwK6cQwjXfmw-KCMD3Moc0nqKfHD9x1tUDc8W5r50-2358qzLCNYli-y9cbAM="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQRs0itQUOw0Wqe5PBcDjUu8Joj5GhNRrT0oqDJ5eJvugfsn7-lCRMG1QykEgwltQb4tL3zAsUU_KreT09BXa9oCsR6EHCuefAXG754UfzW1WcCBtrscFi1OOFyBni8zxVwlrKdq7RO7P-3fEwK6cQwjXfmw-KCMD3Moc0nqKfHD9x1tUDc8W5r50-2358qzLCNYli-y9cbAM="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQRs0itQUOw0Wqe5PBcDjUu8Joj5GhNRrT0oqDJ5eJvugfsn7-lCRMG1QykEgwltQb4tL3zAsUU_KreT09BXa9oCsR6EHCuefAXG754UfzW1WcCBtrscFi1OOFyBni8zxVwlrKdq7RO7P-3fEwK6cQwjXfmw-KCMD3Moc0nqKfHD9x1tUDc8W5r50-2358qzLCNYli-y9cbAM="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKflSlWHsxCXYbS8hNKecZMwHc-RQKb0AKJE-AUAR5m5QH8m53OA2ruOIgHn2U8Q9U0sadXo5ItXtDNO1nNFvILNmMy006xzS6OsCF9YdEYiMfnHQyT2fk7HfHI3QAK4TyXmrvwrSLEPxI9I6Hps8akFzbCwWBNR76fvvdxv4="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKflSlWHsxCXYbS8hNKecZMwHc-RQKb0AKJE-AUAR5m5QH8m53OA2ruOIgHn2U8Q9U0sadXo5ItXtDNO1nNFvILNmMy006xzS6OsCF9YdEYiMfnHQyT2fk7HfHI3QAK4TyXmrvwrSLEPxI9I6Hps8akFzbCwWBNR76fvvdxv4="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKflSlWHsxCXYbS8hNKecZMwHc-RQKb0AKJE-AUAR5m5QH8m53OA2ruOIgHn2U8Q9U0sadXo5ItXtDNO1nNFvILNmMy006xzS6OsCF9YdEYiMfnHQyT2fk7HfHI3QAK4TyXmrvwrSLEPxI9I6Hps8akFzbCwWBNR76fvvdxv4="
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKflSlWHsxCXYbS8hNKecZMwHc-RQKb0AKJE-AUAR5m5QH8m53OA2ruOIgHn2U8Q9U0sadXo5ItXtDNO1nNFvILNmMy006xzS6OsCF9YdEYiMfnHQyT2fk7HfHI3QAK4TyXmrvwrSLEPxI9I6Hps8akFzbCwWBNR76fvvdxv4="
+      },
+      {
+        "label": "sfbos",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnrdnGqinxDa43a1AScCWJVcjmW6FfLK_KseXctaA15f9roxYV1SBSNY9O1zufN9LTAJ9F3CdJPWU_OmaXZ5NcXb-YiEeqgI3Vcou8MywATg1jNpZuvaKI9y-6Obsa40QZ-F_6KiXIJdyxaYjnTO4iHjXbZQUE"
+      },
+      {
+        "label": "sfmta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKflSlWHsxCXYbS8hNKecZMwHc-RQKb0AKJE-AUAR5m5QH8m53OA2ruOIgHn2U8Q9U0sadXo5ItXtDNO1nNFvILNmMy006xzS6OsCF9YdEYiMfnHQyT2fk7HfHI3QAK4TyXmrvwrSLEPxI9I6Hps8akFzbCwWBNR76fvvdxv4="
+      },
+      {
+        "label": "sfchronicle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBgYUfM0AeHR_CdIi7AfGN60B7vJK50x7I-FW12qWL4j98NDnqb5qOVX1TLT9Vh1Fp4kCiwW0e8cHwAKcpSRZShTE2bxoiZ5tKSH-8vDzniG1Z-5pOS91FnhFn1VATlEaujKE2YWsJCKuAWAQzDwNhrAgpGsMvMuCW3nfWPD7GsomtrPP41bW6jqOpcs1Hm_YKCqG6Ip5EcL72GxcdOFmftA=="
+      },
+      {
+        "label": "nbcpalmsprings",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhYc_a_KEv4lV1XAMZUuUEK9LnUiGExY0UVen_Zz1QIyMz9FKBVKiVZfUfHOUIn9FKbWk5oI7jZiAx1AQgi6Ti7VeMqQlXCWNHltg3obC1nBZzfnMFqiQ7kGqraoqTp8L4wWMbIrVUz1HL2I6gtR5V1vPvfbYol-5vN-33UaPkb5dO1F1KaQTncH15Q1ULS23_4Y7J0NB5Q3vxomGY9DNtIVaULP2Kdnwzeo4AZ-VA"
+      },
+      {
+        "label": "sfchronicle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBgYUfM0AeHR_CdIi7AfGN60B7vJK50x7I-FW12qWL4j98NDnqb5qOVX1TLT9Vh1Fp4kCiwW0e8cHwAKcpSRZShTE2bxoiZ5tKSH-8vDzniG1Z-5pOS91FnhFn1VATlEaujKE2YWsJCKuAWAQzDwNhrAgpGsMvMuCW3nfWPD7GsomtrPP41bW6jqOpcs1Hm_YKCqG6Ip5EcL72GxcdOFmftA=="
+      },
+      {
+        "label": "ktvu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqtHAF9r1gMMj6SEdeP_d0RXBcARwp7V2TALpRDgBAWBCb90e3ewH2uQstVTLvC1IKQdxFfmJfGYMJ2on6HtaDUngT3H86eM6VBJNkEbsL-Cux73bqnlpNs1M4bOaWUFtu-hVpOEPbHvSL9RowiLdc5_lJF1p0eu8eZCBaSyVxsgFOBheTIiyVoLKZiR8Ph7851p47E-XX"
+      },
+      {
+        "label": "wsws",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMTNWGUeyn7bnD9JcQ44oosFhIv9spDbfeVV0-_NRe6c_2mMQlwWzXGMmgtZYipkjyWiY57HkiSAfQQQ6oJbY8kLu_dr1Ewq7ZTxEDLYLEE2cJnr011Q57-DqXo18w8ZynrlbBb9Q8KWO01t4SkMqB2Ou_hA=="
+      },
+      {
+        "label": "wsws",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMTNWGUeyn7bnD9JcQ44oosFhIv9spDbfeVV0-_NRe6c_2mMQlwWzXGMmgtZYipkjyWiY57HkiSAfQQQ6oJbY8kLu_dr1Ewq7ZTxEDLYLEE2cJnr011Q57-DqXo18w8ZynrlbBb9Q8KWO01t4SkMqB2Ou_hA=="
+      },
+      {
+        "label": "wsws",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMTNWGUeyn7bnD9JcQ44oosFhIv9spDbfeVV0-_NRe6c_2mMQlwWzXGMmgtZYipkjyWiY57HkiSAfQQQ6oJbY8kLu_dr1Ewq7ZTxEDLYLEE2cJnr011Q57-DqXo18w8ZynrlbBb9Q8KWO01t4SkMqB2Ou_hA=="
+      },
+      {
+        "label": "ktvu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqtHAF9r1gMMj6SEdeP_d0RXBcARwp7V2TALpRDgBAWBCb90e3ewH2uQstVTLvC1IKQdxFfmJfGYMJ2on6HtaDUngT3H86eM6VBJNkEbsL-Cux73bqnlpNs1M4bOaWUFtu-hVpOEPbHvSL9RowiLdc5_lJF1p0eu8eZCBaSyVxsgFOBheTIiyVoLKZiR8Ph7851p47E-XX"
+      },
+      {
+        "label": "sfchronicle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBgYUfM0AeHR_CdIi7AfGN60B7vJK50x7I-FW12qWL4j98NDnqb5qOVX1TLT9Vh1Fp4kCiwW0e8cHwAKcpSRZShTE2bxoiZ5tKSH-8vDzniG1Z-5pOS91FnhFn1VATlEaujKE2YWsJCKuAWAQzDwNhrAgpGsMvMuCW3nfWPD7GsomtrPP41bW6jqOpcs1Hm_YKCqG6Ip5EcL72GxcdOFmftA=="
+      },
+      {
+        "label": "truthout",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxM6opzpl-BVpsVBdeUyIxjKLA_sVLhYOF8r7dNz3fkW0VKpl0OuX7MRuWyi8-qjYv0GodxwazCbmySoaNA9See3D6r7FxeNDSUl1BhNIWR69lKRE0YWnlwCnWxa7FqNOuZ5antpscw68QeMY8hb62M5Se8nc3HifGrX0urKPn2ym9U25XzYG5PAHtpeRZl7ggXIEj0S-y23S_n1cfGHZhbdVAOB2vJaXAjA=="
+      },
+      {
+        "label": "wsws",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMTNWGUeyn7bnD9JcQ44oosFhIv9spDbfeVV0-_NRe6c_2mMQlwWzXGMmgtZYipkjyWiY57HkiSAfQQQ6oJbY8kLu_dr1Ewq7ZTxEDLYLEE2cJnr011Q57-DqXo18w8ZynrlbBb9Q8KWO01t4SkMqB2Ou_hA=="
+      },
+      {
+        "label": "wsws",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElZIxJm97rSb3Gg5Nh0D_q3V8Fo0YBqkrvDIL62UcjKM_MBo5oZ0J02nSh7xDZTHrV2SCuTiVBbR5phiYnv31ccCDrH20rsAZ9Zm64epwp-eDdEU2gnrZayPQFtKB3Bg8D1kdAmXEuGC_tskuCTEqVj2VJag=="
+      },
+      {
+        "label": "sfchronicle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBgYUfM0AeHR_CdIi7AfGN60B7vJK50x7I-FW12qWL4j98NDnqb5qOVX1TLT9Vh1Fp4kCiwW0e8cHwAKcpSRZShTE2bxoiZ5tKSH-8vDzniG1Z-5pOS91FnhFn1VATlEaujKE2YWsJCKuAWAQzDwNhrAgpGsMvMuCW3nfWPD7GsomtrPP41bW6jqOpcs1Hm_YKCqG6Ip5EcL72GxcdOFmftA=="
+      },
+      {
+        "label": "truthout",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxM6opzpl-BVpsVBdeUyIxjKLA_sVLhYOF8r7dNz3fkW0VKpl0OuX7MRuWyi8-qjYv0GodxwazCbmySoaNA9See3D6r7FxeNDSUl1BhNIWR69lKRE0YWnlwCnWxa7FqNOuZ5antpscw68QeMY8hb62M5Se8nc3HifGrX0urKPn2ym9U25XzYG5PAHtpeRZl7ggXIEj0S-y23S_n1cfGHZhbdVAOB2vJaXAjA=="
+      },
+      {
+        "label": "truthout",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxM6opzpl-BVpsVBdeUyIxjKLA_sVLhYOF8r7dNz3fkW0VKpl0OuX7MRuWyi8-qjYv0GodxwazCbmySoaNA9See3D6r7FxeNDSUl1BhNIWR69lKRE0YWnlwCnWxa7FqNOuZ5antpscw68QeMY8hb62M5Se8nc3HifGrX0urKPn2ym9U25XzYG5PAHtpeRZl7ggXIEj0S-y23S_n1cfGHZhbdVAOB2vJaXAjA=="
+      },
+      {
+        "label": "ktvu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHb493Q69lMl6kOFZH_WwHbpMjs_ywfRAubrF944JZWnkKgTIOstrXzZ6y-pO7toGHH9ZdeTNeYIT52IdkQ52Le0bFMbFuDDBlrLZQJdQJIdnuSybJP671UtABzuOidCcNFMG_NuP2Gfr5dudeRr-uPnNU-2EntNf6S8lggSkonrbxGnQh58LCWfNR-v18vXj2BL5I7Ug=="
+      },
+      {
+        "label": "ktvu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqtHAF9r1gMMj6SEdeP_d0RXBcARwp7V2TALpRDgBAWBCb90e3ewH2uQstVTLvC1IKQdxFfmJfGYMJ2on6HtaDUngT3H86eM6VBJNkEbsL-Cux73bqnlpNs1M4bOaWUFtu-hVpOEPbHvSL9RowiLdc5_lJF1p0eu8eZCBaSyVxsgFOBheTIiyVoLKZiR8Ph7851p47E-XX"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

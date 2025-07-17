@@ -1,0 +1,95 @@
+{
+  "file_name": "state_result_159.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.594882",
+  "data": {
+    "messages": [
+      {
+        "content": "who is the president of india",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "0ab02060-dffa-43b6-92b3-5a55e0bf11ff",
+        "example": false
+      },
+      {
+        "content": "As of today, July 16, 2025, Smt. Droupadi Murmu is the 15th and current President of India [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [rashtrapatibhavan](https://vertexaisearch.cloud.google.com/id/0-1) [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-2) [presidentofindia](https://vertexaisearch.cloud.google.com/id/0-3). She took office on July 25, 2022 [presidentofindia](https://vertexaisearch.cloud.google.com/id/0-3) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [rashtrapatibhavan](https://vertexaisearch.cloud.google.com/id/0-1). Notably, she is the first person from a tribal community and the second woman to hold the presidential office [wikipedia](https://vertexaisearch.cloud.google.com/id/0-4) [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-2). Furthermore, Droupadi Murmu is the youngest individual to hold the position and the first president born in independent India [wikipedia](https://vertexaisearch.cloud.google.com/id/0-4). The President's office and residence is located in राष्ट्रपति भवन (Rashtrapati Bhavan) [rashtrapatibhavan](https://vertexaisearch.cloud.google.com/id/0-1).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "98353ac1-7b8e-4152-b2e7-14da1a14609e",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "current president of India"
+    ],
+    "web_research_result": [
+      "As of July 16, 2025, Smt. Droupadi Murmu is the current and 15th President of India [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [rashtrapatibhavan](https://vertexaisearch.cloud.google.com/id/0-1) [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-2) [presidentofindia](https://vertexaisearch.cloud.google.com/id/0-3). She assumed office on July 25, 2022 [presidentofindia](https://vertexaisearch.cloud.google.com/id/0-3) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-0) [rashtrapatibhavan](https://vertexaisearch.cloud.google.com/id/0-1). Droupadi Murmu is the first person belonging to a tribal community and the second woman to hold the office [wikipedia](https://vertexaisearch.cloud.google.com/id/0-4) [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-2). She is also the youngest person to occupy the post and the first president born in independent India [wikipedia](https://vertexaisearch.cloud.google.com/id/0-4).\n\n राष्ट्रपति भवन (Rashtrapati Bhavan) is the office and residence of the President of India.\n [rashtrapatibhavan](https://vertexaisearch.cloud.google.com/id/0-1)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhqyrBmgB9QSt-ovRVbPXlUlwRPD1r1ig9axmVDy59mUb9JNNaeNwdby1XML9M612AyitF9W5XAKlx-ycEEypcNvYT1RlASLCf02OSHc__iI-Ydy61NPUZ_4LI5-XnHkqtggWMv4h01m3Q"
+      },
+      {
+        "label": "rashtrapatibhavan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLqz6KMHDq0WZ8L26Mt2ESgQw7xjDZk-ljQxtPHqUrNHRS-5c0I70mfpJYlWkwjmX9KeC_-K9mSW6oiyU_b287we313dOLbXSfUbAqLRX3pYNSnoGBjrAxNuDL_BEiRu-ww9WQc8dL"
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlxY-80OOTg82SdxVHMAYclEsJ2eD_u2jsjhYp5uQRh2FGbsyUknPKJauo_Egmk8LzSa_1JsZH-xbNlrN_G1Cq9_mWqaKanzG7GEyUljnqDwlrlnyO910KQUcOEq6NU44w-4H32Wh2yqsihBY_farxwF9LLY5T8JbESu4-0X0zso6yPRhyZlfX5osUmNpSEbJ5_tbyVDLAJgMGnewPP1WI0EcRBQVrYc_RQjjVTrha0A=="
+      },
+      {
+        "label": "presidentofindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK2x9FyqeTHM7-IeErCjM6eEaNoAbQdo-UvJVFBZDperpl1-wdQ_hS-yWxObfJ0y4kq6iLRageqbOGDye6D4dEAJZ7-vTsudsqzxVdcDzyILPEl3fG5_ooHKQJuv9eXSbuyr5D0w=="
+      },
+      {
+        "label": "presidentofindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK2x9FyqeTHM7-IeErCjM6eEaNoAbQdo-UvJVFBZDperpl1-wdQ_hS-yWxObfJ0y4kq6iLRageqbOGDye6D4dEAJZ7-vTsudsqzxVdcDzyILPEl3fG5_ooHKQJuv9eXSbuyr5D0w=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhqyrBmgB9QSt-ovRVbPXlUlwRPD1r1ig9axmVDy59mUb9JNNaeNwdby1XML9M612AyitF9W5XAKlx-ycEEypcNvYT1RlASLCf02OSHc__iI-Ydy61NPUZ_4LI5-XnHkqtggWMv4h01m3Q"
+      },
+      {
+        "label": "rashtrapatibhavan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLqz6KMHDq0WZ8L26Mt2ESgQw7xjDZk-ljQxtPHqUrNHRS-5c0I70mfpJYlWkwjmX9KeC_-K9mSW6oiyU_b287we313dOLbXSfUbAqLRX3pYNSnoGBjrAxNuDL_BEiRu-ww9WQc8dL"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLBKIH4XhLqRZIIJd71dR1KhU_mE96AWB_vv5LxqdOM7vZakrmdBR-uKnF02IRZ9QWM8SxCHMzvajSDpK780Iu_BmUU-DWJUFcOz0xsLJHZ0a7M9RsvK9OTv3Ea7EyXZxjG620Fvc="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlxY-80OOTg82SdxVHMAYclEsJ2eD_u2jsjhYp5uQRh2FGbsyUknPKJauo_Egmk8LzSa_1JsZH-xbNlrN_G1Cq9_mWqaKanzG7GEyUljnqDwlrlnyO910KQUcOEq6NU44w-4H32Wh2yqsihBY_farxwF9LLY5T8JbESu4-0X0zso6yPRhyZlfX5osUmNpSEbJ5_tbyVDLAJgMGnewPP1WI0EcRBQVrYc_RQjjVTrha0A=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLBKIH4XhLqRZIIJd71dR1KhU_mE96AWB_vv5LxqdOM7vZakrmdBR-uKnF02IRZ9QWM8SxCHMzvajSDpK780Iu_BmUU-DWJUFcOz0xsLJHZ0a7M9RsvK9OTv3Ea7EyXZxjG620Fvc="
+      },
+      {
+        "label": "rashtrapatibhavan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLqz6KMHDq0WZ8L26Mt2ESgQw7xjDZk-ljQxtPHqUrNHRS-5c0I70mfpJYlWkwjmX9KeC_-K9mSW6oiyU_b287we313dOLbXSfUbAqLRX3pYNSnoGBjrAxNuDL_BEiRu-ww9WQc8dL"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

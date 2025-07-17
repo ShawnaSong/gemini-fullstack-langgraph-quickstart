@@ -1,0 +1,908 @@
+{
+  "file_name": "state_result_178.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.561520",
+  "data": {
+    "messages": [
+      {
+        "content": "Modify this gstreamer pipeline so that the recording is saved frequently (async) in case the device loses power. Make sure the moov atom is at the start of the file so that it can be played back even if the datastream abruptly ends.\ngst-launch-1.0 -e \\\naravissrc features=\"OverlapMode=On Width=1024 Height=1024 ExposureAuto=Continuous AcquisitionFrameRate=88.5 AcquisitionFrameRateEnable=1 GevSCPSPacketSize=8164 Gain=0 GainAuto=Continuous GammaEnable=1 GammaSelector=sRGB\" ! video/x-bayer,width=1024,height=1024 ! \\\ntcamconvert ! \\\nnvvidconv compute-hw=1 ! \"video/x-raw(memory:NVMM),format=NV12,width=640,height=640\" ! \\\ntee name=t t. ! \\\n    queue ! m.sink_0 nvstreammux name=m batch-size=1 width=640 height=640 live-source=1 ! \\\n    nvinfer config-file-path=config_infer_primary_yoloV8.txt ! \\\n    nvdsosd ! nvegltransform ! fpsdisplaysink text-overlay=false video-sink=nveglglessink \\\nt. ! queue ! nvvidconv compute-hw=1 ! \\\n    x264enc bitrate=6000 speed-preset=ultrafast tune=zerolatency !  \\\n    mp4mux ! filesink location=output.mp4 -v",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "617ac1e2-484f-4732-9561-72a45814a2a3",
+        "example": false
+      },
+      {
+        "content": "To modify your GStreamer pipeline for frequent saving and to ensure the 'moov' atom is at the start for playback after abrupt termination, consider the following approaches:\n\n**1. Enable Faststart and Asynchronous Saving:**\n\n   *   Enable the `faststart` property in `mp4mux` to move the 'moov' atom to the beginning of the file [fanyamin](https://vertexaisearch.cloud.google.com/id/0-0) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1) [stackoverflow](https://vertexaisearch.cloud.google.com/id/0-5).\n   *   Use the `splitmuxsink` element to split the output into multiple files based on duration or size [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1) [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3). This ensures that you have smaller, playable chunks of the recording.\n   *   Set `async-finalize=true` in `splitmuxsink` to finalize the old muxer and sink asynchronously [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n\nHere's the modified pipeline:\n\n```bash\ngst-launch-1.0 -e \\\naravissrc features=\"OverlapMode=On Width=1024 Height=1024 ExposureAuto=Continuous AcquisitionFrameRate=88.5 AcquisitionFrameRateEnable=1 GevSCPSPacketSize=8164 Gain=0 GainAuto=Continuous GammaEnable=1 GammaSelector=sRGB\" ! video/x-bayer,width=1024,height=1024 ! \\\ntcamconvert ! \\\nnvvidconv compute-hw=1 ! \"video/x-raw(memory:NVMM),format=NV12,width=640,height=640\" ! \\\ntee name=t t. ! \\\n    queue ! m.sink_0 nvstreammux name=m batch-size=1 width=640 height=640 live-source=1 ! \\\n    nvinfer config-file-path=config_infer_primary_yoloV8.txt ! \\\n    nvdsosd ! nvegltransform ! fpsdisplaysink text-overlay=false video-sink=nveglglessink \\\nt. ! queue ! nvvidconv compute-hw=1 ! \\\n    x264enc bitrate=6000 speed-preset=ultrafast tune=zerolatency key-int-max=30 ! \\\n    splitmuxsink location=output_%05d.mp4 muxer-factory=mp4mux muxer-properties=\"properties,faststart=true\" max-size-time=10000000000 async-finalize=true\n```\n\nIn this example:\n\n*   `splitmuxsink` splits the output into multiple files (e.g., `output_00000.mp4`, `output_00001.mp4`, etc.) [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1) [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n*   `muxer-factory=mp4mux` specifies that `mp4mux` should be used for creating the MP4 files [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1).\n*   `muxer-properties=\"properties,faststart=true\"` sets the `faststart` property of `mp4mux` to true, placing the 'moov' atom at the beginning of each file [fanyamin](https://vertexaisearch.cloud.google.com/id/0-0) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1) [stackoverflow](https://vertexaisearch.cloud.google.com/id/0-5).\n*   `max-size-time=10000000000` sets the maximum duration of each file to 10 seconds (10,000,000,000 nanoseconds) [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3). Adjust this value as needed.\n*    `key-int-max=30` ensures a keyframe is present every 30 frames, which is important for `splitmuxsink` to create playable individual files [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1) [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n\n**2.  Using `moov-recovery-file` (Experimental):**\n\n   *   As an alternative, you could try using the `moov-recovery-file` property of `mp4mux`, although it's marked as experimental [manpagez](https://vertexaisearch.cloud.google.com/id/4-0) [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1) [github](https://vertexaisearch.cloud.google.com/id/4-2). This creates a separate file that can be used to recover the 'moov' atom in case of a crash [manpagez](https://vertexaisearch.cloud.google.com/id/4-0) [github](https://vertexaisearch.cloud.google.com/id/4-2) [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1).\n\nHere's how you would modify the pipeline:\n\n```bash\ngst-launch-1.0 -e \\\naravissrc features=\"OverlapMode=On Width=1024 Height=1024 ExposureAuto=Continuous AcquisitionFrameRate=88.5 AcquisitionFrameRateEnable=1 GevSCPSPacketSize=8164 Gain=0 GainAuto=Continuous GammaEnable=1 GammaSelector=sRGB\" ! video/x-bayer,width=1024,height=1024 ! \\\ntcamconvert ! \\\nnvvidconv compute-hw=1 ! \"video/x-raw(memory:NVMM),format=NV12,width=640,height=640\" ! \\\ntee name=t t. ! \\\n    queue ! m.sink_0 nvstreammux name=m batch-size=1 width=640 height=640 live-source=1 ! \\\n    nvinfer config-file-path=config_infer_primary_yoloV8.txt ! \\\n    nvdsosd ! nvegltransform ! fpsdisplaysink text-overlay=false video-sink=nveglglessink \\\nt. ! queue ! nvvidconv compute-hw=1 ! \\\n    x264enc bitrate=6000 speed-preset=ultrafast tune=zerolatency !  \\\n    mp4mux moov-recovery-file=recovery.mp4 ! filesink location=output.mp4 -v\n```\n\nIf a crash occurs, you would then use `qtmoovrecover` to repair the file [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1):\n\n```bash\nqtmoovrecover output.mp4 recovery.mp4 repaired_output.mp4\n```\n\n**3.  Consider Fragmented MP4 (fMP4) Muxers:**\n\n   *   For streaming, consider using dedicated fragmented MP4 muxers like `cmafmux`, `dashfmp4mux`, or `isofmp4mux` [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1). These muxers are designed for creating fragmented MP4 files suitable for DASH and HLS streaming [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n\n**4.  Alternative Container Formats:**\n\n   *   If resilience to interruption is critical, consider using `matroskamux` to save to an MKV file [nvidia](https://vertexaisearch.cloud.google.com/id/4-9).  MKV files can often be recovered even if the recording is interrupted [nvidia](https://vertexaisearch.cloud.google.com/id/4-9).\n\n**Important Notes:**\n\n*   Avoid using both `splitmuxsink` and `mp4mux` with `fragment-duration` simultaneously, as they can conflict [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n*   Ensure your encoder has a defined GOP size when using `splitmuxsink` so that new files start with a keyframe [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1).  The `key-int-max` property in `x264enc` controls the keyframe interval [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n*   The `async` property in `filesink` is related to asynchronous state changes, not asynchronous writing of data [valadoc](https://vertexaisearch.cloud.google.com/id/1-2) [freedesktop](https://vertexaisearch.cloud.google.com/id/1-3).  `splitmuxsink` with `async-finalize=true` provides asynchronous file handling [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n\nBy implementing these changes, you can ensure that your recordings are saved frequently and that the 'moov' atom is placed at the beginning of the file, increasing the likelihood of successful playback even if the recording is interrupted. Remember to test these modifications thoroughly to ensure they meet your specific requirements.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "ab9322ef-bb70-481f-879d-3d65d4f13ef5",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "gstreamer mp4mux move moov atom to start",
+      "gstreamer filesink asynchronous saving",
+      "gstreamer mp4mux fragmented mp4",
+      "What is the difference between `splitmuxsink` and using `mp4mux` with `fragment-duration` for creating fragmented MP4 files in GStreamer, and when should each be preferred?",
+      "How does the 'moov-recovery-file' property in mp4mux work in practice for recovering a corrupted or incomplete MP4 file due to a sudden power loss, and what are its limitations?"
+    ],
+    "web_research_result": [
+      "GStreamer's `mp4mux` element is used to merge audio and video streams into ISO MPEG-4 (.mp4) files [fanyamin](https://vertexaisearch.cloud.google.com/id/0-0) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1) [freedesktop](https://vertexaisearch.cloud.google.com/id/0-2). A typical MP4 file has its metadata (the 'moov' atom) located at the end of the file [fanyamin](https://vertexaisearch.cloud.google.com/id/0-0) [github](https://vertexaisearch.cloud.google.com/id/0-3) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1). However, for \"faststart\" files, the 'moov' atom is moved to the beginning of the file, which allows the file to be played while downloading [fanyamin](https://vertexaisearch.cloud.google.com/id/0-0) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1).\n\nHere's a breakdown of how `mp4mux` and the 'moov' atom work in GStreamer:\n\n*   **Moov Atom Location:** By default, `mp4mux` writes the 'moov' atom at the end of the file after all the sample data has been written [github](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Faststart:** The \"faststart\" option rearranges the file structure to place the 'moov' atom near the beginning [fanyamin](https://vertexaisearch.cloud.google.com/id/0-0) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1). This is useful for streaming because the player can read the metadata without having to download the entire file [fanyamin](https://vertexaisearch.cloud.google.com/id/0-0) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **How Faststart Works:** Achieving a faststart file requires some extra processing [manpagez](https://vertexaisearch.cloud.google.com/id/0-1) [fanyamin](https://vertexaisearch.cloud.google.com/id/0-0). The `mp4mux` element needs to either reserve space at the beginning of the file for the 'moov' atom or rewrite the file after all data has been written [superuser](https://vertexaisearch.cloud.google.com/id/0-4) [github](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Using Faststart:** You can enable the faststart option in `mp4mux` using the `faststart` property [stackoverflow](https://vertexaisearch.cloud.google.com/id/0-5). In `gst-launch`, this looks like `mp4mux faststart=true` [stackoverflow](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Tradeoffs:** Moving the 'moov' atom to the start might take slightly longer due to the extra processing [superuser](https://vertexaisearch.cloud.google.com/id/0-4). It could potentially double the disk I/O because the data might need to be read and rewritten [superuser](https://vertexaisearch.cloud.google.com/id/0-4).\n\n**Properties related to 'moov' atom and faststart:**\n\n*   **faststart-file:** This property specifies a file that will be used temporarily to store data from the stream when creating a faststart file [manpagez](https://vertexaisearch.cloud.google.com/id/0-1). If set to NULL, a file path will be created automatically [manpagez](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **moov-recovery-file:**  This specifies a file to store data for the 'moov' atom, enabling movie file recovery in case of a crash during muxing [github](https://vertexaisearch.cloud.google.com/id/0-3) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1). This is an experimental feature [github](https://vertexaisearch.cloud.google.com/id/0-3) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **reserved-moov-update-period:** When used with `reserved-max-duration`, this property periodically updates the index tables with information muxed so far [manpagez](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Additional notes:**\n\n*   GStreamer 1.26 includes MP4 muxer fixes for creating very large files with faststart support [freedesktop](https://vertexaisearch.cloud.google.com/id/0-6).\n*   The `streamable` property allows foregoing the addition of index metadata at the end of the file when a fragmented layout is intended for streaming [fanyamin](https://vertexaisearch.cloud.google.com/id/0-0) [manpagez](https://vertexaisearch.cloud.google.com/id/0-1).\n",
+      "Asynchronous saving with GStreamer's `filesink` element involves configuring the sink to handle state changes and data writing without blocking the pipeline. Here's a synthesis of information regarding asynchronous saving with `filesink` in GStreamer:\n\n**Key Aspects of Asynchronous Saving**\n\n*   **`filesink` Element:** The `filesink` element is used to write incoming data to a file in the local file system [freedesktop](https://vertexaisearch.cloud.google.com/id/1-0) [hailo](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Asynchronous State Changes:** The `async` property, found in `GstBaseSink` (the base class for `filesink`), can be used to instruct the sink to never perform an ASYNC state change [valadoc](https://vertexaisearch.cloud.google.com/id/1-2) [freedesktop](https://vertexaisearch.cloud.google.com/id/1-3). This is useful when dealing with non-synchronized or sparse streams [freedesktop](https://vertexaisearch.cloud.google.com/id/1-3) [valadoc](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Buffering:**  `filesink` has properties like `buffer-mode` and `buffer-size` to control how data is buffered before writing to the file [freedesktop](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Synchronous I/O:** The `o-sync` property can be set to TRUE to open the file with `O_SYNC`, enabling synchronous I/O [freedesktop](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Practical Considerations and Implementation**\n\n*   **Saving Pipeline Output:** To save GStreamer pipeline output to a file, the `filesink` element should be used with a relevant video format [hailo](https://vertexaisearch.cloud.google.com/id/1-1). For example:\n\n    ```text\n    gst-launch-1.0 filesrc location=detection.mp4 name=src_0 ! decodebin ! queue leaky=no max-size-buffers=30 max-size-bytes=0 max-size-time=0 ! ... ! filesink location=video.mp4\n    ```\n*   **Stopping and Starting Save:** To reliably start/stop saving a stream to a file, one approach involves using `interpipesrc` and `interpipesink`.  When it's time to save a video clip, the filename is set on the `filesink` and the pipeline with the `interpipesrc` is set to PLAYING [gstreamer](https://vertexaisearch.cloud.google.com/id/1-4). Stopping the pipeline closes the file [gstreamer](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Keyframes and Black Video:** When saving H.264 streams, inserting a black screen may occur if the saving starts mid-stream without a keyframe. This is because H.264 relies on keyframes for decoding [gstreamer](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Multiple Sinks:** When using multiple sinks (e.g., `filesink` and `appsink`), ensure proper synchronization. A `queue` element before the `appsink` can help prevent deadlocks by storing the first buffer [stackoverflow](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Tee Element:** The `tee` element can be used to create multiple branches in a pipeline, allowing you to display a video stream and simultaneously write it to a file [stackoverflow](https://vertexaisearch.cloud.google.com/id/1-6) [github](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **File Saving Order:** There is no way to control the saving order of files using public sink plugins. Most sinks work with a clock and try to consume data as soon as possible. To control the saving order, you might need to create a custom plugin for audio and video sinks or add a probe function with variables to control the file save order [nvidia](https://vertexaisearch.cloud.google.com/id/1-8).\n\n**Troubleshooting**\n\n*   **Empty Files:** If the file is created but remains empty, ensure that the necessary encoders and muxers are included in the pipeline [stackoverflow](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Pipeline Freezing:** If the GStreamer pipeline freezes when using `tee` with multiple sinks, it could be due to hardware incompatibilities, software bugs, configuration errors, or driver issues [piveral](https://vertexaisearch.cloud.google.com/id/1-9). Check the system logs for hardware error messages [piveral](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Unplayable Files:** If the recorded file is unplayable, verify the pipeline configuration.  For instance, if decoding H.264 and saving as a raw file, remove the decoder to save the H.264 stream directly [stackoverflow](https://vertexaisearch.cloud.google.com/id/1-10).\n*   **Debugging:** Use environment variables like `GST_DEBUG=6` to set the debug level [github](https://vertexaisearch.cloud.google.com/id/1-7). Also, tools like `gst-discoverer-1.0` and `gst-inspect-1.0` can be used to discover video files and inspect plugins, respectively [github](https://vertexaisearch.cloud.google.com/id/1-7).\n\n**Important Properties**\n\n*   **`location`:**  Specifies the location of the file to write to [freedesktop](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **`append`:**  If set to TRUE, the sink will append to an existing file [freedesktop](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **`sync`:** When set to FALSE, can remove dropped frame rate, lag and error messages [github](https://vertexaisearch.cloud.google.com/id/1-7).\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent information on \"gstreamer mp4mux fragmented mp4\" and synthesize it into a verifiable text artifact.\nGStreamer's `mp4mux` element can output fragmented MP4 files, but it might not be ideal for all use cases [github](https://vertexaisearch.cloud.google.com/id/2-0). Here's a breakdown of fragmented MP4s in GStreamer:\n\n**Fragmented MP4 Support and Usage**\n\n*   **`mp4mux` Functionality:** The built-in `mp4mux` in GStreamer can create fragmented MP4 files [github](https://vertexaisearch.cloud.google.com/id/2-0). You can set properties like `fragment-duration` to control the fragment size [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1) [manpagez](https://vertexaisearch.cloud.google.com/id/2-2). Setting `streamable=true` avoids writing index metadata at the end of the file, which is useful for streaming [manpagez](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Alternative Muxers:** GStreamer 1.22 introduced new MP4 muxers as part of the GStreamer Rust plugins, including a dedicated fragmented MP4 muxer. These are intended to replace the existing `qtmux` / `mp4mux` from `gst-plugins-good` [freedesktop](https://vertexaisearch.cloud.google.com/id/2-3). Examples of fragmented mp4 muxers are `cmafmux`, `dashfmp4mux`, `isofmp4mux` [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1).\n*   **`fragmp4pay` element:** For specific applications like Pravega, the standard `mp4mux` output isn't well-suited because it writes important headers only at the beginning, making truncation and seeking difficult [github](https://vertexaisearch.cloud.google.com/id/2-0). Pravega offers a `fragmp4pay` element that duplicates necessary headers at every indexed position to solve this, which simplifies truncation and seeking [github](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Splitmuxsink:** The `splitmuxsink` element splits a stream into file parts based on maximum duration or file size, creating individually playable files [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1). It is mostly used with muxers that don't support splitting natively, such as MP4 or Matroska [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1).\n*   **Key Frame Considerations:** When using `splitmuxsink`, ensure the encoder has a GOP size defined so that new files start with a key frame [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1).\n\n**Fragmented MP4 Structure**\n\n*   A fragmented MP4 file contains metadata at the start, with the rest of the data spread out into fragments [manpagez](https://vertexaisearch.cloud.google.com/id/2-2).\n*   Each fragment typically contains a 'moof' (movie fragment) and an 'mdat' (media data) atom [github](https://vertexaisearch.cloud.google.com/id/2-0).\n\n**Use Cases**\n\n*   Fragmented MP4 is suitable for streaming [manpagez](https://vertexaisearch.cloud.google.com/id/2-2).\n*   It's also recommended to store MP4 fragments in the payload of data stream events, which allows multiplexing of video and audio channels, provides a time source mechanism, and enables truncation and concatenation at any point [github](https://vertexaisearch.cloud.google.com/id/2-0).\n\n**Example Pipelines and Properties**\n\n*   To output multi-file fragmented MP4, properties like `splitmuxsink muxer='mp4mux faststart=true streamable=true fragment-duration=1000 trak-timescale=1000 movie-timescale=1000 presentation-time=true' max-size-time=1000000000 location=file%02d.mp4` can be set [stackoverflow](https://vertexaisearch.cloud.google.com/id/2-4).\n*   A complete pipeline example using `splitmuxsink` is: `gst-launch-1.0 v4l2src device=/dev/video0 ! videoconvert ! queue ! x264enc tune=zerolatency ! splitmuxsink location=video%02d.mp4 async-finalize=true max-size-time=10000000000 muxer-factory=mp4mux muxer-properties=\"properties,fragment-duration=2000\"` [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1). Note that the `fragment-duration` property in `muxer-properties` might not work as expected with `splitmuxsink` [gstreamer](https://vertexaisearch.cloud.google.com/id/2-1).\n\n**Issues and Solutions**\n\n*   A reported issue involved missing header data in segments after the first one when using `mp4mux` and `multifilesink` [stackoverflow](https://vertexaisearch.cloud.google.com/id/2-5).\n*   When rotating video, the `display_aspect_ratio` value might not be updated, causing stretching in some players. [nvidia](https://vertexaisearch.cloud.google.com/id/2-6)\n",
+      "The primary difference between `splitmuxsink` and using `mp4mux` with `fragment-duration` in GStreamer lies in their intended purpose and how they handle file splitting and fragmentation [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n\n**`mp4mux` with `fragment-duration`:**\n\n*   This approach utilizes the `mp4mux` element's built-in fragmentation capabilities [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n*   The `fragment-duration` property specifies the duration of each fragment in milliseconds [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0) [manpagez](https://vertexaisearch.cloud.google.com/id/3-1). Setting `fragment-duration` to a value greater than 0 enables fragmented MP4 output [manpagez](https://vertexaisearch.cloud.google.com/id/3-1).\n*   It creates a fragmented MP4 file (fMP4) suitable for streaming protocols like DASH and HLS [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n*   Metadata can be located at the start of the file using the `faststart` property, or spread out into fragments with the `fragment-duration` property [manpagez](https://vertexaisearch.cloud.google.com/id/3-1) [fanyamin](https://vertexaisearch.cloud.google.com/id/3-2).\n*   The `streamable` property, when set to true, prevents writing indexes or duration at the end of the file, which is useful for streaming [manpagez](https://vertexaisearch.cloud.google.com/id/3-1) [fanyamin](https://vertexaisearch.cloud.google.com/id/3-2).\n\n**`splitmuxsink`:**\n\n*   This element is designed to split a stream into multiple files based on maximum duration or file size [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n*   It wraps a muxer (by default `mp4mux`) and a sink, creating a new file when a size or time threshold is reached [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n*   `splitmuxsink` is primarily intended for muxers that don't natively support splitting, such as MP4 or Matroska [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n*   It splits the stream at video keyframe boundaries to ensure each file is individually playable [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3). The minimum file size is one Group of Pictures (GOP) [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n*   It can handle one video stream along with multiple audio and subtitle streams [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n*   In `async-finalize` mode, the old muxer and sink are disconnected and finalized asynchronously, while a new muxer and sink are created for the next fragment [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n\n**When to use each:**\n\n*   Use `mp4mux` with `fragment-duration` when you need to create fragmented MP4 files (fMP4) for streaming purposes like DASH or HLS [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0). This method creates a single file with a fragmented structure [manpagez](https://vertexaisearch.cloud.google.com/id/3-1) [fanyamin](https://vertexaisearch.cloud.google.com/id/3-2).\n*   Use `splitmuxsink` when you need to split a stream into multiple, individually playable MP4 files based on size or duration [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3). This is useful for recording applications where you want to limit the size of each file [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3).\n\n**Important Considerations:**\n\n*   Using both `splitmuxsink` and `mp4mux` with `fragment-duration` simultaneously can lead to conflicts, as both elements will try to handle splitting [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n*   For creating fragmented MP4 files for DASH/HLS, consider using dedicated fragmented MP4 muxers like `cmafmux`, `dashfmp4mux`, or `isofmp4mux` [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0). Note that `fmp4mux` needs GStreamer 1.18 or later [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n*   When using `splitmuxsink`, ensure the video stream contains closed GOPs for proper playback of individual file parts [fanyamin](https://vertexaisearch.cloud.google.com/id/3-4) [freedesktop](https://vertexaisearch.cloud.google.com/id/3-3). You may need to set the `key-int-max` property of the encoder to control the keyframe interval [gstreamer](https://vertexaisearch.cloud.google.com/id/3-0).\n*   `splitmuxsink` can post messages like `\"splitmuxsink-fragment-opened\"` or `\"splitmuxsink-fragment-closed\"` when it opens or closes a new fragment, allowing you to trigger callbacks [stackoverflow](https://vertexaisearch.cloud.google.com/id/3-5).\n*   For streaming, `matroskamux` or `mpegtsmux` might be better choices than `qtmux` or `mp4mux`, as the latter are more suitable for local file saving and require an EOS signal to complete a valid file [nvidia](https://vertexaisearch.cloud.google.com/id/3-6).\n",
+      "The `moov-recovery-file` property in `mp4mux` (a GStreamer element for creating MP4 files) is designed to help recover corrupted or incomplete MP4 files resulting from crashes during muxing, such as those caused by a sudden power loss [manpagez](https://vertexaisearch.cloud.google.com/id/4-0) [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1) [github](https://vertexaisearch.cloud.google.com/id/4-2). Here's how it works and its limitations:\n\n**Functionality**\n\n1.  **Mechanism**: When the `moov-recovery-file` property is set, `mp4mux` stores data necessary for creating the 'moov' atom (the metadata header of an MP4 file) in a separate file [manpagez](https://vertexaisearch.cloud.google.com/id/4-0) [github](https://vertexaisearch.cloud.google.com/id/4-2) [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1). The 'moov' atom contains crucial information like track headers and sample tables [github](https://vertexaisearch.cloud.google.com/id/4-2) [fanyamin](https://vertexaisearch.cloud.google.com/id/4-3). This metadata is usually written at the end of the file after all multimedia data has been recorded [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-4) [github](https://vertexaisearch.cloud.google.com/id/4-2).\n\n2.  **Recovery**: If recording is interrupted, the main MP4 file might be unplayable because the 'moov' atom was not properly written [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-5) [pocketpcmag](https://vertexaisearch.cloud.google.com/id/4-6). In such cases, the `qtmoovrecover` element (also part of GStreamer) can use the recovery file to reconstruct the 'moov' atom and repair the MP4 file [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1). The `qtmoovrecover` element takes the broken input file, the recovery file, and an output file as parameters [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1).\n\n3.  **Usage**: To use this feature, you need to set the `moov-recovery-file` property in your GStreamer pipeline when creating the MP4 file [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1) [narkive](https://vertexaisearch.cloud.google.com/id/4-7). If a crash occurs, you then need to use a separate pipeline with `qtmoovrecover` to repair the file [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1).\n\n**Limitations**\n\n1.  **Experimental**: The `moov-recovery-file` property is marked as experimental [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1) [manpagez](https://vertexaisearch.cloud.google.com/id/4-0).\n\n2.  **Separate Recovery Step**: Using `moov-recovery-file` requires a separate recovery step with the `qtmoovrecover` element, which involves creating a new GStreamer pipeline [narkive](https://vertexaisearch.cloud.google.com/id/4-8) [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1).\n\n3.  **Not Always Effective**: Even with the recovery file, complete recovery isn't guaranteed [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1).\n\n4.  **Alternative Muxers**: In scenarios where sudden termination is possible, using `matroskamux` to save to an MKV file might be a better option, as it can preserve most of the recorded content even if the recording is interrupted [nvidia](https://vertexaisearch.cloud.google.com/id/4-9).\n\n5.  **File Size Considerations:** The approximate recording duration must be known in advance to estimate how much free space to reserve for the 'moov' atom. Overestimating the amount of space to reserve can waste free space at the start of the file [narkive](https://vertexaisearch.cloud.google.com/id/4-8).\n\n**Alternatives and Workarounds**\n\n1.  **Faststart Files**:  Using the \"faststart\" option arranges the 'moov' atom to be located near the start of the file, allowing the file to be played while downloading [fanyamin](https://vertexaisearch.cloud.google.com/id/4-3) [manpagez](https://vertexaisearch.cloud.google.com/id/4-0) [hcldoc](https://vertexaisearch.cloud.google.com/id/4-10).\n\n2.  **Reserved Properties**:  Instead of using `moov-recovery-file`, the `reserved-*` properties of `qtmux` can be used to periodically write the 'moov' atom, potentially making the file playable even if interrupted [narkive](https://vertexaisearch.cloud.google.com/id/4-8).\n\n3.  **Third-Party Repair Tools**: Several third-party tools and libraries can repair corrupted MP4 files, some of which can reconstruct the header [mepis](https://vertexaisearch.cloud.google.com/id/4-11) [pandorarecovery](https://vertexaisearch.cloud.google.com/id/4-12) [pocketpcmag](https://vertexaisearch.cloud.google.com/id/4-6) [youtube](https://vertexaisearch.cloud.google.com/id/4-13) [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-5) [stellarinfo](https://vertexaisearch.cloud.google.com/id/4-14) [vmix](https://vertexaisearch.cloud.google.com/id/4-15) [youtube](https://vertexaisearch.cloud.google.com/id/4-16). Some suggest using a reference video from the same camera to help with the repair [youtube](https://vertexaisearch.cloud.google.com/id/4-13) [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-5) [vmix](https://vertexaisearch.cloud.google.com/id/4-15) [youtube](https://vertexaisearch.cloud.google.com/id/4-16). These tools include:\n\n    *   Clever Free Online Video Repair Tool [youtube](https://vertexaisearch.cloud.google.com/id/4-13) [pocketpcmag](https://vertexaisearch.cloud.google.com/id/4-6)\n    *   EaseUS Data Recovery Wizard [easeus](https://vertexaisearch.cloud.google.com/id/4-17) [mepis](https://vertexaisearch.cloud.google.com/id/4-11)\n    *   Digital Video Repair [pocketpcmag](https://vertexaisearch.cloud.google.com/id/4-6) [mepis](https://vertexaisearch.cloud.google.com/id/4-11)\n    *   Stellar Repair for Video [stellarinfo](https://vertexaisearch.cloud.google.com/id/4-14) [pocketpcmag](https://vertexaisearch.cloud.google.com/id/4-6) [mepis](https://vertexaisearch.cloud.google.com/id/4-11)\n    *   VLC media player (using the \"Always fix\" option for AVI files or re-encoding) [pandorarecovery](https://vertexaisearch.cloud.google.com/id/4-12) [youtube](https://vertexaisearch.cloud.google.com/id/4-13)\n    *   HandBrake (for re-encoding) [pocketpcmag](https://vertexaisearch.cloud.google.com/id/4-6)\n    *   Disk Drill [pandorarecovery](https://vertexaisearch.cloud.google.com/id/4-12)\n    *   Wondershare Repair It [youtube](https://vertexaisearch.cloud.google.com/id/4-16)\n\n4.  **Manual Repair**: In some cases, it may be possible to manually repair the file using a hex editor, by copying the header/trailer from a similar, working MP4 file [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-5).\n\n5.  **Other Container Formats**: Consider using other container formats like AVI, FLV, or MKV, which may be more resilient to sudden interruptions [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-5) [stackoverflow](https://vertexaisearch.cloud.google.com/id/4-1).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcBN2Guu6HEiACTLB706msPlWq5VHDV0Tvaq8eqyml3n72gJmQJIr1p4zONlFgF3G3TMSHWPWLxHWoNiaZZFerKk748-McOsQHvWYpZZfCVoYlFJXcDiMwDOL3Y7qcK5qT7mUnH3T0By1nkUqEHJ5zHQynRDKi4l0_Fb7NiqumSUv4DKCi5SCKZpE="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtMr89gFN8j85hpy9Zd54hZrA2gK8SPOiHbdJ5CPe4saj50003bUePmHk8y0gaPN0Z8GboM4JWU-q6mCpGHBb0txVfqw3CnbOtSNwM3dCyU2Oi7cuv4ly_UkllIe0fH1JgyUSdg74PLWNceSXP0RK1-AfakE_mHPz6CLpO7A=="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcBN2Guu6HEiACTLB706msPlWq5VHDV0Tvaq8eqyml3n72gJmQJIr1p4zONlFgF3G3TMSHWPWLxHWoNiaZZFerKk748-McOsQHvWYpZZfCVoYlFJXcDiMwDOL3Y7qcK5qT7mUnH3T0By1nkUqEHJ5zHQynRDKi4l0_Fb7NiqumSUv4DKCi5SCKZpE="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8gyeybPJaeSU3Rj_eDZrZ266MO_hSIbSGQucToN405rr4_UTIFHb4gUT9jE9EvA_4OJbCgiKOHNI524YiBtCOr42BY6o-dZExKD2-cAr0LzL8R-QMpnCjbh6oanTL5kOdUzjYwI_00chc4oE9f506rAKg7J6UWo9kHBW-UCJvPIIkvyCmUXvEZKs="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcBN2Guu6HEiACTLB706msPlWq5VHDV0Tvaq8eqyml3n72gJmQJIr1p4zONlFgF3G3TMSHWPWLxHWoNiaZZFerKk748-McOsQHvWYpZZfCVoYlFJXcDiMwDOL3Y7qcK5qT7mUnH3T0By1nkUqEHJ5zHQynRDKi4l0_Fb7NiqumSUv4DKCi5SCKZpE="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8gyeybPJaeSU3Rj_eDZrZ266MO_hSIbSGQucToN405rr4_UTIFHb4gUT9jE9EvA_4OJbCgiKOHNI524YiBtCOr42BY6o-dZExKD2-cAr0LzL8R-QMpnCjbh6oanTL5kOdUzjYwI_00chc4oE9f506rAKg7J6UWo9kHBW-UCJvPIIkvyCmUXvEZKs="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcBN2Guu6HEiACTLB706msPlWq5VHDV0Tvaq8eqyml3n72gJmQJIr1p4zONlFgF3G3TMSHWPWLxHWoNiaZZFerKk748-McOsQHvWYpZZfCVoYlFJXcDiMwDOL3Y7qcK5qT7mUnH3T0By1nkUqEHJ5zHQynRDKi4l0_Fb7NiqumSUv4DKCi5SCKZpE="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcBN2Guu6HEiACTLB706msPlWq5VHDV0Tvaq8eqyml3n72gJmQJIr1p4zONlFgF3G3TMSHWPWLxHWoNiaZZFerKk748-McOsQHvWYpZZfCVoYlFJXcDiMwDOL3Y7qcK5qT7mUnH3T0By1nkUqEHJ5zHQynRDKi4l0_Fb7NiqumSUv4DKCi5SCKZpE="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcBN2Guu6HEiACTLB706msPlWq5VHDV0Tvaq8eqyml3n72gJmQJIr1p4zONlFgF3G3TMSHWPWLxHWoNiaZZFerKk748-McOsQHvWYpZZfCVoYlFJXcDiMwDOL3Y7qcK5qT7mUnH3T0By1nkUqEHJ5zHQynRDKi4l0_Fb7NiqumSUv4DKCi5SCKZpE="
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYcMuj3PQZOaBwZQ8Hmke52-u03IT7ICwWXmqaRRBsNFIVR2HwBugNHpPiJUnjnPMoz953j_VlBYOhux54kDr05A31hos8W7URHC9AKWw6FZreRClMG3W4wPPMOkl_eU7T7Y4RA6YRkAaCLE9BUEn5oba4yUbRwNRuA8EDfazA5Ld0DnK3Zrh77Lf2a3PeBDgsmTtJaX6pn4Vr6Qujb67p"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8gyeybPJaeSU3Rj_eDZrZ266MO_hSIbSGQucToN405rr4_UTIFHb4gUT9jE9EvA_4OJbCgiKOHNI524YiBtCOr42BY6o-dZExKD2-cAr0LzL8R-QMpnCjbh6oanTL5kOdUzjYwI_00chc4oE9f506rAKg7J6UWo9kHBW-UCJvPIIkvyCmUXvEZKs="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWx5AeUsx7Hu_VOFqHi_PXf9wMUokR9xLEviP0XoSYLusLDgBfzMZthicB6gezx3t4hfD9yUVNA3YsLkl2fC_voofW0tHlgNqCLhyTRAphWh4e-LlNqHwCZke8R1kLXoswyRRBqs2VGdrKj5SrWmgepko8dqgVElgT0K0_zZT8EBWHb38HLKYgYCtWonKaL6zp5Tv_QOq0mPxdkMUtYyNMajDndZLHfz3GIof8"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWx5AeUsx7Hu_VOFqHi_PXf9wMUokR9xLEviP0XoSYLusLDgBfzMZthicB6gezx3t4hfD9yUVNA3YsLkl2fC_voofW0tHlgNqCLhyTRAphWh4e-LlNqHwCZke8R1kLXoswyRRBqs2VGdrKj5SrWmgepko8dqgVElgT0K0_zZT8EBWHb38HLKYgYCtWonKaL6zp5Tv_QOq0mPxdkMUtYyNMajDndZLHfz3GIof8"
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYcMuj3PQZOaBwZQ8Hmke52-u03IT7ICwWXmqaRRBsNFIVR2HwBugNHpPiJUnjnPMoz953j_VlBYOhux54kDr05A31hos8W7URHC9AKWw6FZreRClMG3W4wPPMOkl_eU7T7Y4RA6YRkAaCLE9BUEn5oba4yUbRwNRuA8EDfazA5Ld0DnK3Zrh77Lf2a3PeBDgsmTtJaX6pn4Vr6Qujb67p"
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYcMuj3PQZOaBwZQ8Hmke52-u03IT7ICwWXmqaRRBsNFIVR2HwBugNHpPiJUnjnPMoz953j_VlBYOhux54kDr05A31hos8W7URHC9AKWw6FZreRClMG3W4wPPMOkl_eU7T7Y4RA6YRkAaCLE9BUEn5oba4yUbRwNRuA8EDfazA5Ld0DnK3Zrh77Lf2a3PeBDgsmTtJaX6pn4Vr6Qujb67p"
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8gyeybPJaeSU3Rj_eDZrZ266MO_hSIbSGQucToN405rr4_UTIFHb4gUT9jE9EvA_4OJbCgiKOHNI524YiBtCOr42BY6o-dZExKD2-cAr0LzL8R-QMpnCjbh6oanTL5kOdUzjYwI_00chc4oE9f506rAKg7J6UWo9kHBW-UCJvPIIkvyCmUXvEZKs="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8gyeybPJaeSU3Rj_eDZrZ266MO_hSIbSGQucToN405rr4_UTIFHb4gUT9jE9EvA_4OJbCgiKOHNI524YiBtCOr42BY6o-dZExKD2-cAr0LzL8R-QMpnCjbh6oanTL5kOdUzjYwI_00chc4oE9f506rAKg7J6UWo9kHBW-UCJvPIIkvyCmUXvEZKs="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVN0VkOhzp08kQni0VZ8EbTfoIGYRBqnuTazRQbOUDIFdnng0s_AnygwOWxiQbI5aElvmXrHPW5yGF7mROTnUqD4uui6S0UV37X4TStu1t5nCul6hO0bQwWuBPVxb4T0YGD3F1GpJTj98SDw=="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcBN2Guu6HEiACTLB706msPlWq5VHDV0Tvaq8eqyml3n72gJmQJIr1p4zONlFgF3G3TMSHWPWLxHWoNiaZZFerKk748-McOsQHvWYpZZfCVoYlFJXcDiMwDOL3Y7qcK5qT7mUnH3T0By1nkUqEHJ5zHQynRDKi4l0_Fb7NiqumSUv4DKCi5SCKZpE="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHS1OXmserFkLAn5mP-e-RO1muZc9v4dCYUrsUThsOE-rCbmLV5k7o296WniOZIDAFRPtGKkW9i3_4LHSsdkvnq_8xF6s65CkrEug_os0A11yrVRx4DDGkCWHheNUAtpzHHxSpbw4YeLyjqOOI69vL1clmLqKgZiQ3t_mflLjrM2llfZFVbNe1qViJZDZ-R8H6WfgpSYV8pGSkNu3PGXEeE4cRhMa9iUjt2xLfabj2EY9UI2Rs3OXycu9L3p2wI"
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkYeo0-rB8ahqeTHmuskyPxWVPmJ8URgkIQ-EOhN7Tej8Lf6SCvsCnpK6uLptRwi4-IlWRbb2Hb1DxsPR_GE_MutyUCZ_RztBUV6vSbYyQzW0N4xog1tt457TrJlMFWqoInR1IiPU8bijneodetWtNndMBVpsVegu-BbS0DWYoqdjx34mL"
+      },
+      {
+        "label": "hailo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUHDSxQFFHxl56MqRAb551oN9n2lh9zV2MB2f2MIG_bxB_XSaOptzP5xJ9C2H7MfmkLWoN3awTguMVzSv7AqU5X3WLmRx18rUqq0Ah4egC2sJz8k0EilE_G8Rmo0p8gH7oTUb667Hh88Wn1zgU5ku-iFhOCPtzAv--xo8UNlIIa_w0i31CaUrDR8ifGx2d"
+      },
+      {
+        "label": "valadoc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk2EVwC3LMguFENTaTKtFE8HnfZTzx_uof25H1HwlVTHENDiO38G3W7OWXAn7NKG_Ex4yl5V4Px6jNSEuJWR5yKJ6CtxT_XormMt-8QizVi7bgK-cxb-zYFKbjL-w3y1lGGMr8i1NtKxcKx4yzMfhQbZWRUg=="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF_FZStQjAax_hi1We4jbRbdnQ_IvIlDbAK7bnjYQ7RFywHsVMV97H45DG0oxSYW_N8p7ZKRnp8lGP9IWpvNE-3Z39lfc37dY1Rc1XQb14x8v9hyerpLinM3Nd_MS8GNcazjAYswjdXDE_43uk2FIQs3tSHeQF3ots769TFyPGGQ=="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF_FZStQjAax_hi1We4jbRbdnQ_IvIlDbAK7bnjYQ7RFywHsVMV97H45DG0oxSYW_N8p7ZKRnp8lGP9IWpvNE-3Z39lfc37dY1Rc1XQb14x8v9hyerpLinM3Nd_MS8GNcazjAYswjdXDE_43uk2FIQs3tSHeQF3ots769TFyPGGQ=="
+      },
+      {
+        "label": "valadoc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk2EVwC3LMguFENTaTKtFE8HnfZTzx_uof25H1HwlVTHENDiO38G3W7OWXAn7NKG_Ex4yl5V4Px6jNSEuJWR5yKJ6CtxT_XormMt-8QizVi7bgK-cxb-zYFKbjL-w3y1lGGMr8i1NtKxcKx4yzMfhQbZWRUg=="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkYeo0-rB8ahqeTHmuskyPxWVPmJ8URgkIQ-EOhN7Tej8Lf6SCvsCnpK6uLptRwi4-IlWRbb2Hb1DxsPR_GE_MutyUCZ_RztBUV6vSbYyQzW0N4xog1tt457TrJlMFWqoInR1IiPU8bijneodetWtNndMBVpsVegu-BbS0DWYoqdjx34mL"
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkYeo0-rB8ahqeTHmuskyPxWVPmJ8URgkIQ-EOhN7Tej8Lf6SCvsCnpK6uLptRwi4-IlWRbb2Hb1DxsPR_GE_MutyUCZ_RztBUV6vSbYyQzW0N4xog1tt457TrJlMFWqoInR1IiPU8bijneodetWtNndMBVpsVegu-BbS0DWYoqdjx34mL"
+      },
+      {
+        "label": "hailo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUHDSxQFFHxl56MqRAb551oN9n2lh9zV2MB2f2MIG_bxB_XSaOptzP5xJ9C2H7MfmkLWoN3awTguMVzSv7AqU5X3WLmRx18rUqq0Ah4egC2sJz8k0EilE_G8Rmo0p8gH7oTUb667Hh88Wn1zgU5ku-iFhOCPtzAv--xo8UNlIIa_w0i31CaUrDR8ifGx2d"
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeFXX4dbdqV0uS2ObfdvmeOsZItx1rcIRoxlVlFa1YkFRtoYqktAKGkX-j_wkFUC-yfVlDHKqkMB9222w5x8jaQJ5kep31JbG15gX0IietOJI0oHISm-epQgLpHaq7iSJ1TsY7HZyZ2NOZACbv9uTfm1ggWeI4otfPiil6HKiW91w68vmkbvz1Srl2XosdSRPpi1jhu1wMV2ubDzo="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeFXX4dbdqV0uS2ObfdvmeOsZItx1rcIRoxlVlFa1YkFRtoYqktAKGkX-j_wkFUC-yfVlDHKqkMB9222w5x8jaQJ5kep31JbG15gX0IietOJI0oHISm-epQgLpHaq7iSJ1TsY7HZyZ2NOZACbv9uTfm1ggWeI4otfPiil6HKiW91w68vmkbvz1Srl2XosdSRPpi1jhu1wMV2ubDzo="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeFXX4dbdqV0uS2ObfdvmeOsZItx1rcIRoxlVlFa1YkFRtoYqktAKGkX-j_wkFUC-yfVlDHKqkMB9222w5x8jaQJ5kep31JbG15gX0IietOJI0oHISm-epQgLpHaq7iSJ1TsY7HZyZ2NOZACbv9uTfm1ggWeI4otfPiil6HKiW91w68vmkbvz1Srl2XosdSRPpi1jhu1wMV2ubDzo="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGssDqO3YGFgMmv_e9o-4T1ItNVlkqvhIZGJSWIsOkDG9b6GKDBTbmZXljkH_7Z8G3K82iQM90rIkCNGPzSDxLT4tP87dL96PKKDcjTwzugMuHYv3b_jri8J7Ejtbn5-zw3LZDb4bu9Ba2YoKo337q4u8Rb4mtK4cTLQExgVB4_XEew71mCwGWJ8-xtIH5PTFZUC0lb-i_lHYTXzeYPZoAinUPpdjRm"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBW_YUjfi8Upb45IaxDObUDbNHz4lmsQhDko73ymLoSmlKfs6PPHQXCcv-UFJfXYM3zzWMeAWdgUwpFsTZHExIAFAaI73-kRduHkrRnD08QLylX1_W6K6zxH2Wjtr_SiPtypBYQE4HGFzqlDEHn9IYHqhsDSa206TCIritNkJpwOV1oQpTGnOc1m2qaYedQINcuX6ZyRuS6qVLuEAYOY5XvA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ3w27PZTQE8c6TQi5Y-ew3-a2jAlHDK3G6kZ3PnnB_jwxfaZbH2nUXMYyDnS-HTkYDZ26GtYO5_C3bXQKdZKGN-I7x4ZwOiRFq1c7AWKqBAJPMQPORScWqHOZqnMrPHkBkLmGFeQoXE-bFqOHyrV_s94MJiwwwdBcnS67Ylc="
+      },
+      {
+        "label": "nvidia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL8FtSpEjNKk3v0j6Z9HAwoUS3ZXdQZuc6GDYsKnx3laPz3iWloEBKnATCfUoHarAv29eU0q9uTtitFyeqzQbq0Tm7U1XK2M0vITUQMNHwcC05JEc-Wu0oWHK4y5jrgo5dz7cNijqN4hgz3lUWgrAgJ1jnPT2f7SfvN5sbaHKamqDnpdtP2EuzArKADMmPhvDnpeQ9wERQ_LI="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBW_YUjfi8Upb45IaxDObUDbNHz4lmsQhDko73ymLoSmlKfs6PPHQXCcv-UFJfXYM3zzWMeAWdgUwpFsTZHExIAFAaI73-kRduHkrRnD08QLylX1_W6K6zxH2Wjtr_SiPtypBYQE4HGFzqlDEHn9IYHqhsDSa206TCIritNkJpwOV1oQpTGnOc1m2qaYedQINcuX6ZyRuS6qVLuEAYOY5XvA=="
+      },
+      {
+        "label": "piveral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuVpTeNqD2ZttQK9n8kV9nEFKiNR__rm-ogMCq1UM97mIGqclcv6KzPOe6v_P-mbKn9lbzc9-oJVgE9O2n4JClOgFx0GpSJPq1W8z_h98ANTiCwFCKfAIi-zyReh_aXlN_urKb2znx2KyOoVtzE0D3SQa8_Um1-ELo0Msr4KHqrhxvYjxbUdjwkcloBKjci3muATgskwuEL4YiQpQbp6HIYtV1nBMKqutL8stefA=="
+      },
+      {
+        "label": "piveral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuVpTeNqD2ZttQK9n8kV9nEFKiNR__rm-ogMCq1UM97mIGqclcv6KzPOe6v_P-mbKn9lbzc9-oJVgE9O2n4JClOgFx0GpSJPq1W8z_h98ANTiCwFCKfAIi-zyReh_aXlN_urKb2znx2KyOoVtzE0D3SQa8_Um1-ELo0Msr4KHqrhxvYjxbUdjwkcloBKjci3muATgskwuEL4YiQpQbp6HIYtV1nBMKqutL8stefA=="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLwynLGZAmNGfKkoHA49_xlsw-9AZ37hqPRccaQ2gRlON5BNj9u6QBNUFWnnpFoFiD5GtTv42XID908oy6qgLmae1eMoHllY2bEQ9w4lzVgAM-KgkPqeY3jlqZfE-0cwxtDVpzIsRLCurGfme3GOf_PTzLI3OBf5KqmPkDnO1tKS6HS9l23urM32r3AuP_ULMEXJr2JArdsnU="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ3w27PZTQE8c6TQi5Y-ew3-a2jAlHDK3G6kZ3PnnB_jwxfaZbH2nUXMYyDnS-HTkYDZ26GtYO5_C3bXQKdZKGN-I7x4ZwOiRFq1c7AWKqBAJPMQPORScWqHOZqnMrPHkBkLmGFeQoXE-bFqOHyrV_s94MJiwwwdBcnS67Ylc="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ3w27PZTQE8c6TQi5Y-ew3-a2jAlHDK3G6kZ3PnnB_jwxfaZbH2nUXMYyDnS-HTkYDZ26GtYO5_C3bXQKdZKGN-I7x4ZwOiRFq1c7AWKqBAJPMQPORScWqHOZqnMrPHkBkLmGFeQoXE-bFqOHyrV_s94MJiwwwdBcnS67Ylc="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkYeo0-rB8ahqeTHmuskyPxWVPmJ8URgkIQ-EOhN7Tej8Lf6SCvsCnpK6uLptRwi4-IlWRbb2Hb1DxsPR_GE_MutyUCZ_RztBUV6vSbYyQzW0N4xog1tt457TrJlMFWqoInR1IiPU8bijneodetWtNndMBVpsVegu-BbS0DWYoqdjx34mL"
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkYeo0-rB8ahqeTHmuskyPxWVPmJ8URgkIQ-EOhN7Tej8Lf6SCvsCnpK6uLptRwi4-IlWRbb2Hb1DxsPR_GE_MutyUCZ_RztBUV6vSbYyQzW0N4xog1tt457TrJlMFWqoInR1IiPU8bijneodetWtNndMBVpsVegu-BbS0DWYoqdjx34mL"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ3w27PZTQE8c6TQi5Y-ew3-a2jAlHDK3G6kZ3PnnB_jwxfaZbH2nUXMYyDnS-HTkYDZ26GtYO5_C3bXQKdZKGN-I7x4ZwOiRFq1c7AWKqBAJPMQPORScWqHOZqnMrPHkBkLmGFeQoXE-bFqOHyrV_s94MJiwwwdBcnS67Ylc="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZZRwFvTg53ZUS1KY4VCB_uoYuSdeji0Bxva-9-VctXEqboU1EM6MZWF428jPDOUmnNRbJB5k5xuEb0G783raGvi-Pbn0j2xjFKP8UQqxFYAgamYF2RRLI6PD-wwSVRF3hzkaCUQ3ptIzubMqQk8Zqu0Qo38XosCpKMgU4aQ=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZZRwFvTg53ZUS1KY4VCB_uoYuSdeji0Bxva-9-VctXEqboU1EM6MZWF428jPDOUmnNRbJB5k5xuEb0G783raGvi-Pbn0j2xjFKP8UQqxFYAgamYF2RRLI6PD-wwSVRF3hzkaCUQ3ptIzubMqQk8Zqu0Qo38XosCpKMgU4aQ=="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGupFaONg8ffrgguLMwWSDSMS_Yg6yEPrxwqyxWNnQok-MEhroHaWJLvwUXKPTbSrnil4mScRXwjAKO4eqdDgx6jhCOhCZu4bwAL6k0Y3Lldn83XOgFzuVP2A3VqjjgG1Yljaodul6uERmTKvsBbMPsdG_ly3XUGzBAH_sywj_t8ZM="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQEUY07K3modHPWWpYYVMohpG8UiXQRNh2PtbE4E0F39cdtQUHRjuwKRJ0qF7l52jlY0Oa9pIeS16ENVwMq6d4jzCR9w-sTJN2mZUSal-oRXq3ft0inFPbDRvbAthHnDr6AO_Thu0OnznrjX5H9LRb-VINY5YVXrWtI0i3fxYoQp-EoGF5XLloVRJNpFg-ZxTY4wX3EskwsK9YNDLUq0uPSj63j5brfIeL0H96ZDgtA-_xsWECr82G_2IIPt7L"
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQEUY07K3modHPWWpYYVMohpG8UiXQRNh2PtbE4E0F39cdtQUHRjuwKRJ0qF7l52jlY0Oa9pIeS16ENVwMq6d4jzCR9w-sTJN2mZUSal-oRXq3ft0inFPbDRvbAthHnDr6AO_Thu0OnznrjX5H9LRb-VINY5YVXrWtI0i3fxYoQp-EoGF5XLloVRJNpFg-ZxTY4wX3EskwsK9YNDLUq0uPSj63j5brfIeL0H96ZDgtA-_xsWECr82G_2IIPt7L"
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHKT7RBi2FKhwNC8KIOpPIYiwB8x-XGD-PPYYKYBM8ydc-mlpi8X8i8qShlpCgU99WkN1G_1Wci0Yed00nyLp4a_JVa-BXUvbLxVVoY1ufQbxArPLn1XORCaaR8KoezVPmzohOD4hLjik_5A=="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGupFaONg8ffrgguLMwWSDSMS_Yg6yEPrxwqyxWNnQok-MEhroHaWJLvwUXKPTbSrnil4mScRXwjAKO4eqdDgx6jhCOhCZu4bwAL6k0Y3Lldn83XOgFzuVP2A3VqjjgG1Yljaodul6uERmTKvsBbMPsdG_ly3XUGzBAH_sywj_t8ZM="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZZRwFvTg53ZUS1KY4VCB_uoYuSdeji0Bxva-9-VctXEqboU1EM6MZWF428jPDOUmnNRbJB5k5xuEb0G783raGvi-Pbn0j2xjFKP8UQqxFYAgamYF2RRLI6PD-wwSVRF3hzkaCUQ3ptIzubMqQk8Zqu0Qo38XosCpKMgU4aQ=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZZRwFvTg53ZUS1KY4VCB_uoYuSdeji0Bxva-9-VctXEqboU1EM6MZWF428jPDOUmnNRbJB5k5xuEb0G783raGvi-Pbn0j2xjFKP8UQqxFYAgamYF2RRLI6PD-wwSVRF3hzkaCUQ3ptIzubMqQk8Zqu0Qo38XosCpKMgU4aQ=="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGupFaONg8ffrgguLMwWSDSMS_Yg6yEPrxwqyxWNnQok-MEhroHaWJLvwUXKPTbSrnil4mScRXwjAKO4eqdDgx6jhCOhCZu4bwAL6k0Y3Lldn83XOgFzuVP2A3VqjjgG1Yljaodul6uERmTKvsBbMPsdG_ly3XUGzBAH_sywj_t8ZM="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGupFaONg8ffrgguLMwWSDSMS_Yg6yEPrxwqyxWNnQok-MEhroHaWJLvwUXKPTbSrnil4mScRXwjAKO4eqdDgx6jhCOhCZu4bwAL6k0Y3Lldn83XOgFzuVP2A3VqjjgG1Yljaodul6uERmTKvsBbMPsdG_ly3XUGzBAH_sywj_t8ZM="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGupFaONg8ffrgguLMwWSDSMS_Yg6yEPrxwqyxWNnQok-MEhroHaWJLvwUXKPTbSrnil4mScRXwjAKO4eqdDgx6jhCOhCZu4bwAL6k0Y3Lldn83XOgFzuVP2A3VqjjgG1Yljaodul6uERmTKvsBbMPsdG_ly3XUGzBAH_sywj_t8ZM="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQEUY07K3modHPWWpYYVMohpG8UiXQRNh2PtbE4E0F39cdtQUHRjuwKRJ0qF7l52jlY0Oa9pIeS16ENVwMq6d4jzCR9w-sTJN2mZUSal-oRXq3ft0inFPbDRvbAthHnDr6AO_Thu0OnznrjX5H9LRb-VINY5YVXrWtI0i3fxYoQp-EoGF5XLloVRJNpFg-ZxTY4wX3EskwsK9YNDLUq0uPSj63j5brfIeL0H96ZDgtA-_xsWECr82G_2IIPt7L"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZZRwFvTg53ZUS1KY4VCB_uoYuSdeji0Bxva-9-VctXEqboU1EM6MZWF428jPDOUmnNRbJB5k5xuEb0G783raGvi-Pbn0j2xjFKP8UQqxFYAgamYF2RRLI6PD-wwSVRF3hzkaCUQ3ptIzubMqQk8Zqu0Qo38XosCpKMgU4aQ=="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQEUY07K3modHPWWpYYVMohpG8UiXQRNh2PtbE4E0F39cdtQUHRjuwKRJ0qF7l52jlY0Oa9pIeS16ENVwMq6d4jzCR9w-sTJN2mZUSal-oRXq3ft0inFPbDRvbAthHnDr6AO_Thu0OnznrjX5H9LRb-VINY5YVXrWtI0i3fxYoQp-EoGF5XLloVRJNpFg-ZxTY4wX3EskwsK9YNDLUq0uPSj63j5brfIeL0H96ZDgtA-_xsWECr82G_2IIPt7L"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZZRwFvTg53ZUS1KY4VCB_uoYuSdeji0Bxva-9-VctXEqboU1EM6MZWF428jPDOUmnNRbJB5k5xuEb0G783raGvi-Pbn0j2xjFKP8UQqxFYAgamYF2RRLI6PD-wwSVRF3hzkaCUQ3ptIzubMqQk8Zqu0Qo38XosCpKMgU4aQ=="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlZhRv3w0uGsfQJvRU_kuhTlTy_OBk1DrQuf9sVAVcie3nYHzfEWHcesiCHpEVY6Lbiu_xcjero6abQpc9SisHQI_uRQYmelvWVxMCWtVtIroaXZSq_7eEgMh-ARD9GMKg7C4Y5Ctawl6jGtMRHofdMJA8XuOka8LPlHydCibJJolQikPstMaTJece_0J0xAG15qsFtckd"
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGupFaONg8ffrgguLMwWSDSMS_Yg6yEPrxwqyxWNnQok-MEhroHaWJLvwUXKPTbSrnil4mScRXwjAKO4eqdDgx6jhCOhCZu4bwAL6k0Y3Lldn83XOgFzuVP2A3VqjjgG1Yljaodul6uERmTKvsBbMPsdG_ly3XUGzBAH_sywj_t8ZM="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGupFaONg8ffrgguLMwWSDSMS_Yg6yEPrxwqyxWNnQok-MEhroHaWJLvwUXKPTbSrnil4mScRXwjAKO4eqdDgx6jhCOhCZu4bwAL6k0Y3Lldn83XOgFzuVP2A3VqjjgG1Yljaodul6uERmTKvsBbMPsdG_ly3XUGzBAH_sywj_t8ZM="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqNdvvDGklDDzGnAlM16hDsfVOdCeM-53D9ysuRZLCgsa8vsQoeCNQ-xWZMfeRk8i1djIMVWIm2YfTue1O1doyBye1C_jTkTttncO0UiOK1AufJJMTPAi0q_-VWFwUVFRxagqBdfbAElK4avwA4FBYfx3NPBe-_ceTk2UHqYWxAivt"
+      },
+      {
+        "label": "nvidia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoVdegOw-EBtQG2_ydv9TaoxTqtWQz8cFRXol0_bI2APiYxY_8Hr--ILR5MN_ZhaYQViSTsGz28dQEfGlvI1sPCSmXdWbrLmYzJf1EFF_oiBZIgZlmt68lWd41atcFWFPT2oSQtdRS6ZZhfypZLw_FkcKC4kffN0KhiavPPyOQcBgkYspIa2DwrfwJ5L1B17lM-FLoJRuMorx0OsVghEI-BvQC9pyIJhsEvJuZ73t0W4pi_5Uhc9bPPFOUplrXpA=="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj2huz0F2YraTRp0-jb39po67-uWfFYpQzHpPpwgFSMzC86Z6Wx0aI9_FmFNqP1DmeksBZmCFRjjTisb_kvixfjec66-j5ZfpUTUxuV7YObND81PAY5b21QoMo2M8vrTe8Lc8orIFoZk6Kwq2UMw0YA0ym_FK5tSciyEavGuB2EoWtmjlm8NX_69uwzU_tGudApB67RsjDJI73m3Y8R0WGUUwaMX8coyYVJcMBiJ5yrH3zA2fHZxAWcMNL032_"
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj2huz0F2YraTRp0-jb39po67-uWfFYpQzHpPpwgFSMzC86Z6Wx0aI9_FmFNqP1DmeksBZmCFRjjTisb_kvixfjec66-j5ZfpUTUxuV7YObND81PAY5b21QoMo2M8vrTe8Lc8orIFoZk6Kwq2UMw0YA0ym_FK5tSciyEavGuB2EoWtmjlm8NX_69uwzU_tGudApB67RsjDJI73m3Y8R0WGUUwaMX8coyYVJcMBiJ5yrH3zA2fHZxAWcMNL032_"
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj2huz0F2YraTRp0-jb39po67-uWfFYpQzHpPpwgFSMzC86Z6Wx0aI9_FmFNqP1DmeksBZmCFRjjTisb_kvixfjec66-j5ZfpUTUxuV7YObND81PAY5b21QoMo2M8vrTe8Lc8orIFoZk6Kwq2UMw0YA0ym_FK5tSciyEavGuB2EoWtmjlm8NX_69uwzU_tGudApB67RsjDJI73m3Y8R0WGUUwaMX8coyYVJcMBiJ5yrH3zA2fHZxAWcMNL032_"
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElJwdWOOAU6vS70i0u6t3njP3-SYiWZzOay8p6tviXy1dkHQ2CgVfBGriaOBhIT4PmZBTcjtkCfkvlrCABS0k9U57SYDXQ3m0QTgXD5nurw6O5HU53GCsf8Z02543CAqXC_ValHzoIL_N84UZ4jr7twY9537NfOyGEkoHv9JfmkmKs2uB7VLvFNF4="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj2huz0F2YraTRp0-jb39po67-uWfFYpQzHpPpwgFSMzC86Z6Wx0aI9_FmFNqP1DmeksBZmCFRjjTisb_kvixfjec66-j5ZfpUTUxuV7YObND81PAY5b21QoMo2M8vrTe8Lc8orIFoZk6Kwq2UMw0YA0ym_FK5tSciyEavGuB2EoWtmjlm8NX_69uwzU_tGudApB67RsjDJI73m3Y8R0WGUUwaMX8coyYVJcMBiJ5yrH3zA2fHZxAWcMNL032_"
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElJwdWOOAU6vS70i0u6t3njP3-SYiWZzOay8p6tviXy1dkHQ2CgVfBGriaOBhIT4PmZBTcjtkCfkvlrCABS0k9U57SYDXQ3m0QTgXD5nurw6O5HU53GCsf8Z02543CAqXC_ValHzoIL_N84UZ4jr7twY9537NfOyGEkoHv9JfmkmKs2uB7VLvFNF4="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPwSrbAsn1tBnT6T2MKzJZP9PpP7gX5lM8uyt3jnEL9RFaAUdKsUWfAz07Vab0aNqXnh1Y2oF-TXyV-m1Oh63ZNcDWlOJ4oszlj7nOCspEoaTriHvRqVqL85GjxCe37jzD4hfFlzOmEUgtXY3KxY_Hy7a-DcQhFb51RZulr4iKTUhycAev7g=="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmaJOYHL-KrP9JvhkofTpGxiDAOKZrE3leQDGEe5RadcatmQ4jV7f3jJH2mvlIJ4Fe-PEQ7JMXLY_Jp-tFU6OFnDlUEn0vxcUH2XgftwxSU1o20PAiq9cLSdS-35Jyms1D4Ul2xLn_1K92oWiPifkpfONmd18d6pLJoVteQ6aeh2ceNLXCCxR0jUmX9DjwI5Y="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPwSrbAsn1tBnT6T2MKzJZP9PpP7gX5lM8uyt3jnEL9RFaAUdKsUWfAz07Vab0aNqXnh1Y2oF-TXyV-m1Oh63ZNcDWlOJ4oszlj7nOCspEoaTriHvRqVqL85GjxCe37jzD4hfFlzOmEUgtXY3KxY_Hy7a-DcQhFb51RZulr4iKTUhycAev7g=="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmaJOYHL-KrP9JvhkofTpGxiDAOKZrE3leQDGEe5RadcatmQ4jV7f3jJH2mvlIJ4Fe-PEQ7JMXLY_Jp-tFU6OFnDlUEn0vxcUH2XgftwxSU1o20PAiq9cLSdS-35Jyms1D4Ul2xLn_1K92oWiPifkpfONmd18d6pLJoVteQ6aeh2ceNLXCCxR0jUmX9DjwI5Y="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPwSrbAsn1tBnT6T2MKzJZP9PpP7gX5lM8uyt3jnEL9RFaAUdKsUWfAz07Vab0aNqXnh1Y2oF-TXyV-m1Oh63ZNcDWlOJ4oszlj7nOCspEoaTriHvRqVqL85GjxCe37jzD4hfFlzOmEUgtXY3KxY_Hy7a-DcQhFb51RZulr4iKTUhycAev7g=="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmaJOYHL-KrP9JvhkofTpGxiDAOKZrE3leQDGEe5RadcatmQ4jV7f3jJH2mvlIJ4Fe-PEQ7JMXLY_Jp-tFU6OFnDlUEn0vxcUH2XgftwxSU1o20PAiq9cLSdS-35Jyms1D4Ul2xLn_1K92oWiPifkpfONmd18d6pLJoVteQ6aeh2ceNLXCCxR0jUmX9DjwI5Y="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPwSrbAsn1tBnT6T2MKzJZP9PpP7gX5lM8uyt3jnEL9RFaAUdKsUWfAz07Vab0aNqXnh1Y2oF-TXyV-m1Oh63ZNcDWlOJ4oszlj7nOCspEoaTriHvRqVqL85GjxCe37jzD4hfFlzOmEUgtXY3KxY_Hy7a-DcQhFb51RZulr4iKTUhycAev7g=="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmaJOYHL-KrP9JvhkofTpGxiDAOKZrE3leQDGEe5RadcatmQ4jV7f3jJH2mvlIJ4Fe-PEQ7JMXLY_Jp-tFU6OFnDlUEn0vxcUH2XgftwxSU1o20PAiq9cLSdS-35Jyms1D4Ul2xLn_1K92oWiPifkpfONmd18d6pLJoVteQ6aeh2ceNLXCCxR0jUmX9DjwI5Y="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPwSrbAsn1tBnT6T2MKzJZP9PpP7gX5lM8uyt3jnEL9RFaAUdKsUWfAz07Vab0aNqXnh1Y2oF-TXyV-m1Oh63ZNcDWlOJ4oszlj7nOCspEoaTriHvRqVqL85GjxCe37jzD4hfFlzOmEUgtXY3KxY_Hy7a-DcQhFb51RZulr4iKTUhycAev7g=="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmaJOYHL-KrP9JvhkofTpGxiDAOKZrE3leQDGEe5RadcatmQ4jV7f3jJH2mvlIJ4Fe-PEQ7JMXLY_Jp-tFU6OFnDlUEn0vxcUH2XgftwxSU1o20PAiq9cLSdS-35Jyms1D4Ul2xLn_1K92oWiPifkpfONmd18d6pLJoVteQ6aeh2ceNLXCCxR0jUmX9DjwI5Y="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPwSrbAsn1tBnT6T2MKzJZP9PpP7gX5lM8uyt3jnEL9RFaAUdKsUWfAz07Vab0aNqXnh1Y2oF-TXyV-m1Oh63ZNcDWlOJ4oszlj7nOCspEoaTriHvRqVqL85GjxCe37jzD4hfFlzOmEUgtXY3KxY_Hy7a-DcQhFb51RZulr4iKTUhycAev7g=="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGj2huz0F2YraTRp0-jb39po67-uWfFYpQzHpPpwgFSMzC86Z6Wx0aI9_FmFNqP1DmeksBZmCFRjjTisb_kvixfjec66-j5ZfpUTUxuV7YObND81PAY5b21QoMo2M8vrTe8Lc8orIFoZk6Kwq2UMw0YA0ym_FK5tSciyEavGuB2EoWtmjlm8NX_69uwzU_tGudApB67RsjDJI73m3Y8R0WGUUwaMX8coyYVJcMBiJ5yrH3zA2fHZxAWcMNL032_"
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElJwdWOOAU6vS70i0u6t3njP3-SYiWZzOay8p6tviXy1dkHQ2CgVfBGriaOBhIT4PmZBTcjtkCfkvlrCABS0k9U57SYDXQ3m0QTgXD5nurw6O5HU53GCsf8Z02543CAqXC_ValHzoIL_N84UZ4jr7twY9537NfOyGEkoHv9JfmkmKs2uB7VLvFNF4="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPwSrbAsn1tBnT6T2MKzJZP9PpP7gX5lM8uyt3jnEL9RFaAUdKsUWfAz07Vab0aNqXnh1Y2oF-TXyV-m1Oh63ZNcDWlOJ4oszlj7nOCspEoaTriHvRqVqL85GjxCe37jzD4hfFlzOmEUgtXY3KxY_Hy7a-DcQhFb51RZulr4iKTUhycAev7g=="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmaJOYHL-KrP9JvhkofTpGxiDAOKZrE3leQDGEe5RadcatmQ4jV7f3jJH2mvlIJ4Fe-PEQ7JMXLY_Jp-tFU6OFnDlUEn0vxcUH2XgftwxSU1o20PAiq9cLSdS-35Jyms1D4Ul2xLn_1K92oWiPifkpfONmd18d6pLJoVteQ6aeh2ceNLXCCxR0jUmX9DjwI5Y="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPwSrbAsn1tBnT6T2MKzJZP9PpP7gX5lM8uyt3jnEL9RFaAUdKsUWfAz07Vab0aNqXnh1Y2oF-TXyV-m1Oh63ZNcDWlOJ4oszlj7nOCspEoaTriHvRqVqL85GjxCe37jzD4hfFlzOmEUgtXY3KxY_Hy7a-DcQhFb51RZulr4iKTUhycAev7g=="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmaJOYHL-KrP9JvhkofTpGxiDAOKZrE3leQDGEe5RadcatmQ4jV7f3jJH2mvlIJ4Fe-PEQ7JMXLY_Jp-tFU6OFnDlUEn0vxcUH2XgftwxSU1o20PAiq9cLSdS-35Jyms1D4Ul2xLn_1K92oWiPifkpfONmd18d6pLJoVteQ6aeh2ceNLXCCxR0jUmX9DjwI5Y="
+      },
+      {
+        "label": "freedesktop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPwSrbAsn1tBnT6T2MKzJZP9PpP7gX5lM8uyt3jnEL9RFaAUdKsUWfAz07Vab0aNqXnh1Y2oF-TXyV-m1Oh63ZNcDWlOJ4oszlj7nOCspEoaTriHvRqVqL85GjxCe37jzD4hfFlzOmEUgtXY3KxY_Hy7a-DcQhFb51RZulr4iKTUhycAev7g=="
+      },
+      {
+        "label": "gstreamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtT2Ga-AgN1sVy8j0p0yQhEi4uJXCYKSEdcIFZ-EKqLOdO4UUm9REMfB9nA3POqGCJ4B1tqxs6Sr5szzDReVjXRewIsWwX-h-ty62DYpapH4w2lSrPxnbNC8Z2ZQCfXHn788lOVlSbc-x3CfAKNBMFMfaWci6soFE5pXfHPETg1wQ="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEheThpc1nh9X9eu9YW1jr8wPKHAIdwQ6OjZR217ikWZknAR6Ub9uBmVgajYgJAC5LgZDHSji9jki_5lw3bSUsujgZ2ogeeaoU-QbK9V9DFO8Z3gfrQaABnXksgLvilyspSu9N-Xr7PmnyJhrZRfeAiIv9XgUnZBRMea3kqTVlcyCGTToe8WWHHGYwae8dLyYmnQmJIG4niWzaM_8aL3LtU05k="
+      },
+      {
+        "label": "nvidia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFteuc_gPOha4hqHqDVFDho-YtsQhBh3K8MPmMjRvXu3qjMP8SI6n47gubhYRlw975vgQjcT-ZZ3rfVM2nM7ar_ijaiKzSqrcyqxWatcPU98R2HnoUteU_fqxVeOY6l_Gau3R7ZQGTOaeynB2GXlVhNoO9z-BGTA3s_Q8ki_ysVd6PlPi-q0Mat5Sbu5v9l-rVWqzUcdcsj2kh58oeLnfA="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieyMkAAOLQdemEpsvIrOZ7JgaTEn9D7RV_GohveHhNlh5A4UB5c6bEJCLHE4yk87CS9kZJ3q5qz0cmC49nXWkI0fGvz8ZU-FzRU2P75t2seRn-e2VL0kW2uzSXF4MaXEaxHz_aZOfSu3ST06hvlcaqIAocFfEMaJFJ5gm48mTuxEoZ5VvAVVRH0dgtqPFaC7wuTBlaDYFRY6TWPSpSAaxUvXMjSMHNaEfl0XC-rYIvlSNhiOq4yTUmkVpe_ej"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEBP205ZFwkVnDvqnpNozHzUX2yJALx5CPdFgrArF469veXvOHZ_2WWNiavIqcFDZgmvQYNHLYgHCRghBwC3OAXJxNvSCVGw4Vmrwf7Gi7lS1-c1CouI0jZKwJ1wGmI6CPjjsjmBpZ_2JFcPCNwY82Ydl1P3CX2gJFd-RVSdw4ANrgsdwI3xPVJg0="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieyMkAAOLQdemEpsvIrOZ7JgaTEn9D7RV_GohveHhNlh5A4UB5c6bEJCLHE4yk87CS9kZJ3q5qz0cmC49nXWkI0fGvz8ZU-FzRU2P75t2seRn-e2VL0kW2uzSXF4MaXEaxHz_aZOfSu3ST06hvlcaqIAocFfEMaJFJ5gm48mTuxEoZ5VvAVVRH0dgtqPFaC7wuTBlaDYFRY6TWPSpSAaxUvXMjSMHNaEfl0XC-rYIvlSNhiOq4yTUmkVpe_ej"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEBP205ZFwkVnDvqnpNozHzUX2yJALx5CPdFgrArF469veXvOHZ_2WWNiavIqcFDZgmvQYNHLYgHCRghBwC3OAXJxNvSCVGw4Vmrwf7Gi7lS1-c1CouI0jZKwJ1wGmI6CPjjsjmBpZ_2JFcPCNwY82Ydl1P3CX2gJFd-RVSdw4ANrgsdwI3xPVJg0="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEBP205ZFwkVnDvqnpNozHzUX2yJALx5CPdFgrArF469veXvOHZ_2WWNiavIqcFDZgmvQYNHLYgHCRghBwC3OAXJxNvSCVGw4Vmrwf7Gi7lS1-c1CouI0jZKwJ1wGmI6CPjjsjmBpZ_2JFcPCNwY82Ydl1P3CX2gJFd-RVSdw4ANrgsdwI3xPVJg0="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_VzRq8NVl4YaCnMH9vQCdfrnwvENk22UwU1GDJHP8MLCxKmtfxbVLBi7qqLv362XPTbiGQMPxc0g1vL6KbSuqUVAqAbn52h7McsYq6VlEniLQiO8ypND6MzU0rNvc7Fvu7yJS9q5uHBagCU8k9myP_ssl53DUBKh8Z65JJMTfQjN-HR_ggERwRM="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTV1ikK_sHmV4T0oR3_8rTgKLGu7tTxouO2XtD3hpgyFdjHiVAXwAgC9wBlzALVrPARQk-cozddG0rZq7BQdDMJN5CO-XOJI_P_Um0EvCwv22TIfJDmu0w3pHDY9uRWX_JZY2FG7DiJlVrqmyYe3W-j-UZpcCgmhwOsLixNYsCE8IizfsumKaRrvYO_TeZtF8u22cDIaaO"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEBP205ZFwkVnDvqnpNozHzUX2yJALx5CPdFgrArF469veXvOHZ_2WWNiavIqcFDZgmvQYNHLYgHCRghBwC3OAXJxNvSCVGw4Vmrwf7Gi7lS1-c1CouI0jZKwJ1wGmI6CPjjsjmBpZ_2JFcPCNwY82Ydl1P3CX2gJFd-RVSdw4ANrgsdwI3xPVJg0="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAQtM7EH03tdfTTUONNmshXgcWyj6C-wONK87QXOe0gplcCble6pE9h330OcU3f7qhLLTW-rHGJdC55IoM51Cqtauehga6d19lG9r_gjfz6MjEsOdUXDh_t7kiLf1DWrIYKZaNLD7xlEaAjip_qJVgqFDUu2Xf73DcHa1xSDKCrdCqHkItKsjaBRp1ybDZvfl6s100N2GTwtlY"
+      },
+      {
+        "label": "pocketpcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT7ylLAVyGPripMI6tgxGxWjCzn8s5XdE6SzT6gfdlSBYL5rR1dIT4Z1DFsvcYcDmB0pmzmWzRrvcJv-aTL6nYCAQSPtf0iRbbBgzrwjZtNTLHOM7PI_GP5AGkWa7l5uglCKGI82X1nKDPZph2sR5cdlDXt0vGcZJd2izG7mo="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      },
+      {
+        "label": "narkive",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyeHxGwsDZmyQQ_aux8m427lD2xmeS-1ArfbPj9sS5R5YdIXcPLq4QQU5q9faPf7rHrvjDUIe2KDEoXsdjY_h_c0Gre_ins_NYrOQBXSed9nSpwAz1nyKdF17fkXuF0v77MuatZHHmEVwC1n9Y3anMiOpoAQg5MhTr8X9A3YpJzjKMc-cb3UgNq2M4LQPGhsihSNeLaJuDBC92Vgx1ez1N8KDzS4KO4FRzTCq-FI0="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieyMkAAOLQdemEpsvIrOZ7JgaTEn9D7RV_GohveHhNlh5A4UB5c6bEJCLHE4yk87CS9kZJ3q5qz0cmC49nXWkI0fGvz8ZU-FzRU2P75t2seRn-e2VL0kW2uzSXF4MaXEaxHz_aZOfSu3ST06hvlcaqIAocFfEMaJFJ5gm48mTuxEoZ5VvAVVRH0dgtqPFaC7wuTBlaDYFRY6TWPSpSAaxUvXMjSMHNaEfl0XC-rYIvlSNhiOq4yTUmkVpe_ej"
+      },
+      {
+        "label": "narkive",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmGWSxZju9GcqOBCpu9vKfCpu1ZgG61PLFhfvRFWmGEcpgmg2k5Jhe59dLvWuDkOfMctcCRA88ItHmVx9x493MF_zHW6hbLrB8gWDm_Nb6xyWPZ049jDP2OksrCNKJyF4HqAMbHlpsVGivMUXjvTdroM8uwhKX2lPacB3VLtZLsA=="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      },
+      {
+        "label": "nvidia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL8kOyxCqr4qhLSJPAc2QFEXitLUG4hyzXGFHi_HDj5mLnXER2jWnMoeDMfsysd0PUp-zmJUB8ihIKHoMegovs5I78zCTE6shu2qv4bZSK5bEdZRj8w50fLo0T2Bot8BhKXRFPaOcWlYPenh_EEZ7KBKEQrqrLwscjOvVZvdMTG-PjA3Vg2kitnN4xKxkjyxM6uQJNPm5je9EmGYbUXU16ay26cVi8q0S86zsr_-vxvtk="
+      },
+      {
+        "label": "narkive",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmGWSxZju9GcqOBCpu9vKfCpu1ZgG61PLFhfvRFWmGEcpgmg2k5Jhe59dLvWuDkOfMctcCRA88ItHmVx9x493MF_zHW6hbLrB8gWDm_Nb6xyWPZ049jDP2OksrCNKJyF4HqAMbHlpsVGivMUXjvTdroM8uwhKX2lPacB3VLtZLsA=="
+      },
+      {
+        "label": "fanyamin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_VzRq8NVl4YaCnMH9vQCdfrnwvENk22UwU1GDJHP8MLCxKmtfxbVLBi7qqLv362XPTbiGQMPxc0g1vL6KbSuqUVAqAbn52h7McsYq6VlEniLQiO8ypND6MzU0rNvc7Fvu7yJS9q5uHBagCU8k9myP_ssl53DUBKh8Z65JJMTfQjN-HR_ggERwRM="
+      },
+      {
+        "label": "manpagez",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEieyMkAAOLQdemEpsvIrOZ7JgaTEn9D7RV_GohveHhNlh5A4UB5c6bEJCLHE4yk87CS9kZJ3q5qz0cmC49nXWkI0fGvz8ZU-FzRU2P75t2seRn-e2VL0kW2uzSXF4MaXEaxHz_aZOfSu3ST06hvlcaqIAocFfEMaJFJ5gm48mTuxEoZ5VvAVVRH0dgtqPFaC7wuTBlaDYFRY6TWPSpSAaxUvXMjSMHNaEfl0XC-rYIvlSNhiOq4yTUmkVpe_ej"
+      },
+      {
+        "label": "hcldoc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEqNU4TE14gxOOoUDX4YoVY0zMY8VRiC0me7ePM0S_EeroTSKVqaeCAa3MrQdwYTgtRBWoikzvUwU5_T4_dEuHMcv8i7jZPxeFooplb4MEUhLlZmjmknDTTSinVjY-gLAxIPVE_mTZ_8eka4KTPfemHipE4mNkZUUcoATH_bU6hZ6PmLxsWAq8R4F1gjamQzMe3hnOKM6sIn8ov7Wxc062j_SJhRS-gIk3dP3J6RxHJoQz0Geu9-XDx9IjOtph4o-Ef9gIAH6r6iey8Dl9qzx220dN7cbq"
+      },
+      {
+        "label": "narkive",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmGWSxZju9GcqOBCpu9vKfCpu1ZgG61PLFhfvRFWmGEcpgmg2k5Jhe59dLvWuDkOfMctcCRA88ItHmVx9x493MF_zHW6hbLrB8gWDm_Nb6xyWPZ049jDP2OksrCNKJyF4HqAMbHlpsVGivMUXjvTdroM8uwhKX2lPacB3VLtZLsA=="
+      },
+      {
+        "label": "mepis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoyhPEybWqyslWBjyywg1ows4xSn1gxl51Jfs1Q4kWKiX1C8NJTDp7S3mjeu5K0pejw8-r18xlw8ZIwT_UPrxfdiBHXaTbZnojls9CHZD5eW6TX6gbL73cYFgSBpSOGr5YBT6tOvQbawh2S13XWilIwM5P75ELJdHAdTcyPK0="
+      },
+      {
+        "label": "pandorarecovery",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9N3ppVQKrIFm3fmeI28Q0rwuSqgxiG20QnmuwLFLd2mnpdcobPWfdXwz3hKEd9WXjfRRfrNV1qkHpxvF3ib_m2Q3Wt61X6fGf7waGfFHFjMSSgvSZ4B9fpgxIuv1L15Tk_r-9e5lwMgiOO5-3PsDZphPEqfMkasaPMzUE0nrJsRs0nUgPd5ep4A=="
+      },
+      {
+        "label": "pocketpcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT7ylLAVyGPripMI6tgxGxWjCzn8s5XdE6SzT6gfdlSBYL5rR1dIT4Z1DFsvcYcDmB0pmzmWzRrvcJv-aTL6nYCAQSPtf0iRbbBgzrwjZtNTLHOM7PI_GP5AGkWa7l5uglCKGI82X1nKDPZph2sR5cdlDXt0vGcZJd2izG7mo="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGPRpN-zgQtINjT5wGvhhOEYFCw4_3dAhSqWVC_YD3Ur0JfrQ-OWCarnU6rr3tCfHGCUKWteXIe9bZ2SPVHEWauAWZ0KsxR8pVEoTcvQ7fYOhxTeXJ7xBNnI5AFHY2qob7IkAcaJ4sZW5G65-FMsHj6Mh41HjiKVro9Q=="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAQtM7EH03tdfTTUONNmshXgcWyj6C-wONK87QXOe0gplcCble6pE9h330OcU3f7qhLLTW-rHGJdC55IoM51Cqtauehga6d19lG9r_gjfz6MjEsOdUXDh_t7kiLf1DWrIYKZaNLD7xlEaAjip_qJVgqFDUu2Xf73DcHa1xSDKCrdCqHkItKsjaBRp1ybDZvfl6s100N2GTwtlY"
+      },
+      {
+        "label": "stellarinfo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLg-vJtipsXQCzLLWhNE7FMhY_OxQBMele9vRGmfCgbBWI5X9W-Sp2RFcg7W895juZvIh-SY1_QckO4T3KsKus3ycGtENuYWjfVoFBHIqF9MwJ_tz3j5IDBF8="
+      },
+      {
+        "label": "vmix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUdhGbKRRM0XKnCmP_iqs9S8bEmfLY2aniW2-udRXCjyS0vc0QMF8RXQv4B0rWHT8O3lRqUARyY6b2zTMcPn-vffS3VgGD_qHyRHvhyTKTA4bhvli966jAaVQWuFbQg3diEckJC9-n-6c-JBdSRADhOumZp43vUrDrFU1bHxd0vFxdgXz5"
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6OODx2RdujF8JRqzoHGpBStJWvJrcKTG0N1JKUo-z2liPW186Vq97gi_OxQ0KqfTIfkyF-aJXI70hB1KBBEqKmNgOeKQeog25fqGeNjogDAyz1wuq3WAxJFXQ70Pq2Mv4JkchJd8="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGPRpN-zgQtINjT5wGvhhOEYFCw4_3dAhSqWVC_YD3Ur0JfrQ-OWCarnU6rr3tCfHGCUKWteXIe9bZ2SPVHEWauAWZ0KsxR8pVEoTcvQ7fYOhxTeXJ7xBNnI5AFHY2qob7IkAcaJ4sZW5G65-FMsHj6Mh41HjiKVro9Q=="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAQtM7EH03tdfTTUONNmshXgcWyj6C-wONK87QXOe0gplcCble6pE9h330OcU3f7qhLLTW-rHGJdC55IoM51Cqtauehga6d19lG9r_gjfz6MjEsOdUXDh_t7kiLf1DWrIYKZaNLD7xlEaAjip_qJVgqFDUu2Xf73DcHa1xSDKCrdCqHkItKsjaBRp1ybDZvfl6s100N2GTwtlY"
+      },
+      {
+        "label": "vmix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUdhGbKRRM0XKnCmP_iqs9S8bEmfLY2aniW2-udRXCjyS0vc0QMF8RXQv4B0rWHT8O3lRqUARyY6b2zTMcPn-vffS3VgGD_qHyRHvhyTKTA4bhvli966jAaVQWuFbQg3diEckJC9-n-6c-JBdSRADhOumZp43vUrDrFU1bHxd0vFxdgXz5"
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6OODx2RdujF8JRqzoHGpBStJWvJrcKTG0N1JKUo-z2liPW186Vq97gi_OxQ0KqfTIfkyF-aJXI70hB1KBBEqKmNgOeKQeog25fqGeNjogDAyz1wuq3WAxJFXQ70Pq2Mv4JkchJd8="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGPRpN-zgQtINjT5wGvhhOEYFCw4_3dAhSqWVC_YD3Ur0JfrQ-OWCarnU6rr3tCfHGCUKWteXIe9bZ2SPVHEWauAWZ0KsxR8pVEoTcvQ7fYOhxTeXJ7xBNnI5AFHY2qob7IkAcaJ4sZW5G65-FMsHj6Mh41HjiKVro9Q=="
+      },
+      {
+        "label": "pocketpcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT7ylLAVyGPripMI6tgxGxWjCzn8s5XdE6SzT6gfdlSBYL5rR1dIT4Z1DFsvcYcDmB0pmzmWzRrvcJv-aTL6nYCAQSPtf0iRbbBgzrwjZtNTLHOM7PI_GP5AGkWa7l5uglCKGI82X1nKDPZph2sR5cdlDXt0vGcZJd2izG7mo="
+      },
+      {
+        "label": "easeus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHMm86hpucAXEqDr2gfsFSTz4QaeX88eY2YJwny0uZoT04ymg4Yuq49UaNPuP0d4lJZi6w1ptAG1sOml6Cv8ncUdzw-WaW9-0mJe6SZ3ZWRj2P8szO"
+      },
+      {
+        "label": "mepis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoyhPEybWqyslWBjyywg1ows4xSn1gxl51Jfs1Q4kWKiX1C8NJTDp7S3mjeu5K0pejw8-r18xlw8ZIwT_UPrxfdiBHXaTbZnojls9CHZD5eW6TX6gbL73cYFgSBpSOGr5YBT6tOvQbawh2S13XWilIwM5P75ELJdHAdTcyPK0="
+      },
+      {
+        "label": "pocketpcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT7ylLAVyGPripMI6tgxGxWjCzn8s5XdE6SzT6gfdlSBYL5rR1dIT4Z1DFsvcYcDmB0pmzmWzRrvcJv-aTL6nYCAQSPtf0iRbbBgzrwjZtNTLHOM7PI_GP5AGkWa7l5uglCKGI82X1nKDPZph2sR5cdlDXt0vGcZJd2izG7mo="
+      },
+      {
+        "label": "mepis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoyhPEybWqyslWBjyywg1ows4xSn1gxl51Jfs1Q4kWKiX1C8NJTDp7S3mjeu5K0pejw8-r18xlw8ZIwT_UPrxfdiBHXaTbZnojls9CHZD5eW6TX6gbL73cYFgSBpSOGr5YBT6tOvQbawh2S13XWilIwM5P75ELJdHAdTcyPK0="
+      },
+      {
+        "label": "stellarinfo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLg-vJtipsXQCzLLWhNE7FMhY_OxQBMele9vRGmfCgbBWI5X9W-Sp2RFcg7W895juZvIh-SY1_QckO4T3KsKus3ycGtENuYWjfVoFBHIqF9MwJ_tz3j5IDBF8="
+      },
+      {
+        "label": "pocketpcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT7ylLAVyGPripMI6tgxGxWjCzn8s5XdE6SzT6gfdlSBYL5rR1dIT4Z1DFsvcYcDmB0pmzmWzRrvcJv-aTL6nYCAQSPtf0iRbbBgzrwjZtNTLHOM7PI_GP5AGkWa7l5uglCKGI82X1nKDPZph2sR5cdlDXt0vGcZJd2izG7mo="
+      },
+      {
+        "label": "mepis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoyhPEybWqyslWBjyywg1ows4xSn1gxl51Jfs1Q4kWKiX1C8NJTDp7S3mjeu5K0pejw8-r18xlw8ZIwT_UPrxfdiBHXaTbZnojls9CHZD5eW6TX6gbL73cYFgSBpSOGr5YBT6tOvQbawh2S13XWilIwM5P75ELJdHAdTcyPK0="
+      },
+      {
+        "label": "pandorarecovery",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9N3ppVQKrIFm3fmeI28Q0rwuSqgxiG20QnmuwLFLd2mnpdcobPWfdXwz3hKEd9WXjfRRfrNV1qkHpxvF3ib_m2Q3Wt61X6fGf7waGfFHFjMSSgvSZ4B9fpgxIuv1L15Tk_r-9e5lwMgiOO5-3PsDZphPEqfMkasaPMzUE0nrJsRs0nUgPd5ep4A=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGPRpN-zgQtINjT5wGvhhOEYFCw4_3dAhSqWVC_YD3Ur0JfrQ-OWCarnU6rr3tCfHGCUKWteXIe9bZ2SPVHEWauAWZ0KsxR8pVEoTcvQ7fYOhxTeXJ7xBNnI5AFHY2qob7IkAcaJ4sZW5G65-FMsHj6Mh41HjiKVro9Q=="
+      },
+      {
+        "label": "pocketpcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT7ylLAVyGPripMI6tgxGxWjCzn8s5XdE6SzT6gfdlSBYL5rR1dIT4Z1DFsvcYcDmB0pmzmWzRrvcJv-aTL6nYCAQSPtf0iRbbBgzrwjZtNTLHOM7PI_GP5AGkWa7l5uglCKGI82X1nKDPZph2sR5cdlDXt0vGcZJd2izG7mo="
+      },
+      {
+        "label": "pandorarecovery",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9N3ppVQKrIFm3fmeI28Q0rwuSqgxiG20QnmuwLFLd2mnpdcobPWfdXwz3hKEd9WXjfRRfrNV1qkHpxvF3ib_m2Q3Wt61X6fGf7waGfFHFjMSSgvSZ4B9fpgxIuv1L15Tk_r-9e5lwMgiOO5-3PsDZphPEqfMkasaPMzUE0nrJsRs0nUgPd5ep4A=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6OODx2RdujF8JRqzoHGpBStJWvJrcKTG0N1JKUo-z2liPW186Vq97gi_OxQ0KqfTIfkyF-aJXI70hB1KBBEqKmNgOeKQeog25fqGeNjogDAyz1wuq3WAxJFXQ70Pq2Mv4JkchJd8="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAQtM7EH03tdfTTUONNmshXgcWyj6C-wONK87QXOe0gplcCble6pE9h330OcU3f7qhLLTW-rHGJdC55IoM51Cqtauehga6d19lG9r_gjfz6MjEsOdUXDh_t7kiLf1DWrIYKZaNLD7xlEaAjip_qJVgqFDUu2Xf73DcHa1xSDKCrdCqHkItKsjaBRp1ybDZvfl6s100N2GTwtlY"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAQtM7EH03tdfTTUONNmshXgcWyj6C-wONK87QXOe0gplcCble6pE9h330OcU3f7qhLLTW-rHGJdC55IoM51Cqtauehga6d19lG9r_gjfz6MjEsOdUXDh_t7kiLf1DWrIYKZaNLD7xlEaAjip_qJVgqFDUu2Xf73DcHa1xSDKCrdCqHkItKsjaBRp1ybDZvfl6s100N2GTwtlY"
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbaaHbML6Md-EBwF9upqjsoTSt_am8aNnCs2eAx02e8KRw-6ze3genJLbPrgSkmgUQza4rxX8Uk1NNvSuy8EmnL2k2Umoq-Xtu4JrPM7RlG7zBxuKioIQUgXmmg_h1KNhUx5bfDZ1oIbea0NFeFf3cjkYHsuHBfvvUhreIZUTHeBQ9xegXD9PxTTlwnYpuZEnVfgphIKmKoBwhlOWFGh3NnoX0DGuBYBljg9sXlipADLJgxUtFHMq"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

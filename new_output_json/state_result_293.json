@@ -1,0 +1,442 @@
+{
+  "file_name": "state_result_293.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.581699",
+  "data": {
+    "messages": [
+      {
+        "content": "Welches Event gibt es heute im Berliner Club Ritter Butzke und wie teuer ist der Eintritt?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "09eb2400-e6f4-41d6-ba8e-65829ce4429f",
+        "example": false
+      },
+      {
+        "content": "Am 16. Juli 2025 gibt es im Ritter Butzke keine Veranstaltung. Ritter Butzke veranstaltet hauptsächlich freitags und samstags Veranstaltungen [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0). Kommende Veranstaltungen sind Silver Panda (18. Juli) und D.O.D (19. Juli) [berliner](https://vertexaisearch.cloud.google.com/id/1-1) [ritterbutzke](https://vertexaisearch.cloud.google.com/id/1-2). Der allgemeine Eintritt beträgt ca. 15 €, kann aber je nach Veranstaltung, Lineup und Festlichkeit variieren [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0). Die Preisspanne im Ritter Butzke liegt im Allgemeinen zwischen 15 und 20 € [berliner](https://vertexaisearch.cloud.google.com/id/1-1).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "2a92c6a9-9a95-4859-a2be-e44ae6e4a47f",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Ritter Butzke Berlin events July 16 2025",
+      "Ritter Butzke Berlin July 16 2025 ticket price"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Ritter Butzke Berlin events July 16 2025\" and synthesize it into a verifiable text artifact.\nAs of July 16, 2025, here's what the search results indicate about events at Ritter Butzke in Berlin:\n\n**Upcoming Events:**\n\n*   **July 18, 2025:** Silver Panda [berliner](https://vertexaisearch.cloud.google.com/id/0-0) [gaesteliste030](https://vertexaisearch.cloud.google.com/id/0-1) [ra](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **July 19, 2025:** Open Air & Indoor with Moonbootica, Lexer, Alyne, A.D.H.S., Sudo [gaesteliste030](https://vertexaisearch.cloud.google.com/id/0-1) [ra](https://vertexaisearch.cloud.google.com/id/0-2) [ra](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **July 26, 2025:** HOUSE OF PRIDE – Die offizielle Mainparty des CSD Berlin 2025.\n [berliner](https://vertexaisearch.cloud.google.com/id/0-0) [ra](https://vertexaisearch.cloud.google.com/id/0-2) [ra](https://vertexaisearch.cloud.google.com/id/0-3)*   **August 1, 2025:** FOVOS.\n [berliner](https://vertexaisearch.cloud.google.com/id/0-0) [allevents](https://vertexaisearch.cloud.google.com/id/0-4) [ra](https://vertexaisearch.cloud.google.com/id/0-2) [ra](https://vertexaisearch.cloud.google.com/id/0-3)*   **August 2, 2025:** Format:B, Niconé, Marcus Meinhardt & NICI NICE (Open Air).\n* [berliner](https://vertexaisearch.cloud.google.com/id/0-0) [ra](https://vertexaisearch.cloud.google.com/id/0-2) [ra](https://vertexaisearch.cloud.google.com/id/0-3)   **August 8, 2025:** Solee. A [berliner](https://vertexaisearch.cloud.google.com/id/0-0)-Trak & Dave1 pres The Brothers Macklovitch.\n* [berliner](https://vertexaisearch.cloud.google.com/id/0-0) [ra](https://vertexaisearch.cloud.google.com/id/0-2)   **August 9, 2025:** Monkey Safari Open Air (Berlin).\n* [berliner](https://vertexaisearch.cloud.google.com/id/0-0)   **August 16, 2025:** Lorenzo Raganzini. B [berliner](https://vertexaisearch.cloud.google.com/id/0-0)ebetta (Open Air).\n* [allevents](https://vertexaisearch.cloud.google.com/id/0-4)   **August 29, 2025:** Odd Mob. j [berliner](https://vertexaisearch.cloud.google.com/id/0-0) [ra](https://vertexaisearch.cloud.google.com/id/0-5)igitz /// Live 2025 /// Berlin.\n* [ra](https://vertexaisearch.cloud.google.com/id/0-2) [ra](https://vertexaisearch.cloud.google.com/id/0-5) [ra](https://vertexaisearch.cloud.google.com/id/0-6) [ra](https://vertexaisearch.cloud.google.com/id/0-7)   **August 30, 2025:** Zug der Liebe (Afterparty).\n\n [ra](https://vertexaisearch.cloud.google.com/id/0-5)**Recently Past Events:**\n\n*   **July 12, 2025:** House of Rave & Beonix.\n* [ritterbutzke](https://vertexaisearch.cloud.google.com/id/0-8) [berliner](https://vertexaisearch.cloud.google.com/id/0-0) [ra](https://vertexaisearch.cloud.google.com/id/0-5) [gaesteliste030](https://vertexaisearch.cloud.google.com/id/0-1) [ra](https://vertexaisearch.cloud.google.com/id/0-6) [ra](https://vertexaisearch.cloud.google.com/id/0-3)   **July 10, 2025:** Calimas Hut X The Unknown (Free Open Air).\n* [gaesteliste030](https://vertexaisearch.cloud.google.com/id/0-1) [ra](https://vertexaisearch.cloud.google.com/id/0-3)   **July 11, 2025:** In The Mood: Nicole Moudaber, Mark Reeve, Nadine Vinzens.\n\n [gaesteliste030](https://vertexaisearch.cloud.google.com/id/0-1) [ra](https://vertexaisearch.cloud.google.com/id/0-6) [ra](https://vertexaisearch.cloud.google.com/id/0-3)**Other Relevant Information:**\n\n*   Ritter Butzke is located in a former factory in Kreuzberg. I [berliner](https://vertexaisearch.cloud.google.com/id/0-0) [ra](https://vertexaisearch.cloud.google.com/id/0-7) [ra](https://vertexaisearch.cloud.google.com/id/0-3) [ra](https://vertexaisearch.cloud.google.com/id/0-6)t began as an illegal club in 2007 and became official two years later.\n* [ra](https://vertexaisearch.cloud.google.com/id/0-7) [ra](https://vertexaisearch.cloud.google.com/id/0-6)   The venue has three main dance floors and an outdoor courtyard that is open in the summer. T [ra](https://vertexaisearch.cloud.google.com/id/0-7) [ra](https://vertexaisearch.cloud.google.com/id/0-6)he music is primarily House & Techno.\n* [ra](https://vertexaisearch.cloud.google.com/id/0-7) [ra](https://vertexaisearch.cloud.google.com/id/0-6)   Ritter Butzke also has its own music label called \"Ritter Butzke Records\".\n* [berliner](https://vertexaisearch.cloud.google.com/id/0-0)   Besides parties, Ritter Butzke also hosts vernissages and public viewings, and occasionally poetry slams in the open air area during summer evenings.\n* [gaesteliste030](https://vertexaisearch.cloud.google.com/id/0-1)   A mini-shop next to the wardrobe offers snacks and candies. There is also a pizza window in the outdoor area.\n [berliner](https://vertexaisearch.cloud.google.com/id/0-0)",
+      "As of July 16, 2025, here's a summary of information regarding Ritter Butzke in Berlin:\n\n**Events & Tickets:**\n\n*   Ritter Butzke hosts various events, mainly on Fridays and Saturdays [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0).\n*   Upcoming events in July 2025 include Silver Panda (July 18), and D.O.D (July 19) [berliner](https://vertexaisearch.cloud.google.com/id/1-1) [ritterbutzke](https://vertexaisearch.cloud.google.com/id/1-2).\n*   Other upcoming events include Lexer (July 19), Mousse T. and Bimini (July 26), Andreas Henneberg and BETH LYDI (August 22), and Jeremy Olander (September 26) [songkick](https://vertexaisearch.cloud.google.com/id/1-3).\n*   Tickets for Mousse T. and Bimini on July 26, 2025, are priced at €30.00.\n [songkick](https://vertexaisearch.cloud.google.com/id/1-4)*   Tickets for jigitz /// Live 2025 /// Berlin on August 29 are available for purchase.\n [ra](https://vertexaisearch.cloud.google.com/id/1-5) [ra](https://vertexaisearch.cloud.google.com/id/1-6)*   Lorenzo Raganzini is scheduled to perform on August 16, 2025.\n [berliner](https://vertexaisearch.cloud.google.com/id/1-1) [allevents](https://vertexaisearch.cloud.google.com/id/1-7) [tixel](https://vertexaisearch.cloud.google.com/id/1-8)*   Past concerts include Klanglos and Ben Dust (July 12, 2025) and Matchy (July 4, 2025).\n [songkick](https://vertexaisearch.cloud.google.com/id/1-3)\n**Ticket Prices & Admission:**\n\n*   General admission is around €15, but can vary depending on the event, lineup, and festivity.\n*  [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0)  Ritter Butzke's price range is generally between €15-€20.\n\n**Gen [berliner](https://vertexaisearch.cloud.google.com/id/1-1)eral Information:**\n\n*   Ritter Butzke is located at Ritterstraße 24-27, 10969 Berlin. It is l [berliner](https://vertexaisearch.cloud.google.com/id/1-1)ocated in Kreuzberg.\n*   It' [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0)s a well-known techno club with multiple dance floors.\n*   The [berliner](https://vertexaisearch.cloud.google.com/id/1-1) [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0) club is located in a former factory hall.\n*   Rit [berliner](https://vertexaisearch.cloud.google.com/id/1-1)ter Butzke has three dance floors and an open-air area for the summer.\n*   The [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0) [berliner](https://vertexaisearch.cloud.google.com/id/1-1) club usually opens around 11 PM or 11:55 PM.\n*   The [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0) venue is known for its cozy atmosphere with lights and disco balls.\n\n**Othe [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0)r Costs:**\n\n*   Beer is around €3.50, and shots are available from €2.50.\n*   A beer  [clubguideberlin](https://vertexaisearch.cloud.google.com/id/1-0)costs €4.5.\n*   Water is  [berliner](https://vertexaisearch.cloud.google.com/id/1-1)priced at €2.5.\n*   Vodka Red B [berliner](https://vertexaisearch.cloud.google.com/id/1-1)ull is €8.5.\n*   There is a de [berliner](https://vertexaisearch.cloud.google.com/id/1-1)posit system: €1 for glasses and €0.50 for bottles and cans.\n [berliner](https://vertexaisearch.cloud.google.com/id/1-1)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "gaesteliste030",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUYnIsEA7tkX9Z7rqIoNZ8G0b5m2b_lO3yBooWyBasOnntwlJ99i6mCFPWlWcl3oamB-rpSHQHm6Ll4oc0a5xiWFmFyub5ebIx5jc2nmxvuxhcCht2CNmWHvm9NkWd7bUDwwyBBTLRkQWQCAmokNAf5XpVVAVbzixg"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGobZlQw2Yl09HHqjY1uWPYyRj4IB3V9mkbeDtEm0o6xeVQ_1i7-1b2fP1YLlu8O5myOZwKb3iuq5ZK7ertPZ0aGb6lRw5rO81sO2zV04Oz-XSJTvHoYg=="
+      },
+      {
+        "label": "gaesteliste030",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUYnIsEA7tkX9Z7rqIoNZ8G0b5m2b_lO3yBooWyBasOnntwlJ99i6mCFPWlWcl3oamB-rpSHQHm6Ll4oc0a5xiWFmFyub5ebIx5jc2nmxvuxhcCht2CNmWHvm9NkWd7bUDwwyBBTLRkQWQCAmokNAf5XpVVAVbzixg"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGobZlQw2Yl09HHqjY1uWPYyRj4IB3V9mkbeDtEm0o6xeVQ_1i7-1b2fP1YLlu8O5myOZwKb3iuq5ZK7ertPZ0aGb6lRw5rO81sO2zV04Oz-XSJTvHoYg=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFihh19O5i22WOKklgiJRa1yjbD-uAha5-Dbn6kRJOz2EYIU_ZBcz9oUn6wczVQk2xYwp4as7mOe0NvufHyhT9AbnCeypUWJ_PsYxi_FoIBuxMPCVZfXunORA=="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGobZlQw2Yl09HHqjY1uWPYyRj4IB3V9mkbeDtEm0o6xeVQ_1i7-1b2fP1YLlu8O5myOZwKb3iuq5ZK7ertPZ0aGb6lRw5rO81sO2zV04Oz-XSJTvHoYg=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFihh19O5i22WOKklgiJRa1yjbD-uAha5-Dbn6kRJOz2EYIU_ZBcz9oUn6wczVQk2xYwp4as7mOe0NvufHyhT9AbnCeypUWJ_PsYxi_FoIBuxMPCVZfXunORA=="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "allevents",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhAgOsmU-6WlWfImmTCheo22UUk8ANYl0uHWmCgI52Lw8IJodrZ5UzPzUc6ZBygpSW2QmGPk9teJ-da-TIqIjbeG6gFvi38kMfjyBNDsqbj-axCDj-nEvCr1VTKcwVGZcy7MtAy6UA3Gfxc6bx0Y8qyD4rEsGVfHm1adGV33Mf5twtotQ="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGobZlQw2Yl09HHqjY1uWPYyRj4IB3V9mkbeDtEm0o6xeVQ_1i7-1b2fP1YLlu8O5myOZwKb3iuq5ZK7ertPZ0aGb6lRw5rO81sO2zV04Oz-XSJTvHoYg=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFihh19O5i22WOKklgiJRa1yjbD-uAha5-Dbn6kRJOz2EYIU_ZBcz9oUn6wczVQk2xYwp4as7mOe0NvufHyhT9AbnCeypUWJ_PsYxi_FoIBuxMPCVZfXunORA=="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGobZlQw2Yl09HHqjY1uWPYyRj4IB3V9mkbeDtEm0o6xeVQ_1i7-1b2fP1YLlu8O5myOZwKb3iuq5ZK7ertPZ0aGb6lRw5rO81sO2zV04Oz-XSJTvHoYg=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFihh19O5i22WOKklgiJRa1yjbD-uAha5-Dbn6kRJOz2EYIU_ZBcz9oUn6wczVQk2xYwp4as7mOe0NvufHyhT9AbnCeypUWJ_PsYxi_FoIBuxMPCVZfXunORA=="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGobZlQw2Yl09HHqjY1uWPYyRj4IB3V9mkbeDtEm0o6xeVQ_1i7-1b2fP1YLlu8O5myOZwKb3iuq5ZK7ertPZ0aGb6lRw5rO81sO2zV04Oz-XSJTvHoYg=="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "allevents",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhAgOsmU-6WlWfImmTCheo22UUk8ANYl0uHWmCgI52Lw8IJodrZ5UzPzUc6ZBygpSW2QmGPk9teJ-da-TIqIjbeG6gFvi38kMfjyBNDsqbj-axCDj-nEvCr1VTKcwVGZcy7MtAy6UA3Gfxc6bx0Y8qyD4rEsGVfHm1adGV33Mf5twtotQ="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAQzKWToBw3-NuVps3wIqwrdkNAdT4OtNBvE5KXngCmkX6lMnWidalKTulCtF43epRwkf--bWObgf1-jRqLjHlItA4SM4ysQ_cSVeRnDfKz4vOwZMHBg=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGobZlQw2Yl09HHqjY1uWPYyRj4IB3V9mkbeDtEm0o6xeVQ_1i7-1b2fP1YLlu8O5myOZwKb3iuq5ZK7ertPZ0aGb6lRw5rO81sO2zV04Oz-XSJTvHoYg=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAQzKWToBw3-NuVps3wIqwrdkNAdT4OtNBvE5KXngCmkX6lMnWidalKTulCtF43epRwkf--bWObgf1-jRqLjHlItA4SM4ysQ_cSVeRnDfKz4vOwZMHBg=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnyEu7CO77FZ8hzuE-_YmHs9236lpO1-at3iVKFvZXN8DiQrQ6TiLSACck4FL9KkxSUlp7R-73ehJhXyLyPlnyrsXk82XUstbYI3ouKtKNcK6a"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3eDZ1xVPO4ja_Wv-iMkMx3nH7ZlVy08UB1I1h-FGWz9ZZJpyFDUp4PXDeDHLNpxFQXiHhFXZmGago6c0tkRZ8k8oQhH5RI8LG-2iChMP8r-Sqn_1d"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAQzKWToBw3-NuVps3wIqwrdkNAdT4OtNBvE5KXngCmkX6lMnWidalKTulCtF43epRwkf--bWObgf1-jRqLjHlItA4SM4ysQ_cSVeRnDfKz4vOwZMHBg=="
+      },
+      {
+        "label": "ritterbutzke",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG4DBH4LxxRe6DxSV9U26T34L2IlCnjTT_uFannfA4yuMoQWHczzPS7UKR7H-f7zO9ucdt7ckqkrJH83hMyfFgaD4ALnLRzd4IWrZLpq3wyGONXkEDb5t6zKUEcF_34FWxa5D8gKefEwlFdE54dRXm"
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAQzKWToBw3-NuVps3wIqwrdkNAdT4OtNBvE5KXngCmkX6lMnWidalKTulCtF43epRwkf--bWObgf1-jRqLjHlItA4SM4ysQ_cSVeRnDfKz4vOwZMHBg=="
+      },
+      {
+        "label": "gaesteliste030",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUYnIsEA7tkX9Z7rqIoNZ8G0b5m2b_lO3yBooWyBasOnntwlJ99i6mCFPWlWcl3oamB-rpSHQHm6Ll4oc0a5xiWFmFyub5ebIx5jc2nmxvuxhcCht2CNmWHvm9NkWd7bUDwwyBBTLRkQWQCAmokNAf5XpVVAVbzixg"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnyEu7CO77FZ8hzuE-_YmHs9236lpO1-at3iVKFvZXN8DiQrQ6TiLSACck4FL9KkxSUlp7R-73ehJhXyLyPlnyrsXk82XUstbYI3ouKtKNcK6a"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFihh19O5i22WOKklgiJRa1yjbD-uAha5-Dbn6kRJOz2EYIU_ZBcz9oUn6wczVQk2xYwp4as7mOe0NvufHyhT9AbnCeypUWJ_PsYxi_FoIBuxMPCVZfXunORA=="
+      },
+      {
+        "label": "gaesteliste030",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUYnIsEA7tkX9Z7rqIoNZ8G0b5m2b_lO3yBooWyBasOnntwlJ99i6mCFPWlWcl3oamB-rpSHQHm6Ll4oc0a5xiWFmFyub5ebIx5jc2nmxvuxhcCht2CNmWHvm9NkWd7bUDwwyBBTLRkQWQCAmokNAf5XpVVAVbzixg"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFihh19O5i22WOKklgiJRa1yjbD-uAha5-Dbn6kRJOz2EYIU_ZBcz9oUn6wczVQk2xYwp4as7mOe0NvufHyhT9AbnCeypUWJ_PsYxi_FoIBuxMPCVZfXunORA=="
+      },
+      {
+        "label": "gaesteliste030",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUYnIsEA7tkX9Z7rqIoNZ8G0b5m2b_lO3yBooWyBasOnntwlJ99i6mCFPWlWcl3oamB-rpSHQHm6Ll4oc0a5xiWFmFyub5ebIx5jc2nmxvuxhcCht2CNmWHvm9NkWd7bUDwwyBBTLRkQWQCAmokNAf5XpVVAVbzixg"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnyEu7CO77FZ8hzuE-_YmHs9236lpO1-at3iVKFvZXN8DiQrQ6TiLSACck4FL9KkxSUlp7R-73ehJhXyLyPlnyrsXk82XUstbYI3ouKtKNcK6a"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFihh19O5i22WOKklgiJRa1yjbD-uAha5-Dbn6kRJOz2EYIU_ZBcz9oUn6wczVQk2xYwp4as7mOe0NvufHyhT9AbnCeypUWJ_PsYxi_FoIBuxMPCVZfXunORA=="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3eDZ1xVPO4ja_Wv-iMkMx3nH7ZlVy08UB1I1h-FGWz9ZZJpyFDUp4PXDeDHLNpxFQXiHhFXZmGago6c0tkRZ8k8oQhH5RI8LG-2iChMP8r-Sqn_1d"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFihh19O5i22WOKklgiJRa1yjbD-uAha5-Dbn6kRJOz2EYIU_ZBcz9oUn6wczVQk2xYwp4as7mOe0NvufHyhT9AbnCeypUWJ_PsYxi_FoIBuxMPCVZfXunORA=="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnyEu7CO77FZ8hzuE-_YmHs9236lpO1-at3iVKFvZXN8DiQrQ6TiLSACck4FL9KkxSUlp7R-73ehJhXyLyPlnyrsXk82XUstbYI3ouKtKNcK6a"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3eDZ1xVPO4ja_Wv-iMkMx3nH7ZlVy08UB1I1h-FGWz9ZZJpyFDUp4PXDeDHLNpxFQXiHhFXZmGago6c0tkRZ8k8oQhH5RI8LG-2iChMP8r-Sqn_1d"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnyEu7CO77FZ8hzuE-_YmHs9236lpO1-at3iVKFvZXN8DiQrQ6TiLSACck4FL9KkxSUlp7R-73ehJhXyLyPlnyrsXk82XUstbYI3ouKtKNcK6a"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3eDZ1xVPO4ja_Wv-iMkMx3nH7ZlVy08UB1I1h-FGWz9ZZJpyFDUp4PXDeDHLNpxFQXiHhFXZmGago6c0tkRZ8k8oQhH5RI8LG-2iChMP8r-Sqn_1d"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnyEu7CO77FZ8hzuE-_YmHs9236lpO1-at3iVKFvZXN8DiQrQ6TiLSACck4FL9KkxSUlp7R-73ehJhXyLyPlnyrsXk82XUstbYI3ouKtKNcK6a"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3eDZ1xVPO4ja_Wv-iMkMx3nH7ZlVy08UB1I1h-FGWz9ZZJpyFDUp4PXDeDHLNpxFQXiHhFXZmGago6c0tkRZ8k8oQhH5RI8LG-2iChMP8r-Sqn_1d"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnyEu7CO77FZ8hzuE-_YmHs9236lpO1-at3iVKFvZXN8DiQrQ6TiLSACck4FL9KkxSUlp7R-73ehJhXyLyPlnyrsXk82XUstbYI3ouKtKNcK6a"
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "gaesteliste030",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUYnIsEA7tkX9Z7rqIoNZ8G0b5m2b_lO3yBooWyBasOnntwlJ99i6mCFPWlWcl3oamB-rpSHQHm6Ll4oc0a5xiWFmFyub5ebIx5jc2nmxvuxhcCht2CNmWHvm9NkWd7bUDwwyBBTLRkQWQCAmokNAf5XpVVAVbzixg"
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBgIo0AMuQLeqP7xrH5-a6weEYiNJ1cTEifIYy3Ejgr6DCGpDYJmIgEtHuzSYUo7gwNeKIdndDhisAvhLJ_74Qa4yTczQSaqSrCX6On5XGhbPHElvV1NI3afJlbqGiRsnZzvUGEu8oHoPMFQ=="
+      },
+      {
+        "label": "clubguideberlin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcfszS0eDRA9CUHR6hNlgSsQS2Z33fSH9bn0gq4C5MPEj6sOwnx1YH252bx0M7IiPH4aBqQ3KtQI4Rxw2RpnNRhUeO0T_CJTb-V43z-HUkC2vD2LNwQg67--uQcDUL0TV4FFrltosWCkx9Eb8EHx3NooA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "ritterbutzke",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrN7o546BvOq4jXOnqU494Rx3_KxZbrLNBxtnJ844T6YrIXg-nkHnzpvvfmDSqliv0Qm2VLnlbjdRboK3hVu-dh9KKru0t_d21vZhlUS0aEPUhttbA7CCR4d3e4ojg7BGp3u-jZWe-Sqi-aw=="
+      },
+      {
+        "label": "songkick",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeyCIFIgrMOMjEF7EWWrN3yxYqGLnQUXx5otKIWei8wzfjigZY_awOC-jUWgVrEl0mbyMRpVgTszHDnUg50tDfWCRDTf5DTYTbxWl5C2lKek9ntTGZs0J6433dMkadwGrmi-N16CL4-mc_2TxgiLU="
+      },
+      {
+        "label": "songkick",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf6UWd92B8Oy-CQUr-qEq_AtP5PtF-7MLjQHpPDx6xPv9m8sN6lRdRATT_OKGG_JOdDNzOjoNllChKoFZRuVN9fdOdgFnTDzTbecFklUvBxgnuAJEZQX8RwZUuRTBPMJA60QLoqA-fWhDPOH_vZR3YcmQyov6G2fa1w8ScxHlx"
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ5VbpfJ2Ep7Crgo8xVyZ-tPyUOQWknGOM65itConFXQBuu8Zh4gYduawmefgrp7sIdNa7eHMc8qROtFfGlL6VZK0BoeUPqF4BVFhZEeKnldiHsXEACps="
+      },
+      {
+        "label": "ra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPUtpngbM3fY_hqmcd3dAvmIZ2pFzz1ARXJ2m72vZhqzd9LUMzDvese0CYGBODN_mHTbFXrTzzKtwnXcoE2s9HjaC59vbRkkzl-A4rvGmC5VvB3Vs1ZA=="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "allevents",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPQWPQPqp_peARZL1hAI-I-Y1j5IlVAuOFwJYMU7OVxRg1LmQGN1ulMpx3qOmQ2rtHIHqKNXHm3ifQVyUSi1huxyuJECctwl5-Pq-u4E5NxDa_z2GPKdppoFRwfBSdLLfxGSaxthmAOZa4uiD7umQBcnLRYTNfxirDPE-NAGkxtwTkcWaSlQ=="
+      },
+      {
+        "label": "tixel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVQiCotpb-J2I93_NlDzIXXoy8kEGkb-MECzSP0k67KMgGvshftYxL8aLLIu8-xWrxnTHNgKGbY0kOnc3RaXqvdYCLjnitXDi68osEBDW8yHkrLePNym6dJ5cYpDggSNPpnIMIvQ=="
+      },
+      {
+        "label": "songkick",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeyCIFIgrMOMjEF7EWWrN3yxYqGLnQUXx5otKIWei8wzfjigZY_awOC-jUWgVrEl0mbyMRpVgTszHDnUg50tDfWCRDTf5DTYTbxWl5C2lKek9ntTGZs0J6433dMkadwGrmi-N16CL4-mc_2TxgiLU="
+      },
+      {
+        "label": "clubguideberlin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcfszS0eDRA9CUHR6hNlgSsQS2Z33fSH9bn0gq4C5MPEj6sOwnx1YH252bx0M7IiPH4aBqQ3KtQI4Rxw2RpnNRhUeO0T_CJTb-V43z-HUkC2vD2LNwQg67--uQcDUL0TV4FFrltosWCkx9Eb8EHx3NooA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "clubguideberlin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcfszS0eDRA9CUHR6hNlgSsQS2Z33fSH9bn0gq4C5MPEj6sOwnx1YH252bx0M7IiPH4aBqQ3KtQI4Rxw2RpnNRhUeO0T_CJTb-V43z-HUkC2vD2LNwQg67--uQcDUL0TV4FFrltosWCkx9Eb8EHx3NooA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "clubguideberlin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcfszS0eDRA9CUHR6hNlgSsQS2Z33fSH9bn0gq4C5MPEj6sOwnx1YH252bx0M7IiPH4aBqQ3KtQI4Rxw2RpnNRhUeO0T_CJTb-V43z-HUkC2vD2LNwQg67--uQcDUL0TV4FFrltosWCkx9Eb8EHx3NooA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "clubguideberlin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcfszS0eDRA9CUHR6hNlgSsQS2Z33fSH9bn0gq4C5MPEj6sOwnx1YH252bx0M7IiPH4aBqQ3KtQI4Rxw2RpnNRhUeO0T_CJTb-V43z-HUkC2vD2LNwQg67--uQcDUL0TV4FFrltosWCkx9Eb8EHx3NooA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "clubguideberlin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcfszS0eDRA9CUHR6hNlgSsQS2Z33fSH9bn0gq4C5MPEj6sOwnx1YH252bx0M7IiPH4aBqQ3KtQI4Rxw2RpnNRhUeO0T_CJTb-V43z-HUkC2vD2LNwQg67--uQcDUL0TV4FFrltosWCkx9Eb8EHx3NooA="
+      },
+      {
+        "label": "clubguideberlin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcfszS0eDRA9CUHR6hNlgSsQS2Z33fSH9bn0gq4C5MPEj6sOwnx1YH252bx0M7IiPH4aBqQ3KtQI4Rxw2RpnNRhUeO0T_CJTb-V43z-HUkC2vD2LNwQg67--uQcDUL0TV4FFrltosWCkx9Eb8EHx3NooA="
+      },
+      {
+        "label": "clubguideberlin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcfszS0eDRA9CUHR6hNlgSsQS2Z33fSH9bn0gq4C5MPEj6sOwnx1YH252bx0M7IiPH4aBqQ3KtQI4Rxw2RpnNRhUeO0T_CJTb-V43z-HUkC2vD2LNwQg67--uQcDUL0TV4FFrltosWCkx9Eb8EHx3NooA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      },
+      {
+        "label": "berliner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVanxHtB8zKXRmuewTts3cSSqn1htCIYHXH70YLXXD-Cn6nd3IuOcbPwjhVBNDqnXs-Mtv-5Fs-dENFfIJs7QU-XDp_Ev1nHaJ1vhkEw4DzETQRAfy3CW1hAIycoQje1gjpdYBugI7H-66eA="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

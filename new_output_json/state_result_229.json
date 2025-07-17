@@ -1,0 +1,732 @@
+{
+  "file_name": "state_result_229.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.749232",
+  "data": {
+    "messages": [
+      {
+        "content": "What are the products are commercially produced using crickets?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "1e436d1b-46ff-46f5-9760-283093b127dc",
+        "example": false
+      },
+      {
+        "content": "As of July 16, 2025, the market for commercially produced cricket-based food products is experiencing significant growth, driven by increasing consumer demand for sustainable and alternative protein sources [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0) [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1]. The overall insect protein market is estimated to be valued at USD 1.89 billion in 2025 and is expected to reach USD 14.13 billion by 2032 [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3).\n\nHere are some of the commercially available products:\n\n*   **Cricket Flour:** Made from ground crickets, it is used in various food products like protein bars, snacks, baked goods, and pasta [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [news-medical](https://vertexaisearch.cloud.google.com/id/0-7) [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5) [huhuly](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Cricket Protein Powder:** A concentrated source of protein from crickets, used in sports nutrition and dietary supplements [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2) [valuates](https://vertexaisearch.cloud.google.com/id/0-6) [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [huhuly](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Cricket Protein Bars and Snacks:** Convenient and protein-rich options [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1) [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2]. Cricket protein bars offer a compelling combination of nutrition, sustainability, and convenience [etprotein](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Whole Frozen Crickets:** Used in animal feed and, increasingly, in human food [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1].\n*   **Cricket-Enriched Bread:** Being explored as a solution for enhancing food security [flyingfoodproject](https://vertexaisearch.cloud.google.com/id/0-10].\n*   **Cricket Pasta:** Cricket pasta can be prepared by substituting some of the flour for cricket powder [3cricketeers](https://vertexaisearch.cloud.google.com/id/1-18].\n*   **Cricket snack mixes:** are available in various flavors like BBQ, chili-lime, and taco [3cricketeers](https://vertexaisearch.cloud.google.com/id/1-17].\n\nSeveral companies are involved in the production of these products, including All Things Bugs, Entomo Farms, Aspire Food Group, Chapul, Exo, Cricket Flours, Protix, Bitty Foods, Chirps Chips, Cricket One, and Bug Farm Foods [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5) [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0) [valuates](https://vertexaisearch.cloud.google.com/id/0-6) [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1) [agroreality](https://vertexaisearch.cloud.google.com/id/0-4) [foodtimes](https://vertexaisearch.cloud.google.com/id/0-11) [thebugfarm](https://vertexaisearch.cloud.google.com/id/0-12).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "7246db93-a48e-4d00-9800-0f2e7ba68f7a",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "commercially available cricket-based food products 2025",
+      "What specific cricket-based food products are available in different geographical regions (e.g., North America, Europe, Asia-Pacific) in 2024, and how do their ingredients and formulations vary?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent information on \"commercially available cricket-based food products 2025\" and synthesize it into a verifiable text artifact.\nThe market for commercially available cricket-based food products is experiencing significant growth in 2025, driven by increasing consumer demand for sustainable and alternative protein sources [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0) [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1). The global cricket protein powder market is estimated to grow from US$ 130.1 million in 2025 to US$ 275.3 million by 2032 [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2). The overall insect protein market is estimated to be valued at USD 1.89 billion in 2025 and is expected to reach USD 14.13 billion by 2032 [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Market Trends and Drivers:**\n\n*   **Sustainability:** Crickets are considered an environmentally friendly protein source, requiring less land, feed, and water than traditional livestock [agroreality](https://vertexaisearch.cloud.google.com/id/0-4) [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2) [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Nutritional Value:** Cricket flour is high in protein, contains essential amino acids, vitamins, and minerals [valuates](https://vertexaisearch.cloud.google.com/id/0-6) [news-medical](https://vertexaisearch.cloud.google.com/id/0-7) [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5) [huhuly](https://vertexaisearch.cloud.google.com/id/0-8) [3cricketeers](https://vertexaisearch.cloud.google.com/id/0-9). Cricket protein contains twice as much protein as beef, as much calcium as milk, and as much Vitamin B12 as salmon [valuates](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Consumer Demand:** There is a rising consumer appetite for sustainable protein alternatives, especially among millennials and Gen Z [agroreality](https://vertexaisearch.cloud.google.com/id/0-4) [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2) [huhuly](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Flexitarian and Plant-Based Diets:** The growing preference for these diets is also contributing to the increased acceptance of insect-based proteins [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0) [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Innovations in Food Technology:** Advancements are leading to the development of new and appealing cricket-based products [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Commercially Available Products:**\n\n*   **Cricket Flour:** Made from ground crickets, used in various food products like protein bars, snacks, baked goods, and pasta [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [news-medical](https://vertexaisearch.cloud.google.com/id/0-7) [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5) [huhuly](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Cricket Protein Powder:** A concentrated source of protein from crickets, used in sports nutrition and dietary supplements [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2) [valuates](https://vertexaisearch.cloud.google.com/id/0-6) [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [huhuly](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Cricket Protein Bars and Snacks:** Convenient and protein-rich options [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1) [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Whole Frozen Crickets:** Used in animal feed and, increasingly, in human food [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Cricket-Enriched Bread:** Being explored as a solution for enhancing food security [flyingfoodproject](https://vertexaisearch.cloud.google.com/id/0-10).\n\n**Key Players:**\n\nMany companies are active in the cricket-based food market, including:\n\n*   All Things Bugs [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5) [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0) [valuates](https://vertexaisearch.cloud.google.com/id/0-6)\n*   Entomo Farms [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5) [valuates](https://vertexaisearch.cloud.google.com/id/0-6) [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0) [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1)\n*   Aspire Food Group [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2) [valuates](https://vertexaisearch.cloud.google.com/id/0-6) [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1) [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0) [agroreality](https://vertexaisearch.cloud.google.com/id/0-4)\n*   Chapul [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5) [valuates](https://vertexaisearch.cloud.google.com/id/0-6)\n*   Exo [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5) [huhuly](https://vertexaisearch.cloud.google.com/id/0-8)\n*   Cricket Flours [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5)\n*   Protix [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2) [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1)\n*   Bitty Foods [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5)\n*   Chirps Chips [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/0-5) [huhuly](https://vertexaisearch.cloud.google.com/id/0-8)\n*   Cricket One [foodtimes](https://vertexaisearch.cloud.google.com/id/0-11) [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3)\n*   Bug Farm Foods [thebugfarm](https://vertexaisearch.cloud.google.com/id/0-12)\n\n**Regional Market Overview:**\n\n*   **North America:** Anticipated to hold a significant market share, driven by food technology advancements and consumer awareness [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2) [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0) [valuates](https://vertexaisearch.cloud.google.com/id/0-6). The U.S. plays a pivotal role with companies extending operations and launching new products [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Europe:** Witnessing substantial growth due to the adoption of flexitarian and plant-based diets [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0) [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2). The EU has approved the use of cricket powder in foods [brusselssignal](https://vertexaisearch.cloud.google.com/id/0-13).\n*   **Asia-Pacific:** Strong growth is expected due to increasing population density and rising disposable incomes [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1) [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Middle East & Africa:** The market is gradually gaining traction as awareness about alternative protein sources increases [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/0-0). Cricket farming is also presenting a sustainable solution for enhancing food security and diversifying local food production in Nigeria [flyingfoodproject](https://vertexaisearch.cloud.google.com/id/0-10).\n\n**Challenges:**\n\n*   **Consumer Acceptance:** Evolving consumer perception and acceptance of entomophagy (insect consumption), particularly in Western cultures [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1). Cultural acceptance remains a significant obstacle in some countries [brusselssignal](https://vertexaisearch.cloud.google.com/id/0-13).\n*   **Allergies:** Insect consumption may trigger allergic reactions in those already prone to them [brusselssignal](https://vertexaisearch.cloud.google.com/id/0-13) [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3) [thebugfarm](https://vertexaisearch.cloud.google.com/id/0-12) [foodtimes](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Regulatory Hurdles:** Varying regulations surrounding insect farming and food safety standards [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1) [persistencemarketresearch](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**Market Growth Projections:**\n\n*   The global cricket protein powders market is projected to reach US$ 95.5 million by 2031, growing at a CAGR of 16.8% [valuates](https://vertexaisearch.cloud.google.com/id/0-6).\n*   The insect protein market is projected to grow at a CAGR of 33.3% from 2025 to 2032 [coherentmi](https://vertexaisearch.cloud.google.com/id/0-3).\n*   The cricket farming market is estimated at $500 million in 2025 and is projected to grow at a CAGR of 25% from 2025 to 2033 [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/0-1).\n",
+      "Based on the search results, here's a summary of cricket-based food products available in different geographical regions in 2024, and how their ingredients and formulations vary:\n\n**General Trends:**\n\n*   **Growing Market:** The global cricket protein bar market reached USD 87.4 million in 2024 [dataintelo](https://vertexaisearch.cloud.google.com/id/1-0). The global cricket market size was USD 1.14 billion in 2024 and is projected to reach USD 2.9 billion in 2033 [proficientmarketinsights](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Sustainability:** A key driver is the increasing consumer awareness regarding environmental sustainability and the nutritional benefits of insect protein [dataintelo](https://vertexaisearch.cloud.google.com/id/1-0) [grandviewresearch](https://vertexaisearch.cloud.google.com/id/1-2). Cricket farming requires significantly less water, land, and feed compared to traditional livestock [grandviewresearch](https://vertexaisearch.cloud.google.com/id/1-2) [etprotein](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Nutritional Value:** Cricket-based products are rich in protein, essential amino acids, vitamins, and minerals [meticulousresearch](https://vertexaisearch.cloud.google.com/id/1-4) [dataintelo](https://vertexaisearch.cloud.google.com/id/1-0) [etprotein](https://vertexaisearch.cloud.google.com/id/1-3) [grandviewresearch](https://vertexaisearch.cloud.google.com/id/1-2). Cricket flour contains essential minerals such as potassium, calcium, magnesium, copper, and zinc [mdpi](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Versatility:** Cricket-based products are versatile and can be integrated into various food applications, from protein bars and powders to baked goods and pasta [grandviewresearch](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Consumer Acceptance:** Increasing consumer awareness and acceptance of edible insects as a viable protein alternative are propelling the market [grandviewresearch](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Forms:** Crickets are processed into various forms, including whole roasted crickets, cricket powder/flour, defatted cricket powder, textured cricket protein, and whole fried crickets [groupg](https://vertexaisearch.cloud.google.com/id/1-6) [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **Allergies:** Food containing house cricket or lesser mealworm products will require appropriate labels since some researchers believe that these insects could cause allergic reactions in consumers allergic to crustaceans, dust mites, and mollusks [xtalks](https://vertexaisearch.cloud.google.com/id/1-8) [brusselssignal](https://vertexaisearch.cloud.google.com/id/1-9).\n\n**Regional Availability and Variations:**\n\n*   **Asia-Pacific:**\n    *   Expected to account for the largest share (39.5%) of the crickets market in 2024 [meticulousresearch](https://vertexaisearch.cloud.google.com/id/1-4). The Asia-Pacific crickets market is estimated to be worth USD 393.8 million in 2024 [meticulousresearch](https://vertexaisearch.cloud.google.com/id/1-4).\n    *   Strong cultural acceptance of edible insects, especially in Thailand, Vietnam, and China [globalgrowthinsights](https://vertexaisearch.cloud.google.com/id/1-10).\n    *   Established commercial cricket farming and diverse cricket species [meticulousresearch](https://vertexaisearch.cloud.google.com/id/1-4).\n    *   Examples include whole fried crickets (no legs) as ready-to-eat snacks [groupg](https://vertexaisearch.cloud.google.com/id/1-6).\n    *   Plento's pea-cricket flour formula provides nine essential amino acids [foodnavigator-asia](https://vertexaisearch.cloud.google.com/id/1-11).\n*   **Europe:**\n    *   Increasingly open to incorporating cricket-based products, particularly in the Netherlands, Belgium, and the UK [globalgrowthinsights](https://vertexaisearch.cloud.google.com/id/1-10).\n    *   The European Union (EU) has approved the use of certain insect species, including crickets, for human consumption [globalgrowthinsights](https://vertexaisearch.cloud.google.com/id/1-10). The EU has approved up to 4 per cent of ultra-violet (UV)-treated mealworm and cricket powders for use in foods such as bread, pasta and cakes across the bloc [brusselssignal](https://vertexaisearch.cloud.google.com/id/1-9).\n    *   Grig showcases its range of protein-packed and eco-friendly edible insect products at SIAL Paris, including dried insects, crispy chips, high-protein pasta, and cricket powder [sialparis](https://vertexaisearch.cloud.google.com/id/1-12).\n    *   Examples include cricket pasta (22% protein) made by Small Giants [eatsmallgiants](https://vertexaisearch.cloud.google.com/id/1-13).\n    *   Bug Foundation in the Netherlands launched a new line of cricket-based protein products [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **North America:**\n    *   North America remains the largest market for cricket protein bars, accounting for approximately USD 34.6 million in sales in 2024 [dataintelo](https://vertexaisearch.cloud.google.com/id/1-0).\n    *   Strong culture of health and fitness and early adoption of sustainable food trends [dataintelo](https://vertexaisearch.cloud.google.com/id/1-0).\n    *   The U.S. dominated the North America insect protein market with the largest revenue share of 76% in 2024 [databridgemarketresearch](https://vertexaisearch.cloud.google.com/id/1-15).\n    *   Examples include cricket flour, protein powder, protein bars, chips, and baking mixes [talk-commerce](https://vertexaisearch.cloud.google.com/id/1-16) [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/1-7).\n    *   Aspire Food Group opened a cricket farming facility in Texas [marketgrowthreports](https://vertexaisearch.cloud.google.com/id/1-14).\n    *   Hoppa Foods offers cricket-based pasta and protein powders [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/1-7).\n    *   3 Cricketeers offers a starter cricket snack pack that contains BBQ Cricket Mix, Chili-Lime Cricket Mix, Taco Cricket Mix, and Cricket Dark Chocolate Clusters [3cricketeers](https://vertexaisearch.cloud.google.com/id/1-17).\n*   **Other Regions:**\n    *   The Middle East & Africa region is also showing potential for growth [globalgrowthinsights](https://vertexaisearch.cloud.google.com/id/1-10).\n\n**Specific Cricket-Based Food Products:**\n\n*   **Cricket Flour/Powder:** Used in various products like protein shakes, bars, baked goods, and pasta [grandviewresearch](https://vertexaisearch.cloud.google.com/id/1-2). Cricket flour can be used to make a variety of baked goods, including bread, muffins, and pancakes [talk-commerce](https://vertexaisearch.cloud.google.com/id/1-16).\n*   **Protein Bars:** Cricket protein bars offer a compelling combination of nutrition, sustainability, and convenience [etprotein](https://vertexaisearch.cloud.google.com/id/1-3). They are packed with high-quality protein, B-vitamins, iron, calcium, and omega-3 fatty acids [etprotein](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Pasta:** Cricket pasta can be prepared by substituting some of the flour for cricket powder [3cricketeers](https://vertexaisearch.cloud.google.com/id/1-18). JR Unique Foods Ltd offers high protein mung bean pasta fortified with 10% cricket powder [jrunique](https://vertexaisearch.cloud.google.com/id/1-19).\n*   **Snacks:** Cricket snack mixes are available in various flavors like BBQ, chili-lime, and taco [3cricketeers](https://vertexaisearch.cloud.google.com/id/1-17). Chirps Chips offers cricket-based snack chips [lifecrosstraining](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **Other Products:** Whole roasted crickets, cricket dark chocolate clusters, and cricket oil are also available [3cricketeers](https://vertexaisearch.cloud.google.com/id/1-17) [jrunique](https://vertexaisearch.cloud.google.com/id/1-19).\n\n**Variations in Ingredients and Formulations:**\n\n*   **Cricket Flour Percentage:** The amount of cricket powder used in pasta varies based on the desired flavor profile [3cricketeers](https://vertexaisearch.cloud.google.com/id/1-18).\n*   **Additional Ingredients:** Cricket protein bars often include ingredients like dates, raisins, oats, peanuts, sunflower seeds, and chia seeds [hoppafoods](https://vertexaisearch.cloud.google.com/id/1-20). Some incorporate Indian flavors and spices [lu](https://vertexaisearch.cloud.google.com/id/1-21).\n*   **Flavors:** Cricket-based snacks come in a variety of flavors, including chocolate, peanut butter, blueberry vanilla, wasabi, chili, and tomato arrabiata [talk-commerce](https://vertexaisearch.cloud.google.com/id/1-16) [jiminis](https://vertexaisearch.cloud.google.com/id/1-22).\n*   **Fortification:** Some cricket pasta is fortified with mung beans and is gluten-free [jrunique](https://vertexaisearch.cloud.google.com/id/1-19).\n*   **Processing Methods:** Different processing methods, such as microwave-drying, are used to enhance the absorption of proteins and peptides [jrunique](https://vertexaisearch.cloud.google.com/id/1-23).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7C9Xq5v9CbAVTNKof489kvA2FPd6OefYKaH-mI5Z_2ax0AXyCJJyz2Fj13X4xyUnOxK9q9V4y3oOlPCT4VHmkVKBmouxU84B38D_ejF4ZBs7BKjbiO2wKZd6Y9LrdiVYoZ7AiWcFtxJS6Bc36n7PMr8geWrUrvpGR9AzJ5b2LU_5YbK3a1A2_dRmb_2_HNA0DelQ="
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "agroreality",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeLHNdbvjNaOos_11VKyST2fF2cNT-ncSj8tnaFlHJReYEFCAhvWblTzyeMyRdkn2ZKiUS6dNurhEGY0zRE3ODWcI8vI8LHgEmRHaj1_8l54quYQhnbER5z8EhQ63UhksPQayhh2YnGWICbeJ6ScRAVd899OHJhvK09FUxdYbx9nHPhxLtBhLvo2hZIpiNng=="
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "valuates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26JdQ3lZCEFHPdwYqDrY_wOBG1cFOjSYAssG-pS_M2ZUYIX10eUKIYorkcEJM3G56mwsU9nncuf4GEI4ZSFKZme0FZuD2NtXMdpp-9yghpUEoKeF-NOim5FNTDWDMaWU43Jul3err6BNab7xccQO7t-Gu-nZOoIIZuNTytJCOADiBxF9yIY87O1JKAOkAsM1F8MIOftEETg=="
+      },
+      {
+        "label": "news-medical",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4oNWEEhM3Eav4mCi9DKzUPYgwxyqnxB7wtZFbzZ-mlZQKlOnH-e48BiGMaExI8udtGOqLtjLG0Lrlg_ievnanMNfXV010N03LKVemtfUL_ON_Z1Dysnj3IwutR1suSBR6nns9OFDnxM-xk4X8ohbvKECmkD-4LbFXnwx1ybSnRPYteH-StGjc79ocHxwF1KZq1_PpOSU1N9we2BQbi2BRxvJrHSqXo_55RtMR"
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "huhuly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt7UHqdTqxa7l3-8yVhCCg_FbVNhc39eJR7MwBwWwsXfc5Sd261HjJNt8o9Q3oFuwRxKSvX8BsO_8kDq8j2WKti9ykUy-ssgCPUIOJoBawx3SP0cdC0FFCsh1x2ZEHOiw-RONv-tiNcvyPY2vbr5f3iwptasNJzx9bb57fMTRQGNdT7Q=="
+      },
+      {
+        "label": "3cricketeers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5V34AoDAOzpK379c4WYeSNGTfEbVYikV6_qq_EYM6Gh016PerJ8EB2-9Hun65S669I-O7ePyZuLYXxnIRrfvJccw6TLJumCoBkXCQi2ROtG0XTxBPvIk8h0Ep4s6ZVNXBrsuW_YWfqrL3jOQfIDQc"
+      },
+      {
+        "label": "valuates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26JdQ3lZCEFHPdwYqDrY_wOBG1cFOjSYAssG-pS_M2ZUYIX10eUKIYorkcEJM3G56mwsU9nncuf4GEI4ZSFKZme0FZuD2NtXMdpp-9yghpUEoKeF-NOim5FNTDWDMaWU43Jul3err6BNab7xccQO7t-Gu-nZOoIIZuNTytJCOADiBxF9yIY87O1JKAOkAsM1F8MIOftEETg=="
+      },
+      {
+        "label": "agroreality",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeLHNdbvjNaOos_11VKyST2fF2cNT-ncSj8tnaFlHJReYEFCAhvWblTzyeMyRdkn2ZKiUS6dNurhEGY0zRE3ODWcI8vI8LHgEmRHaj1_8l54quYQhnbER5z8EhQ63UhksPQayhh2YnGWICbeJ6ScRAVd899OHJhvK09FUxdYbx9nHPhxLtBhLvo2hZIpiNng=="
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "huhuly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt7UHqdTqxa7l3-8yVhCCg_FbVNhc39eJR7MwBwWwsXfc5Sd261HjJNt8o9Q3oFuwRxKSvX8BsO_8kDq8j2WKti9ykUy-ssgCPUIOJoBawx3SP0cdC0FFCsh1x2ZEHOiw-RONv-tiNcvyPY2vbr5f3iwptasNJzx9bb57fMTRQGNdT7Q=="
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7C9Xq5v9CbAVTNKof489kvA2FPd6OefYKaH-mI5Z_2ax0AXyCJJyz2Fj13X4xyUnOxK9q9V4y3oOlPCT4VHmkVKBmouxU84B38D_ejF4ZBs7BKjbiO2wKZd6Y9LrdiVYoZ7AiWcFtxJS6Bc36n7PMr8geWrUrvpGR9AzJ5b2LU_5YbK3a1A2_dRmb_2_HNA0DelQ="
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "news-medical",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4oNWEEhM3Eav4mCi9DKzUPYgwxyqnxB7wtZFbzZ-mlZQKlOnH-e48BiGMaExI8udtGOqLtjLG0Lrlg_ievnanMNfXV010N03LKVemtfUL_ON_Z1Dysnj3IwutR1suSBR6nns9OFDnxM-xk4X8ohbvKECmkD-4LbFXnwx1ybSnRPYteH-StGjc79ocHxwF1KZq1_PpOSU1N9we2BQbi2BRxvJrHSqXo_55RtMR"
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "huhuly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt7UHqdTqxa7l3-8yVhCCg_FbVNhc39eJR7MwBwWwsXfc5Sd261HjJNt8o9Q3oFuwRxKSvX8BsO_8kDq8j2WKti9ykUy-ssgCPUIOJoBawx3SP0cdC0FFCsh1x2ZEHOiw-RONv-tiNcvyPY2vbr5f3iwptasNJzx9bb57fMTRQGNdT7Q=="
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "valuates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26JdQ3lZCEFHPdwYqDrY_wOBG1cFOjSYAssG-pS_M2ZUYIX10eUKIYorkcEJM3G56mwsU9nncuf4GEI4ZSFKZme0FZuD2NtXMdpp-9yghpUEoKeF-NOim5FNTDWDMaWU43Jul3err6BNab7xccQO7t-Gu-nZOoIIZuNTytJCOADiBxF9yIY87O1JKAOkAsM1F8MIOftEETg=="
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "huhuly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt7UHqdTqxa7l3-8yVhCCg_FbVNhc39eJR7MwBwWwsXfc5Sd261HjJNt8o9Q3oFuwRxKSvX8BsO_8kDq8j2WKti9ykUy-ssgCPUIOJoBawx3SP0cdC0FFCsh1x2ZEHOiw-RONv-tiNcvyPY2vbr5f3iwptasNJzx9bb57fMTRQGNdT7Q=="
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "flyingfoodproject",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5QHPMQwOhSYIU9Y91XZLR7Qt-QCCRujT_mlXR_Cm9rgYAmR0U8VTn6Z_NLyD5d0LefWm4bmSOiBllz32I2QCb5YpsoVgNrBPC1KFEmjjHdUuuUkq6el2iJ6LIiK-P0D-31CEcOqUDTNsPbHJypWJ_U9WPaIe3xXj4sO26U3zHYFWkYQ=="
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7C9Xq5v9CbAVTNKof489kvA2FPd6OefYKaH-mI5Z_2ax0AXyCJJyz2Fj13X4xyUnOxK9q9V4y3oOlPCT4VHmkVKBmouxU84B38D_ejF4ZBs7BKjbiO2wKZd6Y9LrdiVYoZ7AiWcFtxJS6Bc36n7PMr8geWrUrvpGR9AzJ5b2LU_5YbK3a1A2_dRmb_2_HNA0DelQ="
+      },
+      {
+        "label": "valuates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26JdQ3lZCEFHPdwYqDrY_wOBG1cFOjSYAssG-pS_M2ZUYIX10eUKIYorkcEJM3G56mwsU9nncuf4GEI4ZSFKZme0FZuD2NtXMdpp-9yghpUEoKeF-NOim5FNTDWDMaWU43Jul3err6BNab7xccQO7t-Gu-nZOoIIZuNTytJCOADiBxF9yIY87O1JKAOkAsM1F8MIOftEETg=="
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "valuates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26JdQ3lZCEFHPdwYqDrY_wOBG1cFOjSYAssG-pS_M2ZUYIX10eUKIYorkcEJM3G56mwsU9nncuf4GEI4ZSFKZme0FZuD2NtXMdpp-9yghpUEoKeF-NOim5FNTDWDMaWU43Jul3err6BNab7xccQO7t-Gu-nZOoIIZuNTytJCOADiBxF9yIY87O1JKAOkAsM1F8MIOftEETg=="
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7C9Xq5v9CbAVTNKof489kvA2FPd6OefYKaH-mI5Z_2ax0AXyCJJyz2Fj13X4xyUnOxK9q9V4y3oOlPCT4VHmkVKBmouxU84B38D_ejF4ZBs7BKjbiO2wKZd6Y9LrdiVYoZ7AiWcFtxJS6Bc36n7PMr8geWrUrvpGR9AzJ5b2LU_5YbK3a1A2_dRmb_2_HNA0DelQ="
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "valuates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26JdQ3lZCEFHPdwYqDrY_wOBG1cFOjSYAssG-pS_M2ZUYIX10eUKIYorkcEJM3G56mwsU9nncuf4GEI4ZSFKZme0FZuD2NtXMdpp-9yghpUEoKeF-NOim5FNTDWDMaWU43Jul3err6BNab7xccQO7t-Gu-nZOoIIZuNTytJCOADiBxF9yIY87O1JKAOkAsM1F8MIOftEETg=="
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7C9Xq5v9CbAVTNKof489kvA2FPd6OefYKaH-mI5Z_2ax0AXyCJJyz2Fj13X4xyUnOxK9q9V4y3oOlPCT4VHmkVKBmouxU84B38D_ejF4ZBs7BKjbiO2wKZd6Y9LrdiVYoZ7AiWcFtxJS6Bc36n7PMr8geWrUrvpGR9AzJ5b2LU_5YbK3a1A2_dRmb_2_HNA0DelQ="
+      },
+      {
+        "label": "agroreality",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeLHNdbvjNaOos_11VKyST2fF2cNT-ncSj8tnaFlHJReYEFCAhvWblTzyeMyRdkn2ZKiUS6dNurhEGY0zRE3ODWcI8vI8LHgEmRHaj1_8l54quYQhnbER5z8EhQ63UhksPQayhh2YnGWICbeJ6ScRAVd899OHJhvK09FUxdYbx9nHPhxLtBhLvo2hZIpiNng=="
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "valuates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26JdQ3lZCEFHPdwYqDrY_wOBG1cFOjSYAssG-pS_M2ZUYIX10eUKIYorkcEJM3G56mwsU9nncuf4GEI4ZSFKZme0FZuD2NtXMdpp-9yghpUEoKeF-NOim5FNTDWDMaWU43Jul3err6BNab7xccQO7t-Gu-nZOoIIZuNTytJCOADiBxF9yIY87O1JKAOkAsM1F8MIOftEETg=="
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "huhuly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt7UHqdTqxa7l3-8yVhCCg_FbVNhc39eJR7MwBwWwsXfc5Sd261HjJNt8o9Q3oFuwRxKSvX8BsO_8kDq8j2WKti9ykUy-ssgCPUIOJoBawx3SP0cdC0FFCsh1x2ZEHOiw-RONv-tiNcvyPY2vbr5f3iwptasNJzx9bb57fMTRQGNdT7Q=="
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF4bnQ_KPaeEJ5rY4-Cgul7bcfgCdi-OR8vHteiF8QLDtBvfMayjnm5bmxVXNpy5eGIqyp8vhEIcLbtLseDWqB3vSm6N3Z_FqH_kcYjBgA5yS7nzkvTYWq7TjJi8eaVS15c7EuFBVMonGJ-NOS4yEfus_aJkJGgfMaYykggbtHqw=="
+      },
+      {
+        "label": "huhuly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt7UHqdTqxa7l3-8yVhCCg_FbVNhc39eJR7MwBwWwsXfc5Sd261HjJNt8o9Q3oFuwRxKSvX8BsO_8kDq8j2WKti9ykUy-ssgCPUIOJoBawx3SP0cdC0FFCsh1x2ZEHOiw-RONv-tiNcvyPY2vbr5f3iwptasNJzx9bb57fMTRQGNdT7Q=="
+      },
+      {
+        "label": "foodtimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5WCl12xKwQHOI-A80F8LcWsyoPB5FiCUSCZOGtMIPTpz6CQ7ggLTRd3NB5-nrhJcb6uR5cF5c7yUu-r0qOa6RZSCmL7nLf-GePyx4WMy_OC_fUfua5QoSUSfR9V4PBJ_U68pMoIo8tcK8PZdqClG-aQuLXbd4paFfAbw4aa2ARZAp1beEFX0CnVlkT0L2Myr2xY3ZR-g0AlTWvQ3plnqwAg=="
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "thebugfarm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBnjO5TbMfZH7c0zM1oSyg5-UrXnvAJ5ZrIhiFSuapX5jHkIZlZiUXrpvCCUGwgl001bY_DU-cacADcZobwmT9dzr46s2ccepDiIUEKX4-Mzn3gcUu4QMlDosPpTdjWBR-EIA9cHPGNDZJAqBAma8LdeEsWxbtHkNmxlmfWvr4EGDSafto"
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7C9Xq5v9CbAVTNKof489kvA2FPd6OefYKaH-mI5Z_2ax0AXyCJJyz2Fj13X4xyUnOxK9q9V4y3oOlPCT4VHmkVKBmouxU84B38D_ejF4ZBs7BKjbiO2wKZd6Y9LrdiVYoZ7AiWcFtxJS6Bc36n7PMr8geWrUrvpGR9AzJ5b2LU_5YbK3a1A2_dRmb_2_HNA0DelQ="
+      },
+      {
+        "label": "valuates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26JdQ3lZCEFHPdwYqDrY_wOBG1cFOjSYAssG-pS_M2ZUYIX10eUKIYorkcEJM3G56mwsU9nncuf4GEI4ZSFKZme0FZuD2NtXMdpp-9yghpUEoKeF-NOim5FNTDWDMaWU43Jul3err6BNab7xccQO7t-Gu-nZOoIIZuNTytJCOADiBxF9yIY87O1JKAOkAsM1F8MIOftEETg=="
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7C9Xq5v9CbAVTNKof489kvA2FPd6OefYKaH-mI5Z_2ax0AXyCJJyz2Fj13X4xyUnOxK9q9V4y3oOlPCT4VHmkVKBmouxU84B38D_ejF4ZBs7BKjbiO2wKZd6Y9LrdiVYoZ7AiWcFtxJS6Bc36n7PMr8geWrUrvpGR9AzJ5b2LU_5YbK3a1A2_dRmb_2_HNA0DelQ="
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "brusselssignal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhE5jUZTKQx4FOzxAnWjYuOcDxCw4dZ_v1MNIXDRzdxVq_IM5OafOIhh6u46FLW_-QbwnGX-RKY7JL6cBQz2fiYbNppxdnIrWlbc6_7dJlFvL2wiM_WKbIF1lCsT7WV0x63OdpJZkdhbww45rLnO0_yBLAmBksmEwq6zz6I9xiEQkPouLHC65fHigPdY4C6A=="
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7C9Xq5v9CbAVTNKof489kvA2FPd6OefYKaH-mI5Z_2ax0AXyCJJyz2Fj13X4xyUnOxK9q9V4y3oOlPCT4VHmkVKBmouxU84B38D_ejF4ZBs7BKjbiO2wKZd6Y9LrdiVYoZ7AiWcFtxJS6Bc36n7PMr8geWrUrvpGR9AzJ5b2LU_5YbK3a1A2_dRmb_2_HNA0DelQ="
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7C9Xq5v9CbAVTNKof489kvA2FPd6OefYKaH-mI5Z_2ax0AXyCJJyz2Fj13X4xyUnOxK9q9V4y3oOlPCT4VHmkVKBmouxU84B38D_ejF4ZBs7BKjbiO2wKZd6Y9LrdiVYoZ7AiWcFtxJS6Bc36n7PMr8geWrUrvpGR9AzJ5b2LU_5YbK3a1A2_dRmb_2_HNA0DelQ="
+      },
+      {
+        "label": "flyingfoodproject",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5QHPMQwOhSYIU9Y91XZLR7Qt-QCCRujT_mlXR_Cm9rgYAmR0U8VTn6Z_NLyD5d0LefWm4bmSOiBllz32I2QCb5YpsoVgNrBPC1KFEmjjHdUuuUkq6el2iJ6LIiK-P0D-31CEcOqUDTNsPbHJypWJ_U9WPaIe3xXj4sO26U3zHYFWkYQ=="
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "brusselssignal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhE5jUZTKQx4FOzxAnWjYuOcDxCw4dZ_v1MNIXDRzdxVq_IM5OafOIhh6u46FLW_-QbwnGX-RKY7JL6cBQz2fiYbNppxdnIrWlbc6_7dJlFvL2wiM_WKbIF1lCsT7WV0x63OdpJZkdhbww45rLnO0_yBLAmBksmEwq6zz6I9xiEQkPouLHC65fHigPdY4C6A=="
+      },
+      {
+        "label": "brusselssignal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhE5jUZTKQx4FOzxAnWjYuOcDxCw4dZ_v1MNIXDRzdxVq_IM5OafOIhh6u46FLW_-QbwnGX-RKY7JL6cBQz2fiYbNppxdnIrWlbc6_7dJlFvL2wiM_WKbIF1lCsT7WV0x63OdpJZkdhbww45rLnO0_yBLAmBksmEwq6zz6I9xiEQkPouLHC65fHigPdY4C6A=="
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "thebugfarm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBnjO5TbMfZH7c0zM1oSyg5-UrXnvAJ5ZrIhiFSuapX5jHkIZlZiUXrpvCCUGwgl001bY_DU-cacADcZobwmT9dzr46s2ccepDiIUEKX4-Mzn3gcUu4QMlDosPpTdjWBR-EIA9cHPGNDZJAqBAma8LdeEsWxbtHkNmxlmfWvr4EGDSafto"
+      },
+      {
+        "label": "foodtimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5WCl12xKwQHOI-A80F8LcWsyoPB5FiCUSCZOGtMIPTpz6CQ7ggLTRd3NB5-nrhJcb6uR5cF5c7yUu-r0qOa6RZSCmL7nLf-GePyx4WMy_OC_fUfua5QoSUSfR9V4PBJ_U68pMoIo8tcK8PZdqClG-aQuLXbd4paFfAbw4aa2ARZAp1beEFX0CnVlkT0L2Myr2xY3ZR-g0AlTWvQ3plnqwAg=="
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "persistencemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEypTxM3dt-gAPcYnrDbIc-Y-xaToaAYBQ8bYQLWRp4QYwsywE38HvJrs5oePEBRYQjUYmgrUgpiyJaMwUL34w22GGP3VAPLoVw5xWiLXNB8cBzO6bBLFF5tauVjabW_tqqx8NbpnOEHPODIdZY52ECii3iG9nCeohLO6d_0qe_Ic5dr3QR4jeZ2D8Quk9ElB-It1-oSPJ"
+      },
+      {
+        "label": "valuates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF26JdQ3lZCEFHPdwYqDrY_wOBG1cFOjSYAssG-pS_M2ZUYIX10eUKIYorkcEJM3G56mwsU9nncuf4GEI4ZSFKZme0FZuD2NtXMdpp-9yghpUEoKeF-NOim5FNTDWDMaWU43Jul3err6BNab7xccQO7t-Gu-nZOoIIZuNTytJCOADiBxF9yIY87O1JKAOkAsM1F8MIOftEETg=="
+      },
+      {
+        "label": "coherentmi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB5vVTfBSwxs37-KAsqwADONiOve_RYzznZ52prjqeNSUdix_Dn7EYC1mqt30NCdnEB3ZcF_5epBsm1k1Kxa-dsMNLGZRzTT6p0ppr-exbSGbGALqo3um4y1b1UWtyhaH-VbJJlGa17vnoYJctXdpPLXcNNX1prevQuPol"
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbX7V1WuqP4t_r-NqJBqj986VHvkDVgwkAG7LnLl-2zas7xwHWhQ2rskSjLnpFwn04GyuC6AmizMtt2KDHR-Vp1m_PqBG5EzDq8AW96wnXWxc0r9cn9DjPHjIOWV83uAzn_xts_TqFi0oc79fJ3LXNeofZuhIF42nqu-T"
+      },
+      {
+        "label": "dataintelo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWvGl4ESj3xf7wncsqRwxGN4ITmlsXI25VF-_vzYLE4DePnNh1pvKVE08ShqlaHrc3099R67o72SSaMnPLYia4rs7C_W0Sh48C2szM_yrLgBuW9ajlISqfZZDQitoJEfTy_F93cVdPTX0VkuN9pF6ROoFz"
+      },
+      {
+        "label": "proficientmarketinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5S7OfvpGhMtfA8ux6fqYHg9Q9LDi8WETkCAdnWgNnQ0Gn7fsKx5L53YVumhSGYuvIOj5aP0Q_JqJ3cz2BEf0RsxjXvuhQzJcna1h2Fw3xKcnyy9oo9T5nZYnjg38wKyQxyh7fCUr-NSM3BcePQxMsLAgMOTs3A-58s7sON3xd8SMxuYeANw=="
+      },
+      {
+        "label": "dataintelo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWvGl4ESj3xf7wncsqRwxGN4ITmlsXI25VF-_vzYLE4DePnNh1pvKVE08ShqlaHrc3099R67o72SSaMnPLYia4rs7C_W0Sh48C2szM_yrLgBuW9ajlISqfZZDQitoJEfTy_F93cVdPTX0VkuN9pF6ROoFz"
+      },
+      {
+        "label": "grandviewresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1H1D6o-OrN0qjBWrb1qg5ejsLUPVo6Af6Yx44JJLWL-Ahf3CPkqGKJqEc-2dJjDN_YFWdN67s6wnWEtYR4ua1Uu3aBLE6uf1KfsslqnUvPDGALkpXfSLi3jtJci5jfAIWuKGZpIwzhWSLd36_LQFQvUwnm_lJeYe10LgA0PWoDhteplw="
+      },
+      {
+        "label": "grandviewresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1H1D6o-OrN0qjBWrb1qg5ejsLUPVo6Af6Yx44JJLWL-Ahf3CPkqGKJqEc-2dJjDN_YFWdN67s6wnWEtYR4ua1Uu3aBLE6uf1KfsslqnUvPDGALkpXfSLi3jtJci5jfAIWuKGZpIwzhWSLd36_LQFQvUwnm_lJeYe10LgA0PWoDhteplw="
+      },
+      {
+        "label": "etprotein",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL9ewy9jzrRLEaj_YLG2BJQ7tUbjUa7x47avUUx1m8jGj6-nABY8sBMWYZmHDJRy5XdiW7qJgFSRihoAKLahtGpyHFhv5DcIUhs7_UeseD3e_5KkV8wrHcqGfI6BSLhdHQmlrlygUo46ss95l4g00_LcK8QBctKmY0BKEL0_r5_w=="
+      },
+      {
+        "label": "meticulousresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL_3B6BfRfcLk4_dtLFbhowX4rY1hA5V_7EChDh4hcaHmelLWdN6o2rklxGZUptkG5v97QFveVPk2rZ6G6gWnpq4zoEOPn1GJr-QINs_LjFn-8WyZdT9MBUEDq2paoMwG5e0_m5fvLX7_V94zjzyKRfumPTOijUejQ0g=="
+      },
+      {
+        "label": "dataintelo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWvGl4ESj3xf7wncsqRwxGN4ITmlsXI25VF-_vzYLE4DePnNh1pvKVE08ShqlaHrc3099R67o72SSaMnPLYia4rs7C_W0Sh48C2szM_yrLgBuW9ajlISqfZZDQitoJEfTy_F93cVdPTX0VkuN9pF6ROoFz"
+      },
+      {
+        "label": "etprotein",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL9ewy9jzrRLEaj_YLG2BJQ7tUbjUa7x47avUUx1m8jGj6-nABY8sBMWYZmHDJRy5XdiW7qJgFSRihoAKLahtGpyHFhv5DcIUhs7_UeseD3e_5KkV8wrHcqGfI6BSLhdHQmlrlygUo46ss95l4g00_LcK8QBctKmY0BKEL0_r5_w=="
+      },
+      {
+        "label": "grandviewresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1H1D6o-OrN0qjBWrb1qg5ejsLUPVo6Af6Yx44JJLWL-Ahf3CPkqGKJqEc-2dJjDN_YFWdN67s6wnWEtYR4ua1Uu3aBLE6uf1KfsslqnUvPDGALkpXfSLi3jtJci5jfAIWuKGZpIwzhWSLd36_LQFQvUwnm_lJeYe10LgA0PWoDhteplw="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiK0cIsJCOZlMiXrftLZC8eK5Mg7M7dwc1wzV9ElFTdgVwhpHFH4XRh-OuGHXplNv78ig7LPVtKm5qm7t5NrUmNcplZAh-ptlyjN0l6s1qlPOeIDCFhIAEbPswSi6bJC7zgwRA"
+      },
+      {
+        "label": "grandviewresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1H1D6o-OrN0qjBWrb1qg5ejsLUPVo6Af6Yx44JJLWL-Ahf3CPkqGKJqEc-2dJjDN_YFWdN67s6wnWEtYR4ua1Uu3aBLE6uf1KfsslqnUvPDGALkpXfSLi3jtJci5jfAIWuKGZpIwzhWSLd36_LQFQvUwnm_lJeYe10LgA0PWoDhteplw="
+      },
+      {
+        "label": "grandviewresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1H1D6o-OrN0qjBWrb1qg5ejsLUPVo6Af6Yx44JJLWL-Ahf3CPkqGKJqEc-2dJjDN_YFWdN67s6wnWEtYR4ua1Uu3aBLE6uf1KfsslqnUvPDGALkpXfSLi3jtJci5jfAIWuKGZpIwzhWSLd36_LQFQvUwnm_lJeYe10LgA0PWoDhteplw="
+      },
+      {
+        "label": "groupg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA5DLKDuRJFn86BkXWdkJ9iQc5uOgtBet6w_Vc3S5Gp93BBzxWHDASiGqXbl_o60eqecqGR60nBt3f4UjqVOQ9FdfMHjx04ICrwmVYCf8VCKp2mkZK8Hmd1s1Abms_vXNseRtXCz4mSGGKSLuBZjU="
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKEeIHKtr4fWykBGiPPpvs_r1ggmEsj5JY1A44TWQwn6Km9hlIVV6H7HxVMbE8KqKywzA9DelIn8555y4XS7VKnhCsbRq9yMDkbo1M8kxArb0Zf7yrQqWMP7bpjf3At3IOb8wx8MtMbD4YoL7YgjcuIls_Xat1jnRfun82lz4poA=="
+      },
+      {
+        "label": "xtalks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZljhoOBgoUoVcJxumgAvOMhkgWwK98OcxgttdZExRlXHRfJRwxjt1BNywu_pVNTyOs26Uhbd6xJLXog3AgbDBLnkj_7a-q8cVEVA9uKI1sYp0RXnlCjcfSLaWjGVya9J0Kp3gNlWVlncQNgPcDbIHP028sZogKDK_tR21vEKtEEhArtjC0A=="
+      },
+      {
+        "label": "brusselssignal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbN89JIS8ody6yRV_z8yRbZTCgVnwnoNDN9Tof8PTQ8H5P8apinBYGsvYTxxM2P_8bmu1RZ2qGf4y3xFaSd3mxyb8BdhAwdm8LIqiSEoEfLoUJhbNizf5cu6af-PBoCMwvl0zygt9lTiVq853VUfwR2WOov2rNMl9AR1HIZ_vRDxh7_f_j4GfReTEY2mvOFQ=="
+      },
+      {
+        "label": "meticulousresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL_3B6BfRfcLk4_dtLFbhowX4rY1hA5V_7EChDh4hcaHmelLWdN6o2rklxGZUptkG5v97QFveVPk2rZ6G6gWnpq4zoEOPn1GJr-QINs_LjFn-8WyZdT9MBUEDq2paoMwG5e0_m5fvLX7_V94zjzyKRfumPTOijUejQ0g=="
+      },
+      {
+        "label": "meticulousresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL_3B6BfRfcLk4_dtLFbhowX4rY1hA5V_7EChDh4hcaHmelLWdN6o2rklxGZUptkG5v97QFveVPk2rZ6G6gWnpq4zoEOPn1GJr-QINs_LjFn-8WyZdT9MBUEDq2paoMwG5e0_m5fvLX7_V94zjzyKRfumPTOijUejQ0g=="
+      },
+      {
+        "label": "globalgrowthinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDNU8-8VzqS6sFa_uovO7ihr--NvlVG4qhJhB9EoZsO1ba8iOy9LlP90YjfJyMsSiIWIRMpGrpt03rPYfSTNLhYmpcSDSXn0i9XKhkioBfw-O9yx8_Kp4FEbiRffBC7_y_cRHUrfomPqpxG2Pi2q1ExIYiADNj8O8Wky9FZrrkYbk_No9EBnPHUVeG_w=="
+      },
+      {
+        "label": "meticulousresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL_3B6BfRfcLk4_dtLFbhowX4rY1hA5V_7EChDh4hcaHmelLWdN6o2rklxGZUptkG5v97QFveVPk2rZ6G6gWnpq4zoEOPn1GJr-QINs_LjFn-8WyZdT9MBUEDq2paoMwG5e0_m5fvLX7_V94zjzyKRfumPTOijUejQ0g=="
+      },
+      {
+        "label": "groupg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA5DLKDuRJFn86BkXWdkJ9iQc5uOgtBet6w_Vc3S5Gp93BBzxWHDASiGqXbl_o60eqecqGR60nBt3f4UjqVOQ9FdfMHjx04ICrwmVYCf8VCKp2mkZK8Hmd1s1Abms_vXNseRtXCz4mSGGKSLuBZjU="
+      },
+      {
+        "label": "foodnavigator-asia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtGenFu9-UbFGGU_mzagXfsvrqD1WnOrruU7uvTbkBUqvEoLRsgqQqdZVjkzKK2RGTDYa7Je-AO2rp-2f97uLk2aA_xnql1OxljFWRJ8XbAZ9AGKQtIMsQYvaAO4IvWnIF3TgkPgacb1RqWwPdEOhgg624sKeERTdnVONA6puJChSYlg3pgeVpPJ-Lav40x5gnICS-GAzG4nBZYM_x-E4dj3wwk8c="
+      },
+      {
+        "label": "globalgrowthinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDNU8-8VzqS6sFa_uovO7ihr--NvlVG4qhJhB9EoZsO1ba8iOy9LlP90YjfJyMsSiIWIRMpGrpt03rPYfSTNLhYmpcSDSXn0i9XKhkioBfw-O9yx8_Kp4FEbiRffBC7_y_cRHUrfomPqpxG2Pi2q1ExIYiADNj8O8Wky9FZrrkYbk_No9EBnPHUVeG_w=="
+      },
+      {
+        "label": "globalgrowthinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDNU8-8VzqS6sFa_uovO7ihr--NvlVG4qhJhB9EoZsO1ba8iOy9LlP90YjfJyMsSiIWIRMpGrpt03rPYfSTNLhYmpcSDSXn0i9XKhkioBfw-O9yx8_Kp4FEbiRffBC7_y_cRHUrfomPqpxG2Pi2q1ExIYiADNj8O8Wky9FZrrkYbk_No9EBnPHUVeG_w=="
+      },
+      {
+        "label": "brusselssignal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbN89JIS8ody6yRV_z8yRbZTCgVnwnoNDN9Tof8PTQ8H5P8apinBYGsvYTxxM2P_8bmu1RZ2qGf4y3xFaSd3mxyb8BdhAwdm8LIqiSEoEfLoUJhbNizf5cu6af-PBoCMwvl0zygt9lTiVq853VUfwR2WOov2rNMl9AR1HIZ_vRDxh7_f_j4GfReTEY2mvOFQ=="
+      },
+      {
+        "label": "sialparis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEhmcKW8B3J0Rs2y0Lnam2mh64NXw7wxv5Xi5onJYfCZBV4NJ8R6Q4To_jRibvBjLJswMNpyahLI00qNjIGKjNMz30Jv6MqBbEcgaBrUCMlA4Lkg3KP18nHJpOGj_jP5GbY_ycL6UkWG1c2dWmHjz5-iYb1j8="
+      },
+      {
+        "label": "eatsmallgiants",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpN_zOEc3co3CVxB8LdcIWIr8YsWeH3OTBE29onnOwvc5adVnMhy5bvSuoiw_iV6S-B4brHdIkahxfr-w7xk4TtOl8NGg7oLbtu5jZh_ZLbrYUpaERheE7rTEuM5KdjkePoCoq_Q-2uG0v"
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_Iq_kSOBd4GhSPGAog4BDjLb9ZChZP9nmObSH3DeGPoZgUr4B6AvN3Ol-j5SNH-ZKrib-N2LJarz2xVi0n0NhjrWQMdVBTMAP4hCIgAbnNsj68-HALaNjC-PCl-ONNOLB0OpOUCNVD2DI0edLm8mQOtZlEQ9lNTGK8gXfG6OhPHkunuzSd2qEfvdTB-Vtqzc_iYc="
+      },
+      {
+        "label": "dataintelo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWvGl4ESj3xf7wncsqRwxGN4ITmlsXI25VF-_vzYLE4DePnNh1pvKVE08ShqlaHrc3099R67o72SSaMnPLYia4rs7C_W0Sh48C2szM_yrLgBuW9ajlISqfZZDQitoJEfTy_F93cVdPTX0VkuN9pF6ROoFz"
+      },
+      {
+        "label": "dataintelo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWvGl4ESj3xf7wncsqRwxGN4ITmlsXI25VF-_vzYLE4DePnNh1pvKVE08ShqlaHrc3099R67o72SSaMnPLYia4rs7C_W0Sh48C2szM_yrLgBuW9ajlISqfZZDQitoJEfTy_F93cVdPTX0VkuN9pF6ROoFz"
+      },
+      {
+        "label": "databridgemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHonVkO556mtXhKj35PaRe163b3ydbMsX9Bhpp7sy7xTPRryzB8_TpRTBOp1zoU39vRWuLUgFVVR8ZDtdi7qpGmtvAaHZUTHD7YUFzgUaTaBKMp9rIPAp-4WUxbG683UYBv3aIya5nLAuW_NL-4jvLRP0u9B7WNgR3rP3yMx4TX6CS8nZp6jJqT6nyd2qlrPA=="
+      },
+      {
+        "label": "talk-commerce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8SlB4QRNn3U7V85o4Opo6Whgyhp_YXW9KgCdK2GqMONLeAtN2H8UmxSmoFxPAVeouFE5nI0qLOH-9yz_R24AmBgsv4cM4fsfE5JHTNXqw4ZWZZLRKYhoKt_VbJZjpZ8CCsQjvLrGZO0stBZ3s6jsD6NESLjcZsGSYQAa4_W6Msg=="
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKEeIHKtr4fWykBGiPPpvs_r1ggmEsj5JY1A44TWQwn6Km9hlIVV6H7HxVMbE8KqKywzA9DelIn8555y4XS7VKnhCsbRq9yMDkbo1M8kxArb0Zf7yrQqWMP7bpjf3At3IOb8wx8MtMbD4YoL7YgjcuIls_Xat1jnRfun82lz4poA=="
+      },
+      {
+        "label": "marketgrowthreports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_Iq_kSOBd4GhSPGAog4BDjLb9ZChZP9nmObSH3DeGPoZgUr4B6AvN3Ol-j5SNH-ZKrib-N2LJarz2xVi0n0NhjrWQMdVBTMAP4hCIgAbnNsj68-HALaNjC-PCl-ONNOLB0OpOUCNVD2DI0edLm8mQOtZlEQ9lNTGK8gXfG6OhPHkunuzSd2qEfvdTB-Vtqzc_iYc="
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKEeIHKtr4fWykBGiPPpvs_r1ggmEsj5JY1A44TWQwn6Km9hlIVV6H7HxVMbE8KqKywzA9DelIn8555y4XS7VKnhCsbRq9yMDkbo1M8kxArb0Zf7yrQqWMP7bpjf3At3IOb8wx8MtMbD4YoL7YgjcuIls_Xat1jnRfun82lz4poA=="
+      },
+      {
+        "label": "3cricketeers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMIwAKDbuIgBL_mrtyt0e9_7jzc7gXACv7gdWWw2qblAGfToBvj5OOHnZVYlRMNOFaqDe1gOiMnILA3QKtmZSb60HDIqPq1i4ck0QpyhCC1R1dZOYNwRNa9hhI2nRZUqBxq6Mb0eSOnYmE6KHBaWEeIg=="
+      },
+      {
+        "label": "globalgrowthinsights",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDNU8-8VzqS6sFa_uovO7ihr--NvlVG4qhJhB9EoZsO1ba8iOy9LlP90YjfJyMsSiIWIRMpGrpt03rPYfSTNLhYmpcSDSXn0i9XKhkioBfw-O9yx8_Kp4FEbiRffBC7_y_cRHUrfomPqpxG2Pi2q1ExIYiADNj8O8Wky9FZrrkYbk_No9EBnPHUVeG_w=="
+      },
+      {
+        "label": "grandviewresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1H1D6o-OrN0qjBWrb1qg5ejsLUPVo6Af6Yx44JJLWL-Ahf3CPkqGKJqEc-2dJjDN_YFWdN67s6wnWEtYR4ua1Uu3aBLE6uf1KfsslqnUvPDGALkpXfSLi3jtJci5jfAIWuKGZpIwzhWSLd36_LQFQvUwnm_lJeYe10LgA0PWoDhteplw="
+      },
+      {
+        "label": "talk-commerce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8SlB4QRNn3U7V85o4Opo6Whgyhp_YXW9KgCdK2GqMONLeAtN2H8UmxSmoFxPAVeouFE5nI0qLOH-9yz_R24AmBgsv4cM4fsfE5JHTNXqw4ZWZZLRKYhoKt_VbJZjpZ8CCsQjvLrGZO0stBZ3s6jsD6NESLjcZsGSYQAa4_W6Msg=="
+      },
+      {
+        "label": "etprotein",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL9ewy9jzrRLEaj_YLG2BJQ7tUbjUa7x47avUUx1m8jGj6-nABY8sBMWYZmHDJRy5XdiW7qJgFSRihoAKLahtGpyHFhv5DcIUhs7_UeseD3e_5KkV8wrHcqGfI6BSLhdHQmlrlygUo46ss95l4g00_LcK8QBctKmY0BKEL0_r5_w=="
+      },
+      {
+        "label": "etprotein",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL9ewy9jzrRLEaj_YLG2BJQ7tUbjUa7x47avUUx1m8jGj6-nABY8sBMWYZmHDJRy5XdiW7qJgFSRihoAKLahtGpyHFhv5DcIUhs7_UeseD3e_5KkV8wrHcqGfI6BSLhdHQmlrlygUo46ss95l4g00_LcK8QBctKmY0BKEL0_r5_w=="
+      },
+      {
+        "label": "3cricketeers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERPVnLGM8vPD6YKKiTC2s1aGzniEkbmfh-wlROEnL3CYrLaZK5H4rMEAM3HGHItmEPYeAYZ5kocqcoy9YIWUC4hLII3hSdMuBsWhLRfgJlbacBlck_SodmksjiCo7HYOgyWSSC3mHhOG8yHjpkDJz56kbcE_p-2yxeRuA="
+      },
+      {
+        "label": "jrunique",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBr6K7FSN8LOYvybo6vKdLAdIBKAem1wI-pCpM0eHT9FI9fNhbJCoujAE3ZJVn0Ex1gIzG4IyUQ_DTDO5fL2OmRwqfiSq83nHwUkpUjL_VDTTDXmHe__4Iz-EQ1UaTYlfL5P6I6NZt2QwNzKeSeRJWAUUE6qHd5pfwTsVnHse4pdEbQ8IhVjop"
+      },
+      {
+        "label": "3cricketeers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMIwAKDbuIgBL_mrtyt0e9_7jzc7gXACv7gdWWw2qblAGfToBvj5OOHnZVYlRMNOFaqDe1gOiMnILA3QKtmZSb60HDIqPq1i4ck0QpyhCC1R1dZOYNwRNa9hhI2nRZUqBxq6Mb0eSOnYmE6KHBaWEeIg=="
+      },
+      {
+        "label": "lifecrosstraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKEeIHKtr4fWykBGiPPpvs_r1ggmEsj5JY1A44TWQwn6Km9hlIVV6H7HxVMbE8KqKywzA9DelIn8555y4XS7VKnhCsbRq9yMDkbo1M8kxArb0Zf7yrQqWMP7bpjf3At3IOb8wx8MtMbD4YoL7YgjcuIls_Xat1jnRfun82lz4poA=="
+      },
+      {
+        "label": "3cricketeers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMIwAKDbuIgBL_mrtyt0e9_7jzc7gXACv7gdWWw2qblAGfToBvj5OOHnZVYlRMNOFaqDe1gOiMnILA3QKtmZSb60HDIqPq1i4ck0QpyhCC1R1dZOYNwRNa9hhI2nRZUqBxq6Mb0eSOnYmE6KHBaWEeIg=="
+      },
+      {
+        "label": "jrunique",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBr6K7FSN8LOYvybo6vKdLAdIBKAem1wI-pCpM0eHT9FI9fNhbJCoujAE3ZJVn0Ex1gIzG4IyUQ_DTDO5fL2OmRwqfiSq83nHwUkpUjL_VDTTDXmHe__4Iz-EQ1UaTYlfL5P6I6NZt2QwNzKeSeRJWAUUE6qHd5pfwTsVnHse4pdEbQ8IhVjop"
+      },
+      {
+        "label": "3cricketeers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERPVnLGM8vPD6YKKiTC2s1aGzniEkbmfh-wlROEnL3CYrLaZK5H4rMEAM3HGHItmEPYeAYZ5kocqcoy9YIWUC4hLII3hSdMuBsWhLRfgJlbacBlck_SodmksjiCo7HYOgyWSSC3mHhOG8yHjpkDJz56kbcE_p-2yxeRuA="
+      },
+      {
+        "label": "hoppafoods",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-20",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmmHEgFUKEwacN7i9XIpGlwktgF0k8HZ3fmsNzd3xxy84xzZpa0VD3foe5fAN3VttbVz45uTsdJQiIpf5I4013hS6UkdcAdSAKmtXHSenu3KtoYWtothTeKRP_ty1_Qn2MM1-dGJLlNF-wX4IvQkegCCvpZl7zC30_hDNyaw=="
+      },
+      {
+        "label": "lu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-21",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu3baUdjZ60wS_B1ubQRRETzb8vnjm_bWbl6ioL5CSACaE5MPwXzuq0ktduAhgP3U_O5u_VXUl5EX_NArcSS3pAVgs3bd86iAfytla7-ctkOkdzquq5ymXnZUvTbTLXufhKdtCkBKu0r0-VIOok8Sx-COSsklYklaKxZVN5gZ7"
+      },
+      {
+        "label": "talk-commerce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8SlB4QRNn3U7V85o4Opo6Whgyhp_YXW9KgCdK2GqMONLeAtN2H8UmxSmoFxPAVeouFE5nI0qLOH-9yz_R24AmBgsv4cM4fsfE5JHTNXqw4ZWZZLRKYhoKt_VbJZjpZ8CCsQjvLrGZO0stBZ3s6jsD6NESLjcZsGSYQAa4_W6Msg=="
+      },
+      {
+        "label": "jiminis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-22",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2o7Nuel6jlIvzZz3aIGU6-_P3bTZalcVGMB40bboXnl0LAWRoRTT-75BJQAZ_rM3Nm1X4_buCLndq5yVUZftQOWQJcPgMB4LpVgPOUvdIBlbfGJL6VeB_phBLuccCk0oqUqozA0Mlpgh_nqQtBA=="
+      },
+      {
+        "label": "jrunique",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBr6K7FSN8LOYvybo6vKdLAdIBKAem1wI-pCpM0eHT9FI9fNhbJCoujAE3ZJVn0Ex1gIzG4IyUQ_DTDO5fL2OmRwqfiSq83nHwUkpUjL_VDTTDXmHe__4Iz-EQ1UaTYlfL5P6I6NZt2QwNzKeSeRJWAUUE6qHd5pfwTsVnHse4pdEbQ8IhVjop"
+      },
+      {
+        "label": "jrunique",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-23",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzwNrCvxB4_zZf8gW1q00_3cY6EZ3JWzqbhRFP9lmLGKrwKnrPwGv8tUpEmyyOK-SuqzJySIdETUpwXsqqRcjDbom0-a8l3etsMaKh-VDu4Pox4KvPQOsB5qXXw-nY1dvrCjrvQqr9AjmMk5xJFu4fWvO7lKipmmOXLDhKz2YsQO-54F6e"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

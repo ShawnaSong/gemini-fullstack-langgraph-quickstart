@@ -1,0 +1,379 @@
+{
+  "file_name": "state_result_271.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.555833",
+  "data": {
+    "messages": [
+      {
+        "content": "Hledám české slovo na písmeno \"s\". Toto slovo se používá pro označení rodiny nebo komunity lidí, kteří provozují zábavní parky, cirkusy, střelnice a kolotoče. Mohou se často stěhovat.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "c1891c9c-d951-4d19-9fa2-d2f9c9ef134f",
+        "example": false
+      },
+      {
+        "content": "While there isn't one single perfect Czech word for families who operate traveling amusement parks, circuses, shooting galleries, and carousels, several terms come close. *Světští* broadly refers to \"people with a traveling lifestyle\" [cuni](https://vertexaisearch.cloud.google.com/id/0-0), and *kočující* translates to \"traveling\" or \"nomadic,\" describing their lifestyle [cuni](https://vertexaisearch.cloud.google.com/id/0-0). *Herci* translates to \"showmen\" or \"actors\" [bab](https://vertexaisearch.cloud.google.com/id/0-2). The term \"lunapark\" is also used in Czech to mean \"amusement park\" [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0).\n\nHistorically, families like the Kludskýs and Berouseks were prominent in this field [circopedia](https://vertexaisearch.cloud.google.com/id/0-6). The Kludský family, for example, operated a large traveling circus, menageries, and carousels [circopedia](https://vertexaisearch.cloud.google.com/id/0-6). Matěj Kopecký, a legendary figure in Czech puppet theatre, was the son of a showman and traveled across the Bohemian countryside [unima](https://vertexaisearch.cloud.google.com/id/1-1).\n\nHistorically, traveling puppet groups received state-issued concessions for entertaining adults and children as early as the last third of the 18th century [cambridge](https://vertexaisearch.cloud.google.com/id/2-0). However, puppeteers were initially restricted to performing in rural regions, excluding Prague and spa towns [cambridge](https://vertexaisearch.cloud.google.com/id/2-0). In 1951, Czech circuses were nationalized and consolidated into a State Circus, Variety and Fairground Organization [circopedia](https://vertexaisearch.cloud.google.com/id/2-4). After 1990, the state-controlled arts sector underwent decentralization and privatization [culturalpolicies](https://vertexaisearch.cloud.google.com/id/2-2).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "4e11c732-6862-4ead-8d76-658f99fa60c6",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Czech word for families operating amusement parks, circuses, shooting galleries, and carousels, often traveling",
+      "Czech term for travelling showmen and amusement park operators",
+      "What specific regulations or licensing requirements existed for traveling showmen and amusement park operators in Czech lands during different historical periods, particularly before and after the nationalization of circuses in 1951?"
+    ],
+    "web_research_result": [
+      "While a single, precise Czech word for \"families operating amusement parks, circuses, shooting galleries, and carousels, often traveling\" isn't readily available, research provides several relevant terms and insights:\n\n1.  **Světští:** This Czech term broadly refers to \"people with a traveling lifestyle\" and, in some historical contexts, could encompass traveling tradesmen, actors, showmen, and others, including those who were not ethnic Roma. T [cuni](https://vertexaisearch.cloud.google.com/id/0-0)his term was used to describe heterogenous groups of people with a traveling lifestyle, who may have been lumped together under this term.\n\n [cuni](https://vertexaisearch.cloud.google.com/id/0-0)2.  **Kočující:** This term translates directly to \"traveling\" or \"nomadic,\" which describes the lifestyle of these families.\n\n3.  [uit](https://vertexaisearch.cloud.google.com/id/0-1) **Zábavní park:** This translates to \"amusement park\".\n\n4.  * [bab](https://vertexaisearch.cloud.google.com/id/0-2)*Herci:** This translates to \"showmen\" or \"actors\".\n\nHisto [bab](https://vertexaisearch.cloud.google.com/id/0-3)rical context reveals that families like the Kludskýs and Berouseks were prominent in operating circuses and related entertainments. The Klu [cambridge](https://vertexaisearch.cloud.google.com/id/0-4) [radio](https://vertexaisearch.cloud.google.com/id/0-5) [circopedia](https://vertexaisearch.cloud.google.com/id/0-6) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-7)dský family, for example, operated a large traveling circus, menageries, carousels, and other entertainments. The Bero [circopedia](https://vertexaisearch.cloud.google.com/id/0-6)usek family has been involved in circus performance for centuries. In 1951, [wikipedia](https://vertexaisearch.cloud.google.com/id/0-7) Czech circuses were nationalized and consolidated into a State Circus, Variety and Fairground Organization.\n\nTherefo [circopedia](https://vertexaisearch.cloud.google.com/id/0-6)re, while no single word captures the entirety of the concept, combinations of the terms above, along with the names of prominent families like Kludský and Berousek, provide the closest representation.\n",
+      "While a direct Czech term for \"traveling showmen and amusement park operators\" isn't explicitly found in the search results, the following information provides relevant context and related terms:\n\n1.  **\"Lunapark\" as a general term:** The term \"lunapark\" (often spelled as one word) is used in several languages, including Czech, to mean \"amusement park\" [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0). This term is derived from the original Luna Park that opened in Coney Island in 1903 [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0). Lunaparks are described as smaller-scale attraction parks with classic funfair attractions, newer features, and catering services [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0).\n\n2.  **Traveling showmen in Czech history:** Historically, traveling showmen existed in the Czech lands. Matěj Kopecký, a legendary figure in Czech puppet theatre, was the son of a showman and traveled across the Bohemian countryside.  [unima](https://vertexaisearch.cloud.google.com/id/1-1)The Stražan family was a Slovak dynasty of puppeteers, with Ján Stražan (1856-1939) being the first known Slovak puppeteer. He  [unima](https://vertexaisearch.cloud.google.com/id/1-2)performed in the Slovak language, which was a form of resistance against Magyarization. Fro [unima](https://vertexaisearch.cloud.google.com/id/1-2)m 1862 to 1880, he worked as an itinerant showman in Bohemia and Moravia.\n\n3. [unima](https://vertexaisearch.cloud.google.com/id/1-2)  **Itinerant puppeteers:** Czech puppetry has a rich history, with itinerant puppeteers wandering through towns and villages as early as the late 18th century. The [idu](https://vertexaisearch.cloud.google.com/id/1-3)se puppeteers often came from puppeteering families, passing down the craft through generations. Rad [idu](https://vertexaisearch.cloud.google.com/id/1-3)ical puppetry was viewed as a criminal act, and puppeteers were regarded with suspicion because of their itinerant lifestyle.\n\n4. [libcom](https://vertexaisearch.cloud.google.com/id/1-4)  **Related terms:**\n    *   **Fairground operators:** These are individuals who manage and run fairgrounds, which often include amusement park rides and attractions.\n    [quora](https://vertexaisearch.cloud.google.com/id/1-5) *   **Carnies:** This is a term for people who work in traveling carnivals or amusement shows. How [quora](https://vertexaisearch.cloud.google.com/id/1-5) [reverso](https://vertexaisearch.cloud.google.com/id/1-6)ever, it can be considered derogatory unless used by someone within the industry.\n    [quora](https://vertexaisearch.cloud.google.com/id/1-5) *   **Concessionaires:** This refers to owners of stands or concessions at fairs.\n    [quora](https://vertexaisearch.cloud.google.com/id/1-5) *   **Ride operators:** Individuals who operate amusement park rides.\n\n5. [quora](https://vertexaisearch.cloud.google.com/id/1-5)  **Amusement parks in the Czech Republic:** The Czech Republic has a vibrant amusement park culture, with various theme parks and attractions available. Som [traveltriangle](https://vertexaisearch.cloud.google.com/id/1-7) [praguemorning](https://vertexaisearch.cloud.google.com/id/1-8) [prague](https://vertexaisearch.cloud.google.com/id/1-9) [viator](https://vertexaisearch.cloud.google.com/id/1-10)e popular theme parks include iQLandia, Aquapalace Prague, DinoPark Liberec Plaza and Mirakulum Amusement Park. The [visitczechia](https://vertexaisearch.cloud.google.com/id/1-11) [traveltriangle](https://vertexaisearch.cloud.google.com/id/1-7) Prague Fairground, also known as Lunapark Praga, is a popular amusement park in Prague that hosts attractions like rollercoasters and observation wheels.\n [traveltriangle](https://vertexaisearch.cloud.google.com/id/1-7) [prague](https://vertexaisearch.cloud.google.com/id/1-9)",
+      "Okay, I will conduct targeted Google Searches to gather information on the regulations and licensing requirements for traveling showmen and amusement park operators in Czech lands, focusing on the periods before and after the nationalization of circuses in 1951. I will then synthesize the findings into a verifiable text artifact with proper citations.\n\nIt appears that specific details on regulations and licensing for traveling showmen and amusement park operators in Czech lands during the periods requested are difficult to find in a consolidated manner. However, the search results provide some relevant information that can be synthesized.\n\n**Before Nationalization (Pre-1951):**\n\n*   **Early Forms of Entertainment:** The roots of Czech circus and entertainment are linked to folk puppetry. Traveling puppet groups received state-issued concessions for entertaining adults and children as early as the last third of the 18th century [cambridge](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Puppetry Restrictions:** Although the Czechs were part of the Austrian monarchy until 1918, puppeteers were initially restricted to performing in rural regions, excluding Prague and spa towns [cambridge](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Licensing for Puppeteers:** The popularity of puppetry between 1820 and 1860 led to competition and waiting periods for licenses [cambridge](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Circus Families:** Traditional circuses belonged to circus families [culturalpolicies](https://vertexaisearch.cloud.google.com/id/2-1) [culturalpolicies](https://vertexaisearch.cloud.google.com/id/2-2). The Berousek family's tradition dates back to the 1830s, with Hynek (Ignác) Berousek establishing a circus in 1918. [cambridge](https://vertexaisearch.cloud.google.com/id/2-0)\n*   **Economic Factors:** The rise of industrialization impacted some traditional trades, potentially affecting traveling showmen. [historycolorado](https://vertexaisearch.cloud.google.com/id/2-3)\n\n**Nationalization and Communist Era (Post-1951):**\n\n*   **Nationalization:** In 1951, Czech circuses were nationalized and consolidated into a State Circus, Variety and Fairground Organization. [circopedia](https://vertexaisearch.cloud.google.com/id/2-4) This organization seized equipment and effectively ended private circus ownership. [circopedia](https://vertexaisearch.cloud.google.com/id/2-4) All circuses were nationalized after 1948. [culturalpolicies](https://vertexaisearch.cloud.google.com/id/2-1) [culturalpolicies](https://vertexaisearch.cloud.google.com/id/2-2)\n*   **State Control:** The Music and Artistic Centre, established in 1948, managed and supervised cultural life, including entertainment. It established the Czechoslovak Circus Organisation, controlling licenses of all Czech circuses. [cambridge](https://vertexaisearch.cloud.google.com/id/2-0)\n*   **Restrictions on Nomadism:** A law prohibiting nomadism at the end of the 1958 season terminated small, single-family operations. [cambridge](https://vertexaisearch.cloud.google.com/id/2-0)\n*   **Circus Humberto:** Circus Humberto was established in 1951 as a state-operated circus for export, taking over Circus Henry. [cambridge](https://vertexaisearch.cloud.google.com/id/2-5) [cambridge](https://vertexaisearch.cloud.google.com/id/2-0)\n*   **Focus on Artistic Exchange:** In the 1960s and 1970s, Czechoslovak circuses focused on artistic exchanges with other Soviet bloc countries. [cambridge](https://vertexaisearch.cloud.google.com/id/2-5) [cambridge](https://vertexaisearch.cloud.google.com/id/2-0)\n*   **Kludský Name:** The Kludský name was used by Czechoslovak state circuses for domestic tours between 1952 and 1954.\n* [cambridge](https://vertexaisearch.cloud.google.com/id/2-0)   **Animal Welfare:** The Ministry of Agriculture is planning to tighten the regulations governing the breeding of exotic animals.\n\n [radio](https://vertexaisearch.cloud.google.com/id/2-6)**Post-Communist Era (Post-1989):**\n\n*   **Decentralization and Privatization:** After 1990, the state-controlled arts sector underwent decentralization and privatization.\n* [culturalpolicies](https://vertexaisearch.cloud.google.com/id/2-2)   **Revival of Family Circuses:** Smaller circuses were restituted and gained independence.\n* [culturalpolicies](https://vertexaisearch.cloud.google.com/id/2-2)   **Traditional vs. Contemporary Circus:** Traditional circuses were transferred to the Ministry of Agriculture due to animal breeding, while contemporary circus is acknowledged as an art form.\n* [culturalpolicies](https://vertexaisearch.cloud.google.com/id/2-2)   **Current Regulations:** As of 2019, new regulations on exotic animals are targeting circuses, requiring licenses from the State Veterinary Authority for using certain animals.\n* [radio](https://vertexaisearch.cloud.google.com/id/2-6)   **Work Permits for Foreign Artists:** There are exemptions from work permit requirements for artists whose performance in the Czech Republic does not exceed 7 consecutive days or 30 days in total per calendar year.\n\n [ism](https://vertexaisearch.cloud.google.com/id/2-7) [ecovislegal](https://vertexaisearch.cloud.google.com/id/2-8)**Amusement Parks:**\n\n*   **Lunapark Praga:** The Prague Lunapark has been around since 1914 and hosts fairs and attractions.\n* [prague](https://vertexaisearch.cloud.google.com/id/2-9) [wikipedia](https://vertexaisearch.cloud.google.com/id/2-10)   **St. Matthew's Fair (Matějská pouť):** This fair has traditions dating back to 1595 and hosts many attractions.\n*    [wikipedia](https://vertexaisearch.cloud.google.com/id/2-10) [traveltriangle](https://vertexaisearch.cloud.google.com/id/2-11)**Šikland:** Šikland is the largest natural amusement park in the Czech Republic.\n\nIt's  [sikland](https://vertexaisearch.cloud.google.com/id/2-12)important to note that some regulations, particularly regarding animal welfare, are ongoing and evolving.\n [radio](https://vertexaisearch.cloud.google.com/id/2-13)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "cuni",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWZa_Ij35nVwT_9i64eEuLRGKkINUfs7vR3mGI2B2aUv7xNZCH1DF5FiZVrHYtAAPjUGb9A_lXxEsbAdoaKOsUhUa_CIPOZcfyZ5GfRePM5nN7jaxvv4WJTJnzhHEQyuZRHJxi4UW9HVRlJhYLvlw0qQZ8dP7uRAMeKW7Vm9curJCrV5LJuehp9u_VTqO5mfnHdydlxgXglQzcN8gg3jY="
+      },
+      {
+        "label": "cuni",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWZa_Ij35nVwT_9i64eEuLRGKkINUfs7vR3mGI2B2aUv7xNZCH1DF5FiZVrHYtAAPjUGb9A_lXxEsbAdoaKOsUhUa_CIPOZcfyZ5GfRePM5nN7jaxvv4WJTJnzhHEQyuZRHJxi4UW9HVRlJhYLvlw0qQZ8dP7uRAMeKW7Vm9curJCrV5LJuehp9u_VTqO5mfnHdydlxgXglQzcN8gg3jY="
+      },
+      {
+        "label": "uit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjsFrKF67IngrcETkXDTCIEhx2UywC23lo5ob9x9DTruCIyuDw1PtL28aKOECo9OHYFBs66BQCzK7vRlz7ntGF8Ni3zef09B8zpHZR2DOD2Nm3CcpiXfwVbqpbHV4Ct1ozO_OopUbrHnP_JFIS1ynjZVTrsQviLUKBcig5d2ob54DfwCrc8jw9gDXzkp3a"
+      },
+      {
+        "label": "bab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1BHXY2tRyO9AUyRGHHjBmmaBpYZFSTZL0j7WsCb6H73ESIsMexvO49ZVnJmkArbjqt5yreC2-ab3YRy95nViD15kQqKwmhnH4QDZIEEMPFZDBd57mr-sUKtChv6ckU-RfaH0NtMAMwvgXNndNRULQfKeb9g=="
+      },
+      {
+        "label": "bab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjbylXUaDOAHQ6-64DdLrlKprFWq2_tVATBjDJvhEFIYHaWLT1pmktWqLWWaHWczt5bI2MIKbRo8dzfQPjRbd5UDOvCYZHcyl_wUA7bYXNt4ZlMqZbni5p_ounp3SEWpbJ1ty41N8stt37rHIi"
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqYt0tl6n-7t8jxkHdX6ta48xVtz3a0v_GqHY-mDZh899AFfnLSloK9EXz-QL1nw2idifqOJGk819lbL0vRo2W18rZuJS9KOkhcq7uEQPhLmCeXpYTQOomzlZsnSaXXE2MAZMmZb85ZbhDs-YzQrE_pVSFmroSG6NM0X7FQn1E3YuRP-iL27H196qSCF3ij77CdiUIeN_89d3iv__rjHf-rQ-zqrOvK_HXPMtiaMYuAk--hs3pKF_8mtBzN1BQjNJ4un6d"
+      },
+      {
+        "label": "radio",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErBIhJx_uGttPzD6_lQVO5tf_Szz-D4LGj50UDubBuTXHylXNb0i_quMgFyI0j5Baqaf-U2RnF4FxCUseronaPK2Ji6QM2w0tX8kgpi0nemCqxJHSfoEM0ArynlpmCnZk2LjC1QsuD_8wNtEM-iVxjmIOaIAkQ0-FstSqSk-4WoDnv4FAR7y47u_UBByxmAF2V7LWiBVPNPJtWSiBMUWEUGG1kRbE="
+      },
+      {
+        "label": "circopedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9HJJfHfOhmR6DtxwI6fPhSf8dNSCDcYi86dY5APqUN76-kF310uSE2j2d4mPhjpg4PXuekQOw35IdR0dO3CXMeavcEVMVeiep06HZXCEQ77_SX-pp-80YsJ7facRrAkQ8ZX-a"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUerOE86POPfEFpuOde_CaFSGTCneJosnepHEwslYkW-_i32L7kO_fj7JS4sw6AKCKstaZz5U1jiwxMVhPeRC0Wb4lXmjOYe3YzVqm2usjHN4_IcXgY74u7sDQYS7XpRdwsVNNBKzQYw=="
+      },
+      {
+        "label": "circopedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9HJJfHfOhmR6DtxwI6fPhSf8dNSCDcYi86dY5APqUN76-kF310uSE2j2d4mPhjpg4PXuekQOw35IdR0dO3CXMeavcEVMVeiep06HZXCEQ77_SX-pp-80YsJ7facRrAkQ8ZX-a"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUerOE86POPfEFpuOde_CaFSGTCneJosnepHEwslYkW-_i32L7kO_fj7JS4sw6AKCKstaZz5U1jiwxMVhPeRC0Wb4lXmjOYe3YzVqm2usjHN4_IcXgY74u7sDQYS7XpRdwsVNNBKzQYw=="
+      },
+      {
+        "label": "circopedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9HJJfHfOhmR6DtxwI6fPhSf8dNSCDcYi86dY5APqUN76-kF310uSE2j2d4mPhjpg4PXuekQOw35IdR0dO3CXMeavcEVMVeiep06HZXCEQ77_SX-pp-80YsJ7facRrAkQ8ZX-a"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfd_OGphyGSZH7EvwpzJ25S__e_Q3guruBxgnMmAjojJwLnnmr9feSOB66xme36-gu5A3w_8_TbzowWy7BC7NRwc19kqgUjVsgbIbpmRsftEqp__l0fLkPc1SRKw-S6qBvgg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfd_OGphyGSZH7EvwpzJ25S__e_Q3guruBxgnMmAjojJwLnnmr9feSOB66xme36-gu5A3w_8_TbzowWy7BC7NRwc19kqgUjVsgbIbpmRsftEqp__l0fLkPc1SRKw-S6qBvgg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfd_OGphyGSZH7EvwpzJ25S__e_Q3guruBxgnMmAjojJwLnnmr9feSOB66xme36-gu5A3w_8_TbzowWy7BC7NRwc19kqgUjVsgbIbpmRsftEqp__l0fLkPc1SRKw-S6qBvgg=="
+      },
+      {
+        "label": "unima",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0GHhiFfblnB11L0jDF-AytWmLYTSRzj-KNHPKQ8ngEhz3E2-mfyCg9Ab8Lxa2uv98QuhIn5KTeWLnKd22LCN5SqdaSF59zfg2kCzPIb7d-0iKt4tumiR_7Ey1o3V4JkOo9ng="
+      },
+      {
+        "label": "unima",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-fm8_q1ICPtEh6J85eQNyqkLYKsDuxOHIYEIgUNmyxipp_JGDibd4s4eg6V9gQ_Ze3mxftHHpa3IE4SJr9IZzbMgFMwusRM_urD1pLZ2dVl2Npa_3V7Vf6uT4ZF7VTLadgda"
+      },
+      {
+        "label": "unima",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-fm8_q1ICPtEh6J85eQNyqkLYKsDuxOHIYEIgUNmyxipp_JGDibd4s4eg6V9gQ_Ze3mxftHHpa3IE4SJr9IZzbMgFMwusRM_urD1pLZ2dVl2Npa_3V7Vf6uT4ZF7VTLadgda"
+      },
+      {
+        "label": "unima",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp-fm8_q1ICPtEh6J85eQNyqkLYKsDuxOHIYEIgUNmyxipp_JGDibd4s4eg6V9gQ_Ze3mxftHHpa3IE4SJr9IZzbMgFMwusRM_urD1pLZ2dVl2Npa_3V7Vf6uT4ZF7VTLadgda"
+      },
+      {
+        "label": "idu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuauGAsuJH6hbdvOOscpaqRxPDJmOrX6hWoOoiGqPY4rPo1MA8DqPUiUNoGgcSvzw9aQ1HZlXuP4L37ZIo-hFz9ApZnlGRA5wYnf0pb86KubBkoaqX3J7CLjGpEgTGi7uysB29W_RsDjWvFS4L"
+      },
+      {
+        "label": "idu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuauGAsuJH6hbdvOOscpaqRxPDJmOrX6hWoOoiGqPY4rPo1MA8DqPUiUNoGgcSvzw9aQ1HZlXuP4L37ZIo-hFz9ApZnlGRA5wYnf0pb86KubBkoaqX3J7CLjGpEgTGi7uysB29W_RsDjWvFS4L"
+      },
+      {
+        "label": "libcom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNxcEjJE14CoQJAA3hgpXKG-NfCBuV0nc4ek7DNK8Le5-4lYhcEGXNHCv7j5j8iO8xeH6gbHDLw1KfzfMWFtG219ZERENYlroorcwoOz016sN-BWoGK6oNJk0liREYxnUaPj8kY61cCIU9y7Smfd6XhO8GpAtrC11CwiWpkoFa"
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGUcDudnYXwImPhxDzIyQE3ZTyTy7D_olPROY74tqIiexELYKk4TgM29xuPktzEeqzRpjekKfzndKnSm2-enI3C1PqI5KcnHGNoD44n7mOL992IVlD88y48UQ7bqBCYij1mqfa9iriQLfd8VIMout4wWoVCMTLmvPozn-UnDBGY8hY30v7E-ojbzfDTsvnm1aU"
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGUcDudnYXwImPhxDzIyQE3ZTyTy7D_olPROY74tqIiexELYKk4TgM29xuPktzEeqzRpjekKfzndKnSm2-enI3C1PqI5KcnHGNoD44n7mOL992IVlD88y48UQ7bqBCYij1mqfa9iriQLfd8VIMout4wWoVCMTLmvPozn-UnDBGY8hY30v7E-ojbzfDTsvnm1aU"
+      },
+      {
+        "label": "reverso",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9x3P_0wmjjFUppmOBMNMEEX2Na7pV4PJm0mUvCJmRLDA4gg-hrxFL94vNnpRNRohFhZ0BKY0gyxv2w6ZlJ3KYTXnQJqKDdcBoQ1dAjp4kRmhLznFyUTgF0feNAQizyovt-CgJQPcXU0yyOeDkBPkSYS51BlmL7ihIZrAtkg=="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGUcDudnYXwImPhxDzIyQE3ZTyTy7D_olPROY74tqIiexELYKk4TgM29xuPktzEeqzRpjekKfzndKnSm2-enI3C1PqI5KcnHGNoD44n7mOL992IVlD88y48UQ7bqBCYij1mqfa9iriQLfd8VIMout4wWoVCMTLmvPozn-UnDBGY8hY30v7E-ojbzfDTsvnm1aU"
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGUcDudnYXwImPhxDzIyQE3ZTyTy7D_olPROY74tqIiexELYKk4TgM29xuPktzEeqzRpjekKfzndKnSm2-enI3C1PqI5KcnHGNoD44n7mOL992IVlD88y48UQ7bqBCYij1mqfa9iriQLfd8VIMout4wWoVCMTLmvPozn-UnDBGY8hY30v7E-ojbzfDTsvnm1aU"
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGUcDudnYXwImPhxDzIyQE3ZTyTy7D_olPROY74tqIiexELYKk4TgM29xuPktzEeqzRpjekKfzndKnSm2-enI3C1PqI5KcnHGNoD44n7mOL992IVlD88y48UQ7bqBCYij1mqfa9iriQLfd8VIMout4wWoVCMTLmvPozn-UnDBGY8hY30v7E-ojbzfDTsvnm1aU"
+      },
+      {
+        "label": "traveltriangle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE64-WsgPH5UGvpxhDzQQNt1rqSaYdM3teMmaNmglszCmu_CpEKZFpD9BkTPbdYsokCN5vF6o96ktk447YOivhNSF555HhYWZg5kqukDT9ATF7j1NG2nasuanmxumdHoaOuL-YVO92kNpWzisY4OUtLAGoYtoxrB2zo"
+      },
+      {
+        "label": "praguemorning",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELRkcUQC72QijPm9qOh5WJXWl8vxbueYUz2ICI4EJNw_VR_bZzewo6XL8W0GETpztbNW0DATp-Pa0vPMqpo9jkMzZ_ODxM7HvuYPSul99pAyEDDH2Erl7TrEbf__9lJUOkPKHxx52W-Yw_gzhflwHsxdWHNca7fBEpNrNVgtpiZmh_BdqJAZucD7TR5pDHlQ=="
+      },
+      {
+        "label": "prague",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhQjTOy9hhujqEhzjzCCLorgFUPpWf-xa_o3oo5Hx-WthJrgIKDEC4zWVh8CrOm9YdWVx5P9uIISfDBYC85sP12ud32OdIO7dyVhx8QFDHLSKJk8u5fMw0kktOv8K2FOZ4ao16"
+      },
+      {
+        "label": "viator",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHiztcIuCROiTF-qI8x9oGnI_3IjQf9t4OMVVHw0bE9qHvqcCpbpSKo-kzDqQ7B-1gmEmvB0_3j9lZ0_1ev5JHhAvW201VBTIlsGqNaheFQqPwCwSvFKGzafVCnZM6RVFsKpc-j29aEecUymoU66Rj7X_b7As7Ivm6mrKJbXG_CLaanWE5e07_zI7nEVvWANcc_iE1jStqSG4m2qe-0CAG_tGEpg=="
+      },
+      {
+        "label": "visitczechia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHulv6LDVYOgmuafjmZMRVbiZAF41hqCfJAyfkuuyQJrpB5kZ5QHLHrkQLxvIh9vqHRZ1g46hOsigD2d7LhQOTRzS4yVDjbzBsQCUirUcd6s5LBiSSje5EfcxdVu6wCCn1mJBpFsXZW1jhwYGb8rPcoZRMOlPzh3SyRmKru8oTUTQ=="
+      },
+      {
+        "label": "traveltriangle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE64-WsgPH5UGvpxhDzQQNt1rqSaYdM3teMmaNmglszCmu_CpEKZFpD9BkTPbdYsokCN5vF6o96ktk447YOivhNSF555HhYWZg5kqukDT9ATF7j1NG2nasuanmxumdHoaOuL-YVO92kNpWzisY4OUtLAGoYtoxrB2zo"
+      },
+      {
+        "label": "traveltriangle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE64-WsgPH5UGvpxhDzQQNt1rqSaYdM3teMmaNmglszCmu_CpEKZFpD9BkTPbdYsokCN5vF6o96ktk447YOivhNSF555HhYWZg5kqukDT9ATF7j1NG2nasuanmxumdHoaOuL-YVO92kNpWzisY4OUtLAGoYtoxrB2zo"
+      },
+      {
+        "label": "prague",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhQjTOy9hhujqEhzjzCCLorgFUPpWf-xa_o3oo5Hx-WthJrgIKDEC4zWVh8CrOm9YdWVx5P9uIISfDBYC85sP12ud32OdIO7dyVhx8QFDHLSKJk8u5fMw0kktOv8K2FOZ4ao16"
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtIv7HD-5U8zuhPZV2XgwR05G1_LU8FZkD4IZ23hALDJfKrCNa0jXXi1vmetFx7zZmkWomJR3BpR_YnYJ8Q33sELmBaGLb0RMUP99MO6nLe_GdIPmOtZhP2aFZzFPiQpDW5k6s_1pKlqBEwE3mwliHYaRKTKYjO4SJWg83KS6iFyU_LUqxV8dhyrqb7kgv7rhDAYIQx0PxeTsyux-PRZZap9IJ6-acBIMSTN_vhhixvtRDrAQlW8iT1ypR4jq3Bmt0s4kj"
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtIv7HD-5U8zuhPZV2XgwR05G1_LU8FZkD4IZ23hALDJfKrCNa0jXXi1vmetFx7zZmkWomJR3BpR_YnYJ8Q33sELmBaGLb0RMUP99MO6nLe_GdIPmOtZhP2aFZzFPiQpDW5k6s_1pKlqBEwE3mwliHYaRKTKYjO4SJWg83KS6iFyU_LUqxV8dhyrqb7kgv7rhDAYIQx0PxeTsyux-PRZZap9IJ6-acBIMSTN_vhhixvtRDrAQlW8iT1ypR4jq3Bmt0s4kj"
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtIv7HD-5U8zuhPZV2XgwR05G1_LU8FZkD4IZ23hALDJfKrCNa0jXXi1vmetFx7zZmkWomJR3BpR_YnYJ8Q33sELmBaGLb0RMUP99MO6nLe_GdIPmOtZhP2aFZzFPiQpDW5k6s_1pKlqBEwE3mwliHYaRKTKYjO4SJWg83KS6iFyU_LUqxV8dhyrqb7kgv7rhDAYIQx0PxeTsyux-PRZZap9IJ6-acBIMSTN_vhhixvtRDrAQlW8iT1ypR4jq3Bmt0s4kj"
+      },
+      {
+        "label": "culturalpolicies",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYZsuTMHeX-ZUo1-YqVR64evO06kWjaNuUr37kMDGPN8dKU4s6jVG3gQwHQG1R7OdstRcAc2muXKr6F8aBX8hqS6Eqy7DBj8QHb1c7gXxit-w8KpNBQJI2qwRsZbvjr_jDuIB2Z5GFaRBB4KoQfje0d_-tphIZRVhGLm0kCdIeQbe9RsZ15Z5zYNGVCfiIWXETwO9UWnl2r-tsQ=="
+      },
+      {
+        "label": "culturalpolicies",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_Q_-pF_VoiL0GgjE8i46CjN0nxOEaHCTo-4uTbfIw1cJ4V8zxgqxzAJKaVy3-dEFm8U8c5NsmcrETePIuDeBUdEPgwlTWi3ZxlZvBkazjYgYPzEPU1w0tZJaE-NomauqEdM1S6xWgjdQWpunrI9rEGnXaTGdCXL4="
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtIv7HD-5U8zuhPZV2XgwR05G1_LU8FZkD4IZ23hALDJfKrCNa0jXXi1vmetFx7zZmkWomJR3BpR_YnYJ8Q33sELmBaGLb0RMUP99MO6nLe_GdIPmOtZhP2aFZzFPiQpDW5k6s_1pKlqBEwE3mwliHYaRKTKYjO4SJWg83KS6iFyU_LUqxV8dhyrqb7kgv7rhDAYIQx0PxeTsyux-PRZZap9IJ6-acBIMSTN_vhhixvtRDrAQlW8iT1ypR4jq3Bmt0s4kj"
+      },
+      {
+        "label": "historycolorado",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRxmvRauMapB2gttD-1pPhe5DqN-HUHw2LJP9S0ggaEDl_Iu4N79MXG9vh6mu0mTov2Os-yzgabSwx2Ay08H2brOZJXDg5xcCMAafnMcPBugQ-urvVWdSIXeDMwcDm_l2vu6u4bJkyeceHMLj937Uf-fRN7sTBT5dPOZmN9K7vZXKPqIi1pas0UfPcm2VwegU-iOXcoKlcQirdNDaJB37X2yHIIR8ZOa8="
+      },
+      {
+        "label": "circopedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELPvf5UBc9xr_sYAhXgaUX4r90aWhtxKzak4e5cBiCiMqdxB5A7fns0Ws1CxbCtfskqzYh3NGhETIB3YzE6_6fLUVeqiQtzAncyg6w32bvX-aKld9ukwqEHC50ZtURbFDAEV7A"
+      },
+      {
+        "label": "circopedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELPvf5UBc9xr_sYAhXgaUX4r90aWhtxKzak4e5cBiCiMqdxB5A7fns0Ws1CxbCtfskqzYh3NGhETIB3YzE6_6fLUVeqiQtzAncyg6w32bvX-aKld9ukwqEHC50ZtURbFDAEV7A"
+      },
+      {
+        "label": "culturalpolicies",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMYZsuTMHeX-ZUo1-YqVR64evO06kWjaNuUr37kMDGPN8dKU4s6jVG3gQwHQG1R7OdstRcAc2muXKr6F8aBX8hqS6Eqy7DBj8QHb1c7gXxit-w8KpNBQJI2qwRsZbvjr_jDuIB2Z5GFaRBB4KoQfje0d_-tphIZRVhGLm0kCdIeQbe9RsZ15Z5zYNGVCfiIWXETwO9UWnl2r-tsQ=="
+      },
+      {
+        "label": "culturalpolicies",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_Q_-pF_VoiL0GgjE8i46CjN0nxOEaHCTo-4uTbfIw1cJ4V8zxgqxzAJKaVy3-dEFm8U8c5NsmcrETePIuDeBUdEPgwlTWi3ZxlZvBkazjYgYPzEPU1w0tZJaE-NomauqEdM1S6xWgjdQWpunrI9rEGnXaTGdCXL4="
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtIv7HD-5U8zuhPZV2XgwR05G1_LU8FZkD4IZ23hALDJfKrCNa0jXXi1vmetFx7zZmkWomJR3BpR_YnYJ8Q33sELmBaGLb0RMUP99MO6nLe_GdIPmOtZhP2aFZzFPiQpDW5k6s_1pKlqBEwE3mwliHYaRKTKYjO4SJWg83KS6iFyU_LUqxV8dhyrqb7kgv7rhDAYIQx0PxeTsyux-PRZZap9IJ6-acBIMSTN_vhhixvtRDrAQlW8iT1ypR4jq3Bmt0s4kj"
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtIv7HD-5U8zuhPZV2XgwR05G1_LU8FZkD4IZ23hALDJfKrCNa0jXXi1vmetFx7zZmkWomJR3BpR_YnYJ8Q33sELmBaGLb0RMUP99MO6nLe_GdIPmOtZhP2aFZzFPiQpDW5k6s_1pKlqBEwE3mwliHYaRKTKYjO4SJWg83KS6iFyU_LUqxV8dhyrqb7kgv7rhDAYIQx0PxeTsyux-PRZZap9IJ6-acBIMSTN_vhhixvtRDrAQlW8iT1ypR4jq3Bmt0s4kj"
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaIb0fNjCFoiXrIeXUFNTGgakqPJ-hmI7vhxOe3aFzfZmGnKk6fn9AGdkqbAfj_AlW4VKorCuHMgyGGc3QLPAunvNhqMzKbzV4wnLIvylTcgqmeoYNNW8Pd1A-42nQ2dYI5209a6k3jt8EtoQTfMfCmVTHmO5SOqO5GDsEel9I3v-Kap-DafaC4Z_IBahnLHw5NIuGc7ipfrwW8LHwfYUAhyaila0s10NonuWsOaNmTOzC7YmQQpvQzDNHjxI7StBDm0BfRMezmdBleiKOan63jNE="
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtIv7HD-5U8zuhPZV2XgwR05G1_LU8FZkD4IZ23hALDJfKrCNa0jXXi1vmetFx7zZmkWomJR3BpR_YnYJ8Q33sELmBaGLb0RMUP99MO6nLe_GdIPmOtZhP2aFZzFPiQpDW5k6s_1pKlqBEwE3mwliHYaRKTKYjO4SJWg83KS6iFyU_LUqxV8dhyrqb7kgv7rhDAYIQx0PxeTsyux-PRZZap9IJ6-acBIMSTN_vhhixvtRDrAQlW8iT1ypR4jq3Bmt0s4kj"
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaIb0fNjCFoiXrIeXUFNTGgakqPJ-hmI7vhxOe3aFzfZmGnKk6fn9AGdkqbAfj_AlW4VKorCuHMgyGGc3QLPAunvNhqMzKbzV4wnLIvylTcgqmeoYNNW8Pd1A-42nQ2dYI5209a6k3jt8EtoQTfMfCmVTHmO5SOqO5GDsEel9I3v-Kap-DafaC4Z_IBahnLHw5NIuGc7ipfrwW8LHwfYUAhyaila0s10NonuWsOaNmTOzC7YmQQpvQzDNHjxI7StBDm0BfRMezmdBleiKOan63jNE="
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtIv7HD-5U8zuhPZV2XgwR05G1_LU8FZkD4IZ23hALDJfKrCNa0jXXi1vmetFx7zZmkWomJR3BpR_YnYJ8Q33sELmBaGLb0RMUP99MO6nLe_GdIPmOtZhP2aFZzFPiQpDW5k6s_1pKlqBEwE3mwliHYaRKTKYjO4SJWg83KS6iFyU_LUqxV8dhyrqb7kgv7rhDAYIQx0PxeTsyux-PRZZap9IJ6-acBIMSTN_vhhixvtRDrAQlW8iT1ypR4jq3Bmt0s4kj"
+      },
+      {
+        "label": "cambridge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtIv7HD-5U8zuhPZV2XgwR05G1_LU8FZkD4IZ23hALDJfKrCNa0jXXi1vmetFx7zZmkWomJR3BpR_YnYJ8Q33sELmBaGLb0RMUP99MO6nLe_GdIPmOtZhP2aFZzFPiQpDW5k6s_1pKlqBEwE3mwliHYaRKTKYjO4SJWg83KS6iFyU_LUqxV8dhyrqb7kgv7rhDAYIQx0PxeTsyux-PRZZap9IJ6-acBIMSTN_vhhixvtRDrAQlW8iT1ypR4jq3Bmt0s4kj"
+      },
+      {
+        "label": "radio",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEImzsXTvLx6wENff89U40x9D3Z9PEa9yW-NJC1MxHWqOxk3Qq4j59kawQi3rOziQVnZEVkxV_KU8zvyv7D2D1fXS83WVCgvvzDKeVIuaODubhNs7xnhA8yCM8iXoUTrWSlOBGgfhrFLTOImlJ5b9W94tJukCefEClLBxhb4Fo7r_oXf-8pkcxkQAw="
+      },
+      {
+        "label": "culturalpolicies",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_Q_-pF_VoiL0GgjE8i46CjN0nxOEaHCTo-4uTbfIw1cJ4V8zxgqxzAJKaVy3-dEFm8U8c5NsmcrETePIuDeBUdEPgwlTWi3ZxlZvBkazjYgYPzEPU1w0tZJaE-NomauqEdM1S6xWgjdQWpunrI9rEGnXaTGdCXL4="
+      },
+      {
+        "label": "culturalpolicies",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_Q_-pF_VoiL0GgjE8i46CjN0nxOEaHCTo-4uTbfIw1cJ4V8zxgqxzAJKaVy3-dEFm8U8c5NsmcrETePIuDeBUdEPgwlTWi3ZxlZvBkazjYgYPzEPU1w0tZJaE-NomauqEdM1S6xWgjdQWpunrI9rEGnXaTGdCXL4="
+      },
+      {
+        "label": "culturalpolicies",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_Q_-pF_VoiL0GgjE8i46CjN0nxOEaHCTo-4uTbfIw1cJ4V8zxgqxzAJKaVy3-dEFm8U8c5NsmcrETePIuDeBUdEPgwlTWi3ZxlZvBkazjYgYPzEPU1w0tZJaE-NomauqEdM1S6xWgjdQWpunrI9rEGnXaTGdCXL4="
+      },
+      {
+        "label": "radio",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEImzsXTvLx6wENff89U40x9D3Z9PEa9yW-NJC1MxHWqOxk3Qq4j59kawQi3rOziQVnZEVkxV_KU8zvyv7D2D1fXS83WVCgvvzDKeVIuaODubhNs7xnhA8yCM8iXoUTrWSlOBGgfhrFLTOImlJ5b9W94tJukCefEClLBxhb4Fo7r_oXf-8pkcxkQAw="
+      },
+      {
+        "label": "ism",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0gz952N07Z-oEVug428Z_kR8D4f6fSKtQfbaI2T9STpKiHTacpTHXcKTHskulHU5Nh6HB9G2MBxy7NirzYNWVwQKgNCdNtk7hXcxbr4VJ7PKN7EsGRZVpKa1A6GNtHZJbM9PWj1EaHq4GOlVTlUbM55LoIg=="
+      },
+      {
+        "label": "ecovislegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyZFvXRjZt826nSkKXLhm61rxpcxmXPsBf8_QM-9hNqDjFWLVZHV1FGjhwYi6j3JNg-Ho5-YN5nd26aI8jIPLPBt0dxEHgoBRBiZ2vX2IAKYwb9v8uyG5csrI-Cv5Q5zdv8wciPImXZO91Hf4wTxcpt5lcBpgNzdQPWYxlipObtu0KOCpA6Thx07rjqdmhoyCZSNwfYG3e5fqiHRqbrnZSiV8JdGtwr6GAQMT1teUh-sOHM-05bNus-XIhtMNkOrNAjKZLnhHE-eE9XOj7Vz0="
+      },
+      {
+        "label": "prague",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL0NYi3mKzIarzlX8KRazh4_v35Vp9x4RzpZjNN5YqsEzrUBawihBT4r86J-cs9Ysqq2jaFBe_p9Axfm2uMMaG6AOlkN451UtBckrrui_IBti4ay6mJTs1vl6zFqI2gRk4N9W8"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMtRU00_jA2hnNHji4sIrhh2iAO2dBWVlv0v-9_vAm7EhnBC4Ejt9QVXj4dl0cNtJEfTuCQP9CuvHzbZ81uijnF9tnHlCDUFOowoescs0j4yY1Lh_znxDATpLBAyaBZXe6OVb11kORxZdiblwDq0cGTu149EiFl7y9tPhf"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMtRU00_jA2hnNHji4sIrhh2iAO2dBWVlv0v-9_vAm7EhnBC4Ejt9QVXj4dl0cNtJEfTuCQP9CuvHzbZ81uijnF9tnHlCDUFOowoescs0j4yY1Lh_znxDATpLBAyaBZXe6OVb11kORxZdiblwDq0cGTu149EiFl7y9tPhf"
+      },
+      {
+        "label": "traveltriangle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDvyWrQjV2QYpS66QIDUfjk73Cc7N5NxCifczNXH5CyI8jxuG6sWk7Tzuifq9m8mjVrmqZO1rumsIPGvnlXFm9jmZZRvBxJda-xVWk5RY3JKJl84UpjSteCjJFSwyTfuORHNC33VcLew0oLYHgROiT1Knj5YDRmGC-"
+      },
+      {
+        "label": "sikland",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE4X8uahYRCWWmRkjnTkM1wZv5w393Ih2rFP-GmCBaJWcpACCUlJm_1ipG8tMu5ib0wgi7Zs0l48HzneiXxCOZxM7IJpBH-yQxSds2NdfMmrPAjHCSXFDrz91g"
+      },
+      {
+        "label": "radio",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG902meyCkE9T6gWVFJFBM6ZOcvLliwflPqCvKicuYdnuiTv6hCvGy5-FAhqEuYryI_Wvokzex0f3K6BYlz6EefzAIjtTyq9pH64eDqsoqTcMGDFDF4I2IPAic_-KXURyasyOF0PhrASeXUYTHTitB7-9CnfTFVziAwoC5A6d0Xf62DpgVQtUOkl0w-J2rKn6-0n119tbmNc0="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

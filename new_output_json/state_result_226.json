@@ -1,0 +1,180 @@
+{
+  "file_name": "state_result_226.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.555126",
+  "data": {
+    "messages": [
+      {
+        "content": "What is the current status of the election in America where Obama won?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "79d0e07f-5f8f-419f-b07e-e78e152f5462",
+        "example": false
+      },
+      {
+        "content": "The 2008 United States presidential election, held on November 4, 2008, was a landmark event that resulted in Barack Obama, then a U.S. Senator from Illinois, becoming the first African American to be elected president [britannica](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1). Obama, with his running mate Joe Biden, defeated the Republican ticket of John McCain and Sarah Palin [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1).\n\nObama won the election with 365 electoral votes, surpassing the 270 needed to win, while McCain received 173 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [archives](https://vertexaisearch.cloud.google.com/id/0-3) [fec](https://vertexaisearch.cloud.google.com/id/0-4). In the popular vote, Obama received 69,498,516 votes (52.9%) compared to McCain's 59,948,323 (45.7%) [ebsco](https://vertexaisearch.cloud.google.com/id/0-5) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [unistra](https://vertexaisearch.cloud.google.com/id/0-6) [fec](https://vertexaisearch.cloud.google.com/id/0-4).\n\nThe 2008 election is considered a \"Democratic wave election,\" where the Democratic Party significantly increased its majority in both the House and Senate [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [ebsco](https://vertexaisearch.cloud.google.com/id/0-5). Obama won states that had previously voted Republican in the prior two elections, such as Colorado, Florida, Nevada, Ohio, and Virginia [britannica](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1). He also won Indiana, Iowa, New Mexico, North Carolina, and Nebraska's 2nd congressional district [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1). Voter turnout was the highest it had been in four decades [ebsco](https://vertexaisearch.cloud.google.com/id/0-5) [britannica](https://vertexaisearch.cloud.google.com/id/0-0).\n\nObama's victory was a historic milestone, marking the first time an African American was elected president [britannica](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1]. This election also marked the first time since 1992 that the Democrats controlled both Congress and the presidency [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2]. A key theme throughout the election was the public's desire for change and reform [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [ebsco](https://vertexaisearch.cloud.google.com/id/0-5].",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "eb9fbe3c-6eab-46ca-91bf-da2a9803ab21",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "US election results 2008"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent, credible information on \"US election results 2008\" and synthesize it into a verifiable text artifact.\nThe 2008 United States presidential election took place on November 4, 2008, and was a historic election that saw Barack Obama, then a U.S. Senator from Illinois, become the first African American to be elected president [britannica](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1). Obama and his running mate, Joe Biden, the Senator from Delaware, defeated the Republican ticket of John McCain, the Senator from Arizona, and Sarah Palin, the Governor of Alaska [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Key Outcomes and Results:**\n\n*   **Electoral Vote:** Barack Obama won the election with 365 electoral votes, while John McCain received 173 electoral votes [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [archives](https://vertexaisearch.cloud.google.com/id/0-3). A total of 270 electoral votes were needed to win the election [archives](https://vertexaisearch.cloud.google.com/id/0-3) [fec](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Popular Vote:** Obama received 69,498,516 popular votes (52.9%), while McCain received 59,948,323 (45.7%) [ebsco](https://vertexaisearch.cloud.google.com/id/0-5) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [unistra](https://vertexaisearch.cloud.google.com/id/0-6) [fec](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Democratic Wave:** The 2008 election was considered a \"Democratic wave election,\" with the Democratic Party bolstering its majorities in both the House and Senate [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [ebsco](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **States Won:** Obama won several states that had voted Republican in the previous two presidential elections, including Colorado, Florida, Nevada, Ohio, and Virginia [britannica](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1). He also won Indiana, Iowa, New Mexico, North Carolina, and Nebraska's 2nd congressional district [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Voter Turnout:** The election saw the highest voter turnout rate in four decades [ebsco](https://vertexaisearch.cloud.google.com/id/0-5) [britannica](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**Historical Significance:**\n\n*   **First African American President:** Obama's victory marked a significant milestone in American history, as he became the first African American president of the United States [britannica](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Democratic Control:** This election marked the first time since 1992 that the Democrats won both Congress and the presidency in the same election year [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Desire for Change:** A major theme throughout the campaign was the American public's desire for change and reform [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [ebsco](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**Other Details:**\n\n*   Incumbent President George W. Bush was ineligible for re-election due to term limits [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2).\n*   The primary campaign was notable, with Hillary Clinton and Barack Obama engaged in a close contest for the Democratic nomination [britannica](https://vertexaisearch.cloud.google.com/id/0-0) [ebsco](https://vertexaisearch.cloud.google.com/id/0-5).\n*   Nebraska proportionally distributed its electoral votes; McCain received 4 and Obama 1 [archives](https://vertexaisearch.cloud.google.com/id/0-3).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7xYRIyzoyRBY3QkPg16JDzDNUDlq6SKOyOP25ydrYJyF1ThQ2JTH4ydWC5lgJxEItbIe9fo8sT-ypTvac1PFflN3Arla198JvhHJ1Y6ZEvF2Cxik2lSD2IHmFc_dkdhxg2Pkyuj9Ync-hjFuN26thkOu1OnuKfBqGA3c3svJGkeSM6n7v4d8="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeKy32kE3EHCAulWCDJfjNy3_UVdjumK7zoVZuq8NY7fIYDwzyMnfJFfJK5F0J6x6Z7PoWf9vmE-5OOA1uBJRajmLJtnZ02_dv30jfbsCQJAD6rGEiUk-P1kYYFroIGNXiaC_0l2hJ_a-UkJGFBPYyfsesUG4yfkmetranYvvDW6g="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeKy32kE3EHCAulWCDJfjNy3_UVdjumK7zoVZuq8NY7fIYDwzyMnfJFfJK5F0J6x6Z7PoWf9vmE-5OOA1uBJRajmLJtnZ02_dv30jfbsCQJAD6rGEiUk-P1kYYFroIGNXiaC_0l2hJ_a-UkJGFBPYyfsesUG4yfkmetranYvvDW6g="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJmgdY2Y-zLAsgXAxtpZ6fs90BdRe1YnNxk80iTWfJqALp6eI0cwaf4TEdyyL0YgtYp2Mh5UhHC9WG8y6XSCdMkBzBYBTQWvLq0wWfiDvk9yz48aq2TguI9-YFESLSRwUYxcwE_jJFnGvRMCCX-y5IsrTNAY="
+      },
+      {
+        "label": "archives",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0TRhr3BApJrNAw3aeRlJDxHS73TtL9FRL90y-dCy6HVvX_cGWHnKkXcKfJu5QL6HEcqoDKuGV3mwr3ts9kh7JB6X7Rxzw4rWttNosJofnLE_AUMl5LlaUUmrx3q_TxFu4rf84H8EX451I"
+      },
+      {
+        "label": "archives",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0TRhr3BApJrNAw3aeRlJDxHS73TtL9FRL90y-dCy6HVvX_cGWHnKkXcKfJu5QL6HEcqoDKuGV3mwr3ts9kh7JB6X7Rxzw4rWttNosJofnLE_AUMl5LlaUUmrx3q_TxFu4rf84H8EX451I"
+      },
+      {
+        "label": "fec",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRimVSBuIOPRWrT_YXXuQZLAWm1N59hqa-fc64ClB_FQemPQS6QXL1IBjCmvF1OHdBezavY_Fm0Fv6D0pTtgngG2Wfuc71yvcJq2U4bgmkO6XpDoG6zyZYNW1gW3WTOtL-QRLf2jq9IidRyP4="
+      },
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBV-XRqiZgXZNtNX0aNI6X5K1sCVXtb0BN8rkxuKeKF7YLBoj_huckgQTT5At0nHScT9USpWO8irkt_nz5rhlNjNZkIUVoGLC_zvqlJ9H-TjlXdJRrXVkEDez4K3nnnTu8lHYzeGML7p7SkBma9xB1Bf2KRkwsB2XJ43wb5BHI-4H9kX4DAw4="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJmgdY2Y-zLAsgXAxtpZ6fs90BdRe1YnNxk80iTWfJqALp6eI0cwaf4TEdyyL0YgtYp2Mh5UhHC9WG8y6XSCdMkBzBYBTQWvLq0wWfiDvk9yz48aq2TguI9-YFESLSRwUYxcwE_jJFnGvRMCCX-y5IsrTNAY="
+      },
+      {
+        "label": "unistra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0qzXaIJ_zd33jBUQKuJJLw3o_PlfVeVDgKszvc7bTclNqWERNDPNLWlVuEaZVSf65QYemYNvNWnoNfr18hm0WxR4OwUU2C9uRsKCnxZA3lDTjTobCbnJcbDWraLjU-V7g4U7rONxO-KykPeUV5E2w_UxpjvJ3PhTGnXijCw=="
+      },
+      {
+        "label": "fec",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRimVSBuIOPRWrT_YXXuQZLAWm1N59hqa-fc64ClB_FQemPQS6QXL1IBjCmvF1OHdBezavY_Fm0Fv6D0pTtgngG2Wfuc71yvcJq2U4bgmkO6XpDoG6zyZYNW1gW3WTOtL-QRLf2jq9IidRyP4="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJmgdY2Y-zLAsgXAxtpZ6fs90BdRe1YnNxk80iTWfJqALp6eI0cwaf4TEdyyL0YgtYp2Mh5UhHC9WG8y6XSCdMkBzBYBTQWvLq0wWfiDvk9yz48aq2TguI9-YFESLSRwUYxcwE_jJFnGvRMCCX-y5IsrTNAY="
+      },
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBV-XRqiZgXZNtNX0aNI6X5K1sCVXtb0BN8rkxuKeKF7YLBoj_huckgQTT5At0nHScT9USpWO8irkt_nz5rhlNjNZkIUVoGLC_zvqlJ9H-TjlXdJRrXVkEDez4K3nnnTu8lHYzeGML7p7SkBma9xB1Bf2KRkwsB2XJ43wb5BHI-4H9kX4DAw4="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7xYRIyzoyRBY3QkPg16JDzDNUDlq6SKOyOP25ydrYJyF1ThQ2JTH4ydWC5lgJxEItbIe9fo8sT-ypTvac1PFflN3Arla198JvhHJ1Y6ZEvF2Cxik2lSD2IHmFc_dkdhxg2Pkyuj9Ync-hjFuN26thkOu1OnuKfBqGA3c3svJGkeSM6n7v4d8="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeKy32kE3EHCAulWCDJfjNy3_UVdjumK7zoVZuq8NY7fIYDwzyMnfJFfJK5F0J6x6Z7PoWf9vmE-5OOA1uBJRajmLJtnZ02_dv30jfbsCQJAD6rGEiUk-P1kYYFroIGNXiaC_0l2hJ_a-UkJGFBPYyfsesUG4yfkmetranYvvDW6g="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeKy32kE3EHCAulWCDJfjNy3_UVdjumK7zoVZuq8NY7fIYDwzyMnfJFfJK5F0J6x6Z7PoWf9vmE-5OOA1uBJRajmLJtnZ02_dv30jfbsCQJAD6rGEiUk-P1kYYFroIGNXiaC_0l2hJ_a-UkJGFBPYyfsesUG4yfkmetranYvvDW6g="
+      },
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBV-XRqiZgXZNtNX0aNI6X5K1sCVXtb0BN8rkxuKeKF7YLBoj_huckgQTT5At0nHScT9USpWO8irkt_nz5rhlNjNZkIUVoGLC_zvqlJ9H-TjlXdJRrXVkEDez4K3nnnTu8lHYzeGML7p7SkBma9xB1Bf2KRkwsB2XJ43wb5BHI-4H9kX4DAw4="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7xYRIyzoyRBY3QkPg16JDzDNUDlq6SKOyOP25ydrYJyF1ThQ2JTH4ydWC5lgJxEItbIe9fo8sT-ypTvac1PFflN3Arla198JvhHJ1Y6ZEvF2Cxik2lSD2IHmFc_dkdhxg2Pkyuj9Ync-hjFuN26thkOu1OnuKfBqGA3c3svJGkeSM6n7v4d8="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7xYRIyzoyRBY3QkPg16JDzDNUDlq6SKOyOP25ydrYJyF1ThQ2JTH4ydWC5lgJxEItbIe9fo8sT-ypTvac1PFflN3Arla198JvhHJ1Y6ZEvF2Cxik2lSD2IHmFc_dkdhxg2Pkyuj9Ync-hjFuN26thkOu1OnuKfBqGA3c3svJGkeSM6n7v4d8="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeKy32kE3EHCAulWCDJfjNy3_UVdjumK7zoVZuq8NY7fIYDwzyMnfJFfJK5F0J6x6Z7PoWf9vmE-5OOA1uBJRajmLJtnZ02_dv30jfbsCQJAD6rGEiUk-P1kYYFroIGNXiaC_0l2hJ_a-UkJGFBPYyfsesUG4yfkmetranYvvDW6g="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJmgdY2Y-zLAsgXAxtpZ6fs90BdRe1YnNxk80iTWfJqALp6eI0cwaf4TEdyyL0YgtYp2Mh5UhHC9WG8y6XSCdMkBzBYBTQWvLq0wWfiDvk9yz48aq2TguI9-YFESLSRwUYxcwE_jJFnGvRMCCX-y5IsrTNAY="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJmgdY2Y-zLAsgXAxtpZ6fs90BdRe1YnNxk80iTWfJqALp6eI0cwaf4TEdyyL0YgtYp2Mh5UhHC9WG8y6XSCdMkBzBYBTQWvLq0wWfiDvk9yz48aq2TguI9-YFESLSRwUYxcwE_jJFnGvRMCCX-y5IsrTNAY="
+      },
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBV-XRqiZgXZNtNX0aNI6X5K1sCVXtb0BN8rkxuKeKF7YLBoj_huckgQTT5At0nHScT9USpWO8irkt_nz5rhlNjNZkIUVoGLC_zvqlJ9H-TjlXdJRrXVkEDez4K3nnnTu8lHYzeGML7p7SkBma9xB1Bf2KRkwsB2XJ43wb5BHI-4H9kX4DAw4="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeKy32kE3EHCAulWCDJfjNy3_UVdjumK7zoVZuq8NY7fIYDwzyMnfJFfJK5F0J6x6Z7PoWf9vmE-5OOA1uBJRajmLJtnZ02_dv30jfbsCQJAD6rGEiUk-P1kYYFroIGNXiaC_0l2hJ_a-UkJGFBPYyfsesUG4yfkmetranYvvDW6g="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJmgdY2Y-zLAsgXAxtpZ6fs90BdRe1YnNxk80iTWfJqALp6eI0cwaf4TEdyyL0YgtYp2Mh5UhHC9WG8y6XSCdMkBzBYBTQWvLq0wWfiDvk9yz48aq2TguI9-YFESLSRwUYxcwE_jJFnGvRMCCX-y5IsrTNAY="
+      },
+      {
+        "label": "britannica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7xYRIyzoyRBY3QkPg16JDzDNUDlq6SKOyOP25ydrYJyF1ThQ2JTH4ydWC5lgJxEItbIe9fo8sT-ypTvac1PFflN3Arla198JvhHJ1Y6ZEvF2Cxik2lSD2IHmFc_dkdhxg2Pkyuj9Ync-hjFuN26thkOu1OnuKfBqGA3c3svJGkeSM6n7v4d8="
+      },
+      {
+        "label": "ebsco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBV-XRqiZgXZNtNX0aNI6X5K1sCVXtb0BN8rkxuKeKF7YLBoj_huckgQTT5At0nHScT9USpWO8irkt_nz5rhlNjNZkIUVoGLC_zvqlJ9H-TjlXdJRrXVkEDez4K3nnnTu8lHYzeGML7p7SkBma9xB1Bf2KRkwsB2XJ43wb5BHI-4H9kX4DAw4="
+      },
+      {
+        "label": "archives",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0TRhr3BApJrNAw3aeRlJDxHS73TtL9FRL90y-dCy6HVvX_cGWHnKkXcKfJu5QL6HEcqoDKuGV3mwr3ts9kh7JB6X7Rxzw4rWttNosJofnLE_AUMl5LlaUUmrx3q_TxFu4rf84H8EX451I"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

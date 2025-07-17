@@ -1,0 +1,1503 @@
+{
+  "file_name": "state_result_283.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.643117",
+  "data": {
+    "messages": [
+      {
+        "content": "suggest topics i can write a policy memo on, it should concern tech policy and india",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "bc8b3e95-f55f-405f-b993-6c05d2415a15",
+        "example": false
+      },
+      {
+        "content": "Here are some potential policy memo topics concerning tech policy in India, as of July 16, 2025:\n\n**1. Digital Personal Data Protection Act (DPDPA) Implementation and Enforcement:**\n\n*   **Topic:** Analyzing the effectiveness of the Digital Personal Data Protection Rules, 2025 in operationalizing the DPDPA, 2023 [thehindu](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Focus:** Examine the clarity and comprehensiveness of the rules regarding notice mechanisms, security measures, breach notifications, data retention, and cross-border data transfers [law](https://vertexaisearch.cloud.google.com/id/0-5). Assess the role and effectiveness of consent managers in empowering data principals [iapp](https://vertexaisearch.cloud.google.com/id/0-6) [privacyworld](https://vertexaisearch.cloud.google.com/id/0-4].\n*   **Enforcement:** Evaluate the structure, powers, and functions of the Data Protection Board of India (DPBI) in overseeing compliance and imposing penalties [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0) [dpdpa](https://vertexaisearch.cloud.google.com/id/2-4). Analyze the DPBI's complaint resolution procedure and its ability to function as a digital office [pib](https://vertexaisearch.cloud.google.com/id/2-8) [leegality](https://vertexaisearch.cloud.google.com/id/2-9).\n*   **Challenges:** Address ambiguities related to consent, third-party risks, compliance burdens, and cross-border data transfers [ey](https://vertexaisearch.cloud.google.com/id/0-7) [law](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Penalties:** Analyze the penalties for non-compliance, ranging from ₹50 crores to ₹250 crores, and the factors influencing the Board's decision in determining the actual penalty [corridalegal](https://vertexaisearch.cloud.google.com/id/2-15) [leegality](https://vertexaisearch.cloud.google.com/id/2-9) [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13) [mondaq](https://vertexaisearch.cloud.google.com/id/2-3) [jsalaw](https://vertexaisearch.cloud.google.com/id/2-7) [neetiniyaman](https://vertexaisearch.cloud.google.com/id/2-14).\n\n**2. Bridging the Digital Divide:**\n\n*   **Topic:** Assessing the progress and challenges of the BharatNet project in providing high-speed internet to rural India [orfonline](https://vertexaisearch.cloud.google.com/id/0-1) [uppcsmagazine](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Focus:** Analyze the urban-rural and gender digital divides [orfonline](https://vertexaisearch.cloud.google.com/id/0-1) [uppcsmagazine](https://vertexaisearch.cloud.google.com/id/0-9]. Evaluate the effectiveness of initiatives like the BharatNet project and the Union Budget 2025 in expanding digital infrastructure and promoting digital literacy [orfonline](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **BharatNet Project:** Evaluate the successes of the BharatNet project, including the number of Gram Panchayats made service-ready, the length of optical fiber cable deployed, and the number of FTTH connections commissioned [pib](https://vertexaisearch.cloud.google.com/id/3-0) [pib](https://vertexaisearch.cloud.google.com/id/3-1) [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2) [angelone](https://vertexaisearch.cloud.google.com/id/3-3) [drishtiias](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Challenges:** Address the missed deadlines, slow pace of implementation, infrastructure issues, and low utilization rates of the BharatNet project [indiaspend](https://vertexaisearch.cloud.google.com/id/3-9) [vajiramandravi](https://vertexaisearch.cloud.google.com/id/3-10) [icrier](https://vertexaisearch.cloud.google.com/id/3-13) [cenerva](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Solutions:** Propose policy recommendations for expanding digital infrastructure, promoting digital literacy, implementing gender-sensitive policies, and leveraging public-private partnerships [uppcsmagazine](https://vertexaisearch.cloud.google.com/id/0-9).\n\n**3. Artificial Intelligence (AI) Regulation and Innovation:**\n\n*   **Topic:** Examining the Draft AI Regulation Bill 2025 and its implications for AI innovation and deployment in India [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Focus:** Analyze the key proposals of the bill, including ethical design, accountability, data privacy, and national security risks [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1). Assess the obligations for high-risk AI applications, such as independent audits, bias assessments, explainability, and human oversight [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **IndiaAI Mission:** Evaluate the IndiaAI mission's prioritized AI use cases in healthcare, agriculture, education, governance, and climate resilience [upenn](https://vertexaisearch.cloud.google.com/id/4-3) [techpolicy](https://vertexaisearch.cloud.google.com/id/4-4) [utkarsh](https://vertexaisearch.cloud.google.com/id/4-2).\n*   **Pillars of the Mission:** Analyze the seven foundational pillars of the IndiaAI mission, including the Common Compute Facility, AI Kosha, AI Safety Institute of India, IndiaAI Innovation Centre, AI Application Development Initiative, Future Skills Initiative, and Startup Financing [vajiramandravi](https://vertexaisearch.cloud.google.com/id/4-7) [sansad](https://vertexaisearch.cloud.google.com/id/4-8) [indiaai](https://vertexaisearch.cloud.google.com/id/4-9).\n*   **Metrics for Success:** Propose metrics for evaluating the success of AI use cases, such as cost leverage, throughput, reach, model diversity, data provenance, and transparency reports [securiti](https://vertexaisearch.cloud.google.com/id/4-10) [digitaldefynd](https://vertexaisearch.cloud.google.com/id/4-6).\n\n**4. Cybersecurity Policy and Regulations:**\n\n*   **Topic:** Analyzing the effectiveness of cybersecurity regulations in India 2025 in protecting critical infrastructure and data [iitk](https://vertexaisearch.cloud.google.com/id/0-11) [craw](https://vertexaisearch.cloud.google.com/id/1-12).\n*   **Focus:** Examine the key provisions of the cybersecurity regulations, including mandatory data localization, strengthened data protection laws, incident reporting and response, and cybersecurity audits [craw](https://vertexaisearch.cloud.google.com/id/1-12). Assess the role of the National Cyber Security Coordinator (NCSC) and the Indian Computer Emergency Response Team (CERT-In) in dealing with cyber-attacks [pib](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **National Cyber Security Strategy 2020:** Evaluate the National Cyber Security Strategy, 2020, in creating a safe, secure, and resilient cyberspace [rsm](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Telecommunications (Telecom Cyber Security) Rules, 2024:** Analyze the obligations placed on telecommunications entities to ensure telecoms cybersecurity [chambers](https://vertexaisearch.cloud.google.com/id/1-8).\n\nThese topics provide a starting point for developing policy memos that address critical tech policy issues in India as of July 2025. Remember to delve deeper into the specific aspects of each topic and provide well-researched and actionable recommendations.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "975b80b4-4195-424e-a119-3e168317fadb",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "tech policy issues india 2025",
+      "emerging technology policy india 2025",
+      "What are the specific penalties and enforcement mechanisms for non-compliance with the Digital Personal Data Protection Act (DPDPA) 2023 and the Digital Personal Data Protection Rules, 2025 in India?",
+      "What are the specific challenges and successes of the BharatNet project in bridging the digital divide in India as of 2025? Include data on connectivity speeds, adoption rates, and impact on rural communities.",
+      "What specific AI use cases are being prioritized by the IndiaAI mission for addressing societal challenges, and what are the metrics for evaluating their success?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent and credible information on \"tech policy issues india 2025\" and synthesize it into a verifiable text artifact.\nAs of July 16, 2025, key tech policy issues in India revolve around the implementation and implications of the Digital Personal Data Protection Act, 2023 (DPDPA), bridging the digital divide, and fostering innovation in emerging technologies like AI [americanbar](https://vertexaisearch.cloud.google.com/id/0-0) [orfonline](https://vertexaisearch.cloud.google.com/id/0-1) [ey](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**Digital Personal Data Protection Act, 2023 and Rules, 2025:**\n\n*   **Implementation:** The government aims to implement the Digital Personal Data Protection Rules, 2025 by mid-2025 [thehindu](https://vertexaisearch.cloud.google.com/id/0-3). The rules operationalize the DPDPA, 2023 [thehindu](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Key Aspects:** The DPDPA introduces several compliance requirements for the collection and processing of personal data, whether collected in digital form or digitized later [americanbar](https://vertexaisearch.cloud.google.com/id/0-0). It emphasizes a consent-centric approach, requiring clear and comprehensive notice to data principals before collecting personal data [americanbar](https://vertexaisearch.cloud.google.com/id/0-0) [privacyworld](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Draft Rules, 2025:** The Ministry of Electronics and Information Technology (MeitY) released the draft Digital Personal Data Protection Rules, 2025, for public consultation [law](https://vertexaisearch.cloud.google.com/id/0-5) [privacyworld](https://vertexaisearch.cloud.google.com/id/0-4) [iapp](https://vertexaisearch.cloud.google.com/id/0-6). These rules provide guidance on key provisions of the DPDPA, including notice mechanisms, security measures, breach notifications, data retention, protections for minors, obligations for significant data fiduciaries (SDFs) and cross-border data transfers [law](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Consent Managers:** The DPDPA introduces the concept of consent managers, who act as intermediaries to help data principals give, manage, review, and withdraw their consent [iapp](https://vertexaisearch.cloud.google.com/id/0-6) [privacyworld](https://vertexaisearch.cloud.google.com/id/0-4). The draft rules prescribe conditions for operating as consent managers, including incorporation in India, a minimum net worth, and avoiding conflicts of interest [iapp](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Cross-border Data Transfers:** The DPDPA imposes stricter restrictions on cross-border data transfers, requiring the government to issue guidelines outlining when such transfers are permissible [privacyworld](https://vertexaisearch.cloud.google.com/id/0-4). The draft rules specify that data fiduciaries in India may transfer personal data abroad only in compliance with conditions set by the government [privacyworld](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Data Retention:** The draft rules establish specific retention periods for certain data fiduciaries, such as social media intermediaries and e-commerce platforms with 20 million or more registered users and online gaming intermediaries with 5 million or more registered users in India [iapp](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Data Protection Officers:** The DPDP Act requires significant data fiduciaries to appoint a data protection officer (DPO) based in India [privacyworld](https://vertexaisearch.cloud.google.com/id/0-4). Smaller data fiduciaries can either appoint a DPO or designate an individual to handle data processing queries [privacyworld](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Security Measures:** The draft rules require data fiduciaries to adopt baseline security measures, such as encryption, obfuscation, masking, and access control, to protect personal data from breaches [privacyworld](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Challenges:** Ambiguities related to consent, third-party risks, compliance burdens, and cross-border data transfers need addressing [ey](https://vertexaisearch.cloud.google.com/id/0-7) [law](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**Bridging the Digital Divide:**\n\n*   **Urban-Rural Gap:** A significant digital divide exists between urban and rural areas in India [orfonline](https://vertexaisearch.cloud.google.com/id/0-1) [uppcsmagazine](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Gender Divide:** Women, especially in rural areas, face additional barriers in accessing digital technology [uppcsmagazine](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **BharatNet Project:** The BharatNet project aims to provide high-speed internet to all gram panchayats in the country [orfonline](https://vertexaisearch.cloud.google.com/id/0-1) [uppcsmagazine](https://vertexaisearch.cloud.google.com/id/0-9). Budget 2025 takes the project further to provide broadband connectivity to all government secondary schools and primary health centers in rural areas [orfonline](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Budget 2025 Initiatives:** The Union Budget 2025 includes initiatives to bridge the digital divide, such as facilitating the delivery of assisted digital services in rural areas through post offices [orfonline](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Digital Literacy:** Only 38% of the population is digitally literate, limiting access to e-governance services [pmfias](https://vertexaisearch.cloud.google.com/id/0-10).\n*   **Solutions:** Expanding digital infrastructure, promoting digital literacy, gender-sensitive policies, and leveraging public-private partnerships are crucial to bridging the digital divide [uppcsmagazine](https://vertexaisearch.cloud.google.com/id/0-9).\n\n**Emerging Technologies and Innovation:**\n\n*   **AI Mission:** India is focusing on artificial intelligence (AI), including generative AI, to leapfrog development in healthcare, education, and agriculture [iitk](https://vertexaisearch.cloud.google.com/id/0-11). MeitY has announced plans to develop a foundation model within a year [techpolicy](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Cybersecurity:** Stringent cybersecurity regulations, with penal provisions, must be enacted across critical sectors [iitk](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Deep Tech Fund:** To support the next generation of deep tech start-ups, a Deep Tech Fund of Funds has been proposed under the Budget 2025 [orfonline](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **U.S.-India TRUST Initiative:** The U.S.-India TRUST (Transforming the Relationship Utilizing Strategic Technology) initiative aims to accelerate AI infrastructure development, adoption, and access in India [carnegieendowment](https://vertexaisearch.cloud.google.com/id/0-13).\n*   **Digital Public Infrastructure (DPI):** India is leveraging its DPI model, including Aadhaar, UPI, and DigiLocker, to transform public service delivery and financial inclusion [drishtiias](https://vertexaisearch.cloud.google.com/id/0-14) [techpolicy](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Space Technology:** Key steps in 2025 include finalizing satellite spectrum allocation and disbursing the Rs 1,000 crore venture fund [iitk](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Challenges:** Regulatory complexities, low adoption rates, and digital monopolies pose challenges to sustainable growth and innovation [drishtiias](https://vertexaisearch.cloud.google.com/id/0-14).\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"emerging technology policy india 2025\" and synthesize it into a verifiable text artifact.\nIn 2025, India is actively shaping its technology policy landscape to foster innovation, ensure security, and protect citizens' rights in the digital age [varindia](https://vertexaisearch.cloud.google.com/id/1-0) [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1). Key areas of focus include artificial intelligence (AI), data protection, cybersecurity, and bridging the digital divide [varindia](https://vertexaisearch.cloud.google.com/id/1-0) [rsm](https://vertexaisearch.cloud.google.com/id/1-2) [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1). The Ministry of Electronics and Information Technology (MeitY) is at the forefront of these efforts, aiming to build a $1 trillion digital economy by 2025-26 [eletsonline](https://vertexaisearch.cloud.google.com/id/1-3) [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Artificial Intelligence (AI) Policy**\n\n*   **Draft AI Bill 2025:** MeitY released the Draft AI Regulation Bill in early 2025 for public consultation, marking India's first comprehensive attempt to regulate AI across sectors [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1). The bill focuses on ethical design, accountability, and data privacy to promote trustworthy AI adoption [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Key Proposals:** The Draft AI Bill 2025 addresses bias and discrimination in AI systems, data privacy concerns, national security risks, and ethical considerations [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1). It aligns closely with India's Digital Personal Data Protection Act (DPDPA), emphasizing explicit consent for using personal data in training AI models and restrictions on storing and sharing sensitive data [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Obligations for High-Risk AI:** Developers and users of high-risk AI applications will be required to conduct independent audits and bias assessments, ensure explainability of decisions, and implement human oversight for critical decision-making systems [hereandnowai](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **AI for Socio-Economic Development:** IndiaAI mission is identifying and elaborating use cases that address societal challenges at scale [techpolicy](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **AI Skills and Talent:** India ranks first globally in AI skill penetration [pib](https://vertexaisearch.cloud.google.com/id/1-5). The government is revamping university curricula to include AI, 5G, and semiconductor design, aligning with the National Education Policy (NEP) 2020 [pib](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Centers of Excellence for AI:** The government has established three Centers of Excellence for Artificial Intelligence in top educational institutions to develop cutting-edge AI solutions and promote interdisciplinary research [talent500](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **US-India Collaboration:** The U.S.-India TRUST (Transforming the Relationship Utilizing Strategic Technology) initiative aims to accelerate AI infrastructure development in India by enabling market access, industry partnerships, and investments [carnegieendowment](https://vertexaisearch.cloud.google.com/id/1-7).\n\n**Data Protection Policy**\n\n*   **Digital Personal Data Protection Act (DPDPA) 2023:** India enacted its first comprehensive legislation on data protection in August 2023 [chambers](https://vertexaisearch.cloud.google.com/id/1-8). The Digital Personal Data Protection Act, 2023 (DPDPA) provides for the processing of digital personal data in a manner that recognizes both the rights of the individuals to protect their personal data and processing of personal data of individuals for lawful purposes by the Data Fiduciaries [pib](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Draft Digital Personal Data Protection Rules, 2025:** The Indian government released the draft Digital Personal Data Protection Rules, 2025, in January 2025, for stakeholder comments [chambers](https://vertexaisearch.cloud.google.com/id/1-8) [ivaluegroup](https://vertexaisearch.cloud.google.com/id/1-10). The rules aim to operationalize the DPDPA by providing detailed guidelines on consent, user rights, and data security [digitalstudioindia](https://vertexaisearch.cloud.google.com/id/1-11).\n*   **Key Provisions:** The Draft Rules outline conditions for allowing data transfers to specific “trusted nations” and require companies to demonstrate adequate safeguards when transferring personal data overseas. Or [digitalstudioindia](https://vertexaisearch.cloud.google.com/id/1-11)ganizations must obtain explicit, informed, and granular consent before collecting personal data.\n*  [digitalstudioindia](https://vertexaisearch.cloud.google.com/id/1-11)  **Data Breach Reporting:** The rules mandate incident reporting and response mechanisms. Co [craw](https://vertexaisearch.cloud.google.com/id/1-12)rporate incident response teams must be streamlined, and data breach contingency plans must be updated to align with this stringent timeline.\n*  [digitalstudioindia](https://vertexaisearch.cloud.google.com/id/1-11)  **Data Retention:** The draft Rules set a three-year retention period for certain types of data fiduciaries, such as e-commerce platforms, online gaming services and social media intermediaries, provided they meet user thresholds outlined in the Rules.\n\n* [privacyworld](https://vertexaisearch.cloud.google.com/id/1-13)*Cybersecurity Policy**\n\n*   **Cybersecurity Regulations in India 2025:** New legislation was implemented in 2025 to strengthen the country's cybersecurity framework.\n*  [craw](https://vertexaisearch.cloud.google.com/id/1-12)  **Key Provisions:** The cyber security regulations in India 2025 include mandatory data localization, strengthened data protection laws, incident reporting and response, cyber security audits and compliance, national cyber security agency and critical information infrastructure protection.\n*  [craw](https://vertexaisearch.cloud.google.com/id/1-12)  **National Cyber Security Strategy 2020:** The National Cyber Security Strategy, 2020, aims to create a safe, secure, and resilient cyberspace for citizens, businesses, and the government.\n*  [rsm](https://vertexaisearch.cloud.google.com/id/1-2)  **Telecommunications (Telecom Cyber Security) Rules, 2024:** The DoT released the Telecommunications (Telecom Cyber Security) Rules, 2024, which place obligations on telecommunications entities to take measures to ensure telecoms cybersecurity.\n*  [chambers](https://vertexaisearch.cloud.google.com/id/1-8)  **Government Initiatives:** The government has institutionalized a nationwide integrated and coordinated system to deal with cyber-attacks, including the National Cyber Security Coordinator (NCSC) and the Indian Computer Emergency Response Team (CERT-In).\n\n* [pib](https://vertexaisearch.cloud.google.com/id/1-9)*Bridging the Digital Divide**\n\n*   **BharatNet Project:** The BharatNet project aims to connect 2.5 lakh gram panchayats with high-speed broadband.\n*  [eletsonline](https://vertexaisearch.cloud.google.com/id/1-3)  **PM-WANI Initiative:** The PM-WANI initiative is creating a robust ecosystem of public Wi-Fi networks to ensure affordable and accessible internet connectivity in remote regions.\n*  [eletsonline](https://vertexaisearch.cloud.google.com/id/1-3)  **Digital Infrastructure Expansion:** The budget emphasizes the expansion of digital public infrastructure.\n*  [talent500](https://vertexaisearch.cloud.google.com/id/1-6)  **Digital Services in Rural Areas:** The Budget 2025 provides for facilitating the delivery of assisted digital services in rural areas through post offices.\n\n* [orfonline](https://vertexaisearch.cloud.google.com/id/1-14)*Other Key Trends and Initiatives**\n\n*   **Digital India and Make in India:** These campaigns encourage digital access and local innovation.\n*  [lpu](https://vertexaisearch.cloud.google.com/id/1-15)  **Startup Ecosystem:** India's burgeoning startup ecosystem continues to thrive, supported by government initiatives and venture capital investments.\n*  [varindia](https://vertexaisearch.cloud.google.com/id/1-0)  **Focus on Emerging Technologies:** India is investing in AI research and startups and launched a mission to promote quantum technology research.\n*  [lpu](https://vertexaisearch.cloud.google.com/id/1-15)  **IT Sector Growth:** India's IT sector is expected to experience robust growth in 2025, with IT exports projected to reach $210 billion in the 2024-25 financial year.\n*  [acarasolutions](https://vertexaisearch.cloud.google.com/id/1-16)  **Skill Development:** The government is addressing the challenge by revamping university curricula to include AI, 5G, and semiconductor design, aligning with the National Education Policy (NEP) 2020.\n [pib](https://vertexaisearch.cloud.google.com/id/1-5)",
+      "The Digital Personal Data Protection Act (DPDPA) 2023 and the Digital Personal Data Protection Rules, 2025 in India establish a comprehensive framework for data protection, with significant penalties and enforcement mechanisms for non-compliance [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0) [cyberops](https://vertexaisearch.cloud.google.com/id/2-1).\n\n**Enforcement Mechanisms:**\n\n*   **Data Protection Board of India (DPBI):** The DPDPA heavily relies on the DPBI, established under Chapter V of the Act, as the primary body for overseeing compliance [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0). The DPBI is an independent corporate entity empowered to handle complaints, investigate violations, direct corrective actions, and impose penalties on entities that fail to comply with the law [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0). The Board's constitution will take effect immediately upon the official notification of the rules in the Official Gazette, following the conclusion of the public consultation period [iapp](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Composition and Structure of the DPBI:** The DPBI consists of a chairperson and other members who serve renewable terms of two years [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0) [mondaq](https://vertexaisearch.cloud.google.com/id/2-3). To prevent conflicts of interest, the Chairperson and any other Member shall not, for one year after leaving office, accept employment without prior approval of the Central Government and must disclose any subsequent employment with a Data Fiduciary against whom they initiated or oversaw proceedings [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0). The chairperson holds significant administrative authority, overseeing the functioning of the Board, assigning tasks, and delegating responsibilities among members [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0). In the chairperson's absence, the senior-most member assumes these duties [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0). To ensure transparency and accountability, the members, officers, and employees of the Board are classified as public servants [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Powers and Functions of the Board:** The Board is equipped with broad powers to investigate, enforce, and guide data protection practices, ensuring robust oversight [dpdpa](https://vertexaisearch.cloud.google.com/id/2-4). Key functions include [dpdpa](https://vertexaisearch.cloud.google.com/id/2-5) [prsindia](https://vertexaisearch.cloud.google.com/id/2-6) [dpdpa](https://vertexaisearch.cloud.google.com/id/2-4):\n\n    *   Monitoring compliance and imposing penalties [prsindia](https://vertexaisearch.cloud.google.com/id/2-6).\n    *   Directing data fiduciaries to take necessary measures in the event of a data breach [prsindia](https://vertexaisearch.cloud.google.com/id/2-6).\n    *   Hearing grievances made by affected persons [prsindia](https://vertexaisearch.cloud.google.com/id/2-6).\n    *   Directing urgent remedial or mitigation measures to address data breaches [mondaq](https://vertexaisearch.cloud.google.com/id/2-3).\n    *   Modifying, suspending, withdrawing, or canceling directions issued [mondaq](https://vertexaisearch.cloud.google.com/id/2-3).\n    *   The Board may request assistance from police or government officers to carry out its investigations, and such officers are legally obliged to comply [mondaq](https://vertexaisearch.cloud.google.com/id/2-3) [jsalaw](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Digital Office:** The Board will function as a digital office, with a digital platform and app to enable citizens to approach it digitally and to have their complaints adjudicated without their physical presence being required [pib](https://vertexaisearch.cloud.google.com/id/2-8) [leegality](https://vertexaisearch.cloud.google.com/id/2-9). From processing complaints to interacting with Data Fiduciaries, workflows are optimised to ensure speed and transparency [pib](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Complaint Resolution Procedure:** The DPDPA requires that the data principal must first exhaust the grievance redressal mechanism provided by the data fiduciary or consent manager and then approach the Data Protection Board of India, if not resolved by the data fiduciary/consent manager [jsalaw](https://vertexaisearch.cloud.google.com/id/2-7) [mondaq](https://vertexaisearch.cloud.google.com/id/2-3). If the Board decides that the grounds for the complaint are insufficient, then the reasons must be recorded in writing [tsaaro](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Mediation:** The Board may recommend mediation if it believes a complaint can be resolved amicably [jsalaw](https://vertexaisearch.cloud.google.com/id/2-7) [iapp](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Voluntary Undertakings:** Data Fiduciaries may voluntarily give undertakings at any stage of proceedings, which if accepted by the Board would result in dropping of the same [iapp](https://vertexaisearch.cloud.google.com/id/2-10) [pib](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Transparency:** The Board is required to take into consideration factors such as the nature and gravity of default, efforts made to mitigate impact, etc., while imposing penalties for defaults [pib](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Exclusion of Civil Court Jurisdiction:** Civil courts are barred from entertaining suits or proceedings for any matter in respect of which the Board is empowered to adjudicate under the DPDPA [nishithdesai](https://vertexaisearch.cloud.google.com/id/2-11). Courts are barred from granting injunctions in respect of any action taken or to be taken by the Board under the DPDPA [nishithdesai](https://vertexaisearch.cloud.google.com/id/2-11).\n\n**Penalties for Non-Compliance:**\n\n*   The DPDPA outlines specific penalties for violations of data protection regulations, ensuring accountability and deterrence against non-compliance [mondaq](https://vertexaisearch.cloud.google.com/id/2-12).\n*   Under Section 33 of the DPDPA, if the Board determines that a significant breach of DPDPA or its rules has occurred, it may impose a monetary penalty after providing the individual with an opportunity to be heard [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13) [mondaq](https://vertexaisearch.cloud.google.com/id/2-3) [jsalaw](https://vertexaisearch.cloud.google.com/id/2-7) [neetiniyaman](https://vertexaisearch.cloud.google.com/id/2-14).\n*   The penalties vary from ₹50 crores to ₹250 crores depending on the nature of the violation.\n*  [corridalegal](https://vertexaisearch.cloud.google.com/id/2-15)  The DPDPA lists 6 categories of violations that can attract a penalty of up to a certain amount. Th [leegality](https://vertexaisearch.cloud.google.com/id/2-9)e highest bracket of fines apply for obligations on data security, breach notification and children's data processing. Ho [leegality](https://vertexaisearch.cloud.google.com/id/2-9)wever, even small breaches of any consent obligations or other obligations can attract a penalty of up to ₹50 Crore per instance.\n*    [leegality](https://vertexaisearch.cloud.google.com/id/2-9)**Specific Penalties:**\n\n    *   Failure to implement reasonable security safeguards to protect personal data: up to ₹250 crore.\n    *  [neetiniyaman](https://vertexaisearch.cloud.google.com/id/2-14)  Mishandling children's data: ₹200 crore.\n    *    [cyberops](https://vertexaisearch.cloud.google.com/id/2-1)Failure to report a breach: ₹250 crore.\n    *   Un [cyberops](https://vertexaisearch.cloud.google.com/id/2-1)lawful data processing: ₹250 crore.\n    *   Non- [cyberops](https://vertexaisearch.cloud.google.com/id/2-1)compliance with DPB orders: ₹50 crore.\n    *   Violat [cyberops](https://vertexaisearch.cloud.google.com/id/2-1)ions where no specific penalties are prescribed can incur fines of up to INR 50 crore. This category  [mondaq](https://vertexaisearch.cloud.google.com/id/2-12)encompasses a wide range of infractions, including failures to comply with transparency requirements, such as disclosing cookie usage to website visitors.\n*   **Factors  [mondaq](https://vertexaisearch.cloud.google.com/id/2-12)for Determining Penalties:** While maximum penalties are prescribed, Section 33 gives the Board discretion to decide the actual penalty within the limit. Factors influe [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13)ncing this decision include:\n\n    *   The n [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13) [mondaq](https://vertexaisearch.cloud.google.com/id/2-3)ature, gravity, and duration of the breach.\n    *   The ty [mondaq](https://vertexaisearch.cloud.google.com/id/2-3) [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13)pe and nature of the personal data affected by the breach.\n    *   Repeti [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13)tive nature of the breach.\n    *   Whethe [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13)r the person, as a result of the breach, has realised a gain or avoided any loss.\n    *   Whethe [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13)r the person took any action to mitigate the effects and consequences of the breach, and the timeliness and effectiveness of such action.\n    *   Whethe [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13)r the monetary penalty to be imposed is proportionate and effective, having regard to the need to secure observance of and deter breach of the provisions of this Act.\n    *   The li [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13)kely impact of the imposition of the monetary penalty on the person.\n*   **Penaltie [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13)s for Data Principals:** The Board can also levy penalties on data principals, to ensure they do not take undue advantage of any noncompliance under the law that may be attributable to their own action. The Board can  [iapp](https://vertexaisearch.cloud.google.com/id/2-10)prescribe a penalty of up to INR10,000 (approximately USD120) on a data principal if they fail to perform duties stipulated under the act.\n*   **Blocking [iapp](https://vertexaisearch.cloud.google.com/id/2-10) Public Access:** Under Section 37 of the DPDPA, the Central Government is empowered to block public access to information held by a Data Fiduciary that has been subject to monetary penalties for violations of data protection regulations, in 2 (two) or more instances.\n*   **No Reten [mondaq](https://vertexaisearch.cloud.google.com/id/2-3) [jsalaw](https://vertexaisearch.cloud.google.com/id/2-7)tion of Penalties by the Board:** Sums realised by way of penalties are credited to the Consolidated Fund of India.\n\n**Additional  [dpdpa](https://vertexaisearch.cloud.google.com/id/2-13)Points:**\n\n*   The Act emphasizes accountability and requires reporting breaches to the Data Protection Board of India and affected individuals.\n*   The Act in [dataguidance](https://vertexaisearch.cloud.google.com/id/2-16)troduces duties for data principals and imposes a penalty up to INR 10,000 for any breach of duty.\n*   The Act do [pwc](https://vertexaisearch.cloud.google.com/id/2-17)es not impose criminal penalty for non-compliance.\n*   The govern [pwc](https://vertexaisearch.cloud.google.com/id/2-17)ment has been granted broad powers and discretion to stipulate rules, prescribe the manner and timelines for data fiduciaries to respond to requests from data principals, authorize details relating to data-breach notifications, adopt delegated legislation, formulate the requirements of valid notice for obtaining a data principal's consent for processing data, and other actions required for implementation.\n*   The centra [iapp](https://vertexaisearch.cloud.google.com/id/2-10)l government may, by notification, exempt certain activities from the application of the Bill. These include: [prsindia](https://vertexaisearch.cloud.google.com/id/2-6) (i) processing by government entities in the interest of the security of the state and public order, and (ii) research, archiving, or statistical purposes.\n [prsindia](https://vertexaisearch.cloud.google.com/id/2-6)",
+      "As of July 2025, the BharatNet project, aimed at bridging the digital divide in India, has made significant strides, yet faces ongoing challenges. Here's a breakdown of its successes and challenges:\n\n**Successes:**\n\n*   **Increased Connectivity:** As of March 19, 2025, 2,18,347 Gram Panchayats (GPs) have been made service-ready under the BharatNet project [pib](https://vertexaisearch.cloud.google.com/id/3-0) [pib](https://vertexaisearch.cloud.google.com/id/3-1) [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2) [angelone](https://vertexaisearch.cloud.google.com/id/3-3) [drishtiias](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Optical Fiber Cable (OFC) Deployment:**  The length of laid optical fiber cable has increased to 42.13 lakh route km as of March 25, 2025 [pib](https://vertexaisearch.cloud.google.com/id/3-1) [pib](https://vertexaisearch.cloud.google.com/id/3-0).  As of January 13, 2025, 6,92,676 Km of OFC has been laid [bharatnet](https://vertexaisearch.cloud.google.com/id/3-5) [pib](https://vertexaisearch.cloud.google.com/id/3-0) [pib](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Fibre-To-The-Home (FTTH) Connections:** 12,21,014 FTTH connections have been commissioned [pib](https://vertexaisearch.cloud.google.com/id/3-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2) [pib](https://vertexaisearch.cloud.google.com/id/3-1) [bharatnet](https://vertexaisearch.cloud.google.com/id/3-5) [angelone](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Wi-Fi Hotspots:** 1,04,574 Wi-Fi hotspots have been installed [pib](https://vertexaisearch.cloud.google.com/id/3-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2) [bharatnet](https://vertexaisearch.cloud.google.com/id/3-5) [angelone](https://vertexaisearch.cloud.google.com/id/3-3) [pib](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Mobile Connectivity Boost:** As of December 2024, approximately 6,25,853 villages have mobile network coverage, with 6,18,968 villages having 4G mobile coverage [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2) [pib](https://vertexaisearch.cloud.google.com/id/3-1) [drishtiias](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Digital Inclusion:** The project has facilitated access to e-governance, online education, and telemedicine in remote villages [pib](https://vertexaisearch.cloud.google.com/id/3-1) [indiatracker](https://vertexaisearch.cloud.google.com/id/3-6) [pib](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Economic Opportunities:** BharatNet has enabled participation in digital commerce, access to financial services, and entrepreneurial opportunities in rural communities [pib](https://vertexaisearch.cloud.google.com/id/3-0) [angelone](https://vertexaisearch.cloud.google.com/id/3-3) [pib](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Improved Education and Healthcare:** The project supports digital classrooms and telehealth services, bridging the resource gap between urban and rural areas [indiatracker](https://vertexaisearch.cloud.google.com/id/3-6) [pib](https://vertexaisearch.cloud.google.com/id/3-1) [pib](https://vertexaisearch.cloud.google.com/id/3-0) [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Empowered Local Governance:** Gram Panchayats can implement e-governance projects, enhancing the efficiency and transparency of public services [indiatracker](https://vertexaisearch.cloud.google.com/id/3-6) [pib](https://vertexaisearch.cloud.google.com/id/3-1) [pib](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Financial Inclusion:** Helps rural communities access banking, insurance, and digital payments [indiatracker](https://vertexaisearch.cloud.google.com/id/3-6) [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Funding & Execution:** Primarily funded through the Digital Bharat Nidhi (DBN), with BSNL appointed as the single Project Management Agency (PMA) for operation and maintenance [pib](https://vertexaisearch.cloud.google.com/id/3-1) [drishtiias](https://vertexaisearch.cloud.google.com/id/3-4) [pib](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Amended BharatNet Program (ABP):** Approved in August 2023, the ABP aims for Optical Fibre connectivity to 2.64 lakh GPs in ring topology and OF connectivity to the remaining non-GP villages on demand [pib](https://vertexaisearch.cloud.google.com/id/3-1) [pib](https://vertexaisearch.cloud.google.com/id/3-0) [drishtiias](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Budget 2025:** The Union Budget of 2025 allocated funds to provide broadband connectivity to all government secondary schools and primary health centers in rural areas under the BharatNet project [nititantra](https://vertexaisearch.cloud.google.com/id/3-8) [bharatnet](https://vertexaisearch.cloud.google.com/id/3-5) [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n\n**Challenges:**\n\n*   **Missed Deadlines:** The project has missed several deadlines, including those in 2014, 2015, 2019, and 2023, and is likely to miss the 2025 deadline for connecting rural India to broadband internet [indiaspend](https://vertexaisearch.cloud.google.com/id/3-9) [vajiramandravi](https://vertexaisearch.cloud.google.com/id/3-10).\n*   **Slow Pace of Implementation:**  Despite progress, the pace has been slow [vajiramandravi](https://vertexaisearch.cloud.google.com/id/3-10) [legacyias](https://vertexaisearch.cloud.google.com/id/3-11).\n*   **Infrastructure Issues:** Laying optical fiber across difficult terrains remains a significant challenge [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Last Mile Connectivity:** Inconsistent last-mile connectivity, with many villages having \"service-ready\" status but lacking active access points [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2) [cenerva](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Low Utilization Rates:** Low utilization rates due to factors such as affordability, poor digital skills, and lack of local content [icrier](https://vertexaisearch.cloud.google.com/id/3-13) [cenerva](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Lack of Awareness:**  Rural communities still need digital literacy training [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Power Supply & Maintenance:** Ensuring uninterrupted broadband services in remote areas is difficult [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Infrastructure Security:** Fiber vandalism and equipment theft, especially in areas lacking stable electricity and monitoring [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Coordination Issues:** Coordination challenges among multiple executing agencies (BBNL, BSNL, CSC-SPV, and state governments) can lead to delays [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Underutilization of Funds:** Only a portion of the allocated funds has been utilized [indiaspend](https://vertexaisearch.cloud.google.com/id/3-9).\n*   **Network Maintenance and Quality:** Delays in finalizing Operations and Maintenance (O&M) contracts have led to network maintenance issues [plutusias](https://vertexaisearch.cloud.google.com/id/3-14).\n\n**Ongoing Efforts & Future Plans:**\n\n*   **Phase III Focus:** The third phase focuses on integrating 5G technologies, increasing bandwidth capacity, and ensuring robust last-mile connectivity [pib](https://vertexaisearch.cloud.google.com/id/3-0) [angelone](https://vertexaisearch.cloud.google.com/id/3-3) [pib](https://vertexaisearch.cloud.google.com/id/3-1) [drishtiias](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Amended BharatNet Program (ABP):** The ABP includes features like IP-MPLS network, 10-year operation and maintenance, power backup, and Remote Fibre Monitoring System [pib](https://vertexaisearch.cloud.google.com/id/3-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2) [pib](https://vertexaisearch.cloud.google.com/id/3-1) [drishtiias](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Collaboration with NABARD:** Digital Bharat Nidhi (DBN) and NABARD collaborate to drive rural development through digital services and promote a digital economy [pib](https://vertexaisearch.cloud.google.com/id/3-1) [angelone](https://vertexaisearch.cloud.google.com/id/3-3) [indiatimes](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Involving Village Level Entrepreneurs:** Engaging Village Level Entrepreneurs (Udyamis) to facilitate fiber connections at the last mile [nititantra](https://vertexaisearch.cloud.google.com/id/3-8) [vajiramandravi](https://vertexaisearch.cloud.google.com/id/3-10).\n*   **Expanding Broadband Speeds:** Aiming to expand broadband speeds to 1 Gbps in villages and integrate with 5G networks [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Connecting Institutions:** Providing broadband connectivity to all government secondary schools and primary health centers in rural areas [convergence-now](https://vertexaisearch.cloud.google.com/id/3-15) [bharatnet](https://vertexaisearch.cloud.google.com/id/3-5) [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n\n**Impact:**\n\n*   **Revolutionizing Digital Access:** BharatNet is revolutionizing digital access in rural India, empowering millions with internet access and digital services [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Transformative Impact:** The project has had a transformative impact on rural India, contributing to socioeconomic development [pib](https://vertexaisearch.cloud.google.com/id/3-1) [pib](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Bridging the Digital Divide:** It is bridging the digital divide, fostering economic growth, and paving the way for a connected India [angelone](https://vertexaisearch.cloud.google.com/id/3-3) [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n\nDespite the challenges, the BharatNet project remains a crucial initiative for bridging the digital divide and fostering inclusive growth in rural India [pib](https://vertexaisearch.cloud.google.com/id/3-1) [angelone](https://vertexaisearch.cloud.google.com/id/3-3) [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7). The ongoing efforts to address the challenges and future plans to expand and upgrade the network are expected to further enhance its impact on rural communities [angelone](https://vertexaisearch.cloud.google.com/id/3-3) [pib](https://vertexaisearch.cloud.google.com/id/3-0) [drishtiias](https://vertexaisearch.cloud.google.com/id/3-4) [c4scourses](https://vertexaisearch.cloud.google.com/id/3-7).\n",
+      "The IndiaAI mission, launched in 2024, aims to establish India as a leader in AI by integrating it into various sectors, addressing critical gaps in talent, data, and research, and fostering innovation and inclusivity [meity](https://vertexaisearch.cloud.google.com/id/4-0) [digitalstrategy-ai](https://vertexaisearch.cloud.google.com/id/4-1). The mission seeks to democratize access to AI innovation and ensure the global competitiveness of India's AI ecosystem through strategic programs and partnerships across the public and private sectors [meity](https://vertexaisearch.cloud.google.com/id/4-0). With a total outlay of Rs 10,372 crore for five years, the mission will be implemented through the IndiaAI Independent Business Division (IBD) under Digital India Corporation (DIC) [utkarsh](https://vertexaisearch.cloud.google.com/id/4-2).\n\n**Prioritized AI Use Cases and Societal Challenges:**\n\nThe IndiaAI mission prioritizes AI applications in key sectors to address societal challenges [upenn](https://vertexaisearch.cloud.google.com/id/4-3) [techpolicy](https://vertexaisearch.cloud.google.com/id/4-4) [utkarsh](https://vertexaisearch.cloud.google.com/id/4-2):\n\n*   **Healthcare:** AI is being used for accelerated drug discovery and enhanced patient engagement through digital tools [digitalstrategy-ai](https://vertexaisearch.cloud.google.com/id/4-1).\n*   **Agriculture:** The mission focuses on training AI models on datasets covering major Indian languages for key sectors such as agriculture [upenn](https://vertexaisearch.cloud.google.com/id/4-3) [techpolicy](https://vertexaisearch.cloud.google.com/id/4-4) [utkarsh](https://vertexaisearch.cloud.google.com/id/4-2).\n*   **Education:** AI solutions are being explored to improve education [upenn](https://vertexaisearch.cloud.google.com/id/4-3) [utkarsh](https://vertexaisearch.cloud.google.com/id/4-2) [techpolicy](https://vertexaisearch.cloud.google.com/id/4-4).\n*   **Governance:** The mission aims to develop AI applications for governance [utkarsh](https://vertexaisearch.cloud.google.com/id/4-2).\n*   **Climate Resilience:** AI is being explored for climate resilience [upenn](https://vertexaisearch.cloud.google.com/id/4-3) [techpolicy](https://vertexaisearch.cloud.google.com/id/4-4).\n*   **Financial Services:** AI is being used to reshape basic processes including customer acquisition, operations and service [ey](https://vertexaisearch.cloud.google.com/id/4-5).\n*   **Public Safety:** AI is being used to boost safety, trust, and productivity across India's infrastructure and financial networks [digitaldefynd](https://vertexaisearch.cloud.google.com/id/4-6).\n\n**Pillars of the IndiaAI Mission:**\n\nThe IndiaAI mission is structured around seven foundational pillars [vajiramandravi](https://vertexaisearch.cloud.google.com/id/4-7) [sansad](https://vertexaisearch.cloud.google.com/id/4-8) [indiaai](https://vertexaisearch.cloud.google.com/id/4-9):\n\n1.  **Common Compute Facility:** Providing access to high-end computing resources [vajiramandravi](https://vertexaisearch.cloud.google.com/id/4-7).\n2.  **AI Kosha (IndiaAI Datasets Platform):** Creating a unified hub for datasets, models, and AI sandboxes [indiaai](https://vertexaisearch.cloud.google.com/id/4-9) [vajiramandravi](https://vertexaisearch.cloud.google.com/id/4-7).\n3.  **AI Safety Institute of India:** Ensuring safe and trusted AI [vajiramandravi](https://vertexaisearch.cloud.google.com/id/4-7) [indiaai](https://vertexaisearch.cloud.google.com/id/4-9).\n4.  **IndiaAI Innovation Centre:** Developing and deploying indigenous Large Multimodal Models and domain-specific foundational models [indiaai](https://vertexaisearch.cloud.google.com/id/4-9) [vajiramandravi](https://vertexaisearch.cloud.google.com/id/4-7).\n5.  **AI Application Development Initiative:** Developing and scaling impactful AI solutions for socio-economic transformation [vajiramandravi](https://vertexaisearch.cloud.google.com/id/4-7) [indiaai](https://vertexaisearch.cloud.google.com/id/4-9).\n6.  **Future Skills Initiative:** Promoting AI skills development [vajiramandravi](https://vertexaisearch.cloud.google.com/id/4-7) [indiaai](https://vertexaisearch.cloud.google.com/id/4-9).\n7.  **Startup Financing:** Strengthening the AI startup funding mechanism [vajiramandravi](https://vertexaisearch.cloud.google.com/id/4-7) [utkarsh](https://vertexaisearch.cloud.google.com/id/4-2).\n\n**Metrics for Evaluating Success:**\n\nWhile specific metrics for evaluating the success of AI use cases are still evolving, the IndiaAI mission emphasizes the development of industry-wide metrics and frameworks for AI governance [securiti](https://vertexaisearch.cloud.google.com/id/4-10). Some potential metrics include:\n\n*   **Cost Leverage:** Average H100 hour cost [digitaldefynd](https://vertexaisearch.cloud.google.com/id/4-6).\n*   **Throughput:** Peak sustained exaflops [digitaldefynd](https://vertexaisearch.cloud.google.com/id/4-6).\n*   **Reach:** Number of startups and universities onboarded [digitaldefynd](https://vertexaisearch.cloud.google.com/id/4-6).\n*   **Model Diversity:** Percentage of booked hours for Indic-language or healthcare projects [digitaldefynd](https://vertexaisearch.cloud.google.com/id/4-6).\n*   **Data Provenance:** Tracking the origin and history of data used in AI systems [securiti](https://vertexaisearch.cloud.google.com/id/4-10).\n*   **Transparency Reports:** Providing clear information about AI system functionality and decision-making processes [securiti](https://vertexaisearch.cloud.google.com/id/4-10).\n*   **System Cards:** Standardized documentation outlining AI system characteristics, capabilities, and limitations [securiti](https://vertexaisearch.cloud.google.com/id/4-10).\n*   **Impact on Productivity:** AI platform shift will impact 38 million employees, potentially driving a 2.61% boost in productivity by 2030 in the organized sector [ey](https://vertexaisearch.cloud.google.com/id/4-5).\n\nThe Ministry of Electronics and Information Technology (MeitY) is also considering establishing an AI incident database to enhance understanding of real-world AI risks [securiti](https://vertexaisearch.cloud.google.com/id/4-10).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "americanbar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuyqw3ehcxCXn0SoiUezx5mfEbqi2u0jCtcdUvkRD5FJ0kpCLGaHdOPFBsjz0SoukBum0SCK8VJWNkattP6hYmj_o0Jx_laFdZGdMjm0Wf40qBPHrjnQHl9qhdMxJwN4WxpHG4sDAaXxNqBDqE1ztJcdvzE8hH_9yjn2G8_W5HHjEA_gEuN6miLFaZV_1ICzU9dYlot5ZHIx22vcxG4BkKJ24pH54cXsajkA=="
+      },
+      {
+        "label": "orfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjWFIOIpoNeg5RjO8oxby8v92ALU2Q8rHyqVZM9yaZklDhTsgPbDNcezXfYDmK9avJqdxSXWflqkIr0bEeVcp1gXmVwzW_wpfgMz5Ft-c_ZXApo72Xz7iaOs-QmSJOt6YhHYVtT9x60BlJ9Hk9f5RFpba1364cxeiPKVHG4b-YUL6vAiTktDXElPYVA1cjasy68YA="
+      },
+      {
+        "label": "ey",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGy2SLEe60vLMu4owfap303Pb4VRZV5lJ9ahys58mjXjy2db1H10x4yl1EFW46eIA7qj8sQf-f-58qynybWrb2MlTaXzGJvJyah_poJPT1AS6vSPHm61sFGc4aO_Fl0xAW1Iyi0qqo-UyaLrcHLxEkUvKXn7iLAzlQiCQDPWHdD0BPKqeYPbv69hA2PX7Y="
+      },
+      {
+        "label": "thehindu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3RT_5D_gbS01ty1dawLb_OiiRNaaa0r06oQwySJK1659ZgNuLH6wogUfQ2EqeJyoYMKdaTFhWtdXFJ0n0X2vHXZM7SfogVSZvzCE4_vkKAsLgenIbGp5JBKEZBj5CACVeIvtqCqrKKMuP_kI8h4dmoE7iiFnv-wSzZGaklbvUytudyzGXGRcBKAomrjjn_sXAwF5yW0luEsz_EisNBdPkvwDLVdVgI_sZ8-be48GwtQf0ihkyoq4JcmVvr4YKCNgtmwCzkE01"
+      },
+      {
+        "label": "thehindu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3RT_5D_gbS01ty1dawLb_OiiRNaaa0r06oQwySJK1659ZgNuLH6wogUfQ2EqeJyoYMKdaTFhWtdXFJ0n0X2vHXZM7SfogVSZvzCE4_vkKAsLgenIbGp5JBKEZBj5CACVeIvtqCqrKKMuP_kI8h4dmoE7iiFnv-wSzZGaklbvUytudyzGXGRcBKAomrjjn_sXAwF5yW0luEsz_EisNBdPkvwDLVdVgI_sZ8-be48GwtQf0ihkyoq4JcmVvr4YKCNgtmwCzkE01"
+      },
+      {
+        "label": "americanbar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuyqw3ehcxCXn0SoiUezx5mfEbqi2u0jCtcdUvkRD5FJ0kpCLGaHdOPFBsjz0SoukBum0SCK8VJWNkattP6hYmj_o0Jx_laFdZGdMjm0Wf40qBPHrjnQHl9qhdMxJwN4WxpHG4sDAaXxNqBDqE1ztJcdvzE8hH_9yjn2G8_W5HHjEA_gEuN6miLFaZV_1ICzU9dYlot5ZHIx22vcxG4BkKJ24pH54cXsajkA=="
+      },
+      {
+        "label": "americanbar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuyqw3ehcxCXn0SoiUezx5mfEbqi2u0jCtcdUvkRD5FJ0kpCLGaHdOPFBsjz0SoukBum0SCK8VJWNkattP6hYmj_o0Jx_laFdZGdMjm0Wf40qBPHrjnQHl9qhdMxJwN4WxpHG4sDAaXxNqBDqE1ztJcdvzE8hH_9yjn2G8_W5HHjEA_gEuN6miLFaZV_1ICzU9dYlot5ZHIx22vcxG4BkKJ24pH54cXsajkA=="
+      },
+      {
+        "label": "privacyworld",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmfDxueh0yESmfgGVT9Uo50LS3rTTKZdKu3hetLupl0ObVxFnBCNf3zEgS2GdcIZUyMtP5VHZ4JM5-n0cyBMfjBRHmmgxuH_YifxOn67Ak-EZ_RRAygx0df2ekQqGR7LXY3Uy312m90yS5Msry-ppKOxNCTibBPx4loRCUDwRK0E0P715mQkW76e_6KWRP8epD-IbZtfUzePM0wRO8YrPG"
+      },
+      {
+        "label": "law",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv-oblcmAemBYmcWgdYbEY-NAQBj2aa8OT7EZm0fsZghoOrJGTb0p-gtqzYl9ZdRVvsy4bHmf_6U7U3CLWO2FHdQ-unEbR0OEzJeHCAAWlHOrm_uKaq5Mp-zqBQMPka3l7qhRnQcIAzJJjdewiJ6VJEB_E9K6hj4XL5sgUqg=="
+      },
+      {
+        "label": "privacyworld",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmfDxueh0yESmfgGVT9Uo50LS3rTTKZdKu3hetLupl0ObVxFnBCNf3zEgS2GdcIZUyMtP5VHZ4JM5-n0cyBMfjBRHmmgxuH_YifxOn67Ak-EZ_RRAygx0df2ekQqGR7LXY3Uy312m90yS5Msry-ppKOxNCTibBPx4loRCUDwRK0E0P715mQkW76e_6KWRP8epD-IbZtfUzePM0wRO8YrPG"
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcDdQ6tLThHL-G9Oo8QNyDk_UXjTOiFaS8Z14TE33QLtOmmKtJy7A1PIYAwpc3yzI54IdvmjxWwLyAn9iQ0DTMYkwg7uZISF4Jx2u4Pgcg1VkP-XTBWPZBrDZRZZOqRt0LhRnmOeZWVWYJGVVk1reEO7wecIGejt6iRccnK6gd3xbv"
+      },
+      {
+        "label": "law",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv-oblcmAemBYmcWgdYbEY-NAQBj2aa8OT7EZm0fsZghoOrJGTb0p-gtqzYl9ZdRVvsy4bHmf_6U7U3CLWO2FHdQ-unEbR0OEzJeHCAAWlHOrm_uKaq5Mp-zqBQMPka3l7qhRnQcIAzJJjdewiJ6VJEB_E9K6hj4XL5sgUqg=="
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcDdQ6tLThHL-G9Oo8QNyDk_UXjTOiFaS8Z14TE33QLtOmmKtJy7A1PIYAwpc3yzI54IdvmjxWwLyAn9iQ0DTMYkwg7uZISF4Jx2u4Pgcg1VkP-XTBWPZBrDZRZZOqRt0LhRnmOeZWVWYJGVVk1reEO7wecIGejt6iRccnK6gd3xbv"
+      },
+      {
+        "label": "privacyworld",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmfDxueh0yESmfgGVT9Uo50LS3rTTKZdKu3hetLupl0ObVxFnBCNf3zEgS2GdcIZUyMtP5VHZ4JM5-n0cyBMfjBRHmmgxuH_YifxOn67Ak-EZ_RRAygx0df2ekQqGR7LXY3Uy312m90yS5Msry-ppKOxNCTibBPx4loRCUDwRK0E0P715mQkW76e_6KWRP8epD-IbZtfUzePM0wRO8YrPG"
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcDdQ6tLThHL-G9Oo8QNyDk_UXjTOiFaS8Z14TE33QLtOmmKtJy7A1PIYAwpc3yzI54IdvmjxWwLyAn9iQ0DTMYkwg7uZISF4Jx2u4Pgcg1VkP-XTBWPZBrDZRZZOqRt0LhRnmOeZWVWYJGVVk1reEO7wecIGejt6iRccnK6gd3xbv"
+      },
+      {
+        "label": "privacyworld",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmfDxueh0yESmfgGVT9Uo50LS3rTTKZdKu3hetLupl0ObVxFnBCNf3zEgS2GdcIZUyMtP5VHZ4JM5-n0cyBMfjBRHmmgxuH_YifxOn67Ak-EZ_RRAygx0df2ekQqGR7LXY3Uy312m90yS5Msry-ppKOxNCTibBPx4loRCUDwRK0E0P715mQkW76e_6KWRP8epD-IbZtfUzePM0wRO8YrPG"
+      },
+      {
+        "label": "privacyworld",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmfDxueh0yESmfgGVT9Uo50LS3rTTKZdKu3hetLupl0ObVxFnBCNf3zEgS2GdcIZUyMtP5VHZ4JM5-n0cyBMfjBRHmmgxuH_YifxOn67Ak-EZ_RRAygx0df2ekQqGR7LXY3Uy312m90yS5Msry-ppKOxNCTibBPx4loRCUDwRK0E0P715mQkW76e_6KWRP8epD-IbZtfUzePM0wRO8YrPG"
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcDdQ6tLThHL-G9Oo8QNyDk_UXjTOiFaS8Z14TE33QLtOmmKtJy7A1PIYAwpc3yzI54IdvmjxWwLyAn9iQ0DTMYkwg7uZISF4Jx2u4Pgcg1VkP-XTBWPZBrDZRZZOqRt0LhRnmOeZWVWYJGVVk1reEO7wecIGejt6iRccnK6gd3xbv"
+      },
+      {
+        "label": "privacyworld",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmfDxueh0yESmfgGVT9Uo50LS3rTTKZdKu3hetLupl0ObVxFnBCNf3zEgS2GdcIZUyMtP5VHZ4JM5-n0cyBMfjBRHmmgxuH_YifxOn67Ak-EZ_RRAygx0df2ekQqGR7LXY3Uy312m90yS5Msry-ppKOxNCTibBPx4loRCUDwRK0E0P715mQkW76e_6KWRP8epD-IbZtfUzePM0wRO8YrPG"
+      },
+      {
+        "label": "privacyworld",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmfDxueh0yESmfgGVT9Uo50LS3rTTKZdKu3hetLupl0ObVxFnBCNf3zEgS2GdcIZUyMtP5VHZ4JM5-n0cyBMfjBRHmmgxuH_YifxOn67Ak-EZ_RRAygx0df2ekQqGR7LXY3Uy312m90yS5Msry-ppKOxNCTibBPx4loRCUDwRK0E0P715mQkW76e_6KWRP8epD-IbZtfUzePM0wRO8YrPG"
+      },
+      {
+        "label": "privacyworld",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmfDxueh0yESmfgGVT9Uo50LS3rTTKZdKu3hetLupl0ObVxFnBCNf3zEgS2GdcIZUyMtP5VHZ4JM5-n0cyBMfjBRHmmgxuH_YifxOn67Ak-EZ_RRAygx0df2ekQqGR7LXY3Uy312m90yS5Msry-ppKOxNCTibBPx4loRCUDwRK0E0P715mQkW76e_6KWRP8epD-IbZtfUzePM0wRO8YrPG"
+      },
+      {
+        "label": "ey",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdey7Uku2V7JJxieQO7EvHV-sHHrtPqPBcMo62lGjWwOXhZo35fcC6bNSiCpuuXZZkkhfimIBesVT5KZLY6ZtRpw78BuRA0qgwFHKiNKw_b-6B6ZDGRsdgwP7GkmpeFiXgwo2X9l7FqULTRwVOWJ3fJEyTI4BerUc-tpzWGyDb0BGIY6P8yhHrZvlUxeDdFoz4WZi0tb-fJ-vr3Z6h4GdQyE4EjmPabTMt3dt7miU_"
+      },
+      {
+        "label": "law",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkpttGG5Bd6BooR0aR6BIEh1MvEN6BNBo7kXXerskaBXDbik7TMFSNEvs0_53ka6Tn5h4e2zrFsup73uWjrSnSRzLZoinS78WrNuUTJTvTqUEV_sYDFl4EHBNPIjhABGaJZxWuotI3W0yVGiSkWVf3b7Np5aIA4c54HMvDbybZnWvxWA=="
+      },
+      {
+        "label": "orfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjWFIOIpoNeg5RjO8oxby8v92ALU2Q8rHyqVZM9yaZklDhTsgPbDNcezXfYDmK9avJqdxSXWflqkIr0bEeVcp1gXmVwzW_wpfgMz5Ft-c_ZXApo72Xz7iaOs-QmSJOt6YhHYVtT9x60BlJ9Hk9f5RFpba1364cxeiPKVHG4b-YUL6vAiTktDXElPYVA1cjasy68YA="
+      },
+      {
+        "label": "uppcsmagazine",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF50CNTOcrB8cn9iPpftOyaCGqnoL5wQmH8eOsxMKsPTFZWc1EwFDwjEJOhX-dSf5OGRV3a9IObAagBcBimaNoOVSxvkLaA_ODc5EXuK-Vlh_5kQK9z3ah4hDTV93rIKdyhX0ELwqyc2hrDNNDL2072DBVxymVok0WC-z8p3w0KAGqSCFU9_XM0NPrQUMzM3FEtaLu-VW3Yz3k="
+      },
+      {
+        "label": "uppcsmagazine",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF50CNTOcrB8cn9iPpftOyaCGqnoL5wQmH8eOsxMKsPTFZWc1EwFDwjEJOhX-dSf5OGRV3a9IObAagBcBimaNoOVSxvkLaA_ODc5EXuK-Vlh_5kQK9z3ah4hDTV93rIKdyhX0ELwqyc2hrDNNDL2072DBVxymVok0WC-z8p3w0KAGqSCFU9_XM0NPrQUMzM3FEtaLu-VW3Yz3k="
+      },
+      {
+        "label": "orfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjWFIOIpoNeg5RjO8oxby8v92ALU2Q8rHyqVZM9yaZklDhTsgPbDNcezXfYDmK9avJqdxSXWflqkIr0bEeVcp1gXmVwzW_wpfgMz5Ft-c_ZXApo72Xz7iaOs-QmSJOt6YhHYVtT9x60BlJ9Hk9f5RFpba1364cxeiPKVHG4b-YUL6vAiTktDXElPYVA1cjasy68YA="
+      },
+      {
+        "label": "uppcsmagazine",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF50CNTOcrB8cn9iPpftOyaCGqnoL5wQmH8eOsxMKsPTFZWc1EwFDwjEJOhX-dSf5OGRV3a9IObAagBcBimaNoOVSxvkLaA_ODc5EXuK-Vlh_5kQK9z3ah4hDTV93rIKdyhX0ELwqyc2hrDNNDL2072DBVxymVok0WC-z8p3w0KAGqSCFU9_XM0NPrQUMzM3FEtaLu-VW3Yz3k="
+      },
+      {
+        "label": "orfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjWFIOIpoNeg5RjO8oxby8v92ALU2Q8rHyqVZM9yaZklDhTsgPbDNcezXfYDmK9avJqdxSXWflqkIr0bEeVcp1gXmVwzW_wpfgMz5Ft-c_ZXApo72Xz7iaOs-QmSJOt6YhHYVtT9x60BlJ9Hk9f5RFpba1364cxeiPKVHG4b-YUL6vAiTktDXElPYVA1cjasy68YA="
+      },
+      {
+        "label": "orfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjWFIOIpoNeg5RjO8oxby8v92ALU2Q8rHyqVZM9yaZklDhTsgPbDNcezXfYDmK9avJqdxSXWflqkIr0bEeVcp1gXmVwzW_wpfgMz5Ft-c_ZXApo72Xz7iaOs-QmSJOt6YhHYVtT9x60BlJ9Hk9f5RFpba1364cxeiPKVHG4b-YUL6vAiTktDXElPYVA1cjasy68YA="
+      },
+      {
+        "label": "pmfias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9wbtvaoE9NNlUKL1HDu63ujnSkKoObxmt1F1v4Veu5UVuRg2WDMYIwHIbeS3ZhofY509xg52wKcH5-KolQ0o7siWEh85uVUi4CnifqhDhi3dcOpBCbdp2Ux5uk67_nbKcdCeknJ7yeH96byGxmRE="
+      },
+      {
+        "label": "uppcsmagazine",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF50CNTOcrB8cn9iPpftOyaCGqnoL5wQmH8eOsxMKsPTFZWc1EwFDwjEJOhX-dSf5OGRV3a9IObAagBcBimaNoOVSxvkLaA_ODc5EXuK-Vlh_5kQK9z3ah4hDTV93rIKdyhX0ELwqyc2hrDNNDL2072DBVxymVok0WC-z8p3w0KAGqSCFU9_XM0NPrQUMzM3FEtaLu-VW3Yz3k="
+      },
+      {
+        "label": "iitk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2tQVlmrIatf8HRDyuko1Rmhqi5GNNHXhUcgQBJiap0_OcZpAVFiEDnCsAgDaii6ibOt0HY2QJG8PhN0Bo75W0MFu33hGPRTrCjwKK0G9xq3XDwC4MzQTJ8oB9or5PbCZ1AJGzX1-DhPfgyipAWF1RwrhdW1Q="
+      },
+      {
+        "label": "techpolicy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn8vgK7c4h_S-ricv5C3KJzMpJfi36gAaVGpP1nj6N4YV4j0jkhTVizpiGR10-dCCo6ZiwWjmjYkC0tbySFCeVu4a1bXOSCN-c9fX-iQhMVa2dwZdWMPiGEk7dKMwmg5w0bpV4t_wqI3p06TppfqsW_YZojtlnwiDKjpXthpiWNSB23_RY3cpZFyWBRhGrQuy1ZgVQJU08VRv9qWbuQw=="
+      },
+      {
+        "label": "iitk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2tQVlmrIatf8HRDyuko1Rmhqi5GNNHXhUcgQBJiap0_OcZpAVFiEDnCsAgDaii6ibOt0HY2QJG8PhN0Bo75W0MFu33hGPRTrCjwKK0G9xq3XDwC4MzQTJ8oB9or5PbCZ1AJGzX1-DhPfgyipAWF1RwrhdW1Q="
+      },
+      {
+        "label": "orfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjWFIOIpoNeg5RjO8oxby8v92ALU2Q8rHyqVZM9yaZklDhTsgPbDNcezXfYDmK9avJqdxSXWflqkIr0bEeVcp1gXmVwzW_wpfgMz5Ft-c_ZXApo72Xz7iaOs-QmSJOt6YhHYVtT9x60BlJ9Hk9f5RFpba1364cxeiPKVHG4b-YUL6vAiTktDXElPYVA1cjasy68YA="
+      },
+      {
+        "label": "carnegieendowment",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-S0UB5kHWoy60CBwGV9cFG--d8rXgZ0HGgdO0nU90zXVyKpy10444lTPBGvqcOEItJKZjXddxTdBm7pPtm1_NpFsZmAUq9m2doFdunaH1Gmtk7_NeNwM2ENDYW-jimf_fjMK35GALDV26bnBU1S1cyYe4N9eNsX3zDs4jxfD3Ov1ntoqOhnq86uGkEZ_-mH7yiB3eTGnhlfdYy1UoPJTn3S1uCzL388MBviF57oSAv7ss0VK7zY3a1LBnohy9dRN4xuTHLn8SoR0I1EQwJMsXeOB_"
+      },
+      {
+        "label": "drishtiias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7PVPjVcGKOJCbgBO9nVUHHWWw8Br7jqS1R6zqPnUMTTh3CwCOyh1BGvkoNyG_Bb7r3_7NV2zqrEj5gCDcJ4DLDrixYiPKz0pZUOx7uVQnsmnUGHIBbG5GttJ8alcdirSyJbIIILm7NZANLhLkQbnZ0VGj0REFe7r8TbXNA377UJzAriiE75pGh5SlnhcjK2I2exO3"
+      },
+      {
+        "label": "techpolicy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFn8vgK7c4h_S-ricv5C3KJzMpJfi36gAaVGpP1nj6N4YV4j0jkhTVizpiGR10-dCCo6ZiwWjmjYkC0tbySFCeVu4a1bXOSCN-c9fX-iQhMVa2dwZdWMPiGEk7dKMwmg5w0bpV4t_wqI3p06TppfqsW_YZojtlnwiDKjpXthpiWNSB23_RY3cpZFyWBRhGrQuy1ZgVQJU08VRv9qWbuQw=="
+      },
+      {
+        "label": "iitk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2tQVlmrIatf8HRDyuko1Rmhqi5GNNHXhUcgQBJiap0_OcZpAVFiEDnCsAgDaii6ibOt0HY2QJG8PhN0Bo75W0MFu33hGPRTrCjwKK0G9xq3XDwC4MzQTJ8oB9or5PbCZ1AJGzX1-DhPfgyipAWF1RwrhdW1Q="
+      },
+      {
+        "label": "drishtiias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7PVPjVcGKOJCbgBO9nVUHHWWw8Br7jqS1R6zqPnUMTTh3CwCOyh1BGvkoNyG_Bb7r3_7NV2zqrEj5gCDcJ4DLDrixYiPKz0pZUOx7uVQnsmnUGHIBbG5GttJ8alcdirSyJbIIILm7NZANLhLkQbnZ0VGj0REFe7r8TbXNA377UJzAriiE75pGh5SlnhcjK2I2exO3"
+      },
+      {
+        "label": "varindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_1_s-HqkxtYK-bz5sdVPcwlatvQtbMJ9OsWUG_SpCHVai_A9LOv_kSbwKbqtSB2Hc3YnAifS2Gcd0cadwjkdM07pz2dMXTxWXJOm4JyogcyaVwRb3y09_3xguIGnf8FJxill-wKAFcuQ7LWzJ415v_dLbYQF8BOq_JBLjIFWoFdRSGtA4F9WPEmgaAyex"
+      },
+      {
+        "label": "hereandnowai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Uq3d9LB0CYtRiyLFjcgcz9mrZrqP3fN4KReeGwxH75LFAAR7lVWpFb1dZm1GksAxxckOvmnXLi1hYgH4NIi5Z-VOItbhCATFXFfMGNJ1SeydNXdDKaVk8ONgmuYybI4_Aa_RkvH1lEBDLw=="
+      },
+      {
+        "label": "varindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_1_s-HqkxtYK-bz5sdVPcwlatvQtbMJ9OsWUG_SpCHVai_A9LOv_kSbwKbqtSB2Hc3YnAifS2Gcd0cadwjkdM07pz2dMXTxWXJOm4JyogcyaVwRb3y09_3xguIGnf8FJxill-wKAFcuQ7LWzJ415v_dLbYQF8BOq_JBLjIFWoFdRSGtA4F9WPEmgaAyex"
+      },
+      {
+        "label": "rsm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCBIibelkHu7l40Ttl7bU1JbPDJa6BCU6lBHXBH9h0lGHUFoT7MLSkmkWq029YnITGHrag9AoaA5Lmz1tFfJnXdl8emctoZR4g3N5KhhmwlKS0egkJSL_2BwSI1GV2lCeMRO90bAADvd8H7WQ7kPYICy2-ZrS_ttoXywZvu5s4gPVze5EGs8ttaEVXWzf3ErHoHFg="
+      },
+      {
+        "label": "hereandnowai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Uq3d9LB0CYtRiyLFjcgcz9mrZrqP3fN4KReeGwxH75LFAAR7lVWpFb1dZm1GksAxxckOvmnXLi1hYgH4NIi5Z-VOItbhCATFXFfMGNJ1SeydNXdDKaVk8ONgmuYybI4_Aa_RkvH1lEBDLw=="
+      },
+      {
+        "label": "eletsonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyvGgCJlHCBPEZaWLe3OuCLSeXnhXy6_VRG7PbWUNDF7efZa7_iClB2zpaJyO-CNSvXIxU5IaqDdzs-BEWjpAC3jbeLz1v7BAWJhR9JzYIIduvlRyNSFrFyBnhtcczBjAPPb7Zn2PXCnb3SXiFr-Xk8YAin7hWfpOnVD6ZpGQjP6rKqOBjgnBS_82rpW2XqWdaH_6tqf8gm3Y8GtTMGtI_PYS80BJa9n714pACzOwvgodFhfIaXN9B"
+      },
+      {
+        "label": "hereandnowai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Uq3d9LB0CYtRiyLFjcgcz9mrZrqP3fN4KReeGwxH75LFAAR7lVWpFb1dZm1GksAxxckOvmnXLi1hYgH4NIi5Z-VOItbhCATFXFfMGNJ1SeydNXdDKaVk8ONgmuYybI4_Aa_RkvH1lEBDLw=="
+      },
+      {
+        "label": "hereandnowai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Uq3d9LB0CYtRiyLFjcgcz9mrZrqP3fN4KReeGwxH75LFAAR7lVWpFb1dZm1GksAxxckOvmnXLi1hYgH4NIi5Z-VOItbhCATFXFfMGNJ1SeydNXdDKaVk8ONgmuYybI4_Aa_RkvH1lEBDLw=="
+      },
+      {
+        "label": "hereandnowai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Uq3d9LB0CYtRiyLFjcgcz9mrZrqP3fN4KReeGwxH75LFAAR7lVWpFb1dZm1GksAxxckOvmnXLi1hYgH4NIi5Z-VOItbhCATFXFfMGNJ1SeydNXdDKaVk8ONgmuYybI4_Aa_RkvH1lEBDLw=="
+      },
+      {
+        "label": "hereandnowai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Uq3d9LB0CYtRiyLFjcgcz9mrZrqP3fN4KReeGwxH75LFAAR7lVWpFb1dZm1GksAxxckOvmnXLi1hYgH4NIi5Z-VOItbhCATFXFfMGNJ1SeydNXdDKaVk8ONgmuYybI4_Aa_RkvH1lEBDLw=="
+      },
+      {
+        "label": "hereandnowai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Uq3d9LB0CYtRiyLFjcgcz9mrZrqP3fN4KReeGwxH75LFAAR7lVWpFb1dZm1GksAxxckOvmnXLi1hYgH4NIi5Z-VOItbhCATFXFfMGNJ1SeydNXdDKaVk8ONgmuYybI4_Aa_RkvH1lEBDLw=="
+      },
+      {
+        "label": "hereandnowai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Uq3d9LB0CYtRiyLFjcgcz9mrZrqP3fN4KReeGwxH75LFAAR7lVWpFb1dZm1GksAxxckOvmnXLi1hYgH4NIi5Z-VOItbhCATFXFfMGNJ1SeydNXdDKaVk8ONgmuYybI4_Aa_RkvH1lEBDLw=="
+      },
+      {
+        "label": "techpolicy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWbJEEqR9QTB9u8ZrUUoh_gYTtMHYqr15HHGVB0mMqllfUMYgkKtiZRoJuDm44IdoiKv_t0UxgrZq14BkUVtaEVvD0MVTctKvyQezTDuTgaiFtrQKTT4LGBYy5LZ4HZlLKTMEfdt28L-i4eCYNCI3QKM6N8ikBhXT6TZ1l2xQqsVelVYFcyrFsDAYMiZ0Nx4QUgFGhmtmy8ziI5eeBKhETB1KSYt981P8DjA=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKcQ11kYcvDJnb1PFsrMTbU21r_mQxXt7jzaoIGr7CMouDM5fpgBJi_Vel-Quz1ntcW8NweceXvLI3rUSpPDkQeVaJaPxjBNfxfVxL2WlbKoifsJY29zFVVKqzL-8fD3pNPvdU0aP9M94OoOWeYl0F7rakSgz50iS_Xl9F6MvCPFToilr06dg22Dge7TvuE3FSwZxZyg=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKcQ11kYcvDJnb1PFsrMTbU21r_mQxXt7jzaoIGr7CMouDM5fpgBJi_Vel-Quz1ntcW8NweceXvLI3rUSpPDkQeVaJaPxjBNfxfVxL2WlbKoifsJY29zFVVKqzL-8fD3pNPvdU0aP9M94OoOWeYl0F7rakSgz50iS_Xl9F6MvCPFToilr06dg22Dge7TvuE3FSwZxZyg=="
+      },
+      {
+        "label": "talent500",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpyHiY3HIofP4M9wmJW1PrzouRXBRK16l2b7wD34-rgHJ6hiybqV9o2ovwu_KACoyM81Aj5Vq1Bm86v93QdP6vC6-YOfDadPXRNvDE5sdoEJSuuxYdkitXgYI2m5gLXmQVwEWjcQK8o0sy1eGCl4qVPOuR4phct3O_6HKSyto0JlNHG8LcfGc="
+      },
+      {
+        "label": "carnegieendowment",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzWUIQzI86cDOfZUcqng-vtyzBxOUk3BPxcQngjMh0KbgwRXlSw1qDb-RYxIkspoJSyKQa1svglYosq8b5tPTSd9JbBAvKuYqkxjiTXCA0xehnCc2TE4dM4cUFotPtUUoZUec2ozsVHmI8_hEFJWxsXc6pNoqow1DCMwhxMuXdrFD8ytOiTHum3XBQBeZHhcFCz02D_0sdbRwSBbmDcaAsnke4Jv3_i8p0Bx39QCg6XL9B42Ap5ofblPYFD-yOoVAs5QsujsjPO80YqdB-8Ew9qGaV"
+      },
+      {
+        "label": "chambers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpqih9P7Ddb8cCUA5YN-uuzMhmbFJ7PFUUL_bCemUfn8PXC2h8s-wmK7ZVMx4TIsxFScVgbz20A3o2l9YrryvA39hNnLrDSVH7XqjQOtqV14nYevWvD6VsSM-WSlNDkzXeR3zPQoTgaW0I2S8tJpSy95LRKITeTnH8MDFt7Kd39rxZjU3hDqUuJ4flVhBLQKEYfzsxv8-Wu7q8LROlpA=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdh52P3fcArHtrnCq40N9VkEKaxDK4QsiETsFDpxhOU0qJidAi_LsTU-C_KGU3SRvkhsyMTK6tqWdAK_wx1BqOI4LDpdsWiqKmoZJqIPpQlYGKZRWjKPSe5J0l9-0zcc85ve3-lDe96yxG3rb23kLpbKaq"
+      },
+      {
+        "label": "chambers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpqih9P7Ddb8cCUA5YN-uuzMhmbFJ7PFUUL_bCemUfn8PXC2h8s-wmK7ZVMx4TIsxFScVgbz20A3o2l9YrryvA39hNnLrDSVH7XqjQOtqV14nYevWvD6VsSM-WSlNDkzXeR3zPQoTgaW0I2S8tJpSy95LRKITeTnH8MDFt7Kd39rxZjU3hDqUuJ4flVhBLQKEYfzsxv8-Wu7q8LROlpA=="
+      },
+      {
+        "label": "ivaluegroup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9BuupBYCZiM3-qV4a6HDypN-N_oxvzRMHGfQgyBd6NFEO_kXexd41Yk3uZTboHnit7r4g_HHN-IPvuI3zDFCOKRpfvYa-ueUuD4r_7xYyLwYNAtK3Y4JdlRdEh5luZx2cKkZaZHFeL_lopi6cjP08wOm4YMY54xp2smzf6MWieH1YLpVOuPdBy0PfCHcdJHZgHxbBi3uuwlz5HBD9AiVUog=="
+      },
+      {
+        "label": "digitalstudioindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0AlVajgCbmIGzcd3xIG169AYKczCq6CHo175nb_yrsJvQF1Xcx1uU0ATk09kOMD3bqOts69Rm3NGkE-eZwr6_EFPtKOs4I8m66OTbR-32a2kJjqxIlZ4h5nIX9y2qxg1nvreD7YcHiHT1aUHHHIfrmMebvnJ1RfsM1vRqBEHS1l_TGFRyA1HcTaKEpe6wfREVXubhuXvafRY="
+      },
+      {
+        "label": "digitalstudioindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0AlVajgCbmIGzcd3xIG169AYKczCq6CHo175nb_yrsJvQF1Xcx1uU0ATk09kOMD3bqOts69Rm3NGkE-eZwr6_EFPtKOs4I8m66OTbR-32a2kJjqxIlZ4h5nIX9y2qxg1nvreD7YcHiHT1aUHHHIfrmMebvnJ1RfsM1vRqBEHS1l_TGFRyA1HcTaKEpe6wfREVXubhuXvafRY="
+      },
+      {
+        "label": "digitalstudioindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0AlVajgCbmIGzcd3xIG169AYKczCq6CHo175nb_yrsJvQF1Xcx1uU0ATk09kOMD3bqOts69Rm3NGkE-eZwr6_EFPtKOs4I8m66OTbR-32a2kJjqxIlZ4h5nIX9y2qxg1nvreD7YcHiHT1aUHHHIfrmMebvnJ1RfsM1vRqBEHS1l_TGFRyA1HcTaKEpe6wfREVXubhuXvafRY="
+      },
+      {
+        "label": "craw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4QbJSlFLjr2vtluja01sY5vWCcq5eSP379zNCXLCgkKbkVr6UeNqWTnBHYVHK5e2s43B90kS-IaV1nuXV4VDmPatk1qTrgqI9xfhe9qyXeyHNhsyaD-_mxoJVbDMD8dSJKhfsvJyoNoTyvWWkpb6Q9KE="
+      },
+      {
+        "label": "digitalstudioindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0AlVajgCbmIGzcd3xIG169AYKczCq6CHo175nb_yrsJvQF1Xcx1uU0ATk09kOMD3bqOts69Rm3NGkE-eZwr6_EFPtKOs4I8m66OTbR-32a2kJjqxIlZ4h5nIX9y2qxg1nvreD7YcHiHT1aUHHHIfrmMebvnJ1RfsM1vRqBEHS1l_TGFRyA1HcTaKEpe6wfREVXubhuXvafRY="
+      },
+      {
+        "label": "privacyworld",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOIEmc_b2AfFJrSLN63Uanr74qIsY1fEX7qXuoZzZLiQVnRPjt3SdCF5Ttc20um2LLFo37ktc1C1VpcDFyPXKrGE1uXDYmOAyndRpM2aw1Jb-lwIUf9qBmqy0DtIUOKpxZcPKNvMUM0iXqBqLGZpj1G3-fZUgs34pp3cw4-nJ_9ggb9oGrv9QmR37PeV99NTXcvr5SR1lQQWnVbiB9YuNN"
+      },
+      {
+        "label": "craw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4QbJSlFLjr2vtluja01sY5vWCcq5eSP379zNCXLCgkKbkVr6UeNqWTnBHYVHK5e2s43B90kS-IaV1nuXV4VDmPatk1qTrgqI9xfhe9qyXeyHNhsyaD-_mxoJVbDMD8dSJKhfsvJyoNoTyvWWkpb6Q9KE="
+      },
+      {
+        "label": "craw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4QbJSlFLjr2vtluja01sY5vWCcq5eSP379zNCXLCgkKbkVr6UeNqWTnBHYVHK5e2s43B90kS-IaV1nuXV4VDmPatk1qTrgqI9xfhe9qyXeyHNhsyaD-_mxoJVbDMD8dSJKhfsvJyoNoTyvWWkpb6Q9KE="
+      },
+      {
+        "label": "rsm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCBIibelkHu7l40Ttl7bU1JbPDJa6BCU6lBHXBH9h0lGHUFoT7MLSkmkWq029YnITGHrag9AoaA5Lmz1tFfJnXdl8emctoZR4g3N5KhhmwlKS0egkJSL_2BwSI1GV2lCeMRO90bAADvd8H7WQ7kPYICy2-ZrS_ttoXywZvu5s4gPVze5EGs8ttaEVXWzf3ErHoHFg="
+      },
+      {
+        "label": "chambers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpqih9P7Ddb8cCUA5YN-uuzMhmbFJ7PFUUL_bCemUfn8PXC2h8s-wmK7ZVMx4TIsxFScVgbz20A3o2l9YrryvA39hNnLrDSVH7XqjQOtqV14nYevWvD6VsSM-WSlNDkzXeR3zPQoTgaW0I2S8tJpSy95LRKITeTnH8MDFt7Kd39rxZjU3hDqUuJ4flVhBLQKEYfzsxv8-Wu7q8LROlpA=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdh52P3fcArHtrnCq40N9VkEKaxDK4QsiETsFDpxhOU0qJidAi_LsTU-C_KGU3SRvkhsyMTK6tqWdAK_wx1BqOI4LDpdsWiqKmoZJqIPpQlYGKZRWjKPSe5J0l9-0zcc85ve3-lDe96yxG3rb23kLpbKaq"
+      },
+      {
+        "label": "eletsonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyvGgCJlHCBPEZaWLe3OuCLSeXnhXy6_VRG7PbWUNDF7efZa7_iClB2zpaJyO-CNSvXIxU5IaqDdzs-BEWjpAC3jbeLz1v7BAWJhR9JzYIIduvlRyNSFrFyBnhtcczBjAPPb7Zn2PXCnb3SXiFr-Xk8YAin7hWfpOnVD6ZpGQjP6rKqOBjgnBS_82rpW2XqWdaH_6tqf8gm3Y8GtTMGtI_PYS80BJa9n714pACzOwvgodFhfIaXN9B"
+      },
+      {
+        "label": "eletsonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyvGgCJlHCBPEZaWLe3OuCLSeXnhXy6_VRG7PbWUNDF7efZa7_iClB2zpaJyO-CNSvXIxU5IaqDdzs-BEWjpAC3jbeLz1v7BAWJhR9JzYIIduvlRyNSFrFyBnhtcczBjAPPb7Zn2PXCnb3SXiFr-Xk8YAin7hWfpOnVD6ZpGQjP6rKqOBjgnBS_82rpW2XqWdaH_6tqf8gm3Y8GtTMGtI_PYS80BJa9n714pACzOwvgodFhfIaXN9B"
+      },
+      {
+        "label": "talent500",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpyHiY3HIofP4M9wmJW1PrzouRXBRK16l2b7wD34-rgHJ6hiybqV9o2ovwu_KACoyM81Aj5Vq1Bm86v93QdP6vC6-YOfDadPXRNvDE5sdoEJSuuxYdkitXgYI2m5gLXmQVwEWjcQK8o0sy1eGCl4qVPOuR4phct3O_6HKSyto0JlNHG8LcfGc="
+      },
+      {
+        "label": "orfonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhECmVPHQwX6Mr7vFpST0OU-XBLNsF0JjcsvHB1lh347BQORrDgsgL-L4mviUFZBr0-l3N6A_ofvx5-dAK_7NfGD146LJRXXZekBVTp_S10UwHJOtnukPKGtr_UUAKoZe8iLx0em4tHRV5_98vLvcXctLeoO77-T7UAygVMr5qhFnCFYeHgvNgi0R4D5qg2rO9IyU="
+      },
+      {
+        "label": "lpu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-3Ydn-R27WKxTCE-rsuYu0aVfXRSowow8I9X4pfugE3gTVsoQBGRvaWr-EV9G-tWvcWt7LHdqjXJdOMPnzGIkQxBzt202JJUeZwyhiuP_3tiSE0np1Sf6kLty5Wxno687uOKUOVq7rkaBR0xoAZ5vR-iuxV5lQaMeVvmj5QY_"
+      },
+      {
+        "label": "varindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_1_s-HqkxtYK-bz5sdVPcwlatvQtbMJ9OsWUG_SpCHVai_A9LOv_kSbwKbqtSB2Hc3YnAifS2Gcd0cadwjkdM07pz2dMXTxWXJOm4JyogcyaVwRb3y09_3xguIGnf8FJxill-wKAFcuQ7LWzJ415v_dLbYQF8BOq_JBLjIFWoFdRSGtA4F9WPEmgaAyex"
+      },
+      {
+        "label": "lpu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-3Ydn-R27WKxTCE-rsuYu0aVfXRSowow8I9X4pfugE3gTVsoQBGRvaWr-EV9G-tWvcWt7LHdqjXJdOMPnzGIkQxBzt202JJUeZwyhiuP_3tiSE0np1Sf6kLty5Wxno687uOKUOVq7rkaBR0xoAZ5vR-iuxV5lQaMeVvmj5QY_"
+      },
+      {
+        "label": "acarasolutions",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyhoAOsxwrHwLDWcVLiIoFaBFve9Ijwh2tGd56ro_wVTOMOSYwq0LbN2tnc0VUJJkqtwaIWsk6fATSEQLE42O2D5jZkgy9zTibFM7zMAGJQI-pgPXUtBzLY9RfzWh-rogr8FUVma6WTXj_LSM7g9-EhMaUOlu-DDdc2v4FfvHFtWQzXWacC-m7f0N-Zp4="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKcQ11kYcvDJnb1PFsrMTbU21r_mQxXt7jzaoIGr7CMouDM5fpgBJi_Vel-Quz1ntcW8NweceXvLI3rUSpPDkQeVaJaPxjBNfxfVxL2WlbKoifsJY29zFVVKqzL-8fD3pNPvdU0aP9M94OoOWeYl0F7rakSgz50iS_Xl9F6MvCPFToilr06dg22Dge7TvuE3FSwZxZyg=="
+      },
+      {
+        "label": "tsaaro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40KYrQlk9i4r3qhpYJZIEAxZ3q2hvAh1OhIbWOn_ywQnIvAlqZMeYu_bdf2qivZQjmdNPlg8F2JDjUrtNhpgxMmZRLnOkZ6dJGZ4ArM0NOZer7aVa9R3Fi8xZUkGvbDVGiQcttWZUkLTvPYfvNa5aWaQ00HY1gg30JVxV_678o5Bt2aad43CHN8-mmOhRU4fGtc2D5Gao63_Ytpul"
+      },
+      {
+        "label": "cyberops",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSEPa811YlkJWkEZkHqqIN7fJ6VU-NxWepFgbn4TH7QQK5RJX8Mfgtibiup2wVo7i0W-X4v16lltnwIVm3G9yBk38OoEwcTPxiUSewanHqRH3HeVoHC3Oysw7PvaE="
+      },
+      {
+        "label": "tsaaro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40KYrQlk9i4r3qhpYJZIEAxZ3q2hvAh1OhIbWOn_ywQnIvAlqZMeYu_bdf2qivZQjmdNPlg8F2JDjUrtNhpgxMmZRLnOkZ6dJGZ4ArM0NOZer7aVa9R3Fi8xZUkGvbDVGiQcttWZUkLTvPYfvNa5aWaQ00HY1gg30JVxV_678o5Bt2aad43CHN8-mmOhRU4fGtc2D5Gao63_Ytpul"
+      },
+      {
+        "label": "tsaaro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40KYrQlk9i4r3qhpYJZIEAxZ3q2hvAh1OhIbWOn_ywQnIvAlqZMeYu_bdf2qivZQjmdNPlg8F2JDjUrtNhpgxMmZRLnOkZ6dJGZ4ArM0NOZer7aVa9R3Fi8xZUkGvbDVGiQcttWZUkLTvPYfvNa5aWaQ00HY1gg30JVxV_678o5Bt2aad43CHN8-mmOhRU4fGtc2D5Gao63_Ytpul"
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU7LMHaHLP2l09gQaga54LYcJwSxCVAW1BF7WVzNJjv4SWfbmWar5klW9gi_bmQhCg5RZUKxrHFT4yMJhK9-p-jUWUMmFIrGlf4qZHJEue1Ko6OlmsBdlBpRI5IwdeD0RWHBA88BvdfX284xWgaBjJCm51EZbHehALl3CadaO4XGl27w=="
+      },
+      {
+        "label": "tsaaro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40KYrQlk9i4r3qhpYJZIEAxZ3q2hvAh1OhIbWOn_ywQnIvAlqZMeYu_bdf2qivZQjmdNPlg8F2JDjUrtNhpgxMmZRLnOkZ6dJGZ4ArM0NOZer7aVa9R3Fi8xZUkGvbDVGiQcttWZUkLTvPYfvNa5aWaQ00HY1gg30JVxV_678o5Bt2aad43CHN8-mmOhRU4fGtc2D5Gao63_Ytpul"
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-S5jccjRDvkcMTV2t7k4RdT-6tCRUKmvtoi9KmrJPNor4gI4YofGARO7J85ZEzWUZE6o2p7eSSyv1q3f06x_20vGdgM_al2MzvsTTElaWPGXJ2f2zHPsJd85xNMVkQEp7YVFcKXUccCUNxiJfD8lVMdiAbl4_8e_o8cdRbUXCpPBNJ-XF0NVeckNGa6AhhrwQzdMMLSNC2fFnkrI9wPbgy3IsWOQEv-2cMZ8jVRQPDX9tLPpAd6oKwySwgQy3"
+      },
+      {
+        "label": "tsaaro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40KYrQlk9i4r3qhpYJZIEAxZ3q2hvAh1OhIbWOn_ywQnIvAlqZMeYu_bdf2qivZQjmdNPlg8F2JDjUrtNhpgxMmZRLnOkZ6dJGZ4ArM0NOZer7aVa9R3Fi8xZUkGvbDVGiQcttWZUkLTvPYfvNa5aWaQ00HY1gg30JVxV_678o5Bt2aad43CHN8-mmOhRU4fGtc2D5Gao63_Ytpul"
+      },
+      {
+        "label": "tsaaro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40KYrQlk9i4r3qhpYJZIEAxZ3q2hvAh1OhIbWOn_ywQnIvAlqZMeYu_bdf2qivZQjmdNPlg8F2JDjUrtNhpgxMmZRLnOkZ6dJGZ4ArM0NOZer7aVa9R3Fi8xZUkGvbDVGiQcttWZUkLTvPYfvNa5aWaQ00HY1gg30JVxV_678o5Bt2aad43CHN8-mmOhRU4fGtc2D5Gao63_Ytpul"
+      },
+      {
+        "label": "tsaaro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40KYrQlk9i4r3qhpYJZIEAxZ3q2hvAh1OhIbWOn_ywQnIvAlqZMeYu_bdf2qivZQjmdNPlg8F2JDjUrtNhpgxMmZRLnOkZ6dJGZ4ArM0NOZer7aVa9R3Fi8xZUkGvbDVGiQcttWZUkLTvPYfvNa5aWaQ00HY1gg30JVxV_678o5Bt2aad43CHN8-mmOhRU4fGtc2D5Gao63_Ytpul"
+      },
+      {
+        "label": "tsaaro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40KYrQlk9i4r3qhpYJZIEAxZ3q2hvAh1OhIbWOn_ywQnIvAlqZMeYu_bdf2qivZQjmdNPlg8F2JDjUrtNhpgxMmZRLnOkZ6dJGZ4ArM0NOZer7aVa9R3Fi8xZUkGvbDVGiQcttWZUkLTvPYfvNa5aWaQ00HY1gg30JVxV_678o5Bt2aad43CHN8-mmOhRU4fGtc2D5Gao63_Ytpul"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEobuXa5Y8qdUhF2a63lI80c0eQmwyiL69tleCH1LzST9S49F2yGPJyZm3K-gLfKJfTU33gW08FJ20dymJtElQNRYeHKHpPMGfIUzcaCqSm1bMjiI_PLiTNGbRQ0A4-832vWWMgIVhydU9qgyy1ZPuiT6tQ"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMMH6NpyGnxufKTcxWUB98SbqxGma7DPgYxB70jW5z9xb81npAMa_R_BwawKUHTX-QGEioqh1sIZ2Bl7ilRzGYqr7jrsSLwARAwiBjtrm-gSNrwley-_ah5c-u2c_gfiBd8bpQr695"
+      },
+      {
+        "label": "prsindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa5nzGOeYlcMBKyAhzisSuD-T6NCphKDj2gGYgXw9I5TMRDXcvmIClhW4qkswMIC0DZr8dvTFEL6rYQH0roZ2r9x-NvLmL0DcRFdaInhmI1GLT8nzpxVceTvyZ-EHcB6DxBgTeBqj9YjIdzU9OiJMli2oc_UZT7NuKPbP2DUY58x3F2ls="
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEobuXa5Y8qdUhF2a63lI80c0eQmwyiL69tleCH1LzST9S49F2yGPJyZm3K-gLfKJfTU33gW08FJ20dymJtElQNRYeHKHpPMGfIUzcaCqSm1bMjiI_PLiTNGbRQ0A4-832vWWMgIVhydU9qgyy1ZPuiT6tQ"
+      },
+      {
+        "label": "prsindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa5nzGOeYlcMBKyAhzisSuD-T6NCphKDj2gGYgXw9I5TMRDXcvmIClhW4qkswMIC0DZr8dvTFEL6rYQH0roZ2r9x-NvLmL0DcRFdaInhmI1GLT8nzpxVceTvyZ-EHcB6DxBgTeBqj9YjIdzU9OiJMli2oc_UZT7NuKPbP2DUY58x3F2ls="
+      },
+      {
+        "label": "prsindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa5nzGOeYlcMBKyAhzisSuD-T6NCphKDj2gGYgXw9I5TMRDXcvmIClhW4qkswMIC0DZr8dvTFEL6rYQH0roZ2r9x-NvLmL0DcRFdaInhmI1GLT8nzpxVceTvyZ-EHcB6DxBgTeBqj9YjIdzU9OiJMli2oc_UZT7NuKPbP2DUY58x3F2ls="
+      },
+      {
+        "label": "prsindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa5nzGOeYlcMBKyAhzisSuD-T6NCphKDj2gGYgXw9I5TMRDXcvmIClhW4qkswMIC0DZr8dvTFEL6rYQH0roZ2r9x-NvLmL0DcRFdaInhmI1GLT8nzpxVceTvyZ-EHcB6DxBgTeBqj9YjIdzU9OiJMli2oc_UZT7NuKPbP2DUY58x3F2ls="
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-S5jccjRDvkcMTV2t7k4RdT-6tCRUKmvtoi9KmrJPNor4gI4YofGARO7J85ZEzWUZE6o2p7eSSyv1q3f06x_20vGdgM_al2MzvsTTElaWPGXJ2f2zHPsJd85xNMVkQEp7YVFcKXUccCUNxiJfD8lVMdiAbl4_8e_o8cdRbUXCpPBNJ-XF0NVeckNGa6AhhrwQzdMMLSNC2fFnkrI9wPbgy3IsWOQEv-2cMZ8jVRQPDX9tLPpAd6oKwySwgQy3"
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-S5jccjRDvkcMTV2t7k4RdT-6tCRUKmvtoi9KmrJPNor4gI4YofGARO7J85ZEzWUZE6o2p7eSSyv1q3f06x_20vGdgM_al2MzvsTTElaWPGXJ2f2zHPsJd85xNMVkQEp7YVFcKXUccCUNxiJfD8lVMdiAbl4_8e_o8cdRbUXCpPBNJ-XF0NVeckNGa6AhhrwQzdMMLSNC2fFnkrI9wPbgy3IsWOQEv-2cMZ8jVRQPDX9tLPpAd6oKwySwgQy3"
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-S5jccjRDvkcMTV2t7k4RdT-6tCRUKmvtoi9KmrJPNor4gI4YofGARO7J85ZEzWUZE6o2p7eSSyv1q3f06x_20vGdgM_al2MzvsTTElaWPGXJ2f2zHPsJd85xNMVkQEp7YVFcKXUccCUNxiJfD8lVMdiAbl4_8e_o8cdRbUXCpPBNJ-XF0NVeckNGa6AhhrwQzdMMLSNC2fFnkrI9wPbgy3IsWOQEv-2cMZ8jVRQPDX9tLPpAd6oKwySwgQy3"
+      },
+      {
+        "label": "jsalaw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnGviXvhZ-s1sWlK18OE1wDjV7ee7Fr3wwVaI7q0QZCSyxPJlbyrov1mc6a0QpxgS25ylFOqtOj_arYOEPQBJ8ZmOJnWFnE78bKZ92hzXFsrxuoUKDIWNIKMjXOFi1eMWNPE6QtXLGYM8bZhoDPxJ4Soi6T_YACW5rWb7wFeiCpoGl_PJJtPzbagoa01tqpduIuKKjooZSHV6ApzvtlrwgA5duOY9a"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG1veDpoxn2Jdapa1WYyzsrWvLe0dCLjK0PpjrY0kE56xUsYXEErJTYSmEvYg6wia2xQzEwjZQO4nrcJqj-znCerxoMDAJ2EeAWzHIDTssp8bcS2F40in9TVfZXgFMoveRO8iysbu55WaWBT3D2mmn"
+      },
+      {
+        "label": "leegality",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoyf9HjwTmmt9cI-OANrr033q-No93P-T_aaUz_DgDxufHak_B9X1lLq-x0pFVqLkV265pbf4_mbSFYY4uHbgCUkl4JYAWGBLgziO8fsw2gnsVhQKaWTfxBm8nWsU1Du1BYc9wiwNLYuufA=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG1veDpoxn2Jdapa1WYyzsrWvLe0dCLjK0PpjrY0kE56xUsYXEErJTYSmEvYg6wia2xQzEwjZQO4nrcJqj-znCerxoMDAJ2EeAWzHIDTssp8bcS2F40in9TVfZXgFMoveRO8iysbu55WaWBT3D2mmn"
+      },
+      {
+        "label": "jsalaw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnGviXvhZ-s1sWlK18OE1wDjV7ee7Fr3wwVaI7q0QZCSyxPJlbyrov1mc6a0QpxgS25ylFOqtOj_arYOEPQBJ8ZmOJnWFnE78bKZ92hzXFsrxuoUKDIWNIKMjXOFi1eMWNPE6QtXLGYM8bZhoDPxJ4Soi6T_YACW5rWb7wFeiCpoGl_PJJtPzbagoa01tqpduIuKKjooZSHV6ApzvtlrwgA5duOY9a"
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-S5jccjRDvkcMTV2t7k4RdT-6tCRUKmvtoi9KmrJPNor4gI4YofGARO7J85ZEzWUZE6o2p7eSSyv1q3f06x_20vGdgM_al2MzvsTTElaWPGXJ2f2zHPsJd85xNMVkQEp7YVFcKXUccCUNxiJfD8lVMdiAbl4_8e_o8cdRbUXCpPBNJ-XF0NVeckNGa6AhhrwQzdMMLSNC2fFnkrI9wPbgy3IsWOQEv-2cMZ8jVRQPDX9tLPpAd6oKwySwgQy3"
+      },
+      {
+        "label": "tsaaro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH40KYrQlk9i4r3qhpYJZIEAxZ3q2hvAh1OhIbWOn_ywQnIvAlqZMeYu_bdf2qivZQjmdNPlg8F2JDjUrtNhpgxMmZRLnOkZ6dJGZ4ArM0NOZer7aVa9R3Fi8xZUkGvbDVGiQcttWZUkLTvPYfvNa5aWaQ00HY1gg30JVxV_678o5Bt2aad43CHN8-mmOhRU4fGtc2D5Gao63_Ytpul"
+      },
+      {
+        "label": "jsalaw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnGviXvhZ-s1sWlK18OE1wDjV7ee7Fr3wwVaI7q0QZCSyxPJlbyrov1mc6a0QpxgS25ylFOqtOj_arYOEPQBJ8ZmOJnWFnE78bKZ92hzXFsrxuoUKDIWNIKMjXOFi1eMWNPE6QtXLGYM8bZhoDPxJ4Soi6T_YACW5rWb7wFeiCpoGl_PJJtPzbagoa01tqpduIuKKjooZSHV6ApzvtlrwgA5duOY9a"
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEofewPs7UqnVgSmj-xEmHv4eRvIyKcAvxc_yvAYdhTVP0O4f7iBHLRTt0noxW0RTpfoFkpg5fT7t53uotrCL8L_Uo34StRAXNbPwAoHtZVs-iaAZWxHkprTDpGtLFhl75hphSgsIoduEY1-0GxDBY0o88DVNBQ6cnjl2tOSIVZ2nG4h-LVPYGh"
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEofewPs7UqnVgSmj-xEmHv4eRvIyKcAvxc_yvAYdhTVP0O4f7iBHLRTt0noxW0RTpfoFkpg5fT7t53uotrCL8L_Uo34StRAXNbPwAoHtZVs-iaAZWxHkprTDpGtLFhl75hphSgsIoduEY1-0GxDBY0o88DVNBQ6cnjl2tOSIVZ2nG4h-LVPYGh"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG1veDpoxn2Jdapa1WYyzsrWvLe0dCLjK0PpjrY0kE56xUsYXEErJTYSmEvYg6wia2xQzEwjZQO4nrcJqj-znCerxoMDAJ2EeAWzHIDTssp8bcS2F40in9TVfZXgFMoveRO8iysbu55WaWBT3D2mmn"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG1veDpoxn2Jdapa1WYyzsrWvLe0dCLjK0PpjrY0kE56xUsYXEErJTYSmEvYg6wia2xQzEwjZQO4nrcJqj-znCerxoMDAJ2EeAWzHIDTssp8bcS2F40in9TVfZXgFMoveRO8iysbu55WaWBT3D2mmn"
+      },
+      {
+        "label": "nishithdesai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHScIFpxsoSd24lT7LHSqE8W-v9b3rrcJCVc6euQZpvSoWV-fdy1MolWbjnL4VwrDzDlFnx1phqovKgw40d_ozWF3l6EeRM3c9fowx1E77hfNPTHS1qZ-lUltXqEAXFUVlCLcxh038pm4A="
+      },
+      {
+        "label": "nishithdesai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHScIFpxsoSd24lT7LHSqE8W-v9b3rrcJCVc6euQZpvSoWV-fdy1MolWbjnL4VwrDzDlFnx1phqovKgw40d_ozWF3l6EeRM3c9fowx1E77hfNPTHS1qZ-lUltXqEAXFUVlCLcxh038pm4A="
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmnaFgWoaTddOBjBRExksW8KL3BcWbWX3Qu-0xc20Ec5HWrTaN5G3opp57hetcGgzHlil3XNZq8r1fLtp9g6cOcnfx4K4bOCLi8QtqYuRxDf2VDQQPdsj2gpfS24KPlLwFIxXouLXU5mOHWCVrYzhtBamIDr34Qh1loxZDKnVdnHeE4-gH0BTABUFmE9JDzA7j3V5gXhzXASc7Mii10_Xfd5WUU9up2Cw="
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-S5jccjRDvkcMTV2t7k4RdT-6tCRUKmvtoi9KmrJPNor4gI4YofGARO7J85ZEzWUZE6o2p7eSSyv1q3f06x_20vGdgM_al2MzvsTTElaWPGXJ2f2zHPsJd85xNMVkQEp7YVFcKXUccCUNxiJfD8lVMdiAbl4_8e_o8cdRbUXCpPBNJ-XF0NVeckNGa6AhhrwQzdMMLSNC2fFnkrI9wPbgy3IsWOQEv-2cMZ8jVRQPDX9tLPpAd6oKwySwgQy3"
+      },
+      {
+        "label": "jsalaw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnGviXvhZ-s1sWlK18OE1wDjV7ee7Fr3wwVaI7q0QZCSyxPJlbyrov1mc6a0QpxgS25ylFOqtOj_arYOEPQBJ8ZmOJnWFnE78bKZ92hzXFsrxuoUKDIWNIKMjXOFi1eMWNPE6QtXLGYM8bZhoDPxJ4Soi6T_YACW5rWb7wFeiCpoGl_PJJtPzbagoa01tqpduIuKKjooZSHV6ApzvtlrwgA5duOY9a"
+      },
+      {
+        "label": "neetiniyaman",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzkATrdJTcD-yaUD7jdnrRKMEqjP2Amvl2C59FdAlFgDIBPNFzHaI4V064ZWJAtYsG7njcX5_eJs3WFBAhqjbEzdYbCsRd5CA4hBlSz5c4LP2Qzhwj2M4cokUzCxV6_Flqw18HzMHRvX5n4TNDa_hRd98NhBGcWmVI"
+      },
+      {
+        "label": "corridalegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdesd5r4jZM0W5NKqQAz3_lks4HeW4pnm2NWulPEW0x2VV7-lAJuXqYM0Tdkjc52xmcfo-BUgdpyuMfom4KZDC4usTYHeep252N3z1LuTJtF_NO5BbieGmbInn_DFBO0DZvNMyM7-eAPXdu2jppaCxrRscZpcDZDKK"
+      },
+      {
+        "label": "leegality",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoyf9HjwTmmt9cI-OANrr033q-No93P-T_aaUz_DgDxufHak_B9X1lLq-x0pFVqLkV265pbf4_mbSFYY4uHbgCUkl4JYAWGBLgziO8fsw2gnsVhQKaWTfxBm8nWsU1Du1BYc9wiwNLYuufA=="
+      },
+      {
+        "label": "leegality",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoyf9HjwTmmt9cI-OANrr033q-No93P-T_aaUz_DgDxufHak_B9X1lLq-x0pFVqLkV265pbf4_mbSFYY4uHbgCUkl4JYAWGBLgziO8fsw2gnsVhQKaWTfxBm8nWsU1Du1BYc9wiwNLYuufA=="
+      },
+      {
+        "label": "leegality",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoyf9HjwTmmt9cI-OANrr033q-No93P-T_aaUz_DgDxufHak_B9X1lLq-x0pFVqLkV265pbf4_mbSFYY4uHbgCUkl4JYAWGBLgziO8fsw2gnsVhQKaWTfxBm8nWsU1Du1BYc9wiwNLYuufA=="
+      },
+      {
+        "label": "neetiniyaman",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzkATrdJTcD-yaUD7jdnrRKMEqjP2Amvl2C59FdAlFgDIBPNFzHaI4V064ZWJAtYsG7njcX5_eJs3WFBAhqjbEzdYbCsRd5CA4hBlSz5c4LP2Qzhwj2M4cokUzCxV6_Flqw18HzMHRvX5n4TNDa_hRd98NhBGcWmVI"
+      },
+      {
+        "label": "cyberops",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSEPa811YlkJWkEZkHqqIN7fJ6VU-NxWepFgbn4TH7QQK5RJX8Mfgtibiup2wVo7i0W-X4v16lltnwIVm3G9yBk38OoEwcTPxiUSewanHqRH3HeVoHC3Oysw7PvaE="
+      },
+      {
+        "label": "cyberops",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSEPa811YlkJWkEZkHqqIN7fJ6VU-NxWepFgbn4TH7QQK5RJX8Mfgtibiup2wVo7i0W-X4v16lltnwIVm3G9yBk38OoEwcTPxiUSewanHqRH3HeVoHC3Oysw7PvaE="
+      },
+      {
+        "label": "cyberops",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSEPa811YlkJWkEZkHqqIN7fJ6VU-NxWepFgbn4TH7QQK5RJX8Mfgtibiup2wVo7i0W-X4v16lltnwIVm3G9yBk38OoEwcTPxiUSewanHqRH3HeVoHC3Oysw7PvaE="
+      },
+      {
+        "label": "cyberops",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSEPa811YlkJWkEZkHqqIN7fJ6VU-NxWepFgbn4TH7QQK5RJX8Mfgtibiup2wVo7i0W-X4v16lltnwIVm3G9yBk38OoEwcTPxiUSewanHqRH3HeVoHC3Oysw7PvaE="
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmnaFgWoaTddOBjBRExksW8KL3BcWbWX3Qu-0xc20Ec5HWrTaN5G3opp57hetcGgzHlil3XNZq8r1fLtp9g6cOcnfx4K4bOCLi8QtqYuRxDf2VDQQPdsj2gpfS24KPlLwFIxXouLXU5mOHWCVrYzhtBamIDr34Qh1loxZDKnVdnHeE4-gH0BTABUFmE9JDzA7j3V5gXhzXASc7Mii10_Xfd5WUU9up2Cw="
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmnaFgWoaTddOBjBRExksW8KL3BcWbWX3Qu-0xc20Ec5HWrTaN5G3opp57hetcGgzHlil3XNZq8r1fLtp9g6cOcnfx4K4bOCLi8QtqYuRxDf2VDQQPdsj2gpfS24KPlLwFIxXouLXU5mOHWCVrYzhtBamIDr34Qh1loxZDKnVdnHeE4-gH0BTABUFmE9JDzA7j3V5gXhzXASc7Mii10_Xfd5WUU9up2Cw="
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-S5jccjRDvkcMTV2t7k4RdT-6tCRUKmvtoi9KmrJPNor4gI4YofGARO7J85ZEzWUZE6o2p7eSSyv1q3f06x_20vGdgM_al2MzvsTTElaWPGXJ2f2zHPsJd85xNMVkQEp7YVFcKXUccCUNxiJfD8lVMdiAbl4_8e_o8cdRbUXCpPBNJ-XF0NVeckNGa6AhhrwQzdMMLSNC2fFnkrI9wPbgy3IsWOQEv-2cMZ8jVRQPDX9tLPpAd6oKwySwgQy3"
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-S5jccjRDvkcMTV2t7k4RdT-6tCRUKmvtoi9KmrJPNor4gI4YofGARO7J85ZEzWUZE6o2p7eSSyv1q3f06x_20vGdgM_al2MzvsTTElaWPGXJ2f2zHPsJd85xNMVkQEp7YVFcKXUccCUNxiJfD8lVMdiAbl4_8e_o8cdRbUXCpPBNJ-XF0NVeckNGa6AhhrwQzdMMLSNC2fFnkrI9wPbgy3IsWOQEv-2cMZ8jVRQPDX9tLPpAd6oKwySwgQy3"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEofewPs7UqnVgSmj-xEmHv4eRvIyKcAvxc_yvAYdhTVP0O4f7iBHLRTt0noxW0RTpfoFkpg5fT7t53uotrCL8L_Uo34StRAXNbPwAoHtZVs-iaAZWxHkprTDpGtLFhl75hphSgsIoduEY1-0GxDBY0o88DVNBQ6cnjl2tOSIVZ2nG4h-LVPYGh"
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEofewPs7UqnVgSmj-xEmHv4eRvIyKcAvxc_yvAYdhTVP0O4f7iBHLRTt0noxW0RTpfoFkpg5fT7t53uotrCL8L_Uo34StRAXNbPwAoHtZVs-iaAZWxHkprTDpGtLFhl75hphSgsIoduEY1-0GxDBY0o88DVNBQ6cnjl2tOSIVZ2nG4h-LVPYGh"
+      },
+      {
+        "label": "mondaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-S5jccjRDvkcMTV2t7k4RdT-6tCRUKmvtoi9KmrJPNor4gI4YofGARO7J85ZEzWUZE6o2p7eSSyv1q3f06x_20vGdgM_al2MzvsTTElaWPGXJ2f2zHPsJd85xNMVkQEp7YVFcKXUccCUNxiJfD8lVMdiAbl4_8e_o8cdRbUXCpPBNJ-XF0NVeckNGa6AhhrwQzdMMLSNC2fFnkrI9wPbgy3IsWOQEv-2cMZ8jVRQPDX9tLPpAd6oKwySwgQy3"
+      },
+      {
+        "label": "jsalaw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnGviXvhZ-s1sWlK18OE1wDjV7ee7Fr3wwVaI7q0QZCSyxPJlbyrov1mc6a0QpxgS25ylFOqtOj_arYOEPQBJ8ZmOJnWFnE78bKZ92hzXFsrxuoUKDIWNIKMjXOFi1eMWNPE6QtXLGYM8bZhoDPxJ4Soi6T_YACW5rWb7wFeiCpoGl_PJJtPzbagoa01tqpduIuKKjooZSHV6ApzvtlrwgA5duOY9a"
+      },
+      {
+        "label": "dpdpa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElplxuGnvP9GJyPYqDhaFChSdNrrZCLSz7wZOhKCPpeDdQU-oV4uksxdttHhMwKVd1t-idC0__XBr33Jv5c4KlCrYJ-zIw09rHAieTs4vb5sn1qjEF20JPFGJczUcKomYJ6FYWFHGMSrT2MyIEcHTZmXRn"
+      },
+      {
+        "label": "dataguidance",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEknLNUPdW5ghR2VpSt0NC_2j0qqW091IstbycuqyA7y4gfuaaMRYCsGI7owriupa5CtHT1zdjk2XBrX3pHPThup0h3r40q0GUXazSWqaIcjWcEorLF1ntslQ27h8Z4o0oIVreIo16G5vegVBInZJbniS6Hok5VtsIGNUFM59P2F4EHWEz-ntiVfyk="
+      },
+      {
+        "label": "pwc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKDt9-Rs1qxsaMPzWxQWnWLNQnIV81N5f1Iyvv8-rW2IyFim18MLDybKye2QsuCzegvLjZGp7-5dnXYZqeeLMfhBIMycGRhIAHjSBCu4nGfvSv3nmN-4xqFmmlmdUWJ697SIjNcp38cRkxRDzhXunFxb1wXqI0OenYzCebQImoopgyIB1AQA9eiEK1OtpSm8UA1V5bHCWpBtC5qy_B-P62dKS_MRtBJtKq6bej"
+      },
+      {
+        "label": "pwc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKDt9-Rs1qxsaMPzWxQWnWLNQnIV81N5f1Iyvv8-rW2IyFim18MLDybKye2QsuCzegvLjZGp7-5dnXYZqeeLMfhBIMycGRhIAHjSBCu4nGfvSv3nmN-4xqFmmlmdUWJ697SIjNcp38cRkxRDzhXunFxb1wXqI0OenYzCebQImoopgyIB1AQA9eiEK1OtpSm8UA1V5bHCWpBtC5qy_B-P62dKS_MRtBJtKq6bej"
+      },
+      {
+        "label": "iapp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEofewPs7UqnVgSmj-xEmHv4eRvIyKcAvxc_yvAYdhTVP0O4f7iBHLRTt0noxW0RTpfoFkpg5fT7t53uotrCL8L_Uo34StRAXNbPwAoHtZVs-iaAZWxHkprTDpGtLFhl75hphSgsIoduEY1-0GxDBY0o88DVNBQ6cnjl2tOSIVZ2nG4h-LVPYGh"
+      },
+      {
+        "label": "prsindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa5nzGOeYlcMBKyAhzisSuD-T6NCphKDj2gGYgXw9I5TMRDXcvmIClhW4qkswMIC0DZr8dvTFEL6rYQH0roZ2r9x-NvLmL0DcRFdaInhmI1GLT8nzpxVceTvyZ-EHcB6DxBgTeBqj9YjIdzU9OiJMli2oc_UZT7NuKPbP2DUY58x3F2ls="
+      },
+      {
+        "label": "prsindia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa5nzGOeYlcMBKyAhzisSuD-T6NCphKDj2gGYgXw9I5TMRDXcvmIClhW4qkswMIC0DZr8dvTFEL6rYQH0roZ2r9x-NvLmL0DcRFdaInhmI1GLT8nzpxVceTvyZ-EHcB6DxBgTeBqj9YjIdzU9OiJMli2oc_UZT7NuKPbP2DUY58x3F2ls="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcIJHhFUE7Xe6zbsMoKvQjRSGzw0sNZ3pQm24GRZw1BEtzIFhHQTEdItPlijfTxXMAElRjQhwig-E4ePuVv-YmmrDOMKV04LSEHra6txC87IagzqfjymSUI1u2EACG57xP4JHFZiLMHwc-Nfow8Wu1qxFkbi4qi9U_l13CKBvJa1NjjwEzzzGteVBjEsXrZCAr85sYjwvH-ETsVvWWfKWQtjToc9xttC0o-H--vQ9L-jq0z-qrTQFGEXWqBOGdodYFf6oHIyrxgy5EkGNZ5vDSsrMF0DsYKC7t9ic89_hUomQ="
+      },
+      {
+        "label": "angelone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAAS6RH2qrCoRa4Lv2bdNybeCD8dIJw4Y7fklQ5nxaeEG6AkCksJGA9eoyHxDbgyyt-WY7cbo1ya7yvhj8RV6SNtf9iJvC_YaPTstqW6RTlkvmPKVjmSQacbQpMwFqxv0WWRnrqXhr8ESWT_-gLi7AdA7tzhIAEPgTPDyN4TEb30Mma-AO2AfFmFLjNHNrulgD"
+      },
+      {
+        "label": "drishtiias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGthk4d_ioR30Sje2m2bUAwVF7AZm4o1O9fIseSMqEhj4sGfKPSTDwlire0joLdwhTB5ME0RrBVbVCdkO21niuunEi2LCpudCbwO79g39YO5AXE6N23qDwAj7JKnQ5oporJal965qTYWRiEuxGKBlblTlYaAUdS3uYA4KPoldaa0cQEd98JJFVv9540"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "bharatnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfcEJ0dz5eojPzNYiEJgGUek8JWshgId_2k-1D2vK9utnipdY4SQFvRq67sLVwvXwfAeYs4dQ_E3hwYKXK31sb36D3S_0rMQH5CXGQ49zrjjAT2u_w1-MBBPexSxB5dBJAxYKvmpkKp2MNzamQxpWozxurePwBy9sU4C0oNyxrn5PIUmYJ35fTHoFVq-0jVMIFVXSODtKtgb8XHJxIVup4xkpStwqz5tjBkPg="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcIJHhFUE7Xe6zbsMoKvQjRSGzw0sNZ3pQm24GRZw1BEtzIFhHQTEdItPlijfTxXMAElRjQhwig-E4ePuVv-YmmrDOMKV04LSEHra6txC87IagzqfjymSUI1u2EACG57xP4JHFZiLMHwc-Nfow8Wu1qxFkbi4qi9U_l13CKBvJa1NjjwEzzzGteVBjEsXrZCAr85sYjwvH-ETsVvWWfKWQtjToc9xttC0o-H--vQ9L-jq0z-qrTQFGEXWqBOGdodYFf6oHIyrxgy5EkGNZ5vDSsrMF0DsYKC7t9ic89_hUomQ="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "bharatnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfcEJ0dz5eojPzNYiEJgGUek8JWshgId_2k-1D2vK9utnipdY4SQFvRq67sLVwvXwfAeYs4dQ_E3hwYKXK31sb36D3S_0rMQH5CXGQ49zrjjAT2u_w1-MBBPexSxB5dBJAxYKvmpkKp2MNzamQxpWozxurePwBy9sU4C0oNyxrn5PIUmYJ35fTHoFVq-0jVMIFVXSODtKtgb8XHJxIVup4xkpStwqz5tjBkPg="
+      },
+      {
+        "label": "angelone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAAS6RH2qrCoRa4Lv2bdNybeCD8dIJw4Y7fklQ5nxaeEG6AkCksJGA9eoyHxDbgyyt-WY7cbo1ya7yvhj8RV6SNtf9iJvC_YaPTstqW6RTlkvmPKVjmSQacbQpMwFqxv0WWRnrqXhr8ESWT_-gLi7AdA7tzhIAEPgTPDyN4TEb30Mma-AO2AfFmFLjNHNrulgD"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcIJHhFUE7Xe6zbsMoKvQjRSGzw0sNZ3pQm24GRZw1BEtzIFhHQTEdItPlijfTxXMAElRjQhwig-E4ePuVv-YmmrDOMKV04LSEHra6txC87IagzqfjymSUI1u2EACG57xP4JHFZiLMHwc-Nfow8Wu1qxFkbi4qi9U_l13CKBvJa1NjjwEzzzGteVBjEsXrZCAr85sYjwvH-ETsVvWWfKWQtjToc9xttC0o-H--vQ9L-jq0z-qrTQFGEXWqBOGdodYFf6oHIyrxgy5EkGNZ5vDSsrMF0DsYKC7t9ic89_hUomQ="
+      },
+      {
+        "label": "bharatnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfcEJ0dz5eojPzNYiEJgGUek8JWshgId_2k-1D2vK9utnipdY4SQFvRq67sLVwvXwfAeYs4dQ_E3hwYKXK31sb36D3S_0rMQH5CXGQ49zrjjAT2u_w1-MBBPexSxB5dBJAxYKvmpkKp2MNzamQxpWozxurePwBy9sU4C0oNyxrn5PIUmYJ35fTHoFVq-0jVMIFVXSODtKtgb8XHJxIVup4xkpStwqz5tjBkPg="
+      },
+      {
+        "label": "angelone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAAS6RH2qrCoRa4Lv2bdNybeCD8dIJw4Y7fklQ5nxaeEG6AkCksJGA9eoyHxDbgyyt-WY7cbo1ya7yvhj8RV6SNtf9iJvC_YaPTstqW6RTlkvmPKVjmSQacbQpMwFqxv0WWRnrqXhr8ESWT_-gLi7AdA7tzhIAEPgTPDyN4TEb30Mma-AO2AfFmFLjNHNrulgD"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcIJHhFUE7Xe6zbsMoKvQjRSGzw0sNZ3pQm24GRZw1BEtzIFhHQTEdItPlijfTxXMAElRjQhwig-E4ePuVv-YmmrDOMKV04LSEHra6txC87IagzqfjymSUI1u2EACG57xP4JHFZiLMHwc-Nfow8Wu1qxFkbi4qi9U_l13CKBvJa1NjjwEzzzGteVBjEsXrZCAr85sYjwvH-ETsVvWWfKWQtjToc9xttC0o-H--vQ9L-jq0z-qrTQFGEXWqBOGdodYFf6oHIyrxgy5EkGNZ5vDSsrMF0DsYKC7t9ic89_hUomQ="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "drishtiias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGthk4d_ioR30Sje2m2bUAwVF7AZm4o1O9fIseSMqEhj4sGfKPSTDwlire0joLdwhTB5ME0RrBVbVCdkO21niuunEi2LCpudCbwO79g39YO5AXE6N23qDwAj7JKnQ5oporJal965qTYWRiEuxGKBlblTlYaAUdS3uYA4KPoldaa0cQEd98JJFVv9540"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "indiatracker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtIddsFsROm4kGbTSTNybbFXV_2KEiWIFoMD202erqAPRZOgE6tn2WFCCTgvw0ifElwHvyCuS7sGyTf1d_rhXEEDf4zILGRMf-wpCVTpQHaXgSxnv_MRx_zkxVN8Lz5a5TvMlwJVyX4IE19NGdI1HcO6iX9l8Wb-7Vww9dO256xpnckTKo2_Nz1tYqwP0lWblgyUNxWTSLPAot_XRkdwLnmge4Y27OBA=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "angelone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAAS6RH2qrCoRa4Lv2bdNybeCD8dIJw4Y7fklQ5nxaeEG6AkCksJGA9eoyHxDbgyyt-WY7cbo1ya7yvhj8RV6SNtf9iJvC_YaPTstqW6RTlkvmPKVjmSQacbQpMwFqxv0WWRnrqXhr8ESWT_-gLi7AdA7tzhIAEPgTPDyN4TEb30Mma-AO2AfFmFLjNHNrulgD"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "indiatracker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtIddsFsROm4kGbTSTNybbFXV_2KEiWIFoMD202erqAPRZOgE6tn2WFCCTgvw0ifElwHvyCuS7sGyTf1d_rhXEEDf4zILGRMf-wpCVTpQHaXgSxnv_MRx_zkxVN8Lz5a5TvMlwJVyX4IE19NGdI1HcO6iX9l8Wb-7Vww9dO256xpnckTKo2_Nz1tYqwP0lWblgyUNxWTSLPAot_XRkdwLnmge4Y27OBA=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "indiatracker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtIddsFsROm4kGbTSTNybbFXV_2KEiWIFoMD202erqAPRZOgE6tn2WFCCTgvw0ifElwHvyCuS7sGyTf1d_rhXEEDf4zILGRMf-wpCVTpQHaXgSxnv_MRx_zkxVN8Lz5a5TvMlwJVyX4IE19NGdI1HcO6iX9l8Wb-7Vww9dO256xpnckTKo2_Nz1tYqwP0lWblgyUNxWTSLPAot_XRkdwLnmge4Y27OBA=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "indiatracker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtIddsFsROm4kGbTSTNybbFXV_2KEiWIFoMD202erqAPRZOgE6tn2WFCCTgvw0ifElwHvyCuS7sGyTf1d_rhXEEDf4zILGRMf-wpCVTpQHaXgSxnv_MRx_zkxVN8Lz5a5TvMlwJVyX4IE19NGdI1HcO6iX9l8Wb-7Vww9dO256xpnckTKo2_Nz1tYqwP0lWblgyUNxWTSLPAot_XRkdwLnmge4Y27OBA=="
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "drishtiias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGthk4d_ioR30Sje2m2bUAwVF7AZm4o1O9fIseSMqEhj4sGfKPSTDwlire0joLdwhTB5ME0RrBVbVCdkO21niuunEi2LCpudCbwO79g39YO5AXE6N23qDwAj7JKnQ5oporJal965qTYWRiEuxGKBlblTlYaAUdS3uYA4KPoldaa0cQEd98JJFVv9540"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "drishtiias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGthk4d_ioR30Sje2m2bUAwVF7AZm4o1O9fIseSMqEhj4sGfKPSTDwlire0joLdwhTB5ME0RrBVbVCdkO21niuunEi2LCpudCbwO79g39YO5AXE6N23qDwAj7JKnQ5oporJal965qTYWRiEuxGKBlblTlYaAUdS3uYA4KPoldaa0cQEd98JJFVv9540"
+      },
+      {
+        "label": "nititantra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgGIThUANyfoCVFWcDYghkwC3yPx7-yf88c3RXlg1QzDa5tzY7XiqX1K9P8Jfq0unf1qbOwypPDToRaZp_QiouwNxE4BS2kMJuNqBTfbGlU2lNeBmDmceo7infQkp9xrTATyd0Bf8D5Guv_qCIcU6cFulhd6uNS8FckhSDtLlGRsDZ702eGWipg=="
+      },
+      {
+        "label": "bharatnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfcEJ0dz5eojPzNYiEJgGUek8JWshgId_2k-1D2vK9utnipdY4SQFvRq67sLVwvXwfAeYs4dQ_E3hwYKXK31sb36D3S_0rMQH5CXGQ49zrjjAT2u_w1-MBBPexSxB5dBJAxYKvmpkKp2MNzamQxpWozxurePwBy9sU4C0oNyxrn5PIUmYJ35fTHoFVq-0jVMIFVXSODtKtgb8XHJxIVup4xkpStwqz5tjBkPg="
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "indiaspend",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFysoEDAZkAWNy3JllpEM00xYqgKFnEYyUUcrryw4wLoDu4ST7pA1XMOMk_H6R6G279JEr0UMc9j9f3YSBMn_AihSOsMoiw6tWUaY4ocinK3imeIXEiWZlLcDwlW8KxanhVUg12wtQzLYiNDoQOflqLVz9dgRDpT38rbKhY4VclAUnIc6u5Hqu4JtRw2ejgcdt"
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVfTAzDgPDpx1gcqGDp3r0AXPimxC3gST9qZYaDHunjST9T7O45wiEYoCaJWnAeU42gUn8tSySF49YNvoUYzZe1TGMXoRi3bVD8uVgn7Es8fSnwynW9tuFpjydCmYDNYcUwpJ7822rZMMtzWHnoyKCUDTlXVn7Xoejvq045XN8e0Yz_GwA5Twhq_AkUd3H0maL819S2ALLAQH7KkhSf1XdXZRHYwjs1XXwiw=="
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVfTAzDgPDpx1gcqGDp3r0AXPimxC3gST9qZYaDHunjST9T7O45wiEYoCaJWnAeU42gUn8tSySF49YNvoUYzZe1TGMXoRi3bVD8uVgn7Es8fSnwynW9tuFpjydCmYDNYcUwpJ7822rZMMtzWHnoyKCUDTlXVn7Xoejvq045XN8e0Yz_GwA5Twhq_AkUd3H0maL819S2ALLAQH7KkhSf1XdXZRHYwjs1XXwiw=="
+      },
+      {
+        "label": "legacyias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_q4FaqOh_O6tAnOiOJbxiyYxlt4xZe1ZHdXDHFJ2MK0khpLxmNKeFJxFv2FbZR7C7HdOT0hD5aN53LZx834ko4lFMxnWUwT73jtiN_LY9DovULauJvy3GH6loHjY2CqNUPxCZUeJ2AMAMMFTWNFkKUg=="
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcIJHhFUE7Xe6zbsMoKvQjRSGzw0sNZ3pQm24GRZw1BEtzIFhHQTEdItPlijfTxXMAElRjQhwig-E4ePuVv-YmmrDOMKV04LSEHra6txC87IagzqfjymSUI1u2EACG57xP4JHFZiLMHwc-Nfow8Wu1qxFkbi4qi9U_l13CKBvJa1NjjwEzzzGteVBjEsXrZCAr85sYjwvH-ETsVvWWfKWQtjToc9xttC0o-H--vQ9L-jq0z-qrTQFGEXWqBOGdodYFf6oHIyrxgy5EkGNZ5vDSsrMF0DsYKC7t9ic89_hUomQ="
+      },
+      {
+        "label": "cenerva",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9VAYBzyxJ4QFLSyBInEnT1jOLW5Aq7eRg5PKUjVUCK3Lkh_hV-2Qd7PtqNk9euqZlgmSjJhIqG-lEkq-Eu6PK8kt7-J7PSBpIfbX3oT9XPgUPAb9gKenSHTby8VvLTZdxdu9rvKLN8cazINIoTKQolssq6JGkVuYeJvglhJQ="
+      },
+      {
+        "label": "icrier",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHt2N3DqgVKPbRUdCETHh1qjsPYQpoN_je3ohkybdWN49dNITMAw6oUAglOUCz855QYJRixQmUEu2DiAfXf2k3p_qxTABxkWOpP0CGYmDAsQiqaU41q_QuPk_3dzx9juZ5WKw=="
+      },
+      {
+        "label": "cenerva",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9VAYBzyxJ4QFLSyBInEnT1jOLW5Aq7eRg5PKUjVUCK3Lkh_hV-2Qd7PtqNk9euqZlgmSjJhIqG-lEkq-Eu6PK8kt7-J7PSBpIfbX3oT9XPgUPAb9gKenSHTby8VvLTZdxdu9rvKLN8cazINIoTKQolssq6JGkVuYeJvglhJQ="
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcIJHhFUE7Xe6zbsMoKvQjRSGzw0sNZ3pQm24GRZw1BEtzIFhHQTEdItPlijfTxXMAElRjQhwig-E4ePuVv-YmmrDOMKV04LSEHra6txC87IagzqfjymSUI1u2EACG57xP4JHFZiLMHwc-Nfow8Wu1qxFkbi4qi9U_l13CKBvJa1NjjwEzzzGteVBjEsXrZCAr85sYjwvH-ETsVvWWfKWQtjToc9xttC0o-H--vQ9L-jq0z-qrTQFGEXWqBOGdodYFf6oHIyrxgy5EkGNZ5vDSsrMF0DsYKC7t9ic89_hUomQ="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcIJHhFUE7Xe6zbsMoKvQjRSGzw0sNZ3pQm24GRZw1BEtzIFhHQTEdItPlijfTxXMAElRjQhwig-E4ePuVv-YmmrDOMKV04LSEHra6txC87IagzqfjymSUI1u2EACG57xP4JHFZiLMHwc-Nfow8Wu1qxFkbi4qi9U_l13CKBvJa1NjjwEzzzGteVBjEsXrZCAr85sYjwvH-ETsVvWWfKWQtjToc9xttC0o-H--vQ9L-jq0z-qrTQFGEXWqBOGdodYFf6oHIyrxgy5EkGNZ5vDSsrMF0DsYKC7t9ic89_hUomQ="
+      },
+      {
+        "label": "indiaspend",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFysoEDAZkAWNy3JllpEM00xYqgKFnEYyUUcrryw4wLoDu4ST7pA1XMOMk_H6R6G279JEr0UMc9j9f3YSBMn_AihSOsMoiw6tWUaY4ocinK3imeIXEiWZlLcDwlW8KxanhVUg12wtQzLYiNDoQOflqLVz9dgRDpT38rbKhY4VclAUnIc6u5Hqu4JtRw2ejgcdt"
+      },
+      {
+        "label": "plutusias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4pNixa-wGRbQXlUD2vQyJWySjicc0ZGfBbkvuogng8FKXrY4n-xlgZ7SW32bEDn9-A7KMNnAEFyzUKZkheqacx78f5zTz11Xtx1lKz3SdMIeY_jdt9WSefV3O"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "angelone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAAS6RH2qrCoRa4Lv2bdNybeCD8dIJw4Y7fklQ5nxaeEG6AkCksJGA9eoyHxDbgyyt-WY7cbo1ya7yvhj8RV6SNtf9iJvC_YaPTstqW6RTlkvmPKVjmSQacbQpMwFqxv0WWRnrqXhr8ESWT_-gLi7AdA7tzhIAEPgTPDyN4TEb30Mma-AO2AfFmFLjNHNrulgD"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "drishtiias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGthk4d_ioR30Sje2m2bUAwVF7AZm4o1O9fIseSMqEhj4sGfKPSTDwlire0joLdwhTB5ME0RrBVbVCdkO21niuunEi2LCpudCbwO79g39YO5AXE6N23qDwAj7JKnQ5oporJal965qTYWRiEuxGKBlblTlYaAUdS3uYA4KPoldaa0cQEd98JJFVv9540"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcIJHhFUE7Xe6zbsMoKvQjRSGzw0sNZ3pQm24GRZw1BEtzIFhHQTEdItPlijfTxXMAElRjQhwig-E4ePuVv-YmmrDOMKV04LSEHra6txC87IagzqfjymSUI1u2EACG57xP4JHFZiLMHwc-Nfow8Wu1qxFkbi4qi9U_l13CKBvJa1NjjwEzzzGteVBjEsXrZCAr85sYjwvH-ETsVvWWfKWQtjToc9xttC0o-H--vQ9L-jq0z-qrTQFGEXWqBOGdodYFf6oHIyrxgy5EkGNZ5vDSsrMF0DsYKC7t9ic89_hUomQ="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "drishtiias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGthk4d_ioR30Sje2m2bUAwVF7AZm4o1O9fIseSMqEhj4sGfKPSTDwlire0joLdwhTB5ME0RrBVbVCdkO21niuunEi2LCpudCbwO79g39YO5AXE6N23qDwAj7JKnQ5oporJal965qTYWRiEuxGKBlblTlYaAUdS3uYA4KPoldaa0cQEd98JJFVv9540"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "angelone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAAS6RH2qrCoRa4Lv2bdNybeCD8dIJw4Y7fklQ5nxaeEG6AkCksJGA9eoyHxDbgyyt-WY7cbo1ya7yvhj8RV6SNtf9iJvC_YaPTstqW6RTlkvmPKVjmSQacbQpMwFqxv0WWRnrqXhr8ESWT_-gLi7AdA7tzhIAEPgTPDyN4TEb30Mma-AO2AfFmFLjNHNrulgD"
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcIJHhFUE7Xe6zbsMoKvQjRSGzw0sNZ3pQm24GRZw1BEtzIFhHQTEdItPlijfTxXMAElRjQhwig-E4ePuVv-YmmrDOMKV04LSEHra6txC87IagzqfjymSUI1u2EACG57xP4JHFZiLMHwc-Nfow8Wu1qxFkbi4qi9U_l13CKBvJa1NjjwEzzzGteVBjEsXrZCAr85sYjwvH-ETsVvWWfKWQtjToc9xttC0o-H--vQ9L-jq0z-qrTQFGEXWqBOGdodYFf6oHIyrxgy5EkGNZ5vDSsrMF0DsYKC7t9ic89_hUomQ="
+      },
+      {
+        "label": "nititantra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhgGIThUANyfoCVFWcDYghkwC3yPx7-yf88c3RXlg1QzDa5tzY7XiqX1K9P8Jfq0unf1qbOwypPDToRaZp_QiouwNxE4BS2kMJuNqBTfbGlU2lNeBmDmceo7infQkp9xrTATyd0Bf8D5Guv_qCIcU6cFulhd6uNS8FckhSDtLlGRsDZ702eGWipg=="
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVfTAzDgPDpx1gcqGDp3r0AXPimxC3gST9qZYaDHunjST9T7O45wiEYoCaJWnAeU42gUn8tSySF49YNvoUYzZe1TGMXoRi3bVD8uVgn7Es8fSnwynW9tuFpjydCmYDNYcUwpJ7822rZMMtzWHnoyKCUDTlXVn7Xoejvq045XN8e0Yz_GwA5Twhq_AkUd3H0maL819S2ALLAQH7KkhSf1XdXZRHYwjs1XXwiw=="
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "convergence-now",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMNS6KYrTpHSkq0UPvozbjkxrBQ_WkCYMYpHuCyJDt__K8bPc-iAg-rjT-M_zYkMtLX5wR3ha2wQNAaT6D4rWh6Fwss9x-NuIVgqZs1Lm1HJqgTn1xgtzRwmCYbP1bAZyNJ9NLmEAT7VH9EEYU2pIyxwHUg3ZCPOKwEQjtQN59XgEB-wayj6QTr3EcvtAQEHGWJz7m8Iuuozz5zZzREcOuxTY1dQeW-sfouJrK64NV-pQaaB1MYG5eGC67wrV4IZ4MwvF1KEaCKZhY-jc11iMQl_Ev_z4QVfNlVR40Z8OvA0vvwN6FHl-ZCyKI0JVG4g=="
+      },
+      {
+        "label": "bharatnet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfcEJ0dz5eojPzNYiEJgGUek8JWshgId_2k-1D2vK9utnipdY4SQFvRq67sLVwvXwfAeYs4dQ_E3hwYKXK31sb36D3S_0rMQH5CXGQ49zrjjAT2u_w1-MBBPexSxB5dBJAxYKvmpkKp2MNzamQxpWozxurePwBy9sU4C0oNyxrn5PIUmYJ35fTHoFVq-0jVMIFVXSODtKtgb8XHJxIVup4xkpStwqz5tjBkPg="
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "angelone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAAS6RH2qrCoRa4Lv2bdNybeCD8dIJw4Y7fklQ5nxaeEG6AkCksJGA9eoyHxDbgyyt-WY7cbo1ya7yvhj8RV6SNtf9iJvC_YaPTstqW6RTlkvmPKVjmSQacbQpMwFqxv0WWRnrqXhr8ESWT_-gLi7AdA7tzhIAEPgTPDyN4TEb30Mma-AO2AfFmFLjNHNrulgD"
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuIPoNKIKKreqHmWkDcLCzm-8nbdKv2-IvzTdq9rRu3xdvvvtzwBlEAfaWtwvZvKsbS5Wgavwsu4rWcMhLW94GKLRCKBsI-P2tB0N3vKa9XIMEqwSVtZcIVIHt3PRvO2_mV9A0nKMug2B5SKJH-ipacBacY-Cf8SfjCxw8pCoCJEBZ7D8s-Ho19423XorKBy3xaXNYX3HB"
+      },
+      {
+        "label": "angelone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAAS6RH2qrCoRa4Lv2bdNybeCD8dIJw4Y7fklQ5nxaeEG6AkCksJGA9eoyHxDbgyyt-WY7cbo1ya7yvhj8RV6SNtf9iJvC_YaPTstqW6RTlkvmPKVjmSQacbQpMwFqxv0WWRnrqXhr8ESWT_-gLi7AdA7tzhIAEPgTPDyN4TEb30Mma-AO2AfFmFLjNHNrulgD"
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "angelone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAAS6RH2qrCoRa4Lv2bdNybeCD8dIJw4Y7fklQ5nxaeEG6AkCksJGA9eoyHxDbgyyt-WY7cbo1ya7yvhj8RV6SNtf9iJvC_YaPTstqW6RTlkvmPKVjmSQacbQpMwFqxv0WWRnrqXhr8ESWT_-gLi7AdA7tzhIAEPgTPDyN4TEb30Mma-AO2AfFmFLjNHNrulgD"
+      },
+      {
+        "label": "pib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4IhemomZ226yIJrFuUJkIDfBpLF5kRIGEa9OCz--GOGw4LApkWDAq6dZE5sqEEXjTZdvMlLM7Lq6E4Z8TZG5AE8qPMdG-w8vo7XLBiX_EBm0Y6YhEhlvMzjn-eLgaXIJM6deMKpcNUHEqkmfnT-ORPH8lWOXgwjpe5A=="
+      },
+      {
+        "label": "drishtiias",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGthk4d_ioR30Sje2m2bUAwVF7AZm4o1O9fIseSMqEhj4sGfKPSTDwlire0joLdwhTB5ME0RrBVbVCdkO21niuunEi2LCpudCbwO79g39YO5AXE6N23qDwAj7JKnQ5oporJal965qTYWRiEuxGKBlblTlYaAUdS3uYA4KPoldaa0cQEd98JJFVv9540"
+      },
+      {
+        "label": "c4scourses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwBRmqeGlvFuAAXjitPdVOJAXU-prmBE5ddNmG-uAnDzZItk-Cjy0MKHR8waMk6087H0EXtbJRKikcXufrhJK4oCTeFHTYfxkCp0mcOsNvoNe8rRLtswnHOl9mcUGRCDMTbj2OnrFwBg=="
+      },
+      {
+        "label": "meity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCS5g8NSWZgfXreZiqsWxFUzSZgOpWrwRGVBGeaFdjO8pbsFUXvwhSczzJSByPSZuC731nZX6Yt0wKX4bfiU1BxcEH9JaRXBWFLzHPvaDxoZD5ATNCOibJZE-FwOsOPVfN39SrHRxOaCfdosZHN6Dkg4TbR-1EPt6eoLC83kbRP2aAzV9v5NwLatQXWTtoWg=="
+      },
+      {
+        "label": "digitalstrategy-ai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDXckgfKWeB3qFFdZSDPFC9B8sMTVkltyGpPtyfinpE73rfO4uIBiYmgizgmkRLzHCf__zdhWUKJXU7kz9pnuaJp9LeGUkkcLZ4ryChpVd03i6tm4ABSWRAtu1R-iudHBqLn54DGQMyqgncFzBBBlYFsXd6XETppvO7ldVEw=="
+      },
+      {
+        "label": "meity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCS5g8NSWZgfXreZiqsWxFUzSZgOpWrwRGVBGeaFdjO8pbsFUXvwhSczzJSByPSZuC731nZX6Yt0wKX4bfiU1BxcEH9JaRXBWFLzHPvaDxoZD5ATNCOibJZE-FwOsOPVfN39SrHRxOaCfdosZHN6Dkg4TbR-1EPt6eoLC83kbRP2aAzV9v5NwLatQXWTtoWg=="
+      },
+      {
+        "label": "utkarsh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkkvJ_As-NavfDSLBdtV0xrL8oC3Y47c-rNMtIHK72jxtzL6a9HnGbNlPF36Rb7CIxqEdViT6j-HALfoIYmiW7eeoJW8kws2Apa0t3X3D-8iCuqu810FfUlO8_vMpM53kBnBtufEXBJDyKGc5k1-XNaaaaI23JSlkGjikYvFJyGUXVN382H_SBrh5guvr1W59PbDYWSMmreDjbGaKePqxHcXXIe4fTLBxWULEwtJSwNlLJhA=="
+      },
+      {
+        "label": "upenn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHMve0EeKEUnLusKeyRkpJACT12Gyr-xeIdnqDdLDxb5eUJZDNJu6i51AlOidawTJeYrt2bhNVvWxIEIlkPUXA4gIJ4Tw9IPTrX32A3pesn6e51ZE5Vd3j1kk4SkgLlZRk4rUpTjSP"
+      },
+      {
+        "label": "techpolicy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzZ-bglhwXY1-Tot_qZeXyDgxi_rfqaWVV_AaSDG8XFRhXarZSG1j4WMXKudSRuHTdqD8sEvQ71elgw8EaJRSDok825HwaVjDAAX8WBSYZyqhaXl0ep1tFwZjy1uwFV1Edh28cnVS8rg6M-bBwYNBmldBHtHELcjsQhaSXCe_KbvdugFkx_hZ7Vsi69UYJS0lV7IKZiJLDGkky2pbF4dapdnaqb8qOaOwNhy4="
+      },
+      {
+        "label": "utkarsh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkkvJ_As-NavfDSLBdtV0xrL8oC3Y47c-rNMtIHK72jxtzL6a9HnGbNlPF36Rb7CIxqEdViT6j-HALfoIYmiW7eeoJW8kws2Apa0t3X3D-8iCuqu810FfUlO8_vMpM53kBnBtufEXBJDyKGc5k1-XNaaaaI23JSlkGjikYvFJyGUXVN382H_SBrh5guvr1W59PbDYWSMmreDjbGaKePqxHcXXIe4fTLBxWULEwtJSwNlLJhA=="
+      },
+      {
+        "label": "digitalstrategy-ai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDXckgfKWeB3qFFdZSDPFC9B8sMTVkltyGpPtyfinpE73rfO4uIBiYmgizgmkRLzHCf__zdhWUKJXU7kz9pnuaJp9LeGUkkcLZ4ryChpVd03i6tm4ABSWRAtu1R-iudHBqLn54DGQMyqgncFzBBBlYFsXd6XETppvO7ldVEw=="
+      },
+      {
+        "label": "upenn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHMve0EeKEUnLusKeyRkpJACT12Gyr-xeIdnqDdLDxb5eUJZDNJu6i51AlOidawTJeYrt2bhNVvWxIEIlkPUXA4gIJ4Tw9IPTrX32A3pesn6e51ZE5Vd3j1kk4SkgLlZRk4rUpTjSP"
+      },
+      {
+        "label": "techpolicy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzZ-bglhwXY1-Tot_qZeXyDgxi_rfqaWVV_AaSDG8XFRhXarZSG1j4WMXKudSRuHTdqD8sEvQ71elgw8EaJRSDok825HwaVjDAAX8WBSYZyqhaXl0ep1tFwZjy1uwFV1Edh28cnVS8rg6M-bBwYNBmldBHtHELcjsQhaSXCe_KbvdugFkx_hZ7Vsi69UYJS0lV7IKZiJLDGkky2pbF4dapdnaqb8qOaOwNhy4="
+      },
+      {
+        "label": "utkarsh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkkvJ_As-NavfDSLBdtV0xrL8oC3Y47c-rNMtIHK72jxtzL6a9HnGbNlPF36Rb7CIxqEdViT6j-HALfoIYmiW7eeoJW8kws2Apa0t3X3D-8iCuqu810FfUlO8_vMpM53kBnBtufEXBJDyKGc5k1-XNaaaaI23JSlkGjikYvFJyGUXVN382H_SBrh5guvr1W59PbDYWSMmreDjbGaKePqxHcXXIe4fTLBxWULEwtJSwNlLJhA=="
+      },
+      {
+        "label": "upenn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHMve0EeKEUnLusKeyRkpJACT12Gyr-xeIdnqDdLDxb5eUJZDNJu6i51AlOidawTJeYrt2bhNVvWxIEIlkPUXA4gIJ4Tw9IPTrX32A3pesn6e51ZE5Vd3j1kk4SkgLlZRk4rUpTjSP"
+      },
+      {
+        "label": "utkarsh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkkvJ_As-NavfDSLBdtV0xrL8oC3Y47c-rNMtIHK72jxtzL6a9HnGbNlPF36Rb7CIxqEdViT6j-HALfoIYmiW7eeoJW8kws2Apa0t3X3D-8iCuqu810FfUlO8_vMpM53kBnBtufEXBJDyKGc5k1-XNaaaaI23JSlkGjikYvFJyGUXVN382H_SBrh5guvr1W59PbDYWSMmreDjbGaKePqxHcXXIe4fTLBxWULEwtJSwNlLJhA=="
+      },
+      {
+        "label": "techpolicy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzZ-bglhwXY1-Tot_qZeXyDgxi_rfqaWVV_AaSDG8XFRhXarZSG1j4WMXKudSRuHTdqD8sEvQ71elgw8EaJRSDok825HwaVjDAAX8WBSYZyqhaXl0ep1tFwZjy1uwFV1Edh28cnVS8rg6M-bBwYNBmldBHtHELcjsQhaSXCe_KbvdugFkx_hZ7Vsi69UYJS0lV7IKZiJLDGkky2pbF4dapdnaqb8qOaOwNhy4="
+      },
+      {
+        "label": "utkarsh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkkvJ_As-NavfDSLBdtV0xrL8oC3Y47c-rNMtIHK72jxtzL6a9HnGbNlPF36Rb7CIxqEdViT6j-HALfoIYmiW7eeoJW8kws2Apa0t3X3D-8iCuqu810FfUlO8_vMpM53kBnBtufEXBJDyKGc5k1-XNaaaaI23JSlkGjikYvFJyGUXVN382H_SBrh5guvr1W59PbDYWSMmreDjbGaKePqxHcXXIe4fTLBxWULEwtJSwNlLJhA=="
+      },
+      {
+        "label": "upenn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHMve0EeKEUnLusKeyRkpJACT12Gyr-xeIdnqDdLDxb5eUJZDNJu6i51AlOidawTJeYrt2bhNVvWxIEIlkPUXA4gIJ4Tw9IPTrX32A3pesn6e51ZE5Vd3j1kk4SkgLlZRk4rUpTjSP"
+      },
+      {
+        "label": "techpolicy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzZ-bglhwXY1-Tot_qZeXyDgxi_rfqaWVV_AaSDG8XFRhXarZSG1j4WMXKudSRuHTdqD8sEvQ71elgw8EaJRSDok825HwaVjDAAX8WBSYZyqhaXl0ep1tFwZjy1uwFV1Edh28cnVS8rg6M-bBwYNBmldBHtHELcjsQhaSXCe_KbvdugFkx_hZ7Vsi69UYJS0lV7IKZiJLDGkky2pbF4dapdnaqb8qOaOwNhy4="
+      },
+      {
+        "label": "ey",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSoEiYeTJl-_lek4zwsRg9V8Md3k-JGc2V6p8y_LCg-IEmb1w5fHbLBfYqslGORf_PLk1mSN7Z9DnrTS44ZYpTNG9tsmvgjcpdRzbhJ_rXuYYTXXR9XnmtH9RuBPa0mq-6bL7WSqMEYro1NrQpYG2UfrAJh15I4VJKqPGyz7HYZWzAaBpRKrbn8bbR07QeMiOg5RqD4uI2taHemikywPJxN5K0bL1wsGtWpZEyUUCqWvMudVFwkEkPfcElo_TPMG1JqiR3bGrlXitM9LCOPY_cfa4yXzTPElmxqYQBvEkP-A=="
+      },
+      {
+        "label": "digitaldefynd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZSEmMwHsmNtobjzV8bzg6P1uTHAR6Z79sgBn8UDgeO1Kbf3hkIzH74IY3nJAJ_kEjd6KOoB77E-87mQ-Jh5K8cCY-psNAuIS8Qw0jjOOUnCh2PkakPeKoF9_LHB4Nf8ccxEDv"
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW1vo97s0a7XRGekja8CwmUZaTM4Z06GGbNr2jlpzsQi9Ai5Q68GHMwb5uVV4AVrFNtP9cQvOD3jLG360T6voUDir89E6wcTCfMwaitveH6K5pyChVpQwHH0B4M_LCSsFKZPaAb4dextN_OIENrD4jNAdRRaQt"
+      },
+      {
+        "label": "sansad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_bMSv5uzgVWl15FpoQidGZzeEaPWprzs_T_DZS3L4nqm08YLajkiAPaLtAKla78hNate7SFpMHxkq7aqTks6fORhqJtit5rJ7AVnxEo9U5uDG4WDH992QunSW_vlX0Nm7Ve2MsaaUQui8CJ8cIdtaIPjiurlaOTeOfDP-KQ=="
+      },
+      {
+        "label": "indiaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQFfLoYEFXD9bnKmgMtN5jcbGLH9ibBoiCBubICm4bshJtj0VxuUorHWBdM4teH-NNQ1XPTKZFZEe7nGWe1Q7XGJ0hBM0yKsfcgTv9bcHjw44a"
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW1vo97s0a7XRGekja8CwmUZaTM4Z06GGbNr2jlpzsQi9Ai5Q68GHMwb5uVV4AVrFNtP9cQvOD3jLG360T6voUDir89E6wcTCfMwaitveH6K5pyChVpQwHH0B4M_LCSsFKZPaAb4dextN_OIENrD4jNAdRRaQt"
+      },
+      {
+        "label": "indiaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQFfLoYEFXD9bnKmgMtN5jcbGLH9ibBoiCBubICm4bshJtj0VxuUorHWBdM4teH-NNQ1XPTKZFZEe7nGWe1Q7XGJ0hBM0yKsfcgTv9bcHjw44a"
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW1vo97s0a7XRGekja8CwmUZaTM4Z06GGbNr2jlpzsQi9Ai5Q68GHMwb5uVV4AVrFNtP9cQvOD3jLG360T6voUDir89E6wcTCfMwaitveH6K5pyChVpQwHH0B4M_LCSsFKZPaAb4dextN_OIENrD4jNAdRRaQt"
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW1vo97s0a7XRGekja8CwmUZaTM4Z06GGbNr2jlpzsQi9Ai5Q68GHMwb5uVV4AVrFNtP9cQvOD3jLG360T6voUDir89E6wcTCfMwaitveH6K5pyChVpQwHH0B4M_LCSsFKZPaAb4dextN_OIENrD4jNAdRRaQt"
+      },
+      {
+        "label": "indiaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQFfLoYEFXD9bnKmgMtN5jcbGLH9ibBoiCBubICm4bshJtj0VxuUorHWBdM4teH-NNQ1XPTKZFZEe7nGWe1Q7XGJ0hBM0yKsfcgTv9bcHjw44a"
+      },
+      {
+        "label": "indiaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQFfLoYEFXD9bnKmgMtN5jcbGLH9ibBoiCBubICm4bshJtj0VxuUorHWBdM4teH-NNQ1XPTKZFZEe7nGWe1Q7XGJ0hBM0yKsfcgTv9bcHjw44a"
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW1vo97s0a7XRGekja8CwmUZaTM4Z06GGbNr2jlpzsQi9Ai5Q68GHMwb5uVV4AVrFNtP9cQvOD3jLG360T6voUDir89E6wcTCfMwaitveH6K5pyChVpQwHH0B4M_LCSsFKZPaAb4dextN_OIENrD4jNAdRRaQt"
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW1vo97s0a7XRGekja8CwmUZaTM4Z06GGbNr2jlpzsQi9Ai5Q68GHMwb5uVV4AVrFNtP9cQvOD3jLG360T6voUDir89E6wcTCfMwaitveH6K5pyChVpQwHH0B4M_LCSsFKZPaAb4dextN_OIENrD4jNAdRRaQt"
+      },
+      {
+        "label": "indiaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQFfLoYEFXD9bnKmgMtN5jcbGLH9ibBoiCBubICm4bshJtj0VxuUorHWBdM4teH-NNQ1XPTKZFZEe7nGWe1Q7XGJ0hBM0yKsfcgTv9bcHjw44a"
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW1vo97s0a7XRGekja8CwmUZaTM4Z06GGbNr2jlpzsQi9Ai5Q68GHMwb5uVV4AVrFNtP9cQvOD3jLG360T6voUDir89E6wcTCfMwaitveH6K5pyChVpQwHH0B4M_LCSsFKZPaAb4dextN_OIENrD4jNAdRRaQt"
+      },
+      {
+        "label": "indiaai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQFfLoYEFXD9bnKmgMtN5jcbGLH9ibBoiCBubICm4bshJtj0VxuUorHWBdM4teH-NNQ1XPTKZFZEe7nGWe1Q7XGJ0hBM0yKsfcgTv9bcHjw44a"
+      },
+      {
+        "label": "vajiramandravi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW1vo97s0a7XRGekja8CwmUZaTM4Z06GGbNr2jlpzsQi9Ai5Q68GHMwb5uVV4AVrFNtP9cQvOD3jLG360T6voUDir89E6wcTCfMwaitveH6K5pyChVpQwHH0B4M_LCSsFKZPaAb4dextN_OIENrD4jNAdRRaQt"
+      },
+      {
+        "label": "utkarsh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkkvJ_As-NavfDSLBdtV0xrL8oC3Y47c-rNMtIHK72jxtzL6a9HnGbNlPF36Rb7CIxqEdViT6j-HALfoIYmiW7eeoJW8kws2Apa0t3X3D-8iCuqu810FfUlO8_vMpM53kBnBtufEXBJDyKGc5k1-XNaaaaI23JSlkGjikYvFJyGUXVN382H_SBrh5guvr1W59PbDYWSMmreDjbGaKePqxHcXXIe4fTLBxWULEwtJSwNlLJhA=="
+      },
+      {
+        "label": "securiti",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGa-lfauMHmBJeFC_jI2JBCUMB16Nw_VEPTNxFLvVelUmLkqLXyH4dC8SAxfZTSlPynKPa5q6VYWiALuz8IGBQ9UURfwUlAItPdSDGpSJ8Zex0JPeTgqwf5H0MqV_LHwuUsCorfkV1WdUgStNOOWW7srQs6EdE6c8="
+      },
+      {
+        "label": "digitaldefynd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZSEmMwHsmNtobjzV8bzg6P1uTHAR6Z79sgBn8UDgeO1Kbf3hkIzH74IY3nJAJ_kEjd6KOoB77E-87mQ-Jh5K8cCY-psNAuIS8Qw0jjOOUnCh2PkakPeKoF9_LHB4Nf8ccxEDv"
+      },
+      {
+        "label": "digitaldefynd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZSEmMwHsmNtobjzV8bzg6P1uTHAR6Z79sgBn8UDgeO1Kbf3hkIzH74IY3nJAJ_kEjd6KOoB77E-87mQ-Jh5K8cCY-psNAuIS8Qw0jjOOUnCh2PkakPeKoF9_LHB4Nf8ccxEDv"
+      },
+      {
+        "label": "digitaldefynd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZSEmMwHsmNtobjzV8bzg6P1uTHAR6Z79sgBn8UDgeO1Kbf3hkIzH74IY3nJAJ_kEjd6KOoB77E-87mQ-Jh5K8cCY-psNAuIS8Qw0jjOOUnCh2PkakPeKoF9_LHB4Nf8ccxEDv"
+      },
+      {
+        "label": "digitaldefynd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZSEmMwHsmNtobjzV8bzg6P1uTHAR6Z79sgBn8UDgeO1Kbf3hkIzH74IY3nJAJ_kEjd6KOoB77E-87mQ-Jh5K8cCY-psNAuIS8Qw0jjOOUnCh2PkakPeKoF9_LHB4Nf8ccxEDv"
+      },
+      {
+        "label": "securiti",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGa-lfauMHmBJeFC_jI2JBCUMB16Nw_VEPTNxFLvVelUmLkqLXyH4dC8SAxfZTSlPynKPa5q6VYWiALuz8IGBQ9UURfwUlAItPdSDGpSJ8Zex0JPeTgqwf5H0MqV_LHwuUsCorfkV1WdUgStNOOWW7srQs6EdE6c8="
+      },
+      {
+        "label": "securiti",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGa-lfauMHmBJeFC_jI2JBCUMB16Nw_VEPTNxFLvVelUmLkqLXyH4dC8SAxfZTSlPynKPa5q6VYWiALuz8IGBQ9UURfwUlAItPdSDGpSJ8Zex0JPeTgqwf5H0MqV_LHwuUsCorfkV1WdUgStNOOWW7srQs6EdE6c8="
+      },
+      {
+        "label": "securiti",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGa-lfauMHmBJeFC_jI2JBCUMB16Nw_VEPTNxFLvVelUmLkqLXyH4dC8SAxfZTSlPynKPa5q6VYWiALuz8IGBQ9UURfwUlAItPdSDGpSJ8Zex0JPeTgqwf5H0MqV_LHwuUsCorfkV1WdUgStNOOWW7srQs6EdE6c8="
+      },
+      {
+        "label": "ey",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSoEiYeTJl-_lek4zwsRg9V8Md3k-JGc2V6p8y_LCg-IEmb1w5fHbLBfYqslGORf_PLk1mSN7Z9DnrTS44ZYpTNG9tsmvgjcpdRzbhJ_rXuYYTXXR9XnmtH9RuBPa0mq-6bL7WSqMEYro1NrQpYG2UfrAJh15I4VJKqPGyz7HYZWzAaBpRKrbn8bbR07QeMiOg5RqD4uI2taHemikywPJxN5K0bL1wsGtWpZEyUUCqWvMudVFwkEkPfcElo_TPMG1JqiR3bGrlXitM9LCOPY_cfa4yXzTPElmxqYQBvEkP-A=="
+      },
+      {
+        "label": "securiti",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGa-lfauMHmBJeFC_jI2JBCUMB16Nw_VEPTNxFLvVelUmLkqLXyH4dC8SAxfZTSlPynKPa5q6VYWiALuz8IGBQ9UURfwUlAItPdSDGpSJ8Zex0JPeTgqwf5H0MqV_LHwuUsCorfkV1WdUgStNOOWW7srQs6EdE6c8="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

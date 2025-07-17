@@ -1,0 +1,534 @@
+{
+  "file_name": "state_result_135.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.539878",
+  "data": {
+    "messages": [
+      {
+        "content": "Сделай подборку вакансий, подходящих инженеру-автоматизации в Россия, Уфа без опыта работы",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "63202d54-f5d4-4a82-afa1-a74e9d4c0f48",
+        "example": false
+      },
+      {
+        "content": "Here's a compilation of automation engineer job opportunities in Ufa, Russia, suitable for candidates without prior experience, as of July 16, 2025:\n\n**Job Market Overview:**\n\nThere are numerous job postings for automation engineers in Ufa, with some vacancies open to candidates without prior experience [hh](https://vertexaisearch.cloud.google.com/id/0-1) [jobrun](https://vertexaisearch.cloud.google.com/id/0-0) [hh](https://vertexaisearch.cloud.google.com/id/1-0) [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-1). You can find these listings on job search websites [jobrun](https://vertexaisearch.cloud.google.com/id/0-0) [hh](https://vertexaisearch.cloud.google.com/id/0-1) [hh](https://vertexaisearch.cloud.google.com/id/0-2) [jobfilter](https://vertexaisearch.cloud.google.com/id/0-3) [hh](https://vertexaisearch.cloud.google.com/id/1-0) [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Specific Companies & Opportunities:**\n\n*   **УФАОРГСИНТЕЗ:** As of July 4, 2025, they had an opening for an Automation Engineer, explicitly stating that experience is *not* required for candidates with a relevant higher technical education or a higher non- профильным education with additional professional education [superjob](https://vertexaisearch.cloud.google.com/id/0-5). They offer official employment, career growth, and a social package [superjob](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Экситон-автоматика, НПФ:** Lists a vacancy for an АСУТП Engineer with a salary starting from 187,500 ₽, located in Алабуга, ОЭЗ ППТ; Уфа [superjob](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Газпром Автоматизация:** Offers training and internships for АСУ ТП and САУ engineers [gorodrabot](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Jobrun.ru:** Listed 2 \"Automation Business\" vacancies in Ufa with full-time employment and no experience required.\n*   **ПАО Уфимское моторостроительное производственное объединение (УМПО):** Seeks a ведущий инженер бюро электронных торгов [jobrun](https://vertexaisearch.cloud.google.com/id/0-7).\n\n**Typical Skills & Requirements for Entry-Level Automation Roles:**\n\n*   A degree in Computer Science, Software Engineering, or a related IT field is generally expected [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n*   Solid understanding of programming languages such as Python, Java, or C# [tealhq](https://vertexaisearch.cloud.google.com/id/2-4).\n*   Familiarity with automation frameworks like Selenium, Puppeteer, Robot Framework, Cypress, and Playwright [tealhq](https://vertexaisearch.cloud.google.com/id/2-4) [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n*   Basic knowledge of Continuous Integration/Continuous Deployment (CI/CD) pipelines [tealhq](https://vertexaisearch.cloud.google.com/id/2-4).\n*   Strong analytical and problem-solving skills [tealhq](https://vertexaisearch.cloud.google.com/id/2-4).\n*   Experience with MS Office [tusur-courses](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**General Responsibilities:**\n\n*   Learning and developing test automation skills using various frameworks [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n*   Working closely with senior engineers to design, implement, and execute automated test cases [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n*   Collaborating with development and QA teams to understand project requirements and improve software quality [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n*   Debugging and troubleshooting test scripts [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n\n**Salary Information:**\n\nThe average salary for an automation engineer in Ufa in 2025 is around 90,000 rubles per month [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-1) [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-5).  Salaries can range from 35,000 to 340,000 rubles depending on skills [dreamjob](https://vertexaisearch.cloud.google.com/id/1-6). One listing for an АСУТП Engineer starts from 187,500 ₽ [superjob](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**Universities in Ufa Offering Relevant Programs:**\n\n*   Ufa State Petroleum Technological University (UGNTU) [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-5) [studyabroadaide](https://vertexaisearch.cloud.google.com/id/2-2).\n*   Ufa University of Science and Technology (UUNiTU) [uust](https://vertexaisearch.cloud.google.com/id/2-3) [studyabroadaide](https://vertexaisearch.cloud.google.com/id/2-2).\n\nRemember to check the job postings for the most up-to-date information, as some listings may be archived [superjob](https://vertexaisearch.cloud.google.com/id/0-5). Good luck with your job search!",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "1d893a8b-4aba-4168-91c4-f428531a4b00",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "вакансии инженер-автоматизации Уфа без опыта",
+      "работа для начинающих инженеров-автоматизаторов Уфа Россия",
+      "What are the specific requirements and responsibilities for entry-level automation engineer positions in Ufa, Russia, that do not require prior experience?"
+    ],
+    "web_research_result": [
+      "As of July 16, 2025, here's a summary of available information regarding \"вакансии инженер-автоматизации Уфа без опыта\" (automation engineer vacancies in Ufa without experience):\n\n**General Availability of Positions:**\n\n*   Vacancies for automation engineers, including those without experience, are available in Ufa.\n*   Job search websites list numerous [jobrun](https://vertexaisearch.cloud.google.com/id/0-0) [hh](https://vertexaisearch.cloud.google.com/id/0-1) [hh](https://vertexaisearch.cloud.google.com/id/0-2) [jobfilter](https://vertexaisearch.cloud.google.com/id/0-3) current openings for automation engineers in Ufa.\n\n**Specific Opportunities & Employers [hh](https://vertexaisearch.cloud.google.com/id/0-1) [hh](https://vertexaisearch.cloud.google.com/id/0-4) [hh](https://vertexaisearch.cloud.google.com/id/0-2):**\n\n*   **УФАОРГСИНТЕЗ** had an opening for an Automation Engineer as of July 4, 2025, explicitly stating that experience is not required for candidates with a higher technical education or a higher non- профильным education with additional professional education. They offer official employment, career growth, and a social [superjob](https://vertexaisearch.cloud.google.com/id/0-5) package.\n*   **Экситон-автоматика, НПФ** lists a vacancy for an АСУТ [superjob](https://vertexaisearch.cloud.google.com/id/0-5)П Engineer with a salary starting from 187,500 ₽, located in Алабуга, ОЭЗ ППТ; Уфа.\n*   **Газпром Автоматизация** offers training and internships for АСУ ТП and САУ engineers, preferring [gorodrabot](https://vertexaisearch.cloud.google.com/id/0-6) candidates with experience in developing software for controllers.\n*   **Jobrun.ru** listed 2 \"Automation Business\" vacancies in Ufa with full-time employment and no experience required.\n*   **ПАО  [jobrun](https://vertexaisearch.cloud.google.com/id/0-7)Уфимское моторостроительное производственное объединение (УМПО)** seeks a ведущий инженер бюро электронных торгов.\n\n**Sk [jobrun](https://vertexaisearch.cloud.google.com/id/0-0)ills & Requirements:**\n\n*   While some positions are available without experience, many listings for automation engineers or related roles (e.g., АСУТП engineer) specify experience in areas like:\n    *   АСУТП systems\n   [rabota](https://vertexaisearch.cloud.google.com/id/0-8)  *   Configuration, setup, and implementation of software for automated systems\n    *   PLC programming (Siemens, Allen Bradley, etc.)\n*   Required knowledge often includes:\n    *   Principles of automated production and technologica [gorodrabot](https://vertexaisearch.cloud.google.com/id/0-6)l process control systems\n    *   Normative and methodological materials for ensuri [superjob](https://vertexaisearch.cloud.google.com/id/0-5)ng measurement integrity\n    *   MS Office\n\n**Salary In [jobrun](https://vertexaisearch.cloud.google.com/id/0-7)formation:**\n\n*   Salaries for automation-related positions in Ufa vary. One listing for an АСУТП Engineer starts from 187,5 [superjob](https://vertexaisearch.cloud.google.com/id/0-5)00 ₽.\n\n**Other Information:**\n\n*   Be aware that some listed vacancies may be arch [superjob](https://vertexaisearch.cloud.google.com/id/0-5)ived.\n*   Some com [superjob](https://vertexaisearch.cloud.google.com/id/0-5)panies provide вахтовые (shuttle) buses in Ufa.\n [superjob](https://vertexaisearch.c [jobrun](https://vertexaisearch.cloud.google.com/id/0-7) [jobrun](https://vertexaisearch.cloud.google.com/id/0-0) [rabota](https://vertexaisearch.cloud.google.com/id/0-8) [gorodrabot](https://vertexaisearch.cloud.google.com/id/0-6)loud.google.com/id/0-5) [dreamjob](https://vertexaisearch.cloud. [gorodrabot](https://vertexaisearch.cloud.google.com/id/0-6)google.com/id/0-9)",
+      "As of July 16, 2025, here's an overview of job opportunities for entry-level automation engineers in Ufa, Russia:\n\n**Job Market Overview**\n\n*   **Availability:** There are numerous current job postings for automation engineers in Ufa [hh](https://vertexaisearch.cloud.google.com/id/1-0) [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-1) [hh](https://vertexaisearch.cloud.google.com/id/1-2). Many listings can be found on job search websites [hh](https://vertexaisearch.cloud.google.com/id/1-0) [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Experience:** Some vacancies are available for candidates without prior experience [hh](https://vertexaisearch.cloud.google.com/id/1-0) [avito](https://vertexaisearch.cloud.google.com/id/1-3) [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Types of Employment:** Opportunities exist for full-time, part-time, and flexible schedules [hh](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Job Titles**\n\n*   Инженер-автоматизатор (Automation Engineer)\n*   Инженер по авто [tusur-courses](https://vertexaisearch.cloud.google.com/id/1-4) [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-1)матизации (Automation Engineer)\n*   Инженер АСУ ТП (Process Control Syste [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-1) [hh](https://vertexaisearch.cloud.google.com/id/1-2) [hh](https://vertexaisearch.cloud.google.com/id/1-0)m Engineer)\n*   Инженер КИПиА (Instrumentation and Control Engine [hh](https://vertexaisearch.cloud.google.com/id/1-2)er)\n*   Инженер по автоматизации тестирования (Test Automation Engine [hh](https://vertexaisearch.cloud.google.com/id/1-2)er)\n\n**Salary Expectations**\n\n*   **Average:** The average salary for an automation engineer in Ufa in  [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-1) [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-5)2025 is around 90,000 rubles per month.\n*   **Range:** Most salaries typically fall between 63,000 and 126,000 rubles. However, salaries c [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-5)an range from a minimum of 35,000 rubles to a maximum of 340,000 rubles, depend [dreamjob](https://vertexaisearch.cloud.google.com/id/1-6)ing on experience and skills.\n*   **Fluctuation:** Salary data from ГородРабот.ру indicates a change in average salary from 113, [dreamjob](https://vertexaisearch.cloud.google.com/id/1-6)750 to 90,000 rubles per month.\n\n**Education and Training**\n\n*   **Universities:** Ufa State Petroleum Technological University (UGNTU) offers [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-5) programs for automation engineers. Ufa University of Science and Technology (UUNiTU) also provides relevant programs in mechatronics.\n*   **Cours [postupi](https://vertexaisearch.cloud.google.com/id/1-7)es:** Training courses are available for automation of technological processes and production. Skil [postupi](https://vertexaisearch.cloud.google.com/id/1-8)lbox and other platforms offer courses for test automation engineers, covering languages like Java, JavaSc [ncpo](https://vertexaisearch.cloud.google.com/id/1-9)ript, and  [skillbox](https://vertexaisearch.cloud.google.com/id/1-10)Python.\n*   **Skills [directline](https://vertexaisearch.cloud.google.com/id/1-11):** Essential skills include developing test plans, executing tests, identifying and documenting errors, and evaluating software functionality.\n\n**Skills and Requirements**\n\n*   A technical education is generally required.\n*   Experience with MS Office i [tusur-courses](https://vertexaisearch.cloud.google.com/id/1-4)s often needed.\n*   Key skills include the ability to develop test cases, condu [superjob](https://vertexaisearch.cloud.google.com/id/1-12)ct testing, and analyze results.\n*   Familiarit [avito](https://vertexaisearch.cloud.google.com/id/1-3)y with software like Prolog, MS Windows, and Astra Linux may be required for some positions.\n\n** [tusur-courses](https://vertexaisearch.cloud.google.com/id/1-4)Potential Employers**\n\n*   НГП ИНФОРМ\n*   УФАОРГСИНТЕЗ\n*   Various IT companies\n*   ЭЛЕКТРА\n [superjob](htt [avito](https://vertexaisearch.cloud.google.com/id/1-3)ps://vertexaisearch.cloud.google.com/id/1-12) [goro [gorodrabot](https://vertexaisearch.cloud.google.com/id/1-13)drabot](https://vertexaisearc [superjob](https://vertexaisearch.cloud.google.com/id/1-12)h.cloud.google.com/id/1-14)",
+      "Entry-level automation engineer positions in Ufa, Russia, for those without prior experience, typically involve a combination of educational background, technical skills, and personal attributes. These roles focus on learning and applying automation principles to improve efficiency in various industries [ziprecruiter](https://vertexaisearch.cloud.google.com/id/2-0).\n\n**Common Requirements and Responsibilities:**\n\n*   **Educational Background:** A degree in Computer Science, Software Engineering, or a related IT field is generally expected [noesis](https://vertexaisearch.cloud.google.com/id/2-1). Some companies may consider equivalent experience [noesis](https://vertexaisearch.cloud.google.com/id/2-1). Universities in Ufa that offer relevant programs include Ufa State Aviation Technical University and Ufa State Petroleum Technological University [studyabroadaide](https://vertexaisearch.cloud.google.com/id/2-2). These universities offer undergraduate and postgraduate programs in areas like automation and software engineering [uust](https://vertexaisearch.cloud.google.com/id/2-3) [studyabroadaide](https://vertexaisearch.cloud.google.com/id/2-2). A preparatory department at Ufa University of Science and Technology offers training in Russian and specialized disciplines for foreign citizens [uust](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Technical Skills:**\n    *   **Programming Languages:** A solid understanding of programming languages such as Python, Java, or C# is crucial [tealhq](https://vertexaisearch.cloud.google.com/id/2-4).\n    *   **Software Development Practices:** Proficiency in software development practices and tools, including version control systems like Git, is important [tealhq](https://vertexaisearch.cloud.google.com/id/2-4).\n    *   **Automation Frameworks:** Familiarity with automation frameworks like Selenium, Puppeteer, Robot Framework, Cypress, and Playwright is essential [tealhq](https://vertexaisearch.cloud.google.com/id/2-4) [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **CI/CD Pipelines:** A basic knowledge of Continuous Integration/Continuous Deployment (CI/CD) pipelines is beneficial [tealhq](https://vertexaisearch.cloud.google.com/id/2-4).\n    *   **Problem-Solving:** Strong analytical and problem-solving skills are needed to diagnose and resolve system issues [tealhq](https://vertexaisearch.cloud.google.com/id/2-4).\n    *   **Scripting and Debugging:** Mid-level engineers should have a strong command of advanced scripting and debugging [tealhq](https://vertexaisearch.cloud.google.com/id/2-4).\n    *   **Containerization:** Experience with containerization technologies like Docker and orchestration tools such as Kubernetes can be helpful [tealhq](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Responsibilities:**\n    *   **Learning and Development:** Entry-level engineers are expected to learn and develop test automation skills using various frameworks [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **Test Automation:** Working closely with senior engineers to design, implement, and execute automated test cases [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **Collaboration:** Collaborating with development and QA teams to understand project requirements and improve software quality [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **Debugging:** Debugging and troubleshooting test scripts to ensure smooth execution and maintenance [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **Tool Exploration:** Continuously exploring and adopting new tools and technologies in test automation [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **Documentation:** Documenting work and analyzing system performance [ziprecruiter](https://vertexaisearch.cloud.google.com/id/2-5).\n    *   **System Design and Modification:** Helping to design or modify automated systems [ziprecruiter](https://vertexaisearch.cloud.google.com/id/2-5).\n    *   **Troubleshooting:** Troubleshooting issues that arise in automation workflows [ziprecruiter](https://vertexaisearch.cloud.google.com/id/2-5).\n    *   **Equipment Assistance:** Assisting with equipment setup or calibration [ziprecruiter](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Personal Attributes:**\n    *   **Willingness to Learn:** A willingness to learn and work with different test automation frameworks is essential [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **Problem-Solving Passion:** A passion for problem-solving through programming and an open mindset for continuous learning are highly valued [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **Teamwork:** The ability to work well in a team and build good relationships is crucial [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **Communication Skills:** Good communication skills, including fluency in English (written and spoken), may be required for communication with international teams [noesis](https://vertexaisearch.cloud.google.com/id/2-1).\n    *   **Adaptability:** Flexibility in adopting new tools and technologies is critical [pynetlabs](https://vertexaisearch.cloud.google.com/id/2-6).\n\n**Universities Offering Automation and Control Engineering Programs in Russia:**\n\n*   Moscow [edurank](https://vertexaisearch.cloud.google.com/id/2-7)\n*   Saint Petersburg [edurank](https://vertexaisearch.cloud.google.com/id/2-7)\n*   Chelyabinsk [edurank](https://vertexaisearch.cloud.google.com/id/2-7)\n*   Novosibirsk [edurank](https://vertexaisearch.cloud.google.com/id/2-7)\n\n**Note:** While the search results do not specifically mention job opportunities in Ufa, Russia, that do not require prior experience, the general requirements and responsibilities for entry-level automation engineers can be applied to positions in Ufa [tealhq](https://vertexaisearch.cloud.google.com/id/2-4) [noesis](https://vertexaisearch.cloud.google.com/id/2-1) [ziprecruiter](https://vertexaisearch.cloud.google.com/id/2-5).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "jobrun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV00hVG5GAAB0czLYOGJP0aDrLShF0cLoHzxSTTaAGXVdxz0UbGgJg3LoRnwOyeZLZpHw3fcloZPUDEIFdfZP_-xxi4X8ZMSjfLKY1ZNZbGmjGBTmE4AxyYFELh1R_E2RyndoKxQz7fLcsJ-yzEUD-7mqNCgdNsWPXKMazx9CRpQA59Cyp2nTQp7u5wLFZzqnTyOZs3DjsGfL07kg5iCvRGz0Ytpt767D10mNqufdSfFcn7yJXAOzaXlQOuAdkLEUtqBw3Lu7iL_A-kIA5NGt0NfWNAULbV1AZlc3Pkptv0QVvbAXmO1mffQPK8sPpKRMLvtKdaa7Oihct60QFc5YQFc8-0jDDQqESdxdMpebt6c_Phn7hVXxpOSA13vWzPaUCcVsgu934-7xJf-9neAjWrS7JfuWxFBayGUUb8mCjMceLeHf53GS2cSxh0TbihTkfmHswd2hz"
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLIme_pSsFnyR7vXQi5ffg3JUI74y-AaRQON4VGz-4C11d-ABZo518gLYTnglpyCaxCoTL1hcRuSwmnh3qSfJG0m2Yk7J-WkzUWM2q41TszwSUGWPdEzXkyz_FLwnZcJ-dodOJTYIp_LKTU9t1ClNY"
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6OiByD1hYB-lC6MUIxoyc-uA36cm1WpApWQ7_caLXPwsrv4U72gjibg8NkROq5eB_9CQdylqxdaPBKqEMCcMFTEoI2n8pWKvgod6Uitft4PTv7em-GYm5FIAI81n48K4h6hU="
+      },
+      {
+        "label": "jobfilter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF58BjpMxX2RfpYZ57t2SVJV8tWWIzKvyDk4sBh1eJcTPtQtCNy1xdVNLPWuhFKlP6ww2DRpFCEdQy5_Hem9rqSFMkNMXmY3nuWxQcoakfNoKM1OyrhpZ_GCsGzdeBlNekju4moYv5r1F8iompWRU6mszPE2WJ7Yu4A21kzNfFR7nZcnu6u9ZuPVO4qzfsMY9-1lInBDe9NO4myHJuW1oVZO-O0ouY56NagOAL2YuPHa7AjbQAE7MI26tCss_EGm3GcndqmJIrNqXoTfQVPhH07FOipsN3cst_r43FHwz-ATjWdzMg4yg=="
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLIme_pSsFnyR7vXQi5ffg3JUI74y-AaRQON4VGz-4C11d-ABZo518gLYTnglpyCaxCoTL1hcRuSwmnh3qSfJG0m2Yk7J-WkzUWM2q41TszwSUGWPdEzXkyz_FLwnZcJ-dodOJTYIp_LKTU9t1ClNY"
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGqS8srDM2d9Pisjik53QM9Mcdafdxosfkx4SZEHrEQ8SQ84HBl2Vh6MsGGKZjmDHRCQt5aEbybKl02D46dzB6gTYnBh1lXfnoLiRR4q0cB-6qXhRtYRntGZYX9BDM_LXy9yepaEVF485dsM-dCyWsZZLmgh9WjBLQMKjUVxqVRlIIhc3epg=="
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6OiByD1hYB-lC6MUIxoyc-uA36cm1WpApWQ7_caLXPwsrv4U72gjibg8NkROq5eB_9CQdylqxdaPBKqEMCcMFTEoI2n8pWKvgod6Uitft4PTv7em-GYm5FIAI81n48K4h6hU="
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSON9XJM7EzbxU8AZqrKUqg2YsZpmV1uoRpUSyWWH6Z0QTKhnj9Ptaxdx2-QXI7MbMcFvzU_l7Kknsohb-lt4bH21tIe_hIew3bUZkWhu1RNEtaPKbSydftXWaO7Vh586Aab7hT2VFg1OnBW_3pdkl0-aBIyGCE-FSkg=="
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSON9XJM7EzbxU8AZqrKUqg2YsZpmV1uoRpUSyWWH6Z0QTKhnj9Ptaxdx2-QXI7MbMcFvzU_l7Kknsohb-lt4bH21tIe_hIew3bUZkWhu1RNEtaPKbSydftXWaO7Vh586Aab7hT2VFg1OnBW_3pdkl0-aBIyGCE-FSkg=="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEnxzYsyTUC5k9YXkw1qpXK5fsORLpAgi1m5zTCCXgtNrmB1jV_T5ARuH8puiqLjnf4nkdWoB0YwunagxZIkDVHeIL3cehzTV4cxP6ECp72wQu7z9DkJTjGoMUnjhufMZpWpmy7IBBr68Ql2u-3hrLxgq9PJsAAAk5HygR7q1auTmzfWfI-LYwZG2wEJQ580YZF1cdh1rzieMl645VTDLi1WZSjvapgNOw3vNpF6DEnZGv6PBeS1copUYsJ0w5VFpQvUxWCOQLroAloc9QfEzgTNZ_erQ="
+      },
+      {
+        "label": "jobrun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCXIdp3y3EO8UzwJu6AT3tp0io7eOSMDxxOADCoMj_sepjtjccis1Cday6CwjkCAp6hDBs6KQe9l5wM5o2znbtsHQqtK7R7x-ymebcSyVtxftE6yysF82teBSIEFO97n06iNsBjsVtTt5v-G-f90DX8wYR-MC0DR1-80g2JLse-tIPdJ2hilU81YpIRnau3XTu_dX332ObiqWvmgxEys2CIEnqPFcgAJE-k6zi9CNADX_UApmFJ98pBFKszsr0m-jOZCP86YHFMjZaSYdO3Q98ljr49QRoWZMJiCz7LsBxb5zGMRtLAzhdRd5zsqypKMGoFfSvwIX8SMqMzjlZItvQR5jkjTtRpuX9qqxvQM-oMiYif7RyGqyQmhVZDcLQoZvHcCddVNU7CQpTfv4o8Cspg54rXiln9Olv5BqOT151MaaxLR2Xm9gNmtmhNq7YJzeO3LVwuEsYdwkJmNX9j6YvudNFCHMa1a7XOi-kqD3eak4sHsfZVrwT7u5Lp6aADapGYF8vSO0="
+      },
+      {
+        "label": "jobrun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV00hVG5GAAB0czLYOGJP0aDrLShF0cLoHzxSTTaAGXVdxz0UbGgJg3LoRnwOyeZLZpHw3fcloZPUDEIFdfZP_-xxi4X8ZMSjfLKY1ZNZbGmjGBTmE4AxyYFELh1R_E2RyndoKxQz7fLcsJ-yzEUD-7mqNCgdNsWPXKMazx9CRpQA59Cyp2nTQp7u5wLFZzqnTyOZs3DjsGfL07kg5iCvRGz0Ytpt767D10mNqufdSfFcn7yJXAOzaXlQOuAdkLEUtqBw3Lu7iL_A-kIA5NGt0NfWNAULbV1AZlc3Pkptv0QVvbAXmO1mffQPK8sPpKRMLvtKdaa7Oihct60QFc5YQFc8-0jDDQqESdxdMpebt6c_Phn7hVXxpOSA13vWzPaUCcVsgu934-7xJf-9neAjWrS7JfuWxFBayGUUb8mCjMceLeHf53GS2cSxh0TbihTkfmHswd2hz"
+      },
+      {
+        "label": "rabota",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlqyc-6WNLycuDe57EW3SBydqDMrDA4RfXwUcnHKx93GCkFAWBjwCOlrSnLW0hCHmQyPmk08mTVL7JkksY7_4Lqu0nm8_wL30qJKxyR6WEHREZ-NVam6pG5tSVjObqRCeKsyb1scfdRNzJHU2y3c-FPs251fTOudy8VJqBurT2_SP7mm87WsHogmPB0z4RmlIcUIW_GhIi1cSRPog_-gkMjkzpZYVxPrs-DROEEZ1Jb8P8FKMcM-HZpdlhSYFFlocp1Cj4OVhUdCfaQI5N-2-YG-FZdffY54ynMC-AXvCf4EXYbQ-24M_IoBjix6zBKIx5yDzxqUjOW5ois3lXzFMSPL2RvOjTMVcEb5k_7f0_xgdbBHFvt-3Mhcx6hRxOnnNG2DhVnSAVTM5sWDM6YBrmmYBneGGoy-h5mmko0QaX9u4J7mKhna-_NRSW2gJuNbZBi6BlsmZAl-zSbbB-lGnwovv_58AKL0BwnSq3SJjdPA=="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEnxzYsyTUC5k9YXkw1qpXK5fsORLpAgi1m5zTCCXgtNrmB1jV_T5ARuH8puiqLjnf4nkdWoB0YwunagxZIkDVHeIL3cehzTV4cxP6ECp72wQu7z9DkJTjGoMUnjhufMZpWpmy7IBBr68Ql2u-3hrLxgq9PJsAAAk5HygR7q1auTmzfWfI-LYwZG2wEJQ580YZF1cdh1rzieMl645VTDLi1WZSjvapgNOw3vNpF6DEnZGv6PBeS1copUYsJ0w5VFpQvUxWCOQLroAloc9QfEzgTNZ_erQ="
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSON9XJM7EzbxU8AZqrKUqg2YsZpmV1uoRpUSyWWH6Z0QTKhnj9Ptaxdx2-QXI7MbMcFvzU_l7Kknsohb-lt4bH21tIe_hIew3bUZkWhu1RNEtaPKbSydftXWaO7Vh586Aab7hT2VFg1OnBW_3pdkl0-aBIyGCE-FSkg=="
+      },
+      {
+        "label": "jobrun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCXIdp3y3EO8UzwJu6AT3tp0io7eOSMDxxOADCoMj_sepjtjccis1Cday6CwjkCAp6hDBs6KQe9l5wM5o2znbtsHQqtK7R7x-ymebcSyVtxftE6yysF82teBSIEFO97n06iNsBjsVtTt5v-G-f90DX8wYR-MC0DR1-80g2JLse-tIPdJ2hilU81YpIRnau3XTu_dX332ObiqWvmgxEys2CIEnqPFcgAJE-k6zi9CNADX_UApmFJ98pBFKszsr0m-jOZCP86YHFMjZaSYdO3Q98ljr49QRoWZMJiCz7LsBxb5zGMRtLAzhdRd5zsqypKMGoFfSvwIX8SMqMzjlZItvQR5jkjTtRpuX9qqxvQM-oMiYif7RyGqyQmhVZDcLQoZvHcCddVNU7CQpTfv4o8Cspg54rXiln9Olv5BqOT151MaaxLR2Xm9gNmtmhNq7YJzeO3LVwuEsYdwkJmNX9j6YvudNFCHMa1a7XOi-kqD3eak4sHsfZVrwT7u5Lp6aADapGYF8vSO0="
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSON9XJM7EzbxU8AZqrKUqg2YsZpmV1uoRpUSyWWH6Z0QTKhnj9Ptaxdx2-QXI7MbMcFvzU_l7Kknsohb-lt4bH21tIe_hIew3bUZkWhu1RNEtaPKbSydftXWaO7Vh586Aab7hT2VFg1OnBW_3pdkl0-aBIyGCE-FSkg=="
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSON9XJM7EzbxU8AZqrKUqg2YsZpmV1uoRpUSyWWH6Z0QTKhnj9Ptaxdx2-QXI7MbMcFvzU_l7Kknsohb-lt4bH21tIe_hIew3bUZkWhu1RNEtaPKbSydftXWaO7Vh586Aab7hT2VFg1OnBW_3pdkl0-aBIyGCE-FSkg=="
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSON9XJM7EzbxU8AZqrKUqg2YsZpmV1uoRpUSyWWH6Z0QTKhnj9Ptaxdx2-QXI7MbMcFvzU_l7Kknsohb-lt4bH21tIe_hIew3bUZkWhu1RNEtaPKbSydftXWaO7Vh586Aab7hT2VFg1OnBW_3pdkl0-aBIyGCE-FSkg=="
+      },
+      {
+        "label": "jobrun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCXIdp3y3EO8UzwJu6AT3tp0io7eOSMDxxOADCoMj_sepjtjccis1Cday6CwjkCAp6hDBs6KQe9l5wM5o2znbtsHQqtK7R7x-ymebcSyVtxftE6yysF82teBSIEFO97n06iNsBjsVtTt5v-G-f90DX8wYR-MC0DR1-80g2JLse-tIPdJ2hilU81YpIRnau3XTu_dX332ObiqWvmgxEys2CIEnqPFcgAJE-k6zi9CNADX_UApmFJ98pBFKszsr0m-jOZCP86YHFMjZaSYdO3Q98ljr49QRoWZMJiCz7LsBxb5zGMRtLAzhdRd5zsqypKMGoFfSvwIX8SMqMzjlZItvQR5jkjTtRpuX9qqxvQM-oMiYif7RyGqyQmhVZDcLQoZvHcCddVNU7CQpTfv4o8Cspg54rXiln9Olv5BqOT151MaaxLR2Xm9gNmtmhNq7YJzeO3LVwuEsYdwkJmNX9j6YvudNFCHMa1a7XOi-kqD3eak4sHsfZVrwT7u5Lp6aADapGYF8vSO0="
+      },
+      {
+        "label": "jobrun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV00hVG5GAAB0czLYOGJP0aDrLShF0cLoHzxSTTaAGXVdxz0UbGgJg3LoRnwOyeZLZpHw3fcloZPUDEIFdfZP_-xxi4X8ZMSjfLKY1ZNZbGmjGBTmE4AxyYFELh1R_E2RyndoKxQz7fLcsJ-yzEUD-7mqNCgdNsWPXKMazx9CRpQA59Cyp2nTQp7u5wLFZzqnTyOZs3DjsGfL07kg5iCvRGz0Ytpt767D10mNqufdSfFcn7yJXAOzaXlQOuAdkLEUtqBw3Lu7iL_A-kIA5NGt0NfWNAULbV1AZlc3Pkptv0QVvbAXmO1mffQPK8sPpKRMLvtKdaa7Oihct60QFc5YQFc8-0jDDQqESdxdMpebt6c_Phn7hVXxpOSA13vWzPaUCcVsgu934-7xJf-9neAjWrS7JfuWxFBayGUUb8mCjMceLeHf53GS2cSxh0TbihTkfmHswd2hz"
+      },
+      {
+        "label": "rabota",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlqyc-6WNLycuDe57EW3SBydqDMrDA4RfXwUcnHKx93GCkFAWBjwCOlrSnLW0hCHmQyPmk08mTVL7JkksY7_4Lqu0nm8_wL30qJKxyR6WEHREZ-NVam6pG5tSVjObqRCeKsyb1scfdRNzJHU2y3c-FPs251fTOudy8VJqBurT2_SP7mm87WsHogmPB0z4RmlIcUIW_GhIi1cSRPog_-gkMjkzpZYVxPrs-DROEEZ1Jb8P8FKMcM-HZpdlhSYFFlocp1Cj4OVhUdCfaQI5N-2-YG-FZdffY54ynMC-AXvCf4EXYbQ-24M_IoBjix6zBKIx5yDzxqUjOW5ois3lXzFMSPL2RvOjTMVcEb5k_7f0_xgdbBHFvt-3Mhcx6hRxOnnNG2DhVnSAVTM5sWDM6YBrmmYBneGGoy-h5mmko0QaX9u4J7mKhna-_NRSW2gJuNbZBi6BlsmZAl-zSbbB-lGnwovv_58AKL0BwnSq3SJjdPA=="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEnxzYsyTUC5k9YXkw1qpXK5fsORLpAgi1m5zTCCXgtNrmB1jV_T5ARuH8puiqLjnf4nkdWoB0YwunagxZIkDVHeIL3cehzTV4cxP6ECp72wQu7z9DkJTjGoMUnjhufMZpWpmy7IBBr68Ql2u-3hrLxgq9PJsAAAk5HygR7q1auTmzfWfI-LYwZG2wEJQ580YZF1cdh1rzieMl645VTDLi1WZSjvapgNOw3vNpF6DEnZGv6PBeS1copUYsJ0w5VFpQvUxWCOQLroAloc9QfEzgTNZ_erQ="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEnxzYsyTUC5k9YXkw1qpXK5fsORLpAgi1m5zTCCXgtNrmB1jV_T5ARuH8puiqLjnf4nkdWoB0YwunagxZIkDVHeIL3cehzTV4cxP6ECp72wQu7z9DkJTjGoMUnjhufMZpWpmy7IBBr68Ql2u-3hrLxgq9PJsAAAk5HygR7q1auTmzfWfI-LYwZG2wEJQ580YZF1cdh1rzieMl645VTDLi1WZSjvapgNOw3vNpF6DEnZGv6PBeS1copUYsJ0w5VFpQvUxWCOQLroAloc9QfEzgTNZ_erQ="
+      },
+      {
+        "label": "dreamjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcC2PY9E4godpwhBfRDnpfAp55huwnB88PyP7YjGT5TOUTv_4MIW26RXI37Ko9htKGSsiJ3D92EHuydaWNEc8YY8t9jrO3IhQfbcH2W4bxG_eimgln7Hj_BzXIJEYWe6BfzMHbwNIL8RNcWHMsOoPqme0="
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSON9XJM7EzbxU8AZqrKUqg2YsZpmV1uoRpUSyWWH6Z0QTKhnj9Ptaxdx2-QXI7MbMcFvzU_l7Kknsohb-lt4bH21tIe_hIew3bUZkWhu1RNEtaPKbSydftXWaO7Vh586Aab7hT2VFg1OnBW_3pdkl0-aBIyGCE-FSkg=="
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0RKFFp6008d9KputTv4Ts1aLPDgxc36PRMIGzOc9y-BbEpx_b5D1_uCuyVQ-QGdDQL10OLwajr5DT-Ie_KFxX5lK3ue_oSsDZRZn8HoMj3Vh7bQJ_G_HTZeRIIElRsxT6DvJD9HBoztpWCv95m6TS"
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFevyFoy4IpZs8IyZp6ITKbGFMvIiIaWERJ4T8j9oAXuCkX0dGjpm-yePMPa0bH0I6iqXdA2C76ooid9EBlZIuE9oMAKQu8rdSLPwGQ58gGrNl5yY13ochRA_keuoDY-vAUisxoLvAQUFBsYcLArxzFqed_zcgW-EZVOj2BfVBeo_bZrsKy--OeoQGC-KxepUaSPytLAO-Xz_wWVSyIiuEn4dQiKAjwkhJGUp_GT6vzAh13s5o8kTZ41k095ylf7Rw8yG7hAsiHdQm_r_Dn8Mi5OFm3kbbC6teAITCx"
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2RuVHwYvMkmgKVYiK2IQ320yEWH2zATbjHcIiKq9z4ByPEemEvJhTyOdXFvZayX8jA0zYy-26anklC1hleJqZj9Dl4xrYKsKBmaG3KqF6sFtZls84bYtoTccGMSJpIoxK-mOSr_VQKSq4WmkroURKEVJn5qVB2ZJCWR-zA6C1g6gKnXOMyg=="
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0RKFFp6008d9KputTv4Ts1aLPDgxc36PRMIGzOc9y-BbEpx_b5D1_uCuyVQ-QGdDQL10OLwajr5DT-Ie_KFxX5lK3ue_oSsDZRZn8HoMj3Vh7bQJ_G_HTZeRIIElRsxT6DvJD9HBoztpWCv95m6TS"
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFevyFoy4IpZs8IyZp6ITKbGFMvIiIaWERJ4T8j9oAXuCkX0dGjpm-yePMPa0bH0I6iqXdA2C76ooid9EBlZIuE9oMAKQu8rdSLPwGQ58gGrNl5yY13ochRA_keuoDY-vAUisxoLvAQUFBsYcLArxzFqed_zcgW-EZVOj2BfVBeo_bZrsKy--OeoQGC-KxepUaSPytLAO-Xz_wWVSyIiuEn4dQiKAjwkhJGUp_GT6vzAh13s5o8kTZ41k095ylf7Rw8yG7hAsiHdQm_r_Dn8Mi5OFm3kbbC6teAITCx"
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0RKFFp6008d9KputTv4Ts1aLPDgxc36PRMIGzOc9y-BbEpx_b5D1_uCuyVQ-QGdDQL10OLwajr5DT-Ie_KFxX5lK3ue_oSsDZRZn8HoMj3Vh7bQJ_G_HTZeRIIElRsxT6DvJD9HBoztpWCv95m6TS"
+      },
+      {
+        "label": "avito",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNesBYjMsvgj4Z9vL6c-Da2wCiKnhFmOexxOnpRyKQx7cXyCTsJzCIMjRiAe0ClzEzAy8pt9N0CCGAB5XZ-VgYqJWdlug8PbVCvWetfZHJloBplh0QoeENKm6JiFEZdOVJOWFMliBzF2-nfM80_Q96_PJuWmheUy9XHTfisqQrQOr_jQKH3U3HKNb0UhaIIqQcm63lNJ3xooE="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFevyFoy4IpZs8IyZp6ITKbGFMvIiIaWERJ4T8j9oAXuCkX0dGjpm-yePMPa0bH0I6iqXdA2C76ooid9EBlZIuE9oMAKQu8rdSLPwGQ58gGrNl5yY13ochRA_keuoDY-vAUisxoLvAQUFBsYcLArxzFqed_zcgW-EZVOj2BfVBeo_bZrsKy--OeoQGC-KxepUaSPytLAO-Xz_wWVSyIiuEn4dQiKAjwkhJGUp_GT6vzAh13s5o8kTZ41k095ylf7Rw8yG7hAsiHdQm_r_Dn8Mi5OFm3kbbC6teAITCx"
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0RKFFp6008d9KputTv4Ts1aLPDgxc36PRMIGzOc9y-BbEpx_b5D1_uCuyVQ-QGdDQL10OLwajr5DT-Ie_KFxX5lK3ue_oSsDZRZn8HoMj3Vh7bQJ_G_HTZeRIIElRsxT6DvJD9HBoztpWCv95m6TS"
+      },
+      {
+        "label": "tusur-courses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-R93WZQAhJqJ1QZ8v-toISCyf_WYsJ_2yacGOmynj0dWsZ38lFRf3rUsAnGPv8aCWD5CgzCfrdJla-mgcYkrFjf5fkHypyw-UaSYXzKaKwLEOsyhZKMH-HceCaaEMQwsLQS1TXB0QdjSv3COauzcNz9E3DhSAqYUOI8Isz7yFF0L25xr27AiAU4bO2oSuiIqlg5X3zOl1EGgxy5SxPyidLYEfEVprjUncuI2U5fyu"
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFevyFoy4IpZs8IyZp6ITKbGFMvIiIaWERJ4T8j9oAXuCkX0dGjpm-yePMPa0bH0I6iqXdA2C76ooid9EBlZIuE9oMAKQu8rdSLPwGQ58gGrNl5yY13ochRA_keuoDY-vAUisxoLvAQUFBsYcLArxzFqed_zcgW-EZVOj2BfVBeo_bZrsKy--OeoQGC-KxepUaSPytLAO-Xz_wWVSyIiuEn4dQiKAjwkhJGUp_GT6vzAh13s5o8kTZ41k095ylf7Rw8yG7hAsiHdQm_r_Dn8Mi5OFm3kbbC6teAITCx"
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFevyFoy4IpZs8IyZp6ITKbGFMvIiIaWERJ4T8j9oAXuCkX0dGjpm-yePMPa0bH0I6iqXdA2C76ooid9EBlZIuE9oMAKQu8rdSLPwGQ58gGrNl5yY13ochRA_keuoDY-vAUisxoLvAQUFBsYcLArxzFqed_zcgW-EZVOj2BfVBeo_bZrsKy--OeoQGC-KxepUaSPytLAO-Xz_wWVSyIiuEn4dQiKAjwkhJGUp_GT6vzAh13s5o8kTZ41k095ylf7Rw8yG7hAsiHdQm_r_Dn8Mi5OFm3kbbC6teAITCx"
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2RuVHwYvMkmgKVYiK2IQ320yEWH2zATbjHcIiKq9z4ByPEemEvJhTyOdXFvZayX8jA0zYy-26anklC1hleJqZj9Dl4xrYKsKBmaG3KqF6sFtZls84bYtoTccGMSJpIoxK-mOSr_VQKSq4WmkroURKEVJn5qVB2ZJCWR-zA6C1g6gKnXOMyg=="
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0RKFFp6008d9KputTv4Ts1aLPDgxc36PRMIGzOc9y-BbEpx_b5D1_uCuyVQ-QGdDQL10OLwajr5DT-Ie_KFxX5lK3ue_oSsDZRZn8HoMj3Vh7bQJ_G_HTZeRIIElRsxT6DvJD9HBoztpWCv95m6TS"
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2RuVHwYvMkmgKVYiK2IQ320yEWH2zATbjHcIiKq9z4ByPEemEvJhTyOdXFvZayX8jA0zYy-26anklC1hleJqZj9Dl4xrYKsKBmaG3KqF6sFtZls84bYtoTccGMSJpIoxK-mOSr_VQKSq4WmkroURKEVJn5qVB2ZJCWR-zA6C1g6gKnXOMyg=="
+      },
+      {
+        "label": "hh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2RuVHwYvMkmgKVYiK2IQ320yEWH2zATbjHcIiKq9z4ByPEemEvJhTyOdXFvZayX8jA0zYy-26anklC1hleJqZj9Dl4xrYKsKBmaG3KqF6sFtZls84bYtoTccGMSJpIoxK-mOSr_VQKSq4WmkroURKEVJn5qVB2ZJCWR-zA6C1g6gKnXOMyg=="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFevyFoy4IpZs8IyZp6ITKbGFMvIiIaWERJ4T8j9oAXuCkX0dGjpm-yePMPa0bH0I6iqXdA2C76ooid9EBlZIuE9oMAKQu8rdSLPwGQ58gGrNl5yY13ochRA_keuoDY-vAUisxoLvAQUFBsYcLArxzFqed_zcgW-EZVOj2BfVBeo_bZrsKy--OeoQGC-KxepUaSPytLAO-Xz_wWVSyIiuEn4dQiKAjwkhJGUp_GT6vzAh13s5o8kTZ41k095ylf7Rw8yG7hAsiHdQm_r_Dn8Mi5OFm3kbbC6teAITCx"
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU0k-TP5sVe6oE1VhYFzRILYaWmLGguqqoUKi9ZSnoUE4g1NVxqhhhcF7QdlkObrcIsXwn0bA46xoJZzcdv64caBnj2tasXCyOzDfFpQikI88EBMLcdiAL3Q3eYq78ZsweVx8VP9UlLJLF0kzGA2Wm5yjMmbYAoJzcrahy2xCbTpwi8ZNF8sEruwBwKmHT1PYjvDr3Qt2_1cFysHe3z0Gkw29W79y6aoNjcHL16FILFUBNf00DAL0CasTwzmTP79lG-lve2RBj7-_GJ2hRcA-p5rXB5WRIAS0qikqkxNSF70PUTSsLJnWxVjN7N13BbGqF-mDZXn8="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU0k-TP5sVe6oE1VhYFzRILYaWmLGguqqoUKi9ZSnoUE4g1NVxqhhhcF7QdlkObrcIsXwn0bA46xoJZzcdv64caBnj2tasXCyOzDfFpQikI88EBMLcdiAL3Q3eYq78ZsweVx8VP9UlLJLF0kzGA2Wm5yjMmbYAoJzcrahy2xCbTpwi8ZNF8sEruwBwKmHT1PYjvDr3Qt2_1cFysHe3z0Gkw29W79y6aoNjcHL16FILFUBNf00DAL0CasTwzmTP79lG-lve2RBj7-_GJ2hRcA-p5rXB5WRIAS0qikqkxNSF70PUTSsLJnWxVjN7N13BbGqF-mDZXn8="
+      },
+      {
+        "label": "dreamjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1UDpR5-zp67SEZEft3qEm2_915HfW03Qd4PDEn-0t3MHL_SIec5tfNrzLZIIyTZ5hYyHidAw9prznLcuOMinngkShAwXuLrvE85B6BZ53sJfW_rpd9E5rQ1HZUdH85uvZE7yMvhQiYT8G_T3iGH4="
+      },
+      {
+        "label": "dreamjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1UDpR5-zp67SEZEft3qEm2_915HfW03Qd4PDEn-0t3MHL_SIec5tfNrzLZIIyTZ5hYyHidAw9prznLcuOMinngkShAwXuLrvE85B6BZ53sJfW_rpd9E5rQ1HZUdH85uvZE7yMvhQiYT8G_T3iGH4="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEU0k-TP5sVe6oE1VhYFzRILYaWmLGguqqoUKi9ZSnoUE4g1NVxqhhhcF7QdlkObrcIsXwn0bA46xoJZzcdv64caBnj2tasXCyOzDfFpQikI88EBMLcdiAL3Q3eYq78ZsweVx8VP9UlLJLF0kzGA2Wm5yjMmbYAoJzcrahy2xCbTpwi8ZNF8sEruwBwKmHT1PYjvDr3Qt2_1cFysHe3z0Gkw29W79y6aoNjcHL16FILFUBNf00DAL0CasTwzmTP79lG-lve2RBj7-_GJ2hRcA-p5rXB5WRIAS0qikqkxNSF70PUTSsLJnWxVjN7N13BbGqF-mDZXn8="
+      },
+      {
+        "label": "postupi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTxdnx6M9xcopOz7h82gRAs_C9O9uTOvDe2tMZfG0BS-py54XHCpVEKNVXl1Fn0S-VfdRjjMvHnQIop3zPZjmtU8e8vurbaIWGPRPjqXk6U9Sv49ijuSamLhGL031IcECcux2Tx4SS9Cf4sFO8kK2O605f3fk3SphrJUrwgo73F4Z9Xpf8XZ2aQg=="
+      },
+      {
+        "label": "postupi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJCK1V0xu2JB1r48BE75IcgWSS0nuR1KRshF3WsizZUSNI9-RbwwJrTUbvwszK18V7f3nmZNQl6u375qRBmDE0zf6WncXvH44LV6siVvCGL0vSbM3esx6BAGB6TR6RSM_LvflbaCZgViAv7c1vNqZywfth_NvTQlSTzK69hqMFXyzxhB-4QFU2SDJfSkLdaYM="
+      },
+      {
+        "label": "ncpo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUD0w7Cg5oGpvkhRbtlohFLRWuPOYYUeeEPx7D8OpIOFu6NRMz3h3jygyh2WLG70oj0jjWl0SrapH7ZLydGmKrQjgX1JAvaDnKvQGVjWPKi-P0vBnUczN4L7LCZD-a93g8T_WBP_23xTApcTj12kbcGdxtxdlZT1uWIXmuM0XXyApzGtui"
+      },
+      {
+        "label": "skillbox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGe0_EClWDwPHo40wyy8C_1d6y7256QwqKlPVBe2EdoaIfgk7YBNRvpaz6eL3w6lQbi0hBMjSa52Q7kfdLmnvpgx-16bTSm7ep0TxfugDw3LhCalIdDmBfVM2shXi2sKyhZTaBWQjBGkR4MKPdvFJNUcN8OFw_Bz6Vv3KrBhQ=="
+      },
+      {
+        "label": "directline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlCrX2gPdPjiyyJ6YYaiDMuRbXiZNHMoYo4kPxV2oD_CCKL5ne_2yir_7gBmUvHD2BuTrhs__piT9IOspzxC_uJqYNC4DUT-QBUvX7D2H3fwIgqlmwLHkw68mb8b6f91Ay0XPm2D8WgwLxeKDpvUc6"
+      },
+      {
+        "label": "tusur-courses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-R93WZQAhJqJ1QZ8v-toISCyf_WYsJ_2yacGOmynj0dWsZ38lFRf3rUsAnGPv8aCWD5CgzCfrdJla-mgcYkrFjf5fkHypyw-UaSYXzKaKwLEOsyhZKMH-HceCaaEMQwsLQS1TXB0QdjSv3COauzcNz9E3DhSAqYUOI8Isz7yFF0L25xr27AiAU4bO2oSuiIqlg5X3zOl1EGgxy5SxPyidLYEfEVprjUncuI2U5fyu"
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmBHciVBGft7_mU4SGABvIb_1lRjTPtt8gguMJgX2Wx6OANLnFQF0-0PJX5uPdjEd9-SP81n-PXBWMu1XkY_ohNne90IvBJ53siDY7ku5p4XtFTKbxMRMylSdgJDcZXBGoCk99dBcpjrugDADXYxfxyKqI4213lR_HqA=="
+      },
+      {
+        "label": "avito",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNesBYjMsvgj4Z9vL6c-Da2wCiKnhFmOexxOnpRyKQx7cXyCTsJzCIMjRiAe0ClzEzAy8pt9N0CCGAB5XZ-VgYqJWdlug8PbVCvWetfZHJloBplh0QoeENKm6JiFEZdOVJOWFMliBzF2-nfM80_Q96_PJuWmheUy9XHTfisqQrQOr_jQKH3U3HKNb0UhaIIqQcm63lNJ3xooE="
+      },
+      {
+        "label": "tusur-courses",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-R93WZQAhJqJ1QZ8v-toISCyf_WYsJ_2yacGOmynj0dWsZ38lFRf3rUsAnGPv8aCWD5CgzCfrdJla-mgcYkrFjf5fkHypyw-UaSYXzKaKwLEOsyhZKMH-HceCaaEMQwsLQS1TXB0QdjSv3COauzcNz9E3DhSAqYUOI8Isz7yFF0L25xr27AiAU4bO2oSuiIqlg5X3zOl1EGgxy5SxPyidLYEfEVprjUncuI2U5fyu"
+      },
+      {
+        "label": "avito",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNesBYjMsvgj4Z9vL6c-Da2wCiKnhFmOexxOnpRyKQx7cXyCTsJzCIMjRiAe0ClzEzAy8pt9N0CCGAB5XZ-VgYqJWdlug8PbVCvWetfZHJloBplh0QoeENKm6JiFEZdOVJOWFMliBzF2-nfM80_Q96_PJuWmheUy9XHTfisqQrQOr_jQKH3U3HKNb0UhaIIqQcm63lNJ3xooE="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2N5DinMwGLxYO08TZb6oWyPrsou5P_VE2DSlFWT20OEo9J8Iya8he7EKsqOQagggRMK58BTZiiuEr0xnTw_LoqZ018TMPzCkxdUYPD2IFsL7juw4N8CR44eZqCQuLaUwQeWkn9C2Sg9CJdsBTAaEFRO8="
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmBHciVBGft7_mU4SGABvIb_1lRjTPtt8gguMJgX2Wx6OANLnFQF0-0PJX5uPdjEd9-SP81n-PXBWMu1XkY_ohNne90IvBJ53siDY7ku5p4XtFTKbxMRMylSdgJDcZXBGoCk99dBcpjrugDADXYxfxyKqI4213lR_HqA=="
+      },
+      {
+        "label": "gorodrabot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqjjq-W96HgNrngUPR2GHUyrWbLhfH4oFztjdu-aGG-M2oxhk2p_I-q3H2w1Vsn-HZX6NVNvmdGwrzLPNgFh33WeIhCg9LOeNjyf3r16fY14fTdLcROWi1h8UNV-qf4rLPO0hzRCXrnhzc7lTth3o3tetQgt6JVomB2MfH8cuopaE2jxDWSVmd3deVTDvfgvYM1J5Fy4eadA3d85uEcLhpjBsHTQlwicCxf2mbnBFsVP0iW7KzrAuExu95nacnW_98ZMYrKBKdFerH3z1X5k5XzamIIvj6DY1qugiwWpINJ1aLGbVskppW9Sp4hKP1KJDZ-HBB7MhV0gGHTwAw7B8DBSwgUNwiTyv5FL3zXFmgMcEeWoJuMg=="
+      },
+      {
+        "label": "superjob",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmBHciVBGft7_mU4SGABvIb_1lRjTPtt8gguMJgX2Wx6OANLnFQF0-0PJX5uPdjEd9-SP81n-PXBWMu1XkY_ohNne90IvBJ53siDY7ku5p4XtFTKbxMRMylSdgJDcZXBGoCk99dBcpjrugDADXYxfxyKqI4213lR_HqA=="
+      },
+      {
+        "label": "ziprecruiter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU09GWliyY-IRNovpkECCrMn4g9fbbKIRW74xTT7EzpilyQQxR6T60r8Mp-AfEiFfxXr_vQ2K3BtdmupcYtvoQaGQi5vHyE9vRwfjEQPO71WMY4MI4Elz-1e6uNiGejWenxHzRYWXzPUioGo2wDvyKMXgCBkLhXABq1fRI"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "studyabroadaide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZvY4Q-dOCKK1fdYlUExtSGrCYi4dMTGjFrsVUbG4dqfUpfOXY-XyoDitbs13bGBxzzYinjzButPI1FzVzy66snEb4PVxeqgAPMsDbrEY95N0Vyn3joEL4TlNPhslYkedCxoNa4wFxNb1xszQGtjv7AY="
+      },
+      {
+        "label": "uust",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVdbKBNR--DwzyTA_PU78tOj-omP4r1c96eTSxBddSvkYgmHbECvKsg2onCza57iWEN4vVIMDS6D6HCJswuZXX8FxsxmzuTwuWcfVkWJQiazw="
+      },
+      {
+        "label": "studyabroadaide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpZvY4Q-dOCKK1fdYlUExtSGrCYi4dMTGjFrsVUbG4dqfUpfOXY-XyoDitbs13bGBxzzYinjzButPI1FzVzy66snEb4PVxeqgAPMsDbrEY95N0Vyn3joEL4TlNPhslYkedCxoNa4wFxNb1xszQGtjv7AY="
+      },
+      {
+        "label": "uust",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVdbKBNR--DwzyTA_PU78tOj-omP4r1c96eTSxBddSvkYgmHbECvKsg2onCza57iWEN4vVIMDS6D6HCJswuZXX8FxsxmzuTwuWcfVkWJQiazw="
+      },
+      {
+        "label": "tealhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo5hADy_HVlPA7lDltzi_pvanb2ZkFqXcB9Sm4Zs047RyhlgdXZPiVFJtxxe5Z52OocUAnd1QbJGSGCenlNHzyHgLV3PylJ6XN1QHkTz2aR38X1WdghkAl1mm6fUqs8NfSsdwuuVybaBg7a4="
+      },
+      {
+        "label": "tealhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo5hADy_HVlPA7lDltzi_pvanb2ZkFqXcB9Sm4Zs047RyhlgdXZPiVFJtxxe5Z52OocUAnd1QbJGSGCenlNHzyHgLV3PylJ6XN1QHkTz2aR38X1WdghkAl1mm6fUqs8NfSsdwuuVybaBg7a4="
+      },
+      {
+        "label": "tealhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo5hADy_HVlPA7lDltzi_pvanb2ZkFqXcB9Sm4Zs047RyhlgdXZPiVFJtxxe5Z52OocUAnd1QbJGSGCenlNHzyHgLV3PylJ6XN1QHkTz2aR38X1WdghkAl1mm6fUqs8NfSsdwuuVybaBg7a4="
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "tealhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo5hADy_HVlPA7lDltzi_pvanb2ZkFqXcB9Sm4Zs047RyhlgdXZPiVFJtxxe5Z52OocUAnd1QbJGSGCenlNHzyHgLV3PylJ6XN1QHkTz2aR38X1WdghkAl1mm6fUqs8NfSsdwuuVybaBg7a4="
+      },
+      {
+        "label": "tealhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo5hADy_HVlPA7lDltzi_pvanb2ZkFqXcB9Sm4Zs047RyhlgdXZPiVFJtxxe5Z52OocUAnd1QbJGSGCenlNHzyHgLV3PylJ6XN1QHkTz2aR38X1WdghkAl1mm6fUqs8NfSsdwuuVybaBg7a4="
+      },
+      {
+        "label": "tealhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo5hADy_HVlPA7lDltzi_pvanb2ZkFqXcB9Sm4Zs047RyhlgdXZPiVFJtxxe5Z52OocUAnd1QbJGSGCenlNHzyHgLV3PylJ6XN1QHkTz2aR38X1WdghkAl1mm6fUqs8NfSsdwuuVybaBg7a4="
+      },
+      {
+        "label": "tealhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo5hADy_HVlPA7lDltzi_pvanb2ZkFqXcB9Sm4Zs047RyhlgdXZPiVFJtxxe5Z52OocUAnd1QbJGSGCenlNHzyHgLV3PylJ6XN1QHkTz2aR38X1WdghkAl1mm6fUqs8NfSsdwuuVybaBg7a4="
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "ziprecruiter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM8XZENse1RP6MSxP6WX1LpqR5tZPqTt0b2LeGja1xp3XKK7bru8J9EP83_RZa4GzHnCQ2lTDbsgXLK0tytEKK5dtrRGjs5dWc6RzHxkRkLTDdCK3vuKVtxpw6RBQuXRlNhB_cwMu0Gh7KtNVsFBrmX918q3-nusVWMdD8fZordGBgGHyCce77vn50rHB9ubf1-6EdAYgblbUYNmVkTGVDj9UojF_vOJ2sYPOc"
+      },
+      {
+        "label": "ziprecruiter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM8XZENse1RP6MSxP6WX1LpqR5tZPqTt0b2LeGja1xp3XKK7bru8J9EP83_RZa4GzHnCQ2lTDbsgXLK0tytEKK5dtrRGjs5dWc6RzHxkRkLTDdCK3vuKVtxpw6RBQuXRlNhB_cwMu0Gh7KtNVsFBrmX918q3-nusVWMdD8fZordGBgGHyCce77vn50rHB9ubf1-6EdAYgblbUYNmVkTGVDj9UojF_vOJ2sYPOc"
+      },
+      {
+        "label": "ziprecruiter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM8XZENse1RP6MSxP6WX1LpqR5tZPqTt0b2LeGja1xp3XKK7bru8J9EP83_RZa4GzHnCQ2lTDbsgXLK0tytEKK5dtrRGjs5dWc6RzHxkRkLTDdCK3vuKVtxpw6RBQuXRlNhB_cwMu0Gh7KtNVsFBrmX918q3-nusVWMdD8fZordGBgGHyCce77vn50rHB9ubf1-6EdAYgblbUYNmVkTGVDj9UojF_vOJ2sYPOc"
+      },
+      {
+        "label": "ziprecruiter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM8XZENse1RP6MSxP6WX1LpqR5tZPqTt0b2LeGja1xp3XKK7bru8J9EP83_RZa4GzHnCQ2lTDbsgXLK0tytEKK5dtrRGjs5dWc6RzHxkRkLTDdCK3vuKVtxpw6RBQuXRlNhB_cwMu0Gh7KtNVsFBrmX918q3-nusVWMdD8fZordGBgGHyCce77vn50rHB9ubf1-6EdAYgblbUYNmVkTGVDj9UojF_vOJ2sYPOc"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "pynetlabs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTs_vWbJxjFXUTGlMiwtXh9rTe-nx-sDNWArvt5DuuFRNNSiYydgl8G2A4yITNOwRRmSgdwHHbiodrwzdn-HVduBv2PGQhfbeQn6KLH7WRYu3R-yrNNiXlaCBOkH1LEcNZ641VIH5kcOPzn7ju6XaSlZhgx1x5mL_7DtRaFtxruMB6Vg=="
+      },
+      {
+        "label": "edurank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXk_RqLuEiESJ0CBGdBI8qTA6x9HA9vWVsuwHU85lo-dczG6cCb7Uu1k8b_YdhrYDPHu8BQfAptvvziYsK8IhgEv_CJlkr2k0lUG7gVlH4AUPsMlwyOqaDl6rG4EDT2nNN1WMy-la4mRA="
+      },
+      {
+        "label": "edurank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXk_RqLuEiESJ0CBGdBI8qTA6x9HA9vWVsuwHU85lo-dczG6cCb7Uu1k8b_YdhrYDPHu8BQfAptvvziYsK8IhgEv_CJlkr2k0lUG7gVlH4AUPsMlwyOqaDl6rG4EDT2nNN1WMy-la4mRA="
+      },
+      {
+        "label": "edurank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXk_RqLuEiESJ0CBGdBI8qTA6x9HA9vWVsuwHU85lo-dczG6cCb7Uu1k8b_YdhrYDPHu8BQfAptvvziYsK8IhgEv_CJlkr2k0lUG7gVlH4AUPsMlwyOqaDl6rG4EDT2nNN1WMy-la4mRA="
+      },
+      {
+        "label": "edurank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXk_RqLuEiESJ0CBGdBI8qTA6x9HA9vWVsuwHU85lo-dczG6cCb7Uu1k8b_YdhrYDPHu8BQfAptvvziYsK8IhgEv_CJlkr2k0lUG7gVlH4AUPsMlwyOqaDl6rG4EDT2nNN1WMy-la4mRA="
+      },
+      {
+        "label": "tealhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdo5hADy_HVlPA7lDltzi_pvanb2ZkFqXcB9Sm4Zs047RyhlgdXZPiVFJtxxe5Z52OocUAnd1QbJGSGCenlNHzyHgLV3PylJ6XN1QHkTz2aR38X1WdghkAl1mm6fUqs8NfSsdwuuVybaBg7a4="
+      },
+      {
+        "label": "noesis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-inRVzn2YX36n8fEKaRIRagMQFVLjX7Bnfs2vAqksD7cbRom37BczmpWrFW1cTnvRwCKawFBHDnDWOfWXC-KLabYuA0eULW6UpQzbo4whqbWoofBRcuNjALo1s-tcdp64EFFrvDAe4rRbDMP8_J-OJtWfYrpjvuGJw-KpD1q4GmOpWScyN8Hdwr6"
+      },
+      {
+        "label": "ziprecruiter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM8XZENse1RP6MSxP6WX1LpqR5tZPqTt0b2LeGja1xp3XKK7bru8J9EP83_RZa4GzHnCQ2lTDbsgXLK0tytEKK5dtrRGjs5dWc6RzHxkRkLTDdCK3vuKVtxpw6RBQuXRlNhB_cwMu0Gh7KtNVsFBrmX918q3-nusVWMdD8fZordGBgGHyCce77vn50rHB9ubf1-6EdAYgblbUYNmVkTGVDj9UojF_vOJ2sYPOc"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}
