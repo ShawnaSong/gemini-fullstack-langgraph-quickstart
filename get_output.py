@@ -26,14 +26,21 @@ with open(csv_file, 'r', encoding='utf-8') as file:
         if len(row) >= 2:
             questions.append((row[0], row[1])) 
 
+# for question_id, question in questions[325:400]:
+#     print("question_id: ", question_id, "question: ", question, )
+
 # question_id, question = questions[0]
 # state = graph.invoke({
 #             "messages": [{"role": "user", "content": question}],
 #             "max_research_loops": 3,
 #             "initial_search_query_count": 3
 #         })
-for question_id, question in questions[258:300]:
-    print("question_id: ", question_id, "start")
+
+start_index = 395
+end_index = 450
+cur_index = start_index
+for question_id, question in questions[start_index:end_index]:
+    print("question_id: ", question_id, "start", "index: ", cur_index)
     state = graph.invoke({
                 "messages": [{"role": "user", "content": question}],
                 "max_research_loops": 3,
@@ -45,3 +52,4 @@ for question_id, question in questions[258:300]:
     with open(results_path + f"state_result_{question_id}.json", "w", encoding="utf-8") as f:
         f.write(str(state))
     print("question_id: ", question_id, "saved")
+    cur_index += 1

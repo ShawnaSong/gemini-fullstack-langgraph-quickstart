@@ -12,7 +12,7 @@ import json
 import time
 from .tools_and_schemas import client_structured_output, reasoning_structured_output
 
-usage_file = "new_usage.json"
+usage_file = "new_usage.jsonl"
 
 from agent.state import (
     OverallState,
@@ -92,7 +92,7 @@ def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerati
     # usage["output"] = result["parsed"]
     with open(usage_file, "a", encoding="utf-8") as f:
         json.dump(usage, f, ensure_ascii=False)
-        f.write(',\n')
+        f.write('\n')
     return {"query_list": result["parsed"].query}
 
     # using local deployment of qwen3-8b
@@ -102,7 +102,7 @@ def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerati
     # usage["timestamp"] = time.time()
     # with open(usage_file, "a", encoding="utf-8") as f:
     #     json.dump(usage, f, ensure_ascii=False)
-    #     f.write(',\n')
+    #     f.write('\n')
     # return {"query_list": result["parsed"].query}
 
 
@@ -153,7 +153,7 @@ def web_research(state: WebSearchState, config: RunnableConfig) -> OverallState:
     usage["output"] = response.text
     with open(usage_file, "a", encoding="utf-8") as f:
         json.dump(usage, f, ensure_ascii=False)
-        f.write(',\n')
+        f.write('\n')
 
     # resolve the urls to short urls for saving tokens and time
     resolved_urls = resolve_urls(
@@ -221,7 +221,7 @@ def reflection(state: OverallState, config: RunnableConfig) -> ReflectionState:
     # usage["output"] = result["parsed"].model_dump()
     with open(usage_file, "a", encoding="utf-8") as f:
         json.dump(usage, f, ensure_ascii=False)
-        f.write(',\n')
+        f.write('\n')
 
     # result = reasoning_structured_output(formatted_prompt, Reflection)
     # usage = result["usage"]
@@ -229,7 +229,7 @@ def reflection(state: OverallState, config: RunnableConfig) -> ReflectionState:
     # usage["timestamp"] = time.time()
     # with open(usage_file, "a", encoding="utf-8") as f:
     #     json.dump(usage, f, ensure_ascii=False)
-    #     f.write(',\n')
+    #     f.write('\n')
 
     return {
         "is_sufficient": result["parsed"].is_sufficient,
@@ -323,7 +323,7 @@ def finalize_answer(state: OverallState, config: RunnableConfig):
     # usage["output"] = result.content
     with open(usage_file, "a", encoding="utf-8") as f:
         json.dump(usage, f, ensure_ascii=False)
-        f.write(',\n')
+        f.write('\n')
 
     # output = reasoning_structured_output(formatted_prompt)
     # usage = output["usage"]
@@ -331,7 +331,7 @@ def finalize_answer(state: OverallState, config: RunnableConfig):
     # usage["timestamp"] = time.time()
     # with open(usage_file, "a", encoding="utf-8") as f:
     #     json.dump(usage, f, ensure_ascii=False)
-    #     f.write(',\n')
+    #     f.write('\n')
     # result = output["parsed"]
     # print(result)
     # Replace the short urls with the original urls and add all used urls to the sources_gathered

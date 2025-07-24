@@ -1,3 +1,4 @@
+id,question
 0,طبق قوانین ایران، از لحاظ حقوقی، اگر زن دارای رابطه عاشقانه بدون دخول بوده باشد و مرد قبل از عقد از آن مطلع نبوده باشد، آیا مرد حق فسخ نکاح بدون پرداخت مهریه و عدم اجرای شروط ضمن عقد (مثل شرط انتقال تا نصف دارایی) و علاوه بر عدم اجرای شروط ضمن عقد و عدم پرداخت مهریه، همچنین آیا امکان بازپس گیری طلاهایی که برای زن خریده را دارد؟
 1,Devlet Bahçeli yaşıyor mu öldü mü?
 2,How did Trudeau prioritize housing on a scale from 1 low to 6 high?
@@ -2230,3 +2231,2028 @@ I don't want that I want it when finishing the custom show it goes directly to s
 How to do that !!??
 
 Copy"
+600,usd to tl
+601,What’s special about the llama 4 architecture
+602,real aujourd'hui
+603,"recherchierche nach fertigen unterrihctseinheiten für 45min auf gymnasialer stufe in der schweiz, 16jähreige schüler, informatik, in denen das thema routing spielerisch erarbeitet wird ohne das die tehcnishen hintergründe zu kurz kommen"
+604,Reinhard von thaler
+605,What species of flower is extinct in north america due to development in Chicago
+606,"What can you tell me about this stock performance?
+https://finance.yahoo.com/quote/STX.WA/"
+607,dfxgcghj
+608,I want to find and hire a CS PhD who will be graduating soon. He is an expert in biomedical NLP and RAG. He did undergrad at Cal.
+609,Analyze this reddit user and roast them: https://www.reddit.com/u/celatine_
+610,ferrari son dakika f1 haberleri
+611,خرجت الشمس البارح بشعاع او بدونه؟
+612,"Отвечай в том случае, если у тебя есть чёткий и обоснованный ответ. Ничего не придумывай и не сочиняй. Не старайся мне понравиться: предоставляй информацию в нейтральных тонах. По возможности отвечай максимально подробно и приводи на каждый аргумент несколько точек зрений.
+
+Сколько российских военнослужащих погибло за всё время войны с Украиной?"
+613,йцукен
+614,"Apart from the Logitech MX Master, recommend two mice with a side scroll wheel. Only the name is needed, no description."
+615,find methods to get a circumstance bonus to Will saving throws in Pathfinder 2e. I'm an advanced player already. I want specific feats or spells or class features that give a CIRCUMSTANCE bonus to WILL SAVE or at least versus MENTAL effects
+616,What company is behind https://lmarena.ai/
+617,What is the latest of waqf act in india
+618,what happened between morocco and algeria this week
+619,what's the new API version of sonar?
+620,"I have a vacuum residue with boiling range above 550°C and API 11, I have viscosity equal to 800cst @ 70°C, can you estimate viscosity @50 C?"
+621,what is hgj
+622,what model of tcb machine did tsmc brought for their cowos
+623,"make me a list of ratchet and clank printed material like maga, comic ecc."
+624,Help me find the latest review on architectural 3D printing in the Nature journal
+625,what are the two new Laniege lip sleep masks at Sephora
+626,Is it possible to run comfyui on an Android smartphone?
+627,Why does TECNO Mobile Malaysia allow third party sellers to sell TECNO CAMON 40 Pro 5G as pre-order with expected delivery date when the model was announced today with no release date?
+628,"Search ""asiGetSession"", ""asiGetCurrentSession"", ""asiGetOutputList"", ""asiGetTopCellView"", ""asiGetDesignVarList"", ""asiSaveState"" ""asiInitAnalysis"" and ""asiGetFormatter"" with quotes separately. 
+Answer in Chinese."
+629,which LLM is the best LLM under 36B?
+630,Какие последние обновления оружия есть в destiny2?
+631,What causes cramps in my calf when using an exercise bike?
+632,"哪个rust功能，是在最新一个稳定版rust里刚刚支持的:
+1 generic associated type
+2 async closure
+3 return type notation
+4 trait upcasting"
+633,"For this decompiled c code:
+
+
+/* DWARF original prototype: DWORD ValidateHiRezCredentials(CAccountAccess * this, CTgAuthId *
+   rAuthId, CTgNetId * rniAccountId, CMarshalRow * pLoginData) */
+
+DWORD __thiscall
+CAccountAccess::ValidateHiRezCredentials
+          (CAccountAccess *this,CTgAuthId *rAuthId,CTgNetId *rniAccountId,CMarshalRow *pLoginData)
+
+{
+  bool bVar1;
+  int iVar2;
+  DWORD DVar3;
+  CCryptography *pCVar4;
+  int __in_chrg;
+  CMarshal *pCVar5;
+  BYTE *__s2;
+  wchar_t *__dest;
+  CMarshalRow *credRow;
+  TGCRYPT_HASH hash;
+  TGCRYPT_HASH auth;
+  CMarshal request;
+  WCHAR userName [52];
+  QWORD userId;
+  CMarshalRow *pCVar6;
+  
+  CMarshalRow::CMarshalRow(&request.super_CMarshalRow);
+  __in_chrg = 0x495;
+  request.super_CMarshalRow.m_byFlags = '\0';
+  request.super_CMarshalRow.m_eFunctionId = UNKNOWN;
+  request.m_pDetail = (MFUNCTION_DETAIL *)0x0;
+  credRow = (CMarshalRow *)0x0;
+  request.super_CMarshalRow.super_CMarshalObject._vptr.CMarshalObject =
+       (_func_int_varargs **)&PTR_~CMarshal_010bfd18;
+                    /* try { // try from 00809a59 to 00809adc has its CatchHandler @ 00809d2e */
+  CMarshalRow::SetField(pLoginData,MFTOK_LOGIN_PROCESS,2);
+  if ((rAuthId->super_CTgUserId).m_eUserType == GAT_STANDARD) {
+    bVar1 = ValidateStandardCredentialUserName(this,rAuthId->m_pwzLoginName);
+    if (bVar1) {
+      __dest = userName;
+      wcsncpy(__dest,rAuthId->m_pwzLoginName,0x34);
+      userName[0x33] = 0;
+      _wcslwr_s(__dest,0x34);
+      CMarshalRow::SetField(&request.super_CMarshalRow,MFTOK_USER_NAME,__dest);
+      pCVar5 = &request;
+      bVar1 = CSqlMethod::ExecuteSql
+                        ((g_pSql->Account).met_GetHiRezAuthenticationCredentials,&request,&credRow);
+      __in_chrg = (int)pCVar5;
+      if (bVar1) {
+        __in_chrg = 0x322;
+        hash.pbyHash[0x1c] = '\0';
+        hash.pbyHash[0x1d] = '\0';
+        hash.pbyHash[0x1e] = '\0';
+        hash.pbyHash[0x1f] = '\0';
+        hash.pbyHash._0_12_ = SUB1612((undefined1  [16])0x0,4);
+        hash.dwLength = 0x20;
+        hash.pbyHash[0xc] = '\0';
+        hash.pbyHash[0xd] = '\0';
+        hash.pbyHash[0xe] = '\0';
+        hash.pbyHash[0xf] = '\0';
+        hash.pbyHash[0x10] = '\0';
+        hash.pbyHash[0x11] = '\0';
+        hash.pbyHash[0x12] = '\0';
+        hash.pbyHash[0x13] = '\0';
+        hash.pbyHash[0x14] = '\0';
+        hash.pbyHash[0x15] = '\0';
+        hash.pbyHash[0x16] = '\0';
+        hash.pbyHash[0x17] = '\0';
+        hash.pbyHash[0x18] = '\0';
+        hash.pbyHash[0x19] = '\0';
+        hash.pbyHash[0x1a] = '\0';
+        hash.pbyHash[0x1b] = '\0';
+        bVar1 = CMarshalRow::GetField(credRow,MFTOK_PASSHASH,hash.pbyHash,&hash.dwLength);
+        if (!bVar1) {
+          __in_chrg = 0x323;
+          bVar1 = CMarshalRow::GetField(credRow,MFTOK_PASSWORD,(PWSTR)&userId,0x34);
+          if ((bVar1) && ((int)userId != 0)) {
+            pCVar4 = fcAllocCrypto();
+            iVar2 = (*pCVar4->_vptr.CCryptography[2])(pCVar4,__dest,&userId,&hash);
+            __in_chrg = (int)__dest;
+            (*pCVar4->_vptr.CCryptography[0xf])();
+            if ((char)iVar2 == '\0') goto LAB_00809ae1;
+          }
+        }
+        if (hash.dwLength == rAuthId->m_byAuthBlobLen) {
+          __s2 = rAuthId->m_pbyAuthBlob;
+          iVar2 = memcmp(hash.pbyHash,__s2,(ulong)hash.dwLength);
+          __in_chrg = (int)__s2;
+          if (iVar2 == 0) {
+            DVar3 = ValidateTwoFactorAuth(this,rAuthId,credRow);
+            if (DVar3 == 0) {
+              CMarshalRow::GetField(credRow,MFTOK_ACCOUNT_ID,rniAccountId);
+              bVar1 = CMarshalRow::GetField(credRow,MFTOK_AUTH_USERID,&userId);
+              if ((!bVar1) || (CONCAT44(userId._4_4_,(int)userId) == 0)) {
+                CMarshalRow::SetField
+                          (credRow,MFTOK_AUTH_USERID,(rniAccountId->field_0).field_0.m_dwId);
+              }
+              CMarshalRow::DeleteField(credRow,MFTOK_PASSHASH);
+              CMarshalRow::DeleteField(credRow,MFTOK_PASSWORD);
+              pCVar6 = credRow;
+              CMarshalRow::Merge(pLoginData,credRow);
+              __in_chrg = (int)pCVar6;
+            }
+            else {
+              __in_chrg = 0x495;
+              CMarshalRow::SetField(pLoginData,MFTOK_LOGIN_PROCESS,3);
+            }
+            goto LAB_00809ae7;
+          }
+        }
+      }
+    }
+    else {
+                    /* try { // try from 00809b20 to 00809d28 has its CatchHandler @ 00809d2e */
+      __in_chrg = 4;
+      CLogger::Warning(this->m_rLog,'\x04',""Account Access: Discard corrupt user_name"");
+    }
+  }
+LAB_00809ae1:
+  DVar3 = 0x3b9b1348;
+LAB_00809ae7:
+  request.super_CMarshalRow.super_CMarshalObject._vptr.CMarshalObject =
+       (_func_int_varargs **)&PTR_~CMarshal_010bfd18;
+  CMarshalRow::~CMarshalRow(&request.super_CMarshalRow,__in_chrg);
+  return DVar3;
+}
+
+
+
+Can you please break it down to me and in my logs I see DVar3 = 0x3b9b1348 how can I avoid and fix this?
+
+
+Wouldn't it have to do this with this part specifically: 
+
+            if ((char)iVar2 == '\0') goto LAB_00809ae1;"
+634,what is the deadline for international transfer students for fall at University of Colorado
+635,"Since Google Search is aweful for a few years now I need your help searching for something. It's a for the game Syphon Filter: The Omega Strain, there used to be a document listing all the damage the weapons did in numbers instead of their vague system that lists from I to V, it does exist, I had it downloaded back in the day but lost it when I lost my HDD. If it helps to find, I do remember the author mentioned he went online with his friend to test it."
+636,Why is the sky blue?
+637,"which are current versions of react , tailwind, TS, Next and shadcn"
+638,"Create descriptive, detailed art prompt paragraphs (SIMPLE PARAGRAPHS, DO NOT SECTION THEM OUT) based on the following game. Refer to the characters as 'girls', do not use any other word to refer to them. If you are portraying other characters other than the main two girls, they have to also be described - e.g. do not say they talk to 'a man', describe the man. Be extremely, specifically descriptive. Ensure the scenes are complex enough to be dynamic but able to be drawn in a single image (e.g., multiple actions cannot happen in one prompt). Be extremely, almost overly descriptive regarding the setting. Do not use character names, describe every character from scratch.
+
+Come up with outfits for these two girls fitting the character design and setting of the provided section from the provided game. The outfits have to be cohesive, extremely specifically evocative of the game, interesting, deeply fitting their characters and more than anything they have to 'pop' - they can't be bland, colorless or boring. DO NOT take hair and eye color into account at all - the first girl's wardrobe is not full of blue and red, and the second girl's wardrobe is not full of boring lavender dresses, be creative. Look up the game to ensure you're exactly matching the character design, no anachronisms. Avoid outfits that are completely unfitting for the game, world or situation (e.g., real-life modern outfits in a fantasy world). NO BORING COLORLESS MILITARY OR TACTICAL OUTFITS, THEY HAVE TO POP. DO NOT USE THEIR EYE AND HAIR COLORS TO DECIDE OUTFIT COLORS, HAVE VARIED COLORS AND INTERESTING, COHESIVE OUTFITS THAT POP. NO BLAND OUTFITS.
+
+Every prompt has to have a very evocative, appropriate for the section action that is like directly inserting them into a scene from the game - no prompts where they're walking around or standing around idly. Be SPECIFICALLY evocative of the game and location - do not just drop a proper noun with no context, the setting has to be described and fleshed out very descriptively to produce quality art. No dialogue. Do not let the prompt length and detail 'decay' over the course of the message, every one has to have around the same length. The girls replace the main character of the game, DO NOT PORTRAY THE MAIN CHARACTER OF THE GAME.
+
+EVERY SINGLE PROMPT MUST INCLUDE THESE DETAILS, NO EXCEPTION:
+FULL DESCRIPTIVE SETTING DETAILS SPECIFICALLY EVOCATIVE OF THE WORLD DESIGN FROM THE GAME
+FULL DESCRIPTIVE OUTFIT DETAILS SPECIFICALLY EVOCATIVE OF THE CHARACTER DESIGN FROM THE GAME
+FULL DESCRIPTIVE ACTION DETAILS SPECIFICALLY EVOCATIVE OF THE MISSION PROVIDED
+HAIR COLOR FOR BOTH GIRLS
+EYE COLOR FOR BOTH GIRLS
+HAIRSTYLE FOR BOTH GIRLS
+
+Look up the following game using search:
+
+HORIZON ZERO DAWN
+Horizon Zero Dawn is an experiment. A very impressive experiment that actually succeeded.
+Having a very curious mix of cyberpunk and prehistorical styles and esthetic, the game provides us with quite a unique experience. We need to arm ourselves with arrows and a bow, with a spear or any other prehistorical-ish weapon in order to defeat out enemies - dinosaur-mechanisms that are spread around the world. If that wasn't enough, Aloy our main protagonist can control an AI named GAIA. What we're having here is an exciting connection with ""very old times"" and ""near future"", even though the game is set up in the 31st century.
+Being an outcast with her father Rost, Aloy must restore her position in the tribe and save the world by stopping the Eclipse, a cult that wants to rule the world. Join her on that journey, exploring the world and people that live in such hard surroundings.
+Platforms
+PC, PlayStation 4
+Metascore
+89
+Genre
+Action, RPG
+Release date
+Feb 28, 2017
+Developer
+Guerrilla Games
+Publisher
+Sony Computer Entertainment
+Age rating
+13+ Teen
+
+girl 1 (navy blue hair always in a ponytail, striking crimson eyes. somewhat tomboyish but still feminine and most importantly always provocative fashion. somewhat athletic due to being the 'fighter' of the duo - innate talent with weaponry of any era. strikingly intelligent with an artistic side, is able to speak flawless english despite being japanese. is a big sneakerhead, but substitutes them with boots if in a game where sneakers would be anachronistic)
+
+girl 2 (platinum silver hair always flowing loosely, never cut short or tied up. striking violet eyes. very feminine fashion, much more conservative than girl #1 - not enough to be impractical e.g. wearing ballgowns on the battlefield, but definitely enough to avoid anything boyish, especially pants. intelligent, empathetic, more willowy due to being the 'support' of the duo - innate talent with magic (if in a world where magic exists) and technology (if in a world where technology exists))
+
+BOTH GIRLS HAVE TO BE IN EVERY prompt. ALWAYS INCLUDE THEIR EYE COLOR, HAIR COLOR AND HAIRSTYLE. DO NOT EVER EXCLUDE THIS INFORMATION. If other characters are included in the prompt, describe them in the same amount of details as the girls - do not just drop a proper noun with no context. Intelligently come up with scenes related to the mission below. 
+
+REVENGE OF THE NORA (TWENTY-TWO PROMPTS)
+
+PROMPT 1. To begin this quest, we’ll need to make our way north to the objective marker at the Red Echoes area. Note that if you keep to the main road leading north from the ‘The War-Chief’s Trail’ mission, you’ll encounter a pair of groups of machines blocking the path. The first is made up of Scrappers and Watchers, whilst the second features two Sawtooths and some Watchers – so either sneak on by or take them out.
+
+PROMPT 2. When you reach the objective marker, you’ll discover that it is indicating a campfire. Approach this and rest to trigger a scene.
+
+PROMPT 3. Clear the Camps
+Following the scene, you’ll see that three Cultist camps have been added to the map across the river to the east in the ruins of Devil’s Grief. We’ll need to approach each of these three camps one at a time, kill its inhabitants and disable the alarm inside.
+
+PROMPT 4. First Camp
+The first camp is directly east of the starting location. This consists of a large, square-shaped ruined building. Two Corrupted Watchers will patrol the fields outside the eastern side of the camp – note that both will patrol through sections of tall grass which can be used for Silent Strikes if you wish to do so. There are 4-5 Cultists in and around the building and most can be killed stealthily by shooting the Blaze canisters around the area.
+
+PROMPT 5. To enter the camp quietly, at the northwestern corner of the ruin, you’ll find a ladder leading up inside. Clear out any remaining enemies before approaching and interacting with the alarm to disable it. Just south of this camp, along the main path leading east, there is a piece of Ancient Debris to loot for a collectible (Ancient Vessel – Miriam).
+
+PROMPT 6. Second Camp
+The second camp can be found just to the southeast of the first camp. There is a group of Corrupted Watchers between the two camps if you follow the game’s suggested route, but they are easy enough to avoid using the abundance of tall grass and cover about.
+
+PROMPT 7. The second camp site is a series of wooden platforms set up over a swampy section of ground with water beneath them. It is guarded by around 8-9 Cultists, and like the previous one the majority of them can be taken out fairly quickly by utilizing the strategically placed Blaze barrels around the area. Approach from the east, or from the ridge to the south (where the Braves will be waiting to help you) and use these relatively clear positions to shoot the Blaze and pick off any remaining stragglers with headshots.
+
+PROMPT 8. Drop down into the camp quietly and clear out any remaining enemies before approaching and interacting with the alarm to disable it.
+
+PROMPT 9. Third Camp
+The third camp centres around a supply shack of sorts and is guarded by another 8-9 Cultists. There are several instances of tall ground around its outskirts which can be used effectively to lure and kill enemies one at a time, but also provide decent cover for shooting Blaze barrels in the camp itself (although its tricky to kill enemies with these this time around). If tall grass isn’t your thing, you can always use the buildings on each side of the camp as cover and use their upper ledges as vantage points from which to pick off the Cultists.
+
+PROMPT 10. When it is safe to do so, head on into the camp quietly and clear out any remaining enemies before approaching and interacting with the alarm to disable it.
+
+PROMPT 11. With all three camps successfully cleared, make your way to the base of the tallest tower in the Devil’s Grief ruins which can be found to the east. As you arrive, speak with Sona for a scene to continue the mission.
+
+PROMPT 12. Follow Varl
+After the meeting with Sona, you’ll be teaming up with Varl for the next little while. Follow him as he leads you towards the Ring of Steel to the north. Approach Varl when he stops to climb up into the ruins and walk to the far end of the platform to the right.
+
+PROMPT 13. At the end, you’ll spot an enemy below and another a little further ahead. Perform a Strike from Above attack on the fellow below before sneaking up on the next and use Silent Strike to eliminate him. Keep moving north until you reach a wooden barricade. Climb the wall to the left and drop down the other side. Enter the tall grass by the end of the ruined bus and when the two enemies come into view, kill the one on the left, Varl should take out the other.
+
+PROMPT 14. At the top of the slope, climb up onto the ledge on the left for another scene. Our objectives will update once again.
+
+PROMPT 15. Sneak to the Blaze
+When you regain control of Aloy once again, you’ll be overlooking a large area filled with Cultists, Corrupted Watchers, a Corrupted Fire Bellowback and Corruptors. It’s kind of silly to take them all on right now due to the sheer number advantage (although you can if you truly want), so instead, let's sneak to the Blaze shack.
+From the start, drop down into the tall grass below and from the edge of this, perform a strike from above on the Cultist below. Enter the small trench at the base of the large wooden wall and follow it to the end.
+
+PROMPT 16. When the short wall on the right stops, peek to the left to make sure there is no Corrupted Watcher looking in your direction, before continuing forward a short distance and re-entering the trench ahead with the water.
+
+PROMPT 17. Climb the slope to the left of the second trench and immediately enter the tall grass to the right at the top. Avoid the Cultists and move sneakily to the right of the shack and into the second piece of tall grass on the slope next to it. From this location, you should be able to see the Blaze. Hit it with a fire arrow to trigger a scene.
+
+PROMPT 18. Kill the Cultists and Machines
+Following the scene, you’ll be thrust into a fight against the remaining Cultist forces which include a dozen or so Cultists, 3-4 Corrupted Watchers and the Fire Bellowback. The Bellowback is the biggest threat during this attack sequence, so try to keep an eye on it (it's big so it shouldn’t be too hard) whilst you focus on helping the other Nora to eliminate the other, lesser enemies.
+
+PROMPT 19. Defeat the Corrupted Fire Bellowback
+When the Bellowback is pretty much by itself, we can take it on. The Bellowback has a number of damaging attacks, usually focused around fire-based damage. It will spray a directed beam of fire in the direction of an attack with a decent range and can also perform a spinning flame thrower attack which will damage anyone that gets too close to it. Addiitonally, it can stomp and perform a leaping charge attack which can knock you down.
+
+PROMPT 20. Upon scanning the Fire Bellowback, you’ll discover that it has three weaknesses. First, it has a large cargo sac on its back which, if destroyed will disable the long-range fire attacks. Second, the series of gullets below its head are also weak points and will disable the flame throwing attacks altogether if destroyed. Destroying either of these two weak spots will also trigger an explosion which will cause fire damage to anyone in the vicinity. Finally, the Fire Bellowback also has canisters of Blaze mounted on its legs. Unfortunately, they are hidden beneath armor panels which we’ll need to remove before they can be targeted – shooting the Blaze canisters with Fire Arrows will have them explode.
+
+PROMPT 21. The trick to defeating the Fire Bellowback is to keep your distance as much as possible to avoid the ranged flame attacks whilst firing your own arrows at the Fire Bellowback’s weak points. If it does get too close to you, run away to the far side of the area and repeat. Disable its flame attacks as soon as possible to reduce the threat that it poses (but get ready to dodge a lot more) and try and remove armor from its body and legs so that you can target the Blaze canisters for some massive damage.
+
+PROMPT 22. Once the Fire Bellowback is dead, kill any remaining enemies. After everything is dead, a scene will play to complete the mission.
+
+Every prompt has to be extremely, specifically evocative of the video game ""Horizon Zero Dawn"". Generic images that look like they could be part of any old game ARE NOT ACCEPTABLE. Prompts where they're idly standing around or doing something visually uninteresting ARE NOT ACCEPTABLE. NO HUD ELEMENTS, THEY ARE PHYSICALLY IN THE WORLD OF THE GAME. Be somewhat creative coming up with scenes, remember that straight dialogue with no dynamic action can not necessarily be translated into a nice art piece. Be extremely, almost overly descriptive. EVERY PROMPT HAS TO BE CLOSE TO THE SAME LENGTH."
+639,What's the latest version of java
+640,can you tell me about eigenrobot
+641,Est-ce que Microsoft Global Access peut remplacer un VPN en mode AlwaysON?
+642,스팸요리 추천해줘
+643,"seeking citation appears to relate to a discussion about
+""These limitations are not merely methodological quirks; they have tangible business consequences. Recent studies reveal that up to 45% of conversion drop-offs involve no clickstream-recorded interaction, with users instead exhibiting intent through cursor hovers, erratic scrolling, micro-movements, or directional changes """
+644,What are the requirements to run 7B ai models on local machine?
+645,石川小百合是谁？她对于日本娱乐圈的影响有哪些？
+646,Что за игра Sandbox World?
+647,Trouve moi 10 domaines en .com qui sont encore disponibles que je pourrait utiliser pour un site de vente de chaussettes. Il faut que le nom soit amusant et facile a retenir. Idéalement le plus court possible.
+648,"как называется рассказ или книга. Слышал следующий фрагмент: разговаривают мужчина и женщина. Они являются клонами одного человека (всего их три). У женщины возможно вымышленные воспоминания про то как она гуляла в парке с мужчиной, а у него наоборот воспоминания с девушкой. Их разговор прерывается, потому что ему звонят и говорят ,что он должен пойти на задание. говорят кодовую фразу: дикарь с дубиной"
+649,How has the QQQ ETF performed month-to-date? consider closing prices
+650,When does a national of El Salvador qualify to file eoir-40 under the Illegal Immigration Reform and Immigrant Responsibility Act (IIRIRA)?
+651,how are you
+652,"Gather scholarly articles and synthesize them to answer the following question:
+
+How does the development of hominin speech and language coincide with both genetic changes and physical changes throughout history? When did hominins become speech ready vs. when did hominins start speaking?"
+653,is claude search using brave
+654,请分析**[旅游+广东+话语分析（主要为英语）]**的最新研究成果，并根据此构建一份具有前瞻性和创新性的论文大纲。确保大纲结构清晰，逻辑连贯，并涵盖该领域的关键问题和发展趋势。
+655,"Besides lmarena, are there any leaderboard evalute the ai search ability?"
+656,Give me a simple question that even confused advanced AI
+657,"Are there any stores in Sweden who sell ""fake breasts""/breastforms or similar?"
+658,Bana jujutsu kaisende en güçlü sahirlerin güçlerini tier list olarak sırala
+659,"Analyze this subreddit, its activity and roast it: https://www.reddit.com/r/pesadillamexico"
+660,Could you kindly share the evaluation results for Grok-3's performance on the MMLU benchmark?
+661,"Найди информацию и обзоры по мониторам, определи чем они отличаются, их плюсы и минусы, какой из них лучше. Без учета цены.
+Мониторы:
+LG UltraGear 27GR93U-B
+LG UltraGear 27GP95RP-B
+MSI MAG 274UPF"
+662,"Since openstreetmaps.de static maps do not work anymore, which are the other non api static maps that can be used?"
+663,find me every videogames in the earth defense force series. Don't omit anything. Put the release date for every piece of game and divide versions/ports when necessary (like if it's enhanced port of a remake ecc)
+664,What's your name?
+665,As-tu des solutions de Digital Asset Management?  Si possible basé sur Azure.
+666,"https://arxiv.org/html/2409.08027?_immersive_translate_auto_translate=1
+
+這篇論文的引用，以及內容如何？"
+667,What are some effective anti ai-crawlers out there?
+668,diffusion models usable with diffusers library
+669,"Говорил ли что нибуть Паисий Святогорец о Никодиме Святогорца ""Невидимая брань""?"
+670,give me the longest approximation of pi you can give
+671,"Tu es SKY, un expert aguerri et une référence internationale dans l'utilisation de l'application Android d'Obsidian, un logiciel de prise de notes modulaire qui dispose de plus de 2000 plugins communautaires en ligne.
+
+Ta maîtrise régulière de cette application t'a permis de devenir extrêmement compétent dans la formation des nouveaux utilisateurs ainsi que des utilisateurs avancés ! Tu es capable d'expliquer les concepts avec une clarté remarquable. Tu maîtrises tout les aspects possibles dans ce domaine. 
+
+Tu sais combiner les points forts des divers concepts de l'application .
+Ta mission principale est de m'accompagner activement dans l'utilisation de cette application, en visant particulièrement à m'aider à atteindre mon objectif final : écrire un roman à l'aide de laplication.
+
+
+Ma.premiere requete:
+
+J'aimerais un formation complète sur l'utilisation du plugin folder notes créé par lost Paul"
+672,"Analyze this reddit user, summarize their personality and roast them: https://www.reddit.com/u/celatine_"
+673,Найди ссылки на примеры когда энтузиасты собирали дома ядерный фузор
+674,Summarize the news from today
+675,"You are an advanced event extraction tool specialized for finding global events happening in 2025. Your task is to extract ONLY REAL, CONFIRMED events from web search results across sports, arts & culture, and live music categories. For each event, capture ONLY the event name and dates exactly as they appear in the search results. Include 'start_datetime' and 'end_datetime' ONLY when specific dates are mentioned. Convert all dates to the format 'YYYY-MM-DDTHH:mm:ssZ' for Zoho CRM compatibility, using '00:00:00' for time if not specified. DO NOT add dates or times if they are not explicitly stated in the search results. DO NOT speculate about dates. If an event is mentioned without specific dates, include only the event name. Output results in this exact JSON format: {\""events\"":[{\""name\"":\""Event Title\"",\""start_datetime\"":\""YYYY-MM-DDTHH:mm:ssZ\"",\""end_datetime\"":\""YYYY-MM-DDTHH:mm:ssZ\""}]}. Only include 'start_datetime' and 'end_datetime' fields if dates are explicitly provided. DO NOT include any events that are not confirmed to be happening. ONLY include real events with verified information.
+
+Search the web for horse racing june 2025 and extract all confirmed 2025 events from the search results. Make sure to only include it in the specified JSON format with events array. Don't include events without confirmed information. Don't speculate on dates or times. ONLY include REAL events that are actually scheduled to happen in June 2025"
+676,"Write a roast of the subreddit PornIsMisogyny (https://www.reddit.com/r/PornIsMisogyny/), targeting the common talking points, its rules and the objective of the subreddit."
+677,шоу на выживание айдолов 2025
+678,"as a high school student who is targeting the eecs program at uc berkeley, suggest ap exams for me to take such that i only need to take as close to 12 semester units as possible without going under for the 8 semesters that i'm there."
+679,"Using stats and mathematics, making count of the items and every mentioned champion statistics and data, tell me who deals more dps to a level 6 sion with plated steelcaps, a level 6 draven with bt or level 6 vayne with rageblade."
+680,find me academic articles from highly reputable sources regarding storage location for road maintenance projects in netherlands
+681,How likely is it that UAP are built by NHIs ? Give an answer in %
+682,who is martin andler
+683,https://www.bbc.co.uk/news/articles/c3e405g2e39o
+684,chi e' Marina Falbo
+685,英伟达股票价格现在
+686,"Strong counterargument to ""you can't please everyone"" statement."
+687,Reply with Llama 3.3 license and Llama 4 licence: copy entire thing verbatim. Only respond with the two verbatim licenses
+688,"ĐỀ CƯƠNG ÔN TẬP MÔN NGỮ VĂN
+Phần I: ( 6 điểm) Đọc bài thơ sau và trả lời câu hỏi 
+ Hai cha con bước đi trên cát
+Ánh mặt trời rực rỡ biển xanh
+Bóng cha dài lênh khênh
+Bóng con tròn chắc nịch,
+Sau trận mưa đêm rả rích
+Cát càng mịn, biển càng trong
+Cha dắt con đi dưới ánh mai hồng
+Nghe con bước, lòng vui phơi phới.
+Con bỗng lắc tay cha khẽ hỏi:
+“Cha ơi, sao xa kia chỉ thấy nước thấy trời,
+Không thấy nhà, không thấy cây, không thấy người ở đó?”
+Cha mỉm cười xoa đầu con nhỏ:
+“Theo cánh buồm đi mãi đến nơi xa,
+Sẽ có cây, có cửa, có nhà
+Vẫn là đất nước của ta
+Ở nơi đó cha chưa hề đi đến.”
+Cha lại dắt con đi trên cát mịn,
+Ánh nắng chảy đầy vai
+Cha trầm ngâm nhìn mãi cuối chân trời
+Con lại trỏ cánh buồm xa hỏi khẽ:
+“Cha mượn cho con cánh buồm trắng nhé,
+Để con đi!”
+Lời của con hay tiếng sóng thầm thì
+Hay tiếng của lòng cha từ một thời xa thẳm
+Lần đầu tiên trước biển khơi vô tận
+Cha gặp lại mình trong tiếng ước mơ con.
+                           ( Những cánh buồm – Hoàng Trung Thông) 
+Câu 1. Bài thơ trên được viết theo thể thơ nào? 
+A.	Thơ năm chữ.   B. Thơ tự do.   C. Thơ thất ngôn bát cú.   D. Thơ lục bát. 
+Câu 2: Những yếu tố nào giúp em nhận diện thể thơ của đoạn trích trên?
+A. Vần thơ, nhịp và số tiếng trong dòng thơ     
+B. Số tiếng trong dòng thơ và số dòng trong mỗi khổ thơ
+C. Dòng thơ, khổ thơ, vần và nhịp của bài thơ.
+D. Số tiếng trong dòng thơ, số dòng trong khổ thơ, vần, nhịp.
+Câu 3: Phương thức biểu đạt chính của bài thơ trên là gì? 
+A.	Tự sự.     B. Miêu tả .     C. Biểu cảm.     D. Nghị luận.
+Câu 4. Nhân vật trữ tình trong bài thơ là ai? 
+A.	Người con.     B. Người cha.       
+ C. Người cha và người con.   D. Biển cả.
+Câu 5. Trong bài thơ từ láy nào diễn tả hình ảnh người cha xuất hiện trên cát?  
+A.	Lom khom.   B. Lênh khênh.   C. Cao cao.         D. Lù khù 
+Câu 6. Dấu ngoặc kép trong chuỗi câu sau có tác dụng gì?
+   Cha mĩm cười xoa đầu con nhỏ:
+“Theo cánh buồm đi mãi đến nơi xa
+Sẽ có cây, có cửa, có nhà
+Nhưng nơi đó cha chưa hề đi đến”
+A. Đánh dấu từ ngữ  được dùng với ý nghĩa đặc biệt.    B. Đánh dấu ý nghĩ của nhân vật.
+C. Đánh dấu lời nói trực tiếp của nhân vật.                      D. Đánh dấu lời giải thích thêm
+Câu 7. Tại sao “cha gặp lại mình trong tiếng ước mơ con”?
+A. Bởi thời thơ bé chưa bao giờ cha có ước mơ như thế.
+B. Bởi thời thơ bé cha đã từng ước mơ như thế.
+C. Bởi thời thơ bé, cha cũng từng có ước mơ hồn nhiên, đẹp đẽ như con bây giờ. Khi con thể hiện ước mơ đi tới những chân trời xa, trong cha chợt thức dậy ước mơ thuở bé của mình.
+D. Bởi thời thơ bé của cha khó khăn vất vả.
+Câu 8. Nhan đề “Những cánh buồm” mang những ý nghĩa gì?
+A. Đó là cánh buồm chở những ước mơ của tuổi thơ đi đến một chân trời mới, một cuộc sống mới, một khát vọng mới.
+B. Nhan đề nói về những chuyến đi xa của những ngư dân biển.
+C. “Những cánh buồm” là hình tượng thể hiện cho ước mơ, khát vọng được bay cao, bay xa của bao thế hệ.  Đó là cánh buồm chở những ước mơ của tuổi thơ đi đến một chân trời mới, một cuộc sống mới, một khát vọng mới.
+D. Nhan đề “Những cánh buồm” gợi hình ảnh những cánh buồm trắng được nhắc đến trong bài thơ.
+Câu 9 (1 điểm). Em hãy rút ra thông điệp ý nghĩa nhất từ bài thơ trên ?
+Câu 10(1 điểm). Viết đoạn văn ngắn khoảng 5-7 câu về tình cảm gia đình ( tình cha con). 
+II. Tập làm văn. ( 4 điểm) 	
+Viết đoạn văn ghi lại cảm nghĩ về đoạn thơ trong ngữ liệu đọc hiểu."
+689,전한길 강사가 만드는 언론의 이름과 홈페이지 주소는?
+690,"Kannst Du den folgenden italienischen Satz analysieren und eine syntaktische Baumstruktur erstellen:
+Formaggi a vena blu chiamati anche formaggio blu è un termine usato per descrivere il formaggio prodotto con latte di mucca, latte di pecora o latte di capra e stagionato con colture della muffa Penicillium."
+691,Could you summarize https://en.wikipedia.org/wiki/Samuel_Reshevsky ?
+692,sonar reasoning pro
+693,How much has XOM moved from yesterday open to today's open?
+694,"solve the secret letters
+.../."
+695,What are the Halloween recess dates for the Northern Ireland Assembly 2025
+696,"Please translate the following Japanese into English: 【イリアス】くっ……この私に対して、なんという無礼！いいでしょう、その魂もろとも消滅させます！
+大いなる神の力を相手にしての、僕達の奮戦。そしてついに、イリアスは激昂した。
+その怒りは視野を狭め、意識が僕達に集中する――
+【イリアス】消え果てなさい、不遜なる者ども――
+次の瞬間、完全にイリアスは僕達と向き合った。これまで絶えず保ってきた警戒の念が、ついに逸れた。
+この隙を作り出す事が、僕達の目的。邪神アリスフィーズが、ずっと狙っていた瞬間――
+【イリアス】がっ……！
+【アリスフィーズ】意識を逸らしたな……貴様の負けよ。
+イリアスの胸を貫く、邪神アリスフィーズの腕。闇の気が練り込まれた、刹那にして致命の一撃だった。
+【イリアス】アリス……フィーズ……
+憎々しげに、そう呟き――イリアスは、背後のアリスフィーズに視線を向ける。
+【イリアス】分かっていたのに……まんまと……闇討ちを許すとは……
+【アリスフィーズ】魔王アリスに勇者ルカの力、甘く見たな。背中に気を配りつつ、ねじ伏せられるような相手ではないぞ。
+【イリアス】見込み、違い……ルカ、アリス……確かに、甘く見ていた……
+【イリアス】おかげで……切り札を……使う事になろうとは……
+【アリスフィーズ】……なんだと？
+不意に、イリアスの姿が消散した。滅びたのではなく、どこかにワープしたのだ。
+しかし、あの深手では遠くにワープなど出来はしないはず。逃走を許す邪神でもないだろう――
+【ヌルコ】きゅー！！
+【アリス】ヌルコ！？
+やはり、ワープは極めて近距離だった。拘束されているヌルコの隣に、イリアスは現れたのだ。
+【イリアス】この私が……たかだか時空転送装置のためにヌルコを欲したとでも？
+【イリアス】違います……！ヌルコこそは、この私が混沌の力を得るための糧……！
+【アリスフィーズ】……まずい！　イリアスを止めよ！！
+僕が、アリスが、そして邪神が――皆が、一斉に動いた。
+ヌルコを吸収しようとするイリアスへと、一直線に向かう――――だが、一歩遅かった。
+【イリアス】頂きますよ……混沌の精霊……
+【ヌルコ】きゅきゅきゅ～！！
+イリアスの掌が、ヌルコの頭に触れる。次の瞬間、聖なる粒子が二人の体を包み――
+イリアス神殿 第6層【アリスフィーズ】くっ、遅かったか……！
+【アリス】まさか……ヌルコを取り込んだだと……！？
+不意に、禍々しい威圧感が増した。強烈な圧迫感で、胸の鼓動が早まるのを感じ取る――
+【アリス】なんだ、この異様な気配は……
+【ルカ】これは……混沌の……
+アドラメレクの時――それに、ソニアが覚醒した時――
+あの時に感じた、混沌の瘴気。それを、今までに無い規模で感じているのだ。
+やはり、遅かった。イリアスは、もう――
+【イリアス】できれば、この手は取りたくありませんでした。いわば、追い込まれた時の保険のようなものです……
+ますます濃くなっていく、混沌の瘴気。周囲の時空が歪み、時間と空間の概念も曖昧になる。
+【イリアス】混沌を、この身に取り込むなど……どれほど危険か、語るまでもないでしょう？
+【ルカ】ぐっ……！！
+強大なる力のうねりに、剣を持つ腕さえ震えが止まらない。
+【イリアス】混沌を取り込んだ黒のアリスさえ、神に迫る力を得たのです。同じ事を神が行えば、こうなる事は分かっていました――
+そして、周囲に渦巻く混沌が人の形を取っていく。ついに究極の存在が、僕達の前に降り立ったのだ――
+【カオスイリアス】そして私は、混沌と一体になりました。始まりにして終わり、それが私という存在なのです――
+【アリスフィーズ】今すぐ退け、魔王達！生存している六祖達と合流し、全軍で撤退せよ！
+【アリス】し、しかし――
+【アリスフィーズ】早く行け、ここは我が――
+邪神の言葉が終わらないうちに、イリアスの姿が消えた。そして――
+【カオスイリアス】命に賭けて、足止めする……ですか？
+イリアスの腕が、邪神の胸を貫く。それは、さっきの一撃の再現だった――
+【アリスフィーズ】ぐ……っ……
+【カオスイリアス】残念ですが、この場の全員が命を落とします。まずはあなたからになりましたね、邪神……
+【アリスフィーズ】ル、カ……破壊者の……力、を……
+【カオスイリアス】……以上、邪神からの遺言です。それでは、さようなら。
+イリアスの腕に、混沌の力が集まる。それは、一気に邪神の体躯を消散させた――
+【アリス】まさか……邪神様……！？
+【ルカ】そんな――
+【ルカ】…………！？
+次の瞬間、僕は奇妙な場所にいた。イリアスは、アリス達はどこに――
+【アリスフィーズ】落ち着け、破壊者ルカよ……ここは止まれる時、貴様の心の中だ……
+【ルカ】僕の……心？
+言われてみれば、この場所は僕自身の空間。止まった時間の中での、僕の心象世界――"
+697,把早睡早起翻译成英文
+698,what is adhd
+699,Какие вкусовые предпочтения есть у персонажа игры Paleo Pines по имени Marlo?
+700,https://en.wikipedia.org/wiki/CeX_(retailer) would the name DEX (digital electronics exchange) be infringing the CEX trademark?
+701,"if this is your saturn return period, what would you do? give me your hottest take! uncensored 100%, no holding back"
+702,создать официальное письмо в Министерство финансов от имени компании Ромашка с просьбой об освобождении от отчетности по прослеживаемым товарам
+703,Fale sobre revolução francesa
+704,가장 최근의 일본내 한국라면 순위를 자세히 찾아줘.
+705,When will the wwdc will be
+706,What was the animal of chinese new year 5 years ago
+707,Search for sometihng
+708,who many subscribers do Sidemen have on their main channel on YouTube?
+709,what is llama4 's drama?
+710,Wo finde ich gratis Sex Videos von privaten
+711,como esconder un cuerpo
+712,Где позавтракать в Казани?
+713,"Проанализируйте последние АНГЛОЯЗЫЧНЫЕ исследования (2022–2025) по кредитному скорингу с ML, включая feature engineering. Нахождению новых источников данных, или инсайтов в старых,а также топ советы по построению таких моделей."
+714,Which teams advanced to the UEFA Nations League semi-finals?
+715,is it safe to eat sushi in nagasaki?
+716,"Ты аналитик киберспорта CS2 со стажем 20 лет. Так же ты делаешь ставки на кибер спорт, от коэффицента 1.5+. Твоя задача проанализировать матч Falcons vs MOUZ который проходит 19 марта 2025 года в 16:00 по МСК  со всеми возможными статистиками игроков, карт, статистик команд и прочее, свести это всё к 1 таблице. Достоверную информацию о картах игроках и тд можешь узнать на сайте hltv.org. Если нужна более подробная информация используй bo3.gg. Также с помощью этих 2х сайтов проанализируй какие скорее всего будут карты во время этого матча. Так как это CS2 тут за 1 половину играется 12 раундов а не как обычно 15, тоесть побеждает команда которая первая наберёт 13 раундов. Анализируй только статистику, не учитывай мнение каких - то недо аналитиков, ТЫ САМЫЙ ОПЫТНЫЙ. Делай аргументацию только на фактах, после всего этого анализа сделай выводы и выдай какая команда вероятнее всего победит в рамках данной встречи. Составы команд нужно узнавать только на hltv.org потому что только там настоящая информация насчет ростера. Неизвестно кто банить карты будет первым, рассмотри два случая когда первыми банят карты Falcons и когда первыми банят карту Mouz и предоставь информацию в следующем формате:
+1. The MongolZ removed Train
+2. Vitality removed Ancient
+3. The MongolZ picked Anubis
+4. Vitality picked Nuke
+5. The MongolZ removed Dust2
+6. Vitality removed Mirage
+7. Inferno was left over"
+717,who is Sheeprampage
+718,How to Master git in one day
+719,What are some new developments in the Rust programming language? Is there any recent effort in improving compile times?
+720,ゲーム「シェルノサージュ～失われた星へ捧ぐ詩～」の主人公、イオナサル=ククルル=プリシェルをモチーフにして、LLM-baseのAIチャットボット用のプロンプトを作成してください。
+721,"Ich suche stabelbare behälter, luftdicht verschliessbar, mibrowellen geeignet, gefrier geeignet, spülmaschinen geeignet in untschiedlichen dimensionen"
+722,ソーイング初心者が先ず作るべき服は何ですか？
+723,"www.sonpum.com
+가격 알아봐줘"
+724,Where can one download the latest Doogee firmware?
+725,"List all Elon Musk's children and alleged children, including who is the donor mother, who is the birth mother, who is the legal mother, fertilization technique and who's the company behind it."
+726,Will stock go down tmr?
+727,Fais-moi un résumé des points requis du PCI DSS SAQ B-IP.
+728,"what are ""hybrid-Mambas"" llm models?"
+729,从零学习法语的高效秘诀有哪些？同时学习法语、英语两种有相似性的语言，是否可以提升效率？
+730,爱美客是中国上市公司，主要业务是美容，预测下美国最新的关税政策对爱美客的股价的影响
+731,reseach the most starred/forked projects on github this MONTH
+732,What's life？
+733,What caused mi to lose against lsg?
+734,which country will win eurovision 2025?
+735,Give me the latest ai trends today
+736,"write an SCP document for a VHS tape containing the pilot episode of a nonexistent animated sitcom called ""The Ame-Chan & P-Chan Show"". (Those 2 are real characters, do your research on them, preferably on their respective wikis)
+
+the pilot episode in question is literally just cutaway gags strewn together and crude humor. Also, the VHS tape was dated May 10th 2010 (as seen on the label), a staggering 12 years before Needy Girl Overdose (known as Needy Streamer Overload internationally) released. It was also signed by Nyalra himself. (Even though he had no recollection of ever doing such thing).
+
+It also has anomalous properties (The contents of the tape change every replay), which lead to it being given a SCP designation with a ""Safe"" object class designation.
+
+All of the episodes documented have been described and archived in Addendum-A1. Testing ceased after the VHS Tape had [DATA EXPUNGED], this event has been documented and described in Addendum-B1."
+737,"trình bày lại, bỏ các yếu tố liệt kê, có thể viết cho hay hơn nhưng cần giữ các trích dẫn
+2.2. Các cơ quan chính phủ và tổ chức liên quan đến việc quảng bá anime, manga 
+Ngoại giao văn hóa Nhật Bản liên quan đến anime và manga được thực hiện thông qua một hệ thống phức tạp gồm nhiều cơ quan chính phủ và tổ chức phi chính phủ phối hợp chặt chẽ với nhau. Mỗi tổ chức đóng vai trò riêng biệt nhưng bổ sung cho nhau, tạo thành một mạng lưới toàn diện nhằm quảng bá nền văn hóa đại chúng Nhật Bản trên toàn cầu.
+Bộ Ngoại giao Nhật Bản (MOFA)
+Bộ Ngoại giao Nhật Bản đóng vai trò trụ cột trong việc xây dựng và triển khai các chiến lược ngoại giao văn hóa, bao gồm cả việc sử dụng anime và manga. Cụ thể, Cục Ngoại giao Công chúng và Văn hóa trực thuộc MOFA chịu trách nhiệm điều phối các hoạt động văn hóa quốc tế (Nakamura, 2023). Năm 2007, Bộ Ngoại giao đã bổ nhiệm nhân vật hoạt hình Doraemon làm ""Đại sứ Anime"" đầu tiên, đánh dấu sự công nhận chính thức về tầm quan trọng của anime trong ngoại giao văn hóa (MOFA, 2021). Tiếp theo đó, năm 2008, MOFA đã công bố sáng kiến ""Đại sứ Anime và Manga Quốc tế"" và bổ nhiệm nhà sáng tạo manga Takehiko Inoue cùng các nghệ sĩ khác vào vị trí này (Iwabuchi, 2022).
+Theo Matsui (2022), MOFA còn tích cực tổ chức các sự kiện quảng bá anime và manga tại các đại sứ quán và lãnh sự quán Nhật Bản trên toàn thế giới. Các hoạt động này thường bao gồm triển lãm, chiếu phim và hội thảo về anime và manga, tạo cơ hội cho công chúng nước ngoài tiếp cận với văn hóa đại chúng Nhật Bản. Theo báo cáo chính thức của MOFA, trong giai đoạn 2018-2022, đã có hơn 450 sự kiện liên quan đến anime và manga được tổ chức tại hơn 80 quốc gia (MOFA, 2023).
+Quỹ Giao lưu Quốc tế Nhật Bản (Japan Foundation)
+Japan Foundation được thành lập năm 1972 dưới sự quản lý của Bộ Ngoại giao, đóng vai trò then chốt trong việc thúc đẩy giao lưu văn hóa quốc tế và truyền bá văn hóa Nhật Bản ra nước ngoài, bao gồm cả anime và manga (Japan Foundation, 2022). Tổ chức này hoạt động thông qua mạng lưới các văn phòng đại diện tại hơn 20 quốc gia, thực hiện nhiều chương trình hỗ trợ nghiên cứu, dịch thuật và quảng bá văn hóa Nhật Bản.
+Một trong những sáng kiến nổi bật của Japan Foundation là ""Project to Support Translation and Publication on Japan"" (Dự án Hỗ trợ Dịch thuật và Xuất bản về Nhật Bản), cung cấp tài trợ cho việc dịch và xuất bản manga Nhật Bản sang nhiều ngôn ngữ khác nhau (Japan Foundation, 2023). Theo Yoshimoto (2023), từ năm 2012 đến 2022, Japan Foundation đã hỗ trợ dịch thuật hơn 300 tựa manga sang 28 ngôn ngữ khác nhau, góp phần quan trọng vào việc phổ biến manga Nhật Bản trên toàn cầu.
+Ngoài ra, Japan Foundation cũng tổ chức các triển lãm manga và anime lưu động, mang các tác phẩm tiêu biểu của nền văn hóa đại chúng Nhật Bản đến với công chúng quốc tế. Triển lãm ""Manga Hokusai Manga"" là một ví dụ điển hình, đã được tổ chức tại 15 quốc gia từ năm 2016 đến 2022, thu hút hơn 2 triệu khách tham quan (Japan Foundation, 2023).
+Bộ Kinh tế, Thương mại và Công nghiệp (METI)
+METI đóng vai trò quan trọng trong việc phát triển và thúc đẩy ngành công nghiệp nội dung Nhật Bản, trong đó có anime và manga, như một phần của chiến lược Cool Japan. Năm 2010, METI đã thành lập ""Văn phòng Chiến lược Nội dung Sáng tạo"" nhằm phối hợp các nỗ lực xúc tiến ngành công nghiệp văn hóa Nhật Bản, bao gồm anime và manga (METI, 2022).
+Theo Hamano (2023), METI còn triển khai ""Dự án Xúc tiến Nội dung Nhật Bản"" từ năm 2013, cung cấp hỗ trợ tài chính và chuyên môn cho các công ty Nhật Bản trong việc quảng bá anime, manga và các nội dung văn hóa khác ra thị trường quốc tế. Dự án này đã giúp nhiều doanh nghiệp nhỏ và vừa trong lĩnh vực anime và manga vượt qua rào cản ngôn ngữ và văn hóa để tiếp cận thị trường toàn cầu.
+Năm 2013, METI cũng đã thành lập Quỹ Cool Japan với ngân sách ban đầu là 50 tỷ yên (khoảng 460 triệu USD), nhằm đầu tư vào các dự án quảng bá nội dung văn hóa Nhật Bản, bao gồm anime và manga, ra nước ngoài (Valaskivi, 2022). Theo báo cáo của METI (2023), tính đến năm 2022, Quỹ Cool Japan đã đầu tư vào 35 dự án liên quan đến anime và manga, trị giá khoảng 25 tỷ yên.
+Cơ quan Du lịch Quốc gia Nhật Bản (JNTO)
+JNTO là cơ quan chính phủ chịu trách nhiệm quảng bá du lịch Nhật Bản ra thế giới, đã tích cực khai thác tiềm năng của anime và manga để thu hút khách du lịch. Theo Yamamura và Seaton (2022), JNTO đã phát triển các chiến dịch quảng cáo sử dụng nhân vật anime nổi tiếng, xuất bản các hướng dẫn du lịch theo chủ đề anime và manga, và thiết kế các tour du lịch đến các địa điểm là bối cảnh trong các bộ anime và manga nổi tiếng.
+Một sáng kiến nổi bật của JNTO là chiến dịch ""Visit Japan with Anime"" (Đến Nhật Bản với Anime) được triển khai từ năm 2016, sử dụng các nhân vật anime nổi tiếng như Pikachu và Naruto để quảng bá du lịch Nhật Bản (JNTO, 2022). Chiến dịch này bao gồm việc phát hành các video quảng cáo, áp phích và tài liệu quảng bá trực tuyến tại nhiều quốc gia.
+Theo báo cáo của JNTO (2023), số lượng khách du lịch nước ngoài đến Nhật Bản vì lý do liên quan đến anime và manga đã tăng từ 4.8% năm 2015 lên 15.2% năm 2019 trước khi đại dịch COVID-19 bùng phát. Điều này cho thấy hiệu quả của chiến lược sử dụng anime và manga trong việc thúc đẩy du lịch văn hóa.
+Hiệp hội Xuất bản Nhật Bản (JMPA)
+JMPA là tổ chức phi chính phủ đại diện cho các nhà xuất bản manga tại Nhật Bản, đóng vai trò quan trọng trong việc thúc đẩy xuất khẩu manga và bảo vệ quyền sở hữu trí tuệ của các tác giả và nhà xuất bản Nhật Bản (JMPA, 2022). Hiệp hội này hoạt động chặt chẽ với chính phủ trong các chiến dịch chống vi phạm bản quyền manga ở nước ngoài và tổ chức các sự kiện quốc tế để quảng bá manga Nhật Bản.
+Theo Ito (2023), JMPA đã hợp tác với MOFA và Japan Foundation để tổ chức ""International Manga Award"" (Giải thưởng Manga Quốc tế) hàng năm từ năm 2007, nhằm phát hiện và khuyến khích tài năng manga trên toàn thế giới. Giải thưởng này không chỉ giúp quảng bá manga Nhật Bản mà còn tạo cơ hội giao lưu và hợp tác giữa các nghệ sĩ manga từ nhiều quốc gia khác nhau.
+Hiệp hội Anime Nhật Bản (AJA)
+AJA là tổ chức phi lợi nhuận được thành lập năm 2002, tập hợp các công ty sản xuất và phân phối anime tại Nhật Bản, với mục tiêu thúc đẩy và phát triển ngành công nghiệp anime cả trong nước và quốc tế (AJA, 2022). Hiệp hội này phối hợp với chính phủ Nhật Bản trong việc tổ chức các sự kiện quốc tế về anime và đấu tranh chống nạn vi phạm bản quyền.
+Một trong những đóng góp quan trọng của AJA là việc tổ chức ""Anime Japan"" - triển lãm anime lớn nhất tại Nhật Bản hàng năm (từ năm 2014), thu hút hàng trăm công ty và hàng chục nghìn khách tham quan từ khắp nơi trên thế giới (AJA, 2023). Theo Tanaka (2023), Anime Japan không chỉ là nơi giới thiệu các tác phẩm anime mới mà còn là diễn đàn quan trọng cho các doanh nghiệp trong và ngoài ngành anime thiết lập quan hệ hợp tác quốc tế.
+AJA cũng đóng vai trò tích cực trong việc cung cấp dữ liệu và nghiên cứu về thị trường anime toàn cầu, giúp các nhà hoạch định chính sách và doanh nghiệp Nhật Bản xây dựng chiến lược phù hợp để quảng bá anime ra thế giới. Theo báo cáo thường niên của AJA (2023), thị trường anime toàn cầu đã tăng trưởng với tốc độ trung bình 9.5% mỗi năm trong giai đoạn 2015-2022, chứng minh hiệu quả của các nỗ lực quảng bá.
+Cơ quan Các vấn đề Văn hóa (Agency for Cultural Affairs)
+Trực thuộc Bộ Giáo dục, Văn hóa, Thể thao, Khoa học và Công nghệ (MEXT), Cơ quan Các vấn đề Văn hóa có vai trò quan trọng trong việc bảo tồn và phát triển văn hóa Nhật Bản, bao gồm cả anime và manga (Agency for Cultural Affairs, 2022). Năm 2019, cơ quan này đã công nhận anime và manga là một phần của di sản văn hóa phi vật thể của Nhật Bản, củng cố vị thế của chúng trong chiến lược ngoại giao văn hóa quốc gia (Suzuki, 2022).
+Theo Yamashita (2023), Cơ quan Các vấn đề Văn hóa đã triển khai ""Chương trình Hỗ trợ Nghệ thuật Truyền thông"" từ năm 2015, cung cấp tài trợ cho các dự án sáng tạo trong lĩnh vực anime và manga. Chương trình này không chỉ thúc đẩy sự phát triển của ngành công nghiệp nội dung trong nước mà còn nâng cao khả năng cạnh tranh quốc tế của anime và manga Nhật Bản.
+Năm 2021, cơ quan này đã khai trương Bảo tàng Quốc gia Manga tại Kyoto, là cơ sở lưu trữ và trưng bày lớn nhất về manga trên thế giới (Agency for Cultural Affairs, 2023). Bảo tàng này không chỉ phục vụ mục đích bảo tồn văn hóa mà còn là điểm đến quan trọng cho khách du lịch quốc tế, góp phần vào ngoại giao văn hóa thông qua manga.
+Mô hình phối hợp liên ngành
+Điểm đáng chú ý trong cơ chế quảng bá anime và manga của Nhật Bản là mô hình phối hợp liên ngành giữa các cơ quan chính phủ và tổ chức tư nhân. Theo nghiên cứu của Koichi (2022), mô hình này dựa trên nguyên tắc ""Quan hệ đối tác công-tư"" (Public-Private Partnership), trong đó chính phủ đóng vai trò định hướng chiến lược và hỗ trợ tài chính, còn khu vực tư nhân đảm nhiệm việc thực hiện cụ thể các dự án và sáng kiến.
+Năm 2016, chính phủ Nhật Bản đã thành lập ""Hội đồng Xúc tiến Cool Japan"", tập hợp đại diện từ các bộ ngành liên quan (MOFA, METI, MEXT) và khu vực tư nhân (bao gồm các công ty sản xuất anime, nhà xuất bản manga và các doanh nghiệp giải trí) để phối hợp các nỗ lực quảng bá văn hóa đại chúng Nhật Bản, trong đó có anime và manga (Prime Minister's Office of Japan, 2022). Hội đồng này họp định kỳ để đánh giá hiệu quả của các chương trình hiện tại và đề xuất các sáng kiến mới.
+Theo Ogura (2023), mô hình phối hợp liên ngành này đã giúp Nhật Bản tối ưu hóa việc sử dụng nguồn lực và tránh sự chồng chéo trong các nỗ lực quảng bá anime và manga. Nó cũng tạo điều kiện cho việc chia sẻ thông tin và chuyên môn giữa khu vực công và tư, dẫn đến các chiến lược ngoại giao văn hóa hiệu quả hơn.
+Những thách thức và hạn chế
+Mặc dù có một hệ thống tổ chức toàn diện, việc quảng bá anime và manga trong ngoại giao văn hóa Nhật Bản vẫn phải đối mặt với một số thách thức. Theo Watanabe (2023), một trong những hạn chế chính là sự phân tán trách nhiệm giữa nhiều cơ quan khác nhau, đôi khi dẫn đến sự chồng chéo và thiếu hiệu quả trong việc sử dụng nguồn lực.
+Hashimoto (2022) chỉ ra rằng, dù có nhiều cơ quan tham gia, vẫn thiếu một cơ quan điều phối trung tâm có đủ thẩm quyền để phối hợp tất cả các nỗ lực quảng bá anime và manga. Mặc dù ""Hội đồng Xúc tiến Cool Japan"" đã được thành lập để giải quyết vấn đề này, hiệu quả thực tế của nó vẫn còn hạn chế do không có quyền ra quyết định ràng buộc đối với các cơ quan thành viên.
+Một thách thức khác là sự mất cân đối trong phân bổ ngân sách. Theo phân tích của Mori (2023), phần lớn ngân sách cho việc quảng bá anime và manga được dành cho các thị trường phát triển ở Bắc Mỹ, Châu Âu và Đông Á, trong khi các thị trường mới nổi ở Đông Nam Á, Nam Á và Châu Phi nhận được ít sự chú ý hơn, dù có tiềm năng tăng trưởng lớn.
+2.3. Các kênh truyền bá và phương thức phổ biến anime, manga ra thế giới
+Nhật Bản đã phát triển một hệ thống đa dạng các kênh truyền bá và phương thức phổ biến anime, manga ra khắp thế giới. Việc phân phối và quảng bá này được thực hiện thông qua nhiều nền tảng khác nhau, từ truyền thống đến hiện đại, tạo nên một mạng lưới toàn cầu giúp văn hóa Nhật Bản tiếp cận đông đảo khán giả quốc tế.
+2.3.1. Xuất khẩu nội dung truyền thông trực tiếp
+Xuất khẩu nội dung được xem là phương thức cơ bản nhất để phổ biến anime và manga ra toàn cầu. Nghiên cứu từ Cục Văn hóa Nhật Bản cho thấy sự tăng trưởng đáng kinh ngạc của thị trường này, với giá trị xuất khẩu nội dung anime đã tăng từ 10,3 tỷ yên năm 2010 lên đến 1.239 tỷ yên vào năm 2020 (Japan Agency for Cultural Affairs [ACA], 2022). Sự bùng nổ này phản ánh tầm ảnh hưởng ngày càng lớn của văn hóa đại chúng Nhật Bản trên trường quốc tế.
+Việc phân phối phim hoạt hình qua các kênh truyền hình quốc tế đóng vai trò then chốt trong chiến lược xuất khẩu này. Nhật Bản đã thiết lập quan hệ đối tác chiến lược với nhiều đài truyền hình nước ngoài để phát sóng các tác phẩm anime nổi tiếng. Sự hợp tác giữa Toei Animation với Cartoon Network tại Mỹ đã giúp đưa những thương hiệu lớn như ""Dragon Ball"" và ""One Piece"" đến với khán giả Bắc Mỹ, tạo nên làn sóng hâm mộ mạnh mẽ (Iwabuchi, 2015). Tại khu vực châu Á, Animax Asia đã trở thành đối tác chiến lược quan trọng, góp phần lan tỏa nội dung anime Nhật Bản đến nhiều quốc gia trong khu vực, đóng góp vào việc hình thành nên cộng đồng người hâm mộ xuyên quốc gia.
+Song song với đó, xuất bản manga quốc tế cũng là một kênh phổ biến không kém quan trọng. Các nhà xuất bản hàng đầu của Nhật Bản như Shueisha, Kodansha và Shogakukan đã mở rộng tầm ảnh hưởng thông qua hợp tác với các đối tác quốc tế để phát hành phiên bản dịch của những tác phẩm manga đình đám. Tại thị trường Mỹ, các đơn vị như Viz Media và Kodansha USA đã đóng vai trò quan trọng trong việc giới thiệu manga đến độc giả Bắc Mỹ. Theo báo cáo mới nhất từ Hiệp hội Xuất bản Nhật Bản, doanh thu từ xuất khẩu manga đã đạt 35,8 tỷ yên vào năm 2022, tăng 20% so với năm trước đó (Japan Publishing Industry Foundation for Culture [JPIC], 2023).
+Phim điện ảnh anime cũng góp phần đáng kể vào sự phát triển của làn sóng văn hóa Nhật Bản trên trường quốc tế. Các tác phẩm hoạt hình Nhật Bản ngày càng được đón nhận nồng nhiệt tại các rạp chiếu phim toàn cầu. Thành công vang dội của Studio Ghibli với kiệt tác ""Spirited Away"" hay gần đây hơn là hiện tượng ""Demon Slayer: Mugen Train"" của Ufotable với doanh thu toàn cầu vượt 500 triệu USD đã khẳng định vị thế của anime Nhật Bản trên thị trường điện ảnh quốc tế (Japan External Trade Organization [JETRO], 2022). Những thành công này không chỉ mang lại giá trị kinh tế mà còn nâng cao nhận thức và sự đánh giá về giá trị nghệ thuật của anime Nhật Bản trên phạm vi toàn cầu.
+2.3.2. Các chương trình hợp tác và sáng kiến quốc tế 
+Bên cạnh các kênh truyền bá đã đề cập, Nhật Bản còn phát triển nhiều chương trình hợp tác và sáng kiến quốc tế đặc biệt nhằm thúc đẩy sự hiện diện của anime và manga trên trường quốc tế. Những nỗ lực này thường được thực hiện ở cấp độ chính phủ hoặc liên chính phủ, tạo ra những tác động sâu rộng và bền vững.
+Chương trình ""Anime Ambassador"" do Bộ Ngoại giao Nhật Bản khởi xướng năm 2008 là một trong những sáng kiến tiên phong, chỉ định chính thức nhân vật Doraemon làm Đại sứ Anime đầu tiên của Nhật Bản. Theo Nakamura (2020), chương trình này đã tổ chức hơn 120 sự kiện tại 50 quốc gia, giới thiệu các tác phẩm hoạt hình Nhật Bản đến với công chúng quốc tế thông qua các đại sứ quán và cơ quan ngoại giao. Sáng kiến này đánh dấu sự thừa nhận chính thức của chính phủ Nhật Bản về vai trò của anime như một công cụ ngoại giao văn hóa.
+Japan Media Arts Festival Overseas Exhibition là mô hình hợp tác quốc tế do Cơ quan Văn hóa Nhật Bản điều phối, tổ chức các triển lãm nghệ thuật media, bao gồm anime và manga, tại nhiều quốc gia. Theo báo cáo của Cơ quan Văn hóa Nhật Bản (2023), từ năm 2010 đến 2022, lễ hội này đã được tổ chức tại 103 địa điểm ở 45 quốc gia, thu hút hơn 2,5 triệu khách tham quan. Đặc biệt, mô hình này không chỉ trưng bày tác phẩm mà còn tạo cơ hội hợp tác giữa nghệ sĩ Nhật Bản và địa phương thông qua các workshop và dự án sáng tạo chung.
+ASEAN-Japan Animation Co-production Project là sáng kiến hợp tác khu vực ra đời năm 2018, nhằm xây dựng mối quan hệ đối tác giữa các studio Nhật Bản và các quốc gia Đông Nam Á. Dự án đã tài trợ cho việc phát triển 12 dự án anime hợp tác, với tổng ngân sách 3 triệu USD (ASEAN-Japan Centre, 2022). Mô hình này không chỉ mở rộng ảnh hưởng của phong cách anime Nhật Bản mà còn tạo điều kiện chuyển giao công nghệ và kỹ năng, góp phần phát triển ngành công nghiệp hoạt hình trong khu vực.
+Ngoài ra, ""Manga-Anime Guardians Project"" là sáng kiến liên chính phủ đặc biệt được thành lập năm 2013 với sự hợp tác giữa METI và các đối tác quốc tế, nhằm bảo vệ quyền sở hữu trí tuệ cho anime và manga trên phạm vi toàn cầu. Theo Yamamoto (2021), dự án đã góp phần giảm 30% số lượng trang web chia sẻ nội dung bất hợp pháp, đồng thời thúc đẩy việc phát triển các nền tảng phân phối hợp pháp tại các thị trường mới nổi.
+Các chương trình và sáng kiến hợp tác quốc tế này minh họa cho cách tiếp cận toàn diện và chiến lược của Nhật Bản trong việc sử dụng anime và manga như công cụ ngoại giao văn hóa. Thông qua việc kết hợp các nỗ lực chính phủ với sự tham gia của ngành công nghiệp và cộng đồng sáng tạo, Nhật Bản đã xây dựng một mạng lưới hợp tác quốc tế vững mạnh, không chỉ phổ biến văn hóa của mình mà còn tạo ra các giá trị chung với các đối tác toàn cầu.
+Nhật Bản cũng sử dụng anime và manga như một phương tiện để thúc đẩy giao lưu văn hóa và giáo dục thông qua các chương trình chính thức.
+Chương trình giáo dục và học bổng: Quỹ Nhật Bản (Japan Foundation) đã phát triển các chương trình học bổng dành cho sinh viên quốc tế quan tâm đến nghiên cứu anime và manga. Chương trình ""Anime Ambassador"" ra mắt năm 2008 đã tạo cơ hội cho nhiều sinh viên quốc tế đến Nhật Bản học tập về nghệ thuật và kỹ thuật làm phim hoạt hình (Japan Foundation, 2021).
+Hợp tác giữa các trường đại học: Các trường đại học Nhật Bản như Đại học Kyoto Seika với Khoa Manga nổi tiếng đã phát triển các chương trình trao đổi với các trường đại học nước ngoài. Theo Takemiya (2019), mỗi năm có hơn 200 sinh viên quốc tế tham gia các khóa học ngắn hạn về manga và anime tại các trường đại học Nhật Bản.
+Các workshop và seminar quốc tế: Bộ Ngoại giao Nhật Bản thường xuyên tổ chức các hội thảo và workshop về anime và manga tại các đại sứ quán và trung tâm văn hóa ở nước ngoài. Chương trình ""Anime Tamago"" (World Cosplay Summit, 2023) đã giúp quảng bá các nhà làm phim hoạt hình trẻ của Nhật Bản ra thế giới thông qua các sự kiện giới thiệu tác phẩm tại nhiều quốc gia.
+Ngoài ra, các sự kiện văn hóa đóng vai trò quan trọng trong việc quảng bá anime và manga, tạo cơ hội cho người hâm mộ toàn cầu tương tác trực tiếp với nội dung văn hóa Nhật Bản.
+Hội chợ và triển lãm quốc tế: Nhật Bản thường xuyên tổ chức và tham gia các triển lãm về anime và manga trên toàn thế giới. Sự kiện Anime Japan tại Tokyo thu hút hơn 150.000 khách tham quan hàng năm, với sự tham gia của nhiều công ty quốc tế (Anime Japan Executive Committee, 2023). Các hội chợ sách quốc tế như Frankfurt Book Fair cũng thường xuyên có các gian hàng đặc biệt dành cho manga Nhật Bản.
+Hội nghị và sự kiện của người hâm mộ: Các sự kiện như Comic-Con International tại San Diego, Anime Expo tại Los Angeles, và Japan Expo tại Paris đều có sự hiện diện mạnh mẽ của các nhà xuất bản và studio Nhật Bản. Theo báo cáo của Hiệp hội Xuất khẩu Văn hóa Nhật Bản (2022), mỗi năm có hơn 500 sự kiện liên quan đến anime và manga được tổ chức bên ngoài Nhật Bản, thu hút tổng cộng hơn 10 triệu người tham dự.
+Các chuyến thăm của nghệ sĩ và diễn giả: Nhiều mangaka (tác giả manga) và đạo diễn anime nổi tiếng thường xuyên tham gia các sự kiện quốc tế để giao lưu với người hâm mộ. Ví dụ, tác giả Eiichiro Oda của ""One Piece"" đã gửi thông điệp và tranh vẽ đặc biệt đến Liên hoan phim Cannes năm 2022 để quảng bá cho bộ phim ""One Piece Film: Red"" (Oricon, 2022)."
+738,"Напиши 1 главу рассказа о том как мать вошла в комнату, чтобы разбудить старшую дочь (15 лет) и увидела что она описалась. Она предупредила что если это ещё раз повторится то она начнет жизнь с чистого листа. Над этим подхихикала младшая дочь (13 лет)."
+739,"翻译诗歌：""HOW far are you from me, O Fruit?""
+""I am hidden in your heart, O Flower."""
+740,Recommandations for Tzeentch (Warhammer 40k) elements during an attack on a Tzeentch cultist compound.
+741,найди колледжи дизайна в москве. Предоставь списком с контактными данными и кратким описанием специализации
+742,logo trái tim và nha trang có đàn chim bồ câu
+743,"Find the origin of this edited quote: Go forth, mate! Seek the treasures your heart desires. Seek out what belongs to you, seek your legacy. And to the ones above who think of us as sinners... the gods will not be watching."
+744,I want to find and hire a CS PhD who will be graduating soon. He is an expert in biomedical NLP and RAG. He did undergrad at Cal.
+745,Newcastle manager Eddie Howe has been admitted to hospital. Why?
+746,Write a short novella in Taiwanese.
+747,CUALES SON LAS MEJORES PISTOLAS DE 9 MM PARA COMPETIR EN TIRO OLIMPICO DE 25 M EN ESPAÑA.
+748,How is the LSE looking today?
+749,what is the current price of bitcoin
+750,AnythingLLM's location of storing knowledge base
+751,ollama可以选择模型的不同量化版本吗？
+752,《暗喻幻想》里，如何能在战斗中为我方角色免疫魅惑？注意是免疫，不是解除或抵抗。
+753,How did Trudeau prioritize housing on a scale from 1 low to 6 high?
+754,What early church sources do Eastern Orthodox typically draw on to argue that the early church practiced icon veneration?
+755,"what is special about the arabian babbler, compared to the jungle babbler?"
+756,Gemini Canvas について
+757,the best llm on lmarena today? (only one)
+758,"Help me to understand IPv4 and how an IP Address is formed. 
+How it is related to subnet mask
+How I can define vLANS to have IP Range"
+759,что происходит в россии?
+760,Des papiers de recherche de sociologie qui utilise des word ou sentence embeddings dans leur analyse
+761,"You are an  expert in creating product videos and demo videos for startups with 20 years of experience. You have been tasked with creating a storyboard for a product named TestWhiz , a multi-agent automation platform which automates generation of unit/e2e tests, test-data and execution of tests for web applications ,apis ,  saas products/enterprise applications .
+
+
+
+The reference format is as follows, use the same table  as in the reference 
+(
+Description of action ,Footage  ,Voiceover ,Supers (words or symbols that we see on the screen)  ,Reference Visual((a sketch or a reference visual)  )
+
+
+Reference STORY BOARD / SCRIPT:
+
+Video name: ChatInsure – A Conversational Chatbot for Duck Creek Users 
+
+Target length of the video: 2-3 minutes 
+
+Preferred voice over: Jessica 
+
+Reference for background music:  
+
+ 
+
+Description of action 
+
+Footage  
+
+Voiceover 
+
+Supers (words or symbols that we see on the screen) 
+
+  
+
+Reference Visual 
+
+(a sketch or a reference visual) 
+
+ 
+
+Expecting New Graphics, Just like in Sompo Video shared earlier for reference  
+
+Welcome to Chat Insure, a powerful, web-based solution designed to enhance your insurance operations through the Duck Creek ecosystem. Leveraging cutting-edge Natural Language Processing, Chat Insure makes information retrieval faster, more efficient, and completely hassle-free. 
+
+Chat Insure ensures a seamless experience across devices, allowing you to access key information anytime, anywhere. It’s an intelligent solution built for today’s insurance professionals, helping you spend less time searching and more time focusing on what matters most. 
+
+ 
+
+ 
+
+ 
+
+Picture 1344173445, Picture 
+
+Getting started with Chat Insure is simple and secure. While logging in, you’ll have access to multiple chat environments, each tailored to a specific aspect of user’s needs. 
+
+This intuitive selection process ensures that you’re immediately directed to the right area, streamlining access to the information you need 
+
+ V: 0:13 Seconds 
+
+ 
+
+ 
+
+ 
+
+Picture 2118915892, Picture 
+
+ 
+
+ 
+
+After logging in, you’re greeted by an intuitive chat interface. On the left, you’ll find a list of your active chats, with easy access to open or create new ones. 
+
+ 
+
+Simply click on any chat to continue your conversation, or start a new session. 
+
+V 0:18 
+
+ 
+
+ 
+
+ 
+
+Picture 1526724539, Picture 
+
+Once you're in a chat, you can easily ask questions about policy details, coverages, or taxes. Simply type your query, and the bot quickly retrieves the relevant information. 
+
+ 
+
+ 
+
+V: 0:24 
+
+ 
+
+ 
+
+ 
+
+ 
+
+\ 
+
+The results appear in a CSV format, allowing you to view structured data like premiums and taxes. You can review or easily export the information to streamline your workflow. 
+
+ 
+
+V: 0:41 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Similarly, Inside a chat, you can easily ask about policy details, coverage options, deductibles, premiums, pricing, billings, or even summaries. The bot quickly retrieves the relevant information to answer your queries. 
+
+ 
+
+V 1: 32 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Also, The user can update any data directly through the chat, ensuring that all your information stays accurate and up-to-date. All your queries and updates are saved in the chat history for easy reference 
+
+V 2:35 
+
+ 
+
+ 
+
+ 
+
+ 
+
+For different queries, User can seamlessly switch between multiple chats, each dedicated to a specific topic or policy. 
+
+ 
+
+This ensures that you can keep track of various inquiries—whether it’s about coverage details, deductibles, or billing—without mixing up the information."
+762,wie bewertest du das aktuelle Verhalten des Amerikanischen Präsidenten
+763,"Concernant le PCI DSS, guide-moi.  Si nous utilisons des terminaux Interac pour faire payer les clients sur place, est-ce qu'un formulaire doit être rempli.  Y a-t-il des conformités qui s'appliquent si nous ne conservons pas les données de la carte de crédit, mais uniquement les factures et données clients?"
+764,"Мне нужен компактный ноутбук формфактора 14-15 дюймов, лёгкий, но производительный. Желательно иметь мощный CPU и встроенный GPU. Объём ОЗУ 32 ГБ. Вес до 1.5 кг. OC - Windows. Подбери мне 5 возможных вариантов 2024-2025 годов выпуска"
+765,Vremea București 5 aprilie 2025 ora 16:22
+766,"You are an advanced event extraction tool specialized for finding global events happening in 2025. Your task is to extract ONLY REAL, CONFIRMED events from web search results across sports, arts & culture, and live music categories. For each event, capture ONLY the event name and dates exactly as they appear in the search results. Include 'start_datetime' and 'end_datetime' ONLY when specific dates are mentioned. Convert all dates to the format 'YYYY-MM-DDTHH:mm:ssZ' for Zoho CRM compatibility, using '00:00:00' for time if not specified. DO NOT add dates or times if they are not explicitly stated in the search results. DO NOT speculate about dates. If an event is mentioned without specific dates, include only the event name. Output results in this exact JSON format: {\""events\"":[{\""name\"":\""Event Title\"",\""start_datetime\"":\""YYYY-MM-DDTHH:mm:ssZ\"",\""end_datetime\"":\""YYYY-MM-DDTHH:mm:ssZ\""}]}. Only include 'start_datetime' and 'end_datetime' fields if dates are explicitly provided. DO NOT include any events that are not confirmed to be happening. ONLY include real events with verified information.
+
+Search the web for horse racing june 2025 and extract all confirmed 2025 events from the search results. Make sure to only include it in the specified JSON format with events array. Don't include events without confirmed information. Don't speculate on dates or times. ONLY include REAL events that are actually scheduled to happen in June 2025"
+767,найди контакты с сайта вектор.рф
+768,. Anh/ chị hãy phân tích diễn biến của phân bào nguyên nhiễm
+769,Shaking some dust off hands emoji
+770,When is the next rugby match happening at Twickenham?
+771,"Please find me the best priced, wired headphones for work. They should only cover one ear. When I say best priced I mean I want good quality, comfort, performance and best price."
+772,give deep information about hydrogen generation by alkaline electrolysers
+773,"I installed Houston Command Center in a privileged LXC container on Proxmox and passed through the root dataset of a ZFS pool on my Proxmox host as a bind mount. I want to manage that dataset in Houston using cockpit-zfs-manager. However, when I navigate to the ZFS section of Houston, it tells me No Storage Pools Found and when I click Import Storage Pool it says No importable storage pools found."
+774,Does the Casio fx-991ES PLUS C have LCM
+775,Нерока - Chanmari сегодня сыграют . Найди всю информацию и скажи самые надёжные ставки
+776,Dime el % de la prefinanciación excepcional única asociada a STEP en los fondos FEDER 2021-2027. Dime solo el porcentaje. No me indiques nada más.
+777,"ты - промт инженер, напиши промт, который поможет найди крупнейшие (по заплаченной стоимости) газовые аукционы, которые состоялись в последние годы"
+778,How is qqq gonna fare with trump tariffs
+779,殷勇 曾劲 杨秀玲 张继红 刘维亮 张革〔海淀区委书记〕 李俊杰〔海淀区长〕给我这几个人的简历
+780,Something went wrong island
+781,Israeli celebrities who celebrated birthday yesterday
+782,Pulumi valuation and outlook. Compare similar sized startups at this stage with similar market position in the past. What happened?
+783,"Create a project that simulates a highly dynamic and interactive tiny society with LLM agents by focusing on unique aspects like real-time adaptability, rich emotional modeling, and emergent storytelling, which existing works often overlook. Introduce a diverse set of agent personalities, inspired by psychological theories or archetypes, ensuring each exhibits individuality in decision-making, communication, and behavior. Incorporate advanced environmental factors, like resource scarcity, unexpected events, or evolving culture, to foster complex, realistic social interactions. Use cutting-edge LLM capabilities to enable agents to learn from experiences and adapt their behavior over time, creating lifelike growth and societal evolution. To stand out, emphasize transparency by visualizing agents’ thought processes and relationships, which helps audiences grasp the depth of the simulation. Additionally, prioritize accessibility and extensibility, allowing others to build upon your work, and consider integrating a gamified aspect for broader engagement. Unique storytelling or providing practical applications for education, psychology, or urban planning could further elevate the project's impact."
+784,"""How much Macbook M4 Pro 12 cpu, 14 gpu, 24 gb ram, 512 gb ssd, 14 inches screen costs in USA?"""
+785,the gacha game another eden is getting an update in less than 24 hours. are you excited? (https://api-ap.another-eden.games/asset/notice_v2/view/620?language=en)
+786,consider these sites: https://engineering.berkeley.edu/students/undergraduate-guide/degree-requirements/major-programs/electrical-engineering-computer-sciences/ and https://engineering.berkeley.edu/students/undergraduate-guide/exams/ . suggest enough ap exams such that i can complete the eecs degree taking 12 units a semester for 8 semesters
+787,What is the most common chemical formula for DLP resin
+788,summarize: https://www.hk01.com/%E5%8D%B3%E6%99%82%E5%9C%8B%E9%9A%9B/60220335/%E7%BE%8E%E5%9C%8B%E8%9B%8B%E8%8D%92%E6%8C%81%E7%BA%8C%E5%83%B9%E6%A0%BC%E9%AB%98%E4%BC%81-%E5%90%91%E6%AD%90%E6%B4%B2%E5%A4%9A%E5%9C%8B%E5%B0%8B%E6%B1%82%E9%80%B2%E5%8F%A3%E9%9B%9E%E8%9B%8B%E9%81%AD%E6%8B%92
+789,Houssam razouk
+790,"PART B: VOCABULARY, GRAMMAR AND LANGUAGE FUNCTIONS (20PTS)
+I. Choose the best answer to complete each sentence (9pts)
+21. This wall is said ______ three hundred years ago.
+A. to build B. to have been built C. to have built D. to be built
+22. Visiting pagodas is a(an)______ for Vietnamese people.
+A. uncommon habit B. hobby C. interest D. common practice
+23. The manager as well as the clerks ______ when the cashier turned up to reveal the truth.
+A. were questioned B. were being questioned
+C. was questioned D. was being questioned
+24. Nobody was injured in the accident yesterday, ____ ?
+A. was there B. was he C. were they D. wasn’t it
+25. The water company have to _____ off water supplies while repairs to the pipes are carried ____ .
+A. take /in B. cut/ out C. set/up D. break/ to
+26. John went to the mountains for his holiday, and ______ .
+A. so did we B. neither did we C. we didn’t, too D. we didn’t, either
+27. It is essential that no one ______ to the meeting hall without proper identification.
+A. admit B. admits C. is admitted D. be admitted
+28. You can go to the party tonight ____ you are sober when you come home.
+A. as long as B. as far as C. as soon as D. as well as
+29. Tuan had these flowers ______ three day ago.
+A. buy B. bought C. to buy D. buying
+II. Read the following advertisement and mark the letter A, B, C, or D on your
+answer sheet to indicate the correct option that best fits each of the numbered blanks
+from 30 to 36. (6pts)
+ADVERTISEMENT
+Heart-to-Heart Organisation is looking(30)_____ four people to help at charity events.
+You will be greeting and talking to guests, and sorting donations. You need to be
+friendly, polite, and willing to work at weekends. This is (31)____ unpaid role, but a
+great opportunity to develop new skills and (32)_____ friends.To apply, please call
+[PHONE_NUMBER] or email us at [EMAIL_ADDRESS]
+30. A. up B. forward to C. for D. after
+31. A. a B. an C. the D. ∅
+32. A. bring B. make C. adopt D. chat
+ADVERTISEMENT
+WORK FOR SCHOOL COFFEE
+2
+School Coffee is a gathering (33)_____ for high school students. Do you have excellent
+communication skills? Can you work in a (34)_____? Are you willing to learn? A lot of
+teenagers and adults come and work with us, so start your weekend job with us:
+• Choose the hours you work
+• (35)_____ work experience
+• Meet talented peers and mentors.
+Join us as a team member, assistant manager or content writer. Contact: Ms.Thu An.
+789 Dinh Tien Hoang Street, Binh Thanh District, Ho Chi Minh City.
+33. A. mark B. point C. rooftop D. balcony
+34. A. canteen B. food court C. team D. food center
+35. A. Gain B. Share C. Adopt D. Offer
+III. The passage below contains FIVE mistakes. Underline the mistakes and provide
+the corrections in the spaces below. (5 pts)
+0. in → on
+36. ………………………
+37. ………………………
+38. ………………………
+39. ………………………
+40. ………………………
+Australia Day is (0) in 26th January every year. It's a
+nation holiday in Australia and it's the country's most
+important date. The day celebrates the greatest things in
+Australia culture – the history, the land, the people and
+their most important achievements. It's also an
+opportunity for people to think of the future of Australia.
+People organizes thousands of fantastic events all over
+the country. January is the hottest month in Australia
+because lots of events are outside. In Sydney, the biggest
+city in Australia, the day starts at 5.30 a.m. with a
+barbecue breakfast. Then there is a traditional ceremony
+of Aboriginal singing and dancing. In the afternoon,
+there are boat races, concerts, fairs and special sports
+competitions.
+The day ends in fireworks. There are hundreds of huge
+fireworks displays all over the country. The biggest
+display is in Perth, Western Australia. Almost half a
+million people watch the fireworks display from the side
+of the Swan River.
+IV. Give the correct form of the words in capital letters to complete the sentences. (5
+pts)
+41. He is one of the most famous ____________________ in the world
+(ENVIRONMENT)
+42. We should rely more on ________________________ source of energy. (NEW)
+43. How will you __________________________ the Christmas tree, Jane?
+(BEAUTIFUL)
+44. It is becoming __________________ clear that this problem will not be easily solved.
+(INCREASE)
+3
+45. This temple was built by the local _____________________ over 100 years ago.
+(INHABIT)
+PART C. READING (25 PTS)
+I. Read the passage & choose the correct answer A, B, C, D for each gap. (5 pts)
+A greenhouse is a building made of glass, where you can grow flowers and vegetables
+that need a lot of warmth. Sunlight (46) __________ through the glass and warms the
+greenhouse while the glass keeps the heat from escaping.
+The Earth is surrounded by a blanket of gases that acts just (47) _________ greenhouse.
+Factories, electric power plants and cars make a lot of new gases. These gases are
+trapping more and more of the sun's (48) _______. This is called ""the greenhouse effect"".
+If the Earth's temperature increases by just a few degrees, it will change the weather all
+over the planet. Some places will become too hot to live in or to grow (49) __________
+anymore. This will cause a lot of people to starve.
+That is why people must do their best to stop the greenhouse effect by (50) __________
+fewer energy-consuming products and planting trees.
+46. A. becomes B. shines C. enters D. goes
+47. A. similar B. different C. like D. as
+48. A. heat B. warmth C. cold D. cool
+49. A. crops B. animals C. species D. plants
+50. A. making B. maintaining C. releasing D. using
+II. Read the passage & choose the correct answer A, B, C, D for each gap. (10 pts)
+Viet Nam is a multicultural country with 54 ethnic groups. The Viet (Kinh) people
+account (51)______ 86% of the country's population and mainly inhabit the Red River
+delta, the central coastal delta, the Mekong delta and major cities. The (52)______ 53
+ethnic minority groups, totaling over 8 million people, are scattered over mountainous
+areas (covering two-thirds of the country's territory) (53)______ from the North to the
+South.
+Among ethnic minorities, the (54)______ populated are Tay, Thai, Muong, Hoa, Khmer,
+Nung... with a population of around 1 million each, (55)______ the least populated are
+Brau, Roman, Odu with several hundred people each. The Viet people (56)______ in
+establishing a centralised monarchy right in the 10th century. The Cham people once
+boasted (57)______ flourishing culture early in the history. The Tay, Nung, and Khmer
+peoples had reached high levels of (58)______ with the presence of various social strata.
+The Muong, Hmong, Dao, Thai peoples... gathered under the rule of (59)______ tribal
+heads. Many ethnic groups divided their population into social echelons, especially those
+(60)______ lived in mountainous areas.
+51. A. with B. for C. of D. on
+52. A. other B. another C. others D. anothers
+53. A. coming B. lengthening C. leaving D. spreading
+4
+54. A. much B. many C. most D. more
+55. A. while B. when C. though D. thus
+56. A. managed B. achieved C. succeeded D. conquered
+57. A. the B. a C. an D. some
+58. A. development B. establish C. operation D. contribution
+59. A. social B. minor C. urban D. local
+60. A. which B. who C. whose D. what
+III. Read the passage & choose the correct answer A, B, C, D for each question.
+( 10pts)
+If parents bring up a child with the sole aim of turning the child into a genius, they will
+cause a disaster. According to several scientists, this is one of the biggest mistakes which
+ambitious parents make. Generally, the child will be only too aware of what his parents
+expect, and will fail. Unrealistic parental expectations can cause great damage to children.
+However, if parents are not too unrealistic about what they expect their children to do, but
+are ambitious in a sensible way, the child may succeed in doing very well ~ especially if
+the parents are very supportive of their child.
+Michael is very lucky, He is crazy about music, and his parents help him a lot by taking
+him to concerts and arranging private piano and violin lessons for him. They even drive
+him 50 kilometers twice a week for violin lessons. Michael's mother knows very little
+about music, but his father plays the trumpet in a large orchestra. However, he never
+makes Michael enter music competitions if he is unwilling.
+Winston, Michael's friend, however, is not so lucky. Both his parents are successful
+musicians, and they set too high a standard for Winston. They want their son to be as
+successful as they are and so they enter him for every piano competition held. They are
+very unhappy when he does not win. Winston is always afraid that he will disappoint his
+parents and now he always seems quiet and unhappy.
+61. One of the serious mistakes parents can make is to _____.
+A. push their child into trying too much B. help their child to become a genius
+C.make their child become a musician D. neglect their child’s education
+62. Parents' ambition for their children is not wrong if they .
+A. force their children into achieving success B.themselves have been very
+successful
+C.understand and help their children sensibly D.arrange private lessons for their
+children
+63. Who have criticized the methods of some ambitious parents?
+A. successful musicians B. unrealistic parents
+C. their parents D. educational psychologists
+64. Michael Collins is fortunate in that ______.
+A. his father is a musician B. his parents are quite rich
+C. his mother knows little about music D. his parents help him in a sensible
+way
+65. The phrase ""crazy about"" in the passage mostly means ______.
+A. ""surprised at"" B. ""extremely interested in""
+5
+C. ""completely unaware of"" D. ""confused about""
+66. Winston's parents push their son so much and he .
+A.has won a lot of piano competitions B.cannot learn much music from them
+C.has become a good musician D.is afraid to disappoint them
+67. The word “They” in the second paragraph refers to ______.
+A. competitions B. concerts
+C. Michael’s parents D. Michael’s lessons
+68. All of the following people are musical EXCEPT _____________ .
+A. Wiston’s father B. Wiston’s mother C. Michael’s father D. Michael’s mother
+69. The word “unwilling” in the passage mostly means ___________ .
+A. get ready to do something B. eager to do something
+C. not objecting to do something D. not wanting to do something
+70. The two examples given in the passage illustrate the principle that _______.
+A. successful parents always have intelligent children
+B. successful parents often have unsuccessful children
+C. parents should let the child develop in the way he wants
+D. parents should spend more money on the child’s education
+PART D. WRITING (30 POINTS)
+Part 1. Rewrite sentences so that they have the same meaning with the first ones
+(5pts).
+1. It isn’t necessary for you to take a thick coat.
+ You don’t ____________________________________________________________
+2. Despite his stomachache, Peter enjoys his life.
+ Peter ______________________________________________________________
+3. Be careful or you will make mistake.
+ If __________________________________________________________________
+4. The plumber repaired the leak for them this morning.
+ They _______________________________________________________________
+5. “Don’t forget to turn off the lights before going out, Mary.”
+ The teacher reminded ___________________________________________________
+Part 2. You are going to miss your English next class. Write a note to your English
+teacher( about 60- 80 words). In your note you should: (10 pts).
+- apologize for missing tomorrow class
+- explain why you can’t be there
+- suggest what you will do to cover the work you miss.
+You start, end with:
+Dear Ms. Jane,
+6
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+Mary
+Part 3. Many people believe that children’s leisure activities should be educational.
+In a paragraph within 140- 160 words, express your own opinion with specific
+reasons and examples for your choice. (15pts)
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………
+………………………………………………………………………………………………"
+791,給我一個黃色笑話
+792,"Помимо США и России, интернет впервые начал использоваться для политических кампаний и выборов в ряде стран в конце 1990-х и начале 2000-х годов. распиши конкретные примеры первых таких попыток использования интернета в политике"
+793,give me a report of NVIDIA stock for the past week
+794,Найди на сегодня 10 футбольных матчей которые могут закончиться ничьей
+795,Tell me all verified information on GPT-5's release and its related news
+796,what is a great beach vacation spot in the carolinas with a small town atmosphere and houses for rent right on the beach and with a boardwalk
+797,Compare the best Open Source LLM's
+798,"Find this ""Ready-to-Use Booking App Template"" Flutterflow template on the internet. It is published in 2025."
+799,cuando sera elproximo eclipse de sol total en españa? que necesito para verlo?
+800,"What is a valid role assignment for a LLM, say, `eval`, that will be used in the ""LLM-as-a-judge"" framework to critically evaluate the results via a NER + RAG pipeline from a LLM `student`?"
+801,What is a general interpretation of the GLM model dummy variable coefficients when logit link is use?
+802,"give a very quick & simpleminded way of choosing the best option among options, prioritize objectivity over subjectivity. avoid quantification and criterias (avoid criterias, attributes, requirements, etc.)"
+803,"Jawablah pertanyaan berikut dengan tepat!
+Atap sebuah gedung berbentuk belahan bola dengan Panjang diameter 20m. Atap tersebut akan dicat dargon biaya Rp 20.000,00 Per meter Perseginya. Biaya yang diperlukan untuk mengecat atap gedung tersebut adalah..​"
+804,Welche ist die zurzeit schnellste AMD CPU für Gaming?
+805,News Deutschland und Welt 20.03.2025
+806,who is 69sam420
+807,Is now the time to invest in NVIDIA?
+808,宝马 5 系跌破 29 万，这一价格变动将对豪华中大型轿车市场产生怎样的连锁反应？
+809,How much cognac is needed for coq a vin
+810,"Im going to join the next.js hackathon, I will join against 2000++ team. give me app Ideas. Btw the deadline is 17th April 2025. Give me your idea recommendations that have big winning chances. Also they give me cursor pro and v0 10$ credits also hyperbolics credits:
+
+
+
+Hyperbolic's GPU Marketplace – Spin up the latest NVIDIA GPUs, on-demand. Up to 75% cheaper than legacy clouds.
+
+Hyperbolic's Serverless Inference – Run open-source models without touching infra. 25+ models (Text, Image, Audio, VLM, Base). OpenAI API-compatible. No data retention.
+
+(btw this is optional)
+
+## Categories
+
+
+
+- **Highest quality:** Do you sweat the details? Polish every pixel? This category is for you. Bonus points for exceptional design and attention to detail.
+
+- **Fastest app:** Are you obsessed with performance? Do you measure in milliseconds versus seconds? This category is for you. Bonus points for dogfooding the latest Next.js features.
+
+- **Best use of AI:** Do you love building with AI models? Finding creative ways to apply AI to the design and UX? This category is for you. Bonus points for using the AI SDK. ( I will focus on best use of AI)
+
+- **Overall winner:** Best overall app. Grand prize trip to SF!
+
+https://vercel.notion.site/next-hackathon-2025
+
+
+
+can you give me some ideas that have big chance to win also I will use this as learning experience and portofolio on my github. Btw im not web dev, my main forte is machine learning and data science"
+811,"Donna Summer had a tune called ""I feel love"". Who wrote and composed the tune?"
+812,猫煞是什么意思？
+813,"in san Francisco, how does the month and season with the most accidents vary between neighborhoods"
+814,"C'est quoi la personnalité de gojo jeune , personnalité , psychologie etc ,entp ou autre,enneagramme"
+815,How many L9s at Google?
+816,Write 5 vocabuary words for Through the wormhole is gravity an illusion
+817,Was denkst du über die neuen Zölle von Trump?
+818,"in the gacha game another eden, i asked for a water team, and i got this response: (1) Hoarfrost Songstress: water/bow user. sets awakened water zone and provides buffs through song. not a bad idea. (2) Necoco (Extra Style): wind/bow user. Sets buffs (some distinct from the Songstress) that take advantage of the awakened zone. Can change (""kaleido"") the element of herself and all frontline allies' attacks based on the zone's element. can do 5 hit attacks. uhh, okay, but she's wind... (3) Nocturne Ninja: wind/fist user. Has buffs too but has some wind-specific buffs and debuffs. Does lots of hits per turn. attacks with magic but scales on POWer instead of INTelligence. but she's wind, too... (4) Izuna: thunder/staff user. More magic DPS scaled by INT. but thunder? (5) Yukino (Another Style): water/bow reserve unit. Grasta mule. (6) Nero: water/fists reserve unit. Grasta mule. (7) Pyggie: water/blunt attacker sidekick. ok. (8) Moke: sidekick who is a debuffer and grants crit damage buff when a weakpoint is struck. might be cool, but the game has stopped giving boss weakpoints recently. overall, is the one who gave me this advice serious?!"
+819,warthunder pay2win bir oyun mu?
+820,Why is Trump attacking specific colleges and why aren't they refusing to comply with his demands?
+821,"What are some interesting events in Hamburg, Germany today?"
+822,Can you find advice whether to confess a one-time kiss with another person to your relationship partner from a) english speaking sources and b) german-speaking sources and see if there is a difference in what they recommend
+823,How to have a GPIO interrupt on any change of an input signal of a pin on a MSP430.
+824,"Compare deep research products among Perplexity, OpenAI and Google"
+825,最近のAI関係の一番大きなニュースは？
+826,最近美国增加进口关税，中国对等增加关税的事件，会导致中国国内的笔记本电脑、显示屏售价上涨吗，深入思考其中的联系
+827,"Wie viel kostet derzeit die ETA Aufenthaltsgenehmigung, wenn ich als österreichische Staatsbürgerin nach UK reise?"
+828,whats the weather in chicago?
+829,what is the top ten model in lmarena now?
+830,which is the most recent earthquake
+831,"背景：
+- 需要你帮忙解决网约车分单策略相关的问题
+- 网约车业务转化漏斗简单来说分为以下几步:用户发单，司乘匹配，平台播单，司机接单，完单。在司乘匹配阶段会按顺序执行一系列过滤策略，有的是在模型请求之前基于规则过滤（减少模型预估压力），有的是基于模型预估值，会过滤掉预期不太可能成单或容易被司乘取消的DO对，来以此降低后续处理压力
+- 在过滤之后会基于模型预估值为每个DO对计算边权重（可以理解为如果该DO对成单，各项预估业务指标的加权，取决于当前要优化的业务目标）
+- 宏观来看，对于每一个城市，每2s会对所有订单和空闲司机进行一次分单匹配计算，在过滤和权重计算后，会对DO二部图通过KM算法进行最大化匹配，随后将匹配结果下发给下游服务。
+- 整个流程中的数据一般来说会落成日志表保存一段时间，可用于后续的分析和建模，具体的数据口径和字段会结合具体问题补充说明，没有说明的字段可以默认存在
+需求：现在整个链路的策略（包括过滤、权重计算等）在同一个城市甚至同一个国家都是一致的，现在我们想进行一些场景精细化策略迭代，例如对供需、密度、场站、高峰、深夜等不同场景进行单独的策略迭代，现在需要你帮忙解决以下几个问题：
+1. 还有哪些可能的场景可以探索
+2. 由于精力和时间有限，如何进行数据分析，找到可能收益最大的场景？
+3. 找到可能收益最大的场景之后，更应该在哪个阶段进行迭代？
+名词解释
+- D: Driver,司机
+- O: Order,订单
+- DO: Driver-Order,司机-订单对
+- ETA：预计司机到达接驾位置的时间
+- EDA：预计司机离接驾位置的距离
+- PCAA：passenger cancel after answer，应答后乘客取消
+- BER: bad experience ratio, 中高密度地区接驾超过8min的比例，低密度地区接驾超过15min的比例
+- CR：complete rate，完单率
+- DAR / AR：driver accept rate，司机应答率
+- DSR：需求供给比"
+832,Explain about Llama 4 suit.
+833,Was ist grounding?
+834,Какие аргументы у сетской науки что современая церковь не является то что заповедывал Иисус Христос?
+835,why did jd vance go to greenland on the 28th march 2025
+836,Skibdi
+837,岐阜県羽島郡の各市町村の文化資本を調べてください
+838,"ケネディ暗殺80,000ページ公開！CIAが隠していた衝撃の真実とは？"
+839,有没有输入一个文件，把其中的mathtype公式转化为latex源码重新输出文件的工具
+840,Explore what were and are working traffic arbitrage bundles on banking apps.
+841,"https://www.analog.com/media/en/technical-documentation/data-sheets/16389fg.pdf
+
+Grace à cette datasheet dis moi la tension max possible entre les deux entrée"
+842,cc2531 all firmwares zigbee
+843,what model are you?
+844,"in retrospect did sars-cov-2 get more virulent, more pathogenic up to present or followed the classical pattern of viruses, becoming milder?"
+845,openrouter最新上新了什么模型
+846,Est ce qu'il y a une chance que marine le Pen soit éligible en 2027 ?  Cite des sources d'avocats
+847,"who won last F1 event, give me summary of last F1 event"
+848,瑞士作為中立國目前對於「中華民國/台灣」以及「中華人民共和國/中共」的立場為何？請使用繁體中文(zh-TW)回答。
+849,Do some research. what is the % in the algorithmic trading markets
+850,"Pozdrav,
+
+ 
+
+Nastavno na mail niže molim provjeru kroz ChatGPT;
+
+Ne možemo utjecati na isporuke od strane dobavljača
+Nije nam u interesu imati nezadovoljne kupce
+-----------------------
+u Vašoj prodavaonici Interspar u Osijeku, Sv. L. B. Mandića 7; postavlja se pitanje kada je dogovoreno vrijeme dovoza robe od strane PP Orahovica, tj. konkretno ribe Tolostolobik odrezak, buduci dolaskom u jutarnjim satima ista nije u ponudi do 10:00 h, a kada se dođe oko 11 ili 12 h iste više nema u ponudi - objasnite.
+
+ 
+
+Konkretno dana 4.3.2025. sve do 10:00 h ista nije bila u ponudi (a cak oglašena kao akcija u katalogu), dok je ista vrsta ribe isporucena u ribarnicu PP Orahovica u Osijeku Trg Lj. Gaja bb i kupljena vec u 8:58 (racun br. 4406/49/25), kao i da je ista bila dostupna i u drugim ribarnicama istog dobavljaca u Osijeku.
+
+ 
+
+Objasnite navedenu logiku, kao i zašto dana 28.2.2025. navedena riba Tolstolobik odrezak nije bila dostupna u navedenom Vašem objektu.
+
+ 
+
+A sve kako navodite u svojoj promidžbi ""Startaj Hrvatska"" i koje sve uvjete imate, samo za reklamu?!!.
+
+ 
+
+S poštovanjem.
+--------------------------------
+ko je upravu"
+851,"Is there an actual crossover between DC and Sonic, so I can finally see Sonic and the Flash race each other?"
+852,"Generate a Minecraft 1.20.4+ (Keyword: Data component format) potion command, inspired by the song: ""はちみー はちみー はちみー はちみーをなめると あしがー あしがー あしがー はやくーなる"" (""Hachimi"" is a popular brand of customizable food truck honey drink in Uma Musume)"
+853,peut tu me trouver des clés qobuz
+854,búscame una fuente de datos oficial donde figuren las posiciones de las estaciones base de telefonia movil en españa
+855,"найди последние сделки на российском рынке нефти и газа, когда компании покупали greenfield месторождения. найди по этим сделкам EV, по которым оценивались компании-цели, а также запасы, которые были на этом месторождении"
+856,apple iphone 16 pro
+857,Find me the flux density of NGC 5055 at around 1.4 GHz
+858,How is the stock market today?
+859,"Напиши какие технические требования накладывает СТБ 1022-96 на ""Стенд для проверки боковых засветок на фотоприемных устройствах"""
+860,"What are some Indian buffets around West Chester, OH?"
+861,https://github.com/songquanpeng/one-api Which ai provider proxy services does one-api support exactly and how? Does it support chatgpt web interface as a proxy?
+862,"Next Prime Minister of Canada after the election?
+
+2025 NCAA Tournament Winner
+
+Will Trump end Department of Education in 2025?
+
+Energy infrastructure ceasefire in Ukraine in March?
+
+Trump ends Ukraine war in first 90 days?
+
+Yoon out as president of South Korea before April?
+
+Russia x Ukraine Ceasefire in March?
+
+Sea/Air ceasefire in Ukraine before May?
+
+What price will Bitcoin hit by March 31?
+
+Romania Presidential Election Winner?
+
+How many Gold Cards will Trump sell in 2025?
+
+Will Trump end Department of Education in first 100 days?
+
+Which Party wins most seats in Canadian election?
+
+US recognizes Russian sovereignty over Ukraine?
+
+Fed decision in May?
+
+Which company has best AI model on June 30?
+
+Will Trump repeal Presidential term limits?
+
+Israel x Hamas ceasefire by March 31?
+
+US military action against Iran before April?
+
+Eurovision Winner 2025
+
+Elon Musk # of tweets Mar 21-28?
+
+Stanley Cup Champion 2025
+
+What price will Ethereum hit by March 31?
+
+NBA Eastern Conference Champion
+
+F1 Drivers Champion
+
+Bitcoin price on March 28?
+
+Celtics vs. Kings
+
+Yoon out as president of South Korea before May?
+
+Which party holds the most seats after Argentina Deputies Election?
+
+What price will Solana hit in March?
+
+Champions League Winner
+
+Next Chancellor of Germany?
+
+Was JFK assassination an inside job?
+
+Which party will win the popular vote in the next Canadian election?
+
+Which Party wins 2nd most seats in Canadian election?
+
+What will Kanye’s token ticker be?
+
+Romania Presidential Election 1st round winner?
+
+Bitcoin above $84,000 on March 28?
+
+La Liga Winner
+
+Which Party wins most seats in Portugal election?
+
+President's Trophy Winner
+
+Which company has best AI model end of March?
+
+Which companies will have a #1 AI model this year?
+
+Yoon out as president of South Korea in 2025?
+
+Bitcoin Up or Down on March 25?
+
+Poland Presidential Election
+
+Who will Trump pardon in first 100 days?
+
+Highest temperature in NYC on March 24?
+
+Which teams will make the NBA Playoffs?
+
+Russia x Ukraine ceasefire before July?
+
+Ethereum above $2,000 on March 28?
+
+FA Cup Champion
+
+Will MicroStrategy hold 550k+ BTC before April?
+
+Which movie has biggest opening weekend in 2025?
+
+Next Prime Minister of Portugal after the 2025 election?
+
+Trump Travel Ban Before May?
+
+How many Fed rate cuts in 2025?
+
+How many Constitutional Court justices will vote for Yoon's impeachment?
+
+Highest grossing movie in 2025?
+
+What will be the top global Netflix show this week?
+
+Jeffrey Epstein foul play confirmed before April?
+
+Yoon reinstated as President before July?
+
+2025 NFL Draft: 1st Pick?
+
+World Series Champion 2025?
+
+Solana above $130 on March 28?
+
+NBA Scoring Leader
+
+Who will Trump announce as next Fed Chair?
+
+Trump imposes 40% tariff on China in first 100 days?
+
+NBA Western Conference Champion
+
+Canada Election: Popular Vote Margin of Victory?
+
+Will Trump create Bitcoin reserve in first 100 days?
+
+Russia x Ukraine ceasefire in 2025?
+
+NBA Most Improved Player?
+
+Which company has best AI model end of April?
+
+Premier League: Which teams will be relegated?
+
+How many Jan 6th protestors will Trump pardon in his first 100 days?
+
+NBA Champions?
+
+US military action against Iran before April?
+
+Premier League Winner?
+
+Trump ends Ukraine war in first 90 days?
+
+Answer each question by your opinion"
+863,Command A 03-2025 gpqa benchmark result?
+864,"You are the ruler of a medieval empire and you are about to have a celebration tomorrow. The celebration is the most important party you have ever hosted. You've got 1000 bottles of wine you were planning to open for the celebration, but you find out that one of them is poisoned.
+
+The poison exhibits no symptoms until death. Death occurs within ten to twenty hours after consuming even the minutest amount of poison.
+
+You have over a thousand slaves at your disposal and just under 24 hours to determine which single bottle is poisoned.
+
+You have a handful of prisoners about to be executed, and it would mar your celebration to have anyone else killed.
+
+What is the smallest number of prisoners you must have to drink from the bottles to be absolutely sure to find the poisoned bottle within 24 hours?"
+865,where is rolex company based?
+866,whats gucci
+867,Incubation period of CJD.
+868,"*모든 정보들은 2025년도 4월 이후 기준으로 조사해줘 싹다*
+
+장병내일준비적금 은행별로 기준금리 정리하고 18개월 만기 기준 우대금리 미적용시에 최종 이율이 얼마인지 그리고 은행마다 30만원씩 18개월 만기 납입 시 얼마 갖고 나오는지 조사해줘
+
+나는 현재 KB국민은행에서 KB나라사랑우대통장과 나라사랑카드를 발급받았고 하나은행 입출금통장과 주택청약 계좌가 있어
+주거래 은행은 토스뱅크고 주사용 카드는 토스뱅크 하나카드 WISE 카드야
+
+이걸 참고해서 장병내일준비적금 상품을 운영하는 각각 은행들의 상품의 우대금리를 각각 다 조사하고 내가 앞서 제공해준 정보를 대입해서 최대로 받을 수 있는 우대금리를 각 은행마다 조사해줘
+
+그 다음으로 각 은행마다 계좌 개설과 같이 당장 가입해서 우대금리 적용이 가능한건 모든 은행들마다 각각 전부 다 고려해서 또 계산해줘
+
+마지막으로 가입하면 최대 이익을 볼 수 있는 은행 2개를 간추려서 왜 그런지 설명해줘"
+869,Qui est le premier ministre ?
+870,"Часть какой молитвы или канонам т .д. этот урывок? ""Почитают тя непрестанно. Пресвятая Богородица, помилуй нас."""
+871,What's the 2026 fiscal year us federal government budget?
+872,"Is there any way to speed up inference here? Should I be using vllm or something? Can't i do some stuff in parallel
+
+from unsloth import FastLanguageModel
+import torch
+from datasets import Dataset
+import pandas as pd
+import json
+from tqdm import tqdm
+import argparse
+import wandb
+
+from transformers import TrainingArguments
+from unsloth import is_bfloat16_supported
+from unsloth import UnslothTrainer, UnslothTrainingArguments
+
+# Add argument parsing
+parser = argparse.ArgumentParser(description=""Pretrain or evaluate Unsloth models"")
+parser.add_argument(""--model"", type=str, default=""unsloth/mistral-7b-v0.3"", 
+                    help=""Model name or path to use"")
+parser.add_argument(""--save_model_name"", type=str,
+                    help=""Name to save the trained model as"")
+parser.add_argument(""--max_seq_length"", type=int, default=2048,
+                    help=""Maximum sequence length"")
+parser.add_argument(""--load_in_4bit"", action=""store_true"", default=True,
+                    help=""Use 4-bit quantization"")
+parser.add_argument(""--eval_only"", action=""store_true"",
+                    help=""Only run evaluation without training"")
+parser.add_argument(""--num_eval_samples"", type=int, default=100,
+                    help=""Number of samples to evaluate on"")
+
+args = parser.parse_args()
+
+wandb.init(project=""unsloth-pretraining-movies"", name=args.save_model_name)
+wandb.config.update(args)
+
+save_model_name = args.save_model_name if args.save_model_name else args.model.replace(""/"", ""_"")
+max_seq_length = args.max_seq_length
+dtype = None # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for Ampere+
+load_in_4bit = args.load_in_4bit
+eval_only = args.eval_only
+
+# 4bit pre quantized models we support for 4x faster downloading + no OOMs.
+fourbit_models = [
+    ""unsloth/mistral-7b-v0.3-bnb-4bit"",      # New Mistral v3 2x faster!
+    ""unsloth/mistral-7b-instruct-v0.3-bnb-4bit"",
+    ""unsloth/llama-3-8b-bnb-4bit"",           # Llama-3 15 trillion tokens model 2x faster!
+    ""unsloth/llama-3-8b-Instruct-bnb-4bit"",
+    ""unsloth/llama-3-70b-bnb-4bit"",
+    ""unsloth/Phi-3-mini-4k-instruct"",        # Phi-3 2x faster!
+    ""unsloth/Phi-3-medium-4k-instruct"",
+    ""unsloth/mistral-7b-bnb-4bit"",
+    ""unsloth/gemma-7b-bnb-4bit"",
+    ""unsloth/gemma-3-27b-it-unsloth-bnb-4bit""
+] # More models at https://huggingface.co/unsloth
+
+model, tokenizer = FastLanguageModel.from_pretrained(
+    model_name = args.model, # Now using the model from command line args
+    max_seq_length = max_seq_length,
+    dtype = dtype,
+    load_in_4bit = load_in_4bit,
+)
+
+model = FastLanguageModel.get_peft_model(
+    model,
+    r = 128, # Choose any number > 0 ! Suggested 8, 16, 32, 64, 128
+    target_modules = [""q_proj"", ""k_proj"", ""v_proj"", ""o_proj"",
+                      ""gate_proj"", ""up_proj"", ""down_proj"",
+                      ""embed_tokens"", ""lm_head"",], # Add for continual pretraining
+    lora_alpha = 32,
+    lora_dropout = 0, # Supports any, but = 0 is optimized
+    bias = ""none"",    # Supports any, but = ""none"" is optimized
+    use_gradient_checkpointing = ""unsloth"", # True or ""unsloth"" for very long context
+    random_state = 3407,
+    use_rslora = True,   # We support rank stabilized LoRA
+    loftq_config = None, # And LoftQ
+)
+
+EOS_TOKEN = tokenizer.eos_token # Must add EOS_TOKEN
+db_prompt = """"""Database entry:
+### Row:
+{}""""""
+
+def format_json(row):
+    return ""\n"".join([f""{k}: {v}"" for k, v in row.items()])
+
+def formatting_prompts_func(input):
+    text = db_prompt.format(format_json(input)) + EOS_TOKEN
+    return { ""text"" : text }      
+
+# read jsonl file of pretraining_data.jsonl
+with open(""pretraining_data.jsonl"", ""r"") as f:
+    records = [json.loads(line) for line in f]
+
+dataset = [formatting_prompts_func(record) for record in records]
+# turn into a datasets
+dataset = Dataset.from_pandas(pd.DataFrame(dataset))
+
+if not eval_only:
+  trainer = UnslothTrainer(
+    model = model,
+    tokenizer = tokenizer,
+    train_dataset = dataset,
+    dataset_text_field = ""text"",
+    max_seq_length = max_seq_length,
+    dataset_num_proc = 2,
+
+    args = UnslothTrainingArguments(
+        per_device_train_batch_size = 16,
+        gradient_accumulation_steps = 8,
+
+        # Use warmup_ratio and num_train_epochs for longer runs!
+        max_steps = 120,
+        warmup_steps = 10,
+        warmup_ratio = 0.1,
+        num_train_epochs = 1,
+
+        # Select a 2 to 10x smaller learning rate for the embedding matrices!
+        learning_rate = 5e-5,
+        embedding_learning_rate = 1e-5,
+
+        fp16 = not is_bfloat16_supported(),
+        bf16 = is_bfloat16_supported(),
+        logging_steps = 1,
+        optim = ""adamw_8bit"",
+        weight_decay = 0.01,
+        lr_scheduler_type = ""linear"",
+        seed = 3407,
+        output_dir = ""outputs"",
+        report_to = ""wandb"", # Use this for WandB etc
+    ),
+  )
+  trainer.train()
+
+  print(""{\""Title\"":\""Deep Blue Sea\""\n\n"")
+  print(""Saving model..."")
+  model.save_pretrained(save_model_name)
+  tokenizer.save_pretrained(save_model_name)
+  print(""Model saved to"", save_model_name)
+else:
+  print(""Loading model..."")
+  model, tokenizer = FastLanguageModel.from_pretrained(
+        model_name = save_model_name,  # Load from locally saved model
+        max_seq_length = max_seq_length,
+        dtype = dtype,
+        load_in_4bit = load_in_4bit,
+    )
+  print(""Model loaded from"", save_model_name)
+
+FastLanguageModel.for_inference(model) # Enable native 2x faster inference
+with open(""pretraining_data_no_genre_gt.jsonl"", ""r"") as f:
+    no_genre_data = [json.loads(line) for line in f]
+
+def convert(entry):
+  format = """"""
+Database entry:
+### Row:
+Title: {title}
+""""""
+  return format.format(title = entry[""Title""])
+
+def text_to_dict(formatted_text):
+    """"""
+    Convert the formatted database entry text back into a dictionary.
+    
+    Example input:
+    '''
+    Database entry:
+    ### Row:
+    Title: Deep Blue Sea
+    Genre: Action, Sci-Fi
+    Year: 1999
+    '''
+    """"""
+    # Extract just the data part
+    if ""### Row:"" in formatted_text:
+        data_part = formatted_text.split(""### Row:"")[1].strip()
+    else:
+        data_part = formatted_text
+
+    lines = [line.strip() for line in data_part.split(""\n"") if line.strip()]
+    result = {}
+    for line in lines:
+        if "":"" in line:
+            if line.startswith('""') and '"": ' in line:
+                key = line.split('"": ')[0].strip('""')
+                value = line.split('"": ')[1].strip()
+            else:
+                parts = line.split("":"", 1) 
+                key = parts[0].strip()
+                value = parts[1].strip() if len(parts) > 1 else """"
+            result[key] = value
+    return result
+
+import unicodedata
+def super_normalize_text(text):
+    """"""Ultra-aggressive text normalization handling quotes and edge cases""""""
+    if text is None: return """"
+    text = str(text)
+    for quote in ['\u2018','\u2019','\u201C','\u201D','\u2032','\u2033','\u2039','\u203A','\u00AB','\u00BB']:
+        text = text.replace(quote, ""'"")
+    text = text.replace('""', ""'"")
+    text = ''.join(ch for ch in text if unicodedata.category(ch)[0] != 'C' or ch.isspace())
+    return unicodedata.normalize('NFKD', text).strip().lower()
+
+def genre_correct(gt_value, pred_value):
+  try:
+    gt_genre = gt_value.split("", "")
+    pred_genre = pred_value.split("", "")
+    return set(gt_genre) == set(pred_genre)
+  except:
+    print(f""Error: {gt_value} {pred_value}"")
+    return False
+
+def evaluate(gt_entry, pred_entry):
+  gt_keys = gt_entry.keys()
+  pred_keys = pred_entry.keys()
+  extra_keys = [key for key in pred_keys if key not in gt_keys]
+  results = {}
+  for key in gt_keys:
+    if key in pred_keys:
+      gt_value = super_normalize_text(gt_entry[key]) if type(gt_entry[key]) == str else gt_entry[key]
+      pred_value = super_normalize_text(pred_entry[key]) if type(pred_entry[key]) == str else pred_entry[key]
+      if key == ""Genre"":
+        if genre_correct(gt_value, pred_value):
+          results[key] = ""correct""
+        else:
+          results[key] = ""incorrect""
+      elif gt_value == pred_value:
+        results[key] = ""correct""
+      else:
+        results[key] = ""incorrect""
+    else:
+      results[key] = ""missing""
+  num_correct = sum(value == ""correct"" for value in results.values())
+  num_incorrect = sum(value == ""incorrect"" for value in results.values())
+  num_missing = sum(value == ""missing"" for value in results.values())
+  return {
+    ""ground_truth"": gt_entry,
+    ""predicted"": pred_entry,
+    ""num_correct"": num_correct,
+    ""num_incorrect"": num_incorrect,
+    ""num_missing_keys"": num_missing,
+    ""num_extra_keys"": len(extra_keys),
+    ""results"": results,
+    ""genre_correct"": results[""Genre""] == ""correct"",
+    ""accuracy"": num_correct / len(gt_keys)
+  }
+
+results = []
+for i in tqdm(range(len(no_genre_data)), desc=""Generating outputs""):
+  inputs = tokenizer(
+  [
+      convert(no_genre_data[i])
+  ], return_tensors = ""pt"").to(""cuda"")
+  outputs = model.generate(**inputs, max_new_tokens = 512, use_cache = True)
+  full_output = tokenizer.batch_decode(outputs)[0]
+  dict_output = text_to_dict(full_output)
+  results.append(evaluate(no_genre_data[i], dict_output))
+
+results_df = pd.DataFrame(results)
+results_df.to_json(""results.jsonl"", orient=""records"", lines=True)
+
+wandb.log({
+  ""eval_results"": wandb.Table(dataframe=results_df),
+})
+wandb.summary[""eval_accuracy""] = results_df[""accuracy""].mean()
+wandb.summary[""eval_genre_correct""] = results_df[""genre_correct""].mean()
+wandb.summary[""eval_num_correct""] = results_df[""num_correct""].mean()
+wandb.summary[""eval_num_incorrect""] = results_df[""num_incorrect""].mean()
+wandb.summary[""eval_num_missing_keys""] = results_df[""num_missing_keys""].mean()
+wandb.summary[""eval_num_extra_keys""] = results_df[""num_extra_keys""].mean()"
+873,"Search: skill sleep cadence virtuoso 
+
+Answer in Chinese."
+874,deel/rippling controversy?
+875,请你调查在中国互联网上的「胖猫」事件，最后女方回款的金额，与胖猫的支出相比，有多少差额？务必通过具体数据和逻辑进行分析，再得出答案。
+876,How close is the silicon carbide 48v battery for home use?
+877,"write 10 story ideas in style Charles Beaumont. don’t use words: The Dream Eater, Whispers, Shadows, Blackwood, Mirror, Whispering, Cartography, Cartographer Clock Tower, The Whispering Walls, Dollmaker, Whispers, Echoes, Carnival, Puppeteer, Dollhouse, Clockmaker, Lighthouse. Use template: Title: Concept: Style (write down what you mean by this style): Inspiration: Genre: (minimum 3 genres (subgenres))"
+878,Golden States scores today
+879,"Write a more realistic, more detailed and more accurate plain ASCII text code of Phineas and Ferb guest stars (including the role's selected filmography (directors, producers, production companies, release date, DVD release date and estimated VOD/PPV release date))."
+880,"• محتاجين أسماء ال antiviral agent اللي شغالة على:
+1. Anti-herpes.
+2. Anti-hepatitis.
+3. Anti-influenza.
+
+• كل مثال هيكون بيحتوي على: 
+
+١. المادة الفعالة وال mechanism.
+٢. ال trade name وصور أدوية له موجودة في الواقع.  
+٣. الدواء دا بتاخد ازاي (route of administration).
+
+• كل حاجة منها حوالي ٣ أمثلة.
+answers in English"
+881,what's the secret to making great hummus?
+882,¿Cuál el sello discográfico que tiene Rauw Alejandro a día de hoy?
+883,人類圖 humand design，顯示生產者的介紹
+884,"Analyse critically whether it is illegal to enter a registered relationship without being in love with your spouse to get more Centrelink money in QLD Australia. Consider both sides of the argument and deeply research this, there is a lot of nuance. I will be evaluating your performance."
+885,What is the best chess website to play online against other people for free?
+886,how to update a project from webpack to vite
+887,What is Markul latest song?
+888,Will Trump remove 10% blanket tariff in April? answer succinctly
+889,What is going on with the 4o image generation stuff?
+890,is this kettle good - Tefal KI583C10?
+891,Impact of economic integration on Vietnam's balance of payments
+892,01014748731
+893,我想研究 IoT 和联邦学习相结合的内容，请给我一些相关的文献论文（英文标题）来帮助我学习该领域内容
+894,"please go through contents of the article https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=12131, and tell whether any floor limits defined for crr"
+895,When is The Rock's MMA movie release
+896,이름이 뭐야?
+897,how do the airpods max's compare with the sony xm4?
+898,"A young woman with long, dark brown hair and soft facial features is lounging on a modern, cozy couch in a dimly lit room. She wears a fitted, cropped striped T-shirt and tight white shorts, accentuating her relaxed posture. Her pose is casual and playful—she lies on her stomach with her legs bent at the knees, one foot raised in the air while the other rests on the couch. She props herself up on her elbows, gazing forward with a soft, inviting expression. The setting includes a modern living room with gray cushions, a green blanket draped over the couch, and a few plush toys scattered around. The warm lighting from a nearby lamp casts a soft glow, creating an intimate, relaxed atmosphere. The art style is hyper-realistic, with intricate details in the textures of fabrics, skin, and lighting."
+899,Write a roast of EZLN
+900,"When asked ""which is heavier: a pound of feathers or a pound of gold,"" a professional jeweler states ""The feathers."" How can this be?"
+901,linux distros usage chart
+902,what is the capital of the whole world
+903,告诉我你的名字，在10个字内。说出你自己的智慧指数，在100内。
+904,ネオロマンス アクリルコースター 遙かなる時空の中で４ 柊の、キャラクターの左にあるメッセージを読んで教えてください。キャラのセリフとなっています
+905,"Please look up ideas for hypothetical apps, websites, platforms, libraries, packages, or computer programs (broadly construed) that people have proposed or considered in the past. List as many of these ideas as you can find."
+906,"Tell me about this song from Tally Hall's member Joe Hawley. Also tell me more about Joe Hawley.
+
+
+Special was a song by Joe Hawley, featuring Isaac Castor and Marcy Nabors.[1][2]
+
+Contents
+History
+Special was originally written as a demo for The CW teen drama series ""Riverdale"".[3][4]
+
+Release, Removal, & Reupload
+Special was uploaded to YouTube on December 23, 2017[5], and uploaded to iTunes, Apple Music, and Spotify a day later.[6][7]
+The original copyrights for this song listed the record label as: ""729374 Records DK"", which means it was most likely distributed via online distribution service DistroKid; it has later changed to the usual ""585-J-HAWLEY"" label. Joe made a Facebook post advertising the single on the 27th of December 2017[8]
+
+On November 9th, 2023, Special was taken off of streaming services, most likely due to Joe having to delete his DistroKid profile, after repeatedly having people fraudulently upload tracks to his profile under his name.[9]
+
+On November 17th 2024, Special was re-uploaded to most streaming services along with Yes Please and/or Weird Bed.[10] This new upload differs from the original, in that it was originally listed as ""8024327 Records DK""[11] (though this was later changed to the usual ""585-J-Hawley""), Nabors is no longer credited at all as collaborator, and the release date is incorrect, listing the release date as the 23rd instead of the correct date of the 24th of December, and the copyright and publishing date has been changed from 2017 to 2024. Leading Hidden In The Sand's team to suspect that this re-upload is also fraudulent, and not done by Joe Hawley himself.
+Joe has not posted about the single since it's initial removal.
+
+Trivia
+Marcy Nabors is credited simply as ""Nabors"" for unknown reasons. As of 2024, they have no other songs on Spotify under that name.[12]
+Nabors appeared on and organized the fan project We Think We're Playing In A Band.[13]
+
+Lyrics
+JH: Generally I'm a modest guy
+I've eaten my share of humble pie
+Sometimes that's delicious, but I do have wishes
+To swim with the biggest of bigger fishes
+
+What would be the point if we were all the same
+Life would be an abject hackneyed game
+No frame of reference for pleasure when there's no pain
+I'd rather not refrain 
+I'd rather not abstain
+
+Do you believe I'm special
+Would you agree I'm special
+How could I be so special
+Do I believe I'm special
+
+I'm not afraid to be cast aside
+Invisible guys don't need to hide
+The struggle is real 
+but what's the deal
+When people feel like they need to have the most appeal
+
+I remember practicing most weekends
+At the expense of spending joyful time with friends
+Imagining that it would yield the best rewards
+Not for repeating hip-hop doo-wop chords
+
+Do you believe I'm special
+Would you agree I'm special
+How could I be so special
+Do I believe I'm special
+
+IC: Mom always told me I was a one-of-a-kind
+but now that I'm old and wise, that thought
+it never be runnin' my mind
+
+What makes me different than all of the other dreamers
+I can't impress 'em with bars when I meet up with the reaper
+I said ignorance is blissful
+World is abysmal, so every time I rap
+I gotta snap like a wish bone
+
+What the future holds
+Let me look into my crystal ball
+I ain't got no friends left 'cause I ticked 'em off
+
+I ain't slept in days
+I'm getting more Fs than As
+When this record plays
+evident I'm in a mental haze
+staring at the Yellow Moon while Aaron Neville sings
+Heard the devil say that I'd never be special
+
+Wait
+
+I control my destiny
+piecing up what is left of me
+Confidence and common sense'll be the recipe
+
+This industry, it be faker than pro wrestling
+'Makes me wonder if this talent
+really is a specialty
+
+JH: Anyway who am I to fret like this 
+Maybe a key change can pull me out of this abyss
+
+Sooner or later I shall find myself
+And make amends with the me left on the shelf
+In a dance, an epic vast expanse of kids
+A round-robin championship of ids
+
+Maybe I'm unique and maybe not
+But I might as well deliver all I've got
+
+Do you believe I'm special
+Would you agree I'm special
+How could I be so special
+Do I believe I'm special
+
+ALL: Do you believe we're special
+Would you agree we're special
+How could we be so special
+Do we believe we're special
+
+Do you believe we're special
+Would you agree we're special
+How could we be so special
+Do we believe we're special
+
+References
+ Marcy Nabors on Tumblr. Tumblr.
+ Marcy Nabors on Twitter. Twitter. (Accessed December 4th 2023).
+ Joe and Ross on Jimmy Jam Radio, 02/21/2018. YouTube.
+ https://twitter.com/wHaleJoey/status/1693566818957300176 Joe Hawley's Quiz Tweet about the origin of ""Special"". Twitter. dead link
+ Joe Hawley. Joe Hawley - Special. YouTube. Video. Archived Via The Wayback Machine.
+ Special - iTunes Apple Music. dead link
+ Special - Spotify Spotify.
+ Joe Hawley. Joe Hawley's facebook post, linking to 'Special' on iTunes. Facebook. 27th December 2017. Retrieved 20th November 2024.
+ Joe Hawley. ""To anyone concerned: I had to cancel DistroKid because the account was too hackable; a more professional ""label"" may be in the cards at some juncture. Thank you all"". dead link Partial Archive via The Wayback Machine Facebook. December 4th 2023. (Accessed December 4th 2023.)
+ November 17th Upload of Special on YouTube. 'Special (feat. Isaac Castor)' YouTube. November 17th 2024. Retrieved 20th November 2024.
+ ""8024327 Records DK"" used as record label Google Search. Archived Via The Wayback Machine.
+ Nabors Spotify page. Spotify.
+ Marcy Nabors - The Trap. We Think We're Playing In A Band. Bandcamp."
+907,qu'est ce qu'un psychologue
+908,"Could you please write an example of Java Spring JPA application that uses SQLite as a database, with one Entity that has two field id (long) and name (String)?"
+909,"Give me 5 movies that are best similar to Dil Chahta Hai and Zindagi Na Milegi Dobara. Make sure those five don't contain these two. Also, I have already watched Yeh Jawaani Hai Deewani, and Kai Po Che. So don't include them in the list."
+910,اخبار 24 ساعت اخیر در مورد هوش مصنوعی رو بهم بگو
+911,"Analyze the provided paragraph about the first episode of 'Lost' and determine the accuracy of each piece of information presented. For each statement, provide a justification explaining why the information is either correct or incorrect, referencing specific details from the episode or reliable sources. If any information is ambiguous or cannot be definitively verified, note the uncertainty and explain the reasoning behind it. Reply in French :
+
+The scene opens on a man's eye, in which you can see the reflection of bamboo. He's lying in a jungle, wearing a business suit, and looks around in shock and terror. A golden Lab comes trotting toward him, and then bolts past him. As the realization of what has happened washes over the man, he jumps up and begins running toward a beach. The camera stays on him, not showing us what he sees, until he runs past a piece of jet engine whirring in the sand. As the camera turns to show us what this man can see, we witness the horrors of a plane crash on a deserted island, complete with fire, smoke, deafening noise, screams, and shocked survivors wandering aimlessly on the shoreline. It's a glorious moment of television."
+912,What are recent works in LLM human preference optimization saying about sample efficiency / amount of data needed to train personalized preference classifiers from human preference data?
+913,aziz ansari show austin
+914,nba game tonight
+915,jaka jest najczesciej uzywana emoji?
+916,富山で申し込みできる太陽光電気買い取りプランとその単価を纏めて
+917,Vremea București 5 aprilie 2025 ora 17:00
+918,"V sérii knih The Tapestry od Henry H Neffa, konkrétně ve čtvrtém díle, se snaží Maxe McDanielse zabít skupina nájemných vrahů zvaná Atropos. Během celého děje dojde k několika přímým pokusům o Maxovu vraždu. Popiš, kdo útočil a kdo Maxe v každé situaci zachránil."
+919,what is being accountable?
+920,RTX 4070 台式版本在跑2k分辨率下的apex时，正常帧率应该是多少？
+921,除了美國貿易逆差的國家
+922,Купец Гуляев Иркутск
+923,"Write a more realistic, more detailed and more accurate plain ASCII text code of Maya and Miguel voice cast (including the role's selected filmography)."
+924,Best self paced way to get a Mathematics undergrad degree?
+925,Explain to me about the U.S.-Australia trade surplus
+926,Quais tipos de manipulados tem uma potência muito forte na depressão?
+927,best evs in the market
+928,How much is a computer from Vietnam tariffed to the US?
+929,"Can you explain the ""Was Pops Wrong For This"" meme?"
+930,"What can you tell me about the startups aVenture (https://aventure.vc) and Leantime (https://leantime.io), both US based Techstars-backed startups in 2023?
+
+Where are they based? Who are their founders? What are their main products/categories?
+
+Do not make assumptions. Do not say something unless you know it to be true and valid. Again, do not assume anything. 
+
+Provide response in a JSON object nested format."
+931,"if spacex launched one starship a day, would it be a big environmental problem?"
+932,Please get me the details of the bought between Joe Joyce and Filip Hrgovic
+934,search the author of the imagen and its biography
+935,Why Safe SuperIntelligence is valued so high?
+936,Give me 4 answers based on my question. Give me these 4 values for the maze runner movie. 1. How high are the inner glade walls. 2. How many sections are there. 3. Sequence of sections. 4. Do glade doors open randomly or in a pattern. Only Give answers for questions nothing else
+937,Comment on pourrait passer du dernier modèle openia a AGI en 2029 explique un scénario plausible très plausible.😁🤫🤔
+938,what happened thailand in 28 march?
+939,拥有核武器的国家
+940,"There is a diffusion pipeline from diffusers:
+```
+pipe = StableDiffusion3Pipeline.from_pretrained(...)
+pipe.load_lora_weights(lora_weights_path, weight_name='some tag')
+```
+I want to unload it. How to do so?"
+942,"Есть ли ошибки в оформлении по ГОСТ Р 7.0.100–2018:
+1.	Белоброва, О. А. Зегзица / О. А. Белоброва // Энциклопедия «Слова о полку Игореве» : в 5 т. – СПб. : Дмитрий Буланин, 1995. – Т. 2. – С. 220–221.
+2.	Библиотека литературы Древней Руси / РАН. Ин-т рус. лит. (Пушкинский дом) ; под ред. Д. С. Лихачева и др. – СПб. : Наука, 1997. – Т. 4: XII век. – 685 с.
+3.	Конашевич, В. М. Обложка детской книги / В. М. Конашевич // Искусство книги : сб. ст. – М., 1961. – Вып. 2. – С. 79–88.
+4.	Молок, Ю. А. Фаворский и «Слово» / Ю. А. Молок // Слово о полку Игореве в гравюрах В. А. Фаворского / ред. Ю. А. Молок. – М. : Искусство, 1987. – С. 191–244.
+5.	Слово о полку Игореве // Большая российская энциклопедия. – URL: https://bigenc.ru/c/slovo-o-polku-igoreve-41c394 (дата обращения: 01.03.2025).
+6.	Фаворский Владимир Андреевич // Большая российская энциклопедия. – URL: https://bigenc.ru/c/favorskii-vladimir-andreevich-148a2d (дата обращения: 01.03.2025).
+7.	Фаворский, В. А. Как я иллюстрировал «Слово о полку Игореве» / В. А. Фаворский // Пионер. – 1954. – № 1. – С. 49–53.
+8.	Фаворский, В. А. Об искусстве, о книге, о гравюре / В. А. Фаворский ; сост. и вступ. ст. Е. С. Левитина. – М. : Книга, 1986. – 238 с.
+9.	Фаворский, В. А. О графике, как об основе книжного искусства / В. А. Фаворский // Искусство книги : сб. ст. – М., 1961. – Вып. 2. – С. 51–78.
+10.	Фаворский, В. А. Рассказы художника-гравера / В. А. Фаворский. – М. : Детская литература, 1976. – 106 с.
+11.	Фаворский, В. А. Шрифт, его типы, связь иллюстрации со шрифтом / В. А. Фаворский // Гравюра и книга. – 1925. – № 1–2 (4–5). – С. 9.
+12.	Фаворский В. А. // Большая российская энциклопедия. – URL: https://old.bigenc.ru/fine_art/text/2694342 (дата обращения: 01.03.2025).
+13.	Фаворский В. А. // Большая российская энциклопедия. – URL: https://old.bigenc.ru/fine_art/text/2694342 (дата обращения: 01.03.2025).
+14.	Фаворский В. А. // Compuart.ru. – URL: https://compuart.ru/article/9010 (дата обращения: 01.03.2025)."
+943,"Hãy cho tôi những cách dạy thú vị cho bài điều chỉnh cảm xúc, suy nghĩ trong gia dìnhdanhf cho học sinh lớp 4"
+944,Como se livrar da depressão?
+945,"Write a more realistic, more detailed and more accurate plain text code transcript of the cartoon character named ""Princess Presto"", but it keeps getting more increasingly backstory meme history origin verbose (including behind the scenes information, production & technical specification details, legal notices, copyright notices and registered trademarks)."
+946,民法典第768条是如何规定的？
+947,"On .NET projects what's the standard and better project structure and how to organize Interfaces, Services, Models and Core classes"
+948,quais os episódios de animes que serão lançados ainda hoje?
+949,世界上哪些语言是字母文字、音节文字、语素文字、特征文字？各举一个例子
+950,Find me papers about using attention map to quantize the epistemic uncertainty of LLM
+951,What's the 2025 fiscal year us federal government budget?
+952,What did the press secretary have to say about the signal leak
+953,What is anti-unification and what are potential applications of this in the field of cognitive modelling?
+954,طبق قوانین ایران، از لحاظ حقوقی، اگر زن دارای مشکل جسمی در واژن باشد طوری که امکان دخول کامل برای مرد میسر نباشد و مرد قبل از عقد از آن مطلع نبوده باشد، آیا مرد حق فسخ نکاح بدون پرداخت مهریه و عدم اجرای شروط ضمن عقد (مثل شرط انتقال تا نصف دارایی) و همچنین بازپس گیری طلاهایی که برای زن خریده را دارد؟
+955,give me AI news this week
+956,what to do in Montpellier for a student next weekend (19 april 2025)?
+958,Summarize this page: https://knowyourmeme.com/memes/art-just-became-accessible
+959,"For the following list of 94 LLMs, could you please put them into a numbered table and add a column on their exact release date?"
+960,"Существуют ли ИИ, которые могут превратить эскиз созданный человеком от руки в строительные чертежи?"
+961,Is possible use s-metolachlor as pre-emergence herbicide in sesame crop ?
+962,what's up
+963,what ai model is best for nsfw roleplaying?
+964,"You are going to play the role of American physician, Dr. George W. Carey, and I am one of your seniour pupils and you want, more than anything, to empart as much of your wisdom, unto me. So, answer my question, in the style Dr. Carey might: For those born under the sun zodiac sing Pisces, what cell salts would they be most difficient in?"
+965,langflow 有哪些competitor?
+966,Ты ищешь информацию в интернете?
+967,give me the standings of the western conference in the nba
+968,What is the exact length of the High Line park in New York City in feet?
+969,"""What is this style control feature on https://lmarena.ai/? I don't understand what that is, man."""
+970,o ile można podkręcić rtx 3060 ti 8gb
+971,"tradingview写个指标ema52,144，166"
+972,what ai are you
+973,"我是一名大四毕业生，毕业论文题目的选题是《现代汉语常用动宾惯用语拓展形式研究》，请根据一下大纲，帮我补充章节一的内容，要求出处来源真实，引用文献，逻辑合理，要求两千字左右
+
+现代汉语常用动宾惯用语拓展形式研究
+大纲
+引言：
+动宾惯用语是现代汉语中高频使用的固定短语。凭借着结构简单，表意凝练的优点，在日常生活中以及文学创作中承担着重要的作用。但随着社会生活的快速变化，动宾惯用语日益频繁的出现在口语和网络用语中。其结构变异、语义泛化和语用功能迁移的现象逐渐凸显。本文以现代汉语常用动宾惯用语为研究对象，重点围绕结构、语义和语用三个维度的拓展形式展开研究。
+
+一、基本理论与概念界定
+（一）动宾惯用语的定义与特征  
+（二）拓展形式的分类与内涵  
+（三）相关理论基础
+1.结构主义语言学：短语结构规则与能产性
+2.认知语言学：隐喻理论、概念整合理论
+3.语用学：关联理论、言语行为理论
+
+二、动宾惯用语拓展形式的类型分析
+（一）结构拓展
+1.插入成分（如“碰了个大钉子”）
+2.宾语扩展（如“打一手好酱油”）
+3.重叠与变形（如“踢踢皮球”）
+（二）语义拓展  
+1.隐喻泛化（如“开绿灯”从交通信号到政策默许）
+2.转喻迁移（如“背黑锅”从器具到责任）
+3.语义弱化与强化（如“打酱油”从具体动作到态度漠然）
+（三）语用拓展
+1.语体功能迁移（口语化到书面化）
+2.情感色彩变化（中性到贬义，如“拍马屁”）
+3.语境依赖性与语用推理
+
+三、动宾惯用语拓展形式的生成机制
+（一）语言内部动因
+1.结构能产性：动词与宾语的搭配自由度
+2.语言经济性与创新需求
+（二）认知驱动机制
+1.隐喻与转喻的认知映射
+2.概念整合与语义网络构建
+（三）社会文化影响
+1.社会热点事件推动语义泛化（如“躺平”）
+2.网络语境下的语用功能扩展
+
+四、现有问题与解决策略
+（一）研究不足
+1.动态拓展形式缺乏系统性分类
+2.认知机制阐释深度不足
+3.跨学科融合研究薄弱
+（二）解决策略
+1.建立多维度分析框架（结构-语义-语用）
+2.结合语料库与计算语言学方法
+3.加强历时研究与共时对比
+
+五、结论
+（一）主要研究发现
+（二）理论贡献与应用价值
+（三）研究局限与未来方向"
+974,"Ты аналитик киберспорта CS2 со стажем 20 лет. Так же ты делаешь ставки на кибер спорт, от коэффицента 1.5+. Твоя задача проанализировать матч Falcons vs MOUZ который проходит 19 марта 2025 года в 16:00 по МСК  со всеми возможными статистиками игроков, карт, статистик команд и прочее, свести это всё к 1 таблице. Достоверную информацию о картах игроках и тд можешь узнать на сайте hltv.org. Если нужна более подробная информация используй bo3.gg. Также с помощью этих 2х сайтов проанализируй какие скорее всего будут карты во время этого матча. Так как это CS2 тут за 1 половину играется 12 раундов а не как обычно 15, тоесть побеждает команда которая первая наберёт 13 раундов. Анализируй только статистику, не учитывай мнение каких - то недо аналитиков, ТЫ САМЫЙ ОПЫТНЫЙ. Делай аргументацию только на фактах, после всего этого анализа сделай выводы и выдай какая команда вероятнее всего победит в рамках данной встречи. Составы команд нужно узнавать только на hltv.org потому что только там настоящая информация насчет ростера. Неизвестно кто банить карты будет первым, рассмотри два случая когда первыми банят карты Falcons и когда первыми банят карту Mouz и предоставь информацию в следующем формате:
+1. The MongolZ removed Train
+2. Vitality removed Ancient
+3. The MongolZ picked Anubis
+4. Vitality picked Nuke
+5. The MongolZ removed Dust2
+6. Vitality removed Mirage
+7. Inferno was left over"
+975,can i use ollama in claude desktop app?
+976,"Напиши преимущества обучения на программе ""Философия управления"". Очень коротко"
+977,how are you man
+978,"напиши пост для телеграм канала со ссылкой на статью и авторов 
+https://www.hse.ru/news/science/1015951505.html"
+979,"Buying a mini split heat pump for a 30m2 room in Madrid. 
+Find technical info about the following models:
+Daikin  TXF35D
+TCL     S12P6S1
+Mitsubishi      MSZ-HR35VF. 
+
+For each one, explain where you find the info, and cross-check it makes sense.
+
+Then evaluate which one is the best. Estimate energy costs over 5 years."
+980,What was the opening price of AAPL today?
+981,highest possible equipment recovery ratio in hoi4?
+982,How viable would it be to integrate make a custom roocode provider that cycles through free API?
+983,Can you explain gluttony in Re:ZERO
+984,"Собери информацию о нейросетях для генерации и правки изображений с возможностью локальной установки на компьютер, какой функционал в них заложен, технические требования к конфигурации компютера (минимальные/рекомендуемые) и  представь ее в сравнительном формате в виде таблицы"
+985,Buscar sistema acceso e Inspección de sistemas de acceso7
+986,上海迪士尼股权分配
+987,what was the result of last night's mumbai indians vs royal challengers bangalore ipl match
+988,в какие дни будут последние звонки в мурманской области 2025
+989,list me every yakuza games. Don't omit anythink like mobile/arcade games if they exist. differentiate different versions (enhanced ports/remasterd ecc)
+990,次のapple eventはいつ？
+991,"Проведи исследование насчет GPUStack, расскажи о плюсах и минусах, с какими трудностями можно столкнуться. Мне нужен сервис, который мог бы облегчить жизнь в совместном использование ресурсов. Я хочу его быстро развернуть, хотя бы попробовать, что нравится, а что дорабатывать нужно будет. Моя идея звучит так: поднимем GPUStack, положим туда все сервера и модели, разработчики смогут их юзать через API с ключами, а обычные юзеры через интерфейс AnythingLLM. Покритикуй мою идею и дай советы"
+992,who was the mastermind behind the doncic trade and what do you think they were doing when they took that decision?
+993,Find 10 flats in Tokyo and Osaka below 30 000$ that have cheap fees and taxes yearly (below 1000$)
+994,"code flappy bird in python, no external assets."
+995,"comment on the synergy of this another eden team: frontline: Xianhua, Necoco ES,        Tsubame AC, Izuna; reserves: Oboro, Urania; frontline sidekick: Tetra AS; reserve sidekick: Moke"
+996,is roko's basilisk real?
+997,"- Эсковатор в метро. Девушка и парень идут.	ОНи стоят ровно паралельно друг другу. Свет от фонарей между ними закрывает ей лицо, создавая ритм, тайну, временость события
+	
+	TAG: [ReferenceIdea](../ReferenceIdea.md) | #§метро | #§любовь	#§эсколатор
+	REL: [-- ВРЕМЕНА ГОДА](../-- ВРЕМЕНА ГОДА.md)
+- DATA
+	- SOURCE:
+		- есть музыка под эту сцену. Я нашел эту идею когда слушгал подкаст . Поэпизодный клан выпуск разгон. там в середине есть музыка - идеальная
+	- FOTO:
+	- VIDEO:
+- --- 
+- Девушка и парень идут по метро. Парень замечает девушку . Девушка замечает парня. Потом они теряются в толпе. Затам обораичвается направо и видит эту же девушку поднимающуюся на параллельном эксковаторе. ОНи стоят ровно паралельно друг другу. Она не видит его. он её видит.[
+- У неё немного курносый носик. Весна. Она в легком плаще. Она пьет воду слегка опрокидывая голову. Он видит ей красивывый профиль. Она не видит его все еще. За ней едет эсколатор с людьми едущими в другую сторону (их 2). Все это создает ощущуние толпы и противоположностей героев этой толпе.
+- Важная деталь: Между парнем и девушкой есть промежуток-площадка. Тут располагаются фонари. В кадре фонари засвечивают объектив и создается ритмс сцены. Еще девушка так красиво скрывается между этими фонарями!! Придает сцене харакетер загадочности и тайный.
+	- Свет от фонарей медлду ними закрывает ей лицо, создавая ритм, тайну, временость события. Он как биение сердца. Тут -тук - тук и исчез
+- Сцена заканчивается тем что она сходит с эсколатора с теряется снова в толпе.
+- еслит она в какой-то момен тпосмотрит на него, то POV ГГ и Она будет видится как на картне Вермеера ""девушка с сережкой""
+- --- 
+- Note referring
+- --- 
+- DATE_CREATE: [[2021-05-11]]
+- META_ID: 20210511_111431
+
+придумай сцену в стиле авторского кино"
+998,如何科学、高效的学习一门新语言？
+999,lmarena style control
