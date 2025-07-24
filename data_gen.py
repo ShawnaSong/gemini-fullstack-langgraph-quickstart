@@ -33,4 +33,4 @@ def extract_user_questions_from_dataset(num_questions=10, save_to_file=True):
     return
 
 if __name__ == "__main__":
-    extract_user_questions_from_dataset(num_questions=600)
+    extract_user_questions_from_dataset(num_questions=1000)

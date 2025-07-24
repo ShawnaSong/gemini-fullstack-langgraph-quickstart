@@ -65,8 +65,8 @@ def convert_file_to_json(input_file, output_file):
 
 def convert_all_files():
     """Convert all files in origin_output directory"""
-    input_dir = "origin_output"
-    output_dir = "origin_output_json"
+    input_dir = "new_output"
+    output_dir = "new_output_json"
     
     # Create output directory
     os.makedirs(output_dir, exist_ok=True)
