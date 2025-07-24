@@ -1,0 +1,514 @@
+{
+  "file_name": "state_result_244.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.741398",
+  "data": {
+    "messages": [
+      {
+        "content": "создать официальное письмо в Министерство финансов от имени компании Ромашка с просьбой об освобождении от отчетности по прослеживаемым товарам",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "48371d6e-4d00-4786-a56c-e7e828a9fe3d",
+        "example": false
+      },
+      {
+        "content": "**[На бланке организации]**\n\n**Министерство финансов Российской Федерации**\n**[Адрес Министерства финансов]**\n\n**от** [Должность, ФИО руководителя организации]\n**ООО «Ромашка»**\n**[Адрес организации]**\n**[Контактный телефон]**\n**[Адрес электронной почты]**\n\n**Дата: 16 июля 2025 г.**\n**№ [Номер исходящего письма]**\n\n**О запросе на освобождение от отчетности по прослеживаемым товарам**\n\nУважаемые сотрудники Министерства финансов Российской Федерации,\n\nНастоящим письмом ООО «Ромашка» обращается к вам с просьбой рассмотреть вопрос об освобождении нашей организации от обязанности предоставления отчетности по прослеживаемым товарам в рамках национальной системы прослеживаемости, введенной в действие Федеральным законом от 09.11.2020 № 371-ФЗ и регулируемой Постановлением Правительства РФ от 01.07.2021 № 1108 ( [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)).\n\nВ связи с изменениями в законодательстве о прослеживаемости товаров в 2025 году, в частности, с утверждением Постановлением от 15.12.2023 № 2162 изменений в порядке прослеживаемости товаров, а также введением новых форм уведомлений и отчетов ФНС ( [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)), мы тщательно изучили требования и основания для освобождения от данной обязанности.\n\nВ качестве основания для освобождения от отчетности ООО «Ромашка» заявляет, что [выберите и укажите конкретное основание, например: \"не осуществляет операций с прослеживаемыми товарами, подлежащими учету в декларации по НДС, а применяет упрощенную систему налогообложения\" или \"реализует прослеживаемые товары исключительно физическим лицам для личного пользования, не связанного с предпринимательской деятельностью\" или \"осуществляет экспорт прослеживаемых товаров за пределы территории Российской Федерации\"].\n\nВ подтверждение вышеизложенного, прилагаем следующие документы: [перечислите прилагаемые документы, например: \"копия уведомления о применении УСН\", \"договоры с физическими лицами, подтверждающие реализацию товаров для личного пользования\", \"экспортные декларации\"].\n\nНа основании вышеизложенного и руководствуясь разъяснениями Минфина России ( [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)), просим вас рассмотреть возможность освобождения ООО «Ромашка» от обязанности предоставления отчетности по прослеживаемым товарам.\n\nВ случае возникновения дополнительных вопросов или необходимости предоставления дополнительной информации, просим связаться с нами по указанным выше контактным данным.\n\nС уважением,\n\n[Должность, ФИО руководителя организации]\n\n[Подпись]\n[Печать организации (при наличии)]\n\n**Пожалуйста, обратите внимание:**\n\n*   Данный шаблон является примерным и требует адаптации под конкретную ситуацию вашей организации.\n*   Перед отправкой письма рекомендуется проконсультироваться с юристом или специалистом в области налогового законодательства.\n*   Убедитесь, что все прилагаемые документы соответствуют требованиям законодательства и подтверждают заявленные основания для освобождения от отчетности.\n*   Проверьте актуальность перечня прослеживаемых товаров на сайте ФНС России ( [nalog](https://vertexaisearch.cloud.google.com/id/1-6)).\n*   Учитывайте, что с 1 января 2026 года планируется введение штрафов за нарушения в сфере прослеживаемости товаров ( [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "007510a7-652a-4497-a85c-39249849017c",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "основания для освобождения от отчетности по прослеживаемым товарам 2025",
+      "требования к официальному запросу в министерство финансов об освобождении от отчетности по прослеживаемым товарам 2025",
+      "Какие конкретные аргументы и доказательства компания \"Ромашка\" может привести в запросе в Министерство финансов для обоснования освобождения от отчетности по прослеживаемым товарам, учитывая основания, перечисленные вSummaries?"
+    ],
+    "web_research_result": [
+      "В 2025 году система прослеживаемости товаров в России продолжает действовать, затрагивая широкий круг участников, включая юридические лица и индивидуальных предпринимателей, вне зависимости от применяемой системы налогообложения. Однако, существуют основания, при которых товары не подлежат прослеживаемости, и, соответственно, отчетность по ним не требуется.\n\n**Основания для освобождения от отчетности по прослеживаемым то [gazeta-unp](https://vertexaisearch.cloud.google.com/id/0-0) [rnk](https://vertexaisearch.cloud.google.com/id/0-1)варам:**\n\n*   **Характер товара:**\n    *   Товары, полученные в результате переработки на территории России, включая продукты переработки, отходы и остатки.\n    *   Товары, изготовленные из иностранных товаров, помещенных под таможенные п [glavbukh](https://vertexaisearch.cloud.google.com/id/0-2)роцедуры свободной таможенной зоны или свободного склада.\n    *   Товары российского производства, за исключением случаев, когда они были вывезены из России и затем ввезены обратно.\n    *   Товары, которые будут использоваться в работе с государственной тайной.\n*   **Цель использования товара:**\n    *   Товары, предназначенные для официального использования в дипломатических представител [glavbukh](https://vertexaisearch.cloud.google.com/id/0-2)ьствах, консульских учреждениях и международных организациях, пользующихся привилегиями на основании международных договоров с Россией.\n    *   Товары, переданные физическим лицам для нужд, не связанных с предпринимательской деятельностью, или плательщ [glavbukh](https://vertexaisearch.cloud.google.com/id/0-2)икам налога на профессиональный доход.\n*   **Операции с товаром:**\n    *   Операции, в результате которых товары исключаются из системы прослеживаемости.\n*   **Статус участника оборота:**\n    *   Самозанятые лица, не имею [glavbukh](https://vertexaisearch.cloud.google.com/id/0-2)щие статуса предпринимателя.\n    *   Налогоплательщики на патентной системе, упрощенке либо освобожденные от уплаты налога на добавленную сто [26-2](https://vertexaisearch.cloud.google.com/id/0-3)имость по 145-й статье Налогового кодекса РФ.\n\n**Важные аспекты системы прослеживаемости в 2025 году:**\n\n*   **Изменения в законодательстве:** Постановлением Правительства от 15.12.2023 № 2162 утверждены изменения в порядке прослеживаемости товаров, обязывающие участников оборота уведомлять ФНС о перемещении прослеживаемой продукции с территории РФ на территорию другой страны ЕАЭС до такого перемещения.\n*   **Электронный документооборот (ЭДО):** Для работы с прослеживаемыми това [glavbukh](https://vertexaisearch.cloud.google.com/id/0-2)рами необходим ЭДО, включая обмен счетами-фактурами и сопроводительными документами между участниками товарооборота, а также предоставление отчетов и информации об остатках товаров в налоговую.\n*   **Регистрационный номер партии товара (РНПТ):** Ключевой элемент системы, позволяющ [glavbukh](https://vertexaisearch.cloud.google.com/id/0-2)ий отслеживать товар. РНПТ присваивается товару при ввозе на территорию РФ.\n*   **Отчетность:** Участники системы должны регулярно отчитываться о движении прослеживаемых товаров. Состав отчетности за [glavbukh](https://vertexaisearch.cloud.google.com/id/0-4)висит от того, является участник плательщиком НДС или нет.\n*   **Штрафы:** На начало 2025 года штрафы за нарушение правил оборота прослеживаемых товаров отсутствуют [26-2](https://vertexaisearch.cloud.google.com/id/0-3), но планируется их введение.\n*   **Список прослеживаемых товаров:** Список прослеживаемых товаров может дополняться и расширяться, поэтому важно следить за изменениями.\n\n**Действия при начале работы с прослеживаемыми товарами (с 1 октября 2025 года):**\n\n1.  Провести инвентаризацию  [abt](https://vertexaisearch.cloud.google.com/id/0-5)остатков на 1 октября 2025 г. (но не позднее дня начала оборота товаров).\n2.  Передать эти сведения в «Систему прослеживаемости товаров» до 01.02.2026 г.\n\nВ 2025 году организации должны заполнять УПД с учетом новых реквизитов, а в декларации по НДС — указывать РНПТ. ФНС вводит новые формы уведомления и отчета по прослеживаемым товарам.\n [glavbukh](https://vertexaisearch.cloud.google.com/id/0-2) [glavbukh](https://vertexaisearch.cloud.google.com/id/0-2) [myfin](https://vertexaisearch.cloud.google.com/id/0-9) [myfin](https://vertexaisearch.cloud.google.com/id/0-9) [reg](https://vertexaisearch.cloud.google.com/id/0-7) [reg](https://vertexai [glavbukh](https://vertexaisearch.cloud.google.com/id/0-2)search.cloud.google.com/id/0-7) [tochka](https://vertexaisearch.cloud.google.com/id/0-8) [glavbukh](https://vertexaisearch.cloud.google.com/id/0-4) [taxcom](https://vertexaisearch.cloud.google.com/id/0-6) [reg](https://vertexaisearch.cloud.google.com/id/0-7) [tochka](https://vertexaisearch.cloud.google.com/id/0-8) [taxcom](https://vertexaisearch.cloud.google.com/id/0-6)",
+      "На основе результатов поиска, вот информация о требованиях к официальному запросу в Министерство финансов об освобождении от отчетности по прослеживаемым товарам в 2025 году:\n\n**Общие положения о прослеживаемости товаров в 2025 году:**\n\n*   В 2025 году список прослеживаемых товаров обновился, добавлены новые позиции и изменены коды.\n*   Изменился документооборот, организации должны заполнять УПД с учетом новых реквизитов, а в декларации по НДС указывать РНПТ.\n*   ФНС вводит новые формы уведомлений и отчетов по прослеживаемым товарам.\n*   С 1 октября 2025 года вводится обязательная прослежи [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)ваемость для ряда новых позиций товаров, что потребует от бизнеса выбора провайдера для обмена электронными накладными и соблюдения требований к оформлению, ведению учета и предоставлению сведений в налоговые органы.\n\n**Законодательст [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)во о прослеживаемости товаров:**\n\n*   Федеральный закон от 09.11.2020 № 371-ФЗ внес поправки в Налоговый кодекс РФ.\n*   Постановление Пра [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)вительства РФ от 01.07.2021 № 1108.\n*   Постановление Правительства РФ от 25.06.2019 № 807.\n*   Постановлением от 15.12.2023 № 2162 утверждены изменения в порядке прослеживаемости товаров.\n\n**Изменения в прослеживаемости товаров в 2025 году:**\n\n*   Участники оборота обязаны уведомлять ФНС о перемещении прослеживаемой продукции с территории РФ на территорию другой страны ЕАЭС до такого перемещения.\n*   В список операций с прослеживаемыми товарами включили передачу/получение прослеживаемых товар [myfin](https://vertexaisearch.cloud.google.com/id/1-1)ов в составе выполненных работ.\n*   Счета-фактуры, УПД, УКД при передаче товара в составе выполненных работ надо выставлять в электронном виде с реквизитами прослеживаемости (п. 1.1 ст. 169 НК).\n*   Уточнены требования к сост [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)авлению уведомления об остатках товаров.\n\n**Как подать запрос в Министерство финансов:**\n [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)\n*   Специальных правил составления обращений в Минфин нет.\n*   Граждане и организации м [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)огут подать обращение в Министерство финансов в электронном или письменном виде, излагая суть предложения, заявления или жалобы.\n\n**Ответственность за нарушения:**\n\n [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)*   С 1 января 2026 года планируется введение штрафов за непредставление или несвоевременное представление отчета об операциях с прослеживаемыми товарами, неотражение или неполное указание реквизитов прослеживаемости в счетах-фактурах и УПД, искажение реквизитов прослеживаемости в отчете об операциях с прослеживаемыми товарами, представление счета-фактуры и УПД не в электронном  [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)виде.\n\n**Важные моменты:**\n\n*   Прослеживаемости подлежат только ОС, которые одновременно соответствуют четырем условиям: импортированы в Россию, находятся в собственности организации (ИП), включены в перечень, утвержденный постановлением [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0) Правительства от 01.07.2021 № 1110, и не подпадают под действие пункта 6 положения, утвержденного постановлением Правительства от 01.07.2021 № 1108.\n*   Система прослеживаемости не распространяется на товары, произведенные на территории Республики Беларусь и классифицируемые по опред [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)еленным кодам ТН ВЭД ЕАЭС.\n\n**Рекомендации:**\n\n*   Для получения разъяснений по спорным ситуациям с расчетом налога, рекомендуетс [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0)я следовать разъяснениям Минфина.\n*   В случае наличия противоречащих разъяснений Минфина и ФНС, следует руководствоваться письмами Минфина.\n*   Для проверки товаров, подлежащих прослеживаемо [glavkniga](https://vertexaisearch.cloud.google.com/id/1-2)сти, рекомендуется использовать сервис на официальном сайте ФНС России.\n [garant](https://vertexaisearch.cloud.google.com/id/1-4) [glavkniga](https://vertexaisearch.cloud.google.com/id/1-2) [glavkniga](https://vertexaisearch.cloud.google.com/id/1-2) [nalog](https://vertexaisearch.cloud. [minfin](https://vertexaisearch.cloud.google.com/id/1-3)google.com/id/1-6) [glavbukh](https://vertexaisearch.cloud.google.com/id/1-0) [garant](https://vertexaisearch.cloud.google.com/id/1-4) [klerk](https://vertexaisearch.cloud.google.com/id/1-5)",
+      "Компания \"Ромашка\" может привести следующие аргументы и доказательства в запросе в Министерство финансов для обоснования освобождения от отчетности по прослеживаемым товарам, основываясь на основаниях, которые удалось обнаружить в результатах поиска:\n\n**1. Критерии, связанные с видом деятельности и статусом компании:**\n\n*   **Не осуществление деятельности, требующей строгого контроля:** Компания может доказать, что не занимается массовым импортом товаров и не ведет хозяйственную деятельность в масштабах, требующих строгого контроля.\n*   **Реализация товаров физическим лицам и самозанятым:** Если \"Ромашка\" реализует прослеживаемые товары физическим лицам для личного пользования (не связанного с ведением бизнеса) или самозанятым, это может быть основанием для освобождения от отчетности по таким операциям.\n*   **Применение специальных налоговых режимов:** Компания, применяющая специальные налоговые режимы, такие как УСН, ПСН или ЕСХН, и освобожденная от уплаты НДС, может п [tochka](https://vertexaisearch.cloud.google.com/id/2-0)редставлять отчет об операциях с прослеживаемыми товарами вместо отражения этих операций в декларации по НДС. Важно отметить, что если компания на ОСНО, то операции с прослеживаемыми товарами отражаются в декларации по НДС.\n\n**2. Критерии, связанные с операциями с товарами:**\n\n*   **Экспорт товаров:** Если компания \"Ромашка\" экспортирует прослеживаемые товары за пределы РФ, в том числе в страны ЕАЭС, это может служить основанием для освобождения от отчетности по таким операциям.\n*   **Утрата товаро [26-2](https://vertexaisearch.cloud.google.com/id/2-1) [moysklad](https://vertexaisearch.cloud.google.com/id/2-2) [v2b](https://vertexaisearch.cloud.google.com/id/2-3) [taxcom](https://vertexaisearch.cloud.google.com/id/2-4)в не связанная с продажей:** В случае утилизации или конфискации прослеживаемых товаров, компания может быть освобождена от дальнейшей отчетности по ним.\n*   **Исключение товара из перечня прослеживаемых:** Если конкретный товар, которым оперирует компания, исключен из перечня прослеживаемых товаров, то \"Ромашка\" освобождается от обязательств по прослеживаемости для этого товара. Например, с 6 марта 2023 года, некоторые товары, произведенные в Республике Беларусь, исключены из перечня прослеживаемых то [pro-nspt](https://vertexaisearch.cloud.google.com/id/2-5) [abt](https://vertexaisearch.cloud.google.com/id/2-6) [garant](https://vertexaisearch.cloud.google.com/id/2-7) [abt](https://vertexaisearch.cloud.google.com/id/2-8)варов на территории РФ.\n*   **Передача товаров в производство:** Если компания передает прослеживаемые товары на переработку или в производство, и эти процедуры не отражаются в декларации по НДС, то необходим [pro-nspt](https://vertexaisearch.cloud.google.com/id/2-5) [26-2](https://vertexaisearch.cloud.google.com/id/2-1)о сдать отчет по прослеживаемым товарам.\n\n**3. Аргументы, связанные с отсутствием операций:**\n\n*   **Отсутствие операций с прослеживаемыми товарами в отчетном периоде:** Если в течение отчетного квартала компания \"Ромашка\" не осуществляла никаких операций с прослеживаемыми товарами, то представлять отчет не требуется.\n\n**4. Прочие смягчающие обстоятельства:**\n\n*   **Добровольное исправление ошибок:** Если компания допустила ошибки в счетах-фактурах или УПД, [26-2](https://vertexaisearch.cloud.google.com/id/2-1) [v2b](https://vertexaisearch.cloud.google.com/id/2-3) [abt](https://vertexaisearch.cloud.google.com/id/2-6) [taxcom](https://vertexaisearch.cloud.google.com/id/2-4) [moysklad](https://vertexaisearch.cloud.google.com/id/2-2) содержащих реквизиты прослеживаемости, но исправила их до обнаружения ошибки налоговым органом, это может послужить основанием для освобождения от ответственности.\n\n**Важные аспекты, которые компании \"Ромашка\" следует учитывать при подготовке запроса:**\n\n*   **Актуальность перечня прослеживаемых товаров:** Необ [v2b](https://vertexaisearch.cloud.google.com/id/2-3)ходимо убедиться, что товары, которыми оперирует компания, действительно входят в действующий перечень прослеживаемых товаров, утвержденный Постановлением Правительства РФ от 01.07.2021 № 1110.\n*   **Правильное оформление документов:** Важно правильно оформлять все документы, связанные с операциями с прослеживаемыми товарами, в том числе счета-фактуры, УПД и уведомления.\n*   **Использование ЭДО:** Обмен документам [v2b](https://vertexaisearch.cloud.google.com/id/2-3) [1cbit](https://vertexaisearch.cloud.google.com/id/2-9)и с налоговыми органами и контрагентами должен осуществляться в электронном виде через операторов ЭДО.\n*   **Сроки предоставления отчетности:** Необходимо соблюдать установленные сроки предоставления отчетности по прослеживаемым товарам. Отчет об операциях с прослеж [pravovest-audit](https://vertexaisearch.cloud.google.com/id/2-10)иваемыми товарами подается ежеквартально, не позднее 25-го числа месяца, следующего за отчетным кварталом. Уведомления о ввозе товаров из стран ЕАЭС подаются в течение 5 рабочих дней с даты постановки товара на учет.\n\n**Доказательства, которые компания \"Ромашка\" может предоставить:**\n\n*   Документы, подтверждающие применение специальных налоговых режимов (если применимо).\n*   Договоры с физическими лицами [abt](https://vertexaisearch.cloud.google.com/id/2-8) и самозанятыми, подтверждающие реализацию товаров для личного пользования.\n*   Экспортные декларации и другие документы, подтверждающие экспорт товаров.\n*   Акты об утилизации или конфискации товаров.\n*   Внутренние документы, регламентирующие учет операций с прослеживаемыми товарами.\n\nВ запросе необходимо четко и подробно изложить основания для освобождения от отчетности, подкрепив их соответствующими документами.\n [26-2](https://vertexaisearch.cloud.google.com/id/2-1) [pro-nspt](https://vertexa [kontur-extern](https://vertexaisearch.cloud.google.com/id/2-11) [glavbukh](https://vertexaisearch.cloud.google.com/id/2-12)isearch.cloud.google.com/id/2-5) [pro-nspt](https://vertexaisearch.cloud.google.com/id/2-5) [26-2](https://vertexaisearch.cloud.google.com/id/2-1) [26-2](https://vertexaisearch.cloud.google.com/id/2-1) [kontur-extern](https://vertexaisearch.cloud.google.com/id/2-11) [glavbukh](https://vertexaisearch.cloud.google.com/id/2-12) [pro-nspt](https://vertexaisearch.cloud.google.com/id/2-5) [26-2](https://vertexaisearch.cloud.google.com/id/2-1) [moysklad](https://vertexaisearch.cloud.google.com/id/2-2) [v2b](https://vertexaisearch.cloud.google.com/id/2-3) [ [klerk](https://vertexaisearch.cloud.google.com/id/2-13)taxcom](https://vertexaisearch.cloud.google.com/id/2-4) [26-2](https://vertexaisearch.cloud.google.com/id/2-1) [v2b](https://vertexaisearch.cloud.google.com/id/2-3) [taxcom](https://vertexaisearch.cloud.google.com/id/2-4) [moysklad](https://vertexaisearch.cloud.google.com/id/2-2) [taxcom](https://vertexaisearch.cloud.google.com/id/2-4) [v2b](https://vertexaisearch.cloud.google.com/id/2-3) [moysklad](https://vertexaisearch.cloud.google.com/id/2-2) [abt](https://vertexaisearch.cloud.google.com/id/2-6) [klerk](https://vertexaisearch.cloud.google.com/id/2-14) [online-kassa](https://vertexaisearch.cloud.google.com/id/2-15) [pravovest-audit](https://vertexaisearch.cloud.google.com/id/2-10) [tochka](https://vertexaisearch.cloud.google.com/id/2-0)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "gazeta-unp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2fpBXnw5g8CLrZlE8Trr4Olf_rxmTgO3da-o1FoK0DrLSJ86L2J3bmZ3m97cXE2weScjLHrbx4S7Q0lIPUcN3Y1FLlw1WytY3jPpaGP_yOqiEPEXgRsXPAGgJanOmm2bgrVVdANf9TH2EpYRkmmNw80Cn0kW2LvdRhf6eKag="
+      },
+      {
+        "label": "rnk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVl_ZPuL1QC1UXWK90U9x_pIGRS5fg-6Uj2wg4lW8k9NBPpUvmZMdO3TrSrVZp4xQPTCD9Tyyr_rF3F8Z48J83HGVl9r6RGmntcGhR8NcDyJHU4Ft0XdfWtlQAIJCu0CmUh6PenbatRrFezcrrtPP13ECv6GBU_WajZikMTJQyMcaB1P9bjQ4kDCNrbzemEylByvvTAFs="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIO6lQZ5PUgxSumET-ViJ0o7om-cCnH3sl1u-BRM7Y5kIXYu858iiBvwB-2L6cOJtQob61-vDmRjWy6yUQ_GKJqaKAB9RFnBQCbIflODcKIvycW7m2walyGEqZToLwTZTG3PxMc9WH_xZd12pT_jXFxe9DdzysVvoPmyNSAqjgF-j790fXfsosw4SQ=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIO6lQZ5PUgxSumET-ViJ0o7om-cCnH3sl1u-BRM7Y5kIXYu858iiBvwB-2L6cOJtQob61-vDmRjWy6yUQ_GKJqaKAB9RFnBQCbIflODcKIvycW7m2walyGEqZToLwTZTG3PxMc9WH_xZd12pT_jXFxe9DdzysVvoPmyNSAqjgF-j790fXfsosw4SQ=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIO6lQZ5PUgxSumET-ViJ0o7om-cCnH3sl1u-BRM7Y5kIXYu858iiBvwB-2L6cOJtQob61-vDmRjWy6yUQ_GKJqaKAB9RFnBQCbIflODcKIvycW7m2walyGEqZToLwTZTG3PxMc9WH_xZd12pT_jXFxe9DdzysVvoPmyNSAqjgF-j790fXfsosw4SQ=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIO6lQZ5PUgxSumET-ViJ0o7om-cCnH3sl1u-BRM7Y5kIXYu858iiBvwB-2L6cOJtQob61-vDmRjWy6yUQ_GKJqaKAB9RFnBQCbIflODcKIvycW7m2walyGEqZToLwTZTG3PxMc9WH_xZd12pT_jXFxe9DdzysVvoPmyNSAqjgF-j790fXfsosw4SQ=="
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwKON30JqA6dAicO6RwSm2mcPRbaMaD0lbUdAjHk3DqPojgezAch9PA5XpslJjZAEXNvNG9TZL3CMLMuYu0I0RTLrzPscQM2bK0hfCOie61twBDRG_oBWNzynv9VSZA0yHsYMhv2yUa5q0su_ZvK73IQ=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIO6lQZ5PUgxSumET-ViJ0o7om-cCnH3sl1u-BRM7Y5kIXYu858iiBvwB-2L6cOJtQob61-vDmRjWy6yUQ_GKJqaKAB9RFnBQCbIflODcKIvycW7m2walyGEqZToLwTZTG3PxMc9WH_xZd12pT_jXFxe9DdzysVvoPmyNSAqjgF-j790fXfsosw4SQ=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIO6lQZ5PUgxSumET-ViJ0o7om-cCnH3sl1u-BRM7Y5kIXYu858iiBvwB-2L6cOJtQob61-vDmRjWy6yUQ_GKJqaKAB9RFnBQCbIflODcKIvycW7m2walyGEqZToLwTZTG3PxMc9WH_xZd12pT_jXFxe9DdzysVvoPmyNSAqjgF-j790fXfsosw4SQ=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6KRqzac12R7JdXhaUPZZuc_MhhlB6Gk4AiVolwqeoiYszyuVGTWfHOvFwnFgNnNBLbpsvCFPBQlMU0cFf0ywidR6nonu-aOYURVdTw5nrCz2jjwOY270F0eIFLYVMM38r0BZq6kRsc88eZS-dPE2gOfXaXlw6OHRBrEaxSnCUiM9wOauneNwWRaU6bbzzkQ0boBgQedelqMJNt4FpXXG1unrNdnoRRmpY-U_N55D_eU0JfwGdPsW2"
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwKON30JqA6dAicO6RwSm2mcPRbaMaD0lbUdAjHk3DqPojgezAch9PA5XpslJjZAEXNvNG9TZL3CMLMuYu0I0RTLrzPscQM2bK0hfCOie61twBDRG_oBWNzynv9VSZA0yHsYMhv2yUa5q0su_ZvK73IQ=="
+      },
+      {
+        "label": "abt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpesRoXqfwBe1VXet0joqfMsfdcts5rGlFpy5cw4ATgYyE24yNmeHw5KW2hfA50ALqOeh45rTFuFas5bEi1kW6HP_SzmjtMpO_nadJrsAbDLA3E07HWwQli-vaJNESLKW2gw6tlkOMF0c3qUb8UKvX_8eJHOfePbsWYOonD4kFIVLRYXtktPTNPCkc"
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIO6lQZ5PUgxSumET-ViJ0o7om-cCnH3sl1u-BRM7Y5kIXYu858iiBvwB-2L6cOJtQob61-vDmRjWy6yUQ_GKJqaKAB9RFnBQCbIflODcKIvycW7m2walyGEqZToLwTZTG3PxMc9WH_xZd12pT_jXFxe9DdzysVvoPmyNSAqjgF-j790fXfsosw4SQ=="
+      },
+      {
+        "label": "taxcom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXyHqH0lNgIbEOoR_afr_VG0l9fivDaEbjJFVsudFEyG9TPI2PjVR9eJvBh2W2Jfml2c3h70RB73f_3C44QX8q7qWEjfZKLlGAku4Yzj3Ij45XV1BeeXrXax2NLDeY"
+      },
+      {
+        "label": "reg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-TkidTR9ft24hngaNCu8E0l2rFicDFuAJscLtcT-3odQnsT7KFwhFfWiWtmJPgpaNrmUGkhT-cjEPHa8vtmLWqYvfVixd5u3hxHM1YM6kDcmiRcKsoIsIZd059a1X-5LEQh825MHBwZZm"
+      },
+      {
+        "label": "tochka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf49n3Ug48CeFeD_EK1p_Bc2gWKo2X-e6_pPg-hrtm_KLltWMXL_OVwZcOKokj4vzEcv9Lvpp0ou8UYlkTorlGAJNwyPt-b77psMABfOL-VpY7KDrtCLa_bVI2Gm9xoHTvKzz_KdZiY8I4nCxYfh-FteVC"
+      },
+      {
+        "label": "taxcom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXyHqH0lNgIbEOoR_afr_VG0l9fivDaEbjJFVsudFEyG9TPI2PjVR9eJvBh2W2Jfml2c3h70RB73f_3C44QX8q7qWEjfZKLlGAku4Yzj3Ij45XV1BeeXrXax2NLDeY"
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6KRqzac12R7JdXhaUPZZuc_MhhlB6Gk4AiVolwqeoiYszyuVGTWfHOvFwnFgNnNBLbpsvCFPBQlMU0cFf0ywidR6nonu-aOYURVdTw5nrCz2jjwOY270F0eIFLYVMM38r0BZq6kRsc88eZS-dPE2gOfXaXlw6OHRBrEaxSnCUiM9wOauneNwWRaU6bbzzkQ0boBgQedelqMJNt4FpXXG1unrNdnoRRmpY-U_N55D_eU0JfwGdPsW2"
+      },
+      {
+        "label": "reg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-TkidTR9ft24hngaNCu8E0l2rFicDFuAJscLtcT-3odQnsT7KFwhFfWiWtmJPgpaNrmUGkhT-cjEPHa8vtmLWqYvfVixd5u3hxHM1YM6kDcmiRcKsoIsIZd059a1X-5LEQh825MHBwZZm"
+      },
+      {
+        "label": "tochka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf49n3Ug48CeFeD_EK1p_Bc2gWKo2X-e6_pPg-hrtm_KLltWMXL_OVwZcOKokj4vzEcv9Lvpp0ou8UYlkTorlGAJNwyPt-b77psMABfOL-VpY7KDrtCLa_bVI2Gm9xoHTvKzz_KdZiY8I4nCxYfh-FteVC"
+      },
+      {
+        "label": "reg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-TkidTR9ft24hngaNCu8E0l2rFicDFuAJscLtcT-3odQnsT7KFwhFfWiWtmJPgpaNrmUGkhT-cjEPHa8vtmLWqYvfVixd5u3hxHM1YM6kDcmiRcKsoIsIZd059a1X-5LEQh825MHBwZZm"
+      },
+      {
+        "label": "myfin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiX4nimQqL81tmWqa52ZtjGRWSu59wnkQxXVFz-teU4W_x4mnBJToqKcNWwZWsbntGv9l0tyPGUDudYCut0L4Qc7en57dh6l-12qNAEGwWZ2vOHZMpc7RLMCFhHJDYDtm7cyAxuwq09BHqn2wh9kFJAj676vIY8d3TAj8H8wKrr0Azt880-IZeUprXjvqk8r6XWIqj6jNeAL9JKAuCMCZYC1XVOgXR8gnw_mCvZVhCkQnjgEpUgLLaDIajxA=="
+      },
+      {
+        "label": "myfin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiX4nimQqL81tmWqa52ZtjGRWSu59wnkQxXVFz-teU4W_x4mnBJToqKcNWwZWsbntGv9l0tyPGUDudYCut0L4Qc7en57dh6l-12qNAEGwWZ2vOHZMpc7RLMCFhHJDYDtm7cyAxuwq09BHqn2wh9kFJAj676vIY8d3TAj8H8wKrr0Azt880-IZeUprXjvqk8r6XWIqj6jNeAL9JKAuCMCZYC1XVOgXR8gnw_mCvZVhCkQnjgEpUgLLaDIajxA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIO6lQZ5PUgxSumET-ViJ0o7om-cCnH3sl1u-BRM7Y5kIXYu858iiBvwB-2L6cOJtQob61-vDmRjWy6yUQ_GKJqaKAB9RFnBQCbIflODcKIvycW7m2walyGEqZToLwTZTG3PxMc9WH_xZd12pT_jXFxe9DdzysVvoPmyNSAqjgF-j790fXfsosw4SQ=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYsIO6lQZ5PUgxSumET-ViJ0o7om-cCnH3sl1u-BRM7Y5kIXYu858iiBvwB-2L6cOJtQob61-vDmRjWy6yUQ_GKJqaKAB9RFnBQCbIflODcKIvycW7m2walyGEqZToLwTZTG3PxMc9WH_xZd12pT_jXFxe9DdzysVvoPmyNSAqjgF-j790fXfsosw4SQ=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "myfin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvPBsSSuNkNanMPjMoX-8eBla9mQCLPyH0u_71n-SfP29_DnD9xYkF9gdgC28egkAso7ziYq-U04-vgh6gCqcqrLQvBEG0NG3wmymmi2RCfy_dAGXPTAU1K7Ohqkt4LTPE7YQKhacTj6qT8Xio0dX_ewzW0XUV9viNqs3Q-prCO2RqqV5dJ7b4RCIE8Jdp1gm6FG8vRhSyUKc_LEPcI3X6UxDv4ZRyscV8AgVPvv8lpUY5sveiBbS_r2dO0A=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "glavkniga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwGb0aRhHT4ZzwkBntTPoUH-vYCADbPPN2sK4SG8NUtmoUjrIzfwtt7MQA5o5iEE-VUNDvN_3fba6x7P0Q6RmQT0MVPr6YJQd0qzyq8mCASHN8IyimL348hJ6w-GuBSfzXgg=="
+      },
+      {
+        "label": "minfin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ7oedGF84p6L6UAjK1uoYfBqyGy8TKUnwHtCGxFlwkgID7SHD2be2N0kST9qhx2YbtG_gAOiT8Vkm560voCacLjhlIOMAo7h2dvGvZiWPvCl4ZLI_iWvGa_5V"
+      },
+      {
+        "label": "garant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSvipXR-oQ1FsQuj_oCJfY6yMV-4Ultwh0TQjudoKtHBZc34iRFGeaR3V5OjTzXPOpEgWqe7XBSH9u0uPWRMk7p9e4C052A027GidJRFBY1Cke5-jKEyW98ceQJ3ms"
+      },
+      {
+        "label": "klerk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8blnNPGvwqFBsJmXKjlAFZecf0OLOtPIRrecpHx5JHJwXCzjk4DKdtd8RUDOQ9x9SZidoI_ncoKMv8lCaZbraVyn_POV9-qvmRiiIhB4HNIl5JBh8nhDPVrv66CWhsI_DwH9pzzUW6suKN_Waa5ea9eQ="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEstWuNckQsOAJOzkdA-Ph2sOcVdFl5dF8ucHgAIE0RDBRjJjlaCqLhmJ0-EL_CkO1E5MIY3YMR3WnQJ70FoKgad5hiYUCAm4I9MPy51tpJ683JomRu16WNJ3UjV5PhFGQHtXuBKkDuuOnkCS_JjyU0z9M_toL3D3vNm4fzXrljrcUTjKqxtSO7cBmrSA=="
+      },
+      {
+        "label": "nalog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsbksbrVTqkVXvQMiDVt4M7tUY-IC4avEIOB9Sz_BjZwcgXZd_gyfkUELHdLa_1g7qd1Xkn0UX6lD2Q7hXdcZhNfT_roPXV2wQNc3eIB6TKqZIwlERn0Eo81cSdqQKgWhfJtEkl_W_mKHHzws8nfPJ"
+      },
+      {
+        "label": "glavkniga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwGb0aRhHT4ZzwkBntTPoUH-vYCADbPPN2sK4SG8NUtmoUjrIzfwtt7MQA5o5iEE-VUNDvN_3fba6x7P0Q6RmQT0MVPr6YJQd0qzyq8mCASHN8IyimL348hJ6w-GuBSfzXgg=="
+      },
+      {
+        "label": "glavkniga",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwGb0aRhHT4ZzwkBntTPoUH-vYCADbPPN2sK4SG8NUtmoUjrIzfwtt7MQA5o5iEE-VUNDvN_3fba6x7P0Q6RmQT0MVPr6YJQd0qzyq8mCASHN8IyimL348hJ6w-GuBSfzXgg=="
+      },
+      {
+        "label": "garant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSvipXR-oQ1FsQuj_oCJfY6yMV-4Ultwh0TQjudoKtHBZc34iRFGeaR3V5OjTzXPOpEgWqe7XBSH9u0uPWRMk7p9e4C052A027GidJRFBY1Cke5-jKEyW98ceQJ3ms"
+      },
+      {
+        "label": "tochka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtkHKvo1FKDe2n0zrVGTBuJe5hKW6ots64lTdr5y1QrdeRbMbir1LkPhB076Wj2SxwqTj8NiGBtrEPasxx6o_eMQ8FlJxGjyNBMfIQGBk5prjaPPCarfih-wN6QkpUrcP9yJ3AEL7qbxfHqwFGoSXaY_vF"
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQn3m47kl8dgRY3RmH6s5vTAIanaiqGo4lLHpNMoNXCtcpJTQY_vVlxCnAmJ6gWwDUyKdLsGUQQAtofOce_dF3IA75QqzoVOAU3vp2mCOCJiOQXUxIdXdj5wd092BW3cdKL105LD5Xr1X_ycXoedHdWA=="
+      },
+      {
+        "label": "moysklad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcCa-Hxw5cq4hOgACWrkGhOEs7T35AXwFgwW6Zcb7L4dvTiC9nIrzKl7eZ8fMjyyp_DCgNKC7zJ0xWJiEZ1pAENijep2s0bU4Cqt1ZBoRV52iOdXdnDgHx-xOOERqrBWaPAFtONstVaezUN9G94eR57CocDvcpmOWF9ZA8z551QYLMYOLvOSLl9luRhdY="
+      },
+      {
+        "label": "v2b",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9ThXXff_uoxGecSb5HGHFK6WIJSXI2ZVvGMVFK8e2r5SkiefjGvOOeXCN23SAQeQTjbiQrOBA0GxfSkuwvbmGXyR7dT_CiV-NPwbJ5ImDRz-3UCkSEZKaQi8k1CUhsvauOhoFh0oZwRItlANExDT5ue186nEaETGo_UATrsE0rZ4pLVE="
+      },
+      {
+        "label": "taxcom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKws7NpvzJGYb_uhzlTjqzhpQgLupgYinYrFaXjRvedkCMc4FmajM4Uho6nPpivwa6nbbUOwM0_oaHPjiBLIXdKTxfhktJ6Q_gFgaq4uY6Ghfml8DDcqRoEJlDxRTJ"
+      },
+      {
+        "label": "pro-nspt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl626X5uRAIlwQNIAfPFxdWVZlumtTw1t20lJFuypPS-rlVNLxbLyquDCoV8AgMo-7DPwCQ6cIVZJ8nT8ZQAaS8en74Ki_t5PK_8k1IAoQ9Iz9M5qmD-pWKBNF8Urx77pZtLp-_3DR3LO2BbXIgTO5TnZx9-Z6rK9kOOpFJNfjYuqpYgbBF-3GSaeEEA=="
+      },
+      {
+        "label": "abt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTxBx2s8Wf3hfNT1Y5GZTF6NnP9GxFLC6d8yoyKkBWSqmmk0A5AYfVcZoVyO8hkmTxTl0fWB5Kx8g368Jr9L5dRxiZ-e2XsZFOFOIqI1iejdYy3Yyzo_mxAZfnyyCODRrYHPoZo8X9W_oFNQ_2VwuuVvWz2xqli66ReECEYQG58PiEo9-6qmWRCWeY"
+      },
+      {
+        "label": "garant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENL4YkjOAYI1Bx5rsyjNkmJ3Dh3DGUB-_es5YUYLF2I9zXSqZG2fZpoEianuVrb9bWSMUbJqNtYwMf33s8ujVDS0pj7fmsHJxShSU36UKvKlnW2yDj2A6O0dGs"
+      },
+      {
+        "label": "abt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7UzZh2pGJv8kvQBipSiByfbX7wCJZzhzd6H887u5c0Hm97XXKQ4H-lZ4xWJ6kwALOZ9Bj-B6GJCgPj00ugI_RKexA4GboUGc9CeRju2HSi22W-WCe-qD3y3m9NWmvPtNtDdyWEDY62Falw91Ts9E338h1JlBBp2B61XhPWqU4Gnw0VUF6wBFyzZQVbA=="
+      },
+      {
+        "label": "pro-nspt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl626X5uRAIlwQNIAfPFxdWVZlumtTw1t20lJFuypPS-rlVNLxbLyquDCoV8AgMo-7DPwCQ6cIVZJ8nT8ZQAaS8en74Ki_t5PK_8k1IAoQ9Iz9M5qmD-pWKBNF8Urx77pZtLp-_3DR3LO2BbXIgTO5TnZx9-Z6rK9kOOpFJNfjYuqpYgbBF-3GSaeEEA=="
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQn3m47kl8dgRY3RmH6s5vTAIanaiqGo4lLHpNMoNXCtcpJTQY_vVlxCnAmJ6gWwDUyKdLsGUQQAtofOce_dF3IA75QqzoVOAU3vp2mCOCJiOQXUxIdXdj5wd092BW3cdKL105LD5Xr1X_ycXoedHdWA=="
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQn3m47kl8dgRY3RmH6s5vTAIanaiqGo4lLHpNMoNXCtcpJTQY_vVlxCnAmJ6gWwDUyKdLsGUQQAtofOce_dF3IA75QqzoVOAU3vp2mCOCJiOQXUxIdXdj5wd092BW3cdKL105LD5Xr1X_ycXoedHdWA=="
+      },
+      {
+        "label": "v2b",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9ThXXff_uoxGecSb5HGHFK6WIJSXI2ZVvGMVFK8e2r5SkiefjGvOOeXCN23SAQeQTjbiQrOBA0GxfSkuwvbmGXyR7dT_CiV-NPwbJ5ImDRz-3UCkSEZKaQi8k1CUhsvauOhoFh0oZwRItlANExDT5ue186nEaETGo_UATrsE0rZ4pLVE="
+      },
+      {
+        "label": "abt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTxBx2s8Wf3hfNT1Y5GZTF6NnP9GxFLC6d8yoyKkBWSqmmk0A5AYfVcZoVyO8hkmTxTl0fWB5Kx8g368Jr9L5dRxiZ-e2XsZFOFOIqI1iejdYy3Yyzo_mxAZfnyyCODRrYHPoZo8X9W_oFNQ_2VwuuVvWz2xqli66ReECEYQG58PiEo9-6qmWRCWeY"
+      },
+      {
+        "label": "taxcom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKws7NpvzJGYb_uhzlTjqzhpQgLupgYinYrFaXjRvedkCMc4FmajM4Uho6nPpivwa6nbbUOwM0_oaHPjiBLIXdKTxfhktJ6Q_gFgaq4uY6Ghfml8DDcqRoEJlDxRTJ"
+      },
+      {
+        "label": "moysklad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcCa-Hxw5cq4hOgACWrkGhOEs7T35AXwFgwW6Zcb7L4dvTiC9nIrzKl7eZ8fMjyyp_DCgNKC7zJ0xWJiEZ1pAENijep2s0bU4Cqt1ZBoRV52iOdXdnDgHx-xOOERqrBWaPAFtONstVaezUN9G94eR57CocDvcpmOWF9ZA8z551QYLMYOLvOSLl9luRhdY="
+      },
+      {
+        "label": "v2b",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9ThXXff_uoxGecSb5HGHFK6WIJSXI2ZVvGMVFK8e2r5SkiefjGvOOeXCN23SAQeQTjbiQrOBA0GxfSkuwvbmGXyR7dT_CiV-NPwbJ5ImDRz-3UCkSEZKaQi8k1CUhsvauOhoFh0oZwRItlANExDT5ue186nEaETGo_UATrsE0rZ4pLVE="
+      },
+      {
+        "label": "v2b",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9ThXXff_uoxGecSb5HGHFK6WIJSXI2ZVvGMVFK8e2r5SkiefjGvOOeXCN23SAQeQTjbiQrOBA0GxfSkuwvbmGXyR7dT_CiV-NPwbJ5ImDRz-3UCkSEZKaQi8k1CUhsvauOhoFh0oZwRItlANExDT5ue186nEaETGo_UATrsE0rZ4pLVE="
+      },
+      {
+        "label": "1cbit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH__GcXEjsLsXxaYM9dU0uPkiGXFTo2L0yVe9SBWIYDQHsFv9d4t46pbcZyC7f8XffU6amtEG1Hm8aEKPagsIYKw0X5XfdbV0Loria11HOVusOQxRn_p4jbbpTzfsUoIZNvlvqT6GPumRq7D0vlm77Q2TvK1j4bKC3En5xr8ur2MIQ0KHtxoyW_2KMdZOunbDfQgefVyzLTKWryl2hymZ9w6WHaKRO0tqk="
+      },
+      {
+        "label": "pravovest-audit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG50XH6Lo93KBioTP76AtYFGy2yA2de_hZzfALZ4iMVygAPzHq4JUaRE1PKYBsJ7iJgpAlx1ggeZoXcWjkH7U47w1dejd3JHdIO0KvB9WmA3FVROQZIluNzRw9X5yPlNLmrN2ACrSCUA5jg6R8nbWsin8G6Vxm8DzqMaqclYAFx9lE4CGRyFAfNZJVLiqbcG_muvAXRfSutFABxeSiBLEEeuxULXlcaAEnUPbk="
+      },
+      {
+        "label": "abt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7UzZh2pGJv8kvQBipSiByfbX7wCJZzhzd6H887u5c0Hm97XXKQ4H-lZ4xWJ6kwALOZ9Bj-B6GJCgPj00ugI_RKexA4GboUGc9CeRju2HSi22W-WCe-qD3y3m9NWmvPtNtDdyWEDY62Falw91Ts9E338h1JlBBp2B61XhPWqU4Gnw0VUF6wBFyzZQVbA=="
+      },
+      {
+        "label": "kontur-extern",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAyoGpBJPXDLVThNJMcFJibtTvbxmjg1Sn8w7asgQEKQDCf5RoOdsgPG3ynp8B3tmzAK4MZGQLGIyuF_WSm0dZNJSwZrlqGQH4hfKxWjmQetdODCo_YQ4e5sxWfR6m9SyRsoceroI_YW1WvOCd2Xnkf_fi6bhB_kI20n8h86GgiOxqjnOUJqtZ9V3cVgHjm9Z6FH4="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ngOVHPDV3AveT-D8F8jSsXsaFZ4_Vdc8Ukp_7QxNZgdQDdVHGsjL4EuHNcAVroaXFLDOFPNoiPFrbLgms2pPK2M5nZOZEIRp7YXOhFmJaNtUmCbeFPjeyML_gP_Ns4dbs89Vg1MGQOKqCTAI4P20e7D5vfdpu8B8uFiYKTgf8tD65kxUJH27KMIJS9XJ6haPLu9qxxXbY8Z2OHaUaURtvvU0bTFfy82tTJVUOahzON-NvYejWxcr"
+      },
+      {
+        "label": "klerk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWhnqzcBYV021H_07XDcNCCRfgwW33GwpkyR4fkk5P7FsYpkd7xJcfozb7elRllPw0_Qcvdz3WYxGmXKPZY0ncL-6A_aNrzrwRKzRKSTtZSYBeQezRIwnWz735taV2cXAXQIFn-gfr_r72nA3uqGj3F5M="
+      },
+      {
+        "label": "taxcom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKws7NpvzJGYb_uhzlTjqzhpQgLupgYinYrFaXjRvedkCMc4FmajM4Uho6nPpivwa6nbbUOwM0_oaHPjiBLIXdKTxfhktJ6Q_gFgaq4uY6Ghfml8DDcqRoEJlDxRTJ"
+      },
+      {
+        "label": "v2b",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9ThXXff_uoxGecSb5HGHFK6WIJSXI2ZVvGMVFK8e2r5SkiefjGvOOeXCN23SAQeQTjbiQrOBA0GxfSkuwvbmGXyR7dT_CiV-NPwbJ5ImDRz-3UCkSEZKaQi8k1CUhsvauOhoFh0oZwRItlANExDT5ue186nEaETGo_UATrsE0rZ4pLVE="
+      },
+      {
+        "label": "moysklad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcCa-Hxw5cq4hOgACWrkGhOEs7T35AXwFgwW6Zcb7L4dvTiC9nIrzKl7eZ8fMjyyp_DCgNKC7zJ0xWJiEZ1pAENijep2s0bU4Cqt1ZBoRV52iOdXdnDgHx-xOOERqrBWaPAFtONstVaezUN9G94eR57CocDvcpmOWF9ZA8z551QYLMYOLvOSLl9luRhdY="
+      },
+      {
+        "label": "abt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTxBx2s8Wf3hfNT1Y5GZTF6NnP9GxFLC6d8yoyKkBWSqmmk0A5AYfVcZoVyO8hkmTxTl0fWB5Kx8g368Jr9L5dRxiZ-e2XsZFOFOIqI1iejdYy3Yyzo_mxAZfnyyCODRrYHPoZo8X9W_oFNQ_2VwuuVvWz2xqli66ReECEYQG58PiEo9-6qmWRCWeY"
+      },
+      {
+        "label": "klerk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmAVS21CaT2HMXEN4j7m1UAaXQGx1pK-HVZ2X2N6Rw0BMKWJqpG6GxnrQONiaLBfs1KE-yKhjiXcIgX1nt0tZ-axEh7NM1ekSNoANGcA0KdSimYFX4i3Sr2Njq2vrUK26HiGt2d8cLnw=="
+      },
+      {
+        "label": "online-kassa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9CI8B2IY8s6ErQwpbyJ2s8MWejj275XtMt3264H5xJOi7eBw699hk76N4mU6USJOPS4niZG6FkvTmlzE7ICOVRYfb_Z3cqOOpqxKQiutb2z5AbVzZx98JhyrqvrG8Uye34FET9KCCdDdIZUJ9HwCoXHU79kcK0-RsGuK5ZZk8_K8gDoX3UAStpmiketp-MchfDjy9"
+      },
+      {
+        "label": "pravovest-audit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG50XH6Lo93KBioTP76AtYFGy2yA2de_hZzfALZ4iMVygAPzHq4JUaRE1PKYBsJ7iJgpAlx1ggeZoXcWjkH7U47w1dejd3JHdIO0KvB9WmA3FVROQZIluNzRw9X5yPlNLmrN2ACrSCUA5jg6R8nbWsin8G6Vxm8DzqMaqclYAFx9lE4CGRyFAfNZJVLiqbcG_muvAXRfSutFABxeSiBLEEeuxULXlcaAEnUPbk="
+      },
+      {
+        "label": "tochka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtkHKvo1FKDe2n0zrVGTBuJe5hKW6ots64lTdr5y1QrdeRbMbir1LkPhB076Wj2SxwqTj8NiGBtrEPasxx6o_eMQ8FlJxGjyNBMfIQGBk5prjaPPCarfih-wN6QkpUrcP9yJ3AEL7qbxfHqwFGoSXaY_vF"
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQn3m47kl8dgRY3RmH6s5vTAIanaiqGo4lLHpNMoNXCtcpJTQY_vVlxCnAmJ6gWwDUyKdLsGUQQAtofOce_dF3IA75QqzoVOAU3vp2mCOCJiOQXUxIdXdj5wd092BW3cdKL105LD5Xr1X_ycXoedHdWA=="
+      },
+      {
+        "label": "v2b",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9ThXXff_uoxGecSb5HGHFK6WIJSXI2ZVvGMVFK8e2r5SkiefjGvOOeXCN23SAQeQTjbiQrOBA0GxfSkuwvbmGXyR7dT_CiV-NPwbJ5ImDRz-3UCkSEZKaQi8k1CUhsvauOhoFh0oZwRItlANExDT5ue186nEaETGo_UATrsE0rZ4pLVE="
+      },
+      {
+        "label": "taxcom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKws7NpvzJGYb_uhzlTjqzhpQgLupgYinYrFaXjRvedkCMc4FmajM4Uho6nPpivwa6nbbUOwM0_oaHPjiBLIXdKTxfhktJ6Q_gFgaq4uY6Ghfml8DDcqRoEJlDxRTJ"
+      },
+      {
+        "label": "moysklad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcCa-Hxw5cq4hOgACWrkGhOEs7T35AXwFgwW6Zcb7L4dvTiC9nIrzKl7eZ8fMjyyp_DCgNKC7zJ0xWJiEZ1pAENijep2s0bU4Cqt1ZBoRV52iOdXdnDgHx-xOOERqrBWaPAFtONstVaezUN9G94eR57CocDvcpmOWF9ZA8z551QYLMYOLvOSLl9luRhdY="
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQn3m47kl8dgRY3RmH6s5vTAIanaiqGo4lLHpNMoNXCtcpJTQY_vVlxCnAmJ6gWwDUyKdLsGUQQAtofOce_dF3IA75QqzoVOAU3vp2mCOCJiOQXUxIdXdj5wd092BW3cdKL105LD5Xr1X_ycXoedHdWA=="
+      },
+      {
+        "label": "moysklad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcCa-Hxw5cq4hOgACWrkGhOEs7T35AXwFgwW6Zcb7L4dvTiC9nIrzKl7eZ8fMjyyp_DCgNKC7zJ0xWJiEZ1pAENijep2s0bU4Cqt1ZBoRV52iOdXdnDgHx-xOOERqrBWaPAFtONstVaezUN9G94eR57CocDvcpmOWF9ZA8z551QYLMYOLvOSLl9luRhdY="
+      },
+      {
+        "label": "v2b",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9ThXXff_uoxGecSb5HGHFK6WIJSXI2ZVvGMVFK8e2r5SkiefjGvOOeXCN23SAQeQTjbiQrOBA0GxfSkuwvbmGXyR7dT_CiV-NPwbJ5ImDRz-3UCkSEZKaQi8k1CUhsvauOhoFh0oZwRItlANExDT5ue186nEaETGo_UATrsE0rZ4pLVE="
+      },
+      {
+        "label": "taxcom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKws7NpvzJGYb_uhzlTjqzhpQgLupgYinYrFaXjRvedkCMc4FmajM4Uho6nPpivwa6nbbUOwM0_oaHPjiBLIXdKTxfhktJ6Q_gFgaq4uY6Ghfml8DDcqRoEJlDxRTJ"
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQn3m47kl8dgRY3RmH6s5vTAIanaiqGo4lLHpNMoNXCtcpJTQY_vVlxCnAmJ6gWwDUyKdLsGUQQAtofOce_dF3IA75QqzoVOAU3vp2mCOCJiOQXUxIdXdj5wd092BW3cdKL105LD5Xr1X_ycXoedHdWA=="
+      },
+      {
+        "label": "kontur-extern",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAyoGpBJPXDLVThNJMcFJibtTvbxmjg1Sn8w7asgQEKQDCf5RoOdsgPG3ynp8B3tmzAK4MZGQLGIyuF_WSm0dZNJSwZrlqGQH4hfKxWjmQetdODCo_YQ4e5sxWfR6m9SyRsoceroI_YW1WvOCd2Xnkf_fi6bhB_kI20n8h86GgiOxqjnOUJqtZ9V3cVgHjm9Z6FH4="
+      },
+      {
+        "label": "glavbukh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ngOVHPDV3AveT-D8F8jSsXsaFZ4_Vdc8Ukp_7QxNZgdQDdVHGsjL4EuHNcAVroaXFLDOFPNoiPFrbLgms2pPK2M5nZOZEIRp7YXOhFmJaNtUmCbeFPjeyML_gP_Ns4dbs89Vg1MGQOKqCTAI4P20e7D5vfdpu8B8uFiYKTgf8tD65kxUJH27KMIJS9XJ6haPLu9qxxXbY8Z2OHaUaURtvvU0bTFfy82tTJVUOahzON-NvYejWxcr"
+      },
+      {
+        "label": "pro-nspt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl626X5uRAIlwQNIAfPFxdWVZlumtTw1t20lJFuypPS-rlVNLxbLyquDCoV8AgMo-7DPwCQ6cIVZJ8nT8ZQAaS8en74Ki_t5PK_8k1IAoQ9Iz9M5qmD-pWKBNF8Urx77pZtLp-_3DR3LO2BbXIgTO5TnZx9-Z6rK9kOOpFJNfjYuqpYgbBF-3GSaeEEA=="
+      },
+      {
+        "label": "pro-nspt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl626X5uRAIlwQNIAfPFxdWVZlumtTw1t20lJFuypPS-rlVNLxbLyquDCoV8AgMo-7DPwCQ6cIVZJ8nT8ZQAaS8en74Ki_t5PK_8k1IAoQ9Iz9M5qmD-pWKBNF8Urx77pZtLp-_3DR3LO2BbXIgTO5TnZx9-Z6rK9kOOpFJNfjYuqpYgbBF-3GSaeEEA=="
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQn3m47kl8dgRY3RmH6s5vTAIanaiqGo4lLHpNMoNXCtcpJTQY_vVlxCnAmJ6gWwDUyKdLsGUQQAtofOce_dF3IA75QqzoVOAU3vp2mCOCJiOQXUxIdXdj5wd092BW3cdKL105LD5Xr1X_ycXoedHdWA=="
+      },
+      {
+        "label": "26-2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQn3m47kl8dgRY3RmH6s5vTAIanaiqGo4lLHpNMoNXCtcpJTQY_vVlxCnAmJ6gWwDUyKdLsGUQQAtofOce_dF3IA75QqzoVOAU3vp2mCOCJiOQXUxIdXdj5wd092BW3cdKL105LD5Xr1X_ycXoedHdWA=="
+      },
+      {
+        "label": "pro-nspt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEl626X5uRAIlwQNIAfPFxdWVZlumtTw1t20lJFuypPS-rlVNLxbLyquDCoV8AgMo-7DPwCQ6cIVZJ8nT8ZQAaS8en74Ki_t5PK_8k1IAoQ9Iz9M5qmD-pWKBNF8Urx77pZtLp-_3DR3LO2BbXIgTO5TnZx9-Z6rK9kOOpFJNfjYuqpYgbBF-3GSaeEEA=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

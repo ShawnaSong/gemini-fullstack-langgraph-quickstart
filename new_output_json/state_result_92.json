@@ -1,0 +1,502 @@
+{
+  "file_name": "state_result_92.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.828565",
+  "data": {
+    "messages": [
+      {
+        "content": "Est-ce qu'il y a un système Digital Asset Management dans Azure?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "e5280784-d543-43f1-9315-44e97dc2f318",
+        "example": false
+      },
+      {
+        "content": "Yes, while Azure doesn't offer a native, fully-featured Digital Asset Management (DAM) solution, it provides various services and capabilities that can be leveraged to build or enhance DAM systems [folio3](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsIhpE1uKfhMbs9vF_wDw0jlnrBy2j5U4g7KgdfCkg9eyuczyDSTxag8vbneznDKg0eD-_S8AEisjEo7C7W1bxwY8Zs40RP0Ui1qks7ghAJ6_9XAWUjTNEAPawYOBSRBxnXFYN3Wb-QnZ7TUFj8u8=) [sysfore](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTmtx76G1EEa-N7LfPaaOZToZL5hO16F5IfIEytondtWYBcfj0aZfA77KxGn0VrI4yafmfiQVMBXaGuhe2AYeStYFwLIirMUr7T04c5dRf6edafdNmIu7bZKZEwTT1SSObwT01Y8Krc-aQ3ZZh9ii3_6cOd2Frj4x35jHSLBQoq6eYkD9UUijgQJaD). Many DAM solutions are built on Microsoft Azure, leveraging Azure's infrastructure for security, scalability, and efficiency [demoup-cliplister](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg==) [mediavalet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo9HiJZj9qvCHPrQmsCsTU_PWtS_18yK6S8yTgi_rD3jmPFsIjZINE5y7Je28tWiRFFSDz8MeIP1__89-WhilPStwsR2gH7qmFgZgRS1kE70Na8fKkvCOzXjl_XUZnIfX2Ih8IGdCnwfLd-BN0u4_KgNoX9s4XQbFGhVuh94OBLdAjbmRogFMS1BdhoQ==).\n\nHere's how Azure supports DAM:\n\n*   **Cloud Infrastructure:** Azure offers services like Azure Blob Storage for storing large amounts of unstructured data and Azure Content Delivery Network (CDN) for distributing assets quickly and efficiently [cloudcannon](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvVqLsH1SgUbwD0p3x8Wc0AziFQpNACTYJ6uFHnRspsMA87AN1rFeiTZXyvf26eCwseP6Ex_mQPUJ08WcZZqsJkw2glrrcA_ZUtZWxJIAMmSFBACnO2JbcFUOrgnt1QZZJGoH08j4XtzrYOBO8AgZgM6zBRH6xGMm_cFwKqGqg) [mediavalet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh).\n*   **AI and Machine Learning:** Azure Cognitive Services and Media Services can be used to automate tasks, intelligently tag assets, and generate insights from media analytics [folio3](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsIhpE1uKfhMbs9vF_wDw0jlnrBy2j5U4g7KgdfCkg9eyuczyDSTxag8vbneznDKg0eD-_S8AEisjEo7C7W1bxwY8Zs40RP0Ui1qks7ghAJ6_9XAWUjTNEAPawYOBSRBxnXFYN3Wb-QnZ7TUFj8u8=). AI-powered features include metadata extraction, auto-tagging, facial recognition, and content recommendations [informa](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXPTQtpNR0mVcNMwlsnkrdP5klSdYduU7gTyyp3qbOkgVSZ435zEUs_lq4mNcrKOKspYD4pJcQTcCDaRFxGe-ECAyH5tqLHTTF2d11YEQmT6OMquql0ON7o6nXt1FaaUDlVAoYpgWu89doLV0hBwsLlITqqEFLXfYGcKlOO4yEPo-fDHOHtBVB5j2AxsPD) [folio3](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsIhpE1uKfhMbs9vF_wDw0jlnrBy2j5U4g7KgdfCkg9eyuczyDSTxag8vbneznDKg0eD-_S8AEisjEo7C7W1bxwY8Zs40RP0Ui1qks7ghAJ6_9XAWUjTNEAPawYOBSRBxnXFYN3Wb-QnZ7TUFj8u8=).\n*   **Media Services:** Azure Media Services provides capabilities for encoding, transcoding, and streaming media assets [folio3](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsIhpE1uKfhMbs9vF_wDw0jlnrBy2j5U4g7KgdfCkg9eyuczyDSTxag8vbneznDKg0eD-_S8AEisjEo7C7W1bxwY8Zs40RP0Ui1qks7ghAJ6_9XAWUjTNEAPawYOBSRBxnXFYN3Wb-QnZ7TUFj8u8=).\n*   **Security:** Azure offers a secure environment for managing digital assets with features like end-to-end encryption, advanced threat detection, and compliance certifications [mediavalet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh).\n\nSeveral third-party DAM vendors, such as MediaValet, build their solutions on Microsoft Azure [mediavalet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPQ0pvL2v_PNps65pelK1dhz_HPQF9UKYw15v_KcisT6a0J-xpxtON1tnull7ueFE8Rz7YUyEgEhmINp4gx7A3N2MsokpSm-pEKh4jQy4WHFUpo6DLJJPDIMmhpara7ou0U6m4k50RWLo4GvsKh2HNkilX-ln1H1UR7Fj_oek=) [microsoft](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVFln6Ts6oDg8Grx3-RW2NcUiMHbge8J5jYqOF4RVn3NWyW_NxARPeAmHmKv3yxpLWWj1EPB0kTA_d_8K4sNuO0eoYlfW-n9smQXRPoqn_dBtEepdfWksqgpMfCu-Mi-BV4DQQ4xDYEPuInCzqIbsRu0HpfRLqyqWJZ8kYqjXlMrwotfNZbzUagfInIaEH44B68QasNba4U0qoYw==) [mediavalet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh) [sourceforge](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgYE-iLzUMUs7lJZ8Fj-6DCjCjVXyRhuqsJpkADikKLL15ybxdQVbVp7cmev8zUZzEZn_i1RJfVJfeAxafc2ks_OcdfSuzBONbNv4cnTOW03eZN56A02gpxn-rMrl-zrsJ6lWQOyGLNKzVPlrx74MKTWJ-wrNPf0TCVWzgpXrhmINWxVfOJn-t6eg=) [frontify](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7TxG_0K2Iyd2Xqrxm4QYB7-IbRk6EZfHQHyIGuEp-mCxDipNlJkGeCZjVRK8R5OnbBM0NzHqGBhAcixxB_baSO_0qt97bzcoTTwNzHD2GebJjHQFZWg_FA94RugAleKjAMnRcTDpFRJvEF4J7VW14e6aeJ-B0l5CZBbu6iQ==). MediaValet is one example of a DAM service constructed exclusively on Microsoft Azure [gartner](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9zrsz71ValpGuofzkMWjlWWKFCCPAOp75ieUa1hJrGtO3_TnL9DduvEZjbIozIIuO1RU_tFXqhf2LqUX9owijmsIwhbDin0ZEBWSMC8U9pjz20mJSupjVr9tDn4tYR8J5geCvd_o9QSxp3URS9lYCujiBiZVs5jhIUQ==), leveraging Azure's infrastructure and services to provide secure, scalable, and feature-rich DAM capabilities [mediavalet](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "092a4ca2-7a93-4d81-9bb0-f96f8a9246d9",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Azure Digital Asset Management solution",
+      "What native Digital Asset Management (DAM) solutions or services, if any, does Microsoft Azure offer directly, beyond just providing the infrastructure for third-party DAM systems?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent and credible information on \"Azure Digital Asset Management solution\" and synthesize it into a verifiable text artifact.\nHere is a summary of information regarding Azure Digital Asset Management solutions, based on the provided search results:\n\n**Overview of Digital Asset Management (DAM)**\n\nDigital Asset Management (DAM) involves storing, organizing, and distributing digital assets from a centralized system [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0) [mediavalet](https://vertexaisearch.cloud.google.com/id/0-1). DAM systems manage various media files, including images, videos, audio files, and documents [fotoware](https://vertexaisearch.cloud.google.com/id/0-2) [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0). Key functionalities include efficient search and retrieval, collaboration features, and structured repositories for digital assets [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0). DAM is beneficial for businesses that want to stay organized and facilitate collaboration, especially with the increasing shift to remote and hybrid work environments [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**Azure-Based DAM Solutions**\n\nSeveral DAM solutions are built on Microsoft Azure, leveraging Azure's infrastructure for security, scalability, and efficiency [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0) [mediavalet](https://vertexaisearch.cloud.google.com/id/0-3). MediaValet is one example of a DAM service constructed exclusively on Microsoft Azure [gartner](https://vertexaisearch.cloud.google.com/id/0-4). Azure-based DAM solutions offer benefits such as:\n\n*   **Enhanced Security:** Azure's robust security framework provides end-to-end encryption, advanced threat detection, and compliance certifications [mediavalet](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Scalability:** Cloud-based DAMs hosted on platforms like Azure offer virtually unlimited storage capacity that can scale with business growth [mediavalet](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Efficiency:** Azure-based DAMs help businesses manage digital assets safely and efficiently [mediavalet](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Key Features to Look For in a DAM Tool**\n\n*   **Search and Retrieval:** Structured repository for quick file finding [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0). AI-powered search capabilities and automated metadata tagging [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Organization:** Centralized location to organize brand assets [frontify](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Collaboration:** Facilitate seamless collaboration among team members [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Security:** Enterprise-level security to keep assets safe [frontify](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Integration:** Integrations with creative and collaboration tools [frontify](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Analytics:** Features to track asset usage and platform engagement [frontify](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**DAM Solutions in the Market**\n\nMany DAM systems are available, and some of the top DAM tools include [frontify](https://vertexaisearch.cloud.google.com/id/0-5):\n\n*   Frontify\n*   Bynder\n*   Brandfolder\n*   Air\n*   Dash\n*   MediaValet [frontify](https://vertexaisearch.cloud.google.com/id/0-5) [gartner](https://vertexaisearch.cloud.google.com/id/0-4) [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0)\n*   Image Relay\n*   Acquia DAM [frontify](https://vertexaisearch.cloud.google.com/id/0-5) [cmswire](https://vertexaisearch.cloud.google.com/id/0-6)\n*   Canto [mediavalet](https://vertexaisearch.cloud.google.com/id/0-7) [frontify](https://vertexaisearch.cloud.google.com/id/0-5)\n*   Filecamp [gartner](https://vertexaisearch.cloud.google.com/id/0-4) [frontify](https://vertexaisearch.cloud.google.com/id/0-5)\n*   Orange Logic [orangelogic](https://vertexaisearch.cloud.google.com/id/0-8) [cmswire](https://vertexaisearch.cloud.google.com/id/0-6)\n*   Cloudinary [mediaguru](https://vertexaisearch.cloud.google.com/id/0-9) [cmswire](https://vertexaisearch.cloud.google.com/id/0-6)\n*   Kontainer [cmswire](https://vertexaisearch.cloud.google.com/id/0-6)\n\n**MediaValet**\n\nMediaValet is a cloud-based digital asset management platform built on Microsoft Azure [frontify](https://vertexaisearch.cloud.google.com/id/0-5) [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0). It offers enterprise-grade security and scalability [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0). Key features include AI-powered search, automated metadata tagging, and collaboration tools [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0). MediaValet delivers enterprise-class security, reliability, redundancy, compliance, and scalability, with availability across many Microsoft data center regions [microsoft](https://vertexaisearch.cloud.google.com/id/0-10) [mediavalet](https://vertexaisearch.cloud.google.com/id/0-7). It supports various media types, including photos, 4K-8K video, 2D/3D CAD files, and audio files [microsoft](https://vertexaisearch.cloud.google.com/id/0-10).\n\n**Pricing and Cost Considerations**\n\nThe cost of a DAM system can vary significantly based on the type of solution and the features offered [mediavalet](https://vertexaisearch.cloud.google.com/id/0-11) [pics](https://vertexaisearch.cloud.google.com/id/0-12). Factors affecting DAM pricing include [pics](https://vertexaisearch.cloud.google.com/id/0-12):\n\n*   Number of users\n*   Storage needs\n*   Feature set\n*   Subscription costs\n*   Upfront costs\n*   Ongoing costs\n\nSubscription-based (SaaS) models range from $100 to $2,500+ per month, depending on user count and features [pics](https://vertexaisearch.cloud.google.com/id/0-12). On-premises solutions can range from $10,000 to $100,000+ annually, with a one-time setup fee [pics](https://vertexaisearch.cloud.google.com/id/0-12). The average cost of a DAM system can exceed $50,000 a year for high-end, enterprise solutions [pics](https://vertexaisearch.cloud.google.com/id/0-12).\n\n**Trends in DAM**\n\n*   **Cloud-Based DAM:** Increased digitization is driving companies to move their DAM systems from on-premises to the cloud [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0). Cloud solutions offer scalability and automatic updates [fotoware](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **AI and Automation:** AI-powered features like intelligent search and automated metadata tagging are becoming more common [cmswire](https://vertexaisearch.cloud.google.com/id/0-6) [demoup-cliplister](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Integration:** DAM systems are integrating with other tools like Adobe Creative Suite, Salesforce, Slack, and WordPress to optimize workflows [mediavalet](https://vertexaisearch.cloud.google.com/id/0-7) [mediaguru](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **3D DAM:** Solutions tailored for handling 3D content are emerging to address the challenges associated with 3D assets [medium](https://vertexaisearch.cloud.google.com/id/0-13).\n\n**Azure Costs**\n\nAzure pricing can be complex, with different pricing models across different services [intercept](https://vertexaisearch.cloud.google.com/id/0-14). Costs depend on factors such as the type of service, region, storage, and performance tiers [intercept](https://vertexaisearch.cloud.google.com/id/0-14).\n",
+      "Microsoft Azure provides a foundation for Digital Asset Management (DAM) through its cloud computing services, offering computing power, storage, and networking capabilities [mediavalet](https://vertexaisearch.cloud.google.com/id/1-0). Azure's global infrastructure ensures businesses can manage and access their digital assets efficiently from any location, with robust security features like advanced encryption and identity management [mediavalet](https://vertexaisearch.cloud.google.com/id/1-0). While Azure doesn't offer a native, fully-featured DAM solution, it provides various services and capabilities that can be leveraged to build or enhance DAM systems [folio3](https://vertexaisearch.cloud.google.com/id/1-1) [sysfore](https://vertexaisearch.cloud.google.com/id/1-2).\n\nHere's a breakdown of how Microsoft Azure supports DAM:\n\n*   **Cloud Infrastructure:** Azure offers a scalable and reliable cloud infrastructure for storing and managing digital assets [mediavalet](https://vertexaisearch.cloud.google.com/id/1-0). This includes services like Azure Blob Storage for storing large amounts of unstructured data, and Azure Content Delivery Network (CDN) for distributing assets quickly and efficiently [cloudcannon](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **AI and Machine Learning:** Azure Cognitive Services and Media Services can be used to automate tasks, intelligently tag assets, and generate insights from media analytics [folio3](https://vertexaisearch.cloud.google.com/id/1-1). AI-powered features include metadata extraction, auto-tagging, facial recognition, and content recommendations [informa](https://vertexaisearch.cloud.google.com/id/1-4) [folio3](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Media Services:** Azure Media Services provides capabilities for encoding, transcoding, and streaming media assets [folio3](https://vertexaisearch.cloud.google.com/id/1-1). CogDAM, a Digital Asset Management Managed Application, utilizes Azure Media Services to offer video streaming solutions with adaptive streaming capabilities [microsoft](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Security:** Azure offers a secure environment for managing digital assets with features like end-to-end encryption, advanced threat detection, and compliance certifications [mediavalet](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Integration with Third-Party DAM Solutions:** Several third-party DAM vendors, such as MediaValet, build their solutions on Microsoft Azure [mediavalet](https://vertexaisearch.cloud.google.com/id/1-6) [microsoft](https://vertexaisearch.cloud.google.com/id/1-7) [mediavalet](https://vertexaisearch.cloud.google.com/id/1-0) [sourceforge](https://vertexaisearch.cloud.google.com/id/1-8) [frontify](https://vertexaisearch.cloud.google.com/id/1-9). These solutions leverage Azure's infrastructure and services to provide secure, scalable, and feature-rich DAM capabilities [mediavalet](https://vertexaisearch.cloud.google.com/id/1-0). MediaValet, for example, uses Azure Service Fabric, Video Indexer, and Computer Vision to secure and enhance the accessibility and discoverability of digital assets [microsoft](https://vertexaisearch.cloud.google.com/id/1-7).\n\nIt is important to note that while Azure provides the building blocks for DAM, organizations often need to integrate these services or use third-party DAM solutions built on Azure to achieve a comprehensive DAM system [mediavalet](https://vertexaisearch.cloud.google.com/id/1-0) [mediavalet](https://vertexaisearch.cloud.google.com/id/1-6) [sourceforge](https://vertexaisearch.cloud.google.com/id/1-8) [frontify](https://vertexaisearch.cloud.google.com/id/1-9) [microsoft](https://vertexaisearch.cloud.google.com/id/1-7).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa1b4rRHTpGxB3zFYuOWcXAAyV8l418BK59bgeSQernRA8-VKJ0d-UHVpO_3g_568QlovfKsrzcXlnVe2oihT7AFgXYspayZVqZ4esLuLdouezXlLqTHX83z-AmlkajIXuqnhbEF0l09R61UVOggIovR3oPyVV_jQYV-fj8lQX"
+      },
+      {
+        "label": "fotoware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzanAseyrpo2Vw-FE3FD8n9Y7SYANkgEma0H-CrQSTqpOp0WC3CN2zqcKBmKiAKjy4tiNXCEqw01SuliQkdeLryjkI0UI5M23uPxQwy4grXi5ZJgRGmVUQZ8oaAekVdGLp-RcLEc9TksaUzf3KXYaF4A=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo9HiJZj9qvCHPrQmsCsTU_PWtS_18yK6S8yTgi_rD3jmPFsIjZINE5y7Je28tWiRFFSDz8MeIP1__89-WhilPStwsR2gH7qmFgZgRS1kE70Na8fKkvCOzXjl_XUZnIfX2Ih8IGdCnwfLd-BN0u4_KgNoX9s4XQbFGhVuh94OBLdAjbmRogFMS1BdhoQ=="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9zrsz71ValpGuofzkMWjlWWKFCCPAOp75ieUa1hJrGtO3_TnL9DduvEZjbIozIIuO1RU_tFXqhf2LqUX9owijmsIwhbDin0ZEBWSMC8U9pjz20mJSupjVr9tDn4tYR8J5geCvd_o9QSxp3URS9lYCujiBiZVs5jhIUQ=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo9HiJZj9qvCHPrQmsCsTU_PWtS_18yK6S8yTgi_rD3jmPFsIjZINE5y7Je28tWiRFFSDz8MeIP1__89-WhilPStwsR2gH7qmFgZgRS1kE70Na8fKkvCOzXjl_XUZnIfX2Ih8IGdCnwfLd-BN0u4_KgNoX9s4XQbFGhVuh94OBLdAjbmRogFMS1BdhoQ=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo9HiJZj9qvCHPrQmsCsTU_PWtS_18yK6S8yTgi_rD3jmPFsIjZINE5y7Je28tWiRFFSDz8MeIP1__89-WhilPStwsR2gH7qmFgZgRS1kE70Na8fKkvCOzXjl_XUZnIfX2Ih8IGdCnwfLd-BN0u4_KgNoX9s4XQbFGhVuh94OBLdAjbmRogFMS1BdhoQ=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo9HiJZj9qvCHPrQmsCsTU_PWtS_18yK6S8yTgi_rD3jmPFsIjZINE5y7Je28tWiRFFSDz8MeIP1__89-WhilPStwsR2gH7qmFgZgRS1kE70Na8fKkvCOzXjl_XUZnIfX2Ih8IGdCnwfLd-BN0u4_KgNoX9s4XQbFGhVuh94OBLdAjbmRogFMS1BdhoQ=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9zrsz71ValpGuofzkMWjlWWKFCCPAOp75ieUa1hJrGtO3_TnL9DduvEZjbIozIIuO1RU_tFXqhf2LqUX9owijmsIwhbDin0ZEBWSMC8U9pjz20mJSupjVr9tDn4tYR8J5geCvd_o9QSxp3URS9lYCujiBiZVs5jhIUQ=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "cmswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtiL4tHymphORd2PywWrKhmqFo4aRJS-f7bZAk_2SLWYvhDqanWaKGtVHzejBaqxMcBGJsFRY6PJvZifS2rxhTWlFaVfw9fG8xvnLqhQ76iDTiFUJHUWeNa6ZDXbsV98CeW4XNRnfciyblzY-fpj6r8tMpIvLFpxRKj9pX6E6qXZAZzAQgOwhqNcgCCf3L-Iwfozc8TCSiHUMl36-zsAy4MJvCL0im1Q=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfaVCznFx8jLa5EGrvhah-4pjN8XPW5M4xZBqTrOlEmy4oUmANlrzWbaNCUnKkqdEwQUyqy3QutYbgO_i-G9_NbOY-4yPihA1Xt8EwU9UJp1CAcvwTi1fN2M9LSzu0MkAXOarOnsQzDOmfQkyHfDKxIgZzhE2deil-5CorVPlm"
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9zrsz71ValpGuofzkMWjlWWKFCCPAOp75ieUa1hJrGtO3_TnL9DduvEZjbIozIIuO1RU_tFXqhf2LqUX9owijmsIwhbDin0ZEBWSMC8U9pjz20mJSupjVr9tDn4tYR8J5geCvd_o9QSxp3URS9lYCujiBiZVs5jhIUQ=="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "orangelogic",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC1_mbgL1Wc12i8vTNA1isXd6lTUdjyskJrQKxfqNkKhArtLZlnPyIKL4SG72rJrHfIOZfZ78suIMyXCA6XaTrdNVomMTvt0_M13OlX1trCxjuUZpSivRO_O6qtCa8fmcUSYVud4qeY2BZa2R_U8lg2m4C6wtwDzKbwHNPHxXfgEDrvDYFPxEZ5rFx2anJ1HsHB8NArLPP3A=="
+      },
+      {
+        "label": "cmswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtiL4tHymphORd2PywWrKhmqFo4aRJS-f7bZAk_2SLWYvhDqanWaKGtVHzejBaqxMcBGJsFRY6PJvZifS2rxhTWlFaVfw9fG8xvnLqhQ76iDTiFUJHUWeNa6ZDXbsV98CeW4XNRnfciyblzY-fpj6r8tMpIvLFpxRKj9pX6E6qXZAZzAQgOwhqNcgCCf3L-Iwfozc8TCSiHUMl36-zsAy4MJvCL0im1Q=="
+      },
+      {
+        "label": "mediaguru",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9GXdoHmb6W1V4pevWWYucrlMogj42RIELHpXIH3gWejfZTUT02F4X80OwfCz5PMAt7aXI0GVYcHc0Vhz3CyvkJuIZEw5yu95Xkfv1KtAFaheZl7pwrW4eUOJ--A5zodvM_rAgeVWRb-AboSxaxVLPd3EZvVCzcjUzwMA-hl2jZ0UI8bLGPln6sarU9ZhwLsaS795Na9tWn0JmSW8I"
+      },
+      {
+        "label": "cmswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtiL4tHymphORd2PywWrKhmqFo4aRJS-f7bZAk_2SLWYvhDqanWaKGtVHzejBaqxMcBGJsFRY6PJvZifS2rxhTWlFaVfw9fG8xvnLqhQ76iDTiFUJHUWeNa6ZDXbsV98CeW4XNRnfciyblzY-fpj6r8tMpIvLFpxRKj9pX6E6qXZAZzAQgOwhqNcgCCf3L-Iwfozc8TCSiHUMl36-zsAy4MJvCL0im1Q=="
+      },
+      {
+        "label": "cmswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtiL4tHymphORd2PywWrKhmqFo4aRJS-f7bZAk_2SLWYvhDqanWaKGtVHzejBaqxMcBGJsFRY6PJvZifS2rxhTWlFaVfw9fG8xvnLqhQ76iDTiFUJHUWeNa6ZDXbsV98CeW4XNRnfciyblzY-fpj6r8tMpIvLFpxRKj9pX6E6qXZAZzAQgOwhqNcgCCf3L-Iwfozc8TCSiHUMl36-zsAy4MJvCL0im1Q=="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2AdFJr3qdFxMrL-bVcbgoX-Kc4pMyN4XCA493pY_X4nt_Q6C94Ke0gxVT5fYOS9IgKqiqBFTDZHvIenr7GLXw_MTnbBPH-u6DNMXBx7R8xO-gzQV54U3JKol3fUTh0Z2VG440-31wMNspOc4kRxAAYDON5XZ8HvztvpowZU="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHg6atfHTfvOay11FzJVi_zdr8lvmYrAjoKFo6KBxWSM2IaSlyM5srijpACRBdVx5BtGjxdZ5SRQC5NM0DE6gXcvpPfiu3xvVSg4NNbBY0nANtZ6HKWBL4uZoydXnd2blvWt_TEGXCFbGrq1HmHnF3ZBSbEt_sw7Yq-Q5IADiVe68yofR4qIjufXOpTsmGFLKj5gIUDg8P3AlOxQs="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfaVCznFx8jLa5EGrvhah-4pjN8XPW5M4xZBqTrOlEmy4oUmANlrzWbaNCUnKkqdEwQUyqy3QutYbgO_i-G9_NbOY-4yPihA1Xt8EwU9UJp1CAcvwTi1fN2M9LSzu0MkAXOarOnsQzDOmfQkyHfDKxIgZzhE2deil-5CorVPlm"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHg6atfHTfvOay11FzJVi_zdr8lvmYrAjoKFo6KBxWSM2IaSlyM5srijpACRBdVx5BtGjxdZ5SRQC5NM0DE6gXcvpPfiu3xvVSg4NNbBY0nANtZ6HKWBL4uZoydXnd2blvWt_TEGXCFbGrq1HmHnF3ZBSbEt_sw7Yq-Q5IADiVe68yofR4qIjufXOpTsmGFLKj5gIUDg8P3AlOxQs="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENStgbD56QlReCVk2A23zxo4qA4yjkspC0TaMnAV2LwLQsW6Nt2ZMjRHgB34R0aR1KhUuOOpFzVoGNB0DfGw6DHLlk9SvPRZ6iMwdbi07c7NF4uEIPa3NKJAPc85q_MCiaTAjj0nsWAGbjrEZvSDDE2B9ckAgzKGiuvGI="
+      },
+      {
+        "label": "pics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM9K1KWBhXG06AG_ifFNoTLdLDN8YIgeOejBmksZhBaOPLJAckBwoqYX9x2MUcnsXm74sd7QCeZqsu6kJsFEptY4ZqY732oPJieswNrITylBNSdb5XIG8Hl0gh5Q=="
+      },
+      {
+        "label": "pics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM9K1KWBhXG06AG_ifFNoTLdLDN8YIgeOejBmksZhBaOPLJAckBwoqYX9x2MUcnsXm74sd7QCeZqsu6kJsFEptY4ZqY732oPJieswNrITylBNSdb5XIG8Hl0gh5Q=="
+      },
+      {
+        "label": "pics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM9K1KWBhXG06AG_ifFNoTLdLDN8YIgeOejBmksZhBaOPLJAckBwoqYX9x2MUcnsXm74sd7QCeZqsu6kJsFEptY4ZqY732oPJieswNrITylBNSdb5XIG8Hl0gh5Q=="
+      },
+      {
+        "label": "pics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM9K1KWBhXG06AG_ifFNoTLdLDN8YIgeOejBmksZhBaOPLJAckBwoqYX9x2MUcnsXm74sd7QCeZqsu6kJsFEptY4ZqY732oPJieswNrITylBNSdb5XIG8Hl0gh5Q=="
+      },
+      {
+        "label": "pics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM9K1KWBhXG06AG_ifFNoTLdLDN8YIgeOejBmksZhBaOPLJAckBwoqYX9x2MUcnsXm74sd7QCeZqsu6kJsFEptY4ZqY732oPJieswNrITylBNSdb5XIG8Hl0gh5Q=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "fotoware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzanAseyrpo2Vw-FE3FD8n9Y7SYANkgEma0H-CrQSTqpOp0WC3CN2zqcKBmKiAKjy4tiNXCEqw01SuliQkdeLryjkI0UI5M23uPxQwy4grXi5ZJgRGmVUQZ8oaAekVdGLp-RcLEc9TksaUzf3KXYaF4A=="
+      },
+      {
+        "label": "cmswire",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtiL4tHymphORd2PywWrKhmqFo4aRJS-f7bZAk_2SLWYvhDqanWaKGtVHzejBaqxMcBGJsFRY6PJvZifS2rxhTWlFaVfw9fG8xvnLqhQ76iDTiFUJHUWeNa6ZDXbsV98CeW4XNRnfciyblzY-fpj6r8tMpIvLFpxRKj9pX6E6qXZAZzAQgOwhqNcgCCf3L-Iwfozc8TCSiHUMl36-zsAy4MJvCL0im1Q=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfaVCznFx8jLa5EGrvhah-4pjN8XPW5M4xZBqTrOlEmy4oUmANlrzWbaNCUnKkqdEwQUyqy3QutYbgO_i-G9_NbOY-4yPihA1Xt8EwU9UJp1CAcvwTi1fN2M9LSzu0MkAXOarOnsQzDOmfQkyHfDKxIgZzhE2deil-5CorVPlm"
+      },
+      {
+        "label": "mediaguru",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9GXdoHmb6W1V4pevWWYucrlMogj42RIELHpXIH3gWejfZTUT02F4X80OwfCz5PMAt7aXI0GVYcHc0Vhz3CyvkJuIZEw5yu95Xkfv1KtAFaheZl7pwrW4eUOJ--A5zodvM_rAgeVWRb-AboSxaxVLPd3EZvVCzcjUzwMA-hl2jZ0UI8bLGPln6sarU9ZhwLsaS795Na9tWn0JmSW8I"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDWQDb9bZkCwYaT-2LPFjeQt5JB_WOnA5xdtlgAszRAgR6psHXu_5Iqq1dvcdYpvcvj0msD9KWYdBpQbNpYU0RIWptnkjZjk4dRFc7WVakmxhAlPemEXuArXfhZWHahKRLAU5h9YKPrZKb77zpU24gp5q1znOnTfsiL18Y8vCCbMnh-D0FMAiEYpt6y2_ixx4GJgeK7kAzf3KuBGv0JAQ="
+      },
+      {
+        "label": "intercept",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWEZL-sQIMgyCrFDBYIjOXEk4ffImYdGkQdCIEspuzUGQM_4a9kojpOwDKpyEUAT5mhz8NczEKbsQGi6Oyh6kFbXgPwolUT7mTIL15ylNAh0_6kZFEW73GI8VhY13I4mELHicDkomao4LSO08="
+      },
+      {
+        "label": "intercept",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWEZL-sQIMgyCrFDBYIjOXEk4ffImYdGkQdCIEspuzUGQM_4a9kojpOwDKpyEUAT5mhz8NczEKbsQGi6Oyh6kFbXgPwolUT7mTIL15ylNAh0_6kZFEW73GI8VhY13I4mELHicDkomao4LSO08="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh"
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh"
+      },
+      {
+        "label": "folio3",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsIhpE1uKfhMbs9vF_wDw0jlnrBy2j5U4g7KgdfCkg9eyuczyDSTxag8vbneznDKg0eD-_S8AEisjEo7C7W1bxwY8Zs40RP0Ui1qks7ghAJ6_9XAWUjTNEAPawYOBSRBxnXFYN3Wb-QnZ7TUFj8u8="
+      },
+      {
+        "label": "sysfore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTmtx76G1EEa-N7LfPaaOZToZL5hO16F5IfIEytondtWYBcfj0aZfA77KxGn0VrI4yafmfiQVMBXaGuhe2AYeStYFwLIirMUr7T04c5dRf6edafdNmIu7bZKZEwTT1SSObwT01Y8Krc-aQ3ZZh9ii3_6cOd2Frj4x35jHSLBQoq6eYkD9UUijgQJaD"
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh"
+      },
+      {
+        "label": "cloudcannon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvVqLsH1SgUbwD0p3x8Wc0AziFQpNACTYJ6uFHnRspsMA87AN1rFeiTZXyvf26eCwseP6Ex_mQPUJ08WcZZqsJkw2glrrcA_ZUtZWxJIAMmSFBACnO2JbcFUOrgnt1QZZJGoH08j4XtzrYOBO8AgZgM6zBRH6xGMm_cFwKqGqg"
+      },
+      {
+        "label": "folio3",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsIhpE1uKfhMbs9vF_wDw0jlnrBy2j5U4g7KgdfCkg9eyuczyDSTxag8vbneznDKg0eD-_S8AEisjEo7C7W1bxwY8Zs40RP0Ui1qks7ghAJ6_9XAWUjTNEAPawYOBSRBxnXFYN3Wb-QnZ7TUFj8u8="
+      },
+      {
+        "label": "informa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXPTQtpNR0mVcNMwlsnkrdP5klSdYduU7gTyyp3qbOkgVSZ435zEUs_lq4mNcrKOKspYD4pJcQTcCDaRFxGe-ECAyH5tqLHTTF2d11YEQmT6OMquql0ON7o6nXt1FaaUDlVAoYpgWu89doLV0hBwsLlITqqEFLXfYGcKlOO4yEPo-fDHOHtBVB5j2AxsPD"
+      },
+      {
+        "label": "folio3",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsIhpE1uKfhMbs9vF_wDw0jlnrBy2j5U4g7KgdfCkg9eyuczyDSTxag8vbneznDKg0eD-_S8AEisjEo7C7W1bxwY8Zs40RP0Ui1qks7ghAJ6_9XAWUjTNEAPawYOBSRBxnXFYN3Wb-QnZ7TUFj8u8="
+      },
+      {
+        "label": "folio3",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsIhpE1uKfhMbs9vF_wDw0jlnrBy2j5U4g7KgdfCkg9eyuczyDSTxag8vbneznDKg0eD-_S8AEisjEo7C7W1bxwY8Zs40RP0Ui1qks7ghAJ6_9XAWUjTNEAPawYOBSRBxnXFYN3Wb-QnZ7TUFj8u8="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHzKZIzeyVvACrdBT3KeetMv1QUFsC8DXxKzT-KAEqDVGB5EV-F2OfdEEVtiRwkiZbDoVJgJ5KPwNuKoeKfkMSgnNCX1Tu4p3qXzdyfS11K8FKKYJ7U-oIfCPm7ME-M8sh75RmAkBH6U_sNY21Ghj47iKRTwRcHwWrBZTDw23kn-V47w8ZOc5InDsOYFD1U4DlcHmWB4DT-bIfjCkuKMGD"
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh"
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPQ0pvL2v_PNps65pelK1dhz_HPQF9UKYw15v_KcisT6a0J-xpxtON1tnull7ueFE8Rz7YUyEgEhmINp4gx7A3N2MsokpSm-pEKh4jQy4WHFUpo6DLJJPDIMmhpara7ou0U6m4k50RWLo4GvsKh2HNkilX-ln1H1UR7Fj_oek="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVFln6Ts6oDg8Grx3-RW2NcUiMHbge8J5jYqOF4RVn3NWyW_NxARPeAmHmKv3yxpLWWj1EPB0kTA_d_8K4sNuO0eoYlfW-n9smQXRPoqn_dBtEepdfWksqgpMfCu-Mi-BV4DQQ4xDYEPuInCzqIbsRu0HpfRLqyqWJZ8kYqjXlMrwotfNZbzUagfInIaEH44B68QasNba4U0qoYw=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh"
+      },
+      {
+        "label": "sourceforge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgYE-iLzUMUs7lJZ8Fj-6DCjCjVXyRhuqsJpkADikKLL15ybxdQVbVp7cmev8zUZzEZn_i1RJfVJfeAxafc2ks_OcdfSuzBONbNv4cnTOW03eZN56A02gpxn-rMrl-zrsJ6lWQOyGLNKzVPlrx74MKTWJ-wrNPf0TCVWzgpXrhmINWxVfOJn-t6eg="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7TxG_0K2Iyd2Xqrxm4QYB7-IbRk6EZfHQHyIGuEp-mCxDipNlJkGeCZjVRK8R5OnbBM0NzHqGBhAcixxB_baSO_0qt97bzcoTTwNzHD2GebJjHQFZWg_FA94RugAleKjAMnRcTDpFRJvEF4J7VW14e6aeJ-B0l5CZBbu6iQ=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVFln6Ts6oDg8Grx3-RW2NcUiMHbge8J5jYqOF4RVn3NWyW_NxARPeAmHmKv3yxpLWWj1EPB0kTA_d_8K4sNuO0eoYlfW-n9smQXRPoqn_dBtEepdfWksqgpMfCu-Mi-BV4DQQ4xDYEPuInCzqIbsRu0HpfRLqyqWJZ8kYqjXlMrwotfNZbzUagfInIaEH44B68QasNba4U0qoYw=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh"
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPQ0pvL2v_PNps65pelK1dhz_HPQF9UKYw15v_KcisT6a0J-xpxtON1tnull7ueFE8Rz7YUyEgEhmINp4gx7A3N2MsokpSm-pEKh4jQy4WHFUpo6DLJJPDIMmhpara7ou0U6m4k50RWLo4GvsKh2HNkilX-ln1H1UR7Fj_oek="
+      },
+      {
+        "label": "sourceforge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgYE-iLzUMUs7lJZ8Fj-6DCjCjVXyRhuqsJpkADikKLL15ybxdQVbVp7cmev8zUZzEZn_i1RJfVJfeAxafc2ks_OcdfSuzBONbNv4cnTOW03eZN56A02gpxn-rMrl-zrsJ6lWQOyGLNKzVPlrx74MKTWJ-wrNPf0TCVWzgpXrhmINWxVfOJn-t6eg="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7TxG_0K2Iyd2Xqrxm4QYB7-IbRk6EZfHQHyIGuEp-mCxDipNlJkGeCZjVRK8R5OnbBM0NzHqGBhAcixxB_baSO_0qt97bzcoTTwNzHD2GebJjHQFZWg_FA94RugAleKjAMnRcTDpFRJvEF4J7VW14e6aeJ-B0l5CZBbu6iQ=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVFln6Ts6oDg8Grx3-RW2NcUiMHbge8J5jYqOF4RVn3NWyW_NxARPeAmHmKv3yxpLWWj1EPB0kTA_d_8K4sNuO0eoYlfW-n9smQXRPoqn_dBtEepdfWksqgpMfCu-Mi-BV4DQQ4xDYEPuInCzqIbsRu0HpfRLqyqWJZ8kYqjXlMrwotfNZbzUagfInIaEH44B68QasNba4U0qoYw=="
+      },
+      {
+        "label": "demoup-cliplister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGae-S9cDQYtUVZxs2HMxjUdUhZOotFE2JqRabYFVnoOr8r9e388jECTJvoTzwccVJ1q75EKCm0IAzCI-_M1xkvJzxV8z5YOfvCLYD9cYRjhw_0k5svQVA9eusKms7RTkdByf9_P-dOzlUnMHTD-4XpOhE1M3mel6QTsyjdYDKT7BAxBnU5w66FUts7Bg=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo9HiJZj9qvCHPrQmsCsTU_PWtS_18yK6S8yTgi_rD3jmPFsIjZINE5y7Je28tWiRFFSDz8MeIP1__89-WhilPStwsR2gH7qmFgZgRS1kE70Na8fKkvCOzXjl_XUZnIfX2Ih8IGdCnwfLd-BN0u4_KgNoX9s4XQbFGhVuh94OBLdAjbmRogFMS1BdhoQ=="
+      },
+      {
+        "label": "gartner",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9zrsz71ValpGuofzkMWjlWWKFCCPAOp75ieUa1hJrGtO3_TnL9DduvEZjbIozIIuO1RU_tFXqhf2LqUX9owijmsIwhbDin0ZEBWSMC8U9pjz20mJSupjVr9tDn4tYR8J5geCvd_o9QSxp3URS9lYCujiBiZVs5jhIUQ=="
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeFyuZZZtBLREFxPTB8Cr5CggThMHqE3XoEeOmHNlrTI2oCsVXWbMjiy3YNwKiiEj59r4r1V8TozvJLNnsqpNrkWKmNwJd9bpZeZMNgSaj6aTEDieASKwMm2OJ7zIDAd_k_HO1eEBQf75CFhjOi5BMdkkJHjGq_0IU8Do_vvCOxKmZjDpQNmoyNJh"
+      },
+      {
+        "label": "folio3",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsIhpE1uKfhMbs9vF_wDw0jlnrBy2j5U4g7KgdfCkg9eyuczyDSTxag8vbneznDKg0eD-_S8AEisjEo7C7W1bxwY8Zs40RP0Ui1qks7ghAJ6_9XAWUjTNEAPawYOBSRBxnXFYN3Wb-QnZ7TUFj8u8="
+      },
+      {
+        "label": "sysfore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTmtx76G1EEa-N7LfPaaOZToZL5hO16F5IfIEytondtWYBcfj0aZfA77KxGn0VrI4yafmfiQVMBXaGuhe2AYeStYFwLIirMUr7T04c5dRf6edafdNmIu7bZKZEwTT1SSObwT01Y8Krc-aQ3ZZh9ii3_6cOd2Frj4x35jHSLBQoq6eYkD9UUijgQJaD"
+      },
+      {
+        "label": "cloudcannon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvVqLsH1SgUbwD0p3x8Wc0AziFQpNACTYJ6uFHnRspsMA87AN1rFeiTZXyvf26eCwseP6Ex_mQPUJ08WcZZqsJkw2glrrcA_ZUtZWxJIAMmSFBACnO2JbcFUOrgnt1QZZJGoH08j4XtzrYOBO8AgZgM6zBRH6xGMm_cFwKqGqg"
+      },
+      {
+        "label": "informa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXPTQtpNR0mVcNMwlsnkrdP5klSdYduU7gTyyp3qbOkgVSZ435zEUs_lq4mNcrKOKspYD4pJcQTcCDaRFxGe-ECAyH5tqLHTTF2d11YEQmT6OMquql0ON7o6nXt1FaaUDlVAoYpgWu89doLV0hBwsLlITqqEFLXfYGcKlOO4yEPo-fDHOHtBVB5j2AxsPD"
+      },
+      {
+        "label": "mediavalet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPQ0pvL2v_PNps65pelK1dhz_HPQF9UKYw15v_KcisT6a0J-xpxtON1tnull7ueFE8Rz7YUyEgEhmINp4gx7A3N2MsokpSm-pEKh4jQy4WHFUpo6DLJJPDIMmhpara7ou0U6m4k50RWLo4GvsKh2HNkilX-ln1H1UR7Fj_oek="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVFln6Ts6oDg8Grx3-RW2NcUiMHbge8J5jYqOF4RVn3NWyW_NxARPeAmHmKv3yxpLWWj1EPB0kTA_d_8K4sNuO0eoYlfW-n9smQXRPoqn_dBtEepdfWksqgpMfCu-Mi-BV4DQQ4xDYEPuInCzqIbsRu0HpfRLqyqWJZ8kYqjXlMrwotfNZbzUagfInIaEH44B68QasNba4U0qoYw=="
+      },
+      {
+        "label": "sourceforge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgYE-iLzUMUs7lJZ8Fj-6DCjCjVXyRhuqsJpkADikKLL15ybxdQVbVp7cmev8zUZzEZn_i1RJfVJfeAxafc2ks_OcdfSuzBONbNv4cnTOW03eZN56A02gpxn-rMrl-zrsJ6lWQOyGLNKzVPlrx74MKTWJ-wrNPf0TCVWzgpXrhmINWxVfOJn-t6eg="
+      },
+      {
+        "label": "frontify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7TxG_0K2Iyd2Xqrxm4QYB7-IbRk6EZfHQHyIGuEp-mCxDipNlJkGeCZjVRK8R5OnbBM0NzHqGBhAcixxB_baSO_0qt97bzcoTTwNzHD2GebJjHQFZWg_FA94RugAleKjAMnRcTDpFRJvEF4J7VW14e6aeJ-B0l5CZBbu6iQ=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

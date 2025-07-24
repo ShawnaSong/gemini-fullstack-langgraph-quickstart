@@ -1,0 +1,497 @@
+{
+  "file_name": "state_result_145.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.644586",
+  "data": {
+    "messages": [
+      {
+        "content": "pplx sonar",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "3220e274-2e1e-4ae2-b25e-55d694e5f904",
+        "example": false
+      },
+      {
+        "content": "As of July 16, 2025, Perplexity AI's Sonar models offer a range of capabilities, including real-time internet access and cost-efficient performance [promptitude](https://vertexaisearch.cloud.google.com/id/0-1). Sonar models are based on the open-source Llama 3.3 70B from Meta [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0). The Sonar line includes models like Sonar Pro, Sonar Reasoning, Sonar Reasoning Pro, Sonar Deep Research, and R1 1776 [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0). However, several alternatives exist, spanning AI coding assistants, AI search and research tools, and code quality/security platforms.\n\n**AI Coding Assistants & Code Completion Tools:**\n\n*   **GitHub Copilot:** A leading AI code assistant offering real-time code suggestions and unit test generation, integrating with VS Code and other IDEs [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [n8n](https://vertexaisearch.cloud.google.com/id/1-1) [shakudo](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Tabnine:** Emphasizes code privacy with options for on-premises deployment [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [zencoder](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Amazon CodeWhisperer/Amazon Q Developer:** Tailored for AWS and cloud-based development, offering AI-generated code suggestions and security scanning [dev](https://vertexaisearch.cloud.google.com/id/1-5) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [shakudo](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **JetBrains AI Assistant:** Integrated into JetBrains IDEs for enhanced code completion and debugging [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [n8n](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Cursor:** An AI-first code editor with codebase-aware chat and AI-powered debugging [dev](https://vertexaisearch.cloud.google.com/id/1-5) [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [zencoder](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Codeium:** A free alternative to Copilot, offering code completions and refactoring assistance [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [dev](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Windsurf:** Focuses on test-driven suggestions, particularly for Python developers [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [builder](https://vertexaisearch.cloud.google.com/id/1-7) [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Replit Ghostwriter:** Integrated into the browser-based Replit IDE [dev](https://vertexaisearch.cloud.google.com/id/1-3) [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Zencoder:** An AI coding agent with features like Repo Grokking [zencoder](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **AskCodi:** Simplifies the coding process and supports multiple languages [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **CodeT5:** Translates between natural language and code [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Sourcegraph Cody:** Designed for engineering teams with large codebases [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Qodo:** Offers test case generation and intelligent code suggestions [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **OpenHands:** An open-source AI coding assistant [shakudo](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **TabbyML:** An open-source and self-hosted AI coding assistant [huggingface](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**AI Search and Research Tools (Alternatives to Perplexity AI's Sonar):**\n\n*   **Perplexity AI:** Offers models like Sonar Pro and Sonar Deep Research for research tasks [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-9) [libraries](https://vertexaisearch.cloud.google.com/id/1-10) [github](https://vertexaisearch.cloud.google.com/id/1-11).\n*   **Grok 3:** A large language model comparable to Sonar [artificialanalysis](https://vertexaisearch.cloud.google.com/id/1-12).\n*   **Gemini Code Assist (Duet AI for Developers):** Google's solution using the Gemini LLM for code completion and generation [shakudo](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **ARI:** A research tool that can analyze data from multiple sources and generate reports [slashdot](https://vertexaisearch.cloud.google.com/id/1-13).\n\n**Code Quality and Security Tools:**\n\n*   **Trag:** Simplifies code quality checks using AI [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **Veracode:** Focuses on identifying and fixing security issues [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **Codacy:** An automated code review tool [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **Snyk:** Identifies vulnerabilities in code and open-source libraries [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **Checkmarx:** Offers AI-driven tools for application security [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n\n**AI-Powered Browsers:**\n\n*   **Perplexity Comet:** An AI-first browser that merges browsing with autonomous decision-making using LLMs [medium](https://vertexaisearch.cloud.google.com/id/1-15).\n\nWhen choosing an alternative, consider factors like privacy (Tabnine) [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [zencoder](https://vertexaisearch.cloud.google.com/id/1-4), AWS/cloud development (Amazon CodeWhisperer/Amazon Q Developer) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [shakudo](https://vertexaisearch.cloud.google.com/id/1-2), JetBrains integration (JetBrains AI Assistant) [n8n](https://vertexaisearch.cloud.google.com/id/1-1) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [huggingface](https://vertexaisearch.cloud.google.com/id/1-6), free options (Codeium) [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [dev](https://vertexaisearch.cloud.google.com/id/1-3), and open-source options (TabbyML and OpenHands) [shakudo](https://vertexaisearch.cloud.google.com/id/1-2) [huggingface](https://vertexaisearch.cloud.google.com/id/1-6).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "e279a8ed-7bca-47e5-b26f-7d70fa7e752f",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "pplx sonar features pricing",
+      "pplx sonar alternatives"
+    ],
+    "web_research_result": [
+      "As of July 16, 2025, here's a summary of features and pricing information for Perplexity AI's Sonar models:\n\n**General Information:**\n\n*   Sonar is a family of language models (LLM) and an API for the Perplexity AI search engine, featuring built-in artificial intelligence [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   The models are based on the open-source Llama 3.3 70B from Meta [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   The Sonar API allows integration with third-party services and applications [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Sonar models are designed to provide real-time access to the internet and up-to-date information [promptitude](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Perplexity claims Sonar models surpass earlier models like PPLX and Mixtral in cost-efficiency, speed, and performance [promptitude](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Sonar's grounding request pricing is competitive [perplexity](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**Key Features & Technology:**\n\n*   The Sonar line includes models like Sonar Pro, Sonar Reasoning, Sonar Reasoning Pro, Sonar Deep Research, and R1 1776 [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Sonar Pro:** A full-sized LLM with an enlarged context window for additional memory and increased efficiency [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0). It combines the summarization power of LLMs with access to real-time information [perplexity](https://vertexaisearch.cloud.google.com/id/0-3). It is optimized for factuality and authority [perplexity](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Sonar:** A junior version trained on a smaller dataset, balancing performance, cost, and query processing speed [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0). It is a lightweight, cost-effective search model designed for quick, grounded answers [perplexity](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Sonar Reasoning Pro:** Has improved planning and reasoning capabilities and can create logical chains and search the web for factual, unbiased information in real time [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0). It supports in-depth, multi-step queries with a larger context window and can surface more citations per search [openrouter](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Sonar Deep Research:** Designed for exhaustive research and generating detailed reports and in-depth insights [perplexity](https://vertexaisearch.cloud.google.com/id/0-4). It autonomously conducts in-depth research and analysis, performing multiple searches, reviewing hundreds of sources, and compiling findings into comprehensive reports [analyticsindiamag](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **R1 1776:** A special version of the LLM DeepSeek R1, trained to provide unbiased factual information without censorship [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0). It is an offline chat model that does not use search but provides local AI capabilities [perplexity](https://vertexaisearch.cloud.google.com/id/0-4).\n*   The models have a wide range of applications, including content creation, user support, and knowledge bases [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   The Sonar API includes citations and the ability to customize sources [perplexity](https://vertexaisearch.cloud.google.com/id/0-3).\n*   No LLM training occurs on user data, ensuring privacy and security [perplexity](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**Pricing:**\n\n*   Sonar: $1 per million I/O tokens, $5-12 per 1000 requests depending on mode [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Sonar Reasoning Pro: $2 per million input tokens, $8 per million output tokens, $6-14 per 1000 requests depending on mode [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Sonar Reasoning: $1 per million input tokens, $5 per million output tokens, $5-12 per 1000 requests depending on mode [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Sonar Deep Research: $2 per million input tokens, $8 per million output tokens, $5 per 1000 search queries, $3 per million reasoning tokens [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   R1 1776: $2 per million input tokens, $8 per million output tokens [savemyleads](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Sonar Pro pricing includes Perplexity search pricing [openrouter](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**Additional Notes:**\n\n*   Perplexity offers models optimized for fast, cost-effective search and information retrieval [perplexity](https://vertexaisearch.cloud.google.com/id/0-4).\n*   Sonar Pro can handle in-depth, multi-step queries with more citations per search and a larger context window [openrouter](https://vertexaisearch.cloud.google.com/id/0-5) [perplexity](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Zoom uses Sonar Pro to offer live, real-time, and private searches within its platform [perplexity](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Copy AI uses Sonar to help go-to-market teams research prospects and target companies [perplexity](https://vertexaisearch.cloud.google.com/id/0-3).\n",
+      "Okay, I will conduct Google Searches to gather the most recent and credible information on \"pplx sonar alternatives\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of alternatives to PPLX Sonar, focusing on AI coding assistants and related tools as of July 16, 2025:\n\n**AI Coding Assistants & Code Completion Tools:**\n\n*   **GitHub Copilot:** Widely recognized as a leading AI code assistant, offering real-time code suggestions, autocompletion, and unit test generation [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [n8n](https://vertexaisearch.cloud.google.com/id/1-1). It integrates smoothly with VS Code, JetBrains IDEs, and GitHub CLI, supporting 20+ programming languages [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0). It is powered by OpenAI's Codex and GPT-4 models [shakudo](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Tabnine:** Emphasizes code privacy and security, allowing on-premises or private cloud deployment [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [zencoder](https://vertexaisearch.cloud.google.com/id/1-4). It provides AI-powered code completion and integrates with various IDEs [dev](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Amazon CodeWhisperer/Amazon Q Developer:** Tailored for AWS and cloud-based development, offering AI-generated code suggestions and security scanning [dev](https://vertexaisearch.cloud.google.com/id/1-5) [dev](https://vertexaisearch.cloud.google.com/id/1-3) [shakudo](https://vertexaisearch.cloud.google.com/id/1-2). Evolved from CodeWhisperer, Amazon Q Developer integrates with AWS services [shakudo](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **JetBrains AI Assistant:** Integrated into JetBrains IDEs (IntelliJ, PyCharm, WebStorm), enhancing code completion, debugging, and refactoring [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [n8n](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Cursor:** An AI-first code editor that combines a powerful editor with codebase-aware chat and AI-powered debugging [dev](https://vertexaisearch.cloud.google.com/id/1-5) [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [zencoder](https://vertexaisearch.cloud.google.com/id/1-4). It supports Claude 3.5 Sonnet and GPT-4 [n8n](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Codeium:** A free alternative to Copilot, offering code completions, code generation, and refactoring assistance [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [dev](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Windsurf:** Focuses on test-driven suggestions and context-rich completions, particularly useful for Python developers [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [builder](https://vertexaisearch.cloud.google.com/id/1-7) [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Replit Ghostwriter:** An AI coding assistant embedded in the browser-based Replit IDE [dev](https://vertexaisearch.cloud.google.com/id/1-3) [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Zencoder:** An AI coding agent that offers a fully integrated development experience, with features like Repo Grokking for deep codebase context [zencoder](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **AskCodi:** A versatile AI coding assistant that simplifies the coding process and supports multiple languages [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **CodeT5:** Focuses on translating between natural language and code, useful for cross-language development [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Sourcegraph Cody:** Designed for engineering teams with large codebases, offering full repository intelligence [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Qodo:** Offers test case generation and intelligent code suggestions [qodo](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **OpenHands:** An open-source AI coding assistant that acts as a full-capability software developer [shakudo](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **TabbyML:** An open-source and self-hosted AI coding assistant that uses RAG for context-aware completions [huggingface](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**AI Search and Research Tools (Alternatives to Perplexity AI's Sonar):**\n\n*   **Perplexity AI:** Offers models like Sonar Pro, Sonar Deep Research, and Sonar Reasoning for research and reasoning tasks [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-9) [libraries](https://vertexaisearch.cloud.google.com/id/1-10) [github](https://vertexaisearch.cloud.google.com/id/1-11). It is a conversational AI search engine that provides accurate answers with cited sources [explodingtopics](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Grok 3:** A large language model that can be compared to Sonar in terms of intelligence evaluations [artificialanalysis](https://vertexaisearch.cloud.google.com/id/1-12).\n*   **Gemini Code Assist (Duet AI for Developers):** Google's solution that uses the Gemini LLM and offers code completion, chat, and code generation [shakudo](https://vertexaisearch.cloud.google.com/id/1-2).\n*    **ARI:** A research tool that can analyze data from multiple sources and generate reports [slashdot](https://vertexaisearch.cloud.google.com/id/1-13).\n\n**Code Quality and Security Tools (Alternatives to SonarQube):**\n\n*   **Trag:** Simplifies code quality checks using AI and offers real-time feedback [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **Veracode:** Focuses on identifying and fixing security issues in code [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **Codacy:** An automated code review tool designed to make code analysis straightforward [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **Snyk:** Identifies vulnerabilities in code, open-source libraries, containers, and infrastructure configurations [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **Checkmarx:** Offers AI-driven tools for application security and vulnerability detection [usetrag](https://vertexaisearch.cloud.google.com/id/1-14).\n\n**AI-Powered Browsers:**\n\n*   **Perplexity Comet:** An AI-first browser that merges browsing with autonomous decision-making using LLMs [medium](https://vertexaisearch.cloud.google.com/id/1-15).\n\n**Key Considerations:**\n\n*   **Privacy:** Tabnine is a strong alternative when code privacy is a concern [sevensquaretech](https://vertexaisearch.cloud.google.com/id/1-0) [zencoder](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **AWS/Cloud Development:** Amazon CodeWhisperer/Amazon Q Developer is tailored for these environments [dev](https://vertexaisearch.cloud.google.com/id/1-3) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [shakudo](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **JetBrains Users:** JetBrains AI Assistant offers deep integration [n8n](https://vertexaisearch.cloud.google.com/id/1-1) [dev](https://vertexaisearch.cloud.google.com/id/1-5) [huggingface](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Free Options:** Codeium offers a generous free tier [huggingface](https://vertexaisearch.cloud.google.com/id/1-6) [dev](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Open Source:** TabbyML and OpenHands are open-source alternatives [shakudo](https://vertexaisearch.cloud.google.com/id/1-2) [huggingface](https://vertexaisearch.cloud.google.com/id/1-6).\n\nThis information should provide a solid overview of PPLX Sonar alternatives available as of July 2025, covering a range of AI-assisted coding tools, search engines, and code quality platforms.\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "promptitude",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWgvGH90_bcqfNhE7G8SLfhOf_CQzMrIc4ucoepkOoR5kpUAX7WC5VtmkD_8sdRvNBgJwvqvySgI3e5tJtuO7_RSrJAlv1mktVsXp0tgFhFJ7XS7tSf0w178w68ZHRlYMuPQ2VzSANfb4o3vIDIMhgaZCGqZsxqE7iVeYBoRgOt-z0G9CaQQKhh27psyo0Sr5zK7neRTcmasgDQtxgHZVENAI2"
+      },
+      {
+        "label": "promptitude",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWgvGH90_bcqfNhE7G8SLfhOf_CQzMrIc4ucoepkOoR5kpUAX7WC5VtmkD_8sdRvNBgJwvqvySgI3e5tJtuO7_RSrJAlv1mktVsXp0tgFhFJ7XS7tSf0w178w68ZHRlYMuPQ2VzSANfb4o3vIDIMhgaZCGqZsxqE7iVeYBoRgOt-z0G9CaQQKhh27psyo0Sr5zK7neRTcmasgDQtxgHZVENAI2"
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGluhhP1AckVUPGv6DgcHCNP6pSZ8-OdsnfVT4Xg12Zz_3-u25Nj-C2m6w-pGHky2yqd8qvqYcMgIE1jHyn6rhZ5lAZGALqx8Div6GtT3gotSzreSWZYM="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc_1KOx_NvyCSXz2FfR61GhsbNj_4z18tMsyjs1AU4uuf0UmfKRTSFgPTuV6rzEXj6D0EYWNWDHm7A-jydpdZx6KI9wiz7XKNyLl_s-SakaG-ciM1N47TRHRXw52iZHvqHzCiZ3Yivop1e4yd0vE7n4WImcQdRlbg3I7A="
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc_1KOx_NvyCSXz2FfR61GhsbNj_4z18tMsyjs1AU4uuf0UmfKRTSFgPTuV6rzEXj6D0EYWNWDHm7A-jydpdZx6KI9wiz7XKNyLl_s-SakaG-ciM1N47TRHRXw52iZHvqHzCiZ3Yivop1e4yd0vE7n4WImcQdRlbg3I7A="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo7ckHKSkhHh-V6LaQXExcUUVCrGeQyc-UPY5aIQ4giNSlY0UXPs1dLUVjszxWzv5z6oVSwg1_gcvHsKUifDi1Z7QqHgiSzyCkO63mGj1peASR-6U12H8YWltJe4wpurJ2aDLq"
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "openrouter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWXqMNE7b_6lXEUctlR46sx4qPyc9GtHKBq9N7E2tbu6dVxkFqTyvMVF74i9lik07PBTi3DMxtlTjD_UeEIBd_1UVcDeZxObiXCmpa6a7nnuKcWK-9Qx9FDVCM"
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo7ckHKSkhHh-V6LaQXExcUUVCrGeQyc-UPY5aIQ4giNSlY0UXPs1dLUVjszxWzv5z6oVSwg1_gcvHsKUifDi1Z7QqHgiSzyCkO63mGj1peASR-6U12H8YWltJe4wpurJ2aDLq"
+      },
+      {
+        "label": "analyticsindiamag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKWo1kcm5JRj7r12-xbLw84l9bN-z8kmK6C5mm3KPWEub3DsOrslGgAH4C1jO7D6HTG-pwJJMTofJcgxlXWcwkbFDMzwKXUjxwpC3MMiFFMC8XMZKbEMlk4vflLQNTRL22ISUdZ5XeviHy7Hvuh7UAcfzwRUU52hk4I_-trvLw0u2XCHsPrfijqlaCMcLMhYP5kNjK_wJp2gXQG9KSu6ukG7HlpkItUfo6eB5KtgZ9y4Jew-yWvKI="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo7ckHKSkhHh-V6LaQXExcUUVCrGeQyc-UPY5aIQ4giNSlY0UXPs1dLUVjszxWzv5z6oVSwg1_gcvHsKUifDi1Z7QqHgiSzyCkO63mGj1peASR-6U12H8YWltJe4wpurJ2aDLq"
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc_1KOx_NvyCSXz2FfR61GhsbNj_4z18tMsyjs1AU4uuf0UmfKRTSFgPTuV6rzEXj6D0EYWNWDHm7A-jydpdZx6KI9wiz7XKNyLl_s-SakaG-ciM1N47TRHRXw52iZHvqHzCiZ3Yivop1e4yd0vE7n4WImcQdRlbg3I7A="
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGluhhP1AckVUPGv6DgcHCNP6pSZ8-OdsnfVT4Xg12Zz_3-u25Nj-C2m6w-pGHky2yqd8qvqYcMgIE1jHyn6rhZ5lAZGALqx8Div6GtT3gotSzreSWZYM="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "savemyleads",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk0hJNyOyo4z0Irn-RHByGgVpJlA6cFDgIHEsovEWM4lI2HdHwhzAqk2-Wj-CmkaF_fCRi5T2jLmgqg29typzlfRRZsKA4itEb_yQ1ZlIeUNdT3m5MsBDzGSt6rXs_ErtgF9DnjYlVp4uKIhxJgCOn9Y4="
+      },
+      {
+        "label": "openrouter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWXqMNE7b_6lXEUctlR46sx4qPyc9GtHKBq9N7E2tbu6dVxkFqTyvMVF74i9lik07PBTi3DMxtlTjD_UeEIBd_1UVcDeZxObiXCmpa6a7nnuKcWK-9Qx9FDVCM"
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo7ckHKSkhHh-V6LaQXExcUUVCrGeQyc-UPY5aIQ4giNSlY0UXPs1dLUVjszxWzv5z6oVSwg1_gcvHsKUifDi1Z7QqHgiSzyCkO63mGj1peASR-6U12H8YWltJe4wpurJ2aDLq"
+      },
+      {
+        "label": "openrouter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWXqMNE7b_6lXEUctlR46sx4qPyc9GtHKBq9N7E2tbu6dVxkFqTyvMVF74i9lik07PBTi3DMxtlTjD_UeEIBd_1UVcDeZxObiXCmpa6a7nnuKcWK-9Qx9FDVCM"
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc_1KOx_NvyCSXz2FfR61GhsbNj_4z18tMsyjs1AU4uuf0UmfKRTSFgPTuV6rzEXj6D0EYWNWDHm7A-jydpdZx6KI9wiz7XKNyLl_s-SakaG-ciM1N47TRHRXw52iZHvqHzCiZ3Yivop1e4yd0vE7n4WImcQdRlbg3I7A="
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc_1KOx_NvyCSXz2FfR61GhsbNj_4z18tMsyjs1AU4uuf0UmfKRTSFgPTuV6rzEXj6D0EYWNWDHm7A-jydpdZx6KI9wiz7XKNyLl_s-SakaG-ciM1N47TRHRXw52iZHvqHzCiZ3Yivop1e4yd0vE7n4WImcQdRlbg3I7A="
+      },
+      {
+        "label": "perplexity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc_1KOx_NvyCSXz2FfR61GhsbNj_4z18tMsyjs1AU4uuf0UmfKRTSFgPTuV6rzEXj6D0EYWNWDHm7A-jydpdZx6KI9wiz7XKNyLl_s-SakaG-ciM1N47TRHRXw52iZHvqHzCiZ3Yivop1e4yd0vE7n4WImcQdRlbg3I7A="
+      },
+      {
+        "label": "sevensquaretech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCbk0YeRLp8arr6SLeoGSEwT-1IWXkcnouahDLmjsjzku5nkXB1zSOhy7YzCtu8U-ElMK32vJMchAxre0ROrHmAIUUiXLJMXLCxM2Ck-SZ1re6WnicL5DM4oMJ9-X19dQ9HA4Tv8t8oDussYCUNgTVt-Oizq0Oy0nUYg=="
+      },
+      {
+        "label": "n8n",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHu7wGSucmd6NmlGdEXsqCsJRaptkhpScK1qihzci4TlEZ1KL72TlgdLtaaZlftucni6l-p5LRormv0FqHwl4QUdd85-47RzPNiUXDLncqx_eqJmXSJBR8vHZfmlluU4F-iw=="
+      },
+      {
+        "label": "sevensquaretech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCbk0YeRLp8arr6SLeoGSEwT-1IWXkcnouahDLmjsjzku5nkXB1zSOhy7YzCtu8U-ElMK32vJMchAxre0ROrHmAIUUiXLJMXLCxM2Ck-SZ1re6WnicL5DM4oMJ9-X19dQ9HA4Tv8t8oDussYCUNgTVt-Oizq0Oy0nUYg=="
+      },
+      {
+        "label": "shakudo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc2H6C_uhtUTxpSr1zxqavjb4FbnCU-A6YFmojxX93MGIEvfuKrpUovdwhfAUFMBMLLaXBI2oDCBlxtTH7g6yKEP1j2ymsp6SfiDGOLdJ6lOxRKiItXp8NzZ63dTlUW1YkZRyy0vlHm1vvLAaWEzyH"
+      },
+      {
+        "label": "sevensquaretech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCbk0YeRLp8arr6SLeoGSEwT-1IWXkcnouahDLmjsjzku5nkXB1zSOhy7YzCtu8U-ElMK32vJMchAxre0ROrHmAIUUiXLJMXLCxM2Ck-SZ1re6WnicL5DM4oMJ9-X19dQ9HA4Tv8t8oDussYCUNgTVt-Oizq0Oy0nUYg=="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwyEOanV9Y8ifGaKavhLmSu5FmhFikgIIGQGuTeQaHmrAyMHP8fk2U7vNPHw44IdP-Z0GBqGzVfLTrwwahZSb24N7gT-O1HvbsxRb0PCuPQqP1ebJwu7RVprGY5lQeQ-YjzOW1gRffoZ9BgF79kYeDN2iHyprEfhEmSzmMyBY9ORy4t45wcPz_RRrVvvXdZAN0GKt4tb6aB_w="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxx5DWJuJg-9xNGeNfz3Rb_iU-5IC7kJH-1TtMgWIC5ZuJ3J0YpI30XkfzEsZMBndgpnyL1X4F0kTtlP5fRmjcOLgfHphncXZzcRMJj5PjF8inshsUFcSPtfOmmbuV-SsxTiQGwKAgueWsuQOXFX0CH9yNkbtxvropCfcv9qC0-0es"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr-z3eqJZIEoPNjLMwQwJKXq9vW94eNr4DuDofTv-RStW-WD99eZqsKI_FNibRzfncXuIaXvECEATXyX5ffCH8SxJUXihjggO1UfHHhNOTNo0w4L4VGdfJVhL-j9nXNjGMVs450zH0xle2XvRXYxgf5NQ7Frpq0g94ZXfVEn4vnf6qqSYCXJw="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr-z3eqJZIEoPNjLMwQwJKXq9vW94eNr4DuDofTv-RStW-WD99eZqsKI_FNibRzfncXuIaXvECEATXyX5ffCH8SxJUXihjggO1UfHHhNOTNo0w4L4VGdfJVhL-j9nXNjGMVs450zH0xle2XvRXYxgf5NQ7Frpq0g94ZXfVEn4vnf6qqSYCXJw="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwyEOanV9Y8ifGaKavhLmSu5FmhFikgIIGQGuTeQaHmrAyMHP8fk2U7vNPHw44IdP-Z0GBqGzVfLTrwwahZSb24N7gT-O1HvbsxRb0PCuPQqP1ebJwu7RVprGY5lQeQ-YjzOW1gRffoZ9BgF79kYeDN2iHyprEfhEmSzmMyBY9ORy4t45wcPz_RRrVvvXdZAN0GKt4tb6aB_w="
+      },
+      {
+        "label": "shakudo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc2H6C_uhtUTxpSr1zxqavjb4FbnCU-A6YFmojxX93MGIEvfuKrpUovdwhfAUFMBMLLaXBI2oDCBlxtTH7g6yKEP1j2ymsp6SfiDGOLdJ6lOxRKiItXp8NzZ63dTlUW1YkZRyy0vlHm1vvLAaWEzyH"
+      },
+      {
+        "label": "shakudo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc2H6C_uhtUTxpSr1zxqavjb4FbnCU-A6YFmojxX93MGIEvfuKrpUovdwhfAUFMBMLLaXBI2oDCBlxtTH7g6yKEP1j2ymsp6SfiDGOLdJ6lOxRKiItXp8NzZ63dTlUW1YkZRyy0vlHm1vvLAaWEzyH"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdEOCD-6losYEc3W_L57kAYf7_tvRL3eI3pY8Cs_7OI4hnkBePYHY2548unYZP5WkvfggoPNwgCKLmiq-u1l227Oxv9gL0Q1QJqytR9RX53TLT5EtE6uUu81mvttFneXtrPnmJb_DD0eKjiJFqJeQYNxz4itfW3mFB6VHdw=="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr-z3eqJZIEoPNjLMwQwJKXq9vW94eNr4DuDofTv-RStW-WD99eZqsKI_FNibRzfncXuIaXvECEATXyX5ffCH8SxJUXihjggO1UfHHhNOTNo0w4L4VGdfJVhL-j9nXNjGMVs450zH0xle2XvRXYxgf5NQ7Frpq0g94ZXfVEn4vnf6qqSYCXJw="
+      },
+      {
+        "label": "n8n",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHu7wGSucmd6NmlGdEXsqCsJRaptkhpScK1qihzci4TlEZ1KL72TlgdLtaaZlftucni6l-p5LRormv0FqHwl4QUdd85-47RzPNiUXDLncqx_eqJmXSJBR8vHZfmlluU4F-iw=="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr-z3eqJZIEoPNjLMwQwJKXq9vW94eNr4DuDofTv-RStW-WD99eZqsKI_FNibRzfncXuIaXvECEATXyX5ffCH8SxJUXihjggO1UfHHhNOTNo0w4L4VGdfJVhL-j9nXNjGMVs450zH0xle2XvRXYxgf5NQ7Frpq0g94ZXfVEn4vnf6qqSYCXJw="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdEOCD-6losYEc3W_L57kAYf7_tvRL3eI3pY8Cs_7OI4hnkBePYHY2548unYZP5WkvfggoPNwgCKLmiq-u1l227Oxv9gL0Q1QJqytR9RX53TLT5EtE6uUu81mvttFneXtrPnmJb_DD0eKjiJFqJeQYNxz4itfW3mFB6VHdw=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxx5DWJuJg-9xNGeNfz3Rb_iU-5IC7kJH-1TtMgWIC5ZuJ3J0YpI30XkfzEsZMBndgpnyL1X4F0kTtlP5fRmjcOLgfHphncXZzcRMJj5PjF8inshsUFcSPtfOmmbuV-SsxTiQGwKAgueWsuQOXFX0CH9yNkbtxvropCfcv9qC0-0es"
+      },
+      {
+        "label": "n8n",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHu7wGSucmd6NmlGdEXsqCsJRaptkhpScK1qihzci4TlEZ1KL72TlgdLtaaZlftucni6l-p5LRormv0FqHwl4QUdd85-47RzPNiUXDLncqx_eqJmXSJBR8vHZfmlluU4F-iw=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdEOCD-6losYEc3W_L57kAYf7_tvRL3eI3pY8Cs_7OI4hnkBePYHY2548unYZP5WkvfggoPNwgCKLmiq-u1l227Oxv9gL0Q1QJqytR9RX53TLT5EtE6uUu81mvttFneXtrPnmJb_DD0eKjiJFqJeQYNxz4itfW3mFB6VHdw=="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwyEOanV9Y8ifGaKavhLmSu5FmhFikgIIGQGuTeQaHmrAyMHP8fk2U7vNPHw44IdP-Z0GBqGzVfLTrwwahZSb24N7gT-O1HvbsxRb0PCuPQqP1ebJwu7RVprGY5lQeQ-YjzOW1gRffoZ9BgF79kYeDN2iHyprEfhEmSzmMyBY9ORy4t45wcPz_RRrVvvXdZAN0GKt4tb6aB_w="
+      },
+      {
+        "label": "sevensquaretech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCbk0YeRLp8arr6SLeoGSEwT-1IWXkcnouahDLmjsjzku5nkXB1zSOhy7YzCtu8U-ElMK32vJMchAxre0ROrHmAIUUiXLJMXLCxM2Ck-SZ1re6WnicL5DM4oMJ9-X19dQ9HA4Tv8t8oDussYCUNgTVt-Oizq0Oy0nUYg=="
+      },
+      {
+        "label": "builder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCeEyIXgG8bBAWwpbg7SBxSQMjr1lYgmH0E1_kUSvmDRcZYlix6fohLDwnuPC1zSmuuLY3MO28Wy1pA5uRhzDijBIlab_xnN9racrP54hIiE_7yjy-quKpopEn7tgj00QIMgT6jiYty5hHTg=="
+      },
+      {
+        "label": "qodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj2GKPKW6jnKSO8PRCAoYXH2d0pA_JjaEgJs2JZJgXNoWYeSfST7ExXPrP2rbx1ZU7zz7rZkQ96M__rteAR5EYQz6nqdpHJ8DuiRBKP7HPPnMOTIjfQjnyJp_hMxtnNEQP_yWJRxtkZPr_r-VEs7tekdwK"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwyEOanV9Y8ifGaKavhLmSu5FmhFikgIIGQGuTeQaHmrAyMHP8fk2U7vNPHw44IdP-Z0GBqGzVfLTrwwahZSb24N7gT-O1HvbsxRb0PCuPQqP1ebJwu7RVprGY5lQeQ-YjzOW1gRffoZ9BgF79kYeDN2iHyprEfhEmSzmMyBY9ORy4t45wcPz_RRrVvvXdZAN0GKt4tb6aB_w="
+      },
+      {
+        "label": "sevensquaretech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCbk0YeRLp8arr6SLeoGSEwT-1IWXkcnouahDLmjsjzku5nkXB1zSOhy7YzCtu8U-ElMK32vJMchAxre0ROrHmAIUUiXLJMXLCxM2Ck-SZ1re6WnicL5DM4oMJ9-X19dQ9HA4Tv8t8oDussYCUNgTVt-Oizq0Oy0nUYg=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxx5DWJuJg-9xNGeNfz3Rb_iU-5IC7kJH-1TtMgWIC5ZuJ3J0YpI30XkfzEsZMBndgpnyL1X4F0kTtlP5fRmjcOLgfHphncXZzcRMJj5PjF8inshsUFcSPtfOmmbuV-SsxTiQGwKAgueWsuQOXFX0CH9yNkbtxvropCfcv9qC0-0es"
+      },
+      {
+        "label": "qodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj2GKPKW6jnKSO8PRCAoYXH2d0pA_JjaEgJs2JZJgXNoWYeSfST7ExXPrP2rbx1ZU7zz7rZkQ96M__rteAR5EYQz6nqdpHJ8DuiRBKP7HPPnMOTIjfQjnyJp_hMxtnNEQP_yWJRxtkZPr_r-VEs7tekdwK"
+      },
+      {
+        "label": "qodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj2GKPKW6jnKSO8PRCAoYXH2d0pA_JjaEgJs2JZJgXNoWYeSfST7ExXPrP2rbx1ZU7zz7rZkQ96M__rteAR5EYQz6nqdpHJ8DuiRBKP7HPPnMOTIjfQjnyJp_hMxtnNEQP_yWJRxtkZPr_r-VEs7tekdwK"
+      },
+      {
+        "label": "sevensquaretech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCbk0YeRLp8arr6SLeoGSEwT-1IWXkcnouahDLmjsjzku5nkXB1zSOhy7YzCtu8U-ElMK32vJMchAxre0ROrHmAIUUiXLJMXLCxM2Ck-SZ1re6WnicL5DM4oMJ9-X19dQ9HA4Tv8t8oDussYCUNgTVt-Oizq0Oy0nUYg=="
+      },
+      {
+        "label": "qodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj2GKPKW6jnKSO8PRCAoYXH2d0pA_JjaEgJs2JZJgXNoWYeSfST7ExXPrP2rbx1ZU7zz7rZkQ96M__rteAR5EYQz6nqdpHJ8DuiRBKP7HPPnMOTIjfQjnyJp_hMxtnNEQP_yWJRxtkZPr_r-VEs7tekdwK"
+      },
+      {
+        "label": "qodo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj2GKPKW6jnKSO8PRCAoYXH2d0pA_JjaEgJs2JZJgXNoWYeSfST7ExXPrP2rbx1ZU7zz7rZkQ96M__rteAR5EYQz6nqdpHJ8DuiRBKP7HPPnMOTIjfQjnyJp_hMxtnNEQP_yWJRxtkZPr_r-VEs7tekdwK"
+      },
+      {
+        "label": "shakudo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc2H6C_uhtUTxpSr1zxqavjb4FbnCU-A6YFmojxX93MGIEvfuKrpUovdwhfAUFMBMLLaXBI2oDCBlxtTH7g6yKEP1j2ymsp6SfiDGOLdJ6lOxRKiItXp8NzZ63dTlUW1YkZRyy0vlHm1vvLAaWEzyH"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdEOCD-6losYEc3W_L57kAYf7_tvRL3eI3pY8Cs_7OI4hnkBePYHY2548unYZP5WkvfggoPNwgCKLmiq-u1l227Oxv9gL0Q1QJqytR9RX53TLT5EtE6uUu81mvttFneXtrPnmJb_DD0eKjiJFqJeQYNxz4itfW3mFB6VHdw=="
+      },
+      {
+        "label": "explodingtopics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQETzQUaEqSLPLKBfYpCaBMV1hMn9DJvU8Vvxd-W4759Tp7VKOveRIzjD_PlJG7m8EyE2ZWwOcEP0FLYaQR3iFl67OpK4oaN59E2Of9yCVDKmjmQtwSlj8gaCn7LAEDnWUvYy_O5OFjB_ea9DyF6MdM2UANw=="
+      },
+      {
+        "label": "libraries",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC7ZxALym_wR8tcaTDlzQXJ6F8Z6v9WS4KiFcyoDV4j4tfoTLBHXP8q-sTYD4ccue-iyyOqIjg2dfqhgvWPeFMD6_A8zGAT_gJMhzsPSCw6RnFytU6wkfZDsBXDKLRsDAD7b0="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgrBzZ7WvG97rRSWbVaMSUm9ZrLbBhJfOYmrgIe_oT__chR10lrZuo9JMH97IMX970pwU6jcyyIuP6dosPKfcP8Gpf2lGjwCZRtftPYBvOJo38cV7n3yr60d_x733Q_WQ="
+      },
+      {
+        "label": "explodingtopics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQETzQUaEqSLPLKBfYpCaBMV1hMn9DJvU8Vvxd-W4759Tp7VKOveRIzjD_PlJG7m8EyE2ZWwOcEP0FLYaQR3iFl67OpK4oaN59E2Of9yCVDKmjmQtwSlj8gaCn7LAEDnWUvYy_O5OFjB_ea9DyF6MdM2UANw=="
+      },
+      {
+        "label": "artificialanalysis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGPzSRzgU075qCi0a-j_NPCvE63M-Ap3kHz3TjrDS-RYNpTMgGAVQbtd1Jn4iLmkjJMQa3XFkXfqtP2PYTguGcODC_1JqObGlqlzf9Vk5cyumYs9UYZ2QWHgJKqehgC9MVk9Gg2eGvKXtJML0NvevXY3qqzmPpXOqh8-k="
+      },
+      {
+        "label": "shakudo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc2H6C_uhtUTxpSr1zxqavjb4FbnCU-A6YFmojxX93MGIEvfuKrpUovdwhfAUFMBMLLaXBI2oDCBlxtTH7g6yKEP1j2ymsp6SfiDGOLdJ6lOxRKiItXp8NzZ63dTlUW1YkZRyy0vlHm1vvLAaWEzyH"
+      },
+      {
+        "label": "slashdot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXh8eni3ajj791WGZ0uj1ES4J6T9wFu6XLstlEqn8fp0Z0hK0pooeQhByskbHP-4ksS1m88wtaBjzLK0QcfAhHtt1uje1npIdbuA8ld1A915donm1IvwrQkbtQH8T0y9F5k-Ev35FMWkaZISXXkyCH9IhV-EurjV5xEWzm_kAzZw=="
+      },
+      {
+        "label": "usetrag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkCmu_KPlfkqdg_hrrF3s6O35SIUj-YQtJ_E1futjYRhRdY1C1xzQlO7FVGMp_ABGB9Q0qm1NPNrcR6HM0mDaJIapAaEYct-oicEPOh7wJzWa8PBIMm9N9rqJq5OqXlMwxleODSBAVFE6l"
+      },
+      {
+        "label": "usetrag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkCmu_KPlfkqdg_hrrF3s6O35SIUj-YQtJ_E1futjYRhRdY1C1xzQlO7FVGMp_ABGB9Q0qm1NPNrcR6HM0mDaJIapAaEYct-oicEPOh7wJzWa8PBIMm9N9rqJq5OqXlMwxleODSBAVFE6l"
+      },
+      {
+        "label": "usetrag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkCmu_KPlfkqdg_hrrF3s6O35SIUj-YQtJ_E1futjYRhRdY1C1xzQlO7FVGMp_ABGB9Q0qm1NPNrcR6HM0mDaJIapAaEYct-oicEPOh7wJzWa8PBIMm9N9rqJq5OqXlMwxleODSBAVFE6l"
+      },
+      {
+        "label": "usetrag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkCmu_KPlfkqdg_hrrF3s6O35SIUj-YQtJ_E1futjYRhRdY1C1xzQlO7FVGMp_ABGB9Q0qm1NPNrcR6HM0mDaJIapAaEYct-oicEPOh7wJzWa8PBIMm9N9rqJq5OqXlMwxleODSBAVFE6l"
+      },
+      {
+        "label": "usetrag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkCmu_KPlfkqdg_hrrF3s6O35SIUj-YQtJ_E1futjYRhRdY1C1xzQlO7FVGMp_ABGB9Q0qm1NPNrcR6HM0mDaJIapAaEYct-oicEPOh7wJzWa8PBIMm9N9rqJq5OqXlMwxleODSBAVFE6l"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1iarMq-Ia1sw9VhU_4JygotHHD6JgQ_FyNVgc0-x7VgJxa1VtCMIejqy-HInp91jCQNBFq83UwaJqgarv1mrtpD39_4hUtv2MhFhE9QfjpG_3jNxvmg9PIDmltjbun7w7Q1g9uAtU-V2ZYtPNyE-KzpoJQJeadXzZVsNe9He_jhHPj77-hgqhWNhYn0btSc8wPWiV-QQtJ5CqT73l0FVl3bZq4gNFn_B65t6t-7jF-hoP9_Vj4dN5HXShqH1cjB6n6pCVnRgu"
+      },
+      {
+        "label": "sevensquaretech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCbk0YeRLp8arr6SLeoGSEwT-1IWXkcnouahDLmjsjzku5nkXB1zSOhy7YzCtu8U-ElMK32vJMchAxre0ROrHmAIUUiXLJMXLCxM2Ck-SZ1re6WnicL5DM4oMJ9-X19dQ9HA4Tv8t8oDussYCUNgTVt-Oizq0Oy0nUYg=="
+      },
+      {
+        "label": "zencoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxx5DWJuJg-9xNGeNfz3Rb_iU-5IC7kJH-1TtMgWIC5ZuJ3J0YpI30XkfzEsZMBndgpnyL1X4F0kTtlP5fRmjcOLgfHphncXZzcRMJj5PjF8inshsUFcSPtfOmmbuV-SsxTiQGwKAgueWsuQOXFX0CH9yNkbtxvropCfcv9qC0-0es"
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwyEOanV9Y8ifGaKavhLmSu5FmhFikgIIGQGuTeQaHmrAyMHP8fk2U7vNPHw44IdP-Z0GBqGzVfLTrwwahZSb24N7gT-O1HvbsxRb0PCuPQqP1ebJwu7RVprGY5lQeQ-YjzOW1gRffoZ9BgF79kYeDN2iHyprEfhEmSzmMyBY9ORy4t45wcPz_RRrVvvXdZAN0GKt4tb6aB_w="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr-z3eqJZIEoPNjLMwQwJKXq9vW94eNr4DuDofTv-RStW-WD99eZqsKI_FNibRzfncXuIaXvECEATXyX5ffCH8SxJUXihjggO1UfHHhNOTNo0w4L4VGdfJVhL-j9nXNjGMVs450zH0xle2XvRXYxgf5NQ7Frpq0g94ZXfVEn4vnf6qqSYCXJw="
+      },
+      {
+        "label": "shakudo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc2H6C_uhtUTxpSr1zxqavjb4FbnCU-A6YFmojxX93MGIEvfuKrpUovdwhfAUFMBMLLaXBI2oDCBlxtTH7g6yKEP1j2ymsp6SfiDGOLdJ6lOxRKiItXp8NzZ63dTlUW1YkZRyy0vlHm1vvLAaWEzyH"
+      },
+      {
+        "label": "n8n",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHu7wGSucmd6NmlGdEXsqCsJRaptkhpScK1qihzci4TlEZ1KL72TlgdLtaaZlftucni6l-p5LRormv0FqHwl4QUdd85-47RzPNiUXDLncqx_eqJmXSJBR8vHZfmlluU4F-iw=="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr-z3eqJZIEoPNjLMwQwJKXq9vW94eNr4DuDofTv-RStW-WD99eZqsKI_FNibRzfncXuIaXvECEATXyX5ffCH8SxJUXihjggO1UfHHhNOTNo0w4L4VGdfJVhL-j9nXNjGMVs450zH0xle2XvRXYxgf5NQ7Frpq0g94ZXfVEn4vnf6qqSYCXJw="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdEOCD-6losYEc3W_L57kAYf7_tvRL3eI3pY8Cs_7OI4hnkBePYHY2548unYZP5WkvfggoPNwgCKLmiq-u1l227Oxv9gL0Q1QJqytR9RX53TLT5EtE6uUu81mvttFneXtrPnmJb_DD0eKjiJFqJeQYNxz4itfW3mFB6VHdw=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdEOCD-6losYEc3W_L57kAYf7_tvRL3eI3pY8Cs_7OI4hnkBePYHY2548unYZP5WkvfggoPNwgCKLmiq-u1l227Oxv9gL0Q1QJqytR9RX53TLT5EtE6uUu81mvttFneXtrPnmJb_DD0eKjiJFqJeQYNxz4itfW3mFB6VHdw=="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwyEOanV9Y8ifGaKavhLmSu5FmhFikgIIGQGuTeQaHmrAyMHP8fk2U7vNPHw44IdP-Z0GBqGzVfLTrwwahZSb24N7gT-O1HvbsxRb0PCuPQqP1ebJwu7RVprGY5lQeQ-YjzOW1gRffoZ9BgF79kYeDN2iHyprEfhEmSzmMyBY9ORy4t45wcPz_RRrVvvXdZAN0GKt4tb6aB_w="
+      },
+      {
+        "label": "shakudo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc2H6C_uhtUTxpSr1zxqavjb4FbnCU-A6YFmojxX93MGIEvfuKrpUovdwhfAUFMBMLLaXBI2oDCBlxtTH7g6yKEP1j2ymsp6SfiDGOLdJ6lOxRKiItXp8NzZ63dTlUW1YkZRyy0vlHm1vvLAaWEzyH"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUdEOCD-6losYEc3W_L57kAYf7_tvRL3eI3pY8Cs_7OI4hnkBePYHY2548unYZP5WkvfggoPNwgCKLmiq-u1l227Oxv9gL0Q1QJqytR9RX53TLT5EtE6uUu81mvttFneXtrPnmJb_DD0eKjiJFqJeQYNxz4itfW3mFB6VHdw=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

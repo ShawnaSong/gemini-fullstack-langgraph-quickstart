@@ -1,0 +1,564 @@
+{
+  "file_name": "state_result_134.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.599044",
+  "data": {
+    "messages": [
+      {
+        "content": "Ich suche ein Handy das folgende Kriterien erfüllt:\nUnbedingt: -Open Source Betriebssystem Z.B. /e/os (ich kann das auch selbst installieren es mus nur möglich sein ein Open Source Betriebssystem zu installieren) ohne Google und Privatsphäre schützend -NFC -SD Karten Slot -lange softwareupdates",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "37f626e1-130d-4fa0-b36f-66eb7e652e64",
+        "example": false
+      },
+      {
+        "content": "Here are some smartphones available as of July 16, 2025, that meet your criteria of having an open-source operating system option (like /e/OS), NFC, an SD card slot, and long software updates.\n\n**Smartphones with Good /e/OS Compatibility:**\n\n*   **Fairphone:** Fairphone is specifically designed for repairability, sustainability, and compatibility with /e/OS [theprivacydad](https://vertexaisearch.cloud.google.com/id/2-2) [murena](https://vertexaisearch.cloud.google.com/id/2-3). The Murena Fairphone 4 comes with /e/OS pre-installed [murena](https://vertexaisearch.cloud.google.com/id/2-3]. There is also a Fairphone 5 version with /e/OS [fairphone](https://vertexaisearch.cloud.google.com/id/2-4].\n*   **/e/OS Compatibility:** /e/OS is based on LineageOS and works on a range of older smartphones [theprivacydad](https://vertexaisearch.cloud.google.com/id/2-2). You can check the /e/OS documentation to see if your smartphone is supported [e](https://vertexaisearch.cloud.google.com/id/0-5). If not, you can check for unofficial builds, but use them at your own risk [e](https://vertexaisearch.cloud.google.com/id/2-13). As of May 2024, /e/OS was compatible with 251 Android smartphones [murena](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Other Phones with NFC, SD Card Slot, and Long Updates:**\n\nThese phones may require manual installation of /e/OS or another open-source OS.\n\n*   **Samsung Galaxy A35 5G:** This phone includes NFC, a microSD card slot, and a promise of four years of OS updates and five years of security updates [androidcentral](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Sony Xperia 1 VI:** This high-end device features NFC, a microSD card slot (up to 1.5TB), and a guarantee of three years of OS updates and four years of security updates [androidcentral](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **CMF Phone 2 Pro:** This phone has NFC, a microSD card slot, and is guaranteed to receive three years of major OS updates and six years of security updates [androidcentral](https://vertexaisearch.cloud.google.com/id/2-0).\n\n**Open Source Alternatives (Not Android Based):**\n\n*   **PinePhone:** This phone is designed for open-source enthusiasts, runs mainline Linux, and has hardware privacy switches [pine64](https://vertexaisearch.cloud.google.com/id/2-6). It has a microSD card slot and is supported by all major Linux phone projects [pine64](https://vertexaisearch.cloud.google.com/id/2-6) [pcmag](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Librem 5:** This phone is built on PureOS, a fully free, ethical, and open-source operating system not based on Android or iOS [puri](https://vertexaisearch.cloud.google.com/id/2-8).\n\n**Installing /e/OS:**\n\n*   **/e/OS Easy Installer:** This desktop program simplifies the installation of /e/OS on compatible devices via USB [theprivacydad](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Manual Installation:** Advanced users can install /e/OS using Android platform tools [e](https://vertexaisearch.cloud.google.com/id/2-10) [e](https://vertexaisearch.cloud.google.com/id/2-11). This involves unlocking the bootloader and flashing a custom recovery manager [e](https://vertexaisearch.cloud.google.com/id/2-11).\n\n**Important Considerations:**\n\n*   Not all Android devices support custom ROMs, so check compatibility before installing [freedomtech](https://vertexaisearch.cloud.google.com/id/0-2).\n*   Installing custom ROMs may require some technical knowledge [fairphone](https://vertexaisearch.cloud.google.com/id/0-13). Find community support or an /e/OS install-party for help [e](https://vertexaisearch.cloud.google.com/id/2-13).\n*   Other open-source Android alternatives include GrapheneOS, CalyxOS and LineageOS [intelivita](https://vertexaisearch.cloud.google.com/id/0-12) [freedomtech](https://vertexaisearch.cloud.google.com/id/0-2) [gadgetsalvation](https://vertexaisearch.cloud.google.com/id/0-3]. GrapheneOS is recommended for privacy and user-friendliness and can be easily installed on Google Pixel phones [reddit](https://vertexaisearch.cloud.google.com/id/2-12).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "440293f5-22d2-477c-8a9d-5e70aa049214",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "compatibility of smartphones with open source operating systems like /e/os in 2025",
+      "smartphones with NFC and SD card slot in 2025 supporting long software updates",
+      "Which of the smartphones listed as having NFC, SD card slot, and long software updates are most compatible with /e/OS or other open-source operating systems, and what is the installation process like for each?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent information on the compatibility of smartphones with open source operating systems like /e/os in 2025 and synthesize it into a verifiable text artifact.\nIn 2025, the compatibility of smartphones with open-source operating systems like /e/OS is a relevant topic for users concerned about data privacy and digital sovereignty [murena](https://vertexaisearch.cloud.google.com/id/0-0) [murena](https://vertexaisearch.cloud.google.com/id/0-1) [freedomtech](https://vertexaisearch.cloud.google.com/id/0-2). /e/OS is a \"de-Googled\" Android distribution focused on user privacy [freedomtech](https://vertexaisearch.cloud.google.com/id/0-2) [gadgetsalvation](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Compatibility and Availability:**\n\n*   /e/OS is compatible with a wide range of Android smartphones, including popular brands like Samsung, Nokia, Fairphone, and Motorola [murena](https://vertexaisearch.cloud.google.com/id/0-1). As of May 2024, /e/OS was compatible with 251 Android smartphones [murena](https://vertexaisearch.cloud.google.com/id/0-1).\n*   A list from May 2025 indicates new devices to be added with AOSP 15 or /e/OS V build, including Google Pixel 9 series, LG V30 (Japan), Motorola devices, Nothing Phone (1), OnePlus Nord series, Samsung Galaxy A21s, Sony Xperia 10 IV/10 V/5 V, and Xiaomi devices [e](https://vertexaisearch.cloud.google.com/id/0-4).\n*   Users can check the /e/OS documentation to see if their smartphone or laptop is supported [e](https://vertexaisearch.cloud.google.com/id/0-5). If not found, they can check for unofficial builds or propose a device [e](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**Installation and Usage:**\n\n*   If a device is compatible, users can install /e/OS for free themselves or join a \"flash-party\" [murena](https://vertexaisearch.cloud.google.com/id/0-1).\n*   The Murena web installer offers an easier, less technical alternative to sideloading the OS, though it can be \"flaky\" [medium](https://vertexaisearch.cloud.google.com/id/0-6).\n*   /e/OS offers a seamless transition without sacrificing favorite apps, which can be downloaded via the App Lounge [murena](https://vertexaisearch.cloud.google.com/id/0-1).\n*   /e/OS comes with microG prebuilt, which is an open-source project that serves as an alternative to Google Play Services [wikipedia](https://vertexaisearch.cloud.google.com/id/0-7) [youtube](https://vertexaisearch.cloud.google.com/id/0-8) [youtube](https://vertexaisearch.cloud.google.com/id/0-9).\n\n**Benefits and Features:**\n\n*   /e/OS is designed to empower users with control over their digital lives, offering advanced privacy tools and a revamped user experience [murena](https://vertexaisearch.cloud.google.com/id/0-1).\n*   It provides a privacy-first OS with a fully de-Googled environment [freedomtech](https://vertexaisearch.cloud.google.com/id/0-2).\n*   The OS includes a built-in app store with privacy ratings and a cloud-based alternative to Google Drive [freedomtech](https://vertexaisearch.cloud.google.com/id/0-2).\n*   /e/OS v2.9 is based on Android 14 and includes the latest security patches [youtube](https://vertexaisearch.cloud.google.com/id/0-8) [youtube](https://vertexaisearch.cloud.google.com/id/0-9).\n*   The latest /e/OS 3.0 includes parental controls and built-in privacy reports [theregister](https://vertexaisearch.cloud.google.com/id/0-10).\n\n**Devices with /e/OS Preinstalled:**\n\n*   Murena sells smartphones with /e/OS pre-installed, including refurbished devices [theregister](https://vertexaisearch.cloud.google.com/id/0-10).\n*   The Murena Fairphone 4 is a sustainable and privacy-friendly smartphone with /e/OS [murena](https://vertexaisearch.cloud.google.com/id/0-0).\n*   The Murena Fairphone (Gen. 6) launches with /e/OS 3.0 and a 5-year support promise [itsfoss](https://vertexaisearch.cloud.google.com/id/0-11).\n\n**Alternatives to /e/OS:**\n\n*   Other open-source Android alternatives include GrapheneOS, CalyxOS, LineageOS, and Ubuntu Touch [intelivita](https://vertexaisearch.cloud.google.com/id/0-12) [freedomtech](https://vertexaisearch.cloud.google.com/id/0-2) [gadgetsalvation](https://vertexaisearch.cloud.google.com/id/0-3).\n*   GrapheneOS is a privacy and security-focused OS built on Android without Google's services [gadgetsalvation](https://vertexaisearch.cloud.google.com/id/0-3) [freedomtech](https://vertexaisearch.cloud.google.com/id/0-2) [intelivita](https://vertexaisearch.cloud.google.com/id/0-12).\n*   LineageOS is a customizable open-source Android OS that provides a clean, bloat-free experience [intelivita](https://vertexaisearch.cloud.google.com/id/0-12).\n*   Sailfish OS is a Linux-based mobile OS with a unique gesture-based user interface and some Android app compatibility [gadgetsalvation](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Considerations:**\n\n*   Not all Android devices support custom ROMs, so users should check device compatibility before installing [freedomtech](https://vertexaisearch.cloud.google.com/id/0-2).\n*   Some sources suggest that /e/OS is \"not hardened in any way\" and recommend GrapheneOS or CalyxOS for users needing a hardened smartphone [wikipedia](https://vertexaisearch.cloud.google.com/id/0-7).\n*   Installing custom ROMs may require some technical knowledge [fairphone](https://vertexaisearch.cloud.google.com/id/0-13).\n",
+      "Okay, I will conduct Google Searches to gather the most recent information on \"smartphones with NFC and SD card slot in 2025 supporting long software updates\" and synthesize it into a verifiable text artifact.\nHere's a summary of smartphones in 2025 that have NFC, an SD card slot, and support long software updates, based on the search results:\n\n**General Trends:**\n\n*   Several mid-range and budget-friendly Android phones in 2025 still offer microSD card slots for expandable storage [youtube](https://vertexaisearch.cloud.google.com/id/1-0).\n*   NFC is a common feature in many of these phones [androidcentral](https://vertexaisearch.cloud.google.com/id/1-1) [gsmarena](https://vertexaisearch.cloud.google.com/id/1-2).\n*   Long-term software support is becoming a more prominent selling point, even for budget devices [androidauthority](https://vertexaisearch.cloud.google.com/id/1-3) [pcmag](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**Specific Models Mentioned:**\n\n*   **Samsung Galaxy A Series:**\n    *   **Galaxy A35 5G:** This phone is often priced under $400 and offers a good balance of features, including NFC, a microSD card slot, and a commitment to four major OS updates and five years of security patches [androidcentral](https://vertexaisearch.cloud.google.com/id/1-1) [youtube](https://vertexaisearch.cloud.google.com/id/1-0) [youtube](https://vertexaisearch.cloud.google.com/id/1-5). It has a Super AMOLED display, and IP67 certification for dust and water resistance [androidcentral](https://vertexaisearch.cloud.google.com/id/1-1).\n    *   **Galaxy A25 5G:** This is a cheaper Samsung option with a microSD card slot [androidcentral](https://vertexaisearch.cloud.google.com/id/1-1).\n    *   **Galaxy A16 5G:** This budget phone stands out due to Samsung's commitment to providing up to six years of OS and security updates [androidauthority](https://vertexaisearch.cloud.google.com/id/1-3) [gsmarena](https://vertexaisearch.cloud.google.com/id/1-2) [androidpolice](https://vertexaisearch.cloud.google.com/id/1-6). It also has a microSD card slot, a 6.7-inch display, and NFC [androidpolice](https://vertexaisearch.cloud.google.com/id/1-6) [gsmarena](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Motorola Moto G Series:**\n    *   **Moto G Stylus 5G (2025):** This phone includes a built-in stylus, a microSD card slot, NFC, and a 3.5mm audio port [androidcentral](https://vertexaisearch.cloud.google.com/id/1-1). However, it may only receive one major OS update [youtube](https://vertexaisearch.cloud.google.com/id/1-0) [youtube](https://vertexaisearch.cloud.google.com/id/1-5).\n    *   **Moto G 2025:** This is a very affordable option (under $200) with NFC, a 3.5mm audio port and will receive up to two OS updates [androidcentral](https://vertexaisearch.cloud.google.com/id/1-1) [youtube](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Sony Xperia 1 VI:** This is a premium, high-end device with a focus on content creation [androidcentral](https://vertexaisearch.cloud.google.com/id/1-1) [youtube](https://vertexaisearch.cloud.google.com/id/1-0). It has a microSD card slot, a 3.5mm audio port, and high-end specifications [androidcentral](https://vertexaisearch.cloud.google.com/id/1-1) [youtube](https://vertexaisearch.cloud.google.com/id/1-0) [youtube](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **CMF Phone 2 Pro:** This phone offers a good set of features for its price, including a telephoto lens and long-lasting software support [androidauthority](https://vertexaisearch.cloud.google.com/id/1-3) [androidcentral](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Xiaomi Redmi Note 14 Series:**\n    *   **Redmi Note 14 5G:** Features a microSD card slot, 3.5mm jack, and IR blaster [gsmarena](https://vertexaisearch.cloud.google.com/id/1-7) [gsmarena](https://vertexaisearch.cloud.google.com/id/1-2).\n    *   **Redmi Note 14 4G:** Offers improved durability, a decent main camera, and a microSD card slot [gsmarena](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Poco X7 Pro:** This phone delivers a premium experience at a mid-range price, with a focus on performance, display quality, and battery/charging technology [gsmarena](https://vertexaisearch.cloud.google.com/id/1-7).\n\n**Important Considerations:**\n\n*   **Software Update Policies:** While some manufacturers like Samsung are offering extended software support, others, particularly for budget models, may only guarantee one or two major OS updates [youtube](https://vertexaisearch.cloud.google.com/id/1-0) [youtube](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Regional Availability:** Some models and features may vary depending on the region [gsmarena](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Specific Carrier Compatibility:** Some phones may have limited compatibility with certain carriers [youtube](https://vertexaisearch.cloud.google.com/id/1-0).\n",
+      "Based on the search results, here's a summary of smartphones that have NFC, SD card slots, and long software updates, with a focus on their compatibility with /e/OS or other open-source operating systems, and the installation process:\n\n**Smartphones with NFC, SD Card Slot, and Long Software Updates:**\n\n*   **Samsung Galaxy A35 5G** This phone includes NFC, a microSD card slot for storage expansion, and a promise of four years of OS updates and five years of security updates [androidcentral](https://vertexaisearch.cloud.google.com/id/2-0). It runs Android 14 with One UI 6.1 [androidcentral](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Sony Xperia 1 VI:** This high-end device features NFC, a microSD card slot (up to 1.5TB), and a guarantee of three years of OS updates and four years of security updates [androidcentral](https://vertexaisearch.cloud.google.com/id/2-0). It runs Android 14 [androidcentral](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Moto G Stylus 5G (2025):** This phone has NFC, a microSD card slot (up to 1TB), and offers up to 68W wired charging [androidcentral](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **CMF Phone 2 Pro:** This phone has NFC, a microSD card slot, and is guaranteed to receive three years of major OS updates and six years of security updates. It runs Android 15 with Nothing OS 3.2 [androidcentral](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Samsung Galaxy A55 5G:** Includes NFC, microSD card slot (up to 1TB), and an Octa-core processor [samsung](https://vertexaisearch.cloud.google.com/id/2-1).\n\n**Smartphones and Open Source OS Compatibility**\n\n*   **Fairphone:** Fairphone is designed for repairability and sustainability and has good compatibility with /e/OS [theprivacydad](https://vertexaisearch.cloud.google.com/id/2-2) [murena](https://vertexaisearch.cloud.google.com/id/2-3). The Murena Fairphone 4 comes with /e/OS pre-installed, offering a de-Googled experience [murena](https://vertexaisearch.cloud.google.com/id/2-3). The Fairphone 5 also has a version with /e/OS [fairphone](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **/e/OS Compatibility:** /e/OS is designed as a user-friendly, de-Googled mobile OS with a focus on privacy [theprivacydad](https://vertexaisearch.cloud.google.com/id/2-2) [youtube](https://vertexaisearch.cloud.google.com/id/2-5). It is based on LineageOS and works on a range of older smartphones [theprivacydad](https://vertexaisearch.cloud.google.com/id/2-2). The /e/OS Easy Installer simplifies the installation process for compatible devices like the Fairphone [theprivacydad](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **PinePhone:** This phone is designed for open-source enthusiasts, runs mainline Linux, and has hardware privacy switches [pine64](https://vertexaisearch.cloud.google.com/id/2-6). It has a microSD card slot and is supported by all major Linux phone projects [pine64](https://vertexaisearch.cloud.google.com/id/2-6) [pcmag](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Librem 5:** This phone is built on PureOS, a fully free, ethical, and open-source operating system not based on Android or iOS [puri](https://vertexaisearch.cloud.google.com/id/2-8). It segregates the modem from the system and memory for security [wikipedia](https://vertexaisearch.cloud.google.com/id/2-9).\n\n**Installation Process for /e/OS and Other Open-Source OS:**\n\n*   **/e/OS Easy Installer:** This is a desktop program for quick installation of /e/OS on compatible devices via USB [theprivacydad](https://vertexaisearch.cloud.google.com/id/2-2). It provides a painless way to install a Google-free OS [theprivacydad](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Manual Installation:** For advanced users, /e/OS can be installed using Android platform tools [e](https://vertexaisearch.cloud.google.com/id/2-10). This involves unlocking the bootloader, flashing a custom recovery manager, and installing /e/OS using \"adb sideload\" [e](https://vertexaisearch.cloud.google.com/id/2-11).\n*   **PinePhone:** To install Plasma Mobile on PinePhone, download the image, uncompress it, flash it onto a MicroSD card, and insert the card into the PinePhone [pcmag](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **General steps for installing custom ROMs:** Unlock the device bootloader, install a compatible TWRP recovery, and flash the ROM [youtube](https://vertexaisearch.cloud.google.com/id/2-5).\n\n**Additional Information:**\n\n*   **GrapheneOS:** This is another open-source OS that is recommended for privacy and user-friendliness [reddit](https://vertexaisearch.cloud.google.com/id/2-12). It can be easily installed on Google Pixel phones [reddit](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **LineageOS:** This is a popular open-source mobile OS based on the Android Open Source Project (AOSP) [pcmag](https://vertexaisearch.cloud.google.com/id/2-7). It doesn't come with Google apps or services [pcmag](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Murena Workspace Account:** While not mandatory, it is recommended to have a Murena Workspace account to benefit from Murena online services on /e/OS [e](https://vertexaisearch.cloud.google.com/id/2-13).\n*   **Community Support:** It is recommended to find community support or an /e/OS install-party for installation help [e](https://vertexaisearch.cloud.google.com/id/2-13).\n*   **Unofficial Builds:** Use unofficial builds at your own risk as they may contain major bugs [e](https://vertexaisearch.cloud.google.com/id/2-13).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXVbHbY5cO9x9HlUJf8IlxxgbCiA-0mvXAMEhZAFiVuQqzlpUfRoYVfBG9SiEozGLM7oBBPSzJm1eLTDSVpjUbEAjzdTY5wamDs6lqgSZA5NXZwEDKxozj7aWb3KRHW3MgQEAsYTzL-W9cIhYveiyX96AC9MCszTsdprpduZPBZiDKTnXvhceaqNwvJc="
+      },
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0rsDZTJfPWgXJHK70dL7rt9DKC0-CpDeOBEvbsdYT7_DPpANDOVteHHDJ-cofV39OfhGQ8k8w0bWVTeSys3Kb_U4XsKwpKp5umymVxAZoUcYG8_EGkQR3kXEcrYYuSRbX3UB1flnkB_DmyPs4r0v6S04pKFtd"
+      },
+      {
+        "label": "freedomtech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBowXh2oE-wK_4Q3BjKjhI4vO5is3tpd6G7zSxMf5H-IUD_gZHHzuWjyCMxU15tMCh_6wPFlD6-9l1H1eQDB1aknK2eUab3hRd3iB6tca_4Y1tBv-xbDQ6StX6sw67BoDdyO5OsYW0q2XZ37hP7lCfDUwNd1GsXkj5p3pBRP8Au0o4eQ=="
+      },
+      {
+        "label": "freedomtech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBowXh2oE-wK_4Q3BjKjhI4vO5is3tpd6G7zSxMf5H-IUD_gZHHzuWjyCMxU15tMCh_6wPFlD6-9l1H1eQDB1aknK2eUab3hRd3iB6tca_4Y1tBv-xbDQ6StX6sw67BoDdyO5OsYW0q2XZ37hP7lCfDUwNd1GsXkj5p3pBRP8Au0o4eQ=="
+      },
+      {
+        "label": "gadgetsalvation",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuXUEM4lshu0UzIcA8E0WhWH0CmO2HWJ0m2iJpW5vL7Zm6yZIQB28I4Iqp-EeI-_mJ4FdLxNryrdsDs3l2dm0ELq1Rh8cNzk1EqXFpfsmJ_7eE6crfworCfqOIAqQlX_gXbgvAuzENpdcZtrgTiTwEi6NNjJxijmTLXzDrliUZNX8="
+      },
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0rsDZTJfPWgXJHK70dL7rt9DKC0-CpDeOBEvbsdYT7_DPpANDOVteHHDJ-cofV39OfhGQ8k8w0bWVTeSys3Kb_U4XsKwpKp5umymVxAZoUcYG8_EGkQR3kXEcrYYuSRbX3UB1flnkB_DmyPs4r0v6S04pKFtd"
+      },
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0rsDZTJfPWgXJHK70dL7rt9DKC0-CpDeOBEvbsdYT7_DPpANDOVteHHDJ-cofV39OfhGQ8k8w0bWVTeSys3Kb_U4XsKwpKp5umymVxAZoUcYG8_EGkQR3kXEcrYYuSRbX3UB1flnkB_DmyPs4r0v6S04pKFtd"
+      },
+      {
+        "label": "e",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrY-N2310fybZqXapnEUinLTN4LGbL44iAWYy-UveGySbCVQREtc28BzWUhQeoTHOVDqueHIQZNuJB2glJbVdD6Te0-EjtDdssLWpy-e41UmFfRftNbjVfY-nkxoNjFeesqnp5DpWLKV_XKBOskcc4yOK9MEKXXoZciEkCnx3GVVh3KAEjiYIpfdbp5d3untDoU96XkctcFmk9DrQ="
+      },
+      {
+        "label": "e",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBI7eEGV0GqpozUcfVnKLqF2wRVNisM68yq3VVn-WKCzpVK47JzLjwCxWHL16m8Od2d4oTYMzopT_vBFRH6Zra_3WN2uiJpTezf8IfM9L2SYMUj95JtVMMYoA="
+      },
+      {
+        "label": "e",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBI7eEGV0GqpozUcfVnKLqF2wRVNisM68yq3VVn-WKCzpVK47JzLjwCxWHL16m8Od2d4oTYMzopT_vBFRH6Zra_3WN2uiJpTezf8IfM9L2SYMUj95JtVMMYoA="
+      },
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0rsDZTJfPWgXJHK70dL7rt9DKC0-CpDeOBEvbsdYT7_DPpANDOVteHHDJ-cofV39OfhGQ8k8w0bWVTeSys3Kb_U4XsKwpKp5umymVxAZoUcYG8_EGkQR3kXEcrYYuSRbX3UB1flnkB_DmyPs4r0v6S04pKFtd"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExI0Xg3KJcp1Oe_ktQ4ol-q-SqSz5mcFAdXn-3UgVqWdqZ3VFGuSGuGv5GcaXdaaODKgVDABF2Mte0eefjxWxsaaZwjB7nCCeb7qhWJFjGT1zIqN8h3Q0TPbwo8urVeXhgQ4A9ZZQRfJcQYkMx97BleyOtVtLC7A=="
+      },
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0rsDZTJfPWgXJHK70dL7rt9DKC0-CpDeOBEvbsdYT7_DPpANDOVteHHDJ-cofV39OfhGQ8k8w0bWVTeSys3Kb_U4XsKwpKp5umymVxAZoUcYG8_EGkQR3kXEcrYYuSRbX3UB1flnkB_DmyPs4r0v6S04pKFtd"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9bB2-Nweio7AFVpeZ1lZwqdS6caUAJ0_1jiZLPRLqOQu9IjiGzhgJSy6Uej7Z_sm7DSQwqbZpqi8UA9wJJx-CsfZ_20HrIxShzxtBPGb7GOa8e_YS1J5KfcfQpfWeg48hIU73pcoYTh2tV03U-A=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOAOX3r52pHxm7Mukye9rfcCYW0vWRk2MNFN6u9SQ3Mpi36lk0DD3c3To-hS60x0uxv3ymfdZmBfl_Z_1U-Kxlc4nFOXKk87L3ELLUXfkoyXyc8iTfsj1O3VpIigWuR9YbFUFt7w=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtuZX1QOFFyLYApKE3n2Q1iafRxynSQIjTUH4IcUbdpWw5Cp0q16EUX1d-nixhQQB863wkM3BnFHLto4qZ25FTarB3gujeGelsf4DNaepPb-HBAAMH9ZS2XTIW6lYRmAz8d6wXMA=="
+      },
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0rsDZTJfPWgXJHK70dL7rt9DKC0-CpDeOBEvbsdYT7_DPpANDOVteHHDJ-cofV39OfhGQ8k8w0bWVTeSys3Kb_U4XsKwpKp5umymVxAZoUcYG8_EGkQR3kXEcrYYuSRbX3UB1flnkB_DmyPs4r0v6S04pKFtd"
+      },
+      {
+        "label": "freedomtech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBowXh2oE-wK_4Q3BjKjhI4vO5is3tpd6G7zSxMf5H-IUD_gZHHzuWjyCMxU15tMCh_6wPFlD6-9l1H1eQDB1aknK2eUab3hRd3iB6tca_4Y1tBv-xbDQ6StX6sw67BoDdyO5OsYW0q2XZ37hP7lCfDUwNd1GsXkj5p3pBRP8Au0o4eQ=="
+      },
+      {
+        "label": "freedomtech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBowXh2oE-wK_4Q3BjKjhI4vO5is3tpd6G7zSxMf5H-IUD_gZHHzuWjyCMxU15tMCh_6wPFlD6-9l1H1eQDB1aknK2eUab3hRd3iB6tca_4Y1tBv-xbDQ6StX6sw67BoDdyO5OsYW0q2XZ37hP7lCfDUwNd1GsXkj5p3pBRP8Au0o4eQ=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOAOX3r52pHxm7Mukye9rfcCYW0vWRk2MNFN6u9SQ3Mpi36lk0DD3c3To-hS60x0uxv3ymfdZmBfl_Z_1U-Kxlc4nFOXKk87L3ELLUXfkoyXyc8iTfsj1O3VpIigWuR9YbFUFt7w=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtuZX1QOFFyLYApKE3n2Q1iafRxynSQIjTUH4IcUbdpWw5Cp0q16EUX1d-nixhQQB863wkM3BnFHLto4qZ25FTarB3gujeGelsf4DNaepPb-HBAAMH9ZS2XTIW6lYRmAz8d6wXMA=="
+      },
+      {
+        "label": "theregister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKX8lUdUM_xXuV2s3pH75WX3_anVTvJzk4bNQ8cGLfRgA5BC89dxhy7w5hREXTW2MePnwQCCtxh_lFCr0Nwbp4spjx5cU5-9QkfuzHDwnDTElcyQ1lFvoMOBou9Ym6vw0XcZGwvZXDy10k1yTFzk0="
+      },
+      {
+        "label": "theregister",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKX8lUdUM_xXuV2s3pH75WX3_anVTvJzk4bNQ8cGLfRgA5BC89dxhy7w5hREXTW2MePnwQCCtxh_lFCr0Nwbp4spjx5cU5-9QkfuzHDwnDTElcyQ1lFvoMOBou9Ym6vw0XcZGwvZXDy10k1yTFzk0="
+      },
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAXVbHbY5cO9x9HlUJf8IlxxgbCiA-0mvXAMEhZAFiVuQqzlpUfRoYVfBG9SiEozGLM7oBBPSzJm1eLTDSVpjUbEAjzdTY5wamDs6lqgSZA5NXZwEDKxozj7aWb3KRHW3MgQEAsYTzL-W9cIhYveiyX96AC9MCszTsdprpduZPBZiDKTnXvhceaqNwvJc="
+      },
+      {
+        "label": "itsfoss",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd-WfCGc6_SUh67RAQXcTB9zFressnSPY4roF6p0yQ3OVd-t4p7c3OteIjZMWWworUlTLPS85Bk2Et0aa450xrlcJ2xD8b4JQiiwgOFVOqs5SywT46Yau01KOsH5PTrs5YrKUROIA="
+      },
+      {
+        "label": "intelivita",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeYdw3hz15X6UTxfdGKyyQCWwNbai0D6vsXGjrdtodFTABARvTHZYGnMHRXgmotU2URUl-wK_-BezcNyCmAnO8YysPIgFI8Y9OskAOvh7LvKdzy8sA6XOJZ53qr1ZNURnE25MYZ-r0xumrr000NdOMXBrE"
+      },
+      {
+        "label": "freedomtech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBowXh2oE-wK_4Q3BjKjhI4vO5is3tpd6G7zSxMf5H-IUD_gZHHzuWjyCMxU15tMCh_6wPFlD6-9l1H1eQDB1aknK2eUab3hRd3iB6tca_4Y1tBv-xbDQ6StX6sw67BoDdyO5OsYW0q2XZ37hP7lCfDUwNd1GsXkj5p3pBRP8Au0o4eQ=="
+      },
+      {
+        "label": "gadgetsalvation",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuXUEM4lshu0UzIcA8E0WhWH0CmO2HWJ0m2iJpW5vL7Zm6yZIQB28I4Iqp-EeI-_mJ4FdLxNryrdsDs3l2dm0ELq1Rh8cNzk1EqXFpfsmJ_7eE6crfworCfqOIAqQlX_gXbgvAuzENpdcZtrgTiTwEi6NNjJxijmTLXzDrliUZNX8="
+      },
+      {
+        "label": "gadgetsalvation",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuXUEM4lshu0UzIcA8E0WhWH0CmO2HWJ0m2iJpW5vL7Zm6yZIQB28I4Iqp-EeI-_mJ4FdLxNryrdsDs3l2dm0ELq1Rh8cNzk1EqXFpfsmJ_7eE6crfworCfqOIAqQlX_gXbgvAuzENpdcZtrgTiTwEi6NNjJxijmTLXzDrliUZNX8="
+      },
+      {
+        "label": "freedomtech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBowXh2oE-wK_4Q3BjKjhI4vO5is3tpd6G7zSxMf5H-IUD_gZHHzuWjyCMxU15tMCh_6wPFlD6-9l1H1eQDB1aknK2eUab3hRd3iB6tca_4Y1tBv-xbDQ6StX6sw67BoDdyO5OsYW0q2XZ37hP7lCfDUwNd1GsXkj5p3pBRP8Au0o4eQ=="
+      },
+      {
+        "label": "intelivita",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeYdw3hz15X6UTxfdGKyyQCWwNbai0D6vsXGjrdtodFTABARvTHZYGnMHRXgmotU2URUl-wK_-BezcNyCmAnO8YysPIgFI8Y9OskAOvh7LvKdzy8sA6XOJZ53qr1ZNURnE25MYZ-r0xumrr000NdOMXBrE"
+      },
+      {
+        "label": "intelivita",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeYdw3hz15X6UTxfdGKyyQCWwNbai0D6vsXGjrdtodFTABARvTHZYGnMHRXgmotU2URUl-wK_-BezcNyCmAnO8YysPIgFI8Y9OskAOvh7LvKdzy8sA6XOJZ53qr1ZNURnE25MYZ-r0xumrr000NdOMXBrE"
+      },
+      {
+        "label": "gadgetsalvation",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuXUEM4lshu0UzIcA8E0WhWH0CmO2HWJ0m2iJpW5vL7Zm6yZIQB28I4Iqp-EeI-_mJ4FdLxNryrdsDs3l2dm0ELq1Rh8cNzk1EqXFpfsmJ_7eE6crfworCfqOIAqQlX_gXbgvAuzENpdcZtrgTiTwEi6NNjJxijmTLXzDrliUZNX8="
+      },
+      {
+        "label": "freedomtech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBowXh2oE-wK_4Q3BjKjhI4vO5is3tpd6G7zSxMf5H-IUD_gZHHzuWjyCMxU15tMCh_6wPFlD6-9l1H1eQDB1aknK2eUab3hRd3iB6tca_4Y1tBv-xbDQ6StX6sw67BoDdyO5OsYW0q2XZ37hP7lCfDUwNd1GsXkj5p3pBRP8Au0o4eQ=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9bB2-Nweio7AFVpeZ1lZwqdS6caUAJ0_1jiZLPRLqOQu9IjiGzhgJSy6Uej7Z_sm7DSQwqbZpqi8UA9wJJx-CsfZ_20HrIxShzxtBPGb7GOa8e_YS1J5KfcfQpfWeg48hIU73pcoYTh2tV03U-A=="
+      },
+      {
+        "label": "fairphone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYjBszKZlSeoKZglnCEvPZHRggNFSFEuU9H-i8jZ21a8mGyu4sTVRQ60-ntHefroVvATYL8IW5bX7FS9uDW8-RCRK1WTCG-nHEpJ9vOf2yhERJS7oc2JYHWSq7RMVCy3prsIOAEwKMet2nUUG8LngdEN-SzOuq_mzWvpBxTAI="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWbD0lU9AdWUdLDBaqN7FhDoB0u43aRz8N49R4l44izBA5HCBI58BykEN1whskNMfpFcQDW5dEBgg7gzLoFhmla1cgvXoTGTAj6YBaDYJDyXz4y87BIUXvKG7H52hHDfbRAElruAg="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTmEf13mvu6MNTdh-tGUlwx7qZ5Gda4OOD4X578lR4jm-eLUlwM6uQRu1DcczrDNT4Fv8n2kUcAAJRLSguGqUuvx9PBfJAbnsT2dD6fIHcOb_EaClmtaB5dnXKpU17ahHF2IBn0whLsGfaaPtfhsbznRfkJ4pMYbpZCquUbFX2Nw=="
+      },
+      {
+        "label": "gsmarena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXJAPYy1_4-tUIHrudOvtM1z1UHg6AD0vfDhDcZqB2kr1k1O6RAzPrFl442QZ1N1T2h7v4KdSq0ZE_yeqjDFjDHgqhZDPS7DSGgX_A5G3by5hXyFF55iX45cxTROZUdRy9sUcaNNGi1CGe9CovDuFKgEaX-NYHwK9dv9aeqKjzO-abh6eEmUmFxLISk4Q="
+      },
+      {
+        "label": "androidauthority",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcfQ1P1p-3e7xobK-G5A52enyAoYs-qvhLsaz3g9jpRAvsncIHw1Mlj0MpEkt4IOXG1-K-XEkJuFvRP2h7GwH8Ho08-rmDqL3mbgSBlUkqj8PsHvuoIZj6Uluoz6muUW10h2hsWlO7-h-KAOK3g882Kxj8AV9Mhg=="
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR1SQQr1QrxSjnpbqo-sBEzt_ClvGqOzrmGUWZA_jBy3_zOh-hykiBapp47buw4ZR8InQrqXdhkBTxb2jKtLkPRs8SxUlvQdeHpQ3mVk-rMfU-RVuTYKSMOSYnFLiTw4LrgVSIgJnEYupi8Hs="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTmEf13mvu6MNTdh-tGUlwx7qZ5Gda4OOD4X578lR4jm-eLUlwM6uQRu1DcczrDNT4Fv8n2kUcAAJRLSguGqUuvx9PBfJAbnsT2dD6fIHcOb_EaClmtaB5dnXKpU17ahHF2IBn0whLsGfaaPtfhsbznRfkJ4pMYbpZCquUbFX2Nw=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWbD0lU9AdWUdLDBaqN7FhDoB0u43aRz8N49R4l44izBA5HCBI58BykEN1whskNMfpFcQDW5dEBgg7gzLoFhmla1cgvXoTGTAj6YBaDYJDyXz4y87BIUXvKG7H52hHDfbRAElruAg="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrAxow0oR2sHFYxPlWnkOkzGVtISj2g6mZMcJlEcb_MdkvJVgtIC1e1IFRGztn_peDIhs2cZJSllyQOdpIcYU7hFqnscXD_zOj5lkehMXsLRS0fnYbPZWCpoBVD9uGUis_YVjeBduEGacqD1WtUDmX4drQbGufFtw2xw=="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTmEf13mvu6MNTdh-tGUlwx7qZ5Gda4OOD4X578lR4jm-eLUlwM6uQRu1DcczrDNT4Fv8n2kUcAAJRLSguGqUuvx9PBfJAbnsT2dD6fIHcOb_EaClmtaB5dnXKpU17ahHF2IBn0whLsGfaaPtfhsbznRfkJ4pMYbpZCquUbFX2Nw=="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTmEf13mvu6MNTdh-tGUlwx7qZ5Gda4OOD4X578lR4jm-eLUlwM6uQRu1DcczrDNT4Fv8n2kUcAAJRLSguGqUuvx9PBfJAbnsT2dD6fIHcOb_EaClmtaB5dnXKpU17ahHF2IBn0whLsGfaaPtfhsbznRfkJ4pMYbpZCquUbFX2Nw=="
+      },
+      {
+        "label": "androidauthority",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcfQ1P1p-3e7xobK-G5A52enyAoYs-qvhLsaz3g9jpRAvsncIHw1Mlj0MpEkt4IOXG1-K-XEkJuFvRP2h7GwH8Ho08-rmDqL3mbgSBlUkqj8PsHvuoIZj6Uluoz6muUW10h2hsWlO7-h-KAOK3g882Kxj8AV9Mhg=="
+      },
+      {
+        "label": "gsmarena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXJAPYy1_4-tUIHrudOvtM1z1UHg6AD0vfDhDcZqB2kr1k1O6RAzPrFl442QZ1N1T2h7v4KdSq0ZE_yeqjDFjDHgqhZDPS7DSGgX_A5G3by5hXyFF55iX45cxTROZUdRy9sUcaNNGi1CGe9CovDuFKgEaX-NYHwK9dv9aeqKjzO-abh6eEmUmFxLISk4Q="
+      },
+      {
+        "label": "androidpolice",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfSh1Q-pKXXud0pJ95Nv6wsIvO4DUhiD-ftTR80BzpTmKkuRQm0sJn4zIA9Vz0PGej-2CknuEgqzCcTslgT1beDnN7zTXQMTZBClsrSJm9ADe_wibl3_XdZIbrun8zCc01_Tf-B0sAwm_HVhhC"
+      },
+      {
+        "label": "androidpolice",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfSh1Q-pKXXud0pJ95Nv6wsIvO4DUhiD-ftTR80BzpTmKkuRQm0sJn4zIA9Vz0PGej-2CknuEgqzCcTslgT1beDnN7zTXQMTZBClsrSJm9ADe_wibl3_XdZIbrun8zCc01_Tf-B0sAwm_HVhhC"
+      },
+      {
+        "label": "gsmarena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXJAPYy1_4-tUIHrudOvtM1z1UHg6AD0vfDhDcZqB2kr1k1O6RAzPrFl442QZ1N1T2h7v4KdSq0ZE_yeqjDFjDHgqhZDPS7DSGgX_A5G3by5hXyFF55iX45cxTROZUdRy9sUcaNNGi1CGe9CovDuFKgEaX-NYHwK9dv9aeqKjzO-abh6eEmUmFxLISk4Q="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTmEf13mvu6MNTdh-tGUlwx7qZ5Gda4OOD4X578lR4jm-eLUlwM6uQRu1DcczrDNT4Fv8n2kUcAAJRLSguGqUuvx9PBfJAbnsT2dD6fIHcOb_EaClmtaB5dnXKpU17ahHF2IBn0whLsGfaaPtfhsbznRfkJ4pMYbpZCquUbFX2Nw=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWbD0lU9AdWUdLDBaqN7FhDoB0u43aRz8N49R4l44izBA5HCBI58BykEN1whskNMfpFcQDW5dEBgg7gzLoFhmla1cgvXoTGTAj6YBaDYJDyXz4y87BIUXvKG7H52hHDfbRAElruAg="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrAxow0oR2sHFYxPlWnkOkzGVtISj2g6mZMcJlEcb_MdkvJVgtIC1e1IFRGztn_peDIhs2cZJSllyQOdpIcYU7hFqnscXD_zOj5lkehMXsLRS0fnYbPZWCpoBVD9uGUis_YVjeBduEGacqD1WtUDmX4drQbGufFtw2xw=="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTmEf13mvu6MNTdh-tGUlwx7qZ5Gda4OOD4X578lR4jm-eLUlwM6uQRu1DcczrDNT4Fv8n2kUcAAJRLSguGqUuvx9PBfJAbnsT2dD6fIHcOb_EaClmtaB5dnXKpU17ahHF2IBn0whLsGfaaPtfhsbznRfkJ4pMYbpZCquUbFX2Nw=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWbD0lU9AdWUdLDBaqN7FhDoB0u43aRz8N49R4l44izBA5HCBI58BykEN1whskNMfpFcQDW5dEBgg7gzLoFhmla1cgvXoTGTAj6YBaDYJDyXz4y87BIUXvKG7H52hHDfbRAElruAg="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTmEf13mvu6MNTdh-tGUlwx7qZ5Gda4OOD4X578lR4jm-eLUlwM6uQRu1DcczrDNT4Fv8n2kUcAAJRLSguGqUuvx9PBfJAbnsT2dD6fIHcOb_EaClmtaB5dnXKpU17ahHF2IBn0whLsGfaaPtfhsbznRfkJ4pMYbpZCquUbFX2Nw=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWbD0lU9AdWUdLDBaqN7FhDoB0u43aRz8N49R4l44izBA5HCBI58BykEN1whskNMfpFcQDW5dEBgg7gzLoFhmla1cgvXoTGTAj6YBaDYJDyXz4y87BIUXvKG7H52hHDfbRAElruAg="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTmEf13mvu6MNTdh-tGUlwx7qZ5Gda4OOD4X578lR4jm-eLUlwM6uQRu1DcczrDNT4Fv8n2kUcAAJRLSguGqUuvx9PBfJAbnsT2dD6fIHcOb_EaClmtaB5dnXKpU17ahHF2IBn0whLsGfaaPtfhsbznRfkJ4pMYbpZCquUbFX2Nw=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWbD0lU9AdWUdLDBaqN7FhDoB0u43aRz8N49R4l44izBA5HCBI58BykEN1whskNMfpFcQDW5dEBgg7gzLoFhmla1cgvXoTGTAj6YBaDYJDyXz4y87BIUXvKG7H52hHDfbRAElruAg="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrAxow0oR2sHFYxPlWnkOkzGVtISj2g6mZMcJlEcb_MdkvJVgtIC1e1IFRGztn_peDIhs2cZJSllyQOdpIcYU7hFqnscXD_zOj5lkehMXsLRS0fnYbPZWCpoBVD9uGUis_YVjeBduEGacqD1WtUDmX4drQbGufFtw2xw=="
+      },
+      {
+        "label": "androidauthority",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcfQ1P1p-3e7xobK-G5A52enyAoYs-qvhLsaz3g9jpRAvsncIHw1Mlj0MpEkt4IOXG1-K-XEkJuFvRP2h7GwH8Ho08-rmDqL3mbgSBlUkqj8PsHvuoIZj6Uluoz6muUW10h2hsWlO7-h-KAOK3g882Kxj8AV9Mhg=="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTmEf13mvu6MNTdh-tGUlwx7qZ5Gda4OOD4X578lR4jm-eLUlwM6uQRu1DcczrDNT4Fv8n2kUcAAJRLSguGqUuvx9PBfJAbnsT2dD6fIHcOb_EaClmtaB5dnXKpU17ahHF2IBn0whLsGfaaPtfhsbznRfkJ4pMYbpZCquUbFX2Nw=="
+      },
+      {
+        "label": "gsmarena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-jLXerna0uI_8VeeiPgxi_MrlHXZMT6OIifsOSVOrTXSadTmuLXfZ7nTssYBjesAotDnA4EcedhzuvHdOEc-gonh1_i1kQQkQ6JmgryRGaX2Et3BnzyfbMRSfWOnZB8tCuEvgH18t4GWFws3EunFUFF8yvuhMeR-WsKZiCOL5355KW1lICrWNGJk="
+      },
+      {
+        "label": "gsmarena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXJAPYy1_4-tUIHrudOvtM1z1UHg6AD0vfDhDcZqB2kr1k1O6RAzPrFl442QZ1N1T2h7v4KdSq0ZE_yeqjDFjDHgqhZDPS7DSGgX_A5G3by5hXyFF55iX45cxTROZUdRy9sUcaNNGi1CGe9CovDuFKgEaX-NYHwK9dv9aeqKjzO-abh6eEmUmFxLISk4Q="
+      },
+      {
+        "label": "gsmarena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXJAPYy1_4-tUIHrudOvtM1z1UHg6AD0vfDhDcZqB2kr1k1O6RAzPrFl442QZ1N1T2h7v4KdSq0ZE_yeqjDFjDHgqhZDPS7DSGgX_A5G3by5hXyFF55iX45cxTROZUdRy9sUcaNNGi1CGe9CovDuFKgEaX-NYHwK9dv9aeqKjzO-abh6eEmUmFxLISk4Q="
+      },
+      {
+        "label": "gsmarena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-jLXerna0uI_8VeeiPgxi_MrlHXZMT6OIifsOSVOrTXSadTmuLXfZ7nTssYBjesAotDnA4EcedhzuvHdOEc-gonh1_i1kQQkQ6JmgryRGaX2Et3BnzyfbMRSfWOnZB8tCuEvgH18t4GWFws3EunFUFF8yvuhMeR-WsKZiCOL5355KW1lICrWNGJk="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWbD0lU9AdWUdLDBaqN7FhDoB0u43aRz8N49R4l44izBA5HCBI58BykEN1whskNMfpFcQDW5dEBgg7gzLoFhmla1cgvXoTGTAj6YBaDYJDyXz4y87BIUXvKG7H52hHDfbRAElruAg="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrAxow0oR2sHFYxPlWnkOkzGVtISj2g6mZMcJlEcb_MdkvJVgtIC1e1IFRGztn_peDIhs2cZJSllyQOdpIcYU7hFqnscXD_zOj5lkehMXsLRS0fnYbPZWCpoBVD9uGUis_YVjeBduEGacqD1WtUDmX4drQbGufFtw2xw=="
+      },
+      {
+        "label": "gsmarena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXJAPYy1_4-tUIHrudOvtM1z1UHg6AD0vfDhDcZqB2kr1k1O6RAzPrFl442QZ1N1T2h7v4KdSq0ZE_yeqjDFjDHgqhZDPS7DSGgX_A5G3by5hXyFF55iX45cxTROZUdRy9sUcaNNGi1CGe9CovDuFKgEaX-NYHwK9dv9aeqKjzO-abh6eEmUmFxLISk4Q="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWbD0lU9AdWUdLDBaqN7FhDoB0u43aRz8N49R4l44izBA5HCBI58BykEN1whskNMfpFcQDW5dEBgg7gzLoFhmla1cgvXoTGTAj6YBaDYJDyXz4y87BIUXvKG7H52hHDfbRAElruAg="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_q1h6V6mgRFUi_iehqGxffDg8vMzKsnH9Ap0_TaNd0bwl7nUuzpyQvMTAmhbNpFIIyB0RU_NrvtkbPnkV3sybu4x5pDLpBFBRKV0-d8qlS-sJzul6GVBTlz13V8LAGAyjbxk-LskMliIdH4emgqGnYAxOhiyye6DhOCPShDVy9g=="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_q1h6V6mgRFUi_iehqGxffDg8vMzKsnH9Ap0_TaNd0bwl7nUuzpyQvMTAmhbNpFIIyB0RU_NrvtkbPnkV3sybu4x5pDLpBFBRKV0-d8qlS-sJzul6GVBTlz13V8LAGAyjbxk-LskMliIdH4emgqGnYAxOhiyye6DhOCPShDVy9g=="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_q1h6V6mgRFUi_iehqGxffDg8vMzKsnH9Ap0_TaNd0bwl7nUuzpyQvMTAmhbNpFIIyB0RU_NrvtkbPnkV3sybu4x5pDLpBFBRKV0-d8qlS-sJzul6GVBTlz13V8LAGAyjbxk-LskMliIdH4emgqGnYAxOhiyye6DhOCPShDVy9g=="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_q1h6V6mgRFUi_iehqGxffDg8vMzKsnH9Ap0_TaNd0bwl7nUuzpyQvMTAmhbNpFIIyB0RU_NrvtkbPnkV3sybu4x5pDLpBFBRKV0-d8qlS-sJzul6GVBTlz13V8LAGAyjbxk-LskMliIdH4emgqGnYAxOhiyye6DhOCPShDVy9g=="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_q1h6V6mgRFUi_iehqGxffDg8vMzKsnH9Ap0_TaNd0bwl7nUuzpyQvMTAmhbNpFIIyB0RU_NrvtkbPnkV3sybu4x5pDLpBFBRKV0-d8qlS-sJzul6GVBTlz13V8LAGAyjbxk-LskMliIdH4emgqGnYAxOhiyye6DhOCPShDVy9g=="
+      },
+      {
+        "label": "androidcentral",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_q1h6V6mgRFUi_iehqGxffDg8vMzKsnH9Ap0_TaNd0bwl7nUuzpyQvMTAmhbNpFIIyB0RU_NrvtkbPnkV3sybu4x5pDLpBFBRKV0-d8qlS-sJzul6GVBTlz13V8LAGAyjbxk-LskMliIdH4emgqGnYAxOhiyye6DhOCPShDVy9g=="
+      },
+      {
+        "label": "samsung",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSo8xIUe8Ojd_NQK459dvZghi1PwHD352OyNA9EwgKRdBW3nLVW-fT4wiBUg5bQ5PnkPpj0cZoWtQ0kuEsBfT3VaR8nJZrSFyt0oF65jMY7xdcFwKJo0CYKxRT5owTcC_NNHvb55hWksPmeay3ml6BcIGUSgdk6eKEOCZKfNbfPmCqNg9FrsoqNTwkXfRniDlex-To1rOXtu9SFSmNtfeqJEw="
+      },
+      {
+        "label": "theprivacydad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNnoiYbmtav7Pggn_livrHi2YGz0KQen2JWuN616oia1ntb_-KCnMdf7KbX6dxxQ0TsfDdI8X29aLAfQttuEWeUCmHaA4teu9-6YvKe9B2QcNRkk0-aIgRR480e1ap129NFDL5PuT6NMPoFVMjQSEa-jJ4z1QjvGGbVxH-eg98dE_eY-4l41Y="
+      },
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3Lb0qu9FQc5c-h8-NXkgylNIm4FmXSLX_21fQY8jGMpEWPPkKrOBMQG2u7htnwhYZUyoESJjuAUR9ZavuQmfdXCNG0zliw_-hcCiqm-9Ms97ZoTtjZSucgvkTwRqjzyQO-9S3aHbyvpkqDxsM7S9efNi6jRZ6L7zgg7OVPp64nP2en2g="
+      },
+      {
+        "label": "murena",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3Lb0qu9FQc5c-h8-NXkgylNIm4FmXSLX_21fQY8jGMpEWPPkKrOBMQG2u7htnwhYZUyoESJjuAUR9ZavuQmfdXCNG0zliw_-hcCiqm-9Ms97ZoTtjZSucgvkTwRqjzyQO-9S3aHbyvpkqDxsM7S9efNi6jRZ6L7zgg7OVPp64nP2en2g="
+      },
+      {
+        "label": "fairphone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGR63Qown2vQaPfYzJug8zyIL7H1-cin_xdYhhEqjey4Qz-yGyx_pxXCyyvhICufRMzgsRbs9sHp1uZnT6vm3_DMUdrix9JGlgSJOEajZy1tsUKNqIdTBS3hqXhFXg37tcgup9oy6X15eQ4vHgtpv6oz6Gpg=="
+      },
+      {
+        "label": "theprivacydad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNnoiYbmtav7Pggn_livrHi2YGz0KQen2JWuN616oia1ntb_-KCnMdf7KbX6dxxQ0TsfDdI8X29aLAfQttuEWeUCmHaA4teu9-6YvKe9B2QcNRkk0-aIgRR480e1ap129NFDL5PuT6NMPoFVMjQSEa-jJ4z1QjvGGbVxH-eg98dE_eY-4l41Y="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUS2J5Uf95-8cFIljdVxbs6Pmty8UKaQ0P2reBwgo0SLPpYVKyEGAkrrVNWvfu0RNxll_6agnP4OSLIc9h6w7V5R4sIAaDgfiOESntG_M9fs_uLhNsBqhtRsrXfwqUdUFeobPOjHQjClVeVjM9uBHNBWtiI5HxwRWkRA=="
+      },
+      {
+        "label": "theprivacydad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNnoiYbmtav7Pggn_livrHi2YGz0KQen2JWuN616oia1ntb_-KCnMdf7KbX6dxxQ0TsfDdI8X29aLAfQttuEWeUCmHaA4teu9-6YvKe9B2QcNRkk0-aIgRR480e1ap129NFDL5PuT6NMPoFVMjQSEa-jJ4z1QjvGGbVxH-eg98dE_eY-4l41Y="
+      },
+      {
+        "label": "theprivacydad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNnoiYbmtav7Pggn_livrHi2YGz0KQen2JWuN616oia1ntb_-KCnMdf7KbX6dxxQ0TsfDdI8X29aLAfQttuEWeUCmHaA4teu9-6YvKe9B2QcNRkk0-aIgRR480e1ap129NFDL5PuT6NMPoFVMjQSEa-jJ4z1QjvGGbVxH-eg98dE_eY-4l41Y="
+      },
+      {
+        "label": "pine64",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtyodRJhxLZPN_HzTcefYzH32oPyxxL_O1DTriWlvxvJO5HSSv3zs-__4Ktweh3se8hc-U7qPa3EJIk8rn2CgvJQWaNL_yXZWkFb9HdmHSLtD97nEZlyKmyLDOGZxt-Vw="
+      },
+      {
+        "label": "pine64",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtyodRJhxLZPN_HzTcefYzH32oPyxxL_O1DTriWlvxvJO5HSSv3zs-__4Ktweh3se8hc-U7qPa3EJIk8rn2CgvJQWaNL_yXZWkFb9HdmHSLtD97nEZlyKmyLDOGZxt-Vw="
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNnDb5qW5wjO52p-MHzjOX3x7KJIfPpto59UgD-J2z4Lp-PvCp_m949pbvRPd2S9g0NhQsLqQo-tpw1Fagy7z0AOjNPAjqolt0AX-tHygU99D-ZEP5rM0LaEZPni9eC8RjnH94z9e_rTKCOdBY2B-Rcy9VcuANJoekkYkc0ggsExAGbA56n61Nne7Kjm0zPMTRr9RjB4DhOA=="
+      },
+      {
+        "label": "puri",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp1YyO9MnDq44Jsst2RYiUfFWbKm085DoFO6y2d7whIWuIsH_OaL4u4j9FrEKYRawQk50kt5JzffYIUxGLgCZ0B-P7PF_HAKnDLJ0xyuzqAlFoOhOh8M18MwC3tCA="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUw64ET8_qh2xUhrQreRCCgGY0TsY78zyn6cwnOjofElblA0P3rx7zksuEcwYzlp0um1swE4TiPvEoUfOf2W1k7c_tmuW7kGzo8MW1-t933XQeUELQAACgK0IWWChMj0VK1ZO2SDH5vaxpe5cf53xxo_sCYQTRIq1SBA=="
+      },
+      {
+        "label": "theprivacydad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNnoiYbmtav7Pggn_livrHi2YGz0KQen2JWuN616oia1ntb_-KCnMdf7KbX6dxxQ0TsfDdI8X29aLAfQttuEWeUCmHaA4teu9-6YvKe9B2QcNRkk0-aIgRR480e1ap129NFDL5PuT6NMPoFVMjQSEa-jJ4z1QjvGGbVxH-eg98dE_eY-4l41Y="
+      },
+      {
+        "label": "theprivacydad",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNnoiYbmtav7Pggn_livrHi2YGz0KQen2JWuN616oia1ntb_-KCnMdf7KbX6dxxQ0TsfDdI8X29aLAfQttuEWeUCmHaA4teu9-6YvKe9B2QcNRkk0-aIgRR480e1ap129NFDL5PuT6NMPoFVMjQSEa-jJ4z1QjvGGbVxH-eg98dE_eY-4l41Y="
+      },
+      {
+        "label": "e",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMOwmcC0XtSOm4GiLUIwKzJpgZwOvjYcO0QS7H7CqQbJtJ_kSSwRjk6JmptYfmyRJtRNTZOKCF6QAIJFAsPoCOhTJWJAu72c7X9XLrR2jjlxmVMAPe2cPpoHhlZ5uwV6zC"
+      },
+      {
+        "label": "e",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcusj0dFrJ4hhYEUasp-W9KTNbLikLzE1FMUHWoaDcpFDtFMK_0T4zX4eARUXbp2N1Ti-p1yfymRdVFWxtXHRqPnowj34docmLSVj6nmqdw3e2Z92Da8pyVbzhwqjIU2TBdhW8kGsZq_eTsvYW_MZuQg=="
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNnDb5qW5wjO52p-MHzjOX3x7KJIfPpto59UgD-J2z4Lp-PvCp_m949pbvRPd2S9g0NhQsLqQo-tpw1Fagy7z0AOjNPAjqolt0AX-tHygU99D-ZEP5rM0LaEZPni9eC8RjnH94z9e_rTKCOdBY2B-Rcy9VcuANJoekkYkc0ggsExAGbA56n61Nne7Kjm0zPMTRr9RjB4DhOA=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUS2J5Uf95-8cFIljdVxbs6Pmty8UKaQ0P2reBwgo0SLPpYVKyEGAkrrVNWvfu0RNxll_6agnP4OSLIc9h6w7V5R4sIAaDgfiOESntG_M9fs_uLhNsBqhtRsrXfwqUdUFeobPOjHQjClVeVjM9uBHNBWtiI5HxwRWkRA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlaAbuGLuoUlXXOJGP2ZqObsZjvQpu52sQ8KwWas1UA8EjMsapzERDlOX4axVqPeL2moPDxqrHo_nqxaybdP741Iu61jcE4sDqLEFOxqbCigxDJJJXQ8gizGwhXg0J_6T4f6PJlHwobcZX_efOnQSsEZ85gZeMntj5qPPD6mEnT34sUsjZ4AiWbwyXaY6nQTNe2LN22cZ1BSZ20Hk="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlaAbuGLuoUlXXOJGP2ZqObsZjvQpu52sQ8KwWas1UA8EjMsapzERDlOX4axVqPeL2moPDxqrHo_nqxaybdP741Iu61jcE4sDqLEFOxqbCigxDJJJXQ8gizGwhXg0J_6T4f6PJlHwobcZX_efOnQSsEZ85gZeMntj5qPPD6mEnT34sUsjZ4AiWbwyXaY6nQTNe2LN22cZ1BSZ20Hk="
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNnDb5qW5wjO52p-MHzjOX3x7KJIfPpto59UgD-J2z4Lp-PvCp_m949pbvRPd2S9g0NhQsLqQo-tpw1Fagy7z0AOjNPAjqolt0AX-tHygU99D-ZEP5rM0LaEZPni9eC8RjnH94z9e_rTKCOdBY2B-Rcy9VcuANJoekkYkc0ggsExAGbA56n61Nne7Kjm0zPMTRr9RjB4DhOA=="
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNnDb5qW5wjO52p-MHzjOX3x7KJIfPpto59UgD-J2z4Lp-PvCp_m949pbvRPd2S9g0NhQsLqQo-tpw1Fagy7z0AOjNPAjqolt0AX-tHygU99D-ZEP5rM0LaEZPni9eC8RjnH94z9e_rTKCOdBY2B-Rcy9VcuANJoekkYkc0ggsExAGbA56n61Nne7Kjm0zPMTRr9RjB4DhOA=="
+      },
+      {
+        "label": "e",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVxJEyOJ-dgk1s76YQ9nwpSDraBT-rKG9on4QUYi-pwxlsP2ysMU6hewH2MT0OkMDEwzPYBk3jsbqzL8678pDp8xcHnkae0vfs6RrvdRZUT_DvVVdHSLoTYWU-"
+      },
+      {
+        "label": "e",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVxJEyOJ-dgk1s76YQ9nwpSDraBT-rKG9on4QUYi-pwxlsP2ysMU6hewH2MT0OkMDEwzPYBk3jsbqzL8678pDp8xcHnkae0vfs6RrvdRZUT_DvVVdHSLoTYWU-"
+      },
+      {
+        "label": "e",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVxJEyOJ-dgk1s76YQ9nwpSDraBT-rKG9on4QUYi-pwxlsP2ysMU6hewH2MT0OkMDEwzPYBk3jsbqzL8678pDp8xcHnkae0vfs6RrvdRZUT_DvVVdHSLoTYWU-"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

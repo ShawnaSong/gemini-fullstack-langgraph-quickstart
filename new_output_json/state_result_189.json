@@ -1,0 +1,175 @@
+{
+  "file_name": "state_result_189.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.677838",
+  "data": {
+    "messages": [
+      {
+        "content": "search with quotes: \"sevSession1\"",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "f1befb46-759c-4ca4-a35a-f08300bd9e57",
+        "example": false
+      },
+      {
+        "content": "`sevSession1` is a session identifier used within Cadence design tools, particularly in the SKILL programming language environment, and is associated with the Analog Design Environment (ADE) [cadence](https://vertexaisearch.cloud.google.com/id/0-0) [studylib](https://vertexaisearch.cloud.google.com/id/0-1) [cadence](https://vertexaisearch.cloud.google.com/id/0-2) [cadence](https://vertexaisearch.cloud.google.com/id/0-3) [thecadforums](https://vertexaisearch.cloud.google.com/id/0-4) [cadence](https://vertexaisearch.cloud.google.com/id/0-5].\n\nHere's a breakdown of its key functionalities and usage:\n\n*   **Simulation Environment:** `sevSession1` is used to load simulation results from a specified directory for a given session. For example, `sevSession1 “~/simulation/ampTest/spectre/myResults” ) => t` loads results from the \"myResults\" directory [studylib](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **SKILL Language:** It's used within SKILL scripts to interact with Cadence tools, such as setting engine options or printing simulation results [studylib](https://vertexaisearch.cloud.google.com/id/0-1) [cadence](https://vertexaisearch.cloud.google.com/id/0-6) [thecadforums](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **ADE State Management:** While direct loading of ADE state in batch mode isn't officially supported, `sevSession1` is related to ADE sessions. Discussions exist regarding parsing ADE state files in SKILL to achieve similar functionality [studylib](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Plotting:** The session identifier is used in plotting functions like `sevDirectPlot('sevSession1 'asiiPlotTranSignalCB)` to specify the relevant session [cadence](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Noise Analysis:** It appears in the context of noise summary settings within Cadence [cadence](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Bindkeys:** It can be used to set up bindkeys for actions within the Cadence environment, such as printing device operating point information [cadence](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Menus:** It is used in menu definitions within Cadence [cadence](https://vertexaisearch.cloud.google.com/id/0-6).\n\nWhile `sevSession1` itself isn't a vulnerability, it's worth noting that the search results also mention several security vulnerabilities in related areas, such as the AMD SEV-SNP vulnerability (CVE-2024-56161) [thehackernews](https://vertexaisearch.cloud.google.com/id/0-8), an SSH 1.5 session key recovery vulnerability [coresecurity](https://vertexaisearch.cloud.google.com/id/0-9), and a remote code execution vulnerability in OpenSSH [suse](https://vertexaisearch.cloud.google.com/id/0-10). However, the presence of `sevSession1` in code snippets doesn't inherently indicate a vulnerability [cadence](https://vertexaisearch.cloud.google.com/id/0-0) [studylib](https://vertexaisearch.cloud.google.com/id/0-1) [cadence](https://vertexaisearch.cloud.google.com/id/0-2) [cadence](https://vertexaisearch.cloud.google.com/id/0-3) [thecadforums](https://vertexaisearch.cloud.google.com/id/0-4) [cadence](https://vertexaisearch.cloud.google.com/id/0-5).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "3a63646c-4cf1-46e6-93c0-0b344c5a41eb",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "\"sevSession1\""
+    ],
+    "web_research_result": [
+      "Based on the search results, \"sevSession1\" appears to be a session identifier used in the context of Cadence design tools, specifically within the SKILL programming language environment [cadence](https://vertexaisearch.cloud.google.com/id/0-0) [studylib](https://vertexaisearch.cloud.google.com/id/0-1) [cadence](https://vertexaisearch.cloud.google.com/id/0-2) [cadence](https://vertexaisearch.cloud.google.com/id/0-3) [thecadforums](https://vertexaisearch.cloud.google.com/id/0-4) [cadence](https://vertexaisearch.cloud.google.com/id/0-5). It is related to the Analog Design Environment (ADE) and its functionalities [cadence](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**Key Functionality and Usage:**\n\n*   **Simulation Environment:** `sevSession1` is used to load results from a specified directory for a particular session [studylib](https://vertexaisearch.cloud.google.com/id/0-1). For example: `sevSession1 “~/simulation/ampTest/spectre/myResults” ) => t` loads results from the \"myResults\" directory.\n*  [studylib](https://vertexaisearch.cloud.google.com/id/0-1)  **SKILL Language:** It is employed within SKILL scripts to interact with Cadence tools, such as setting engine options or printing simulation results.\n*  [studylib](https://vertexaisearch.cloud.google.com/id/0-1) [cadence](https://vertexaisearch.cloud.google.com/id/0-6) [thecadforums](https://vertexaisearch.cloud.google.com/id/0-4)  **ADE State Management:** While directly loading ADE state in batch mode isn't officially supported, `sevSession1` is associated with ADE sessions. There are discussions around parsing ADE state files in SKILL to achieve similar functionality.\n*  [cadence](https://vertexaisearch.cloud.google.com/id/0-0)  **Plotting:** The session identifier is used in plotting functions, such as `sevDirectPlot('sevSession1 'asiiPlotTranSignalCB)`, to specify the session to which the plot applies.\n*  [cadence](https://vertexaisearch.cloud.google.com/id/0-3)  **Noise Analysis:** It appears in the context of noise summary settings within the Cadence environment.\n*  [cadence](https://vertexaisearch.cloud.google.com/id/0-2)  **Bindkeys:** It can be used to set up bindkeys for various actions within the Cadence environment, such as printing device operating point information.\n*  [cadence](https://vertexaisearch.cloud.google.com/id/0-6)  **Menus:** It is used in menu definitions within Cadence.\n\n* [rssing](https://vertexaisearch.cloud.google.com/id/0-7)*Vulnerabilities:**\nWhile \"sevSession1\" itself isn't a vulnerability, the search results do bring up some interesting points regarding vulnerabilities in related areas:\n*   **AMD SEV-SNP Vulnerability:** A security vulnerability was disclosed in AMD's Secure Encrypted Virtualization (SEV) that could permit an attacker to load a malicious CPU microcode under specific conditions. Th [thehackernews](https://vertexaisearch.cloud.google.com/id/0-8)e flaw, tracked as CVE-2024-56161, carries a CVSS score of 7.2 out of 10.0, indicating high severity.\n*  [thehackernews](https://vertexaisearch.cloud.google.com/id/0-8)  **SSH Protocol 1.5 Session Key Recovery Vulnerability:** A vulnerability in the SSH 1.5 protocol allows an attacker to recover arbitrary session keys.\n*  [coresecurity](https://vertexaisearch.cloud.google.com/id/0-9)  **Remote Code Execution in OpenSSH:** Security Researchers have identified a remote code execution in OpenSSH.\n\nI [suse](https://vertexaisearch.cloud.google.com/id/0-10)t's important to note that the presence of \"sevSession1\" in discussions and code snippets doesn't inherently indicate a vulnerability. Instead, it's a session identifier within the Cadence design environment.\n [cadence](https://vertexaisearch.cloud.google.com/id/0-0) [studylib](https://vertexaisearch.cloud.google.com/id/0-1) [cadence](https://vertexaisearch.cloud.google.com/id/0-2) [cadence](https://vertexaisearch.cloud.google.com/id/0-3) [thecadforums](https://vertexaisearch.cloud.google.com/id/0-4) [cadence](https://vertexaisearch.cloud.google.com/id/0-5)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuv1Ef1O0q_c7egqEtuNrasFMmkFzebxBos2LhZ9poe2-OtLxwocGJ633-FOQTSbEbYsNJ2TYmZ-nyDK1Yz0LC6Yu9PsfCKDAh1irDMbEKecg6HLQ_J6sSg6ndcsd-XT0HzhapdOgwimsRcP37WMiCZ0QL0S4oRVZXO-krXYGDGqHXvW5kICqj0izf-39hHvo1jcjgSS8QFPPhEc3VmFe0B7ePNzTSbCKU"
+      },
+      {
+        "label": "studylib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXaC02rynA-gW3HRLACesm5neYuTSsMHm9lgfI1hsSpOr4iAkYizuiKFxc-1ZMNN6ZdZCXV4SWlvF6E56unhHTaOH_AeKet_3MubHvf8mD244GaOU2_ygN9KMqNj6WE1JFB-WACC-zCUdTuenyncEfVkcUjrqmrdF4qDEchRSc6oJlG9_ctnE="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDnOrb3clpRzg1yMDu2D3GStormT3S7ncqccDSMbg9jslaNgKGb_7pjigZl4vakeUnj9JjHUQW8l6gQD3E7EKFJV-aAYLa8OCxn19L6RpXXoSfsDiIg6jyl06lJilXERzWG295pLsqNIiQTLVrAXs_KwCFoO8DEeLTyfCbslGRyhQvuGsf9kYsjWz2wwmgigpRzZBDhVcEKKAKI2vqvNWpEgryewQyix6Ad-tVSwMG37Io6yErTADTIAni-ZbHm9FBvcgdqYIF-_PCODpi7gJOJ8727PS-93qrFQ=="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEWiUmwUDLKcbHijn7Vay-5FSOtNgjLkaqHlTk3geqqY2xowdKjt3zhPiEjJ-CGWsyVdvQlK8LHH7q98_1rwdGwmTqqpJUYxTujPTpnUuoYaSgROtxjneHYRmmvK5bYfuAhh43Sfyw77oxKkBu_i52d8M2x8PbTHFg-n8-6Ql7u2bw6ZQiLjv_2f4wryJFzIFZ3DKqvWCgAFdrhRFr3sIL2Q1dazAT76aEYlkOK5DbZN4="
+      },
+      {
+        "label": "thecadforums",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA959GSuJe-dZ9eD7LIADB7Top8ra7QvAFdyGvpxe9e8gAvr63C364pYsI_31NBI4ifvORwWD4qjLkMnfwy7UxtmAmbZVOd2BirW1sQVcDcyKGS5KFyk5UCwaA8T4ZREO71_LExziJLLdqc3kbsH-Yu5j7wHsHivWNFCaMWUrlq9wxnBbw6udaon2OGFb7-7vtTIJJpCg="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1G304TwpT0iu0s8Zf4issQbtCumQq-8VI6-0xNfq3-eI1HSTWSPK-CrrF_tmS3SzaVcGaQrVTeBPa0vQ-tFxAP_ba7TLDhieWGvKSWAq2I8pbsOTI3HYNAzMTBb6VeSpG65cI6tjiTz-HRZ41zON2hco2okihY2zT10d-QYhUOtA6RBXDiCWZ0Kx4vlB1oVzqKj0beJvSt9E_-i0QN8WYcBZ9Bq5e_HDMv4mnN3PollsAMWcbIU8B"
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuv1Ef1O0q_c7egqEtuNrasFMmkFzebxBos2LhZ9poe2-OtLxwocGJ633-FOQTSbEbYsNJ2TYmZ-nyDK1Yz0LC6Yu9PsfCKDAh1irDMbEKecg6HLQ_J6sSg6ndcsd-XT0HzhapdOgwimsRcP37WMiCZ0QL0S4oRVZXO-krXYGDGqHXvW5kICqj0izf-39hHvo1jcjgSS8QFPPhEc3VmFe0B7ePNzTSbCKU"
+      },
+      {
+        "label": "studylib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXaC02rynA-gW3HRLACesm5neYuTSsMHm9lgfI1hsSpOr4iAkYizuiKFxc-1ZMNN6ZdZCXV4SWlvF6E56unhHTaOH_AeKet_3MubHvf8mD244GaOU2_ygN9KMqNj6WE1JFB-WACC-zCUdTuenyncEfVkcUjrqmrdF4qDEchRSc6oJlG9_ctnE="
+      },
+      {
+        "label": "studylib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXaC02rynA-gW3HRLACesm5neYuTSsMHm9lgfI1hsSpOr4iAkYizuiKFxc-1ZMNN6ZdZCXV4SWlvF6E56unhHTaOH_AeKet_3MubHvf8mD244GaOU2_ygN9KMqNj6WE1JFB-WACC-zCUdTuenyncEfVkcUjrqmrdF4qDEchRSc6oJlG9_ctnE="
+      },
+      {
+        "label": "studylib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXaC02rynA-gW3HRLACesm5neYuTSsMHm9lgfI1hsSpOr4iAkYizuiKFxc-1ZMNN6ZdZCXV4SWlvF6E56unhHTaOH_AeKet_3MubHvf8mD244GaOU2_ygN9KMqNj6WE1JFB-WACC-zCUdTuenyncEfVkcUjrqmrdF4qDEchRSc6oJlG9_ctnE="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuE91nnhSa9A1tuAckQZpDf1uCKpL0VSdqA1KAvb1gV4jAfnPtZ5ZJuXJ7uPVGM4OSSD5gFYXrdzY6bzeJ-6tccmpptX8ZMOlU0RENWetpHkiHBEeWfXHELrUdoeY5yRSJmhF4dWLhMNNGZLSYTSSuyn4k1t94o80dVR7wyCN6NNLwg8YdturUBr98CbFYqaC0MImmcbJ48wyi3_RhHsVMqDTGgj-XBuZNv4LqJGDHLbwb1RfsTDOBriJe7NY="
+      },
+      {
+        "label": "thecadforums",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA959GSuJe-dZ9eD7LIADB7Top8ra7QvAFdyGvpxe9e8gAvr63C364pYsI_31NBI4ifvORwWD4qjLkMnfwy7UxtmAmbZVOd2BirW1sQVcDcyKGS5KFyk5UCwaA8T4ZREO71_LExziJLLdqc3kbsH-Yu5j7wHsHivWNFCaMWUrlq9wxnBbw6udaon2OGFb7-7vtTIJJpCg="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuv1Ef1O0q_c7egqEtuNrasFMmkFzebxBos2LhZ9poe2-OtLxwocGJ633-FOQTSbEbYsNJ2TYmZ-nyDK1Yz0LC6Yu9PsfCKDAh1irDMbEKecg6HLQ_J6sSg6ndcsd-XT0HzhapdOgwimsRcP37WMiCZ0QL0S4oRVZXO-krXYGDGqHXvW5kICqj0izf-39hHvo1jcjgSS8QFPPhEc3VmFe0B7ePNzTSbCKU"
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEWiUmwUDLKcbHijn7Vay-5FSOtNgjLkaqHlTk3geqqY2xowdKjt3zhPiEjJ-CGWsyVdvQlK8LHH7q98_1rwdGwmTqqpJUYxTujPTpnUuoYaSgROtxjneHYRmmvK5bYfuAhh43Sfyw77oxKkBu_i52d8M2x8PbTHFg-n8-6Ql7u2bw6ZQiLjv_2f4wryJFzIFZ3DKqvWCgAFdrhRFr3sIL2Q1dazAT76aEYlkOK5DbZN4="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDnOrb3clpRzg1yMDu2D3GStormT3S7ncqccDSMbg9jslaNgKGb_7pjigZl4vakeUnj9JjHUQW8l6gQD3E7EKFJV-aAYLa8OCxn19L6RpXXoSfsDiIg6jyl06lJilXERzWG295pLsqNIiQTLVrAXs_KwCFoO8DEeLTyfCbslGRyhQvuGsf9kYsjWz2wwmgigpRzZBDhVcEKKAKI2vqvNWpEgryewQyix6Ad-tVSwMG37Io6yErTADTIAni-ZbHm9FBvcgdqYIF-_PCODpi7gJOJ8727PS-93qrFQ=="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuE91nnhSa9A1tuAckQZpDf1uCKpL0VSdqA1KAvb1gV4jAfnPtZ5ZJuXJ7uPVGM4OSSD5gFYXrdzY6bzeJ-6tccmpptX8ZMOlU0RENWetpHkiHBEeWfXHELrUdoeY5yRSJmhF4dWLhMNNGZLSYTSSuyn4k1t94o80dVR7wyCN6NNLwg8YdturUBr98CbFYqaC0MImmcbJ48wyi3_RhHsVMqDTGgj-XBuZNv4LqJGDHLbwb1RfsTDOBriJe7NY="
+      },
+      {
+        "label": "rssing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKpmZeDZNI4jiIj5Pc4c42mCXq82uauuzx2KPvZoBLQjkmBYeG1ZFYMuf3qZ7NcZjpMJzOu8pnp8Xn8FidzQW7YiNoUOhp4Sv1unryVghmpZcbJnN82KReG_U9SlswEGsbATILAxOwdfVKVugMxw=="
+      },
+      {
+        "label": "thehackernews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELFtZK3BiaG4S5RxiDHXdYb65wDl4rw6vQM_7qJtfEza57y4D-f772i5wz7LcMGdOCZ5Qwu3CswavJWoR5rC9CBBknS8QY5g7wB1KD2pkqwfsA06Hw0QZCXulNdO-hBxcn-GN_uypkRIc1xjK7vRZ7z_ZGe3NvsWMTuoh1nbZmP80="
+      },
+      {
+        "label": "thehackernews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELFtZK3BiaG4S5RxiDHXdYb65wDl4rw6vQM_7qJtfEza57y4D-f772i5wz7LcMGdOCZ5Qwu3CswavJWoR5rC9CBBknS8QY5g7wB1KD2pkqwfsA06Hw0QZCXulNdO-hBxcn-GN_uypkRIc1xjK7vRZ7z_ZGe3NvsWMTuoh1nbZmP80="
+      },
+      {
+        "label": "coresecurity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG64QxPiH0rmuI1mzncaxDjTUoSbvM-0qEaYkQSAz1bXd73EoWCXZfnA5xOjA3RTx5CAMkY-l0UlDLICP8oHcYaFv5sVEoUIXJl7FDXOB-BC8EqbjfDPKzOyf88cvSrSmqdMgUmD5BBAn59LZYZ8F7sScTqJXaLZ3u8ADD9bvuShTcYMCYFlpOi6EExVTezvuCgesTori3GKj8MHS-khA=="
+      },
+      {
+        "label": "suse",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY_sxxOl8qFNGWy_5UdDAcURuECFEC-fw2vsns_edXmLEiQH6AGgu_YE0C66fYjBza3JexFErHDbmnANpOU2ceEOdBnO5-alf_Hd6YfYWrZV7CMMblwLUGL35u8w3qxLlx6OxG7gF7M2xVFA=="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuv1Ef1O0q_c7egqEtuNrasFMmkFzebxBos2LhZ9poe2-OtLxwocGJ633-FOQTSbEbYsNJ2TYmZ-nyDK1Yz0LC6Yu9PsfCKDAh1irDMbEKecg6HLQ_J6sSg6ndcsd-XT0HzhapdOgwimsRcP37WMiCZ0QL0S4oRVZXO-krXYGDGqHXvW5kICqj0izf-39hHvo1jcjgSS8QFPPhEc3VmFe0B7ePNzTSbCKU"
+      },
+      {
+        "label": "studylib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXaC02rynA-gW3HRLACesm5neYuTSsMHm9lgfI1hsSpOr4iAkYizuiKFxc-1ZMNN6ZdZCXV4SWlvF6E56unhHTaOH_AeKet_3MubHvf8mD244GaOU2_ygN9KMqNj6WE1JFB-WACC-zCUdTuenyncEfVkcUjrqmrdF4qDEchRSc6oJlG9_ctnE="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDnOrb3clpRzg1yMDu2D3GStormT3S7ncqccDSMbg9jslaNgKGb_7pjigZl4vakeUnj9JjHUQW8l6gQD3E7EKFJV-aAYLa8OCxn19L6RpXXoSfsDiIg6jyl06lJilXERzWG295pLsqNIiQTLVrAXs_KwCFoO8DEeLTyfCbslGRyhQvuGsf9kYsjWz2wwmgigpRzZBDhVcEKKAKI2vqvNWpEgryewQyix6Ad-tVSwMG37Io6yErTADTIAni-ZbHm9FBvcgdqYIF-_PCODpi7gJOJ8727PS-93qrFQ=="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEWiUmwUDLKcbHijn7Vay-5FSOtNgjLkaqHlTk3geqqY2xowdKjt3zhPiEjJ-CGWsyVdvQlK8LHH7q98_1rwdGwmTqqpJUYxTujPTpnUuoYaSgROtxjneHYRmmvK5bYfuAhh43Sfyw77oxKkBu_i52d8M2x8PbTHFg-n8-6Ql7u2bw6ZQiLjv_2f4wryJFzIFZ3DKqvWCgAFdrhRFr3sIL2Q1dazAT76aEYlkOK5DbZN4="
+      },
+      {
+        "label": "thecadforums",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA959GSuJe-dZ9eD7LIADB7Top8ra7QvAFdyGvpxe9e8gAvr63C364pYsI_31NBI4ifvORwWD4qjLkMnfwy7UxtmAmbZVOd2BirW1sQVcDcyKGS5KFyk5UCwaA8T4ZREO71_LExziJLLdqc3kbsH-Yu5j7wHsHivWNFCaMWUrlq9wxnBbw6udaon2OGFb7-7vtTIJJpCg="
+      },
+      {
+        "label": "cadence",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1G304TwpT0iu0s8Zf4issQbtCumQq-8VI6-0xNfq3-eI1HSTWSPK-CrrF_tmS3SzaVcGaQrVTeBPa0vQ-tFxAP_ba7TLDhieWGvKSWAq2I8pbsOTI3HYNAzMTBb6VeSpG65cI6tjiTz-HRZ41zON2hco2okihY2zT10d-QYhUOtA6RBXDiCWZ0Kx4vlB1oVzqKj0beJvSt9E_-i0QN8WYcBZ9Bq5e_HDMv4mnN3PollsAMWcbIU8B"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

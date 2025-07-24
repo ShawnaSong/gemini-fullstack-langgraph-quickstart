@@ -1,0 +1,362 @@
+{
+  "file_name": "state_result_155.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.582572",
+  "data": {
+    "messages": [
+      {
+        "content": "Dans Logs Analytics, à quoi sert MicrosoftGraphActivityLogs en KQL?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "91f2cfe7-6254-44a6-9805-b998bf886109",
+        "example": false
+      },
+      {
+        "content": "Dans Azure Log Analytics, `MicrosoftGraphActivityLogs` est utilisé en KQL (Kusto Query Language) pour analyser l'audit trail des requêtes HTTP faites au service Microsoft Graph pour un tenant [kqlquery](https://vertexaisearch.cloud.google.com/id/1-0) [office365itpros](https://vertexaisearch.cloud.google.com/id/0-0) [practical365](https://vertexaisearch.cloud.google.com/id/1-1). Ces logs fournissent des informations détaillées sur le comportement des utilisateurs et des applications, ce qui permet de détecter les activités suspectes et d'enquêter sur les comptes compromis [demiliani](https://vertexaisearch.cloud.google.com/id/1-2) [practical365](https://vertexaisearch.cloud.google.com/id/1-1).\n\nVoici quelques utilisations spécifiques de `MicrosoftGraphActivityLogs` avec KQL :\n\n*   **Détection d'activités suspectes :**\n    *   Détecter les exécutions potentielles d'AzureHound en filtrant les requêtes GET avec le statut 200 [kqlquery](https://vertexaisearch.cloud.google.com/id/1-0).\n    *   Identifier les applications Entra qui ont des accès avec des permissions à fort impact [microsoft](https://vertexaisearch.cloud.google.com/id/1-3).\n    *   Enquêter sur les appels d'API Microsoft Graph liés aux activités de téléchargement [microsoft](https://vertexaisearch.cloud.google.com/id/1-3).\n    *   Identifier les User Agents inhabituels en comparant les User Agents connus par entité aux données actuelles [cloudbrothers](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Enquêter sur les comptes compromis :**\n    *   Établir une chronologie de l'activité récente d'un utilisateur pour identifier les anomalies [practical365](https://vertexaisearch.cloud.google.com/id/1-5).  Par exemple, la requête KQL suivante récupère toutes les requêtes API Graph faites au nom d'un utilisateur spécifique au cours des dernières 24 heures [practical365](https://vertexaisearch.cloud.google.com/id/1-5) :\n\n```kql\nMicrosoftGraphActivityLogs\n| where TimeGenerated > ago(24h)\n| where UserId == \"<UserPrincipalName>\"\n| project TimeGenerated, AppId, RequestMethod, RequestUri, ResponseStatusCode, IPAddress\n| sort by TimeGenerated desc\n```\n\n*Remplacer `<UserPrincipalName>` par l'e-mail ou l'ID réel de l'utilisateur [practical365](https://vertexaisearch.cloud.google.com/id/1-5).*\n\n    *   Corréler les requêtes Microsoft Graph faites par un utilisateur ou une application avec les informations de connexion [microsoft](https://vertexaisearch.cloud.google.com/id/1-6).\n    *   Identifier les activités qu'un compte d'utilisateur compromis a menées dans votre tenant [microsoft](https://vertexaisearch.cloud.google.com/id/1-6) [demiliani](https://vertexaisearch.cloud.google.com/id/1-2).\n    *   Rechercher les indicateurs courants de compromission de boîte aux lettres, identifier les schémas d'accès suspects et détecter les règles de boîte de réception malveillantes [practical365](https://vertexaisearch.cloud.google.com/id/1-1) [practical365](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Autres requêtes KQL :**\n    *   Identifier les 20 premières instances d'application par nombre de requêtes au cours des 7 derniers jours [demiliani](https://vertexaisearch.cloud.google.com/id/1-2).\n    *   Découvrir les requêtes qui ont échoué en raison de l'autorisation au cours de la dernière heure [demiliani](https://vertexaisearch.cloud.google.com/id/1-2).\n\nPour activer la collecte de ces logs, les administrateurs de tenant peuvent utiliser les paramètres de diagnostic dans Azure Monitor [practical365](https://vertexaisearch.cloud.google.com/id/0-3).  Il est important de noter que les logs d'activité Microsoft Graph ne sont pas collectés par défaut et doivent être configurés via les paramètres de diagnostic d'Azure Monitor [paloaltonetworks](https://vertexaisearch.cloud.google.com/id/1-7) [microsoft](https://vertexaisearch.cloud.google.com/id/1-3). Pour utiliser les logs Microsoft Entra avec Azure Monitor, un tenant Microsoft Entra ID P1 ou P2 et un espace de travail Log Analytics dans votre abonnement Azure sont nécessaires [demiliani](https://vertexaisearch.cloud.google.com/id/1-2).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "7f2f2466-a61b-4e69-b441-4e836ee6b5d4",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "MicrosoftGraphActivityLogs KQL usage in Azure Monitor logs",
+      "Can you provide specific examples of KQL queries used with MicrosoftGraphActivityLogs to detect suspicious activities or investigate compromised accounts?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent information on \"MicrosoftGraphActivityLogs KQL usage in Azure Monitor logs\" and synthesize it into a verifiable text artifact.\nMicrosoft Graph Activity Logs provide an audit trail of HTTP requests made to the Microsoft Graph service for resources in a tenant [office365itpros](https://vertexaisearch.cloud.google.com/id/0-0) [microsoft](https://vertexaisearch.cloud.google.com/id/0-1) [microsoft](https://vertexaisearch.cloud.google.com/id/0-2). Tenant administrators can enable the collection of these logs using diagnostic settings in Azure Monitor [microsoft](https://vertexaisearch.cloud.google.com/id/0-1) [practical365](https://vertexaisearch.cloud.google.com/id/0-3). These logs can then be sent to various destinations, including Azure Log Analytics workspace for analysis using Kusto Query Language (KQL), building dashboards, and setting up alerts [practical365](https://vertexaisearch.cloud.google.com/id/0-3). They can also be exported to Azure Storage for long-term archival and compliance, or streamed with Azure Event Hubs to external Security Information and Event Management (SIEM) tools [practical365](https://vertexaisearch.cloud.google.com/id/0-3) [microsoft](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Key aspects of Microsoft Graph Activity Logs and KQL usage in Azure Monitor Logs:**\n\n*   **Data Captured:** The logs capture comprehensive details about each API request, including the endpoint URI, HTTP method, API version, and the Application Identifier (AppId) of the client application initiating the request [practical365](https://vertexaisearch.cloud.google.com/id/0-3). All logs for API requests made from line of business applications, API clients, SDKs, and by Microsoft applications like Outlook, Microsoft Teams, or the Microsoft Entra admin center are available [microsoft](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Common Use Cases:** Common use cases include identifying activities conducted by compromised user accounts, building detections and behavioral analysis to identify suspicious or anomalous use of Microsoft Graph APIs, investigating unexpected or suspicious privileged assignment of application permissions, and identifying problematic or unexpected behaviors for client applications [demiliani](https://vertexaisearch.cloud.google.com/id/0-4) [microsoft](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Prerequisites:** To access the Microsoft Graph activity logs, a Microsoft Entra ID P1 or P2 tenant license is required [microsoft](https://vertexaisearch.cloud.google.com/id/0-1). An administrator with a supported Microsoft Entra administrator role, such as Security Administrator, is also needed [microsoft](https://vertexaisearch.cloud.google.com/id/0-1). An Azure subscription with a configured log destination, such as an Azure Log Analytics workspace, Azure Storage Account, or Azure Event Hubs namespace, is necessary [microsoft](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Enabling and Configuring:** Tenant administrators can enable the collection of Microsoft Graph activity logs using diagnostic settings in Azure Monitor [practical365](https://vertexaisearch.cloud.google.com/id/0-3). This can be done through the Azure portal or Azure Resource Manager APIs [microsoft](https://vertexaisearch.cloud.google.com/id/0-1). In the Diagnostic settings page, you need to give a name for the new setting and select the `MicrosoftGraphActivityLogs` category [demiliani](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **KQL Queries:** If you send Microsoft Graph activity logs to a Log Analytics workspace, you can query the logs using Kusto Query Language (KQL) [microsoft](https://vertexaisearch.cloud.google.com/id/0-1). KQL queries can be used for data exploration, building alert rules, creating Azure dashboards, or integrating into custom applications using the Azure Monitor Logs API or Query SDK [microsoft](https://vertexaisearch.cloud.google.com/id/0-1). Example queries include identifying the top entities making requests, correlating activity logs with sign-in logs, and detecting suspicious activities [microsoft](https://vertexaisearch.cloud.google.com/id/0-1) [demiliani](https://vertexaisearch.cloud.google.com/id/0-4) [kqlquery](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Limitations:** You can't filter Microsoft Graph activity logs through diagnostic settings in Azure Monitor [microsoft](https://vertexaisearch.cloud.google.com/id/0-1). However, options are available to reduce costs in Azure Log Analytics Workspace, such as workspace transformations or switching to the Basic log data plan [microsoft](https://vertexaisearch.cloud.google.com/id/0-1). The Microsoft Graph activity logs feature allows the tenant administrators to collect logs for the resource tenant, and it doesn't allow you to see the activities of a multitenant application in another tenant [microsoft](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Schema:** The Microsoft Graph documentation defines the schema of the logs [azure](https://vertexaisearch.cloud.google.com/id/0-6). The logs are stored in Log Analytics for analysis [microsoft](https://vertexaisearch.cloud.google.com/id/0-1). Key columns for detection and forensics include AppId, IPAddress, RequestId, RequestMethod, RequestUri, Roles, Scopes, ServicePrincipalId, UserAgent, and UserId [kqlquery](https://vertexaisearch.cloud.google.com/id/0-5) [microsoft](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Cost Reduction:** Workspace transformations can be used to reduce costs in Azure Log Analytics Workspace [microsoft](https://vertexaisearch.cloud.google.com/id/0-1). An alternative approach to reduce Log Analytics cost is to switch to the Basic log data plan which lowers the bills by providing reduced capabilities [microsoft](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **PowerShell Integration:** The Azure PowerShell SDK can be used to embed KQL queries into scripts to automate log retrieval and analysis [practical365](https://vertexaisearch.cloud.google.com/id/0-3) [practical365](https://vertexaisearch.cloud.google.com/id/0-7).\n",
+      "Microsoft Graph Activity Logs provide an audit trail of HTTP requests processed by the Microsoft Graph service for a tenant [kqlquery](https://vertexaisearch.cloud.google.com/id/1-0) [practical365](https://vertexaisearch.cloud.google.com/id/1-1). These logs offer detailed insights into user and application behavior, which can be leveraged to detect suspicious activities and investigate compromised accounts [demiliani](https://vertexaisearch.cloud.google.com/id/1-2) [practical365](https://vertexaisearch.cloud.google.com/id/1-1). They can be enabled via diagnostic settings in Azure Monitor and sent to various destinations, including Azure Log Analytics workspace for analysis using Kusto Query Language (KQL) [practical365](https://vertexaisearch.cloud.google.com/id/1-1).\n\nHere are examples of how KQL queries can be used with Microsoft Graph Activity Logs:\n\n**Detecting Suspicious Activities:**\n\n*   **AzureHound Detection:** This query detects potential AzureHound executions by filtering on GET requests with status 200, counting the number of bytes retrieved, and the number of unique requests executed within an hour [kqlquery](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Privilege Abuse:** Identify Entra applications that have accesses with high-impact permissions [microsoft](https://vertexaisearch.cloud.google.com/id/1-3). This involves creating a safe list of approved applications and continuously monitoring high privileged accesses to detect potential security threats [microsoft](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Data Exfiltration:** This query helps investigate Microsoft Graph API calls related to download activities. Analyzing the UserAgent and AppID can help determine whether these activities are expected [microsoft](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Unusual User Agent:** Building a list of known User Agents per entity and comparing those to current data may help identify anomalies [cloudbrothers](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Detecting AzureHound executions:** Detect potential AzureHound executions by filtering on GET requests with status 200 since AzureHound is a collector that submits GET requests to retrieve the data [kqlquery](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Investigating Compromised Accounts:**\n\n*   **General Activity Audit:** Establish a timeline of a user's recent activity to identify anomalies such as access from unknown applications, unusual IP addresses, or devices that the user doesn't typically use [practical365](https://vertexaisearch.cloud.google.com/id/1-5).\n    *   This KQL query retrieves all Graph API requests made on behalf of a specific user within the past 24 hours [practical365](https://vertexaisearch.cloud.google.com/id/1-5):\n\n```kql\nMicrosoftGraphActivityLogs\n| where TimeGenerated > ago(24h)\n| where UserId == \"<UserPrincipalName>\"\n| project TimeGenerated, AppId, RequestMethod, RequestUri, ResponseStatusCode, IPAddress\n| sort by TimeGenerated desc\n```\n\n*Replace `<UserPrincipalName>` with the actual user's email or ID [practical365](https://vertexaisearch.cloud.google.com/id/1-5).*\n\n*   **Correlate with Sign-in Logs:** Correlate Microsoft Graph requests made by a user or app with sign-in information [microsoft](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Identify Activities:** Identify the activities that a compromised user account conducted in your tenant [microsoft](https://vertexaisearch.cloud.google.com/id/1-6) [demiliani](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Mailbox Breaches:** Hunt for common indicators of mailbox compromise, identify suspicious access patterns, and detect malicious inbox rules [practical365](https://vertexaisearch.cloud.google.com/id/1-1) [practical365](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**Additional KQL Queries:**\n\n*   **Top 20 App Instances by Request Count:** This query identifies the top 20 app instances by request count in the last 7 days [demiliani](https://vertexaisearch.cloud.google.com/id/1-2):\n\n```kql\nMicrosoftGraphActivityLogs\n| where TimeGenerated > ago(7d)\n| summarize RequestCount=count() by AppId, IpAddress, UserAgent\n| sort by RequestCount\n| limit 20\n```\n\n*   **Discover Requests Failed Due to Authorization:** This query helps discover requests that failed due to authorization in the last day [demiliani](https://vertexaisearch.cloud.google.com/id/1-2):\n\n```kql\nMicrosoftGraphActivityLogs\n| where TimeGenerated > ago(1h)\n| where ResponseStatusCode == 401 or ResponseStatusCode == 403\n| project TimeGenerated, AppId, RequestUri, ResponseStatusCode\n```\n\n**Important Considerations:**\n\n*   Microsoft Graph activity logs are not collected by default and must be configured via Azure Monitor's diagnostic settings [paloaltonetworks](https://vertexaisearch.cloud.google.com/id/1-7) [microsoft](https://vertexaisearch.cloud.google.com/id/1-3).\n*   To use Microsoft Entra logs with Azure Monitor, a Microsoft Entra ID P1 or P2 tenant and a Log Analytics workspace in your Azure subscription are required [demiliani](https://vertexaisearch.cloud.google.com/id/1-2).\n*   The `RequestUri` field can be parsed using the `parse_url()` function to make it easier to query and analyze [microsoft](https://vertexaisearch.cloud.google.com/id/1-3).\n*   Correlating MicrosoftGraphActivityLogs with other logs, such as IdentityInfo, can provide additional context [microsoft](https://vertexaisearch.cloud.google.com/id/1-3) [cloudbrothers](https://vertexaisearch.cloud.google.com/id/1-4). User and Entity Behavior Analytics (UEBA) needs to be enabled for data to appear in IdentityInfo [microsoft](https://vertexaisearch.cloud.google.com/id/1-3).\n*   Be aware of the limitations of the logs, such as the fact that other APIs are not part of this log [microsoft](https://vertexaisearch.cloud.google.com/id/1-6) [cloudbrothers](https://vertexaisearch.cloud.google.com/id/1-4).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "office365itpros",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAmZdV-koGoNSJIs7wWCAnyRROLNXfP2otGdqCFLuVDLqkpytkqplzaIF71dejy5ksBa2hZduUFyMIdxTBedEGX4DLwf_ICfr93pgGI8cXe1jJ79M9ukFQZHUN0eaSZ5dnUBTXMeGOD-cB3rQqep6VFArNL4RYuKhL"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPv1WSMOKOIbl96aFBlUAFc81VU7jBFdioi7IQwsb4wgK6rBQISLh_6cMkLlHobyMKgJsmvj3Y5GMmnDihzTMaYTLSov3m6WoieN9QrBg5YMTPvpuky6rueJtc__wUQf2pOwYQ3c_fhAxw5livnaQ3Uzj-lheafAs-C8XdQezM9a64erQ6ICcetdgRbwgDXdYi7gTMaD7abYVmkd4="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHbrn-es6z_RPtmykGrEY3vD7efSQ3y8GrvAmw9TeSsVueZHcYJhbsaNcV5owT1e55uC8UGZKErEC7sR7HKC-wQRHPphIY8UzcHHXE3z_9gRv1eM1iqYnAfQl_K835JM6ACixJ1XbepeoFPEomco5FhUd4JdjF31h4kFS5OaniPfgBQsg="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHbrn-es6z_RPtmykGrEY3vD7efSQ3y8GrvAmw9TeSsVueZHcYJhbsaNcV5owT1e55uC8UGZKErEC7sR7HKC-wQRHPphIY8UzcHHXE3z_9gRv1eM1iqYnAfQl_K835JM6ACixJ1XbepeoFPEomco5FhUd4JdjF31h4kFS5OaniPfgBQsg="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHbrn-es6z_RPtmykGrEY3vD7efSQ3y8GrvAmw9TeSsVueZHcYJhbsaNcV5owT1e55uC8UGZKErEC7sR7HKC-wQRHPphIY8UzcHHXE3z_9gRv1eM1iqYnAfQl_K835JM6ACixJ1XbepeoFPEomco5FhUd4JdjF31h4kFS5OaniPfgBQsg="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHbrn-es6z_RPtmykGrEY3vD7efSQ3y8GrvAmw9TeSsVueZHcYJhbsaNcV5owT1e55uC8UGZKErEC7sR7HKC-wQRHPphIY8UzcHHXE3z_9gRv1eM1iqYnAfQl_K835JM6ACixJ1XbepeoFPEomco5FhUd4JdjF31h4kFS5OaniPfgBQsg="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "demiliani",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1k40zLU_DymAnl79URqZNjaUah-g81QZQv8m2fAZFAMBbo48d1-ZbCLdjb1yJUYTow7p9G3QGlNsvUfuUV_wL3Spzi-9gSzc12Pyt-5SZoaCsPJ0zYc99L4CdvDNPxnmSFfyLvBmyMy6xaGpbVsYvBOKNon3Z5d6MB1F8Cqocv4pkb20Igrd4PpbMvasUoIEwwwU="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHbrn-es6z_RPtmykGrEY3vD7efSQ3y8GrvAmw9TeSsVueZHcYJhbsaNcV5owT1e55uC8UGZKErEC7sR7HKC-wQRHPphIY8UzcHHXE3z_9gRv1eM1iqYnAfQl_K835JM6ACixJ1XbepeoFPEomco5FhUd4JdjF31h4kFS5OaniPfgBQsg="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "demiliani",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1k40zLU_DymAnl79URqZNjaUah-g81QZQv8m2fAZFAMBbo48d1-ZbCLdjb1yJUYTow7p9G3QGlNsvUfuUV_wL3Spzi-9gSzc12Pyt-5SZoaCsPJ0zYc99L4CdvDNPxnmSFfyLvBmyMy6xaGpbVsYvBOKNon3Z5d6MB1F8Cqocv4pkb20Igrd4PpbMvasUoIEwwwU="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "demiliani",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1k40zLU_DymAnl79URqZNjaUah-g81QZQv8m2fAZFAMBbo48d1-ZbCLdjb1yJUYTow7p9G3QGlNsvUfuUV_wL3Spzi-9gSzc12Pyt-5SZoaCsPJ0zYc99L4CdvDNPxnmSFfyLvBmyMy6xaGpbVsYvBOKNon3Z5d6MB1F8Cqocv4pkb20Igrd4PpbMvasUoIEwwwU="
+      },
+      {
+        "label": "kqlquery",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1NgastWTqpLpRCpFWik6SK5KLC2atSg2HWFjmC_l1TvbdFYyQQyfOS_JQewxA_YNKt5I6ml7NbxHnTk2bfbPKU0PoF0rBSrstA_d2ROahbEcpqbWZiKC1aWT7hyG2JRsTqRBenNpfNg=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "azure",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkjrXCS6wGNgl_oUoQW43i2sPmUZ9l5gIIHy761vMYJaH54mGlKKpZZcn16fwbuHH-hzK4aKcfyLzNKo3FDUPZBwDjpWAmEsbyvYrSNvN6Or6rSQMX7urVcFroBE0EnuyQmvZVs3tXLobYUk4QBY91pWLs_q-2sytck_n1wywmHwp_bmHel_lJbMrx9OOIsqnBbL9a"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "kqlquery",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1NgastWTqpLpRCpFWik6SK5KLC2atSg2HWFjmC_l1TvbdFYyQQyfOS_JQewxA_YNKt5I6ml7NbxHnTk2bfbPKU0PoF0rBSrstA_d2ROahbEcpqbWZiKC1aWT7hyG2JRsTqRBenNpfNg=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPv1WSMOKOIbl96aFBlUAFc81VU7jBFdioi7IQwsb4wgK6rBQISLh_6cMkLlHobyMKgJsmvj3Y5GMmnDihzTMaYTLSov3m6WoieN9QrBg5YMTPvpuky6rueJtc__wUQf2pOwYQ3c_fhAxw5livnaQ3Uzj-lheafAs-C8XdQezM9a64erQ6ICcetdgRbwgDXdYi7gTMaD7abYVmkd4="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgcbdv1_b8-OP6BxKthKO1OhQP4ylC7SsFVn0TdvYn_FdbvbitD9EZ8fJIvJGoD5gDf0imZfVp-OTdUW5mOLw0JrfGecSgl6nWA5bLUlt7PbOhi2hm-XzNxKt23YU6SnOkKVzi1g-kMQN6IDOO03_x-RFJzIuOMEa_Zaaze0aEt5BdoBCDIGMDsw=="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHbrn-es6z_RPtmykGrEY3vD7efSQ3y8GrvAmw9TeSsVueZHcYJhbsaNcV5owT1e55uC8UGZKErEC7sR7HKC-wQRHPphIY8UzcHHXE3z_9gRv1eM1iqYnAfQl_K835JM6ACixJ1XbepeoFPEomco5FhUd4JdjF31h4kFS5OaniPfgBQsg="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGhxL-lqmafll42Xwx4ZaEUlg2lyZnAqZKfY0ctqfScOHX-EVVZqDBZmFESwjHilPJ2paIPVHAsx9oaQDYUj-952RezEjUNGN8RCRwnAOiz8RelclFFN7vkEvZTUwESxzOXDRlXnlikbqtWjTMHS7dQw_tiHNr3CJSfWZ1zZkNioB2qvevx9dV445G50ZpZw=="
+      },
+      {
+        "label": "kqlquery",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaenJHUb_ofqG1TyJkU2jorET9TbvKlfnjgvNpZPqaGgwCi6kVcy7XOnv5boRAUNv1ZUGQhiCQ4kwRcw0cL-mRb_IwIunyGLcGUcnkhtnvE5gOIGxicMMnV9RzbSy0My_7fe3g_uXVCw=="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGowk48SnCEtxRzwUdDl54S6O2rshX23FfuoraYbYGTNA8FDFwE1mRlpH2jVVuaGFGi_Nf66JztUx6xXII2pQ_XRXYHHnnbKuFihxKSqwpxmtFIp3mFNNhV1e376twaSrqpitYAPCyHLUmQZfNywFTqwbWpNAQ-J-Mndz3nAHA8_kxx4uE="
+      },
+      {
+        "label": "demiliani",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzGMqCCLKLE3Z84QgKX3QrhM2IVE3DCjGfOqCqVKnrPiQVWt5FW_X2ulFPmp9ulz8zTSgwjkn2MChfXiJat1o0CP3b5ikUCkPgKdsfy9mbSUKmWCKeLzgqEAcMHiCPGCA4J2MtWKH6_b1xd0iUFhRpWUUpQhHrXNYL9ghG9hIsRTheoZ6b_1lHU4aYQlCPBxPRS8E="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGowk48SnCEtxRzwUdDl54S6O2rshX23FfuoraYbYGTNA8FDFwE1mRlpH2jVVuaGFGi_Nf66JztUx6xXII2pQ_XRXYHHnnbKuFihxKSqwpxmtFIp3mFNNhV1e376twaSrqpitYAPCyHLUmQZfNywFTqwbWpNAQ-J-Mndz3nAHA8_kxx4uE="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGowk48SnCEtxRzwUdDl54S6O2rshX23FfuoraYbYGTNA8FDFwE1mRlpH2jVVuaGFGi_Nf66JztUx6xXII2pQ_XRXYHHnnbKuFihxKSqwpxmtFIp3mFNNhV1e376twaSrqpitYAPCyHLUmQZfNywFTqwbWpNAQ-J-Mndz3nAHA8_kxx4uE="
+      },
+      {
+        "label": "kqlquery",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaenJHUb_ofqG1TyJkU2jorET9TbvKlfnjgvNpZPqaGgwCi6kVcy7XOnv5boRAUNv1ZUGQhiCQ4kwRcw0cL-mRb_IwIunyGLcGUcnkhtnvE5gOIGxicMMnV9RzbSy0My_7fe3g_uXVCw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVf7JXuRszMBX1R42HuIegfHzW4S1vP5QUGFOv6Jg-dielVF2VX5GdXEHsV73_JYF2oQKOhAni_R0GwJqqKZY6MUMmQybtYJNHrZ968PP3R0lrSFbiHBUH02ulVuKOaxS2luHPhRVFRQOxRJjOqcCTLxwqotFL0AjnKzS4rOAwdsttl2nQzdQU1-AWmpGV4F57wLN6s0_02ZOTcvy5eg6jSFO4defRkjk5ExstxEsl"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVf7JXuRszMBX1R42HuIegfHzW4S1vP5QUGFOv6Jg-dielVF2VX5GdXEHsV73_JYF2oQKOhAni_R0GwJqqKZY6MUMmQybtYJNHrZ968PP3R0lrSFbiHBUH02ulVuKOaxS2luHPhRVFRQOxRJjOqcCTLxwqotFL0AjnKzS4rOAwdsttl2nQzdQU1-AWmpGV4F57wLN6s0_02ZOTcvy5eg6jSFO4defRkjk5ExstxEsl"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVf7JXuRszMBX1R42HuIegfHzW4S1vP5QUGFOv6Jg-dielVF2VX5GdXEHsV73_JYF2oQKOhAni_R0GwJqqKZY6MUMmQybtYJNHrZ968PP3R0lrSFbiHBUH02ulVuKOaxS2luHPhRVFRQOxRJjOqcCTLxwqotFL0AjnKzS4rOAwdsttl2nQzdQU1-AWmpGV4F57wLN6s0_02ZOTcvy5eg6jSFO4defRkjk5ExstxEsl"
+      },
+      {
+        "label": "cloudbrothers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8l2Sx3At1z_LymvjlGIcmDwZUCmyWX5G9m0HcWZNFxaN8I3SGszj936Q0WzAnEmg8o3GUQm-VPNOg_7JBVYhlrcKm6l1Dd3u2UcYSz9-ZMhxzcbsZAsNw0u_XS-RBvc68jnJvn1HrypM1YlzDNFz23IrQ6EcGYqoRDrRpxlacLpWuJ9A="
+      },
+      {
+        "label": "kqlquery",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaenJHUb_ofqG1TyJkU2jorET9TbvKlfnjgvNpZPqaGgwCi6kVcy7XOnv5boRAUNv1ZUGQhiCQ4kwRcw0cL-mRb_IwIunyGLcGUcnkhtnvE5gOIGxicMMnV9RzbSy0My_7fe3g_uXVCw=="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6yzwmN2yyw0Gund9uTQB5T_ZBn_75wFJ3PjFY2BSGQAuoLM1XX7IQc-9PgyCMC6ADmc4RQKyuTHcXFPtJaGCSg1QBBsyzdiS7FIZU4XIbMbnssOKcVQiREiP0Ogbbmse3Yd27XXanIoN0g3QSxzjYghqd-jJNe8qmJlL_wIiulFQXRCN9ZErDRIZFhrJ0yw=="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6yzwmN2yyw0Gund9uTQB5T_ZBn_75wFJ3PjFY2BSGQAuoLM1XX7IQc-9PgyCMC6ADmc4RQKyuTHcXFPtJaGCSg1QBBsyzdiS7FIZU4XIbMbnssOKcVQiREiP0Ogbbmse3Yd27XXanIoN0g3QSxzjYghqd-jJNe8qmJlL_wIiulFQXRCN9ZErDRIZFhrJ0yw=="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6yzwmN2yyw0Gund9uTQB5T_ZBn_75wFJ3PjFY2BSGQAuoLM1XX7IQc-9PgyCMC6ADmc4RQKyuTHcXFPtJaGCSg1QBBsyzdiS7FIZU4XIbMbnssOKcVQiREiP0Ogbbmse3Yd27XXanIoN0g3QSxzjYghqd-jJNe8qmJlL_wIiulFQXRCN9ZErDRIZFhrJ0yw=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIS0Sd6v35eWjEIv-ZBnR_3-8dX7Yjz822l1ObSeQ96aULqWbF3k2ikxUXJmj19nXVwsLvT120fd4j0Pw6kPJa2YJhtiDhx0UlIJP07rh2otFtCtAQaivci06m-KVvmwKVj5vrg7d17hV3oOjVwL96r9VAaIjEySMwQlbfiDHVC9dFLMajTNEhWg=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIS0Sd6v35eWjEIv-ZBnR_3-8dX7Yjz822l1ObSeQ96aULqWbF3k2ikxUXJmj19nXVwsLvT120fd4j0Pw6kPJa2YJhtiDhx0UlIJP07rh2otFtCtAQaivci06m-KVvmwKVj5vrg7d17hV3oOjVwL96r9VAaIjEySMwQlbfiDHVC9dFLMajTNEhWg=="
+      },
+      {
+        "label": "demiliani",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzGMqCCLKLE3Z84QgKX3QrhM2IVE3DCjGfOqCqVKnrPiQVWt5FW_X2ulFPmp9ulz8zTSgwjkn2MChfXiJat1o0CP3b5ikUCkPgKdsfy9mbSUKmWCKeLzgqEAcMHiCPGCA4J2MtWKH6_b1xd0iUFhRpWUUpQhHrXNYL9ghG9hIsRTheoZ6b_1lHU4aYQlCPBxPRS8E="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGowk48SnCEtxRzwUdDl54S6O2rshX23FfuoraYbYGTNA8FDFwE1mRlpH2jVVuaGFGi_Nf66JztUx6xXII2pQ_XRXYHHnnbKuFihxKSqwpxmtFIp3mFNNhV1e376twaSrqpitYAPCyHLUmQZfNywFTqwbWpNAQ-J-Mndz3nAHA8_kxx4uE="
+      },
+      {
+        "label": "practical365",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6yzwmN2yyw0Gund9uTQB5T_ZBn_75wFJ3PjFY2BSGQAuoLM1XX7IQc-9PgyCMC6ADmc4RQKyuTHcXFPtJaGCSg1QBBsyzdiS7FIZU4XIbMbnssOKcVQiREiP0Ogbbmse3Yd27XXanIoN0g3QSxzjYghqd-jJNe8qmJlL_wIiulFQXRCN9ZErDRIZFhrJ0yw=="
+      },
+      {
+        "label": "demiliani",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzGMqCCLKLE3Z84QgKX3QrhM2IVE3DCjGfOqCqVKnrPiQVWt5FW_X2ulFPmp9ulz8zTSgwjkn2MChfXiJat1o0CP3b5ikUCkPgKdsfy9mbSUKmWCKeLzgqEAcMHiCPGCA4J2MtWKH6_b1xd0iUFhRpWUUpQhHrXNYL9ghG9hIsRTheoZ6b_1lHU4aYQlCPBxPRS8E="
+      },
+      {
+        "label": "demiliani",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzGMqCCLKLE3Z84QgKX3QrhM2IVE3DCjGfOqCqVKnrPiQVWt5FW_X2ulFPmp9ulz8zTSgwjkn2MChfXiJat1o0CP3b5ikUCkPgKdsfy9mbSUKmWCKeLzgqEAcMHiCPGCA4J2MtWKH6_b1xd0iUFhRpWUUpQhHrXNYL9ghG9hIsRTheoZ6b_1lHU4aYQlCPBxPRS8E="
+      },
+      {
+        "label": "paloaltonetworks",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNAjDARbPR4xOp2EEhtM0wnf6jX8T7UF85ft70WsS1bFd8eaCOAfsuJ7zcjIkgLCfmCdm2wkyJrbpnIIc3OFHWI6c4r4AhWahJNo5Dt2JID0si1a_qLkigWoQJMnUwztX-qGfkGQBK-aAb_s9c3RS33J6hAit2KLb04IjjnApafksHAXqeVBOYf88kFeaGRm2_oQmOmT4yELW7FSTFJztVtVreeFeaWykGwA=="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVf7JXuRszMBX1R42HuIegfHzW4S1vP5QUGFOv6Jg-dielVF2VX5GdXEHsV73_JYF2oQKOhAni_R0GwJqqKZY6MUMmQybtYJNHrZ968PP3R0lrSFbiHBUH02ulVuKOaxS2luHPhRVFRQOxRJjOqcCTLxwqotFL0AjnKzS4rOAwdsttl2nQzdQU1-AWmpGV4F57wLN6s0_02ZOTcvy5eg6jSFO4defRkjk5ExstxEsl"
+      },
+      {
+        "label": "demiliani",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzGMqCCLKLE3Z84QgKX3QrhM2IVE3DCjGfOqCqVKnrPiQVWt5FW_X2ulFPmp9ulz8zTSgwjkn2MChfXiJat1o0CP3b5ikUCkPgKdsfy9mbSUKmWCKeLzgqEAcMHiCPGCA4J2MtWKH6_b1xd0iUFhRpWUUpQhHrXNYL9ghG9hIsRTheoZ6b_1lHU4aYQlCPBxPRS8E="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVf7JXuRszMBX1R42HuIegfHzW4S1vP5QUGFOv6Jg-dielVF2VX5GdXEHsV73_JYF2oQKOhAni_R0GwJqqKZY6MUMmQybtYJNHrZ968PP3R0lrSFbiHBUH02ulVuKOaxS2luHPhRVFRQOxRJjOqcCTLxwqotFL0AjnKzS4rOAwdsttl2nQzdQU1-AWmpGV4F57wLN6s0_02ZOTcvy5eg6jSFO4defRkjk5ExstxEsl"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVf7JXuRszMBX1R42HuIegfHzW4S1vP5QUGFOv6Jg-dielVF2VX5GdXEHsV73_JYF2oQKOhAni_R0GwJqqKZY6MUMmQybtYJNHrZ968PP3R0lrSFbiHBUH02ulVuKOaxS2luHPhRVFRQOxRJjOqcCTLxwqotFL0AjnKzS4rOAwdsttl2nQzdQU1-AWmpGV4F57wLN6s0_02ZOTcvy5eg6jSFO4defRkjk5ExstxEsl"
+      },
+      {
+        "label": "cloudbrothers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8l2Sx3At1z_LymvjlGIcmDwZUCmyWX5G9m0HcWZNFxaN8I3SGszj936Q0WzAnEmg8o3GUQm-VPNOg_7JBVYhlrcKm6l1Dd3u2UcYSz9-ZMhxzcbsZAsNw0u_XS-RBvc68jnJvn1HrypM1YlzDNFz23IrQ6EcGYqoRDrRpxlacLpWuJ9A="
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVf7JXuRszMBX1R42HuIegfHzW4S1vP5QUGFOv6Jg-dielVF2VX5GdXEHsV73_JYF2oQKOhAni_R0GwJqqKZY6MUMmQybtYJNHrZ968PP3R0lrSFbiHBUH02ulVuKOaxS2luHPhRVFRQOxRJjOqcCTLxwqotFL0AjnKzS4rOAwdsttl2nQzdQU1-AWmpGV4F57wLN6s0_02ZOTcvy5eg6jSFO4defRkjk5ExstxEsl"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIS0Sd6v35eWjEIv-ZBnR_3-8dX7Yjz822l1ObSeQ96aULqWbF3k2ikxUXJmj19nXVwsLvT120fd4j0Pw6kPJa2YJhtiDhx0UlIJP07rh2otFtCtAQaivci06m-KVvmwKVj5vrg7d17hV3oOjVwL96r9VAaIjEySMwQlbfiDHVC9dFLMajTNEhWg=="
+      },
+      {
+        "label": "cloudbrothers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8l2Sx3At1z_LymvjlGIcmDwZUCmyWX5G9m0HcWZNFxaN8I3SGszj936Q0WzAnEmg8o3GUQm-VPNOg_7JBVYhlrcKm6l1Dd3u2UcYSz9-ZMhxzcbsZAsNw0u_XS-RBvc68jnJvn1HrypM1YlzDNFz23IrQ6EcGYqoRDrRpxlacLpWuJ9A="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

@@ -1,0 +1,682 @@
+{
+  "file_name": "state_result_91.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.826190",
+  "data": {
+    "messages": [
+      {
+        "content": "Характеристики rtx 5070",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "afde71ad-1250-43af-a00c-dd7bbc2a1b04",
+        "example": false
+      },
+      {
+        "content": "The RTX 5070 was released on March 4th, 2025, for $549 [microcenter](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww=) [pcgamesn](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa) [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf). It is considered a \"mainstream\" GPU, targeting high refresh-rate 1440p gaming and entry-level 4K [microcenter](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww=). Some reviews suggest it performs similarly to the RTX 4070 Super, with the RTX 5070 essentially being a rebranded 4070 Super [techspot](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQW2QC9RtdtZbGueHtouS3wjMbhTzwllsy4Ox1a_byFAIQ-IR8_Clw1SJ4hUlD0np0vx86_qkjcjn5Q7mAy1bSVEQvJI35ctUpseEtt8-x2MF0fdRxr8cCcumD6u6tfIwoAqxkefuVxXQC0kpyXz6Oxf256-DrZCA=) [rockpapershotgun](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcUrD4t3LHFDEB3OFdQA0GpcyYIPEGZ92r5RVRTpnRKPMJXAUkBbwEaxJznOR0Sapdal1KYT-XLusGdv3wHYKA3Qs98Ps0VvF4ZLFC-FtGQR7pKOjjhYkZOmhLQzGxkw1ZsnHMmOI1r1Yzd2y7viTXE7dHs3l_3I_xog==).\n\nHere's a summary of its specifications:\n\n*   **CUDA Cores:** 6,144 [microcenter](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww=) [pcgamesn](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa)\n*   **Memory:** 12GB GDDR7 [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf) [microcenter](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww=) [pcgamesn](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa)\n*   **Memory Interface:** 192-bit [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf)\n*   **Memory Speed:** 28 Gbps effective [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf)\n*   **Memory Bandwidth:** 672 GB/s [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw=) [videocardz](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ==)\n*   **Boost Clock:** 2512 MHz [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf)\n*   **Base Clock:** 2325 MHz [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf)\n*   **Power Draw:** 250W [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf) [microcenter](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww=)\n*   **Architecture:** Blackwell 2.0 [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf)\n*   **GPU:** GB205 [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf)\n*   **DirectX 12 Ultimate support** [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf)\n*   **Display Outputs:** 1x HDMI 2.1b, 3x DisplayPort 2.1b [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf)\n\nIn terms of gaming performance, in Cyberpunk 2077 at 4K, the RTX 5070 runs at around 41 FPS, and in Starfield at 4K, it runs at around 54 FPS [gamersnexus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-oFWGg7hZuWbPTk04UjBa9kDQV6s9iIAgYEMLwkYIGjSZjk3jjWqKbR_hEuiM8IxbPwTZFN-2zCgWsnE3l_rDacYX-ygPpr15xy8r1bZNgJn4V-RYS5pb605DK0XoAlF6cd8ynZ2MFtkFBTxvxZZx4C5NyluBxIp67kgt4Ev3Gy19-7N1ToICliixQVHpA7_XU89zaixp).\n\nThere are also rumors of an RTX 5070 Super potentially launching in late 2025 or early 2026 [notebookcheck](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiSLyb7rxDlt08FQUzpt2KhMh5BK9VxuAAGnQ__rdD5ILl261UuZsApNIIa4Y33dO5C23RlE79B9iMEsPj4dR_DXsv8iHNOq7JoAD_L6ge8QnofS-3C03wIwpLqYLXB4Zx_F8f_Bx0j-58pnLTw2OQfCgzEEk6aRrHdX_rHdj5sFdeWmToNgEnIFUOQQPCGWgDFd6yofueDrwhYmR_k4koPxKLRxo-xr6mVrkXDpKt5naB_U_XX4gYTh4YWShosXACrj9fad_Ej0RF9pd2zG3Mp6SQoqeZXg==). It is expected to have 6,400 CUDA cores and 18GB of GDDR7 memory [notebookcheck](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiSLyb7rxDlt08FQUzpt2KhMh5BK9VxuAAGnQ__rdD5ILl261UuZsApNIIa4Y33dO5C23RlE79B9iMEsPj4dR_DXsv8iHNOq7JoAD_L6ge8QnofS-3C03wIwpLqYLXB4Zx_F8f_Bx0j-58pnLTw2OQfCgzEEk6aRrHdX_rHdj5sFdeWmToNgEnIFUOQQPCGWgDFd6yofueDrwhYmR_k4koPxKLRxo-xr6mVrkXDpKt5naB_U_XX4gYTh4YWShosXACrj9fad_Ej0RF9pd2zG3Mp6SQoqeZXg==) [pcgamer](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERaHaRVIaHxMF1kCKyfHR_fTDpE6NsJvBg8mVFYJdbI_Nc33__XVttOGiJSRZeX4S87-VM1DXeDO33dXNr7tyiCA-CRY5HlK1OhFiGFMrf924lzcIZT5VuKtJ3cS8--6mScAN6ZXIoAXCZ6K_1kh4bC4TF7BeO-GlOOVJL52rLDFgNPO7MpRjhBZQfz_Lg9VmqKhBx6fuwrmgfmxq8TqYP0Cl7cseu7BhJjX4w0NN62dWRUlL0kUaWRrxm0JIPwKKC1hRBRo851wOs4HQJ7_wd_EHubibHI8NRlD2lvmaCahCj) [tomshardware](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6m36Nbr7Beo7Sh8YS45kS-AlumMhs2POWRGzakD959TDd5BAXAw5XBQ11U_wTIotdBFzsegAyfnTYMcpgXkkK94lMnMUQ-OdjM9gbJrPFluk7srWvde-fqYVqxd6KJXYS3VYGJVzLnxNg6nut6Ywi7cGcTaOHLTmaJ9uMizLSPL1KDQ8b9KmT61Qg0DWpdFmEPHY9f8QAur77zxdqzdZzCnGpVYEU4KpKq3t7CSC02CIgkdnQsXRQGqTYaeFeHA==) [overclock3d](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKiHFqmQ-eKUS_965Lr2W1ytNRdBToCZSHO8BsU2BkOzHX53qdzFwSKl7NoR2fzlJ6fEyVccv8-Zo9ZCmbcY1ELiQjJ0AtU9BofT0h7BpCaA4n9uVgMse52SQCC4vmrECRhRjKPJTQqx0DU4BhN9NDH3l5QBtmVVxKF4hlv8taprjuxXjMah9OITqIW0uk05FDzQRDGpit5Bx0UTNkgdp2z4a5) [videocardz](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXhRQMNa9YNabRC4ZfoP9C4kvW_yXF7DLtsSvZr9EJanyWpG85sk3DdbXxHRDwOZtj4MT3QkrW3h2X3ao8VgqxNiagPpEwgHRvOUZhoH1MbnACXPkt1ZKUAwwa_1R1YSA7yhEa4owSEXRz5eTrYk814KEul7fMUg==0) [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXhRQMNa9YNabRC4ZfoP9C4kvW_yXF7DLtsSvZr9EJanyWpG85sk3DdbXxHRDwOZtj4MT3QkrW3h2X3ao8VgqxNiagPpEwgHRvOUZhoH1MbnACXPkt1ZKUAwwa_1R1YSA7yhEa4owSEXRz5eTrYk814KEul7fMUg==1). The RTX 5070 Super's TGP is rumored to be 275W [notebookcheck](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiSLyb7rxDlt08FQUzpt2KhMh5BK9VxuAAGnQ__rdD5ILl261UuZsApNIIa4Y33dO5C23RlE79B9iMEsPj4dR_DXsv8iHNOq7JoAD_L6ge8QnofS-3C03wIwpLqYLXB4Zx_F8f_Bx0j-58pnLTw2OQfCgzEEk6aRrHdX_rHdj5sFdeWmToNgEnIFUOQQPCGWgDFd6yofueDrwhYmR_k4koPxKLRxo-xr6mVrkXDpKt5naB_U_XX4gYTh4YWShosXACrj9fad_Ej0RF9pd2zG3Mp6SQoqeZXg==) [tomshardware](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6m36Nbr7Beo7Sh8YS45kS-AlumMhs2POWRGzakD959TDd5BAXAw5XBQ11U_wTIotdBFzsegAyfnTYMcpgXkkK94lMnMUQ-OdjM9gbJrPFluk7srWvde-fqYVqxd6KJXYS3VYGJVzLnxNg6nut6Ywi7cGcTaOHLTmaJ9uMizLSPL1KDQ8b9KmT61Qg0DWpdFmEPHY9f8QAur77zxdqzdZzCnGpVYEU4KpKq3t7CSC02CIgkdnQsXRQGqTYaeFeHA==) [techpowerup](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXhRQMNa9YNabRC4ZfoP9C4kvW_yXF7DLtsSvZr9EJanyWpG85sk3DdbXxHRDwOZtj4MT3QkrW3h2X3ao8VgqxNiagPpEwgHRvOUZhoH1MbnACXPkt1ZKUAwwa_1R1YSA7yhEa4owSEXRz5eTrYk814KEul7fMUg==1) [videocardz](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXhRQMNa9YNabRC4ZfoP9C4kvW_yXF7DLtsSvZr9EJanyWpG85sk3DdbXxHRDwOZtj4MT3QkrW3h2X3ao8VgqxNiagPpEwgHRvOUZhoH1MbnACXPkt1ZKUAwwa_1R1YSA7yhEa4owSEXRz5eTrYk814KEul7fMUg==0) [overclock3d](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKiHFqmQ-eKUS_965Lr2W1ytNRdBToCZSHO8BsU2BkOzHX53qdzFwSKl7NoR2fzlJ6fEyVccv8-Zo9ZCmbcY1ELiQjJ0AtU9BofT0h7BpCaA4n9uVgMse52SQCC4vmrECRhRjKPJTQqx0DU4BhN9NDH3l5QBtmVVxKF4hlv8taprjuxXjMah9OITqIW0uk05FDzQRDGpit5Bx0UTNkgdp2z4a5).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "0623020b-0629-4aff-9590-f5ada4348545",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "RTX 5070 specifications release date",
+      "RTX 5070 performance benchmarks"
+    ],
+    "web_research_result": [
+      "Based on the search results, here's a summary of information regarding the RTX 5070 and RTX 5070 Super:\n\n**RTX 5070**\n\n*   **Release Date:** The RTX 5070 was launched on March 4th, 2025 [microcenter](https://vertexaisearch.cloud.google.com/id/0-0) [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1). It was announced earlier at CES 2025 on January 6th [microcenter](https://vertexaisearch.cloud.google.com/id/0-0) [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-2) [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Price:** The launch price was $549 [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-2) [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Specifications:**\n    *   CUDA Cores: 6,144 [microcenter](https://vertexaisearch.cloud.google.com/id/0-0) [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   Memory: 12GB GDDR7 [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1) [microcenter](https://vertexaisearch.cloud.google.com/id/0-0) [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   Memory Interface: 192-bit [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   Memory Speed: 28 Gbps effective [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   Memory Bandwidth: 672 GB/s [techpowerup](https://vertexaisearch.cloud.google.com/id/0-3) [videocardz](https://vertexaisearch.cloud.google.com/id/0-4).\n    *   Boost Clock: 2512 MHz [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   Base Clock: 2325 MHz [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   Power Draw: 250W [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1) [microcenter](https://vertexaisearch.cloud.google.com/id/0-0).\n    *   Architecture: Blackwell 2.0 [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   GPU: GB205 [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   DirectX 12 Ultimate support [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   Display Outputs: 1x HDMI 2.1b, 3x DisplayPort 2.1b [techpowerup](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**RTX 5070 Super (Rumored)**\n\n*   **Release Date:**  Rumors suggest a release in late 2025 or early 2026 [overclock3d](https://vertexaisearch.cloud.google.com/id/0-5) [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Price:**  Rumored price is around $599 [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Specifications (Rumored):**\n    *   CUDA Cores: 6,400 [techpowerup](https://vertexaisearch.cloud.google.com/id/0-3) [pcgamer](https://vertexaisearch.cloud.google.com/id/0-7) [overclock3d](https://vertexaisearch.cloud.google.com/id/0-5) [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-8) [videocardz](https://vertexaisearch.cloud.google.com/id/0-4) [tomshardware](https://vertexaisearch.cloud.google.com/id/0-9) [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   Memory: 18GB GDDR7 [overclock3d](https://vertexaisearch.cloud.google.com/id/0-5) [techpowerup](https://vertexaisearch.cloud.google.com/id/0-3) [videocardz](https://vertexaisearch.cloud.google.com/id/0-4) [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-8) [tomshardware](https://vertexaisearch.cloud.google.com/id/0-9) [pcgamer](https://vertexaisearch.cloud.google.com/id/0-7) [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   Memory Interface: 192-bit [techpowerup](https://vertexaisearch.cloud.google.com/id/0-3) [videocardz](https://vertexaisearch.cloud.google.com/id/0-4) [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6) [tomshardware](https://vertexaisearch.cloud.google.com/id/0-9) [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   Memory Speed: 28 Gbps [techpowerup](https://vertexaisearch.cloud.google.com/id/0-3) [videocardz](https://vertexaisearch.cloud.google.com/id/0-4) [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-8) [tomshardware](https://vertexaisearch.cloud.google.com/id/0-9) [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   Memory Bandwidth: 672 GB/s [techpowerup](https://vertexaisearch.cloud.google.com/id/0-3) [videocardz](https://vertexaisearch.cloud.google.com/id/0-4).\n    *   TGP: 275W [overclock3d](https://vertexaisearch.cloud.google.com/id/0-5) [videocardz](https://vertexaisearch.cloud.google.com/id/0-4) [techpowerup](https://vertexaisearch.cloud.google.com/id/0-3) [tomshardware](https://vertexaisearch.cloud.google.com/id/0-9) [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6) [pcgamer](https://vertexaisearch.cloud.google.com/id/0-7).\n    *   GPU: GB205-400-A1 [videocardz](https://vertexaisearch.cloud.google.com/id/0-4) [techpowerup](https://vertexaisearch.cloud.google.com/id/0-3) [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6) [pcgamer](https://vertexaisearch.cloud.google.com/id/0-7).\n\n**Important Considerations:**\n\n*   The RTX 5070 is considered a \"mainstream\" GPU, targeting high refresh-rate 1440p gaming and entry-level 4K [microcenter](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Nvidia claimed the RTX 5070 could offer RTX 4090 performance with DLSS 4 [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-2) [pcgamer](https://vertexaisearch.cloud.google.com/id/0-10). However, reviews found this claim didn't always hold up [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-2).\n*   The RTX 5070 Super is rumored to have increased CUDA cores and significantly more VRAM compared to the RTX 5070 [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-8) [pcgamer](https://vertexaisearch.cloud.google.com/id/0-7).\n*   Rumors suggest Nvidia is planning a \"Super\" refresh of the RTX 50 series, including the RTX 5070 Super, RTX 5070 Ti Super, and RTX 5080 Super [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6) [tomshardware](https://vertexaisearch.cloud.google.com/id/0-9).\n*   Kopite7kimi is mentioned as a reliable source for RTX 50 series leaks [overclock3d](https://vertexaisearch.cloud.google.com/id/0-5) [notebookcheck](https://vertexaisearch.cloud.google.com/id/0-6) [techpowerup](https://vertexaisearch.cloud.google.com/id/0-3) [pcgamer](https://vertexaisearch.cloud.google.com/id/0-7) [videocardz](https://vertexaisearch.cloud.google.com/id/0-4) [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-8).\n",
+      "Okay, I will conduct Google Searches to gather the most recent information on \"RTX 5070 performance benchmarks\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of the RTX 5070's performance benchmarks and specifications as of July 4, 2025:\n\n**RTX 5070 General Performance and Specs:**\n\n*   The RTX 5070 was launched on March 4th, 2025, with an original MSRP of $550 [gamersnexus](https://vertexaisearch.cloud.google.com/id/1-0) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-1).\n*   It features 6144 CUDA cores, a 192-bit bus, and 12GB of GDDR7 memory [gamersnexus](https://vertexaisearch.cloud.google.com/id/1-0).\n*   The card has a boost clock of 2512 MHz and uses a PCI-Express 5.0 x16 interface [techpowerup](https://vertexaisearch.cloud.google.com/id/1-1) [tomshardware](https://vertexaisearch.cloud.google.com/id/1-2).\n*   It draws power from a 1x 16-pin power connector and has a rated power draw of 250W [techpowerup](https://vertexaisearch.cloud.google.com/id/1-1).\n*   Display outputs include 1x HDMI 2.1b and 3x DisplayPort 2.1b [techpowerup](https://vertexaisearch.cloud.google.com/id/1-1).\n*   The RTX 5070's performance is often compared to the RTX 4070 Super [techspot](https://vertexaisearch.cloud.google.com/id/1-3) [youtube](https://vertexaisearch.cloud.google.com/id/1-4). Some reviews suggest it performs similarly, with the RTX 5070 essentially being a rebranded 4070 Super [techspot](https://vertexaisearch.cloud.google.com/id/1-3) [rockpapershotgun](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**Gaming Benchmarks:**\n\n*   In Cyberpunk 2077 at 4K, the RTX 5070 runs at around 41 FPS [gamersnexus](https://vertexaisearch.cloud.google.com/id/1-0).\n*   In Starfield at 4K, the RTX 5070 runs at around 54 FPS [gamersnexus](https://vertexaisearch.cloud.google.com/id/1-0).\n*   In Black Myth: Wukong at 4K with upscaling, the RTX 5070 runs at 40 FPS [gamersnexus](https://vertexaisearch.cloud.google.com/id/1-0).\n*   The RTX 5070 generally outperforms the RTX 5060 Ti 16GB, with an average lead of 32% at 4K resolution [tomshardware](https://vertexaisearch.cloud.google.com/id/1-2).\n*   Compared to older cards, the RTX 5070 shows significant performance gains, such as being 118% faster than the RTX 2070 in some games [gamersnexus](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**RTX 5070 Super (Rumored):**\n\n*   Rumors suggest an RTX 5070 Super is in development, potentially launching in late 2025 or early 2026 [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-6).\n*   The RTX 5070 Super is expected to have 6,400 CUDA cores (a 4.1% increase) and 18GB of GDDR7 memory [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-6) [pcgamer](https://vertexaisearch.cloud.google.com/id/1-7) [tomshardware](https://vertexaisearch.cloud.google.com/id/1-8) [overclock3d](https://vertexaisearch.cloud.google.com/id/1-9) [videocardz](https://vertexaisearch.cloud.google.com/id/1-10) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-11).\n*   The memory speed is expected to remain the same, with a bandwidth of 672 GB/s [techpowerup](https://vertexaisearch.cloud.google.com/id/1-11) [videocardz](https://vertexaisearch.cloud.google.com/id/1-10).\n*   The RTX 5070 Super's TGP (Total Graphics Power) is rumored to be 275W, a 25W increase over the base RTX 5070 [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-6) [tomshardware](https://vertexaisearch.cloud.google.com/id/1-8) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-11) [videocardz](https://vertexaisearch.cloud.google.com/id/1-10) [overclock3d](https://vertexaisearch.cloud.google.com/id/1-9).\n\n**RTX 5070 Ti Super (Rumored):**\n\n*   There are also rumors of an RTX 5070 Ti Super with 24GB of GDDR7 memory [pcgamer](https://vertexaisearch.cloud.google.com/id/1-7) [videocardz](https://vertexaisearch.cloud.google.com/id/1-10) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-12).\n*   The RTX 5070 Ti Super is rumored to have a TGP of 350W [techpowerup](https://vertexaisearch.cloud.google.com/id/1-12).\n\n**Criticisms and Considerations:**\n\n*   Some reviews have criticized the RTX 5070 for its underwhelming ray tracing performance and limited 12GB VRAM [techspot](https://vertexaisearch.cloud.google.com/id/1-3).\n*   There have been claims that Nvidia's marketing of the RTX 5070's performance is misleading [gamersnexus](https://vertexaisearch.cloud.google.com/id/1-0).\n*   Availability of RTX 50 series GPUs has been limited, and prices often exceed MSRP [tomshardware](https://vertexaisearch.cloud.google.com/id/1-13) [tomshardware](https://vertexaisearch.cloud.google.com/id/1-2).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "microcenter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "microcenter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww="
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "microcenter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww="
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "microcenter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww="
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "microcenter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "overclock3d",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE58tiOuCqbI_N9qvQtByFnmKWUbPj211eagKeHGTDe4Y4YBVLFx5dtgK_PLDW03LHIVHDlS4QV6qHiY8Eizz17zCMk-_IBMQ6ws6xScKBV56vbZ9Op0nwgfERmrytrhic_z_GlrDzALYtWPa3oKuw9tIa0_EtLMTco-wniM1d9A6LVYVYJGa9jdXRfaQld1Cxq63nOaGXjTTS929oX80wVd28="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT39QGDnQl4giqSuspMrtSJfkUbuE80QLQHTCFPF8tnzYm_wHohF3h_eIBHUAf2jSm77RdE4an7tELM25ODnP92_cwEBniZy01MRRwgFeEXSEDeAzySAUE_o-R0sgKphO0s7G1L6p6jip1quy_OOIG8C-4nAAER6L-J7I2s04-M2FhHmyCn1_cdO5ffI-WvEz0rkdUdS20zzf57QMoDlJNhwTwddjvqXzvFF58Aj4q19_MMwloJc4Yovm59W9yDq-jGTgdentfzS7Jn8jF6Jo7KqaAqXuu1c7PyCo3XXYrtM0="
+      },
+      {
+        "label": "overclock3d",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE58tiOuCqbI_N9qvQtByFnmKWUbPj211eagKeHGTDe4Y4YBVLFx5dtgK_PLDW03LHIVHDlS4QV6qHiY8Eizz17zCMk-_IBMQ6ws6xScKBV56vbZ9Op0nwgfERmrytrhic_z_GlrDzALYtWPa3oKuw9tIa0_EtLMTco-wniM1d9A6LVYVYJGa9jdXRfaQld1Cxq63nOaGXjTTS929oX80wVd28="
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwNi-433m9LpA8SL8p7PwfZuAjt9tvl_EiaQzsM2mOdMZBXgR8QkGAw4Xt3udkEk_NRNCbC0osvM0xt5vb_Ktab3gUbGx0YSpC6yFZpzbU6G1RoMUZfFWQwZFmW-Pt0pVZ22VKELzjJj1VjXmMhfedDQ8mvNRe"
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk0jzahM8Xl5h4WsXtPIn2jP2sMv8O175yZeBNrAhadolAIQvTSaa2_gtPghO9A6UpuFBiXV-5fYFEMp0WimiROOo6uOyz_UnPzRQKMOlftaDxl2mGXhq-PeLia2LrBftOTqPFmqh_th_rkW3q2bnx51EB72s2fTA-FXrfIy__L4whpiDaOC7GKoLWSyZTV3xSstvaH1Bpk_-IizHoOJ-qHvI2xPgnTmdtzcn7pkOMWzMNoZGx1bsD30deAW0T"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "overclock3d",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE58tiOuCqbI_N9qvQtByFnmKWUbPj211eagKeHGTDe4Y4YBVLFx5dtgK_PLDW03LHIVHDlS4QV6qHiY8Eizz17zCMk-_IBMQ6ws6xScKBV56vbZ9Op0nwgfERmrytrhic_z_GlrDzALYtWPa3oKuw9tIa0_EtLMTco-wniM1d9A6LVYVYJGa9jdXRfaQld1Cxq63nOaGXjTTS929oX80wVd28="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwNi-433m9LpA8SL8p7PwfZuAjt9tvl_EiaQzsM2mOdMZBXgR8QkGAw4Xt3udkEk_NRNCbC0osvM0xt5vb_Ktab3gUbGx0YSpC6yFZpzbU6G1RoMUZfFWQwZFmW-Pt0pVZ22VKELzjJj1VjXmMhfedDQ8mvNRe"
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk0jzahM8Xl5h4WsXtPIn2jP2sMv8O175yZeBNrAhadolAIQvTSaa2_gtPghO9A6UpuFBiXV-5fYFEMp0WimiROOo6uOyz_UnPzRQKMOlftaDxl2mGXhq-PeLia2LrBftOTqPFmqh_th_rkW3q2bnx51EB72s2fTA-FXrfIy__L4whpiDaOC7GKoLWSyZTV3xSstvaH1Bpk_-IizHoOJ-qHvI2xPgnTmdtzcn7pkOMWzMNoZGx1bsD30deAW0T"
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT39QGDnQl4giqSuspMrtSJfkUbuE80QLQHTCFPF8tnzYm_wHohF3h_eIBHUAf2jSm77RdE4an7tELM25ODnP92_cwEBniZy01MRRwgFeEXSEDeAzySAUE_o-R0sgKphO0s7G1L6p6jip1quy_OOIG8C-4nAAER6L-J7I2s04-M2FhHmyCn1_cdO5ffI-WvEz0rkdUdS20zzf57QMoDlJNhwTwddjvqXzvFF58Aj4q19_MMwloJc4Yovm59W9yDq-jGTgdentfzS7Jn8jF6Jo7KqaAqXuu1c7PyCo3XXYrtM0="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk0jzahM8Xl5h4WsXtPIn2jP2sMv8O175yZeBNrAhadolAIQvTSaa2_gtPghO9A6UpuFBiXV-5fYFEMp0WimiROOo6uOyz_UnPzRQKMOlftaDxl2mGXhq-PeLia2LrBftOTqPFmqh_th_rkW3q2bnx51EB72s2fTA-FXrfIy__L4whpiDaOC7GKoLWSyZTV3xSstvaH1Bpk_-IizHoOJ-qHvI2xPgnTmdtzcn7pkOMWzMNoZGx1bsD30deAW0T"
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwNi-433m9LpA8SL8p7PwfZuAjt9tvl_EiaQzsM2mOdMZBXgR8QkGAw4Xt3udkEk_NRNCbC0osvM0xt5vb_Ktab3gUbGx0YSpC6yFZpzbU6G1RoMUZfFWQwZFmW-Pt0pVZ22VKELzjJj1VjXmMhfedDQ8mvNRe"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwNi-433m9LpA8SL8p7PwfZuAjt9tvl_EiaQzsM2mOdMZBXgR8QkGAw4Xt3udkEk_NRNCbC0osvM0xt5vb_Ktab3gUbGx0YSpC6yFZpzbU6G1RoMUZfFWQwZFmW-Pt0pVZ22VKELzjJj1VjXmMhfedDQ8mvNRe"
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk0jzahM8Xl5h4WsXtPIn2jP2sMv8O175yZeBNrAhadolAIQvTSaa2_gtPghO9A6UpuFBiXV-5fYFEMp0WimiROOo6uOyz_UnPzRQKMOlftaDxl2mGXhq-PeLia2LrBftOTqPFmqh_th_rkW3q2bnx51EB72s2fTA-FXrfIy__L4whpiDaOC7GKoLWSyZTV3xSstvaH1Bpk_-IizHoOJ-qHvI2xPgnTmdtzcn7pkOMWzMNoZGx1bsD30deAW0T"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "overclock3d",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE58tiOuCqbI_N9qvQtByFnmKWUbPj211eagKeHGTDe4Y4YBVLFx5dtgK_PLDW03LHIVHDlS4QV6qHiY8Eizz17zCMk-_IBMQ6ws6xScKBV56vbZ9Op0nwgfERmrytrhic_z_GlrDzALYtWPa3oKuw9tIa0_EtLMTco-wniM1d9A6LVYVYJGa9jdXRfaQld1Cxq63nOaGXjTTS929oX80wVd28="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk0jzahM8Xl5h4WsXtPIn2jP2sMv8O175yZeBNrAhadolAIQvTSaa2_gtPghO9A6UpuFBiXV-5fYFEMp0WimiROOo6uOyz_UnPzRQKMOlftaDxl2mGXhq-PeLia2LrBftOTqPFmqh_th_rkW3q2bnx51EB72s2fTA-FXrfIy__L4whpiDaOC7GKoLWSyZTV3xSstvaH1Bpk_-IizHoOJ-qHvI2xPgnTmdtzcn7pkOMWzMNoZGx1bsD30deAW0T"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT39QGDnQl4giqSuspMrtSJfkUbuE80QLQHTCFPF8tnzYm_wHohF3h_eIBHUAf2jSm77RdE4an7tELM25ODnP92_cwEBniZy01MRRwgFeEXSEDeAzySAUE_o-R0sgKphO0s7G1L6p6jip1quy_OOIG8C-4nAAER6L-J7I2s04-M2FhHmyCn1_cdO5ffI-WvEz0rkdUdS20zzf57QMoDlJNhwTwddjvqXzvFF58Aj4q19_MMwloJc4Yovm59W9yDq-jGTgdentfzS7Jn8jF6Jo7KqaAqXuu1c7PyCo3XXYrtM0="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT39QGDnQl4giqSuspMrtSJfkUbuE80QLQHTCFPF8tnzYm_wHohF3h_eIBHUAf2jSm77RdE4an7tELM25ODnP92_cwEBniZy01MRRwgFeEXSEDeAzySAUE_o-R0sgKphO0s7G1L6p6jip1quy_OOIG8C-4nAAER6L-J7I2s04-M2FhHmyCn1_cdO5ffI-WvEz0rkdUdS20zzf57QMoDlJNhwTwddjvqXzvFF58Aj4q19_MMwloJc4Yovm59W9yDq-jGTgdentfzS7Jn8jF6Jo7KqaAqXuu1c7PyCo3XXYrtM0="
+      },
+      {
+        "label": "microcenter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww="
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa"
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFjDM40eudeWgBULdGHOtPmv8CJ1nA1QRNHoZFB_KlKStT_PQUEUG0hcjNUqyYvU7je0M4xMt2KM0V899ersXbGRJ2lXYPbalouTvsi_fCo27Y-VPfU5O0EtRPehCZTGXV6sfnub5ZkVpx"
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa"
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwNi-433m9LpA8SL8p7PwfZuAjt9tvl_EiaQzsM2mOdMZBXgR8QkGAw4Xt3udkEk_NRNCbC0osvM0xt5vb_Ktab3gUbGx0YSpC6yFZpzbU6G1RoMUZfFWQwZFmW-Pt0pVZ22VKELzjJj1VjXmMhfedDQ8mvNRe"
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT39QGDnQl4giqSuspMrtSJfkUbuE80QLQHTCFPF8tnzYm_wHohF3h_eIBHUAf2jSm77RdE4an7tELM25ODnP92_cwEBniZy01MRRwgFeEXSEDeAzySAUE_o-R0sgKphO0s7G1L6p6jip1quy_OOIG8C-4nAAER6L-J7I2s04-M2FhHmyCn1_cdO5ffI-WvEz0rkdUdS20zzf57QMoDlJNhwTwddjvqXzvFF58Aj4q19_MMwloJc4Yovm59W9yDq-jGTgdentfzS7Jn8jF6Jo7KqaAqXuu1c7PyCo3XXYrtM0="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk0jzahM8Xl5h4WsXtPIn2jP2sMv8O175yZeBNrAhadolAIQvTSaa2_gtPghO9A6UpuFBiXV-5fYFEMp0WimiROOo6uOyz_UnPzRQKMOlftaDxl2mGXhq-PeLia2LrBftOTqPFmqh_th_rkW3q2bnx51EB72s2fTA-FXrfIy__L4whpiDaOC7GKoLWSyZTV3xSstvaH1Bpk_-IizHoOJ-qHvI2xPgnTmdtzcn7pkOMWzMNoZGx1bsD30deAW0T"
+      },
+      {
+        "label": "overclock3d",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE58tiOuCqbI_N9qvQtByFnmKWUbPj211eagKeHGTDe4Y4YBVLFx5dtgK_PLDW03LHIVHDlS4QV6qHiY8Eizz17zCMk-_IBMQ6ws6xScKBV56vbZ9Op0nwgfERmrytrhic_z_GlrDzALYtWPa3oKuw9tIa0_EtLMTco-wniM1d9A6LVYVYJGa9jdXRfaQld1Cxq63nOaGXjTTS929oX80wVd28="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGVShODK_KGzS41ot-Zx12va6VJs3U-8KHXhJzpM4p-1iqemYokntImUlaRlqg-VkXr1Iz3sP7z7jaSWfvC-fEGvVBSAKo6RSzM3S76AhsRJeumf8X3swcx6ObqQyGrBCWQkJD2sOVP_2U_Qz4GLscMwfnwST4n_uz0N-dKlSvqSB7NdgNz6rDoxw7EP5YYFSJtjnxJtKh5QDRfB3mb6F0szsZCe5fUDCZk9hH5Ruxk-gyLRt4Z-XOayFuVX27QIoaN03Yeh8Ya5yRSW-xT_OxSqUq8gmj"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT39QGDnQl4giqSuspMrtSJfkUbuE80QLQHTCFPF8tnzYm_wHohF3h_eIBHUAf2jSm77RdE4an7tELM25ODnP92_cwEBniZy01MRRwgFeEXSEDeAzySAUE_o-R0sgKphO0s7G1L6p6jip1quy_OOIG8C-4nAAER6L-J7I2s04-M2FhHmyCn1_cdO5ffI-WvEz0rkdUdS20zzf57QMoDlJNhwTwddjvqXzvFF58Aj4q19_MMwloJc4Yovm59W9yDq-jGTgdentfzS7Jn8jF6Jo7KqaAqXuu1c7PyCo3XXYrtM0="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwNi-433m9LpA8SL8p7PwfZuAjt9tvl_EiaQzsM2mOdMZBXgR8QkGAw4Xt3udkEk_NRNCbC0osvM0xt5vb_Ktab3gUbGx0YSpC6yFZpzbU6G1RoMUZfFWQwZFmW-Pt0pVZ22VKELzjJj1VjXmMhfedDQ8mvNRe"
+      },
+      {
+        "label": "gamersnexus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-oFWGg7hZuWbPTk04UjBa9kDQV6s9iIAgYEMLwkYIGjSZjk3jjWqKbR_hEuiM8IxbPwTZFN-2zCgWsnE3l_rDacYX-ygPpr15xy8r1bZNgJn4V-RYS5pb605DK0XoAlF6cd8ynZ2MFtkFBTxvxZZx4C5NyluBxIp67kgt4Ev3Gy19-7N1ToICliixQVHpA7_XU89zaixp"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXhRQMNa9YNabRC4ZfoP9C4kvW_yXF7DLtsSvZr9EJanyWpG85sk3DdbXxHRDwOZtj4MT3QkrW3h2X3ao8VgqxNiagPpEwgHRvOUZhoH1MbnACXPkt1ZKUAwwa_1R1YSA7yhEa4owSEXRz5eTrYk814KEul7fMUg=="
+      },
+      {
+        "label": "gamersnexus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-oFWGg7hZuWbPTk04UjBa9kDQV6s9iIAgYEMLwkYIGjSZjk3jjWqKbR_hEuiM8IxbPwTZFN-2zCgWsnE3l_rDacYX-ygPpr15xy8r1bZNgJn4V-RYS5pb605DK0XoAlF6cd8ynZ2MFtkFBTxvxZZx4C5NyluBxIp67kgt4Ev3Gy19-7N1ToICliixQVHpA7_XU89zaixp"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXhRQMNa9YNabRC4ZfoP9C4kvW_yXF7DLtsSvZr9EJanyWpG85sk3DdbXxHRDwOZtj4MT3QkrW3h2X3ao8VgqxNiagPpEwgHRvOUZhoH1MbnACXPkt1ZKUAwwa_1R1YSA7yhEa4owSEXRz5eTrYk814KEul7fMUg=="
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTqG6bJtMAg7gOZNNluMes-_vRXrYTt-cPSxAATRJNqEzAskJcPPFsbw5zzw9S-C-twPPw_5We2cg5hxOtaYWJnO-DE6NQR-MUY_ymjA7u7dRWcI-tvYb1PJHAWlFbIMdKvz8k8Kt3vgyxMlm6iJ3pTTTSXXTnZZgaEuk9y1Rpx2XMQPybNmM="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXhRQMNa9YNabRC4ZfoP9C4kvW_yXF7DLtsSvZr9EJanyWpG85sk3DdbXxHRDwOZtj4MT3QkrW3h2X3ao8VgqxNiagPpEwgHRvOUZhoH1MbnACXPkt1ZKUAwwa_1R1YSA7yhEa4owSEXRz5eTrYk814KEul7fMUg=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXhRQMNa9YNabRC4ZfoP9C4kvW_yXF7DLtsSvZr9EJanyWpG85sk3DdbXxHRDwOZtj4MT3QkrW3h2X3ao8VgqxNiagPpEwgHRvOUZhoH1MbnACXPkt1ZKUAwwa_1R1YSA7yhEa4owSEXRz5eTrYk814KEul7fMUg=="
+      },
+      {
+        "label": "techspot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQW2QC9RtdtZbGueHtouS3wjMbhTzwllsy4Ox1a_byFAIQ-IR8_Clw1SJ4hUlD0np0vx86_qkjcjn5Q7mAy1bSVEQvJI35ctUpseEtt8-x2MF0fdRxr8cCcumD6u6tfIwoAqxkefuVxXQC0kpyXz6Oxf256-DrZCA="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-5Q3CgoX5sv3geA7QkjJd-y5Bof6-xnr8iR90nL5RUyDi6jId3psceJ39Aw31MdV1yj6ZjsPN7y-IYcQDpjMsJAUH0Z293IMFZhggK88m4V5vTdMHxy3bUK2JMVfznfY9TqS6b6c="
+      },
+      {
+        "label": "techspot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQW2QC9RtdtZbGueHtouS3wjMbhTzwllsy4Ox1a_byFAIQ-IR8_Clw1SJ4hUlD0np0vx86_qkjcjn5Q7mAy1bSVEQvJI35ctUpseEtt8-x2MF0fdRxr8cCcumD6u6tfIwoAqxkefuVxXQC0kpyXz6Oxf256-DrZCA="
+      },
+      {
+        "label": "rockpapershotgun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcUrD4t3LHFDEB3OFdQA0GpcyYIPEGZ92r5RVRTpnRKPMJXAUkBbwEaxJznOR0Sapdal1KYT-XLusGdv3wHYKA3Qs98Ps0VvF4ZLFC-FtGQR7pKOjjhYkZOmhLQzGxkw1ZsnHMmOI1r1Yzd2y7viTXE7dHs3l_3I_xog=="
+      },
+      {
+        "label": "gamersnexus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-oFWGg7hZuWbPTk04UjBa9kDQV6s9iIAgYEMLwkYIGjSZjk3jjWqKbR_hEuiM8IxbPwTZFN-2zCgWsnE3l_rDacYX-ygPpr15xy8r1bZNgJn4V-RYS5pb605DK0XoAlF6cd8ynZ2MFtkFBTxvxZZx4C5NyluBxIp67kgt4Ev3Gy19-7N1ToICliixQVHpA7_XU89zaixp"
+      },
+      {
+        "label": "gamersnexus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-oFWGg7hZuWbPTk04UjBa9kDQV6s9iIAgYEMLwkYIGjSZjk3jjWqKbR_hEuiM8IxbPwTZFN-2zCgWsnE3l_rDacYX-ygPpr15xy8r1bZNgJn4V-RYS5pb605DK0XoAlF6cd8ynZ2MFtkFBTxvxZZx4C5NyluBxIp67kgt4Ev3Gy19-7N1ToICliixQVHpA7_XU89zaixp"
+      },
+      {
+        "label": "gamersnexus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-oFWGg7hZuWbPTk04UjBa9kDQV6s9iIAgYEMLwkYIGjSZjk3jjWqKbR_hEuiM8IxbPwTZFN-2zCgWsnE3l_rDacYX-ygPpr15xy8r1bZNgJn4V-RYS5pb605DK0XoAlF6cd8ynZ2MFtkFBTxvxZZx4C5NyluBxIp67kgt4Ev3Gy19-7N1ToICliixQVHpA7_XU89zaixp"
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTqG6bJtMAg7gOZNNluMes-_vRXrYTt-cPSxAATRJNqEzAskJcPPFsbw5zzw9S-C-twPPw_5We2cg5hxOtaYWJnO-DE6NQR-MUY_ymjA7u7dRWcI-tvYb1PJHAWlFbIMdKvz8k8Kt3vgyxMlm6iJ3pTTTSXXTnZZgaEuk9y1Rpx2XMQPybNmM="
+      },
+      {
+        "label": "gamersnexus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-oFWGg7hZuWbPTk04UjBa9kDQV6s9iIAgYEMLwkYIGjSZjk3jjWqKbR_hEuiM8IxbPwTZFN-2zCgWsnE3l_rDacYX-ygPpr15xy8r1bZNgJn4V-RYS5pb605DK0XoAlF6cd8ynZ2MFtkFBTxvxZZx4C5NyluBxIp67kgt4Ev3Gy19-7N1ToICliixQVHpA7_XU89zaixp"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiSLyb7rxDlt08FQUzpt2KhMh5BK9VxuAAGnQ__rdD5ILl261UuZsApNIIa4Y33dO5C23RlE79B9iMEsPj4dR_DXsv8iHNOq7JoAD_L6ge8QnofS-3C03wIwpLqYLXB4Zx_F8f_Bx0j-58pnLTw2OQfCgzEEk6aRrHdX_rHdj5sFdeWmToNgEnIFUOQQPCGWgDFd6yofueDrwhYmR_k4koPxKLRxo-xr6mVrkXDpKt5naB_U_XX4gYTh4YWShosXACrj9fad_Ej0RF9pd2zG3Mp6SQoqeZXg=="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiSLyb7rxDlt08FQUzpt2KhMh5BK9VxuAAGnQ__rdD5ILl261UuZsApNIIa4Y33dO5C23RlE79B9iMEsPj4dR_DXsv8iHNOq7JoAD_L6ge8QnofS-3C03wIwpLqYLXB4Zx_F8f_Bx0j-58pnLTw2OQfCgzEEk6aRrHdX_rHdj5sFdeWmToNgEnIFUOQQPCGWgDFd6yofueDrwhYmR_k4koPxKLRxo-xr6mVrkXDpKt5naB_U_XX4gYTh4YWShosXACrj9fad_Ej0RF9pd2zG3Mp6SQoqeZXg=="
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERaHaRVIaHxMF1kCKyfHR_fTDpE6NsJvBg8mVFYJdbI_Nc33__XVttOGiJSRZeX4S87-VM1DXeDO33dXNr7tyiCA-CRY5HlK1OhFiGFMrf924lzcIZT5VuKtJ3cS8--6mScAN6ZXIoAXCZ6K_1kh4bC4TF7BeO-GlOOVJL52rLDFgNPO7MpRjhBZQfz_Lg9VmqKhBx6fuwrmgfmxq8TqYP0Cl7cseu7BhJjX4w0NN62dWRUlL0kUaWRrxm0JIPwKKC1hRBRo851wOs4HQJ7_wd_EHubibHI8NRlD2lvmaCahCj"
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6m36Nbr7Beo7Sh8YS45kS-AlumMhs2POWRGzakD959TDd5BAXAw5XBQ11U_wTIotdBFzsegAyfnTYMcpgXkkK94lMnMUQ-OdjM9gbJrPFluk7srWvde-fqYVqxd6KJXYS3VYGJVzLnxNg6nut6Ywi7cGcTaOHLTmaJ9uMizLSPL1KDQ8b9KmT61Qg0DWpdFmEPHY9f8QAur77zxdqzdZzCnGpVYEU4KpKq3t7CSC02CIgkdnQsXRQGqTYaeFeHA=="
+      },
+      {
+        "label": "overclock3d",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKiHFqmQ-eKUS_965Lr2W1ytNRdBToCZSHO8BsU2BkOzHX53qdzFwSKl7NoR2fzlJ6fEyVccv8-Zo9ZCmbcY1ELiQjJ0AtU9BofT0h7BpCaA4n9uVgMse52SQCC4vmrECRhRjKPJTQqx0DU4BhN9NDH3l5QBtmVVxKF4hlv8taprjuxXjMah9OITqIW0uk05FDzQRDGpit5Bx0UTNkgdp2z4a5"
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErjLiwsmesNiy4yXN27RaO2EGTbQikzXtSfodYL30N5oSAln9chG6V64x-8RI-KVSAkIVebZteHib2-z6mQ6zOvh0XpnzLDsKqSKP87d4J3_XEF1ffzvai2eiLrWKJ9-L6qfUqo_MDjogBTsX3z-rFGKpkee5QnFGTQnmz9cHJdVwEG8PINIIMAiu12xBl2p2ohUBeVCo4xEjZUOupUmfPvxHKawOi6c8="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGX7pDjE2N96AtW4zcroB5FAHuUd_r8AP2G0l76aSApQpC9vcChvN6Ywg3CIqm8L7V5WaS5PQPsj02VwThRPjkXzXWySBbuEueCQ-dN5DtrU5WQMFLkwlPakChF1wv_YONTYrdzPe1_yhuF23dKtWM8q8mxLyFVeF_TQ-7dvEhq4wWUNdY2MkD_ja6bsngqyct2LU8fEZCSQv9nusqBU1gIPUxaMxyUszvGP61eyJSaYuL"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGX7pDjE2N96AtW4zcroB5FAHuUd_r8AP2G0l76aSApQpC9vcChvN6Ywg3CIqm8L7V5WaS5PQPsj02VwThRPjkXzXWySBbuEueCQ-dN5DtrU5WQMFLkwlPakChF1wv_YONTYrdzPe1_yhuF23dKtWM8q8mxLyFVeF_TQ-7dvEhq4wWUNdY2MkD_ja6bsngqyct2LU8fEZCSQv9nusqBU1gIPUxaMxyUszvGP61eyJSaYuL"
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErjLiwsmesNiy4yXN27RaO2EGTbQikzXtSfodYL30N5oSAln9chG6V64x-8RI-KVSAkIVebZteHib2-z6mQ6zOvh0XpnzLDsKqSKP87d4J3_XEF1ffzvai2eiLrWKJ9-L6qfUqo_MDjogBTsX3z-rFGKpkee5QnFGTQnmz9cHJdVwEG8PINIIMAiu12xBl2p2ohUBeVCo4xEjZUOupUmfPvxHKawOi6c8="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiSLyb7rxDlt08FQUzpt2KhMh5BK9VxuAAGnQ__rdD5ILl261UuZsApNIIa4Y33dO5C23RlE79B9iMEsPj4dR_DXsv8iHNOq7JoAD_L6ge8QnofS-3C03wIwpLqYLXB4Zx_F8f_Bx0j-58pnLTw2OQfCgzEEk6aRrHdX_rHdj5sFdeWmToNgEnIFUOQQPCGWgDFd6yofueDrwhYmR_k4koPxKLRxo-xr6mVrkXDpKt5naB_U_XX4gYTh4YWShosXACrj9fad_Ej0RF9pd2zG3Mp6SQoqeZXg=="
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6m36Nbr7Beo7Sh8YS45kS-AlumMhs2POWRGzakD959TDd5BAXAw5XBQ11U_wTIotdBFzsegAyfnTYMcpgXkkK94lMnMUQ-OdjM9gbJrPFluk7srWvde-fqYVqxd6KJXYS3VYGJVzLnxNg6nut6Ywi7cGcTaOHLTmaJ9uMizLSPL1KDQ8b9KmT61Qg0DWpdFmEPHY9f8QAur77zxdqzdZzCnGpVYEU4KpKq3t7CSC02CIgkdnQsXRQGqTYaeFeHA=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGX7pDjE2N96AtW4zcroB5FAHuUd_r8AP2G0l76aSApQpC9vcChvN6Ywg3CIqm8L7V5WaS5PQPsj02VwThRPjkXzXWySBbuEueCQ-dN5DtrU5WQMFLkwlPakChF1wv_YONTYrdzPe1_yhuF23dKtWM8q8mxLyFVeF_TQ-7dvEhq4wWUNdY2MkD_ja6bsngqyct2LU8fEZCSQv9nusqBU1gIPUxaMxyUszvGP61eyJSaYuL"
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErjLiwsmesNiy4yXN27RaO2EGTbQikzXtSfodYL30N5oSAln9chG6V64x-8RI-KVSAkIVebZteHib2-z6mQ6zOvh0XpnzLDsKqSKP87d4J3_XEF1ffzvai2eiLrWKJ9-L6qfUqo_MDjogBTsX3z-rFGKpkee5QnFGTQnmz9cHJdVwEG8PINIIMAiu12xBl2p2ohUBeVCo4xEjZUOupUmfPvxHKawOi6c8="
+      },
+      {
+        "label": "overclock3d",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKiHFqmQ-eKUS_965Lr2W1ytNRdBToCZSHO8BsU2BkOzHX53qdzFwSKl7NoR2fzlJ6fEyVccv8-Zo9ZCmbcY1ELiQjJ0AtU9BofT0h7BpCaA4n9uVgMse52SQCC4vmrECRhRjKPJTQqx0DU4BhN9NDH3l5QBtmVVxKF4hlv8taprjuxXjMah9OITqIW0uk05FDzQRDGpit5Bx0UTNkgdp2z4a5"
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERaHaRVIaHxMF1kCKyfHR_fTDpE6NsJvBg8mVFYJdbI_Nc33__XVttOGiJSRZeX4S87-VM1DXeDO33dXNr7tyiCA-CRY5HlK1OhFiGFMrf924lzcIZT5VuKtJ3cS8--6mScAN6ZXIoAXCZ6K_1kh4bC4TF7BeO-GlOOVJL52rLDFgNPO7MpRjhBZQfz_Lg9VmqKhBx6fuwrmgfmxq8TqYP0Cl7cseu7BhJjX4w0NN62dWRUlL0kUaWRrxm0JIPwKKC1hRBRo851wOs4HQJ7_wd_EHubibHI8NRlD2lvmaCahCj"
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErjLiwsmesNiy4yXN27RaO2EGTbQikzXtSfodYL30N5oSAln9chG6V64x-8RI-KVSAkIVebZteHib2-z6mQ6zOvh0XpnzLDsKqSKP87d4J3_XEF1ffzvai2eiLrWKJ9-L6qfUqo_MDjogBTsX3z-rFGKpkee5QnFGTQnmz9cHJdVwEG8PINIIMAiu12xBl2p2ohUBeVCo4xEjZUOupUmfPvxHKawOi6c8="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuDmhWXuYEY0ePRnRCcO-SgRkNGemB3A4Cm-mkNfp_ozVfFI4be_VamKX-G53r_YHx4j9-DoRGtAQWuH22mWKXtz1VYuZEvjCkRGtK5kfBpKUWrlYbLpsj4cUAeX-wvu3P70jSgLuxFm7hDiD6qlyegNSGHEXn3B0nRsdvd2KcxGVis23pL-SxWghjkFHXFnkN5uwDn6D3V3RtY42OU6oF-g=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuDmhWXuYEY0ePRnRCcO-SgRkNGemB3A4Cm-mkNfp_ozVfFI4be_VamKX-G53r_YHx4j9-DoRGtAQWuH22mWKXtz1VYuZEvjCkRGtK5kfBpKUWrlYbLpsj4cUAeX-wvu3P70jSgLuxFm7hDiD6qlyegNSGHEXn3B0nRsdvd2KcxGVis23pL-SxWghjkFHXFnkN5uwDn6D3V3RtY42OU6oF-g=="
+      },
+      {
+        "label": "techspot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQW2QC9RtdtZbGueHtouS3wjMbhTzwllsy4Ox1a_byFAIQ-IR8_Clw1SJ4hUlD0np0vx86_qkjcjn5Q7mAy1bSVEQvJI35ctUpseEtt8-x2MF0fdRxr8cCcumD6u6tfIwoAqxkefuVxXQC0kpyXz6Oxf256-DrZCA="
+      },
+      {
+        "label": "gamersnexus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-oFWGg7hZuWbPTk04UjBa9kDQV6s9iIAgYEMLwkYIGjSZjk3jjWqKbR_hEuiM8IxbPwTZFN-2zCgWsnE3l_rDacYX-ygPpr15xy8r1bZNgJn4V-RYS5pb605DK0XoAlF6cd8ynZ2MFtkFBTxvxZZx4C5NyluBxIp67kgt4Ev3Gy19-7N1ToICliixQVHpA7_XU89zaixp"
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGE4uWAEAxb9sNT6CQvq7jVcdHs9r2OM-f0-CWsutfSmwD90kExVwr9DU3XdDlnAS7n_iZMD3hD8uRZzrKEG0PIDDFLr2HEyXhn7ShQoM6GcvJzDnWrCsw08hAjKzodcAHDuMJcLihrVwpRadss5zYzXT465lCilZuR5ckYXBJzVHCiX0DhYEAor3JSwEim9lHnypQtMltn9X4P"
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTqG6bJtMAg7gOZNNluMes-_vRXrYTt-cPSxAATRJNqEzAskJcPPFsbw5zzw9S-C-twPPw_5We2cg5hxOtaYWJnO-DE6NQR-MUY_ymjA7u7dRWcI-tvYb1PJHAWlFbIMdKvz8k8Kt3vgyxMlm6iJ3pTTTSXXTnZZgaEuk9y1Rpx2XMQPybNmM="
+      },
+      {
+        "label": "microcenter",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQOENRWHXZ9Pe3CF3PQ6-4pulYXbcldcO3LVCGQ-U-hPHCzg8amlvbUcoxRS97zX7bsCNGlOF-Vw_CLYev6EL5G488laY6OvSo4y-uaGEDj0bwP1kp1gaHLke44vPopptHTLJcSYawUByJpegz7ZVw7ixHEsHHcXs_GVBRVaPu7gaALNtW-LUEacZxCTErmww="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_H74ZNeIWWYJTS7v1wmp1I659C173Yc7Ik63lRQLljzwGFdBT1YqS8DfD712v4Ey859hABk8Z3H0vpwesTeeSC2pVyDWm3KgN4w4Jq_Jcyt_PQd6uxzd7nVVGzujoMHXMT3sQZGPGrcBsO1eqLt-PESjPpaf"
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiTdeLD3JxPYAUQPJfuBB0ma2inCjLwgMUqKnf-i_5aKLy1U_QCsagSZxaGfMkCH3TKQA_hiDyTFNDkikQCl8vFJ_7JVIR8KL26Z5PMf07p8g_TJ9jmLBIgRscN9V3ZJ-jHeZ3DAVXTg4AhiGyGPCa"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUezC7qRXCQWjim3JdaS5tru2czGhsbO_dpx5bCTB-kq_dXropKweibdj42sdb8ZY1AeEv6_sXeoLKEFtZ0VJp-AbnyGCzYcNbWGNZnpwBjL9ujqdWGFk5YxFwRO1GGU1-yZ0hyARlNynRBHHCWgZ35-0fdkZahMwspPeQKm91lklL6WC0qLgtR2wSnX_4UfAMDZgZbRY5zWcGYqbW2zH3BXYFpRZH0B9tJrBbjNQKOw="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMQdNpry38oDtps__BzWASSE2tuIS34b_slJ3PGrOB3ypOkZu-m3Q1ykXbxeKV_XX8pPWlQMjKxOXMeGjcvpOfI9cuhC-S3sj6Rr0O86bj0QmDOfTnHTa6wJqF3RPFkqrgRbE3Z9wKnTal5NI6gXo3NMTN_0wSuQ70g6aJjNwWU7NRKhp4bmKP75VvgITHAfWoUIbzsySsY-NbEM5WAX2-xI2hwVkYoQ=="
+      },
+      {
+        "label": "gamersnexus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-oFWGg7hZuWbPTk04UjBa9kDQV6s9iIAgYEMLwkYIGjSZjk3jjWqKbR_hEuiM8IxbPwTZFN-2zCgWsnE3l_rDacYX-ygPpr15xy8r1bZNgJn4V-RYS5pb605DK0XoAlF6cd8ynZ2MFtkFBTxvxZZx4C5NyluBxIp67kgt4Ev3Gy19-7N1ToICliixQVHpA7_XU89zaixp"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXhRQMNa9YNabRC4ZfoP9C4kvW_yXF7DLtsSvZr9EJanyWpG85sk3DdbXxHRDwOZtj4MT3QkrW3h2X3ao8VgqxNiagPpEwgHRvOUZhoH1MbnACXPkt1ZKUAwwa_1R1YSA7yhEa4owSEXRz5eTrYk814KEul7fMUg=="
+      },
+      {
+        "label": "techspot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQW2QC9RtdtZbGueHtouS3wjMbhTzwllsy4Ox1a_byFAIQ-IR8_Clw1SJ4hUlD0np0vx86_qkjcjn5Q7mAy1bSVEQvJI35ctUpseEtt8-x2MF0fdRxr8cCcumD6u6tfIwoAqxkefuVxXQC0kpyXz6Oxf256-DrZCA="
+      },
+      {
+        "label": "rockpapershotgun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcUrD4t3LHFDEB3OFdQA0GpcyYIPEGZ92r5RVRTpnRKPMJXAUkBbwEaxJznOR0Sapdal1KYT-XLusGdv3wHYKA3Qs98Ps0VvF4ZLFC-FtGQR7pKOjjhYkZOmhLQzGxkw1ZsnHMmOI1r1Yzd2y7viTXE7dHs3l_3I_xog=="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiSLyb7rxDlt08FQUzpt2KhMh5BK9VxuAAGnQ__rdD5ILl261UuZsApNIIa4Y33dO5C23RlE79B9iMEsPj4dR_DXsv8iHNOq7JoAD_L6ge8QnofS-3C03wIwpLqYLXB4Zx_F8f_Bx0j-58pnLTw2OQfCgzEEk6aRrHdX_rHdj5sFdeWmToNgEnIFUOQQPCGWgDFd6yofueDrwhYmR_k4koPxKLRxo-xr6mVrkXDpKt5naB_U_XX4gYTh4YWShosXACrj9fad_Ej0RF9pd2zG3Mp6SQoqeZXg=="
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERaHaRVIaHxMF1kCKyfHR_fTDpE6NsJvBg8mVFYJdbI_Nc33__XVttOGiJSRZeX4S87-VM1DXeDO33dXNr7tyiCA-CRY5HlK1OhFiGFMrf924lzcIZT5VuKtJ3cS8--6mScAN6ZXIoAXCZ6K_1kh4bC4TF7BeO-GlOOVJL52rLDFgNPO7MpRjhBZQfz_Lg9VmqKhBx6fuwrmgfmxq8TqYP0Cl7cseu7BhJjX4w0NN62dWRUlL0kUaWRrxm0JIPwKKC1hRBRo851wOs4HQJ7_wd_EHubibHI8NRlD2lvmaCahCj"
+      },
+      {
+        "label": "tomshardware",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6m36Nbr7Beo7Sh8YS45kS-AlumMhs2POWRGzakD959TDd5BAXAw5XBQ11U_wTIotdBFzsegAyfnTYMcpgXkkK94lMnMUQ-OdjM9gbJrPFluk7srWvde-fqYVqxd6KJXYS3VYGJVzLnxNg6nut6Ywi7cGcTaOHLTmaJ9uMizLSPL1KDQ8b9KmT61Qg0DWpdFmEPHY9f8QAur77zxdqzdZzCnGpVYEU4KpKq3t7CSC02CIgkdnQsXRQGqTYaeFeHA=="
+      },
+      {
+        "label": "overclock3d",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKiHFqmQ-eKUS_965Lr2W1ytNRdBToCZSHO8BsU2BkOzHX53qdzFwSKl7NoR2fzlJ6fEyVccv8-Zo9ZCmbcY1ELiQjJ0AtU9BofT0h7BpCaA4n9uVgMse52SQCC4vmrECRhRjKPJTQqx0DU4BhN9NDH3l5QBtmVVxKF4hlv8taprjuxXjMah9OITqIW0uk05FDzQRDGpit5Bx0UTNkgdp2z4a5"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

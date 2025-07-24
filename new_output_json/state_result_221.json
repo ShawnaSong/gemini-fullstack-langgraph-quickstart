@@ -1,0 +1,105 @@
+{
+  "file_name": "state_result_221.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.632672",
+  "data": {
+    "messages": [
+      {
+        "content": "How many subsribers does the Finnish youtuber Pasi Viheraho (the most popular) have?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "2d465b93-c0b8-4ad6-829b-ac3760a62be9",
+        "example": false
+      },
+      {
+        "content": "As of today, July 16, 2025, the Finnish YouTuber Pasi Viheraho, known for his personal style and straightforwardness [showbiz](https://vertexaisearch.cloud.google.com/id/0-0), has two YouTube channels. \"Pasi Viheraho 1\" has 78.7K subscribers [youtube](https://vertexaisearch.cloud.google.com/id/0-1) [youtube](https://vertexaisearch.cloud.google.com/id/0-3), while \"Pasi Viheraho 2\" has 4.83K subscribers [youtube](https://vertexaisearch.cloud.google.com/id/0-4). Therefore, Pasi Viheraho 1 is his most popular channel [showbiz](https://vertexaisearch.cloud.google.com/id/0-0).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "620acb91-7367-4953-9d0e-7a60ad41cd98",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Pasi Viheraho youtube subscribers July 16 2025"
+    ],
+    "web_research_result": [
+      "As of July 16, 2025, Pasi Viheraho is a well-known Finnish YouTuber [showbiz](https://vertexaisearch.cloud.google.com/id/0-0). He is known for his personal style and straightforwardness [showbiz](https://vertexaisearch.cloud.google.com/id/0-0).\n\nHere's what the search results indicate about Pasi Viheraho's YouTube channels:\n\n*   **Pasi Viheraho 1:** As of December 2024, this channel had over 78,000 subscribers and over 82 million views [showbiz](https://vertexaisearch.cloud.google.com/id/0-0). As of July 15, 2025, a recent video on this channel, \"KEURUU REISSU OSA 2\", had 79 views [youtube](https://vertexaisearch.cloud.google.com/id/0-1). Social Blade estimates the channel's earnings for the last 30 days (as of July 16, 2025) at $193 [youtubers](https://vertexaisearch.cloud.google.com/id/0-2). As of July 16, 2025, the channel has 78.7K subscribers [youtube](https://vertexaisearch.cloud.google.com/id/0-1) [youtube](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Pasi Viheraho 2:** This channel has over 4,000 subscribers and over 1,000 videos [showbiz](https://vertexaisearch.cloud.google.com/id/0-0). As of July 16, 2025, the channel has 4.83K subscribers [youtube](https://vertexaisearch.cloud.google.com/id/0-4).\n\nPasi Viheraho started his first YouTube channel in February 2007 and was one of the first Finnish people to actively use the video-sharing service [showbiz](https://vertexaisearch.cloud.google.com/id/0-0). By 2010, his first YouTube channel's videos had gained over 13 million views [showbiz](https://vertexaisearch.cloud.google.com/id/0-0). However, the channel was removed in 2011 due to copyright violations [showbiz](https://vertexaisearch.cloud.google.com/id/0-0). In March 2012, Viheraho returned to YouTube with a new channel, now known as Pasi Viheraho 1 [showbiz](https://vertexaisearch.cloud.google.com/id/0-0).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "showbiz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-BJlJAE6LQcwVyQFqGJzZMSwbTmcbL8erqyehms38HsdWjewtS13OeUzjaLkpNYayMLsoBPYz8A5_bkB1_gjMqwB8dYGDJUVTLdBT9UqsuaIPGERvGqcTVM17BcmMoOh-9VaQ2xQf4xGuxA-9NWNdcE-V1j1S0Lw"
+      },
+      {
+        "label": "showbiz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-BJlJAE6LQcwVyQFqGJzZMSwbTmcbL8erqyehms38HsdWjewtS13OeUzjaLkpNYayMLsoBPYz8A5_bkB1_gjMqwB8dYGDJUVTLdBT9UqsuaIPGERvGqcTVM17BcmMoOh-9VaQ2xQf4xGuxA-9NWNdcE-V1j1S0Lw"
+      },
+      {
+        "label": "showbiz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-BJlJAE6LQcwVyQFqGJzZMSwbTmcbL8erqyehms38HsdWjewtS13OeUzjaLkpNYayMLsoBPYz8A5_bkB1_gjMqwB8dYGDJUVTLdBT9UqsuaIPGERvGqcTVM17BcmMoOh-9VaQ2xQf4xGuxA-9NWNdcE-V1j1S0Lw"
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv-CaFNO7PdCuGRBCs4BNk9ZKTD8534Q5Gjk7u5pWQQfr7XMDr7H_CJOtevmLNhI4kq1OCJQozMnNleQeHFJrDw5AaFeKVy8whglBoo0k-Li346Q97c3GTIP7Fp7YQryVA7z4OJHc="
+      },
+      {
+        "label": "youtubers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAL-tex1utaPKg8cv9k5FTyIQcpY4RAydOEVAPgs6AHq7ARi4GW5MZNs7MBVrZmiyj58a5HFsUlPnczj_hjk8-ekhLRreNeV-fN0qwalUnlRkQt3Lsfn2IVzwGr1VPf01c9nQfXJMCbhPLgKr6Y5F71FADH7HPspDdsR59hGs="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGv-CaFNO7PdCuGRBCs4BNk9ZKTD8534Q5Gjk7u5pWQQfr7XMDr7H_CJOtevmLNhI4kq1OCJQozMnNleQeHFJrDw5AaFeKVy8whglBoo0k-Li346Q97c3GTIP7Fp7YQryVA7z4OJHc="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpdLwt-uTU1oMxUau6YMpzPeCPaapJbfmrNEM42TQ0oscIhqVurOwOJAIA_VLZCumKDTenQj8Lzua8wF38VEqBMBpN-K5WQLZvR_fwVeJvsFaoFu0WxBI-v2IsrgF6zUAVooVARsw="
+      },
+      {
+        "label": "showbiz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-BJlJAE6LQcwVyQFqGJzZMSwbTmcbL8erqyehms38HsdWjewtS13OeUzjaLkpNYayMLsoBPYz8A5_bkB1_gjMqwB8dYGDJUVTLdBT9UqsuaIPGERvGqcTVM17BcmMoOh-9VaQ2xQf4xGuxA-9NWNdcE-V1j1S0Lw"
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzrjCEKJavjBp4yQH5eNMbgBe0mkza0ZSnYKerDZfiBWhKBMA5ow9akUrUcLhVkef-0kjcQiimem3pfKNG3YtQtPUwS39jNFSA6fqbqf4Fbccn2DaEsW1YtoFDw8B1KdKtaEO2L9FfLfE="
+      },
+      {
+        "label": "showbiz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-BJlJAE6LQcwVyQFqGJzZMSwbTmcbL8erqyehms38HsdWjewtS13OeUzjaLkpNYayMLsoBPYz8A5_bkB1_gjMqwB8dYGDJUVTLdBT9UqsuaIPGERvGqcTVM17BcmMoOh-9VaQ2xQf4xGuxA-9NWNdcE-V1j1S0Lw"
+      },
+      {
+        "label": "showbiz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-BJlJAE6LQcwVyQFqGJzZMSwbTmcbL8erqyehms38HsdWjewtS13OeUzjaLkpNYayMLsoBPYz8A5_bkB1_gjMqwB8dYGDJUVTLdBT9UqsuaIPGERvGqcTVM17BcmMoOh-9VaQ2xQf4xGuxA-9NWNdcE-V1j1S0Lw"
+      },
+      {
+        "label": "showbiz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-BJlJAE6LQcwVyQFqGJzZMSwbTmcbL8erqyehms38HsdWjewtS13OeUzjaLkpNYayMLsoBPYz8A5_bkB1_gjMqwB8dYGDJUVTLdBT9UqsuaIPGERvGqcTVM17BcmMoOh-9VaQ2xQf4xGuxA-9NWNdcE-V1j1S0Lw"
+      },
+      {
+        "label": "showbiz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-BJlJAE6LQcwVyQFqGJzZMSwbTmcbL8erqyehms38HsdWjewtS13OeUzjaLkpNYayMLsoBPYz8A5_bkB1_gjMqwB8dYGDJUVTLdBT9UqsuaIPGERvGqcTVM17BcmMoOh-9VaQ2xQf4xGuxA-9NWNdcE-V1j1S0Lw"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

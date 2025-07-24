@@ -1,0 +1,175 @@
+{
+  "file_name": "state_result_93.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.829871",
+  "data": {
+    "messages": [
+      {
+        "content": "What was AMZN's closing price last Friday?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "be6ef8db-2fc7-4781-9731-989c8ce2c6a6",
+        "example": false
+      },
+      {
+        "content": "Last Friday was July 4, 2025, and the stock market was closed [indmoney](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6f4v5lszHUpFeJSbH6_91CM8zphulXBwEKQ6lw_u8mD5HLrhbo2Zo0PrEwld1bhlYFZzndDzPmfsT03t5QIpvTxCg4TbiZ-WOsWjclLyXdY6di4mQVYMZIatNfb9281nV-OrACp4KZ65XPYzTdLZvZVlhXJt5hp1RWqfoA==). Therefore, the most recent closing price available is from Thursday, July 3, 2025. On that day, AMZN closed at $223.41 [macrotrends](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF4x9rVZ9ozN2YFaQY-6RXTD0Az9Gti8EetY-e4FxoESOYV0NRSO6MguyIVJ-pHAoY_LP3TuHRo61k-KZ0KokUCYKqaZf4bWdbWexeXExqqvOPxOopTVFxQVtzwW5u6PMsfHxink8Da3tpZ99VL5K01vUUfgK-HNGlxXpCl09XaHNPGEE=) [nasdaq](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9t4nVzgxt9MweGIIP0BDZ9H99fNPz4QX2zj3tks82v_Cd9F9ApoVSvz7PN-pDLC5JM_woDnEKsGsz9rvts-tJAI-WGGEk-aREKBYVYCR6zgYCWW8idJDmMQAev8cqrlnz7SRrY1gxvIDJzkcnvrzFTTL5u_EBL0k=). However, another source indicates a closing price of $223.06 on BTT [businessinsider](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR45RRe7w4JPTL-SwksZeH6ozWNX7WnomoVIl2bLLWE89G8z45RoXjBKVC6TE0OYW1GrAc4zd1InRtFLO1kGJ24s4EIAXRQWjyEYEt4KxtzdQwI_tdLP8qQITvggccJD8m04BnEhB_t4UXiGuJLMgA).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "68fd5609-b6bd-4305-83b0-4848dc56e345",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "AMZN closing price July 04 2025"
+    ],
+    "web_research_result": [
+      "Please note that the stock market was closed on July 4, 2025 [indmoney](https://vertexaisearch.cloud.google.com/id/0-0). Therefore, the closing price information available is primarily from the previous trading day, July 3, 2025 [businessinsider](https://vertexaisearch.cloud.google.com/id/0-1) [nasdaq](https://vertexaisearch.cloud.google.com/id/0-2).\n\nHere's a summary of the information available regarding Amazon's (AMZN) stock as of July 4, 2025:\n\n*   **Closing Price:**\n\n    *   The closing price for AMZN on July 3, 2025, was $223.41 [macrotrends](https://vertexaisearch.cloud.google.com/id/0-3) [nasdaq](https://vertexaisearch.cloud.google.com/id/0-2). Another source mentions a closing price of $223.06 on BTT [businessinsider](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Daily High and Low:**\n\n    *   The high for July 3, 2025, reached $224.01, and the low was $221.36 [investing](https://vertexaisearch.cloud.google.com/id/0-4) [nasdaq](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   On July 4, 2025, the share price reached a high of $223.90 and a low of $221.51 [indmoney](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Open:**\n\n    *   The stock opened at $221.76 on July 4, 2025 [indmoney](https://vertexaisearch.cloud.google.com/id/0-0).\n    *   The opening price on July 3, 2025, was $221.82 [businessinsider](https://vertexaisearch.cloud.google.com/id/0-1) [nasdaq](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **52-Week Range:**\n\n    *   The 52-week high is $242.52, and the 52-week low is $151.61 [macrotrends](https://vertexaisearch.cloud.google.com/id/0-3) [nasdaq](https://vertexaisearch.cloud.google.com/id/0-5) [indmoney](https://vertexaisearch.cloud.google.com/id/0-0) [nasdaq](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Market Capitalization:**\n\n    *   Amazon's market capitalization is approximately $2.3 trillion [indmoney](https://vertexaisearch.cloud.google.com/id/0-0). Another source reports $1,854.28 billion [businessinsider](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Volume:**\n\n    *   The volume of shares traded on July 3, 2025, was 29,632,353 [nasdaq](https://vertexaisearch.cloud.google.com/id/0-5) [nasdaq](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Stock Performance:**\n\n    *   Amazon stock has gained 7.81% over the last four weeks [tradingeconomics](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   It has risen by 11.72% over the last 12 months [tradingeconomics](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Analysis:**\n\n    *   Analysts have a median target price of $235.83 for Amazon, with estimates ranging from $195.00 to $288.00 [businessinsider](https://vertexaisearch.cloud.google.com/id/0-1).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "indmoney",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6f4v5lszHUpFeJSbH6_91CM8zphulXBwEKQ6lw_u8mD5HLrhbo2Zo0PrEwld1bhlYFZzndDzPmfsT03t5QIpvTxCg4TbiZ-WOsWjclLyXdY6di4mQVYMZIatNfb9281nV-OrACp4KZ65XPYzTdLZvZVlhXJt5hp1RWqfoA=="
+      },
+      {
+        "label": "businessinsider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR45RRe7w4JPTL-SwksZeH6ozWNX7WnomoVIl2bLLWE89G8z45RoXjBKVC6TE0OYW1GrAc4zd1InRtFLO1kGJ24s4EIAXRQWjyEYEt4KxtzdQwI_tdLP8qQITvggccJD8m04BnEhB_t4UXiGuJLMgA"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9t4nVzgxt9MweGIIP0BDZ9H99fNPz4QX2zj3tks82v_Cd9F9ApoVSvz7PN-pDLC5JM_woDnEKsGsz9rvts-tJAI-WGGEk-aREKBYVYCR6zgYCWW8idJDmMQAev8cqrlnz7SRrY1gxvIDJzkcnvrzFTTL5u_EBL0k="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF4x9rVZ9ozN2YFaQY-6RXTD0Az9Gti8EetY-e4FxoESOYV0NRSO6MguyIVJ-pHAoY_LP3TuHRo61k-KZ0KokUCYKqaZf4bWdbWexeXExqqvOPxOopTVFxQVtzwW5u6PMsfHxink8Da3tpZ99VL5K01vUUfgK-HNGlxXpCl09XaHNPGEE="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9t4nVzgxt9MweGIIP0BDZ9H99fNPz4QX2zj3tks82v_Cd9F9ApoVSvz7PN-pDLC5JM_woDnEKsGsz9rvts-tJAI-WGGEk-aREKBYVYCR6zgYCWW8idJDmMQAev8cqrlnz7SRrY1gxvIDJzkcnvrzFTTL5u_EBL0k="
+      },
+      {
+        "label": "businessinsider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR45RRe7w4JPTL-SwksZeH6ozWNX7WnomoVIl2bLLWE89G8z45RoXjBKVC6TE0OYW1GrAc4zd1InRtFLO1kGJ24s4EIAXRQWjyEYEt4KxtzdQwI_tdLP8qQITvggccJD8m04BnEhB_t4UXiGuJLMgA"
+      },
+      {
+        "label": "investing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx9q5GCuZfMErS9K_abl7ZyYOf6tMCtb6dACgCbrFoPj1qqGn18-FzttjMm3_vVkFSrehWlxi3tkV7BF3GMPwWv22l5LPwtpf-a-RSKPfTt9WJblAArG73cJfKi3GLFTIPFMYhJgdJriq5Z01aV0f6AR89Uj8Rm-Dj7es="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9t4nVzgxt9MweGIIP0BDZ9H99fNPz4QX2zj3tks82v_Cd9F9ApoVSvz7PN-pDLC5JM_woDnEKsGsz9rvts-tJAI-WGGEk-aREKBYVYCR6zgYCWW8idJDmMQAev8cqrlnz7SRrY1gxvIDJzkcnvrzFTTL5u_EBL0k="
+      },
+      {
+        "label": "indmoney",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6f4v5lszHUpFeJSbH6_91CM8zphulXBwEKQ6lw_u8mD5HLrhbo2Zo0PrEwld1bhlYFZzndDzPmfsT03t5QIpvTxCg4TbiZ-WOsWjclLyXdY6di4mQVYMZIatNfb9281nV-OrACp4KZ65XPYzTdLZvZVlhXJt5hp1RWqfoA=="
+      },
+      {
+        "label": "indmoney",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6f4v5lszHUpFeJSbH6_91CM8zphulXBwEKQ6lw_u8mD5HLrhbo2Zo0PrEwld1bhlYFZzndDzPmfsT03t5QIpvTxCg4TbiZ-WOsWjclLyXdY6di4mQVYMZIatNfb9281nV-OrACp4KZ65XPYzTdLZvZVlhXJt5hp1RWqfoA=="
+      },
+      {
+        "label": "businessinsider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR45RRe7w4JPTL-SwksZeH6ozWNX7WnomoVIl2bLLWE89G8z45RoXjBKVC6TE0OYW1GrAc4zd1InRtFLO1kGJ24s4EIAXRQWjyEYEt4KxtzdQwI_tdLP8qQITvggccJD8m04BnEhB_t4UXiGuJLMgA"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9t4nVzgxt9MweGIIP0BDZ9H99fNPz4QX2zj3tks82v_Cd9F9ApoVSvz7PN-pDLC5JM_woDnEKsGsz9rvts-tJAI-WGGEk-aREKBYVYCR6zgYCWW8idJDmMQAev8cqrlnz7SRrY1gxvIDJzkcnvrzFTTL5u_EBL0k="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF4x9rVZ9ozN2YFaQY-6RXTD0Az9Gti8EetY-e4FxoESOYV0NRSO6MguyIVJ-pHAoY_LP3TuHRo61k-KZ0KokUCYKqaZf4bWdbWexeXExqqvOPxOopTVFxQVtzwW5u6PMsfHxink8Da3tpZ99VL5K01vUUfgK-HNGlxXpCl09XaHNPGEE="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr2cyvaEEynPaW1XCJddlBqosS4vtb-AeQL5aIGFL8gT2kk1UGlo2wc9iu_huQ7tWNwTK8Kz61anlE-afAqOEbLth8pOFYynymsQ12cLnlDuS-2z965wlZazGKXUTj-DNJhmpNOyx6zaDjkoUY"
+      },
+      {
+        "label": "indmoney",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6f4v5lszHUpFeJSbH6_91CM8zphulXBwEKQ6lw_u8mD5HLrhbo2Zo0PrEwld1bhlYFZzndDzPmfsT03t5QIpvTxCg4TbiZ-WOsWjclLyXdY6di4mQVYMZIatNfb9281nV-OrACp4KZ65XPYzTdLZvZVlhXJt5hp1RWqfoA=="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9t4nVzgxt9MweGIIP0BDZ9H99fNPz4QX2zj3tks82v_Cd9F9ApoVSvz7PN-pDLC5JM_woDnEKsGsz9rvts-tJAI-WGGEk-aREKBYVYCR6zgYCWW8idJDmMQAev8cqrlnz7SRrY1gxvIDJzkcnvrzFTTL5u_EBL0k="
+      },
+      {
+        "label": "indmoney",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6f4v5lszHUpFeJSbH6_91CM8zphulXBwEKQ6lw_u8mD5HLrhbo2Zo0PrEwld1bhlYFZzndDzPmfsT03t5QIpvTxCg4TbiZ-WOsWjclLyXdY6di4mQVYMZIatNfb9281nV-OrACp4KZ65XPYzTdLZvZVlhXJt5hp1RWqfoA=="
+      },
+      {
+        "label": "businessinsider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR45RRe7w4JPTL-SwksZeH6ozWNX7WnomoVIl2bLLWE89G8z45RoXjBKVC6TE0OYW1GrAc4zd1InRtFLO1kGJ24s4EIAXRQWjyEYEt4KxtzdQwI_tdLP8qQITvggccJD8m04BnEhB_t4UXiGuJLMgA"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr2cyvaEEynPaW1XCJddlBqosS4vtb-AeQL5aIGFL8gT2kk1UGlo2wc9iu_huQ7tWNwTK8Kz61anlE-afAqOEbLth8pOFYynymsQ12cLnlDuS-2z965wlZazGKXUTj-DNJhmpNOyx6zaDjkoUY"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9t4nVzgxt9MweGIIP0BDZ9H99fNPz4QX2zj3tks82v_Cd9F9ApoVSvz7PN-pDLC5JM_woDnEKsGsz9rvts-tJAI-WGGEk-aREKBYVYCR6zgYCWW8idJDmMQAev8cqrlnz7SRrY1gxvIDJzkcnvrzFTTL5u_EBL0k="
+      },
+      {
+        "label": "tradingeconomics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSzPKxGfcHaQCTUlDKTLWiweWjIbZzY5CK0jJOPZVzhUWFtHtSfpi8yGtg_L9T-gl2rowehC58Cpv2o9aIlBbcKJq_ycoE40hZkAtXPy2Xtac11fBA1lstx1XLtysdZQ=="
+      },
+      {
+        "label": "tradingeconomics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSzPKxGfcHaQCTUlDKTLWiweWjIbZzY5CK0jJOPZVzhUWFtHtSfpi8yGtg_L9T-gl2rowehC58Cpv2o9aIlBbcKJq_ycoE40hZkAtXPy2Xtac11fBA1lstx1XLtysdZQ=="
+      },
+      {
+        "label": "businessinsider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR45RRe7w4JPTL-SwksZeH6ozWNX7WnomoVIl2bLLWE89G8z45RoXjBKVC6TE0OYW1GrAc4zd1InRtFLO1kGJ24s4EIAXRQWjyEYEt4KxtzdQwI_tdLP8qQITvggccJD8m04BnEhB_t4UXiGuJLMgA"
+      },
+      {
+        "label": "indmoney",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_6f4v5lszHUpFeJSbH6_91CM8zphulXBwEKQ6lw_u8mD5HLrhbo2Zo0PrEwld1bhlYFZzndDzPmfsT03t5QIpvTxCg4TbiZ-WOsWjclLyXdY6di4mQVYMZIatNfb9281nV-OrACp4KZ65XPYzTdLZvZVlhXJt5hp1RWqfoA=="
+      },
+      {
+        "label": "businessinsider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR45RRe7w4JPTL-SwksZeH6ozWNX7WnomoVIl2bLLWE89G8z45RoXjBKVC6TE0OYW1GrAc4zd1InRtFLO1kGJ24s4EIAXRQWjyEYEt4KxtzdQwI_tdLP8qQITvggccJD8m04BnEhB_t4UXiGuJLMgA"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9t4nVzgxt9MweGIIP0BDZ9H99fNPz4QX2zj3tks82v_Cd9F9ApoVSvz7PN-pDLC5JM_woDnEKsGsz9rvts-tJAI-WGGEk-aREKBYVYCR6zgYCWW8idJDmMQAev8cqrlnz7SRrY1gxvIDJzkcnvrzFTTL5u_EBL0k="
+      },
+      {
+        "label": "macrotrends",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF4x9rVZ9ozN2YFaQY-6RXTD0Az9Gti8EetY-e4FxoESOYV0NRSO6MguyIVJ-pHAoY_LP3TuHRo61k-KZ0KokUCYKqaZf4bWdbWexeXExqqvOPxOopTVFxQVtzwW5u6PMsfHxink8Da3tpZ99VL5K01vUUfgK-HNGlxXpCl09XaHNPGEE="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

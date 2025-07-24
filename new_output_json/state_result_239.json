@@ -1,0 +1,412 @@
+{
+  "file_name": "state_result_239.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.702011",
+  "data": {
+    "messages": [
+      {
+        "content": "Given stats of all weapons in stalker 2, which one is the most powerfull and can be obtained before \"point of no return\"?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "44621f73-2cc5-48b2-aa7a-81a1ad104fe9",
+        "example": false
+      },
+      {
+        "content": "Determining the \"most powerful\" weapon in *S.T.A.L.K.E.R. 2: Heart of Chornobyl* before the \"point of no return\" depends on your play style and what you consider \"powerful\" (damage, accuracy, rate of fire, etc.). However, here's a breakdown of some top contenders across different weapon types, considering their stats and ease of acquisition:\n\n**For a good all-around weapon:**\n\n*   **AKM-74S:** This assault rifle is a solid early-game choice due to its wide availability, common ammo, manageable recoil, and decent accuracy for medium to long-range combat [driffle](https://vertexaisearch.cloud.google.com/id/1-0). A unique variant, \"Valik Lummox's AKM74s\" with an extended magazine and scope, can be found during the \"Warlock's Debtor\" side mission [gamepressure](https://vertexaisearch.cloud.google.com/id/1-1) [pcgamer](https://vertexaisearch.cloud.google.com/id/1-2). The \"Drowned\" AKM-74S is also considered a top variant and can be found near the Slag Heap [screenrant](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**For accuracy:**\n\n*   **GP37:** This German-made rifle is known as the most accurate in the game, featuring a standard scope [driffle](https://vertexaisearch.cloud.google.com/id/1-0). Find it in the Plant Boiler Station area of the Garbage region [driffle](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**For close-quarters combat:**\n\n*   **Viper-5:** This SMG is effective in medium and short-range engagements due to its high rate of fire and large magazine [gamesradar](https://vertexaisearch.cloud.google.com/id/1-5). You can find it soon after clearing the prologue [gamesradar](https://vertexaisearch.cloud.google.com/id/1-5). \"Shah's Mate,\" a powerful variant of the Viper-5, can be acquired during the \"No Honor Among Thieves\" side quest [driffle](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**For Shotgun enthusiasts:**\n\n*   **Texan:** This shotgun has some of the highest damage and rate of fire among all shotguns, making it a perfect choice for any adventurer [gamerant](https://vertexaisearch.cloud.google.com/id/1-7). It can be found by visiting one of the Abandoned Science Campus pods in the southeast area of the Jupiter region [gamerant](https://vertexaisearch.cloud.google.com/id/1-7).\n\n**For long-range engagements:**\n\n*   **SVDM-2:** This sniper rifle offers high damage, penetration, and accuracy [indiatodaygaming](https://vertexaisearch.cloud.google.com/id/1-3). It can be looted from Leshy, a bandit leader at the abandoned factory, North-East of Zalissya [indiatodaygaming](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **M71 Super:** The M71 Super can one-shot the harder exoskeleton enemies in the head on veteran difficulty [youtube](https://vertexaisearch.cloud.google.com/id/1-9).\n\n**For raw power (but potentially later acquisition):**\n\n*   **Gauss Gun:** This weapon boasts excellent damage and can eliminate tough enemies [gamerant](https://vertexaisearch.cloud.google.com/id/1-7). It's obtained by completing the \"In the Name of Science\" side mission [gamerant](https://vertexaisearch.cloud.google.com/id/1-7).\n\n**Pistols**\n\n*   **Rhino:** Considered one of the best pistols, the Rhino is a hard-hitting hunting revolver with the highest damage of any other pistol in the game [driffle](https://vertexaisearch.cloud.google.com/id/1-0). It uses AR ammunition and has a high penetration rating [driffle](https://vertexaisearch.cloud.google.com/id/1-0). Find it on a body in the middle of Yantar [driffle](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Important Considerations:**\n\n*   **Ammo:** Always consider the availability of ammunition [gamesradar](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Condition:** Be prepared to repair looted weapons [gamesradar](https://vertexaisearch.cloud.google.com/id/1-5). Technicians can repair weapons [youtube](https://vertexaisearch.cloud.google.com/id/0-13].\n*   **Customization:** Utilize attachments and upgrades to enhance your chosen weapon [deltiasgaming](https://vertexaisearch.cloud.google.com/id/1-10) [rockpapershotgun](https://vertexaisearch.cloud.google.com/id/0-10) [mapgenie](https://vertexaisearch.cloud.google.com/id/0-8).\n\nUltimately, the \"most powerful\" weapon is subjective and depends on your play style and the specific situation. Experiment with different weapons and find what works best for you.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "3d304f4c-4b93-4f94-ad00-5cd976d4da25",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "stalker 2 weapon stats comparison pre point of no return",
+      "stalker 2 best weapon before point of no return"
+    ],
+    "web_research_result": [
+      "It appears you're asking for a pre-\"point of no return\" weapon stats comparison in *S.T.A.L.K.E.R. 2: Heart of Chornobyl*. This is a breakdown of what the search results provide: \n\n **1. Weapon Lists and Types** \n\n *   There are a variety of weapons in *S.T.A.L.K.E.R. 2*, including pistols, submachine guns, shotguns, assault rifles, sniper rifles, machine guns, and grenade launchers [stalker2](https://vertexaisearch.cloud.google.com/id/0-0) [ign](https://vertexaisearch.cloud.google.com/id/0-1) [pcgamesn](https://vertexaisearch.cloud.google.com/id/0-2). \n *   Some specific weapons mentioned include the AKM-74S, AKM-74U, TOZ-34, and PTM [ign](https://vertexaisearch.cloud.google.com/id/0-1). \n *   Unique weapons with special attributes and locations exist in the game [reddit](https://vertexaisearch.cloud.google.com/id/0-3) [pcgamer](https://vertexaisearch.cloud.google.com/id/0-4). Some unique weapons are only available in the Deluxe or Ultimate editions of the game [pcgamer](https://vertexaisearch.cloud.google.com/id/0-4). \n\n **2. Weapon Stats and Performance** \n\n *   Factors like damage, penetration, rate of fire, range, and accuracy determine a weapon's effectiveness [itc](https://vertexaisearch.cloud.google.com/id/0-5) [vgtimes](https://vertexaisearch.cloud.google.com/id/0-6). \n *   Some weapons are better suited for specific ammo types [thegamer](https://vertexaisearch.cloud.google.com/id/0-7). For example, the Dnipro is considered the best for 5.45x39mm ammo due to its high overall stats [thegamer](https://vertexaisearch.cloud.google.com/id/0-7). \n *   The Zubr-19 is highlighted as an SMG with a 50-round magazine, good rate of fire, and respectable damage [thegamer](https://vertexaisearch.cloud.google.com/id/0-7). A unique variant called 'Rat Killer' has slightly better stats [thegamer](https://vertexaisearch.cloud.google.com/id/0-7). \n *   The SVU-MK S-3 is noted as a strong sniper rifle with high damage, good rate of fire and range, and is lighter than other sniper rifles using the same ammo [thegamer](https://vertexaisearch.cloud.google.com/id/0-7). \n *   The M701 Super is presented as the best weapon for .308 ammo, having high damage and a long-range scope [thegamer](https://vertexaisearch.cloud.google.com/id/0-7). \n\n **3. Weapon Customization** \n\n *   Weapons can be customized with attachments found throughout the Zone [mapgenie](https://vertexaisearch.cloud.google.com/id/0-8). \n *   Attachments can be added or removed at any time, even in the field [techraptor](https://vertexaisearch.cloud.google.com/id/0-9). \n *   Upgrades can be purchased from Technicians to improve weapon stats [rockpapershotgun](https://vertexaisearch.cloud.google.com/id/0-10) [mapgenie](https://vertexaisearch.cloud.google.com/id/0-8). Some upgrades might be required to use certain attachments [techraptor](https://vertexaisearch.cloud.google.com/id/0-9). \n *   Some upgrades are mutually exclusive [rockpapershotgun](https://vertexaisearch.cloud.google.com/id/0-10) [techraptor](https://vertexaisearch.cloud.google.com/id/0-9). \n\n **4. Unique Weapons and Locations** \n\n *   Unique weapons can be found in the game world or as part of missions [reddit](https://vertexaisearch.cloud.google.com/id/0-3). Many are missable [reddit](https://vertexaisearch.cloud.google.com/id/0-3). \n *   \"Valik Lummox's AKM74s\" can be found in a stash in the water tower during the \"Warlock's Debtor\" mission [reddit](https://vertexaisearch.cloud.google.com/id/0-3). \n *   \"Unknown Stalker's AR416\" is obtained by giving Pomor the icon during the \"Poppy Fields\" quest [reddit](https://vertexaisearch.cloud.google.com/id/0-3). \n *   The \"Drowned\" is a unique version of the AKM74S with higher base damage and a double magazine [youtube](https://vertexaisearch.cloud.google.com/id/0-11). \n *   \"Shah's Mate\" is a unique Viper 5 SMG with better stats, located in the center of the Garbage zone [youtube](https://vertexaisearch.cloud.google.com/id/0-11). \n\n **5. Weapon Durability and Repair** \n\n *   Weapons have health and durability stats [youtube](https://vertexaisearch.cloud.google.com/id/0-12). Gun health indicates how much damage a gun can take from environmental factors, while durability is the rate at which it loses health [youtube](https://vertexaisearch.cloud.google.com/id/0-12). \n *   Armor-piercing ammunition can reduce weapon durability [itc](https://vertexaisearch.cloud.google.com/id/0-5). \n *   Technicians can repair weapons [youtube](https://vertexaisearch.cloud.google.com/id/0-13). \n\n **6. Ammo Types** \n\n *   Armor-piercing rounds increase armor penetration but reduce weapon durability [itc](https://vertexaisearch.cloud.google.com/id/0-5). \n *   Silencers reduce noise but may decrease range [itc](https://vertexaisearch.cloud.google.com/id/0-5). \n\n Keep in mind that weapon stats and availability might change with game updates and patches.\n",
+      "It appears you're asking about the best weapons to acquire in \"Stalker 2: Heart of Chornobyl\" before reaching a point of no return in the game. Based on the search results, here's a breakdown of some of the top contenders:\n\n**Assault Rifles**\n\n*   **AKM-74S:** This is a highly recommended all-around weapon for the early game [driffle](https://vertexaisearch.cloud.google.com/id/1-0). It's widely available, uses common ammo, has manageable recoil, and offers good accuracy for medium to long-range engagements [driffle](https://vertexaisearch.cloud.google.com/id/1-0). You can find it with a Stalwart companion [driffle](https://vertexaisearch.cloud.google.com/id/1-0). Valik Lummox's AKM-74S is a unique variant with an extended magazine and scope, found on top of a water tower north of Zalissya during the \"Warlock's Debtor\" side mission [gamepressure](https://vertexaisearch.cloud.google.com/id/1-1) [pcgamer](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **AR416 Monolith:** This military-grade rifle boasts excellent accuracy and a fast fire rate [indiatodaygaming](https://vertexaisearch.cloud.google.com/id/1-3). However, its ammo can be rare and expensive [indiatodaygaming](https://vertexaisearch.cloud.google.com/id/1-3). It can be found in the Journalist's Stash near the Military Base, southeast of Zalissya [gamepressure](https://vertexaisearch.cloud.google.com/id/1-1) [indiatodaygaming](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Drowned AKM-74S:** The \"Drowned\" version of the AKM-74S is considered by some to be the best AKM-74S variant [screenrant](https://vertexaisearch.cloud.google.com/id/1-4). It can be found just outside the Slag Heap [screenrant](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **GP37:** This German-made rifle is known as the most accurate in the game, featuring a standard scope [driffle](https://vertexaisearch.cloud.google.com/id/1-0). Find it in the Plant Boiler Station area of the Garbage region [driffle](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Submachine Guns (SMGs)**\n\n*   **Viper-5:** This is a solid choice for medium and short-range combat in the early game, thanks to its high rate of fire and large magazine [gamesradar](https://vertexaisearch.cloud.google.com/id/1-5). Be mindful of its high recoil, making it less effective at longer ranges [gamesradar](https://vertexaisearch.cloud.google.com/id/1-5). You can find it soon after clearing the prologue [gamesradar](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Shah's Mate:** A powerful variant of the Viper-5 SMG, acquired by speaking to the Docent in the \"No Honor Among Thieves\" side quest [driffle](https://vertexaisearch.cloud.google.com/id/1-0). It features three firing modes and an upgradable magazine, making it a good secondary weapon due to its light weight [driffle](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Riemann:** This unique SMG, adapted from the Integral-A, is considered one of the best guns to use throughout the entire game because of its accuracy and handling [rockpapershotgun](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**Shotguns**\n\n*   **SPSA-14:** If you prefer shotguns, the SPSA-14 is a strong contender, delivering a high volume of iron pellets [driffle](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Texan:** This shotgun has some of the highest damage and rate of fire among all shotguns, making it a perfect choice for any adventurer [gamerant](https://vertexaisearch.cloud.google.com/id/1-7). It can be found by visiting one of the Abandoned Science Campus pods in the southeast area of the Jupiter region [gamerant](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **Boomstick:** You can get a full-durability Boomstick by going to the windmill at the Old Mill POI. It's rigged to a trap in the stairs. Disarm the trap, and grab the shotgun [gamerant](https://vertexaisearch.cloud.google.com/id/1-8).\n\n**Sniper Rifles**\n\n*   **SVDM-2:** This sniper rifle offers high damage, penetration, and accuracy [indiatodaygaming](https://vertexaisearch.cloud.google.com/id/1-3). It can be looted from Leshy, a bandit leader at the abandoned factory, North-East of Zalissya [indiatodaygaming](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **M71 Super:** The M71 Super can one-shot the harder exoskeleton enemies in the head on veteran difficulty [youtube](https://vertexaisearch.cloud.google.com/id/1-9).\n*    **VS Vintar:** The VS Vintar is an excellent suppressed marksman rifle which has very comfortably taken players into the late stages of Stalker 2 [rockpapershotgun](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**Pistols**\n\n*   **Rhino:** Considered one of the best pistols, the Rhino is a hard-hitting hunting revolver with the highest damage of any other pistol in the game [driffle](https://vertexaisearch.cloud.google.com/id/1-0). It uses AR ammunition and has a high penetration rating [driffle](https://vertexaisearch.cloud.google.com/id/1-0). Find it on a body in the middle of Yantar [driffle](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Skif's Pistol:** The first weapon you will be given is actually worth keeping around for quite some time [screenrant](https://vertexaisearch.cloud.google.com/id/1-4). Fully upgraded, it can do some damage, and it is quite resilient and cheap to repair [screenrant](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**Other**\n\n*   **Gauss Gun:** Boasting excellent damage, the Gauss Gun can wipe out the toughest of enemies [gamerant](https://vertexaisearch.cloud.google.com/id/1-7). It can be found by completing the \"In the Name of Science\" side mission [gamerant](https://vertexaisearch.cloud.google.com/id/1-7).\n\n**Important Considerations:**\n\n*   **Ammo Availability:** Consider the availability of ammunition for your chosen weapon [gamesradar](https://vertexaisearch.cloud.google.com/id/1-5). The AKM-74S is a good choice in this regard, as it uses a common ammo type [driffle](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Weapon Condition:** Be prepared to repair looted weapons, as they are often damaged [gamesradar](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Attachments:** Utilize attachments like scopes, suppressors, and extended magazines to enhance your weapons [deltiasgaming](https://vertexaisearch.cloud.google.com/id/1-10).\n*   **Playstyle:** Choose weapons that suit your preferred playstyle [indiatodaygaming](https://vertexaisearch.cloud.google.com/id/1-3). Do you prefer close-quarters combat, long-range engagements, or something in between? [indiatodaygaming](https://vertexaisearch.cloud.google.com/id/1-3)\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "stalker2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOMd2X_c_XE3uiwX6LJJqi_aAVbzE8oB4Lhngt90kpqCihtexWJ7Y2AuNqhgrPMhJnS07oqZQErq1qhKuz31Bbx1fGl6VxI6PWiSQ1mIvR3cQyJJqZ1qPCfGkaEfvY4MJ07V8v88SGhGlUdShPmTQipCcZ9vzXEVW9koHd-XjLp-xknugF6VIZ-lrFobm8"
+      },
+      {
+        "label": "ign",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg3gSkk4drja7iUJmWZ_BxMlea5e3PnC7-XAR1d4-NO04GdcBOrCKeNV-hFb8ICyfsOe_Q7XdyE2BQlkW75cmPzRCrI6O0Ya2vy3FXUWAZ5DEF0IQRN7KvxaZzi_SVJIC_8SjTHds="
+      },
+      {
+        "label": "pcgamesn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaXpRWu4O-HosJ_CxKnxhQbVQCWmZq8ATFjYB4j_wo1_0H_1NZYR0x34q1PTLW26wa8s4S_QIQSieIH1AHFB6F8tuV3OA31nt2Ypk3YwhCAhIlp4LYHRHhoIEx1p-cGGnPvRxsEg=="
+      },
+      {
+        "label": "ign",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg3gSkk4drja7iUJmWZ_BxMlea5e3PnC7-XAR1d4-NO04GdcBOrCKeNV-hFb8ICyfsOe_Q7XdyE2BQlkW75cmPzRCrI6O0Ya2vy3FXUWAZ5DEF0IQRN7KvxaZzi_SVJIC_8SjTHds="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEevN1nkZ7ohDDQDaWJqC88dPiRHcCbHpam8873iJEy9AIrF7ttGJ5YX88gBGFbexlzK6OtVhUf80nId0ZmJAWr24YmKJVVSfuI2PWMY4vGUfW-6XLxAGQChDWZVLs_CejFGUKDNXAl0gqEIPDZKwdbSJh4SchS8oxoNiGjrUZb_SHEphQQQHrJbC3U7177C8WryTkCCGEB3Nt_GA=="
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcuEEnmkMkcUxPXlauOYf3YY4R8iTLyiOLx79jWsvQ4wzhkSU_nTNO3bgPuHnwA1km7FpwqfFVoSSLm-7kPPfwJjk4C_4u0nWwA0v4JhVQ5lvfjl506QG8OjXC8-ckgeAlg52hp7Zb-iH8uZizVB66V7TT5I-dHx3v_WxW6RWmeA=="
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcuEEnmkMkcUxPXlauOYf3YY4R8iTLyiOLx79jWsvQ4wzhkSU_nTNO3bgPuHnwA1km7FpwqfFVoSSLm-7kPPfwJjk4C_4u0nWwA0v4JhVQ5lvfjl506QG8OjXC8-ckgeAlg52hp7Zb-iH8uZizVB66V7TT5I-dHx3v_WxW6RWmeA=="
+      },
+      {
+        "label": "itc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtm8KVGfHnT8V5NvCCmAaN-mWtv3muM74-dOGlSpHyVBR5iaP7_7qtS-IGoV9h9KIhbhX6IfaFinM_cPfTgl5q-4zufLxMiH6kOqiA1Vm4RrjT4N8yqY6-8pAFkyYT8zBQWuHTNHl2x1Gxb6KFDv8kx72-exZ0LxOUeUG6cDyZIdNupxs0A6ulX2pmhkj_pkuSx2kIcVA="
+      },
+      {
+        "label": "vgtimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZHU04VNZe38DsBKk69LurnOVxRsPQOg_WjsF7E4rhGtSnqdpcMFAOK5nx_bGKTBKV9MRPnWsPvQImeG7dibhodSrbtbfph0sPC9w0icqnO5CpEcc_HHcowcf-O760iDkaNi4xCxTjEY2h_lza8f24HlHf6Vb0AjYKmnITDt3nGqNAHGg8eCt6g5TBQVEH_QlAtlVWwIS7vIH1wCuhTUrKhEgQP9Z4X9_gjjZW"
+      },
+      {
+        "label": "thegamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZwgda43RkCQ1oWqZua2eix3ndSNZBJJpEaaFik7_edSI-1jUXjBUV8CeQvirq8mSgWLpkfHhRAdRe54sFcfA_UyLBAFlfqgUVTXR1KPQdE8JZVqNsHufDnbCZNIAMY2oQ-D0viVMASBKxH5-xdA-HNwL_kU-luSP77-O30JNA5goFejo="
+      },
+      {
+        "label": "thegamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZwgda43RkCQ1oWqZua2eix3ndSNZBJJpEaaFik7_edSI-1jUXjBUV8CeQvirq8mSgWLpkfHhRAdRe54sFcfA_UyLBAFlfqgUVTXR1KPQdE8JZVqNsHufDnbCZNIAMY2oQ-D0viVMASBKxH5-xdA-HNwL_kU-luSP77-O30JNA5goFejo="
+      },
+      {
+        "label": "thegamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZwgda43RkCQ1oWqZua2eix3ndSNZBJJpEaaFik7_edSI-1jUXjBUV8CeQvirq8mSgWLpkfHhRAdRe54sFcfA_UyLBAFlfqgUVTXR1KPQdE8JZVqNsHufDnbCZNIAMY2oQ-D0viVMASBKxH5-xdA-HNwL_kU-luSP77-O30JNA5goFejo="
+      },
+      {
+        "label": "thegamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZwgda43RkCQ1oWqZua2eix3ndSNZBJJpEaaFik7_edSI-1jUXjBUV8CeQvirq8mSgWLpkfHhRAdRe54sFcfA_UyLBAFlfqgUVTXR1KPQdE8JZVqNsHufDnbCZNIAMY2oQ-D0viVMASBKxH5-xdA-HNwL_kU-luSP77-O30JNA5goFejo="
+      },
+      {
+        "label": "thegamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZwgda43RkCQ1oWqZua2eix3ndSNZBJJpEaaFik7_edSI-1jUXjBUV8CeQvirq8mSgWLpkfHhRAdRe54sFcfA_UyLBAFlfqgUVTXR1KPQdE8JZVqNsHufDnbCZNIAMY2oQ-D0viVMASBKxH5-xdA-HNwL_kU-luSP77-O30JNA5goFejo="
+      },
+      {
+        "label": "thegamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZwgda43RkCQ1oWqZua2eix3ndSNZBJJpEaaFik7_edSI-1jUXjBUV8CeQvirq8mSgWLpkfHhRAdRe54sFcfA_UyLBAFlfqgUVTXR1KPQdE8JZVqNsHufDnbCZNIAMY2oQ-D0viVMASBKxH5-xdA-HNwL_kU-luSP77-O30JNA5goFejo="
+      },
+      {
+        "label": "mapgenie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk_T8SAAUd3ipewWsQhSpNWntKEK-SXtmHt1DnOAiHhlk0XGEg--2IDjzfkalS66EIOfJlP0ZGZS4qHPY7m1nx1jpP_LYzm6XEzC03Eq5D7f6HpjKb6Fsm5fXj5NoJPmAb_E68yMA0iJUV7k7gQLZtvti_4OKsU1L1hpLUHG8="
+      },
+      {
+        "label": "techraptor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKmwjGh5Vt3IDxiWxTQ3hrTph5eQD9_Q4M0W-vMK_Nf79xT8Zh1nz-CYBZQVJrkTtwqmQ4VqUPgOBihBA8TThfFhT4s62RCjBZrb7Vanc-5hVbG3ycHzotjL4aXWI8B3-FrHIpXZVNlDAvtb73GYhB92xCp3QobRY7UzXJVfSrdeK4YTtJYcD6rw=="
+      },
+      {
+        "label": "rockpapershotgun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY1XgFtbipQVN1-LjK2uV2DPPS2EmJYzSOqVsBIL5GZKmxiptgFdYhZ7daMK-DbdIB02vYk9wexEPjlSkLi1Wh_fNJazjJc6E6ne9bzt5zpftJI2Yjoc9jD0IRxsnW9EsSKdjwOVXJ6aojjR7c0aihpyUdKhCIWwziVf1s"
+      },
+      {
+        "label": "mapgenie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHk_T8SAAUd3ipewWsQhSpNWntKEK-SXtmHt1DnOAiHhlk0XGEg--2IDjzfkalS66EIOfJlP0ZGZS4qHPY7m1nx1jpP_LYzm6XEzC03Eq5D7f6HpjKb6Fsm5fXj5NoJPmAb_E68yMA0iJUV7k7gQLZtvti_4OKsU1L1hpLUHG8="
+      },
+      {
+        "label": "techraptor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKmwjGh5Vt3IDxiWxTQ3hrTph5eQD9_Q4M0W-vMK_Nf79xT8Zh1nz-CYBZQVJrkTtwqmQ4VqUPgOBihBA8TThfFhT4s62RCjBZrb7Vanc-5hVbG3ycHzotjL4aXWI8B3-FrHIpXZVNlDAvtb73GYhB92xCp3QobRY7UzXJVfSrdeK4YTtJYcD6rw=="
+      },
+      {
+        "label": "rockpapershotgun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY1XgFtbipQVN1-LjK2uV2DPPS2EmJYzSOqVsBIL5GZKmxiptgFdYhZ7daMK-DbdIB02vYk9wexEPjlSkLi1Wh_fNJazjJc6E6ne9bzt5zpftJI2Yjoc9jD0IRxsnW9EsSKdjwOVXJ6aojjR7c0aihpyUdKhCIWwziVf1s"
+      },
+      {
+        "label": "techraptor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKmwjGh5Vt3IDxiWxTQ3hrTph5eQD9_Q4M0W-vMK_Nf79xT8Zh1nz-CYBZQVJrkTtwqmQ4VqUPgOBihBA8TThfFhT4s62RCjBZrb7Vanc-5hVbG3ycHzotjL4aXWI8B3-FrHIpXZVNlDAvtb73GYhB92xCp3QobRY7UzXJVfSrdeK4YTtJYcD6rw=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEevN1nkZ7ohDDQDaWJqC88dPiRHcCbHpam8873iJEy9AIrF7ttGJ5YX88gBGFbexlzK6OtVhUf80nId0ZmJAWr24YmKJVVSfuI2PWMY4vGUfW-6XLxAGQChDWZVLs_CejFGUKDNXAl0gqEIPDZKwdbSJh4SchS8oxoNiGjrUZb_SHEphQQQHrJbC3U7177C8WryTkCCGEB3Nt_GA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEevN1nkZ7ohDDQDaWJqC88dPiRHcCbHpam8873iJEy9AIrF7ttGJ5YX88gBGFbexlzK6OtVhUf80nId0ZmJAWr24YmKJVVSfuI2PWMY4vGUfW-6XLxAGQChDWZVLs_CejFGUKDNXAl0gqEIPDZKwdbSJh4SchS8oxoNiGjrUZb_SHEphQQQHrJbC3U7177C8WryTkCCGEB3Nt_GA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEevN1nkZ7ohDDQDaWJqC88dPiRHcCbHpam8873iJEy9AIrF7ttGJ5YX88gBGFbexlzK6OtVhUf80nId0ZmJAWr24YmKJVVSfuI2PWMY4vGUfW-6XLxAGQChDWZVLs_CejFGUKDNXAl0gqEIPDZKwdbSJh4SchS8oxoNiGjrUZb_SHEphQQQHrJbC3U7177C8WryTkCCGEB3Nt_GA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEevN1nkZ7ohDDQDaWJqC88dPiRHcCbHpam8873iJEy9AIrF7ttGJ5YX88gBGFbexlzK6OtVhUf80nId0ZmJAWr24YmKJVVSfuI2PWMY4vGUfW-6XLxAGQChDWZVLs_CejFGUKDNXAl0gqEIPDZKwdbSJh4SchS8oxoNiGjrUZb_SHEphQQQHrJbC3U7177C8WryTkCCGEB3Nt_GA=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQTK-DFwlSaCLaUsy_1jZAvuHrIMHvbSUeSIzTZRUHHAvIRG3-lM_hh7n5jQ-oeYs2TQsN5E1oxCGaddZE_8Xyfwn9ouv2kK4PYiZEStLR1yKp09nZ4b6vwZpbMOdut95LIx7duTun8WeKjOHJkNbQssn0TKG1ztYuxA=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQTK-DFwlSaCLaUsy_1jZAvuHrIMHvbSUeSIzTZRUHHAvIRG3-lM_hh7n5jQ-oeYs2TQsN5E1oxCGaddZE_8Xyfwn9ouv2kK4PYiZEStLR1yKp09nZ4b6vwZpbMOdut95LIx7duTun8WeKjOHJkNbQssn0TKG1ztYuxA=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVm8j_Ig-N6rtPSHODyWzPXQUPQhtLEAvNKrAGJWsjsFPfkM_rKNHxLYifnHcXUvh8ImhxKwDTMTSOZOXXp81NB4EbX-IqcHkdKdSISg1POIn93aG-qZJtizM0mIOQJ_eR7ZNtnsQ="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVm8j_Ig-N6rtPSHODyWzPXQUPQhtLEAvNKrAGJWsjsFPfkM_rKNHxLYifnHcXUvh8ImhxKwDTMTSOZOXXp81NB4EbX-IqcHkdKdSISg1POIn93aG-qZJtizM0mIOQJ_eR7ZNtnsQ="
+      },
+      {
+        "label": "itc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtm8KVGfHnT8V5NvCCmAaN-mWtv3muM74-dOGlSpHyVBR5iaP7_7qtS-IGoV9h9KIhbhX6IfaFinM_cPfTgl5q-4zufLxMiH6kOqiA1Vm4RrjT4N8yqY6-8pAFkyYT8zBQWuHTNHl2x1Gxb6KFDv8kx72-exZ0LxOUeUG6cDyZIdNupxs0A6ulX2pmhkj_pkuSx2kIcVA="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyeiWidX7Pl_tTSZp40QIB3lwcm_1KXiTNNq02MB59kAi9LJNcRHaHsT693HkMR7CbzTRNO1_5Nj76q7B-2SznnQJovEquI28PDMPHxD5KmyTO2rHWLl6TgKqiQuq63q4sR1n0zNSoTvBusDN_gepr3dkM5hXLOeHRdw=="
+      },
+      {
+        "label": "itc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtm8KVGfHnT8V5NvCCmAaN-mWtv3muM74-dOGlSpHyVBR5iaP7_7qtS-IGoV9h9KIhbhX6IfaFinM_cPfTgl5q-4zufLxMiH6kOqiA1Vm4RrjT4N8yqY6-8pAFkyYT8zBQWuHTNHl2x1Gxb6KFDv8kx72-exZ0LxOUeUG6cDyZIdNupxs0A6ulX2pmhkj_pkuSx2kIcVA="
+      },
+      {
+        "label": "itc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtm8KVGfHnT8V5NvCCmAaN-mWtv3muM74-dOGlSpHyVBR5iaP7_7qtS-IGoV9h9KIhbhX6IfaFinM_cPfTgl5q-4zufLxMiH6kOqiA1Vm4RrjT4N8yqY6-8pAFkyYT8zBQWuHTNHl2x1Gxb6KFDv8kx72-exZ0LxOUeUG6cDyZIdNupxs0A6ulX2pmhkj_pkuSx2kIcVA="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "gamepressure",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR-Y62S-fwM2RNvZlYCmZq3lfIWsuMgOgtHK1AnL_oMiapUleRf6Jf-XWdldJ_M_37vW3sjfiFzcmu5SV3fF6VLtFTDaVxfanV-LmBgotxBnexY2GM2rHWoYPI0DnS6OH7qV3RPTR8bc6oWsDJitZ38w4y4hbmVcYgLDHQmKoh4_OYCEs="
+      },
+      {
+        "label": "pcgamer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6wlg1ip4psxdHL-Dcp2daw_22qSTfv14eiZxRpuST6SvrHi5hW8vc5l_JfMYlNbwJ7w0YE66bqgpl22_Dhvr91Q1Ub5y_QbVcuC0Ed1K2-vcSBL7oS3Nto3KQHeQJrc-UyjT0xpl4vPH1Ro9BEOZz2wO7GeMl_pyg2XeUjtDl5g=="
+      },
+      {
+        "label": "indiatodaygaming",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY0RaACfB89gzuIaMa9W_z8xUWePYe32d0yktyR6d7_jUFIi740vf76Ig27Dab5bziPO7Q9rJrYsi-MgiQWs_KfXgb8rjrpLnjoQyIrLXflEMy631LucrP5dnamM-ibuc0UP8IFfDHHyUBzsoZl1bWYMn4yd3DwMlgHSmXiR5IbbJu0m2RdKXZS1D7BxOxh-PVcznoNioahNjvaLgxKd4ffKeOYa05aziJQZWBnXk="
+      },
+      {
+        "label": "indiatodaygaming",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY0RaACfB89gzuIaMa9W_z8xUWePYe32d0yktyR6d7_jUFIi740vf76Ig27Dab5bziPO7Q9rJrYsi-MgiQWs_KfXgb8rjrpLnjoQyIrLXflEMy631LucrP5dnamM-ibuc0UP8IFfDHHyUBzsoZl1bWYMn4yd3DwMlgHSmXiR5IbbJu0m2RdKXZS1D7BxOxh-PVcznoNioahNjvaLgxKd4ffKeOYa05aziJQZWBnXk="
+      },
+      {
+        "label": "gamepressure",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR-Y62S-fwM2RNvZlYCmZq3lfIWsuMgOgtHK1AnL_oMiapUleRf6Jf-XWdldJ_M_37vW3sjfiFzcmu5SV3fF6VLtFTDaVxfanV-LmBgotxBnexY2GM2rHWoYPI0DnS6OH7qV3RPTR8bc6oWsDJitZ38w4y4hbmVcYgLDHQmKoh4_OYCEs="
+      },
+      {
+        "label": "indiatodaygaming",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY0RaACfB89gzuIaMa9W_z8xUWePYe32d0yktyR6d7_jUFIi740vf76Ig27Dab5bziPO7Q9rJrYsi-MgiQWs_KfXgb8rjrpLnjoQyIrLXflEMy631LucrP5dnamM-ibuc0UP8IFfDHHyUBzsoZl1bWYMn4yd3DwMlgHSmXiR5IbbJu0m2RdKXZS1D7BxOxh-PVcznoNioahNjvaLgxKd4ffKeOYa05aziJQZWBnXk="
+      },
+      {
+        "label": "screenrant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFssxIpJEKpQ3uBJ5CKNQ1DUrVSxgXmbb3YIMNFmxkAG2L3ygrvehUNvEMLGcbF5ygHSMYbigXUEhEpfIS3u5XgngMjHSGKFP3sPDqPOijAInS0Sh3IAgl_-FgphTiCUoU96kPzdBbfm3Q="
+      },
+      {
+        "label": "screenrant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFssxIpJEKpQ3uBJ5CKNQ1DUrVSxgXmbb3YIMNFmxkAG2L3ygrvehUNvEMLGcbF5ygHSMYbigXUEhEpfIS3u5XgngMjHSGKFP3sPDqPOijAInS0Sh3IAgl_-FgphTiCUoU96kPzdBbfm3Q="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "gamesradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV9SIsRUnOqZ8ppyT8ffxrJcQcY-avVLEv5qbu9hasItURYbf-N87l2nAu9ZxMdgEp5Vw9O25tq6TUIgehCe73wEpX9gu10gN7ehb5NQS-MhiE2f6cjrXaZjsc1eT1p6JHjJmFBHKs4g1-RoVImTY="
+      },
+      {
+        "label": "gamesradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV9SIsRUnOqZ8ppyT8ffxrJcQcY-avVLEv5qbu9hasItURYbf-N87l2nAu9ZxMdgEp5Vw9O25tq6TUIgehCe73wEpX9gu10gN7ehb5NQS-MhiE2f6cjrXaZjsc1eT1p6JHjJmFBHKs4g1-RoVImTY="
+      },
+      {
+        "label": "gamesradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV9SIsRUnOqZ8ppyT8ffxrJcQcY-avVLEv5qbu9hasItURYbf-N87l2nAu9ZxMdgEp5Vw9O25tq6TUIgehCe73wEpX9gu10gN7ehb5NQS-MhiE2f6cjrXaZjsc1eT1p6JHjJmFBHKs4g1-RoVImTY="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "rockpapershotgun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjBD2mvORafVcQ2oP9H1DfbXQ7QA3NFDLJAComXHL_lnB7ULqChd3nd7PNuy757axxiVkCoTqLBLQzJE80E_-XH4QU1jesY_qGY4tFh5vOgZ7Ch34mFjngV-FJQuoJUoAmRoOwTVfJTjXdRxeTs4o="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "gamerant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKXIR8KscVYb2HROmcYROVO_tC0f0_h9EgmvddMIFPKY3L2LnsjWj35k7zdzfhpW-MbvgQxXMHEsLC3s78SUzC1q8NC5hwMfGeFsNfeRjGdGwhPGjq2nZ2IYG2GpVkPL53x9SPv2yK-DFXKQ=="
+      },
+      {
+        "label": "gamerant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKXIR8KscVYb2HROmcYROVO_tC0f0_h9EgmvddMIFPKY3L2LnsjWj35k7zdzfhpW-MbvgQxXMHEsLC3s78SUzC1q8NC5hwMfGeFsNfeRjGdGwhPGjq2nZ2IYG2GpVkPL53x9SPv2yK-DFXKQ=="
+      },
+      {
+        "label": "gamerant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHye4iAWcYw2rYKzUEd7AKCKbhKhDt9N5yHFheWqpIaujpvY6apo77bR329HhfOC07QiINI19jN0uUkfLiPlM5c2-_zXeuSjEA3ohu8Vmssupq48kXBYNLaHc1puYm9nDzzp1StdmS0OeU88oucjSkOM-gSYWsQHQxeU9IVYw=="
+      },
+      {
+        "label": "indiatodaygaming",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY0RaACfB89gzuIaMa9W_z8xUWePYe32d0yktyR6d7_jUFIi740vf76Ig27Dab5bziPO7Q9rJrYsi-MgiQWs_KfXgb8rjrpLnjoQyIrLXflEMy631LucrP5dnamM-ibuc0UP8IFfDHHyUBzsoZl1bWYMn4yd3DwMlgHSmXiR5IbbJu0m2RdKXZS1D7BxOxh-PVcznoNioahNjvaLgxKd4ffKeOYa05aziJQZWBnXk="
+      },
+      {
+        "label": "indiatodaygaming",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY0RaACfB89gzuIaMa9W_z8xUWePYe32d0yktyR6d7_jUFIi740vf76Ig27Dab5bziPO7Q9rJrYsi-MgiQWs_KfXgb8rjrpLnjoQyIrLXflEMy631LucrP5dnamM-ibuc0UP8IFfDHHyUBzsoZl1bWYMn4yd3DwMlgHSmXiR5IbbJu0m2RdKXZS1D7BxOxh-PVcznoNioahNjvaLgxKd4ffKeOYa05aziJQZWBnXk="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvGCOD1C4p8kn6Dpwn13zTxEAdzEH8DyBwVZ4Jv_fidnzIy6hl8lpA8r6Wr_QYoKkby5FUQHTbNgYpO6NarYu0O0Xhw34OqXrvXfgclIlZ9ykTIHMmz7dp_FTUCXZN9VgXpk6N357CJGK7oum2akm9ArIqsgDkgoGS8g=="
+      },
+      {
+        "label": "rockpapershotgun",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjBD2mvORafVcQ2oP9H1DfbXQ7QA3NFDLJAComXHL_lnB7ULqChd3nd7PNuy757axxiVkCoTqLBLQzJE80E_-XH4QU1jesY_qGY4tFh5vOgZ7Ch34mFjngV-FJQuoJUoAmRoOwTVfJTjXdRxeTs4o="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "screenrant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFssxIpJEKpQ3uBJ5CKNQ1DUrVSxgXmbb3YIMNFmxkAG2L3ygrvehUNvEMLGcbF5ygHSMYbigXUEhEpfIS3u5XgngMjHSGKFP3sPDqPOijAInS0Sh3IAgl_-FgphTiCUoU96kPzdBbfm3Q="
+      },
+      {
+        "label": "screenrant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFssxIpJEKpQ3uBJ5CKNQ1DUrVSxgXmbb3YIMNFmxkAG2L3ygrvehUNvEMLGcbF5ygHSMYbigXUEhEpfIS3u5XgngMjHSGKFP3sPDqPOijAInS0Sh3IAgl_-FgphTiCUoU96kPzdBbfm3Q="
+      },
+      {
+        "label": "gamerant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKXIR8KscVYb2HROmcYROVO_tC0f0_h9EgmvddMIFPKY3L2LnsjWj35k7zdzfhpW-MbvgQxXMHEsLC3s78SUzC1q8NC5hwMfGeFsNfeRjGdGwhPGjq2nZ2IYG2GpVkPL53x9SPv2yK-DFXKQ=="
+      },
+      {
+        "label": "gamerant",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKXIR8KscVYb2HROmcYROVO_tC0f0_h9EgmvddMIFPKY3L2LnsjWj35k7zdzfhpW-MbvgQxXMHEsLC3s78SUzC1q8NC5hwMfGeFsNfeRjGdGwhPGjq2nZ2IYG2GpVkPL53x9SPv2yK-DFXKQ=="
+      },
+      {
+        "label": "gamesradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV9SIsRUnOqZ8ppyT8ffxrJcQcY-avVLEv5qbu9hasItURYbf-N87l2nAu9ZxMdgEp5Vw9O25tq6TUIgehCe73wEpX9gu10gN7ehb5NQS-MhiE2f6cjrXaZjsc1eT1p6JHjJmFBHKs4g1-RoVImTY="
+      },
+      {
+        "label": "driffle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvn4rbw7-qipMRp9-31xwX6F2ofSOtbnH2sZ67vR3iA71peVOjo-f3m3Nnx6l04pPD6am0Ol1_Dgi6R6j3rL3RoOlRbQNHNgjmk-EffQSyL6dKeHDH53O7oiTQd6EQi5jgtXkSlqBYJewKnAONL8Dm_h7X69A6cwazBFu08Q="
+      },
+      {
+        "label": "gamesradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV9SIsRUnOqZ8ppyT8ffxrJcQcY-avVLEv5qbu9hasItURYbf-N87l2nAu9ZxMdgEp5Vw9O25tq6TUIgehCe73wEpX9gu10gN7ehb5NQS-MhiE2f6cjrXaZjsc1eT1p6JHjJmFBHKs4g1-RoVImTY="
+      },
+      {
+        "label": "deltiasgaming",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPuzwEzn9cDA7VFVT1mbxbdzLGjfF1er7_DJ7u4GXP6zZca6ssI449c-0HDGyYzLbn9Vdfl2jsi18qu1f4mgHpFIKQNL1lP4K_MwN1vISWUVefc2OBD3FvFG_VwK0PakmPYS9masYNBw5SOQqJlRvX4ht6W0jr0A=="
+      },
+      {
+        "label": "indiatodaygaming",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY0RaACfB89gzuIaMa9W_z8xUWePYe32d0yktyR6d7_jUFIi740vf76Ig27Dab5bziPO7Q9rJrYsi-MgiQWs_KfXgb8rjrpLnjoQyIrLXflEMy631LucrP5dnamM-ibuc0UP8IFfDHHyUBzsoZl1bWYMn4yd3DwMlgHSmXiR5IbbJu0m2RdKXZS1D7BxOxh-PVcznoNioahNjvaLgxKd4ffKeOYa05aziJQZWBnXk="
+      },
+      {
+        "label": "indiatodaygaming",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY0RaACfB89gzuIaMa9W_z8xUWePYe32d0yktyR6d7_jUFIi740vf76Ig27Dab5bziPO7Q9rJrYsi-MgiQWs_KfXgb8rjrpLnjoQyIrLXflEMy631LucrP5dnamM-ibuc0UP8IFfDHHyUBzsoZl1bWYMn4yd3DwMlgHSmXiR5IbbJu0m2RdKXZS1D7BxOxh-PVcznoNioahNjvaLgxKd4ffKeOYa05aziJQZWBnXk="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

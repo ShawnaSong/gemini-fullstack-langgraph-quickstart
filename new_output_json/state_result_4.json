@@ -1,0 +1,679 @@
+{
+  "file_name": "state_result_4.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.603295",
+  "data": {
+    "messages": [
+      {
+        "content": "whose tps temporary stay orders was revoked by Donald Trump",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "7918fb56-7ba4-438e-8e11-2e8f6906cd9e",
+        "example": false
+      },
+      {
+        "content": "During Donald Trump's presidency, his administration took steps to end Temporary Protected Status (TPS) for people from several countries, leading to numerous legal challenges and court rulings [cbsnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_OHNomJErhk92p1xOZgL9ThMPydrsFmB3AY0iMF518W0ubJ9WB6cD5QUNF3ztgivkFVs9w74sOVj4rguJ0aosKSOV-BxacBcQ46t-MfS8cr1kcHGuwNZe9duguNYnpkehe-vAH8fNdGWKHt2RokgtNqDmfnZu3jLrQ5UF0BZ7bIj5w==), [ilrc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7Q9OUij1sPBX08NF0hX5TykJNtEj5M6dOcRiRaySWgTIlvprvbUxJjoR1Xr9dM7jMC77znimh2RaixOwr8iMeUmwfdJf1_y2AEdoskmWA37IviVGNS2pBtt1ZaSiG-xCKAy9WeH9D4yfppcHHggDpHZjqdRtJ_B_QgNUiuwovkycb2HUrBywF6EzyH8S37pBTGCsi3cO5g2q-9KZIPxHt3yMOByA=). The Trump administration announced plans to end TPS for nationals of Haiti, Venezuela, Afghanistan, and Cameroon [afsc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI=). He sought to end TPS for El Salvador, Haiti, Nicaragua, and Sudan, arguing that the original conditions justifying protection had improved [antone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg==). By March 2025, the Trump administration moved to terminate TPS for hundreds of thousands of immigrants from multiple countries [cbsnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_OHNomJErhk92p1xOZgL9ThMPydrsFmB3AY0iMF518W0ubJ9WB6cD5QUNF3ztgivkFVs9w74sOVj4rguJ0aosKSOV-BxacBcQ46t-MfS8cr1kcHGuwNZe9duguNYnpkehe-vAH8fNdGWKHt2RokgtNqDmfnZu3jLrQ5UF0BZ7bIj5w==), [antone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg==), [politico](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPT3qGPR2qvZCB2nTlXNwnvu9KvTuyrgjq1w5j7lCGuHVxNjcwBNcgRDzTwhISxqXdVALfsNN9AAOHm_4aCA46hQLyZ1yY0u5uMitgiW_ktbxhn-bqZdo9J2m2F3p4yeHJ0N4F_nWnEsYrFShUQLiqsTo5Rn1XiTrupOmU0bShR6vYqYkm7WMd1jI55FzGlw==).\n\nThese attempts faced legal challenges, with courts issuing injunctions that blocked terminations, citing procedural violations and allegations of racial bias [antone](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg==), [cliniclegal](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmiOIhi1dQsTIAMAhQm26qHv-AnrLmB9M8W_29NH--bvBHfYcfE5YWXDRu5m7oWhkVDQVJ4wQ_fTmJ3zGsg6kIjaBfX2g2wSbdoX293TZfGIIoXU-nqQsPHCdiWxVeUJCbjVEr8JQjx_jWtzthpUuz9cmui6KCmnrmzBegquWMF8Q9X1WvQqMXmzBXI0lMI1tJb7CJ3g_tr7GtVK6UvGzaKu_wVnGIWtRmav24zqpapCojPBh9MPJGL3A=). A federal court blocked the government's attempt to strip Venezuelans of TPS, protecting approximately 350,000 Venezuelan TPS holders [afsc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI=), [aclusocal](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3MYK600lnAk8JpHhiw-f1CgRv7Q0Y8rUY1VlOSzPIOB1qtCIWggaqgaKlNU4fRoSLvIrBY_rfZSuTvA_IX27IH9g8WuYBbOdxXMjqiHmIJPMsUwPfmeWbpxjox54TGJYr6lvEW5BNMZ93NO-0dHjMpxW8wjp9DKUwSHrHct8gRCXrb4bdxU7PCd1y2Ea08e1_OjEV7uYrAml8aOPT-MLCmsm7RQXWkSrFfF6FMvUZEpfS-bc=), [as-coa](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYx1PSObsHvuqff0khYrd4tKeM5oXsWFGfYlZcnRjQSPGKxfOvAtJ7rQgKFcaRpyW6ghnGzeBUnWq5yYLvjFNRHkUtM6wy4RkSz4z3ropo9Tp-0C4m6PSd_GbercVR3hg2k8PQY4I4rMGWIXoNtioWPKlSIH6UCdtxwygEmMhSVRcx0BsChIsySeDu62Xp4iKrgV2T8kcSTYhpUfdaGEduGwyFE4phkRpuSXsPa1w=), [politico](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPT3qGPR2qvZCB2nTlXNwnvu9KvTuyrgjq1w5j7lCGuHVxNjcwBNcgRDzTwhISxqXdVALfsNN9AAOHm_4aCA46hQLyZ1yY0u5uMitgiW_ktbxhn-bqZdo9J2m2F3p4yeHJ0N4F_nWnEsYrFShUQLiqsTo5Rn1XiTrupOmU0bShR6vYqYkm7WMd1jI55FzGlw==), [fisherphillips](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1IpuJLZtYzeM4iYyobK5w8-vcEk-GXvRQf-DY-gxgOBt1_PjriEwC8Lkm119LLv4kR6QsriD-E3KDW6HyZmS6RwZKolEycJ7iGhJvMBb5Mp2gtJfm6NRhbNMDxFtx7ichn03S5ZXNVK8qGxBsU32ds4QYEsT2edaXh5211ggP812D9Zo3DmnVIEDYlm0I99uiAIUJYmfVvOVuNW8CqLyqBMxqt_kEGsW-wIp1RlE9CAUQ-cuNfwbdxNPKNUFG24U8A==). However, the U.S. Supreme Court sided with the administration in a case that ended protections for over 350,000 Venezuelans, placing them at risk for deportation [as-coa](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYx1PSObsHvuqff0khYrd4tKeM5oXsWFGfYlZcnRjQSPGKxfOvAtJ7rQgKFcaRpyW6ghnGzeBUnWq5yYLvjFNRHkUtM6wy4RkSz4z3ropo9Tp-0C4m6PSd_GbercVR3hg2k8PQY4I4rMGWIXoNtioWPKlSIH6UCdtxwygEmMhSVRcx0BsChIsySeDu62Xp4iKrgV2T8kcSTYhpUfdaGEduGwyFE4phkRpuSXsPa1w=), [afsc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI=). In July 2025, a federal judge blocked the Trump administration from cutting off legal status and work permits for Haitian migrants [cbsnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7Q9OUij1sPBX08NF0hX5TykJNtEj5M6dOcRiRaySWgTIlvprvbUxJjoR1Xr9dM7jMC77znimh2RaixOwr8iMeUmwfdJf1_y2AEdoskmWA37IviVGNS2pBtt1ZaSiG-xCKAy9WeH9D4yfppcHHggDpHZjqdRtJ_B_QgNUiuwovkycb2HUrBywF6EzyH8S37pBTGCsi3cO5g2q-9KZIPxHt3yMOByA=0).\n\nLawsuits challenging TPS terminations alleged racial animus [aclusocal](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3MYK600lnAk8JpHhiw-f1CgRv7Q0Y8rUY1VlOSzPIOB1qtCIWggaqgaKlNU4fRoSLvIrBY_rfZSuTvA_IX27IH9g8WuYBbOdxXMjqiHmIJPMsUwPfmeWbpxjox54TGJYr6lvEW5BNMZ93NO-0dHjMpxW8wjp9DKUwSHrHct8gRCXrb4bdxU7PCd1y2Ea08e1_OjEV7uYrAml8aOPT-MLCmsm7RQXWkSrFfF6FMvUZEpfS-bc=), [cliniclegal](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmiOIhi1dQsTIAMAhQm26qHv-AnrLmB9M8W_29NH--bvBHfYcfE5YWXDRu5m7oWhkVDQVJ4wQ_fTmJ3zGsg6kIjaBfX2g2wSbdoX293TZfGIIoXU-nqQsPHCdiWxVeUJCbjVEr8JQjx_jWtzthpUuz9cmui6KCmnrmzBegquWMF8Q9X1WvQqMXmzBXI0lMI1tJb7CJ3g_tr7GtVK6UvGzaKu_wVnGIWtRmav24zqpapCojPBh9MPJGL3A=). The Trump administration argued that the original conditions justifying TPS protection had improved in several countries [cbsnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7Q9OUij1sPBX08NF0hX5TykJNtEj5M6dOcRiRaySWgTIlvprvbUxJjoR1Xr9dM7jMC77znimh2RaixOwr8iMeUmwfdJf1_y2AEdoskmWA37IviVGNS2pBtt1ZaSiG-xCKAy9WeH9D4yfppcHHggDpHZjqdRtJ_B_QgNUiuwovkycb2HUrBywF6EzyH8S37pBTGCsi3cO5g2q-9KZIPxHt3yMOByA=0). DHS Secretary Kristi Noem stated that the environmental situation in Haiti had improved enough for Haitian citizens to return home [foxnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7Q9OUij1sPBX08NF0hX5TykJNtEj5M6dOcRiRaySWgTIlvprvbUxJjoR1Xr9dM7jMC77znimh2RaixOwr8iMeUmwfdJf1_y2AEdoskmWA37IviVGNS2pBtt1ZaSiG-xCKAy9WeH9D4yfppcHHggDpHZjqdRtJ_B_QgNUiuwovkycb2HUrBywF6EzyH8S37pBTGCsi3cO5g2q-9KZIPxHt3yMOByA=2).\n\nDissenting opinions in the Supreme Court, such as those from Justice Ketanji Brown Jackson, criticized the decisions to end TPS, highlighting the devastating consequences for affected individuals [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxWUwxLp64NjlH8OvMFArc-BUAK_OaSZ4s5NH0GnztNAN9Sy7DaPa9z7d7AXpK9CdSH-Hziyri8vnHo8Go1v7gaKER52UunE_Qqn86NMsKW_zpPypiia_nwOTDgUDctQv8wnOSdb3xuoXpc3uedzaHA4l6QLm36O3hqFYmlmQhdp2yxuICqe2xc5e7zgUJxHibFPZbf7F6o9VzJwL8pzubzmFhvtodrQ==), [jeelani-law](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzrXPRhdNRogguuIIkp4mhBnT92w4inJkiz3cuP_QD6n85GHnAhubzkq25q9nBuG6_EjqH8FAnB6blCDI70h5h0CzTF0nyiHPwNrF3LNs84_miNxnMRa5XnGX_cNy35W9Tn4LNBhzhyagXoU6kmf4P_dBOVDrbHc33bPY2XuLbVkuo4TpFi-FtyLNibF2RC-rtTXs9TMTHS_fiW4hPXmzKIlo), [lawcommentary](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpyyvuBPMm8XKhXwQHO_NVQCovJy7lP6fxOleMxes46maTcCeGDPdph1Pwjg6EMX8vJ2OUrBPu59v2OR2ZcGa7Hui7XkUYofOP1gYnEDuDgvYcmhfByzKraay2Ms2_uKa2C0JZUwMbk5Xo-_GptLo5QXtFFLUSTHk3tVCYQ2BqKxpm79Qn-vgWDA5v4seMPTyK1A07PU5kCNvnEM8ZI876_VgQ653XoVZj), [cbsnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8zQaYo2aBMiFj8q1N044SV5_74Dg1Lo5C_v6puylQr50DptLrxvdEY5QieSo-42A0sQz0xU0HfqRku9MOyx5pzV03WfEdB7HYMl6fteQbx3t1-vLybr7e66i9x8BmbMifWj02cVXrcpbYwgy1GXUH_HaUCyMHx7rSQ2th0R88LYOEz2luMEMp-thSDBYqzfAa90FreGSfKnG52IfHXGYvjfVNGpwdmlKKw==), [politico](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYKITKC1i8yU5jyNwTrbuZRLLHmgnFjRwK-W0AF6i9K5yJGjgKqZH35W8qL1AgoWuF7fYqLhMn7Q4Ik7sMktE5N7AhTb9I81mVhNbJJNHZWaPsdEn2Co_yAdB2xJTVsxC3xucPJgS1cVipSmtT8DdmkoIaOLTMwzmg_5k0LbMYvfXv0rNPxRdRaBL8mXLhOlXrQeQ=).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "a5231680-aabc-486f-928a-b1354e5b5aa4",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Temporary Protected Status (TPS) revocations under Donald Trump administration",
+      "What specific legal arguments were successful in blocking the Trump administration's attempts to terminate TPS for different countries?",
+      "What were the dissenting opinions or counter-arguments in the Supreme Court cases related to TPS terminations during the Trump administration?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Temporary Protected Status (TPS) revocations under Donald Trump administration\" and synthesize it into a verifiable text artifact.\n\nUnder the Trump administration, there were significant changes and challenges to the Temporary Protected Status (TPS) program. [cbsnews](https://vertexaisearch.cloud.google.com/id/0-0) [ilrc](https://vertexaisearch.cloud.google.com/id/0-1) Here's a summary of key actions and their repercussions:\n\n**1. TPS Terminations and Attempts:**\n\n*   The Trump administration announced plans to end TPS for nationals of Haiti, Venezuela, Afghanistan, and Cameroon. (2025-05-22)[2] [afsc](https://vertexaisearch.cloud.google.com/id/0-2)\n*   During his first term (2017-2021), Trump sought to end TPS for El Salvador, Haiti, Nicaragua, and Sudan, arguing that the original conditions justifying protection had improved. [antone](https://vertexaisearch.cloud.google.com/id/0-3) (2025-03-28)[5] [antone](https://vertexaisearch.cloud.google.com/id/0-3)\n*   By March 2025, the Trump administration moved to terminate TPS for hundreds of thousands of immigrants from multiple countries. [cbsnews](https://vertexaisearch.cloud.google.com/id/0-0) [antone](https://vertexaisearch.cloud.google.com/id/0-3) [politico](https://vertexaisearch.cloud.google.com/id/0-4) (2025-03-28)[5] [antone](https://vertexaisearch.cloud.google.com/id/0-3)\n*   Roughly 2 million people with TPS and parole faced cancellation of their status. [epi](https://vertexaisearch.cloud.google.com/id/0-5) (2025-05-12)[4] [epi](https://vertexaisearch.cloud.google.com/id/0-5)\n\n**2. [afsc](https://vertexaisearch.cloud.google.com/id/0-2) [cbsnews](https://vertexaisearch.cloud.google.com/id/0-0) Legal Challenges and Court Rulings:**\n\n*   Many of the Trump administration's TPS termination attempts faced legal challenges, with courts issuing injunctions that blocked terminations, citing procedural violations and allegations of racial bias. [antone](https://vertexaisearch.cloud.google.com/id/0-3) [cliniclegal](https://vertexaisearch.cloud.google.com/id/0-6) (2025-03-28)[5] [antone](https://vertexaisearch.cloud.google.com/id/0-3)\n*   A federal court blocked the government's attempt to strip Venezuelans of TPS, protecting approximately 350,000 Venezuelan TPS holders. [afsc](https://vertexaisearch.cloud.google.com/id/0-2) [aclusocal](https://vertexaisearch.cloud.google.com/id/0-7) [as-coa](https://vertexaisearch.cloud.google.com/id/0-8) [politico](https://vertexaisearch.cloud.google.com/id/0-4) [fisherphillips](https://vertexaisearch.cloud.google.com/id/0-9) (2025-03-31)[1] [aclusocal](https://vertexaisearch.cloud.google.com/id/0-7)\n*   In late May 2025, the U.S. Supreme Court sided with the administration in a case that ended protections for over 350,000 Venezuelans, placing them at risk for deportation. (2025-05-22)[2] [as-coa](https://vertexaisearch.cloud.google.com/id/0-8) [afsc](https://vertexaisearch.cloud.google.com/id/0-2)\n*   However, in July 2025, a federal judge blocked the Trump administration from cutting off legal status and work permits for Haitian migrants. (2025-07-02)[3] [cbsnews](https://vertexaisearch.cloud.google.com/id/0-10)\n*   The basis of most legal challenges was that the decisions stemmed from racial discrimination, violated required Immigration and Nationality Act (INA), and Administrative Procedures Act (APA) procedures, and infringed on the Constitutional rights of TPS beneficiaries. [cliniclegal](https://vertexaisearch.cloud.google.com/id/0-6) (2025-10-08)[10]\n\n**3. Specific Country Actions:**\n\n*   **Haiti:** The Trump administration moved to end TPS for Haitians, affecting roughly 500,000 people. [politico](https://vertexaisearch.cloud.google.com/id/0-4) [opb](https://vertexaisearch.cloud.google.com/id/0-11) [foxnews](https://vertexaisearch.cloud.google.com/id/0-12) (2025-03-28, 2025-06-29, 2025-06-30)[5, 8, 14, 17, 18] A federal judge blocked the administration's attempt to end TPS for Haiti months earlier than planned. (2025-07-03)[16]\n*   **Venezuela:** The administration revoked a Biden-era extension of TPS for Venezuelans, impacting up to 472,000 individuals. (2025-03-28)[5] The Supreme Court allowed the administration to end immigration protections for 350,000 Venezuelans. (2025-05-19, 2025-05-20)[3, 11, 15]\n*   **Other Countries:** The Trump administration also took steps to end TPS for El Salvador, Nicaragua, and Sudan. (2025-03-28, 2025-06-27)[5, 9]\n\n**4. [afsc](https://vertexaisearch.cloud.google.com/id/0-2) Rationale and Justification:**\n\n*   The Trump administration argued that the original conditions justifying TPS protection had improved in several countries. [cbsnews](https://vertexaisearch.cloud.google.com/id/0-10) (2025-03-28, 2025-06-27)[5, 7, 8, 17, 19]\n*   DHS Secretary Kristi Noem stated that the environmental situation in Haiti had improved enough for Haitian citizens to return home. [foxnews](https://vertexaisearch.cloud.google.com/id/0-12) (2025-07-02, 2025-06-27)[3, 7, 8, 12, 17, 20]\n*   The administration emphasized that TPS is intended to be temporary. [youtube](https://vertexaisearch.cloud.google.com/id/0-13) [cbsnews](https://vertexaisearch.cloud.google.com/id/0-0) [cbsnews](https://vertexaisearch.cloud.google.com/id/0-10) (2025-07-02, 2025-06-27)[3, 7, 8, 20]\n\n**5. [afsc](https://vertexaisearch.cloud.google.com/id/0-2) Criticisms and Concerns:**\n\n*   Critics argued that ending TPS would cause turmoil for communities in the U.S. and devastate many people. [afsc](https://vertexaisearch.cloud.google.com/id/0-2) [commondreams](https://vertexaisearch.cloud.google.com/id/0-14) (2025-05-22)[2]\n*   Some lawsuits challenging TPS terminations alleged racial animus. (2025-03-31, 2025-03-28, 2025-10-08)[1, 5, 10]\n*   Advocates warned that conditions in countries like Haiti were still unsafe due to gang violence and health problems. [cbsnews](https://vertexaisearch.cloud.google.com/id/0-10) (2025-07-02, 2025-06-27, 2025-06-29)[3, 7, 8, 14, 18, 20]\n*   Terminating TPS could destabilize both the U.S. and the receiving nations, potentially fueling new migration waves. (2025-03-28)[5] [antone](https://vertexaisearch.cloud.google.com/id/0-3)\n\n**6. Impact:**\n\n*   The potential loss of TPS would affect hundreds of thousands of people who have lived in the U.S. for years, raised families, and contributed to the economy. (2025-03-28, 2025-05-12)[5, 4]\n*   Employers in various industries risked losing valuable employees. [epi](https://vertexaisearch.cloud.google.com/id/0-5) (2025-05-12)[4] [epi](https://vertexaisearch.cloud.google.com/id/0-5)\n*   The Trump administration urged Haitians with TPS to voluntarily leave the U.S. (2025-06-27)[7] [cbsnews](https://vertexaisearch.cloud.google.com/id/0-0)\n\n**7. Current Status:**\n\n*   As of June 2025, 17 countries were designated for TPS. (2025-06-27, 2025-09-30)[13, 8]\n*   Litigation regarding TPS terminations was ongoing. [americanimmigrationcouncil](https://vertexaisearch.cloud.google.com/id/0-15) [fisherphillips](https://vertexaisearch.cloud.google.com/id/0-9) [as-coa](https://vertexaisearch.cloud.google.com/id/0-8) [aclu](https://vertexaisearch.cloud.google.com/id/0-16) (2025-05-20)[15] [fisherphillips](https://vertexaisearch.cloud.google.com/id/0-9)\n\nIt's important to note that the information above reflects events up to July 4, 2025, and further legal challenges and policy changes may occur.\n",
+      "The Trump administration's attempts to terminate Temporary Protected Status (TPS) for various countries faced numerous legal challenges. [cliniclegal](https://vertexaisearch.cloud.google.com/id/1-0) Here's a breakdown of the successful legal arguments:\n\n**1. [congress](https://vertexaisearch.cloud.google.com/id/1-1) Procedural Violations (Administrative Procedure Act - APA):**\n\n*   **Failure to follow necessary rules:** Courts found that the Department of Homeland Security (DHS) did not adhere to proper procedures under the APA when making decisions to terminate TPS. [aclusocal](https://vertexaisearch.cloud.google.com/id/1-2) [nationaltpsalliance](https://vertexaisearch.cloud.google.com/id/1-3) [cliniclegal](https://vertexaisearch.cloud.google.com/id/1-4)\n*   **Arbitrary and Capricious:** The administration's rationale for terminating TPS was often deemed \"arbitrary and capricious,\" lacking evidentiary support. For example, the rationale for terminating TPS for Venezuelans was considered baseless, with the court noting a lack of evidence to support claims of criminality among TPS holders. [ucla](https://vertexaisearch.cloud.google.com/id/1-5) [nationaltpsalliance](https://vertexaisearch.cloud.google.com/id/1-3) [aclusocal](https://vertexaisearch.cloud.google.com/id/1-2)\n*   **Partial Vacatur:** A key argument against the termination of TPS for Haiti was that the DHS Secretary lacked the authority to partially vacate a country's TPS designation before the existing extension expired. [cbsnews](https://vertexaisearch.cloud.google.com/id/1-6)\n\n**2. Unconstitutional Motivation (Racial Animus):**\n\n*   **Racial Discrimination:** Lawsuits argued that the decisions to terminate TPS for certain countries were motivated by racial animus, violating the Fifth Amendment's guarantee of equal protection. [cliniclegal](https://vertexaisearch.cloud.google.com/id/1-4)\n*   **Discriminatory Intent:** Plaintiffs alleged that the stated reasons for termination were a pretext for discrimination based on race, ethnicity, and/or national origin. [cliniclegal](https://vertexaisearch.cloud.google.com/id/1-4)\n*   **Racist Tropes:** The use of \"racist tropes\" by DHS officials and President Trump to dehumanize non-white immigrants was cited as evidence of unconstitutional animus. [aclusocal](https://vertexaisearch.cloud.google.com/id/1-2) [ucla](https://vertexaisearch.cloud.google.com/id/1-5) [nationaltpsalliance](https://vertexaisearch.cloud.google.com/id/1-3)\n\n**3. Infringement on Constitutional Rights:**\n\n*   Challenges were based on the argument that the TPS terminations infringed on the Constitutional rights of TPS beneficiaries. [aclu](https://vertexaisearch.cloud.google.com/id/1-7) [cliniclegal](https://vertexaisearch.cloud.google.com/id/1-4)\n\n**4. Reliance Interests:**\n\n*   Courts considered the reliance interests of TPS holders who had established lives, families, and livelihoods in the U.S. based on the promise of continued protection. The disruption to these individuals and the potential harm to communities were factors in blocking the terminations.\n\n**5. Exceeding Statutory Authority:**\n\n*   It was argued that DHS Secretaries exceeded their statutory authority by retroactively invalidating documents (like Employment Authorization Documents) that had already been issued under previous TPS extensions. [bigimmigrationlawblog](https://vertexaisearch.cloud.google.com/id/1-8)\n\n**Specific Examples & Cases:**\n\n*   **Ramos v. Mayorkas (and Bhattarai v. Mayorkas):** This case challenged the termination of TPS for El Salvador, Haiti, Honduras, Nepal, Nicaragua, and Sudan. [aclusocal](https://vertexaisearch.cloud.google.com/id/1-9) A preliminary injunction was granted in 2018, protecting TPS holders for five years. [aclusocal](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **NTPSA v. Noem:** This case specifically addressed the attempt to strip Venezuelans of TPS. The court blocked the termination, citing a lack of evidentiary support and potential for irreparable harm.\n*   **NAACP v. DHS:** This case alleged that the decision to rescind TPS for Haiti was intended to discriminate against Haitian immigrants based on race and/or ethnicity. [cliniclegal](https://vertexaisearch.cloud.google.com/id/1-4)\n*   **Bhattarai v. Nielsen:** This lawsuit challenged the termination of TPS for Nepal and Honduras, arguing that the decisions deviated from established policies and were motivated by discrimination. [congress](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **Judge Cogan's ruling on Haitian TPS:** The judge stated that Secretary Noem \"does not have statutory or inherent authority to partially vacate a country's TPS designation,\" and that she \"cannot reconsider Haiti's TPS designation in a way that takes effect before February 3, 2026, the expiration of the most recent previous extension.\" [cbsnews](https://vertexaisearch.cloud.google.com/id/1-6)\n\n**Key Arguments Used in Conjunction:**\n\nOften, lawsuits combined arguments related to procedural violations and unconstitutional motivation to strengthen their case.\n\n**Outcome:**\n\nThese legal challenges resulted in:\n\n*   **Preliminary Injunctions:** Courts issued preliminary injunctions to prevent the termination of TPS while cases were ongoing. [cliniclegal](https://vertexaisearch.cloud.google.com/id/1-0) [congress](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **TPS Extensions:** The Biden administration rescinded some of the Trump-era terminations and extended TPS for several countries.\n*   **Continued Protection:** Hundreds of thousands of TPS holders were able to maintain their legal status and work authorization in the U.S. [ucla](https://vertexaisearch.cloud.google.com/id/1-5) [aclusocal](https://vertexaisearch.cloud.google.com/id/1-2)\n\nIt's important to note that litigation is not always a permanent solution, and legislative action is often advocated as a more stable means of protecting TPS holders. [cliniclegal](https://vertexaisearch.cloud.google.com/id/1-0)\n",
+      "Based on the search results, here's a summary of dissenting opinions and counter-arguments in Supreme Court cases related to TPS terminations during the Trump administration:\n\n**Key Cases and Rulings:**\n\n*   **Termination of TPS for Venezuelans:** The Supreme Court allowed the Trump administration to end Temporary Protected Status (TPS) for hundreds of thousands of Venezuelans living in the United States, reversing protections established by President Biden. [cbsnews](https://vertexaisearch.cloud.google.com/id/2-0) [lawcommentary](https://vertexaisearch.cloud.google.com/id/2-1) [politico](https://vertexaisearch.cloud.google.com/id/2-2) [jeelani-law](https://vertexaisearch.cloud.google.com/id/2-3)\n*   **Termination of Humanitarian Parole:** The Supreme Court allowed the Trump administration to revoke humanitarian parole for migrants from Cuba, Haiti, Nicaragua, and Venezuela. [cbsnews](https://vertexaisearch.cloud.google.com/id/2-0) [apnews](https://vertexaisearch.cloud.google.com/id/2-4) [aljazeera](https://vertexaisearch.cloud.google.com/id/2-5) [politico](https://vertexaisearch.cloud.google.com/id/2-6)\n\n**Dissenting Opinions and Arguments:**\n\n*   **Justice Ketanji Brown Jackson:**\n    *   She dissented from the Supreme Court's order allowing the Trump administration to end TPS for Venezuelans. [aljazeera](https://vertexaisearch.cloud.google.com/id/2-5) [jeelani-law](https://vertexaisearch.cloud.google.com/id/2-3) [lawcommentary](https://vertexaisearch.cloud.google.com/id/2-1)\n    *   She criticized attacks on judges by Trump. [aljazeera](https://vertexaisearch.cloud.google.com/id/2-7)\n    *   In a dissent joined by Justice Sotomayor regarding the termination of humanitarian parole, Justice Jackson wrote that the majority's decision \"would facilitate needless human suffering before the courts have reached a final judgment regarding the legal arguments at issue,\" and she lambasted the majority for determining that it is \"in the public's interest to have the lives of half a million migrants unravel all around us before the dissenting courts decide their legal claims.\" [cbsnews](https://vertexaisearch.cloud.google.com/id/2-0) [politico](https://vertexaisearch.cloud.google.com/id/2-6)\n    *   She also wrote that the outcome “undervalues the devastating consequences of allowing the government to precipitously upend the lives and livelihoods of nearly half a million noncitizens while their legal claims are pending”.\n*   [aljazeera](https://vertexaisearch.cloud.google.com/id/2-5) [politico](https://vertexaisearch.cloud.google.com/id/2-6) **Justice Sonia Sotomayor:** She joined Justice Jackson's dissent regarding the termination of humanitarian parole.\n*   [cbsnews](https://vertexaisearch.cloud.google.com/id/2-0) [politico](https://vertexaisearch.cloud.google.com/id/2-6) **Arguments from dissenting justices**: The effect of the high court's order is “to have the lives of half a million migrants unravel all around us before the courts decide their legal claims.”\n\n**Argu [cbsnews](https://vertexaisearch.cloud.google.com/id/2-0) [apnews](https://vertexaisearch.cloud.google.com/id/2-4)ments from TPS Holders and Advocates:**\n\n*   Ending protections would lead to significant humanitarian and economic disruption.\n*   End [jeelani-law](https://vertexaisearch.cloud.google.com/id/2-3) [cbsnews](https://vertexaisearch.cloud.google.com/id/2-0) [lawcommentary](https://vertexaisearch.cloud.google.com/id/2-1)ing TPS would severely disrupt lives and generate substantial economic losses nationwide.\n*   The [lawcommentary](https://vertexaisearch.cloud.google.com/id/2-1) Trump administration ended TPS for Venezuelans without conducting an analysis of the economic, public health, and human rights conditions in the country.\n*   Som [newsweek](https://vertexaisearch.cloud.google.com/id/2-8)e affected individuals would face grave harm if their humanitarian parole were cut short, including serious risks of danger, persecution, and even death if deported.\n\n**Argu [aljazeera](https://vertexaisearch.cloud.google.com/id/2-5)ments from the Trump Administration:**\n\n*   The Department of Homeland Security (DHS) claimed that the Biden-era TPS program had allowed in individuals who posed a threat to public safety, referencing gang affiliations and other security concerns.\n*   The [jeelani-law](https://vertexaisearch.cloud.google.com/id/2-3) Justice Department argued that a San Francisco federal judge had improperly intervened in immigration policy decisions, undermining the executive branch's discretion in immigration matters.\n*   The [lawcommentary](https://vertexaisearch.cloud.google.com/id/2-1) protections for people fleeing turmoil in their home countries were always meant to be temporary, and the Department of Homeland Security has the power to revoke them without court interference.\n*   The [apnews](https://vertexaisearch.cloud.google.com/id/2-4) Biden administration's policies weren't in line with immigration law.\n*   The [apnews](https://vertexaisearch.cloud.google.com/id/2-4) [cbsnews](https://vertexaisearch.cloud.google.com/id/2-0) parole was granted en masse, and the law doesn't require ending it on an individual basis. Taking  [apnews](https://vertexaisearch.cloud.google.com/id/2-4)on each case individually would be a “gargantuan task\".\n\n**Lower  [apnews](https://vertexaisearch.cloud.google.com/id/2-4)Court Rulings:**\n\n*   A San Francisco federal judge ruled that the administration violated federal procedures when terminating the TPS, characterizing the government's rationale as unfounded and tinged with racial bias.\n*   A fed [lawcommentary](https://vertexaisearch.cloud.google.com/id/2-1)eral judge in Boston blocked the administration's push to end the humanitarian parole program, concluding that “en masse” termination of the groups' immigration status was likely illegal and that officials could end individuals' parole grants early only on a case-by-case basis.\n\n**Other Cons [politico](https://vertexaisearch.cloud.google.com/id/2-6) [apnews](https://vertexaisearch.cloud.google.com/id/2-4)iderations:**\n\n*   The Supreme Court's rulings were often issued in brief, unsigned orders without detailed explanations.\n*   Some legal analysts suggested the Supreme Court's actions reflected a view that decisions on TPS are largely discretionary and not subject to extensive judicial review.\n*   The rulings did not necessarily prevent individuals from pursuing legal challenges on a case-by-case basis.\n [reason](https://vertexaisearch.cloud.google.com/id/2-9) [apnews](https://vertexaisearch.cloud.google.com/id/2-4)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_OHNomJErhk92p1xOZgL9ThMPydrsFmB3AY0iMF518W0ubJ9WB6cD5QUNF3ztgivkFVs9w74sOVj4rguJ0aosKSOV-BxacBcQ46t-MfS8cr1kcHGuwNZe9duguNYnpkehe-vAH8fNdGWKHt2RokgtNqDmfnZu3jLrQ5UF0BZ7bIj5w=="
+      },
+      {
+        "label": "ilrc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7Q9OUij1sPBX08NF0hX5TykJNtEj5M6dOcRiRaySWgTIlvprvbUxJjoR1Xr9dM7jMC77znimh2RaixOwr8iMeUmwfdJf1_y2AEdoskmWA37IviVGNS2pBtt1ZaSiG-xCKAy9WeH9D4yfppcHHggDpHZjqdRtJ_B_QgNUiuwovkycb2HUrBywF6EzyH8S37pBTGCsi3cO5g2q-9KZIPxHt3yMOByA="
+      },
+      {
+        "label": "afsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI="
+      },
+      {
+        "label": "antone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg=="
+      },
+      {
+        "label": "antone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg=="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_OHNomJErhk92p1xOZgL9ThMPydrsFmB3AY0iMF518W0ubJ9WB6cD5QUNF3ztgivkFVs9w74sOVj4rguJ0aosKSOV-BxacBcQ46t-MfS8cr1kcHGuwNZe9duguNYnpkehe-vAH8fNdGWKHt2RokgtNqDmfnZu3jLrQ5UF0BZ7bIj5w=="
+      },
+      {
+        "label": "antone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg=="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPT3qGPR2qvZCB2nTlXNwnvu9KvTuyrgjq1w5j7lCGuHVxNjcwBNcgRDzTwhISxqXdVALfsNN9AAOHm_4aCA46hQLyZ1yY0u5uMitgiW_ktbxhn-bqZdo9J2m2F3p4yeHJ0N4F_nWnEsYrFShUQLiqsTo5Rn1XiTrupOmU0bShR6vYqYkm7WMd1jI55FzGlw=="
+      },
+      {
+        "label": "antone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg=="
+      },
+      {
+        "label": "epi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7c8Ccc1FooEHp2JxBAa-MYyDHP_2bmWJFwtXG0ec66wjDsXmrIq2CnhkBX-4CsgCppMtktvhD9IN_Xhub38ln8ywve-FLoksVoqthGk5UUwX8WzXJvIvK-YeNnCYARMFrmjke2eRBFYf8tkxYgUv2HxJkEeKD5y5TyEsByh0DLVvNklrk7AxEFTM5idBaTje3QbeLWHBV1CSo0tTYSsLf2hkjkwo7Wx02W_5AeMDCb6tVj6SkodezQHTnLKfQYPT_C0f164LsK44dl_Eul4w="
+      },
+      {
+        "label": "epi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7c8Ccc1FooEHp2JxBAa-MYyDHP_2bmWJFwtXG0ec66wjDsXmrIq2CnhkBX-4CsgCppMtktvhD9IN_Xhub38ln8ywve-FLoksVoqthGk5UUwX8WzXJvIvK-YeNnCYARMFrmjke2eRBFYf8tkxYgUv2HxJkEeKD5y5TyEsByh0DLVvNklrk7AxEFTM5idBaTje3QbeLWHBV1CSo0tTYSsLf2hkjkwo7Wx02W_5AeMDCb6tVj6SkodezQHTnLKfQYPT_C0f164LsK44dl_Eul4w="
+      },
+      {
+        "label": "afsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_OHNomJErhk92p1xOZgL9ThMPydrsFmB3AY0iMF518W0ubJ9WB6cD5QUNF3ztgivkFVs9w74sOVj4rguJ0aosKSOV-BxacBcQ46t-MfS8cr1kcHGuwNZe9duguNYnpkehe-vAH8fNdGWKHt2RokgtNqDmfnZu3jLrQ5UF0BZ7bIj5w=="
+      },
+      {
+        "label": "antone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg=="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmiOIhi1dQsTIAMAhQm26qHv-AnrLmB9M8W_29NH--bvBHfYcfE5YWXDRu5m7oWhkVDQVJ4wQ_fTmJ3zGsg6kIjaBfX2g2wSbdoX293TZfGIIoXU-nqQsPHCdiWxVeUJCbjVEr8JQjx_jWtzthpUuz9cmui6KCmnrmzBegquWMF8Q9X1WvQqMXmzBXI0lMI1tJb7CJ3g_tr7GtVK6UvGzaKu_wVnGIWtRmav24zqpapCojPBh9MPJGL3A="
+      },
+      {
+        "label": "antone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg=="
+      },
+      {
+        "label": "afsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI="
+      },
+      {
+        "label": "aclusocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3MYK600lnAk8JpHhiw-f1CgRv7Q0Y8rUY1VlOSzPIOB1qtCIWggaqgaKlNU4fRoSLvIrBY_rfZSuTvA_IX27IH9g8WuYBbOdxXMjqiHmIJPMsUwPfmeWbpxjox54TGJYr6lvEW5BNMZ93NO-0dHjMpxW8wjp9DKUwSHrHct8gRCXrb4bdxU7PCd1y2Ea08e1_OjEV7uYrAml8aOPT-MLCmsm7RQXWkSrFfF6FMvUZEpfS-bc="
+      },
+      {
+        "label": "as-coa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYx1PSObsHvuqff0khYrd4tKeM5oXsWFGfYlZcnRjQSPGKxfOvAtJ7rQgKFcaRpyW6ghnGzeBUnWq5yYLvjFNRHkUtM6wy4RkSz4z3ropo9Tp-0C4m6PSd_GbercVR3hg2k8PQY4I4rMGWIXoNtioWPKlSIH6UCdtxwygEmMhSVRcx0BsChIsySeDu62Xp4iKrgV2T8kcSTYhpUfdaGEduGwyFE4phkRpuSXsPa1w="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPT3qGPR2qvZCB2nTlXNwnvu9KvTuyrgjq1w5j7lCGuHVxNjcwBNcgRDzTwhISxqXdVALfsNN9AAOHm_4aCA46hQLyZ1yY0u5uMitgiW_ktbxhn-bqZdo9J2m2F3p4yeHJ0N4F_nWnEsYrFShUQLiqsTo5Rn1XiTrupOmU0bShR6vYqYkm7WMd1jI55FzGlw=="
+      },
+      {
+        "label": "fisherphillips",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1IpuJLZtYzeM4iYyobK5w8-vcEk-GXvRQf-DY-gxgOBt1_PjriEwC8Lkm119LLv4kR6QsriD-E3KDW6HyZmS6RwZKolEycJ7iGhJvMBb5Mp2gtJfm6NRhbNMDxFtx7ichn03S5ZXNVK8qGxBsU32ds4QYEsT2edaXh5211ggP812D9Zo3DmnVIEDYlm0I99uiAIUJYmfVvOVuNW8CqLyqBMxqt_kEGsW-wIp1RlE9CAUQ-cuNfwbdxNPKNUFG24U8A=="
+      },
+      {
+        "label": "aclusocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3MYK600lnAk8JpHhiw-f1CgRv7Q0Y8rUY1VlOSzPIOB1qtCIWggaqgaKlNU4fRoSLvIrBY_rfZSuTvA_IX27IH9g8WuYBbOdxXMjqiHmIJPMsUwPfmeWbpxjox54TGJYr6lvEW5BNMZ93NO-0dHjMpxW8wjp9DKUwSHrHct8gRCXrb4bdxU7PCd1y2Ea08e1_OjEV7uYrAml8aOPT-MLCmsm7RQXWkSrFfF6FMvUZEpfS-bc="
+      },
+      {
+        "label": "as-coa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYx1PSObsHvuqff0khYrd4tKeM5oXsWFGfYlZcnRjQSPGKxfOvAtJ7rQgKFcaRpyW6ghnGzeBUnWq5yYLvjFNRHkUtM6wy4RkSz4z3ropo9Tp-0C4m6PSd_GbercVR3hg2k8PQY4I4rMGWIXoNtioWPKlSIH6UCdtxwygEmMhSVRcx0BsChIsySeDu62Xp4iKrgV2T8kcSTYhpUfdaGEduGwyFE4phkRpuSXsPa1w="
+      },
+      {
+        "label": "afsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuo92dTmjQ6Q_fXcSfiWYQ3yBi7b5id9LdWIzUYDZYthdKegndshLW5hV08B2UNrxjNYIyVpIMKoSFSsTFpEzE8HrYEf0ft4dnL4VBENasHgCbWEoFtvpFfeQrXYLimk-9Ybu8Q6uYc4jwEuqxzKK0TjtWFNxHxPj-0RmmKE83uGNp9Fw="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmiOIhi1dQsTIAMAhQm26qHv-AnrLmB9M8W_29NH--bvBHfYcfE5YWXDRu5m7oWhkVDQVJ4wQ_fTmJ3zGsg6kIjaBfX2g2wSbdoX293TZfGIIoXU-nqQsPHCdiWxVeUJCbjVEr8JQjx_jWtzthpUuz9cmui6KCmnrmzBegquWMF8Q9X1WvQqMXmzBXI0lMI1tJb7CJ3g_tr7GtVK6UvGzaKu_wVnGIWtRmav24zqpapCojPBh9MPJGL3A="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPT3qGPR2qvZCB2nTlXNwnvu9KvTuyrgjq1w5j7lCGuHVxNjcwBNcgRDzTwhISxqXdVALfsNN9AAOHm_4aCA46hQLyZ1yY0u5uMitgiW_ktbxhn-bqZdo9J2m2F3p4yeHJ0N4F_nWnEsYrFShUQLiqsTo5Rn1XiTrupOmU0bShR6vYqYkm7WMd1jI55FzGlw=="
+      },
+      {
+        "label": "opb",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYw2CjGqHLF92LFQTYJwflIFjju9Ks4RcCrLZUlUEI4kh93euWaIRTRhgTNDzCeH37j0tBWidL_HhuCwISOnnFkTZFYoURP7KnwLx29svqYd2nI_V9ope1j_REoMc3c-hBYAkapE45hczpaaFuhhU592eFkTkTq1COHDeeHh4Noh2fedimnc-a3VlUjemErlwdIn7dACqD94nfOxYi4VTicgnLuz-SIwQ0rgzeNGFSK6dwhTlyi73imcjAckqOHpb4aFI="
+      },
+      {
+        "label": "foxnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpAHNUb6AgEvG3TIm1pB7T0Yz3eoSU3XtqK8s2kRXopCET8uA1cmPGRk636TDOFH6l2dFu9Q0dxa3CMrkJ6xUAYkPUVQdxNeS_Mt6jYKgnK2Qsov-4FWtiB9-CfLj4Y0Y-tEpsqHQn7dY7HZryLNI6KQLRZ-C6TZtrgvZn3qQwue23ABHf3zvVZGCiuetiR-ZvoN3cR_3QoJ2gMQpPNN-SwWGtCI-VJlPydtf8yWiMOQ=="
+      },
+      {
+        "label": "afsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuo92dTmjQ6Q_fXcSfiWYQ3yBi7b5id9LdWIzUYDZYthdKegndshLW5hV08B2UNrxjNYIyVpIMKoSFSsTFpEzE8HrYEf0ft4dnL4VBENasHgCbWEoFtvpFfeQrXYLimk-9Ybu8Q6uYc4jwEuqxzKK0TjtWFNxHxPj-0RmmKE83uGNp9Fw="
+      },
+      {
+        "label": "foxnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpAHNUb6AgEvG3TIm1pB7T0Yz3eoSU3XtqK8s2kRXopCET8uA1cmPGRk636TDOFH6l2dFu9Q0dxa3CMrkJ6xUAYkPUVQdxNeS_Mt6jYKgnK2Qsov-4FWtiB9-CfLj4Y0Y-tEpsqHQn7dY7HZryLNI6KQLRZ-C6TZtrgvZn3qQwue23ABHf3zvVZGCiuetiR-ZvoN3cR_3QoJ2gMQpPNN-SwWGtCI-VJlPydtf8yWiMOQ=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIE6YGoQ33JFiS4EvQC2PZaccbAWPr1hG_06IDF87yiWsOYT3uPMixgMykh5Mh_gzycF_mXJ8WDoU0ds2HSOTbWusahAEjRGjbavhBzi3ECPYhjrhfcbM3NKC0mlu5zfZruAkScBY="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_OHNomJErhk92p1xOZgL9ThMPydrsFmB3AY0iMF518W0ubJ9WB6cD5QUNF3ztgivkFVs9w74sOVj4rguJ0aosKSOV-BxacBcQ46t-MfS8cr1kcHGuwNZe9duguNYnpkehe-vAH8fNdGWKHt2RokgtNqDmfnZu3jLrQ5UF0BZ7bIj5w=="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuo92dTmjQ6Q_fXcSfiWYQ3yBi7b5id9LdWIzUYDZYthdKegndshLW5hV08B2UNrxjNYIyVpIMKoSFSsTFpEzE8HrYEf0ft4dnL4VBENasHgCbWEoFtvpFfeQrXYLimk-9Ybu8Q6uYc4jwEuqxzKK0TjtWFNxHxPj-0RmmKE83uGNp9Fw="
+      },
+      {
+        "label": "afsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI="
+      },
+      {
+        "label": "afsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI="
+      },
+      {
+        "label": "commondreams",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfLCK_D9yDY6c3vG0ZGNIAGaM_xA0CsQAOMASBzE3u8nRePaRorJeNr0LeOJ1mVGRyA6FfzWhZ5vk1wsT4QuvvK8jI09-v5RZHMyqs-8vmwJfA6s4bvDnRpynqr8hXQ1pseqCjED8="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuo92dTmjQ6Q_fXcSfiWYQ3yBi7b5id9LdWIzUYDZYthdKegndshLW5hV08B2UNrxjNYIyVpIMKoSFSsTFpEzE8HrYEf0ft4dnL4VBENasHgCbWEoFtvpFfeQrXYLimk-9Ybu8Q6uYc4jwEuqxzKK0TjtWFNxHxPj-0RmmKE83uGNp9Fw="
+      },
+      {
+        "label": "antone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg=="
+      },
+      {
+        "label": "epi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7c8Ccc1FooEHp2JxBAa-MYyDHP_2bmWJFwtXG0ec66wjDsXmrIq2CnhkBX-4CsgCppMtktvhD9IN_Xhub38ln8ywve-FLoksVoqthGk5UUwX8WzXJvIvK-YeNnCYARMFrmjke2eRBFYf8tkxYgUv2HxJkEeKD5y5TyEsByh0DLVvNklrk7AxEFTM5idBaTje3QbeLWHBV1CSo0tTYSsLf2hkjkwo7Wx02W_5AeMDCb6tVj6SkodezQHTnLKfQYPT_C0f164LsK44dl_Eul4w="
+      },
+      {
+        "label": "epi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7c8Ccc1FooEHp2JxBAa-MYyDHP_2bmWJFwtXG0ec66wjDsXmrIq2CnhkBX-4CsgCppMtktvhD9IN_Xhub38ln8ywve-FLoksVoqthGk5UUwX8WzXJvIvK-YeNnCYARMFrmjke2eRBFYf8tkxYgUv2HxJkEeKD5y5TyEsByh0DLVvNklrk7AxEFTM5idBaTje3QbeLWHBV1CSo0tTYSsLf2hkjkwo7Wx02W_5AeMDCb6tVj6SkodezQHTnLKfQYPT_C0f164LsK44dl_Eul4w="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_OHNomJErhk92p1xOZgL9ThMPydrsFmB3AY0iMF518W0ubJ9WB6cD5QUNF3ztgivkFVs9w74sOVj4rguJ0aosKSOV-BxacBcQ46t-MfS8cr1kcHGuwNZe9duguNYnpkehe-vAH8fNdGWKHt2RokgtNqDmfnZu3jLrQ5UF0BZ7bIj5w=="
+      },
+      {
+        "label": "americanimmigrationcouncil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc0f7F75DZSdugb-O6d5gkbEexBwl0m8RhakpqJ8YuKHrFAMMhws2TGd40Gl8ms_FAv7bMztUUzPbROn5BmOf4YkfYY_-RPU7fQcYRpeP8ihKlGUKDJs0JkIDzoStYMG7MRUj8LfSyJIVnSObYOf8uT_K6vEh1rkpFGqTgcmSJzQHe3MYoY0A5gdh-HodcnaQroVWniw=="
+      },
+      {
+        "label": "fisherphillips",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1IpuJLZtYzeM4iYyobK5w8-vcEk-GXvRQf-DY-gxgOBt1_PjriEwC8Lkm119LLv4kR6QsriD-E3KDW6HyZmS6RwZKolEycJ7iGhJvMBb5Mp2gtJfm6NRhbNMDxFtx7ichn03S5ZXNVK8qGxBsU32ds4QYEsT2edaXh5211ggP812D9Zo3DmnVIEDYlm0I99uiAIUJYmfVvOVuNW8CqLyqBMxqt_kEGsW-wIp1RlE9CAUQ-cuNfwbdxNPKNUFG24U8A=="
+      },
+      {
+        "label": "as-coa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYx1PSObsHvuqff0khYrd4tKeM5oXsWFGfYlZcnRjQSPGKxfOvAtJ7rQgKFcaRpyW6ghnGzeBUnWq5yYLvjFNRHkUtM6wy4RkSz4z3ropo9Tp-0C4m6PSd_GbercVR3hg2k8PQY4I4rMGWIXoNtioWPKlSIH6UCdtxwygEmMhSVRcx0BsChIsySeDu62Xp4iKrgV2T8kcSTYhpUfdaGEduGwyFE4phkRpuSXsPa1w="
+      },
+      {
+        "label": "aclu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJ9qvvHO_2lIzK-Ug36LdAzmYGte2LGYaSAPAbeElEccpTDtfJeoRAleN8hBljbV_RNjCs6WCW09iSBQOdDELXnRzOSX0GvNm3nS37ZdhcseXL6c5KEZZ3dK89OKQ6UJ327u2BsCNYiRGr6Sc0Dy2rJML34xrAnGZHjrYRIwnuvnWU4DgRm73Zvjwtii8U0Mc="
+      },
+      {
+        "label": "fisherphillips",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1IpuJLZtYzeM4iYyobK5w8-vcEk-GXvRQf-DY-gxgOBt1_PjriEwC8Lkm119LLv4kR6QsriD-E3KDW6HyZmS6RwZKolEycJ7iGhJvMBb5Mp2gtJfm6NRhbNMDxFtx7ichn03S5ZXNVK8qGxBsU32ds4QYEsT2edaXh5211ggP812D9Zo3DmnVIEDYlm0I99uiAIUJYmfVvOVuNW8CqLyqBMxqt_kEGsW-wIp1RlE9CAUQ-cuNfwbdxNPKNUFG24U8A=="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH41mtxe2SNDvz9vu7WNMmwIMG7Z4AqVCGesPWgoTp6JlJUzSRV88ulZcOV2XwE8190kMP50TMqWuGylwnLCnZ5_ksazlRlnuq491HFRIJ5tD0Se_Dvx5UrJumGbu7Wl0tmua1iVhD5e35f_namLQ618YIau16YPpY="
+      },
+      {
+        "label": "congress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeUXuo0QFQda3q7qXHe3mFCF9Hm5CVNe8uYmBLjX5TZsHF8jhliqCFuXBOMuP66NTG7RT3Uwn8VIt5qQLC2Jf2KzmLtBEurY7DiHQXeKo52XHZ6O8YGEa6-fThfwpQ-NZ7TizPRxpj2uKZ4j7389V3hJO88ioArIUZmDT-mKbvBXJpVC6bTD6LUg=="
+      },
+      {
+        "label": "aclusocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHri9KAM5GiHn4ky154tsNuNOmKPG-FCjuObBuQlxq9UEr3mfEygK16JzApqEFKU_GbuV59U3o_XUz-St07D8kl3Nx28VY_BBmKwXM_MTcP7nnveyxu55uuHnuhF0OCcsDEaDkLxxD-zS9PkKQeQZyGRA3sTfyny-CoI7Zp_-svLsngIkf8fAI0bFDSKFvNCgMcmYTN6UpHNQvfahV9qRDal9P-R4s0fEZBBrufyeJVowQwEuw="
+      },
+      {
+        "label": "nationaltpsalliance",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoKUxrzuJRxgNNywF5Q6o3_cxeIwlDMBem2ugHKuGv8kZwDwm5h09ugx8sT2Mng26kUestTXtUeJ2aHU7lR2OI2OSCs5P0Ew6TftUItXjIfU1-ymUXkRgiM_q8_9dQ--cfJtL2vT4clNB9qHXiAtX1N1KooAASxajSB9JML0rwW052u4xxP9OWtwhE5nIRL3NGS8VBsPWC9HFGkoplBXMZkolmxT2zYXSjBy4CbYIV2LF9v9cYl-mBl66KTAYYmSyqvQ0RS-RjXBcUsWS2jm5WZj13kK0BvTK7hIAM"
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEzmtrBfYyPYASDO-f2eiZUJQnVu8aafWu0x53kY2Vyvt5oI4lr-PZjEhxyObByVA1OJ3k1UIgbZ_DtiMK4f2lVYVzg17SZBc_ZBO6k77f3gRVf9g-kWVDo4uEvXn2SSDXnWktNqq32D2SzAvKxeHFkIsLt082VK0oSDmUJsw65ae8OggMnU9HRukOIVd7LMDF15DvLcx5L_Zv7fntIhe2zMhA8eYmvWNXaI2CUNYy7mDtPy6f8NBwzUY="
+      },
+      {
+        "label": "ucla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZis_mMWjcN4EP387-LV8fCMAjNan1hJBfW0fBMH9Dmxa7k40z6GIf1zkk3YCFBG30haRjNvmd9okQZrE_XgLzPQf_E5g1DL-mG4vFGAgKmy5H6LM2qSNc6tq823y9iP85-N8KUxEq6rqDRFWcb-MX4dJHyyqXpHz-Zjxd4N9HwMZ7GvXmDGu85oSlU5RkZPKmmf6RBaPk-LXwDYvB8zzyouJMuDxuSApfdMzpXXSy4Bp_tcfF"
+      },
+      {
+        "label": "nationaltpsalliance",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoKUxrzuJRxgNNywF5Q6o3_cxeIwlDMBem2ugHKuGv8kZwDwm5h09ugx8sT2Mng26kUestTXtUeJ2aHU7lR2OI2OSCs5P0Ew6TftUItXjIfU1-ymUXkRgiM_q8_9dQ--cfJtL2vT4clNB9qHXiAtX1N1KooAASxajSB9JML0rwW052u4xxP9OWtwhE5nIRL3NGS8VBsPWC9HFGkoplBXMZkolmxT2zYXSjBy4CbYIV2LF9v9cYl-mBl66KTAYYmSyqvQ0RS-RjXBcUsWS2jm5WZj13kK0BvTK7hIAM"
+      },
+      {
+        "label": "aclusocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHri9KAM5GiHn4ky154tsNuNOmKPG-FCjuObBuQlxq9UEr3mfEygK16JzApqEFKU_GbuV59U3o_XUz-St07D8kl3Nx28VY_BBmKwXM_MTcP7nnveyxu55uuHnuhF0OCcsDEaDkLxxD-zS9PkKQeQZyGRA3sTfyny-CoI7Zp_-svLsngIkf8fAI0bFDSKFvNCgMcmYTN6UpHNQvfahV9qRDal9P-R4s0fEZBBrufyeJVowQwEuw="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYtVCnnFmb7Luly75peNjKhTDnRM0WgUTt_STkUiVr5EVNDWzI8ccVMNKYJbXykETHz02n90FGuMcyhe9dr84HgNLSqjg4uImVlWlppa09LYOv7UbpizbqwpuK_0jYtgomNBkZBEUd7JLDPhH7VNYDmZoQW1tT9MNLp41EjhzKy2go568="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEzmtrBfYyPYASDO-f2eiZUJQnVu8aafWu0x53kY2Vyvt5oI4lr-PZjEhxyObByVA1OJ3k1UIgbZ_DtiMK4f2lVYVzg17SZBc_ZBO6k77f3gRVf9g-kWVDo4uEvXn2SSDXnWktNqq32D2SzAvKxeHFkIsLt082VK0oSDmUJsw65ae8OggMnU9HRukOIVd7LMDF15DvLcx5L_Zv7fntIhe2zMhA8eYmvWNXaI2CUNYy7mDtPy6f8NBwzUY="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEzmtrBfYyPYASDO-f2eiZUJQnVu8aafWu0x53kY2Vyvt5oI4lr-PZjEhxyObByVA1OJ3k1UIgbZ_DtiMK4f2lVYVzg17SZBc_ZBO6k77f3gRVf9g-kWVDo4uEvXn2SSDXnWktNqq32D2SzAvKxeHFkIsLt082VK0oSDmUJsw65ae8OggMnU9HRukOIVd7LMDF15DvLcx5L_Zv7fntIhe2zMhA8eYmvWNXaI2CUNYy7mDtPy6f8NBwzUY="
+      },
+      {
+        "label": "aclusocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHri9KAM5GiHn4ky154tsNuNOmKPG-FCjuObBuQlxq9UEr3mfEygK16JzApqEFKU_GbuV59U3o_XUz-St07D8kl3Nx28VY_BBmKwXM_MTcP7nnveyxu55uuHnuhF0OCcsDEaDkLxxD-zS9PkKQeQZyGRA3sTfyny-CoI7Zp_-svLsngIkf8fAI0bFDSKFvNCgMcmYTN6UpHNQvfahV9qRDal9P-R4s0fEZBBrufyeJVowQwEuw="
+      },
+      {
+        "label": "ucla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZis_mMWjcN4EP387-LV8fCMAjNan1hJBfW0fBMH9Dmxa7k40z6GIf1zkk3YCFBG30haRjNvmd9okQZrE_XgLzPQf_E5g1DL-mG4vFGAgKmy5H6LM2qSNc6tq823y9iP85-N8KUxEq6rqDRFWcb-MX4dJHyyqXpHz-Zjxd4N9HwMZ7GvXmDGu85oSlU5RkZPKmmf6RBaPk-LXwDYvB8zzyouJMuDxuSApfdMzpXXSy4Bp_tcfF"
+      },
+      {
+        "label": "nationaltpsalliance",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoKUxrzuJRxgNNywF5Q6o3_cxeIwlDMBem2ugHKuGv8kZwDwm5h09ugx8sT2Mng26kUestTXtUeJ2aHU7lR2OI2OSCs5P0Ew6TftUItXjIfU1-ymUXkRgiM_q8_9dQ--cfJtL2vT4clNB9qHXiAtX1N1KooAASxajSB9JML0rwW052u4xxP9OWtwhE5nIRL3NGS8VBsPWC9HFGkoplBXMZkolmxT2zYXSjBy4CbYIV2LF9v9cYl-mBl66KTAYYmSyqvQ0RS-RjXBcUsWS2jm5WZj13kK0BvTK7hIAM"
+      },
+      {
+        "label": "aclu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfD3fjyUuCAbNOqO-HZSscLNOrit9jm3M-NieVF9a2o2EQdFtYX6w8oxjHY0VU4f7E5LWTJFKIjPEm_6QJkL_CwufwFysBz04Ocpcwa7LC_aPIDH3uz4xuilShLiebCWWcTbXEWJRj0zW3CY_v6tBNAqRYHIi9Ic09qELsbyFJAve2H96wOwjxcnApJH87vmw="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEzmtrBfYyPYASDO-f2eiZUJQnVu8aafWu0x53kY2Vyvt5oI4lr-PZjEhxyObByVA1OJ3k1UIgbZ_DtiMK4f2lVYVzg17SZBc_ZBO6k77f3gRVf9g-kWVDo4uEvXn2SSDXnWktNqq32D2SzAvKxeHFkIsLt082VK0oSDmUJsw65ae8OggMnU9HRukOIVd7LMDF15DvLcx5L_Zv7fntIhe2zMhA8eYmvWNXaI2CUNYy7mDtPy6f8NBwzUY="
+      },
+      {
+        "label": "bigimmigrationlawblog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_j1binrpX1QXrLexlry7QNmrRfva_TPEOEcc-M0t1SYye9CJ5IprDjZ4AmMMRUEAVrzfzTwRS59_0u848xQBBtOouB6wAShjiMyHVWcqNY9P73i7rxNyz8q2dmwCkipuMxTJ3epX-DUF3eQfHbnzzT_HoBnRpELIXrbytnuOjW-SzRQEAhnuO81eh5szVbYsNCbmNRdfgTt_GUHWD4XY4GUG7VxFAGR00irLKtuAP8jAaReGkPGIzc4FYhg=="
+      },
+      {
+        "label": "aclusocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdi8W9giRQqMRIslgaJXsVdsb8zqZsloEt8RF7nqfqAM7Bo1LlfpR5DrkccMWgbfkNdHq8e1cX8QaKUJEYJIRQqYImFKn6s4HiDHVhOXyF5eZHnU9oYxFAP5ZAC4zqHt-1zDtKs8PeNYWk4eSgT-6_LR3L3y-XkXWBLVWw3y5fReXG2npiDLIe_ffq3xdv_TGHyenn6iYVPihFI_yuX-mRiL6-8DnopjLzskP4Ww=="
+      },
+      {
+        "label": "aclusocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdi8W9giRQqMRIslgaJXsVdsb8zqZsloEt8RF7nqfqAM7Bo1LlfpR5DrkccMWgbfkNdHq8e1cX8QaKUJEYJIRQqYImFKn6s4HiDHVhOXyF5eZHnU9oYxFAP5ZAC4zqHt-1zDtKs8PeNYWk4eSgT-6_LR3L3y-XkXWBLVWw3y5fReXG2npiDLIe_ffq3xdv_TGHyenn6iYVPihFI_yuX-mRiL6-8DnopjLzskP4Ww=="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEzmtrBfYyPYASDO-f2eiZUJQnVu8aafWu0x53kY2Vyvt5oI4lr-PZjEhxyObByVA1OJ3k1UIgbZ_DtiMK4f2lVYVzg17SZBc_ZBO6k77f3gRVf9g-kWVDo4uEvXn2SSDXnWktNqq32D2SzAvKxeHFkIsLt082VK0oSDmUJsw65ae8OggMnU9HRukOIVd7LMDF15DvLcx5L_Zv7fntIhe2zMhA8eYmvWNXaI2CUNYy7mDtPy6f8NBwzUY="
+      },
+      {
+        "label": "congress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeUXuo0QFQda3q7qXHe3mFCF9Hm5CVNe8uYmBLjX5TZsHF8jhliqCFuXBOMuP66NTG7RT3Uwn8VIt5qQLC2Jf2KzmLtBEurY7DiHQXeKo52XHZ6O8YGEa6-fThfwpQ-NZ7TizPRxpj2uKZ4j7389V3hJO88ioArIUZmDT-mKbvBXJpVC6bTD6LUg=="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYtVCnnFmb7Luly75peNjKhTDnRM0WgUTt_STkUiVr5EVNDWzI8ccVMNKYJbXykETHz02n90FGuMcyhe9dr84HgNLSqjg4uImVlWlppa09LYOv7UbpizbqwpuK_0jYtgomNBkZBEUd7JLDPhH7VNYDmZoQW1tT9MNLp41EjhzKy2go568="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH41mtxe2SNDvz9vu7WNMmwIMG7Z4AqVCGesPWgoTp6JlJUzSRV88ulZcOV2XwE8190kMP50TMqWuGylwnLCnZ5_ksazlRlnuq491HFRIJ5tD0Se_Dvx5UrJumGbu7Wl0tmua1iVhD5e35f_namLQ618YIau16YPpY="
+      },
+      {
+        "label": "congress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeUXuo0QFQda3q7qXHe3mFCF9Hm5CVNe8uYmBLjX5TZsHF8jhliqCFuXBOMuP66NTG7RT3Uwn8VIt5qQLC2Jf2KzmLtBEurY7DiHQXeKo52XHZ6O8YGEa6-fThfwpQ-NZ7TizPRxpj2uKZ4j7389V3hJO88ioArIUZmDT-mKbvBXJpVC6bTD6LUg=="
+      },
+      {
+        "label": "ucla",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZis_mMWjcN4EP387-LV8fCMAjNan1hJBfW0fBMH9Dmxa7k40z6GIf1zkk3YCFBG30haRjNvmd9okQZrE_XgLzPQf_E5g1DL-mG4vFGAgKmy5H6LM2qSNc6tq823y9iP85-N8KUxEq6rqDRFWcb-MX4dJHyyqXpHz-Zjxd4N9HwMZ7GvXmDGu85oSlU5RkZPKmmf6RBaPk-LXwDYvB8zzyouJMuDxuSApfdMzpXXSy4Bp_tcfF"
+      },
+      {
+        "label": "aclusocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHri9KAM5GiHn4ky154tsNuNOmKPG-FCjuObBuQlxq9UEr3mfEygK16JzApqEFKU_GbuV59U3o_XUz-St07D8kl3Nx28VY_BBmKwXM_MTcP7nnveyxu55uuHnuhF0OCcsDEaDkLxxD-zS9PkKQeQZyGRA3sTfyny-CoI7Zp_-svLsngIkf8fAI0bFDSKFvNCgMcmYTN6UpHNQvfahV9qRDal9P-R4s0fEZBBrufyeJVowQwEuw="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH41mtxe2SNDvz9vu7WNMmwIMG7Z4AqVCGesPWgoTp6JlJUzSRV88ulZcOV2XwE8190kMP50TMqWuGylwnLCnZ5_ksazlRlnuq491HFRIJ5tD0Se_Dvx5UrJumGbu7Wl0tmua1iVhD5e35f_namLQ618YIau16YPpY="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8zQaYo2aBMiFj8q1N044SV5_74Dg1Lo5C_v6puylQr50DptLrxvdEY5QieSo-42A0sQz0xU0HfqRku9MOyx5pzV03WfEdB7HYMl6fteQbx3t1-vLybr7e66i9x8BmbMifWj02cVXrcpbYwgy1GXUH_HaUCyMHx7rSQ2th0R88LYOEz2luMEMp-thSDBYqzfAa90FreGSfKnG52IfHXGYvjfVNGpwdmlKKw=="
+      },
+      {
+        "label": "lawcommentary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpyyvuBPMm8XKhXwQHO_NVQCovJy7lP6fxOleMxes46maTcCeGDPdph1Pwjg6EMX8vJ2OUrBPu59v2OR2ZcGa7Hui7XkUYofOP1gYnEDuDgvYcmhfByzKraay2Ms2_uKa2C0JZUwMbk5Xo-_GptLo5QXtFFLUSTHk3tVCYQ2BqKxpm79Qn-vgWDA5v4seMPTyK1A07PU5kCNvnEM8ZI876_VgQ653XoVZj"
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGA2pWw8fqegQlaTzhJs5VmwPH7930ROI-OrOF3GYauhnBtBpWDC4riM92MyAORuJm-vNdZbDpKQAIKk9I8xAtRtmeW9UYh-4Lb34NVazVzBCgntEvC5Zyu_C4HhM39CAneLOdOLCzcKXirzrfdTaEn_OhkuOBO7oU26Xomt-cE5xiPqNgOzQPuZ-n_mOns"
+      },
+      {
+        "label": "jeelani-law",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzrXPRhdNRogguuIIkp4mhBnT92w4inJkiz3cuP_QD6n85GHnAhubzkq25q9nBuG6_EjqH8FAnB6blCDI70h5h0CzTF0nyiHPwNrF3LNs84_miNxnMRa5XnGX_cNy35W9Tn4LNBhzhyagXoU6kmf4P_dBOVDrbHc33bPY2XuLbVkuo4TpFi-FtyLNibF2RC-rtTXs9TMTHS_fiW4hPXmzKIlo"
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8zQaYo2aBMiFj8q1N044SV5_74Dg1Lo5C_v6puylQr50DptLrxvdEY5QieSo-42A0sQz0xU0HfqRku9MOyx5pzV03WfEdB7HYMl6fteQbx3t1-vLybr7e66i9x8BmbMifWj02cVXrcpbYwgy1GXUH_HaUCyMHx7rSQ2th0R88LYOEz2luMEMp-thSDBYqzfAa90FreGSfKnG52IfHXGYvjfVNGpwdmlKKw=="
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7D9ngrGU8vc1wyv9tacAHyaBAGvix-e8uvscMi5q60qESgJ_Z7xR_gp3aBBppr2t3pTUTBkT9GibwgqfiU5b5oRTC8vjBq14pFQOuBMbm9V_p8GS6x8X45PZaaK_SazY54RSj38FFD1vw_jgUZuWmsMD-hgbgm8R2mvFJBpAAwOvUDkdxf0c9gNqPJ_6Hie7q39V97k0RHZiRxJVObAc124w="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxWUwxLp64NjlH8OvMFArc-BUAK_OaSZ4s5NH0GnztNAN9Sy7DaPa9z7d7AXpK9CdSH-Hziyri8vnHo8Go1v7gaKER52UunE_Qqn86NMsKW_zpPypiia_nwOTDgUDctQv8wnOSdb3xuoXpc3uedzaHA4l6QLm36O3hqFYmlmQhdp2yxuICqe2xc5e7zgUJxHibFPZbf7F6o9VzJwL8pzubzmFhvtodrQ=="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYKITKC1i8yU5jyNwTrbuZRLLHmgnFjRwK-W0AF6i9K5yJGjgKqZH35W8qL1AgoWuF7fYqLhMn7Q4Ik7sMktE5N7AhTb9I81mVhNbJJNHZWaPsdEn2Co_yAdB2xJTVsxC3xucPJgS1cVipSmtT8DdmkoIaOLTMwzmg_5k0LbMYvfXv0rNPxRdRaBL8mXLhOlXrQeQ="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxWUwxLp64NjlH8OvMFArc-BUAK_OaSZ4s5NH0GnztNAN9Sy7DaPa9z7d7AXpK9CdSH-Hziyri8vnHo8Go1v7gaKER52UunE_Qqn86NMsKW_zpPypiia_nwOTDgUDctQv8wnOSdb3xuoXpc3uedzaHA4l6QLm36O3hqFYmlmQhdp2yxuICqe2xc5e7zgUJxHibFPZbf7F6o9VzJwL8pzubzmFhvtodrQ=="
+      },
+      {
+        "label": "jeelani-law",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzrXPRhdNRogguuIIkp4mhBnT92w4inJkiz3cuP_QD6n85GHnAhubzkq25q9nBuG6_EjqH8FAnB6blCDI70h5h0CzTF0nyiHPwNrF3LNs84_miNxnMRa5XnGX_cNy35W9Tn4LNBhzhyagXoU6kmf4P_dBOVDrbHc33bPY2XuLbVkuo4TpFi-FtyLNibF2RC-rtTXs9TMTHS_fiW4hPXmzKIlo"
+      },
+      {
+        "label": "lawcommentary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpyyvuBPMm8XKhXwQHO_NVQCovJy7lP6fxOleMxes46maTcCeGDPdph1Pwjg6EMX8vJ2OUrBPu59v2OR2ZcGa7Hui7XkUYofOP1gYnEDuDgvYcmhfByzKraay2Ms2_uKa2C0JZUwMbk5Xo-_GptLo5QXtFFLUSTHk3tVCYQ2BqKxpm79Qn-vgWDA5v4seMPTyK1A07PU5kCNvnEM8ZI876_VgQ653XoVZj"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRLx65ByukRBkDlb9rEOkvrjjdf-doNrvHlNDbFJ0AeZMo05f1gY_nhW9rKjbo7qi8Moym4n7UaJOpaQ-p3frgcuFH2GThzG3vIoA_KoYVbEJeQCpEFrsKNfZvQs9uTh6oTRFl7OdCJJ9YS8vXmGGtg_D1lH26LNjBdiUS0RHh8Nz0o_Rw7b4-dN4QIhQ344moqM7auRJP-1223Sd6IeZ_i6kZaJ9RifQ="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8zQaYo2aBMiFj8q1N044SV5_74Dg1Lo5C_v6puylQr50DptLrxvdEY5QieSo-42A0sQz0xU0HfqRku9MOyx5pzV03WfEdB7HYMl6fteQbx3t1-vLybr7e66i9x8BmbMifWj02cVXrcpbYwgy1GXUH_HaUCyMHx7rSQ2th0R88LYOEz2luMEMp-thSDBYqzfAa90FreGSfKnG52IfHXGYvjfVNGpwdmlKKw=="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYKITKC1i8yU5jyNwTrbuZRLLHmgnFjRwK-W0AF6i9K5yJGjgKqZH35W8qL1AgoWuF7fYqLhMn7Q4Ik7sMktE5N7AhTb9I81mVhNbJJNHZWaPsdEn2Co_yAdB2xJTVsxC3xucPJgS1cVipSmtT8DdmkoIaOLTMwzmg_5k0LbMYvfXv0rNPxRdRaBL8mXLhOlXrQeQ="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxWUwxLp64NjlH8OvMFArc-BUAK_OaSZ4s5NH0GnztNAN9Sy7DaPa9z7d7AXpK9CdSH-Hziyri8vnHo8Go1v7gaKER52UunE_Qqn86NMsKW_zpPypiia_nwOTDgUDctQv8wnOSdb3xuoXpc3uedzaHA4l6QLm36O3hqFYmlmQhdp2yxuICqe2xc5e7zgUJxHibFPZbf7F6o9VzJwL8pzubzmFhvtodrQ=="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYKITKC1i8yU5jyNwTrbuZRLLHmgnFjRwK-W0AF6i9K5yJGjgKqZH35W8qL1AgoWuF7fYqLhMn7Q4Ik7sMktE5N7AhTb9I81mVhNbJJNHZWaPsdEn2Co_yAdB2xJTVsxC3xucPJgS1cVipSmtT8DdmkoIaOLTMwzmg_5k0LbMYvfXv0rNPxRdRaBL8mXLhOlXrQeQ="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8zQaYo2aBMiFj8q1N044SV5_74Dg1Lo5C_v6puylQr50DptLrxvdEY5QieSo-42A0sQz0xU0HfqRku9MOyx5pzV03WfEdB7HYMl6fteQbx3t1-vLybr7e66i9x8BmbMifWj02cVXrcpbYwgy1GXUH_HaUCyMHx7rSQ2th0R88LYOEz2luMEMp-thSDBYqzfAa90FreGSfKnG52IfHXGYvjfVNGpwdmlKKw=="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYKITKC1i8yU5jyNwTrbuZRLLHmgnFjRwK-W0AF6i9K5yJGjgKqZH35W8qL1AgoWuF7fYqLhMn7Q4Ik7sMktE5N7AhTb9I81mVhNbJJNHZWaPsdEn2Co_yAdB2xJTVsxC3xucPJgS1cVipSmtT8DdmkoIaOLTMwzmg_5k0LbMYvfXv0rNPxRdRaBL8mXLhOlXrQeQ="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8zQaYo2aBMiFj8q1N044SV5_74Dg1Lo5C_v6puylQr50DptLrxvdEY5QieSo-42A0sQz0xU0HfqRku9MOyx5pzV03WfEdB7HYMl6fteQbx3t1-vLybr7e66i9x8BmbMifWj02cVXrcpbYwgy1GXUH_HaUCyMHx7rSQ2th0R88LYOEz2luMEMp-thSDBYqzfAa90FreGSfKnG52IfHXGYvjfVNGpwdmlKKw=="
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7D9ngrGU8vc1wyv9tacAHyaBAGvix-e8uvscMi5q60qESgJ_Z7xR_gp3aBBppr2t3pTUTBkT9GibwgqfiU5b5oRTC8vjBq14pFQOuBMbm9V_p8GS6x8X45PZaaK_SazY54RSj38FFD1vw_jgUZuWmsMD-hgbgm8R2mvFJBpAAwOvUDkdxf0c9gNqPJ_6Hie7q39V97k0RHZiRxJVObAc124w="
+      },
+      {
+        "label": "jeelani-law",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzrXPRhdNRogguuIIkp4mhBnT92w4inJkiz3cuP_QD6n85GHnAhubzkq25q9nBuG6_EjqH8FAnB6blCDI70h5h0CzTF0nyiHPwNrF3LNs84_miNxnMRa5XnGX_cNy35W9Tn4LNBhzhyagXoU6kmf4P_dBOVDrbHc33bPY2XuLbVkuo4TpFi-FtyLNibF2RC-rtTXs9TMTHS_fiW4hPXmzKIlo"
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8zQaYo2aBMiFj8q1N044SV5_74Dg1Lo5C_v6puylQr50DptLrxvdEY5QieSo-42A0sQz0xU0HfqRku9MOyx5pzV03WfEdB7HYMl6fteQbx3t1-vLybr7e66i9x8BmbMifWj02cVXrcpbYwgy1GXUH_HaUCyMHx7rSQ2th0R88LYOEz2luMEMp-thSDBYqzfAa90FreGSfKnG52IfHXGYvjfVNGpwdmlKKw=="
+      },
+      {
+        "label": "lawcommentary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpyyvuBPMm8XKhXwQHO_NVQCovJy7lP6fxOleMxes46maTcCeGDPdph1Pwjg6EMX8vJ2OUrBPu59v2OR2ZcGa7Hui7XkUYofOP1gYnEDuDgvYcmhfByzKraay2Ms2_uKa2C0JZUwMbk5Xo-_GptLo5QXtFFLUSTHk3tVCYQ2BqKxpm79Qn-vgWDA5v4seMPTyK1A07PU5kCNvnEM8ZI876_VgQ653XoVZj"
+      },
+      {
+        "label": "lawcommentary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpyyvuBPMm8XKhXwQHO_NVQCovJy7lP6fxOleMxes46maTcCeGDPdph1Pwjg6EMX8vJ2OUrBPu59v2OR2ZcGa7Hui7XkUYofOP1gYnEDuDgvYcmhfByzKraay2Ms2_uKa2C0JZUwMbk5Xo-_GptLo5QXtFFLUSTHk3tVCYQ2BqKxpm79Qn-vgWDA5v4seMPTyK1A07PU5kCNvnEM8ZI876_VgQ653XoVZj"
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnPs4AHt7Jh8cEBYYKf6seu9lFkOQpDRmE1HQoq3tFKKwCItYZlC6TvalcJzsOQRa7SJ_TMGOWMm80AZe-_xJ893ZL72x4-EV60C7bhCWWz5u6PAElaHHr5PbaIhYW2EuQSrZQElxx7loB-HjsFYRjA6egyFXWPEM2OYw41oBcYaF9dwcHJjgAGXrKauZX_QsK339FD2mQvbVYSGElsw=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxWUwxLp64NjlH8OvMFArc-BUAK_OaSZ4s5NH0GnztNAN9Sy7DaPa9z7d7AXpK9CdSH-Hziyri8vnHo8Go1v7gaKER52UunE_Qqn86NMsKW_zpPypiia_nwOTDgUDctQv8wnOSdb3xuoXpc3uedzaHA4l6QLm36O3hqFYmlmQhdp2yxuICqe2xc5e7zgUJxHibFPZbf7F6o9VzJwL8pzubzmFhvtodrQ=="
+      },
+      {
+        "label": "jeelani-law",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzrXPRhdNRogguuIIkp4mhBnT92w4inJkiz3cuP_QD6n85GHnAhubzkq25q9nBuG6_EjqH8FAnB6blCDI70h5h0CzTF0nyiHPwNrF3LNs84_miNxnMRa5XnGX_cNy35W9Tn4LNBhzhyagXoU6kmf4P_dBOVDrbHc33bPY2XuLbVkuo4TpFi-FtyLNibF2RC-rtTXs9TMTHS_fiW4hPXmzKIlo"
+      },
+      {
+        "label": "lawcommentary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpyyvuBPMm8XKhXwQHO_NVQCovJy7lP6fxOleMxes46maTcCeGDPdph1Pwjg6EMX8vJ2OUrBPu59v2OR2ZcGa7Hui7XkUYofOP1gYnEDuDgvYcmhfByzKraay2Ms2_uKa2C0JZUwMbk5Xo-_GptLo5QXtFFLUSTHk3tVCYQ2BqKxpm79Qn-vgWDA5v4seMPTyK1A07PU5kCNvnEM8ZI876_VgQ653XoVZj"
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7D9ngrGU8vc1wyv9tacAHyaBAGvix-e8uvscMi5q60qESgJ_Z7xR_gp3aBBppr2t3pTUTBkT9GibwgqfiU5b5oRTC8vjBq14pFQOuBMbm9V_p8GS6x8X45PZaaK_SazY54RSj38FFD1vw_jgUZuWmsMD-hgbgm8R2mvFJBpAAwOvUDkdxf0c9gNqPJ_6Hie7q39V97k0RHZiRxJVObAc124w="
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7D9ngrGU8vc1wyv9tacAHyaBAGvix-e8uvscMi5q60qESgJ_Z7xR_gp3aBBppr2t3pTUTBkT9GibwgqfiU5b5oRTC8vjBq14pFQOuBMbm9V_p8GS6x8X45PZaaK_SazY54RSj38FFD1vw_jgUZuWmsMD-hgbgm8R2mvFJBpAAwOvUDkdxf0c9gNqPJ_6Hie7q39V97k0RHZiRxJVObAc124w="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8zQaYo2aBMiFj8q1N044SV5_74Dg1Lo5C_v6puylQr50DptLrxvdEY5QieSo-42A0sQz0xU0HfqRku9MOyx5pzV03WfEdB7HYMl6fteQbx3t1-vLybr7e66i9x8BmbMifWj02cVXrcpbYwgy1GXUH_HaUCyMHx7rSQ2th0R88LYOEz2luMEMp-thSDBYqzfAa90FreGSfKnG52IfHXGYvjfVNGpwdmlKKw=="
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7D9ngrGU8vc1wyv9tacAHyaBAGvix-e8uvscMi5q60qESgJ_Z7xR_gp3aBBppr2t3pTUTBkT9GibwgqfiU5b5oRTC8vjBq14pFQOuBMbm9V_p8GS6x8X45PZaaK_SazY54RSj38FFD1vw_jgUZuWmsMD-hgbgm8R2mvFJBpAAwOvUDkdxf0c9gNqPJ_6Hie7q39V97k0RHZiRxJVObAc124w="
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7D9ngrGU8vc1wyv9tacAHyaBAGvix-e8uvscMi5q60qESgJ_Z7xR_gp3aBBppr2t3pTUTBkT9GibwgqfiU5b5oRTC8vjBq14pFQOuBMbm9V_p8GS6x8X45PZaaK_SazY54RSj38FFD1vw_jgUZuWmsMD-hgbgm8R2mvFJBpAAwOvUDkdxf0c9gNqPJ_6Hie7q39V97k0RHZiRxJVObAc124w="
+      },
+      {
+        "label": "lawcommentary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpyyvuBPMm8XKhXwQHO_NVQCovJy7lP6fxOleMxes46maTcCeGDPdph1Pwjg6EMX8vJ2OUrBPu59v2OR2ZcGa7Hui7XkUYofOP1gYnEDuDgvYcmhfByzKraay2Ms2_uKa2C0JZUwMbk5Xo-_GptLo5QXtFFLUSTHk3tVCYQ2BqKxpm79Qn-vgWDA5v4seMPTyK1A07PU5kCNvnEM8ZI876_VgQ653XoVZj"
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYKITKC1i8yU5jyNwTrbuZRLLHmgnFjRwK-W0AF6i9K5yJGjgKqZH35W8qL1AgoWuF7fYqLhMn7Q4Ik7sMktE5N7AhTb9I81mVhNbJJNHZWaPsdEn2Co_yAdB2xJTVsxC3xucPJgS1cVipSmtT8DdmkoIaOLTMwzmg_5k0LbMYvfXv0rNPxRdRaBL8mXLhOlXrQeQ="
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7D9ngrGU8vc1wyv9tacAHyaBAGvix-e8uvscMi5q60qESgJ_Z7xR_gp3aBBppr2t3pTUTBkT9GibwgqfiU5b5oRTC8vjBq14pFQOuBMbm9V_p8GS6x8X45PZaaK_SazY54RSj38FFD1vw_jgUZuWmsMD-hgbgm8R2mvFJBpAAwOvUDkdxf0c9gNqPJ_6Hie7q39V97k0RHZiRxJVObAc124w="
+      },
+      {
+        "label": "reason",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr0ui2nzN_1sI7XcwGvYHbeXf72LNG_DKKRXlKFS9Z87aw903d1kcsjNLrHUCm5LZ8R23A-PhdRcqP849bCSebTPuFrKZ7yOj0YLEaqrWJERKgKFHkYWZzYsiZKLGERXNeEIJoeZPIWPDchO4yYWLOOBc2qtMVBgHCk6tFiSn_ijnrAal9HcVocaCBzgUJPf_r_BgS4Mcu7RVoZ_DAoBvPWzSOUu1NNsX4gKJSSVgs"
+      },
+      {
+        "label": "apnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7D9ngrGU8vc1wyv9tacAHyaBAGvix-e8uvscMi5q60qESgJ_Z7xR_gp3aBBppr2t3pTUTBkT9GibwgqfiU5b5oRTC8vjBq14pFQOuBMbm9V_p8GS6x8X45PZaaK_SazY54RSj38FFD1vw_jgUZuWmsMD-hgbgm8R2mvFJBpAAwOvUDkdxf0c9gNqPJ_6Hie7q39V97k0RHZiRxJVObAc124w="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO_OHNomJErhk92p1xOZgL9ThMPydrsFmB3AY0iMF518W0ubJ9WB6cD5QUNF3ztgivkFVs9w74sOVj4rguJ0aosKSOV-BxacBcQ46t-MfS8cr1kcHGuwNZe9duguNYnpkehe-vAH8fNdGWKHt2RokgtNqDmfnZu3jLrQ5UF0BZ7bIj5w=="
+      },
+      {
+        "label": "ilrc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7Q9OUij1sPBX08NF0hX5TykJNtEj5M6dOcRiRaySWgTIlvprvbUxJjoR1Xr9dM7jMC77znimh2RaixOwr8iMeUmwfdJf1_y2AEdoskmWA37IviVGNS2pBtt1ZaSiG-xCKAy9WeH9D4yfppcHHggDpHZjqdRtJ_B_QgNUiuwovkycb2HUrBywF6EzyH8S37pBTGCsi3cO5g2q-9KZIPxHt3yMOByA="
+      },
+      {
+        "label": "afsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8u0E06eGCM90GZBPgZ0XQqyTAoZ7N2K90TWEXcwNuo7nk6juBh-gARo5CLVIT2xDxbdFQ3U_BkIJCmXEwDZ7_mbcCmFFoqeA7pr10DFq1D9oAZ3_1W4kRJ6frKaY5VGCF2aokL8UPQChsHdqQDUIKE6Vmhqi7Oi5u7SdzaZpIz4vtuyP-TnyGp1srkAqbRRXi711ZXnW9AkP2NDF23sI="
+      },
+      {
+        "label": "antone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr-xwApjHYlorOHZMl3grWaSk1r3RnCbXudcMfm6Kr92WH9FVKZv81ikY0Hos735hQqTBO9rHi1H-9sWrr13dU4ayDwhm7PJTAI1H6UWCZ0FjBNnBX750mnCwatsGvE1kRu_FTwY_fnrAMu5aZYDBXlLwXdk8agwAXSe26vWBxUglkZob5_KYzbaeL6IjJltSnNIpmjDLBAg=="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPT3qGPR2qvZCB2nTlXNwnvu9KvTuyrgjq1w5j7lCGuHVxNjcwBNcgRDzTwhISxqXdVALfsNN9AAOHm_4aCA46hQLyZ1yY0u5uMitgiW_ktbxhn-bqZdo9J2m2F3p4yeHJ0N4F_nWnEsYrFShUQLiqsTo5Rn1XiTrupOmU0bShR6vYqYkm7WMd1jI55FzGlw=="
+      },
+      {
+        "label": "cliniclegal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmiOIhi1dQsTIAMAhQm26qHv-AnrLmB9M8W_29NH--bvBHfYcfE5YWXDRu5m7oWhkVDQVJ4wQ_fTmJ3zGsg6kIjaBfX2g2wSbdoX293TZfGIIoXU-nqQsPHCdiWxVeUJCbjVEr8JQjx_jWtzthpUuz9cmui6KCmnrmzBegquWMF8Q9X1WvQqMXmzBXI0lMI1tJb7CJ3g_tr7GtVK6UvGzaKu_wVnGIWtRmav24zqpapCojPBh9MPJGL3A="
+      },
+      {
+        "label": "aclusocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3MYK600lnAk8JpHhiw-f1CgRv7Q0Y8rUY1VlOSzPIOB1qtCIWggaqgaKlNU4fRoSLvIrBY_rfZSuTvA_IX27IH9g8WuYBbOdxXMjqiHmIJPMsUwPfmeWbpxjox54TGJYr6lvEW5BNMZ93NO-0dHjMpxW8wjp9DKUwSHrHct8gRCXrb4bdxU7PCd1y2Ea08e1_OjEV7uYrAml8aOPT-MLCmsm7RQXWkSrFfF6FMvUZEpfS-bc="
+      },
+      {
+        "label": "as-coa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYx1PSObsHvuqff0khYrd4tKeM5oXsWFGfYlZcnRjQSPGKxfOvAtJ7rQgKFcaRpyW6ghnGzeBUnWq5yYLvjFNRHkUtM6wy4RkSz4z3ropo9Tp-0C4m6PSd_GbercVR3hg2k8PQY4I4rMGWIXoNtioWPKlSIH6UCdtxwygEmMhSVRcx0BsChIsySeDu62Xp4iKrgV2T8kcSTYhpUfdaGEduGwyFE4phkRpuSXsPa1w="
+      },
+      {
+        "label": "fisherphillips",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK1IpuJLZtYzeM4iYyobK5w8-vcEk-GXvRQf-DY-gxgOBt1_PjriEwC8Lkm119LLv4kR6QsriD-E3KDW6HyZmS6RwZKolEycJ7iGhJvMBb5Mp2gtJfm6NRhbNMDxFtx7ichn03S5ZXNVK8qGxBsU32ds4QYEsT2edaXh5211ggP812D9Zo3DmnVIEDYlm0I99uiAIUJYmfVvOVuNW8CqLyqBMxqt_kEGsW-wIp1RlE9CAUQ-cuNfwbdxNPKNUFG24U8A=="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGW8zQaYo2aBMiFj8q1N044SV5_74Dg1Lo5C_v6puylQr50DptLrxvdEY5QieSo-42A0sQz0xU0HfqRku9MOyx5pzV03WfEdB7HYMl6fteQbx3t1-vLybr7e66i9x8BmbMifWj02cVXrcpbYwgy1GXUH_HaUCyMHx7rSQ2th0R88LYOEz2luMEMp-thSDBYqzfAa90FreGSfKnG52IfHXGYvjfVNGpwdmlKKw=="
+      },
+      {
+        "label": "lawcommentary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpyyvuBPMm8XKhXwQHO_NVQCovJy7lP6fxOleMxes46maTcCeGDPdph1Pwjg6EMX8vJ2OUrBPu59v2OR2ZcGa7Hui7XkUYofOP1gYnEDuDgvYcmhfByzKraay2Ms2_uKa2C0JZUwMbk5Xo-_GptLo5QXtFFLUSTHk3tVCYQ2BqKxpm79Qn-vgWDA5v4seMPTyK1A07PU5kCNvnEM8ZI876_VgQ653XoVZj"
+      },
+      {
+        "label": "jeelani-law",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSzrXPRhdNRogguuIIkp4mhBnT92w4inJkiz3cuP_QD6n85GHnAhubzkq25q9nBuG6_EjqH8FAnB6blCDI70h5h0CzTF0nyiHPwNrF3LNs84_miNxnMRa5XnGX_cNy35W9Tn4LNBhzhyagXoU6kmf4P_dBOVDrbHc33bPY2XuLbVkuo4TpFi-FtyLNibF2RC-rtTXs9TMTHS_fiW4hPXmzKIlo"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxWUwxLp64NjlH8OvMFArc-BUAK_OaSZ4s5NH0GnztNAN9Sy7DaPa9z7d7AXpK9CdSH-Hziyri8vnHo8Go1v7gaKER52UunE_Qqn86NMsKW_zpPypiia_nwOTDgUDctQv8wnOSdb3xuoXpc3uedzaHA4l6QLm36O3hqFYmlmQhdp2yxuICqe2xc5e7zgUJxHibFPZbf7F6o9VzJwL8pzubzmFhvtodrQ=="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYKITKC1i8yU5jyNwTrbuZRLLHmgnFjRwK-W0AF6i9K5yJGjgKqZH35W8qL1AgoWuF7fYqLhMn7Q4Ik7sMktE5N7AhTb9I81mVhNbJJNHZWaPsdEn2Co_yAdB2xJTVsxC3xucPJgS1cVipSmtT8DdmkoIaOLTMwzmg_5k0LbMYvfXv0rNPxRdRaBL8mXLhOlXrQeQ="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "file_name": "state_result_125.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.617211",
+  "data": {
+    "messages": [
+      {
+        "content": "what happend to hudsons bay in canada? tell me the latest news",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "7fe72669-dc00-4b84-8612-37686f2c3abe",
+        "example": false
+      },
+      {
+        "content": "As of July 2025, Hudson's Bay Canada has ceased operations as a department store chain, ending a 355-year history [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0) [columbian](https://vertexaisearch.cloud.google.com/id/0-1) [globalnews](https://vertexaisearch.cloud.google.com/id/0-2). The company began liquidating assets and closing stores after filing for creditor protection in March 2025 [cbc](https://vertexaisearch.cloud.google.com/id/0-3) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-4) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-5), with final closures on June 1, 2025 [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0).\n\nThe closure resulted in approximately 8,347 employees being terminated by June 1, 2025, representing 89% of the workforce, with an additional 899 let go around June 15 [retail-insider](https://vertexaisearch.cloud.google.com/id/0-7) [ctvnews](https://vertexaisearch.cloud.google.com/id/0-8]. In early March 2025, HBC had approximately $3 million in cash, while court filings indicated nearly $1 billion in debt [cbc](https://vertexaisearch.cloud.google.com/id/0-9]. For the year ending January 31, 2025, they had a net loss of approximately $329.7 million [alvarezandmarsal](https://vertexaisearch.cloud.google.com/id/0-10]. An Ontario court extended protection from creditors under the Companies' Creditors Arrangement Act (CCAA) to July 31, 2025 [bnnbloomberg](https://vertexaisearch.cloud.google.com/id/0-6).\n\nCanadian Tire acquired Hudson's Bay's intellectual property for $30 million, with the deal set to close by July 15 [retail-insider](https://vertexaisearch.cloud.google.com/id/0-7) [ctvnews](https://vertexaisearch.cloud.google.com/id/0-8) [globalnews](https://vertexaisearch.cloud.google.com/id/0-2]. Ruby Liu, a B.C. billionaire, attempted to acquire up to 25 Hudson's Bay leases, but the hearing was adjourned, and one of HBC's lenders opposed the deal [cbc](https://vertexaisearch.cloud.google.com/id/0-11) [ctvnews](https://vertexaisearch.cloud.google.com/id/0-12) [cbc](https://vertexaisearch.cloud.google.com/id/0-13].\n\nPrior to the closure, HBC explored strategic options, including investing approximately $130 million in an e-commerce strategy between 2021 and 2022 [cbc](https://vertexaisearch.cloud.google.com/id/0-3) [financialpost](https://vertexaisearch.cloud.google.com/id/0-15]. The closure has left a void in major downtown cores across Canada [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0). The company's decline is attributed to changing consumer behavior, increased e-commerce competition, and insufficient investment in physical stores [financialpost](https://vertexaisearch.cloud.google.com/id/0-15) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-16) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0) [takt](https://vertexaisearch.cloud.google.com/id/0-17) [uvic](https://vertexaisearch.cloud.google.com/id/0-18].",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "9ab39ed3-2774-444e-8c7b-b370f637ad90",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Hudson's Bay Canada latest news 2025"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Hudson's Bay Canada latest news 2025\" and synthesize it into a verifiable text artifact.\nIn July 2025, Hudson's Bay Canada has ceased operations as a department store chain, marking the end of a 355-year history [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0) [columbian](https://vertexaisearch.cloud.google.com/id/0-1) [globalnews](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**Key Developments:**\n\n*   **Liquidation and Store Closures:** Hudson's Bay Company (HBC) began liquidating its assets and closing stores after filing for creditor protection in March 2025 [cbc](https://vertexaisearch.cloud.google.com/id/0-3) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-4) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-5). The final store closures occurred on June 1, 2025 [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0). Liquidation sales had exceeded the company's expectations [bnnbloomberg](https://vertexaisearch.cloud.google.com/id/0-6) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Job Losses:** Approximately 8,347 employees, representing 89% of the workforce, were terminated by June 1, 2025, due to the store closures [retail-insider](https://vertexaisearch.cloud.google.com/id/0-7) [ctvnews](https://vertexaisearch.cloud.google.com/id/0-8). An additional 899 employees were let go around June 15 [ctvnews](https://vertexaisearch.cloud.google.com/id/0-8) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Financial Situation:** In early March 2025, HBC had approximately $3 million in cash and cash equivalents [cbc](https://vertexaisearch.cloud.google.com/id/0-9). Court filings indicated that the company was nearly $1 billion in debt [cbc](https://vertexaisearch.cloud.google.com/id/0-9). For the twelve-month period ended January 31, 2025, Hudson's Bay Canada had a net loss of approximately $329.7 million [alvarezandmarsal](https://vertexaisearch.cloud.google.com/id/0-10).\n*   **Creditor Protection:** An Ontario court extended Hudson's Bay's protection from creditors under the Companies' Creditors Arrangement Act (CCAA) to July 31, 2025 [bnnbloomberg](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Asset Sales:**\n    *   Canadian Tire acquired Hudson's Bay's intellectual property, including its trademarks and brand assets, for $30 million [retail-insider](https://vertexaisearch.cloud.google.com/id/0-7) [ctvnews](https://vertexaisearch.cloud.google.com/id/0-8) [globalnews](https://vertexaisearch.cloud.google.com/id/0-2). The deal is set to close by July 15 [globalnews](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   Ruby Liu, a B.C. billionaire, sought to acquire up to 25 Hudson's Bay leases to open a department store named after herself [cbc](https://vertexaisearch.cloud.google.com/id/0-11) [ctvnews](https://vertexaisearch.cloud.google.com/id/0-12) [cbc](https://vertexaisearch.cloud.google.com/id/0-13). However, she appeared in court without a lawyer, leading to an adjournment of the hearing [ctvnews](https://vertexaisearch.cloud.google.com/id/0-12) [cbc](https://vertexaisearch.cloud.google.com/id/0-11). One of HBC's lenders, Restore Capital LLC, opposed the deal [ctvnews](https://vertexaisearch.cloud.google.com/id/0-12) [cbc](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Strategic Alternatives:** Prior to the complete closure, HBC explored strategic options to preserve and boost its business [cbc](https://vertexaisearch.cloud.google.com/id/0-3) [bnnbloomberg](https://vertexaisearch.cloud.google.com/id/0-14). The company pursued an e-commerce strategy between 2021 and 2022, investing approximately $130 million [financialpost](https://vertexaisearch.cloud.google.com/id/0-15) [cbc](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Impact:** The closure of Hudson's Bay stores has left a void in major downtown cores across Canada [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Historical Context:** Founded in 1670, HBC was the oldest corporation in North America [bnnbloomberg](https://vertexaisearch.cloud.google.com/id/0-14) [globalnews](https://vertexaisearch.cloud.google.com/id/0-2). The company's decline has been attributed to factors such as changing consumer behavior, increased competition from e-commerce, and insufficient investment in physical stores [financialpost](https://vertexaisearch.cloud.google.com/id/0-15) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-16) [retail-insider](https://vertexaisearch.cloud.google.com/id/0-0) [takt](https://vertexaisearch.cloud.google.com/id/0-17) [uvic](https://vertexaisearch.cloud.google.com/id/0-18).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG42Tv39vSbtRQFgeX09Tr36YGH5i18nmHOlJXDGZJBLon_V7givqUrQIAVheO1lIhOg_rxPGiLyVj1urVkWmriwx4FoPL8aRigxBsqbQqW22MdnGFjr1W2vMFr4WBmcACXhfxDeY1PFSwzOcZwRplbrYZNO6DtfGPpw7ELKeC1Ki88Lr84h6_OyZ6RccU7IxYND_YaQ-A="
+      },
+      {
+        "label": "columbian",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHO7bN3WeNF3C6bs__tjZmplejLFgYL5DJFzj77OcgmlmUMO59teEGJk3jymzv5-Rj91zQg8D_G8YofrXFydm3KL_cv1xzeiHMzyLKR_Y8ToVWcxLJ2-p38LCMbDA_699auEIQOMIkxu8XCRUBHv9AnxoE6FvZtLUuHRJfswHUpKP1kwmFuF-eG_u05hk-kfehGMciSm0v3WEUQAESDc2H_"
+      },
+      {
+        "label": "globalnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKP2jHn0iDjnFYRQraP3ru7exbdwK0aX-E9tmizGgbNIe1Y_c2vZMX5AKWj6YPbBOCHROP1YS1AZVJkvUNQcw80Kvx-TSn_Nwa-etq0DVO-Wu_FQQsG0NxFuIMQAcWDc_qzq5OMOh8U9nNotWABnC6JixmGd_5chibo9YEA515icMUoUJLZ75OB4Oc4TzDSw=="
+      },
+      {
+        "label": "cbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOEGIThWWQygPDGTwsFTjVsCIkCl0G8IhY9oUlp3PZBRIF8Uuc-rU5dPPIkItwYxpjE25t22teqUsMAeOoruoGl41q01CbwpDRf5yVVHom8NhLvSNupSEIUxVoX-8UsNwZyO36u-th_ben1oGzSsXb87qomqz9Sv-MriOAbRrQGUzQddDO"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW3omY4If1bgiOjJAcOz96WTkfmHU66a2zg2tlql7W5LVABqVxmTPU2KuSyUghzMqC4E1UPIvvMPt2ArnPkTV0IdN41JaGz8qPOFv-bC78dNhR5ue75GG0KHYlkAXfjpuBxJ8_2oNQAcDfZYOj1yVn58VbjDxxci7t8Q=="
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG42Tv39vSbtRQFgeX09Tr36YGH5i18nmHOlJXDGZJBLon_V7givqUrQIAVheO1lIhOg_rxPGiLyVj1urVkWmriwx4FoPL8aRigxBsqbQqW22MdnGFjr1W2vMFr4WBmcACXhfxDeY1PFSwzOcZwRplbrYZNO6DtfGPpw7ELKeC1Ki88Lr84h6_OyZ6RccU7IxYND_YaQ-A="
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcLnvRIlHs4lEI7vWvvIyUJj_HtywD0N-qtHaJxSmAcoDfmmWxcBi37DVUJQ1qMX7UpXBuwtMoDE7toVqWlFxgK5cnphFkcACbdVaBMRr1Q9bhtxGGYAfSJ1ZvwZiiNkTD630Ej8M9YpoEQ8kEblKwehEfoLxcza3MZTBiWeJRM9f2DQ4IBBxHvoF3gbgs8Xkv93yJw3vgJbSD8nAqiBxqu9yHU9k="
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG42Tv39vSbtRQFgeX09Tr36YGH5i18nmHOlJXDGZJBLon_V7givqUrQIAVheO1lIhOg_rxPGiLyVj1urVkWmriwx4FoPL8aRigxBsqbQqW22MdnGFjr1W2vMFr4WBmcACXhfxDeY1PFSwzOcZwRplbrYZNO6DtfGPpw7ELKeC1Ki88Lr84h6_OyZ6RccU7IxYND_YaQ-A="
+      },
+      {
+        "label": "bnnbloomberg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBQTmXSBLy_s2HSJSBwIx4dd5LCX91Xi4HP2QSyymwiBb4cYk7JJV187oyZSmLX_rhNhFIMQLMG5HnX4yvSrB4voO8F-qzJ897JfY52jupKEyS0ieLmXjlOl_XsPhg3NkBOcfoZXGLFuFPIsrR1bLW8IiIF2MuZhFObwH7AzrE7dVZMqAUrGAhoHFoBkV-RcsgePUPA-q4NWLO6pdycxr7OnEr5VFtYsl3CZ79J0y-"
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcLnvRIlHs4lEI7vWvvIyUJj_HtywD0N-qtHaJxSmAcoDfmmWxcBi37DVUJQ1qMX7UpXBuwtMoDE7toVqWlFxgK5cnphFkcACbdVaBMRr1Q9bhtxGGYAfSJ1ZvwZiiNkTD630Ej8M9YpoEQ8kEblKwehEfoLxcza3MZTBiWeJRM9f2DQ4IBBxHvoF3gbgs8Xkv93yJw3vgJbSD8nAqiBxqu9yHU9k="
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwhPqPE1vmrw1ZINmLYdzPQwh5lfZzyUjVnMKRH9GqPBhQF3ZqHpTUPv0malh6Nc29lzn3u-7qlz79r6xHXXZLJWuLYWqAQ7O5prINC_GbTPlVRHyh5RUIfuEoxI0efckIU2A8ZLBi7ahF4E5TMe2npqw6MuHY44iLc_uSYhOvButOtmvomvH28zupuqTTNRYQ9P0i5cPval7auGOe1JpwlhhM"
+      },
+      {
+        "label": "ctvnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9OK4Fd4RGkvQInKN8X9Y-CPZjLtgzFgX69CqJrKhMFyeKeAPzWnmT66nsyZpFTRPT3odejS3ZPizZ6_z3614-iWD_Waad8rcKQ2kjcYbfz_ybAbttQhJ1pPjIa3fqaWQCURL_b5oHAtDKFWTEtd5dIALekM9ldgoIEdosogSXvEKvLGQ0gozAudiKOet4-mGcASayuRTEUZreCo5h"
+      },
+      {
+        "label": "ctvnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9OK4Fd4RGkvQInKN8X9Y-CPZjLtgzFgX69CqJrKhMFyeKeAPzWnmT66nsyZpFTRPT3odejS3ZPizZ6_z3614-iWD_Waad8rcKQ2kjcYbfz_ybAbttQhJ1pPjIa3fqaWQCURL_b5oHAtDKFWTEtd5dIALekM9ldgoIEdosogSXvEKvLGQ0gozAudiKOet4-mGcASayuRTEUZreCo5h"
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwhPqPE1vmrw1ZINmLYdzPQwh5lfZzyUjVnMKRH9GqPBhQF3ZqHpTUPv0malh6Nc29lzn3u-7qlz79r6xHXXZLJWuLYWqAQ7O5prINC_GbTPlVRHyh5RUIfuEoxI0efckIU2A8ZLBi7ahF4E5TMe2npqw6MuHY44iLc_uSYhOvButOtmvomvH28zupuqTTNRYQ9P0i5cPval7auGOe1JpwlhhM"
+      },
+      {
+        "label": "cbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNJJm-hzHdmvKpy4e8eAw6cJrBMHT2UpMChsVnQswmM_qQZon1rCLGgTW-Cd0dWwJI803Vfy0gk4uYaPusy0xPzKj3DVIUVWTJzP-FTUoUS1c5kkTKr-jamD09nO4vdcwkIbhA5-zXpOf2DV0RRQF14bXops0ohrXQwRk-TdWOdsJ5D4I="
+      },
+      {
+        "label": "cbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNJJm-hzHdmvKpy4e8eAw6cJrBMHT2UpMChsVnQswmM_qQZon1rCLGgTW-Cd0dWwJI803Vfy0gk4uYaPusy0xPzKj3DVIUVWTJzP-FTUoUS1c5kkTKr-jamD09nO4vdcwkIbhA5-zXpOf2DV0RRQF14bXops0ohrXQwRk-TdWOdsJ5D4I="
+      },
+      {
+        "label": "alvarezandmarsal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9UgFvE2LgXEBLpEnaIB_b22xpuJNMvL3M_FmZ5uuF1syo4ZGlqYUy9B1ssRASG1X_lhTiTunmvEwILvB8v8ELI24MeUOmpebpefCMLeoXj2SY5DHw4iUTMCEfEmOmYomjN73_SksJmLQCoIZLqdFM7WzBe8RovpRtmUkPXQeEqqD3apC5u_6ssza9Gs3KtJVPOf0j3Hydkih92iephBmR7aWCPJmWxJr8AakrYVUpn5L_lQg2lL88izndiU-q9EoMyY44LknkuV4="
+      },
+      {
+        "label": "bnnbloomberg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBQTmXSBLy_s2HSJSBwIx4dd5LCX91Xi4HP2QSyymwiBb4cYk7JJV187oyZSmLX_rhNhFIMQLMG5HnX4yvSrB4voO8F-qzJ897JfY52jupKEyS0ieLmXjlOl_XsPhg3NkBOcfoZXGLFuFPIsrR1bLW8IiIF2MuZhFObwH7AzrE7dVZMqAUrGAhoHFoBkV-RcsgePUPA-q4NWLO6pdycxr7OnEr5VFtYsl3CZ79J0y-"
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwhPqPE1vmrw1ZINmLYdzPQwh5lfZzyUjVnMKRH9GqPBhQF3ZqHpTUPv0malh6Nc29lzn3u-7qlz79r6xHXXZLJWuLYWqAQ7O5prINC_GbTPlVRHyh5RUIfuEoxI0efckIU2A8ZLBi7ahF4E5TMe2npqw6MuHY44iLc_uSYhOvButOtmvomvH28zupuqTTNRYQ9P0i5cPval7auGOe1JpwlhhM"
+      },
+      {
+        "label": "ctvnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9OK4Fd4RGkvQInKN8X9Y-CPZjLtgzFgX69CqJrKhMFyeKeAPzWnmT66nsyZpFTRPT3odejS3ZPizZ6_z3614-iWD_Waad8rcKQ2kjcYbfz_ybAbttQhJ1pPjIa3fqaWQCURL_b5oHAtDKFWTEtd5dIALekM9ldgoIEdosogSXvEKvLGQ0gozAudiKOet4-mGcASayuRTEUZreCo5h"
+      },
+      {
+        "label": "globalnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKP2jHn0iDjnFYRQraP3ru7exbdwK0aX-E9tmizGgbNIe1Y_c2vZMX5AKWj6YPbBOCHROP1YS1AZVJkvUNQcw80Kvx-TSn_Nwa-etq0DVO-Wu_FQQsG0NxFuIMQAcWDc_qzq5OMOh8U9nNotWABnC6JixmGd_5chibo9YEA515icMUoUJLZ75OB4Oc4TzDSw=="
+      },
+      {
+        "label": "globalnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKP2jHn0iDjnFYRQraP3ru7exbdwK0aX-E9tmizGgbNIe1Y_c2vZMX5AKWj6YPbBOCHROP1YS1AZVJkvUNQcw80Kvx-TSn_Nwa-etq0DVO-Wu_FQQsG0NxFuIMQAcWDc_qzq5OMOh8U9nNotWABnC6JixmGd_5chibo9YEA515icMUoUJLZ75OB4Oc4TzDSw=="
+      },
+      {
+        "label": "cbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIEJnEfVcIvXRT4Pos3fUH_iPDMNgcmiNRORCtCQOjx6TG6JfS0n7001YFFwu5r4OMb8tD5Imewhi_KQeeE7kUMzczEw4Hcwc17GlYZdMyQpsra4_HfTp_30lwss7kn7B0n2LopcerKFZuVEETXuutsulhnFIk3AlR_c9pB0v1ozalmGg9B26AjuBIdLXA"
+      },
+      {
+        "label": "ctvnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErD8WdbeRv0j3Xy856H9CYtuMUpgtPROpwbTEnP2QRTZ9KyMbYUWB-5eZsKLuangvoUNmSAsLGEiydgp8Q90Gb4--exgAzX07GoCcAj7Hx4sODpGVnSRRA0Vo5-95x7w8MYSOqlnHiVVJfTupnBniTTdjNk5KGDTUkcHtZ71yi1XnILILir6jF9jaWs1O13yyouwnDjd49TnXOEE_Zl7B6aznXXiZfQvfumw=="
+      },
+      {
+        "label": "cbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1CrpRddPeA782V0vOgQbUKaFkFwYsZKidMUAXcn3QpLLXmM8-G07LiBWNOyFusjuIihPC_Zwpt4hAlcHRMDOQ5k1dX1sy2SEbOaTzvPduQqfUJvwX1LUTbRSwaPM2VSNERfQ0XBrXjtxflmuKp8sKLzR3km8kwrV0IdsnptiFSfpEIR6UNXiZ4IOOk60WOgepw6TrRMOue6m4iac="
+      },
+      {
+        "label": "ctvnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErD8WdbeRv0j3Xy856H9CYtuMUpgtPROpwbTEnP2QRTZ9KyMbYUWB-5eZsKLuangvoUNmSAsLGEiydgp8Q90Gb4--exgAzX07GoCcAj7Hx4sODpGVnSRRA0Vo5-95x7w8MYSOqlnHiVVJfTupnBniTTdjNk5KGDTUkcHtZ71yi1XnILILir6jF9jaWs1O13yyouwnDjd49TnXOEE_Zl7B6aznXXiZfQvfumw=="
+      },
+      {
+        "label": "cbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIEJnEfVcIvXRT4Pos3fUH_iPDMNgcmiNRORCtCQOjx6TG6JfS0n7001YFFwu5r4OMb8tD5Imewhi_KQeeE7kUMzczEw4Hcwc17GlYZdMyQpsra4_HfTp_30lwss7kn7B0n2LopcerKFZuVEETXuutsulhnFIk3AlR_c9pB0v1ozalmGg9B26AjuBIdLXA"
+      },
+      {
+        "label": "ctvnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErD8WdbeRv0j3Xy856H9CYtuMUpgtPROpwbTEnP2QRTZ9KyMbYUWB-5eZsKLuangvoUNmSAsLGEiydgp8Q90Gb4--exgAzX07GoCcAj7Hx4sODpGVnSRRA0Vo5-95x7w8MYSOqlnHiVVJfTupnBniTTdjNk5KGDTUkcHtZ71yi1XnILILir6jF9jaWs1O13yyouwnDjd49TnXOEE_Zl7B6aznXXiZfQvfumw=="
+      },
+      {
+        "label": "cbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIEJnEfVcIvXRT4Pos3fUH_iPDMNgcmiNRORCtCQOjx6TG6JfS0n7001YFFwu5r4OMb8tD5Imewhi_KQeeE7kUMzczEw4Hcwc17GlYZdMyQpsra4_HfTp_30lwss7kn7B0n2LopcerKFZuVEETXuutsulhnFIk3AlR_c9pB0v1ozalmGg9B26AjuBIdLXA"
+      },
+      {
+        "label": "cbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOEGIThWWQygPDGTwsFTjVsCIkCl0G8IhY9oUlp3PZBRIF8Uuc-rU5dPPIkItwYxpjE25t22teqUsMAeOoruoGl41q01CbwpDRf5yVVHom8NhLvSNupSEIUxVoX-8UsNwZyO36u-th_ben1oGzSsXb87qomqz9Sv-MriOAbRrQGUzQddDO"
+      },
+      {
+        "label": "bnnbloomberg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJz5vnZpljIDxgn5GsPYWaRn7s_eL9kowBZ4FjLkQZhBvddXBvDo5Cyb_dL-S4F3VbpVMLNlDw_-4iEjFZK0O2v4DYutSenEv03xz6h_JHPxrSBubaMyyGizh9XVtcGaUD9t5Qs6vtdExG_cuq4oDsCGCHhCFsoFa98M3tVl-uaA6ZOH_g8n9jb72uDEQil2HQIsZFs5b_p2dWKqdR6nqflr7ZsPNVq5xkZNdS"
+      },
+      {
+        "label": "financialpost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHddIHw6iY6CvYCy8ingcWPxVxNHsbFa61vCSgJb8m1TSu0ekwPZSX2s2CYVIDQCXbz6PAP63wvItQWEpg1Ei0IrQc1CsELPm4eJ6S_NnZYLXWWcfm-z4QyRK8lgCidPFfidSNxjla0z6OAbJ8SvWlXZI1hUk0kNCP4E53ihLIalBo_K2QjxctVsCQETi3cNjMiJ7Jx7FzHEtc52tJgDznnFnI="
+      },
+      {
+        "label": "cbc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOEGIThWWQygPDGTwsFTjVsCIkCl0G8IhY9oUlp3PZBRIF8Uuc-rU5dPPIkItwYxpjE25t22teqUsMAeOoruoGl41q01CbwpDRf5yVVHom8NhLvSNupSEIUxVoX-8UsNwZyO36u-th_ben1oGzSsXb87qomqz9Sv-MriOAbRrQGUzQddDO"
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG42Tv39vSbtRQFgeX09Tr36YGH5i18nmHOlJXDGZJBLon_V7givqUrQIAVheO1lIhOg_rxPGiLyVj1urVkWmriwx4FoPL8aRigxBsqbQqW22MdnGFjr1W2vMFr4WBmcACXhfxDeY1PFSwzOcZwRplbrYZNO6DtfGPpw7ELKeC1Ki88Lr84h6_OyZ6RccU7IxYND_YaQ-A="
+      },
+      {
+        "label": "bnnbloomberg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJz5vnZpljIDxgn5GsPYWaRn7s_eL9kowBZ4FjLkQZhBvddXBvDo5Cyb_dL-S4F3VbpVMLNlDw_-4iEjFZK0O2v4DYutSenEv03xz6h_JHPxrSBubaMyyGizh9XVtcGaUD9t5Qs6vtdExG_cuq4oDsCGCHhCFsoFa98M3tVl-uaA6ZOH_g8n9jb72uDEQil2HQIsZFs5b_p2dWKqdR6nqflr7ZsPNVq5xkZNdS"
+      },
+      {
+        "label": "globalnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKP2jHn0iDjnFYRQraP3ru7exbdwK0aX-E9tmizGgbNIe1Y_c2vZMX5AKWj6YPbBOCHROP1YS1AZVJkvUNQcw80Kvx-TSn_Nwa-etq0DVO-Wu_FQQsG0NxFuIMQAcWDc_qzq5OMOh8U9nNotWABnC6JixmGd_5chibo9YEA515icMUoUJLZ75OB4Oc4TzDSw=="
+      },
+      {
+        "label": "financialpost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHddIHw6iY6CvYCy8ingcWPxVxNHsbFa61vCSgJb8m1TSu0ekwPZSX2s2CYVIDQCXbz6PAP63wvItQWEpg1Ei0IrQc1CsELPm4eJ6S_NnZYLXWWcfm-z4QyRK8lgCidPFfidSNxjla0z6OAbJ8SvWlXZI1hUk0kNCP4E53ihLIalBo_K2QjxctVsCQETi3cNjMiJ7Jx7FzHEtc52tJgDznnFnI="
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExUDYjjhGPMnHI5qO9Djt755LlqoJpz6iWkedwiw95rIh9AlYtzkuJTXT-C5IGSYASzSWcQfIy_PvSE1jrV6Cbtawvr5NrnAGYu2LbQmtN4HusgZTajR4TPaOVVBzwrg5IinIPW3fImAHpUEzFoHoD8XgvlBSwaonZ5r5U4sLkLYl-yaag1jgiUVIuLnsbWc0Asqwv7NyIJ_Wfz8_y-pT5PM2OUj-KJAov"
+      },
+      {
+        "label": "retail-insider",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG42Tv39vSbtRQFgeX09Tr36YGH5i18nmHOlJXDGZJBLon_V7givqUrQIAVheO1lIhOg_rxPGiLyVj1urVkWmriwx4FoPL8aRigxBsqbQqW22MdnGFjr1W2vMFr4WBmcACXhfxDeY1PFSwzOcZwRplbrYZNO6DtfGPpw7ELKeC1Ki88Lr84h6_OyZ6RccU7IxYND_YaQ-A="
+      },
+      {
+        "label": "takt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHxph772LtG10CUjptLb4qganj4RXcHSGIDC4zKm4247UaThbCAgvegWhAj1Yj-NbhhcLB-BA5k3tAbnavkJ90IRpgJTX_oRsTKz8eO7ZoIhqlHP5m13zBGaSMoCI5f5VNtDPydqUI3KFvxNIz6vYUNSEsRPw3fb9GNktM-7ZYnagNTTXKjnREKsjo8JLSRM527GzdAsTM9K9LcA=="
+      },
+      {
+        "label": "uvic",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWmFpRzrKb2XUDU808iYvNIRak8xOC7Lq4lM8qX1-jhM_0a_GDb0iS9YDNKdnpWyxNm-apAzahncVd3Bzoug8PjfjoRraKyE0ZvDTKOMdWH6c-8AvFdshJjHsJmo0ajbGmn_6spQyKSD4O0FZeZNraOfKNCZa8bP7Jp8GgRFRfO3d_E_2vil1V-zs6mbZ7cjtWX2Xm7WL1xg=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

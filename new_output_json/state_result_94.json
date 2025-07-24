@@ -1,0 +1,332 @@
+{
+  "file_name": "state_result_94.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.831206",
+  "data": {
+    "messages": [
+      {
+        "content": "Привет. Ниже приведён текст.\n\n<poem>Ваше благородие, господин Дыбовский,\nЧто, не вышло сына скрасть? Боже, как неловко!\nПисьмецо в воцапе погоди, не три -\nПригодится в сраче в русском Твиттере\nПисьмецо в воцапе погоди, не три -\nПригодится в сраче в русском Твиттере\nВаше благородие, господин Дыбовский,\nРаз из вуза выгнали - перешли на взрослых?\nТы с постановленьем не спорь - суду видней!\nНе полюбит двачер - защитит инцел.\nТы с постановленьем не спорь - суду видней!\nНе полюбит двачер - защитит инцел.\nВаше благородие, господин Дыбовский,\nКак, случился катарсис? Неопределенность?\nБросьте вы бутылку - больше не надуть:\nНа заморский реддит бросили инфу.\nБросьте вы бутылку - больше не надуть:\nНа заморский реддит бросили инфу.\nВаше благородие, господин Дыбовский,\nБросьте вы \"Массандру\" пить - внесут на \"Миротворец\"\nКостяной дом рухнул, дочки разошлись\nМожет, все же стоит из Ice Pick уйти?\nКостяной дом рухнул, дочки разошлись\nМожет, все же стоит из Ice Pick уйти?</poem>\n\nЧто ты можешь сказать об этом тексте?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "d1bae92e-b5a2-492d-a402-464378402238",
+        "example": false
+      },
+      {
+        "content": "The poem appears to be a commentary on Nikolay Dybowski, the founder of Ice-Pick Lodge (IPL), and the controversies surrounding him. The poem references several key elements related to Dybowski and the accusations against him, including \"Ice Pick,\" \"Reddit,\" and potentially \"Mirotvorets.\"\n\nThe poem mentions \"господин Дыбовский\" (Mr. Dybowski) and alludes to accusations and their consequences. The lines \"Раз из вуза выгнали - перешли на взрослых?\" suggest a progression of alleged misconduct, potentially referencing accusations of abuse and misconduct that have surfaced against Dybowski [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoqqoy-lqZkUkPYr3aIHr_GM_RBzghPTIRCPdE7has4m7QBRIyt2u8aw8Pae6YOEf1cyBgym_DVNKxebS1E2hKBpTlb_ipEek0HkKTZnS3Js6xX0mEWpDWL4ZkKb0AZO6fYzpJjUv4lmc7g907UIpOFdCfljwZUAlOomvwM62VTNOrFqTb3rxp-yPpGjSeapbZMH5aogGN5nc2) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_MxtnEUdeUwBX8M8TLhNykKlOJcKMM-ouGLe8_P0EQvct9SFalELaxQu_F4SRsYfAk8wt5N-pxv8ZxGWB4MP3YWKMHhDz301qsDH_Li7w0C-j6xdlLIUqrYPi490piWYWAcIg-EfTwXGMAl-T3d430glZ28xpCfg3_ONnPcDBprdm5dW5j5KRVjd3KK6dkwnbig7oAp7HcJw=) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHivmbMlwazF9aEYCzS4OEMnSOgvrak455Vau2_EXQkNyMhfo-z_B6HxFLiMsrwRoEAia6ZA_G7x_y4f9NugXO61GvcPV8jS6AkggEXUsW3t9Uwd6m9Un_mh3By07NFT5qsGQDnjb636H6zEKCiRKX7Bni2N18iwDK-Pv604nISG3yZKKkJxkGA86MrcAZjTBc0xHNpPAanGl3dMw9Z2uoz) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKizdvDpmCd1RJAXVxOOvwkzDWwIr3JpnA04ZkoyTrJERFDiWVBUPxvmkWeK9Fx_20FDI_8QoDRiAmzHA-DVVrJHPEE6z8bvuk6ErCuwecY3QbesXpCv7EQeSE1imDQRREAjut49vYdFvPMNKZpLwD4YdH8zjdeI7PXyYmsk1tNMVIcZRiaywLMqo8ndke1A7BQClbg0JSieU=) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzJpmXJPndAcx6W7ZNz3m-5yBoG_67Z-nlZU2OoClIjpRaj2L52ZGGfkzUMNbsWbfLbhv680hBPtEV2GxSQgbcJ39ev5tS6IXUr6QTL5X9rWRqgS0ElmOkPtd_yYaYyWbY8617LKDRGoLvfL4s4IZSWiKtXredK4BHDPZOfprPhOusx4b-HFwqoccCCDJnEREsR9HuIqMvnA==). These accusations, which include emotional, physical, and sexual abuse, kidnapping, and workplace toxicity, have been discussed on Reddit, specifically in the r/pathologic and r/Games subreddits [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoqqoy-lqZkUkPYr3aIHr_GM_RBzghPTIRCPdE7has4m7QBRIyt2u8aw8Pae6YOEf1cyBgym_DVNKxebS1E2hKBpTlb_ipEek0HkKTZnS3Js6xX0mEWpDWL4ZkKb0AZO6fYzpJjUv4lmc7g907UIpOFdCfljwZUAlOomvwM62VTNOrFqTb3rxp-yPpGjSeapbZMH5aogGN5nc2) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_MxtnEUdeUwBX8M8TLhNykKlOJcKMM-ouGLe8_P0EQvct9SFalELaxQu_F4SRsYfAk8wt5N-pxv8ZxGWB4MP3YWKMHhDz301qsDH_Li7w0C-j6xdlLIUqrYPi490piWYWAcIg-EfTwXGMAl-T3d430glZ28xpCfg3_ONnPcDBprdm5dW5j5KRVjd3KK6dkwnbig7oAp7HcJw=) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcfeYwRU8VWwm9uRR04g-TZa4ZVr4PCnvqYKLhiL-nHdD8OwzKJDaW8o4rZskouudMr3BZWNOCYt4kOzKRhNytMB2w_62zd1m3buS6xiPCdofYcK_tV9emAUz9CRah4yY50lDqnfSifDqsgdV_4swmdPzSsY7EO95WpSspseReR5v9_XtFr8j_00iflgvxiP3rDqboFbwL78HvRuE=) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHivmbMlwazF9aEYCzS4OEMnSOgvrak455Vau2_EXQkNyMhfo-z_B6HxFLiMsrwRoEAia6ZA_G7x_y4f9NugXO61GvcPV8jS6AkggEXUsW3t9Uwd6m9Un_mh3By07NFT5qsGQDnjb636H6zEKCiRKX7Bni2N18iwDK-Pv604nISG3yZKKkJxkGA86MrcAZjTBc0xHNpPAanGl3dMw9Z2uoz) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKizdvDpmCd1RJAXVxOOvwkzDWwIr3JpnA04ZkoyTrJERFDiWVBUPxvmkWeK9Fx_20FDI_8QoDRiAmzHA-DVVrJHPEE6z8bvuk6ErCuwecY3QbesXpCv7EQeSE1imDQRREAjut49vYdFvPMNKZpLwD4YdH8zjdeI7PXyYmsk1tNMVIcZRiaywLMqo8ndke1A7BQClbg0JSieU=) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzJpmXJPndAcx6W7ZNz3m-5yBoG_67Z-nlZU2OoClIjpRaj2L52ZGGfkzUMNbsWbfLbhv680hBPtEV2GxSQgbcJ39ev5tS6IXUr6QTL5X9rWRqgS0ElmOkPtd_yYaYyWbY8617LKDRGoLvfL4s4IZSWiKtXredK4BHDPZOfprPhOusx4b-HFwqoccCCDJnEREsR9HuIqMvnA==). The line \"На заморский реддит бросили инфу\" (information was thrown on overseas Reddit) directly acknowledges the role of Reddit in disseminating information related to the controversy. The poem also references \"Ice Pick\" with the line \"Может, все же стоит из Ice Pick уйти?\" (Maybe you should leave Ice Pick?), which alludes to Dybowski's departure from the company following the accusations [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzJpmXJPndAcx6W7ZNz3m-5yBoG_67Z-nlZU2OoClIjpRaj2L52ZGGfkzUMNbsWbfLbhv680hBPtEV2GxSQgbcJ39ev5tS6IXUr6QTL5X9rWRqgS0ElmOkPtd_yYaYyWbY8617LKDRGoLvfL4s4IZSWiKtXredK4BHDPZOfprPhOusx4b-HFwqoccCCDJnEREsR9HuIqMvnA==) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoqqoy-lqZkUkPYr3aIHr_GM_RBzghPTIRCPdE7has4m7QBRIyt2u8aw8Pae6YOEf1cyBgym_DVNKxebS1E2hKBpTlb_ipEek0HkKTZnS3Js6xX0mEWpDWL4ZkKb0AZO6fYzpJjUv4lmc7g907UIpOFdCfljwZUAlOomvwM62VTNOrFqTb3rxp-yPpGjSeapbZMH5aogGN5nc2) [reddit](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKizdvDpmCd1RJAXVxOOvwkzDWwIr3JpnA04ZkoyTrJERFDiWVBUPxvmkWeK9Fx_20FDI_8QoDRiAmzHA-DVVrJHPEE6z8bvuk6ErCuwecY3QbesXpCv7EQeSE1imDQRREAjut49vYdFvPMNKZpLwD4YdH8zjdeI7PXyYmsk1tNMVIcZRiaywLMqo8ndke1A7BQClbg0JSieU=).\n\nThe mention of \"Миротворец\" (Mirotvorets) is potentially significant. \"Myrotvorets\" is a Ukrainian website that publishes a list of individuals considered \"enemies of Ukraine\" [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFobIYDE6_EsVwsEu8cnCzJe1A0ECpyrFlJFaIWjzbNcUDGLQbyLQ5YlEvRZpKWECUbCeJRNkCCM_pVHGy3U9VC07lJSCE71ULOrqRf1Frl7Io3rQxwIXhjPWWn3Kp1dnp5yi4Q) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLvvJt1_87uTyBWq3r-tTDDLRKgwyAx8ag7vbEekYyw4q9zrUkH3vNf5LUmJwQ0Y2FlYWwGhzh1m1sa5HmOpF6GTS6IlGApcXhjTp0FMZ1DMjMVOa34ZCyRJ3_piVJ6oFE5P7jt6Urb5Yp3bw3pT5z62Mi23Kt8OTX5Osm7FaO4QiHKMH48y9uTwIHRP3y8Wdr14Cm0KOb6rpf5y6LwGZPXeE=), sometimes referred to as a \"kill list\" [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFobIYDE6_EsVwsEu8cnCzJe1A0ECpyrFlJFaIWjzbNcUDGLQbyLQ5YlEvRZpKWECUbCeJRNkCCM_pVHGy3U9VC07lJSCE71ULOrqRf1Frl7Io3rQxwIXhjPWWn3Kp1dnp5yi4Q). While there's no direct evidence linking Dybowski or Ice-Pick Lodge to the Myrotvorets website [wiki](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq_UZlKW9vcj3T7K1-EEchmBlI--54F_OsrhBAjjjfTtq3r5PmJpG6pVUjxogjH4Vjj0wv-4WfBnVdzTtuSm5c7-BnkUmbXaCkP7kPb2jLEU2PAJlA8gfpVUa_KIWXYv6FhxSPGcS-41U=) [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsrsR9g7qd4MDOi5a5R2cmKnWeZF1Jjtz1HAtgwtNewb_6nFQlrNLLYx6JCq6I6CMEBnr2Nj-D0dYjwmtY-I9m-ZXgO4V2S6N155b42N-lNp5-7BxA1qXpyrTrrxJwGMQXb_z27jwx) [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2qU2rnR89pdNwow-fyk3YxuqpM-3Tp_TmLJEhbUF1Ws-0LY3TdEwmkF6AlTVWQQf34v2yIDSlE2A0PFeoI3I0tdaU8CDWtmx8MuzWzmAj251FjO5S0Bjdf_WCqhUw4KlfjdpC-sh5) [mobygames](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo1yHZut_pcxeTeel_8ft631oHmMxrB-953cOQV-QBiR9WRADVjzL-zsl1RiNFKwAbgR_nlEwNiTqlLvA8Gy2NzEYE-MT7Afo9UGJPf0BlGBuHGnxKLigKSzJDtzuAfqWFzndHiR5kXHoDr3QvZ8zzWjlQAsI=), its inclusion in the poem could be interpreted as a commentary on controversy, blacklisting, or themes of persecution. The line \"Бросьте вы \"Массандру\" пить - внесут на \"Миротворец\"\" (Stop drinking \"Massandra\" - they will put you on \"Mirotvorets\") suggests that certain actions could lead to being blacklisted or publicly shamed.\n\nOverall, the poem appears to be a critical reflection on the Dybowski controversy, referencing the accusations, the role of online platforms like Reddit in disseminating information, and potentially alluding to themes of blacklisting and persecution through the mention of \"Mirotvorets.\"",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "e86426ca-5db1-4e60-ae85-abb95c8707bd",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "analysis of poem referencing \"Dybowski\", \"Ice Pick\", \"Mirotvorets\", \"Reddit\"",
+      "What is the significance of referencing \"Mirotvorets\" in a poem about Nikolay Dybowski and Ice-Pick Lodge? Is there a connection between Dybowski or Ice-Pick Lodge and the Myrotvorets website or its associated controversies?"
+    ],
+    "web_research_result": [
+      "Based on the search results, here's a synthesis of information regarding an analysis of a poem referencing \"Dybowski\", \"Ice Pick\", \"Mirotvorets\", and \"Reddit\":\n\n**Lack of Direct Poem Analysis:**\n\n*   The search queries did not yield any results that directly analyze a poem containing the specified keywords (\"Dybowski\", \"Ice Pick\", \"Mirotvorets\", \"Reddit\").\n\n**Contextual Information:**\n\n*   The search results primarily focus on Nikolay Dybowski, a founder of Ice-Pick Lodge (IPL), and accusations against him [reddit](https://vertexaisearch.cloud.google.com/id/0-0) [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [reddit](https://vertexaisearch.cloud.google.com/id/0-2) [reddit](https://vertexaisearch.cloud.google.com/id/0-3) [reddit](https://vertexaisearch.cloud.google.com/id/0-4). These accusations include emotional, physical, and sexual abuse, kidnapping, workplace toxicity, and other misconduct [reddit](https://vertexaisearch.cloud.google.com/id/0-0).\n*   These accusations have been discussed on Reddit, particularly in the r/pathologic and r/Games subreddits [reddit](https://vertexaisearch.cloud.google.com/id/0-0) [reddit](https://vertexaisearch.cloud.google.com/id/0-1) [reddit](https://vertexaisearch.cloud.google.com/id/0-5) [reddit](https://vertexaisearch.cloud.google.com/id/0-2) [reddit](https://vertexaisearch.cloud.google.com/id/0-3) [reddit](https://vertexaisearch.cloud.google.com/id/0-4).\n*   The accusations led to Dybowski's departure from Ice-Pick Lodge [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [reddit](https://vertexaisearch.cloud.google.com/id/0-0) [reddit](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Mirotvorets:**\n\n*   While \"Mirotvorets\" (meaning \"Peacemaker\" in Ukrainian/Russian) is mentioned in the prompt, the search results do not directly link it to a poem or analysis related to Dybowski or Ice-Pick Lodge. It is possible this refers to the Ukrainian website \"Myrotvorets\" (also transliterated as \"Mirotvorets\"), which publishes personal information of people who are considered enemies of Ukraine. Without further context, it's difficult to establish a connection.\n\n**Possible Interpretations & Further Research:**\n\nGiven the information available, here are potential avenues for interpreting the prompt, though none are explicitly supported by the search results:\n\n1.  **A poem exists that uses these terms metaphorically:** A poem might use \"Dybowski\" or \"Ice Pick\" as metaphors for themes explored in Ice-Pick Lodge's games (e.g., morality, consequences, harsh realities) or to comment on the accusations against Dybowski. \"Mirotvorets\" could be used ironically or to represent a character or concept related to conflict.\n2.  **The poem is a commentary on the Reddit discussions:** The poem could be a response to the online discussions and reactions surrounding the Dybowski accusations, using the keywords to represent different aspects of the situation.\n3.  **The prompt is a creative writing exercise:** It's possible the prompt is designed to elicit a creative response rather than analyze an existing work.\n\nTo find an actual analysis of such a poem, one would need to:\n\n*   Search for the specific poem if it exists.\n*   Look for literary analyses of Ice-Pick Lodge's works that might touch on similar themes.\n*   Explore online creative writing communities where such a poem might be shared and discussed.\n",
+      "Based on the search results, here's a synthesis of the information regarding the significance of referencing \"Mirotvorets\" in connection to Nikolay Dybowski and Ice-Pick Lodge:\n\n**What is Myrotvorets?**\n\n*   \"Myrotvorets\" (also known as Peacemaker) is a Ukrainian website that publishes a running list of individuals considered by the site's authors to be \"enemies of Ukraine\" [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [aljazeera](https://vertexaisearch.cloud.google.com/id/1-1).\n*   It has been described as a \"kill list\" [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0).\n*   The site publishes personal information, sometimes including home addresses [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [aljazeera](https://vertexaisearch.cloud.google.com/id/1-1).\n*   The website has been criticized by international organizations, media outlets, and human rights groups [factcheck](https://vertexaisearch.cloud.google.com/id/1-2) [khpg](https://vertexaisearch.cloud.google.com/id/1-3) [pravda](https://vertexaisearch.cloud.google.com/id/1-4).\n*   In 2021, the EU Parliament urged Ukraine to ban Myrotvorets, citing its incitement of tension and misuse of personal data [factcheck](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**Significance of Referencing Myrotvorets:**\n\n*   Being listed on Myrotvorets can have severe consequences, ranging from denial of entry into Ukraine to, in some cases, being targeted for violence [aljazeera](https://vertexaisearch.cloud.google.com/id/1-1) [khpg](https://vertexaisearch.cloud.google.com/id/1-3).\n*   In 2015, two pro-Russian figures were murdered shortly after their personal information was published on the site [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0) [khpg](https://vertexaisearch.cloud.google.com/id/1-3) [aljazeera](https://vertexaisearch.cloud.google.com/id/1-1).\n*   The site has been used in criminal and civil cases in Ukraine [wikipedia](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Connection to Nikolay Dybowski and Ice-Pick Lodge:**\n\n*   There is no direct evidence in the search results to suggest any official connection between Nikolay Dybowski, Ice-Pick Lodge, and the Myrotvorets website [wiki](https://vertexaisearch.cloud.google.com/id/1-5) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-6) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-7) [mobygames](https://vertexaisearch.cloud.google.com/id/1-8).\n*   It is important to note that absence of evidence does not mean evidence of absence. The search results do not provide enough information to confirm or deny a connection.\n*   Nikolay Dybowski is the founder of Ice-Pick Lodge, a Russian video game developer known for games like \"Pathologic\" [wiki](https://vertexaisearch.cloud.google.com/id/1-5) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-6) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-7).\n*   Ice-Pick Lodge was founded in 2002 [wiki](https://vertexaisearch.cloud.google.com/id/1-5) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-6) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-7).\n*   Dybowski has been the subject of allegations of abuse and misconduct [reddit](https://vertexaisearch.cloud.google.com/id/1-9) [reddit](https://vertexaisearch.cloud.google.com/id/1-10) [reddit](https://vertexaisearch.cloud.google.com/id/1-11).\n\n**Possible Interpretations of Referencing Myrotvorets in a Poem:**\n\nWithout knowing the specific context of the poem, here are some possible interpretations:\n\n*   **Political Commentary:** The poem could be making a statement about the political situation in Ukraine and the blacklisting of individuals perceived as enemies of the state.\n*   **Controversy and Blacklisting:** Referencing Myrotvorets might be a way to associate Dybowski or Ice-Pick Lodge with controversy, especially given the allegations against Dybowski [reddit](https://vertexaisearch.cloud.google.com/id/1-9) [reddit](https://vertexaisearch.cloud.google.com/id/1-10) [reddit](https://vertexaisearch.cloud.google.com/id/1-11). It could imply a form of \"blacklisting\" or public shaming.\n*   **Themes of Persecution:** The poem could be exploring themes of persecution, unjust targeting, or the dangers of online shaming and doxxing.\n*   **Moral Ambiguity:** Given Ice-Pick Lodge's games often deal with morally ambiguous situations, the reference could be used to explore the complexities of \"us vs. them\" mentalities and the consequences of actions taken in the name of national security.\n\nIt's important to consider the poem's overall message and context to understand the intended significance of referencing Myrotvorets.\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoqqoy-lqZkUkPYr3aIHr_GM_RBzghPTIRCPdE7has4m7QBRIyt2u8aw8Pae6YOEf1cyBgym_DVNKxebS1E2hKBpTlb_ipEek0HkKTZnS3Js6xX0mEWpDWL4ZkKb0AZO6fYzpJjUv4lmc7g907UIpOFdCfljwZUAlOomvwM62VTNOrFqTb3rxp-yPpGjSeapbZMH5aogGN5nc2"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_MxtnEUdeUwBX8M8TLhNykKlOJcKMM-ouGLe8_P0EQvct9SFalELaxQu_F4SRsYfAk8wt5N-pxv8ZxGWB4MP3YWKMHhDz301qsDH_Li7w0C-j6xdlLIUqrYPi490piWYWAcIg-EfTwXGMAl-T3d430glZ28xpCfg3_ONnPcDBprdm5dW5j5KRVjd3KK6dkwnbig7oAp7HcJw="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHivmbMlwazF9aEYCzS4OEMnSOgvrak455Vau2_EXQkNyMhfo-z_B6HxFLiMsrwRoEAia6ZA_G7x_y4f9NugXO61GvcPV8jS6AkggEXUsW3t9Uwd6m9Un_mh3By07NFT5qsGQDnjb636H6zEKCiRKX7Bni2N18iwDK-Pv604nISG3yZKKkJxkGA86MrcAZjTBc0xHNpPAanGl3dMw9Z2uoz"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKizdvDpmCd1RJAXVxOOvwkzDWwIr3JpnA04ZkoyTrJERFDiWVBUPxvmkWeK9Fx_20FDI_8QoDRiAmzHA-DVVrJHPEE6z8bvuk6ErCuwecY3QbesXpCv7EQeSE1imDQRREAjut49vYdFvPMNKZpLwD4YdH8zjdeI7PXyYmsk1tNMVIcZRiaywLMqo8ndke1A7BQClbg0JSieU="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzJpmXJPndAcx6W7ZNz3m-5yBoG_67Z-nlZU2OoClIjpRaj2L52ZGGfkzUMNbsWbfLbhv680hBPtEV2GxSQgbcJ39ev5tS6IXUr6QTL5X9rWRqgS0ElmOkPtd_yYaYyWbY8617LKDRGoLvfL4s4IZSWiKtXredK4BHDPZOfprPhOusx4b-HFwqoccCCDJnEREsR9HuIqMvnA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoqqoy-lqZkUkPYr3aIHr_GM_RBzghPTIRCPdE7has4m7QBRIyt2u8aw8Pae6YOEf1cyBgym_DVNKxebS1E2hKBpTlb_ipEek0HkKTZnS3Js6xX0mEWpDWL4ZkKb0AZO6fYzpJjUv4lmc7g907UIpOFdCfljwZUAlOomvwM62VTNOrFqTb3rxp-yPpGjSeapbZMH5aogGN5nc2"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoqqoy-lqZkUkPYr3aIHr_GM_RBzghPTIRCPdE7has4m7QBRIyt2u8aw8Pae6YOEf1cyBgym_DVNKxebS1E2hKBpTlb_ipEek0HkKTZnS3Js6xX0mEWpDWL4ZkKb0AZO6fYzpJjUv4lmc7g907UIpOFdCfljwZUAlOomvwM62VTNOrFqTb3rxp-yPpGjSeapbZMH5aogGN5nc2"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_MxtnEUdeUwBX8M8TLhNykKlOJcKMM-ouGLe8_P0EQvct9SFalELaxQu_F4SRsYfAk8wt5N-pxv8ZxGWB4MP3YWKMHhDz301qsDH_Li7w0C-j6xdlLIUqrYPi490piWYWAcIg-EfTwXGMAl-T3d430glZ28xpCfg3_ONnPcDBprdm5dW5j5KRVjd3KK6dkwnbig7oAp7HcJw="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcfeYwRU8VWwm9uRR04g-TZa4ZVr4PCnvqYKLhiL-nHdD8OwzKJDaW8o4rZskouudMr3BZWNOCYt4kOzKRhNytMB2w_62zd1m3buS6xiPCdofYcK_tV9emAUz9CRah4yY50lDqnfSifDqsgdV_4swmdPzSsY7EO95WpSspseReR5v9_XtFr8j_00iflgvxiP3rDqboFbwL78HvRuE="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHivmbMlwazF9aEYCzS4OEMnSOgvrak455Vau2_EXQkNyMhfo-z_B6HxFLiMsrwRoEAia6ZA_G7x_y4f9NugXO61GvcPV8jS6AkggEXUsW3t9Uwd6m9Un_mh3By07NFT5qsGQDnjb636H6zEKCiRKX7Bni2N18iwDK-Pv604nISG3yZKKkJxkGA86MrcAZjTBc0xHNpPAanGl3dMw9Z2uoz"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKizdvDpmCd1RJAXVxOOvwkzDWwIr3JpnA04ZkoyTrJERFDiWVBUPxvmkWeK9Fx_20FDI_8QoDRiAmzHA-DVVrJHPEE6z8bvuk6ErCuwecY3QbesXpCv7EQeSE1imDQRREAjut49vYdFvPMNKZpLwD4YdH8zjdeI7PXyYmsk1tNMVIcZRiaywLMqo8ndke1A7BQClbg0JSieU="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzJpmXJPndAcx6W7ZNz3m-5yBoG_67Z-nlZU2OoClIjpRaj2L52ZGGfkzUMNbsWbfLbhv680hBPtEV2GxSQgbcJ39ev5tS6IXUr6QTL5X9rWRqgS0ElmOkPtd_yYaYyWbY8617LKDRGoLvfL4s4IZSWiKtXredK4BHDPZOfprPhOusx4b-HFwqoccCCDJnEREsR9HuIqMvnA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzJpmXJPndAcx6W7ZNz3m-5yBoG_67Z-nlZU2OoClIjpRaj2L52ZGGfkzUMNbsWbfLbhv680hBPtEV2GxSQgbcJ39ev5tS6IXUr6QTL5X9rWRqgS0ElmOkPtd_yYaYyWbY8617LKDRGoLvfL4s4IZSWiKtXredK4BHDPZOfprPhOusx4b-HFwqoccCCDJnEREsR9HuIqMvnA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoqqoy-lqZkUkPYr3aIHr_GM_RBzghPTIRCPdE7has4m7QBRIyt2u8aw8Pae6YOEf1cyBgym_DVNKxebS1E2hKBpTlb_ipEek0HkKTZnS3Js6xX0mEWpDWL4ZkKb0AZO6fYzpJjUv4lmc7g907UIpOFdCfljwZUAlOomvwM62VTNOrFqTb3rxp-yPpGjSeapbZMH5aogGN5nc2"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKizdvDpmCd1RJAXVxOOvwkzDWwIr3JpnA04ZkoyTrJERFDiWVBUPxvmkWeK9Fx_20FDI_8QoDRiAmzHA-DVVrJHPEE6z8bvuk6ErCuwecY3QbesXpCv7EQeSE1imDQRREAjut49vYdFvPMNKZpLwD4YdH8zjdeI7PXyYmsk1tNMVIcZRiaywLMqo8ndke1A7BQClbg0JSieU="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFobIYDE6_EsVwsEu8cnCzJe1A0ECpyrFlJFaIWjzbNcUDGLQbyLQ5YlEvRZpKWECUbCeJRNkCCM_pVHGy3U9VC07lJSCE71ULOrqRf1Frl7Io3rQxwIXhjPWWn3Kp1dnp5yi4Q"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLvvJt1_87uTyBWq3r-tTDDLRKgwyAx8ag7vbEekYyw4q9zrUkH3vNf5LUmJwQ0Y2FlYWwGhzh1m1sa5HmOpF6GTS6IlGApcXhjTp0FMZ1DMjMVOa34ZCyRJ3_piVJ6oFE5P7jt6Urb5Yp3bw3pT5z62Mi23Kt8OTX5Osm7FaO4QiHKMH48y9uTwIHRP3y8Wdr14Cm0KOb6rpf5y6LwGZPXeE="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFobIYDE6_EsVwsEu8cnCzJe1A0ECpyrFlJFaIWjzbNcUDGLQbyLQ5YlEvRZpKWECUbCeJRNkCCM_pVHGy3U9VC07lJSCE71ULOrqRf1Frl7Io3rQxwIXhjPWWn3Kp1dnp5yi4Q"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFobIYDE6_EsVwsEu8cnCzJe1A0ECpyrFlJFaIWjzbNcUDGLQbyLQ5YlEvRZpKWECUbCeJRNkCCM_pVHGy3U9VC07lJSCE71ULOrqRf1Frl7Io3rQxwIXhjPWWn3Kp1dnp5yi4Q"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLvvJt1_87uTyBWq3r-tTDDLRKgwyAx8ag7vbEekYyw4q9zrUkH3vNf5LUmJwQ0Y2FlYWwGhzh1m1sa5HmOpF6GTS6IlGApcXhjTp0FMZ1DMjMVOa34ZCyRJ3_piVJ6oFE5P7jt6Urb5Yp3bw3pT5z62Mi23Kt8OTX5Osm7FaO4QiHKMH48y9uTwIHRP3y8Wdr14Cm0KOb6rpf5y6LwGZPXeE="
+      },
+      {
+        "label": "factcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYrSZ9X-NLm4phfpax8sIKm2SxzvqnG9ae0tPKTlPNebz-HHP2OdVMLMZt8A1IFIsLw-cHGwxzkk2g0uY3YRx8nTPeDVKH7bxvaE-Aq75dp3BPdBYgmXjCc64tmHLqEXTIVxYTxt53lxmqKUy3O9mikI9GihQRUZoN"
+      },
+      {
+        "label": "khpg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHVv7C7hMwjxTcckFMakh8_EwxOUj_XZDweYCkH_NnLyLmKuZpLhjvN5VhYk8IkVgVml3d7jfnjj9pdU-rFQ9Iup1G5QCEKVcWHf4IhVzWDSZB3_ZnhbQahg=="
+      },
+      {
+        "label": "pravda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGP8hk7qLKvDAb7wXYgDce-AsPqs4gHGYeU5rDvgyzgOKbIxk4nCy9khKbjbHPlWncFC4D81xwD9G66z9FwKBNln9XnUkOoTJmgdkppaAr50YLG3uwcHQNaP-8iNpogolHaj4B1kTwiDM7tprLIlZjgZA=="
+      },
+      {
+        "label": "factcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYrSZ9X-NLm4phfpax8sIKm2SxzvqnG9ae0tPKTlPNebz-HHP2OdVMLMZt8A1IFIsLw-cHGwxzkk2g0uY3YRx8nTPeDVKH7bxvaE-Aq75dp3BPdBYgmXjCc64tmHLqEXTIVxYTxt53lxmqKUy3O9mikI9GihQRUZoN"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLvvJt1_87uTyBWq3r-tTDDLRKgwyAx8ag7vbEekYyw4q9zrUkH3vNf5LUmJwQ0Y2FlYWwGhzh1m1sa5HmOpF6GTS6IlGApcXhjTp0FMZ1DMjMVOa34ZCyRJ3_piVJ6oFE5P7jt6Urb5Yp3bw3pT5z62Mi23Kt8OTX5Osm7FaO4QiHKMH48y9uTwIHRP3y8Wdr14Cm0KOb6rpf5y6LwGZPXeE="
+      },
+      {
+        "label": "khpg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHVv7C7hMwjxTcckFMakh8_EwxOUj_XZDweYCkH_NnLyLmKuZpLhjvN5VhYk8IkVgVml3d7jfnjj9pdU-rFQ9Iup1G5QCEKVcWHf4IhVzWDSZB3_ZnhbQahg=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFobIYDE6_EsVwsEu8cnCzJe1A0ECpyrFlJFaIWjzbNcUDGLQbyLQ5YlEvRZpKWECUbCeJRNkCCM_pVHGy3U9VC07lJSCE71ULOrqRf1Frl7Io3rQxwIXhjPWWn3Kp1dnp5yi4Q"
+      },
+      {
+        "label": "khpg",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHVv7C7hMwjxTcckFMakh8_EwxOUj_XZDweYCkH_NnLyLmKuZpLhjvN5VhYk8IkVgVml3d7jfnjj9pdU-rFQ9Iup1G5QCEKVcWHf4IhVzWDSZB3_ZnhbQahg=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLvvJt1_87uTyBWq3r-tTDDLRKgwyAx8ag7vbEekYyw4q9zrUkH3vNf5LUmJwQ0Y2FlYWwGhzh1m1sa5HmOpF6GTS6IlGApcXhjTp0FMZ1DMjMVOa34ZCyRJ3_piVJ6oFE5P7jt6Urb5Yp3bw3pT5z62Mi23Kt8OTX5Osm7FaO4QiHKMH48y9uTwIHRP3y8Wdr14Cm0KOb6rpf5y6LwGZPXeE="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFobIYDE6_EsVwsEu8cnCzJe1A0ECpyrFlJFaIWjzbNcUDGLQbyLQ5YlEvRZpKWECUbCeJRNkCCM_pVHGy3U9VC07lJSCE71ULOrqRf1Frl7Io3rQxwIXhjPWWn3Kp1dnp5yi4Q"
+      },
+      {
+        "label": "wiki",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq_UZlKW9vcj3T7K1-EEchmBlI--54F_OsrhBAjjjfTtq3r5PmJpG6pVUjxogjH4Vjj0wv-4WfBnVdzTtuSm5c7-BnkUmbXaCkP7kPb2jLEU2PAJlA8gfpVUa_KIWXYv6FhxSPGcS-41U="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsrsR9g7qd4MDOi5a5R2cmKnWeZF1Jjtz1HAtgwtNewb_6nFQlrNLLYx6JCq6I6CMEBnr2Nj-D0dYjwmtY-I9m-ZXgO4V2S6N155b42N-lNp5-7BxA1qXpyrTrrxJwGMQXb_z27jwx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2qU2rnR89pdNwow-fyk3YxuqpM-3Tp_TmLJEhbUF1Ws-0LY3TdEwmkF6AlTVWQQf34v2yIDSlE2A0PFeoI3I0tdaU8CDWtmx8MuzWzmAj251FjO5S0Bjdf_WCqhUw4KlfjdpC-sh5"
+      },
+      {
+        "label": "mobygames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo1yHZut_pcxeTeel_8ft631oHmMxrB-953cOQV-QBiR9WRADVjzL-zsl1RiNFKwAbgR_nlEwNiTqlLvA8Gy2NzEYE-MT7Afo9UGJPf0BlGBuHGnxKLigKSzJDtzuAfqWFzndHiR5kXHoDr3QvZ8zzWjlQAsI="
+      },
+      {
+        "label": "wiki",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq_UZlKW9vcj3T7K1-EEchmBlI--54F_OsrhBAjjjfTtq3r5PmJpG6pVUjxogjH4Vjj0wv-4WfBnVdzTtuSm5c7-BnkUmbXaCkP7kPb2jLEU2PAJlA8gfpVUa_KIWXYv6FhxSPGcS-41U="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsrsR9g7qd4MDOi5a5R2cmKnWeZF1Jjtz1HAtgwtNewb_6nFQlrNLLYx6JCq6I6CMEBnr2Nj-D0dYjwmtY-I9m-ZXgO4V2S6N155b42N-lNp5-7BxA1qXpyrTrrxJwGMQXb_z27jwx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2qU2rnR89pdNwow-fyk3YxuqpM-3Tp_TmLJEhbUF1Ws-0LY3TdEwmkF6AlTVWQQf34v2yIDSlE2A0PFeoI3I0tdaU8CDWtmx8MuzWzmAj251FjO5S0Bjdf_WCqhUw4KlfjdpC-sh5"
+      },
+      {
+        "label": "wiki",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq_UZlKW9vcj3T7K1-EEchmBlI--54F_OsrhBAjjjfTtq3r5PmJpG6pVUjxogjH4Vjj0wv-4WfBnVdzTtuSm5c7-BnkUmbXaCkP7kPb2jLEU2PAJlA8gfpVUa_KIWXYv6FhxSPGcS-41U="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsrsR9g7qd4MDOi5a5R2cmKnWeZF1Jjtz1HAtgwtNewb_6nFQlrNLLYx6JCq6I6CMEBnr2Nj-D0dYjwmtY-I9m-ZXgO4V2S6N155b42N-lNp5-7BxA1qXpyrTrrxJwGMQXb_z27jwx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2qU2rnR89pdNwow-fyk3YxuqpM-3Tp_TmLJEhbUF1Ws-0LY3TdEwmkF6AlTVWQQf34v2yIDSlE2A0PFeoI3I0tdaU8CDWtmx8MuzWzmAj251FjO5S0Bjdf_WCqhUw4KlfjdpC-sh5"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrlLStZ_C9jAzccf4AHEyFVADcjAAIpnbEf4dnQVqn3mUmWclcDNxjCnUJ7R1cIlWFa8ZUh2dQd-5kwgJssf8HZemUjQsezC3xKw0q26IpymdAnT_f547tNMAJkmfQ6U1_ELvjj8vcokAwuXE0JFo1xHbMzzMjK3lURai-YgroWgaiDxJ56NGMiaTlrxVxN185yJq-Rvng5indpsehMzKEMtI="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFOgcYduKd5HAgusGFz9nv0YkHCXfoiXKWiwNX0aIa25A1Cnvd-f-0oSQ3xIpwTYyjnqP4fY-cVBLjX-5Cblik7rZzkTWTdbK4bAigvmCcL9igZCFMsV0OIqdt-1R-M6q_uKqdIZWIstmqi9qHWDiZXOh-B2a5ZxaVIeC26OrvwbfGaM0uA74gSCyliXP5-4o-1V5uIcI2wEkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFcez64VTMsc2738hto0n2qrAbOFx_7937GWqj-lxh0TVu-9r4eUWhXyFlFR0h1YJMVOpg6LgmIdF8cZMKfrKQWay8JMwa_1Z8h-4oIKLJcLpyT5nz3Iqeksg0yVd-NjiyRDto40VVYx6ePl0d7j0hfSiLth50cS1IoZ0nT3HwVn0RXzpK4qmEkN3Mu33i4jO-MfVURcu3CA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrlLStZ_C9jAzccf4AHEyFVADcjAAIpnbEf4dnQVqn3mUmWclcDNxjCnUJ7R1cIlWFa8ZUh2dQd-5kwgJssf8HZemUjQsezC3xKw0q26IpymdAnT_f547tNMAJkmfQ6U1_ELvjj8vcokAwuXE0JFo1xHbMzzMjK3lURai-YgroWgaiDxJ56NGMiaTlrxVxN185yJq-Rvng5indpsehMzKEMtI="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFOgcYduKd5HAgusGFz9nv0YkHCXfoiXKWiwNX0aIa25A1Cnvd-f-0oSQ3xIpwTYyjnqP4fY-cVBLjX-5Cblik7rZzkTWTdbK4bAigvmCcL9igZCFMsV0OIqdt-1R-M6q_uKqdIZWIstmqi9qHWDiZXOh-B2a5ZxaVIeC26OrvwbfGaM0uA74gSCyliXP5-4o-1V5uIcI2wEkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFcez64VTMsc2738hto0n2qrAbOFx_7937GWqj-lxh0TVu-9r4eUWhXyFlFR0h1YJMVOpg6LgmIdF8cZMKfrKQWay8JMwa_1Z8h-4oIKLJcLpyT5nz3Iqeksg0yVd-NjiyRDto40VVYx6ePl0d7j0hfSiLth50cS1IoZ0nT3HwVn0RXzpK4qmEkN3Mu33i4jO-MfVURcu3CA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoqqoy-lqZkUkPYr3aIHr_GM_RBzghPTIRCPdE7has4m7QBRIyt2u8aw8Pae6YOEf1cyBgym_DVNKxebS1E2hKBpTlb_ipEek0HkKTZnS3Js6xX0mEWpDWL4ZkKb0AZO6fYzpJjUv4lmc7g907UIpOFdCfljwZUAlOomvwM62VTNOrFqTb3rxp-yPpGjSeapbZMH5aogGN5nc2"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_MxtnEUdeUwBX8M8TLhNykKlOJcKMM-ouGLe8_P0EQvct9SFalELaxQu_F4SRsYfAk8wt5N-pxv8ZxGWB4MP3YWKMHhDz301qsDH_Li7w0C-j6xdlLIUqrYPi490piWYWAcIg-EfTwXGMAl-T3d430glZ28xpCfg3_ONnPcDBprdm5dW5j5KRVjd3KK6dkwnbig7oAp7HcJw="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHivmbMlwazF9aEYCzS4OEMnSOgvrak455Vau2_EXQkNyMhfo-z_B6HxFLiMsrwRoEAia6ZA_G7x_y4f9NugXO61GvcPV8jS6AkggEXUsW3t9Uwd6m9Un_mh3By07NFT5qsGQDnjb636H6zEKCiRKX7Bni2N18iwDK-Pv604nISG3yZKKkJxkGA86MrcAZjTBc0xHNpPAanGl3dMw9Z2uoz"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKizdvDpmCd1RJAXVxOOvwkzDWwIr3JpnA04ZkoyTrJERFDiWVBUPxvmkWeK9Fx_20FDI_8QoDRiAmzHA-DVVrJHPEE6z8bvuk6ErCuwecY3QbesXpCv7EQeSE1imDQRREAjut49vYdFvPMNKZpLwD4YdH8zjdeI7PXyYmsk1tNMVIcZRiaywLMqo8ndke1A7BQClbg0JSieU="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzJpmXJPndAcx6W7ZNz3m-5yBoG_67Z-nlZU2OoClIjpRaj2L52ZGGfkzUMNbsWbfLbhv680hBPtEV2GxSQgbcJ39ev5tS6IXUr6QTL5X9rWRqgS0ElmOkPtd_yYaYyWbY8617LKDRGoLvfL4s4IZSWiKtXredK4BHDPZOfprPhOusx4b-HFwqoccCCDJnEREsR9HuIqMvnA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcfeYwRU8VWwm9uRR04g-TZa4ZVr4PCnvqYKLhiL-nHdD8OwzKJDaW8o4rZskouudMr3BZWNOCYt4kOzKRhNytMB2w_62zd1m3buS6xiPCdofYcK_tV9emAUz9CRah4yY50lDqnfSifDqsgdV_4swmdPzSsY7EO95WpSspseReR5v9_XtFr8j_00iflgvxiP3rDqboFbwL78HvRuE="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFobIYDE6_EsVwsEu8cnCzJe1A0ECpyrFlJFaIWjzbNcUDGLQbyLQ5YlEvRZpKWECUbCeJRNkCCM_pVHGy3U9VC07lJSCE71ULOrqRf1Frl7Io3rQxwIXhjPWWn3Kp1dnp5yi4Q"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLvvJt1_87uTyBWq3r-tTDDLRKgwyAx8ag7vbEekYyw4q9zrUkH3vNf5LUmJwQ0Y2FlYWwGhzh1m1sa5HmOpF6GTS6IlGApcXhjTp0FMZ1DMjMVOa34ZCyRJ3_piVJ6oFE5P7jt6Urb5Yp3bw3pT5z62Mi23Kt8OTX5Osm7FaO4QiHKMH48y9uTwIHRP3y8Wdr14Cm0KOb6rpf5y6LwGZPXeE="
+      },
+      {
+        "label": "wiki",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFq_UZlKW9vcj3T7K1-EEchmBlI--54F_OsrhBAjjjfTtq3r5PmJpG6pVUjxogjH4Vjj0wv-4WfBnVdzTtuSm5c7-BnkUmbXaCkP7kPb2jLEU2PAJlA8gfpVUa_KIWXYv6FhxSPGcS-41U="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsrsR9g7qd4MDOi5a5R2cmKnWeZF1Jjtz1HAtgwtNewb_6nFQlrNLLYx6JCq6I6CMEBnr2Nj-D0dYjwmtY-I9m-ZXgO4V2S6N155b42N-lNp5-7BxA1qXpyrTrrxJwGMQXb_z27jwx"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2qU2rnR89pdNwow-fyk3YxuqpM-3Tp_TmLJEhbUF1Ws-0LY3TdEwmkF6AlTVWQQf34v2yIDSlE2A0PFeoI3I0tdaU8CDWtmx8MuzWzmAj251FjO5S0Bjdf_WCqhUw4KlfjdpC-sh5"
+      },
+      {
+        "label": "mobygames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo1yHZut_pcxeTeel_8ft631oHmMxrB-953cOQV-QBiR9WRADVjzL-zsl1RiNFKwAbgR_nlEwNiTqlLvA8Gy2NzEYE-MT7Afo9UGJPf0BlGBuHGnxKLigKSzJDtzuAfqWFzndHiR5kXHoDr3QvZ8zzWjlQAsI="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

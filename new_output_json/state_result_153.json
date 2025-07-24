@@ -1,0 +1,973 @@
+{
+  "file_name": "state_result_153.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.639698",
+  "data": {
+    "messages": [
+      {
+        "content": "Названия систем связи применяемые в БПЛА камикадзе (барражирующих боеприпасах)",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "44618b94-b04f-46c7-a4c8-99b80121e1bc",
+        "example": false
+      },
+      {
+        "content": "Камикадзе-дроны, также известные как барражирующие боеприпасы, используют различные системы связи, адаптированные для работы в условиях радиоэлектронной борьбы (РЭБ) [cnews](https://vertexaisearch.cloud.google.com/id/0-0) [voennoedelo](https://vertexaisearch.cloud.google.com/id/0-1). Основное внимание уделяется разработке помехоустойчивых каналов связи и защите от РЭБ [cnews](https://vertexaisearch.cloud.google.com/id/0-0) [voennoedelo](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Общие тенденции и системы:**\n\n*   **Помехоустойчивость:** Разработка систем связи, устойчивых к средствам радиоэлектронной борьбы (РЭБ), является ключевой задачей [cnews](https://vertexaisearch.cloud.google.com/id/0-0) [voennoedelo](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Защищенные каналы:** Камикадзе-дроны часто используют защищенные каналы связи [cnews](https://vertexaisearch.cloud.google.com/id/0-0) [voennoedelo](https://vertexaisearch.cloud.google.com/id/0-1). Для защиты каналов связи часто используется криптографическая защита радиоканала между землей и БПЛА с помощью \"ad [cyberleninka](https://vertexaisearch.cloud.google.com/id/1-0)d-on\" защиты, где шифратор помещается между бортовым/наземным оборудованием и трансивером.\n*   **Защита от РЭБ:** Дроны оснащены системами противодействия радиоэлектронной борьбе [cnews](https://vertexaisearch.cloud.google.com/id/0-0) [voennoedelo](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Интеграция ИИ:** В некоторых дронах используется бортовой искусственный интеллект (ИИ) для идентификации и приоритизации целей [cnews](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Управление по оптоволокну:** Растет тенденция использования оптоволоконных кабелей для управления дронами, что делает их необнаружимыми и невосприимчивыми к РЭБ [cnews](https://vertexaisearch.cloud.google.com/id/0-0) [voennoedelo](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Конкретные системы и технологии:**\n\n*   **ZALA Aero \"Lancet\" (\"Изделие 51/52/53\"):** Эти дроны используют помехоустойчивые каналы связи и оснащены средствами противодействия радиоэлектронной борьбе.\n*   **FPV-дроны \"Технодрон\":** Эта компания разрабатывает FPV-дроны с оптоволоконным управлением для увеличения дальности, преодолевая ограничения существующих систем примерно в 20 км [cnews](https://vertexaisearch.cloud.google.com/id/0-0). Они также работают над дронами-перехватчиками с оптоволоконной связью [www1](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **\"Цербер\":** Система управления роями оптоволоконных дронов-камикадзе [www1](https://vertexaisearch.cloud.google.com/id/0-6). Он использует ИИ, чтобы позволить дронам работать как единое целое, при этом одни выполняют разведку, а другие атакуют. Дроны могут использовать мобильные базовые станции для навигации в дополнение к спутникам [www1](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **\"Микроб\":** Этот FPV-дрон использует модуль машинного зрения и автопилот для самостоятельного наведения, что делает его устойчивым к РЭБ [www1](https://vertexaisearch.cloud.google.com/id/0-7). Он также использует нестандартные каналы для приема сигнала и передачи видео.\n*   **Турецкий FPV-дрон MERKÜT:** Этот дрон-камикадзе использует внешнюю систему связи для обеспечения безопасности оператора [www1](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**Радиоэлектронная борьба и контрмеры:**\n\n*   **Системы РЭБ:** Такие системы, как \"Солярис-Н\", предназначены для подавления каналов радиоуправления дронами и сигналов GPS в радиусе 5 км [aa](https://vertexaisearch.cloud.google.com/id/0-9). Комплекс РЭБ \"Свет-КУ\" может идентифицировать и подавлять каналы управления дронами [www1](https://vertexaisearch.cloud.google.com/id/0-10).\n*   **Защита от помех:** Иранские дроны Shahed-149 оснащаются системами защиты от помех [www1](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Преимущество оптоволокна:** Дроны, управляемые по оптоволоконному кабелю, не обнаруживаются РЭБ [tasnimnews](https://vertexaisearch.cloud.google.com/id/0-12).\n\n**Шифрование:**\n\nДля защиты каналов связи часто используется шифрование радиоканала между землей и БПЛА [cyberleninka](https://vertexaisearch.cloud.google.com/id/1-0). Распространенные алгоритмы шифрования включают:\n\n*   **Криптография на эллиптических кривых (ECC):** Часто используется в связи БПЛА из-за высокой безопасности при короткой длине ключа [preprints](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Advanced Encryption Standard (AES):** Обеспечивает надежную безопасность, но может создавать значительную вычислительную нагрузку [arxiv](https://vertexaisearch.cloud.google.com/id/2-1).\n*   **Легкие алгоритмы шифрования:** Разработаны для устройств с ограниченной вычислительной мощностью и памятью [arxiv](https://vertexaisearch.cloud.google.com/id/2-1). Примером является семейство ASCON [researchgate](https://vertexaisearch.cloud.google.com/id/2-2).\n\n**Антенны CRPA:**\n\nДля противодействия украинской радиоэлектронной борьбе российские разработчики используют более совершенные антенны с управляемой диаграммой направленности приема (CRPA) с числом элементов до 16 [cyberleninka](https://vertexaisearch.cloud.google.com/id/1-0). CRPA используют несколько антенных элементов в сочетании с цифровой обработкой сигналов для динамической регулировки диаграммы усиления и подавления помех [defenseadvancement](https://vertexaisearch.cloud.google.com/id/3-1).\n\n**Оптоволоконное управление:**\n\nЗначительным событием является использование оптоволоконных кабелей для управления дронами, что делает их неуязвимыми для радиоэлектронной борьбы [militarnyi](https://vertexaisearch.cloud.google.com/id/1-4).\n\nВ целом, системы связи, используемые в дронах-камикадзе, постоянно развиваются, чтобы противостоять угрозам РЭБ и обеспечить надежную связь в сложных условиях.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "da9cecad-21d0-4228-aead-f343867192ed",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "система связи БПЛА камикадзе название",
+      "защищенные каналы связи БПЛА камикадзе",
+      "What specific encryption algorithms and key management protocols are used in the \"add-on\" encryption devices for UAV communication, particularly in kamikaze drones, and what are their strengths and weaknesses against modern cryptanalysis techniques?",
+      "What are the specific characteristics of Controlled Reception Pattern Antennas (CRPA) with up to 16 elements that make them effective against Ukrainian electronic warfare tactics?",
+      "What are the practical limitations and challenges of deploying fiber optic control systems for kamikaze drones in real-world battlefield scenarios, including cost, deployment speed, and vulnerability of the fiber optic cable itself?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent information on \"система связи БПЛА камикадзе название\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of communication systems used in kamikaze drones, also known as loitering munitions, with a focus on recent developments:\n\n**General Trends and Systems:**\n\n*   **Jamming Resistance:** A key focus is on developing communication systems resistant to electronic warfare (EW).\n*   **Protected Channels:** Kam [cnews](https://vertexaisearch.cloud.google.com/id/0-0) [voennoedelo](https://vertexaisearch.cloud.google.com/id/0-1)ikaze drones often use protected communication channels.\n*   **REB (Radio-Electronic War [voennoedelo](https://vertexaisearch.cloud.google.com/id/0-1) [cnews](https://vertexaisearch.cloud.google.com/id/0-0)fare) Protection:** These drones are equipped with systems to counter radio-electronic warfare.\n*   **AI Integration:** Some dr [cnews](https://vertexaisearch.cloud.google.com/id/0-0)ones use onboard artificial intelligence (AI) for target identification and prioritization.\n*   **Optical Fiber Control:**  [cnews](https://vertexaisearch.cloud.google.com/id/0-0) [voennoedelo](https://vertexaisearch.cloud.google.com/id/0-1)There is a growing trend towards using fiber optic cables for drone control, making them undetectable and immune to REB.\n\n**Specific Systems and Technol [aa](https://vertexaisearch.cloud.google.com/id/0-2) [building-tech](https://vertexaisearch.cloud.google.com/id/0-3) [krymr](https://vertexaisearch.cloud.google.com/id/0-4) [tadviser](https://vertexaisearch.cloud.google.com/id/0-5) [www1](https://vertexaisearch.cloud.google.com/id/0-6)ogies:**\n\n*   **ZALA Aero \"Lancet\" (\"Изделие 51/52/53\"):** These drones use jam-resistant communication channels and are equipped with electronic warfare countermeasures.\n*   **\"Технодрон\" FPV Drones:** This c [cnews](https://vertexaisearch.cloud.google.com/id/0-0)ompany is developing FPV drones with fiber optic control to increase range, overcoming the approximate 20km limitations of current systems. They are also working on drone interceptors wit [www1](https://vertexaisearch.cloud.google.com/id/0-6)h fiber optic communication.\n*   **\"Цербер\":** This is a system for controll [www1](https://vertexaisearch.cloud.google.com/id/0-6)ing swarms of fiber optic kamikaze drones. It uses AI to allow the drones to work as a unit, with some performing reconnaissance and others attacking. The drones can use mobile base stations for navigatio [www1](https://vertexaisearch.cloud.google.com/id/0-7)n in addition to satellites.\n*   **\"Микроб\":** This FPV drone uses a machine visio [www1](https://vertexaisearch.cloud.google.com/id/0-7)n module and autopilot for self-guidance, making it resistant to REB. It also uses non-standard channels for signal reception and video transmission.\n*   **Turkish MERKÜT FPV Drone:** This kamikaze drone uses  [www1](https://vertexaisearch.cloud.google.com/id/0-8)an external communication system to ensure operator safety.\n\n**Electronic Warfare and Countermeasures:**\n\n*   **REB Syst [aa](https://vertexaisearch.cloud.google.com/id/0-9)ems:** Systems like the \"Солярис-Н\" are designed to suppress drone radio control channels and GPS signals within a 5km radius. The \"Свет-КУ\" REB complex can identify and suppress drone control ch [www1](https://vertexaisearch.cloud.google.com/id/0-10)annels.\n*   **Anti-Jamming:** Iranian Shahed-149 drones are being equipped with an [www1](https://vertexaisearch.cloud.google.com/id/0-11)ti-jamming systems.\n*   **Optical Fiber преимущество:** Drones controlled by fiber optic cable [tasnimnews](https://vertexaisearch.cloud.google.com/id/0-12)s are undetectable by REB.\n\n**Other Points:**\n\n*   **\"Архангел\":** A strike drone capable of speeds up to 280 km/ [aa](https://vertexaisearch.cloud.google.com/id/0-2) [krymr](https://vertexaisearch.cloud.google.com/id/0-4) [building-tech](https://vertexaisearch.cloud.google.com/id/0-3)h.\n*   **\"Герань-3\":** A modernized version of the \"Герань-2\" kamikaze drone with improved charac [tadviser](https://vertexaisearch.cloud.google.com/id/0-5)teristics, including a higher speed (up to 700 km/h in the final stage) and a larger warhead.\n*   **\"Дарвин\":** Protective nets are being developed to reduce the impact force of drones and minimize de [cnews](https://vertexaisearch.cloud.google.com/id/0-13)tonation risks.\n*   **\"СКАТ 350\":** A reconnaissance drone that works in conjunction with kamikaze drones.\n*   **Training:** Mil [www1](https://vertexaisearch.cloud.google.com/id/0-14)itary exercises include training to counter drone attacks using anti-drone electromagnetic rifl [tadviser](https://vertexaisearch.cloud.google.com/id/0-5)es.\n*   **\"Икар\":** A kamikaze drone with interchangeable video transmitters and radio receivers.\n [vecherka-spb](https: [teleport2001](https://vertexaisearch.cloud.google.com/id/0-15)//vertexaisearch.cloud.google.com/id/0-16)",
+      "Okay, I will conduct Google Searches to gather the most recent information on \"защищенные каналы связи БПЛА камикадзе\" (protected communication channels for kamikaze UAVs) and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of information regarding protected communication channels for kamikaze UAVs, focusing on the most recent developments:\n\n**General Security Measures:**\n\n*   **Encryption:** A common method to protect communication channels involves cryptographic protection of the radio channel between the ground and the UAV. This can be achieved through \"ad [cyberleninka](https://vertexaisearch.cloud.google.com/id/1-0)d-on\" protection where an encryptor is placed between the onboard/ground equipment and the transceiver, ensuring that cryptographically secured data is always transmitted over the radio channel. Stream ciphers with pseudo-rando [cyberleninka](https://vertexaisearch.cloud.google.com/id/1-0)m sequence generators are used.\n*   **Frequency Hopping:**  Sign [cyberleninka](https://vertexaisearch.cloud.google.com/id/1-0)al interference technology for UAV countermeasures includes radio frequency interference targeting communication frequency bands like 2.4 GHz and 5.8 GHz.\n*   **Radio Electronic Warfare ( [spiedigitallibrary](https://vertexaisearch.cloud.google.com/id/1-1)EW):** Radio-electronic warfare (EW) involves technical measures to protect objects from unauthorized drone penetration. Modern EW systems can detect and [rub-in](https://vertexaisearch.cloud.google.com/id/1-2) neutralize drones by creating interference for communication and navigation channels.\n*   **Jamming and Spoofing Count [rub-in](https://vertexaisearch.cloud.google.com/id/1-2)ermeasures:** Modern counter-UAS solutions include drone signal jamming and GPS spoofing.\n*   **Redundancy and Alternative [nqdefense](https://vertexaisearch.cloud.google.com/id/1-3) Control:** Some drones use terrain matching, image recognition, and inertial navigation for independent positioning, but these are not common in the civilian industry.\n\n**Specific Technologies and Tec [nqdefense](https://vertexaisearch.cloud.google.com/id/1-3)hniques:**\n\n*   **\"Add-on\" Encryption Devices:** These devices can be integrated between the UAV's control system and the transceiver to encrypt data transmitted over the radio channel.\n*   **CRPA Antennas:** To counte [cyberleninka](https://vertexaisearch.cloud.google.com/id/1-0)r Ukrainian electronic warfare, Russian developers are using more advanced Controlled Reception Pattern Antennas (CRPA) with up to 16 elements.\n*   **Fiber Optic Control:** A s [militarnyi](https://vertexaisearch.cloud.google.com/id/1-4)ignificant development is the use of fiber-optic cables for drone control, making them invulnerable to radio-electronic warfare. These drones transmit high-resol [csis](https://vertexaisearch.cloud.google.com/id/1-5) [aa](https://vertexaisearch.cloud.google.com/id/1-6) [krymr](https://vertexaisearch.cloud.google.com/id/1-7)ution video and are not affected by terrain irregularities.\n*   **Mobile Communication Modul [aa](https://vertexaisearch.cloud.google.com/id/1-6)es:** Russia has started equipping Shahed-136 drones with mobile communication modules that connect to Ukrainian networks to transmit telemetry data.\n\n**Countermeasures Against UAVs: [militarnyi](https://vertexaisearch.cloud.google.com/id/1-4)**\n\n*   **Radio Frequency (RF) Analyzers:** RF sensors receive and analyze radio signals to detect, identify, and track drone operations.\n*   **Signal Interference:** Thi [dedrone](https://vertexaisearch.cloud.google.com/id/1-8)s involves creating interference or intercepting control of the UAV by jamming its radio signals and communication channels with the operator.\n*   **Physical Capture:** Physic [alasartech-security](https://vertexaisearch.cloud.google.com/id/1-9) [scilead](https://vertexaisearch.cloud.google.com/id/1-10)al capture mechanisms or high-energy lasers can be used to seize or destroy UAVs.\n*   **Drone Interceptors:** Usin [alasartech-security](https://vertexaisearch.cloud.google.com/id/1-9) [spiedigitallibrary](https://vertexaisearch.cloud.google.com/id/1-1)g drone interceptors or kamikaze drones is another method, but it may not be suitable for protecting against medium or large UAVs or drone swarms.\n*   **Electronic Warfare Systems [arsenal-otechestva](https://vertexaisearch.cloud.google.com/id/1-11) [secuteck](https://vertexaisearch.cloud.google.com/id/1-12) [obrazovanie33](https://vertexaisearch.cloud.google.com/id/1-13):** Systems like the Krasukha-4 can be used to deceive enemy drones and potentially take control of them through electronic means.\n*   **Anti-Drone Nets:** Special [cnas](https://vertexaisearch.cloud.google.com/id/1-14)ized FPV drones like \"Osed\" have been developed to intercept enemy UAVs by shooting a net, causing them to lose control.\n\n**Russia-Ukraine War Context:** [ura](https://vertexaisearch.cloud.google.com/id/1-15)\n\n*   **FPV Drones:** There is increasing importance of light quadcopters on the battlefield, necessitating effective defense methods.\n*   **Trench-Level Warfare:** Ta [cyberleninka](https://vertexaisearch.cloud.google.com/id/1-16)ctical electronic warfare is heavily emphasized, with Russians calling it trench-level warfare.\n*   **Drone Fratricide:** Lack o [csis](https://vertexaisearch.cloud.google.com/id/1-5)f communication between units leads to friendly fire incidents involving UAVs.\n*   **Evolving Russian Tactics:* [csis](https://vertexaisearch.cloud.google.com/id/1-5)* Russia is improving tactics and using decoys to enhance the operational capabilities of its OWA-UAV systems. This includes integrating jammin [iiss](https://vertexaisearch.cloud.google.com/id/1-17)g-resistant antennas and using Ukrainian mobile networks for data links.\n*   **Domestic Production:** Rus [iiss](https://vertexaisearch.cloud.google.com/id/1-17)sia is now assembling and producing Shahed-136 drones domestically.\n*   **Fiber Optic Drones:** Both [militarnyi](https://vertexaisearch.cloud.google.com/id/1-4) Russia and Ukraine are actively using and developing FPV drones controlled via fiber optic cables.\n\n**Cybersecurity Standards:**\n\n* [csis](https://vertexaisearch.cloud.google.com/id/1-5) [aa](https://vertexaisearch.cloud.google.com/id/1-6)   **Cybersecurity for UAVs:**  \"GLONASS\" is developing cybersecurity standards for drones to protect them from cyberattacks. This is considered crucial for l [cnews](https://vertexaisearch.cloud.google.com/id/1-18)ifting flight restrictions and enabling the safe industrial use of UAVs.\n [cnews](https://vertexaisearch.cloud.google.com/id/1-18)",
+      "While specific details on encryption algorithms and key management protocols used in \"add-on\" encryption devices for UAV communication, especially in kamikaze drones, are limited in the search results, some general information and trends can be gathered.\n\n**Encryption Algorithms and Protocols:**\n\n*   **Elliptic Curve Cryptography (ECC):** ECC is frequently used in UAV communication due to its strong security with shorter key lengths, making it suitable for resource-constrained drones [preprints](https://vertexaisearch.cloud.google.com/id/2-0). The mathematical properties of elliptic curves enhance the algorithm's resilience to cryptographic attacks [preprints](https://vertexaisearch.cloud.google.com/id/2-0). ECC is effective for key generation, exchange, and digital signatures, providing a secure solution for safeguarding confidential data in drone networks [preprints](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Advanced Encryption Standard (AES):** While AES offers robust security, it may impose significant computational overhead on resource-constrained UAV platforms [arxiv](https://vertexaisearch.cloud.google.com/id/2-1).\n*   **Lightweight Cryptography:** Lightweight encryption algorithms are designed for devices with limited processing power and memory, making them suitable for UAVs [arxiv](https://vertexaisearch.cloud.google.com/id/2-1). They prioritize efficiency while providing strong cryptographic protection [arxiv](https://vertexaisearch.cloud.google.com/id/2-1). Examples include the ASCON family, which is known for its simple yet resilient design [researchgate](https://vertexaisearch.cloud.google.com/id/2-2). ASCON-128a is presented as an optimal choice for UAV communication systems requiring a balance between efficiency and security [researchgate](https://vertexaisearch.cloud.google.com/id/2-2) [arxiv](https://vertexaisearch.cloud.google.com/id/2-1). ChaCha is also optimized for mobile devices and has a higher CPU efficiency [preprints](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Hash Algorithms:** SHA-3 and SHA-2 are commonly employed hash functions for randomization in cryptography [preprints](https://vertexaisearch.cloud.google.com/id/2-0). SHA-3 is more secure but its slower software implementation prevents it from being widely utilized [preprints](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Digital Signature Algorithm (DSA):** DSA is used to generate digital signatures, often in conjunction with the SHA-2 family of hash functions [preprints](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **One-Time Pad (OTP):** Symmetric security mechanisms, such as OTP, are frequently employed to safeguard transmissions [rdd](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **HIGHT:** HIGHT lightweight encryption algorithm can be used to cipher payload data to increase security MAVLink communication protocol [turcomat](https://vertexaisearch.cloud.google.com/id/2-4).\n\n**Key Management Protocols:**\n\n*   **Diffie-Hellman (DH) key exchange:** DH key exchange algorithm can be combined with Hash-based Message Authentication Code (HMAC) within ROS communication channels to authenticate exchanged UAV data [arxiv](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Public Key Infrastructure (PKI):** PKI, along with Elliptic Curve Cryptography, can be used for inter-drone communication authentication, though it can be resource-intensive [preprints](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Physical Unclonable Functions (PUFs):** PUFs can be integrated with low-complexity cryptographic primitives for secure mutual authentication, without storing secret information on the UAV [mdpi](https://vertexaisearch.cloud.google.com/id/2-6). PUFs can also be merged with quantum-resistant key-exchange methods to future-proof UAV networks [mdpi](https://vertexaisearch.cloud.google.com/id/2-6).\n*   **Chinese Remainder Theorem (CRT) and Hash Function:** These are used to construct a swarm key by combining the local key and the session key to reduce the overhead of individual UAV nodes in the swarm [mdpi](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Swarm Broadcast Protocol (SBP):** SBP contains a security key management scheme that manages a broadcast key among the swarm for a leader to broadcast encrypted messages to followers [hongpeng-guo](https://vertexaisearch.cloud.google.com/id/2-8).\n\n**Strengths and Weaknesses Against Modern Cryptanalysis Techniques:**\n\n*   **ECC:** Offers a high level of security and resilience to various cryptographic attacks due to the mathematical properties of elliptic curves [preprints](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Lightweight Algorithms:** Designed to be efficient on resource-constrained devices, but their security needs to be carefully evaluated against modern cryptanalysis techniques [arxiv](https://vertexaisearch.cloud.google.com/id/2-1). Comparative analysis assesses performance metrics such as encryption and decryption speeds, resource utilization, and resistance to cryptographic vulnerabilities against established algorithms like AES [researchgate](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Vulnerabilities:** UAVs are susceptible to various security attacks such as data modification, denial of service, snooping, man-in-the-middle, and WiFi attacks [scispace](https://vertexaisearch.cloud.google.com/id/2-9). Communication links are vulnerable to jamming, GPS spoofing, and cyber warfare [law-in-action](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Countermeasures:** Common protective measures include encrypting command, control, and data links, deploying Intrusion Detection Systems (IDS), implementing strict authentication systems, and enhancing data integrity and traceability through quantum cryptography and blockchain technology [xmake](https://vertexaisearch.cloud.google.com/id/2-11).\n\n**Specific to Kamikaze Drones:**\n\n*   **Data Link Security:** Kamikaze drones rely on encrypted data links for human control, which creates vulnerabilities if these links are attacked physically, jammed electronically, or subverted through cyber warfare [law-in-action](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Autonomy:** The vulnerability of communication links to interference is an argument for greater autonomy in kamikaze drones [law-in-action](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Spoofing:** Neural networks used in machine learning for autonomous weapons are intrinsically vulnerable to spoofing [law-in-action](https://vertexaisearch.cloud.google.com/id/2-10).\n\n**Additional Considerations:**\n\n*   **Military Drone Requirements:** Military drones require stringent communication and data link protection due to risks like information theft, malicious tampering, false commands, and GPS position spoofing [xmake](https://vertexaisearch.cloud.google.com/id/2-11).\n*   **UAS Communication Disruptors:** Disrupting drone communications has become a frontline defense strategy, using AI-powered drone mitigation systems and real-time drone communication interference tools [frost](https://vertexaisearch.cloud.google.com/id/2-12).\n*   **Cybersecurity Threats:** UAVs are increasingly susceptible to cybersecurity threats, including interception, spoofing, and hijacking [indecs](https://vertexaisearch.cloud.google.com/id/2-13).\n\nIt's important to note that the field of UAV security is constantly evolving, and new vulnerabilities and countermeasures are being developed all the time.\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"What are the specific characteristics of Controlled Reception Pattern Antennas (CRPA) with up to 16 elements that make them effective against Ukrainian electronic warfare tactics?\" and synthesize it into a verifiable text artifact.\nControlled Reception Pattern Antennas (CRPAs) are becoming increasingly common, particularly in the defense sector, as effective solutions against jamming and spoofing [safran-navigation-timing](https://vertexaisearch.cloud.google.com/id/3-0). They are a specialized form of GNSS antenna designed to mitigate interference from electronic jamming by using multiple antenna elements combined with digital signal processing to dynamically adjust the gain pattern and null out the interference [defenseadvancement](https://vertexaisearch.cloud.google.com/id/3-1). Unlike Fixed Reception Pattern Antennas (FRPAs), CRPAs can modify their reception pattern in real-time, effectively reducing the impact of jamming signals [defenseadvancement](https://vertexaisearch.cloud.google.com/id/3-1).\n\n**Key Characteristics of CRPAs:**\n\n*   **Multiple Antenna Elements:** CRPAs consist of several separate antenna elements arranged in a specific pattern [spirent](https://vertexaisearch.cloud.google.com/id/3-2). The number of elements affects the number of simultaneous attacks that can be neutralized [unmannedsystemstechnology](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Adaptive Signal Processing:** CRPAs employ sophisticated signal processing techniques, including beamforming, null steering, and spatial filtering [wikipedia](https://vertexaisearch.cloud.google.com/id/3-4).\n    *   **Beamforming:** Combines signals from multiple elements to create a directional reception pattern that enhances the gain toward legitimate GPS satellites [wikipedia](https://vertexaisearch.cloud.google.com/id/3-4).\n    *   **Null Steering:** Identifies the direction of interfering signals and creates \"nulls\" in the reception pattern to minimize their impact [wikipedia](https://vertexaisearch.cloud.google.com/id/3-4).\n    *   **Spatial Filtering:** Exploits the spatial separation between desired and undesired signals to differentiate between legitimate satellite signals and malicious transmissions [wikipedia](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Dynamic Reception Pattern:** CRPAs can dynamically adjust their reception pattern in real-time to ensure gain in the direction of genuine GNSS satellite signals and nulls in the direction of unwanted signals [unmannedsystemstechnology](https://vertexaisearch.cloud.google.com/id/3-3). The antenna's reception pattern is highly adaptable and can be changed rapidly to protect against attacks from varying directions [unmannedsystemstechnology](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Anti-Jamming and Anti-Spoofing:** CRPAs are designed to resist radio jamming and spoofing [wikipedia](https://vertexaisearch.cloud.google.com/id/3-4). They minimize jamming signals using null generation or null steering and maximize \"truth\" signals using beamforming or beam steering [safran-navigation-timing](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Versatility:** CRPAs can be used in various applications, from military and defense to commercial and consumer use [unmannedsystemstechnology](https://vertexaisearch.cloud.google.com/id/3-5). They are also compatible with different GPS/GNSS bands [unmannedsystemstechnology](https://vertexaisearch.cloud.google.com/id/3-5).\n\n**Effectiveness Against Ukrainian Electronic Warfare Tactics:**\n\n*   **Mitigation of Jamming and Spoofing:** CRPAs are highly efficient in countering jamming and spoofing by dynamically adjusting to mitigate such disruptive signals [asianssr](https://vertexaisearch.cloud.google.com/id/3-6).\n*   **Resilience to Signal Interference:** CRPAs enhance the resilience of GNSS signals by providing anti-jamming capabilities, ensuring uninterrupted and accurate data even in challenging environments where signal interference is prevalent [defenseadvancement](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Protection Against Multiple Types of RF Interference:** CRPAs are designed to protect GNSS receivers against multiple types of RF interference, including intentional GNSS frequency jamming and spoofing attacks [spirent](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Enhanced Navigation and Timing:** CRPAs allow military ground vehicles to maintain accurate navigation and timing information in GPS-denied environments, ensuring that vehicles can continue to operate effectively during electronic warfare engagements [defenseadvancement](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Improved Accuracy and Reliability:** With their advanced design and signal processing techniques, CRPAs offer improved accuracy and reliability in a variety of applications [unmannedsystemstechnology](https://vertexaisearch.cloud.google.com/id/3-5).\n\n**Developments and Upgrades:**\n\n*   **Increased Number of Antenna Elements:** Russia has been increasing the number of antenna elements in its CRPAs, from 4 to 8 to 12 and beyond, to improve their ability to overcome jammers [forbes](https://vertexaisearch.cloud.google.com/id/3-8). In March 2025, Ukraine discovered the first Russian Shaheds that utilize a CRPA with 16 elements, instead of the usual 8 or 12 [jamestown](https://vertexaisearch.cloud.google.com/id/3-9).\n*   **Integration of Chinese CRPA Antennas:** Ukrainian experts discovered a 16-element CRPA antenna from China in a Russian Shahed [militarnyi](https://vertexaisearch.cloud.google.com/id/3-10).\n*   **Kometa-M24 Upgrade:** Russia has introduced a new electronic warfare-resistant guidance system, the Kometa-M24, which integrates a 24-element CRPA array [united24media](https://vertexaisearch.cloud.google.com/id/3-11).\n*   **Mobile Communication Modules:** Russia has begun equipping newly produced Shahed-136 strike drones with mobile communication and data transmission systems [militarnyi](https://vertexaisearch.cloud.google.com/id/3-12).\n\n**Limitations:**\n\n*   **Form Factor and Power Consumption:** CRPAs can have a large form factor, which can be prohibitive for smaller devices and devices where weight is a key consideration [spirent](https://vertexaisearch.cloud.google.com/id/3-7). They also consume more power than FRPAs [spirent](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Not 100% Protection:** CRPAs cannot always be relied upon to provide 100% protection and should be used as one element in a layered approach to PNT hardening [spirent](https://vertexaisearch.cloud.google.com/id/3-7).\n*   **Requires Additional Antenna Element to Generate Each Null:** The limitation is that it requires an additional antenna element to generate each null [forbes](https://vertexaisearch.cloud.google.com/id/3-8).\n\n**Countermeasures:**\n\n*   **Electronic Warfare Systems:** Ukraine has deployed vast numbers of electronic jamming and spoofing devices to make Russian weapons miss their targets [forbes](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **Spatially Separated EW Stations:** Ukrainian forces would need at least 16 spatially separated EW stations acting in coordination to simulate false satellite signals to effectively disrupt systems using 16-element CRPAs [militarnyi](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **\"Lima\" Electronic Warfare System:** Ukraine has developed a new electronic warfare system called \"Lima,\" capable of disrupting the satellite navigation of Russian glide bombs equipped with the UMPK guidance kit [united24media](https://vertexaisearch.cloud.google.com/id/3-13).\n\nIn conclusion, CRPAs with up to 16 elements offer significant advantages in countering electronic warfare tactics through adaptive signal processing and dynamic reception pattern adjustment [unmannedsystemstechnology](https://vertexaisearch.cloud.google.com/id/3-3) [wikipedia](https://vertexaisearch.cloud.google.com/id/3-4). The effectiveness of CRPAs is directly related to the number of antenna elements, with more elements enabling the neutralization of more simultaneous attacks [unmannedsystemstechnology](https://vertexaisearch.cloud.google.com/id/3-3). However, the ongoing electronic warfare between Russia and Ukraine involves continuous upgrades and countermeasures, making it a dynamic and evolving landscape [united24media](https://vertexaisearch.cloud.google.com/id/3-14) [forbes](https://vertexaisearch.cloud.google.com/id/3-8).\n",
+      "Fiber optic control systems for kamikaze drones offer a compelling alternative to traditional radio frequency (RF) control, particularly in environments with heavy electronic warfare (EW) activity [photonicsonline](https://vertexaisearch.cloud.google.com/id/4-0) [ts2](https://vertexaisearch.cloud.google.com/id/4-1) [atlanticcouncil](https://vertexaisearch.cloud.google.com/id/4-2). However, deploying these systems in real-world battlefield scenarios presents several practical limitations and challenges [ts2](https://vertexaisearch.cloud.google.com/id/4-1).\n\n**Key Advantages:**\n\n*   **Immunity to Jamming:** Fiber optic links are impervious to RF jamming, a significant advantage in modern EW environments [photonicsonline](https://vertexaisearch.cloud.google.com/id/4-0) [atlanticcouncil](https://vertexaisearch.cloud.google.com/id/4-2) [ts2](https://vertexaisearch.cloud.google.com/id/4-1). Unlike radio uplinks, the hardwired connection is not susceptible to noise or targeted jammers [ts2](https://vertexaisearch.cloud.google.com/id/4-1).\n*   **Enhanced Security:** Fiber optic cables do not radiate signals that can be intercepted, providing a more secure communication channel [accutechcom](https://vertexaisearch.cloud.google.com/id/4-3) [fs](https://vertexaisearch.cloud.google.com/id/4-4).\n*   **Improved Video Quality:** Fiber optic cables offer high bandwidth, enabling real-time HD video transmission from the drone to the operator [ts2](https://vertexaisearch.cloud.google.com/id/4-5).\n*   **Low Altitude Operation:** Fiber optic drones can operate at lower altitudes compared to wireless drones, making them harder to detect [gcsp](https://vertexaisearch.cloud.google.com/id/4-6) [atlanticcouncil](https://vertexaisearch.cloud.google.com/id/4-2).\n\n**Limitations and Challenges:**\n\n*   **Vulnerability of the Fiber Optic Cable:** The cable itself is a potential \"Achilles' heel\" [ts2](https://vertexaisearch.cloud.google.com/id/4-1). It can snag or sever on obstacles like ruins, trees, and power lines, especially in urban battlefields [ts2](https://vertexaisearch.cloud.google.com/id/4-1). If the fiber is cut or yanked, the drone loses communication immediately [ts2](https://vertexaisearch.cloud.google.com/id/4-1).\n*   **Limited Maneuverability and Speed:** The tethered nature of fiber optic drones imposes performance constraints [ts2](https://vertexaisearch.cloud.google.com/id/4-1) [photonicsonline](https://vertexaisearch.cloud.google.com/id/4-0). The cable drag restricts sharp turns and rapid acceleration, making them less agile than wireless drones [photonicsonline](https://vertexaisearch.cloud.google.com/id/4-0).\n*   **Range Constraints:** Fiber drones are restricted to relatively short-range operations [ts2](https://vertexaisearch.cloud.google.com/id/4-1). The maximum range is limited by the cable length, typically 5-15 km [ts2](https://vertexaisearch.cloud.google.com/id/4-1). While a reported 50-kilometer cable exists, its feasibility is questionable due to weight, durability, and deployment challenges [bulgarianmilitary](https://vertexaisearch.cloud.google.com/id/4-7).\n*   **Logistical Footprint:** The need for spools adds complexity to logistics and deployment [ts2](https://vertexaisearch.cloud.google.com/id/4-1). Managing and deploying long cables across varied terrain increases the risk of entanglement or breakage [bulgarianmilitary](https://vertexaisearch.cloud.google.com/id/4-7).\n*   **Cost:** Implementing fiber optic communication systems requires significant upfront investment [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/4-8). Specialized fiber optic cables have higher manufacturing costs due to design and testing requirements [archivemarketresearch](https://vertexaisearch.cloud.google.com/id/4-9). The cost of the fiber optic cable can be significant. For example, Ukraine was limited to 500 units due to the cable costing $500, while the drone only cost $400 [debuglies](https://vertexaisearch.cloud.google.com/id/4-10).\n*   **Deployment Speed:** The deployment of fiber optic cables can be slower and more complex compared to wireless systems [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/4-8).\n*   **Specialized Expertise:** Installation and maintenance of fiber optic systems require specialized expertise, increasing costs [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/4-8). There is a limited availability of skilled workforce for designing, installing, and maintaining specialized fiber optic systems [archivemarketresearch](https://vertexaisearch.cloud.google.com/id/4-9).\n\n**Mitigation Strategies and Future Trends:**\n\n*   **Advanced Materials and Manufacturing:** Continued investment in advanced materials and manufacturing techniques is crucial to improve cable durability and reliability [technavio](https://vertexaisearch.cloud.google.com/id/4-11).\n*   **Miniaturization:** The trend toward smaller and lighter equipment demands miniaturized fiber optic cables with high performance [archivemarketresearch](https://vertexaisearch.cloud.google.com/id/4-9) [technavio](https://vertexaisearch.cloud.google.com/id/4-11).\n*   **Self-Healing Cables:** Development of self-healing fiber optic cables can enhance reliability in harsh environments [archivemarketresearch](https://vertexaisearch.cloud.google.com/id/4-9).\n*   **AI Integration:** Combining fiber optic reliability with artificial intelligence can reduce the need for human operators and enhance autonomous capabilities [bulgarianmilitary](https://vertexaisearch.cloud.google.com/id/4-7).\n*   **Robotics:** Fiber-optic controlled unmanned ground vehicles (UGVs) can deliver supplies to front-line troops, reducing the risk to human drivers [ts2](https://vertexaisearch.cloud.google.com/id/4-1).\n\n**Market Trends:**\n\n*   The military fiber optic cable market is experiencing robust growth, driven by the increasing demand for high-bandwidth, secure communication systems [datahorizzonresearch](https://vertexaisearch.cloud.google.com/id/4-12) [archivemarketresearch](https://vertexaisearch.cloud.google.com/id/4-9) [datainsightsmarket](https://vertexaisearch.cloud.google.com/id/4-8).\n*   The market is projected to reach approximately $4.2 billion by 2033, with a Compound Annual Growth Rate (CAGR) of 7% from 2025 [archivemarketresearch](https://vertexaisearch.cloud.google.com/id/4-9) [datahorizzonresearch](https://vertexaisearch.cloud.google.com/id/4-12).\n*   Key players are investing in R&D to enhance product performance and expand their market share [archivemarketresearch](https://vertexaisearch.cloud.google.com/id/4-9).\n\n**Overall:**\n\nFiber optic control systems offer significant advantages for kamikaze drones, particularly in EW-heavy environments [photonicsonline](https://vertexaisearch.cloud.google.com/id/4-0) [ts2](https://vertexaisearch.cloud.google.com/id/4-1) [atlanticcouncil](https://vertexaisearch.cloud.google.com/id/4-2). However, practical limitations related to cable vulnerability, range, maneuverability, logistics, and cost must be addressed [ts2](https://vertexaisearch.cloud.google.com/id/4-1). Ongoing technological advancements and innovative deployment strategies are crucial to maximizing the effectiveness of these systems in real-world battlefield scenarios [archivemarketresearch](https://vertexaisearch.cloud.google.com/id/4-9) [technavio](https://vertexaisearch.cloud.google.com/id/4-11) [bulgarianmilitary](https://vertexaisearch.cloud.google.com/id/4-7).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "cnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWVmkndz8YDsNQOU_UN-nISVaEYL8WqCsv-yGwDrU6TbUv8A28G46WAmgTBzO05eNHJtJopS6WZtRYgkOD9SjLrNCrU2NiCMauv2OTPhuaWC_iegLmH5ORppsLSsNjBBDeUCcAncnKOtqVeUZmIRHRC6jfKIel7DfynaHy7J5cJ0IEG0KRTQ=="
+      },
+      {
+        "label": "voennoedelo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6UtWzPPVJYSGx-KzYgVC9Z0uEfrMEHMWRoImZoRPJI-ZwzjDKLG74wgJNpGlet51dHHrj-8J_yQ89mYgmSGdBtQauZlHdPw_gGJPl7hrh4LFyVLpSgyWy0Ht0cagaVr1nwZM8Ee9pQk9wIyOPM5PmHyZoBG7XuOdDSZ5DoaXwyX41KJ_zmPkD_UcZpmR8RKxN_zSNnKxhq5LDdzY="
+      },
+      {
+        "label": "voennoedelo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6UtWzPPVJYSGx-KzYgVC9Z0uEfrMEHMWRoImZoRPJI-ZwzjDKLG74wgJNpGlet51dHHrj-8J_yQ89mYgmSGdBtQauZlHdPw_gGJPl7hrh4LFyVLpSgyWy0Ht0cagaVr1nwZM8Ee9pQk9wIyOPM5PmHyZoBG7XuOdDSZ5DoaXwyX41KJ_zmPkD_UcZpmR8RKxN_zSNnKxhq5LDdzY="
+      },
+      {
+        "label": "cnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWVmkndz8YDsNQOU_UN-nISVaEYL8WqCsv-yGwDrU6TbUv8A28G46WAmgTBzO05eNHJtJopS6WZtRYgkOD9SjLrNCrU2NiCMauv2OTPhuaWC_iegLmH5ORppsLSsNjBBDeUCcAncnKOtqVeUZmIRHRC6jfKIel7DfynaHy7J5cJ0IEG0KRTQ=="
+      },
+      {
+        "label": "cnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWVmkndz8YDsNQOU_UN-nISVaEYL8WqCsv-yGwDrU6TbUv8A28G46WAmgTBzO05eNHJtJopS6WZtRYgkOD9SjLrNCrU2NiCMauv2OTPhuaWC_iegLmH5ORppsLSsNjBBDeUCcAncnKOtqVeUZmIRHRC6jfKIel7DfynaHy7J5cJ0IEG0KRTQ=="
+      },
+      {
+        "label": "cnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWVmkndz8YDsNQOU_UN-nISVaEYL8WqCsv-yGwDrU6TbUv8A28G46WAmgTBzO05eNHJtJopS6WZtRYgkOD9SjLrNCrU2NiCMauv2OTPhuaWC_iegLmH5ORppsLSsNjBBDeUCcAncnKOtqVeUZmIRHRC6jfKIel7DfynaHy7J5cJ0IEG0KRTQ=="
+      },
+      {
+        "label": "voennoedelo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6UtWzPPVJYSGx-KzYgVC9Z0uEfrMEHMWRoImZoRPJI-ZwzjDKLG74wgJNpGlet51dHHrj-8J_yQ89mYgmSGdBtQauZlHdPw_gGJPl7hrh4LFyVLpSgyWy0Ht0cagaVr1nwZM8Ee9pQk9wIyOPM5PmHyZoBG7XuOdDSZ5DoaXwyX41KJ_zmPkD_UcZpmR8RKxN_zSNnKxhq5LDdzY="
+      },
+      {
+        "label": "aa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvrzP5Pe5V9or4cjVH-nkst8PNeEX-rB68ngpGNenXRZvatlaS0BDlU-SArDB3NgvIXwYGaPZ1gCVHg5i-3t7xoSrlOL2SyJIqPi8q8CbS75hpqaeKms91ARCNwmZ8gHnKLSvOZRocCQVEaUbv1VE6I65Xllc7UV3TN6enBXBG4UmZ5fIrmjdKxJMO4_vAkzgSt1C3bDtklTyQirK7pw2tPTRlxx9_gzzl3DuvWd2xJtRkjgUsyIfUOtSpkP7ziu_yswm5z4iOlLRisVw_m7OFvSNLtgCDKuW0imJSD7mUZ14W-nJMO3F87ukWeuL0g1dq5S4qhO7GUcx745EHlAu0lR5HDkWQDuDpOycoY6hvo_lEbnQAetB5pC3UWsUjqv2fzeDulMothpOUosEkjbSs8FNe8vFDien6JUlffl70PSQqLddeY3Cw8Eeormn-_K6a4RYTAh2hcmIns8S5nc5416VkjVx_dxdAQhr3rb88Cjw8rf2z4gjI2V4q5aO0DhZC_iOP7R4dJ34G3pFV__km3B3eeZY9jBcubAWFEp9u1jMkmWGBqJ0T5rJAnajzM1xai72abjW94UvAgutvL0u0AOZm2XbdbXIfh8vsa3r-ZTR1FnycW9E1lKc4x7gHiz1zDHRajW96ig2CLDfUiD6SyxQaQbOlJXmrSs1ZBsxED7angsVau2w8RdtVfaTbjXxNd4M_k4hc1LGyIC8yLeUtLcm7tpQQBk-iDFOo9sjHINvkqNnPHiqsMTXxn267u6zSVH9v_fbw3R2Wfuc="
+      },
+      {
+        "label": "building-tech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0qRN_1ndUE5CnBHjproh-OekJ9k3XFK8p7urGtCPCeYnNHFN-saA8naVtMuOnupzEW7JRT4JheuknJhmNKO-GIeSK8vfgQNxX1De3EMNO4dngPBqFbPC4sPdz0PRDfNVVF_nwBsoIwwAhuDdiP9RBY3Ru95yni0s8Ta8WTxj6pAKa2zK_Eoa18cxG8OGEApMnRQ3Y-71X36HakQud7jO8kQxFfrJGQUpF9tqrJ5l8kEsLI3diNs1I0-_thwjGLS-h-v11HaC4k91CBiRBXAr3AePvTkOnSfR-E5DbPKLECLggPq7_OMzpOV8p1DmwkZCwlI80icEoi03365za-w=="
+      },
+      {
+        "label": "krymr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCTSRBgP4sECm94lMthCqxGU2zy7bNawFKNY3Fieo-T4KupZi97iuDxz9o_2FU9HFDwX7Po0wpsbpKX3zaVBQ9paI1cVmR5uQZenqpVURY9YX0ojF_btOB_fFylvDpVbuFKeOGsnabtyte0Tfx2D7EFPszQG-LuCEF_VJDXe65RUTCjP3b1QUiDjswGRWIsiCA3Kcgm8oY4jnlsKRcDBkD_A=="
+      },
+      {
+        "label": "tadviser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB9Z5r2pQ_fcGcxrBDuOplbpEn63r2TsyJkJGWvDBFvceM9r0BWVckaqLG0KqwADzjAIQWKktmgoD_8zdaAk2rC1qvclbLYaAV9DDG27UX_ft4YNdJKrK3I3WhxxNTlB4B8B0EUYsyhvCLx-KHmvV6tEi6vLUJP5elDru9O5ejEVlHAcJjmxaNftxFe---hTc3po1WvzyNhSakl1bsQkJuOTU5bluRh7n7r4PahPmWHvQ9fhqTfgHA9EiFY70up1Jbg1DgKEKamY-lnEHTmqzNeDAsix1aO9gJgz2rxRFtH17y0NFpITsyw21yNDkWkZnKzqrUxLDk"
+      },
+      {
+        "label": "www1",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHln3eB0E6JYIHR2e29Pq5uzpdYu9GLxC1NHQxVqJkBsODmOAn6xMViPYBARZm2vodvaSpFRfVbEUBeK9NOHQLbWyjkvBjsCYHhxeVSVQNK9iEA-4Lcn7ItO0PgQxx03yn9GTJ6O7zSktJ8qiXh7HpbMhpZCmlJ7sOLIdolwTVFMSW1BCrFZlxKooCemKoR6Ib9fGxFrb0dwFLr4TcSsk-BUkbs8NCRymRFDf7rrh6pNdTqHg=="
+      },
+      {
+        "label": "cnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWVmkndz8YDsNQOU_UN-nISVaEYL8WqCsv-yGwDrU6TbUv8A28G46WAmgTBzO05eNHJtJopS6WZtRYgkOD9SjLrNCrU2NiCMauv2OTPhuaWC_iegLmH5ORppsLSsNjBBDeUCcAncnKOtqVeUZmIRHRC6jfKIel7DfynaHy7J5cJ0IEG0KRTQ=="
+      },
+      {
+        "label": "www1",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHln3eB0E6JYIHR2e29Pq5uzpdYu9GLxC1NHQxVqJkBsODmOAn6xMViPYBARZm2vodvaSpFRfVbEUBeK9NOHQLbWyjkvBjsCYHhxeVSVQNK9iEA-4Lcn7ItO0PgQxx03yn9GTJ6O7zSktJ8qiXh7HpbMhpZCmlJ7sOLIdolwTVFMSW1BCrFZlxKooCemKoR6Ib9fGxFrb0dwFLr4TcSsk-BUkbs8NCRymRFDf7rrh6pNdTqHg=="
+      },
+      {
+        "label": "www1",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHln3eB0E6JYIHR2e29Pq5uzpdYu9GLxC1NHQxVqJkBsODmOAn6xMViPYBARZm2vodvaSpFRfVbEUBeK9NOHQLbWyjkvBjsCYHhxeVSVQNK9iEA-4Lcn7ItO0PgQxx03yn9GTJ6O7zSktJ8qiXh7HpbMhpZCmlJ7sOLIdolwTVFMSW1BCrFZlxKooCemKoR6Ib9fGxFrb0dwFLr4TcSsk-BUkbs8NCRymRFDf7rrh6pNdTqHg=="
+      },
+      {
+        "label": "www1",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpKIAdBNLFMvLB7gZvZMly41ouubGJaRDpBFGURPa02gu8ucfacpTM5A-ihc91aSGsadE-QzwOEQF-xO45G3Gx7LPWrDhMr2VvtTX9f-85_0c6Uon8AmRl00Uza994CEPxfTSHLE4O_xve01ehlHpdqi3wru9mbH2D1Wx9zw_pIjEvZKCf4-2ngX8FZ8XNN_1zY-R1TLBAkUvzLZpE4Fx1D0nlxeq2Qv_WvqEb7Zy_MBYcqrIiMTiBqbn5D42wDF2AgF8="
+      },
+      {
+        "label": "www1",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpKIAdBNLFMvLB7gZvZMly41ouubGJaRDpBFGURPa02gu8ucfacpTM5A-ihc91aSGsadE-QzwOEQF-xO45G3Gx7LPWrDhMr2VvtTX9f-85_0c6Uon8AmRl00Uza994CEPxfTSHLE4O_xve01ehlHpdqi3wru9mbH2D1Wx9zw_pIjEvZKCf4-2ngX8FZ8XNN_1zY-R1TLBAkUvzLZpE4Fx1D0nlxeq2Qv_WvqEb7Zy_MBYcqrIiMTiBqbn5D42wDF2AgF8="
+      },
+      {
+        "label": "www1",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn_BmcQ_4HF9h6e_M2Os5AUAAZESaP4jCNUzT3Rtjb4YNXg5rOCvH89LLMDNR4kEHKAuSSr2x2tLXGt8SdiVCr1Vg9b_xNxeJaxqpxe1gL-IEHJOP2Mwd4nVtnTQLY0_tSnJ07cODvCugomMlOeKNn1Jy37Y63AWxtQ2cH0B6Ebzt8KfdJhfnS-Md7fA3oXhW0ssr1pErzFDivrj2Tx2a8"
+      },
+      {
+        "label": "aa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1YvZxvnFA5fx2OYH2yA7JWD5LowxTQOpNxs2WGY6VLbT3-YI1CTudmLoAakl00NGCwZWpTC2HniCc5TfPLV833kkFFM8Emn3dboJPgqmDfNfqaHYqdcIzrAJce1XtW2F4QVk4iBXYOhANLJzkAMEL5QaAFlgceIY4zBvFU7I4HYbn20FRPMP0MNyQqxtJHj2V4WLG7zodEfnkVAST7UHuBkAdLr5qEcdY4aaDiqyn9vOfKs88_GBxga-yxgyG2J4ZqKAqOgk_NgRS-fYhSpvC-Wzw8dpDCuc_KiWNmQiTy8s1LoEjoaFYfJn_Ncop-cgc5nP9Z99TF8B15faC2ssh9bS6dz0NCf9hEGKX510t2TLlP3MXSrggpFUk61Nr-0Dqg7ieqWOZfIJ8H12cEGnb6XQAttglKnjSfIlsNs86T3Biem4n5p4lP47K7JSN1IZdiLjrVE9OlvPohPF6pCJmAK-7aJxvXqilLronR-6Vw7BWdaGkBaGMidu-0Y2fsWU514hxG4mWGZv6B9m6mtGIHl38CG4OkJTbhaevpiRUMwh9xUbKzQAM1cU4ApFPpdV04eLfgNnJgqAANYLhrcPtq5rd8-7D9wJu5Vmx7bg6dfc-eqh6ZKYBm-0lozn5FD-S91s="
+      },
+      {
+        "label": "www1",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFl7sIGCcDcSpVPYRiyipAmxoYHNzQpfXZeg59jzfjPWyBHA4K5QbFPz-KYmMNAsDuD5S_b87z7xFIpkFXGM0cO4NyNuKtpcUEHNlQFC_vLvloVg1fCIURt9ljl7E5V1qdMBU0tKQCcD8uTkqAg9ex_UsWTTQhbvjN2vZE61Yx8nyaZnHRkcbXZWpB5cmaw7I3LV0lt221EVjMyYJLVrl6nUWTU9ibQAnDWXlgYN7PEDogcF76Iau64EPYRpxIy6XkYEmhc5D_h"
+      },
+      {
+        "label": "www1",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsZCfH8Ot9MzjTldvkhHV4r0tW0GlU-KZ0cPx4Up6jnARZZLN1Nssjz_o52U6gtn3XBtMCWnWRw55gDwkQFUp7C-BfF2vW4N7Eqo9rPSU999SfPIQTOYhtwBRa4xEUaVTmcG7gGTM7LPDTj6QsNkjxmb-h6IEhbAWB2XE-q-BEzgoV_uf2AuyF5jysuxwxKwAcRFclh5xcO82etA=="
+      },
+      {
+        "label": "tasnimnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa8tMJ7NtvaONP6P13RhNkV6Ldu0ddTexbtiPJSwt3egul0ZKS0qmVIF4UpHSssZG_tnoLaHzX3rXSdFkK0JqyUjR9GBA_gb50Fo6QtZCplCbgiVUwWTGTj1Qoslatt8IObWykRc7rMdWt0EowF3Zxd30DLqzxAsgCh4FVaeFWqnC95kAsIn4dfYtHxhFM92dsQiiYJ_kRU8SRr01DpOZ0l0ZaYE9CNkvMEpGQXsyf_Qs2Q89cYg0zkTjExK-jbO8shsorf-qZFRAjDVO4E7hC2162AX-TG-hDUpTThD25hSQbOUcc4u9Mg-rNJkIFz_49Ydfapsx69SbivIHtBDfXFu4D1adpBLQqpuhIJVYGYMl3ERN03jmYRgQsxUCSrj228wF4-U3AHbGRj8ZY2i18DpSPz7fwC3pyVvlVblqLdjUNYPVwf8Cd6Jw82b2HslUxI3Ol7G_fd2TQiQUKAE8EAm8HpvZwM6IceL8nOZ1PtgY3VqiUr-LUpPZ-oazbQEdTRLWy0_meb-ySoDbp5tO0F4QzYiNHe-ro0woVg3a9wIlKaUp8lv43pjz_I1nOEVHStYJ_yv7a5IkJ5HdEVsaXunCadlxNESf9fnKSH2V8Oon339btp_hMbZH1ad2cwWNFLm8FwllP21iv88cNEzTqtznDywF65YY="
+      },
+      {
+        "label": "aa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvrzP5Pe5V9or4cjVH-nkst8PNeEX-rB68ngpGNenXRZvatlaS0BDlU-SArDB3NgvIXwYGaPZ1gCVHg5i-3t7xoSrlOL2SyJIqPi8q8CbS75hpqaeKms91ARCNwmZ8gHnKLSvOZRocCQVEaUbv1VE6I65Xllc7UV3TN6enBXBG4UmZ5fIrmjdKxJMO4_vAkzgSt1C3bDtklTyQirK7pw2tPTRlxx9_gzzl3DuvWd2xJtRkjgUsyIfUOtSpkP7ziu_yswm5z4iOlLRisVw_m7OFvSNLtgCDKuW0imJSD7mUZ14W-nJMO3F87ukWeuL0g1dq5S4qhO7GUcx745EHlAu0lR5HDkWQDuDpOycoY6hvo_lEbnQAetB5pC3UWsUjqv2fzeDulMothpOUosEkjbSs8FNe8vFDien6JUlffl70PSQqLddeY3Cw8Eeormn-_K6a4RYTAh2hcmIns8S5nc5416VkjVx_dxdAQhr3rb88Cjw8rf2z4gjI2V4q5aO0DhZC_iOP7R4dJ34G3pFV__km3B3eeZY9jBcubAWFEp9u1jMkmWGBqJ0T5rJAnajzM1xai72abjW94UvAgutvL0u0AOZm2XbdbXIfh8vsa3r-ZTR1FnycW9E1lKc4x7gHiz1zDHRajW96ig2CLDfUiD6SyxQaQbOlJXmrSs1ZBsxED7angsVau2w8RdtVfaTbjXxNd4M_k4hc1LGyIC8yLeUtLcm7tpQQBk-iDFOo9sjHINvkqNnPHiqsMTXxn267u6zSVH9v_fbw3R2Wfuc="
+      },
+      {
+        "label": "krymr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCTSRBgP4sECm94lMthCqxGU2zy7bNawFKNY3Fieo-T4KupZi97iuDxz9o_2FU9HFDwX7Po0wpsbpKX3zaVBQ9paI1cVmR5uQZenqpVURY9YX0ojF_btOB_fFylvDpVbuFKeOGsnabtyte0Tfx2D7EFPszQG-LuCEF_VJDXe65RUTCjP3b1QUiDjswGRWIsiCA3Kcgm8oY4jnlsKRcDBkD_A=="
+      },
+      {
+        "label": "building-tech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0qRN_1ndUE5CnBHjproh-OekJ9k3XFK8p7urGtCPCeYnNHFN-saA8naVtMuOnupzEW7JRT4JheuknJhmNKO-GIeSK8vfgQNxX1De3EMNO4dngPBqFbPC4sPdz0PRDfNVVF_nwBsoIwwAhuDdiP9RBY3Ru95yni0s8Ta8WTxj6pAKa2zK_Eoa18cxG8OGEApMnRQ3Y-71X36HakQud7jO8kQxFfrJGQUpF9tqrJ5l8kEsLI3diNs1I0-_thwjGLS-h-v11HaC4k91CBiRBXAr3AePvTkOnSfR-E5DbPKLECLggPq7_OMzpOV8p1DmwkZCwlI80icEoi03365za-w=="
+      },
+      {
+        "label": "tadviser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB9Z5r2pQ_fcGcxrBDuOplbpEn63r2TsyJkJGWvDBFvceM9r0BWVckaqLG0KqwADzjAIQWKktmgoD_8zdaAk2rC1qvclbLYaAV9DDG27UX_ft4YNdJKrK3I3WhxxNTlB4B8B0EUYsyhvCLx-KHmvV6tEi6vLUJP5elDru9O5ejEVlHAcJjmxaNftxFe---hTc3po1WvzyNhSakl1bsQkJuOTU5bluRh7n7r4PahPmWHvQ9fhqTfgHA9EiFY70up1Jbg1DgKEKamY-lnEHTmqzNeDAsix1aO9gJgz2rxRFtH17y0NFpITsyw21yNDkWkZnKzqrUxLDk"
+      },
+      {
+        "label": "cnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuKSOOFTR2BZPGv_1_kDZrYH5qGEAUG9qiNSjN9MNIAVNeRTZD7pGS8kel_weQDIE77vhw4zNO_TgciLScooY7pEhLzbDBiSP2z2Fp70LNSHbC0eAw3ULZ3tw7wryX2yl57Fk5AAqimLAUUhB1csAhcxQz_4MHtM29P8YwbpyEuCGn"
+      },
+      {
+        "label": "www1",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpOzHpKhk_720-lGhZVMnOuN1quLd7CZ0IAUYET20XMIjRWG4-GpgQB8Hyc12aXOfcK4NgsyByHbWUP00h8xr7BnLfZHPLOugArcqw38-xpROn_dXw7b7Z7UZEbY96KWPDD62pzS_7kJ_xT50OGrETwA_KbVs0bZMYYoE7reZJyvYUGsiYsmkmBJCIQ2kz432LH8cQNL-sIkvNPYhvuYevavaKl70iYo4_MWKUxQ=="
+      },
+      {
+        "label": "tadviser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB9Z5r2pQ_fcGcxrBDuOplbpEn63r2TsyJkJGWvDBFvceM9r0BWVckaqLG0KqwADzjAIQWKktmgoD_8zdaAk2rC1qvclbLYaAV9DDG27UX_ft4YNdJKrK3I3WhxxNTlB4B8B0EUYsyhvCLx-KHmvV6tEi6vLUJP5elDru9O5ejEVlHAcJjmxaNftxFe---hTc3po1WvzyNhSakl1bsQkJuOTU5bluRh7n7r4PahPmWHvQ9fhqTfgHA9EiFY70up1Jbg1DgKEKamY-lnEHTmqzNeDAsix1aO9gJgz2rxRFtH17y0NFpITsyw21yNDkWkZnKzqrUxLDk"
+      },
+      {
+        "label": "teleport2001",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF25tiFI2en8-4N_l8m-3YTDFfpIZ5_24w8NxqSHOJ1nIS1znh3lE7RsiIhunt4mSyHTqnjQQPUKyy_GsdVBSSE-lmbyzHXZradfRRbbPwntMmP2iEDDJav3QvztRbHhxp_yGoWtqrPx_LIzuD_WFHnsXJ1SFOSBE-wP1oI7D8Z5zp5Fmsot5NarTgZGPKOZVzo5IvuL59opEezpEbENy7MgS-saT6ROseIG52n5FrZ528jMbNTAWZVCL_kaA=="
+      },
+      {
+        "label": "vecherka-spb",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNPCDo0y5FwgHk0HijgY4hzlzqgdUBZcPw5fXNXSpPXlx4QQg8ywCBi-wicuUTocR1Cv-RQ9QQQ_y6h-zHrEFPsBL8jXkw2rSMPFhzf61EIXDjOwtschNVuFpeqDZM_zEfO-zaWyOzHaMlHaRKuLcyNpRcKdk3G5BFBFnA85C1DqvKtk5eYR1UzfoK8zOgkibXbXiQtcz6IZYleKY30j1H_Nu_wGLXtc5q6QtmsD1YmCgn"
+      },
+      {
+        "label": "cyberleninka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGcpxMh4wPT7qOoKANgWgMJAN-6avKBk9uVrEatBREKz3LMNAm-gJf_34vzGw4aYlEtLyPivhSy8zaAPXR8nlCrL9QXHWRwHTVSSQxvf0ny6f36rCUxYg_baxb6Z6QwzCWRmhGOXzu5hmizCQPQDphK64J3u4kSPiikx7lg2nE2q1zXPcHedLdz8hjE3bksBH8UPNLL_3nnBVYhK0PLoWLUM44DsBb"
+      },
+      {
+        "label": "cyberleninka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGcpxMh4wPT7qOoKANgWgMJAN-6avKBk9uVrEatBREKz3LMNAm-gJf_34vzGw4aYlEtLyPivhSy8zaAPXR8nlCrL9QXHWRwHTVSSQxvf0ny6f36rCUxYg_baxb6Z6QwzCWRmhGOXzu5hmizCQPQDphK64J3u4kSPiikx7lg2nE2q1zXPcHedLdz8hjE3bksBH8UPNLL_3nnBVYhK0PLoWLUM44DsBb"
+      },
+      {
+        "label": "cyberleninka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGcpxMh4wPT7qOoKANgWgMJAN-6avKBk9uVrEatBREKz3LMNAm-gJf_34vzGw4aYlEtLyPivhSy8zaAPXR8nlCrL9QXHWRwHTVSSQxvf0ny6f36rCUxYg_baxb6Z6QwzCWRmhGOXzu5hmizCQPQDphK64J3u4kSPiikx7lg2nE2q1zXPcHedLdz8hjE3bksBH8UPNLL_3nnBVYhK0PLoWLUM44DsBb"
+      },
+      {
+        "label": "spiedigitallibrary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENY2WhmJz4meogywd7LlH8bJgtsFJt033DiWRj6Yv5SkDNMeuGjSGcsHUXqj_rb75AWhq1uCWkd_1SxVmrpM3jpnlsvQbyTMudyBSe8GlPftmQt-QAYxfF2GgvB2J39cdVdhW-tu0d1RUJRiLgJnNeQ46jKEXZ75-43GqGxpsA39BE0l3SPuDfeu02L98BNTl48u63-WhDYgBPrjQsUlu0ffeMaun1d26NL76YsnThipU8zjA3GHKDWd_UuEVVIkQ2EGjgfecAeejb1avXKrkypZ6I0dRwEhl2WmO6BjxXIn8Mz-tcuBhjO6owp42k3Rw="
+      },
+      {
+        "label": "rub-in",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2jeYIpGg2dkt2xuKobRW-lbChk55yoH4_tnqjCqIG8LffIg5sxq63Cnuxxby6MfvqrPJct1C8_ai03yqJuzsIziVlUT1PgKH0IWYblgw1FxW6p2x9AG7H4hbn1rRRJAzL9zfhlW858GoNA2wQYxU="
+      },
+      {
+        "label": "rub-in",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2jeYIpGg2dkt2xuKobRW-lbChk55yoH4_tnqjCqIG8LffIg5sxq63Cnuxxby6MfvqrPJct1C8_ai03yqJuzsIziVlUT1PgKH0IWYblgw1FxW6p2x9AG7H4hbn1rRRJAzL9zfhlW858GoNA2wQYxU="
+      },
+      {
+        "label": "nqdefense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ09ZrviG0RCxHrdGWAQAoIdC2tHXZTLbZNfrc1Q1zSHeb3FoZ68QojxmtqJOSV-2n8mHX2oNhZ1rBcsN8bnk6oZdBzLt16AQF4nnf7UJH_HmZ5cPu-w5RM8j3tH33Ys1Jehw80VZXeGVklScaF0-ieTVmQy3U2mDo"
+      },
+      {
+        "label": "nqdefense",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ09ZrviG0RCxHrdGWAQAoIdC2tHXZTLbZNfrc1Q1zSHeb3FoZ68QojxmtqJOSV-2n8mHX2oNhZ1rBcsN8bnk6oZdBzLt16AQF4nnf7UJH_HmZ5cPu-w5RM8j3tH33Ys1Jehw80VZXeGVklScaF0-ieTVmQy3U2mDo"
+      },
+      {
+        "label": "cyberleninka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGcpxMh4wPT7qOoKANgWgMJAN-6avKBk9uVrEatBREKz3LMNAm-gJf_34vzGw4aYlEtLyPivhSy8zaAPXR8nlCrL9QXHWRwHTVSSQxvf0ny6f36rCUxYg_baxb6Z6QwzCWRmhGOXzu5hmizCQPQDphK64J3u4kSPiikx7lg2nE2q1zXPcHedLdz8hjE3bksBH8UPNLL_3nnBVYhK0PLoWLUM44DsBb"
+      },
+      {
+        "label": "militarnyi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFplpYCrKKIJYs-QWMDBhVRieI9is2CJYZxj41Idw8VFpO3IOxm7_N0xC8yngFfIrNJsCuedqx3ugk3riWsCv2y543ZubgpGhi8ihfrGTi-bES1bxZf6vz_D4r7SrGjIdKihqWkkAr0ZNmpfsCQw6K5UtsJ0oZzPZFeQ0Gh1m5JCUDU73xCIrsNY0mQz1wRPEIyvtjELSVus5sU2BE="
+      },
+      {
+        "label": "csis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnfNXFrdVAA8VWPzlBAo04yjXcqiSBLpINuJkioyf6zsN5ayk3B3NHDNx3R3Jurmt6OdU6OHT1dYJhHyjKknwptvqnu7li5Fk1f8ejzn7DFDt5dmES7pp2u6Oke_UnwKtzCe4DTjLzKvfmE63P52Tbdi4-rk0W9OB4ZV5w5JWt3LDL2HrlFD5V3QKxyyImIXA_wQ=="
+      },
+      {
+        "label": "aa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVooeher2V9m7oRn0r3rFKB6EgbUxs59ZY1pJ9NR6YWypsux2txUNkLMgjbvZn3AOuSIDoVz3KseXWZ5eFQHAYywF13JeFrzZuGcb8-e7SARc_94FjKmbGmSYZs9enMd2RMDngf6SGyOHid8f6GbVkYsvu9c6tSnharx0Uqq4uCVj9QqZFyclaOBBaVttfQwjxO1tS1crp4Mjc5a4L5PrpRrkVf_0gkaulrXewxjUK0vNHNEf-9Sw8joIiKjs1V0rtkyrol9-FmCL8n9EuIRZtMz1v2gYb4oX5IEMs3zaJkBbEVd6BnqSPglqeWmaAVUHB_SnuxhXk6BMCXQzH8eYBKtCjnRujsE2f_Di6LbNLlYHNxOSVLBGC9t-BZm9O5sw6oBTBF8MbV789i5mqgiMA1HgIQEUE-uhWJrpCf1HU0Wb-LEqXX7dvUMY2OZviMOiL4M0YFjrRoH6w-ouMAYVHK41IQ9ll5-ck8_uluGLOnDTmarbFqDod0PJkmYkI9pzdUpUVLJuRjeepKA6N4cnHkvtOWRUgxHzjkjzC8JwHV7ggrmvXgubVlt38sLeyurxxLuItBJE1fyqQN6XZZXTfYFKQ6BUs3BiNpwLsVommwb0ZJvcD5IOTtbGCESOLEAOMHyYSqVqN9Qw7znynbVB7mToD8bIJycQo-O8FBxAjjvK7eqUHC00mecpLrMuZeQ3qmT0al3N79TeW16pR-RgXfSuRDeFYLT9XNEpxeDoVOrPXHFtb20nDlYlCQLMHFQGTRUqBOarPa04xRfZI"
+      },
+      {
+        "label": "krymr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0p1zTn8CgbHgRCiReyA5t_AMtR8D7rqbc3pebW3vJctYbqpes7aD9XsjJGapoBMsvgZrNUMdet7jMojv3lyf0pJAZMLqPJP0oJHma8eUAvQrF5Gtm8REhEnZxdTCkxmPw7VsacDhKGqusOJqTjHFGMr38N6UhRT-S0tv6mXawhtYVT3cufWQvnHSFZTTHGBILDgrLKUhbyxcRoKp1ai5Rk3w="
+      },
+      {
+        "label": "aa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVooeher2V9m7oRn0r3rFKB6EgbUxs59ZY1pJ9NR6YWypsux2txUNkLMgjbvZn3AOuSIDoVz3KseXWZ5eFQHAYywF13JeFrzZuGcb8-e7SARc_94FjKmbGmSYZs9enMd2RMDngf6SGyOHid8f6GbVkYsvu9c6tSnharx0Uqq4uCVj9QqZFyclaOBBaVttfQwjxO1tS1crp4Mjc5a4L5PrpRrkVf_0gkaulrXewxjUK0vNHNEf-9Sw8joIiKjs1V0rtkyrol9-FmCL8n9EuIRZtMz1v2gYb4oX5IEMs3zaJkBbEVd6BnqSPglqeWmaAVUHB_SnuxhXk6BMCXQzH8eYBKtCjnRujsE2f_Di6LbNLlYHNxOSVLBGC9t-BZm9O5sw6oBTBF8MbV789i5mqgiMA1HgIQEUE-uhWJrpCf1HU0Wb-LEqXX7dvUMY2OZviMOiL4M0YFjrRoH6w-ouMAYVHK41IQ9ll5-ck8_uluGLOnDTmarbFqDod0PJkmYkI9pzdUpUVLJuRjeepKA6N4cnHkvtOWRUgxHzjkjzC8JwHV7ggrmvXgubVlt38sLeyurxxLuItBJE1fyqQN6XZZXTfYFKQ6BUs3BiNpwLsVommwb0ZJvcD5IOTtbGCESOLEAOMHyYSqVqN9Qw7znynbVB7mToD8bIJycQo-O8FBxAjjvK7eqUHC00mecpLrMuZeQ3qmT0al3N79TeW16pR-RgXfSuRDeFYLT9XNEpxeDoVOrPXHFtb20nDlYlCQLMHFQGTRUqBOarPa04xRfZI"
+      },
+      {
+        "label": "militarnyi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFplpYCrKKIJYs-QWMDBhVRieI9is2CJYZxj41Idw8VFpO3IOxm7_N0xC8yngFfIrNJsCuedqx3ugk3riWsCv2y543ZubgpGhi8ihfrGTi-bES1bxZf6vz_D4r7SrGjIdKihqWkkAr0ZNmpfsCQw6K5UtsJ0oZzPZFeQ0Gh1m5JCUDU73xCIrsNY0mQz1wRPEIyvtjELSVus5sU2BE="
+      },
+      {
+        "label": "dedrone",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVROlDHDl0qrWAeIHru-yMPSDODWgYuniNGOA1qDXJLDhI_1bFyvYvqvQxyBYJWUnL8rKQTw6YroNLw0144UaCU1RvCEJdDk2-QFivDwu_DyVA3VD29KCI__XW_rGwATh8oGBV0gjaG7VgSA=="
+      },
+      {
+        "label": "alasartech-security",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEchHJcGB4hkg5eASp6whvEKHZ5zbrtpA0i7WSHss7tZTL2jVhl49bF1zyrkGIztorxo9L8UgAWTM-Ctx3QzF2I5CwXSFOWj4kK23nY2c0-4t-oHv_mJSC9LjT8yrfRD7nOUEPy8ne28EngYjmrKSxRfym4jAZcyorkITvLzNS-puHH_ojT5pOLJHBvBZo53HOMb_tpcZqBkwhY0VinVA=="
+      },
+      {
+        "label": "scilead",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMS1W6cP3yAVk1klLwbL5rmr-liou4OALhPeoJJ0c-_cTbYP_KDP1W9pXvyMpEuyWWcyiF_hDZHBSLUhELCxE3hmfdg7X-HllsY4RCH7pD-tKuQVSW-OaOgBbNJodjtcjUpv2W9k6078BCAaVofN-JsAoQOxF6e1hdgG81OHkF2uxJau6FddFj"
+      },
+      {
+        "label": "alasartech-security",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEchHJcGB4hkg5eASp6whvEKHZ5zbrtpA0i7WSHss7tZTL2jVhl49bF1zyrkGIztorxo9L8UgAWTM-Ctx3QzF2I5CwXSFOWj4kK23nY2c0-4t-oHv_mJSC9LjT8yrfRD7nOUEPy8ne28EngYjmrKSxRfym4jAZcyorkITvLzNS-puHH_ojT5pOLJHBvBZo53HOMb_tpcZqBkwhY0VinVA=="
+      },
+      {
+        "label": "spiedigitallibrary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENY2WhmJz4meogywd7LlH8bJgtsFJt033DiWRj6Yv5SkDNMeuGjSGcsHUXqj_rb75AWhq1uCWkd_1SxVmrpM3jpnlsvQbyTMudyBSe8GlPftmQt-QAYxfF2GgvB2J39cdVdhW-tu0d1RUJRiLgJnNeQ46jKEXZ75-43GqGxpsA39BE0l3SPuDfeu02L98BNTl48u63-WhDYgBPrjQsUlu0ffeMaun1d26NL76YsnThipU8zjA3GHKDWd_UuEVVIkQ2EGjgfecAeejb1avXKrkypZ6I0dRwEhl2WmO6BjxXIn8Mz-tcuBhjO6owp42k3Rw="
+      },
+      {
+        "label": "arsenal-otechestva",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo-XkHUN1WUrLqmvgBvRBxOyygHph9pPAdJuBMnBKzwDf4K12jRd-gwbKwlVN6wInbe85g6X2SiijOrQFCEhZfktCLCQXV0pZlGHvc_frUg6oL3QF3l0fnmd1hl-_fqtveDa28uTLN12Xd1uQLHzGBru2pck7ZnnGl06R3nU4-HXIJ"
+      },
+      {
+        "label": "secuteck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQ0TwzBZ7zjiBMTgd6mdfqrOOYSZRlguo0hhszNRqzfupoYV2xq9VJkzLcUNx_Pdxhvjgo-O_2B8bisD61JX7FC0lb1xTFjYWBcdWpUpaHX5Holg4uX77WCJ8S6tpvIil-J8GI0I05H_3qpSd5aSSMPFCAzWTbBQloH3JIlJ0TbEG9zC1uIS4IJfUrc17oSsh5yA=="
+      },
+      {
+        "label": "obrazovanie33",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuR0dSEuJ7o2oXo4AKvxgNWwlQgUZOcbSxjtXsIEeHSWbpYs5o6l85FwxcMCvEli5w756EpminNysCn_ZrVSWjc5Smo8OXr4raKwksZaNs9DOtDfS-K5_KgpqKHA0lxPQeEY1s8ko0daOx-AYf2HWuRpg7ZUH546_DUr75YSMD8yc-doRMu1RkH_-srGF4rk390rqNkqMgCCQF2tvYJ8SOlDEC3rv3XxfdAWnSgBEp3Kyo-FXseliyfeHfygEJD42Bmhcjv0LBpNJ0fdfDECCw1_d0TdyYqRm8xo9cxxYAvy00QK_B27N7eokEerfedalJkHqxEw=="
+      },
+      {
+        "label": "cnas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPlDJvLZxNAb64jxd9sMFSghG0nrUQgrRlYVs6ytK8t92nUhJxwXQWj1RWmqhbEPx3kHeH4-5QQ9hmebwmrmuL8aGdSWD8HPD9vJcwTpc5v7ZbXE_Bg0-gkxVIZtf8D_M10Cq-dUVc_UUm2xXmMTxA-Xdv"
+      },
+      {
+        "label": "ura",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc0Uyk3SLr6nLUgvTugHB_LaafE8Fgk25Y0QG9NwAYop7AaLm0-OZRrU5OTZ2w8_6NZg_NAv3HK8icflBNHjWh-ZSQvRqgXBqPNqo9xMJlSgkTyjNjcLWlvcX7"
+      },
+      {
+        "label": "cyberleninka",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2dNn-sWMDZStsn9dBXwYXkPmRPFT-D0YKWwgdrx7eDLaXa8P0DAFbR9Lb-ko6S8K2RZa6eJRfkKW9OYnlyt8VudSGz9gaIlTdmZZmXbPthVQjLmJB-astARwNyRv-5deUjLh-HlbiCIQdm37nR4-Ul51Mk55Q6R83a_bQROPwYxcNVWhxM1WCVatMaA2XXbESCZ51Mgew2pLEoB4gNsQwkThHe6uF20kZe6PdDj6K-DkVEQdWkAe9gMk="
+      },
+      {
+        "label": "csis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnfNXFrdVAA8VWPzlBAo04yjXcqiSBLpINuJkioyf6zsN5ayk3B3NHDNx3R3Jurmt6OdU6OHT1dYJhHyjKknwptvqnu7li5Fk1f8ejzn7DFDt5dmES7pp2u6Oke_UnwKtzCe4DTjLzKvfmE63P52Tbdi4-rk0W9OB4ZV5w5JWt3LDL2HrlFD5V3QKxyyImIXA_wQ=="
+      },
+      {
+        "label": "csis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnfNXFrdVAA8VWPzlBAo04yjXcqiSBLpINuJkioyf6zsN5ayk3B3NHDNx3R3Jurmt6OdU6OHT1dYJhHyjKknwptvqnu7li5Fk1f8ejzn7DFDt5dmES7pp2u6Oke_UnwKtzCe4DTjLzKvfmE63P52Tbdi4-rk0W9OB4ZV5w5JWt3LDL2HrlFD5V3QKxyyImIXA_wQ=="
+      },
+      {
+        "label": "iiss",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl54LREEtnwAUaTQI1iMGoyJd70sFseyP1i9NvllfHlKPHslzTOjhMUZH9lxNCwEGV7UKkXMRzTq5C0B6NPNCUY5Dw-eJi771eNl9i5z6qfQdx7xwVd9GETqkCi2UPNrGR8Ae6b7UwEeSjOEUjO7cFHMZBWCLy9xQnYsJ-vVjXK3ZrgKF40mDA4si2UzUcutIcCHn2yJYSFj-hiQ=="
+      },
+      {
+        "label": "iiss",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl54LREEtnwAUaTQI1iMGoyJd70sFseyP1i9NvllfHlKPHslzTOjhMUZH9lxNCwEGV7UKkXMRzTq5C0B6NPNCUY5Dw-eJi771eNl9i5z6qfQdx7xwVd9GETqkCi2UPNrGR8Ae6b7UwEeSjOEUjO7cFHMZBWCLy9xQnYsJ-vVjXK3ZrgKF40mDA4si2UzUcutIcCHn2yJYSFj-hiQ=="
+      },
+      {
+        "label": "militarnyi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFplpYCrKKIJYs-QWMDBhVRieI9is2CJYZxj41Idw8VFpO3IOxm7_N0xC8yngFfIrNJsCuedqx3ugk3riWsCv2y543ZubgpGhi8ihfrGTi-bES1bxZf6vz_D4r7SrGjIdKihqWkkAr0ZNmpfsCQw6K5UtsJ0oZzPZFeQ0Gh1m5JCUDU73xCIrsNY0mQz1wRPEIyvtjELSVus5sU2BE="
+      },
+      {
+        "label": "csis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnfNXFrdVAA8VWPzlBAo04yjXcqiSBLpINuJkioyf6zsN5ayk3B3NHDNx3R3Jurmt6OdU6OHT1dYJhHyjKknwptvqnu7li5Fk1f8ejzn7DFDt5dmES7pp2u6Oke_UnwKtzCe4DTjLzKvfmE63P52Tbdi4-rk0W9OB4ZV5w5JWt3LDL2HrlFD5V3QKxyyImIXA_wQ=="
+      },
+      {
+        "label": "aa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVooeher2V9m7oRn0r3rFKB6EgbUxs59ZY1pJ9NR6YWypsux2txUNkLMgjbvZn3AOuSIDoVz3KseXWZ5eFQHAYywF13JeFrzZuGcb8-e7SARc_94FjKmbGmSYZs9enMd2RMDngf6SGyOHid8f6GbVkYsvu9c6tSnharx0Uqq4uCVj9QqZFyclaOBBaVttfQwjxO1tS1crp4Mjc5a4L5PrpRrkVf_0gkaulrXewxjUK0vNHNEf-9Sw8joIiKjs1V0rtkyrol9-FmCL8n9EuIRZtMz1v2gYb4oX5IEMs3zaJkBbEVd6BnqSPglqeWmaAVUHB_SnuxhXk6BMCXQzH8eYBKtCjnRujsE2f_Di6LbNLlYHNxOSVLBGC9t-BZm9O5sw6oBTBF8MbV789i5mqgiMA1HgIQEUE-uhWJrpCf1HU0Wb-LEqXX7dvUMY2OZviMOiL4M0YFjrRoH6w-ouMAYVHK41IQ9ll5-ck8_uluGLOnDTmarbFqDod0PJkmYkI9pzdUpUVLJuRjeepKA6N4cnHkvtOWRUgxHzjkjzC8JwHV7ggrmvXgubVlt38sLeyurxxLuItBJE1fyqQN6XZZXTfYFKQ6BUs3BiNpwLsVommwb0ZJvcD5IOTtbGCESOLEAOMHyYSqVqN9Qw7znynbVB7mToD8bIJycQo-O8FBxAjjvK7eqUHC00mecpLrMuZeQ3qmT0al3N79TeW16pR-RgXfSuRDeFYLT9XNEpxeDoVOrPXHFtb20nDlYlCQLMHFQGTRUqBOarPa04xRfZI"
+      },
+      {
+        "label": "cnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM6H8DzSzKg5W2sC8ntyWMMCN6EYyWZrU_g9KHd5pKuESqQbn00foX0q5t92JpnN5hAJKt-boPSnw8pjanjnMXZ29s5W_qcXOtGcdScXAZ47NmVKAIfR4GhDccV0c_FPcR45NzJjbGAR3HUnftGv2BcOgpU2TBSLNwCbkYK2PYqZQY"
+      },
+      {
+        "label": "cnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM6H8DzSzKg5W2sC8ntyWMMCN6EYyWZrU_g9KHd5pKuESqQbn00foX0q5t92JpnN5hAJKt-boPSnw8pjanjnMXZ29s5W_qcXOtGcdScXAZ47NmVKAIfR4GhDccV0c_FPcR45NzJjbGAR3HUnftGv2BcOgpU2TBSLNwCbkYK2PYqZQY"
+      },
+      {
+        "label": "preprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_3_JLHmGSR5YZo59Mh_uQAUSQRJR9bwBUjCmknRySCas5TQmH3ilNPSfcfo9zR1h1fH1K18dgVT4pR5wlqeDKYn4cB8WbbYAlX7yMlLxJins9jQJMX-bzgdMohzVqOe4fq-eWcwyuNdMzb1F"
+      },
+      {
+        "label": "preprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_3_JLHmGSR5YZo59Mh_uQAUSQRJR9bwBUjCmknRySCas5TQmH3ilNPSfcfo9zR1h1fH1K18dgVT4pR5wlqeDKYn4cB8WbbYAlX7yMlLxJins9jQJMX-bzgdMohzVqOe4fq-eWcwyuNdMzb1F"
+      },
+      {
+        "label": "preprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_3_JLHmGSR5YZo59Mh_uQAUSQRJR9bwBUjCmknRySCas5TQmH3ilNPSfcfo9zR1h1fH1K18dgVT4pR5wlqeDKYn4cB8WbbYAlX7yMlLxJins9jQJMX-bzgdMohzVqOe4fq-eWcwyuNdMzb1F"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI4dUlc-Y6q9Xy50XQIs1sea0ENqkpeWfbnv9wsj6qD3kKj8JYXVdZPIEhFDDoULBkU7Vorr0e1a9XCFCF7ctjaTmEM2DGb2kN8-dKZ-Nn9F5lHNM9ty7NODgYUok9"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI4dUlc-Y6q9Xy50XQIs1sea0ENqkpeWfbnv9wsj6qD3kKj8JYXVdZPIEhFDDoULBkU7Vorr0e1a9XCFCF7ctjaTmEM2DGb2kN8-dKZ-Nn9F5lHNM9ty7NODgYUok9"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI4dUlc-Y6q9Xy50XQIs1sea0ENqkpeWfbnv9wsj6qD3kKj8JYXVdZPIEhFDDoULBkU7Vorr0e1a9XCFCF7ctjaTmEM2DGb2kN8-dKZ-Nn9F5lHNM9ty7NODgYUok9"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTVlsWKow9TIlyDIe1G6P4iAJ1xxVpbq6hmBQ3MMXDVA0LBGfFubIPNnBI4n-MgniFPTA_-g-D4iupgMni0n7fyO7fIhpr9wNa0HfuOliXJ9Rp1fRr-IYY-ZL7aUV01Atya-LCGBdrRLurWGuOr10WgbmPuMrHyrr1MMBvjhMRyIreK8nkOeLUOrPAN6XvRizz1dscr9dlKFJEk-UH6wWjqeVfsQ5pCZr3XnroJmo="
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTVlsWKow9TIlyDIe1G6P4iAJ1xxVpbq6hmBQ3MMXDVA0LBGfFubIPNnBI4n-MgniFPTA_-g-D4iupgMni0n7fyO7fIhpr9wNa0HfuOliXJ9Rp1fRr-IYY-ZL7aUV01Atya-LCGBdrRLurWGuOr10WgbmPuMrHyrr1MMBvjhMRyIreK8nkOeLUOrPAN6XvRizz1dscr9dlKFJEk-UH6wWjqeVfsQ5pCZr3XnroJmo="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI4dUlc-Y6q9Xy50XQIs1sea0ENqkpeWfbnv9wsj6qD3kKj8JYXVdZPIEhFDDoULBkU7Vorr0e1a9XCFCF7ctjaTmEM2DGb2kN8-dKZ-Nn9F5lHNM9ty7NODgYUok9"
+      },
+      {
+        "label": "preprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_3_JLHmGSR5YZo59Mh_uQAUSQRJR9bwBUjCmknRySCas5TQmH3ilNPSfcfo9zR1h1fH1K18dgVT4pR5wlqeDKYn4cB8WbbYAlX7yMlLxJins9jQJMX-bzgdMohzVqOe4fq-eWcwyuNdMzb1F"
+      },
+      {
+        "label": "preprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_3_JLHmGSR5YZo59Mh_uQAUSQRJR9bwBUjCmknRySCas5TQmH3ilNPSfcfo9zR1h1fH1K18dgVT4pR5wlqeDKYn4cB8WbbYAlX7yMlLxJins9jQJMX-bzgdMohzVqOe4fq-eWcwyuNdMzb1F"
+      },
+      {
+        "label": "preprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_3_JLHmGSR5YZo59Mh_uQAUSQRJR9bwBUjCmknRySCas5TQmH3ilNPSfcfo9zR1h1fH1K18dgVT4pR5wlqeDKYn4cB8WbbYAlX7yMlLxJins9jQJMX-bzgdMohzVqOe4fq-eWcwyuNdMzb1F"
+      },
+      {
+        "label": "preprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_3_JLHmGSR5YZo59Mh_uQAUSQRJR9bwBUjCmknRySCas5TQmH3ilNPSfcfo9zR1h1fH1K18dgVT4pR5wlqeDKYn4cB8WbbYAlX7yMlLxJins9jQJMX-bzgdMohzVqOe4fq-eWcwyuNdMzb1F"
+      },
+      {
+        "label": "rdd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRSkUoRRwdoenPSrCwbNNPGzs51q7qSY3vx3UzOiTeh7MpJav0Ku0gdh3SpcVVkySaSKiGwY6OAI1iG-Jtnv2Gz9eyLUX1IxAO8B5-k84EFIeLMx81QfvbuZs8KZ75DzlMV8WP1ByZuv8e66Uh-wfYsZIqBKuUKePKUlfydgOolP_5Z783h113OWBPH3YcnQzpVQ=="
+      },
+      {
+        "label": "turcomat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSl_WlhSwLk1yjSlRZhw1moj8IqnJ1LmVH2oe1mCq5b8G8zkQwRRHREO9jmQ9mVubnrANz0-crv7lK4pBK-xf5eOeQM6bVFNMXGxSIvicYFdwWncrN88DzEHBIx63TT_9PVqVits1kPqs88p1uMfzTa4IuCZlMOUw9HmxerA-Ocnyo3fI="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBXMRgh--Dw_36nEduHBsM0QvsDy0lnzi8uLq63Hj3trfmbqF0o7VFAafZXLjpaDsQWVksYtNLENeOWxvqtmhgUw_zKasFjSBO88afcYc_V4PV2K6wzbcjMiKdzXw="
+      },
+      {
+        "label": "preprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_3_JLHmGSR5YZo59Mh_uQAUSQRJR9bwBUjCmknRySCas5TQmH3ilNPSfcfo9zR1h1fH1K18dgVT4pR5wlqeDKYn4cB8WbbYAlX7yMlLxJins9jQJMX-bzgdMohzVqOe4fq-eWcwyuNdMzb1F"
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7z56gUpYmtntU4ovN6jKm6sT5HCNgAMNPQVfzJkwTbWkNOUGwD8xVP47EhI7TbfKzM316FwtZuaIwBPcX5kTC26qtsRLiiwysdS94HBzlXG6AXrRXtveFOsvcjHrt8C3roA=="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7z56gUpYmtntU4ovN6jKm6sT5HCNgAMNPQVfzJkwTbWkNOUGwD8xVP47EhI7TbfKzM316FwtZuaIwBPcX5kTC26qtsRLiiwysdS94HBzlXG6AXrRXtveFOsvcjHrt8C3roA=="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr864luvsIRN1IZNSGWBh742ZznNQdfULleB89ioIki6Rd_Xf4sf0iXx9sxftfnEECaS6d-5s20tw8d3_Tq_DOPGIZkRDc1W9Twh-b53Dq8TGaod-L_RmmWjNI061t0xf2Y88="
+      },
+      {
+        "label": "hongpeng-guo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCgw-s5CbbYo7QEfkWrdI-xmPb-Dwv8GLUROOg8vRanw1BzdCNX9NYLPqb6pgCIrJKCuNCfopZ_jDTGBBSYuq3X18y177tAl7kM5w_DtxwoPFqEQqlblRUXGSNGBvOf847P2YWs0EewjSVOGT3qqgREXhFpw=="
+      },
+      {
+        "label": "preprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy_3_JLHmGSR5YZo59Mh_uQAUSQRJR9bwBUjCmknRySCas5TQmH3ilNPSfcfo9zR1h1fH1K18dgVT4pR5wlqeDKYn4cB8WbbYAlX7yMlLxJins9jQJMX-bzgdMohzVqOe4fq-eWcwyuNdMzb1F"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI4dUlc-Y6q9Xy50XQIs1sea0ENqkpeWfbnv9wsj6qD3kKj8JYXVdZPIEhFDDoULBkU7Vorr0e1a9XCFCF7ctjaTmEM2DGb2kN8-dKZ-Nn9F5lHNM9ty7NODgYUok9"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTVlsWKow9TIlyDIe1G6P4iAJ1xxVpbq6hmBQ3MMXDVA0LBGfFubIPNnBI4n-MgniFPTA_-g-D4iupgMni0n7fyO7fIhpr9wNa0HfuOliXJ9Rp1fRr-IYY-ZL7aUV01Atya-LCGBdrRLurWGuOr10WgbmPuMrHyrr1MMBvjhMRyIreK8nkOeLUOrPAN6XvRizz1dscr9dlKFJEk-UH6wWjqeVfsQ5pCZr3XnroJmo="
+      },
+      {
+        "label": "scispace",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN5Evpq-Y1fF1gKAq-9eSORN-AGEJD56oT8kvhNNq2g1lVbcvSfJp9D5LxH5EF_tOKJtCkeSdVqZcds_GxIXfjwoAoBkpBeUvDhyW6I4oLpE8tztTtfBYoqBAvo7Jq48kx_x0xzYhp1_EZ_jobFespXbkvJDvuYsBI8CFZiigDrVACXbP7LRtaAJ2wgenG3gY="
+      },
+      {
+        "label": "law-in-action",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvJHDh0uIfE9T5v5oHxPNnTwpxlkQM3E1QrVLKoEIuIK8v4J9RUnb51pZzHB3nzmUa9lYVu2BJShe1zF4rRd-13vQAdK8ArJQXQNR5o3-dUNlLF8N5Kb7Z5mkroiZsoRUFLEWyq5llyQ=="
+      },
+      {
+        "label": "xmake",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWHlNOVbUmhKVXBCztZ9avXLTVpqRR_HmCiDxkpad74X5qy21GcW11kQpcqJ2CG7GvC1ucqzoUGmWDj0775jNQJF3ws85NeLcCXewZLYIRpo5FWr9htUMwhzqFT89apu0lcdcrnLk4DF0r2eFnOuOGU7ubon5shUd"
+      },
+      {
+        "label": "law-in-action",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvJHDh0uIfE9T5v5oHxPNnTwpxlkQM3E1QrVLKoEIuIK8v4J9RUnb51pZzHB3nzmUa9lYVu2BJShe1zF4rRd-13vQAdK8ArJQXQNR5o3-dUNlLF8N5Kb7Z5mkroiZsoRUFLEWyq5llyQ=="
+      },
+      {
+        "label": "law-in-action",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvJHDh0uIfE9T5v5oHxPNnTwpxlkQM3E1QrVLKoEIuIK8v4J9RUnb51pZzHB3nzmUa9lYVu2BJShe1zF4rRd-13vQAdK8ArJQXQNR5o3-dUNlLF8N5Kb7Z5mkroiZsoRUFLEWyq5llyQ=="
+      },
+      {
+        "label": "law-in-action",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvJHDh0uIfE9T5v5oHxPNnTwpxlkQM3E1QrVLKoEIuIK8v4J9RUnb51pZzHB3nzmUa9lYVu2BJShe1zF4rRd-13vQAdK8ArJQXQNR5o3-dUNlLF8N5Kb7Z5mkroiZsoRUFLEWyq5llyQ=="
+      },
+      {
+        "label": "xmake",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWHlNOVbUmhKVXBCztZ9avXLTVpqRR_HmCiDxkpad74X5qy21GcW11kQpcqJ2CG7GvC1ucqzoUGmWDj0775jNQJF3ws85NeLcCXewZLYIRpo5FWr9htUMwhzqFT89apu0lcdcrnLk4DF0r2eFnOuOGU7ubon5shUd"
+      },
+      {
+        "label": "frost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_5WZnLgjV1V2Tf2wd2687xFDwTNFnrl5EqzITGMtqeci0oc4HLqqLFQJocjDBGWAa3bSLoHxmPAFVeCb1WcOAQ4nNKxbB1J-_kXARMqWEQAJIutpq0q2CimR-E1H3AolrDjvFCNQ1Z19whSNChz7cIegSuX2aDvLPAKVoi64gNFbRuYT4nj1jjN9xXYTtHh6v9sZC7MDd_QPr_CsN0yYRAXngO5rh-XcR0oCKCW3UPrVQRq47sFJTt7lXZDaQyYA_ofoUvYsX-MwyBTkacjCjOX4ALukC5KZ6-Qk1VgI-nXg8Eh8i1pcHNCBjxPnFsZHkF_m_3rIaC_DUbWZeIzQsF6wbBZA="
+      },
+      {
+        "label": "indecs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcKrWOUU9JTE7TLx6Illvp8UU5cx4W4Qz0dLBVBP0w5pqxp1OtAkD5s6wzEAEuQAiRH9lrQta1cAM2x6sBkVIIsdfQnw-Z0FWwfCkVlhlGysvkqWVo3_4ntupDeoKSVjxyfjmYnSQhSPRB7AQ="
+      },
+      {
+        "label": "safran-navigation-timing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk1Zgi2PnUZxBENdD7SLnqfQsl_Q6wEVCBDZ6ia4f9Yi2GOaVdudmKGfqkZmGmde9JdrPuZFWpzzCZW57QbEH1_S5oUQiMadMGVRY6RMOtnDXT72k7NG4BATUzxHe82Xq5mBF_kA19p2qgbShOqp3fo24yUIYa5VAgr7JVBjk6-e0FEA=="
+      },
+      {
+        "label": "defenseadvancement",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyB_iWcEqdNfdKTs6hvKE9NpZLtckpSdOej2BaKWwaW35Yk0wLd2wDaADOaQBLKSWnw4wVWIVk8A6-7IN88mMMFAIfdvxKQIiqQMw0IANXh0yiVTU9yGZiRHMjccZtqRj2OabMdjHhE_ROO98FlPeTI2Fh71o8yl30fybx7SSBGCnmKMe2z22HwqAI5zdQ-pg4BM_qPL2-OpqEqA=="
+      },
+      {
+        "label": "defenseadvancement",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyB_iWcEqdNfdKTs6hvKE9NpZLtckpSdOej2BaKWwaW35Yk0wLd2wDaADOaQBLKSWnw4wVWIVk8A6-7IN88mMMFAIfdvxKQIiqQMw0IANXh0yiVTU9yGZiRHMjccZtqRj2OabMdjHhE_ROO98FlPeTI2Fh71o8yl30fybx7SSBGCnmKMe2z22HwqAI5zdQ-pg4BM_qPL2-OpqEqA=="
+      },
+      {
+        "label": "spirent",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-Ceo9AktzcCCpdJyt5nQr0XzsXxpVmGTmdX4iRxF4KIB4MLoRw8S14wHObJug1XnuSBj--mrmXnffulJsKsy58X_Z6BWAmwNmOgVSBoU4mJiVklqMp3YoOPzZfsdyb7K7PbG_uZmeYjPk-FMZPSYsQwth41wHPnmVrvDpguWP4cXVZIW2E2G2uu7jw=="
+      },
+      {
+        "label": "unmannedsystemstechnology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiumg4zrbIe1RQf4H4_wcsjkWBcyXW6Zjo1_UPdXz5zC8P4RyaVd3g2FaIuBymxco3i1anvdjPWDohb-NWL7ompZWW_3Z2nOda4rDNc3ICghYWjpeaAoOhysKjazPZBIsB3sROCZa6w3zFZO9BD2pD-rPDF5ctCtg="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYgGDNyrDTGy_7Cnd0aAZvznv1vmuP-fwq0ZSew7bJ3H4u2xpqU3suA0U5LoTlVBdxpYU2nLars536lxZB9-rgp-EzQg79Wbf30JdUUjur2h95e8lGb7p3vTUbieUHxttZW2FiA88yvzz5cF_c3a_LsalB6cUGCfhXnbDBJA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYgGDNyrDTGy_7Cnd0aAZvznv1vmuP-fwq0ZSew7bJ3H4u2xpqU3suA0U5LoTlVBdxpYU2nLars536lxZB9-rgp-EzQg79Wbf30JdUUjur2h95e8lGb7p3vTUbieUHxttZW2FiA88yvzz5cF_c3a_LsalB6cUGCfhXnbDBJA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYgGDNyrDTGy_7Cnd0aAZvznv1vmuP-fwq0ZSew7bJ3H4u2xpqU3suA0U5LoTlVBdxpYU2nLars536lxZB9-rgp-EzQg79Wbf30JdUUjur2h95e8lGb7p3vTUbieUHxttZW2FiA88yvzz5cF_c3a_LsalB6cUGCfhXnbDBJA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYgGDNyrDTGy_7Cnd0aAZvznv1vmuP-fwq0ZSew7bJ3H4u2xpqU3suA0U5LoTlVBdxpYU2nLars536lxZB9-rgp-EzQg79Wbf30JdUUjur2h95e8lGb7p3vTUbieUHxttZW2FiA88yvzz5cF_c3a_LsalB6cUGCfhXnbDBJA=="
+      },
+      {
+        "label": "unmannedsystemstechnology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiumg4zrbIe1RQf4H4_wcsjkWBcyXW6Zjo1_UPdXz5zC8P4RyaVd3g2FaIuBymxco3i1anvdjPWDohb-NWL7ompZWW_3Z2nOda4rDNc3ICghYWjpeaAoOhysKjazPZBIsB3sROCZa6w3zFZO9BD2pD-rPDF5ctCtg="
+      },
+      {
+        "label": "unmannedsystemstechnology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiumg4zrbIe1RQf4H4_wcsjkWBcyXW6Zjo1_UPdXz5zC8P4RyaVd3g2FaIuBymxco3i1anvdjPWDohb-NWL7ompZWW_3Z2nOda4rDNc3ICghYWjpeaAoOhysKjazPZBIsB3sROCZa6w3zFZO9BD2pD-rPDF5ctCtg="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYgGDNyrDTGy_7Cnd0aAZvznv1vmuP-fwq0ZSew7bJ3H4u2xpqU3suA0U5LoTlVBdxpYU2nLars536lxZB9-rgp-EzQg79Wbf30JdUUjur2h95e8lGb7p3vTUbieUHxttZW2FiA88yvzz5cF_c3a_LsalB6cUGCfhXnbDBJA=="
+      },
+      {
+        "label": "safran-navigation-timing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk1Zgi2PnUZxBENdD7SLnqfQsl_Q6wEVCBDZ6ia4f9Yi2GOaVdudmKGfqkZmGmde9JdrPuZFWpzzCZW57QbEH1_S5oUQiMadMGVRY6RMOtnDXT72k7NG4BATUzxHe82Xq5mBF_kA19p2qgbShOqp3fo24yUIYa5VAgr7JVBjk6-e0FEA=="
+      },
+      {
+        "label": "unmannedsystemstechnology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzF0rIieM8xKXebqe3T1K5WLmzgUpEDbItmDoOsLHi1xbvDDS3VYtbObIwNaw_VkedFxS9xAsnf9hAv-D9y88-FTENzDuXw-kJ4F9Q1pAj8nVEj7frf-cU8ljlUcso0oqaiw7PAqUnOGjW3A3X2q1pxLKv7FPJR3yz_bJJVTSH2PB13VATb7YYR8VNmjY6jZnwbtC9EdKkIop6-ynpkxaQ94Qx5I59"
+      },
+      {
+        "label": "unmannedsystemstechnology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzF0rIieM8xKXebqe3T1K5WLmzgUpEDbItmDoOsLHi1xbvDDS3VYtbObIwNaw_VkedFxS9xAsnf9hAv-D9y88-FTENzDuXw-kJ4F9Q1pAj8nVEj7frf-cU8ljlUcso0oqaiw7PAqUnOGjW3A3X2q1pxLKv7FPJR3yz_bJJVTSH2PB13VATb7YYR8VNmjY6jZnwbtC9EdKkIop6-ynpkxaQ94Qx5I59"
+      },
+      {
+        "label": "asianssr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR4XQVMcpoLPjc92bZt8u8VGpnmQzuimGk49yV8hzxwsTGci9Kj4kBYdxDI68NceSxuhuNCc2nTxPJSs9-4kWS-IhyM8XLdvt5ZrpMvOFnMC8XaE7j1sF9U-xHtk4KlkGXWJY5hl--oUZeskwWkmjEaS9v"
+      },
+      {
+        "label": "defenseadvancement",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyB_iWcEqdNfdKTs6hvKE9NpZLtckpSdOej2BaKWwaW35Yk0wLd2wDaADOaQBLKSWnw4wVWIVk8A6-7IN88mMMFAIfdvxKQIiqQMw0IANXh0yiVTU9yGZiRHMjccZtqRj2OabMdjHhE_ROO98FlPeTI2Fh71o8yl30fybx7SSBGCnmKMe2z22HwqAI5zdQ-pg4BM_qPL2-OpqEqA=="
+      },
+      {
+        "label": "spirent",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMPFmBnGHkK_2wvdVdRlLQJh_IjHvG_5V2lh677I3b61DNgep8IMn_wPush87EVQTMDdwAhFlpXupYnZaCIBPBg7WJiNv6fpOWmb_LUAJ9noQus6EonenAJ21NQuofOLDuihRaOhD2a431RKoion0B1ea-LG_nuKzhcZhr9q5MR-rUu91MXAh2zpWLDhULPBqQSCjkbBmIdfTmSJw22S5RnasVyqT7TBv950DsLu09I5nxx7_o7WceKA=="
+      },
+      {
+        "label": "defenseadvancement",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyB_iWcEqdNfdKTs6hvKE9NpZLtckpSdOej2BaKWwaW35Yk0wLd2wDaADOaQBLKSWnw4wVWIVk8A6-7IN88mMMFAIfdvxKQIiqQMw0IANXh0yiVTU9yGZiRHMjccZtqRj2OabMdjHhE_ROO98FlPeTI2Fh71o8yl30fybx7SSBGCnmKMe2z22HwqAI5zdQ-pg4BM_qPL2-OpqEqA=="
+      },
+      {
+        "label": "unmannedsystemstechnology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzF0rIieM8xKXebqe3T1K5WLmzgUpEDbItmDoOsLHi1xbvDDS3VYtbObIwNaw_VkedFxS9xAsnf9hAv-D9y88-FTENzDuXw-kJ4F9Q1pAj8nVEj7frf-cU8ljlUcso0oqaiw7PAqUnOGjW3A3X2q1pxLKv7FPJR3yz_bJJVTSH2PB13VATb7YYR8VNmjY6jZnwbtC9EdKkIop6-ynpkxaQ94Qx5I59"
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHtIM4Kvz1ZN8dwiasVhSi98wJ4Dt61gmcy8vJglNhI3DFi4RTEe3a77ZozMeEeCWyYvJRetYI1UwUP4aMhZeUbqfIiULUyjqzWo9JyOkL_iGDNS3H76F7hpVq8rfhDW3vbLtKjzboRZ0ia82lowvt8lvoNUFeKxYN4QrNXGCRfe9zvYqzH08YL1WcjlYMvKhGW3fZx4mvODOJak94-ra1gSndtDMrIjDhCZ-MTIMG"
+      },
+      {
+        "label": "jamestown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL3xEgV3xwhwKycTWjkYhvmS0fn6TQiVg2shojX1CDinVP2dncmmaElBzU6cNksUQsyteEI5OMPwQ3_XCpft-lBZjJOdo6alc42wy6bI0dz6UMGOk8kWcoJVAh3s1G-E6Hmhuz3YDRkINWUCiKauRnnpbDERM4ThS-Ilu8"
+      },
+      {
+        "label": "militarnyi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXPXott1LqdobvPL3cgLaewaHtslHUdcjumwbB7hASvfeSwdtOO_CqpioimXakY3v9YUhQsIlhI0b6-vrMTS4nHO_Ni0RNkgRzsGZVJqbH3jN3bdvYE--arRYaLi3kFGft6mOLGMO5ZoWlYY2Q5Ywqk0X-TxemS5V4H3G48j3H9b5uRNqVNHPLI72d"
+      },
+      {
+        "label": "united24media",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuSJKWPFqYujbxfgmds8AJ_l2XsAgl3ifPSWQtEJEhe19JZjEXiszzCg2teM36jDyVUMwfoboe9kKbxdem3thCn8mSMqFBv5a_n4CUAe2U8nvUGUA3INDS41YrT0xSijOI3hEbwyLbASIGM5LTPPZoXTAHeEX3HWli2GLCQ55WfNdjd5cP9_7t09MNySoTM3gVN2ilsHKaPluFSyqCGf5gc_nW4INjpq3tZGuPy5dxukxW-MmdtKBfqNiWPGAbtuMO52qw3Vz8WRE0cZ353lM="
+      },
+      {
+        "label": "militarnyi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4exFn3_gadISwdEmpmgCiWxdUP8LPIxuj9ONtgDD_D-eeP8nAMG_oQWBSHfG-D1jZLsprvJU-_rVtM0Tz9SgVTcIb7F4N9DU5doF20cxhmQ7Qil0_klqLJoZcX1H8EDHCPwCgZnD2QPcwkcLeDMo8ngM-oseZf97iukShsOFU78FlfioUiZFnnEinY3jQ24GdUJmwQpLYTrHMASI="
+      },
+      {
+        "label": "spirent",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMPFmBnGHkK_2wvdVdRlLQJh_IjHvG_5V2lh677I3b61DNgep8IMn_wPush87EVQTMDdwAhFlpXupYnZaCIBPBg7WJiNv6fpOWmb_LUAJ9noQus6EonenAJ21NQuofOLDuihRaOhD2a431RKoion0B1ea-LG_nuKzhcZhr9q5MR-rUu91MXAh2zpWLDhULPBqQSCjkbBmIdfTmSJw22S5RnasVyqT7TBv950DsLu09I5nxx7_o7WceKA=="
+      },
+      {
+        "label": "spirent",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMPFmBnGHkK_2wvdVdRlLQJh_IjHvG_5V2lh677I3b61DNgep8IMn_wPush87EVQTMDdwAhFlpXupYnZaCIBPBg7WJiNv6fpOWmb_LUAJ9noQus6EonenAJ21NQuofOLDuihRaOhD2a431RKoion0B1ea-LG_nuKzhcZhr9q5MR-rUu91MXAh2zpWLDhULPBqQSCjkbBmIdfTmSJw22S5RnasVyqT7TBv950DsLu09I5nxx7_o7WceKA=="
+      },
+      {
+        "label": "spirent",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMPFmBnGHkK_2wvdVdRlLQJh_IjHvG_5V2lh677I3b61DNgep8IMn_wPush87EVQTMDdwAhFlpXupYnZaCIBPBg7WJiNv6fpOWmb_LUAJ9noQus6EonenAJ21NQuofOLDuihRaOhD2a431RKoion0B1ea-LG_nuKzhcZhr9q5MR-rUu91MXAh2zpWLDhULPBqQSCjkbBmIdfTmSJw22S5RnasVyqT7TBv950DsLu09I5nxx7_o7WceKA=="
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHtIM4Kvz1ZN8dwiasVhSi98wJ4Dt61gmcy8vJglNhI3DFi4RTEe3a77ZozMeEeCWyYvJRetYI1UwUP4aMhZeUbqfIiULUyjqzWo9JyOkL_iGDNS3H76F7hpVq8rfhDW3vbLtKjzboRZ0ia82lowvt8lvoNUFeKxYN4QrNXGCRfe9zvYqzH08YL1WcjlYMvKhGW3fZx4mvODOJak94-ra1gSndtDMrIjDhCZ-MTIMG"
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHtIM4Kvz1ZN8dwiasVhSi98wJ4Dt61gmcy8vJglNhI3DFi4RTEe3a77ZozMeEeCWyYvJRetYI1UwUP4aMhZeUbqfIiULUyjqzWo9JyOkL_iGDNS3H76F7hpVq8rfhDW3vbLtKjzboRZ0ia82lowvt8lvoNUFeKxYN4QrNXGCRfe9zvYqzH08YL1WcjlYMvKhGW3fZx4mvODOJak94-ra1gSndtDMrIjDhCZ-MTIMG"
+      },
+      {
+        "label": "militarnyi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4exFn3_gadISwdEmpmgCiWxdUP8LPIxuj9ONtgDD_D-eeP8nAMG_oQWBSHfG-D1jZLsprvJU-_rVtM0Tz9SgVTcIb7F4N9DU5doF20cxhmQ7Qil0_klqLJoZcX1H8EDHCPwCgZnD2QPcwkcLeDMo8ngM-oseZf97iukShsOFU78FlfioUiZFnnEinY3jQ24GdUJmwQpLYTrHMASI="
+      },
+      {
+        "label": "united24media",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFZeEyiW8O9s4WdQhpUBweNzvGQ5l77iQKwWNFyXyONhwNuzJlRcyvv7HjDZeqK9XY8sH2FsGxll8Wo7lW6GeRRkTwGlFaZpEJWD1yq8sOQcM-vWfrfPW8dMHOXX5EcZ8bIbHyiASgjGYCs6HDGtkRubl3KxE2ITK3q7eJCMlOhHu7oXddmD1sfiiLOcNIal-o4fwHHM9ffGg1OxCjkClwCLXrhmJTOA6Rg5lFSjqIVPwB1Trz8lMOb_BgGcU="
+      },
+      {
+        "label": "unmannedsystemstechnology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiumg4zrbIe1RQf4H4_wcsjkWBcyXW6Zjo1_UPdXz5zC8P4RyaVd3g2FaIuBymxco3i1anvdjPWDohb-NWL7ompZWW_3Z2nOda4rDNc3ICghYWjpeaAoOhysKjazPZBIsB3sROCZa6w3zFZO9BD2pD-rPDF5ctCtg="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYgGDNyrDTGy_7Cnd0aAZvznv1vmuP-fwq0ZSew7bJ3H4u2xpqU3suA0U5LoTlVBdxpYU2nLars536lxZB9-rgp-EzQg79Wbf30JdUUjur2h95e8lGb7p3vTUbieUHxttZW2FiA88yvzz5cF_c3a_LsalB6cUGCfhXnbDBJA=="
+      },
+      {
+        "label": "unmannedsystemstechnology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiumg4zrbIe1RQf4H4_wcsjkWBcyXW6Zjo1_UPdXz5zC8P4RyaVd3g2FaIuBymxco3i1anvdjPWDohb-NWL7ompZWW_3Z2nOda4rDNc3ICghYWjpeaAoOhysKjazPZBIsB3sROCZa6w3zFZO9BD2pD-rPDF5ctCtg="
+      },
+      {
+        "label": "united24media",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnBTTgXKDs-Nb9c0cMbm_nOCLx9DLhMYLeU9ZC0KRve3D62Ip4Pql_ebEto7YkjIts1fCSXGOCV7Q3ZOUtfYF20SHojFVULqJlM2PgdQpJ7uxvPfdWYy_3smBR4D2hE_fYFwtkGacVbqhXWkx5t0cB3jq9tSQWIud4HblQlDLJjkwSVvDHvBThfuBCJPupZeuDAun1y0LH7521Z8CJDFMzjJcMw21umQuROFMKfjuJMP1YfqgCgwN6WE9qlOw4fBjKr4Hbgps1OUxtBtqyIBqcrPlC4A=="
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHtIM4Kvz1ZN8dwiasVhSi98wJ4Dt61gmcy8vJglNhI3DFi4RTEe3a77ZozMeEeCWyYvJRetYI1UwUP4aMhZeUbqfIiULUyjqzWo9JyOkL_iGDNS3H76F7hpVq8rfhDW3vbLtKjzboRZ0ia82lowvt8lvoNUFeKxYN4QrNXGCRfe9zvYqzH08YL1WcjlYMvKhGW3fZx4mvODOJak94-ra1gSndtDMrIjDhCZ-MTIMG"
+      },
+      {
+        "label": "photonicsonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlz1WGEUjOurjIGUqWI9Be-4eQZVstR8oButBlYFpQD_e9hFB5Sm6ZA_Ko8hz4MvratkFAFEF37B6emadNEXHsLySqXwBkFbb7CzgnepmrSTTGcWzOAqaNlLlq2muZYjDPmnWwhSthXtXuz3vQ_OTNKOkjR8Xqtg-CeOssBezFnbK8TvGzDIL7L0gt06QLGhe17U0K_LE9WBW4AdSytgLWxImF"
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "atlanticcouncil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnp74QmraiF6pSXkxBr_4u1Y6i4VpltaUu1O6ESueQ5QLKbHHk_ozpGLIvmVoGXqnBrkGKZF6oGZg5YFwuub0kOKGHv9xVVl_o2TzTXUkQDeH-vL6oa0Orp6pwOxFwijOr9svOEVLV7mlTs4O8tYjPRdMsieeA4fNFmIi22yH2ib32O9yjb0idbhX1xAupg128TxVA7tV5T4XkfCROGhK4vihrL9xZRXOFS75nQVtAhiOQpnw34w=="
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "photonicsonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlz1WGEUjOurjIGUqWI9Be-4eQZVstR8oButBlYFpQD_e9hFB5Sm6ZA_Ko8hz4MvratkFAFEF37B6emadNEXHsLySqXwBkFbb7CzgnepmrSTTGcWzOAqaNlLlq2muZYjDPmnWwhSthXtXuz3vQ_OTNKOkjR8Xqtg-CeOssBezFnbK8TvGzDIL7L0gt06QLGhe17U0K_LE9WBW4AdSytgLWxImF"
+      },
+      {
+        "label": "atlanticcouncil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnp74QmraiF6pSXkxBr_4u1Y6i4VpltaUu1O6ESueQ5QLKbHHk_ozpGLIvmVoGXqnBrkGKZF6oGZg5YFwuub0kOKGHv9xVVl_o2TzTXUkQDeH-vL6oa0Orp6pwOxFwijOr9svOEVLV7mlTs4O8tYjPRdMsieeA4fNFmIi22yH2ib32O9yjb0idbhX1xAupg128TxVA7tV5T4XkfCROGhK4vihrL9xZRXOFS75nQVtAhiOQpnw34w=="
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "accutechcom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV3nGFy8-OSHI1jvD967vllo_CvorhXqC0gF8Kt4dEXnp1MRQ7LrZCVAPukHmasuw8vOobWWWSLmqeP1N93GIfdDgMV4S5QgNWIYH4zvrllZ3FANZPah4ncfpcq00_yWBX6Vgt05s5Q1V9"
+      },
+      {
+        "label": "fs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJBzU916FygiVF33nEqooXKwN5GZJXAbFqRK-MPi6Cuep-CIAMeeJCkq2JdLZytgTU5bxCkFXhkkVaeAhKhrXQCHcSmLHqsxEIgFX9mI9HZ1QPRrj_zJhcGSh8KL8GGx7xduNOIn9wGsmA4FGAOZyjCX2Qn4umksDXjwwyl32YNNssJA2DIK0F_-EpzIFDK2rt"
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKN7y7NL2GeN4U5Z4ZTETzTZt_dJELeaFkfyuh77VoxDUcUloqZZss8cJPT18Q8P8Fo8Ul3YcCH7i3N0odEf5qNVTjjfRIHFZMc9MQG0cOyCniKJNNbcs4_bEcn5k-Al0_NYCTs9ex7nYWND9yGvKqcvRLtB4kFEPmE7cqcTYAGj1s-Qt6mp99Ko-3FvMmN3ocI5wBuN2S5qdEz28="
+      },
+      {
+        "label": "gcsp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyR2ZxStvoWwBgCmqQgm2Mj8OMR-mzTV3BO6CyK5snNBwp_JMdT9_V_znzUyj3c1N9Rjvmqxl_EkWIbMoPohaQxjYzlc-CSliN1gj8C-h3bgegCKczyB269e-xfi5HphuS2gg8-i6aq5l20fO-i4ev3R5iDwWDhtKAVQ=="
+      },
+      {
+        "label": "atlanticcouncil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnp74QmraiF6pSXkxBr_4u1Y6i4VpltaUu1O6ESueQ5QLKbHHk_ozpGLIvmVoGXqnBrkGKZF6oGZg5YFwuub0kOKGHv9xVVl_o2TzTXUkQDeH-vL6oa0Orp6pwOxFwijOr9svOEVLV7mlTs4O8tYjPRdMsieeA4fNFmIi22yH2ib32O9yjb0idbhX1xAupg128TxVA7tV5T4XkfCROGhK4vihrL9xZRXOFS75nQVtAhiOQpnw34w=="
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "photonicsonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlz1WGEUjOurjIGUqWI9Be-4eQZVstR8oButBlYFpQD_e9hFB5Sm6ZA_Ko8hz4MvratkFAFEF37B6emadNEXHsLySqXwBkFbb7CzgnepmrSTTGcWzOAqaNlLlq2muZYjDPmnWwhSthXtXuz3vQ_OTNKOkjR8Xqtg-CeOssBezFnbK8TvGzDIL7L0gt06QLGhe17U0K_LE9WBW4AdSytgLWxImF"
+      },
+      {
+        "label": "photonicsonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlz1WGEUjOurjIGUqWI9Be-4eQZVstR8oButBlYFpQD_e9hFB5Sm6ZA_Ko8hz4MvratkFAFEF37B6emadNEXHsLySqXwBkFbb7CzgnepmrSTTGcWzOAqaNlLlq2muZYjDPmnWwhSthXtXuz3vQ_OTNKOkjR8Xqtg-CeOssBezFnbK8TvGzDIL7L0gt06QLGhe17U0K_LE9WBW4AdSytgLWxImF"
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "bulgarianmilitary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFst9j1APVhYbOglYE3M28a33r2idq9ZeSmxnBsEdyWHtEJb2nXECAC1B1LeQSYuijEoHPml3q-4EtMAfxHzClqvOu5Dxd4bJf90JM9yuF5U-wzSBQnUw5MuQIp4XPydVAPLEsIjxB1MrUXAXH7zha7RuOmXcc8sdzav1qpg8emQ3WlUs3aZVGf2SCmrXDPzRifeyl_CePtyBg9Ei6SkW2p"
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "bulgarianmilitary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFst9j1APVhYbOglYE3M28a33r2idq9ZeSmxnBsEdyWHtEJb2nXECAC1B1LeQSYuijEoHPml3q-4EtMAfxHzClqvOu5Dxd4bJf90JM9yuF5U-wzSBQnUw5MuQIp4XPydVAPLEsIjxB1MrUXAXH7zha7RuOmXcc8sdzav1qpg8emQ3WlUs3aZVGf2SCmrXDPzRifeyl_CePtyBg9Ei6SkW2p"
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG01zTp19L2S3Pn_wbf9jw0y7_ivXIbr9ELJ7l70R5AYMo5fHQ16k1-x6sAWwDPf4Bv0pOW7jjVk_2GUyHZ1HgKG_SnISpwKn7jo66KmZUJ_q9sS4usJzflV_c_2pUbrXUZ9KvvRNlHFEgH0HjEfaROu1G5zWx84Rwvwp6CH9NJRMIQ3EvWipZg"
+      },
+      {
+        "label": "archivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeDVX7dpnRNrzywMa1Zb9IxsiNdktYW3fTGfW5HUXmuIsRlUlG_xCJVbuiRmW-weGAIkgEEVJNQySZY5jNHQZvf_MRWKFTVaWQeEWFjmH-seVijryROK-Gl0sGQvVwNK8BYJdmW4VmzeXwQwFdG2-ZxlMxEEl-YQlxfDHZq2bejhXx_uB46uBohxkklkmJDNoKN6Qk5IJzqmA="
+      },
+      {
+        "label": "debuglies",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgDfuHonfV4XkJQ9YDIR_n_zcVhp-RJf1VHaBK6YZl5joqYC3ZeC9_GJsZ_4fd2G7Lh1cjMNQXsiivWrAm3JZ_9Uj8ErYLCiaXUTQ9DyPTV4CSS614gaLt88_7s2KtCY3kHdYmsBgQdRYkl4LaMw7kb1-CxaB4gnvDzXojkgo2N54nMAGshMeVhiorjFCzeMjnAID6Nd46vvqgpdjtFPEs6gVDVPDCsQsxbu19oZuKYvooCBASgrUjMqUCsj9iQ6NSpV6UU7l67cz5PH4EA_uESNa1xCSfvP8="
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG01zTp19L2S3Pn_wbf9jw0y7_ivXIbr9ELJ7l70R5AYMo5fHQ16k1-x6sAWwDPf4Bv0pOW7jjVk_2GUyHZ1HgKG_SnISpwKn7jo66KmZUJ_q9sS4usJzflV_c_2pUbrXUZ9KvvRNlHFEgH0HjEfaROu1G5zWx84Rwvwp6CH9NJRMIQ3EvWipZg"
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG01zTp19L2S3Pn_wbf9jw0y7_ivXIbr9ELJ7l70R5AYMo5fHQ16k1-x6sAWwDPf4Bv0pOW7jjVk_2GUyHZ1HgKG_SnISpwKn7jo66KmZUJ_q9sS4usJzflV_c_2pUbrXUZ9KvvRNlHFEgH0HjEfaROu1G5zWx84Rwvwp6CH9NJRMIQ3EvWipZg"
+      },
+      {
+        "label": "archivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeDVX7dpnRNrzywMa1Zb9IxsiNdktYW3fTGfW5HUXmuIsRlUlG_xCJVbuiRmW-weGAIkgEEVJNQySZY5jNHQZvf_MRWKFTVaWQeEWFjmH-seVijryROK-Gl0sGQvVwNK8BYJdmW4VmzeXwQwFdG2-ZxlMxEEl-YQlxfDHZq2bejhXx_uB46uBohxkklkmJDNoKN6Qk5IJzqmA="
+      },
+      {
+        "label": "technavio",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF3obrLyTTP13AdYDQtF6XcMBeoBjtEA9tvce6zXTckx5e68EQ9VQg1Iict7h5_vqG7gi3syg6htkVfziWMf-TKq0xnjPcICPXeWx8S33c7an7L8FAmvLovk67QZvMrf8j3eF2AC3ZBJaGIw4ZkiHcbG_UsPVBiUeigFlsrHqJx0I-LNSAHQjLexbRu81LrQCYZmbaok2u-QQW8P-XXw=="
+      },
+      {
+        "label": "archivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeDVX7dpnRNrzywMa1Zb9IxsiNdktYW3fTGfW5HUXmuIsRlUlG_xCJVbuiRmW-weGAIkgEEVJNQySZY5jNHQZvf_MRWKFTVaWQeEWFjmH-seVijryROK-Gl0sGQvVwNK8BYJdmW4VmzeXwQwFdG2-ZxlMxEEl-YQlxfDHZq2bejhXx_uB46uBohxkklkmJDNoKN6Qk5IJzqmA="
+      },
+      {
+        "label": "technavio",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF3obrLyTTP13AdYDQtF6XcMBeoBjtEA9tvce6zXTckx5e68EQ9VQg1Iict7h5_vqG7gi3syg6htkVfziWMf-TKq0xnjPcICPXeWx8S33c7an7L8FAmvLovk67QZvMrf8j3eF2AC3ZBJaGIw4ZkiHcbG_UsPVBiUeigFlsrHqJx0I-LNSAHQjLexbRu81LrQCYZmbaok2u-QQW8P-XXw=="
+      },
+      {
+        "label": "archivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeDVX7dpnRNrzywMa1Zb9IxsiNdktYW3fTGfW5HUXmuIsRlUlG_xCJVbuiRmW-weGAIkgEEVJNQySZY5jNHQZvf_MRWKFTVaWQeEWFjmH-seVijryROK-Gl0sGQvVwNK8BYJdmW4VmzeXwQwFdG2-ZxlMxEEl-YQlxfDHZq2bejhXx_uB46uBohxkklkmJDNoKN6Qk5IJzqmA="
+      },
+      {
+        "label": "bulgarianmilitary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFst9j1APVhYbOglYE3M28a33r2idq9ZeSmxnBsEdyWHtEJb2nXECAC1B1LeQSYuijEoHPml3q-4EtMAfxHzClqvOu5Dxd4bJf90JM9yuF5U-wzSBQnUw5MuQIp4XPydVAPLEsIjxB1MrUXAXH7zha7RuOmXcc8sdzav1qpg8emQ3WlUs3aZVGf2SCmrXDPzRifeyl_CePtyBg9Ei6SkW2p"
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "datahorizzonresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo5NgLh0MtzukXt54MjRnl9vLDSlKuzKrGVcnQWxBT5AdBEeYPT4eqpSoPH1T6xo0vpnNyIDYSuSQmDJjduXf275zhpaEPcy06DpUSvomrkdLEmbmMG7m3iKrlbBTNnsofCVw3Zk8kKxupcMDx1N-1hz53V2hkJk7l7KVscURQI1M4_iAgdJ6pmMk_H6d_CyisiFzx"
+      },
+      {
+        "label": "archivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeDVX7dpnRNrzywMa1Zb9IxsiNdktYW3fTGfW5HUXmuIsRlUlG_xCJVbuiRmW-weGAIkgEEVJNQySZY5jNHQZvf_MRWKFTVaWQeEWFjmH-seVijryROK-Gl0sGQvVwNK8BYJdmW4VmzeXwQwFdG2-ZxlMxEEl-YQlxfDHZq2bejhXx_uB46uBohxkklkmJDNoKN6Qk5IJzqmA="
+      },
+      {
+        "label": "datainsightsmarket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG01zTp19L2S3Pn_wbf9jw0y7_ivXIbr9ELJ7l70R5AYMo5fHQ16k1-x6sAWwDPf4Bv0pOW7jjVk_2GUyHZ1HgKG_SnISpwKn7jo66KmZUJ_q9sS4usJzflV_c_2pUbrXUZ9KvvRNlHFEgH0HjEfaROu1G5zWx84Rwvwp6CH9NJRMIQ3EvWipZg"
+      },
+      {
+        "label": "archivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeDVX7dpnRNrzywMa1Zb9IxsiNdktYW3fTGfW5HUXmuIsRlUlG_xCJVbuiRmW-weGAIkgEEVJNQySZY5jNHQZvf_MRWKFTVaWQeEWFjmH-seVijryROK-Gl0sGQvVwNK8BYJdmW4VmzeXwQwFdG2-ZxlMxEEl-YQlxfDHZq2bejhXx_uB46uBohxkklkmJDNoKN6Qk5IJzqmA="
+      },
+      {
+        "label": "datahorizzonresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo5NgLh0MtzukXt54MjRnl9vLDSlKuzKrGVcnQWxBT5AdBEeYPT4eqpSoPH1T6xo0vpnNyIDYSuSQmDJjduXf275zhpaEPcy06DpUSvomrkdLEmbmMG7m3iKrlbBTNnsofCVw3Zk8kKxupcMDx1N-1hz53V2hkJk7l7KVscURQI1M4_iAgdJ6pmMk_H6d_CyisiFzx"
+      },
+      {
+        "label": "archivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeDVX7dpnRNrzywMa1Zb9IxsiNdktYW3fTGfW5HUXmuIsRlUlG_xCJVbuiRmW-weGAIkgEEVJNQySZY5jNHQZvf_MRWKFTVaWQeEWFjmH-seVijryROK-Gl0sGQvVwNK8BYJdmW4VmzeXwQwFdG2-ZxlMxEEl-YQlxfDHZq2bejhXx_uB46uBohxkklkmJDNoKN6Qk5IJzqmA="
+      },
+      {
+        "label": "photonicsonline",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlz1WGEUjOurjIGUqWI9Be-4eQZVstR8oButBlYFpQD_e9hFB5Sm6ZA_Ko8hz4MvratkFAFEF37B6emadNEXHsLySqXwBkFbb7CzgnepmrSTTGcWzOAqaNlLlq2muZYjDPmnWwhSthXtXuz3vQ_OTNKOkjR8Xqtg-CeOssBezFnbK8TvGzDIL7L0gt06QLGhe17U0K_LE9WBW4AdSytgLWxImF"
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "atlanticcouncil",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnp74QmraiF6pSXkxBr_4u1Y6i4VpltaUu1O6ESueQ5QLKbHHk_ozpGLIvmVoGXqnBrkGKZF6oGZg5YFwuub0kOKGHv9xVVl_o2TzTXUkQDeH-vL6oa0Orp6pwOxFwijOr9svOEVLV7mlTs4O8tYjPRdMsieeA4fNFmIi22yH2ib32O9yjb0idbhX1xAupg128TxVA7tV5T4XkfCROGhK4vihrL9xZRXOFS75nQVtAhiOQpnw34w=="
+      },
+      {
+        "label": "ts2",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbxgAm4rlNKvrldp83yYbBVfQZDqeIu1YByGJozaNMDXgW0E_P1LP2Omb-i5JauLfKtrbA6JiXEDD_FbYzgQei0RWu_4HyvPx326-oe5qFW_BQO-bLnT5BRrvs-2LXgy6OcHjir3axfe2LiU4clP11tItAySd1iUt7fuj2l85z8Gfsg5F9fDNafVpx5jCP7Q=="
+      },
+      {
+        "label": "archivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeDVX7dpnRNrzywMa1Zb9IxsiNdktYW3fTGfW5HUXmuIsRlUlG_xCJVbuiRmW-weGAIkgEEVJNQySZY5jNHQZvf_MRWKFTVaWQeEWFjmH-seVijryROK-Gl0sGQvVwNK8BYJdmW4VmzeXwQwFdG2-ZxlMxEEl-YQlxfDHZq2bejhXx_uB46uBohxkklkmJDNoKN6Qk5IJzqmA="
+      },
+      {
+        "label": "technavio",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFF3obrLyTTP13AdYDQtF6XcMBeoBjtEA9tvce6zXTckx5e68EQ9VQg1Iict7h5_vqG7gi3syg6htkVfziWMf-TKq0xnjPcICPXeWx8S33c7an7L8FAmvLovk67QZvMrf8j3eF2AC3ZBJaGIw4ZkiHcbG_UsPVBiUeigFlsrHqJx0I-LNSAHQjLexbRu81LrQCYZmbaok2u-QQW8P-XXw=="
+      },
+      {
+        "label": "bulgarianmilitary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFst9j1APVhYbOglYE3M28a33r2idq9ZeSmxnBsEdyWHtEJb2nXECAC1B1LeQSYuijEoHPml3q-4EtMAfxHzClqvOu5Dxd4bJf90JM9yuF5U-wzSBQnUw5MuQIp4XPydVAPLEsIjxB1MrUXAXH7zha7RuOmXcc8sdzav1qpg8emQ3WlUs3aZVGf2SCmrXDPzRifeyl_CePtyBg9Ei6SkW2p"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

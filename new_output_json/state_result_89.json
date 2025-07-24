@@ -1,0 +1,532 @@
+{
+  "file_name": "state_result_89.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.820647",
+  "data": {
+    "messages": [
+      {
+        "content": "How much tariffs are a car from Vietnam subject to in the US?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "9f6dde58-4cd3-4eb9-a3e5-cc39561c3c53",
+        "example": false
+      },
+      {
+        "content": "As of July 4, 2025, the United States imposes a 20% tariff on cars imported from Vietnam [automotivelogistics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM=) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs=) [freightwaves](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkWek0WRSaadSiUBv5mEZHH94jdxuP0KDVtHR59B0-_e74n7CcXJuzF8ap5iDnv-98YxdA7Iuur0EG9rZU0BiqLTtcGUbvRcdFMssQ8p-pecTq3AnTVsZ8X-IpIZd9BbUjroncJpypmw7X3gDHiu2FkIeuMqySmJHjmGLlj5aQ7VsVdD38OnszO2QUWfx4dXePo500lXDfItGH0s-l) [automotivelogistics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGYGs2OrvdsIVXbwn3RHm4Zt43gYJFjfsgC9jZFiPBve5HcTaC8oiRdwW1UXE050dVwpPRxquLA20AxNky2D68NMaGhuy1oxbSA6FJx6JqdczcXQukG9YpQS93zc9MeJDCj0PBXTCsO3bIKE5WtxvHPEfj3G2-602qyT-8vgFKyIurjb3sNrH9-A5YM4q5YGPTB3Pkx63ntRcZVNe1shO6aWNsA==) [ainvest](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXxfobdnA04uiLpjSGV3YAJOAvpGDorIBv8y8Lo6GbSizM7_a6eezdH5qvGJ34sCQzOtcgT1YXCA4qB3q8PHaV8nGY_xcCqklFdsuYC7CfGIxz0qa7t-VdEsfF5TYhav74pziASSwgBJnD6mFqjaIgWg_J-ctIw6D3cA_uKu8a6mKXQZSei6QG1ITGLhLqLww7D4WZfVCBbA==). However, a 40% tariff is applied to goods transshipped through Vietnam, especially targeting products from third countries like China that are labeled as Vietnamese to avoid higher tariffs [epp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol) [mufgresearch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio) [automotivelogistics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM=) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60b18td8bNx8b15z-Icnoyxx9qHPnGq6J5iHtRAIHt1Kdygt77rjABnbVfBcQolAsDUHx3GZ1pvQnb4d8n1yx91hdA04oz6Rd_r77_2TKyEF57wJ8fST-SUdlSmNDE3-xHiB-tyRbIz7fpypBPY8o4gA8ftxHr915ZtwtVC-205GwnZnQkL6VqxUz-J45riWGnkn5GsjuxOM5srSjQjr7OHC9fQ==) [freightwaves](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkWek0WRSaadSiUBv5mEZHH94jdxuP0KDVtHR59B0-_e74n7CcXJuzF8ap5iDnv-98YxdA7Iuur0EG9rZU0BiqLTtcGUbvRcdFMssQ8p-pecTq3AnTVsZ8X-IpIZd9BbUjroncJpypmw7X3gDHiu2FkIeuMqySmJHjmGLlj5aQ7VsVdD38OnszO2QUWfx4dXePo500lXDfItGH0s-l) [vietnam-briefing](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhovoOGg0zr_v81WoN09-pNG6euuCfWy4ezqqxkfUW7zpXZ5A4MxZtATjgQszBQkQuGjVdjRSYnloL5_JIhsa2oAb1bA3bXg3R8NPwuQMA9JiPALkq9Ba-gWo4crMFV3vGkLF-wFE9dMjGUkFnpBIme-gvQbcyRvnCNZd0PIKtBEf8ERhCwGfalGwVRwzEQTyblUiQ8PIw26k19icc4GHBzhuRrrkGewxDu84=) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs=) [globalnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB5IzQ9sM0M-qy3EG8gxv1CO1sWKU5X4VCm7f-9KIvjCPoxL6_k_ZIX8AITdFdFsl4ur1NBv24zTlJIuOylY-4eKnu3CU3-hJULc88wcFbsvj9F5rDYLTECSgQ3_5s9xixWHDBD7Hd38UGZUojn5xPA-iqW5xI5eJ_bH6oh38LczxiRqWaVII=) [echemi](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHDtSwjssUPXItDlbp7xq5Xlj7Oxiu5vb6AS4jD9slZzY94911MB_P8HNTLtfL946dP367jsFWsZenwPXt9givMmIoljn89ywmpy2Jn3rmWDsiWtj8inlIQJtXGVjBAx_L) [epp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpyCaEUn4plolVn_kCifKNrEYp_Xb6OyiN7BGSKdSs2son1e-LFWlJy90RNR7erGEHSYnvZ8d1IpUWHKjx54r7_Mh8nmYy9GAlU9wYFz7K1Kf5uFW_H8z1c3GE92fZpNOWv-2ayiZD_GsKTD1Xc8U8QGO7ksA=) [automotivelogistics](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGYGs2OrvdsIVXbwn3RHm4Zt43gYJFjfsgC9jZFiPBve5HcTaC8oiRdwW1UXE050dVwpPRxquLA20AxNky2D68NMaGhuy1oxbSA6FJx6JqdczcXQukG9YpQS93zc9MeJDCj0PBXTCsO3bIKE5WtxvHPEfj3G2-602qyT-8vgFKyIurjb3sNrH9-A5YM4q5YGPTB3Pkx63ntRcZVNe1shO6aWNsA==) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3mz4RTm78qZcppIbIgf9cGQX5adhehQtIEhH6t8gtlFNaFQHZi3i3M5R9yxlToLizP8-cIhMwgLB0k1skLdlpozBhGlpquN99iGdlhmsLWdaFxMN-RKEScIFFtUMIAHXfbtMzrFE9yjnCLrTd3BmRrLOeiG-RCEqD71G9NutRwZKz0K6a2II96vd9NBp8q4hwn2OXfmjCyRUG7ZunPfJSfZEMa85Suw==0) [ainvest](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXxfobdnA04uiLpjSGV3YAJOAvpGDorIBv8y8Lo6GbSizM7_a6eezdH5qvGJ34sCQzOtcgT1YXCA4qB3q8PHaV8nGY_xcCqklFdsuYC7CfGIxz0qa7t-VdEsfF5TYhav74pziASSwgBJnD6mFqjaIgWg_J-ctIw6D3cA_uKu8a6mKXQZSei6QG1ITGLhLqLww7D4WZfVCBbA==) [cfr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3mz4RTm78qZcppIbIgf9cGQX5adhehQtIEhH6t8gtlFNaFQHZi3i3M5R9yxlToLizP8-cIhMwgLB0k1skLdlpozBhGlpquN99iGdlhmsLWdaFxMN-RKEScIFFtUMIAHXfbtMzrFE9yjnCLrTd3BmRrLOeiG-RCEqD71G9NutRwZKz0K6a2II96vd9NBp8q4hwn2OXfmjCyRUG7ZunPfJSfZEMa85Suw==1). In return, Vietnam will eliminate tariffs on US products, potentially including \"large-engine vehicles\" [epp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60b18td8bNx8b15z-Icnoyxx9qHPnGq6J5iHtRAIHt1Kdygt77rjABnbVfBcQolAsDUHx3GZ1pvQnb4d8n1yx91hdA04oz6Rd_r77_2TKyEF57wJ8fST-SUdlSmNDE3-xHiB-tyRbIz7fpypBPY8o4gA8ftxHr915ZtwtVC-205GwnZnQkL6VqxUz-J45riWGnkn5GsjuxOM5srSjQjr7OHC9fQ==) [time](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5axx-5QO1IOMtcX6prPvxF8-0RykibDcsZIk0ynME2kKniC7qNhdW9h0hBerxhQXgoX9VL4Xxipfmg3nbFyFH_3hJ08IY25kknKIn5-RedOVDY636LEvjo6jACV12Daj-SOVOoW4UfQJWc0hVQqpzlIgcx6ZFDN0nRHOVAKmIxNry1Edu) [mufgresearch](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio) [vietnam-briefing](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhovoOGg0zr_v81WoN09-pNG6euuCfWy4ezqqxkfUW7zpXZ5A4MxZtATjgQszBQkQuGjVdjRSYnloL5_JIhsa2oAb1bA3bXg3R8NPwuQMA9JiPALkq9Ba-gWo4crMFV3vGkLF-wFE9dMjGUkFnpBIme-gvQbcyRvnCNZd0PIKtBEf8ERhCwGfalGwVRwzEQTyblUiQ8PIw26k19icc4GHBzhuRrrkGewxDu84=) [cbsnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsa3HvU60q0ZL48DQvxhKJ9rAKptC0WZ43CvyxkFSr3Vdj_DV7ySappyv8ywp-qc7AKF7_DsufNYrv7bTxRss6Q7JT_-jpdnbkDuH-B1RvDsUziW6FV46GdUujOUmRNmLf1OGKPQbdeueH7jJ24isknVzFCZ9DcLVLvnF6LU7GbO-kz8odfPRfugU=) [globalnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB5IzQ9sM0M-qy3EG8gxv1CO1sWKU5X4VCm7f-9KIvjCPoxL6_k_ZIX8AITdFdFsl4ur1NBv24zTlJIuOylY-4eKnu3CU3-hJULc88wcFbsvj9F5rDYLTECSgQ3_5s9xixWHDBD7Hd38UGZUojn5xPA-iqW5xI5eJ_bH6oh38LczxiRqWaVII=) [epp](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpyCaEUn4plolVn_kCifKNrEYp_Xb6OyiN7BGSKdSs2son1e-LFWlJy90RNR7erGEHSYnvZ8d1IpUWHKjx54r7_Mh8nmYy9GAlU9wYFz7K1Kf5uFW_H8z1c3GE92fZpNOWv-2ayiZD_GsKTD1Xc8U8QGO7ksA=).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "38a484ca-72f8-4837-bbf9-c5c7d2719e34",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "US tariffs on cars imported from Vietnam 2025",
+      "What specific types of vehicles are included in the 'large-engine cars' category that Vietnam will provide zero tariffs for under the new US-Vietnam trade deal, and what are the technical specifications or engine sizes that define this category?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent and credible information on \"US tariffs on cars imported from Vietnam 2025\" and synthesize it into a verifiable text artifact.\nAs of July 3, 2025, the US and Vietnam have agreed to a new trade deal where the US will impose a 20% tariff on imports from Vietnam [automotivelogistics](https://vertexaisearch.cloud.google.com/id/0-0) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1). This is lower than the 46% \"reciprocal\" duty that was previously threatened [automotivelogistics](https://vertexaisearch.cloud.google.com/id/0-0) [mufgresearch](https://vertexaisearch.cloud.google.com/id/0-2). In return, Vietnam will eliminate tariffs on US products [epp](https://vertexaisearch.cloud.google.com/id/0-3) [time](https://vertexaisearch.cloud.google.com/id/0-4) [automotivelogistics](https://vertexaisearch.cloud.google.com/id/0-0) [mufgresearch](https://vertexaisearch.cloud.google.com/id/0-2) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-5) [freightwaves](https://vertexaisearch.cloud.google.com/id/0-6) [cbsnews](https://vertexaisearch.cloud.google.com/id/0-7) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1) [globalnews](https://vertexaisearch.cloud.google.com/id/0-8).\n\nHere's a breakdown of the key aspects of the deal:\n\n*   **Tariff Rates:**\n    *   A 20% tariff will be applied to Vietnamese exports to the US [freightwaves](https://vertexaisearch.cloud.google.com/id/0-6) [automotivelogistics](https://vertexaisearch.cloud.google.com/id/0-0) [epp](https://vertexaisearch.cloud.google.com/id/0-3) [globalnews](https://vertexaisearch.cloud.google.com/id/0-8) [mufgresearch](https://vertexaisearch.cloud.google.com/id/0-2) [cbsnews](https://vertexaisearch.cloud.google.com/id/0-7) [vietnam-briefing](https://vertexaisearch.cloud.google.com/id/0-9) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-5).\n    *   A 40% tariff will be imposed on goods transshipped through Vietnam, targeting products from third countries, especially China, that are labeled as Vietnamese to avoid higher tariffs [epp](https://vertexaisearch.cloud.google.com/id/0-3) [mufgresearch](https://vertexaisearch.cloud.google.com/id/0-2) [automotivelogistics](https://vertexaisearch.cloud.google.com/id/0-0) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-5) [freightwaves](https://vertexaisearch.cloud.google.com/id/0-6) [vietnam-briefing](https://vertexaisearch.cloud.google.com/id/0-9) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1) [globalnews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   Vietnam will provide zero tariffs for US products, potentially including large-engine vehicles [epp](https://vertexaisearch.cloud.google.com/id/0-3) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-5) [time](https://vertexaisearch.cloud.google.com/id/0-4) [mufgresearch](https://vertexaisearch.cloud.google.com/id/0-2) [vietnam-briefing](https://vertexaisearch.cloud.google.com/id/0-9) [cbsnews](https://vertexaisearch.cloud.google.com/id/0-7) [globalnews](https://vertexaisearch.cloud.google.com/id/0-8).\n\n*   **Transshipment Concerns:** The 40% tariff on transshipments aims to prevent other countries from using Vietnam as a transit point to lower tariffs, particularly targeting China [epp](https://vertexaisearch.cloud.google.com/id/0-3) [automotivelogistics](https://vertexaisearch.cloud.google.com/id/0-0) [time](https://vertexaisearch.cloud.google.com/id/0-4) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1). Enforcing this provision may be difficult and will require close monitoring of rules of origin [automotivelogistics](https://vertexaisearch.cloud.google.com/id/0-0).\n\n*   **Impact and Reactions:**\n    *   China has reacted negatively to the US-Vietnam deal, with concerns that the transshipment tariffs are aimed at them [automotivelogistics](https://vertexaisearch.cloud.google.com/id/0-0).\n    *   Experts believe the details of how \"Transshipping\" is defined and enforced will be crucial in determining the overall impact [mufgresearch](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   The agreement is expected to strengthen the US economic ties with Vietnam [epp](https://vertexaisearch.cloud.google.com/id/0-3).\n    *   The US aims to reduce its trade deficit with Vietnam, which exceeded $123 billion in 2024 [epp](https://vertexaisearch.cloud.google.com/id/0-3).\n\n*   **Vietnam's Perspective:** Vietnam has committed to providing \"preferential market access\" for US goods, including large-engine cars [aljazeera](https://vertexaisearch.cloud.google.com/id/0-5) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1).\n\n*   **Before the Deal:** Prior to this agreement, there was a 10% baseline import tax in place for almost all US trading partners, including Vietnam [automotivelogistics](https://vertexaisearch.cloud.google.com/id/0-0) [freightwaves](https://vertexaisearch.cloud.google.com/id/0-6). In April 2025, the US announced a plan for 46% tariffs on Vietnamese goods [icis](https://vertexaisearch.cloud.google.com/id/0-10) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-5) [frasersvn](https://vertexaisearch.cloud.google.com/id/0-11).\n\nIt's important to note that some details of the agreement, such as the specific definition and enforcement of \"transshipping,\" are still uncertain [mufgresearch](https://vertexaisearch.cloud.google.com/id/0-2) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1).\n",
+      "As of July 4, 2025, the new US-Vietnam trade deal includes a provision where Vietnam will provide zero tariffs for US products, including potential exports like \"large-engine vehicles\" [epp](https://vertexaisearch.cloud.google.com/id/1-0). These vehicles are often referred to as SUVs [stattimes](https://vertexaisearch.cloud.google.com/id/1-1) [epp](https://vertexaisearch.cloud.google.com/id/1-0) [theinvestor](https://vertexaisearch.cloud.google.com/id/1-2) [ainvest](https://vertexaisearch.cloud.google.com/id/1-3).\n\nWhile the exact technical specifications or engine sizes defining this \"large-engine cars\" category aren't explicitly detailed in the searched documents regarding the new US-Vietnam trade deal, several sources provide related context:\n\n*   **General understanding:** The term \"large-engine vehicles\" is often used synonymously with SUVs [epp](https://vertexaisearch.cloud.google.com/id/1-0) [ainvest](https://vertexaisearch.cloud.google.com/id/1-3) [theinvestor](https://vertexaisearch.cloud.google.com/id/1-2) [stattimes](https://vertexaisearch.cloud.google.com/id/1-1). Examples of such vehicles include the Ford F-150 and GM Suburban [ainvest](https://vertexaisearch.cloud.google.com/id/1-3) [ainvest](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Decree 73/2025/ND-CP:** While not directly tied to the US trade deal, this decree, effective March 31, 2025, amended import duty rates for certain goods, including automobiles [bakermckenzie](https://vertexaisearch.cloud.google.com/id/1-5) [thesaigontimes](https://vertexaisearch.cloud.google.com/id/1-6). It mentions reduced tariffs for:\n    *   Passenger vehicles with a shared luggage compartment and sports cars with 2,000-2,500cc engines [bakermckenzie](https://vertexaisearch.cloud.google.com/id/1-5).\n    *   Sedans with 2,000-2,500cc engines [bakermckenzie](https://vertexaisearch.cloud.google.com/id/1-5).\n    *   Four-wheel-drive vehicles [bakermckenzie](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **HS Codes:** The Ministry of Finance in Vietnam has proposed adjustments to Most-Favored Nation (MFN) import tax rates on certain automobile models classified under HS codes [vietnamnews](https://vertexaisearch.cloud.google.com/id/1-7):\n    *   8703.23.63: Passenger vehicles with a shared luggage compartment and SUVs with engine capacity over 2,000cc but not exceeding 2,500cc [vietnamnews](https://vertexaisearch.cloud.google.com/id/1-7).\n    *   8703.23.57: Sedan-type vehicles with the same engine capacity range (over 2,000cc but not exceeding 2,500cc) [vietnamnews](https://vertexaisearch.cloud.google.com/id/1-7).\n    *   8703.24.51: Four-wheel-drive vehicles [vietnamnews](https://vertexaisearch.cloud.google.com/id/1-7).\n\nIt's important to note that while the US-Vietnam trade deal aims for zero tariffs on US-made \"large-engine cars,\" Vietnam also imposes a 20% tariff on imports from the U.S [ainvest](https://vertexaisearch.cloud.google.com/id/1-3) [automotivelogistics](https://vertexaisearch.cloud.google.com/id/1-8). Additionally, a 40% duty will be applied to goods transshipped from third countries [echemi](https://vertexaisearch.cloud.google.com/id/1-9) [epp](https://vertexaisearch.cloud.google.com/id/1-0) [automotivelogistics](https://vertexaisearch.cloud.google.com/id/1-8) [aljazeera](https://vertexaisearch.cloud.google.com/id/1-10) [ainvest](https://vertexaisearch.cloud.google.com/id/1-3) [cfr](https://vertexaisearch.cloud.google.com/id/1-11).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs="
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "mufgresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio"
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol"
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5axx-5QO1IOMtcX6prPvxF8-0RykibDcsZIk0ynME2kKniC7qNhdW9h0hBerxhQXgoX9VL4Xxipfmg3nbFyFH_3hJ08IY25kknKIn5-RedOVDY636LEvjo6jACV12Daj-SOVOoW4UfQJWc0hVQqpzlIgcx6ZFDN0nRHOVAKmIxNry1Edu"
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "mufgresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60b18td8bNx8b15z-Icnoyxx9qHPnGq6J5iHtRAIHt1Kdygt77rjABnbVfBcQolAsDUHx3GZ1pvQnb4d8n1yx91hdA04oz6Rd_r77_2TKyEF57wJ8fST-SUdlSmNDE3-xHiB-tyRbIz7fpypBPY8o4gA8ftxHr915ZtwtVC-205GwnZnQkL6VqxUz-J45riWGnkn5GsjuxOM5srSjQjr7OHC9fQ=="
+      },
+      {
+        "label": "freightwaves",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkWek0WRSaadSiUBv5mEZHH94jdxuP0KDVtHR59B0-_e74n7CcXJuzF8ap5iDnv-98YxdA7Iuur0EG9rZU0BiqLTtcGUbvRcdFMssQ8p-pecTq3AnTVsZ8X-IpIZd9BbUjroncJpypmw7X3gDHiu2FkIeuMqySmJHjmGLlj5aQ7VsVdD38OnszO2QUWfx4dXePo500lXDfItGH0s-l"
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsa3HvU60q0ZL48DQvxhKJ9rAKptC0WZ43CvyxkFSr3Vdj_DV7ySappyv8ywp-qc7AKF7_DsufNYrv7bTxRss6Q7JT_-jpdnbkDuH-B1RvDsUziW6FV46GdUujOUmRNmLf1OGKPQbdeueH7jJ24isknVzFCZ9DcLVLvnF6LU7GbO-kz8odfPRfugU="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs="
+      },
+      {
+        "label": "globalnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB5IzQ9sM0M-qy3EG8gxv1CO1sWKU5X4VCm7f-9KIvjCPoxL6_k_ZIX8AITdFdFsl4ur1NBv24zTlJIuOylY-4eKnu3CU3-hJULc88wcFbsvj9F5rDYLTECSgQ3_5s9xixWHDBD7Hd38UGZUojn5xPA-iqW5xI5eJ_bH6oh38LczxiRqWaVII="
+      },
+      {
+        "label": "freightwaves",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkWek0WRSaadSiUBv5mEZHH94jdxuP0KDVtHR59B0-_e74n7CcXJuzF8ap5iDnv-98YxdA7Iuur0EG9rZU0BiqLTtcGUbvRcdFMssQ8p-pecTq3AnTVsZ8X-IpIZd9BbUjroncJpypmw7X3gDHiu2FkIeuMqySmJHjmGLlj5aQ7VsVdD38OnszO2QUWfx4dXePo500lXDfItGH0s-l"
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol"
+      },
+      {
+        "label": "globalnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB5IzQ9sM0M-qy3EG8gxv1CO1sWKU5X4VCm7f-9KIvjCPoxL6_k_ZIX8AITdFdFsl4ur1NBv24zTlJIuOylY-4eKnu3CU3-hJULc88wcFbsvj9F5rDYLTECSgQ3_5s9xixWHDBD7Hd38UGZUojn5xPA-iqW5xI5eJ_bH6oh38LczxiRqWaVII="
+      },
+      {
+        "label": "mufgresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio"
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsa3HvU60q0ZL48DQvxhKJ9rAKptC0WZ43CvyxkFSr3Vdj_DV7ySappyv8ywp-qc7AKF7_DsufNYrv7bTxRss6Q7JT_-jpdnbkDuH-B1RvDsUziW6FV46GdUujOUmRNmLf1OGKPQbdeueH7jJ24isknVzFCZ9DcLVLvnF6LU7GbO-kz8odfPRfugU="
+      },
+      {
+        "label": "vietnam-briefing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhovoOGg0zr_v81WoN09-pNG6euuCfWy4ezqqxkfUW7zpXZ5A4MxZtATjgQszBQkQuGjVdjRSYnloL5_JIhsa2oAb1bA3bXg3R8NPwuQMA9JiPALkq9Ba-gWo4crMFV3vGkLF-wFE9dMjGUkFnpBIme-gvQbcyRvnCNZd0PIKtBEf8ERhCwGfalGwVRwzEQTyblUiQ8PIw26k19icc4GHBzhuRrrkGewxDu84="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60b18td8bNx8b15z-Icnoyxx9qHPnGq6J5iHtRAIHt1Kdygt77rjABnbVfBcQolAsDUHx3GZ1pvQnb4d8n1yx91hdA04oz6Rd_r77_2TKyEF57wJ8fST-SUdlSmNDE3-xHiB-tyRbIz7fpypBPY8o4gA8ftxHr915ZtwtVC-205GwnZnQkL6VqxUz-J45riWGnkn5GsjuxOM5srSjQjr7OHC9fQ=="
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol"
+      },
+      {
+        "label": "mufgresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio"
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60b18td8bNx8b15z-Icnoyxx9qHPnGq6J5iHtRAIHt1Kdygt77rjABnbVfBcQolAsDUHx3GZ1pvQnb4d8n1yx91hdA04oz6Rd_r77_2TKyEF57wJ8fST-SUdlSmNDE3-xHiB-tyRbIz7fpypBPY8o4gA8ftxHr915ZtwtVC-205GwnZnQkL6VqxUz-J45riWGnkn5GsjuxOM5srSjQjr7OHC9fQ=="
+      },
+      {
+        "label": "freightwaves",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkWek0WRSaadSiUBv5mEZHH94jdxuP0KDVtHR59B0-_e74n7CcXJuzF8ap5iDnv-98YxdA7Iuur0EG9rZU0BiqLTtcGUbvRcdFMssQ8p-pecTq3AnTVsZ8X-IpIZd9BbUjroncJpypmw7X3gDHiu2FkIeuMqySmJHjmGLlj5aQ7VsVdD38OnszO2QUWfx4dXePo500lXDfItGH0s-l"
+      },
+      {
+        "label": "vietnam-briefing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhovoOGg0zr_v81WoN09-pNG6euuCfWy4ezqqxkfUW7zpXZ5A4MxZtATjgQszBQkQuGjVdjRSYnloL5_JIhsa2oAb1bA3bXg3R8NPwuQMA9JiPALkq9Ba-gWo4crMFV3vGkLF-wFE9dMjGUkFnpBIme-gvQbcyRvnCNZd0PIKtBEf8ERhCwGfalGwVRwzEQTyblUiQ8PIw26k19icc4GHBzhuRrrkGewxDu84="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs="
+      },
+      {
+        "label": "globalnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB5IzQ9sM0M-qy3EG8gxv1CO1sWKU5X4VCm7f-9KIvjCPoxL6_k_ZIX8AITdFdFsl4ur1NBv24zTlJIuOylY-4eKnu3CU3-hJULc88wcFbsvj9F5rDYLTECSgQ3_5s9xixWHDBD7Hd38UGZUojn5xPA-iqW5xI5eJ_bH6oh38LczxiRqWaVII="
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60b18td8bNx8b15z-Icnoyxx9qHPnGq6J5iHtRAIHt1Kdygt77rjABnbVfBcQolAsDUHx3GZ1pvQnb4d8n1yx91hdA04oz6Rd_r77_2TKyEF57wJ8fST-SUdlSmNDE3-xHiB-tyRbIz7fpypBPY8o4gA8ftxHr915ZtwtVC-205GwnZnQkL6VqxUz-J45riWGnkn5GsjuxOM5srSjQjr7OHC9fQ=="
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5axx-5QO1IOMtcX6prPvxF8-0RykibDcsZIk0ynME2kKniC7qNhdW9h0hBerxhQXgoX9VL4Xxipfmg3nbFyFH_3hJ08IY25kknKIn5-RedOVDY636LEvjo6jACV12Daj-SOVOoW4UfQJWc0hVQqpzlIgcx6ZFDN0nRHOVAKmIxNry1Edu"
+      },
+      {
+        "label": "mufgresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio"
+      },
+      {
+        "label": "vietnam-briefing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhovoOGg0zr_v81WoN09-pNG6euuCfWy4ezqqxkfUW7zpXZ5A4MxZtATjgQszBQkQuGjVdjRSYnloL5_JIhsa2oAb1bA3bXg3R8NPwuQMA9JiPALkq9Ba-gWo4crMFV3vGkLF-wFE9dMjGUkFnpBIme-gvQbcyRvnCNZd0PIKtBEf8ERhCwGfalGwVRwzEQTyblUiQ8PIw26k19icc4GHBzhuRrrkGewxDu84="
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsa3HvU60q0ZL48DQvxhKJ9rAKptC0WZ43CvyxkFSr3Vdj_DV7ySappyv8ywp-qc7AKF7_DsufNYrv7bTxRss6Q7JT_-jpdnbkDuH-B1RvDsUziW6FV46GdUujOUmRNmLf1OGKPQbdeueH7jJ24isknVzFCZ9DcLVLvnF6LU7GbO-kz8odfPRfugU="
+      },
+      {
+        "label": "globalnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB5IzQ9sM0M-qy3EG8gxv1CO1sWKU5X4VCm7f-9KIvjCPoxL6_k_ZIX8AITdFdFsl4ur1NBv24zTlJIuOylY-4eKnu3CU3-hJULc88wcFbsvj9F5rDYLTECSgQ3_5s9xixWHDBD7Hd38UGZUojn5xPA-iqW5xI5eJ_bH6oh38LczxiRqWaVII="
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol"
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5axx-5QO1IOMtcX6prPvxF8-0RykibDcsZIk0ynME2kKniC7qNhdW9h0hBerxhQXgoX9VL4Xxipfmg3nbFyFH_3hJ08IY25kknKIn5-RedOVDY636LEvjo6jACV12Daj-SOVOoW4UfQJWc0hVQqpzlIgcx6ZFDN0nRHOVAKmIxNry1Edu"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs="
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "mufgresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio"
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol"
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60b18td8bNx8b15z-Icnoyxx9qHPnGq6J5iHtRAIHt1Kdygt77rjABnbVfBcQolAsDUHx3GZ1pvQnb4d8n1yx91hdA04oz6Rd_r77_2TKyEF57wJ8fST-SUdlSmNDE3-xHiB-tyRbIz7fpypBPY8o4gA8ftxHr915ZtwtVC-205GwnZnQkL6VqxUz-J45riWGnkn5GsjuxOM5srSjQjr7OHC9fQ=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs="
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "freightwaves",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkWek0WRSaadSiUBv5mEZHH94jdxuP0KDVtHR59B0-_e74n7CcXJuzF8ap5iDnv-98YxdA7Iuur0EG9rZU0BiqLTtcGUbvRcdFMssQ8p-pecTq3AnTVsZ8X-IpIZd9BbUjroncJpypmw7X3gDHiu2FkIeuMqySmJHjmGLlj5aQ7VsVdD38OnszO2QUWfx4dXePo500lXDfItGH0s-l"
+      },
+      {
+        "label": "icis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbbfUflcPKdBSP61MaqUeiFTE9TZuJpDzA2GPgLvWVEJ3XV_AcYY5Qejh-ze1xO_Z9UwnxJTKRc_5IT-jqxzhqDr72YLAqLyB-SvuJUU6zL6CoCyy2cypvXjmeEIseTIWm_-2kfp89rFrOfD3ucgJUQn85aNKGzF3bTcDYvY5lWO4j-nR6B6l8z_sukzKEZkEXNLHyqYm7v3nq-krnMjJF0Kgz7XjemOALNOx8zi1xgf8="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60b18td8bNx8b15z-Icnoyxx9qHPnGq6J5iHtRAIHt1Kdygt77rjABnbVfBcQolAsDUHx3GZ1pvQnb4d8n1yx91hdA04oz6Rd_r77_2TKyEF57wJ8fST-SUdlSmNDE3-xHiB-tyRbIz7fpypBPY8o4gA8ftxHr915ZtwtVC-205GwnZnQkL6VqxUz-J45riWGnkn5GsjuxOM5srSjQjr7OHC9fQ=="
+      },
+      {
+        "label": "frasersvn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW4rZX0rMjope3eByQfpSR0Pg1IHjdJOrhWX9uwb5YEgNxlKJuxXhMZItRelg54qnW8c0KFT8q_MMAIA9Lc6ZsTe0lK6bwpbQRATpfYQN0EavFEHATVMJTTY5IAbtl5_NrBtZ-EjLwWd0AswOOqqJ2Tek5RcjFkI0IqIH7S9bujh0_XJoGViR9_YJRRFAGzb6WzRqzGlQ6LPPgwfuHoVFDf0lmVN1HBbxT0qQ="
+      },
+      {
+        "label": "mufgresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs="
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpyCaEUn4plolVn_kCifKNrEYp_Xb6OyiN7BGSKdSs2son1e-LFWlJy90RNR7erGEHSYnvZ8d1IpUWHKjx54r7_Mh8nmYy9GAlU9wYFz7K1Kf5uFW_H8z1c3GE92fZpNOWv-2ayiZD_GsKTD1Xc8U8QGO7ksA="
+      },
+      {
+        "label": "stattimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3mz4RTm78qZcppIbIgf9cGQX5adhehQtIEhH6t8gtlFNaFQHZi3i3M5R9yxlToLizP8-cIhMwgLB0k1skLdlpozBhGlpquN99iGdlhmsLWdaFxMN-RKEScIFFtUMIAHXfbtMzrFE9yjnCLrTd3BmRrLOeiG-RCEqD71G9NutRwZKz0K6a2II96vd9NBp8q4hwn2OXfmjCyRUG7ZunPfJSfZEMa85Suw=="
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpyCaEUn4plolVn_kCifKNrEYp_Xb6OyiN7BGSKdSs2son1e-LFWlJy90RNR7erGEHSYnvZ8d1IpUWHKjx54r7_Mh8nmYy9GAlU9wYFz7K1Kf5uFW_H8z1c3GE92fZpNOWv-2ayiZD_GsKTD1Xc8U8QGO7ksA="
+      },
+      {
+        "label": "theinvestor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWSpJu28UnfAo5pvUc-B2eFwwiwctSPmdoi4ZWXvw38wlBfWVRUJGvQYXgvRSQQx8DgjDjU8HW7bDu3ENkuRbi2i4B263dOgKHYYVztB8bQYQdttpLrdaGNkd1wPdexo_98FkdRXhdzSzixx0hKy99QMOACgUKbP6K_RTPsTHfVIfMiGMdLZJBTE5InjRZDVSi5RVtEBrC2EORnBJHteH_s24wk5MzhQ=="
+      },
+      {
+        "label": "ainvest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXxfobdnA04uiLpjSGV3YAJOAvpGDorIBv8y8Lo6GbSizM7_a6eezdH5qvGJ34sCQzOtcgT1YXCA4qB3q8PHaV8nGY_xcCqklFdsuYC7CfGIxz0qa7t-VdEsfF5TYhav74pziASSwgBJnD6mFqjaIgWg_J-ctIw6D3cA_uKu8a6mKXQZSei6QG1ITGLhLqLww7D4WZfVCBbA=="
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpyCaEUn4plolVn_kCifKNrEYp_Xb6OyiN7BGSKdSs2son1e-LFWlJy90RNR7erGEHSYnvZ8d1IpUWHKjx54r7_Mh8nmYy9GAlU9wYFz7K1Kf5uFW_H8z1c3GE92fZpNOWv-2ayiZD_GsKTD1Xc8U8QGO7ksA="
+      },
+      {
+        "label": "ainvest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXxfobdnA04uiLpjSGV3YAJOAvpGDorIBv8y8Lo6GbSizM7_a6eezdH5qvGJ34sCQzOtcgT1YXCA4qB3q8PHaV8nGY_xcCqklFdsuYC7CfGIxz0qa7t-VdEsfF5TYhav74pziASSwgBJnD6mFqjaIgWg_J-ctIw6D3cA_uKu8a6mKXQZSei6QG1ITGLhLqLww7D4WZfVCBbA=="
+      },
+      {
+        "label": "theinvestor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWSpJu28UnfAo5pvUc-B2eFwwiwctSPmdoi4ZWXvw38wlBfWVRUJGvQYXgvRSQQx8DgjDjU8HW7bDu3ENkuRbi2i4B263dOgKHYYVztB8bQYQdttpLrdaGNkd1wPdexo_98FkdRXhdzSzixx0hKy99QMOACgUKbP6K_RTPsTHfVIfMiGMdLZJBTE5InjRZDVSi5RVtEBrC2EORnBJHteH_s24wk5MzhQ=="
+      },
+      {
+        "label": "stattimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3mz4RTm78qZcppIbIgf9cGQX5adhehQtIEhH6t8gtlFNaFQHZi3i3M5R9yxlToLizP8-cIhMwgLB0k1skLdlpozBhGlpquN99iGdlhmsLWdaFxMN-RKEScIFFtUMIAHXfbtMzrFE9yjnCLrTd3BmRrLOeiG-RCEqD71G9NutRwZKz0K6a2II96vd9NBp8q4hwn2OXfmjCyRUG7ZunPfJSfZEMa85Suw=="
+      },
+      {
+        "label": "ainvest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXxfobdnA04uiLpjSGV3YAJOAvpGDorIBv8y8Lo6GbSizM7_a6eezdH5qvGJ34sCQzOtcgT1YXCA4qB3q8PHaV8nGY_xcCqklFdsuYC7CfGIxz0qa7t-VdEsfF5TYhav74pziASSwgBJnD6mFqjaIgWg_J-ctIw6D3cA_uKu8a6mKXQZSei6QG1ITGLhLqLww7D4WZfVCBbA=="
+      },
+      {
+        "label": "ainvest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuuNMD5o2tcEk_uGMR_wWCkDiAY2pWjcExn5xJE8tivv_eXLmzSYltL13DbkfQgUGAOuM92cWx5PM2ZtfqI_w9gKctoEJCgssBoc3NzjDBV_IIRrygsBvy4ylYLyaK_xXIc_htVzBMUGIso68zRem69CVtqznqfncimxA2FNIszlNO0ZmuwN14wtm3Gpm1AC_HWCFcM3uUayTrzHy4sQ=="
+      },
+      {
+        "label": "bakermckenzie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_nkVdc_sbnbBuehFZHsgjNvUKMxO8ocdrVLKsPryENhQopUQeZLxvSeFpOUH1Oe4lcYqLgIcKtLk4WjTlxNLLnkCtyGXmn_u2u91ueK5N36IwGCAOSHYAGjBZ64gSClH2Y8Ec0-dPPXlY_BQQBkc86VKNOd33aNEYk6TpFOwLJ5vHnYbCGov3r3yxZPqptS90Zqc25518pLn94IPEfIyfOE6ga2C7E2cw8SBbNTF6dBjc9Tc21g=="
+      },
+      {
+        "label": "thesaigontimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKNWdZGqBOUAZ4od_7R-knzYWUCPzyJGq8JGxWenk8eD3r52MbkAXS5HlRCiYVYywJVBEABFvOBgQPAp8cy1fAisMMrVurbCN4Dx01i326ZfGos2yJ7CkumeZnD4MozHGxMl_rz-Wovo4l-lzb2FLZgiNjbQ-OH0ZxsqNr6X1rSe7d8MUofKY8upzWM5LY7Q=="
+      },
+      {
+        "label": "bakermckenzie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_nkVdc_sbnbBuehFZHsgjNvUKMxO8ocdrVLKsPryENhQopUQeZLxvSeFpOUH1Oe4lcYqLgIcKtLk4WjTlxNLLnkCtyGXmn_u2u91ueK5N36IwGCAOSHYAGjBZ64gSClH2Y8Ec0-dPPXlY_BQQBkc86VKNOd33aNEYk6TpFOwLJ5vHnYbCGov3r3yxZPqptS90Zqc25518pLn94IPEfIyfOE6ga2C7E2cw8SBbNTF6dBjc9Tc21g=="
+      },
+      {
+        "label": "bakermckenzie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_nkVdc_sbnbBuehFZHsgjNvUKMxO8ocdrVLKsPryENhQopUQeZLxvSeFpOUH1Oe4lcYqLgIcKtLk4WjTlxNLLnkCtyGXmn_u2u91ueK5N36IwGCAOSHYAGjBZ64gSClH2Y8Ec0-dPPXlY_BQQBkc86VKNOd33aNEYk6TpFOwLJ5vHnYbCGov3r3yxZPqptS90Zqc25518pLn94IPEfIyfOE6ga2C7E2cw8SBbNTF6dBjc9Tc21g=="
+      },
+      {
+        "label": "bakermckenzie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_nkVdc_sbnbBuehFZHsgjNvUKMxO8ocdrVLKsPryENhQopUQeZLxvSeFpOUH1Oe4lcYqLgIcKtLk4WjTlxNLLnkCtyGXmn_u2u91ueK5N36IwGCAOSHYAGjBZ64gSClH2Y8Ec0-dPPXlY_BQQBkc86VKNOd33aNEYk6TpFOwLJ5vHnYbCGov3r3yxZPqptS90Zqc25518pLn94IPEfIyfOE6ga2C7E2cw8SBbNTF6dBjc9Tc21g=="
+      },
+      {
+        "label": "vietnamnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrDspDTX8lUgWEdfkg9GgPBZIagtnV-VUu7W92dpc2Tea1Yewzfn6riTHkYk1sEoM4ao6q9DNFiHL4VGAgy5TLP_CHo8_Ct68ke3wwXFUUwhMXGu3TMJumHuKJqV-TKAYuM7AAbJh-7BlQHKvPcBGXPShVa6AirBOC8wbxPNHXpiuH3Jb51JCEopstKJ15srYufjqdZWGv"
+      },
+      {
+        "label": "vietnamnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrDspDTX8lUgWEdfkg9GgPBZIagtnV-VUu7W92dpc2Tea1Yewzfn6riTHkYk1sEoM4ao6q9DNFiHL4VGAgy5TLP_CHo8_Ct68ke3wwXFUUwhMXGu3TMJumHuKJqV-TKAYuM7AAbJh-7BlQHKvPcBGXPShVa6AirBOC8wbxPNHXpiuH3Jb51JCEopstKJ15srYufjqdZWGv"
+      },
+      {
+        "label": "vietnamnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrDspDTX8lUgWEdfkg9GgPBZIagtnV-VUu7W92dpc2Tea1Yewzfn6riTHkYk1sEoM4ao6q9DNFiHL4VGAgy5TLP_CHo8_Ct68ke3wwXFUUwhMXGu3TMJumHuKJqV-TKAYuM7AAbJh-7BlQHKvPcBGXPShVa6AirBOC8wbxPNHXpiuH3Jb51JCEopstKJ15srYufjqdZWGv"
+      },
+      {
+        "label": "vietnamnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrDspDTX8lUgWEdfkg9GgPBZIagtnV-VUu7W92dpc2Tea1Yewzfn6riTHkYk1sEoM4ao6q9DNFiHL4VGAgy5TLP_CHo8_Ct68ke3wwXFUUwhMXGu3TMJumHuKJqV-TKAYuM7AAbJh-7BlQHKvPcBGXPShVa6AirBOC8wbxPNHXpiuH3Jb51JCEopstKJ15srYufjqdZWGv"
+      },
+      {
+        "label": "ainvest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXxfobdnA04uiLpjSGV3YAJOAvpGDorIBv8y8Lo6GbSizM7_a6eezdH5qvGJ34sCQzOtcgT1YXCA4qB3q8PHaV8nGY_xcCqklFdsuYC7CfGIxz0qa7t-VdEsfF5TYhav74pziASSwgBJnD6mFqjaIgWg_J-ctIw6D3cA_uKu8a6mKXQZSei6QG1ITGLhLqLww7D4WZfVCBbA=="
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGYGs2OrvdsIVXbwn3RHm4Zt43gYJFjfsgC9jZFiPBve5HcTaC8oiRdwW1UXE050dVwpPRxquLA20AxNky2D68NMaGhuy1oxbSA6FJx6JqdczcXQukG9YpQS93zc9MeJDCj0PBXTCsO3bIKE5WtxvHPEfj3G2-602qyT-8vgFKyIurjb3sNrH9-A5YM4q5YGPTB3Pkx63ntRcZVNe1shO6aWNsA=="
+      },
+      {
+        "label": "echemi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHDtSwjssUPXItDlbp7xq5Xlj7Oxiu5vb6AS4jD9slZzY94911MB_P8HNTLtfL946dP367jsFWsZenwPXt9givMmIoljn89ywmpy2Jn3rmWDsiWtj8inlIQJtXGVjBAx_L"
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpyCaEUn4plolVn_kCifKNrEYp_Xb6OyiN7BGSKdSs2son1e-LFWlJy90RNR7erGEHSYnvZ8d1IpUWHKjx54r7_Mh8nmYy9GAlU9wYFz7K1Kf5uFW_H8z1c3GE92fZpNOWv-2ayiZD_GsKTD1Xc8U8QGO7ksA="
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGYGs2OrvdsIVXbwn3RHm4Zt43gYJFjfsgC9jZFiPBve5HcTaC8oiRdwW1UXE050dVwpPRxquLA20AxNky2D68NMaGhuy1oxbSA6FJx6JqdczcXQukG9YpQS93zc9MeJDCj0PBXTCsO3bIKE5WtxvHPEfj3G2-602qyT-8vgFKyIurjb3sNrH9-A5YM4q5YGPTB3Pkx63ntRcZVNe1shO6aWNsA=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4LHPxEJFoPEvLcrtIl_jHKzBazyxffyGnku_DqtJOYi2_NtBhft1OjzhBbTIjfh7O8QAmMzDvuOZ9nfJ9f9v9QFo1uhm0jfeTufcON5HHIvYepx90IEeP2OOUGYIug7eBPaFiCFPcUzA8yLXmxAk-Z2OEx1zBcjfDjs1DxJ7DUQyhQuPmtC4MmprUn3FJPHw02J8S2JwqVDpO24qzusVuk3JFMbnHP7nZ0w=="
+      },
+      {
+        "label": "ainvest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXxfobdnA04uiLpjSGV3YAJOAvpGDorIBv8y8Lo6GbSizM7_a6eezdH5qvGJ34sCQzOtcgT1YXCA4qB3q8PHaV8nGY_xcCqklFdsuYC7CfGIxz0qa7t-VdEsfF5TYhav74pziASSwgBJnD6mFqjaIgWg_J-ctIw6D3cA_uKu8a6mKXQZSei6QG1ITGLhLqLww7D4WZfVCBbA=="
+      },
+      {
+        "label": "cfr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHY4wJbApqz7rRPlvrfSvDk_iYS6wSnz0n2xF6Xfz5JNkUu4XMBhABX-ItW5u0TgDoIalOcwIj0xzcQTBisGsbhJhuaJaQVjk-pRmI7lzQTnmrkgXJ1iaEu6JktraHIUJB6wME_9z3PM2h3B4j-JMbFWN7Lrs9UMbnLYCzTEv0DAw=="
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVCqWKU6E5hg4vAZN_c4ZKMqX-n3jkcEd3EuuwebFn5etjYhfTxzfKjtD_RTSmAoguRM-copAYY2t01RVBQCTmrOQgAb0R0lNlJ26oSA4jnEoAknEXerjgB_za0-ebY9G7YfF8aVw8lKfeWR7fperCN2tkjclk20WnoURlKMRe9au11iThzX6_orsnme-GyTB2rx3wdLxgCikhUA0B2268_BxT7SM="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNpj1KrFDGR2aW1u7Ah32-aVpjT-v66nP5F4NrErLS0XVwziIpB7yadtMwp_omnkXCAuKIOgRwHsnAPKfbQIxAkc21DLVKs7xuK6Sv3_CawRihMS3LLU44XMtdVLO0jfCos8ic8BQb5JycAfTVkSsrC7dJAvH2NWy1X8Q_sZ9NLhApWV9UshFW_9Vv-iXUpHA8S6aCi8-IQ9hc7NSvweotcx1EnihPZie4HEs="
+      },
+      {
+        "label": "mufgresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC6ujaW3APUHLVtBJUNLlEKLplggKpC3TtWggW4_I7PhEHx2I6prg1Fl4jJMkxjlLA1v6e6n7K_XVhMgdrh0QSQoZe1MvzVaJ0PC4eymfujuBUVwA_wZTDe0kWzXakeEuv9AytroVv_VadUtSpB-h3pkoMDWfobxcfpY1mli6p7YDXFG8twRbJ_f3CDneXeAhmlBq-OSfA3dio"
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHsJxhH9Z1Qs0m9OjwKldr-CEA5v7Zfp4FFgGtABZ0bmiiHdNyUTMxvlUH5YKYs8rMr0L_Yh0iAMU4IBorX7yqjqvtFv22wH0DO25Fc7IU3KNEGdujW7PtRM0pD-6ZgOdtlnYzWGrUqvyj3n_nyWJoypnQ7bol"
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5axx-5QO1IOMtcX6prPvxF8-0RykibDcsZIk0ynME2kKniC7qNhdW9h0hBerxhQXgoX9VL4Xxipfmg3nbFyFH_3hJ08IY25kknKIn5-RedOVDY636LEvjo6jACV12Daj-SOVOoW4UfQJWc0hVQqpzlIgcx6ZFDN0nRHOVAKmIxNry1Edu"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF60b18td8bNx8b15z-Icnoyxx9qHPnGq6J5iHtRAIHt1Kdygt77rjABnbVfBcQolAsDUHx3GZ1pvQnb4d8n1yx91hdA04oz6Rd_r77_2TKyEF57wJ8fST-SUdlSmNDE3-xHiB-tyRbIz7fpypBPY8o4gA8ftxHr915ZtwtVC-205GwnZnQkL6VqxUz-J45riWGnkn5GsjuxOM5srSjQjr7OHC9fQ=="
+      },
+      {
+        "label": "freightwaves",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkWek0WRSaadSiUBv5mEZHH94jdxuP0KDVtHR59B0-_e74n7CcXJuzF8ap5iDnv-98YxdA7Iuur0EG9rZU0BiqLTtcGUbvRcdFMssQ8p-pecTq3AnTVsZ8X-IpIZd9BbUjroncJpypmw7X3gDHiu2FkIeuMqySmJHjmGLlj5aQ7VsVdD38OnszO2QUWfx4dXePo500lXDfItGH0s-l"
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsa3HvU60q0ZL48DQvxhKJ9rAKptC0WZ43CvyxkFSr3Vdj_DV7ySappyv8ywp-qc7AKF7_DsufNYrv7bTxRss6Q7JT_-jpdnbkDuH-B1RvDsUziW6FV46GdUujOUmRNmLf1OGKPQbdeueH7jJ24isknVzFCZ9DcLVLvnF6LU7GbO-kz8odfPRfugU="
+      },
+      {
+        "label": "globalnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB5IzQ9sM0M-qy3EG8gxv1CO1sWKU5X4VCm7f-9KIvjCPoxL6_k_ZIX8AITdFdFsl4ur1NBv24zTlJIuOylY-4eKnu3CU3-hJULc88wcFbsvj9F5rDYLTECSgQ3_5s9xixWHDBD7Hd38UGZUojn5xPA-iqW5xI5eJ_bH6oh38LczxiRqWaVII="
+      },
+      {
+        "label": "vietnam-briefing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhovoOGg0zr_v81WoN09-pNG6euuCfWy4ezqqxkfUW7zpXZ5A4MxZtATjgQszBQkQuGjVdjRSYnloL5_JIhsa2oAb1bA3bXg3R8NPwuQMA9JiPALkq9Ba-gWo4crMFV3vGkLF-wFE9dMjGUkFnpBIme-gvQbcyRvnCNZd0PIKtBEf8ERhCwGfalGwVRwzEQTyblUiQ8PIw26k19icc4GHBzhuRrrkGewxDu84="
+      },
+      {
+        "label": "epp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpyCaEUn4plolVn_kCifKNrEYp_Xb6OyiN7BGSKdSs2son1e-LFWlJy90RNR7erGEHSYnvZ8d1IpUWHKjx54r7_Mh8nmYy9GAlU9wYFz7K1Kf5uFW_H8z1c3GE92fZpNOWv-2ayiZD_GsKTD1Xc8U8QGO7ksA="
+      },
+      {
+        "label": "stattimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3mz4RTm78qZcppIbIgf9cGQX5adhehQtIEhH6t8gtlFNaFQHZi3i3M5R9yxlToLizP8-cIhMwgLB0k1skLdlpozBhGlpquN99iGdlhmsLWdaFxMN-RKEScIFFtUMIAHXfbtMzrFE9yjnCLrTd3BmRrLOeiG-RCEqD71G9NutRwZKz0K6a2II96vd9NBp8q4hwn2OXfmjCyRUG7ZunPfJSfZEMa85Suw=="
+      },
+      {
+        "label": "ainvest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXxfobdnA04uiLpjSGV3YAJOAvpGDorIBv8y8Lo6GbSizM7_a6eezdH5qvGJ34sCQzOtcgT1YXCA4qB3q8PHaV8nGY_xcCqklFdsuYC7CfGIxz0qa7t-VdEsfF5TYhav74pziASSwgBJnD6mFqjaIgWg_J-ctIw6D3cA_uKu8a6mKXQZSei6QG1ITGLhLqLww7D4WZfVCBbA=="
+      },
+      {
+        "label": "automotivelogistics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGGYGs2OrvdsIVXbwn3RHm4Zt43gYJFjfsgC9jZFiPBve5HcTaC8oiRdwW1UXE050dVwpPRxquLA20AxNky2D68NMaGhuy1oxbSA6FJx6JqdczcXQukG9YpQS93zc9MeJDCj0PBXTCsO3bIKE5WtxvHPEfj3G2-602qyT-8vgFKyIurjb3sNrH9-A5YM4q5YGPTB3Pkx63ntRcZVNe1shO6aWNsA=="
+      },
+      {
+        "label": "echemi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHDtSwjssUPXItDlbp7xq5Xlj7Oxiu5vb6AS4jD9slZzY94911MB_P8HNTLtfL946dP367jsFWsZenwPXt9givMmIoljn89ywmpy2Jn3rmWDsiWtj8inlIQJtXGVjBAx_L"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

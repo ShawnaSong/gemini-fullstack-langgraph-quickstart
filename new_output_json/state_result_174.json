@@ -1,0 +1,135 @@
+{
+  "file_name": "state_result_174.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.537376",
+  "data": {
+    "messages": [
+      {
+        "content": "What is 100 USD currently worth in Euros? Please print out from when the excahnge rate is taken.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "d3a171a1-a629-4d38-bada-35a3e45002c0",
+        "example": false
+      },
+      {
+        "content": "As of July 16, 2025, 100 U.S. Dollars (USD) is approximately equivalent to 85.44 EUR [revolut](https://vertexaisearch.cloud.google.com/id/0-0). The US Dollar to Euro exchange rate is around 0.862 [wise](https://vertexaisearch.cloud.google.com/id/0-1) [wise](https://vertexaisearch.cloud.google.com/id/0-2). This would make 100 USD equal to roughly 85.71 EUR [xe](https://vertexaisearch.cloud.google.com/id/0-3) or 86.11 EUR [revolut](https://vertexaisearch.cloud.google.com/id/0-4) based on other sources. Keep in mind that exchange rates are dynamic and can fluctuate [revolut](https://vertexaisearch.cloud.google.com/id/0-0), so it's best to check a real-time converter before making any transactions [revolut](https://vertexaisearch.cloud.google.com/id/0-4) [revolut](https://vertexaisearch.cloud.google.com/id/0-0).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "9eebe640-813f-4653-a173-dc75b8487dac",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "current EUR exchange rate for 100 USD"
+    ],
+    "web_research_result": [
+      "As of July 16, 2025, the exchange rate for 100 U.S. Dollars (USD) to Euros (EUR) fluctuates around 85.44 EUR [revolut](https://vertexaisearch.cloud.google.com/id/0-0). Here's a summary of the exchange rates:\n\n*   **Current Exchange Rate:** The US Dollar to Euro exchange rate is approximately 0.862 [wise](https://vertexaisearch.cloud.google.com/id/0-1) [wise](https://vertexaisearch.cloud.google.com/id/0-2). This means that 1 USD is equivalent to roughly 0.862 EUR [wise](https://vertexaisearch.cloud.google.com/id/0-2) [wise](https://vertexaisearch.cloud.google.com/id/0-1).\n\n*   **Converting 100 USD:** Based on current exchange rates, 100 USD is approximately equivalent to 85.71 EUR [xe](https://vertexaisearch.cloud.google.com/id/0-3), 85.44 EUR [revolut](https://vertexaisearch.cloud.google.com/id/0-0), or 86.11 EUR [revolut](https://vertexaisearch.cloud.google.com/id/0-4).\n\n*   **Historical Data:**\n    *   The highest exchange rate in the last 6 months was on February 3, 2025, when 1 USD was worth 0.9762 EUR [wise](https://vertexaisearch.cloud.google.com/id/0-1) [wise](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   The lowest rate in the last 6 months was on July 2, 2025, when 1 USD was worth 0.8471 EUR [wise](https://vertexaisearch.cloud.google.com/id/0-1) [wise](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   The average exchange rate for the last 6 months was 1 USD = 0.9071 EUR [wise](https://vertexaisearch.cloud.google.com/id/0-1) [wise](https://vertexaisearch.cloud.google.com/id/0-2).\n\n*   **Recent Changes:**\n    *   The exchange rate on July 15, 2025, was 0.86179 EUR per 1 USD [exchangerates](https://vertexaisearch.cloud.google.com/id/0-5).\n    *   The US Dollar to Euro exchange rate is currently at a level of 0.8573, which is up from 0.8554 from the previous market day and down from 0.9168 one year ago [ycharts](https://vertexaisearch.cloud.google.com/id/0-6).\n\nExchange rates are dynamic and subject to constant change due to market fluctuations [revolut](https://vertexaisearch.cloud.google.com/id/0-0). It's advisable to check the current rate in-app before making any conversions [revolut](https://vertexaisearch.cloud.google.com/id/0-4) [revolut](https://vertexaisearch.cloud.google.com/id/0-0).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "revolut",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1WncXJd9QEtDnYv-cD9PaRfD0zDsg9_PK-GgPiBD68paEo2lJs0ATYxkNvdfErLz14v3A6A4z7fIIfzOrORc02nXlbce6MbPdVW5yHbGJ59_bsCo3lZVnxm7RAkGD5Jml0ODF5Umijxawnc-jJCsON2tBX00zV71Z0KwA6bGxpGHOLT2kwkjXUlLAIepfb1bWHibduDgSbw=="
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPKGeIlXoMfufW8I40K-1FQG78k88dN4aP0KU3Ws2smmePZnU0ZyLGUkJAb2rQlN18v82CZOdEzGaj1PXTTOPSOpCKjtZuE5lF8Db2tJ39Vqal7CI1bPLOOED0iCM9MGjs1nIecyHcD82puvO7ZeWHSuoE-FYeYIxD"
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZs63TU_2s-WS6HiB-Ami_Gi1BuW_NPzVH_Pxxf75pJpxf4Ijj_dK4fcZjNleYKpPynGEVOO1ORqwQRImnV1_6UHiB_yloJcGZvonA55iFXPoqEKkynKSRXhbg0KkuACuNfxDlViz6MMEHWRshtKseVmzQTuaOu6Iz"
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZs63TU_2s-WS6HiB-Ami_Gi1BuW_NPzVH_Pxxf75pJpxf4Ijj_dK4fcZjNleYKpPynGEVOO1ORqwQRImnV1_6UHiB_yloJcGZvonA55iFXPoqEKkynKSRXhbg0KkuACuNfxDlViz6MMEHWRshtKseVmzQTuaOu6Iz"
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPKGeIlXoMfufW8I40K-1FQG78k88dN4aP0KU3Ws2smmePZnU0ZyLGUkJAb2rQlN18v82CZOdEzGaj1PXTTOPSOpCKjtZuE5lF8Db2tJ39Vqal7CI1bPLOOED0iCM9MGjs1nIecyHcD82puvO7ZeWHSuoE-FYeYIxD"
+      },
+      {
+        "label": "xe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHywJ3_hiVb1WdJH2g5a60dtpSr5hCAZ2sw6wbBlb2QhWMhZHls3kNNZSq8Ust8OnuXoHD8Pq6IZ3nfA-stdQEQhsY68IQ2QrSCAMGn4EKF4H_pGQjKvVPhSwvsQytfAAV9Ipl3NR9u2ZMjv6yhSjYoVsRQ34a6eUemLeOnkXdKkjD-RA=="
+      },
+      {
+        "label": "revolut",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1WncXJd9QEtDnYv-cD9PaRfD0zDsg9_PK-GgPiBD68paEo2lJs0ATYxkNvdfErLz14v3A6A4z7fIIfzOrORc02nXlbce6MbPdVW5yHbGJ59_bsCo3lZVnxm7RAkGD5Jml0ODF5Umijxawnc-jJCsON2tBX00zV71Z0KwA6bGxpGHOLT2kwkjXUlLAIepfb1bWHibduDgSbw=="
+      },
+      {
+        "label": "revolut",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrCFH5Zekus8PZ6IFynk89_z1KTO3IWBU-ZsSS6FCjAQGijf1mqVq1keXRULnx0UPISCfIA3KFmnA7x5OP9AY-i2BgaDXV96gs-UWvwvUHGKR7Hnr8Y4P07vD0YzR6nDe3UsLEUaSgtl87JlGlvron_gQov6sNo3--geUWB4Ls---21nklTcnYIHlSsKP7Kc9ZOg=="
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPKGeIlXoMfufW8I40K-1FQG78k88dN4aP0KU3Ws2smmePZnU0ZyLGUkJAb2rQlN18v82CZOdEzGaj1PXTTOPSOpCKjtZuE5lF8Db2tJ39Vqal7CI1bPLOOED0iCM9MGjs1nIecyHcD82puvO7ZeWHSuoE-FYeYIxD"
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZs63TU_2s-WS6HiB-Ami_Gi1BuW_NPzVH_Pxxf75pJpxf4Ijj_dK4fcZjNleYKpPynGEVOO1ORqwQRImnV1_6UHiB_yloJcGZvonA55iFXPoqEKkynKSRXhbg0KkuACuNfxDlViz6MMEHWRshtKseVmzQTuaOu6Iz"
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPKGeIlXoMfufW8I40K-1FQG78k88dN4aP0KU3Ws2smmePZnU0ZyLGUkJAb2rQlN18v82CZOdEzGaj1PXTTOPSOpCKjtZuE5lF8Db2tJ39Vqal7CI1bPLOOED0iCM9MGjs1nIecyHcD82puvO7ZeWHSuoE-FYeYIxD"
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZs63TU_2s-WS6HiB-Ami_Gi1BuW_NPzVH_Pxxf75pJpxf4Ijj_dK4fcZjNleYKpPynGEVOO1ORqwQRImnV1_6UHiB_yloJcGZvonA55iFXPoqEKkynKSRXhbg0KkuACuNfxDlViz6MMEHWRshtKseVmzQTuaOu6Iz"
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPKGeIlXoMfufW8I40K-1FQG78k88dN4aP0KU3Ws2smmePZnU0ZyLGUkJAb2rQlN18v82CZOdEzGaj1PXTTOPSOpCKjtZuE5lF8Db2tJ39Vqal7CI1bPLOOED0iCM9MGjs1nIecyHcD82puvO7ZeWHSuoE-FYeYIxD"
+      },
+      {
+        "label": "wise",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZs63TU_2s-WS6HiB-Ami_Gi1BuW_NPzVH_Pxxf75pJpxf4Ijj_dK4fcZjNleYKpPynGEVOO1ORqwQRImnV1_6UHiB_yloJcGZvonA55iFXPoqEKkynKSRXhbg0KkuACuNfxDlViz6MMEHWRshtKseVmzQTuaOu6Iz"
+      },
+      {
+        "label": "exchangerates",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF13XfDZzu8-8pJfS5ENBkCgky5H7zxiAyZdVVya-wmLu1HZOAV6kxGY7V5etFf3UOCFrtqu5sT1it525K2QG5E5ZFaiVwDRsiPYnI2qH5-Ga328_TM2u41Xemz9TQTE0PNu6fn-UI1RWAZFe3Ty5rtSFa1x1DRtUMIuElAjc4="
+      },
+      {
+        "label": "ycharts",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuiM1kAlmx4EGojBOVzilraf9a_hSrKjbyVXgKlqaumwJBbbpiD4vlzLpYhKYRj8cJp5sBqb-rCcmZXGseyGByyJt5xhuNaTW9Ac8RYf2l3IUJ3FNYkmlT0bb9BWgger2cZ9NvykWyVN6fI5EI67MIuv3zbgMaF0Ox"
+      },
+      {
+        "label": "revolut",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1WncXJd9QEtDnYv-cD9PaRfD0zDsg9_PK-GgPiBD68paEo2lJs0ATYxkNvdfErLz14v3A6A4z7fIIfzOrORc02nXlbce6MbPdVW5yHbGJ59_bsCo3lZVnxm7RAkGD5Jml0ODF5Umijxawnc-jJCsON2tBX00zV71Z0KwA6bGxpGHOLT2kwkjXUlLAIepfb1bWHibduDgSbw=="
+      },
+      {
+        "label": "revolut",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrCFH5Zekus8PZ6IFynk89_z1KTO3IWBU-ZsSS6FCjAQGijf1mqVq1keXRULnx0UPISCfIA3KFmnA7x5OP9AY-i2BgaDXV96gs-UWvwvUHGKR7Hnr8Y4P07vD0YzR6nDe3UsLEUaSgtl87JlGlvron_gQov6sNo3--geUWB4Ls---21nklTcnYIHlSsKP7Kc9ZOg=="
+      },
+      {
+        "label": "revolut",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1WncXJd9QEtDnYv-cD9PaRfD0zDsg9_PK-GgPiBD68paEo2lJs0ATYxkNvdfErLz14v3A6A4z7fIIfzOrORc02nXlbce6MbPdVW5yHbGJ59_bsCo3lZVnxm7RAkGD5Jml0ODF5Umijxawnc-jJCsON2tBX00zV71Z0KwA6bGxpGHOLT2kwkjXUlLAIepfb1bWHibduDgSbw=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

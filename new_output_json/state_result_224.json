@@ -1,0 +1,182 @@
+{
+  "file_name": "state_result_224.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.707700",
+  "data": {
+    "messages": [
+      {
+        "content": "給我中職2025選秀可能人選",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "56eacd25-11b6-4d4e-b4a7-c9d33aa619d8",
+        "example": false
+      },
+      {
+        "content": "The CPBL 2025 draft took place on June 30, 2025 [reddit](https://vertexaisearch.cloud.google.com/id/0-1), [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1). Here are some of the players who were drafted:\n\n*   **Yu Chien:** A right-handed pitcher and the MVP of the 2019 WBSC U-18 Baseball World Cup, Yu Chien was expected to be a top-three pick [wbsc](https://vertexaisearch.cloud.google.com/id/0-0). He has a fastball that has reached over 150 km/h (93 mph) [wbsc](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Yu-Hao Chang (張育豪):** Drafted in the first round by the Fubon Guardians, Chang is a power-hitting catcher [reddit](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Meng Chu (朱盟):** Selected in the second round by TSG, Chu is a high-ceiling offensive shortstop [reddit](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Cheng-Yu Liu (劉承佑):** Picked in the second round by Fubon, Liu is noted as a hitting-machine outfielder [reddit](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Hung-Liang Wei:** Drafted in the first round by TSG Hawks, Wei is a pitcher from New Taipei City [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Wei-Chieh Huang:** Drafted in the first round by Wei-Chuan Dragons, Huang is a pitcher from the Pittsburgh Pirates organization [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Yi-En Chung:** Drafted in the first round by Rakuten Monkeys, Chung is a pitcher from Shi-Yuan High School [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Wei-Che Tseng:** Drafted in the first round by Uni-President Lions, Tseng is a pitcher from National Taiwan Sport University [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Sheng-Chieh Tsai:** Drafted in the first round by CTBC Brothers, Tsai is an infielder from Ku-Pao Home Economics & Commercial High School [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1).\n\nOther potential draftees mentioned include Chi Hsiao, a right-handed pitcher [prepbaseballreport](https://vertexaisearch.cloud.google.com/id/1-2), Cheng-An Kuo, a right-handed pitcher (son of Yung-Chih Kuo) [prepbaseballreport](https://vertexaisearch.cloud.google.com/id/1-2), and Shin-An Peng, a left-handed corner outfielder [prepbaseballreport](https://vertexaisearch.cloud.google.com/id/1-2). The first round of the draft was pitcher-heavy [reddit](https://vertexaisearch.cloud.google.com/id/0-1), [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "3e73c761-3e55-41ae-bf09-16475686e17c",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "CPBL 2025 draft potential candidates",
+      "Besides Yu Chien, who are some other potential top prospects for the 2025 CPBL draft, and what are their key strengths and statistics?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent information on \"CPBL 2025 draft potential candidates\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of information related to the CPBL 2025 draft and potential candidates:\n\n**Potential Top Draft Picks:**\n\n*   **Yu Chien:** The MVP of the 2019 WBSC U-18 Baseball World Cup, Yu Chien, a right-handed pitcher, is eligible for the CPBL draft and is expected to be selected with one of the first three picks [wbsc](https://vertexaisearch.cloud.google.com/id/0-0). Travel limitations due to the COVID-19 pandemic altered his plans to play overseas [wbsc](https://vertexaisearch.cloud.google.com/id/0-0). During the WBSC U-18 Baseball World Cup final against the USA, Yu pitched 6.2 innings, allowing three hits and striking out seven [wbsc](https://vertexaisearch.cloud.google.com/id/0-0). His fastball has reached over 150 km/h (93 mph) [wbsc](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**CPBL Draft Overview:**\n\n*   The CPBL draft took place on June 30, 2025 [reddit](https://vertexaisearch.cloud.google.com/id/0-1).\n*   One Reddit user noted that there wasn't much intrigue in terms of top players returning from abroad to shake things up [reddit](https://vertexaisearch.cloud.google.com/id/0-1). They were happy with Fubon getting the top bat, an 18-year-old, and observed a pitcher-heavy first round [reddit](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Other CPBL Information:**\n\n*   The Uni-President 7-Eleven Lions won the CPBL's first-half title in 2025 [focustaiwan](https://vertexaisearch.cloud.google.com/id/0-2).\n*   The CPBL is considered to be between High-A and Low-A level compared to MLB and its minor leagues [baseballamerica](https://vertexaisearch.cloud.google.com/id/0-3).\n*   The 2025 CPBL foreign player signing tracker is being updated throughout the season [cpblstats](https://vertexaisearch.cloud.google.com/id/0-4).\n\nIt's important to note that some search results refer to the Canadian Premier Baseball League (also abbreviated CPBL) and the MLB draft, which are distinct from the Chinese Professional Baseball League.\n",
+      "While information is limited regarding specific CPBL draft prospects beyond Yu Chien for the 2025 draft, some potential names and general trends can be identified:\n\n**Players Mentioned:**\n\n*   **Yu-Hao Chang (張育豪):** Drafted in the first round by the Fubon Guardians, Chang is a power-hitting catcher.\n*    [reddit](https://vertexaisearch.cloud.google.com/id/1-0) [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1)**Meng Chu (朱盟):** Selected in the second round by TSG, Chu is a high-ceiling offensive shortstop.\n*   **Ch [reddit](https://vertexaisearch.cloud.google.com/id/1-0)eng-Yu Liu (劉承佑):** Picked in the second round by Fubon, Liu is noted as a hitting-machine outfielder.\n*   **Hung-Lia [reddit](https://vertexaisearch.cloud.google.com/id/1-0)ng Wei:** Drafted in the first round by TSG Hawks, Wei is a pitcher from New Taipei City.\n*   **Wei-Chie [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1)h Huang:** Drafted in the first round by Wei-Chuan Dragons, Huang is a pitcher from the Pittsburgh Pirates organization.\n*   **Yi-En Ch [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1)ung:** Drafted in the first round by Rakuten Monkeys, Chung is a pitcher from Shi-Yuan High School.\n*   **Wei-Che  [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1)Tseng:** Drafted in the first round by Uni-President Lions, Tseng is a pitcher from National Taiwan Sport University.\n*   **Sheng-Ch [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1)ieh Tsai:** Drafted in the first round by CTBC Brothers, Tsai is an infielder from Ku-Pao Home Economics & Commercial High School.\n*   **Chi Hsia [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1)o:** A right-handed pitcher with an elite high-spin changeup (2,731 rpm) and a fastball up to 92 mph (2,550 rpm).\n*   **Cheng-An [prepbaseballreport](https://vertexaisearch.cloud.google.com/id/1-2) Kuo:** A right-handed pitcher with a four-pitch mix, Kuo throws up to 92 mph. His father is Yung-Chih Kuo, the current pitching coach for the Fubon Guardians.\n*   **Shin-An  [prepbaseballreport](https://vertexaisearch.cloud.google.com/id/1-2)Peng:** A left-handed corner outfielder with bat speed and power.\n\n**General Tre [prepbaseballreport](https://vertexaisearch.cloud.google.com/id/1-2)nds and Information:**\n\n*   The 2025 CPBL draft was held on June 30, 2025.\n*   The first  [baseball-reference](https://vertexaisearch.cloud.google.com/id/1-1)round of the 2025 CPBL draft was pitcher-heavy.\n*   The overal [reddit](https://vertexaisearch.cloud.google.com/id/1-0)l talent level in the 2025 draft is considered by some to be less than the previous year.\n*   In the CPB [reddit](https://vertexaisearch.cloud.google.com/id/1-0)L, teams were actively looking for foreign players for the 2025 season.\n*   The CPBL i [cpblstats](https://vertexaisearch.cloud.google.com/id/1-3) [cpblstats](https://vertexaisearch.cloud.google.com/id/1-4)s partnering with the Toronto Blue Jays Academy to provide exposure for players to MLB scouts.\n [cpblbaseball](https://vertexaisearch.cloud.google.com/id/1-5)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "wbsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKe-rWoo9ytQMaQUwl1DAQwmPZlKw87l2S6swLylvN0h7alnsfgjNY4ky8otAJWSN_uB-rqmZ6jN47d7OrGkGdIaDi3i91fmftTSazY3LsJuCEjjVsOqUPkkpACxPxk82_HJNV3VC3rXVNX7RkAHkx-YEG8-4nDfuFug5xpQEBmiLQq5P-qvyTuEagrnSoVC7JRsQAsxWrRHKhbxblhQ=="
+      },
+      {
+        "label": "wbsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKe-rWoo9ytQMaQUwl1DAQwmPZlKw87l2S6swLylvN0h7alnsfgjNY4ky8otAJWSN_uB-rqmZ6jN47d7OrGkGdIaDi3i91fmftTSazY3LsJuCEjjVsOqUPkkpACxPxk82_HJNV3VC3rXVNX7RkAHkx-YEG8-4nDfuFug5xpQEBmiLQq5P-qvyTuEagrnSoVC7JRsQAsxWrRHKhbxblhQ=="
+      },
+      {
+        "label": "wbsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKe-rWoo9ytQMaQUwl1DAQwmPZlKw87l2S6swLylvN0h7alnsfgjNY4ky8otAJWSN_uB-rqmZ6jN47d7OrGkGdIaDi3i91fmftTSazY3LsJuCEjjVsOqUPkkpACxPxk82_HJNV3VC3rXVNX7RkAHkx-YEG8-4nDfuFug5xpQEBmiLQq5P-qvyTuEagrnSoVC7JRsQAsxWrRHKhbxblhQ=="
+      },
+      {
+        "label": "wbsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKe-rWoo9ytQMaQUwl1DAQwmPZlKw87l2S6swLylvN0h7alnsfgjNY4ky8otAJWSN_uB-rqmZ6jN47d7OrGkGdIaDi3i91fmftTSazY3LsJuCEjjVsOqUPkkpACxPxk82_HJNV3VC3rXVNX7RkAHkx-YEG8-4nDfuFug5xpQEBmiLQq5P-qvyTuEagrnSoVC7JRsQAsxWrRHKhbxblhQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKMvrq8AfBnkx3b_MYFXjvqCrijxP9a1IiZ_yICh0J0hTPCLDKYtmtCXXemnG44GuWovgDUQaWfjODVvPRQgJAuBi8zMNh1LFrNU9e_rgHzOXHj_F1afNszKdS0xcQ8jWPLEipc-QuZ75c206aIude4yKQN2O4oquK"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKMvrq8AfBnkx3b_MYFXjvqCrijxP9a1IiZ_yICh0J0hTPCLDKYtmtCXXemnG44GuWovgDUQaWfjODVvPRQgJAuBi8zMNh1LFrNU9e_rgHzOXHj_F1afNszKdS0xcQ8jWPLEipc-QuZ75c206aIude4yKQN2O4oquK"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKMvrq8AfBnkx3b_MYFXjvqCrijxP9a1IiZ_yICh0J0hTPCLDKYtmtCXXemnG44GuWovgDUQaWfjODVvPRQgJAuBi8zMNh1LFrNU9e_rgHzOXHj_F1afNszKdS0xcQ8jWPLEipc-QuZ75c206aIude4yKQN2O4oquK"
+      },
+      {
+        "label": "focustaiwan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyiRqBbWn1Bo9rQBDOxnDrsnOTxW0MowKOaGaBnDMGzixOO4luXo9fHyuC0SFkW_M-4BuZleYuYIFHc_S0GQQN8G_Vh2CirnRNKxftwPosJcTNO8-etf-vEcyGOuME60B_hcbm"
+      },
+      {
+        "label": "baseballamerica",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2M1_T0A2JS2mSh-bKuRDhDTUAyEk-o_sixVrmABOhDhGwSmAsOivhh28iNb0QR61HZv5P0rme2POZj5HL-gKT3tbWcHcWU1Gh3i1OB9LCp-9sD22w3_NFaSWrFhKWOsxiB5bGg9UgT7yYbI8pyrq509h0dTh41d6uenzPmAatggGhxlOaj0jIRuzXsFslHNbXm6e_dHH1HhaJPBplkVc3Kao6UT5uEcnRD1E="
+      },
+      {
+        "label": "cpblstats",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCiyMyWRkJwfpZLIOjJ41eJtHNMX4Ce1Xa_4qwwduVQDvennoXWZbGWn-obBuuy2UXe_1bNs23GFi0K-UKemlB97Tl-vodsJ_fIGjI6xrYHpTUQJBGY7oPSuwLFgAeUl4G21S33inT7J9Hx1ga3QN7bT3DHRkyXJo="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZurbYwqSQ3K7bNLmFhEuyjlx92cLuEE31io2HYvj7Z-wx60L9aqfnV6XNOMZoT7cxCjlrDYwXQkyJLuDgSno2mXDAbl7gzOtIERamwns1hFG5kFtJ9E-VwVOO8jb0DfsZN7hhAWZHytCXaQFziulXJJeZDVX_zNqS4A=="
+      },
+      {
+        "label": "baseball-reference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpHBGJfXzrPOIztvvK-Yb6HrOpaa7gYYNGTnizLZpFze7FiW61MXCB0I-qaQ4iDjZGlxFgl3GNm2IXGuBj0s9TlJs-2lXDjTPcuO7GgeZVqLAD0HNWA52MORNB0-KTagPMlAw0YkTTmjox_yJWIm-Y9BOfwGg="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZurbYwqSQ3K7bNLmFhEuyjlx92cLuEE31io2HYvj7Z-wx60L9aqfnV6XNOMZoT7cxCjlrDYwXQkyJLuDgSno2mXDAbl7gzOtIERamwns1hFG5kFtJ9E-VwVOO8jb0DfsZN7hhAWZHytCXaQFziulXJJeZDVX_zNqS4A=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZurbYwqSQ3K7bNLmFhEuyjlx92cLuEE31io2HYvj7Z-wx60L9aqfnV6XNOMZoT7cxCjlrDYwXQkyJLuDgSno2mXDAbl7gzOtIERamwns1hFG5kFtJ9E-VwVOO8jb0DfsZN7hhAWZHytCXaQFziulXJJeZDVX_zNqS4A=="
+      },
+      {
+        "label": "baseball-reference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpHBGJfXzrPOIztvvK-Yb6HrOpaa7gYYNGTnizLZpFze7FiW61MXCB0I-qaQ4iDjZGlxFgl3GNm2IXGuBj0s9TlJs-2lXDjTPcuO7GgeZVqLAD0HNWA52MORNB0-KTagPMlAw0YkTTmjox_yJWIm-Y9BOfwGg="
+      },
+      {
+        "label": "baseball-reference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpHBGJfXzrPOIztvvK-Yb6HrOpaa7gYYNGTnizLZpFze7FiW61MXCB0I-qaQ4iDjZGlxFgl3GNm2IXGuBj0s9TlJs-2lXDjTPcuO7GgeZVqLAD0HNWA52MORNB0-KTagPMlAw0YkTTmjox_yJWIm-Y9BOfwGg="
+      },
+      {
+        "label": "baseball-reference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpHBGJfXzrPOIztvvK-Yb6HrOpaa7gYYNGTnizLZpFze7FiW61MXCB0I-qaQ4iDjZGlxFgl3GNm2IXGuBj0s9TlJs-2lXDjTPcuO7GgeZVqLAD0HNWA52MORNB0-KTagPMlAw0YkTTmjox_yJWIm-Y9BOfwGg="
+      },
+      {
+        "label": "baseball-reference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpHBGJfXzrPOIztvvK-Yb6HrOpaa7gYYNGTnizLZpFze7FiW61MXCB0I-qaQ4iDjZGlxFgl3GNm2IXGuBj0s9TlJs-2lXDjTPcuO7GgeZVqLAD0HNWA52MORNB0-KTagPMlAw0YkTTmjox_yJWIm-Y9BOfwGg="
+      },
+      {
+        "label": "baseball-reference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpHBGJfXzrPOIztvvK-Yb6HrOpaa7gYYNGTnizLZpFze7FiW61MXCB0I-qaQ4iDjZGlxFgl3GNm2IXGuBj0s9TlJs-2lXDjTPcuO7GgeZVqLAD0HNWA52MORNB0-KTagPMlAw0YkTTmjox_yJWIm-Y9BOfwGg="
+      },
+      {
+        "label": "prepbaseballreport",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9abqvd9qVKPOPEl0LIXhSga_rNKpQ9H2SCyswWVU_gs6-7dF1U2ywAdtXQeBYHQ7KAlVwXfPfAJpveaTPD6T-jQEqC_i2HL72i7YBP0ABlOh0T28TNBHLDRD8A-gQZo5dplNFi-xs0TrKLHpyixZ6VawHaj8ZN1NLxuZ8ZuJuloBBH1nKDUVbUYCnJ95rGgSsjfKqnw1NAM-YqHLhW7o7cb7DrC3ACs1s"
+      },
+      {
+        "label": "prepbaseballreport",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9abqvd9qVKPOPEl0LIXhSga_rNKpQ9H2SCyswWVU_gs6-7dF1U2ywAdtXQeBYHQ7KAlVwXfPfAJpveaTPD6T-jQEqC_i2HL72i7YBP0ABlOh0T28TNBHLDRD8A-gQZo5dplNFi-xs0TrKLHpyixZ6VawHaj8ZN1NLxuZ8ZuJuloBBH1nKDUVbUYCnJ95rGgSsjfKqnw1NAM-YqHLhW7o7cb7DrC3ACs1s"
+      },
+      {
+        "label": "prepbaseballreport",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9abqvd9qVKPOPEl0LIXhSga_rNKpQ9H2SCyswWVU_gs6-7dF1U2ywAdtXQeBYHQ7KAlVwXfPfAJpveaTPD6T-jQEqC_i2HL72i7YBP0ABlOh0T28TNBHLDRD8A-gQZo5dplNFi-xs0TrKLHpyixZ6VawHaj8ZN1NLxuZ8ZuJuloBBH1nKDUVbUYCnJ95rGgSsjfKqnw1NAM-YqHLhW7o7cb7DrC3ACs1s"
+      },
+      {
+        "label": "baseball-reference",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpHBGJfXzrPOIztvvK-Yb6HrOpaa7gYYNGTnizLZpFze7FiW61MXCB0I-qaQ4iDjZGlxFgl3GNm2IXGuBj0s9TlJs-2lXDjTPcuO7GgeZVqLAD0HNWA52MORNB0-KTagPMlAw0YkTTmjox_yJWIm-Y9BOfwGg="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZurbYwqSQ3K7bNLmFhEuyjlx92cLuEE31io2HYvj7Z-wx60L9aqfnV6XNOMZoT7cxCjlrDYwXQkyJLuDgSno2mXDAbl7gzOtIERamwns1hFG5kFtJ9E-VwVOO8jb0DfsZN7hhAWZHytCXaQFziulXJJeZDVX_zNqS4A=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZurbYwqSQ3K7bNLmFhEuyjlx92cLuEE31io2HYvj7Z-wx60L9aqfnV6XNOMZoT7cxCjlrDYwXQkyJLuDgSno2mXDAbl7gzOtIERamwns1hFG5kFtJ9E-VwVOO8jb0DfsZN7hhAWZHytCXaQFziulXJJeZDVX_zNqS4A=="
+      },
+      {
+        "label": "cpblstats",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnJTVATxYrQcCubPkCjx8QhbNrGwpvb3pwF45IVxL46wuMQeVRZGe2jJJ9t0Rwi9yaYStVlYxcZ_1PQy8OZGF8o6cxl9wS7Pt_lJOpHClBGjvQzy5PodkrmWG-Dc-6AtcMbQEJuNk5IHRRbfDyl2ogGhpelprrbBHb"
+      },
+      {
+        "label": "cpblstats",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGOQZHsBmA0vh9fFvsbssEj3z3W0VR2G2JD_iuopNjhwtBvtcCSMl4_aZKfGzUCAmgL9DO8R65hm2qUyB0uXzsAdprBKLNtMFMxvDP174GnWL4MdphkLIHQ_AG2ayAwA0CMbt2QyonrMLYhM_WFgVu12ahrzIE-JxbXQ=="
+      },
+      {
+        "label": "cpblbaseball",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcNsrwa0Pu5Bvw5VobdIlPtxLebHn8asGdZCfEwZLGtRUB028TwJrtzhKhbfwaPkNDfcOUAdWpoz-eNxJXkA67zWYdVNKCmZiu0yiSG8c9OP-pvx8GXHgckrEmbt_L0Xi8XuSEg7xHEn4xsyeDUu2RD2m0u_uSrX-tPXIXh1lnxJTwzAY9sUJbWZvO9go3"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "file_name": "state_result_261.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.621221",
+  "data": {
+    "messages": [
+      {
+        "content": "can you tell me how mant reverse split the stock DSS has done so far?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "b96aad28-5768-459c-ae54-417f72a81a9b",
+        "example": false
+      },
+      {
+        "content": "DSS, Inc. (DSS) has undergone four reverse stock splits. The reverse splits occurred on November 1, 2001 (1 for 200) [companiesmarketcap](https://vertexaisearch.cloud.google.com/id/0-0) [divvydiary](https://vertexaisearch.cloud.google.com/id/0-1], August 26, 2016 (1 for 4) [splithistory](https://vertexaisearch.cloud.google.com/id/0-2], May 8, 2020 (1 for 30) [splithistory](https://vertexaisearch.cloud.google.com/id/0-2) [divvydiary](https://vertexaisearch.cloud.google.com/id/0-1], and January 5, 2024 (1 for 20) [splithistory](https://vertexaisearch.cloud.google.com/id/0-2) [companiesmarketcap](https://vertexaisearch.cloud.google.com/id/0-0) [divvydiary](https://vertexaisearch.cloud.google.com/id/0-1]. There was also a forward stock split on April 27, 2023 (1077 for 1000) [splithistory](https://vertexaisearch.cloud.google.com/id/0-2).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "74809bcb-e114-4fad-88a5-9afbd8679b9b",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "DSS stock reverse split history"
+    ],
+    "web_research_result": [
+      "DSS, Inc. (DSS) has undergone multiple stock splits throughout its history. Here's a summary of the documented splits:\n\n*   **November 1, 2001:** A 1 for 200 reverse split [companiesmarketcap](https://vertexaisearch.cloud.google.com/id/0-0) [divvydiary](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **August 26, 2016:** A 1 for 4 reverse split [splithistory](https://vertexaisearch.cloud.google.com/id/0-2). For every 4 shares owned pre-split, the shareholder received 1 share [splithistory](https://vertexaisearch.cloud.google.com/id/0-2). For example, a 1000 share position pre-split, became a 250 share position following the split [splithistory](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **May 8, 2020:** A 1 for 30 reverse split [splithistory](https://vertexaisearch.cloud.google.com/id/0-2) [divvydiary](https://vertexaisearch.cloud.google.com/id/0-1). For every 30 shares owned pre-split, the shareholder received 1 share [splithistory](https://vertexaisearch.cloud.google.com/id/0-2). For example, a 250 share position pre-split, became approximately 8.33 shares [splithistory](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **April 27, 2023:** A 1077 for 1000 split [splithistory](https://vertexaisearch.cloud.google.com/id/0-2). For every 1000 shares owned pre-split, the shareholder now owned 1077 shares [splithistory](https://vertexaisearch.cloud.google.com/id/0-2). For example, approximately 8.33 shares pre-split, became 8.975 shares after the split [splithistory](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **January 5, 2024:** A 1 for 20 reverse split [splithistory](https://vertexaisearch.cloud.google.com/id/0-2) [companiesmarketcap](https://vertexaisearch.cloud.google.com/id/0-0) [divvydiary](https://vertexaisearch.cloud.google.com/id/0-1). For every 20 shares owned pre-split, the shareholder received 1 share [splithistory](https://vertexaisearch.cloud.google.com/id/0-2). For example, approximately 8.975 shares pre-split, became 0.44875 shares following the split [splithistory](https://vertexaisearch.cloud.google.com/id/0-2). This reverse split was announced on December 22, 2023, and was part of a compliance plan with the NYSE American [nasdaq](https://vertexaisearch.cloud.google.com/id/0-3). The reverse split reduced the number of shares of common stock issued and outstanding from approximately 140 million to approximately 7 million [edgar-online](https://vertexaisearch.cloud.google.com/id/0-4).\n\nIt's important to note that reverse stock splits are often used by companies to increase their stock price, potentially to maintain listing requirements or attract investors [finra](https://vertexaisearch.cloud.google.com/id/0-5). However, they can also be associated with low-priced, high-risk stocks, so caution is advised when a company announces a reverse split [finra](https://vertexaisearch.cloud.google.com/id/0-5).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "companiesmarketcap",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3kXtt37gZv9v1za5GAObN3aLGKFPYlc1tXOZH_8TykvceUsDTmpiy5CEjSqM6OKVcChOz6BgYM7nZDMu2ZgrI7goZ9IQ6nYlt1botAOux3aoG1-DIxouWYIbppZNNv5GPAZWNET86552vTU0b17UpZ5lwVqrSnkRiMGqMktLq2xQ="
+      },
+      {
+        "label": "divvydiary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2388FYxSZwAFXNPmKrPmKv5oKOrwKO1LOyjeJj8t79iWS9YsrTDbDS6UXBRieOBQ26MmGojx5-qXJoBnMbO2YSrMmKzKTUfpbYMwKLz3gpW_5GV3Tj4Rd1h9mNT4ry_mBdAj5m5Kr1KKQA=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "divvydiary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2388FYxSZwAFXNPmKrPmKv5oKOrwKO1LOyjeJj8t79iWS9YsrTDbDS6UXBRieOBQ26MmGojx5-qXJoBnMbO2YSrMmKzKTUfpbYMwKLz3gpW_5GV3Tj4Rd1h9mNT4ry_mBdAj5m5Kr1KKQA=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "companiesmarketcap",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3kXtt37gZv9v1za5GAObN3aLGKFPYlc1tXOZH_8TykvceUsDTmpiy5CEjSqM6OKVcChOz6BgYM7nZDMu2ZgrI7goZ9IQ6nYlt1botAOux3aoG1-DIxouWYIbppZNNv5GPAZWNET86552vTU0b17UpZ5lwVqrSnkRiMGqMktLq2xQ="
+      },
+      {
+        "label": "divvydiary",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg2388FYxSZwAFXNPmKrPmKv5oKOrwKO1LOyjeJj8t79iWS9YsrTDbDS6UXBRieOBQ26MmGojx5-qXJoBnMbO2YSrMmKzKTUfpbYMwKLz3gpW_5GV3Tj4Rd1h9mNT4ry_mBdAj5m5Kr1KKQA=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "splithistory",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGdYBAlkSQyPvcv-FqPX9rSxg9dEjZZ8mo1cvjAVPFx2NtPBd6Ss8fvEwlaRRvC_RGtP4PgVSkr_zuJW4FQCe1T5M2U6JMk7yRsukW-ncLIb3-p4HyGE_RPoZYUQ=="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzfmRCRd9kD1P6OKzh9m07sJxXdglt7AyxrB5G5mHwYtC9ex6QBNlYtOL2mOzamlXvJ3S0R6eY_pMWYnGUaya9FFpqj-nV7M6RljeCtmdug2-7C_QbM310YjMD7XIlbI0Yv-mnZKjewdbUYmJqOalXXZRAdxt3nC_T4sSHSr2IMQNDAjnmviISKeY-SQnYhjeOsMj1S_AVRsl7GbkJKekVxw1qTn-DXUa_VIn9CU3xed7IX5c="
+      },
+      {
+        "label": "edgar-online",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhuGMR847k5XtPLdSuraRwer9R7mUSCXdMzfS4MXjFSNHxCOCx4uggrqiPXUvApt7PSGhOt6aFR4Rh0N1mwdDMIQU-pTAomVSMazw7cpLJS_FSzdGjggCN_wTgx_SNaM6gCvmTXjJWXe7kSK7WVTIEDBHzQ0G-FCTdMPzJOTZf5B-v8-cwb2ABAXF-scix5UQ74C_dv3bibaAkzGb2HowT3h7YpvEG1Yl0HnC06Zor4EcZSx9Zvle-geChvCsDBC7n6r_5lEpi-0BaJjuQKNUZ6Hu_CRaFaoIoapYX_zM="
+      },
+      {
+        "label": "finra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqJR1F59C68AIwQE02-xQTSGSO2bT0WGi8yAyc1L0sfCN5okwrI1Dp9ZMlp4vv0wSv_0l4UA5DNZaySHjcnRGbOkkf8ICUpuPdKDIx8rcO6e0lxIL5zhhPLlM5AePZReIUyuqwQgq4h-EkjDNsGbbK5hsHSUeda5gaeQDVBphQT9s8Bwj8O_ju2R2TGg=="
+      },
+      {
+        "label": "finra",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqJR1F59C68AIwQE02-xQTSGSO2bT0WGi8yAyc1L0sfCN5okwrI1Dp9ZMlp4vv0wSv_0l4UA5DNZaySHjcnRGbOkkf8ICUpuPdKDIx8rcO6e0lxIL5zhhPLlM5AePZReIUyuqwQgq4h-EkjDNsGbbK5hsHSUeda5gaeQDVBphQT9s8Bwj8O_ju2R2TGg=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

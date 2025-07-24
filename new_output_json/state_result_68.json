@@ -1,0 +1,589 @@
+{
+  "file_name": "state_result_68.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.773921",
+  "data": {
+    "messages": [
+      {
+        "content": "can https://python-gitlab.readthedocs.io/en/stable/cli-objects.html be user for find all users with private profile?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "43ce991a-8ab8-4023-bb60-18a2ff092b62",
+        "example": false
+      },
+      {
+        "content": "Yes, the `python-gitlab` library can be used to find all users with private profiles, but it requires administrator privileges. Here's how you can achieve this:\n\n1.  **Authentication and Connection:** First, you need to connect to your GitLab instance using the `python-gitlab` library. You'll need a personal access token with the `api` scope enabled [ethz](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VkscBHgqzdVBBsEtlYdum6zEcLdSwPqQksfsvvsPrZIl1uWMvM6J8500RvKwS9Tjnvzh7OGP7JFC93Y56irYPa-aN1451g3oY9GG3OmN8rnaWPAd32xxkAKWiDDmbpy2zPvmNF5ctI-qdWcRxwBEQwwEA4ADdYJoow==) [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY=). It's recommended to set an expiration date for the token [ethz](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VkscBHgqzdVBBsEtlYdum6zEcLdSwPqQksfsvvsPrZIl1uWMvM6J8500RvKwS9Tjnvzh7OGP7JFC93Y56irYPa-aN1451g3oY9GG3OmN8rnaWPAd32xxkAKWiDDmbpy2zPvmNF5ctI-qdWcRxwBEQwwEA4ADdYJoow==].\n\n    ```python\n    import gitlab\n\n    gl = gitlab.Gitlab('your_gitlab_url', private_token='your_private_token')\n    ```\n\n2.  **Listing Users:** Use `gl.users.list(get_all=True)` to retrieve a list of all users [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeOUD4r55kBaHmQ4MDRMtuvbx5gH_pHTR5qLywbKSbWGdZlJUsUgnqfgufZWt5kbErwa5Q7yxOk2BV9XbDdcTUhQ62J65r0twmR3_Th7s44ZTHxfkpeqeDcOJyjZTJon4AK2nPFX52OQ-aFHAHLVlYMRqU8gFEC_dhykGvIpt).  The `get_all=True` argument ensures that you retrieve all users, as the `list()` method might not return the complete list without it [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY=).\n\n    ```python\n    users = gl.users.list(get_all=True)\n    ```\n\n3.  **Checking the `private_profile` Attribute:** Iterate through the list of users and check the `private_profile` attribute. This attribute indicates whether a user's profile is private or not [gitlab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI=) [upm](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGP-KeAz-VoaF19OxSQ60-tsrdDXX_EjEJnV7BZfXkpOLeOvA_kMhFd5sqAT1xJgNLFu_In-1mVhAjetnsEnliA50hQvorRb0fLSKEeO-9EuJIknBvmvh8XHozVJ3qVVIJ1eVvsWyTCQQ8uD4tg3JOTeE8hZU=) [gitlab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_chroZDmcIL3Ze6L4SMq14Fqv-nYuyGYhs4ccrFglRmT6_e5Pc1lghJuydL8JUJveIwQ3b2ne2yRXUL1RTqSiU4kNpPRUpPrVfewnMco6N-SJyvdBDtNCFw_mjVI=) [bsc](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLI0b7S8bFMOh5ZkrmyblXUoG_JVTImc5coN1CS0CLt3xOLULhVqJyAsQZ-Dc-K7-E5yE4QGfqctIT0k4ixMfaOPluzzoMQd033ZSXzf6GJDUkYgywc_SU-0mgcrYxZ0AHO-92MUb5ug==).\n\n    ```python\n    private_users = []\n    for user in users:\n        if hasattr(user, 'private_profile') and user.private_profile:\n            private_users.append(user)\n\n    for user in private_users:\n        print(f\"User ID: {user.id}, Username: {user.username}\")\n    ```\n\n4.  **Administrator Privileges:**  Keep in mind that you must be an administrator to reliably view the `private_profile` attribute for all users [gitlab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI=) [gitlab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_chroZDmcIL3Ze6L4SMq14Fqv-nYuyGYhs4ccrFglRmT6_e5Pc1lghJuydL8JUJveIwQ3b2ne2yRXUL1RTqSiU4kNpPRUpPrVfewnMco6N-SJyvdBDtNCFw_mjVI=).\n\n5.  **API Version and Authentication:** The `python-gitlab` library currently supports version 4 of the GitLab REST API [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY=).  GitLab has removed password-based basic authentication, so using tokens is essential for automated workflows [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY=).\n\nHere's the complete code snippet:\n\n```python\nimport gitlab\n\n# Connect to GitLab\ngl = gitlab.Gitlab('your_gitlab_url', private_token='your_private_token')\n\n# List all users\nusers = gl.users.list(get_all=True)\n\n# Find users with private profiles\nprivate_users = []\nfor user in users:\n    if hasattr(user, 'private_profile') and user.private_profile:\n        private_users.append(user)\n\n# Print the usernames and IDs of users with private profiles\nfor user in private_users:\n    print(f\"User ID: {user.id}, Username: {user.username}\")\n```\n\n**Important Considerations:**\n\n*   **Rate Limiting:** Be mindful of API rate limits when making requests [gitlab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_chroZDmcIL3Ze6L4SMq14Fqv-nYuyGYhs4ccrFglRmT6_e5Pc1lghJuydL8JUJveIwQ3b2ne2yRXUL1RTqSiU4kNpPRUpPrVfewnMco6N-SJyvdBDtNCFw_mjVI=).\n*   **Alternative Approaches (Limitations):** While attempting to list projects owned by a user might return an empty list if their profile is private [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQC0PadGB8YMsGL-kGJF0dKn1d7SagTK5rzJFWdvYuVEd72gKoiIFXxMXIYOsh34AM-VFJ1JO6HpC32tWNU7Rt0cWHMoxw_mGYDbCe0q3WWnYs-n5q8pGhEeM-C2490GYUc4DNQAPA8HaXSaM_Q_KOAJtwnLYdMn5Kq1ILJfSg) [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeOUD4r55kBaHmQ4MDRMtuvbx5gH_pHTR5qLywbKSbWGdZlJUsUgnqfgufZWt5kbErwa5Q7yxOk2BV9XbDdcTUhQ62J65r0twmR3_Th7s44ZTHxfkpeqeDcOJyjZTJon4AK2nPFX52OQ-aFHAHLVlYMRqU8gFEC_dhykGvIpt) [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhGhMS7tmALE6AP1lwwvRPza8yZw0gvKwHDcvP7fpG207TZfp1g5ZYHph85-b_GJa_iYusgvtPmMCoHxjt4-C1cpij_ddS8qr-Wp5GpyCdHSL1YcIYhlWX_yxFbId57la8Yb1HQsFTBjtnCG-1w9XVN7Qw4gZuBibLHCl4OKEl) [readthedocs](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoxKWFdUzoc5DyFj3YlxBWGcrEbogAY6tfPGF_YZZQ9ElR1nSqMFtUraRx5c7qNZ32l5Ms7SxD5KSB1zf6vOy4LupvqQsFQTw5zL3RKBnjPkZVJzpHuwDfBoGvRcK_b1qCnikQyVVuTipN19IZltE9jzgq6ryIjTOVoKLRGii), this is not a reliable method, as the user might simply not have any projects.  The `private_profile` attribute is the most direct and reliable way to determine profile privacy.\n*   **GraphQL API:** User attributes are not visible through the GraphQL API [genboree](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_KJf1QM5u7ORwE0NgHVpVdkAHLTtcy3f_rujAxLiQQpICZ2-S0YuNtL8rT0-brHvmyfy5VjGzb-5sbFJXiXLdw-VdHgUzmrBkt_67brSLNafX2rViVw1gu-0hoi7RdxpgptxSmIaVvv9-igcR9i8zDB2Wjaf2aZUMf3xcIDnxq9oqQgEJsZMuf_9ITeubSF6zWc6FOv4=) [utoronto](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvHApmks6Z6nmmNXAzKN3XBsQcIzICir6cRPHkHqnMT7-MUj3sx9svN71NZTfn3gfKGEX3oMun2ZFaKnXFiJksUnXm0V1b0TGv6pPVAs-v3H2yVHxfv7lM9SOTVDlJNZcWBmoDDHaDgLrmN2-Rxi1GKUz-SE23c5zPf-LpJWosi7a4c3khGyqsNz4uaapkhbb2l3BjjR-qP9A7_VPwjy6AsHg=) [gitlab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeXcxruRMjDoL2z5dWzR8rGnSZJbYlmlNIasvT293rNuHbzWXiD7nL3SoPQp9n8gsfVEoD15nOhHfXzW6d1uV1hUJcW5gBo6Zt4l5l655_R65HiXfp1YwJE8cXXbQazcEC-i7JjqSnH2ttY76yAVi6FOuhTyaWVoxQaiBh9A9txtEBgO7uU3nMpZs=) [genboree](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoxKWFdUzoc5DyFj3YlxBWGcrEbogAY6tfPGF_YZZQ9ElR1nSqMFtUraRx5c7qNZ32l5Ms7SxD5KSB1zf6vOy4LupvqQsFQTw5zL3RKBnjPkZVJzpHuwDfBoGvRcK_b1qCnikQyVVuTipN19IZltE9jzgq6ryIjTOVoKLRGii0) [gitlab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoxKWFdUzoc5DyFj3YlxBWGcrEbogAY6tfPGF_YZZQ9ElR1nSqMFtUraRx5c7qNZ32l5Ms7SxD5KSB1zf6vOy4LupvqQsFQTw5zL3RKBnjPkZVJzpHuwDfBoGvRcK_b1qCnikQyVVuTipN19IZltE9jzgq6ryIjTOVoKLRGii1).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "291bd7f0-9c35-4d7b-b1a2-820b63cae008",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "python-gitlab find users with private profiles",
+      "python-gitlab user profile visibility",
+      "How to use python-gitlab to determine if a user profile is private using the API, given the user's ID or username?"
+    ],
+    "web_research_result": [
+      "It appears you're asking about how to use the `python-gitlab` library to find users, potentially including those with private profiles. Here's a breakdown of what the search results indicate:\n\n**1. Using the `python-gitlab` Library**\n\n*   **Listing Users:** You can retrieve a list of users using `gl.users.list(get_all=True)` [readthedocs](https://vertexaisearch.cloud.google.com/id/0-0). You can also search for users by name, username, or email using `gl.users.list(search='foo', get_all=True)` [gitlab](https://vertexaisearch.cloud.google.com/id/0-1) [readthedocs](https://vertexaisearch.cloud.google.com/id/0-0). To search for a specific username, use `gl.users.list(username='root', get_all=False)[0]` [readthedocs](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Getting a User by ID:**  Retrieve a user by their ID using `gl.users.get(user_id)` [readthedocs](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **API Version:** The `python-gitlab` library currently supports version 4 of the GitLab REST API [readthedocs](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Authentication:** To connect to a GitLab instance, you'll need to create a `gitlab.Gitlab` object [readthedocs](https://vertexaisearch.cloud.google.com/id/0-2). You'll likely need a personal access token or a resource/project access token [readthedocs](https://vertexaisearch.cloud.google.com/id/0-2).  Generate a personal access token in your GitLab account settings [pieriantraining](https://vertexaisearch.cloud.google.com/id/0-3). When creating a personal access token, it's a good idea to set an expiration date [ethz](https://vertexaisearch.cloud.google.com/id/0-4). Make sure the `api` scope is enabled for the token [ethz](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Configuration:** You can configure the `python-gitlab` library by creating a `~/.python-gitlab.cfg` file [ethz](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Installation:**  You can install the `python-gitlab` module using pip [ethz](https://vertexaisearch.cloud.google.com/id/0-4).\n\n**2. Finding Users with Private Profiles**\n\n*   **Admin Privileges:** You must be an administrator to view the activity of users with private profiles [gitlab](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Private Profiles and Project Visibility:** If a user's profile is set to private, an empty list is returned when trying to list the user's projects [readthedocs](https://vertexaisearch.cloud.google.com/id/0-5) [readthedocs](https://vertexaisearch.cloud.google.com/id/0-0). Projects owned by the user in any group or subgroup are not returned [readthedocs](https://vertexaisearch.cloud.google.com/id/0-5) [readthedocs](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **User Attributes:**  The Users API includes a `User's profile is private` attribute, which can be either `true` or `false` [gitlab](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**3. Searching and Filtering Users**\n\n*   **Search by Email:** As an administrator, you can search for users by both public and private email addresses [gitlab](https://vertexaisearch.cloud.google.com/id/0-1).  You must use the full email address for an exact match [gitlab](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Filtering Options:** You can filter users based on various criteria, including:\n    *   Active status [gitlab](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   External status [gitlab](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   Blocked status [gitlab](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   Regular users (non-bot or internal) [gitlab](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   Users created after or before a specific time [gitlab](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   Users with or without projects [gitlab](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   Auditor users (Premium and Ultimate plans only) [gitlab](https://vertexaisearch.cloud.google.com/id/0-1)\n    *   LDAP users (Premium and Ultimate plans only) [gitlab](https://vertexaisearch.cloud.google.com/id/0-1)\n\n**4. Important Considerations**\n\n*   **API Limits:** Calling `list()` without arguments might not return the complete list of items. Use `get_all=True` or `iterator=True` to get all items [readthedocs](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Password Authentication:** GitLab has removed password-based basic authentication [readthedocs](https://vertexaisearch.cloud.google.com/id/0-2). It's recommended to use tokens for automated workflows [readthedocs](https://vertexaisearch.cloud.google.com/id/0-2).\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"python-gitlab user profile visibility\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of information regarding user profile visibility in GitLab and how it relates to the python-gitlab library:\n\n**GitLab User Profile Visibility**\n\n*   **Profile Privacy:** Users can make their profiles private, limiting visibility to only themselves and GitLab administrators [culture](https://vertexaisearch.cloud.google.com/id/1-0) [gitlab](https://vertexaisearch.cloud.google.com/id/1-1) [bsc](https://vertexaisearch.cloud.google.com/id/1-2) [nagoya-u](https://vertexaisearch.cloud.google.com/id/1-3). A GitLab administrator can override this setting, making all profiles public [gitlab](https://vertexaisearch.cloud.google.com/id/1-1) [nagoya-u](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Making a Profile Private:** To make your profile private: select your avatar, then \"Edit profile\", select the \"Private profile\" checkbox, and \"Update profile settings\" [gitlab](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Hidden Information:** When a user profile is private, the following is hidden: Atom feed, the date when the account was created, and tabs for activity, groups, contributed projects, personal projects, and starred projects [gitlab](https://vertexaisearch.cloud.google.com/id/1-1) [bsc](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Public vs. Authenticated Users:** The public page of a user is located at `/username`. When the public level is restricted, user profiles are only visible to authenticated users [gitlab](https://vertexaisearch.cloud.google.com/id/1-1) [genboree](https://vertexaisearch.cloud.google.com/id/1-4) [utoronto](https://vertexaisearch.cloud.google.com/id/1-5) [gitlab](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **User ID:** User IDs are needed to interact with the GitLab API [nagoya-u](https://vertexaisearch.cloud.google.com/id/1-3) [gitlab](https://vertexaisearch.cloud.google.com/id/1-1). To find the user ID, go to the user's profile page, select \"Actions,\" and then \"Copy user ID\" [nagoya-u](https://vertexaisearch.cloud.google.com/id/1-3) [gitlab](https://vertexaisearch.cloud.google.com/id/1-1). You can access a user's profile page by using the ID instead of the username at `https://gitlab.example.com/-/u/<id>` [gitlab](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Activity Visibility:** GitLab tracks user contribution activity. To view a user's activity, go to the user's profile and select \"Activity\" [gitlab](https://vertexaisearch.cloud.google.com/id/1-1). Users can also show their contributions to private projects on their profile page [bsc](https://vertexaisearch.cloud.google.com/id/1-2) [gitlab](https://vertexaisearch.cloud.google.com/id/1-1). To do so, go to \"Edit profile\" and select the \"Include private contributions on my profile\" checkbox [gitlab](https://vertexaisearch.cloud.google.com/id/1-1) [bsc](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Admin Control:** Administrators can restrict visibility levels for groups, projects, and snippets [gitlab](https://vertexaisearch.cloud.google.com/id/1-6) [utoronto](https://vertexaisearch.cloud.google.com/id/1-5) [genboree](https://vertexaisearch.cloud.google.com/id/1-4). If the \"Public level\" is restricted, only administrators can create public groups, projects, and snippets. User profiles are only visible to authenticated users through the web interface [genboree](https://vertexaisearch.cloud.google.com/id/1-4) [utoronto](https://vertexaisearch.cloud.google.com/id/1-5) [gitlab](https://vertexaisearch.cloud.google.com/id/1-6). User attributes are not visible through the GraphQL API [utoronto](https://vertexaisearch.cloud.google.com/id/1-5) [gitlab](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**python-gitlab and User Profile Visibility**\n\n*   **API Interaction:** The python-gitlab library can be used to interact with the GitLab API [readthedocs](https://vertexaisearch.cloud.google.com/id/1-7). This includes managing users and their profiles [readthedocs](https://vertexaisearch.cloud.google.com/id/1-7) [readthedocs](https://vertexaisearch.cloud.google.com/id/1-8) [readthedocs](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **User Attributes:** User attributes are not visible through the GraphQL API [genboree](https://vertexaisearch.cloud.google.com/id/1-4) [utoronto](https://vertexaisearch.cloud.google.com/id/1-5) [gitlab](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Admin Privileges:** Every API call to custom attributes must be authenticated as an administrator [stackoverflow](https://vertexaisearch.cloud.google.com/id/1-10).\n*   **Finding Users:** You can find users by ID or username using the python-gitlab library [readthedocs](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **User Projects:** When listing a user's projects, an empty list is returned if the profile is set to private [readthedocs](https://vertexaisearch.cloud.google.com/id/1-9) [readthedocs](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Access Requests API:** The GitLab Access Requests API allows project and group maintainers to manage user access requests efficiently [omi](https://vertexaisearch.cloud.google.com/id/1-11).\n",
+      "To determine if a user profile is private using python-gitlab, you can use the GitLab API. Here's how, based on the search results:\n\n**1. Using the GitLab API and `python-gitlab` Library**\n\n*   **Retrieve User Information:** Use the `python-gitlab` library to get user details by ID or username [readthedocs](https://vertexaisearch.cloud.google.com/id/2-0) [readthedocs](https://vertexaisearch.cloud.google.com/id/2-1).\n\n    ```python\n    import gitlab\n\n    # Connect to GitLab\n    gl = gitlab.Gitlab('your_gitlab_url', private_token='your_private_token')\n\n    # Get user by ID\n    user = gl.users.get(user_id)\n\n    # Get user by username\n    users = gl.users.list(username='username')\n    if users:\n        user = users[0]\n    ```\n*   **Check the `private_profile` Attribute:** The User object returned by the API has a `private_profile` attribute (true or false) [upm](https://vertexaisearch.cloud.google.com/id/2-2) [gitlab](https://vertexaisearch.cloud.google.com/id/2-3) [bsc](https://vertexaisearch.cloud.google.com/id/2-4).\n\n    ```python\n    if user.private_profile:\n        print(\"User profile is private\")\n    else:\n        print(\"User profile is public\")\n    ```\n\n**2. Important Considerations**\n\n*   **Administrator Privileges:** To view the `private_profile` status of other users, you may need administrator privileges [gitlab](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **API versions:** Ensure compatibility between the `python-gitlab` library and the GitLab API version [readthedocs](https://vertexaisearch.cloud.google.com/id/2-0) [readthedocs](https://vertexaisearch.cloud.google.com/id/2-1).\n*   **Authentication:**  You'll need a personal access token with the appropriate scope (`read_user`) to authenticate with the GitLab API [medium](https://vertexaisearch.cloud.google.com/id/2-5) [medium](https://vertexaisearch.cloud.google.com/id/2-6).\n*  **Rate Limiting:** Be mindful of API rate limits when making requests [gitlab](https://vertexaisearch.cloud.google.com/id/2-3).\n\n**3. Alternative Approaches (and limitations)**\n\n*   **Listing Projects:** According to search results, when a user profile is set to private, attempting to list projects owned by the user will return an empty list [readthedocs](https://vertexaisearch.cloud.google.com/id/2-0) [readthedocs](https://vertexaisearch.cloud.google.com/id/2-1). However, this method might not be reliable, as the user may not have any projects.\n*   **User Status:** A user's status is publicly visible even if their profile is private [bsc](https://vertexaisearch.cloud.google.com/id/2-7) [softpuzzle](https://vertexaisearch.cloud.google.com/id/2-8).\n\n**4. Making a Profile Private**\n\nA user can make their profile private in the GitLab settings [gitlab](https://vertexaisearch.cloud.google.com/id/2-9) [bsc](https://vertexaisearch.cloud.google.com/id/2-7) [softpuzzle](https://vertexaisearch.cloud.google.com/id/2-8):\n\n1.  Select your avatar in the top-right corner.\n2.  Select \"Edit profile\".\n3.  Check the \"Private profile\" checkbox.\n4.  Select \"Update profile settings\".\n\n**Caveats:**\n\n*   A GitLab administrator can disable the private profile setting, forcing all profiles to be public [gitlab](https://vertexaisearch.cloud.google.com/id/2-9).\n*   User attributes are not visible through the GraphQL API [genboree](https://vertexaisearch.cloud.google.com/id/2-10) [gitlab](https://vertexaisearch.cloud.google.com/id/2-11).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeOUD4r55kBaHmQ4MDRMtuvbx5gH_pHTR5qLywbKSbWGdZlJUsUgnqfgufZWt5kbErwa5Q7yxOk2BV9XbDdcTUhQ62J65r0twmR3_Th7s44ZTHxfkpeqeDcOJyjZTJon4AK2nPFX52OQ-aFHAHLVlYMRqU8gFEC_dhykGvIpt"
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeOUD4r55kBaHmQ4MDRMtuvbx5gH_pHTR5qLywbKSbWGdZlJUsUgnqfgufZWt5kbErwa5Q7yxOk2BV9XbDdcTUhQ62J65r0twmR3_Th7s44ZTHxfkpeqeDcOJyjZTJon4AK2nPFX52OQ-aFHAHLVlYMRqU8gFEC_dhykGvIpt"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeOUD4r55kBaHmQ4MDRMtuvbx5gH_pHTR5qLywbKSbWGdZlJUsUgnqfgufZWt5kbErwa5Q7yxOk2BV9XbDdcTUhQ62J65r0twmR3_Th7s44ZTHxfkpeqeDcOJyjZTJon4AK2nPFX52OQ-aFHAHLVlYMRqU8gFEC_dhykGvIpt"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeOUD4r55kBaHmQ4MDRMtuvbx5gH_pHTR5qLywbKSbWGdZlJUsUgnqfgufZWt5kbErwa5Q7yxOk2BV9XbDdcTUhQ62J65r0twmR3_Th7s44ZTHxfkpeqeDcOJyjZTJon4AK2nPFX52OQ-aFHAHLVlYMRqU8gFEC_dhykGvIpt"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY="
+      },
+      {
+        "label": "pieriantraining",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5QrE8tb7ERuJAcAIUrnB2gnhlNXC3AMNqaTFBQFcKLpEm6AKiKnBFa1QR466QfVDV5kyWhBoNeCREkBjshv2xVb3kiTgE9XcZrzX-L-2A4krqGu4V9cidgVOU34jxCRCB5QawocELdJ6WKrQx6ABNETVn3Q01eLkHTX07YAu6kGe2er3FiPP_"
+      },
+      {
+        "label": "ethz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VkscBHgqzdVBBsEtlYdum6zEcLdSwPqQksfsvvsPrZIl1uWMvM6J8500RvKwS9Tjnvzh7OGP7JFC93Y56irYPa-aN1451g3oY9GG3OmN8rnaWPAd32xxkAKWiDDmbpy2zPvmNF5ctI-qdWcRxwBEQwwEA4ADdYJoow=="
+      },
+      {
+        "label": "ethz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VkscBHgqzdVBBsEtlYdum6zEcLdSwPqQksfsvvsPrZIl1uWMvM6J8500RvKwS9Tjnvzh7OGP7JFC93Y56irYPa-aN1451g3oY9GG3OmN8rnaWPAd32xxkAKWiDDmbpy2zPvmNF5ctI-qdWcRxwBEQwwEA4ADdYJoow=="
+      },
+      {
+        "label": "ethz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VkscBHgqzdVBBsEtlYdum6zEcLdSwPqQksfsvvsPrZIl1uWMvM6J8500RvKwS9Tjnvzh7OGP7JFC93Y56irYPa-aN1451g3oY9GG3OmN8rnaWPAd32xxkAKWiDDmbpy2zPvmNF5ctI-qdWcRxwBEQwwEA4ADdYJoow=="
+      },
+      {
+        "label": "ethz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VkscBHgqzdVBBsEtlYdum6zEcLdSwPqQksfsvvsPrZIl1uWMvM6J8500RvKwS9Tjnvzh7OGP7JFC93Y56irYPa-aN1451g3oY9GG3OmN8rnaWPAd32xxkAKWiDDmbpy2zPvmNF5ctI-qdWcRxwBEQwwEA4ADdYJoow=="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQC0PadGB8YMsGL-kGJF0dKn1d7SagTK5rzJFWdvYuVEd72gKoiIFXxMXIYOsh34AM-VFJ1JO6HpC32tWNU7Rt0cWHMoxw_mGYDbCe0q3WWnYs-n5q8pGhEeM-C2490GYUc4DNQAPA8HaXSaM_Q_KOAJtwnLYdMn5Kq1ILJfSg"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeOUD4r55kBaHmQ4MDRMtuvbx5gH_pHTR5qLywbKSbWGdZlJUsUgnqfgufZWt5kbErwa5Q7yxOk2BV9XbDdcTUhQ62J65r0twmR3_Th7s44ZTHxfkpeqeDcOJyjZTJon4AK2nPFX52OQ-aFHAHLVlYMRqU8gFEC_dhykGvIpt"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQC0PadGB8YMsGL-kGJF0dKn1d7SagTK5rzJFWdvYuVEd72gKoiIFXxMXIYOsh34AM-VFJ1JO6HpC32tWNU7Rt0cWHMoxw_mGYDbCe0q3WWnYs-n5q8pGhEeM-C2490GYUc4DNQAPA8HaXSaM_Q_KOAJtwnLYdMn5Kq1ILJfSg"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeOUD4r55kBaHmQ4MDRMtuvbx5gH_pHTR5qLywbKSbWGdZlJUsUgnqfgufZWt5kbErwa5Q7yxOk2BV9XbDdcTUhQ62J65r0twmR3_Th7s44ZTHxfkpeqeDcOJyjZTJon4AK2nPFX52OQ-aFHAHLVlYMRqU8gFEC_dhykGvIpt"
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY="
+      },
+      {
+        "label": "culture",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJxNsIfsIe8Bqc4ki_N4Bs8LqkRbEMlgzk0MSxQ2YiEkidHoB-Z94XJn3KV03q9S0TLe3nFL4lDcTbHoAdfbD474p9BIYHHd7yGRQQNG3AvBT89hrLi1A2N6bCTxZhGHg35I0fQ9_6eQo2izEBBQFd4IWS"
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "bsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM4295KDsVi4tEUH15oc9T9Qxbu6TZEWSgjfLbNhwSs5Z28FtcjxOwqysCzq3tM21IHf0xKcaZd2dVoKEyEbd4J4dXt4gqt2hj2PnbjxrWsJV7C6DQ4UCWvRmPq3jWz3rq1yTSbEJct_SIDpHdkT0l4g=="
+      },
+      {
+        "label": "nagoya-u",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM-J8BcEzhkKctog_bfpyjuhO3xoPY4hX_lTzKzLUPwFE5ob1NSYEx6mjwxLliezZXimYptdOxY0LBylqidOYpudZNw3O3f5h4UAi1aPjNjxUlXWXAHMscnX78c84QsS65QhetB9mXdu-DpaLy9xPJthOJ9hkej8AuIM8S5wCW"
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "nagoya-u",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM-J8BcEzhkKctog_bfpyjuhO3xoPY4hX_lTzKzLUPwFE5ob1NSYEx6mjwxLliezZXimYptdOxY0LBylqidOYpudZNw3O3f5h4UAi1aPjNjxUlXWXAHMscnX78c84QsS65QhetB9mXdu-DpaLy9xPJthOJ9hkej8AuIM8S5wCW"
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "bsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM4295KDsVi4tEUH15oc9T9Qxbu6TZEWSgjfLbNhwSs5Z28FtcjxOwqysCzq3tM21IHf0xKcaZd2dVoKEyEbd4J4dXt4gqt2hj2PnbjxrWsJV7C6DQ4UCWvRmPq3jWz3rq1yTSbEJct_SIDpHdkT0l4g=="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "genboree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_KJf1QM5u7ORwE0NgHVpVdkAHLTtcy3f_rujAxLiQQpICZ2-S0YuNtL8rT0-brHvmyfy5VjGzb-5sbFJXiXLdw-VdHgUzmrBkt_67brSLNafX2rViVw1gu-0hoi7RdxpgptxSmIaVvv9-igcR9i8zDB2Wjaf2aZUMf3xcIDnxq9oqQgEJsZMuf_9ITeubSF6zWc6FOv4="
+      },
+      {
+        "label": "utoronto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvHApmks6Z6nmmNXAzKN3XBsQcIzICir6cRPHkHqnMT7-MUj3sx9svN71NZTfn3gfKGEX3oMun2ZFaKnXFiJksUnXm0V1b0TGv6pPVAs-v3H2yVHxfv7lM9SOTVDlJNZcWBmoDDHaDgLrmN2-Rxi1GKUz-SE23c5zPf-LpJWosi7a4c3khGyqsNz4uaapkhbb2l3BjjR-qP9A7_VPwjy6AsHg="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeXcxruRMjDoL2z5dWzR8rGnSZJbYlmlNIasvT293rNuHbzWXiD7nL3SoPQp9n8gsfVEoD15nOhHfXzW6d1uV1hUJcW5gBo6Zt4l5l655_R65HiXfp1YwJE8cXXbQazcEC-i7JjqSnH2ttY76yAVi6FOuhTyaWVoxQaiBh9A9txtEBgO7uU3nMpZs="
+      },
+      {
+        "label": "nagoya-u",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM-J8BcEzhkKctog_bfpyjuhO3xoPY4hX_lTzKzLUPwFE5ob1NSYEx6mjwxLliezZXimYptdOxY0LBylqidOYpudZNw3O3f5h4UAi1aPjNjxUlXWXAHMscnX78c84QsS65QhetB9mXdu-DpaLy9xPJthOJ9hkej8AuIM8S5wCW"
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "nagoya-u",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM-J8BcEzhkKctog_bfpyjuhO3xoPY4hX_lTzKzLUPwFE5ob1NSYEx6mjwxLliezZXimYptdOxY0LBylqidOYpudZNw3O3f5h4UAi1aPjNjxUlXWXAHMscnX78c84QsS65QhetB9mXdu-DpaLy9xPJthOJ9hkej8AuIM8S5wCW"
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "bsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM4295KDsVi4tEUH15oc9T9Qxbu6TZEWSgjfLbNhwSs5Z28FtcjxOwqysCzq3tM21IHf0xKcaZd2dVoKEyEbd4J4dXt4gqt2hj2PnbjxrWsJV7C6DQ4UCWvRmPq3jWz3rq1yTSbEJct_SIDpHdkT0l4g=="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOLUNXVBwkDb8XMEXXQlV8-K6YibTAdrUECFhUo3ESVE3H2Hauv0rPrF7sJZMXp8C8xGf-h7k3Pbcl1faliPaMR7T4JJCl-Zce_R5t_J8qO5KYit-wngDcXBd6HkqXoTE="
+      },
+      {
+        "label": "bsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM4295KDsVi4tEUH15oc9T9Qxbu6TZEWSgjfLbNhwSs5Z28FtcjxOwqysCzq3tM21IHf0xKcaZd2dVoKEyEbd4J4dXt4gqt2hj2PnbjxrWsJV7C6DQ4UCWvRmPq3jWz3rq1yTSbEJct_SIDpHdkT0l4g=="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeXcxruRMjDoL2z5dWzR8rGnSZJbYlmlNIasvT293rNuHbzWXiD7nL3SoPQp9n8gsfVEoD15nOhHfXzW6d1uV1hUJcW5gBo6Zt4l5l655_R65HiXfp1YwJE8cXXbQazcEC-i7JjqSnH2ttY76yAVi6FOuhTyaWVoxQaiBh9A9txtEBgO7uU3nMpZs="
+      },
+      {
+        "label": "utoronto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvHApmks6Z6nmmNXAzKN3XBsQcIzICir6cRPHkHqnMT7-MUj3sx9svN71NZTfn3gfKGEX3oMun2ZFaKnXFiJksUnXm0V1b0TGv6pPVAs-v3H2yVHxfv7lM9SOTVDlJNZcWBmoDDHaDgLrmN2-Rxi1GKUz-SE23c5zPf-LpJWosi7a4c3khGyqsNz4uaapkhbb2l3BjjR-qP9A7_VPwjy6AsHg="
+      },
+      {
+        "label": "genboree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_KJf1QM5u7ORwE0NgHVpVdkAHLTtcy3f_rujAxLiQQpICZ2-S0YuNtL8rT0-brHvmyfy5VjGzb-5sbFJXiXLdw-VdHgUzmrBkt_67brSLNafX2rViVw1gu-0hoi7RdxpgptxSmIaVvv9-igcR9i8zDB2Wjaf2aZUMf3xcIDnxq9oqQgEJsZMuf_9ITeubSF6zWc6FOv4="
+      },
+      {
+        "label": "genboree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_KJf1QM5u7ORwE0NgHVpVdkAHLTtcy3f_rujAxLiQQpICZ2-S0YuNtL8rT0-brHvmyfy5VjGzb-5sbFJXiXLdw-VdHgUzmrBkt_67brSLNafX2rViVw1gu-0hoi7RdxpgptxSmIaVvv9-igcR9i8zDB2Wjaf2aZUMf3xcIDnxq9oqQgEJsZMuf_9ITeubSF6zWc6FOv4="
+      },
+      {
+        "label": "utoronto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvHApmks6Z6nmmNXAzKN3XBsQcIzICir6cRPHkHqnMT7-MUj3sx9svN71NZTfn3gfKGEX3oMun2ZFaKnXFiJksUnXm0V1b0TGv6pPVAs-v3H2yVHxfv7lM9SOTVDlJNZcWBmoDDHaDgLrmN2-Rxi1GKUz-SE23c5zPf-LpJWosi7a4c3khGyqsNz4uaapkhbb2l3BjjR-qP9A7_VPwjy6AsHg="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeXcxruRMjDoL2z5dWzR8rGnSZJbYlmlNIasvT293rNuHbzWXiD7nL3SoPQp9n8gsfVEoD15nOhHfXzW6d1uV1hUJcW5gBo6Zt4l5l655_R65HiXfp1YwJE8cXXbQazcEC-i7JjqSnH2ttY76yAVi6FOuhTyaWVoxQaiBh9A9txtEBgO7uU3nMpZs="
+      },
+      {
+        "label": "utoronto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvHApmks6Z6nmmNXAzKN3XBsQcIzICir6cRPHkHqnMT7-MUj3sx9svN71NZTfn3gfKGEX3oMun2ZFaKnXFiJksUnXm0V1b0TGv6pPVAs-v3H2yVHxfv7lM9SOTVDlJNZcWBmoDDHaDgLrmN2-Rxi1GKUz-SE23c5zPf-LpJWosi7a4c3khGyqsNz4uaapkhbb2l3BjjR-qP9A7_VPwjy6AsHg="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeXcxruRMjDoL2z5dWzR8rGnSZJbYlmlNIasvT293rNuHbzWXiD7nL3SoPQp9n8gsfVEoD15nOhHfXzW6d1uV1hUJcW5gBo6Zt4l5l655_R65HiXfp1YwJE8cXXbQazcEC-i7JjqSnH2ttY76yAVi6FOuhTyaWVoxQaiBh9A9txtEBgO7uU3nMpZs="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPWHgl0gmch7wmnBUCP9oa-lvbsjSsh8jIRBUiA0X2SUtWzZUv8dzfTD6DCpRe2qsqSiTFugwkutbQYCqeAV7Sl4a_PVwJoeAx5UmnS27eFSpEUd0K0j_MlOgxcIil93Ely3Mvbpkdyjvj6XhbGATnjqgRzEMnuE6XI_sHknNca-3q_Q=="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPWHgl0gmch7wmnBUCP9oa-lvbsjSsh8jIRBUiA0X2SUtWzZUv8dzfTD6DCpRe2qsqSiTFugwkutbQYCqeAV7Sl4a_PVwJoeAx5UmnS27eFSpEUd0K0j_MlOgxcIil93Ely3Mvbpkdyjvj6XhbGATnjqgRzEMnuE6XI_sHknNca-3q_Q=="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsklNRl41odeqKKAtsH9-Zvj8B_o8FPKYyQaChVg4-B70XLyxtfZ_Z9fRrhFe2ZeeOowam6MnpvuiNR9gHmVuM1DQTMOMm8IG4RDNoScA55-DFOwzofPWGemn92MGlsx6fSUReZZ9V1XQjXt8mP_avjIVw2bqqCJsaRZinavE3"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOe9_0vkpP3VvmN7rHIjJlPEU6XhlxdTMXoqyAqaalbRVK682nI17s8Npe1H4_Uk51eOmu2pw4Yf0Wbw4ogB4C0VrM3nVjVXLxuJLw_mc8XmPouB_GJhbiTSehfd2hZag_YRTLW1J3l5RzJAAPJOmOkXpwENn5vPNZKh6GD9l"
+      },
+      {
+        "label": "genboree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_KJf1QM5u7ORwE0NgHVpVdkAHLTtcy3f_rujAxLiQQpICZ2-S0YuNtL8rT0-brHvmyfy5VjGzb-5sbFJXiXLdw-VdHgUzmrBkt_67brSLNafX2rViVw1gu-0hoi7RdxpgptxSmIaVvv9-igcR9i8zDB2Wjaf2aZUMf3xcIDnxq9oqQgEJsZMuf_9ITeubSF6zWc6FOv4="
+      },
+      {
+        "label": "utoronto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvHApmks6Z6nmmNXAzKN3XBsQcIzICir6cRPHkHqnMT7-MUj3sx9svN71NZTfn3gfKGEX3oMun2ZFaKnXFiJksUnXm0V1b0TGv6pPVAs-v3H2yVHxfv7lM9SOTVDlJNZcWBmoDDHaDgLrmN2-Rxi1GKUz-SE23c5zPf-LpJWosi7a4c3khGyqsNz4uaapkhbb2l3BjjR-qP9A7_VPwjy6AsHg="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeXcxruRMjDoL2z5dWzR8rGnSZJbYlmlNIasvT293rNuHbzWXiD7nL3SoPQp9n8gsfVEoD15nOhHfXzW6d1uV1hUJcW5gBo6Zt4l5l655_R65HiXfp1YwJE8cXXbQazcEC-i7JjqSnH2ttY76yAVi6FOuhTyaWVoxQaiBh9A9txtEBgO7uU3nMpZs="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU5jUYrHrapXQSiTt3V869-P5tAtQN-MR6TY4Hdz04Jt4EtY7GD1RcgHp0ankmp423SjfUhzPQnHyaJBdz82Ycmfn-Cde5xGZcuMR6SAA879ur9a6inKtEmzLTLnyDvoWI_W24MQiP0jkipdUlH74vjl4KqXvaX33ANb2HspNe5-u4qMwTGuIenoxrlbOxJPMT5vf1koFirwc3k1ZDUUo="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOe9_0vkpP3VvmN7rHIjJlPEU6XhlxdTMXoqyAqaalbRVK682nI17s8Npe1H4_Uk51eOmu2pw4Yf0Wbw4ogB4C0VrM3nVjVXLxuJLw_mc8XmPouB_GJhbiTSehfd2hZag_YRTLW1J3l5RzJAAPJOmOkXpwENn5vPNZKh6GD9l"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPOe9_0vkpP3VvmN7rHIjJlPEU6XhlxdTMXoqyAqaalbRVK682nI17s8Npe1H4_Uk51eOmu2pw4Yf0Wbw4ogB4C0VrM3nVjVXLxuJLw_mc8XmPouB_GJhbiTSehfd2hZag_YRTLW1J3l5RzJAAPJOmOkXpwENn5vPNZKh6GD9l"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFsklNRl41odeqKKAtsH9-Zvj8B_o8FPKYyQaChVg4-B70XLyxtfZ_Z9fRrhFe2ZeeOowam6MnpvuiNR9gHmVuM1DQTMOMm8IG4RDNoScA55-DFOwzofPWGemn92MGlsx6fSUReZZ9V1XQjXt8mP_avjIVw2bqqCJsaRZinavE3"
+      },
+      {
+        "label": "omi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELBesdZZB0Cud8vOuCoYXE0Cr11diBrgHgEsg6fKiYqm8QmNIFVLaWR2Je1P0x3mglgHhAOZldszGdjkGQZgEa-MLwTQpltCNos-t3GbqNcS1t-PsfM1d1NODxSEHNxhnz5ipT33hxTP1YVPL_GAlP8XlSSILAkqTpfviExlzY2juJ9XK28PbEZ5nAMwESXfkLrEasqPkgxMvX7cK_a6lDz5PneQ=="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhGhMS7tmALE6AP1lwwvRPza8yZw0gvKwHDcvP7fpG207TZfp1g5ZYHph85-b_GJa_iYusgvtPmMCoHxjt4-C1cpij_ddS8qr-Wp5GpyCdHSL1YcIYhlWX_yxFbId57la8Yb1HQsFTBjtnCG-1w9XVN7Qw4gZuBibLHCl4OKEl"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoxKWFdUzoc5DyFj3YlxBWGcrEbogAY6tfPGF_YZZQ9ElR1nSqMFtUraRx5c7qNZ32l5Ms7SxD5KSB1zf6vOy4LupvqQsFQTw5zL3RKBnjPkZVJzpHuwDfBoGvRcK_b1qCnikQyVVuTipN19IZltE9jzgq6ryIjTOVoKLRGii"
+      },
+      {
+        "label": "upm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGP-KeAz-VoaF19OxSQ60-tsrdDXX_EjEJnV7BZfXkpOLeOvA_kMhFd5sqAT1xJgNLFu_In-1mVhAjetnsEnliA50hQvorRb0fLSKEeO-9EuJIknBvmvh8XHozVJ3qVVIJ1eVvsWyTCQQ8uD4tg3JOTeE8hZU="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_chroZDmcIL3Ze6L4SMq14Fqv-nYuyGYhs4ccrFglRmT6_e5Pc1lghJuydL8JUJveIwQ3b2ne2yRXUL1RTqSiU4kNpPRUpPrVfewnMco6N-SJyvdBDtNCFw_mjVI="
+      },
+      {
+        "label": "bsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLI0b7S8bFMOh5ZkrmyblXUoG_JVTImc5coN1CS0CLt3xOLULhVqJyAsQZ-Dc-K7-E5yE4QGfqctIT0k4ixMfaOPluzzoMQd033ZSXzf6GJDUkYgywc_SU-0mgcrYxZ0AHO-92MUb5ug=="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_chroZDmcIL3Ze6L4SMq14Fqv-nYuyGYhs4ccrFglRmT6_e5Pc1lghJuydL8JUJveIwQ3b2ne2yRXUL1RTqSiU4kNpPRUpPrVfewnMco6N-SJyvdBDtNCFw_mjVI="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhGhMS7tmALE6AP1lwwvRPza8yZw0gvKwHDcvP7fpG207TZfp1g5ZYHph85-b_GJa_iYusgvtPmMCoHxjt4-C1cpij_ddS8qr-Wp5GpyCdHSL1YcIYhlWX_yxFbId57la8Yb1HQsFTBjtnCG-1w9XVN7Qw4gZuBibLHCl4OKEl"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoxKWFdUzoc5DyFj3YlxBWGcrEbogAY6tfPGF_YZZQ9ElR1nSqMFtUraRx5c7qNZ32l5Ms7SxD5KSB1zf6vOy4LupvqQsFQTw5zL3RKBnjPkZVJzpHuwDfBoGvRcK_b1qCnikQyVVuTipN19IZltE9jzgq6ryIjTOVoKLRGii"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_W9lA8uwXDgPNL3F6TlMVp47z1nC_ISWnbgz7IeaipAe4gTQdxsbEFDSHW5smTjIVg4pE2SvEGAaG2nvQgtKk0ssWQ7t84SsZRGG2NBmh9LbMSGO8E6b4izy_VGvjEolih3qPK3p1TEG7xfPUIkhipzWcfUhdH_Wndmuk2H7inWbqth5DM_oKrnnhXCpFE6Lcf6MwQw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE61AD4yJTewzfEtpyNf1Kya1NE_kIP8bea1fc1TZ8IuRibQGS3HZ0-6UK3VrnNsCemNMUARGZM68CoTr3P2NburrS8d9FCb3q5xARrqceSML6oj7Q0UzdNu8w95LWlUErHeKTsbIQySYq2mt4_IS5f7yFhVGXitZnbEPWXWPPV4d8qWw=="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_chroZDmcIL3Ze6L4SMq14Fqv-nYuyGYhs4ccrFglRmT6_e5Pc1lghJuydL8JUJveIwQ3b2ne2yRXUL1RTqSiU4kNpPRUpPrVfewnMco6N-SJyvdBDtNCFw_mjVI="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhGhMS7tmALE6AP1lwwvRPza8yZw0gvKwHDcvP7fpG207TZfp1g5ZYHph85-b_GJa_iYusgvtPmMCoHxjt4-C1cpij_ddS8qr-Wp5GpyCdHSL1YcIYhlWX_yxFbId57la8Yb1HQsFTBjtnCG-1w9XVN7Qw4gZuBibLHCl4OKEl"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoxKWFdUzoc5DyFj3YlxBWGcrEbogAY6tfPGF_YZZQ9ElR1nSqMFtUraRx5c7qNZ32l5Ms7SxD5KSB1zf6vOy4LupvqQsFQTw5zL3RKBnjPkZVJzpHuwDfBoGvRcK_b1qCnikQyVVuTipN19IZltE9jzgq6ryIjTOVoKLRGii"
+      },
+      {
+        "label": "bsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPOucS9mMS1jCQbRsypZSTFlV4etpSW6sbJEDKvHISmB4nDu0AiiewlDSQwBy60CJKVjPV2Y5mXodQKL78J091vfid-y3rFr8K5rD0YogbnQIWeyi_pVsr5ABVgJExRozI8TnTMbZGjjfjfLskmgZHw=="
+      },
+      {
+        "label": "softpuzzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_DoOz2mhpimCpeNjJq_D1hADtg8lWbSsXujydJlapjGG39edoRpyVdTYUcIj4JWS9E5tGL9AmUjOgyyfWPwMKwmdMLMXrVurmqgaiwTWYkigPD5rPSgBWgGwaZ_4mvQQOk5uESzp5OdxUrcM8tcwhxhaqNM0="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwstFSoCg7iLf7Gvhg9gN2P9YnLDi7N2rra7ZIbaVWaPhAAOf3IdAX6PfGOeHOjZmncrgpxE1-0a1WoALih2936rBDNCVXyVbr-WqvBiqlLyVkqPtcfHcWxCZtD6CHSnQ="
+      },
+      {
+        "label": "bsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlPOucS9mMS1jCQbRsypZSTFlV4etpSW6sbJEDKvHISmB4nDu0AiiewlDSQwBy60CJKVjPV2Y5mXodQKL78J091vfid-y3rFr8K5rD0YogbnQIWeyi_pVsr5ABVgJExRozI8TnTMbZGjjfjfLskmgZHw=="
+      },
+      {
+        "label": "softpuzzle",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_DoOz2mhpimCpeNjJq_D1hADtg8lWbSsXujydJlapjGG39edoRpyVdTYUcIj4JWS9E5tGL9AmUjOgyyfWPwMKwmdMLMXrVurmqgaiwTWYkigPD5rPSgBWgGwaZ_4mvQQOk5uESzp5OdxUrcM8tcwhxhaqNM0="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwstFSoCg7iLf7Gvhg9gN2P9YnLDi7N2rra7ZIbaVWaPhAAOf3IdAX6PfGOeHOjZmncrgpxE1-0a1WoALih2936rBDNCVXyVbr-WqvBiqlLyVkqPtcfHcWxCZtD6CHSnQ="
+      },
+      {
+        "label": "genboree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4O3qgFi_RjPIG59wcNqo27SnO-QJ7ePAiawWRyEIitKrLnGet2G9x4oLDtHzM3zf68FnrA7VpmDINh_QvLK-M5IvxxOSfy1884noSEy-W_k7wMofKZR6V1Gu5kCYdKlylzRZ4n_bebeYXRcBr0hNprMSj8sAf485JOvfiH2FyQNLIWHxnW0_y8DPQaafbErM7GJPfvPw="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOMgKpKbLw6o3C0Jwt5gbka-infQSSNKWjRZXg9-Ow4-tEphGdFmbswdswpj8c7q3PGb1Mj2esLV37MZUJOK3mC9U5IXryriuMHb4wHio6jnrFt79tQmJJU3NrwXO_zeGrZMgEfwTIR3vurECZW229_66iZo5oJHm2yrRA2KN2kowFRKqGGHxusSk="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeeOUD4r55kBaHmQ4MDRMtuvbx5gH_pHTR5qLywbKSbWGdZlJUsUgnqfgufZWt5kbErwa5Q7yxOk2BV9XbDdcTUhQ62J65r0twmR3_Th7s44ZTHxfkpeqeDcOJyjZTJon4AK2nPFX52OQ-aFHAHLVlYMRqU8gFEC_dhykGvIpt"
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4UHht06F8XhlBCJ6PCNVLlIMm-eTRbP32N_irpj4ed9Y2Xy75kDdCnjHFG00gnnBz14_Pm_wdIC_srcHU5MIvSPnBEB4s6crhEoIL9J1d7PIPuWIBQHaUiDXqoI="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvuZ_OQV-qzN_W5SzvpoSo3DrXzdAtbh3oqkLYplu4q6usPTL_ntNgerhlJqN1mPIf41Ot3pD9VtZrdkyRrOPQc5Oez4EUu2K5541XQpUT3kX5vVw99sxgw9o6tYztx1VDtHZ5XPDrRIhnkrCOExvUsZ-OD5KHOUY="
+      },
+      {
+        "label": "ethz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1VkscBHgqzdVBBsEtlYdum6zEcLdSwPqQksfsvvsPrZIl1uWMvM6J8500RvKwS9Tjnvzh7OGP7JFC93Y56irYPa-aN1451g3oY9GG3OmN8rnaWPAd32xxkAKWiDDmbpy2zPvmNF5ctI-qdWcRxwBEQwwEA4ADdYJoow=="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQC0PadGB8YMsGL-kGJF0dKn1d7SagTK5rzJFWdvYuVEd72gKoiIFXxMXIYOsh34AM-VFJ1JO6HpC32tWNU7Rt0cWHMoxw_mGYDbCe0q3WWnYs-n5q8pGhEeM-C2490GYUc4DNQAPA8HaXSaM_Q_KOAJtwnLYdMn5Kq1ILJfSg"
+      },
+      {
+        "label": "genboree",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_KJf1QM5u7ORwE0NgHVpVdkAHLTtcy3f_rujAxLiQQpICZ2-S0YuNtL8rT0-brHvmyfy5VjGzb-5sbFJXiXLdw-VdHgUzmrBkt_67brSLNafX2rViVw1gu-0hoi7RdxpgptxSmIaVvv9-igcR9i8zDB2Wjaf2aZUMf3xcIDnxq9oqQgEJsZMuf_9ITeubSF6zWc6FOv4="
+      },
+      {
+        "label": "utoronto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvHApmks6Z6nmmNXAzKN3XBsQcIzICir6cRPHkHqnMT7-MUj3sx9svN71NZTfn3gfKGEX3oMun2ZFaKnXFiJksUnXm0V1b0TGv6pPVAs-v3H2yVHxfv7lM9SOTVDlJNZcWBmoDDHaDgLrmN2-Rxi1GKUz-SE23c5zPf-LpJWosi7a4c3khGyqsNz4uaapkhbb2l3BjjR-qP9A7_VPwjy6AsHg="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeXcxruRMjDoL2z5dWzR8rGnSZJbYlmlNIasvT293rNuHbzWXiD7nL3SoPQp9n8gsfVEoD15nOhHfXzW6d1uV1hUJcW5gBo6Zt4l5l655_R65HiXfp1YwJE8cXXbQazcEC-i7JjqSnH2ttY76yAVi6FOuhTyaWVoxQaiBh9A9txtEBgO7uU3nMpZs="
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhGhMS7tmALE6AP1lwwvRPza8yZw0gvKwHDcvP7fpG207TZfp1g5ZYHph85-b_GJa_iYusgvtPmMCoHxjt4-C1cpij_ddS8qr-Wp5GpyCdHSL1YcIYhlWX_yxFbId57la8Yb1HQsFTBjtnCG-1w9XVN7Qw4gZuBibLHCl4OKEl"
+      },
+      {
+        "label": "readthedocs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIoxKWFdUzoc5DyFj3YlxBWGcrEbogAY6tfPGF_YZZQ9ElR1nSqMFtUraRx5c7qNZ32l5Ms7SxD5KSB1zf6vOy4LupvqQsFQTw5zL3RKBnjPkZVJzpHuwDfBoGvRcK_b1qCnikQyVVuTipN19IZltE9jzgq6ryIjTOVoKLRGii"
+      },
+      {
+        "label": "upm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGP-KeAz-VoaF19OxSQ60-tsrdDXX_EjEJnV7BZfXkpOLeOvA_kMhFd5sqAT1xJgNLFu_In-1mVhAjetnsEnliA50hQvorRb0fLSKEeO-9EuJIknBvmvh8XHozVJ3qVVIJ1eVvsWyTCQQ8uD4tg3JOTeE8hZU="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_chroZDmcIL3Ze6L4SMq14Fqv-nYuyGYhs4ccrFglRmT6_e5Pc1lghJuydL8JUJveIwQ3b2ne2yRXUL1RTqSiU4kNpPRUpPrVfewnMco6N-SJyvdBDtNCFw_mjVI="
+      },
+      {
+        "label": "bsc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLI0b7S8bFMOh5ZkrmyblXUoG_JVTImc5coN1CS0CLt3xOLULhVqJyAsQZ-Dc-K7-E5yE4QGfqctIT0k4ixMfaOPluzzoMQd033ZSXzf6GJDUkYgywc_SU-0mgcrYxZ0AHO-92MUb5ug=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "file_name": "state_result_289.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.598000",
+  "data": {
+    "messages": [
+      {
+        "content": "nba game tonight",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "2f0011b0-fa45-4255-8cf4-6a20cb30c1d7",
+        "example": false
+      },
+      {
+        "content": "Yes, there are several NBA Summer League games scheduled for today, July 16, 2025 [directv](https://vertexaisearch.cloud.google.com/id/0-0), [basket-mag](https://vertexaisearch.cloud.google.com/id/0-1), [youtube](https://vertexaisearch.cloud.google.com/id/0-2). Here's the schedule in Eastern Time (ET):\n\n*   3:30 p.m. ET: Sacramento Kings vs. Cleveland Cavaliers [directv](https://vertexaisearch.cloud.google.com/id/0-0), [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   5:00 p.m. ET: Phoenix Suns vs. Minnesota Timberwolves [directv](https://vertexaisearch.cloud.google.com/id/0-0), [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   5:30 p.m. ET: Milwaukee Bucks vs. Chicago Bulls [directv](https://vertexaisearch.cloud.google.com/id/0-0), [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   7:30 p.m. ET: Orlando Magic vs. Brooklyn Nets [directv](https://vertexaisearch.cloud.google.com/id/0-0), [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   8:00 p.m. ET: Dallas Mavericks vs. Philadelphia 76ers [directv](https://vertexaisearch.cloud.google.com/id/0-0), [tsn](https://vertexaisearch.cloud.google.com/id/0-4), [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   9:30 p.m. ET: New Orleans Pelicans vs. Oklahoma City Thunder [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3), [directv](https://vertexaisearch.cloud.google.com/id/0-0)\n*   10:00 p.m. ET: Washington Wizards vs. Utah Jazz [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3), [directv](https://vertexaisearch.cloud.google.com/id/0-0)\n\nIn addition to the NBA Summer League games, the WNBA has a game today between the New York Liberty and the Indiana Fever [basket-mag](https://vertexaisearch.cloud.google.com/id/0-6), and another game between the Golden State Valkyries and Seattle Storm at 12 p.m. PT [wnba](https://vertexaisearch.cloud.google.com/id/0-7).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "c5d6105e-6cf9-4bd8-b19d-f1f0a43699f2",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "NBA game schedule tonight"
+    ],
+    "web_research_result": [
+      "As of July 16, 2025, here's a summary of the NBA games and related activities scheduled:\n\n**NBA Summer League Games (July 16, 2025):**\n\nSeveral NBA Summer League games are scheduled for July 16, 2025 [directv](https://vertexaisearch.cloud.google.com/id/0-0) [basket-mag](https://vertexaisearch.cloud.google.com/id/0-1) [youtube](https://vertexaisearch.cloud.google.com/id/0-2). Game times are listed in Philippine Time in one source [youtube](https://vertexaisearch.cloud.google.com/id/0-2). Here's a list of the matchups with Eastern Time (ET) [directv](https://vertexaisearch.cloud.google.com/id/0-0):\n\n*   3:30 p.m. ET: Sacramento Kings vs. Cleveland Cavaliers [directv](https://vertexaisearch.cloud.google.com/id/0-0) [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   5:00 p.m. ET: Phoenix Suns vs. Minnesota Timberwolves [directv](https://vertexaisearch.cloud.google.com/id/0-0) [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   5:30 p.m. ET: Milwaukee Bucks vs. Chicago Bulls [directv](https://vertexaisearch.cloud.google.com/id/0-0) [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   7:30 p.m. ET: Orlando Magic vs. Brooklyn Nets [directv](https://vertexaisearch.cloud.google.com/id/0-0) [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   8:00 p.m. ET: Dallas Mavericks vs. Philadelphia 76ers [directv](https://vertexaisearch.cloud.google.com/id/0-0) [tsn](https://vertexaisearch.cloud.google.com/id/0-4) [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n*   9:30 p.m. ET: New Orleans Pelicans vs. Oklahoma City Thunder [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3) [directv](https://vertexaisearch.cloud.google.com/id/0-0)\n*   10:00 p.m. ET: Washington Wizards vs. Utah Jazz [sportsmediawatch](https://vertexaisearch.cloud.google.com/id/0-3)\n\n**Other NBA Events in July 2025:**\n\n*   **NBA Free Agency:** July is a key period for NBA Free Agency, with teams looking to acquire talent [basket-mag](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-5). Negotiations began on June 30, 2025 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **NBA Summer League:** The NBA Summer League takes place in Las Vegas from July 10-20, 2025 [basket-mag](https://vertexaisearch.cloud.google.com/id/0-1) [directv](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**Looking Ahead:**\n\n*   **2025-2026 NBA Season:** The regular season is scheduled to begin on October 21, 2025, and end on April 12, 2026 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **NBA Cup Tournament:** The third edition of the NBA Cup is planned for October 31 through December 16, 2025 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **2026 All-Star Game:** The 2026 NBA All-Star Game is scheduled for February 15, 2026, in Inglewood, California [wikipedia](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**WNBA Games in New York (July 2025):**\n\n*   New York Liberty vs. Indiana Fever on July 16, 2025 [basket-mag](https://vertexaisearch.cloud.google.com/id/0-6).\n\n**WNBA Game Today:**\n\n*   Golden State Valkyries vs. Seattle Storm at 12 p.m. PT [wnba](https://vertexaisearch.cloud.google.com/id/0-7).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "directv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqWStnmElHnC3RB_e0IRFdtrBSXSAq9_fgFb_cpfCzWUb6olUbWSunS0mEj8FJ_eKADwsBgNC6f68bN7csHjBQh_AjtFPb_1mw2FFlNK2sztyJ6N41UEXNnUiX5_kBOZtGC3O4DTQdK7gF1cS_"
+      },
+      {
+        "label": "basket-mag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFamH5WERhPHzfmGgcnjaBEEaI788-YiUHZyWm1qh-In1OarRm0JA1FwpgI8avogLgPELe0amtWurKO2OKB-MnsdCo5oT1Z41fwin7aCqbdg99BHf6TQYRWb0oqTOgOJ5-x5wPeE21LRwvHMeJ2"
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB8piV8glB9ei-xtA8QUzssBuMHk10iXslnb9zhmsv-k3VAV7lI2RofuVrfil0H21S0rcv5ESY8Uc19a9yuWwTZ_8ZNfrxXk-e-7IrKB1iakRog2y2YbGjZLkl36Tmn7LuCSiKr0o="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB8piV8glB9ei-xtA8QUzssBuMHk10iXslnb9zhmsv-k3VAV7lI2RofuVrfil0H21S0rcv5ESY8Uc19a9yuWwTZ_8ZNfrxXk-e-7IrKB1iakRog2y2YbGjZLkl36Tmn7LuCSiKr0o="
+      },
+      {
+        "label": "directv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqWStnmElHnC3RB_e0IRFdtrBSXSAq9_fgFb_cpfCzWUb6olUbWSunS0mEj8FJ_eKADwsBgNC6f68bN7csHjBQh_AjtFPb_1mw2FFlNK2sztyJ6N41UEXNnUiX5_kBOZtGC3O4DTQdK7gF1cS_"
+      },
+      {
+        "label": "directv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqWStnmElHnC3RB_e0IRFdtrBSXSAq9_fgFb_cpfCzWUb6olUbWSunS0mEj8FJ_eKADwsBgNC6f68bN7csHjBQh_AjtFPb_1mw2FFlNK2sztyJ6N41UEXNnUiX5_kBOZtGC3O4DTQdK7gF1cS_"
+      },
+      {
+        "label": "sportsmediawatch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejl7gE40sVHLQTcAJhRYkjRd4nmZ5nAD9XxSqpH1I6Z1OpAUy2BuIIuxEuEG0Y-mztx38pMoBdtS4kHrPZyaKJ6H-UE1Zlc07xBtbOOt16HIkaRhCtESllQc46BxVYZzCXHkeZXkUd-AzTkrTX0Kg61Z_HqZr_I9a"
+      },
+      {
+        "label": "directv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqWStnmElHnC3RB_e0IRFdtrBSXSAq9_fgFb_cpfCzWUb6olUbWSunS0mEj8FJ_eKADwsBgNC6f68bN7csHjBQh_AjtFPb_1mw2FFlNK2sztyJ6N41UEXNnUiX5_kBOZtGC3O4DTQdK7gF1cS_"
+      },
+      {
+        "label": "sportsmediawatch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejl7gE40sVHLQTcAJhRYkjRd4nmZ5nAD9XxSqpH1I6Z1OpAUy2BuIIuxEuEG0Y-mztx38pMoBdtS4kHrPZyaKJ6H-UE1Zlc07xBtbOOt16HIkaRhCtESllQc46BxVYZzCXHkeZXkUd-AzTkrTX0Kg61Z_HqZr_I9a"
+      },
+      {
+        "label": "directv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqWStnmElHnC3RB_e0IRFdtrBSXSAq9_fgFb_cpfCzWUb6olUbWSunS0mEj8FJ_eKADwsBgNC6f68bN7csHjBQh_AjtFPb_1mw2FFlNK2sztyJ6N41UEXNnUiX5_kBOZtGC3O4DTQdK7gF1cS_"
+      },
+      {
+        "label": "sportsmediawatch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejl7gE40sVHLQTcAJhRYkjRd4nmZ5nAD9XxSqpH1I6Z1OpAUy2BuIIuxEuEG0Y-mztx38pMoBdtS4kHrPZyaKJ6H-UE1Zlc07xBtbOOt16HIkaRhCtESllQc46BxVYZzCXHkeZXkUd-AzTkrTX0Kg61Z_HqZr_I9a"
+      },
+      {
+        "label": "directv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqWStnmElHnC3RB_e0IRFdtrBSXSAq9_fgFb_cpfCzWUb6olUbWSunS0mEj8FJ_eKADwsBgNC6f68bN7csHjBQh_AjtFPb_1mw2FFlNK2sztyJ6N41UEXNnUiX5_kBOZtGC3O4DTQdK7gF1cS_"
+      },
+      {
+        "label": "sportsmediawatch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejl7gE40sVHLQTcAJhRYkjRd4nmZ5nAD9XxSqpH1I6Z1OpAUy2BuIIuxEuEG0Y-mztx38pMoBdtS4kHrPZyaKJ6H-UE1Zlc07xBtbOOt16HIkaRhCtESllQc46BxVYZzCXHkeZXkUd-AzTkrTX0Kg61Z_HqZr_I9a"
+      },
+      {
+        "label": "directv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqWStnmElHnC3RB_e0IRFdtrBSXSAq9_fgFb_cpfCzWUb6olUbWSunS0mEj8FJ_eKADwsBgNC6f68bN7csHjBQh_AjtFPb_1mw2FFlNK2sztyJ6N41UEXNnUiX5_kBOZtGC3O4DTQdK7gF1cS_"
+      },
+      {
+        "label": "tsn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjlB0h9AU9lI8WIn41gl3ggNseuaqsDxQ_fYCfWR7ez2Z8EiN95Upl9OoFIXkWmmuJx8xUwu_HpAVvVOjYFBvJv8m6qXWDCZpxgV2wcN8xxG_Wojsi54XInOPEyl5N6xm3uOlL5I_UXHXzoYS-HZ7euHyouHVq6S6V8-e_eQ=="
+      },
+      {
+        "label": "sportsmediawatch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejl7gE40sVHLQTcAJhRYkjRd4nmZ5nAD9XxSqpH1I6Z1OpAUy2BuIIuxEuEG0Y-mztx38pMoBdtS4kHrPZyaKJ6H-UE1Zlc07xBtbOOt16HIkaRhCtESllQc46BxVYZzCXHkeZXkUd-AzTkrTX0Kg61Z_HqZr_I9a"
+      },
+      {
+        "label": "sportsmediawatch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejl7gE40sVHLQTcAJhRYkjRd4nmZ5nAD9XxSqpH1I6Z1OpAUy2BuIIuxEuEG0Y-mztx38pMoBdtS4kHrPZyaKJ6H-UE1Zlc07xBtbOOt16HIkaRhCtESllQc46BxVYZzCXHkeZXkUd-AzTkrTX0Kg61Z_HqZr_I9a"
+      },
+      {
+        "label": "directv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqWStnmElHnC3RB_e0IRFdtrBSXSAq9_fgFb_cpfCzWUb6olUbWSunS0mEj8FJ_eKADwsBgNC6f68bN7csHjBQh_AjtFPb_1mw2FFlNK2sztyJ6N41UEXNnUiX5_kBOZtGC3O4DTQdK7gF1cS_"
+      },
+      {
+        "label": "sportsmediawatch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGejl7gE40sVHLQTcAJhRYkjRd4nmZ5nAD9XxSqpH1I6Z1OpAUy2BuIIuxEuEG0Y-mztx38pMoBdtS4kHrPZyaKJ6H-UE1Zlc07xBtbOOt16HIkaRhCtESllQc46BxVYZzCXHkeZXkUd-AzTkrTX0Kg61Z_HqZr_I9a"
+      },
+      {
+        "label": "basket-mag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFamH5WERhPHzfmGgcnjaBEEaI788-YiUHZyWm1qh-In1OarRm0JA1FwpgI8avogLgPELe0amtWurKO2OKB-MnsdCo5oT1Z41fwin7aCqbdg99BHf6TQYRWb0oqTOgOJ5-x5wPeE21LRwvHMeJ2"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmvxAvFaIloQBzOmu2WXM-MdvxgQC5MugFxfifyGO6gFbaYsKmY7VQxVTVARJJnV9AZpHqwJyUur_A8kiQSoXx62thwdJHNJRYghXyVXSutu0d1N4ajO-zRr486xcwJB3ndYigcIkCjaiYJEkg547uOck1"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmvxAvFaIloQBzOmu2WXM-MdvxgQC5MugFxfifyGO6gFbaYsKmY7VQxVTVARJJnV9AZpHqwJyUur_A8kiQSoXx62thwdJHNJRYghXyVXSutu0d1N4ajO-zRr486xcwJB3ndYigcIkCjaiYJEkg547uOck1"
+      },
+      {
+        "label": "basket-mag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFamH5WERhPHzfmGgcnjaBEEaI788-YiUHZyWm1qh-In1OarRm0JA1FwpgI8avogLgPELe0amtWurKO2OKB-MnsdCo5oT1Z41fwin7aCqbdg99BHf6TQYRWb0oqTOgOJ5-x5wPeE21LRwvHMeJ2"
+      },
+      {
+        "label": "directv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqWStnmElHnC3RB_e0IRFdtrBSXSAq9_fgFb_cpfCzWUb6olUbWSunS0mEj8FJ_eKADwsBgNC6f68bN7csHjBQh_AjtFPb_1mw2FFlNK2sztyJ6N41UEXNnUiX5_kBOZtGC3O4DTQdK7gF1cS_"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmvxAvFaIloQBzOmu2WXM-MdvxgQC5MugFxfifyGO6gFbaYsKmY7VQxVTVARJJnV9AZpHqwJyUur_A8kiQSoXx62thwdJHNJRYghXyVXSutu0d1N4ajO-zRr486xcwJB3ndYigcIkCjaiYJEkg547uOck1"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmvxAvFaIloQBzOmu2WXM-MdvxgQC5MugFxfifyGO6gFbaYsKmY7VQxVTVARJJnV9AZpHqwJyUur_A8kiQSoXx62thwdJHNJRYghXyVXSutu0d1N4ajO-zRr486xcwJB3ndYigcIkCjaiYJEkg547uOck1"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmvxAvFaIloQBzOmu2WXM-MdvxgQC5MugFxfifyGO6gFbaYsKmY7VQxVTVARJJnV9AZpHqwJyUur_A8kiQSoXx62thwdJHNJRYghXyVXSutu0d1N4ajO-zRr486xcwJB3ndYigcIkCjaiYJEkg547uOck1"
+      },
+      {
+        "label": "basket-mag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2L9NwPKHzV5LVVe0Dke9MVEAeArd7-fxq1DZxNOuxeeyDzCBwj3mQM-SnHoWX0KETRWuuI5keynh2TdBouEhQIZfdPYPjqU9JlgvzD0E826odixjZuMoFnUDtWz0HlBFAp_DodNhevA=="
+      },
+      {
+        "label": "wnba",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJtEpCn7ISx2odCH5XjEmfTgfUdZrO1FDkeNonac8M6VAGoi8AgAJliuTpIyDvWs7O1Cc8h0xavMcOW2vfwhsCW8VLowMRGKdsDu5g3hS_bUXkl75T45-SyCt2U2RZT5YLADpv6FOzAvnw8f9DOvrxSEXr"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

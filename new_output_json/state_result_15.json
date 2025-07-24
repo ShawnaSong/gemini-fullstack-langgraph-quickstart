@@ -1,0 +1,694 @@
+{
+  "file_name": "state_result_15.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.639346",
+  "data": {
+    "messages": [
+      {
+        "content": "Use Ktor and html dsl to render a list of json objects. Use content negotiation to optionally return json, yaml or xml directly. Use content negotiation for gzip or brotli compression.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "987d5c2b-3615-41bd-b169-54cc2894e987",
+        "example": false
+      },
+      {
+        "content": "To render a list of JSON objects using Ktor and HTML DSL, with content negotiation for JSON, YAML, or XML, and compression using Gzip or Brotli, follow these steps:\n\n**1. Project Setup and Dependencies:**\n\n*   Create a Ktor project. Ktor is a Kotlin framework by JetBrains for building asynchronous client and server applications [softwaremill](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQvSITxTqcEBhdKp9g5YpSajjK3SOaOGO9fDSAIUrUnyIZTN9RWRTJeHVLcNvSfSid-7O_H4eDrpdBG7paDknBVmjXzas7Iw_wAySibX7gHXJI8nAxBu6FmjJ6DImQDdVXUTyf0EH0Xzux9MA5EfOBXx5_mn6vkT0xew==) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0466XGh47lAkmTCKAWSgsSMw22rqqI7OVXWOJXyL1GHZU3Yz3faJlnPnH083GiqRwjhOt3fKaJFUFWMZp5lT5IJECS1O5nekZGgiVHbqge5Nt5ERXG20YNXlYh8nEzJqY7VNYKaOsRAaQ_woRzygK-_rfi2aH6yXxqlTf4p8zlt-JC_eMJm8D64ytoBDzQfnlBteoh76lPYc9_0a4CU83gA==).\n*   Add the necessary dependencies in your `build.gradle.kts` file [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0466XGh47lAkmTCKAWSgsSMw22rqqI7OVXWOJXyL1GHZU3Yz3faJlnPnH083GiqRwjhOt3fKaJFUFWMZp5lT5IJECS1O5nekZGgiVHbqge5Nt5ERXG20YNXlYh8nEzJqY7VNYKaOsRAaQ_woRzygK-_rfi2aH6yXxqlTf4p8zlt-JC_eMJm8D64ytoBDzQfnlBteoh76lPYc9_0a4CU83gA==3) [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_vEjRFiguzggFXk1KEzaA7k9B3qaDt51HTLf8dT7CrQM5XI3qtyBjvc4LAHoeqY9wNS1l3RH_IA8CQYCKy08Ev2XxibTFXJIvSSvBH1smjMTb8xbtjuy9b4gGncdvX4h_siI) [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY=) [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0=):\n\n    ```kotlin\n    dependencies {\n        implementation(\"io.ktor:ktor-server-core:$ktor_version\")\n        implementation(\"io.ktor:ktor-server-netty:$ktor_version\") // Or your preferred engine\n        implementation(\"io.ktor:ktor-server-html-builder:$ktor_version\")\n        implementation(\"io.ktor:ktor-server-content-negotiation:$ktor_version\")\n        implementation(\"io.ktor:ktor-serialization-kotlinx-json:$ktor_version\") // or gson, jackson\n        implementation(\"io.ktor:ktor-serialization-kotlinx-xml:$ktor_version\")\n        implementation(\"io.ktor:ktor-server-compression:$ktor_version\")\n    }\n\n    plugins {\n        kotlin(\"jvm\") version \"1.9.10\"\n        id(\"io.ktor.plugin\") version \"2.3.5\"\n        id(\"org.jetbrains.kotlin.plugin.serialization\") version \"1.8.0\"\n    }\n    ```\n\n**2. Install and Configure Plugins:**\n\n*   Install the `ContentNegotiation` and `Compression` plugins in your Ktor application module [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0=) [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY=).  The `ContentNegotiation` plugin handles media type negotiation using the `Accept` and `Content-Type` headers [bookstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtM5tNo3f2FCgXJE6lo1kBZacV1UFYF6b8D-RjjknBTuFkps8DvrloOD6ewWpTMknyy6Ty8EH_sHJaVnQlSfquO94lMezgAe8nmsZb_ixgGtK5s25VRNJbl1k1M027U5AaRuSMl-vCBUt--q7Z0RG-M-RWehCIuCoGVw==).\n\n    ```kotlin\n    import io.ktor.server.application.*\n    import io.ktor.server.plugins.contentnegotiation.*\n    import io.ktor.serialization.kotlinx.json.*\n    import io.ktor.serialization.kotlinx.xml.*\n    import io.ktor.server.plugins.compression.*\n    import io.ktor.server.response.*\n    import io.ktor.http.*\n    import io.ktor.server.routing.*\n    import kotlinx.serialization.Serializable\n    import kotlinx.html.*\n    import io.ktor.server.html.*\n\n    @Serializable\n    data class Item(val name: String, val value: Int)\n\n    fun Application.module() {\n        install(ContentNegotiation) {\n            json(Json {\n                ignoreUnknownKeys = true\n                isLenient = true\n                encodeDefaults = false\n            }) // or gson() or jackson()\n            xml()\n            //register(ContentType.Application.Yaml, YamlConverter()) //Custom implementation\n        }\n        install(Compression) {\n            gzip {\n                priority = 1.0\n            }\n            deflate {\n                priority = 0.9\n                minimumSize(1024) // condition\n            }\n            //brotli { //Not directly supported, requires custom encoder\n            //    priority = 1.1\n            //}\n        }\n\n        routing {\n            get(\"/items\") {\n                val items = listOf(\n                    Item(\"Item 1\", 10),\n                    Item(\"Item 2\", 20)\n                )\n\n                val acceptHeader = call.request.header(HttpHeaders.Accept)\n                when {\n                    acceptHeader?.contains(ContentType.Application.Json.toString()) == true -> {\n                        call.respond(items)\n                    }\n                    acceptHeader?.contains(ContentType.Application.Xml.toString()) == true -> {\n                        call.respond(items)\n                    }\n                    else -> {\n                        call.respondHtml(HttpStatusCode.OK) {\n                            head {\n                                title(\"Items List\")\n                            }\n                            body {\n                                h1 { +\"List of Items\" }\n                                ul {\n                                    items.forEach { item ->\n                                        li { +\"${item.name}: ${item.value}\" }\n                                    }\n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n    ```\n\n**3. Define Data Class and Routes:**\n\n*   Define a data class to represent your JSON objects [codersee](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0466XGh47lAkmTCKAWSgsSMw22rqqI7OVXWOJXyL1GHZU3Yz3faJlnPnH083GiqRwjhOt3fKaJFUFWMZp5lT5IJECS1O5nekZGgiVHbqge5Nt5ERXG20YNXlYh8nEzJqY7VNYKaOsRAaQ_woRzygK-_rfi2aH6yXxqlTf4p8zlt-JC_eMJm8D64ytoBDzQfnlBteoh76lPYc9_0a4CU83gA==1).  Mark the data class with `@Serializable` if using `kotlinx.serialization`.\n*   Create a route to handle the request and render the list of objects. Use `call.respond` to send the list, and Ktor will automatically serialize it based on the `Accept` header [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdWMUS_xUL1G1EfFTorFjwkQDdWNRTPLZtDAz4u8QeKo1xJJ3wAkeYWkULKob6wVKuuEnvCRiY8BW1B5EqEQx3aq_TR4EI3J6jaKuv_GKH5kG4DLLTNC2UH7xFab4kdHGv0Y4VrA==) [bookstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrLTh89HVnynA1SWSaneSKDFFR4KSizDKMyAPMMZ5vT-NdRM_AAjQEPThyP-DL60ZfLkBl_RA9AlVzO7resNQh0Gy3tN3QQul0DUA8QORXjV3sm2zF7nT1EY9Lv4dbGt42K29QghCdzSytXsj_DUG2VKi4A_Ez9zOnJg==).  For HTML responses, use `call.respondHtml` with the HTML DSL [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3m191jbCWUhdPtn7WeOzhwCASJeDDAvueA9dJW-A9hfLaKlj16XMpCh0OiHtQGjm2QxGlRpGC99BtJ6nWPbKaUAtsIPNzh84fbFx5Si99lemHHJUlgIMASGn3_GNa7Gea1Nbj) [softwaremill](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQvSITxTqcEBhdKp9g5YpSajjK3SOaOGO9fDSAIUrUnyIZTN9RWRTJeHVLcNvSfSid-7O_H4eDrpdBG7paDknBVmjXzas7Iw_wAySibX7gHXJI8nAxBu6FmjJ6DImQDdVXUTyf0EH0Xzux9MA5EfOBXx5_mn6vkT0xew==).\n\n    ```kotlin\n    import io.ktor.server.application.*\n    import io.ktor.server.response.*\n    import io.ktor.server.routing.*\n    import kotlinx.serialization.Serializable\n    import kotlinx.html.*\n    import io.ktor.server.html.*\n    import io.ktor.http.*\n\n    @Serializable\n    data class Item(val name: String, val value: Int)\n\n    fun Route.listItemsRoute() {\n        get(\"/items\") {\n            val items = listOf(\n                Item(\"Item 1\", 10),\n                Item(\"Item 2\", 20)\n            )\n\n            call.respondHtml(HttpStatusCode.OK) {\n                head {\n                    title(\"Items List\")\n                }\n                body {\n                    h1 { +\"List of Items\" }\n                    ul {\n                        items.forEach { item ->\n                            li { +\"${item.name}: ${item.value}\" }\n                        }\n                    }\n                }\n            }\n        }\n    }\n\n    fun Application.module() {\n        routing {\n            listItemsRoute()\n        }\n    }\n    ```\n\n**4. Content Negotiation:**\n\n*   Configure `ContentNegotiation` to handle JSON and XML [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbB-NgIxoqytiWBmzDzGIvbc1mrREM7Is53WtmOjukdklSseI7NW1P3EajU2Dy3WpOdPL9kS79xrRjJssScpazPOoTnxJAKtI93J8HT1pr58zT9Y7wFYzwWu-6J4BqHnwvqZb_1Xt684=) [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY=).  You can use `kotlinx.serialization`, Gson, or Jackson for JSON [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w=).\n*   For YAML, since Ktor doesn't have built-in support, you'll need to integrate a custom serializer with a library like `kotlinx-serialization-yaml` [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-T0Mx4lVjd11a2FwPWnHLNzSQ9ajOa2--D46-iTge5_q4yjskb3niMQo6mugLULHYHV7LJnN05MkTSG0n5Vz4bn7CA2PrmkRSZS9lBs0YmCD4AYtZtg1opMcMkM8vykE-upQ3MQu9aljCK7ckaoex9snhzRe580I9kKZC2_D4jmbg6r8=).  You would need to implement a `YamlConverter` and register it with the `ContentNegotiation` plugin.\n\n**5. Compression:**\n\n*   Configure the `Compression` plugin for Gzip and Deflate [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU1qxQRSMqNuvlXHpLcKQc0EWyWzKUU2OVPeGxYbzJYZ0v0vp5Lrrv95sSAwOGh3SpDOq95UNoEIh6_6PFFCQZf4_QD27a5jJp3byfA4HOuRyrVLtzL26zzQ5GXAUmp06nsHBXzRMboG6WLaA=) [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0=).\n\n    ```kotlin\n    install(Compression) {\n        gzip {\n            priority = 1.0\n        }\n        deflate {\n            priority = 0.9\n            minimumSize(1024) // condition\n        }\n    }\n    ```\n\n*   **Brotli:** Ktor doesn't have built-in Brotli support [kotlinlang](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSpa2afAA7uXXotkIvei1bFLXOo_x6ho2sL9cjNf_1UfmTJIJkhg9gEpc7k08fx3b13RSEXSMSR24N63LLPyO5OP5FLSrNg2uVydSCBAw5fdkxacmvmZfAecv-uiQRqzqircxcXsDhWSV752Goxsv_iCSnGRjd0jROuGdBVRiHV6Kbb0_H2G1u-z9-SBEvM6AFcfjSyFPeew==) [kotlinlang](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdO0Y-Xcaq4wMN_9-fwEdXHRb555n_4wZKZ-WTArpB_geSkQjccDcwQEWeMZeiESdRtuXb5Kc1BCfJphNZ3lwYffBhQ11zWeV3UQc-YmBIDDOz-MTyOo0q5lJ4MQQMouqBqjARt4J3YZJVoxZbv8-enP6QkhQekc8x-xMUQXwc3dgBzgE-u_f4HHTcJxbBYhuxCPe-Koo3ug==) [jetbrains](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_vEjRFiguzggFXk1KEzaA7k9B3qaDt51HTLf8dT7CrQM5XI3qtyBjvc4LAHoeqY9wNS1l3RH_IA8CQYCKy08Ev2XxibTFXJIvSSvBH1smjMTb8xbtjuy9b4gGncdvX4h_siI1). To use Brotli, implement a custom `ContentEncoder` and integrate it into the `ContentEncoding` plugin [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkmlMxJmnH4KWiCWUOdgob1gugI869D2xngezSwAFS5RiVLCnfdJrMsbXAQm5kGEcwchyu6OuBRL-Z-LwGJI-TANCBXhIwJpZzDEE0Y0X9xUcr5ATCj0eml7oPQSQBGytvu15OY3G8kqQJjcU=) [kotlinlang](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSpa2afAA7uXXotkIvei1bFLXOo_x6ho2sL9cjNf_1UfmTJIJkhg9gEpc7k08fx3b13RSEXSMSR24N63LLPyO5OP5FLSrNg2uVydSCBAw5fdkxacmvmZfAecv-uiQRqzqircxcXsDhWSV752Goxsv_iCSnGRjd0jROuGdBVRiHV6Kbb0_H2G1u-z9-SBEvM6AFcfjSyFPeew==) [kotlinlang](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdO0Y-Xcaq4wMN_9-fwEdXHRb555n_4wZKZ-WTArpB_geSkQjccDcwQEWeMZeiESdRtuXb5Kc1BCfJphNZ3lwYffBhQ11zWeV3UQc-YmBIDDOz-MTyOo0q5lJ4MQQMouqBqjARt4J3YZJVoxZbv8-enP6QkhQekc8x-xMUQXwc3dgBzgE-u_f4HHTcJxbBYhuxCPe-Koo3ug==) [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU1qxQRSMqNuvlXHpLcKQc0EWyWzKUU2OVPeGxYbzJYZ0v0vp5Lrrv95sSAwOGh3SpDOq95UNoEIh6_6PFFCQZf4_QD27a5jJp3byfA4HOuRyrVLtzL26zzQ5GXAUmp06nsHBXzRMboG6WLaA=).  Alternatively, pre-compress files using Brotli and serve them directly [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0=) [jetbrains](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_vEjRFiguzggFXk1KEzaA7k9B3qaDt51HTLf8dT7CrQM5XI3qtyBjvc4LAHoeqY9wNS1l3RH_IA8CQYCKy08Ev2XxibTFXJIvSSvBH1smjMTb8xbtjuy9b4gGncdvX4h_siI1).\n\n**6. Responding to Requests:**\n\n*   In your route, use `call.respond()` to send the data. Ktor will use the `Accept` header from the request to determine the content type and serialize the data accordingly [ktor](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdWMUS_xUL1G1EfFTorFjwkQDdWNRTPLZtDAz4u8QeKo1xJJ3wAkeYWkULKob6wVKuuEnvCRiY8BW1B5EqEQx3aq_TR4EI3J6jaKuv_GKH5kG4DLLTNC2UH7xFab4kdHGv0Y4VrA==) [bookstack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrLTh89HVnynA1SWSaneSKDFFR4KSizDKMyAPMMZ5vT-NdRM_AAjQEPThyP-DL60ZfLkBl_RA9AlVzO7resNQh0Gy3tN3QQul0DUA8QORXjV3sm2zF7nT1EY9Lv4dbGt42K29QghCdzSytXsj_DUG2VKi4A_Ez9zOnJg==) [kotlincn](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0466XGh47lAkmTCKAWSgsSMw22rqqI7OVXWOJXyL1GHZU3Yz3faJlnPnH083GiqRwjhOt3fKaJFUFWMZp5lT5IJECS1O5nekZGgiVHbqge5Nt5ERXG20YNXlYh8nEzJqY7VNYKaOsRAaQ_woRzygK-_rfi2aH6yXxqlTf4p8zlt-JC_eMJm8D64ytoBDzQfnlBteoh76lPYc9_0a4CU83gA==0).\n\n**Example with Content Negotiation and HTML DSL:**\n\n```kotlin\nimport io.ktor.server.application.*\nimport io.ktor.server.response.*\nimport io.ktor.server.routing.*\nimport io.ktor.http.*\nimport io.ktor.server.plugins.contentnegotiation.*\nimport io.ktor.serialization.kotlinx.json.*\nimport kotlinx.serialization.*\nimport kotlinx.html.*\nimport io.ktor.server.html.*\n\n@Serializable\ndata class Item(val name: String, val value: Int)\n\nfun Route.listItemsRoute() {\n    get(\"/items\") {\n        val items = listOf(\n            Item(\"Item 1\", 10),\n            Item(\"Item 2\", 20)\n        )\n\n        val acceptHeader = call.request.header(HttpHeaders.Accept)\n        when {\n            acceptHeader?.contains(ContentType.Application.Json.toString()) == true -> {\n                call.respond(items)\n            }\n            else -> {\n                call.respondHtml(HttpStatusCode.OK) {\n                    head {\n                        title(\"Items List\")\n                    }\n                    body {\n                        h1 { +\"List of Items\" }\n                        ul {\n                            items.forEach { item ->\n                                li { +\"${item.name}: ${item.value}\" }\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n}\n\nfun Application.module() {\n    install(ContentNegotiation) {\n        json()\n    }\n\n    routing {\n        listItemsRoute()\n    }\n}\n```\n\n**Important Considerations:**\n\n*   **Security:**  Using HTTPS with compression can expose your application to BREACH attacks [kotlincn](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3KswV9aQQJ5YySTKZnY3LJI_xlOisnOeyZFSehNA2sJ8Qm5boYSSJOxVV3k5UbQ_4pg2GofXNk--xRoltbyijCBfEA2HJ8Myq5LX5jFnMjKgT-iAOy3LjRHJyJIBqXtBipnF0b6rR_XlvxuOS4vGgT7k711Xe). Mitigate this by disabling compression, avoiding mixing user input with secrets, and adding random bytes to the output [kotlincn](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3KswV9aQQJ5YySTKZnY3LJI_xlOisnOeyZFSehNA2sJ8Qm5boYSSJOxVV3k5UbQ_4pg2GofXNk--xRoltbyijCBfEA2HJ8Myq5LX5jFnMjKgT-iAOy3LjRHJyJIBqXtBipnF0b6rR_XlvxuOS4vGgT7k711Xe).\n*   **Content Types:** Ensure you set the correct content types in your responses (e.g., `ContentType.Application.Json`) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-T0Mx4lVjd11a2FwPWnHLNzSQ9ajOa2--D46-iTge5_q4yjskb3niMQo6mugLULHYHV7LJnN05MkTSG0n5Vz4bn7CA2PrmkRSZS9lBs0YmCD4AYtZtg1opMcMkM8vykE-upQ3MQu9aljCK7ckaoex9snhzRe580I9kKZC2_D4jmbg6r8=) [codersee](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0466XGh47lAkmTCKAWSgsSMw22rqqI7OVXWOJXyL1GHZU3Yz3faJlnPnH083GiqRwjhOt3fKaJFUFWMZp5lT5IJECS1O5nekZGgiVHbqge5Nt5ERXG20YNXlYh8nEzJqY7VNYKaOsRAaQ_woRzygK-_rfi2aH6yXxqlTf4p8zlt-JC_eMJm8D64ytoBDzQfnlBteoh76lPYc9_0a4CU83gA==1).\n*   **Error Handling:** Implement error handling for serialization and compression [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-T0Mx4lVjd11a2FwPWnHLNzSQ9ajOa2--D46-iTge5_q4yjskb3niMQo6mugLULHYHV7LJnN05MkTSG0n5Vz4bn7CA2PrmkRSZS9lBs0YmCD4AYtZtg1opMcMkM8vykE-upQ3MQu9aljCK7ckaoex9snhzRe580I9kKZC2_D4jmbg6r8=).\n*   **Asynchronous Operations:** Use Kotlin coroutines for asynchronous operations [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_vEjRFiguzggFXk1KEzaA7k9B3qaDt51HTLf8dT7CrQM5XI3qtyBjvc4LAHoeqY9wNS1l3RH_IA8CQYCKy08Ev2XxibTFXJIvSSvBH1smjMTb8xbtjuy9b4gGncdvX4h_siI0).\n*   **Testing:** Write unit and integration tests [github](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmIGBmGh4kyLk7gcU8k3wLIz2iKQWIyDGjb-SYuSTqwDne_7Cnk1VuXs_BvsSwcZLJsIurjrMgx7SNupKwySbdFw3DohJ1c299H61xYnT3G_jJH2jnnWGGoUZmQbj_YA9ak0nY0Mq0).\n*   **Vary Header:** When serving compressed resources, ensure the `Vary` header is included in the HTTP response [jetbrains](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECBy5AFyReF93Dh9A2OiQB_jH3YpTKkQmKMUBuwXmlZtyblv8RzLEosTCdUE9CaldCWn4EjUUaiTdAU6DgP2Nqfsi3MS3ZBUYsGPxbPA2_n55b1ANjzTd3xQDFumLpz5eCUTUV8hdai-d-WnaTMjLsAgdCH6zq_tr7y12S4Kj3XfINLJxTXSibRpA15Ik2eAVuYTw4mYJtAsc53GF4qX892OMPB0QVZbJz_2q-aoJeSeCqjzfkQQ==).\n*   **Brotli Implementation:** Since Ktor doesn't natively support Brotli, implementing a custom `ContentEncoder` requires a deeper understanding of Ktor's internals and Brotli compression libraries.\n\nThis comprehensive guide, incorporating Ktor's features like HTML DSL and content negotiation [softwaremill](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQvSITxTqcEBhdKp9g5YpSajjK3SOaOGO9fDSAIUrUnyIZTN9RWRTJeHVLcNvSfSid-7O_H4eDrpdBG7paDknBVmjXzas7Iw_wAySibX7gHXJI8nAxBu6FmjJ6DImQDdVXUTyf0EH0Xzux9MA5EfOBXx5_mn6vkT0xew==) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0466XGh47lAkmTCKAWSgsSMw22rqqI7OVXWOJXyL1GHZU3Yz3faJlnPnH083GiqRwjhOt3fKaJFUFWMZp5lT5IJECS1O5nekZGgiVHbqge5Nt5ERXG20YNXlYh8nEzJqY7VNYKaOsRAaQ_woRzygK-_rfi2aH6yXxqlTf4p8zlt-JC_eMJm8D64ytoBDzQfnlBteoh76lPYc9_0a4CU83gA==) [jku](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbFVF623vDOHqvi-jFdDVLa0sjlye-1P_pFRgaNgwOy7en2TEzwJdp1oxtvzfzOyOgFfmPlrdITNJn1I7M0Hp979qxrQzFJIR2L55QKSphdHscMNv7dlSA92veapnrMJra9wbG1g9iiSwTKeQy66w7H3P102rGHS527Q==), should enable you to build your application effectively.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "244c5337-155e-4413-aea1-6023ddb0951a",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "ktor html dsl render json list content negotiation",
+      "ktor content negotiation gzip brotli",
+      "Can you provide a code example demonstrating how to use Ktor with HTML DSL to render a list of JSON objects, including content negotiation for JSON, YAML, and XML, as well as Gzip and Brotli compression? Show the server-side implementation including necessary dependencies and configurations."
+    ],
+    "web_research_result": [
+      "Ktor is a Kotlin framework by JetBrains for building asynchronous client and server applications [softwaremill](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1). It offers features like routing, content negotiation, and authentication [jku](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**HTML DSL**\n\nKtor's HTML DSL (Domain Specific Language) allows writing HTML in Kotlin code [softwaremill](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1) [ktor](https://vertexaisearch.cloud.google.com/id/0-3). It integrates the `kotlinx.html` library, enabling interpolation of variables and building complex layouts using templates [ktor](https://vertexaisearch.cloud.google.com/id/0-3) [softwaremill](https://vertexaisearch.cloud.google.com/id/0-0) [github](https://vertexaisearch.cloud.google.com/id/0-4).\n\nKey aspects of HTML DSL:\n\n*   **Templates:** Ktor provides a templating engine for building complex HTML layouts [ktor](https://vertexaisearch.cloud.google.com/id/0-3). You can create hierarchies of templates with root and child templates [ktor](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Extensibility:** HTML DSL allows you to write pure HTML in Kotlin, interpolate variables into views, and build complex layouts [softwaremill](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Native Server Compatibility:** HTML DSL is the only templating option in Ktor that can be used with a native server [softwaremill](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Usage:** To respond with HTML built using a template, use the `respondHtmlTemplate` method [ktor](https://vertexaisearch.cloud.google.com/id/0-3). Implement the `Template` interface and override the `Template.apply` method to provide HTML [ktor](https://vertexaisearch.cloud.google.com/id/0-3). Use `Placeholder` to insert content [ktor](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **kotlinx.html:** The `kotlinx.html` library offers a DSL to build HTML to Writer/Appendable or DOM [github](https://vertexaisearch.cloud.google.com/id/0-4). It is available for all Kotlin Multiplatform targets and browsers [github](https://vertexaisearch.cloud.google.com/id/0-4).\n\n**Content Negotiation**\n\nContent negotiation handles the conversion between different data formats during communication between a client and a server [jetbrains](https://vertexaisearch.cloud.google.com/id/0-5). The `ContentNegotiation` plugin in Ktor serves two primary purposes [ktor](https://vertexaisearch.cloud.google.com/id/0-6) [ktor](https://vertexaisearch.cloud.google.com/id/0-7):\n\n*   Negotiating media types using the `Accept` and `Content-Type` headers [ktor](https://vertexaisearch.cloud.google.com/id/0-7) [ktor](https://vertexaisearch.cloud.google.com/id/0-6).\n*   Serializing and deserializing content in specific formats like JSON, XML, CBOR, and ProtoBuf [ktor](https://vertexaisearch.cloud.google.com/id/0-6) [ktor](https://vertexaisearch.cloud.google.com/id/0-7).\n\nKey aspects of content negotiation:\n\n*   **Installation:** To use `ContentNegotiation`, include the `ktor-client-content-negotiation` artifact in the build script [ktor](https://vertexaisearch.cloud.google.com/id/0-6). On the server, install the `ContentNegotiation` plugin using the `install` function [ktor](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Serialization:** Ktor supports JSON, XML, CBOR, and ProtoBuf formats out-of-the-box [ktor](https://vertexaisearch.cloud.google.com/id/0-6) [ktor](https://vertexaisearch.cloud.google.com/id/0-7). For JSON serialization, you can use `kotlinx.serialization`, Gson, or Jackson [ktor](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **JSON:** To serialize/deserialize JSON data, you can choose one of the following libraries: `kotlinx.serialization`, Gson, or Jackson [ktor](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Usage:** The `call.respond` function sends data objects serialized in a specific format [ktor](https://vertexaisearch.cloud.google.com/id/0-8). Ktor uses the `Accept` header to choose the required converter [bookstack](https://vertexaisearch.cloud.google.com/id/0-9).\n*    **Receiving:** When receiving, the `Content-Type` of the request will be used to determine which `ContentConverter` will be used to process that request [kotlincn](https://vertexaisearch.cloud.google.com/id/0-10).\n\n**JSON Handling**\n\nKtor facilitates JSON serialization and deserialization using libraries like `kotlinx.serialization` [codersee](https://vertexaisearch.cloud.google.com/id/0-11) [ktor](https://vertexaisearch.cloud.google.com/id/0-6) [ktor](https://vertexaisearch.cloud.google.com/id/0-12).\n\nKey aspects of JSON handling:\n\n*   **Dependencies:** Add the necessary dependencies for JSON serialization, content negotiation, and logging [medium](https://vertexaisearch.cloud.google.com/id/0-13).\n*   **Configuration:** Configure the `kotlinx.serialization` plugin [ktor](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Content type:** You can specify the content type for the body, such as `ContentType.Application.Json` [codersee](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Automatic Conversion:** The `ContentNegotiation` feature allows automatic content conversion based on `Content-Type` and `Accept` headers [kotlincn](https://vertexaisearch.cloud.google.com/id/0-10).\n*   **Serialization of Lists:** `kotlinx-serialization` can be used to create lists from JSON files [stackoverflow](https://vertexaisearch.cloud.google.com/id/0-14).\n\n**Content Negotiation for Lists**\n\nTo send a list of data as a JSON response, you need to ensure that content negotiation is properly configured [jetbrains](https://vertexaisearch.cloud.google.com/id/0-5) [ktor](https://vertexaisearch.cloud.google.com/id/0-7). This involves installing the `ContentNegotiation` plugin and configuring a JSON serializer [ktor](https://vertexaisearch.cloud.google.com/id/0-7). When responding with a list (e.g., `List<MyDataClass>`), Ktor checks the client's `Accept` header to determine the content type and uses the appropriate `ContentConverter` [kotlincn](https://vertexaisearch.cloud.google.com/id/0-10).\n\n**Note:** As of July 15, 2024, Ktor officially supports WASM (WebAssembly), with stable support released on October 9, 2024, in version 3.0.0 [stackoverflow](https://vertexaisearch.cloud.google.com/id/0-15).\n",
+      "Ktor supports content negotiation and compression using plugins, allowing servers and clients to negotiate the best content format and compression algorithm to use [ktor](https://vertexaisearch.cloud.google.com/id/1-0) [bookstack](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Content Negotiation:**\n\n*   The `ContentNegotiation` feature handles media type negotiation between client and server using the `Accept` and `Content-Type` headers [bookstack](https://vertexaisearch.cloud.google.com/id/1-1).\n*   It also handles serializing and deserializing content in specific formats like JSON and XML [bookstack](https://vertexaisearch.cloud.google.com/id/1-1).\n*   Ktor provides built-in converters for JSON (Gson, Jackson, kotlinx.serialization), Protobuf, and CBOR [bookstack](https://vertexaisearch.cloud.google.com/id/1-1).\n*   To use `ContentNegotiation` in a Ktor client, import it from `io.ktor.client.plugins.contentnegotiation.*` [stackoverflow](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**Compression:**\n\n*   The `Compression` plugin allows a Ktor server to compress response bodies and a Ktor client to decompress request bodies [ktor](https://vertexaisearch.cloud.google.com/id/1-3).\n*   It supports algorithms like gzip and deflate [ktor](https://vertexaisearch.cloud.google.com/id/1-0) [ktor](https://vertexaisearch.cloud.google.com/id/1-3).\n*   By default, Ktor doesn't compress specific content types like audio, video, image, and `text/event-stream` [ktor](https://vertexaisearch.cloud.google.com/id/1-3).\n*   The `Compression` plugin does not currently support Server-Sent Events (SSE) responses [ktor](https://vertexaisearch.cloud.google.com/id/1-3).\n*   To use `Compression`, you need to include the `ktor-server-compression` artifact in your build script [ktor](https://vertexaisearch.cloud.google.com/id/1-3).\n*   You can configure compression settings such as enabling specific encoders, specifying priorities, and setting conditions for compression based on content type or response size [ktor](https://vertexaisearch.cloud.google.com/id/1-3).\n*   When the configuration block is omitted, the default configuration is used which includes the following encoders: gzip, deflate, and identity [kotlincn](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**Gzip and Deflate:**\n\n*   Ktor client provides the `ContentEncoding` plugin that allows you to enable specified compression algorithms such as `gzip` and `deflate` and configure their settings [ktor](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Brotli:**\n\n*   As of July 2025, Ktor does not have built-in support for Brotli compression [kotlinlang](https://vertexaisearch.cloud.google.com/id/1-5).\n*   To use Brotli, you can implement the `ContentEncoder` interface with a third-party library and integrate it into the `ContentEncoding` plugin [ktor](https://vertexaisearch.cloud.google.com/id/1-0) [kotlinlang](https://vertexaisearch.cloud.google.com/id/1-5).\n*   Brotli generally offers better compression than Gzip [siteground](https://vertexaisearch.cloud.google.com/id/1-6). It was specifically designed for the web and can be faster at both compressing content on the server and decompressing it in the browser [siteground](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**Security Considerations:**\n\n*   Using HTTPS with compression can make your application vulnerable to BREACH attacks [kotlincn](https://vertexaisearch.cloud.google.com/id/1-4). Mitigations include disabling compression, not mixing user input with secrets in responses, and adding random bytes to the output [kotlincn](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**Additional Notes:**\n\n*   Under high load, there have been reports of requests failing when the server encodes response bodies [jetbrains](https://vertexaisearch.cloud.google.com/id/1-7). Removing the `Compression` plugin or replacing it with Netty's implementation might resolve the issue [jetbrains](https://vertexaisearch.cloud.google.com/id/1-7).\n*   When serving compressed resources, the `Vary` header should be included in the HTTP response, but this might not be the case with the `Compression` plugin [jetbrains](https://vertexaisearch.cloud.google.com/id/1-8).\n",
+      "While a complete, runnable code example fulfilling all requirements (HTML DSL, JSON list rendering, content negotiation for JSON/YAML/XML, Gzip/Brotli compression) was not found, the search results provide the necessary components and guidance to construct such an example.\n\n**I. Dependencies and Configuration**\n\n1.  **Ktor Core:**  The foundation for building Ktor servers [medium](https://vertexaisearch.cloud.google.com/id/2-0).\n2.  **Ktor HTML Builder:** Enables the use of HTML DSL for generating HTML responses [ktor](https://vertexaisearch.cloud.google.com/id/2-1).  Add the following dependency [ktor](https://vertexaisearch.cloud.google.com/id/2-1):\n\n    ```kotlin\n    implementation(\"io.ktor:ktor-server-html-builder:$ktor_version\")\n    ```\n3.  **Ktor Content Negotiation:**  Handles media type negotiation between client and server [ktor](https://vertexaisearch.cloud.google.com/id/2-2) [ktor](https://vertexaisearch.cloud.google.com/id/2-3). Add the following dependency [ktor](https://vertexaisearch.cloud.google.com/id/2-3):\n\n    ```kotlin\n    implementation(\"io.ktor:ktor-server-content-negotiation:$ktor_version\")\n    ```\n4.  **JSON Support:**  Choose one of the JSON libraries (kotlinx.serialization, Gson, or Jackson) [ktor](https://vertexaisearch.cloud.google.com/id/2-2) [ktor](https://vertexaisearch.cloud.google.com/id/2-3).  For kotlinx.serialization, add these dependencies [ktor](https://vertexaisearch.cloud.google.com/id/2-2) [ktor](https://vertexaisearch.cloud.google.com/id/2-3):\n\n    ```kotlin\n    implementation(\"io.ktor:ktor-serialization-kotlinx-json:$ktor_version\")\n    ```\n    Also, add the serialization plugin [medium](https://vertexaisearch.cloud.google.com/id/2-4):\n\n    ```kotlin\n    plugins {\n        kotlin(\"jvm\") version \"1.9.10\"\n        id(\"io.ktor.plugin\") version \"2.3.5\"\n        id(\"org.jetbrains.kotlin.plugin.serialization\") version \"1.8.0\"\n    }\n    ```\n5.  **XML Support:** To serialize/deserialize XML, add the `ktor-serialization-kotlinx-xml` dependency [ktor](https://vertexaisearch.cloud.google.com/id/2-2):\n\n    ```kotlin\n    implementation(\"io.ktor:ktor-serialization-kotlinx-xml:$ktor_version\")\n    ```\n    Ktor also supports XML using Jackson [github](https://vertexaisearch.cloud.google.com/id/2-5).\n6.  **YAML Support:** While Ktor doesn't have built-in YAML support, you can integrate it using a custom serializer with a library like `kotlinx-serialization-yaml`.\n7.  **Compression:** Enables Gzip and Deflate compression [ktor](https://vertexaisearch.cloud.google.com/id/2-6) [ktor](https://vertexaisearch.cloud.google.com/id/2-7). Add the following dependency [ktor](https://vertexaisearch.cloud.google.com/id/2-7):\n\n    ```kotlin\n    implementation(\"io.ktor:ktor-server-compression:$ktor_version\")\n    ```\n\n**II. Server-Side Implementation**\n\n1.  **Install Plugins:** Install the `ContentNegotiation` and `Compression` plugins within your Ktor application module [ktor](https://vertexaisearch.cloud.google.com/id/2-7) [ktor](https://vertexaisearch.cloud.google.com/id/2-3):\n\n    ```kotlin\n    import io.ktor.server.application.*\n    import io.ktor.server.plugins.contentnegotiation.*\n    import io.ktor.server.plugins.compression.*\n\n    fun Application.module() {\n        install(ContentNegotiation) {\n            json() // or gson() or jackson()\n            xml()\n            //register(ContentType.Application.Yaml, YamlConverter()) //Custom implementation\n        }\n        install(Compression) {\n            gzip {\n                priority = 1.0\n            }\n            deflate {\n                priority = 0.9\n                minimumSize(1024) // condition\n            }\n            //brotli { //Not directly supported, requires custom encoder\n            //    priority = 1.1\n            //}\n        }\n        //...\n    }\n    ```\n\n2.  **Content Negotiation:** Configure the `ContentNegotiation` plugin to use the desired serializers (JSON, XML) [ktor](https://vertexaisearch.cloud.google.com/id/2-2) [ktor](https://vertexaisearch.cloud.google.com/id/2-3).  For YAML, you'll need to implement a custom `YamlConverter` and register it with the plugin [medium](https://vertexaisearch.cloud.google.com/id/2-8).\n\n3.  **Compression:** Configure the `Compression` plugin with Gzip and Brotli (if a custom encoder is implemented) [ktor](https://vertexaisearch.cloud.google.com/id/2-6) [ktor](https://vertexaisearch.cloud.google.com/id/2-7). Note that while Ktor supports Gzip and Deflate compression, Brotli is not directly supported and might require a custom encoder [ktor](https://vertexaisearch.cloud.google.com/id/2-7) [kotlinlang](https://vertexaisearch.cloud.google.com/id/2-9).\n\n4.  **HTML DSL and Routing:**  Define routes that use HTML DSL to render the list of JSON objects [medium](https://vertexaisearch.cloud.google.com/id/2-10) [ktor](https://vertexaisearch.cloud.google.com/id/2-1).\n\n    ```kotlin\n    import io.ktor.server.application.*\n    import io.ktor.server.response.*\n    import io.ktor.server.routing.*\n    import kotlinx.html.*\n    import io.ktor.http.*\n\n    @Serializable\n    data class Item(val name: String, val value: Int)\n\n    fun Route.listItemsRoute() {\n        get(\"/items\") {\n            val items = listOf(\n                Item(\"Item 1\", 10),\n                Item(\"Item 2\", 20)\n            )\n\n            call.respondHtml(HttpStatusCode.OK) {\n                head {\n                    title(\"Items List\")\n                }\n                body {\n                    h1 { +\"List of Items\" }\n                    ul {\n                        items.forEach { item ->\n                            li { +\"${item.name}: ${item.value}\" }\n                        }\n                    }\n                }\n            }\n        }\n    }\n\n    fun Application.module() {\n        routing {\n            listItemsRoute()\n        }\n    }\n    ```\n\n5.  **Serving Content:** Use the `respond*` functions to send the content to the client. Ktor chooses the appropriate serializer based on the `Accept` header of the request [ktor](https://vertexaisearch.cloud.google.com/id/2-3).\n\n**III. Brotli Compression**\n\n*   Ktor doesn't offer built-in Brotli support [kotlinlang](https://vertexaisearch.cloud.google.com/id/2-9) [jetbrains](https://vertexaisearch.cloud.google.com/id/2-11).\n*   To enable Brotli, you might need to implement a custom `ContentEncoder` and integrate it into the `ContentEncoding` plugin [kotlinlang](https://vertexaisearch.cloud.google.com/id/2-9) [ktor](https://vertexaisearch.cloud.google.com/id/2-6).\n*   Alternatively, pre-compress files using Brotli and serve them directly [ktor](https://vertexaisearch.cloud.google.com/id/2-7) [jetbrains](https://vertexaisearch.cloud.google.com/id/2-11).\n\n**IV. Additional Considerations**\n\n*   **Content Types:**  Ensure the correct content types are set in the responses (e.g., `ContentType.Application.Json`, `ContentType.Application.Xml`, `ContentType.Application.Yaml`) [medium](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Error Handling:** Implement proper error handling to catch exceptions during serialization and compression [medium](https://vertexaisearch.cloud.google.com/id/2-8).\n*   **Asynchronous Operations:**  Use Kotlin's coroutines for handling asynchronous operations [medium](https://vertexaisearch.cloud.google.com/id/2-10).\n*   **Testing:**  Write unit and integration tests to verify the functionality [github](https://vertexaisearch.cloud.google.com/id/2-5).\n\nThis information should allow you to construct a Ktor application that meets the specified requirements. Remember to consult the Ktor documentation for the most up-to-date information and best practices.\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "softwaremill",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQvSITxTqcEBhdKp9g5YpSajjK3SOaOGO9fDSAIUrUnyIZTN9RWRTJeHVLcNvSfSid-7O_H4eDrpdBG7paDknBVmjXzas7Iw_wAySibX7gHXJI8nAxBu6FmjJ6DImQDdVXUTyf0EH0Xzux9MA5EfOBXx5_mn6vkT0xew=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0466XGh47lAkmTCKAWSgsSMw22rqqI7OVXWOJXyL1GHZU3Yz3faJlnPnH083GiqRwjhOt3fKaJFUFWMZp5lT5IJECS1O5nekZGgiVHbqge5Nt5ERXG20YNXlYh8nEzJqY7VNYKaOsRAaQ_woRzygK-_rfi2aH6yXxqlTf4p8zlt-JC_eMJm8D64ytoBDzQfnlBteoh76lPYc9_0a4CU83gA=="
+      },
+      {
+        "label": "jku",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbFVF623vDOHqvi-jFdDVLa0sjlye-1P_pFRgaNgwOy7en2TEzwJdp1oxtvzfzOyOgFfmPlrdITNJn1I7M0Hp979qxrQzFJIR2L55QKSphdHscMNv7dlSA92veapnrMJra9wbG1g9iiSwTKeQy66w7H3P102rGHS527Q=="
+      },
+      {
+        "label": "softwaremill",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQvSITxTqcEBhdKp9g5YpSajjK3SOaOGO9fDSAIUrUnyIZTN9RWRTJeHVLcNvSfSid-7O_H4eDrpdBG7paDknBVmjXzas7Iw_wAySibX7gHXJI8nAxBu6FmjJ6DImQDdVXUTyf0EH0Xzux9MA5EfOBXx5_mn6vkT0xew=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0466XGh47lAkmTCKAWSgsSMw22rqqI7OVXWOJXyL1GHZU3Yz3faJlnPnH083GiqRwjhOt3fKaJFUFWMZp5lT5IJECS1O5nekZGgiVHbqge5Nt5ERXG20YNXlYh8nEzJqY7VNYKaOsRAaQ_woRzygK-_rfi2aH6yXxqlTf4p8zlt-JC_eMJm8D64ytoBDzQfnlBteoh76lPYc9_0a4CU83gA=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3m191jbCWUhdPtn7WeOzhwCASJeDDAvueA9dJW-A9hfLaKlj16XMpCh0OiHtQGjm2QxGlRpGC99BtJ6nWPbKaUAtsIPNzh84fbFx5Si99lemHHJUlgIMASGn3_GNa7Gea1Nbj"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3m191jbCWUhdPtn7WeOzhwCASJeDDAvueA9dJW-A9hfLaKlj16XMpCh0OiHtQGjm2QxGlRpGC99BtJ6nWPbKaUAtsIPNzh84fbFx5Si99lemHHJUlgIMASGn3_GNa7Gea1Nbj"
+      },
+      {
+        "label": "softwaremill",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQvSITxTqcEBhdKp9g5YpSajjK3SOaOGO9fDSAIUrUnyIZTN9RWRTJeHVLcNvSfSid-7O_H4eDrpdBG7paDknBVmjXzas7Iw_wAySibX7gHXJI8nAxBu6FmjJ6DImQDdVXUTyf0EH0Xzux9MA5EfOBXx5_mn6vkT0xew=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt5fh7a1wdbrD8-HbgaiG_DiRonrOmlTYjsCDbzGfH6_D32z0Ov_HcmWa4qKkmKjpvZdZHMd9-5IeClKh7TEu3lSoSna5RzWvXvAj0a_7Ib8_r5V0-iyWBhir65If8yPvn"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3m191jbCWUhdPtn7WeOzhwCASJeDDAvueA9dJW-A9hfLaKlj16XMpCh0OiHtQGjm2QxGlRpGC99BtJ6nWPbKaUAtsIPNzh84fbFx5Si99lemHHJUlgIMASGn3_GNa7Gea1Nbj"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3m191jbCWUhdPtn7WeOzhwCASJeDDAvueA9dJW-A9hfLaKlj16XMpCh0OiHtQGjm2QxGlRpGC99BtJ6nWPbKaUAtsIPNzh84fbFx5Si99lemHHJUlgIMASGn3_GNa7Gea1Nbj"
+      },
+      {
+        "label": "softwaremill",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQvSITxTqcEBhdKp9g5YpSajjK3SOaOGO9fDSAIUrUnyIZTN9RWRTJeHVLcNvSfSid-7O_H4eDrpdBG7paDknBVmjXzas7Iw_wAySibX7gHXJI8nAxBu6FmjJ6DImQDdVXUTyf0EH0Xzux9MA5EfOBXx5_mn6vkT0xew=="
+      },
+      {
+        "label": "softwaremill",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQvSITxTqcEBhdKp9g5YpSajjK3SOaOGO9fDSAIUrUnyIZTN9RWRTJeHVLcNvSfSid-7O_H4eDrpdBG7paDknBVmjXzas7Iw_wAySibX7gHXJI8nAxBu6FmjJ6DImQDdVXUTyf0EH0Xzux9MA5EfOBXx5_mn6vkT0xew=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3m191jbCWUhdPtn7WeOzhwCASJeDDAvueA9dJW-A9hfLaKlj16XMpCh0OiHtQGjm2QxGlRpGC99BtJ6nWPbKaUAtsIPNzh84fbFx5Si99lemHHJUlgIMASGn3_GNa7Gea1Nbj"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3m191jbCWUhdPtn7WeOzhwCASJeDDAvueA9dJW-A9hfLaKlj16XMpCh0OiHtQGjm2QxGlRpGC99BtJ6nWPbKaUAtsIPNzh84fbFx5Si99lemHHJUlgIMASGn3_GNa7Gea1Nbj"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3m191jbCWUhdPtn7WeOzhwCASJeDDAvueA9dJW-A9hfLaKlj16XMpCh0OiHtQGjm2QxGlRpGC99BtJ6nWPbKaUAtsIPNzh84fbFx5Si99lemHHJUlgIMASGn3_GNa7Gea1Nbj"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt5fh7a1wdbrD8-HbgaiG_DiRonrOmlTYjsCDbzGfH6_D32z0Ov_HcmWa4qKkmKjpvZdZHMd9-5IeClKh7TEu3lSoSna5RzWvXvAj0a_7Ib8_r5V0-iyWBhir65If8yPvn"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFt5fh7a1wdbrD8-HbgaiG_DiRonrOmlTYjsCDbzGfH6_D32z0Ov_HcmWa4qKkmKjpvZdZHMd9-5IeClKh7TEu3lSoSna5RzWvXvAj0a_7Ib8_r5V0-iyWBhir65If8yPvn"
+      },
+      {
+        "label": "jetbrains",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpTeVk42tJ27DOwdlz0N662wBA0pH0WfVcvK5wcYJKMpjZ3ZFfJOF3Q1TXEWNgAs118lHD0pxhVgAv3AXNY6UD_eIeeQrdZQqOR6zb84mkhjV_vyW64Sggw4gimsaRsQdJmzrUm3JtfWATxvMdEGcY7X_Fs8ebIoVFTntFgHdvccYUYMpPEf8="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHART_1gGLMkbt7jpZhF6ZpsRNsoCmD0UF8pYKqQw08pIgdZwuaOkkBenvM9_BLbOsCYtxSPDM3mjREWQrkjAtS-sQCfQI9vOejX_MFqLs0X00MvHqbQoUt38i8RA3NJC_2JRzv4qp0CZ8="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHART_1gGLMkbt7jpZhF6ZpsRNsoCmD0UF8pYKqQw08pIgdZwuaOkkBenvM9_BLbOsCYtxSPDM3mjREWQrkjAtS-sQCfQI9vOejX_MFqLs0X00MvHqbQoUt38i8RA3NJC_2JRzv4qp0CZ8="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHART_1gGLMkbt7jpZhF6ZpsRNsoCmD0UF8pYKqQw08pIgdZwuaOkkBenvM9_BLbOsCYtxSPDM3mjREWQrkjAtS-sQCfQI9vOejX_MFqLs0X00MvHqbQoUt38i8RA3NJC_2JRzv4qp0CZ8="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHART_1gGLMkbt7jpZhF6ZpsRNsoCmD0UF8pYKqQw08pIgdZwuaOkkBenvM9_BLbOsCYtxSPDM3mjREWQrkjAtS-sQCfQI9vOejX_MFqLs0X00MvHqbQoUt38i8RA3NJC_2JRzv4qp0CZ8="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHART_1gGLMkbt7jpZhF6ZpsRNsoCmD0UF8pYKqQw08pIgdZwuaOkkBenvM9_BLbOsCYtxSPDM3mjREWQrkjAtS-sQCfQI9vOejX_MFqLs0X00MvHqbQoUt38i8RA3NJC_2JRzv4qp0CZ8="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdWMUS_xUL1G1EfFTorFjwkQDdWNRTPLZtDAz4u8QeKo1xJJ3wAkeYWkULKob6wVKuuEnvCRiY8BW1B5EqEQx3aq_TR4EI3J6jaKuv_GKH5kG4DLLTNC2UH7xFab4kdHGv0Y4VrA=="
+      },
+      {
+        "label": "bookstack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrLTh89HVnynA1SWSaneSKDFFR4KSizDKMyAPMMZ5vT-NdRM_AAjQEPThyP-DL60ZfLkBl_RA9AlVzO7resNQh0Gy3tN3QQul0DUA8QORXjV3sm2zF7nT1EY9Lv4dbGt42K29QghCdzSytXsj_DUG2VKi4A_Ez9zOnJg=="
+      },
+      {
+        "label": "kotlincn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8noMlyA7YccAxByHGAwre0OBalKr-ryqDT5MBZHezBKy109LLjOm9rhqyGda4vS-ggZO-PCIH8WEf_mR_ljxEDc1v-ggK6A0rVPR00Baea0UNB-acUu_69Fv8llwk6m2L8tRdjG1fSkW5RnuZq0lcmCN5V_MQ_xKGlpuuD-E="
+      },
+      {
+        "label": "codersee",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR7uCQNHglkHXTGdR4oCOTBY5LS6PXt2W7aKJELLZWu16h5887dr8CYaLiyWwt5KfPZDig7txNLqavEKH8Lmf5ZvA8Ru9aJOTx8_COh76h85tssGNYKOn2v7TFdZ-IqQqHVCPqV0z9Ye1S2XDD2dN6Si6v19V1hAIIWn_Zyc0KIqhjIYl3GQ=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF07tzXUy3cNYwKqvcAqv7oa1bw46YNinVU4UJEZTmjqFBc4-yhYHoTzE8e1uUB5-sUkqijw4x9iDwF1_2lStbOBReJrFyFlTs5Y1gxMipdIbMlgAoRR4dqk0some7ChIeKbcs_aemA"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2QI9YHUE7Bmy98IzZLR0dQ_xaBxSbuDVx_-AkNABWFpB6xEs7v8ALYXwPiB0pTds0TGmwy7a7PnhUFURPkDbPrEe4H2Xk_WMXCwtRWnENcKFnaATOeWmozgGBtTzvg0yI0A7F1nrwoNNO2QA1iins5A0GMpjNK6Dt3oV9coDupSeqWlU28cRgmCPnmo-rsDW_vMU6KkQAA331t5-Vd8HkSW_jccBWFCMOOcDE5g=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF07tzXUy3cNYwKqvcAqv7oa1bw46YNinVU4UJEZTmjqFBc4-yhYHoTzE8e1uUB5-sUkqijw4x9iDwF1_2lStbOBReJrFyFlTs5Y1gxMipdIbMlgAoRR4dqk0some7ChIeKbcs_aemA"
+      },
+      {
+        "label": "codersee",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR7uCQNHglkHXTGdR4oCOTBY5LS6PXt2W7aKJELLZWu16h5887dr8CYaLiyWwt5KfPZDig7txNLqavEKH8Lmf5ZvA8Ru9aJOTx8_COh76h85tssGNYKOn2v7TFdZ-IqQqHVCPqV0z9Ye1S2XDD2dN6Si6v19V1hAIIWn_Zyc0KIqhjIYl3GQ=="
+      },
+      {
+        "label": "kotlincn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8noMlyA7YccAxByHGAwre0OBalKr-ryqDT5MBZHezBKy109LLjOm9rhqyGda4vS-ggZO-PCIH8WEf_mR_ljxEDc1v-ggK6A0rVPR00Baea0UNB-acUu_69Fv8llwk6m2L8tRdjG1fSkW5RnuZq0lcmCN5V_MQ_xKGlpuuD-E="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj5lrEUNT2CWF-72SdPmSAQm4JO6nFV7OLEotEjfvSLx9pO15hx5g2fW7UYmThbB3yzIwxuNn3c6rdU0N6dKsrApBxQGeajZQRVli7PIQ37i8pQtmmTCrkgLxH7fx5oaQIiXZwJ28SanrqMmk9In4hCSzZpNukh09O51Tx0IWwE0DJrRCTseQ="
+      },
+      {
+        "label": "jetbrains",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpTeVk42tJ27DOwdlz0N662wBA0pH0WfVcvK5wcYJKMpjZ3ZFfJOF3Q1TXEWNgAs118lHD0pxhVgAv3AXNY6UD_eIeeQrdZQqOR6zb84mkhjV_vyW64Sggw4gimsaRsQdJmzrUm3JtfWATxvMdEGcY7X_Fs8ebIoVFTntFgHdvccYUYMpPEf8="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHART_1gGLMkbt7jpZhF6ZpsRNsoCmD0UF8pYKqQw08pIgdZwuaOkkBenvM9_BLbOsCYtxSPDM3mjREWQrkjAtS-sQCfQI9vOejX_MFqLs0X00MvHqbQoUt38i8RA3NJC_2JRzv4qp0CZ8="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHART_1gGLMkbt7jpZhF6ZpsRNsoCmD0UF8pYKqQw08pIgdZwuaOkkBenvM9_BLbOsCYtxSPDM3mjREWQrkjAtS-sQCfQI9vOejX_MFqLs0X00MvHqbQoUt38i8RA3NJC_2JRzv4qp0CZ8="
+      },
+      {
+        "label": "kotlincn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8noMlyA7YccAxByHGAwre0OBalKr-ryqDT5MBZHezBKy109LLjOm9rhqyGda4vS-ggZO-PCIH8WEf_mR_ljxEDc1v-ggK6A0rVPR00Baea0UNB-acUu_69Fv8llwk6m2L8tRdjG1fSkW5RnuZq0lcmCN5V_MQ_xKGlpuuD-E="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXxu4U7MzFsKGjl5bytFLXfdRoV4XBfFx0b-KI15EOq4KUaz0r2JEaHRj84K-BwAVFxYxMMygOl_vYbmZNc6if7ldEwVqTRCrgqalEhRTpG2kDrN6PQANEHhxV95metk96wzqUaCuMjO--N53hI3KlOCIlGQqNRaYKLaATAvPEtmOJa6gRLcngH-f1ucXkFFwlpUYBmO0yGcbbOdqiKudsOFGNBNgGLhUcLXiERLn_yg=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkmlMxJmnH4KWiCWUOdgob1gugI869D2xngezSwAFS5RiVLCnfdJrMsbXAQm5kGEcwchyu6OuBRL-Z-LwGJI-TANCBXhIwJpZzDEE0Y0X9xUcr5ATCj0eml7oPQSQBGytvu15OY3G8kqQJjcU="
+      },
+      {
+        "label": "bookstack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtM5tNo3f2FCgXJE6lo1kBZacV1UFYF6b8D-RjjknBTuFkps8DvrloOD6ewWpTMknyy6Ty8EH_sHJaVnQlSfquO94lMezgAe8nmsZb_ixgGtK5s25VRNJbl1k1M027U5AaRuSMl-vCBUt--q7Z0RG-M-RWehCIuCoGVw=="
+      },
+      {
+        "label": "bookstack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtM5tNo3f2FCgXJE6lo1kBZacV1UFYF6b8D-RjjknBTuFkps8DvrloOD6ewWpTMknyy6Ty8EH_sHJaVnQlSfquO94lMezgAe8nmsZb_ixgGtK5s25VRNJbl1k1M027U5AaRuSMl-vCBUt--q7Z0RG-M-RWehCIuCoGVw=="
+      },
+      {
+        "label": "bookstack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtM5tNo3f2FCgXJE6lo1kBZacV1UFYF6b8D-RjjknBTuFkps8DvrloOD6ewWpTMknyy6Ty8EH_sHJaVnQlSfquO94lMezgAe8nmsZb_ixgGtK5s25VRNJbl1k1M027U5AaRuSMl-vCBUt--q7Z0RG-M-RWehCIuCoGVw=="
+      },
+      {
+        "label": "bookstack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtM5tNo3f2FCgXJE6lo1kBZacV1UFYF6b8D-RjjknBTuFkps8DvrloOD6ewWpTMknyy6Ty8EH_sHJaVnQlSfquO94lMezgAe8nmsZb_ixgGtK5s25VRNJbl1k1M027U5AaRuSMl-vCBUt--q7Z0RG-M-RWehCIuCoGVw=="
+      },
+      {
+        "label": "stackoverflow",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjLd4StqXsjtyWHQW0duBFWKtBBmqw1hOHjxP-zENOIUGOQJRkxM7z3s7DzYkQQ9gkL7DQkOfy2la70MuRLznCVrS49pYbAySt9KXc1awMGKA__5yYhxIHnO-r4cANqMgj08rtYkj0PmkqT79lISsMbHxH145szOQdJV26ZXB8shXVdfZ211UVyTKbPXGowGEJxAppXygrVxNjFIYrAKHYwxWn3xupTDts"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9GWI5N5W1c6IVPUb51Pn8D9UcNtv5M3_q7GDvg3M8zFFqJQa63VpzD2oQhqnrmk9ZPY8CIV13H3S20yAQxKlcAPaMnIsVvNa5Q54Jpx8h2oQV9aA9BMoMMuxuyysBNJo="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkmlMxJmnH4KWiCWUOdgob1gugI869D2xngezSwAFS5RiVLCnfdJrMsbXAQm5kGEcwchyu6OuBRL-Z-LwGJI-TANCBXhIwJpZzDEE0Y0X9xUcr5ATCj0eml7oPQSQBGytvu15OY3G8kqQJjcU="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9GWI5N5W1c6IVPUb51Pn8D9UcNtv5M3_q7GDvg3M8zFFqJQa63VpzD2oQhqnrmk9ZPY8CIV13H3S20yAQxKlcAPaMnIsVvNa5Q54Jpx8h2oQV9aA9BMoMMuxuyysBNJo="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9GWI5N5W1c6IVPUb51Pn8D9UcNtv5M3_q7GDvg3M8zFFqJQa63VpzD2oQhqnrmk9ZPY8CIV13H3S20yAQxKlcAPaMnIsVvNa5Q54Jpx8h2oQV9aA9BMoMMuxuyysBNJo="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9GWI5N5W1c6IVPUb51Pn8D9UcNtv5M3_q7GDvg3M8zFFqJQa63VpzD2oQhqnrmk9ZPY8CIV13H3S20yAQxKlcAPaMnIsVvNa5Q54Jpx8h2oQV9aA9BMoMMuxuyysBNJo="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9GWI5N5W1c6IVPUb51Pn8D9UcNtv5M3_q7GDvg3M8zFFqJQa63VpzD2oQhqnrmk9ZPY8CIV13H3S20yAQxKlcAPaMnIsVvNa5Q54Jpx8h2oQV9aA9BMoMMuxuyysBNJo="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9GWI5N5W1c6IVPUb51Pn8D9UcNtv5M3_q7GDvg3M8zFFqJQa63VpzD2oQhqnrmk9ZPY8CIV13H3S20yAQxKlcAPaMnIsVvNa5Q54Jpx8h2oQV9aA9BMoMMuxuyysBNJo="
+      },
+      {
+        "label": "kotlincn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3KswV9aQQJ5YySTKZnY3LJI_xlOisnOeyZFSehNA2sJ8Qm5boYSSJOxVV3k5UbQ_4pg2GofXNk--xRoltbyijCBfEA2HJ8Myq5LX5jFnMjKgT-iAOy3LjRHJyJIBqXtBipnF0b6rR_XlvxuOS4vGgT7k711Xe"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkmlMxJmnH4KWiCWUOdgob1gugI869D2xngezSwAFS5RiVLCnfdJrMsbXAQm5kGEcwchyu6OuBRL-Z-LwGJI-TANCBXhIwJpZzDEE0Y0X9xUcr5ATCj0eml7oPQSQBGytvu15OY3G8kqQJjcU="
+      },
+      {
+        "label": "kotlinlang",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSpa2afAA7uXXotkIvei1bFLXOo_x6ho2sL9cjNf_1UfmTJIJkhg9gEpc7k08fx3b13RSEXSMSR24N63LLPyO5OP5FLSrNg2uVydSCBAw5fdkxacmvmZfAecv-uiQRqzqircxcXsDhWSV752Goxsv_iCSnGRjd0jROuGdBVRiHV6Kbb0_H2G1u-z9-SBEvM6AFcfjSyFPeew=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkmlMxJmnH4KWiCWUOdgob1gugI869D2xngezSwAFS5RiVLCnfdJrMsbXAQm5kGEcwchyu6OuBRL-Z-LwGJI-TANCBXhIwJpZzDEE0Y0X9xUcr5ATCj0eml7oPQSQBGytvu15OY3G8kqQJjcU="
+      },
+      {
+        "label": "kotlinlang",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSpa2afAA7uXXotkIvei1bFLXOo_x6ho2sL9cjNf_1UfmTJIJkhg9gEpc7k08fx3b13RSEXSMSR24N63LLPyO5OP5FLSrNg2uVydSCBAw5fdkxacmvmZfAecv-uiQRqzqircxcXsDhWSV752Goxsv_iCSnGRjd0jROuGdBVRiHV6Kbb0_H2G1u-z9-SBEvM6AFcfjSyFPeew=="
+      },
+      {
+        "label": "siteground",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv-b_8JfFZdyYiZf9lmNKhT6nWZcN5ACRd8VBQdbV_biMTO28TF7sRSqE-xzIX--C07uI7kEMSTzAySXwfGLCZckkHIphoCROqxBfwAB2PRSdSwBx3wQT1kgARMZ7ey7WCUkjyEo9eQGPat52PXChkWD1ds6EtN7Q8"
+      },
+      {
+        "label": "siteground",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv-b_8JfFZdyYiZf9lmNKhT6nWZcN5ACRd8VBQdbV_biMTO28TF7sRSqE-xzIX--C07uI7kEMSTzAySXwfGLCZckkHIphoCROqxBfwAB2PRSdSwBx3wQT1kgARMZ7ey7WCUkjyEo9eQGPat52PXChkWD1ds6EtN7Q8"
+      },
+      {
+        "label": "kotlincn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3KswV9aQQJ5YySTKZnY3LJI_xlOisnOeyZFSehNA2sJ8Qm5boYSSJOxVV3k5UbQ_4pg2GofXNk--xRoltbyijCBfEA2HJ8Myq5LX5jFnMjKgT-iAOy3LjRHJyJIBqXtBipnF0b6rR_XlvxuOS4vGgT7k711Xe"
+      },
+      {
+        "label": "kotlincn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3KswV9aQQJ5YySTKZnY3LJI_xlOisnOeyZFSehNA2sJ8Qm5boYSSJOxVV3k5UbQ_4pg2GofXNk--xRoltbyijCBfEA2HJ8Myq5LX5jFnMjKgT-iAOy3LjRHJyJIBqXtBipnF0b6rR_XlvxuOS4vGgT7k711Xe"
+      },
+      {
+        "label": "jetbrains",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIClrD9wwnxwCgSbGwJYH2JUqAsnBdV_tUtgsn8ZKglmTFVm1Nxd9tV4je9IEvWKqVtkEuCfEsR68XnZWf45VGTbO76aXuMduwcMdkpjM4o6qStCOAR2WMtnnms5FCc-xaBigN8G796aJyO6jfTG15CR68o4rtJlDf9jpce-jn6I5SqFx9fQJ0JTgRrp1K6LVwUDJaerMiKR75K89DpK4w2BjFgyvqPdLt0Gs-kNt3ZJRzpzb416j32tG3zQ=="
+      },
+      {
+        "label": "jetbrains",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIClrD9wwnxwCgSbGwJYH2JUqAsnBdV_tUtgsn8ZKglmTFVm1Nxd9tV4je9IEvWKqVtkEuCfEsR68XnZWf45VGTbO76aXuMduwcMdkpjM4o6qStCOAR2WMtnnms5FCc-xaBigN8G796aJyO6jfTG15CR68o4rtJlDf9jpce-jn6I5SqFx9fQJ0JTgRrp1K6LVwUDJaerMiKR75K89DpK4w2BjFgyvqPdLt0Gs-kNt3ZJRzpzb416j32tG3zQ=="
+      },
+      {
+        "label": "jetbrains",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECBy5AFyReF93Dh9A2OiQB_jH3YpTKkQmKMUBuwXmlZtyblv8RzLEosTCdUE9CaldCWn4EjUUaiTdAU6DgP2Nqfsi3MS3ZBUYsGPxbPA2_n55b1ANjzTd3xQDFumLpz5eCUTUV8hdai-d-WnaTMjLsAgdCH6zq_tr7y12S4Kj3XfINLJxTXSibRpA15Ik2eAVuYTw4mYJtAsc53GF4qX892OMPB0QVZbJz_2q-aoJeSeCqjzfkQQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ly2zf-1x1jGvFDyKbGXFLXp74vX6FNr70Smp7GHjZ79gPmluxaLF_P1wphK4on82LiD45K2HyUJuIN64x9qHCf90V6nja6lEuwWcMzSA1j2bZxYFcWZHDHT_CtA3xsIMyTbIIb_2_5sC0cwgn-faM1PClp7MPwSCuoe3lwzcrE9few=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_vEjRFiguzggFXk1KEzaA7k9B3qaDt51HTLf8dT7CrQM5XI3qtyBjvc4LAHoeqY9wNS1l3RH_IA8CQYCKy08Ev2XxibTFXJIvSSvBH1smjMTb8xbtjuy9b4gGncdvX4h_siI"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_vEjRFiguzggFXk1KEzaA7k9B3qaDt51HTLf8dT7CrQM5XI3qtyBjvc4LAHoeqY9wNS1l3RH_IA8CQYCKy08Ev2XxibTFXJIvSSvBH1smjMTb8xbtjuy9b4gGncdvX4h_siI"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbB-NgIxoqytiWBmzDzGIvbc1mrREM7Is53WtmOjukdklSseI7NW1P3EajU2Dy3WpOdPL9kS79xrRjJssScpazPOoTnxJAKtI93J8HT1pr58zT9Y7wFYzwWu-6J4BqHnwvqZb_1Xt684="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbB-NgIxoqytiWBmzDzGIvbc1mrREM7Is53WtmOjukdklSseI7NW1P3EajU2Dy3WpOdPL9kS79xrRjJssScpazPOoTnxJAKtI93J8HT1pr58zT9Y7wFYzwWu-6J4BqHnwvqZb_1Xt684="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbB-NgIxoqytiWBmzDzGIvbc1mrREM7Is53WtmOjukdklSseI7NW1P3EajU2Dy3WpOdPL9kS79xrRjJssScpazPOoTnxJAKtI93J8HT1pr58zT9Y7wFYzwWu-6J4BqHnwvqZb_1Xt684="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCFkToQJ3hP6NLNJrRij6ZJQ9Zx4Bf4Jr1F1mhM37Ycpxhyv5qqtfPsFBpCEfkqgKZ8k2u4QEwjb4fiAhqfqkiwdyS6SmufwdSZv-bZz8JhxAqYDEqrJwKAFi3RUvw1W8LhzRvJuhFpTY9F7nJTGuoNv98HgaYHk7kGOWEXZGBwVLdEH0OoGeDxUg6mCWj7hY="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbB-NgIxoqytiWBmzDzGIvbc1mrREM7Is53WtmOjukdklSseI7NW1P3EajU2Dy3WpOdPL9kS79xrRjJssScpazPOoTnxJAKtI93J8HT1pr58zT9Y7wFYzwWu-6J4BqHnwvqZb_1Xt684="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmIGBmGh4kyLk7gcU8k3wLIz2iKQWIyDGjb-SYuSTqwDne_7Cnk1VuXs_BvsSwcZLJsIurjrMgx7SNupKwySbdFw3DohJ1c299H61xYnT3G_jJH2jnnWGGoUZmQbj_YA9ak0nY0Mq0"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU1qxQRSMqNuvlXHpLcKQc0EWyWzKUU2OVPeGxYbzJYZ0v0vp5Lrrv95sSAwOGh3SpDOq95UNoEIh6_6PFFCQZf4_QD27a5jJp3byfA4HOuRyrVLtzL26zzQ5GXAUmp06nsHBXzRMboG6WLaA="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbB-NgIxoqytiWBmzDzGIvbc1mrREM7Is53WtmOjukdklSseI7NW1P3EajU2Dy3WpOdPL9kS79xrRjJssScpazPOoTnxJAKtI93J8HT1pr58zT9Y7wFYzwWu-6J4BqHnwvqZb_1Xt684="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-T0Mx4lVjd11a2FwPWnHLNzSQ9ajOa2--D46-iTge5_q4yjskb3niMQo6mugLULHYHV7LJnN05MkTSG0n5Vz4bn7CA2PrmkRSZS9lBs0YmCD4AYtZtg1opMcMkM8vykE-upQ3MQu9aljCK7ckaoex9snhzRe580I9kKZC2_D4jmbg6r8="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU1qxQRSMqNuvlXHpLcKQc0EWyWzKUU2OVPeGxYbzJYZ0v0vp5Lrrv95sSAwOGh3SpDOq95UNoEIh6_6PFFCQZf4_QD27a5jJp3byfA4HOuRyrVLtzL26zzQ5GXAUmp06nsHBXzRMboG6WLaA="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0="
+      },
+      {
+        "label": "kotlinlang",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdO0Y-Xcaq4wMN_9-fwEdXHRb555n_4wZKZ-WTArpB_geSkQjccDcwQEWeMZeiESdRtuXb5Kc1BCfJphNZ3lwYffBhQ11zWeV3UQc-YmBIDDOz-MTyOo0q5lJ4MQQMouqBqjARt4J3YZJVoxZbv8-enP6QkhQekc8x-xMUQXwc3dgBzgE-u_f4HHTcJxbBYhuxCPe-Koo3ug=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxb17ub3BE39vgZzcP1zbqSN7vHtHzkkAyiByiKILeQ5sFS9WlegjrE9WcD2SvitrEtEx-dwaMRtAN4i3BbDpVjVnfpRWtMMLSvjvqG3sAUdOzw0yjTRisKGynDkzYZBeRbOhylySdMXbl3yQZfxEa_DsQ54ql4Zi0ebT_h_RxarPTrQ3cbTxYPy_OYky14s0bGmEtZe_AUvICxJ3K9t8b_A=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_vEjRFiguzggFXk1KEzaA7k9B3qaDt51HTLf8dT7CrQM5XI3qtyBjvc4LAHoeqY9wNS1l3RH_IA8CQYCKy08Ev2XxibTFXJIvSSvBH1smjMTb8xbtjuy9b4gGncdvX4h_siI"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY="
+      },
+      {
+        "label": "kotlinlang",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdO0Y-Xcaq4wMN_9-fwEdXHRb555n_4wZKZ-WTArpB_geSkQjccDcwQEWeMZeiESdRtuXb5Kc1BCfJphNZ3lwYffBhQ11zWeV3UQc-YmBIDDOz-MTyOo0q5lJ4MQQMouqBqjARt4J3YZJVoxZbv8-enP6QkhQekc8x-xMUQXwc3dgBzgE-u_f4HHTcJxbBYhuxCPe-Koo3ug=="
+      },
+      {
+        "label": "jetbrains",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoJ66IHTTPotHzdAaKz09k6vgs-yjiuLiHv7F_CfrqBdjtBxtjDYIszL_hthS3ac1LOJ8HKYVfxaK9TBRXi3gs54dRIoyvuwV1_TysGRieiJJEi1AP1wHwAHFoPi4O6GsaLFPMDDHPdZDkTYtkDvLaztimWTFw9w=="
+      },
+      {
+        "label": "kotlinlang",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdO0Y-Xcaq4wMN_9-fwEdXHRb555n_4wZKZ-WTArpB_geSkQjccDcwQEWeMZeiESdRtuXb5Kc1BCfJphNZ3lwYffBhQ11zWeV3UQc-YmBIDDOz-MTyOo0q5lJ4MQQMouqBqjARt4J3YZJVoxZbv8-enP6QkhQekc8x-xMUQXwc3dgBzgE-u_f4HHTcJxbBYhuxCPe-Koo3ug=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU1qxQRSMqNuvlXHpLcKQc0EWyWzKUU2OVPeGxYbzJYZ0v0vp5Lrrv95sSAwOGh3SpDOq95UNoEIh6_6PFFCQZf4_QD27a5jJp3byfA4HOuRyrVLtzL26zzQ5GXAUmp06nsHBXzRMboG6WLaA="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0="
+      },
+      {
+        "label": "jetbrains",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoJ66IHTTPotHzdAaKz09k6vgs-yjiuLiHv7F_CfrqBdjtBxtjDYIszL_hthS3ac1LOJ8HKYVfxaK9TBRXi3gs54dRIoyvuwV1_TysGRieiJJEi1AP1wHwAHFoPi4O6GsaLFPMDDHPdZDkTYtkDvLaztimWTFw9w=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-T0Mx4lVjd11a2FwPWnHLNzSQ9ajOa2--D46-iTge5_q4yjskb3niMQo6mugLULHYHV7LJnN05MkTSG0n5Vz4bn7CA2PrmkRSZS9lBs0YmCD4AYtZtg1opMcMkM8vykE-upQ3MQu9aljCK7ckaoex9snhzRe580I9kKZC2_D4jmbg6r8="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-T0Mx4lVjd11a2FwPWnHLNzSQ9ajOa2--D46-iTge5_q4yjskb3niMQo6mugLULHYHV7LJnN05MkTSG0n5Vz4bn7CA2PrmkRSZS9lBs0YmCD4AYtZtg1opMcMkM8vykE-upQ3MQu9aljCK7ckaoex9snhzRe580I9kKZC2_D4jmbg6r8="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxb17ub3BE39vgZzcP1zbqSN7vHtHzkkAyiByiKILeQ5sFS9WlegjrE9WcD2SvitrEtEx-dwaMRtAN4i3BbDpVjVnfpRWtMMLSvjvqG3sAUdOzw0yjTRisKGynDkzYZBeRbOhylySdMXbl3yQZfxEa_DsQ54ql4Zi0ebT_h_RxarPTrQ3cbTxYPy_OYky14s0bGmEtZe_AUvICxJ3K9t8b_A=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmIGBmGh4kyLk7gcU8k3wLIz2iKQWIyDGjb-SYuSTqwDne_7Cnk1VuXs_BvsSwcZLJsIurjrMgx7SNupKwySbdFw3DohJ1c299H61xYnT3G_jJH2jnnWGGoUZmQbj_YA9ak0nY0Mq0"
+      },
+      {
+        "label": "softwaremill",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQvSITxTqcEBhdKp9g5YpSajjK3SOaOGO9fDSAIUrUnyIZTN9RWRTJeHVLcNvSfSid-7O_H4eDrpdBG7paDknBVmjXzas7Iw_wAySibX7gHXJI8nAxBu6FmjJ6DImQDdVXUTyf0EH0Xzux9MA5EfOBXx5_mn6vkT0xew=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0466XGh47lAkmTCKAWSgsSMw22rqqI7OVXWOJXyL1GHZU3Yz3faJlnPnH083GiqRwjhOt3fKaJFUFWMZp5lT5IJECS1O5nekZGgiVHbqge5Nt5ERXG20YNXlYh8nEzJqY7VNYKaOsRAaQ_woRzygK-_rfi2aH6yXxqlTf4p8zlt-JC_eMJm8D64ytoBDzQfnlBteoh76lPYc9_0a4CU83gA=="
+      },
+      {
+        "label": "jku",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbFVF623vDOHqvi-jFdDVLa0sjlye-1P_pFRgaNgwOy7en2TEzwJdp1oxtvzfzOyOgFfmPlrdITNJn1I7M0Hp979qxrQzFJIR2L55QKSphdHscMNv7dlSA92veapnrMJra9wbG1g9iiSwTKeQy66w7H3P102rGHS527Q=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3m191jbCWUhdPtn7WeOzhwCASJeDDAvueA9dJW-A9hfLaKlj16XMpCh0OiHtQGjm2QxGlRpGC99BtJ6nWPbKaUAtsIPNzh84fbFx5Si99lemHHJUlgIMASGn3_GNa7Gea1Nbj"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-_hhvtHIfNyzkZObV0VYU9Y4Nc5rgCfuL50KTYYYW1mv4DKAdd5e_qViBLYfMhVnL0BOPGlgqIBwPORJ2hWSkkN0QRGlrn3vggcC9WjudhKg9aFStPHM_ULeehJh8mGttPEL2N2dHA0w="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdWMUS_xUL1G1EfFTorFjwkQDdWNRTPLZtDAz4u8QeKo1xJJ3wAkeYWkULKob6wVKuuEnvCRiY8BW1B5EqEQx3aq_TR4EI3J6jaKuv_GKH5kG4DLLTNC2UH7xFab4kdHGv0Y4VrA=="
+      },
+      {
+        "label": "bookstack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrLTh89HVnynA1SWSaneSKDFFR4KSizDKMyAPMMZ5vT-NdRM_AAjQEPThyP-DL60ZfLkBl_RA9AlVzO7resNQh0Gy3tN3QQul0DUA8QORXjV3sm2zF7nT1EY9Lv4dbGt42K29QghCdzSytXsj_DUG2VKi4A_Ez9zOnJg=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkmlMxJmnH4KWiCWUOdgob1gugI869D2xngezSwAFS5RiVLCnfdJrMsbXAQm5kGEcwchyu6OuBRL-Z-LwGJI-TANCBXhIwJpZzDEE0Y0X9xUcr5ATCj0eml7oPQSQBGytvu15OY3G8kqQJjcU="
+      },
+      {
+        "label": "bookstack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtM5tNo3f2FCgXJE6lo1kBZacV1UFYF6b8D-RjjknBTuFkps8DvrloOD6ewWpTMknyy6Ty8EH_sHJaVnQlSfquO94lMezgAe8nmsZb_ixgGtK5s25VRNJbl1k1M027U5AaRuSMl-vCBUt--q7Z0RG-M-RWehCIuCoGVw=="
+      },
+      {
+        "label": "kotlincn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3KswV9aQQJ5YySTKZnY3LJI_xlOisnOeyZFSehNA2sJ8Qm5boYSSJOxVV3k5UbQ_4pg2GofXNk--xRoltbyijCBfEA2HJ8Myq5LX5jFnMjKgT-iAOy3LjRHJyJIBqXtBipnF0b6rR_XlvxuOS4vGgT7k711Xe"
+      },
+      {
+        "label": "kotlinlang",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSpa2afAA7uXXotkIvei1bFLXOo_x6ho2sL9cjNf_1UfmTJIJkhg9gEpc7k08fx3b13RSEXSMSR24N63LLPyO5OP5FLSrNg2uVydSCBAw5fdkxacmvmZfAecv-uiQRqzqircxcXsDhWSV752Goxsv_iCSnGRjd0jROuGdBVRiHV6Kbb0_H2G1u-z9-SBEvM6AFcfjSyFPeew=="
+      },
+      {
+        "label": "jetbrains",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECBy5AFyReF93Dh9A2OiQB_jH3YpTKkQmKMUBuwXmlZtyblv8RzLEosTCdUE9CaldCWn4EjUUaiTdAU6DgP2Nqfsi3MS3ZBUYsGPxbPA2_n55b1ANjzTd3xQDFumLpz5eCUTUV8hdai-d-WnaTMjLsAgdCH6zq_tr7y12S4Kj3XfINLJxTXSibRpA15Ik2eAVuYTw4mYJtAsc53GF4qX892OMPB0QVZbJz_2q-aoJeSeCqjzfkQQ=="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ_vEjRFiguzggFXk1KEzaA7k9B3qaDt51HTLf8dT7CrQM5XI3qtyBjvc4LAHoeqY9wNS1l3RH_IA8CQYCKy08Ev2XxibTFXJIvSSvBH1smjMTb8xbtjuy9b4gGncdvX4h_siI"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnbB-NgIxoqytiWBmzDzGIvbc1mrREM7Is53WtmOjukdklSseI7NW1P3EajU2Dy3WpOdPL9kS79xrRjJssScpazPOoTnxJAKtI93J8HT1pr58zT9Y7wFYzwWu-6J4BqHnwvqZb_1Xt684="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEf1OYOhFOT9rlsJA7AmvOWzRZfA2FWA7nWAMJkyFhwG-7bbIQznWIEZncMHfKg36y0lU4HD6TVkiyS-uGrMHjhPn_hF03De2qEkFsH5sf9CpuGK2sSTedikvYxp0Ng4hN2RTTN60P4USY="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmIGBmGh4kyLk7gcU8k3wLIz2iKQWIyDGjb-SYuSTqwDne_7Cnk1VuXs_BvsSwcZLJsIurjrMgx7SNupKwySbdFw3DohJ1c299H61xYnT3G_jJH2jnnWGGoUZmQbj_YA9ak0nY0Mq0"
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU1qxQRSMqNuvlXHpLcKQc0EWyWzKUU2OVPeGxYbzJYZ0v0vp5Lrrv95sSAwOGh3SpDOq95UNoEIh6_6PFFCQZf4_QD27a5jJp3byfA4HOuRyrVLtzL26zzQ5GXAUmp06nsHBXzRMboG6WLaA="
+      },
+      {
+        "label": "ktor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5eM-yqTdZ1x-025OEmWIgAMjLCuCcrVQXmbZbUOZggqsgGuuUZBVVat3wXjiQf1zBaOW4JKCQPHyXzpVKlrIEKxhbyg7NFLUjBWU8VQHQpQ4pKqWS8_x6714LG0rTyL0="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-T0Mx4lVjd11a2FwPWnHLNzSQ9ajOa2--D46-iTge5_q4yjskb3niMQo6mugLULHYHV7LJnN05MkTSG0n5Vz4bn7CA2PrmkRSZS9lBs0YmCD4AYtZtg1opMcMkM8vykE-upQ3MQu9aljCK7ckaoex9snhzRe580I9kKZC2_D4jmbg6r8="
+      },
+      {
+        "label": "kotlinlang",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdO0Y-Xcaq4wMN_9-fwEdXHRb555n_4wZKZ-WTArpB_geSkQjccDcwQEWeMZeiESdRtuXb5Kc1BCfJphNZ3lwYffBhQ11zWeV3UQc-YmBIDDOz-MTyOo0q5lJ4MQQMouqBqjARt4J3YZJVoxZbv8-enP6QkhQekc8x-xMUQXwc3dgBzgE-u_f4HHTcJxbBYhuxCPe-Koo3ug=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

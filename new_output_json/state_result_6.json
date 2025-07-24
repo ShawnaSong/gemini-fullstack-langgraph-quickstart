@@ -1,0 +1,830 @@
+{
+  "file_name": "state_result_6.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.607924",
+  "data": {
+    "messages": [
+      {
+        "content": "Какие LLM имеют эмбединги такого же размера как в Llama-3.1  и такой же токенизатор?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "fda77aca-d77e-49af-9653-ebdfe8513858",
+        "example": false
+      },
+      {
+        "content": "Based on the provided summaries, here's a breakdown of LLMs with embedding sizes and tokenizers similar to Llama-3.1:\n\n**Models with Similar Embedding Sizes:**\n\nIt's important to note that Llama 3.1 comes in different sizes, each with a different embedding dimension (also referred to as hidden size):\n\n*   **Llama 3.1 (8B):** Has a hidden size of 4096 [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi2P5Hfh3l1GikBZ9pV2m-eigyk2w3dvseoxHCuKuUJpWV9jQrezi6GAQD_53S2BiNEvW93hO7KNa8lyfrkSTF-EKQ5hYwn1qi9xpVW802V9Wjugl-BhUSvcHNwxuCj3-vHN0DMlzw7wQTBHYF9LE=0) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB5AGis12v9_R0tGW11I46yxxFz54iHDpE7xfUZUuaw8RsuNZW4OLUyULD2S4aPgGhg2nlAjKCWLeMAOuWlBKn9jitSKwHa4MCLOH27NIScDFxkc2FzUIhrSkvd-dhU6N2tg3ipDkJ52Yaytb05OoxSxJTiT9HDrrHgQ==) [towardsai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQJ9VUg9LtgKvzFGNGfPwAXUXWJDNpLYYnHJ_RpbmM-bRWtvSeGc0C-21YEk-5nf3jmhXbh6uUgmkav8OE9gM5yK9cD3J8_08lwQnpjDkZ-_7OUTO67QEknsl2LLLb7NzH65E7WSjYTsySA8pyWY4qIWDWw38_W8Z6N2SGO8O432vRGHBpT6qV-GIzj5U=).\n*   **Llama 3.1 (70B):** Has a hidden size of 8,192 [nvidia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFtoV1KB-Eb5O8S8zaRGIh9MIvQeiQLepTOxwFqeP2y0SRZRRqaO1VAL8stAVQcAzFlD_1_MjTZ7b6wgr2PW6XUBmT1PXR3GXok4ZBZkVVIdpa7ME0OxCYNqXlcjNPBlc9xzqJfvytz-A8QoKs6oEyVlIrDm2ZU4JlYQJc-afRZy-SW66H_tJzyLCimv4C5KaVY6yC3HTa4iH2yQClkK4j68PO5FtE).\n*   **Llama 3.1 (405B):** Has a hidden size of 16,384.\n\nHere are some models with a hidden size of 4096, similar to the Llama 3.1 (8B) model:\n\n*   **LLaMA:** Meta AI's LLaMA models, including the 6.7 billion parameter version, have a hidden size of 4096 [addepto](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOCqmziuYohlc5sqye484vIYFIh8YJMvPHxAVWnLXGHtE6oJIADuioKJZb6y9SK4lbIz4orwipRFiHlbLJYsbJdNoRzxGyjAAPQkVKYX-kLLSPr2WIZ4yi6_ZctA5uScWhEamaK3LVMRJ0wcw3hjX_iYzQk2JBtbKXiWhuqxD70Px8IME80ZGRNUulXLAMwRA=) [arxiv](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqIK40CBY14QFoIeHf8FCsGkuEIzMh1EblQtFRPw5ewLJlK5zgWhNp9G4bz4XUS3XN8YKF-0TyfAHgGrROQg_HL-MCPs6sS_MgF50V6GvVnd_yyw8CruRY7jKj-mzv) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBWFmJsAqSyq26Jco3iUiBQtB5-LqSz4RvjaXI-hW5TDo2PcOsXM16-VeHnPyJ85V9cH0m-hnL9BeuXLrC7avXXYx-Sxd1VCpAuCmp5hvrQePEmZlX9uOOVFl-puZW) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1AsMNZxee3liW4VnaOKtzqKgb_FVgYQzmG8x8LR3Lk16GAmdMnLRdL5bnIWGud93wfO_2tPXgUqFuSVqboSz0s4CkptqtngdeqgVnX0LdTsC89JMbIcduEnuiJurmzn4CZHIHw8HhGZNvtdsTU22pjdmjB23zNVpCkNWQG9YNBgzK30aDHLhhKRpmkvVvDtvKtv98k8E-KzkP8eRNX3JLo6Gqw==).\n*   **MPT-7B:** This model, fine-tuned by MosaicML, has 6.7 billion parameters and a hidden size of 4096 [addepto](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOCqmziuYohlc5sqye484vIYFIh8YJMvPHxAVWnLXGHtE6oJIADuioKJZb6y9SK4lbIz4orwipRFiHlbLJYsbJdNoRzxGyjAAPQkVKYX-kLLSPr2WIZ4yi6_ZctA5uScWhEamaK3LVMRJ0wcw3hjX_iYzQk2JBtbKXiWhuqxD70Px8IME80ZGRNUulXLAMwRA=) [addepto](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9MdfLxC_0UhKN5aZL-mW9yI67GKGs-6NpRRnjsG7TBxwak0tNSjErehLvlRRsD_oPv0ZrdMP1ABMXwo2Bq5MuSatBC3J0d6cxamUsTCBM6ERLtFNx6JJc4VHUiVTo-yeled2a6_nRDpmu4aw6J-RG_KrXvZM6diLwVIAb7RG64ihGv5YjOgPF-0pkOpQ7XQ==).\n*   **Amber:** An English language LLM with 6.7B parameters, part of the LLM360 project, uses the LLaMA architecture and has a hidden size of 4096 [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1AsMNZxee3liW4VnaOKtzqKgb_FVgYQzmG8x8LR3Lk16GAmdMnLRdL5bnIWGud93wfO_2tPXgUqFuSVqboSz0s4CkptqtngdeqgVnX0LdTsC89JMbIcduEnuiJurmzn4CZHIHw8HhGZNvtdsTU22pjdmjB23zNVpCkNWQG9YNBgzK30aDHLhhKRpmkvVvDtvKtv98k8E-KzkP8eRNX3JLo6Gqw==) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBWFmJsAqSyq26Jco3iUiBQtB5-LqSz4RvjaXI-hW5TDo2PcOsXM16-VeHnPyJ85V9cH0m-hnL9BeuXLrC7avXXYx-Sxd1VCpAuCmp5hvrQePEmZlX9uOOVFl-puZW).\n*   **Lucie-7B:** This open-source LLM for multiple languages has a hidden size of 4096.\n*   **Phi-3-small:** This model has 7B parameters and a hidden size of 4096 [substack](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu_xZooUYSuR6T3FjBJ9FCGHPvXh_fGbyxJx_Gizui2IVORf38ZvI6AC4nLVZxnzmu4sAVF0FXA-7BjUzxOM79XWmQ1jOve3WyR8rxnSvr48Yr23x-al9nHotlb9sJvcXdKE0qFz5b6uXnjW3QxW6_9KRj).\n*   **Minerva-7B:** This model has 7.4 billion parameters and feed-forward layers with a hidden size of 4096.\n\n**Models with Compatible Tokenizers:**\n\n*   **Meta Llama 3.1 Family:** The Llama 3.1 family (8B, 70B, and 405B) uses a tokenizer with a vocabulary of 128K tokens [ibm](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFetj072EuA4r2e3Kx042h6okGACmRJ0OV2ExTs9tlbLx90uB50neYVewaz2h4-SUv-FLx3fEcTDOyR0fXMFjbq3P3vEOgBtNTsholWefyoOj1Wj5Uvw7tN3ZMrjo756h62SPtIxFuew0Pjmi0G-2f0el0aY8bPYVQlKvOAS88is_2P63IZvPIU0Fc7GLAS6Q==) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw-dRAXThPvhMYPD26vCEnLDwecJi0kNJaOmeHsm_CwYxpDr72bKi5ZxZlS_7qPbi0hfCuy8EQrOZis1COWn0FVAwhzl-j-_OsyV-38VN2_RQGyCH_o5DupgYTdRI71FjiVoMrlRPePAg=) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECleGkvR0n2pBGhFhv93iQPbG37Y7FFm0BkkiTDWzkATtVzwGatOw-Ift1SW0XpJVf9J7wqNxpJ0IBMEZAoS2tyM4KL0c3YzgPZD8yuFPRf2oOpaama-vE2xDYe4_GQDpGWMhAU5AvX60d84LQdQtbs4fgXQOhdn8TbXg-FX23IBTwbk-W1_UZnd8yNIk4HKZep8jQqPjwj6z5AA8S7gMJk2S7sw==) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n) [gopenai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvCgzJaQUtq6G2bpCtSbgjVjTLbya7T80zj4PVMWk3CSbKQa4cED9Vf2ifzfpJPb3D5EMNyPncRslAhn1CU-P3O5OB57iiDYrrQUvk5fZ3rT6YXZm1DzU5BUNdp6NLj2-eAVF1ZuuI5ghSCOQ4P9D7SYnK_JM67l_EUA-YY9ffA==) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlVBRkmUajLr9UfNa22mP98vklMGRRBfLPNfpJpFK4kBkwGZ-SSaOBOqMHZCkXWF-tqAHEhQ8WY2C3FHFBeRsyQYQCTVIqBpR1OELFkaasAoGQAXgqrEIBnEAEoZTVr9OWrrW2-P48m19QQhh_DpqueVExuej6D25_m2QY8_Hb4dcndWOwRT_wA19o6HJpz67G4KAw3sk).\n*   **Llama-3.1-Nemotron-Ultra-253B-v1:** This NVIDIA model, derived from Llama-3.1-405B-Instruct, also supports a 128K token context length [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjeZh707YAwEiU9BEN4GAyYGTbqVPrczVWC1VUeNLGbSZCqm5Hl2wyf2pqfRW5VsWn4TG_RcakXTphPdCmPxoTdctMF3Cpnl53OcY4eIxjqa_NJvIWpcS-4APcuMcbEJYxCh_-g8oVfnWAoLe7aLszShJ9GagOplDf) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP).\n*   **Llama-3.1-Nemotron-Nano-8B-v1:** This NVIDIA model, derived from Llama-3.1-8B-Instruct, supports a 128K context length [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOVdfbEi5BymH6Bnk0LqtDlHs28DPLeycRsMDsTw03iAS2RvDgDH3ilWVzql2lQqNUcRvYVwlS5x-5UoeRPzBu25AmtPS2YbT5viV8LSZ83WC_icWke6037v02khyq5nBkKgw9o7Ra9gowGqR8s0T-4asenQkL) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOVdfbEi5BymH6Bnk0LqtDlHs28DPLeycRsMDsTw03iAS2RvDgDH3ilWVzql2lQqNUcRvYVwlS5x-5UoeRPzBu25AmtPS2YbT5viV8LSZ83WC_icWke6037v02khyq5nBkKgw9o7Ra9gowGqR8s0T-4asenQkL) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjeZh707YAwEiU9BEN4GAyYGTbqVPrczVWC1VUeNLGbSZCqm5Hl2wyf2pqfRW5VsWn4TG_RcakXTphPdCmPxoTdctMF3Cpnl53OcY4eIxjqa_NJvIWpcS-4APcuMcbEJYxCh_-g8oVfnWAoLe7aLszShJ9GagOplDf) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP).\n*   **Phi-3-mini:** Both Phi-3-mini models leverage the same tokenizer as LLAMA2 with a vocabulary size of 32064.\n\n**Important Considerations:**\n\n*   Llama 3.1 uses a tokenizer with a vocabulary of 128K tokens [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n) [gopenai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvCgzJaQUtq6G2bpCtSbgjVjTLbya7T80zj4PVMWk3CSbKQa4cED9Vf2ifzfpJPb3D5EMNyPncRslAhn1CU-P3O5OB57iiDYrrQUvk5fZ3rT6YXZm1DzU5BUNdp6NLj2-eAVF1ZuuI5ghSCOQ4P9D7SYnK_JM67l_EUA-YY9ffA==) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlVBRkmUajLr9UfNa22mP98vklMGRRBfLPNfpJpFK4kBkwGZ-SSaOBOqMHZCkXWF-tqAHEhQ8WY2C3FHFBeRsyQYQCTVIqBpR1OELFkaasAoGQAXgqrEIBnEAEoZTVr9OWrrW2-P48m19QQhh_DpqueVExuej6D25_m2QY8_Hb4dcndWOwRT_wA19o6HJpz67G4KAw3sk).\n*   Llama 3.1 replaced Sentence Piece with TikToken, which is used in OpenAI models and has a vocabulary size of 128k tokens [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlVBRkmUajLr9UfNa22mP98vklMGRRBfLPNfpJpFK4kBkwGZ-SSaOBOqMHZCkXWF-tqAHEhQ8WY2C3FHFBeRsyQYQCTVIqBpR1OELFkaasAoGQAXgqrEIBnEAEoZTVr9OWrrW2-P48m19QQhh_DpqueVExuej6D25_m2QY8_Hb4dcndWOwRT_wA19o6HJpz67G4KAw3sk).\n*   When fine-tuning, ensure the tokenizer and model are synchronized, especially when adding new tokens. This involves resizing the token embeddings in the model to match the updated tokenizer size [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Oq5uU6qjXvgVF6hxH707PO1K-m-oQm4thhy68Pc4vt9DnOHwwVsZtWky1eGs8aJ8m4_s2XNr0NbxxZLHPi33Rv8uVDZSi9ot8X6BTIB0IHPRyELduYzI_8tUGm9Tm228w7TgYfMWxRrVpAg6CgnEEa1AMB8EftxpEvCsjXGEZmusdS0UaZKoqwiZEFQ5I67AqQ0nD_ronoyyCcpiyV8N7fJIDKqFFES_pUC87CrjYpHbA3Px8Og=).\n*   Llama 3.1 has a significantly longer context length of 128K compared to Llama 3's 8K [gopenai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvCgzJaQUtq6G2bpCtSbgjVjTLbya7T80zj4PVMWk3CSbKQa4cED9Vf2ifzfpJPb3D5EMNyPncRslAhn1CU-P3O5OB57iiDYrrQUvk5fZ3rT6YXZm1DzU5BUNdp6NLj2-eAVF1ZuuI5ghSCOQ4P9D7SYnK_JM67l_EUA-YY9ffA==) [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQDgKdqB5ebdoODWv7m12eWtnMhh5DrVSOETghlPO34hFgm9BltPsP7GrKBRSJzcnd0TtOA_CMyEBiJlvX1SotqVrY0GyWoXOT7oxGPxjudY5zYABIivqrtQHF8MQ=).\n*   Llama 3.1 has better multilingual support than Llama 3 [gopenai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvCgzJaQUtq6G2bpCtSbgjVjTLbya7T80zj4PVMWk3CSbKQa4cED9Vf2ifzfpJPb3D5EMNyPncRslAhn1CU-P3O5OB57iiDYrrQUvk5fZ3rT6YXZm1DzU5BUNdp6NLj2-eAVF1ZuuI5ghSCOQ4P9D7SYnK_JM67l_EUA-YY9ffA==).\n*   Llama 3.1 and Llama 3 have the same dense network architecture [medium](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n).\n*   Llama 3.1 continues to use Grouped-Query Attention (GQA), which helps with longer contexts [snawarhussain](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbwHcxNVyt5FDecW8p_MXtIRD4lQpobTXjJoeHNrLOAAvfdRDPT2z47ooubT3fAo7ZVRX-12rJm3iSWvaq1F7HQ0hXpiod_0LatDlcpGkbyAHqWRt9P5BQaZzClXBTggBEg9OJQ-kzZrm02ekeyH-nQ4xMPUhOKjQq8A==) [huggingface](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQDgKdqB5ebdoODWv7m12eWtnMhh5DrVSOETghlPO34hFgm9BltPsP7GrKBRSJzcnd0TtOA_CMyEBiJlvX1SotqVrY0GyWoXOT7oxGPxjudY5zYABIivqrtQHF8MQ=).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "bc6a55f8-f4b5-41bd-a251-445e52d10af3",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "LLMs with embedding size and tokenizer matching Llama-3.1",
+      "LLMs compatible with Llama-3.1 tokenizer",
+      "LLMs with the same embedding dimension as Llama-3.1",
+      "Are there any open-source LLMs with the exact same embedding dimension as Llama 3.1 (specifically, hidden_size of 4096 for the 8B model)?",
+      "What is the embedding dimension (hidden_size) for Llama 3.1 70B and 405B models?",
+      "What other LLMs use a hidden_size of 4096 (or very close) and the same tokenizer as Llama 3.1?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"LLMs with embedding size and tokenizer matching Llama-3.1\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of information regarding LLMs with embedding size and tokenizer matching Llama-3.1:\n\n**Llama 3.1 Overview:**\n\n*   Meta's Llama 3.1 is a leading open-source LLM available in various sizes (8B, 70B, and 405B parameters). [baseten](https://vertexaisearch.cloud.google.com/id/0-0) [trgdatacenters](https://vertexaisearch.cloud.google.com/id/0-1) [jetruby](https://vertexaisearch.cloud.google.com/id/0-2) It's considered a strong general-purpose model.\n*   It excels in multilingual tasks and is suitable for businesses and researchers working with multilingual tools. [jetruby](https://vertexaisearch.cloud.google.com/id/0-2)\n*   Llama 3.1 models support eight languages (English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai). [medium](https://vertexaisearch.cloud.google.com/id/0-3)\n*   All Llama 3.1 models feature a context length of 128k tokens.\n*   Llama 3.1 uses a SentencePiece BPE tokenizer, likely with a vocabulary size of approximately 32k. [qlogix](https://vertexaisearch.cloud.google.com/id/0-4)\n*   The models are licensed under a Community License, allowing commercial use while promoting responsible AI practices.\n\n**Fine-tuning Llama 3.1:**\n\n*   Llama 3.1 is considered a flexible LLM solution and a good option for fine-tuning. [baseten](https://vertexaisearch.cloud.google.com/id/0-0) [qlogix](https://vertexaisearch.cloud.google.com/id/0-4)\n*   Fine-tuning Llama 3.1 allows customization for specific use cases, improving performance and customizability at a lower cost than using frozen, general-purpose LLMs. [originshq](https://vertexaisearch.cloud.google.com/id/0-5)\n*   Supervised Fine-Tuning (SFT) can enhance the model's overall performance, add new knowledge, or adapt it to specific tasks and domains. [originshq](https://vertexaisearch.cloud.google.com/id/0-5)\n*   Unsloth library can be used to fine-tune Llama 3.1 models efficiently, offering faster training and reduced memory usage. [originshq](https://vertexaisearch.cloud.google.com/id/0-5)\n*   When fine-tuning, it's important to ensure the tokenizer and model are synchronized, especially when adding new tokens. This involves resizing the token embeddings in the model to match the updated tokenizer size. [huggingface](https://vertexaisearch.cloud.google.com/id/0-6)\n\n**Alternatives to Llama 3.1:**\n\n*   Other open-source LLMs to consider include DeepSeek-R1, DeepSeek-MoE, Mistral 7B, Falcon 180B, and Qwen 2.5. [trgdatacenters](https://vertexaisearch.cloud.google.com/id/0-1)\n*   DeepSeek-V3 is a 671B-parameter open-source LLM that rivals closed-source models. [baseten](https://vertexaisearch.cloud.google.com/id/0-0)\n*   For resource efficiency, Mistral 7B or DeepSeek-MoE are good options. [trgdatacenters](https://vertexaisearch.cloud.google.com/id/0-1)\n*   Alternatives are available that may be better suited based on specific needs such as reasoning, code generation, or creative work.\n\n**Embedding Considerations:**\n\n*   When building Retrieval-Augmented Generation (RAG) applications with Llama 3.1, embeddings are used to represent text in a knowledge base.\n*   The length of the output vector from the embedding model needs to be considered, as longer embeddings consume more storage. [neon](https://vertexaisearch.cloud.google.com/id/0-7)\n*   Codestral Embed is an embedding model specifically designed for code and engineered for optimal code retrieval and comprehension. [slashdot](https://vertexaisearch.cloud.google.com/id/0-8)\n\n**Tokenizer Information:**\n\n*   The Llama tokenizer distinguishes words and subwords by a leading space. [zhuoyue](https://vertexaisearch.cloud.google.com/id/0-9)\n*   When applying a tokenizer, it is important to ensure that the model processes chat inputs in a format consistent with the one used during training, improving performance in conversational contexts. [cheshirecat](https://vertexaisearch.cloud.google.com/id/0-10)\n\n**Hardware Requirements for Fine-tuning:**\n\n*   Fine-tuning Llama 3.1 models requires significant hardware, with a minimum of 16-32 GB of VRAM generally necessary for efficient fine-tuning. [cheshirecat](https://vertexaisearch.cloud.google.com/id/0-10)\n*   A mid-range GPU like the RTX 4070 Ti or comparable is recommended. [cheshirecat](https://vertexaisearch.cloud.google.com/id/0-10)\n\n**Key Takeaways:**\n\n*   Llama 3.1 is a powerful and versatile open-source LLM suitable for various tasks, including multilingual applications and fine-tuning. [jetruby](https://vertexaisearch.cloud.google.com/id/0-2) [trgdatacenters](https://vertexaisearch.cloud.google.com/id/0-1) [qlogix](https://vertexaisearch.cloud.google.com/id/0-4)\n*   The open-source LLM ecosystem is rapidly evolving, with models like Llama 3.1 closing the gap with proprietary models. [neon](https://vertexaisearch.cloud.google.com/id/0-7) [trgdatacenters](https://vertexaisearch.cloud.google.com/id/0-1)\n*   When working with Llama 3.1 or similar models, it's crucial to consider factors like tokenizer compatibility, embedding dimensions, and hardware requirements for optimal performance.\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent information on \"LLMs compatible with Llama-3.1 tokenizer\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of LLMs compatible with the Llama-3.1 tokenizer as of July 4, 2025:\n\n**Llama 3.1 and its variants:**\n\n*   **Meta Llama 3.1 Family:** The Llama 3.1 collection includes models in 8B, 70B, and 405B parameter sizes. [ibm](https://vertexaisearch.cloud.google.com/id/1-0) [huggingface](https://vertexaisearch.cloud.google.com/id/1-1) [huggingface](https://vertexaisearch.cloud.google.com/id/1-2) These models are designed for multilingual capabilities and support a context length of 128K tokens. [huggingface](https://vertexaisearch.cloud.google.com/id/1-1) The Llama 3.1 models use a tokenizer with a 128K token vocabulary. [medium](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **Llama-3.1-Nemotron-Ultra-253B-v1:** This model from NVIDIA is derived from Meta's Llama-3.1-405B-Instruct and is post-trained for reasoning, chat, and tool calling. It also supports a 128K token context length. [huggingface](https://vertexaisearch.cloud.google.com/id/1-4) [huggingface](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **Llama-3.1-Nemotron-Nano-8B-v1:** Another NVIDIA model, this one is derived from Meta's Llama-3.1-8B-Instruct. It's also focused on reasoning and tool calling and fits on a single RTX GPU for local use. [huggingface](https://vertexaisearch.cloud.google.com/id/1-5) It supports a 128K context length. [huggingface](https://vertexaisearch.cloud.google.com/id/1-5) [huggingface](https://vertexaisearch.cloud.google.com/id/1-4) [huggingface](https://vertexaisearch.cloud.google.com/id/1-1)\n*   **Fine-tuned Llama 3.2:** It is possible to fine-tune Llama 3.2 models and extend the Llama-3.2 tokenizer to incorporate language- and culture-specific knowledge.\n\n**Other Compatible LLMs:**\n\n*   **Gemma 2, Nemotron-4:** These open-source models are mentioned as surpassing proprietary models in versatility and are leading choices for various applications. [klu](https://vertexaisearch.cloud.google.com/id/1-6)\n*   **TituLLMs:** A family of Bangla LLMs that extends the Llama-3.2 tokenizer to incorporate language- and culture-specific knowledge, which also enables faster training and inference. [arxiv](https://vertexaisearch.cloud.google.com/id/1-7)\n\n**Key Points about Llama 3.1 Tokenizer:**\n\n*   **Vocabulary Size:** Llama 3.1 uses a tokenizer with a vocabulary of 128K tokens. [medium](https://vertexaisearch.cloud.google.com/id/1-3)\n*   **Efficiency:** The tokenizer encodes language efficiently, improving model performance. [meta](https://vertexaisearch.cloud.google.com/id/1-8)\n*   **GQA:** Llama 3 models use Grouped Query Attention (GQA) to improve inference efficiency. [meta](https://vertexaisearch.cloud.google.com/id/1-8)\n*   **Multilingual Support:** Llama 3.1 supports multiple languages, including English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai. [klu](https://vertexaisearch.cloud.google.com/id/1-6) [huggingface](https://vertexaisearch.cloud.google.com/id/1-1) [philschmid](https://vertexaisearch.cloud.google.com/id/1-9)\n*   **Special Tokens:** The tokenizer configuration incorporates changes to the prompt format, such as EOS tokens and the chat template.\n*   **Upgrading from Llama 3:** Upgrading applications from Llama 3 to Llama 3.1 is relatively straightforward because changes to the prompt format have been incorporated into the tokenizer configuration. [llama](https://vertexaisearch.cloud.google.com/id/1-10)\n\n**Important Considerations:**\n\n*   **Licensing:** Llama 3.1's license allows using model outputs to improve other LLMs, enabling synthetic data generation and distillation. [huggingface](https://vertexaisearch.cloud.google.com/id/1-1) [huggingface](https://vertexaisearch.cloud.google.com/id/1-2)\n*   **Guardrails:** Meta provides safeguards like Llama Guard 3 and Prompt Guard to mitigate safety and security risks. Code Shield is available for filtering insecure code. [meta](https://vertexaisearch.cloud.google.com/id/1-8) [ibm](https://vertexaisearch.cloud.google.com/id/1-0)\n*   **Fine-tuning:** Fine-tuning is an effective technique to improve the performance of LLMs, offering advantages over prompt design.\n*   The pretraining data for Llama 3.1 has a cutoff of December 2023. [huggingface](https://vertexaisearch.cloud.google.com/id/1-2) [klu](https://vertexaisearch.cloud.google.com/id/1-6)\n\nIt is important to note that some research is exploring byte-level models that may not require tokenizers in the traditional sense. [towardsdatascience](https://vertexaisearch.cloud.google.com/id/1-11)\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent information on \"LLMs with the same embedding dimension as Llama-3.1\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of LLMs and related information, focusing on embedding dimensions and models similar to Llama 3.1:\n\n**Llama 3.1 Overview**\n\n*   **Architecture:** Llama 3.1 uses a standard decoder-only transformer model architecture with minor adaptations for training stability and scalability. [encord](https://vertexaisearch.cloud.google.com/id/2-0) [datacamp](https://vertexaisearch.cloud.google.com/id/2-1) It avoids a mixture-of-experts (MoE) architecture to maximize training stability. [meta](https://vertexaisearch.cloud.google.com/id/2-2) [datacamp](https://vertexaisearch.cloud.google.com/id/2-1)\n*   **Versions and Sizes:** The Llama 3.1 family includes models with 8B, 70B, and 405B parameters. [predli](https://vertexaisearch.cloud.google.com/id/2-3) [klu](https://vertexaisearch.cloud.google.com/id/2-4) [nebuly](https://vertexaisearch.cloud.google.com/id/2-5) [huggingface](https://vertexaisearch.cloud.google.com/id/2-6) [datacamp](https://vertexaisearch.cloud.google.com/id/2-1) [ikidata](https://vertexaisearch.cloud.google.com/id/2-7) [datasciencedojo](https://vertexaisearch.cloud.google.com/id/2-8) Both base (pre-trained) and instruct-tuned versions are available for each size. [huggingface](https://vertexaisearch.cloud.google.com/id/2-9) [huggingface](https://vertexaisearch.cloud.google.com/id/2-6)\n*   **Context Length:** All Llama 3.1 variants support a context length of 128K tokens. [huggingface](https://vertexaisearch.cloud.google.com/id/2-6)\n*   **Multilingual Capabilities:** Llama 3.1 supports eight languages: English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai. [huggingface](https://vertexaisearch.cloud.google.com/id/2-6)\n*   **Training Data:** The models were trained on over 15 trillion tokens. [medium](https://vertexaisearch.cloud.google.com/id/2-10) [huggingface](https://vertexaisearch.cloud.google.com/id/2-6) [meta](https://vertexaisearch.cloud.google.com/id/2-2)\n*   **Key Features:** Llama 3.1 boasts improved reasoning, tool use, and multilingual translation capabilities. [datasciencedojo](https://vertexaisearch.cloud.google.com/id/2-11) It also enables synthetic data generation and model distillation. [encord](https://vertexaisearch.cloud.google.com/id/2-0) [meta](https://vertexaisearch.cloud.google.com/id/2-2) [huggingface](https://vertexaisearch.cloud.google.com/id/2-6)\n*   **Licensing:** Llama 3.1 has a permissive license, allowing the use of model outputs to improve other LLMs. [medium](https://vertexaisearch.cloud.google.com/id/2-10)\n\n**Embedding Dimension of Llama 3.1**\n\n*   The Llama 3.1 8B Instruct model has a `hidden_size` of 4096, which corresponds to the dimension of the hidden states and the embedding dimension. [medium](https://vertexaisearch.cloud.google.com/id/2-10)\n*   Input tokens are processed by an embedding layer that converts token IDs into dense vectors of size 4096. [medium](https://vertexaisearch.cloud.google.com/id/2-10)\n*   The output of the model body goes through a linear layer (LM head) that projects the 4096-dimensional vectors back to the vocabulary space (128256 dimensions). [medium](https://vertexaisearch.cloud.google.com/id/2-10)\n\n**Models with Similar Architecture/Capabilities**\n\n*   The search results do not explicitly list other LLMs with the *exact same* embedding dimension as Llama 3.1. However, they do mention models with similar capabilities and/or architectural components:\n    *   **GPT-4, GPT-4o, Claude 3.5 Sonnet:** These are mentioned as top-tier, closed-source models that Llama 3.1 405B rivals in performance across various benchmarks. [datacamp](https://vertexaisearch.cloud.google.com/id/2-1)\n    *   **Mistral Large 2:** This model is presented as a strong competitor to Llama 3.1, particularly for specialized, technical tasks. [nebuly](https://vertexaisearch.cloud.google.com/id/2-5)\n    *   **AllanAI Llama 3.1 Tulu 3 8B Reward:** This model, based on Llama 3.1 8B, is highlighted as an effective reward model for reinforcement learning. [baseten](https://vertexaisearch.cloud.google.com/id/2-12)\n    *   **Nomic Embed Code:** A code embedding model that rivals closed-source models in performance. [baseten](https://vertexaisearch.cloud.google.com/id/2-12) It's based on Qwen2Model. [baseten](https://vertexaisearch.cloud.google.com/id/2-12)\n\n**Other Relevant Information**\n\n*   **Grouped-Query Attention (GQA):** Llama 3.1 continues to use GQA, which helps with longer contexts. [huggingface](https://vertexaisearch.cloud.google.com/id/2-6) [klu](https://vertexaisearch.cloud.google.com/id/2-4)\n*   **Rotary Position Embedding (RoPE):** Llama 3.1 utilizes RoPE. [nvidia](https://vertexaisearch.cloud.google.com/id/2-13) [medium](https://vertexaisearch.cloud.google.com/id/2-10) [mlcommons](https://vertexaisearch.cloud.google.com/id/2-14)\n*   **RMSNorm:** Llama 3.1 uses Root Mean Square Layer Normalization (RMSNorm) to stabilize and accelerate training. [medium](https://vertexaisearch.cloud.google.com/id/2-15)\n*   **Tokenizer:** Llama 3 uses the TikToken tokenizer with a vocabulary size of 128k tokens. [medium](https://vertexaisearch.cloud.google.com/id/2-16) [medium](https://vertexaisearch.cloud.google.com/id/2-10)\n*   **MLPerf benchmark:** Llama 3.1 405B has been adopted as a new benchmark for MLPerf Training. [mlcommons](https://vertexaisearch.cloud.google.com/id/2-14)\n",
+      "Based on the search results, here's a summary of open-source LLMs with a hidden size (embedding dimension) of 4096, similar to Llama 3.1 8B:\n\n*   **LLaMA:** Meta AI's LLaMA models, including the 6.7 billion parameter version, have a hidden size of 4096. [addepto](https://vertexaisearch.cloud.google.com/id/3-0) [arxiv](https://vertexaisearch.cloud.google.com/id/3-1) [huggingface](https://vertexaisearch.cloud.google.com/id/3-2) [medium](https://vertexaisearch.cloud.google.com/id/3-3) LLaMA models are available in various sizes (7B to 65B parameters) and excel in tasks like question answering, translation, and text summarization. [addepto](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **MPT-7B:** This model, fine-tuned by MosaicML, has 6.7 billion parameters and a hidden size of 4096. [addepto](https://vertexaisearch.cloud.google.com/id/3-0)\n*   **Amber:** An English language LLM with 6.7B parameters, part of the LLM360 project, uses the LLaMA architecture and has a hidden size of 4096. [medium](https://vertexaisearch.cloud.google.com/id/3-3) [huggingface](https://vertexaisearch.cloud.google.com/id/3-2)\n*   **Lucie-7B:** This open-source LLM for multiple languages has a hidden size of 4096.\n*   **Mistral 7B:** This model attends to the previous 4,096 hidden states in each layer. [encord](https://vertexaisearch.cloud.google.com/id/3-4) [medium](https://vertexaisearch.cloud.google.com/id/3-3)\n*   **BAAI bge-en-icl:** This embedding model has a size of 7B parameters and uses MistralModel as its base. [baseten](https://vertexaisearch.cloud.google.com/id/3-5)\n*   **Longformer Base 4096:** This model has an embedding dimension of 768 and is for text up to 4096 tokens. [medium](https://vertexaisearch.cloud.google.com/id/3-3)\n*   **Cohere:** Cohere provides models with 4096-dimensional embeddings. [edenai](https://vertexaisearch.cloud.google.com/id/3-6)\n\nIt's important to note that while several models share the 4096 hidden size, other architectural details and training data can significantly impact performance. Also, some models might truncate text longer than a certain number of tokens.\n",
+      "Based on the search results, here's the information regarding the embedding dimension (hidden_size) for the Llama 3.1 70B and 405B models:\n\n*   **Llama 3.1 70B:** The hidden size (embedding dimension) is 8,192. \\[6, 8, 21, 23] [nvidia](https://vertexaisearch.cloud.google.com/id/4-0)\n*   **Llama 3.1 405B:** The hidden size (embedding dimension) is 16,384. \\[7, 9, 11, 12]\n\nThese models employ a standard decoder-only transformer architecture with minor adaptations. \\[1, 2, 5] The Llama 3.1 family also features an extended context length of 128K tokens. \\[1, 2, 5] [datacamp](https://vertexaisearch.cloud.google.com/id/4-1) [encord](https://vertexaisearch.cloud.google.com/id/4-2)\n",
+      "Based on the search results, here's a summary of LLMs that have a hidden size of 4096 (or very close) and information about tokenizers:\n\n**LLMs with a Hidden Size of 4096 (or Close):**\n\n*   **Llama 3.1:** The prompt's focus. Llama 3.1 models come in various sizes (8B, 70B, and 405B parameters). [snawarhussain](https://vertexaisearch.cloud.google.com/id/5-0) [dataloop](https://vertexaisearch.cloud.google.com/id/5-1) [huggingface](https://vertexaisearch.cloud.google.com/id/5-2) The 8B model's architecture includes a hidden size of 4096. [medium](https://vertexaisearch.cloud.google.com/id/5-3) [huggingface](https://vertexaisearch.cloud.google.com/id/5-4) [towardsai](https://vertexaisearch.cloud.google.com/id/5-5)\n*   **Llama:** Mentions LLaMA models having a hidden size of 4096.\n*   **MPT-7B:** This model has a hidden size of 4096 and uses a vocabulary of 50432 words. [addepto](https://vertexaisearch.cloud.google.com/id/5-6)\n*   **Phi-3-small:** This model has 7B parameters and a hidden size of 4096. [substack](https://vertexaisearch.cloud.google.com/id/5-7)\n*   **Minerva-7B:** This model has 7.4 billion parameters and feed-forward layers with a hidden size of 4096.\n*   **Time-LLM:** Mentions Llama7b having a hidden size of 4096.\n*   **Simple LLM Architecture (Example):** One source describes a simple LLM architecture for illustrative purposes, specifying a hidden layer size of 4096 in the feedforward network. [towardsai](https://vertexaisearch.cloud.google.com/id/5-5) [medium](https://vertexaisearch.cloud.google.com/id/5-3)\n\n**Tokenizer Information:**\n\n*   **Llama 3.1 Tokenizer:** Llama 3.1 uses a tokenizer with a vocabulary of 128K tokens. [medium](https://vertexaisearch.cloud.google.com/id/5-3) [gopenai](https://vertexaisearch.cloud.google.com/id/5-8) [medium](https://vertexaisearch.cloud.google.com/id/5-9) The Llama 3.1 tokenizer is designed for multilingual dialogue and text generation, supporting languages like English, German, French, Italian, Portuguese, Hindi, Spanish, and Thai. [dataloop](https://vertexaisearch.cloud.google.com/id/5-1)\n*   **Llama 3 vs. Llama 3.1 Tokenizers:** Both Llama 3 and Llama 3.1 use a tokenizer with a vocabulary of 128K tokens. [gopenai](https://vertexaisearch.cloud.google.com/id/5-8) [medium](https://vertexaisearch.cloud.google.com/id/5-9) [medium](https://vertexaisearch.cloud.google.com/id/5-3)\n*   **Phi-3-mini:** Both Phi-3-mini models leverage the same tokenizer as LLAMA2 with a vocabulary size of 32064.\n*   **TikToken:** Llama 3.1 replaced Sentence Piece with TikToken, which is used in OpenAI models and has a vocabulary size of 128k tokens. [medium](https://vertexaisearch.cloud.google.com/id/5-9)\n\n**Important Considerations:**\n\n*   **Context Length:** Llama 3.1 has a significantly longer context length of 128K compared to Llama 3's 8K. [gopenai](https://vertexaisearch.cloud.google.com/id/5-8) [medium](https://vertexaisearch.cloud.google.com/id/5-3) [huggingface](https://vertexaisearch.cloud.google.com/id/5-2)\n*   **Multilingual Support:** Llama 3.1 has better multilingual support than Llama 3. [gopenai](https://vertexaisearch.cloud.google.com/id/5-8)\n*   **Model Architecture:** Llama 3.1 and Llama 3 have the same dense network architecture. [medium](https://vertexaisearch.cloud.google.com/id/5-3)\n*   **Grouped-Query Attention (GQA):** Llama 3.1 continues to use Grouped-Query Attention (GQA), which helps with longer contexts. [snawarhussain](https://vertexaisearch.cloud.google.com/id/5-0) [huggingface](https://vertexaisearch.cloud.google.com/id/5-2)\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "baseten",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4YRwQQQmwvLcYoZEebWBjLKtFNjCcgRCP-mHCpv9v6QNq7dOblWOhg8j8AsA_ZlBcatl_dL_ke8uMa1dRzSjAzUPUoq6Ix_54hazaSeV9xYw65BD4-fV_sqVSW3rcNkjLHxZ_mt8nSq19yYwycY0N6E1p8tqPUu6w8jQjl88saIk="
+      },
+      {
+        "label": "trgdatacenters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpovq8oKiDkMZWwqIRIqEf5M4yyxKkKJGYoapX1FgWGlaZZAGouaK5l-zDEqqimVTj5SwiWU4MlFseDM_uT-Mwn1xrbiP30_rmViUrbaUfuNiWUtjjUr6K8ORQYtw6OpgG_iS5V4bIPN2rVR7Z5oe1bfJFhO_Ah2xT21Ldlf0="
+      },
+      {
+        "label": "jetruby",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr14qsqxxxMYuYzu6aK35OCOgzjdKpQmcGbb7GNJXirwdvAfEqlNLFAjtd5LjkxIZQ0CzTvkOATd55cIvG2hWlBqbKH3pHg9DwOU_ghwMPQwjkJeF7zAxEQjqgZrStbi5FTnw5FIMnniIaknnJFWDsZI_xVJF-QlIuwwnO"
+      },
+      {
+        "label": "jetruby",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr14qsqxxxMYuYzu6aK35OCOgzjdKpQmcGbb7GNJXirwdvAfEqlNLFAjtd5LjkxIZQ0CzTvkOATd55cIvG2hWlBqbKH3pHg9DwOU_ghwMPQwjkJeF7zAxEQjqgZrStbi5FTnw5FIMnniIaknnJFWDsZI_xVJF-QlIuwwnO"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZPAYNQ2WjK4Hp75uBCZhtYcbIkqZ0BBIf6gDYBiE5x6U7aw0l3V_qpghELImRUM2v5v5kww4vUvlLSq2H3XNn5KhtyJCdk04aRfF_6f8RHc35syI340Rk016_pccBd2IpbBiAGCrEM7uzuABLvtRz72eY0pSBVdG19lz4_3n2EzJX2g1p6lnrnN_xtiSk-m56jsTFNgyOC_bUMUl04Bl4-hgO"
+      },
+      {
+        "label": "qlogix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd63WervgOYgiSx24TtdJZItPY5kPtqDwaFfiQVhjexy-qzeBQRzRmxptL3P5dcL5OWhUhJPWuX8Qmcy4OlmEVMg5sOas32nGF3TpzxH15_9fdt3zpnmxlufWgsttxhG_eG-fJ-u2qnHkuHEL5c4SQrFcDoYj05nTTNRsvMiKtNO7YV-Ee"
+      },
+      {
+        "label": "baseten",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4YRwQQQmwvLcYoZEebWBjLKtFNjCcgRCP-mHCpv9v6QNq7dOblWOhg8j8AsA_ZlBcatl_dL_ke8uMa1dRzSjAzUPUoq6Ix_54hazaSeV9xYw65BD4-fV_sqVSW3rcNkjLHxZ_mt8nSq19yYwycY0N6E1p8tqPUu6w8jQjl88saIk="
+      },
+      {
+        "label": "qlogix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd63WervgOYgiSx24TtdJZItPY5kPtqDwaFfiQVhjexy-qzeBQRzRmxptL3P5dcL5OWhUhJPWuX8Qmcy4OlmEVMg5sOas32nGF3TpzxH15_9fdt3zpnmxlufWgsttxhG_eG-fJ-u2qnHkuHEL5c4SQrFcDoYj05nTTNRsvMiKtNO7YV-Ee"
+      },
+      {
+        "label": "originshq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX0bqF5NA8cvturYEq43xUhOJGNQzztjHVbBazSda-9l2XUZ7Ypqbw1ttO-6olnDoJiz68K7VL_x_xGFyhvzUBebDi7AuNYDa5__Oif7Og0L0hNxDtoHSufi8xmY4JtPCDv_HuVxqJSvj6_cZyRSb0FlLcD07Gyp1gWnQ_JKwMY3y4Y90Tc27m6Q=="
+      },
+      {
+        "label": "originshq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX0bqF5NA8cvturYEq43xUhOJGNQzztjHVbBazSda-9l2XUZ7Ypqbw1ttO-6olnDoJiz68K7VL_x_xGFyhvzUBebDi7AuNYDa5__Oif7Og0L0hNxDtoHSufi8xmY4JtPCDv_HuVxqJSvj6_cZyRSb0FlLcD07Gyp1gWnQ_JKwMY3y4Y90Tc27m6Q=="
+      },
+      {
+        "label": "originshq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX0bqF5NA8cvturYEq43xUhOJGNQzztjHVbBazSda-9l2XUZ7Ypqbw1ttO-6olnDoJiz68K7VL_x_xGFyhvzUBebDi7AuNYDa5__Oif7Og0L0hNxDtoHSufi8xmY4JtPCDv_HuVxqJSvj6_cZyRSb0FlLcD07Gyp1gWnQ_JKwMY3y4Y90Tc27m6Q=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Oq5uU6qjXvgVF6hxH707PO1K-m-oQm4thhy68Pc4vt9DnOHwwVsZtWky1eGs8aJ8m4_s2XNr0NbxxZLHPi33Rv8uVDZSi9ot8X6BTIB0IHPRyELduYzI_8tUGm9Tm228w7TgYfMWxRrVpAg6CgnEEa1AMB8EftxpEvCsjXGEZmusdS0UaZKoqwiZEFQ5I67AqQ0nD_ronoyyCcpiyV8N7fJIDKqFFES_pUC87CrjYpHbA3Px8Og="
+      },
+      {
+        "label": "trgdatacenters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpovq8oKiDkMZWwqIRIqEf5M4yyxKkKJGYoapX1FgWGlaZZAGouaK5l-zDEqqimVTj5SwiWU4MlFseDM_uT-Mwn1xrbiP30_rmViUrbaUfuNiWUtjjUr6K8ORQYtw6OpgG_iS5V4bIPN2rVR7Z5oe1bfJFhO_Ah2xT21Ldlf0="
+      },
+      {
+        "label": "baseten",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4YRwQQQmwvLcYoZEebWBjLKtFNjCcgRCP-mHCpv9v6QNq7dOblWOhg8j8AsA_ZlBcatl_dL_ke8uMa1dRzSjAzUPUoq6Ix_54hazaSeV9xYw65BD4-fV_sqVSW3rcNkjLHxZ_mt8nSq19yYwycY0N6E1p8tqPUu6w8jQjl88saIk="
+      },
+      {
+        "label": "trgdatacenters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpovq8oKiDkMZWwqIRIqEf5M4yyxKkKJGYoapX1FgWGlaZZAGouaK5l-zDEqqimVTj5SwiWU4MlFseDM_uT-Mwn1xrbiP30_rmViUrbaUfuNiWUtjjUr6K8ORQYtw6OpgG_iS5V4bIPN2rVR7Z5oe1bfJFhO_Ah2xT21Ldlf0="
+      },
+      {
+        "label": "neon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6rBpwyTIRc_EfCTIkZxWpyQ6--ttPhLo4PxpB0j6Be3E3KuDsHB6SQLwAtL3JmT1ZB7fJWlsYm1qc8lD2raIqJOeTTVXCbYVEFZytHFMQoIpCpivbd9FvIGdqbXpGx05H98U7HCbpy1Biu2TCF4LGqi7pYw2cptQ97BjJaUECgQktk44O6f0="
+      },
+      {
+        "label": "slashdot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElJcmcv-Wi99f3qa1mgsd0seH_l-aLuSP1ufV2ZjWKvCuJcanPjVyskLjuRP4TWUHXlH72sn421aEdAYG2YaOalXkT78b_29EtCPvV71uUsLYTuIo3mcRGSb3XkvX857ZLch8OsvdfoS-lUynSavUopgr803RhYpVRxjGzE0zOJo8="
+      },
+      {
+        "label": "zhuoyue",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIVp632WgmuNRNMY16GUAI0-7mLicKBj_-aiSxv0jsmhx3Em4lJyDNGN1Ao2Og_ZNf3s75oeTJ39pYgvlGN0zH9x6uMoPNJsqsxgInDNXXFawobmT-ZqCAuCX8tX0dTu9VxOLC-e54RghjNP9trx_8BBUzVb2RNQ1Vwq98XSV4qqaaMFNtAdgkMA=="
+      },
+      {
+        "label": "cheshirecat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3jeiu6ZMkzCFSeW07XfJCAvbkIx85xkOtQFfi3qfXYFY9a3Rs0fdcEzOtRNegD8rMXlMoZ2qNuXhof7fbaM8Yk_xFyrqZdLbBe3yzovIJe9Njc3MeqxGVIdmNrOGMVoV7tDrhnvOd1mvPglX3COHGJxx4j-UsldlSz5qm5rX7TXSpnuIxqZByIXq_c9EmrU6oG54rQlKt1TG3XHgc"
+      },
+      {
+        "label": "cheshirecat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3jeiu6ZMkzCFSeW07XfJCAvbkIx85xkOtQFfi3qfXYFY9a3Rs0fdcEzOtRNegD8rMXlMoZ2qNuXhof7fbaM8Yk_xFyrqZdLbBe3yzovIJe9Njc3MeqxGVIdmNrOGMVoV7tDrhnvOd1mvPglX3COHGJxx4j-UsldlSz5qm5rX7TXSpnuIxqZByIXq_c9EmrU6oG54rQlKt1TG3XHgc"
+      },
+      {
+        "label": "cheshirecat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3jeiu6ZMkzCFSeW07XfJCAvbkIx85xkOtQFfi3qfXYFY9a3Rs0fdcEzOtRNegD8rMXlMoZ2qNuXhof7fbaM8Yk_xFyrqZdLbBe3yzovIJe9Njc3MeqxGVIdmNrOGMVoV7tDrhnvOd1mvPglX3COHGJxx4j-UsldlSz5qm5rX7TXSpnuIxqZByIXq_c9EmrU6oG54rQlKt1TG3XHgc"
+      },
+      {
+        "label": "jetruby",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr14qsqxxxMYuYzu6aK35OCOgzjdKpQmcGbb7GNJXirwdvAfEqlNLFAjtd5LjkxIZQ0CzTvkOATd55cIvG2hWlBqbKH3pHg9DwOU_ghwMPQwjkJeF7zAxEQjqgZrStbi5FTnw5FIMnniIaknnJFWDsZI_xVJF-QlIuwwnO"
+      },
+      {
+        "label": "trgdatacenters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpovq8oKiDkMZWwqIRIqEf5M4yyxKkKJGYoapX1FgWGlaZZAGouaK5l-zDEqqimVTj5SwiWU4MlFseDM_uT-Mwn1xrbiP30_rmViUrbaUfuNiWUtjjUr6K8ORQYtw6OpgG_iS5V4bIPN2rVR7Z5oe1bfJFhO_Ah2xT21Ldlf0="
+      },
+      {
+        "label": "qlogix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd63WervgOYgiSx24TtdJZItPY5kPtqDwaFfiQVhjexy-qzeBQRzRmxptL3P5dcL5OWhUhJPWuX8Qmcy4OlmEVMg5sOas32nGF3TpzxH15_9fdt3zpnmxlufWgsttxhG_eG-fJ-u2qnHkuHEL5c4SQrFcDoYj05nTTNRsvMiKtNO7YV-Ee"
+      },
+      {
+        "label": "neon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6rBpwyTIRc_EfCTIkZxWpyQ6--ttPhLo4PxpB0j6Be3E3KuDsHB6SQLwAtL3JmT1ZB7fJWlsYm1qc8lD2raIqJOeTTVXCbYVEFZytHFMQoIpCpivbd9FvIGdqbXpGx05H98U7HCbpy1Biu2TCF4LGqi7pYw2cptQ97BjJaUECgQktk44O6f0="
+      },
+      {
+        "label": "trgdatacenters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpovq8oKiDkMZWwqIRIqEf5M4yyxKkKJGYoapX1FgWGlaZZAGouaK5l-zDEqqimVTj5SwiWU4MlFseDM_uT-Mwn1xrbiP30_rmViUrbaUfuNiWUtjjUr6K8ORQYtw6OpgG_iS5V4bIPN2rVR7Z5oe1bfJFhO_Ah2xT21Ldlf0="
+      },
+      {
+        "label": "ibm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFetj072EuA4r2e3Kx042h6okGACmRJ0OV2ExTs9tlbLx90uB50neYVewaz2h4-SUv-FLx3fEcTDOyR0fXMFjbq3P3vEOgBtNTsholWefyoOj1Wj5Uvw7tN3ZMrjo756h62SPtIxFuew0Pjmi0G-2f0el0aY8bPYVQlKvOAS88is_2P63IZvPIU0Fc7GLAS6Q=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw-dRAXThPvhMYPD26vCEnLDwecJi0kNJaOmeHsm_CwYxpDr72bKi5ZxZlS_7qPbi0hfCuy8EQrOZis1COWn0FVAwhzl-j-_OsyV-38VN2_RQGyCH_o5DupgYTdRI71FjiVoMrlRPePAg="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECleGkvR0n2pBGhFhv93iQPbG37Y7FFm0BkkiTDWzkATtVzwGatOw-Ift1SW0XpJVf9J7wqNxpJ0IBMEZAoS2tyM4KL0c3YzgPZD8yuFPRf2oOpaama-vE2xDYe4_GQDpGWMhAU5AvX60d84LQdQtbs4fgXQOhdn8TbXg-FX23IBTwbk-W1_UZnd8yNIk4HKZep8jQqPjwj6z5AA8S7gMJk2S7sw=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjeZh707YAwEiU9BEN4GAyYGTbqVPrczVWC1VUeNLGbSZCqm5Hl2wyf2pqfRW5VsWn4TG_RcakXTphPdCmPxoTdctMF3Cpnl53OcY4eIxjqa_NJvIWpcS-4APcuMcbEJYxCh_-g8oVfnWAoLe7aLszShJ9GagOplDf"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOVdfbEi5BymH6Bnk0LqtDlHs28DPLeycRsMDsTw03iAS2RvDgDH3ilWVzql2lQqNUcRvYVwlS5x-5UoeRPzBu25AmtPS2YbT5viV8LSZ83WC_icWke6037v02khyq5nBkKgw9o7Ra9gowGqR8s0T-4asenQkL"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOVdfbEi5BymH6Bnk0LqtDlHs28DPLeycRsMDsTw03iAS2RvDgDH3ilWVzql2lQqNUcRvYVwlS5x-5UoeRPzBu25AmtPS2YbT5viV8LSZ83WC_icWke6037v02khyq5nBkKgw9o7Ra9gowGqR8s0T-4asenQkL"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjeZh707YAwEiU9BEN4GAyYGTbqVPrczVWC1VUeNLGbSZCqm5Hl2wyf2pqfRW5VsWn4TG_RcakXTphPdCmPxoTdctMF3Cpnl53OcY4eIxjqa_NJvIWpcS-4APcuMcbEJYxCh_-g8oVfnWAoLe7aLszShJ9GagOplDf"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP"
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_7_kMhyhWPyJQrVeGXPF03pAM8s749-AODgPAB-lVW-9pUAIzPLwYrVOKUmGvne4oXceJnTdtl6Lle8Q75Q_1SrV-5ayFXH_6eGi2iZU1MUy4vg33wHwbzMao_OMESaxEDnRHJw=="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_CRJ3H1DDWJUFJKN5-u7M54FvaTovVqm9tYS9RznMm5xgTq8Sx2klaKrw2HjfqLoC8coYY2-zI70UoyZz-k2pHdoxGwTpwTv_gaNCLoHCr8ObC3enJgxhY6Yo1QdT"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECleGkvR0n2pBGhFhv93iQPbG37Y7FFm0BkkiTDWzkATtVzwGatOw-Ift1SW0XpJVf9J7wqNxpJ0IBMEZAoS2tyM4KL0c3YzgPZD8yuFPRf2oOpaama-vE2xDYe4_GQDpGWMhAU5AvX60d84LQdQtbs4fgXQOhdn8TbXg-FX23IBTwbk-W1_UZnd8yNIk4HKZep8jQqPjwj6z5AA8S7gMJk2S7sw=="
+      },
+      {
+        "label": "meta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8QZOm0d47ZMwjqBxTRSAtCS_kIqQKu9CHUA_5bzrr5sBSD8UTMlpTbotSuaH00ZWOcLpVDUisPHgugTq3_9vZfH_QQJ_3zeiQ2e4JY39G03_0pRskl3qjMG_Vc0HH8614"
+      },
+      {
+        "label": "meta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8QZOm0d47ZMwjqBxTRSAtCS_kIqQKu9CHUA_5bzrr5sBSD8UTMlpTbotSuaH00ZWOcLpVDUisPHgugTq3_9vZfH_QQJ_3zeiQ2e4JY39G03_0pRskl3qjMG_Vc0HH8614"
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_7_kMhyhWPyJQrVeGXPF03pAM8s749-AODgPAB-lVW-9pUAIzPLwYrVOKUmGvne4oXceJnTdtl6Lle8Q75Q_1SrV-5ayFXH_6eGi2iZU1MUy4vg33wHwbzMao_OMESaxEDnRHJw=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP"
+      },
+      {
+        "label": "philschmid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEoYanVqrAGvtE2Ox0rXL1uR6b0Jwy7n13gv8zynvTt6fXnV8UN3fqu_IycY4ezYcvFCPTkxFfn1BmZp3bqZo5NUyt3-AzBd7VI0uQFL_mm8I6aqlpXviL69vx5xFU0okewSMbh0Uo4BHPxA=="
+      },
+      {
+        "label": "llama",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIo08JXnglvHe4VtD4DxshSFOQn10H_Eg9yZwmHJzFz-KQzYkBcz5ry1TkOU6zWrGU67t0AXjjSYNq_PDCsmsryPPuCRwFsXThxrOVtCTQJ4unsQJAG10qZWT05tGU_rEhR8nkJWbaaKohW_rUmzEbjx39NsI="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw-dRAXThPvhMYPD26vCEnLDwecJi0kNJaOmeHsm_CwYxpDr72bKi5ZxZlS_7qPbi0hfCuy8EQrOZis1COWn0FVAwhzl-j-_OsyV-38VN2_RQGyCH_o5DupgYTdRI71FjiVoMrlRPePAg="
+      },
+      {
+        "label": "meta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8QZOm0d47ZMwjqBxTRSAtCS_kIqQKu9CHUA_5bzrr5sBSD8UTMlpTbotSuaH00ZWOcLpVDUisPHgugTq3_9vZfH_QQJ_3zeiQ2e4JY39G03_0pRskl3qjMG_Vc0HH8614"
+      },
+      {
+        "label": "ibm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFetj072EuA4r2e3Kx042h6okGACmRJ0OV2ExTs9tlbLx90uB50neYVewaz2h4-SUv-FLx3fEcTDOyR0fXMFjbq3P3vEOgBtNTsholWefyoOj1Wj5Uvw7tN3ZMrjo756h62SPtIxFuew0Pjmi0G-2f0el0aY8bPYVQlKvOAS88is_2P63IZvPIU0Fc7GLAS6Q=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw-dRAXThPvhMYPD26vCEnLDwecJi0kNJaOmeHsm_CwYxpDr72bKi5ZxZlS_7qPbi0hfCuy8EQrOZis1COWn0FVAwhzl-j-_OsyV-38VN2_RQGyCH_o5DupgYTdRI71FjiVoMrlRPePAg="
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_7_kMhyhWPyJQrVeGXPF03pAM8s749-AODgPAB-lVW-9pUAIzPLwYrVOKUmGvne4oXceJnTdtl6Lle8Q75Q_1SrV-5ayFXH_6eGi2iZU1MUy4vg33wHwbzMao_OMESaxEDnRHJw=="
+      },
+      {
+        "label": "towardsdatascience",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoez_bXAJt3DeZNIsCz0KX5NhGaaqIFsteolvsxBZMcFR3FR3hB1knSOqTP1eeVAdwEpBGc9V2PNCXOI_z1lCQXW97cJafuGmhA9FSqfDgBC-CzrSdzuIMozWFq3iwl1Bs-Osj8rh5ARI36M98I5FSH7gFV6a6H9Ng7wrrKlEG5k44osrbN5U="
+      },
+      {
+        "label": "encord",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWaW-AjGMolVckkM5eNcqb48GLpYEWJlKKd-NCwXQKqjd9jQYC8D8oUbNYUUrmWLYqPCM1-r6IXPsxsG0jjPdQVG27_GDjkTAOR0fOCKn68mtq0I51OFcBAO4jbZs9Tu45nd9eb3ro"
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi2P5Hfh3l1GikBZ9pV2m-eigyk2w3dvseoxHCuKuUJpWV9jQrezi6GAQD_53S2BiNEvW93hO7KNa8lyfrkSTF-EKQ5hYwn1qi9xpVW802V9Wjugl-BhUSvcHNwxuCj3-vHN0DMlzw7wQTBHYF9LE="
+      },
+      {
+        "label": "meta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwnBoaE2lMoI-WVP4OIVifWmCB7WRHFmBOKwLpCIv9slVA8XsaxzOYkV0QAax6-HPN_b94rF__Ix-6u_JRV_uTDRedcJAtkU7GVkDQMhbPWlcnYHZxMOTB0-e_6MmDA0Eh1Z4="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi2P5Hfh3l1GikBZ9pV2m-eigyk2w3dvseoxHCuKuUJpWV9jQrezi6GAQD_53S2BiNEvW93hO7KNa8lyfrkSTF-EKQ5hYwn1qi9xpVW802V9Wjugl-BhUSvcHNwxuCj3-vHN0DMlzw7wQTBHYF9LE="
+      },
+      {
+        "label": "predli",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5JOoXft74CKDj-fXc70Qj_1iQAsW4ARMQGp5Dv5xAt7Aj7qOVo5wrbX-amStL4mrpwpv1zCmfCJbZRzgaIykUUzTpOYDKZfZPMCvVNW3SGFcwI15PEj90s_78Igb0Gte97d5Iq7QTUZm9WzYDUA=="
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYGNA2JwH_lQnz8t4DXPs7a27icj6vnpAYRWWqQ69GH9VcfTbFIByUFDm8Bq2CNV-cU5ERDEcoZ4MhXCN7z8UiVxqtcKNoim6fj-FOLnjCSdlkpogxGkWw36hQTpZKOR4A"
+      },
+      {
+        "label": "nebuly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSw3XZOO-CoCbcH_PxX_7icK_gQrKaT41DoazGtLIRAG7hfSiAouJZZTFjOPSAptI92HwiMbPi5VjJc7bLaYV3awZXL1vixYwscJ-iVauop7S0HTcE6SaI4dnKkxQJrUpAeJlwM8fWdngTcFzFSmt3jCc-"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzoEeq58ETP6mW0nLgQLbunQgqLy_qTIFsdEI5mEKfNIW-Wz0OR0A32onBgpgjB_sBxP7zUX0xbjjm92JIYX8eQ-o1q2aCMRp1RQZlgg6zkALYCUutP328ViLG2Ur-"
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi2P5Hfh3l1GikBZ9pV2m-eigyk2w3dvseoxHCuKuUJpWV9jQrezi6GAQD_53S2BiNEvW93hO7KNa8lyfrkSTF-EKQ5hYwn1qi9xpVW802V9Wjugl-BhUSvcHNwxuCj3-vHN0DMlzw7wQTBHYF9LE="
+      },
+      {
+        "label": "ikidata",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENcq6uhAvELm3yq-5kRt7zRdE5PrAb4em6Ot3rl73_8dIBdD_-DyXUtI570W3tZsHIsIzOrtJSOoD7vtRkhhHnUVlOXv15LvnkUQSMOt7YSWu9Ik_P6e9igXt3KTHqEwfxGrvk9fN-nWsz6-wQ"
+      },
+      {
+        "label": "datasciencedojo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVwtlgUXKO6AaSaSlzOZqwFkO4a_AesCBkE_UFPa0zYsyFzDe9Ds8rsu1YENdvzPbFTZo-DloZNLBZK6uhUm6s-xLyG5GeNqBBhHnCeHS-Hoc9I0Mydba3Jd9sRlC8tvERJUxm1mWeRUP5SHdv8Ao="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYJHt9efxWKaGRVlIInUnHwK-1p9miTuBeRYqCFlvOkQcHZaOyBsSGRi8OlGXbS5Pjx3RqiBy5C4x8g955C8w6IXSo2g0842UIes3FUMbPRPznlEW2nY0EFq8rr_qScUOKb_yiD5qupgqTXUmftiaOBO4="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzoEeq58ETP6mW0nLgQLbunQgqLy_qTIFsdEI5mEKfNIW-Wz0OR0A32onBgpgjB_sBxP7zUX0xbjjm92JIYX8eQ-o1q2aCMRp1RQZlgg6zkALYCUutP328ViLG2Ur-"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzoEeq58ETP6mW0nLgQLbunQgqLy_qTIFsdEI5mEKfNIW-Wz0OR0A32onBgpgjB_sBxP7zUX0xbjjm92JIYX8eQ-o1q2aCMRp1RQZlgg6zkALYCUutP328ViLG2Ur-"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzoEeq58ETP6mW0nLgQLbunQgqLy_qTIFsdEI5mEKfNIW-Wz0OR0A32onBgpgjB_sBxP7zUX0xbjjm92JIYX8eQ-o1q2aCMRp1RQZlgg6zkALYCUutP328ViLG2Ur-"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDm3_Y4KP3OmjrNAuyKCoRno1kUI38lxmIykDmQzU-XttODQ-SCh07BUvD7PpTVpXap5mlSZMWUoLUpQY1XWanE3kTjM9duP5ADde4jN82HvNFSdYCPK-bqgKZaAeNpNb2E29z2ECrRD7s4Yb0_3kxZq0f_ZN1S5QHM-WDDYz5DPx_RHGIdGg64OmmmTc_mAjTnYdgilnfxVenoTop2AYdzo-5bw=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzoEeq58ETP6mW0nLgQLbunQgqLy_qTIFsdEI5mEKfNIW-Wz0OR0A32onBgpgjB_sBxP7zUX0xbjjm92JIYX8eQ-o1q2aCMRp1RQZlgg6zkALYCUutP328ViLG2Ur-"
+      },
+      {
+        "label": "meta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwnBoaE2lMoI-WVP4OIVifWmCB7WRHFmBOKwLpCIv9slVA8XsaxzOYkV0QAax6-HPN_b94rF__Ix-6u_JRV_uTDRedcJAtkU7GVkDQMhbPWlcnYHZxMOTB0-e_6MmDA0Eh1Z4="
+      },
+      {
+        "label": "datasciencedojo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG--pt_yRrKnQxivEgCWQHOKALwrS3DgLWVMcHC09KIsTrAPMtrvXSsnvGadBcQUfhZmd7Wt5P7In_8R653d5kOh40T435hIcj95gE0Vh-qr0bwdOOeZYci5Pqnhv6NUO3alnC2k3c9EgFKNA=="
+      },
+      {
+        "label": "encord",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWaW-AjGMolVckkM5eNcqb48GLpYEWJlKKd-NCwXQKqjd9jQYC8D8oUbNYUUrmWLYqPCM1-r6IXPsxsG0jjPdQVG27_GDjkTAOR0fOCKn68mtq0I51OFcBAO4jbZs9Tu45nd9eb3ro"
+      },
+      {
+        "label": "meta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwnBoaE2lMoI-WVP4OIVifWmCB7WRHFmBOKwLpCIv9slVA8XsaxzOYkV0QAax6-HPN_b94rF__Ix-6u_JRV_uTDRedcJAtkU7GVkDQMhbPWlcnYHZxMOTB0-e_6MmDA0Eh1Z4="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzoEeq58ETP6mW0nLgQLbunQgqLy_qTIFsdEI5mEKfNIW-Wz0OR0A32onBgpgjB_sBxP7zUX0xbjjm92JIYX8eQ-o1q2aCMRp1RQZlgg6zkALYCUutP328ViLG2Ur-"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDm3_Y4KP3OmjrNAuyKCoRno1kUI38lxmIykDmQzU-XttODQ-SCh07BUvD7PpTVpXap5mlSZMWUoLUpQY1XWanE3kTjM9duP5ADde4jN82HvNFSdYCPK-bqgKZaAeNpNb2E29z2ECrRD7s4Yb0_3kxZq0f_ZN1S5QHM-WDDYz5DPx_RHGIdGg64OmmmTc_mAjTnYdgilnfxVenoTop2AYdzo-5bw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDm3_Y4KP3OmjrNAuyKCoRno1kUI38lxmIykDmQzU-XttODQ-SCh07BUvD7PpTVpXap5mlSZMWUoLUpQY1XWanE3kTjM9duP5ADde4jN82HvNFSdYCPK-bqgKZaAeNpNb2E29z2ECrRD7s4Yb0_3kxZq0f_ZN1S5QHM-WDDYz5DPx_RHGIdGg64OmmmTc_mAjTnYdgilnfxVenoTop2AYdzo-5bw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDm3_Y4KP3OmjrNAuyKCoRno1kUI38lxmIykDmQzU-XttODQ-SCh07BUvD7PpTVpXap5mlSZMWUoLUpQY1XWanE3kTjM9duP5ADde4jN82HvNFSdYCPK-bqgKZaAeNpNb2E29z2ECrRD7s4Yb0_3kxZq0f_ZN1S5QHM-WDDYz5DPx_RHGIdGg64OmmmTc_mAjTnYdgilnfxVenoTop2AYdzo-5bw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDm3_Y4KP3OmjrNAuyKCoRno1kUI38lxmIykDmQzU-XttODQ-SCh07BUvD7PpTVpXap5mlSZMWUoLUpQY1XWanE3kTjM9duP5ADde4jN82HvNFSdYCPK-bqgKZaAeNpNb2E29z2ECrRD7s4Yb0_3kxZq0f_ZN1S5QHM-WDDYz5DPx_RHGIdGg64OmmmTc_mAjTnYdgilnfxVenoTop2AYdzo-5bw=="
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi2P5Hfh3l1GikBZ9pV2m-eigyk2w3dvseoxHCuKuUJpWV9jQrezi6GAQD_53S2BiNEvW93hO7KNa8lyfrkSTF-EKQ5hYwn1qi9xpVW802V9Wjugl-BhUSvcHNwxuCj3-vHN0DMlzw7wQTBHYF9LE="
+      },
+      {
+        "label": "nebuly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSw3XZOO-CoCbcH_PxX_7icK_gQrKaT41DoazGtLIRAG7hfSiAouJZZTFjOPSAptI92HwiMbPi5VjJc7bLaYV3awZXL1vixYwscJ-iVauop7S0HTcE6SaI4dnKkxQJrUpAeJlwM8fWdngTcFzFSmt3jCc-"
+      },
+      {
+        "label": "baseten",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESE7fJQ-O736y8hmvYYtdlqo1wy_qlRb-uBzBxIlVf1t6ual5ZTs8pwDHXyIaSfOPn0BbTYRDP0QQEBjhJMC9YM3EJI6G0XhkyABFHmHLfvUkUbEv9BGX0_M32KOBd_KJta-38VG_yeNwCErx3f2Yy1keh65KJYi-RYOLjWQ=="
+      },
+      {
+        "label": "baseten",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESE7fJQ-O736y8hmvYYtdlqo1wy_qlRb-uBzBxIlVf1t6ual5ZTs8pwDHXyIaSfOPn0BbTYRDP0QQEBjhJMC9YM3EJI6G0XhkyABFHmHLfvUkUbEv9BGX0_M32KOBd_KJta-38VG_yeNwCErx3f2Yy1keh65KJYi-RYOLjWQ=="
+      },
+      {
+        "label": "baseten",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESE7fJQ-O736y8hmvYYtdlqo1wy_qlRb-uBzBxIlVf1t6ual5ZTs8pwDHXyIaSfOPn0BbTYRDP0QQEBjhJMC9YM3EJI6G0XhkyABFHmHLfvUkUbEv9BGX0_M32KOBd_KJta-38VG_yeNwCErx3f2Yy1keh65KJYi-RYOLjWQ=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzoEeq58ETP6mW0nLgQLbunQgqLy_qTIFsdEI5mEKfNIW-Wz0OR0A32onBgpgjB_sBxP7zUX0xbjjm92JIYX8eQ-o1q2aCMRp1RQZlgg6zkALYCUutP328ViLG2Ur-"
+      },
+      {
+        "label": "klu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYGNA2JwH_lQnz8t4DXPs7a27icj6vnpAYRWWqQ69GH9VcfTbFIByUFDm8Bq2CNV-cU5ERDEcoZ4MhXCN7z8UiVxqtcKNoim6fj-FOLnjCSdlkpogxGkWw36hQTpZKOR4A"
+      },
+      {
+        "label": "nvidia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrborKF-y3mUZui98CymCMMbNzPtojPmS2Zk2WiePv_ERgzYBoLJzHAPPbpCTjcUcoc2tl3iom0dtBTKLCegRrZonVcVKihCPIujzrjJszRvwIkX0m-rw4rncXVN7G1daByM6ihoESXX2v9e46vKS-h58SfsyBY2tx4PobgbUXvbSZ4C0="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDm3_Y4KP3OmjrNAuyKCoRno1kUI38lxmIykDmQzU-XttODQ-SCh07BUvD7PpTVpXap5mlSZMWUoLUpQY1XWanE3kTjM9duP5ADde4jN82HvNFSdYCPK-bqgKZaAeNpNb2E29z2ECrRD7s4Yb0_3kxZq0f_ZN1S5QHM-WDDYz5DPx_RHGIdGg64OmmmTc_mAjTnYdgilnfxVenoTop2AYdzo-5bw=="
+      },
+      {
+        "label": "mlcommons",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTlcXd_xAd-_QZR6r_QofZjMQTGwalGY2n_8kFXEkgZIyGADeSqOWX6NiposhCEdIMMIwh_faxjOKvH6XHksAcLFkJMA4qjInaUqqUGIq3aREeVufm6HUCqeiEvdS4fO5Ouu4GhBLN2RQt1yGQdA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHTyeyt1444DMGDHhrw-MOn2b0j4JXU1qOkPvieawgAdyS0NcPmF4Ms5nC4j1GL2-pFT38Uh6XV47LcHgjsPeMVaPY9UHaAW5_n4jqxiMkIaKleN55Xn86zedf2poRLMdiGgMSaf2di_41kaUTJJr1jdeG1jQl5gHhqxJ9E5SeSdaIjk3BGfQZO4qJNWyV1vELbO-5BLlyIF24veTcYZpS5dNKqw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy_cTYy1GbnOQE3_CwPhmULSDkAq8qBjUAiTr2bNY6phm9Vz-Hqg0VHfpXez4YYmbvEDyDpl0LZb2FSgRvsrafh1gRPasOm5V7t660rEoaMMXKyp96UI7Xc7wmGBQTklyQ-3PKoBky4kBHMn9Repqd2IhXh197HmllU9w4ZuksxvsuJuT4cs3yYmuGA2wKKa7RWPsimCrtnQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDm3_Y4KP3OmjrNAuyKCoRno1kUI38lxmIykDmQzU-XttODQ-SCh07BUvD7PpTVpXap5mlSZMWUoLUpQY1XWanE3kTjM9duP5ADde4jN82HvNFSdYCPK-bqgKZaAeNpNb2E29z2ECrRD7s4Yb0_3kxZq0f_ZN1S5QHM-WDDYz5DPx_RHGIdGg64OmmmTc_mAjTnYdgilnfxVenoTop2AYdzo-5bw=="
+      },
+      {
+        "label": "mlcommons",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTlcXd_xAd-_QZR6r_QofZjMQTGwalGY2n_8kFXEkgZIyGADeSqOWX6NiposhCEdIMMIwh_faxjOKvH6XHksAcLFkJMA4qjInaUqqUGIq3aREeVufm6HUCqeiEvdS4fO5Ouu4GhBLN2RQt1yGQdA=="
+      },
+      {
+        "label": "addepto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOCqmziuYohlc5sqye484vIYFIh8YJMvPHxAVWnLXGHtE6oJIADuioKJZb6y9SK4lbIz4orwipRFiHlbLJYsbJdNoRzxGyjAAPQkVKYX-kLLSPr2WIZ4yi6_ZctA5uScWhEamaK3LVMRJ0wcw3hjX_iYzQk2JBtbKXiWhuqxD70Px8IME80ZGRNUulXLAMwRA="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqIK40CBY14QFoIeHf8FCsGkuEIzMh1EblQtFRPw5ewLJlK5zgWhNp9G4bz4XUS3XN8YKF-0TyfAHgGrROQg_HL-MCPs6sS_MgF50V6GvVnd_yyw8CruRY7jKj-mzv"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBWFmJsAqSyq26Jco3iUiBQtB5-LqSz4RvjaXI-hW5TDo2PcOsXM16-VeHnPyJ85V9cH0m-hnL9BeuXLrC7avXXYx-Sxd1VCpAuCmp5hvrQePEmZlX9uOOVFl-puZW"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1AsMNZxee3liW4VnaOKtzqKgb_FVgYQzmG8x8LR3Lk16GAmdMnLRdL5bnIWGud93wfO_2tPXgUqFuSVqboSz0s4CkptqtngdeqgVnX0LdTsC89JMbIcduEnuiJurmzn4CZHIHw8HhGZNvtdsTU22pjdmjB23zNVpCkNWQG9YNBgzK30aDHLhhKRpmkvVvDtvKtv98k8E-KzkP8eRNX3JLo6Gqw=="
+      },
+      {
+        "label": "addepto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOCqmziuYohlc5sqye484vIYFIh8YJMvPHxAVWnLXGHtE6oJIADuioKJZb6y9SK4lbIz4orwipRFiHlbLJYsbJdNoRzxGyjAAPQkVKYX-kLLSPr2WIZ4yi6_ZctA5uScWhEamaK3LVMRJ0wcw3hjX_iYzQk2JBtbKXiWhuqxD70Px8IME80ZGRNUulXLAMwRA="
+      },
+      {
+        "label": "addepto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOCqmziuYohlc5sqye484vIYFIh8YJMvPHxAVWnLXGHtE6oJIADuioKJZb6y9SK4lbIz4orwipRFiHlbLJYsbJdNoRzxGyjAAPQkVKYX-kLLSPr2WIZ4yi6_ZctA5uScWhEamaK3LVMRJ0wcw3hjX_iYzQk2JBtbKXiWhuqxD70Px8IME80ZGRNUulXLAMwRA="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1AsMNZxee3liW4VnaOKtzqKgb_FVgYQzmG8x8LR3Lk16GAmdMnLRdL5bnIWGud93wfO_2tPXgUqFuSVqboSz0s4CkptqtngdeqgVnX0LdTsC89JMbIcduEnuiJurmzn4CZHIHw8HhGZNvtdsTU22pjdmjB23zNVpCkNWQG9YNBgzK30aDHLhhKRpmkvVvDtvKtv98k8E-KzkP8eRNX3JLo6Gqw=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBWFmJsAqSyq26Jco3iUiBQtB5-LqSz4RvjaXI-hW5TDo2PcOsXM16-VeHnPyJ85V9cH0m-hnL9BeuXLrC7avXXYx-Sxd1VCpAuCmp5hvrQePEmZlX9uOOVFl-puZW"
+      },
+      {
+        "label": "encord",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoAvvKKaWyybw4d9PpyflXuSU0-RViWY2DPvxTn73hUHuGess73lS2pPxbwMKIaPdnHFlBVOzwPEseyu0amTkdnarpDHMYpIpdHZMxSEJbblSLzv_1_Gxohg6XR50cqgm8oEdel7Mt6iuhsW4phMOPDVJuSQ=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1AsMNZxee3liW4VnaOKtzqKgb_FVgYQzmG8x8LR3Lk16GAmdMnLRdL5bnIWGud93wfO_2tPXgUqFuSVqboSz0s4CkptqtngdeqgVnX0LdTsC89JMbIcduEnuiJurmzn4CZHIHw8HhGZNvtdsTU22pjdmjB23zNVpCkNWQG9YNBgzK30aDHLhhKRpmkvVvDtvKtv98k8E-KzkP8eRNX3JLo6Gqw=="
+      },
+      {
+        "label": "baseten",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyc5YHAwGSRpEKo3GYG0Rcy9QCn12L-lEIQH5BX99WI886KzdFqbjFsOrEE80VTl2jQT6R9I9-Mzhs2JZPFXIzkJXBEO0843eBgUzjd6FYrFG_GL-F0Jl58wJiFWfpf23O_6ThlyL8orMtHZNItZuuXQVt_pm7ab5B-2j7xA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1AsMNZxee3liW4VnaOKtzqKgb_FVgYQzmG8x8LR3Lk16GAmdMnLRdL5bnIWGud93wfO_2tPXgUqFuSVqboSz0s4CkptqtngdeqgVnX0LdTsC89JMbIcduEnuiJurmzn4CZHIHw8HhGZNvtdsTU22pjdmjB23zNVpCkNWQG9YNBgzK30aDHLhhKRpmkvVvDtvKtv98k8E-KzkP8eRNX3JLo6Gqw=="
+      },
+      {
+        "label": "edenai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY7hSc41_yTyapmlGsvkf-BYfI0ArmfwR-jIU_Pdb9oSXEzn_6NPvyIvzshme5IJWK0c1ivRrIiA9VkH_69P4igp7d7HJL-sDXAmdR9qlrRld1gX-b9fveUrc6ptAObnxoCEskR48b9obZpNQ1oClh5j5vdewKaFoyddduZGNftKPNWaHsHNbwiQk="
+      },
+      {
+        "label": "nvidia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFtoV1KB-Eb5O8S8zaRGIh9MIvQeiQLepTOxwFqeP2y0SRZRRqaO1VAL8stAVQcAzFlD_1_MjTZ7b6wgr2PW6XUBmT1PXR3GXok4ZBZkVVIdpa7ME0OxCYNqXlcjNPBlc9xzqJfvytz-A8QoKs6oEyVlIrDm2ZU4JlYQJc-afRZy-SW66H_tJzyLCimv4C5KaVY6yC3HTa4iH2yQClkK4j68PO5FtE"
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkJ3BS_uRx9F0eIJNjycWPG3TlOahhmUKB5nSDURu8eSO8PejnccwznVDrXsHVTiXOipJjAn-74eoG_RT1E5yFPZEWoM2XWIzClP8hREnfA5bIAp02M6zJeGDNUqu6ZVfHXNP6q2stZntSvEabzQ=="
+      },
+      {
+        "label": "encord",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYTpBI67f9jIWK_jcjeitoqZCeZHwkLXQ8vGsxa3YwBEsdTbY3y1S-7dU78t86UJqAuWG9os4MoiU_whMMasFPRMc_jAaC8AwU86Y3UiaRUNbR0nC89eIWHsS1RH9dGX3H0j4TXzM="
+      },
+      {
+        "label": "snawarhussain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbwHcxNVyt5FDecW8p_MXtIRD4lQpobTXjJoeHNrLOAAvfdRDPT2z47ooubT3fAo7ZVRX-12rJm3iSWvaq1F7HQ0hXpiod_0LatDlcpGkbyAHqWRt9P5BQaZzClXBTggBEg9OJQ-kzZrm02ekeyH-nQ4xMPUhOKjQq8A=="
+      },
+      {
+        "label": "dataloop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF5dc8k-MlUyl3xmStQHtewPmiyMnoN_yd42yrJXsMvBIJqrv-z07E0A9keRMCgeWv5XRbPHQM_oaO9OY-1QRJ69raY9FR_Xag-viz6ZmP9E5tSHUEPSg3nub0_rtC5A_X4KobDZiH6zhbZrpoeRq0yczb_-hpbPzKqrkCYmD8ymaCyr8s"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQDgKdqB5ebdoODWv7m12eWtnMhh5DrVSOETghlPO34hFgm9BltPsP7GrKBRSJzcnd0TtOA_CMyEBiJlvX1SotqVrY0GyWoXOT7oxGPxjudY5zYABIivqrtQHF8MQ="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB5AGis12v9_R0tGW11I46yxxFz54iHDpE7xfUZUuaw8RsuNZW4OLUyULD2S4aPgGhg2nlAjKCWLeMAOuWlBKn9jitSKwHa4MCLOH27NIScDFxkc2FzUIhrSkvd-dhU6N2tg3ipDkJ52Yaytb05OoxSxJTiT9HDrrHgQ=="
+      },
+      {
+        "label": "towardsai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQJ9VUg9LtgKvzFGNGfPwAXUXWJDNpLYYnHJ_RpbmM-bRWtvSeGc0C-21YEk-5nf3jmhXbh6uUgmkav8OE9gM5yK9cD3J8_08lwQnpjDkZ-_7OUTO67QEknsl2LLLb7NzH65E7WSjYTsySA8pyWY4qIWDWw38_W8Z6N2SGO8O432vRGHBpT6qV-GIzj5U="
+      },
+      {
+        "label": "addepto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9MdfLxC_0UhKN5aZL-mW9yI67GKGs-6NpRRnjsG7TBxwak0tNSjErehLvlRRsD_oPv0ZrdMP1ABMXwo2Bq5MuSatBC3J0d6cxamUsTCBM6ERLtFNx6JJc4VHUiVTo-yeled2a6_nRDpmu4aw6J-RG_KrXvZM6diLwVIAb7RG64ihGv5YjOgPF-0pkOpQ7XQ=="
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu_xZooUYSuR6T3FjBJ9FCGHPvXh_fGbyxJx_Gizui2IVORf38ZvI6AC4nLVZxnzmu4sAVF0FXA-7BjUzxOM79XWmQ1jOve3WyR8rxnSvr48Yr23x-al9nHotlb9sJvcXdKE0qFz5b6uXnjW3QxW6_9KRj"
+      },
+      {
+        "label": "towardsai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQJ9VUg9LtgKvzFGNGfPwAXUXWJDNpLYYnHJ_RpbmM-bRWtvSeGc0C-21YEk-5nf3jmhXbh6uUgmkav8OE9gM5yK9cD3J8_08lwQnpjDkZ-_7OUTO67QEknsl2LLLb7NzH65E7WSjYTsySA8pyWY4qIWDWw38_W8Z6N2SGO8O432vRGHBpT6qV-GIzj5U="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n"
+      },
+      {
+        "label": "gopenai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvCgzJaQUtq6G2bpCtSbgjVjTLbya7T80zj4PVMWk3CSbKQa4cED9Vf2ifzfpJPb3D5EMNyPncRslAhn1CU-P3O5OB57iiDYrrQUvk5fZ3rT6YXZm1DzU5BUNdp6NLj2-eAVF1ZuuI5ghSCOQ4P9D7SYnK_JM67l_EUA-YY9ffA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlVBRkmUajLr9UfNa22mP98vklMGRRBfLPNfpJpFK4kBkwGZ-SSaOBOqMHZCkXWF-tqAHEhQ8WY2C3FHFBeRsyQYQCTVIqBpR1OELFkaasAoGQAXgqrEIBnEAEoZTVr9OWrrW2-P48m19QQhh_DpqueVExuej6D25_m2QY8_Hb4dcndWOwRT_wA19o6HJpz67G4KAw3sk"
+      },
+      {
+        "label": "dataloop",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF5dc8k-MlUyl3xmStQHtewPmiyMnoN_yd42yrJXsMvBIJqrv-z07E0A9keRMCgeWv5XRbPHQM_oaO9OY-1QRJ69raY9FR_Xag-viz6ZmP9E5tSHUEPSg3nub0_rtC5A_X4KobDZiH6zhbZrpoeRq0yczb_-hpbPzKqrkCYmD8ymaCyr8s"
+      },
+      {
+        "label": "gopenai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvCgzJaQUtq6G2bpCtSbgjVjTLbya7T80zj4PVMWk3CSbKQa4cED9Vf2ifzfpJPb3D5EMNyPncRslAhn1CU-P3O5OB57iiDYrrQUvk5fZ3rT6YXZm1DzU5BUNdp6NLj2-eAVF1ZuuI5ghSCOQ4P9D7SYnK_JM67l_EUA-YY9ffA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlVBRkmUajLr9UfNa22mP98vklMGRRBfLPNfpJpFK4kBkwGZ-SSaOBOqMHZCkXWF-tqAHEhQ8WY2C3FHFBeRsyQYQCTVIqBpR1OELFkaasAoGQAXgqrEIBnEAEoZTVr9OWrrW2-P48m19QQhh_DpqueVExuej6D25_m2QY8_Hb4dcndWOwRT_wA19o6HJpz67G4KAw3sk"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlVBRkmUajLr9UfNa22mP98vklMGRRBfLPNfpJpFK4kBkwGZ-SSaOBOqMHZCkXWF-tqAHEhQ8WY2C3FHFBeRsyQYQCTVIqBpR1OELFkaasAoGQAXgqrEIBnEAEoZTVr9OWrrW2-P48m19QQhh_DpqueVExuej6D25_m2QY8_Hb4dcndWOwRT_wA19o6HJpz67G4KAw3sk"
+      },
+      {
+        "label": "gopenai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvCgzJaQUtq6G2bpCtSbgjVjTLbya7T80zj4PVMWk3CSbKQa4cED9Vf2ifzfpJPb3D5EMNyPncRslAhn1CU-P3O5OB57iiDYrrQUvk5fZ3rT6YXZm1DzU5BUNdp6NLj2-eAVF1ZuuI5ghSCOQ4P9D7SYnK_JM67l_EUA-YY9ffA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQDgKdqB5ebdoODWv7m12eWtnMhh5DrVSOETghlPO34hFgm9BltPsP7GrKBRSJzcnd0TtOA_CMyEBiJlvX1SotqVrY0GyWoXOT7oxGPxjudY5zYABIivqrtQHF8MQ="
+      },
+      {
+        "label": "gopenai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvCgzJaQUtq6G2bpCtSbgjVjTLbya7T80zj4PVMWk3CSbKQa4cED9Vf2ifzfpJPb3D5EMNyPncRslAhn1CU-P3O5OB57iiDYrrQUvk5fZ3rT6YXZm1DzU5BUNdp6NLj2-eAVF1ZuuI5ghSCOQ4P9D7SYnK_JM67l_EUA-YY9ffA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n"
+      },
+      {
+        "label": "snawarhussain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbwHcxNVyt5FDecW8p_MXtIRD4lQpobTXjJoeHNrLOAAvfdRDPT2z47ooubT3fAo7ZVRX-12rJm3iSWvaq1F7HQ0hXpiod_0LatDlcpGkbyAHqWRt9P5BQaZzClXBTggBEg9OJQ-kzZrm02ekeyH-nQ4xMPUhOKjQq8A=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQDgKdqB5ebdoODWv7m12eWtnMhh5DrVSOETghlPO34hFgm9BltPsP7GrKBRSJzcnd0TtOA_CMyEBiJlvX1SotqVrY0GyWoXOT7oxGPxjudY5zYABIivqrtQHF8MQ="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Oq5uU6qjXvgVF6hxH707PO1K-m-oQm4thhy68Pc4vt9DnOHwwVsZtWky1eGs8aJ8m4_s2XNr0NbxxZLHPi33Rv8uVDZSi9ot8X6BTIB0IHPRyELduYzI_8tUGm9Tm228w7TgYfMWxRrVpAg6CgnEEa1AMB8EftxpEvCsjXGEZmusdS0UaZKoqwiZEFQ5I67AqQ0nD_ronoyyCcpiyV8N7fJIDKqFFES_pUC87CrjYpHbA3Px8Og="
+      },
+      {
+        "label": "ibm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFetj072EuA4r2e3Kx042h6okGACmRJ0OV2ExTs9tlbLx90uB50neYVewaz2h4-SUv-FLx3fEcTDOyR0fXMFjbq3P3vEOgBtNTsholWefyoOj1Wj5Uvw7tN3ZMrjo756h62SPtIxFuew0Pjmi0G-2f0el0aY8bPYVQlKvOAS88is_2P63IZvPIU0Fc7GLAS6Q=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdIyz-AkJ8ZdpHf1YsGS0ZnY4rJKOC70xmn25yoWnQWgeTjK_bE1-xRnZiPOzBD_u6xXPW5oW9rSKDhc43GAUiEemCHomIoVspRZ_kQ3Zs-64FwJ6BW8XQYGnhX9AP"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw-dRAXThPvhMYPD26vCEnLDwecJi0kNJaOmeHsm_CwYxpDr72bKi5ZxZlS_7qPbi0hfCuy8EQrOZis1COWn0FVAwhzl-j-_OsyV-38VN2_RQGyCH_o5DupgYTdRI71FjiVoMrlRPePAg="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECleGkvR0n2pBGhFhv93iQPbG37Y7FFm0BkkiTDWzkATtVzwGatOw-Ift1SW0XpJVf9J7wqNxpJ0IBMEZAoS2tyM4KL0c3YzgPZD8yuFPRf2oOpaama-vE2xDYe4_GQDpGWMhAU5AvX60d84LQdQtbs4fgXQOhdn8TbXg-FX23IBTwbk-W1_UZnd8yNIk4HKZep8jQqPjwj6z5AA8S7gMJk2S7sw=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjeZh707YAwEiU9BEN4GAyYGTbqVPrczVWC1VUeNLGbSZCqm5Hl2wyf2pqfRW5VsWn4TG_RcakXTphPdCmPxoTdctMF3Cpnl53OcY4eIxjqa_NJvIWpcS-4APcuMcbEJYxCh_-g8oVfnWAoLe7aLszShJ9GagOplDf"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOVdfbEi5BymH6Bnk0LqtDlHs28DPLeycRsMDsTw03iAS2RvDgDH3ilWVzql2lQqNUcRvYVwlS5x-5UoeRPzBu25AmtPS2YbT5viV8LSZ83WC_icWke6037v02khyq5nBkKgw9o7Ra9gowGqR8s0T-4asenQkL"
+      },
+      {
+        "label": "datacamp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi2P5Hfh3l1GikBZ9pV2m-eigyk2w3dvseoxHCuKuUJpWV9jQrezi6GAQD_53S2BiNEvW93hO7KNa8lyfrkSTF-EKQ5hYwn1qi9xpVW802V9Wjugl-BhUSvcHNwxuCj3-vHN0DMlzw7wQTBHYF9LE="
+      },
+      {
+        "label": "addepto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOCqmziuYohlc5sqye484vIYFIh8YJMvPHxAVWnLXGHtE6oJIADuioKJZb6y9SK4lbIz4orwipRFiHlbLJYsbJdNoRzxGyjAAPQkVKYX-kLLSPr2WIZ4yi6_ZctA5uScWhEamaK3LVMRJ0wcw3hjX_iYzQk2JBtbKXiWhuqxD70Px8IME80ZGRNUulXLAMwRA="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqIK40CBY14QFoIeHf8FCsGkuEIzMh1EblQtFRPw5ewLJlK5zgWhNp9G4bz4XUS3XN8YKF-0TyfAHgGrROQg_HL-MCPs6sS_MgF50V6GvVnd_yyw8CruRY7jKj-mzv"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBWFmJsAqSyq26Jco3iUiBQtB5-LqSz4RvjaXI-hW5TDo2PcOsXM16-VeHnPyJ85V9cH0m-hnL9BeuXLrC7avXXYx-Sxd1VCpAuCmp5hvrQePEmZlX9uOOVFl-puZW"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf1AsMNZxee3liW4VnaOKtzqKgb_FVgYQzmG8x8LR3Lk16GAmdMnLRdL5bnIWGud93wfO_2tPXgUqFuSVqboSz0s4CkptqtngdeqgVnX0LdTsC89JMbIcduEnuiJurmzn4CZHIHw8HhGZNvtdsTU22pjdmjB23zNVpCkNWQG9YNBgzK30aDHLhhKRpmkvVvDtvKtv98k8E-KzkP8eRNX3JLo6Gqw=="
+      },
+      {
+        "label": "nvidia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFtoV1KB-Eb5O8S8zaRGIh9MIvQeiQLepTOxwFqeP2y0SRZRRqaO1VAL8stAVQcAzFlD_1_MjTZ7b6wgr2PW6XUBmT1PXR3GXok4ZBZkVVIdpa7ME0OxCYNqXlcjNPBlc9xzqJfvytz-A8QoKs6oEyVlIrDm2ZU4JlYQJc-afRZy-SW66H_tJzyLCimv4C5KaVY6yC3HTa4iH2yQClkK4j68PO5FtE"
+      },
+      {
+        "label": "snawarhussain",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbwHcxNVyt5FDecW8p_MXtIRD4lQpobTXjJoeHNrLOAAvfdRDPT2z47ooubT3fAo7ZVRX-12rJm3iSWvaq1F7HQ0hXpiod_0LatDlcpGkbyAHqWRt9P5BQaZzClXBTggBEg9OJQ-kzZrm02ekeyH-nQ4xMPUhOKjQq8A=="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQDgKdqB5ebdoODWv7m12eWtnMhh5DrVSOETghlPO34hFgm9BltPsP7GrKBRSJzcnd0TtOA_CMyEBiJlvX1SotqVrY0GyWoXOT7oxGPxjudY5zYABIivqrtQHF8MQ="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWpBn2N3iNyv7zoEHosDZ0LiLYoXVTB4X13Jzipktuskx7LFo5nAhjfHHjcAW_vFdEwosf1ZEM7by0Ri-pmrug9aYKHZxP0Ubs172WJBm6uCmtMgLnrmC9No47MO1JfCSUxoeVY-YNJp_lJqkKzAOm4UjYm5M7FGnZz6RATcMWd5dGTtHGLMPgq2F6LTIEYBBkMpt-7d7xoyXMpZZ5G7pHS1n"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEB5AGis12v9_R0tGW11I46yxxFz54iHDpE7xfUZUuaw8RsuNZW4OLUyULD2S4aPgGhg2nlAjKCWLeMAOuWlBKn9jitSKwHa4MCLOH27NIScDFxkc2FzUIhrSkvd-dhU6N2tg3ipDkJ52Yaytb05OoxSxJTiT9HDrrHgQ=="
+      },
+      {
+        "label": "towardsai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQJ9VUg9LtgKvzFGNGfPwAXUXWJDNpLYYnHJ_RpbmM-bRWtvSeGc0C-21YEk-5nf3jmhXbh6uUgmkav8OE9gM5yK9cD3J8_08lwQnpjDkZ-_7OUTO67QEknsl2LLLb7NzH65E7WSjYTsySA8pyWY4qIWDWw38_W8Z6N2SGO8O432vRGHBpT6qV-GIzj5U="
+      },
+      {
+        "label": "addepto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9MdfLxC_0UhKN5aZL-mW9yI67GKGs-6NpRRnjsG7TBxwak0tNSjErehLvlRRsD_oPv0ZrdMP1ABMXwo2Bq5MuSatBC3J0d6cxamUsTCBM6ERLtFNx6JJc4VHUiVTo-yeled2a6_nRDpmu4aw6J-RG_KrXvZM6diLwVIAb7RG64ihGv5YjOgPF-0pkOpQ7XQ=="
+      },
+      {
+        "label": "substack",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu_xZooUYSuR6T3FjBJ9FCGHPvXh_fGbyxJx_Gizui2IVORf38ZvI6AC4nLVZxnzmu4sAVF0FXA-7BjUzxOM79XWmQ1jOve3WyR8rxnSvr48Yr23x-al9nHotlb9sJvcXdKE0qFz5b6uXnjW3QxW6_9KRj"
+      },
+      {
+        "label": "gopenai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuvCgzJaQUtq6G2bpCtSbgjVjTLbya7T80zj4PVMWk3CSbKQa4cED9Vf2ifzfpJPb3D5EMNyPncRslAhn1CU-P3O5OB57iiDYrrQUvk5fZ3rT6YXZm1DzU5BUNdp6NLj2-eAVF1ZuuI5ghSCOQ4P9D7SYnK_JM67l_EUA-YY9ffA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlVBRkmUajLr9UfNa22mP98vklMGRRBfLPNfpJpFK4kBkwGZ-SSaOBOqMHZCkXWF-tqAHEhQ8WY2C3FHFBeRsyQYQCTVIqBpR1OELFkaasAoGQAXgqrEIBnEAEoZTVr9OWrrW2-P48m19QQhh_DpqueVExuej6D25_m2QY8_Hb4dcndWOwRT_wA19o6HJpz67G4KAw3sk"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

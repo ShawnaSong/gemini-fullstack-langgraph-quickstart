@@ -1,0 +1,910 @@
+{
+  "file_name": "state_result_105.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.614089",
+  "data": {
+    "messages": [
+      {
+        "content": "RE: Current state of nvidia rocm wrapper. What is supported? What isn't supported? 7800xt (I know it can mimic or use some of the 7900xt drivers). split type error.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "c0f3043d-bc28-487b-afee-774b67759973",
+        "example": false
+      },
+      {
+        "content": "As of July 16, 2025, here's a breakdown of the current state of NVIDIA ROCm wrappers, ROCm support for the AMD Radeon RX 7800 XT, and potential troubleshooting steps for a \"split type error,\" though the existence of this specific error is not explicitly documented in the search results.\n\n**NVIDIA ROCm Wrapper Status:**\n\nThe focus of NVIDIA ROCm wrappers is to enable CUDA applications to run on non-NVIDIA GPUs, particularly AMD and Intel [phoronix](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1). Key projects include:\n\n*   **ZLUDA:** This open-source project translates CUDA code for execution on AMD and Intel GPUs [medium](https://vertexaisearch.cloud.google.com/id/0-1). Recent updates include LLM workload support, PhysX compatibility, improved debugging, and ROCm ABI fixes [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **HIP (Heterogeneous-computing Interface for Portability):** AMD's HIP is a C++ GPU API designed to mirror CUDA's functionality and enable cross-platform development [arxiv](https://vertexaisearch.cloud.google.com/id/0-2). AMD is aligning HIP C++ even more closely with CUDA to simplify cross-platform programming [phoronix](https://vertexaisearch.cloud.google.com/id/0-3) [amd](https://vertexaisearch.cloud.google.com/id/0-4), with HIP 7.0 aiming to further this alignment [phoronix](https://vertexaisearch.cloud.google.com/id/0-3) [amd](https://vertexaisearch.cloud.google.com/id/0-4). HIPIFY is AMD's tool for converting CUDA code to HIP C++ [phoronix](https://vertexaisearch.cloud.google.com/id/0-3) [amd](https://vertexaisearch.cloud.google.com/id/0-4).\n\n**ROCm Updates:**\n\n*   **ROCm 7:** Unveiled at Advancing AI 2025, ROCm 7 focuses on performance, compatibility, and flexibility [amd](https://vertexaisearch.cloud.google.com/id/0-5) [migovi](https://vertexaisearch.cloud.google.com/id/0-6). It includes enhancements in inference and training, support for the latest AI models, expanded platform support, improved GPU utilization, and enhanced distributed inference [amd](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Windows Support:** AMD is officially launching ROCm on Windows, with a PyTorch preview expected in Q3 2025 and ONNX-EP potentially arriving in July 2025 [videocardz](https://vertexaisearch.cloud.google.com/id/0-7).\n\n**Challenges:**\n\n*   Manual intervention may be needed when using HIPIFY due to differences between HIP C++ and CUDA C++ [amd](https://vertexaisearch.cloud.google.com/id/0-4) [phoronix](https://vertexaisearch.cloud.google.com/id/0-3).\n*   ZLUDA is still under development and may be slower than CUDA [medium](https://vertexaisearch.cloud.google.com/id/0-1) [reddit](https://vertexaisearch.cloud.google.com/id/0-8).\n*   ROCm's ecosystem is still developing, with some libraries and tools less optimized compared to CUDA [medium](https://vertexaisearch.cloud.google.com/id/0-9).\n\n**ROCm Support for AMD Radeon RX 7800 XT:**\n\n*   **General Status:** The RX 7800 XT (gfx1101) is listed as a supported card in ROCm documentation [amd](https://vertexaisearch.cloud.google.com/id/1-0) [github](https://vertexaisearch.cloud.google.com/id/1-1), but some users have reported issues [github](https://vertexaisearch.cloud.google.com/id/1-1). Verify compatibility with the ROCm documentation [amd](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **ROCm 7:** Aims to support hardware ranging from Ryzen AI laptops to Radeon AI Pro desktops and Instinct GPUs [techpowerup](https://vertexaisearch.cloud.google.com/id/1-3) [migovi](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Windows and Linux:** ROCm is officially launching on Windows [videocardz](https://vertexaisearch.cloud.google.com/id/1-2). It's natively integrated into OpenSUSE on Linux [turtlesai](https://vertexaisearch.cloud.google.com/id/1-5), with Ubuntu and Red Hat EPEL support expected in the second half of 2025 [turtlesai](https://vertexaisearch.cloud.google.com/id/1-5) [gamegpu](https://vertexaisearch.cloud.google.com/id/1-6) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-7) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-8) [videocardz](https://vertexaisearch.cloud.google.com/id/1-2]. Full Windows support, including PyTorch and ONNX-EP, is planned [techpowerup](https://vertexaisearch.cloud.google.com/id/1-7) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-8) [turtlesai](https://vertexaisearch.cloud.google.com/id/1-5) [videocardz](https://vertexaisearch.cloud.google.com/id/1-2) [gamegpu](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **ROCm 7 Features:** ROCm 7 delivers enhancements in inference and training, supports the latest open-source algorithms and models, and introduces a robust approach to distributed inference [amd](https://vertexaisearch.cloud.google.com/id/1-9) [amd](https://vertexaisearch.cloud.google.com/id/1-10) [insideainews](https://vertexaisearch.cloud.google.com/id/1-11) [migovi](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**Troubleshooting and Potential \"Split Type Error\"**\n\nWhile a specific \"split type error\" isn't mentioned, here's general troubleshooting information:\n\n*   **Kernel Compatibility:** Issues have been reported with ROCm and specific Linux kernels [github](https://vertexaisearch.cloud.google.com/id/2-0). Kernels 6.14.x and 6.15 have been identified as potentially problematic [github](https://vertexaisearch.cloud.google.com/id/2-0].\n*   **GCC Compatibility:** GCC 15 can cause compilation issues when building ROCm/PyTorch from source [github](https://vertexaisearch.cloud.google.com/id/2-0].\n*   **Driver Issues:** Problems can arise from kernel issues, compatibility breaks, or configuration issues [github](https://vertexaisearch.cloud.google.com/id/2-0].\n*   **HSA\\_OVERRIDE\\_GFX\\_VERSION:** This environment variable is often required, especially when using newer GPUs that might not be officially supported by the ROCm version [truenas](https://vertexaisearch.cloud.google.com/id/2-1) [reddit](https://vertexaisearch.cloud.google.com/id/2-2) [frame](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Environment Variables:**\n    *   `HSA_OVERRIDE_GFX_VERSION`:  Try setting this to `11.0.0` for RDNA3 GPUs [proxmox](https://vertexaisearch.cloud.google.com/id/3-0).\n    *   `LD_LIBRARY_PATH`:  When using ROCm on WSL, set this to include the ROCm libraries [reddit](https://vertexaisearch.cloud.google.com/id/3-6).\n    *   `HSA_ENABLE_WSL=1`: Needed when running ROCm on Windows Subsystem for Linux (WSL) [reddit](https://vertexaisearch.cloud.google.com/id/3-6).\n*   **Compiler Flags:** Ensure you are using a compiler version compatible with your ROCm version [github](https://vertexaisearch.cloud.google.com/id/3-9].\n*   **MSCCL Initialization Failure:** A known issue exists where splitting a communicator using `ncclCommSplit` can cause a segmentation fault in some GPU configurations. The workaround is to disable MSCCL with `export RCCL_MSCCL_ENABLE=0` [amd](https://vertexaisearch.cloud.google.com/id/5-4).\n\n**Recommendations:**\n\n*   Check the latest ROCm documentation for compatibility information [llm-tracker](https://vertexaisearch.cloud.google.com/id/3-3).\n*   Use the official Docker container on a Linux host [reddit](https://vertexaisearch.cloud.google.com/id/3-1).\n*   Ensure you are using the `amdgpu` driver [github](https://vertexaisearch.cloud.google.com/id/3-9).\n*   If you encounter issues, debugging with `HSA_ENABLE_DEBUG=1` might provide more details [reddit](https://vertexaisearch.cloud.google.com/id/3-6).\n*   Consider using the ROCm SDK builder to create a custom ROCm build for your GPU [llm-tracker](https://vertexaisearch.cloud.google.com/id/3-3) [github](https://vertexaisearch.cloud.google.com/id/3-2].\n\nGiven the potential for kernel and driver-related issues, ensure you're using a compatible kernel and the latest drivers. If you encounter a \"split type error,\" providing a minimal, self-contained, and reproducible example of the code that triggers the error will be helpful for troubleshooting [yihui](https://vertexaisearch.cloud.google.com/id/5-11).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "98a69064-aeda-4c7b-8cc4-ca43a6eeb4eb",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Nvidia ROCm wrapper current support status July 2025",
+      "ROCm support for AMD Radeon 7800 XT July 2025",
+      "ROCm 'split type error' troubleshooting July 2025",
+      "Are there specific compiler flags or environment variables recommended for ROCm when targeting the AMD Radeon RX 7800 XT to avoid type splitting errors or related issues in July 2025?",
+      "What specific ROCm compiler versions or patches address known 'split type errors' or similar type incompatibility issues when compiling code for the Radeon RX 7800 XT or similar GPUs in July 2025?",
+      "Can you provide a minimal reproducible example of code that triggers a 'split type error' when compiling with ROCm for the AMD Radeon RX 7800 XT, and the corresponding workaround or fix for July 2025?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Nvidia ROCm wrapper current support status July 2025\" and synthesize it into a verifiable text artifact.\nThe current support status of Nvidia ROCm wrappers in July 2025 is primarily focused on enabling CUDA-based applications to run on non-Nvidia GPUs, especially AMD and Intel [phoronix](https://vertexaisearch.cloud.google.com/id/0-0) [medium](https://vertexaisearch.cloud.google.com/id/0-1). Several projects and initiatives are contributing to this goal.\n\n**Key Projects and Technologies:**\n\n*   **ZLUDA:** This open-source project acts as a translation layer, allowing CUDA applications to run on AMD and Intel GPUs without code modifications [medium](https://vertexaisearch.cloud.google.com/id/0-1). The 2025 updates to ZLUDA include:\n    *   LLM Workload Support: Introduction of LLM.c, a lightweight runtime for executing large language models using CUDA instructions on AMD or Intel hardware [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   PhysX Compatibility: Support for NVIDIA's PhysX physics engine, enabling older CUDA-based games and simulations to run on non-NVIDIA platforms [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   Improved Debugging & Logging: A revamped logging system provides transparency into CUDA function calls, which makes debugging easier and enhances compatibility with performance libraries like cuBLAS [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   ROCm ABI Fixes: Adapts to changes in AMD's ROCm runtime ABI, preventing broken function mappings and ensuring smoother integration [medium](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **HIP (Heterogeneous-computing Interface for Portability):** AMD's HIP is a C++ GPU API built into the ROCm stack, designed to mirror CUDA's functionality while supporting cross-platform development [arxiv](https://vertexaisearch.cloud.google.com/id/0-2). HIP allows a unified codebase for both Nvidia and AMD GPUs [arxiv](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   AMD is aligning HIP C++ even more closely with CUDA to simplify cross-platform programming [phoronix](https://vertexaisearch.cloud.google.com/id/0-3) [amd](https://vertexaisearch.cloud.google.com/id/0-4). The upcoming HIP 7.0 release in the second half of 2025 aims to further this alignment [phoronix](https://vertexaisearch.cloud.google.com/id/0-3) [amd](https://vertexaisearch.cloud.google.com/id/0-4).\n    *   HIPIFY is AMD's automatic conversion tool that helps port CUDA code to HIP C++ for targeting AMD GPUs [phoronix](https://vertexaisearch.cloud.google.com/id/0-3) [amd](https://vertexaisearch.cloud.google.com/id/0-4).\n\n**ROCm Updates and Enhancements:**\n\n*   **ROCm 7:** AMD unveiled ROCm 7 at Advancing AI 2025, focusing on performance, compatibility, and flexibility [amd](https://vertexaisearch.cloud.google.com/id/0-5) [migovi](https://vertexaisearch.cloud.google.com/id/0-6). Key features include:\n    *   Major enhancements in inference and training [amd](https://vertexaisearch.cloud.google.com/id/0-5).\n    *   Support for the latest AI models, including LLaMA 4, Gemma 3, and DeepSeek [amd](https://vertexaisearch.cloud.google.com/id/0-5).\n    *   Expanded platform support, including AMD Ryzen™ AI and select AMD Radeon™ Graphics systems.\n   [amd](https://vertexaisearch.cloud.google.com/id/0-5)  *   Improved GPU utilization, support for lower precision data types, and optimized data movement.\n   [amd](https://vertexaisearch.cloud.google.com/id/0-5)  *   Enhanced distributed inference leveraging open-source ecosystems like SGLang, vLLM, and llm-d.\n*  [amd](https://vertexaisearch.cloud.google.com/id/0-5)  **Windows Support:** AMD is officially launching ROCm on Windows, including day-one support for new hardware releases, including consumer-grade products. A  [videocardz](https://vertexaisearch.cloud.google.com/id/0-7)PyTorch preview is expected in Q3 2025, with ONNX-EP arriving as early as July 2025.\n*  [videocardz](https://vertexaisearch.cloud.google.com/id/0-7)  **HIPIFY Tool:** AMD integrates its automatic HIPIFY conversion tool with its HIP runtime and compiler, which allows users to port CUDA code into HIP C++ to target AMD GPUs quickly.\n\n* [phoronix](https://vertexaisearch.cloud.google.com/id/0-3) [amd](https://vertexaisearch.cloud.google.com/id/0-4)*Challenges and Considerations:**\n\n*   While tools like HIPIFY exist, small differences between HIP C++ and CUDA C++ implementations may require manual intervention.\n*  [amd](https://vertexaisearch.cloud.google.com/id/0-4) [phoronix](https://vertexaisearch.cloud.google.com/id/0-3)  ZLUDA is still under development and not yet a complete replacement for CUDA. It [medium](https://vertexaisearch.cloud.google.com/id/0-1) may also be slower than CUDA, due to the overhead of the wrapper.\n*  [reddit](https://vertexaisearch.cloud.google.com/id/0-8)  ROCm's ecosystem is still developing, with some libraries and tools less optimized compared to CUDA.\n\n* [medium](https://vertexaisearch.cloud.google.com/id/0-9)*Overall Status:**\n\nIn July 2025, the Nvidia ROCm wrapper ecosystem is actively evolving, with projects like ZLUDA and AMD's HIP aiming to bridge the gap between CUDA and non-Nvidia GPUs. RO [medium](https://vertexaisearch.cloud.google.com/id/0-1) [arxiv](https://vertexaisearch.cloud.google.com/id/0-2)Cm 7 brings significant improvements and expanded support, but challenges remain in achieving complete compatibility and performance parity with CUDA.\n [amd](https://vertexaisearch.cloud.google.com/id/0-5) [migovi](https://vertexaisearch.cloud.google.com/id/0-6)",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"ROCm support for AMD Radeon 7800 XT July 2025\" and synthesize it into a verifiable text artifact.\nAs of July 2025, here's a summary of ROCm support for AMD Radeon 7800 XT:\n\n**General Status:**\n\n*   While the AMD Radeon RX 7800 XT (gfx1101) is listed as a supported card in the ROCm documentation [amd](https://vertexaisearch.cloud.google.com/id/1-0) [github](https://vertexaisearch.cloud.google.com/id/1-1), some users have reported that it was not supported as of June 2025 and expressed frustration [github](https://vertexaisearch.cloud.google.com/id/1-1).\n*   It's important to verify compatibility and system requirements using the ROCm documentation, especially if using Radeon or Radeon Pro GPUs for graphics workloads [amd](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**ROCm 7 and Expanded Support:**\n\n*   AMD is expanding ROCm support to a wider range of hardware, including consumer-grade products [videocardz](https://vertexaisearch.cloud.google.com/id/1-2).\n*   ROCm 7 is intended to support hardware ranging from Ryzen AI-equipped laptops to Radeon AI Pro desktop cards and server-grade Instinct GPUs [techpowerup](https://vertexaisearch.cloud.google.com/id/1-3).\n*   With the release of ROCm 7, AMD aims to enable developers to build and run AI applications on PCs with Radeon GPUs [migovi](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**Windows and Linux Support:**\n\n*   AMD is officially launching ROCm on Windows [videocardz](https://vertexaisearch.cloud.google.com/id/1-2).\n*   ROCm is already natively integrated into OpenSUSE on Linux [turtlesai](https://vertexaisearch.cloud.google.com/id/1-5). Support for Ubuntu and Red Hat EPEL is expected in the second half of 2025 [turtlesai](https://vertexaisearch.cloud.google.com/id/1-5) [gamegpu](https://vertexaisearch.cloud.google.com/id/1-6) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-7) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-8) [videocardz](https://vertexaisearch.cloud.google.com/id/1-2).\n*   Full Windows support, including PyTorch and ONNX-EP, is planned. A preview for ONNX-EP was expected in July 2025, with a PyTorch preview in Q3 2025 [techpowerup](https://vertexaisearch.cloud.google.com/id/1-7) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-8) [turtlesai](https://vertexaisearch.cloud.google.com/id/1-5) [videocardz](https://vertexaisearch.cloud.google.com/id/1-2) [gamegpu](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**ROCm 7 Features and Improvements:**\n\n*   ROCm 7 is engineered for performance, compatibility, and flexibility, delivering enhancements in inference and training [amd](https://vertexaisearch.cloud.google.com/id/1-9) [amd](https://vertexaisearch.cloud.google.com/id/1-10).\n*   It supports the latest open-source algorithms and models, such as LLaMA 4, Gemma 3, and DeepSeek [amd](https://vertexaisearch.cloud.google.com/id/1-9).\n*   ROCm 7 introduces a robust approach to distributed inference, leveraging the open-source ecosystem [amd](https://vertexaisearch.cloud.google.com/id/1-9) [insideainews](https://vertexaisearch.cloud.google.com/id/1-11).\n*   ROCm 7 is designed to increase accessibility, improve productivity, and foster community collaboration [migovi](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**Performance and Availability:**\n\n*   ROCm 7 is expected to deliver more than 3.5X the inference capability and 3X the training power compared to ROCm 6 [insideainews](https://vertexaisearch.cloud.google.com/id/1-11).\n*   ROCm 7 was available in preview starting in June 2025 through the ONNX-EP framework, with a broader rollout expected to begin in August 2025 [xda-developers](https://vertexaisearch.cloud.google.com/id/1-12).\n\nIt's worth noting that the information regarding ROCm support for the Radeon RX 7800 XT may be subject to change, and it's recommended to consult the official AMD ROCm documentation for the most up-to-date details [amd](https://vertexaisearch.cloud.google.com/id/1-0).\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"ROCm 'split type error' troubleshooting July 2025\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of information related to ROCm and potential issues, focusing on the \"split type error\" and related troubleshooting in July 2025:\n\n**General ROCm Troubleshooting & Potential Issues:**\n\n*   **Kernel Compatibility:** Issues have been reported with ROCm and specific Linux kernels [github](https://vertexaisearch.cloud.google.com/id/2-0). Kernels 6.14.x and 6.15 have been identified as potentially problematic, disrupting ROCm functionality [github](https://vertexaisearch.cloud.google.com/id/2-0). Some users have reported that ROCm stopped working after upgrading to kernel 6.14.0-202 [github](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Container Instability:** Users running AMD GPUs in containers (e.g., for Frigate CCTV or Stable Diffusion) have encountered `amdgpu` crashes with newer kernels [github](https://vertexaisearch.cloud.google.com/id/2-0). This may be related to the kernel's `amdgpu`/AMDKFD drivers [github](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **GCC Compatibility:** GCC 15 can cause compilation issues when building ROCm/PyTorch from source [github](https://vertexaisearch.cloud.google.com/id/2-0). Using distribution packages or containers can help avoid these toolchain issues [github](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Driver Issues:** Problems can arise from kernel issues, compatibility breaks, or configuration issues [github](https://vertexaisearch.cloud.google.com/id/2-0). Affected systems may show segmentation faults when initializing HIP/ROCm programs or during heavy GPU workloads [github](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **HSA\\_OVERRIDE\\_GFX\\_VERSION:** This environment variable is often required, especially when using newer GPUs that might not be officially supported by the ROCm version [truenas](https://vertexaisearch.cloud.google.com/id/2-1) [reddit](https://vertexaisearch.cloud.google.com/id/2-2) [frame](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **ROCm Installation:** Problems installing ROCm with AMD GPUs on Ubuntu can occur [reddit](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **ROCm on Windows:** Full ROCm support is coming to Windows, including Pytorch and ONNX-EP. A preview of Pytorch support is expected in Q3 2025, with ONNX-EP preview potentially arriving in July 2025 [techpowerup](https://vertexaisearch.cloud.google.com/id/2-5).\n\n**Specific Mentions & Potential Solutions:**\n\n*   **Kernel Fixes:** Kernel 6.14.0 introduced a fix, but a regression appeared in 6.14.1 and persisted through 6.15 [github](https://vertexaisearch.cloud.google.com/id/2-0). Kernel stable updates have addressed some issues by 6.15.x, but full functionality might require ROCm 6.4.1+ [github](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **PASID Handling:** There were issues in initial 6.14 code related to GPU VM initialization and reset handling, specifically with Process Address Space IDs (PASID) [github](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Workarounds:** If encountering segfaults on Polaris GPUs, ensure the queue fix patch is present. If not, consider using kernel 6.12.19 or 6.13.x [github](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Container Flags:** Ensure you're using the recommended flags when launching containers [github](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Open Web UI:** To make an AMD GPU visible to Open Web UI, it might be necessary to specify the ROCm package and `HSA_OVERRIDE_GFX_VERSION` [truenas](https://vertexaisearch.cloud.google.com/id/2-1).\n\n**ROCm Updates in 2025:**\n\n*   **Ryzen AI Max and Radeon RX 9000 Series Support:** ROCm has been updated to support Ryzen AI Max \"Strix Halo\" processors and Radeon RX 9000 series GPUs [techpowerup](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Linux Distribution Support:** ROCm has been updated to support various Linux distributions, including OpenSuSE (available now), Ubuntu, and Red Hat EPEL (support in the second half of 2025) [techpowerup](https://vertexaisearch.cloud.google.com/id/2-5).\n\n**It's important to note:** The search results do not contain any direct mentions of a \"split type error\" specifically in July 2025. However, the general troubleshooting information and kernel-related issues might be relevant if you encounter such an error.\n",
+      "As of July 2025, here's a summary of information regarding ROCm support for the AMD Radeon RX 7800 XT, and potential compiler flags or environment variables to address type splitting or related issues:\n\n**1. Official Support & Compatibility:**\n\n*   While the RX 7800 XT is based on the RDNA3 architecture, official ROCm support has been somewhat inconsistent [proxmox](https://vertexaisearch.cloud.google.com/id/3-0) [reddit](https://vertexaisearch.cloud.google.com/id/3-1) [github](https://vertexaisearch.cloud.google.com/id/3-2).\n*   As of ROCm 5.7, the Radeon RX 7900 XTX, XT, and PRO W7900 (all RDNA3) are officially supported, potentially eliminating the need for older workarounds [llm-tracker](https://vertexaisearch.cloud.google.com/id/3-3).\n*   ROCm 6.4.1 supports the Radeon RX 7800 XT (gfx1101) only on specific operating systems: Ubuntu 24.04.2, Ubuntu 22.04.5, RHEL 9.6, RHEL 9.5, and RHEL 9.4 [amd](https://vertexaisearch.cloud.google.com/id/3-4).\n\n**2. Environment Variables:**\n\n*   `HSA_OVERRIDE_GFX_VERSION`: This is a commonly suggested environment variable to try and enable ROCm on unsupported cards [proxmox](https://vertexaisearch.cloud.google.com/id/3-0) [llm-tracker](https://vertexaisearch.cloud.google.com/id/3-3). For RDNA3-based GPUs, setting it to `11.0.0` is often recommended [proxmox](https://vertexaisearch.cloud.google.com/id/3-0). Some users have tried `11.0.1` or `11.0.2` [frame](https://vertexaisearch.cloud.google.com/id/3-5).\n*   `LD_LIBRARY_PATH`:  When using ROCm on WSL, it's important to set this variable to include the ROCm libraries [reddit](https://vertexaisearch.cloud.google.com/id/3-6). For example: `LD_LIBRARY_PATH=/opt/rocm-6.3.4/lib:$LD_LIBRARY_PATH` [reddit](https://vertexaisearch.cloud.google.com/id/3-6).\n*   `HSA_ENABLE_WSL=1`: This environment variable is needed when running ROCm on Windows Subsystem for Linux (WSL) [reddit](https://vertexaisearch.cloud.google.com/id/3-6).\n\n**3. Potential Issues & Workarounds:**\n\n*   `HSA_STATUS_ERROR_OUT_OF_RESOURCES`: This error can occur, and might be related to the RX 7800 XT not being officially supported in some ROCm versions [proxmox](https://vertexaisearch.cloud.google.com/id/3-0) [reddit](https://vertexaisearch.cloud.google.com/id/3-6). It can also indicate the runtime failed to allocate necessary resources [reddit](https://vertexaisearch.cloud.google.com/id/3-6).\n*   Segmentation Faults: Some users have reported segmentation faults when trying to run ROCm on the RX 7800 XT [github](https://vertexaisearch.cloud.google.com/id/3-2).\n*   WSL Support:  ROCm on Windows Subsystem for Linux (WSL) is available for the RX 7000 series [reddit](https://vertexaisearch.cloud.google.com/id/3-6).\n*   ROCm support on Windows: AMD is committing to bringing ROCm support to Windows, including popular AI frameworks such as PyTorch and ONNX Runtime Execution Provider (ONNX-EP) [videocardz](https://vertexaisearch.cloud.google.com/id/3-7) [techpowerup](https://vertexaisearch.cloud.google.com/id/3-8). A PyTorch preview is expected in Q3 2025, with ONNX-EP arriving as early as July 2025 [videocardz](https://vertexaisearch.cloud.google.com/id/3-7).\n\n**4. Compiler Flags:**\n\n*   The search results do not specifically mention compiler flags to avoid type splitting errors. However, ensure that you are using a compiler version compatible with your ROCm version [github](https://vertexaisearch.cloud.google.com/id/3-9). GCC 15 is relatively new, and ROCm 6.4/PyTorch 2.4 were not developed against it, which may lead to build failures [github](https://vertexaisearch.cloud.google.com/id/3-9).\n\n**5. General Recommendations:**\n\n*   Check the latest ROCm documentation for the most up-to-date compatibility information [llm-tracker](https://vertexaisearch.cloud.google.com/id/3-3).\n*   Use the official Docker container on a Linux host for the least amount of issues [reddit](https://vertexaisearch.cloud.google.com/id/3-1).\n*   Ensure you are using the `amdgpu` driver [github](https://vertexaisearch.cloud.google.com/id/3-9).\n*   If you encounter issues, debugging with `HSA_ENABLE_DEBUG=1` might provide more details [reddit](https://vertexaisearch.cloud.google.com/id/3-6).\n*   Consider using the ROCm SDK builder to create a custom ROCm build for your GPU [llm-tracker](https://vertexaisearch.cloud.google.com/id/3-3) [github](https://vertexaisearch.cloud.google.com/id/3-2).\n\n**6. Caveats:**\n\n*   Some sources indicate that ROCm is primarily tested and supported on Linux [reddit](https://vertexaisearch.cloud.google.com/id/3-1).\n*   As of May 2025, ROCm was only fully supported on the AMD Radeon 7900 series for consumer GPUs [frame](https://vertexaisearch.cloud.google.com/id/3-5).\n",
+      "As of July 2025, here's what the search results indicate regarding ROCm compiler versions, patches, and related issues for the Radeon RX 7800 XT and similar GPUs:\n\n**ROCm 7.0 Preview and HIP Compatibility**\n\n*   A ROCm 7.0 preview build, based on ROCm 6.4.1, is available and incorporates the latest HIP Runtime changes [phoronix](https://vertexaisearch.cloud.google.com/id/4-0). This preview is intended for developers to test and ensure compatibility, particularly for those using HIP to transition CUDA codebases to AMD GPUs [phoronix](https://vertexaisearch.cloud.google.com/id/4-0).\n*   ROCm 7.0 aims to align the HIP API more closely with NVIDIA's CUDA [phoronix](https://vertexaisearch.cloud.google.com/id/4-0).\n\n**ROCm 6.4.1 Support**\n\n*   ROCm 6.4.1 introduces support for the RDNA3 architecture-based Radeon PRO W7700 and Radeon RX 7800 XT GPUs [amd](https://vertexaisearch.cloud.google.com/id/4-1). These GPUs are supported on Ubuntu 24.04.2, Ubuntu 22.04.5, RHEL 9.6, RHEL 9.5, and RHEL 9.4 [amd](https://vertexaisearch.cloud.google.com/id/4-1).\n\n**OS and Kernel Compatibility**\n\n*   The Radeon AI PRO R9700, Radeon RX 9070 XT, Radeon RX 9060 XT, Radeon PRO W7700, and Radeon RX 7800 XT are supported only on Ubuntu 24.04.2, Ubuntu 22.04.5, RHEL 9.6, RHEL 9.5, and RHEL 9.4 [amd](https://vertexaisearch.cloud.google.com/id/4-2).\n\n**Potential Issues and Workarounds**\n\n*   Some users have reported issues with ROCm after version 6.14.0-202 on Linux, potentially due to kernel disruptions [github](https://vertexaisearch.cloud.google.com/id/4-3). Kernels 6.12.x and later may include fixes for these issues [github](https://vertexaisearch.cloud.google.com/id/4-3).\n*   It has been suggested that using the `HSA_OVERRIDE_GFX_VERSION` environment variable might help in some situations [github](https://vertexaisearch.cloud.google.com/id/4-4) [reddit](https://vertexaisearch.cloud.google.com/id/4-5) [llm-tracker](https://vertexaisearch.cloud.google.com/id/4-6).\n*   A user reported that installing `rocm-opencl-devel` and `rocm-hip` was necessary for Folding@Home to recognize and utilize their RX 6900 XT [fedoraproject](https://vertexaisearch.cloud.google.com/id/4-7).\n\n**RDNA4 and ROCm Support**\n\n*   ROCm 6.4 lacks official RDNA4 support but improves compatibility between ROCm's user-space libraries and the AMDKFD kernel driver [techpowerup](https://vertexaisearch.cloud.google.com/id/4-8).\n*   ROCm 6.4.1 introduces support for the RDNA4 architecture-based Radeon AI PRO R9700, Radeon RX 9070, Radeon RX 9070 XT, Radeon RX 9070 GRE, and Radeon RX 9060 XT GPUs for compute workloads [amd](https://vertexaisearch.cloud.google.com/id/4-1).\n\n**Other Relevant Points**\n\n*   AMD is planning to integrate ROCm 7 directly into Linux and Windows before the end of 2025 [techpowerup](https://vertexaisearch.cloud.google.com/id/4-8).\n*   There are reports of users finding it difficult to use PyTorch on Windows with the RX 7800 XT due to a lack of WSL support [reddit](https://vertexaisearch.cloud.google.com/id/4-9).\n",
+      "It appears that a \"split type error\" specifically related to the AMD Radeon RX 7800 XT and ROCm in July 2025 is not explicitly documented in the search results. However, the search results provide related information regarding ROCm support for the RX 7800 XT, potential issues, and general troubleshooting that may be helpful.\n\n**General ROCm and RX 7800 XT Compatibility**\n\n*   **Official Support:** While the RX 7800 XT is an RDNA3 GPU, official ROCm support has been inconsistent [github](https://vertexaisearch.cloud.google.com/id/5-0) [reddit](https://vertexaisearch.cloud.google.com/id/5-1) [reddit](https://vertexaisearch.cloud.google.com/id/5-2). Some users have reported success using it with ROCm on Linux, while others have encountered issues, particularly with WSL [github](https://vertexaisearch.cloud.google.com/id/5-0) [github](https://vertexaisearch.cloud.google.com/id/5-3) [reddit](https://vertexaisearch.cloud.google.com/id/5-1).\n*   **ROCm Version:** ROCm 6.4.1 supports the RX 7800 XT on Ubuntu 24.04.2, Ubuntu 22.04.5, RHEL 9.6, RHEL 9.5, and RHEL 9.4 [amd](https://vertexaisearch.cloud.google.com/id/5-4).\n*   **HSA\\_OVERRIDE\\_GFX\\_VERSION:** Some users have found it necessary to set the environment variable `HSA_OVERRIDE_GFX_VERSION=11.0.0` to get ROCm to recognize the RX 7800 XT [github](https://vertexaisearch.cloud.google.com/id/5-0) [reddit](https://vertexaisearch.cloud.google.com/id/5-1) [github](https://vertexaisearch.cloud.google.com/id/5-5) [frame](https://vertexaisearch.cloud.google.com/id/5-6).\n\n**Potential Issues and Workarounds**\n\n*   **WSL Issues:** Users have reported issues running ROCm on WSL2 with the RX 7800 XT [reddit](https://vertexaisearch.cloud.google.com/id/5-7) [github](https://vertexaisearch.cloud.google.com/id/5-0) [github](https://vertexaisearch.cloud.google.com/id/5-3). These issues can manifest as `HSA_STATUS_ERROR_OUT_OF_RESOURCES` errors [reddit](https://vertexaisearch.cloud.google.com/id/5-7) [github](https://vertexaisearch.cloud.google.com/id/5-0).\n*   **Kernel Compatibility:** Kernel regressions in versions 6.14.1 and 6.15 caused ROCm user-space calls to fail or crash. It's recommended to use a known working kernel version (e.g., 6.12.x or 6.14.0) or await a ROCm update that fixes compatibility with later kernels [github](https://vertexaisearch.cloud.google.com/id/5-8).\n*   **MSCCL Initialization Failure:** A known issue exists where splitting a communicator using `ncclCommSplit` can cause a segmentation fault in some GPU configurations. The workaround is to disable MSCCL with `export RCCL_MSCCL_ENABLE=0` [amd](https://vertexaisearch.cloud.google.com/id/5-4).\n*   **Driver Issues:** If `rocminfo` or `rocm-smi` commands fail with a \"Driver not initialized\" error, it could indicate that the AMDGPU driver is not loaded [amd](https://vertexaisearch.cloud.google.com/id/5-9). When installing the AMDGPU driver with Secure Boot enabled, you must sign `amdgpu-dkms` [amd](https://vertexaisearch.cloud.google.com/id/5-9).\n*   **ROCm Installation Problems:** Common installation issues include incorrect installation methods, missing prerequisites, and PATH variable configuration [amd](https://vertexaisearch.cloud.google.com/id/5-9).\n\n**General Troubleshooting Steps**\n\n1.  **Verify ROCm Installation:** Ensure that ROCm is correctly installed by running `rocminfo` [amd](https://vertexaisearch.cloud.google.com/id/5-9) [frame](https://vertexaisearch.cloud.google.com/id/5-6). This tool provides information about the ROCm installation and detected GPUs.\n2.  **Check User Groups:** Make sure the user is in the \"render\" and \"video\" groups [fedoraproject](https://vertexaisearch.cloud.google.com/id/5-10) [frame](https://vertexaisearch.cloud.google.com/id/5-6).\n3.  **Update PATH Variable:** Ensure that the ROCm directory is added to the PATH environment variable [amd](https://vertexaisearch.cloud.google.com/id/5-9).\n4.  **Install C++ Libraries:** Install any missing C++ libraries [amd](https://vertexaisearch.cloud.google.com/id/5-9).\n5.  **Secure Boot:** If you have secure boot enabled, you may need to sign the AMDGPU drivers [amd](https://vertexaisearch.cloud.google.com/id/5-9).\n6.  **Minimal Reproducible Example:** When reporting issues, provide a minimal, self-contained, and reproducible example of the code that triggers the error [yihui](https://vertexaisearch.cloud.google.com/id/5-11). This helps developers quickly identify the problem.\n\n**Note:** Some of the search results are from early 2025, so it's possible that newer drivers or ROCm versions have resolved some of the issues mentioned [amd](https://vertexaisearch.cloud.google.com/id/5-9) [frame](https://vertexaisearch.cloud.google.com/id/5-12) [yihui](https://vertexaisearch.cloud.google.com/id/5-11) [fedoraproject](https://vertexaisearch.cloud.google.com/id/5-10) [amd](https://vertexaisearch.cloud.google.com/id/5-4) [github](https://vertexaisearch.cloud.google.com/id/5-0) [github](https://vertexaisearch.cloud.google.com/id/5-8) [techpowerup](https://vertexaisearch.cloud.google.com/id/5-13) [reddit](https://vertexaisearch.cloud.google.com/id/5-7) [frame](https://vertexaisearch.cloud.google.com/id/5-6) [amd](https://vertexaisearch.cloud.google.com/id/5-14) [reddit](https://vertexaisearch.cloud.google.com/id/5-15). Always refer to the latest AMD documentation and release notes for the most up-to-date information.\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "phoronix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYOsZuSOusEFaawiN78n779i9Bp8ecFTuKf7ORDfN42wpvOQ-FsHVjy9Pc8lgncGoahiQuhYrLzY-hJpzleN674_yw_3HZp3pL_lV0ywMzD4oP8iO2f6XW7M9U_jMhcFCT1sbtHDda-guFQdU="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_U0-RYuX1tO9iNLPwKNOTm5YeZtPv2SOpnFho22LHneZ_xwBZTNK9ZKl7vtwaDjznK7VDLTnzIdbQkjRbduQx6lnhVXmN_P3MBo2ZoaDxDuhMkPh91SdCf8Wi4WrFdyWRZIcTF8N-3rW-TxVwhXUwHXhqMnJ8l9HndPAfISSlIpSw6NJfjJ4IDpqkegmOqt_grokzEw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_U0-RYuX1tO9iNLPwKNOTm5YeZtPv2SOpnFho22LHneZ_xwBZTNK9ZKl7vtwaDjznK7VDLTnzIdbQkjRbduQx6lnhVXmN_P3MBo2ZoaDxDuhMkPh91SdCf8Wi4WrFdyWRZIcTF8N-3rW-TxVwhXUwHXhqMnJ8l9HndPAfISSlIpSw6NJfjJ4IDpqkegmOqt_grokzEw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_U0-RYuX1tO9iNLPwKNOTm5YeZtPv2SOpnFho22LHneZ_xwBZTNK9ZKl7vtwaDjznK7VDLTnzIdbQkjRbduQx6lnhVXmN_P3MBo2ZoaDxDuhMkPh91SdCf8Wi4WrFdyWRZIcTF8N-3rW-TxVwhXUwHXhqMnJ8l9HndPAfISSlIpSw6NJfjJ4IDpqkegmOqt_grokzEw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_U0-RYuX1tO9iNLPwKNOTm5YeZtPv2SOpnFho22LHneZ_xwBZTNK9ZKl7vtwaDjznK7VDLTnzIdbQkjRbduQx6lnhVXmN_P3MBo2ZoaDxDuhMkPh91SdCf8Wi4WrFdyWRZIcTF8N-3rW-TxVwhXUwHXhqMnJ8l9HndPAfISSlIpSw6NJfjJ4IDpqkegmOqt_grokzEw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_U0-RYuX1tO9iNLPwKNOTm5YeZtPv2SOpnFho22LHneZ_xwBZTNK9ZKl7vtwaDjznK7VDLTnzIdbQkjRbduQx6lnhVXmN_P3MBo2ZoaDxDuhMkPh91SdCf8Wi4WrFdyWRZIcTF8N-3rW-TxVwhXUwHXhqMnJ8l9HndPAfISSlIpSw6NJfjJ4IDpqkegmOqt_grokzEw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_U0-RYuX1tO9iNLPwKNOTm5YeZtPv2SOpnFho22LHneZ_xwBZTNK9ZKl7vtwaDjznK7VDLTnzIdbQkjRbduQx6lnhVXmN_P3MBo2ZoaDxDuhMkPh91SdCf8Wi4WrFdyWRZIcTF8N-3rW-TxVwhXUwHXhqMnJ8l9HndPAfISSlIpSw6NJfjJ4IDpqkegmOqt_grokzEw=="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQDb2cXckyp2izfJYqhRIrfOEoI43l2hiiWIzzoD3S0baQEHcTsqEHFrHroR35KeOQv7mvy_SphSMxGwxqy8mNXfeh3nC0yfC1R8y3RWA-uwGSBj_G3cv95A92-iA="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQDb2cXckyp2izfJYqhRIrfOEoI43l2hiiWIzzoD3S0baQEHcTsqEHFrHroR35KeOQv7mvy_SphSMxGwxqy8mNXfeh3nC0yfC1R8y3RWA-uwGSBj_G3cv95A92-iA="
+      },
+      {
+        "label": "phoronix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTAMhCeVOKgEmdR7bky_m6rzDN1c-1kT1h7qd1rSaGMRUQ1o6MpvFM3Ys9SqKg24I-JPmARFgunInlJ_DXDolQhEby_gi_drjIOad8qFxPpqapzbTRDeY8iTMo9YP08QYFSdHr0U7GJPMbN0I1Mw=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzd-ovLyppIBGmY2P4igtnhj9xuZvOjcoD1tkXrNhDp4rC2S0T0psxVCUQSXFnas-SBDKwp7_NwDCRGVStfmwV_OUuCiD9bpmplAZqxM-wc_7attbOC0r5dz2K3h0S8twyxvU="
+      },
+      {
+        "label": "phoronix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTAMhCeVOKgEmdR7bky_m6rzDN1c-1kT1h7qd1rSaGMRUQ1o6MpvFM3Ys9SqKg24I-JPmARFgunInlJ_DXDolQhEby_gi_drjIOad8qFxPpqapzbTRDeY8iTMo9YP08QYFSdHr0U7GJPMbN0I1Mw=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzd-ovLyppIBGmY2P4igtnhj9xuZvOjcoD1tkXrNhDp4rC2S0T0psxVCUQSXFnas-SBDKwp7_NwDCRGVStfmwV_OUuCiD9bpmplAZqxM-wc_7attbOC0r5dz2K3h0S8twyxvU="
+      },
+      {
+        "label": "phoronix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTAMhCeVOKgEmdR7bky_m6rzDN1c-1kT1h7qd1rSaGMRUQ1o6MpvFM3Ys9SqKg24I-JPmARFgunInlJ_DXDolQhEby_gi_drjIOad8qFxPpqapzbTRDeY8iTMo9YP08QYFSdHr0U7GJPMbN0I1Mw=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzd-ovLyppIBGmY2P4igtnhj9xuZvOjcoD1tkXrNhDp4rC2S0T0psxVCUQSXFnas-SBDKwp7_NwDCRGVStfmwV_OUuCiD9bpmplAZqxM-wc_7attbOC0r5dz2K3h0S8twyxvU="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-GAafp4k8nwEfQ9AhWXGlKv7T8RHxlfy8dNUSfqxW_UIl99Ha9WR1c6D3wiGaNI5kYI0_xF3rikt70XIJ0DBSjEQ_PF6K868IKGIohD61DbhUIPfqJ_tJI-l_8dQhqaMoJdg09yqJUddiP4Kn_yv-59HJ65dQKMKtMHWA03pA_uatqQPTSINbKYaFCMoBeay5CPySDDM9BTDzXVLKoXExmoWdG92jy4MOw=="
+      },
+      {
+        "label": "migovi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRqEQgf3pg_HEGHfMZCuvHzvEx13hihABbWbQIalAGFqVQVDdQxSSlY9rD20guEIKtOY2fYCcgTNtEReYd_X1sdo81CJpf7iX_gzo3c7lmb-EUFsn3_P7bkIX9obz8iKjW9QamqoUk_-buvtR_BhFurTNDdtaPdi2cgIh5QebmhyuLSa86jA=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-GAafp4k8nwEfQ9AhWXGlKv7T8RHxlfy8dNUSfqxW_UIl99Ha9WR1c6D3wiGaNI5kYI0_xF3rikt70XIJ0DBSjEQ_PF6K868IKGIohD61DbhUIPfqJ_tJI-l_8dQhqaMoJdg09yqJUddiP4Kn_yv-59HJ65dQKMKtMHWA03pA_uatqQPTSINbKYaFCMoBeay5CPySDDM9BTDzXVLKoXExmoWdG92jy4MOw=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-GAafp4k8nwEfQ9AhWXGlKv7T8RHxlfy8dNUSfqxW_UIl99Ha9WR1c6D3wiGaNI5kYI0_xF3rikt70XIJ0DBSjEQ_PF6K868IKGIohD61DbhUIPfqJ_tJI-l_8dQhqaMoJdg09yqJUddiP4Kn_yv-59HJ65dQKMKtMHWA03pA_uatqQPTSINbKYaFCMoBeay5CPySDDM9BTDzXVLKoXExmoWdG92jy4MOw=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-GAafp4k8nwEfQ9AhWXGlKv7T8RHxlfy8dNUSfqxW_UIl99Ha9WR1c6D3wiGaNI5kYI0_xF3rikt70XIJ0DBSjEQ_PF6K868IKGIohD61DbhUIPfqJ_tJI-l_8dQhqaMoJdg09yqJUddiP4Kn_yv-59HJ65dQKMKtMHWA03pA_uatqQPTSINbKYaFCMoBeay5CPySDDM9BTDzXVLKoXExmoWdG92jy4MOw=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-GAafp4k8nwEfQ9AhWXGlKv7T8RHxlfy8dNUSfqxW_UIl99Ha9WR1c6D3wiGaNI5kYI0_xF3rikt70XIJ0DBSjEQ_PF6K868IKGIohD61DbhUIPfqJ_tJI-l_8dQhqaMoJdg09yqJUddiP4Kn_yv-59HJ65dQKMKtMHWA03pA_uatqQPTSINbKYaFCMoBeay5CPySDDM9BTDzXVLKoXExmoWdG92jy4MOw=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-GAafp4k8nwEfQ9AhWXGlKv7T8RHxlfy8dNUSfqxW_UIl99Ha9WR1c6D3wiGaNI5kYI0_xF3rikt70XIJ0DBSjEQ_PF6K868IKGIohD61DbhUIPfqJ_tJI-l_8dQhqaMoJdg09yqJUddiP4Kn_yv-59HJ65dQKMKtMHWA03pA_uatqQPTSINbKYaFCMoBeay5CPySDDM9BTDzXVLKoXExmoWdG92jy4MOw=="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTCHdk-07yXApCkrTS1A5NIZvqDY9Vsnpc9_rD0GHVsMy1fbw_2j3pJ5sM7AYhuSul79kCHaZ-Sl77-xESacSrPPuqiWrPalzsDL2PHBMXjkoFJQHNtiSJn_oQUnvQtc1C5X86l87NyJE4k0sCGSsQiZifKyosoRdZ20-GVB_xNxHTgqaxBIUVU7UZtxQH6yxX8no3dzw="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTCHdk-07yXApCkrTS1A5NIZvqDY9Vsnpc9_rD0GHVsMy1fbw_2j3pJ5sM7AYhuSul79kCHaZ-Sl77-xESacSrPPuqiWrPalzsDL2PHBMXjkoFJQHNtiSJn_oQUnvQtc1C5X86l87NyJE4k0sCGSsQiZifKyosoRdZ20-GVB_xNxHTgqaxBIUVU7UZtxQH6yxX8no3dzw="
+      },
+      {
+        "label": "phoronix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTAMhCeVOKgEmdR7bky_m6rzDN1c-1kT1h7qd1rSaGMRUQ1o6MpvFM3Ys9SqKg24I-JPmARFgunInlJ_DXDolQhEby_gi_drjIOad8qFxPpqapzbTRDeY8iTMo9YP08QYFSdHr0U7GJPMbN0I1Mw=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzd-ovLyppIBGmY2P4igtnhj9xuZvOjcoD1tkXrNhDp4rC2S0T0psxVCUQSXFnas-SBDKwp7_NwDCRGVStfmwV_OUuCiD9bpmplAZqxM-wc_7attbOC0r5dz2K3h0S8twyxvU="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzd-ovLyppIBGmY2P4igtnhj9xuZvOjcoD1tkXrNhDp4rC2S0T0psxVCUQSXFnas-SBDKwp7_NwDCRGVStfmwV_OUuCiD9bpmplAZqxM-wc_7attbOC0r5dz2K3h0S8twyxvU="
+      },
+      {
+        "label": "phoronix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTAMhCeVOKgEmdR7bky_m6rzDN1c-1kT1h7qd1rSaGMRUQ1o6MpvFM3Ys9SqKg24I-JPmARFgunInlJ_DXDolQhEby_gi_drjIOad8qFxPpqapzbTRDeY8iTMo9YP08QYFSdHr0U7GJPMbN0I1Mw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_U0-RYuX1tO9iNLPwKNOTm5YeZtPv2SOpnFho22LHneZ_xwBZTNK9ZKl7vtwaDjznK7VDLTnzIdbQkjRbduQx6lnhVXmN_P3MBo2ZoaDxDuhMkPh91SdCf8Wi4WrFdyWRZIcTF8N-3rW-TxVwhXUwHXhqMnJ8l9HndPAfISSlIpSw6NJfjJ4IDpqkegmOqt_grokzEw=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmajB7IAoswgi4vNhqmqSHuwKdfOLG8feIebPPI152Cq9mPhw2sfpmxixB-YbWZnBdBgsz96KDCA8ujqec_jUCG8vXzFDvrWqxKTf6zFXIUBiwEhUClz_njnBS2wY2OxuATdKwBtBZ-4ycf2v0gx4_eEGXrQdV0itFdIqLcRkwLB1l0S1X-JUyvFJOPo1Jv3yV12fQBmMrhMfP"
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFAmEQtIjuLwfEo3tAKv9oU2ZuQU8GNKd4oVjrNa7MsU61tfxtYkFIP5Gs-l-EsCPXktVWi2gk0OEeY4XRA7_0lu0De35sZOSUAIuQCg7cNrBO-3GSW4USLnAtSzaX6Zxsp58F7bjqmvkONT8SGUq4Vs403T7Fkl-xb7Lm7jgaVNIXqSt2py7hQkKrZXY5ZKs8dplqcNO4RQ90yw1sx3hBF1_r1Wj8Rg=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_U0-RYuX1tO9iNLPwKNOTm5YeZtPv2SOpnFho22LHneZ_xwBZTNK9ZKl7vtwaDjznK7VDLTnzIdbQkjRbduQx6lnhVXmN_P3MBo2ZoaDxDuhMkPh91SdCf8Wi4WrFdyWRZIcTF8N-3rW-TxVwhXUwHXhqMnJ8l9HndPAfISSlIpSw6NJfjJ4IDpqkegmOqt_grokzEw=="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQDb2cXckyp2izfJYqhRIrfOEoI43l2hiiWIzzoD3S0baQEHcTsqEHFrHroR35KeOQv7mvy_SphSMxGwxqy8mNXfeh3nC0yfC1R8y3RWA-uwGSBj_G3cv95A92-iA="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp-GAafp4k8nwEfQ9AhWXGlKv7T8RHxlfy8dNUSfqxW_UIl99Ha9WR1c6D3wiGaNI5kYI0_xF3rikt70XIJ0DBSjEQ_PF6K868IKGIohD61DbhUIPfqJ_tJI-l_8dQhqaMoJdg09yqJUddiP4Kn_yv-59HJ65dQKMKtMHWA03pA_uatqQPTSINbKYaFCMoBeay5CPySDDM9BTDzXVLKoXExmoWdG92jy4MOw=="
+      },
+      {
+        "label": "migovi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRqEQgf3pg_HEGHfMZCuvHzvEx13hihABbWbQIalAGFqVQVDdQxSSlY9rD20guEIKtOY2fYCcgTNtEReYd_X1sdo81CJpf7iX_gzo3c7lmb-EUFsn3_P7bkIX9obz8iKjW9QamqoUk_-buvtR_BhFurTNDdtaPdi2cgIh5QebmhyuLSa86jA=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES-j2HIRt67uVYgNEcEpqznarbU9OEkj0No1EnRKxniPslsFTwxsC-QbLcoEsl9g1yz_-qmWXW4kqJnKKmGKCVk1ESxEgWitkJJ4gVn-B_COtOoOoc9dlfqe2CtM_9R0cjWxpYTPx7Qfv4gJpVSas39fpzDpcwWl6imI6Lac2FAtf1SNqMbA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvxepHukaBqyETJ0lCxKuBkYnf4Q11LAZl-UyM7m72PuVtuj1P-EQEIQEj3sRqm0a2ePeCGkoZ7cpGpxtiyN_LJq6hzVxuMc5oAD8_0LL79i77diM7tghkeIJV7LkC5LzMK-CeKbQ1A=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvxepHukaBqyETJ0lCxKuBkYnf4Q11LAZl-UyM7m72PuVtuj1P-EQEIQEj3sRqm0a2ePeCGkoZ7cpGpxtiyN_LJq6hzVxuMc5oAD8_0LL79i77diM7tghkeIJV7LkC5LzMK-CeKbQ1A=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES-j2HIRt67uVYgNEcEpqznarbU9OEkj0No1EnRKxniPslsFTwxsC-QbLcoEsl9g1yz_-qmWXW4kqJnKKmGKCVk1ESxEgWitkJJ4gVn-B_COtOoOoc9dlfqe2CtM_9R0cjWxpYTPx7Qfv4gJpVSas39fpzDpcwWl6imI6Lac2FAtf1SNqMbA=="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeCpsPsksvJDIjxjeb14m7Igwl5y0rJj4yjrUC3X75n0p7NPvag-aoWd1jBtpMujLPHgIh7gJwS4IyX5Ta4P2sijBprM86mIkqUDTpryGF52-XWFQ2yAp_Ad0bycRKit7oLYB8vj2wza49ZQolBMLineZewCdyaSsqoN2abrnJqMw7wx9vHmA6TJ5SHnMfQ3IouppKeNNR"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElc44XyF52dgTg0E-qtFYl3WAv3mQHTEVm50-oCxppyWy6fzRqF78IsbccNlSffNyussM4J9Shf1Ynhdsbb7GAKbpvU0TshkR6UdAzSKU0H9CfDElV-rXufGW3DsGLwD7o5Qd_GVmQRIz34zp6vtR4hPPYHdK9AS78eERLR-QdaeFpAVS4zeAcxWyC_A=="
+      },
+      {
+        "label": "migovi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtcuAvkg4p85f8EjL5mB2c4i8I8tkFLr_1Ab8mAXKJxksXusZMvKGI_gypHJaXDW4ZI0Y8ePyrxnjSzoPIeP7BYnPyHJ7TbYw8nQpjEm69FR_i-DBIycYkeOtBlWuZdoKsEGkDg_lSvLV4jv0ZuM3hZdDqvveEhb3iJaqZq-VO3WvLf5qhNhw="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeCpsPsksvJDIjxjeb14m7Igwl5y0rJj4yjrUC3X75n0p7NPvag-aoWd1jBtpMujLPHgIh7gJwS4IyX5Ta4P2sijBprM86mIkqUDTpryGF52-XWFQ2yAp_Ad0bycRKit7oLYB8vj2wza49ZQolBMLineZewCdyaSsqoN2abrnJqMw7wx9vHmA6TJ5SHnMfQ3IouppKeNNR"
+      },
+      {
+        "label": "turtlesai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFedNAuZfCqgtT_p23PUl-lHDzxtgjY3KE4dFh9q7_2Bav3NzihBeG3YIhgV_C9GOacvnE-cpcXMX-hqsstcfldbPhLNKXWaBZeShoPylBOVVCI2V2QqTrd5SF-uFzcfxnJfytspVr_WqWGtOvrJeVxJP8ZPyQJZRf6eCmGgCvFajEnMf4nD7Go-b47BBUk1nuSxf8gdQ=="
+      },
+      {
+        "label": "turtlesai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFedNAuZfCqgtT_p23PUl-lHDzxtgjY3KE4dFh9q7_2Bav3NzihBeG3YIhgV_C9GOacvnE-cpcXMX-hqsstcfldbPhLNKXWaBZeShoPylBOVVCI2V2QqTrd5SF-uFzcfxnJfytspVr_WqWGtOvrJeVxJP8ZPyQJZRf6eCmGgCvFajEnMf4nD7Go-b47BBUk1nuSxf8gdQ=="
+      },
+      {
+        "label": "gamegpu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhPBjv7ShTQI_j13tzww3dX5zGvg0QpZEMYjrR-8WCBlqUTPlFzFf4-eRc6ADIc7H9BJXMHw4e2jIuULrR6wkGviVMFuKCZJB8dMQ8c-KOKDDwF7ulmMCkbTfb65H4t6Lil6ebcQaN4y9TnXUaeP_nRPW2SqncVgqFiEG_OHKdLtjntNNnkgqQ-zQLSqIiCpxoPybJ_6Ib5F_ahP-gMMozNUS3F1JzL0B2tkju"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaSqczzfuvW-hnQhsC-NsL-Wo8WPAT3SRO1LkCR4gVDprNRYmUknNq_WS5OfsROQRY9bbjbSWynxDWFBJDfoFtcKobVnrnghbsnTAkH_JpQ58Ctm0ClTts8umPW5deLlotANCUlGoevvRYnG8WChpI_TDkuMVfczCLLt3d1u4xwfKk6V5IJLeRzwZRS2Igvv12_Bxo_kTu_fK-RV3-m34-"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG79fZTYeVZVaYCFKTSa3aPdLRKf13DC2VXQoElV86I1LHLEopRIuPUla4SBHvJSIsy3A54a_ImR0XkpDi485jlnY4dvjGggrwVEl9gq5mfTfLFLZv58NG9-_YcyDvYtXJ9S-W5eD4wVQZHbkAUhQBLwZlKCQGFxrV_thN1A2bWCEkHFo5pRRieX0X3z01ZSrx6m3PzgXLDzFoCVfcq88tvpn4y92XRT159lEgV3gS4Ug=="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeCpsPsksvJDIjxjeb14m7Igwl5y0rJj4yjrUC3X75n0p7NPvag-aoWd1jBtpMujLPHgIh7gJwS4IyX5Ta4P2sijBprM86mIkqUDTpryGF52-XWFQ2yAp_Ad0bycRKit7oLYB8vj2wza49ZQolBMLineZewCdyaSsqoN2abrnJqMw7wx9vHmA6TJ5SHnMfQ3IouppKeNNR"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaSqczzfuvW-hnQhsC-NsL-Wo8WPAT3SRO1LkCR4gVDprNRYmUknNq_WS5OfsROQRY9bbjbSWynxDWFBJDfoFtcKobVnrnghbsnTAkH_JpQ58Ctm0ClTts8umPW5deLlotANCUlGoevvRYnG8WChpI_TDkuMVfczCLLt3d1u4xwfKk6V5IJLeRzwZRS2Igvv12_Bxo_kTu_fK-RV3-m34-"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG79fZTYeVZVaYCFKTSa3aPdLRKf13DC2VXQoElV86I1LHLEopRIuPUla4SBHvJSIsy3A54a_ImR0XkpDi485jlnY4dvjGggrwVEl9gq5mfTfLFLZv58NG9-_YcyDvYtXJ9S-W5eD4wVQZHbkAUhQBLwZlKCQGFxrV_thN1A2bWCEkHFo5pRRieX0X3z01ZSrx6m3PzgXLDzFoCVfcq88tvpn4y92XRT159lEgV3gS4Ug=="
+      },
+      {
+        "label": "turtlesai",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFedNAuZfCqgtT_p23PUl-lHDzxtgjY3KE4dFh9q7_2Bav3NzihBeG3YIhgV_C9GOacvnE-cpcXMX-hqsstcfldbPhLNKXWaBZeShoPylBOVVCI2V2QqTrd5SF-uFzcfxnJfytspVr_WqWGtOvrJeVxJP8ZPyQJZRf6eCmGgCvFajEnMf4nD7Go-b47BBUk1nuSxf8gdQ=="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeCpsPsksvJDIjxjeb14m7Igwl5y0rJj4yjrUC3X75n0p7NPvag-aoWd1jBtpMujLPHgIh7gJwS4IyX5Ta4P2sijBprM86mIkqUDTpryGF52-XWFQ2yAp_Ad0bycRKit7oLYB8vj2wza49ZQolBMLineZewCdyaSsqoN2abrnJqMw7wx9vHmA6TJ5SHnMfQ3IouppKeNNR"
+      },
+      {
+        "label": "gamegpu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhPBjv7ShTQI_j13tzww3dX5zGvg0QpZEMYjrR-8WCBlqUTPlFzFf4-eRc6ADIc7H9BJXMHw4e2jIuULrR6wkGviVMFuKCZJB8dMQ8c-KOKDDwF7ulmMCkbTfb65H4t6Lil6ebcQaN4y9TnXUaeP_nRPW2SqncVgqFiEG_OHKdLtjntNNnkgqQ-zQLSqIiCpxoPybJ_6Ib5F_ahP-gMMozNUS3F1JzL0B2tkju"
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUpmuhlflac5OHQln2YlzFFiDD8e_1Vh9bYwGcVjcj_tbSqSYTGuPS-XynWjP9Ch3eOVWbBy47Z3n8rUA5PJi-LKgP78hRAueuZy9VcPLiYYJja5ou1e4PrUfw0HlF2jh-eGwSyuhOKsXnmZ0HruticGXXUhsneb1xPqMV7BNsYIHSZm6agSgEqpYUJzf-RhxKtU4BtX5NsOb9jzeMtDsXYUjCAzF2K4AB4Qc="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy-AIegerYWWP1pZ87h0mRjxIqFiAz7hThRxI3kyH-bE72Fzsq_yKmVmQgnAFQC-shOqcV9q5-WP6zyZNGwG3lg2AXZBOdemqZ_8Z5LrKkn30iTflfjBGZjNCLnhaDbcis1ZSVfuW0o7at_vsYTFMrY_vaqRrA08gYLrSPqKCmug7yft5nP5r_YkrNwdU="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUpmuhlflac5OHQln2YlzFFiDD8e_1Vh9bYwGcVjcj_tbSqSYTGuPS-XynWjP9Ch3eOVWbBy47Z3n8rUA5PJi-LKgP78hRAueuZy9VcPLiYYJja5ou1e4PrUfw0HlF2jh-eGwSyuhOKsXnmZ0HruticGXXUhsneb1xPqMV7BNsYIHSZm6agSgEqpYUJzf-RhxKtU4BtX5NsOb9jzeMtDsXYUjCAzF2K4AB4Qc="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUpmuhlflac5OHQln2YlzFFiDD8e_1Vh9bYwGcVjcj_tbSqSYTGuPS-XynWjP9Ch3eOVWbBy47Z3n8rUA5PJi-LKgP78hRAueuZy9VcPLiYYJja5ou1e4PrUfw0HlF2jh-eGwSyuhOKsXnmZ0HruticGXXUhsneb1xPqMV7BNsYIHSZm6agSgEqpYUJzf-RhxKtU4BtX5NsOb9jzeMtDsXYUjCAzF2K4AB4Qc="
+      },
+      {
+        "label": "insideainews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Fob5g-f0UDSm4qSlTHPhY5uEfWQvJWQK6qhQ602qmKPyfkQRHjEFHixhn7IlpIF9XGpZ7bYdmQ_CtHoYU7aGcgpOtdFN5orKGA9g5byqTA5D6ZTOo2PHAGTxwh4mtiJtmRscS3y-n_N3BgmFxtDc0VODSScaIUBr-YsjEZPsT_41_vNkEFcwhUZ1IBSstn-qkYfqvAYLDIn-NM9KnF3Ff8ws"
+      },
+      {
+        "label": "migovi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtcuAvkg4p85f8EjL5mB2c4i8I8tkFLr_1Ab8mAXKJxksXusZMvKGI_gypHJaXDW4ZI0Y8ePyrxnjSzoPIeP7BYnPyHJ7TbYw8nQpjEm69FR_i-DBIycYkeOtBlWuZdoKsEGkDg_lSvLV4jv0ZuM3hZdDqvveEhb3iJaqZq-VO3WvLf5qhNhw="
+      },
+      {
+        "label": "insideainews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Fob5g-f0UDSm4qSlTHPhY5uEfWQvJWQK6qhQ602qmKPyfkQRHjEFHixhn7IlpIF9XGpZ7bYdmQ_CtHoYU7aGcgpOtdFN5orKGA9g5byqTA5D6ZTOo2PHAGTxwh4mtiJtmRscS3y-n_N3BgmFxtDc0VODSScaIUBr-YsjEZPsT_41_vNkEFcwhUZ1IBSstn-qkYfqvAYLDIn-NM9KnF3Ff8ws"
+      },
+      {
+        "label": "xda-developers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpoTtlyyEngG1Q9FuaWBAUQpBMWMIy8EyY4lVRoFCRCHDUY7-JnOuccC9P1O2ifeEt5pifIcrFSGrLkVXFnXXQUQZm2eoO9H4WlJySQesiaCbaqd7ZJiys2wkY9sD481OhonP1wGucguawVkX9"
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES-j2HIRt67uVYgNEcEpqznarbU9OEkj0No1EnRKxniPslsFTwxsC-QbLcoEsl9g1yz_-qmWXW4kqJnKKmGKCVk1ESxEgWitkJJ4gVn-B_COtOoOoc9dlfqe2CtM_9R0cjWxpYTPx7Qfv4gJpVSas39fpzDpcwWl6imI6Lac2FAtf1SNqMbA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "truenas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDgNMqcaKGWiyrHNVskVttWuI-se0vmIC5wXdjsxCLjKbmcRDtAGDN_SAkSYkZYwQxJyfdP-AiI9YNMxAmyYoe52yY_2JfwClB-vOx9DqiJX6s4GEGTq9w5IYU9993o_jh1xdTQamuiueCjYGXucw0w58uLNVo1j9Pd9m1NmsGWwuxlQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiWTSX4CJr6TrgOCN9YhQPIq1OQ9DbHEcGeJaN3-taVy87Gkeh-YSRBD83g90R69rFOEND-obedSm3iV34nVGfO7CDLnOHRRzsDmyhr4tKRUNAdcdnK5SnZXjs7txXmSPCYhN1A0nVly-PC0LNvjFguNeNm7iYrK7O69CxRpc_EwatjP_EdfAdsZUww_k54w47cjgPJe3wJw=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnLTlWB_T5VEDfpqzllsz6Kapg98kMK5KEhndPVD2TNo2TKytLvmryC_qab576eYVA6TtHMmJecq2WG-Tt32kuOgjpF95SAjbaexH-75IPDHrSEW1PRJMdXDWHuINruVXhcez5X8W33a2YNPU4dakoJMTmvbhuzKOyVJQ_6hyab8X6zrFWuI7ImZh_"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8IJIb22RObVAC6sjZuEFzdXV8y3a_TVnr8X8uapfe63FuOH8S_RKdWhD-mL2Bm9wtBtucG7zyvlTSYWBjPPima8_npSUSIGgk1eH0ckkb3C7PI36QV2O6gHSHscnn0ZjjDZv-M-TaQMOohIxssgEpfw77u5Qz7yn_CRxaKhVulIHApMNAqrLe-Lqgj9d1Mt9Cbs0INkwV4FS7eQ=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZaKnQJzlyiWozxdF3WQPhTqRqXmr0YvNciOmI1GhUosYRKjz3rEG8_WYjANGlMMzwW0A690KobfPsbe_qRVi8Hz921dm8mvYk57Q3c9_oAKqhgyflVCZiGv4CxeTRzqqkpRRulwcBd5LdB5oc1_Gc-uWOCxlXdMSPWQA95ovyMDl4g1kwo1lk61rYnJsT8y7c4ZGKQX-0BVucaQut-qyeDGyOL0iS9UuprgHoOmJdJA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdA49Av0-qezmW3CO3mzOtdjZEB89-HWzgvZxxPUIPdCGKql__shauCqsuYbWQUSDAaIOj6DVAkL9jLuU4vwtFT7BuU7Klde99Gws2KP-4ZgHBxwYFYqxoO0HAvVRJemp4GNw="
+      },
+      {
+        "label": "truenas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDgNMqcaKGWiyrHNVskVttWuI-se0vmIC5wXdjsxCLjKbmcRDtAGDN_SAkSYkZYwQxJyfdP-AiI9YNMxAmyYoe52yY_2JfwClB-vOx9DqiJX6s4GEGTq9w5IYU9993o_jh1xdTQamuiueCjYGXucw0w58uLNVo1j9Pd9m1NmsGWwuxlQ=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZaKnQJzlyiWozxdF3WQPhTqRqXmr0YvNciOmI1GhUosYRKjz3rEG8_WYjANGlMMzwW0A690KobfPsbe_qRVi8Hz921dm8mvYk57Q3c9_oAKqhgyflVCZiGv4CxeTRzqqkpRRulwcBd5LdB5oc1_Gc-uWOCxlXdMSPWQA95ovyMDl4g1kwo1lk61rYnJsT8y7c4ZGKQX-0BVucaQut-qyeDGyOL0iS9UuprgHoOmJdJA=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZaKnQJzlyiWozxdF3WQPhTqRqXmr0YvNciOmI1GhUosYRKjz3rEG8_WYjANGlMMzwW0A690KobfPsbe_qRVi8Hz921dm8mvYk57Q3c9_oAKqhgyflVCZiGv4CxeTRzqqkpRRulwcBd5LdB5oc1_Gc-uWOCxlXdMSPWQA95ovyMDl4g1kwo1lk61rYnJsT8y7c4ZGKQX-0BVucaQut-qyeDGyOL0iS9UuprgHoOmJdJA=="
+      },
+      {
+        "label": "proxmox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu70Mh5cCpDWtI3GgX1TaL2boi4qy_GiCevz1B89x_pnqt9DzNIcK3Kc8mgllF9I1pqeDxbVeHcn71yscCbniZtrKWo--DC0HRm9YypzOBTPcVxWp_HI0ewIj6I4S1e__euKMvHMStBIr8lPkjeuIVFTTfiLBfwzbuALebEqAGyZmk1m8Ekr8iI1WdN6gNJ8y-d3lQdLi2AhFWihdlZS7rVPyw40XPzErzaLI="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCocMbiTNzHdNIsWqy_u65p8z_ostVALrxplyOcwX2TeGZkjcq1aC9UHHUdyTVJzVCT9Z8ZH5WmGBf7ABB68d78EIjwEPN3W-6NQlhZ0IQYY5P9B-khZmnfbADFagchnZpPde-fJ4t9HkaEUZFLqgCGTIjnJbmQTATAYgNK4czFIM9Kk_5D64fuXv71Q=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHorAbqbKMJUuQh3C07RCOEsOwpG7vFJhdBXww7xIM7414bPXW0O44BxVKXgiz4YW099fMX-Rf2uW51KQF4x-wdC1Dg9zrX8A0whNNkqhEQOa0ee9UyDC0Cq4jyLIUwiDbS-1Yw4BLT2g=="
+      },
+      {
+        "label": "llm-tracker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGi8MfGxTnf_DVvfMSbqDqHPtRhn4OfFPah5XIuHPNGDBk-ZH_np6uPxYxLi3PW6JzdlZN1jD0I63HFuMjOX_-TKtgw0yv0Z2TLSVgF5nz-CnYDfNVo4bOpOtkzXRduAgHPA=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAfIOqMVPxOlX_LYdnnx1tVJlXBT2g8DElTFkjjiR6X1GZFgB8ZrNYQSpD0q-3Qm6ULWwGTK5rTt8lkRIbqEPn2GIp4jlxHL9rmJPMdVQK_lY22d2wA01SyaIXDyLt4fw-lbLaulo1T26465jr17vvGm8yDBu7NIEPopTsm4XRKfYBtUXfPQ=="
+      },
+      {
+        "label": "proxmox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu70Mh5cCpDWtI3GgX1TaL2boi4qy_GiCevz1B89x_pnqt9DzNIcK3Kc8mgllF9I1pqeDxbVeHcn71yscCbniZtrKWo--DC0HRm9YypzOBTPcVxWp_HI0ewIj6I4S1e__euKMvHMStBIr8lPkjeuIVFTTfiLBfwzbuALebEqAGyZmk1m8Ekr8iI1WdN6gNJ8y-d3lQdLi2AhFWihdlZS7rVPyw40XPzErzaLI="
+      },
+      {
+        "label": "llm-tracker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGi8MfGxTnf_DVvfMSbqDqHPtRhn4OfFPah5XIuHPNGDBk-ZH_np6uPxYxLi3PW6JzdlZN1jD0I63HFuMjOX_-TKtgw0yv0Z2TLSVgF5nz-CnYDfNVo4bOpOtkzXRduAgHPA=="
+      },
+      {
+        "label": "proxmox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu70Mh5cCpDWtI3GgX1TaL2boi4qy_GiCevz1B89x_pnqt9DzNIcK3Kc8mgllF9I1pqeDxbVeHcn71yscCbniZtrKWo--DC0HRm9YypzOBTPcVxWp_HI0ewIj6I4S1e__euKMvHMStBIr8lPkjeuIVFTTfiLBfwzbuALebEqAGyZmk1m8Ekr8iI1WdN6gNJ8y-d3lQdLi2AhFWihdlZS7rVPyw40XPzErzaLI="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYc7j2lKeeVlPc-e8QDvmO5XDPZTLG-z2tmYts0myMtcyF1tOrQZQKFhPUmb-OiZfbGw8xMzwR1SpoMfl-Sw_4G1H4cpBlVxWo4TQsbrVlPnO3CypqWRfZemkht-AqSyCEe7ssRDvQ5xR9-LPSYMYH4rdX3E10SlLyoBVRS4GpcYGp1y8ck1ju6D5tEQ9iwXjxjbC9IjYDzxvA"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtvx_KYSsPwgvo-6cnLX_bgRnMAJF832F9AlIip6BFAbqEbUDHH3GsQdoj_AMxvGC0cl5LVSRrnlrqAiR7agbn_a8FLSfPiXh6UdOn87NbdV3hpsfDaUJjG7if-JMVb32rZ9YMBoSs5eHpXC4ulf07DsHkhDVh9QHhYS4bCDEj-skUoEUj04ON9OG9NPwyYH_Onxk="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtvx_KYSsPwgvo-6cnLX_bgRnMAJF832F9AlIip6BFAbqEbUDHH3GsQdoj_AMxvGC0cl5LVSRrnlrqAiR7agbn_a8FLSfPiXh6UdOn87NbdV3hpsfDaUJjG7if-JMVb32rZ9YMBoSs5eHpXC4ulf07DsHkhDVh9QHhYS4bCDEj-skUoEUj04ON9OG9NPwyYH_Onxk="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtvx_KYSsPwgvo-6cnLX_bgRnMAJF832F9AlIip6BFAbqEbUDHH3GsQdoj_AMxvGC0cl5LVSRrnlrqAiR7agbn_a8FLSfPiXh6UdOn87NbdV3hpsfDaUJjG7if-JMVb32rZ9YMBoSs5eHpXC4ulf07DsHkhDVh9QHhYS4bCDEj-skUoEUj04ON9OG9NPwyYH_Onxk="
+      },
+      {
+        "label": "proxmox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGu70Mh5cCpDWtI3GgX1TaL2boi4qy_GiCevz1B89x_pnqt9DzNIcK3Kc8mgllF9I1pqeDxbVeHcn71yscCbniZtrKWo--DC0HRm9YypzOBTPcVxWp_HI0ewIj6I4S1e__euKMvHMStBIr8lPkjeuIVFTTfiLBfwzbuALebEqAGyZmk1m8Ekr8iI1WdN6gNJ8y-d3lQdLi2AhFWihdlZS7rVPyw40XPzErzaLI="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtvx_KYSsPwgvo-6cnLX_bgRnMAJF832F9AlIip6BFAbqEbUDHH3GsQdoj_AMxvGC0cl5LVSRrnlrqAiR7agbn_a8FLSfPiXh6UdOn87NbdV3hpsfDaUJjG7if-JMVb32rZ9YMBoSs5eHpXC4ulf07DsHkhDVh9QHhYS4bCDEj-skUoEUj04ON9OG9NPwyYH_Onxk="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtvx_KYSsPwgvo-6cnLX_bgRnMAJF832F9AlIip6BFAbqEbUDHH3GsQdoj_AMxvGC0cl5LVSRrnlrqAiR7agbn_a8FLSfPiXh6UdOn87NbdV3hpsfDaUJjG7if-JMVb32rZ9YMBoSs5eHpXC4ulf07DsHkhDVh9QHhYS4bCDEj-skUoEUj04ON9OG9NPwyYH_Onxk="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHorAbqbKMJUuQh3C07RCOEsOwpG7vFJhdBXww7xIM7414bPXW0O44BxVKXgiz4YW099fMX-Rf2uW51KQF4x-wdC1Dg9zrX8A0whNNkqhEQOa0ee9UyDC0Cq4jyLIUwiDbS-1Yw4BLT2g=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtvx_KYSsPwgvo-6cnLX_bgRnMAJF832F9AlIip6BFAbqEbUDHH3GsQdoj_AMxvGC0cl5LVSRrnlrqAiR7agbn_a8FLSfPiXh6UdOn87NbdV3hpsfDaUJjG7if-JMVb32rZ9YMBoSs5eHpXC4ulf07DsHkhDVh9QHhYS4bCDEj-skUoEUj04ON9OG9NPwyYH_Onxk="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDXsy5_H_xnxbjqSn88qNyAMfSWqDKerCpu6T0TMqJuDUxFmm2fGc3LJhrsFSX-NN4_VmOjJrPLxtDa0edkTHrgTqLW7X1KKr6bgYdqmKPlfMgGNKyFYcvZDdhL3Q59I9x16FrgJrQm9p-MAVNyQYHq5-g193HKWP15oz9sAT9iu8i35EqgLqNA5H6YBTqQbyIIf3Ykpjb"
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHUm3WzQhNKRnjSNZpHzs07QPvMZH971zK6AWAaBTVl7y045yIKuVysg-pDOQGtCqz8ugvfrH_f3iI2x7SfCVoMzFYPxsJEhHKaEnFZr3xSPo3vEo_difD5uqgIX6rZVVHVskUwQ_BE9D8KAXj8v5tcCY3tlEtQln3PkB9ZDS-_Ha47maqBwiyHUqCLs7ILt9QwLNsU5y9QzbxpZOeqXDVDAgXekOzR9OC9aLcVxSxfQ=="
+      },
+      {
+        "label": "videocardz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDXsy5_H_xnxbjqSn88qNyAMfSWqDKerCpu6T0TMqJuDUxFmm2fGc3LJhrsFSX-NN4_VmOjJrPLxtDa0edkTHrgTqLW7X1KKr6bgYdqmKPlfMgGNKyFYcvZDdhL3Q59I9x16FrgJrQm9p-MAVNyQYHq5-g193HKWP15oz9sAT9iu8i35EqgLqNA5H6YBTqQbyIIf3Ykpjb"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_h04snWeHi0lMSU5hif-6OHUj3B6jskyjCFqvF8KqdT4PIZJVqBhAQghKUlIdBIMT6ImJyc3wWXzkNn10emno7guSnBV402AAIPikJpClFT2y0RU_bjfptamXuPf9rusJPmQ="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_h04snWeHi0lMSU5hif-6OHUj3B6jskyjCFqvF8KqdT4PIZJVqBhAQghKUlIdBIMT6ImJyc3wWXzkNn10emno7guSnBV402AAIPikJpClFT2y0RU_bjfptamXuPf9rusJPmQ="
+      },
+      {
+        "label": "llm-tracker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGi8MfGxTnf_DVvfMSbqDqHPtRhn4OfFPah5XIuHPNGDBk-ZH_np6uPxYxLi3PW6JzdlZN1jD0I63HFuMjOX_-TKtgw0yv0Z2TLSVgF5nz-CnYDfNVo4bOpOtkzXRduAgHPA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCocMbiTNzHdNIsWqy_u65p8z_ostVALrxplyOcwX2TeGZkjcq1aC9UHHUdyTVJzVCT9Z8ZH5WmGBf7ABB68d78EIjwEPN3W-6NQlhZ0IQYY5P9B-khZmnfbADFagchnZpPde-fJ4t9HkaEUZFLqgCGTIjnJbmQTATAYgNK4czFIM9Kk_5D64fuXv71Q=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_h04snWeHi0lMSU5hif-6OHUj3B6jskyjCFqvF8KqdT4PIZJVqBhAQghKUlIdBIMT6ImJyc3wWXzkNn10emno7guSnBV402AAIPikJpClFT2y0RU_bjfptamXuPf9rusJPmQ="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtvx_KYSsPwgvo-6cnLX_bgRnMAJF832F9AlIip6BFAbqEbUDHH3GsQdoj_AMxvGC0cl5LVSRrnlrqAiR7agbn_a8FLSfPiXh6UdOn87NbdV3hpsfDaUJjG7if-JMVb32rZ9YMBoSs5eHpXC4ulf07DsHkhDVh9QHhYS4bCDEj-skUoEUj04ON9OG9NPwyYH_Onxk="
+      },
+      {
+        "label": "llm-tracker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGi8MfGxTnf_DVvfMSbqDqHPtRhn4OfFPah5XIuHPNGDBk-ZH_np6uPxYxLi3PW6JzdlZN1jD0I63HFuMjOX_-TKtgw0yv0Z2TLSVgF5nz-CnYDfNVo4bOpOtkzXRduAgHPA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHorAbqbKMJUuQh3C07RCOEsOwpG7vFJhdBXww7xIM7414bPXW0O44BxVKXgiz4YW099fMX-Rf2uW51KQF4x-wdC1Dg9zrX8A0whNNkqhEQOa0ee9UyDC0Cq4jyLIUwiDbS-1Yw4BLT2g=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCocMbiTNzHdNIsWqy_u65p8z_ostVALrxplyOcwX2TeGZkjcq1aC9UHHUdyTVJzVCT9Z8ZH5WmGBf7ABB68d78EIjwEPN3W-6NQlhZ0IQYY5P9B-khZmnfbADFagchnZpPde-fJ4t9HkaEUZFLqgCGTIjnJbmQTATAYgNK4czFIM9Kk_5D64fuXv71Q=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYc7j2lKeeVlPc-e8QDvmO5XDPZTLG-z2tmYts0myMtcyF1tOrQZQKFhPUmb-OiZfbGw8xMzwR1SpoMfl-Sw_4G1H4cpBlVxWo4TQsbrVlPnO3CypqWRfZemkht-AqSyCEe7ssRDvQ5xR9-LPSYMYH4rdX3E10SlLyoBVRS4GpcYGp1y8ck1ju6D5tEQ9iwXjxjbC9IjYDzxvA"
+      },
+      {
+        "label": "phoronix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmz8VjbdkPhMjnrevYEE-OFURVLL8Eumt_BoIlgl4BvJILkb3xxEpmyFEhO1abyPmk6B3pCXMR1cY1GMP-lPW0AI_svHLAGUKYwV5pOG0nzHqrO28LIVS5R6gtU3Ry-zm8iX8GDPxeU9lStj9VZGcfaF7h"
+      },
+      {
+        "label": "phoronix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmz8VjbdkPhMjnrevYEE-OFURVLL8Eumt_BoIlgl4BvJILkb3xxEpmyFEhO1abyPmk6B3pCXMR1cY1GMP-lPW0AI_svHLAGUKYwV5pOG0nzHqrO28LIVS5R6gtU3Ry-zm8iX8GDPxeU9lStj9VZGcfaF7h"
+      },
+      {
+        "label": "phoronix",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmz8VjbdkPhMjnrevYEE-OFURVLL8Eumt_BoIlgl4BvJILkb3xxEpmyFEhO1abyPmk6B3pCXMR1cY1GMP-lPW0AI_svHLAGUKYwV5pOG0nzHqrO28LIVS5R6gtU3Ry-zm8iX8GDPxeU9lStj9VZGcfaF7h"
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRmJ5N4h2F3IANj7d3AM8klZTfWS2KZFXs8SduOVZt9JEbYyZSQvghk31NAwptthnea3UVxhAmQWK92FEae5jT7CN1jjdHMWc2OMla67L5KlETaIB4xlMte3WxiQrQcMDGLenSJr7Ng2ZfOa7Rj0rclAz2-EvT0w=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRmJ5N4h2F3IANj7d3AM8klZTfWS2KZFXs8SduOVZt9JEbYyZSQvghk31NAwptthnea3UVxhAmQWK92FEae5jT7CN1jjdHMWc2OMla67L5KlETaIB4xlMte3WxiQrQcMDGLenSJr7Ng2ZfOa7Rj0rclAz2-EvT0w=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFMZ6-1agQOKCumVLP0ZFkr3GgGcphj4teCPFgUlxWVIgN6lcEoIoVzuSyaPoyf7sVvlbqxF_tHhdwzM97OAtRUmaMffZ2nTxstSQh4h-sbSFIwPVj7sid4Z-SoAS4Uxl9MrTtVi6EUNQ1jJW2iFSZRsIlGAHV9UP_SF6dKU7r62LtUONuzA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK8CUqOAHT8-PHnN0SqeQfbkTFv9fmkqqmJN1mltrbmU3JtWvlWlGiJzic71npzVUQ4uQsJQhA2d8_OS3ToYSGXamZ446T362xJQSKN0BiK4D-tWa1xqXUuNFabdLwma5ww0w="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK8CUqOAHT8-PHnN0SqeQfbkTFv9fmkqqmJN1mltrbmU3JtWvlWlGiJzic71npzVUQ4uQsJQhA2d8_OS3ToYSGXamZ446T362xJQSKN0BiK4D-tWa1xqXUuNFabdLwma5ww0w="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv_9380kdv_GZ4m-LJpixo36JQsSYyk2me91NPrKCaZxcFgeY3oOqpPF83xIb3GZCwnAJj5v8FNqDINs7JrUuEAYmAzrUP1vQREwmmzK-QhvrITU49ObKdh5v3anx76JSFHiY="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAJR7RGGbVHpk57x4A-eVWD5XgpJVhgPWjZyWSthQS9wynraGFuHROE_E_etFx6UQV29bjn4V81CkAXhzkLtyHMYWZnBQ5z4MZywNWjeryIiKyzWfpEtjmHwzyPNOd-sFtz0xSedr65DMqb07cD73iRBh7j8KcmperUJsbmEPjak0U5w2Yl9UldOR93A=="
+      },
+      {
+        "label": "llm-tracker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4sHnDdmHphcU2wPFvXJaZ-6iEiIYDyVovStB0LIVxkHKGw4VnOLZ4u0M3jdToFJ5vckyWsew98_3btDF1fkqpDQZOsad2Kp8iZVf9F1VpyacbtFrN6vxxd-05EbAViM0Xxw=="
+      },
+      {
+        "label": "fedoraproject",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl46XtBZvdraHgtJyqxeAZHO-adM0fFwcQXkGczJd2cfMIXwB_tWN2orwWFoYxx5L4eScUE-B3bqWZa_l_mffAnmS9aU3V3RTYhS6IHXcqNS_Cgg44St1kQtj6HLoSmD3UkSe-v4QWHAged_g-m4m9ivzwvOngf7NeV3geKYnTjUjX6caAmJZ2z4S00IckweKudIy0FfqCiPBHFKHo9kNfruOR7rlPUuPeOQ=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7OD0Zp9JzAXUMYwh7uVWwSvaUL-7JJvVRtJ-NJxmW-5vVSkUEJF0BCpZk6ovHVqPBzzESRUDmcNf8kZ-QJFGIl7AUjNy0ogWWuIxdiaNRDEM9KzBy4knO1orx-HcUqypjAQ7gAA=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRmJ5N4h2F3IANj7d3AM8klZTfWS2KZFXs8SduOVZt9JEbYyZSQvghk31NAwptthnea3UVxhAmQWK92FEae5jT7CN1jjdHMWc2OMla67L5KlETaIB4xlMte3WxiQrQcMDGLenSJr7Ng2ZfOa7Rj0rclAz2-EvT0w=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7OD0Zp9JzAXUMYwh7uVWwSvaUL-7JJvVRtJ-NJxmW-5vVSkUEJF0BCpZk6ovHVqPBzzESRUDmcNf8kZ-QJFGIl7AUjNy0ogWWuIxdiaNRDEM9KzBy4knO1orx-HcUqypjAQ7gAA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFUBl53hS7fiPMCYSpmtlzAVu1QwiqPdJyx15ufiGH_6XxpH-UbivLhA_nf5vBkmQhllBkg2-3bRO2h5qlfy8qME8TTz50WdlR9hyoV7O-PpOx0L5j6usWmXwOhOz5VDff3dskSNpmOGdl5inw0NenI9Glp2sW07Tb70mHdCFs1g=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1VLBIw6OnQ4keD9ZH1gpesW9PCS12Mh2bcO2GLb9z5FrFPYQYWk1csqyJ4_GjnQMBNtudS_5wXpJAsNwW7cZ5JFBOmckLiBcKtHVDXoSHBgqNtLedoN9sWZhs3iwNPRNBbw=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlhoi69NtANoG0SZPxgp7K7L9wlNdQtYlTJ8-6dabPxDO5Mm-lil_cCsRdBsNmJ5ZH8ecRHAYB86xTxp8tXzBYXMKTk5IKQ2WiljbsQz29PSsOAvioPOnvzqAC2fnc5qm1Q3WOFmJdRsUAXABFSWNi5YMm_slXaJBGp_oQtba8IG3wgadexa73LOH"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiZF7RR-nreVigSyuTAKgi18WMsSVFGHjwsBk7r5UMSRXBihxQ0rR4pbnNwwrUI-P5-oFIwZSxCckwFS97oaH6jH0y0WLvK-FODvsjR5CNpVSkjLj0os5FjGjVFvWGhYEUpkM4hoDaItpUQ4eIt7PV5PuDZFh8XG8reJlOCZ_iltOli9_MpUw_RSOW"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1VLBIw6OnQ4keD9ZH1gpesW9PCS12Mh2bcO2GLb9z5FrFPYQYWk1csqyJ4_GjnQMBNtudS_5wXpJAsNwW7cZ5JFBOmckLiBcKtHVDXoSHBgqNtLedoN9sWZhs3iwNPRNBbw=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6iuXBTaNJY8Al2RLX-HutU12tU10Vc5uYjTzo38BltuMvzm4VyFNPOdgHyNKObOvgHmlP1CbTv1C9HkGQUi96XqhXTdlNaDWaJnluU6PNTb2HbL2XgS0Bsescbv7uoQ1hLV4lxuam"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlhoi69NtANoG0SZPxgp7K7L9wlNdQtYlTJ8-6dabPxDO5Mm-lil_cCsRdBsNmJ5ZH8ecRHAYB86xTxp8tXzBYXMKTk5IKQ2WiljbsQz29PSsOAvioPOnvzqAC2fnc5qm1Q3WOFmJdRsUAXABFSWNi5YMm_slXaJBGp_oQtba8IG3wgadexa73LOH"
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESp0DydfRfzsJBBjYDZ0IkK8DYL_GgNXhZT9SojRChBkJXbkLUTxh3hT3TxfxnpK4a3BqxQVu0jGJqNBnahrQWcZI0GGcYGP9k-l7R6yrGJSrCNYY3uqsr8C0mEyjnQZZyNNga5g9m7WWCnqVAz3pkwS80x8ts"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1VLBIw6OnQ4keD9ZH1gpesW9PCS12Mh2bcO2GLb9z5FrFPYQYWk1csqyJ4_GjnQMBNtudS_5wXpJAsNwW7cZ5JFBOmckLiBcKtHVDXoSHBgqNtLedoN9sWZhs3iwNPRNBbw=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOlhoi69NtANoG0SZPxgp7K7L9wlNdQtYlTJ8-6dabPxDO5Mm-lil_cCsRdBsNmJ5ZH8ecRHAYB86xTxp8tXzBYXMKTk5IKQ2WiljbsQz29PSsOAvioPOnvzqAC2fnc5qm1Q3WOFmJdRsUAXABFSWNi5YMm_slXaJBGp_oQtba8IG3wgadexa73LOH"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZmEyBQ22jB16IFSZXNi6xs-sa1ccCVks4T8cn-9ASZRsq-t-g-9hIYymKtWtm4SfiOaLDOfcv62qLXd8Lk9VD52WW6ymsv_zdQtZ1fZuUhsqIw54adqRgkFM4bC5uhFnojPhJh2gXSNVrhXDtLT3IkrNXtoM="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5kkzh6z7kgyRT9kDcYx3GFO6RRPJdwi19qI9KS7ZogfIEPoQWQyT4A6cNIQoaPS-wacXdb6L2K9pn8Cc7dBHbf2UUyHD4nyWgPByQMM5I0p1rmKopeNNqqb6eHan6oZhv8BGK5IxpmvTMTavmx3eREWl6GBxFtBdBrXX1K84FJjYNGBbL-FoMACg="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb7dfQkg-VDYI96mS5HwHb-xr2sNd6hLplSBgpsGiclit2770H2t_9_SjA9kjNr3uFBtBhojlcITVEhk7r-qilMbqM0QZumhHHJcT5HGMAYcWdr2N4dItJS7QCml3jtbIRkIlAGTBZ9TAAUToyBwSefieJT7AM7xv5TDvIyLXfXgb28KLmwjXzWFfBbMItDFnyqA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1VLBIw6OnQ4keD9ZH1gpesW9PCS12Mh2bcO2GLb9z5FrFPYQYWk1csqyJ4_GjnQMBNtudS_5wXpJAsNwW7cZ5JFBOmckLiBcKtHVDXoSHBgqNtLedoN9sWZhs3iwNPRNBbw=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6iuXBTaNJY8Al2RLX-HutU12tU10Vc5uYjTzo38BltuMvzm4VyFNPOdgHyNKObOvgHmlP1CbTv1C9HkGQUi96XqhXTdlNaDWaJnluU6PNTb2HbL2XgS0Bsescbv7uoQ1hLV4lxuam"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb7dfQkg-VDYI96mS5HwHb-xr2sNd6hLplSBgpsGiclit2770H2t_9_SjA9kjNr3uFBtBhojlcITVEhk7r-qilMbqM0QZumhHHJcT5HGMAYcWdr2N4dItJS7QCml3jtbIRkIlAGTBZ9TAAUToyBwSefieJT7AM7xv5TDvIyLXfXgb28KLmwjXzWFfBbMItDFnyqA=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1VLBIw6OnQ4keD9ZH1gpesW9PCS12Mh2bcO2GLb9z5FrFPYQYWk1csqyJ4_GjnQMBNtudS_5wXpJAsNwW7cZ5JFBOmckLiBcKtHVDXoSHBgqNtLedoN9sWZhs3iwNPRNBbw=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0Y16c7LuH9F3FzT2tvAUYbu3LBfb08fAXXXsjMCjgMaqAI0_a4jOEnY3nXbLlGxH7P75cwa05nj78C4cbljvN1qrgNBDudCcMcmqBctGmF9pQ2V2cqAiCcmWlIGvTjvbmvQ=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESp0DydfRfzsJBBjYDZ0IkK8DYL_GgNXhZT9SojRChBkJXbkLUTxh3hT3TxfxnpK4a3BqxQVu0jGJqNBnahrQWcZI0GGcYGP9k-l7R6yrGJSrCNYY3uqsr8C0mEyjnQZZyNNga5g9m7WWCnqVAz3pkwS80x8ts"
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF79HKWSpy5S8pIJqknNB8l43nJQ3dXAF6frbciy0aDJTfLoBubGLVgOGMopmm7fpCBQ5e6pQMZVAzv239nj7qtgTZW0xtJzXrP_hvtYAh3y7nE5dGk39wFTugPDtB_bVS9cI33tcNOtZ5s1xvk8m5Ni3CiWY7czPuK0pKkfDT5mv_Z3TfxV34nAaKo_Svbp4CT6g=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF79HKWSpy5S8pIJqknNB8l43nJQ3dXAF6frbciy0aDJTfLoBubGLVgOGMopmm7fpCBQ5e6pQMZVAzv239nj7qtgTZW0xtJzXrP_hvtYAh3y7nE5dGk39wFTugPDtB_bVS9cI33tcNOtZ5s1xvk8m5Ni3CiWY7czPuK0pKkfDT5mv_Z3TfxV34nAaKo_Svbp4CT6g=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF79HKWSpy5S8pIJqknNB8l43nJQ3dXAF6frbciy0aDJTfLoBubGLVgOGMopmm7fpCBQ5e6pQMZVAzv239nj7qtgTZW0xtJzXrP_hvtYAh3y7nE5dGk39wFTugPDtB_bVS9cI33tcNOtZ5s1xvk8m5Ni3CiWY7czPuK0pKkfDT5mv_Z3TfxV34nAaKo_Svbp4CT6g=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF79HKWSpy5S8pIJqknNB8l43nJQ3dXAF6frbciy0aDJTfLoBubGLVgOGMopmm7fpCBQ5e6pQMZVAzv239nj7qtgTZW0xtJzXrP_hvtYAh3y7nE5dGk39wFTugPDtB_bVS9cI33tcNOtZ5s1xvk8m5Ni3CiWY7czPuK0pKkfDT5mv_Z3TfxV34nAaKo_Svbp4CT6g=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5kkzh6z7kgyRT9kDcYx3GFO6RRPJdwi19qI9KS7ZogfIEPoQWQyT4A6cNIQoaPS-wacXdb6L2K9pn8Cc7dBHbf2UUyHD4nyWgPByQMM5I0p1rmKopeNNqqb6eHan6oZhv8BGK5IxpmvTMTavmx3eREWl6GBxFtBdBrXX1K84FJjYNGBbL-FoMACg="
+      },
+      {
+        "label": "fedoraproject",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIn3sM5JOeXvkl50VSgm4NQL5TCGLa_KKt_TPaEz7hrpn8C-u4DOUkBqSxmUKXrAOsUtFDIUu5bRl8xgXCcMmmG7pliDZPTZXua7KeExUs75v3U7cwdyp2Ufc7a5AoC4zmMM0whzENOKqXYllSCUedvrizneKgSTtrCNnJgj1WpXZCNwqSAQ3xQXgxZfrztMa8trN4_2o8OfGhCZW9zMJABkMAanOuAOL"
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5kkzh6z7kgyRT9kDcYx3GFO6RRPJdwi19qI9KS7ZogfIEPoQWQyT4A6cNIQoaPS-wacXdb6L2K9pn8Cc7dBHbf2UUyHD4nyWgPByQMM5I0p1rmKopeNNqqb6eHan6oZhv8BGK5IxpmvTMTavmx3eREWl6GBxFtBdBrXX1K84FJjYNGBbL-FoMACg="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF79HKWSpy5S8pIJqknNB8l43nJQ3dXAF6frbciy0aDJTfLoBubGLVgOGMopmm7fpCBQ5e6pQMZVAzv239nj7qtgTZW0xtJzXrP_hvtYAh3y7nE5dGk39wFTugPDtB_bVS9cI33tcNOtZ5s1xvk8m5Ni3CiWY7czPuK0pKkfDT5mv_Z3TfxV34nAaKo_Svbp4CT6g=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF79HKWSpy5S8pIJqknNB8l43nJQ3dXAF6frbciy0aDJTfLoBubGLVgOGMopmm7fpCBQ5e6pQMZVAzv239nj7qtgTZW0xtJzXrP_hvtYAh3y7nE5dGk39wFTugPDtB_bVS9cI33tcNOtZ5s1xvk8m5Ni3CiWY7czPuK0pKkfDT5mv_Z3TfxV34nAaKo_Svbp4CT6g=="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF79HKWSpy5S8pIJqknNB8l43nJQ3dXAF6frbciy0aDJTfLoBubGLVgOGMopmm7fpCBQ5e6pQMZVAzv239nj7qtgTZW0xtJzXrP_hvtYAh3y7nE5dGk39wFTugPDtB_bVS9cI33tcNOtZ5s1xvk8m5Ni3CiWY7czPuK0pKkfDT5mv_Z3TfxV34nAaKo_Svbp4CT6g=="
+      },
+      {
+        "label": "yihui",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKwcA8hL6JrK70lQ35Z-Tt95cacjDkSs_1-Lani0k9_z8QP99gOrLOxY1swsq0woWLkp_MNkJ7g-ORX2fweLbjLrZ4MzPMuXM-pFHnEdYYZwlsbdwFOV_7z6EbHeOWFUAaZlSlnOc8XGayECFUE112qkA="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF79HKWSpy5S8pIJqknNB8l43nJQ3dXAF6frbciy0aDJTfLoBubGLVgOGMopmm7fpCBQ5e6pQMZVAzv239nj7qtgTZW0xtJzXrP_hvtYAh3y7nE5dGk39wFTugPDtB_bVS9cI33tcNOtZ5s1xvk8m5Ni3CiWY7czPuK0pKkfDT5mv_Z3TfxV34nAaKo_Svbp4CT6g=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW0F4GwocEFSNX3tQ9a4TwrWgdeuDOn1fzBhZuzBVu-lzYwFsaHfLFoc-jPQrdMLFMJ_CiQyoAHrUVJXkXz2IoaernijuMY9MsIz53woOxDAdF-PrUV7NYegywx6CDisbM0xCK8WCv0zT2-J_5x635bkZsAq9NbvCoQTrvh18jMNs4YLu-"
+      },
+      {
+        "label": "yihui",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKwcA8hL6JrK70lQ35Z-Tt95cacjDkSs_1-Lani0k9_z8QP99gOrLOxY1swsq0woWLkp_MNkJ7g-ORX2fweLbjLrZ4MzPMuXM-pFHnEdYYZwlsbdwFOV_7z6EbHeOWFUAaZlSlnOc8XGayECFUE112qkA="
+      },
+      {
+        "label": "fedoraproject",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSIn3sM5JOeXvkl50VSgm4NQL5TCGLa_KKt_TPaEz7hrpn8C-u4DOUkBqSxmUKXrAOsUtFDIUu5bRl8xgXCcMmmG7pliDZPTZXua7KeExUs75v3U7cwdyp2Ufc7a5AoC4zmMM0whzENOKqXYllSCUedvrizneKgSTtrCNnJgj1WpXZCNwqSAQ3xQXgxZfrztMa8trN4_2o8OfGhCZW9zMJABkMAanOuAOL"
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESp0DydfRfzsJBBjYDZ0IkK8DYL_GgNXhZT9SojRChBkJXbkLUTxh3hT3TxfxnpK4a3BqxQVu0jGJqNBnahrQWcZI0GGcYGP9k-l7R6yrGJSrCNYY3uqsr8C0mEyjnQZZyNNga5g9m7WWCnqVAz3pkwS80x8ts"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1VLBIw6OnQ4keD9ZH1gpesW9PCS12Mh2bcO2GLb9z5FrFPYQYWk1csqyJ4_GjnQMBNtudS_5wXpJAsNwW7cZ5JFBOmckLiBcKtHVDXoSHBgqNtLedoN9sWZhs3iwNPRNBbw=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0Y16c7LuH9F3FzT2tvAUYbu3LBfb08fAXXXsjMCjgMaqAI0_a4jOEnY3nXbLlGxH7P75cwa05nj78C4cbljvN1qrgNBDudCcMcmqBctGmF9pQ2V2cqAiCcmWlIGvTjvbmvQ=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg9Tj1tgxKQAMyHmSHNsnhy7w-OyCrK8GdhHjeP7OsrnTyUyLDhST3pcbdjXVotRmlnqXGv4ndtqHhEBxTeVPlsuU_tE2IoxEGb42sEKM7Lv1u7LnqbnhbnIiUSpxs_4Js8nX-KuhIHJY9xWIwJ-lWM6Fa4QkVvymjiZ_KE697mHAkJbWPnWzbCsns2gU7R2AQ7Pxtzkngbm7Bf2YiZBYKTs8qh-C_V2SHh4HgIqiq"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFb7dfQkg-VDYI96mS5HwHb-xr2sNd6hLplSBgpsGiclit2770H2t_9_SjA9kjNr3uFBtBhojlcITVEhk7r-qilMbqM0QZumhHHJcT5HGMAYcWdr2N4dItJS7QCml3jtbIRkIlAGTBZ9TAAUToyBwSefieJT7AM7xv5TDvIyLXfXgb28KLmwjXzWFfBbMItDFnyqA=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5kkzh6z7kgyRT9kDcYx3GFO6RRPJdwi19qI9KS7ZogfIEPoQWQyT4A6cNIQoaPS-wacXdb6L2K9pn8Cc7dBHbf2UUyHD4nyWgPByQMM5I0p1rmKopeNNqqb6eHan6oZhv8BGK5IxpmvTMTavmx3eREWl6GBxFtBdBrXX1K84FJjYNGBbL-FoMACg="
+      },
+      {
+        "label": "amd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0zD6UAJFua3BC0Tc84EPEN8kpo2CV-ebDmizoucYIl3yYU0xbpSZ8qgPtVqLcLlsEBppb4nIhXmua2-GcV_WauWypa0d0kTh9_Zu8b8-loNn0VujARYTG0WHaEb92XPRKKKc="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLaD3qVZMZMrnFsnHUZparFfGApJMowZzBmjKPHD6PFSXTd6g7D9aeddGeoQEc8NyQI_C0WbfmIc-pjml6e9kQky9-QKMDr9NMnTI_a-cN-qfuKui4UguCrjyHvtCNmt4SqvCkq2tM-0EnerrmtCsW8aXG4YbVs4uFFjWfxMZ0AAqV_jAVXRMwR9bGIyAMECObCVoyDBEm_k8g"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

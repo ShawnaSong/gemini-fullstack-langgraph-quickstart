@@ -1,0 +1,1140 @@
+{
+  "file_name": "state_result_195.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.733960",
+  "data": {
+    "messages": [
+      {
+        "content": "Find scientific papers that examine the catalytic activity and stability of platinum rhodium alloys for oxygen reduction reaction. Make conclusions about your findings",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "293c79c6-1974-42e8-8a1c-13f65cd4fd0e",
+        "example": false
+      },
+      {
+        "content": "Platinum-rhodium (PtRh) alloys are being investigated as electrocatalysts for the oxygen reduction reaction (ORR) in polymer electrolyte membrane fuel cells (PEMFCs) due to their potential to enhance both activity and stability while reducing platinum loading [nih](https://vertexaisearch.cloud.google.com/id/0-4) [acs](https://vertexaisearch.cloud.google.com/id/0-5) [cas](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**Catalytic Activity and Stability:** Alloying platinum with rhodium can optimize its electronic structure and decrease the consumption of platinum, enhancing catalytic activity [acs](https://vertexaisearch.cloud.google.com/id/1-0). PtRh alloys have demonstrated better mass activity and stability compared to traditional Pt/C catalysts [analis](https://vertexaisearch.cloud.google.com/id/1-4). The addition of a secondary metal like Rh can change the d-band center and surface atomic arrangement, which alters the chemisorption of oxygen-containing species and impacts ORR kinetics [acs](https://vertexaisearch.cloud.google.com/id/5-2). Rh-doped Pt nanowires, for example, have shown enhanced ORR specific and mass activities compared to pure Pt nanowires [mdpi](https://vertexaisearch.cloud.google.com/id/5-4).\n\n**\"Self-Healing\" Effect and Structural Evolution:** Dendrite-like PtRh alloy catalysts exhibit a \"self-healing\" effect during accelerated durability testing, which is crucial for their stability and performance retention [acs](https://vertexaisearch.cloud.google.com/id/4-0) [cas](https://vertexaisearch.cloud.google.com/id/4-1). This involves structural evolution, where a Pt-rich surface forms, resisting dissolution [acs](https://vertexaisearch.cloud.google.com/id/4-0). The synergy between the Pt-rich surface and the inner PtRh alloy suppresses further metal component dissolution, resulting in high durability [acs](https://vertexaisearch.cloud.google.com/id/4-0) [acs](https://vertexaisearch.cloud.google.com/id/1-5). For example, a PtRh nanodendrite electrocatalyst retained 88% of its mass activity after 90,000 cycles in an accelerated durability test [acs](https://vertexaisearch.cloud.google.com/id/4-0).\n\n**Influence of Pt:Rh Ratio:** The ratio of platinum to rhodium in PtRh alloy catalysts affects their catalytic activity and stability [aip](https://vertexaisearch.cloud.google.com/id/5-3). Density functional theory (DFT) suggests that rhodium provides long-term stability when added around 25%–30% (approximately) at wt. ratio to other active catalyst metals such as Pt [aip](https://vertexaisearch.cloud.google.com/id/5-3).\n\n**Synthesis Methods:** Various methods are used to synthesize PtRh alloy catalysts, including solvothermal reduction, wet chemical methods, template-free self-assembly, and chemical reduction [acs](https://vertexaisearch.cloud.google.com/id/1-0) [researchgate](https://vertexaisearch.cloud.google.com/id/1-1) [mdpi](https://vertexaisearch.cloud.google.com/id/1-2) [lidsen](https://vertexaisearch.cloud.google.com/id/1-3). These methods influence the catalyst's structure and performance [acs](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Degradation Mechanisms:** Degradation mechanisms affecting Pt–Rh catalysts are not fully understood [acs](https://vertexaisearch.cloud.google.com/id/5-6). Particle detachment from the carbon support can be a primary degradation mechanism [acs](https://vertexaisearch.cloud.google.com/id/5-6). Other degradation modes for Pt-based catalysts include particle dissolution, agglomeration, Ostwald ripening, and carbon corrosion [acs](https://vertexaisearch.cloud.google.com/id/5-6) [mdpi](https://vertexaisearch.cloud.google.com/id/5-7).\n\n**Testing Methods:** Electrocatalytic activity and stability are often tested using rotating disk electrode (RDE) and gas diffusion electrode (GDE) half-cells [acs](https://vertexaisearch.cloud.google.com/id/5-1) [airbus](https://vertexaisearch.cloud.google.com/id/5-0). Accelerated stress tests (AST) are used to evaluate the stability of electrocatalysts [mdpi](https://vertexaisearch.cloud.google.com/id/5-10).\n\n**Conclusion:** PtRh alloys show promise as ORR catalysts due to their enhanced activity and stability, particularly through the \"self-healing\" effect observed during durability testing [acs](https://vertexaisearch.cloud.google.com/id/4-0) [cas](https://vertexaisearch.cloud.google.com/id/4-1). Further research is needed to optimize the Pt:Rh ratio, understand degradation mechanisms, and enhance support-particle interactions to improve stability [acs](https://vertexaisearch.cloud.google.com/id/5-6).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "1979f591-ae6d-414d-8a95-15d314cd789a",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "platinum rhodium alloy catalysts oxygen reduction reaction stability activity \"scientific studies\"",
+      "What are the specific synthesis methods used to create dendrite-like PtRh alloy catalysts, and how do these methods influence the resulting catalyst structure and performance for the oxygen reduction reaction?",
+      "What is the ",
+      "self-healing",
+      " effect observed in dendrite-like PtRh alloy catalysts during accelerated durability testing, and how does it contribute to the catalyst's stability and performance retention in oxygen reduction reaction?",
+      "How do different ratios of platinum to rhodium in PtRh alloy catalysts affect their catalytic activity and stability for the oxygen reduction reaction, and what are the optimal ratios for achieving high performance and durability?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"platinum rhodium alloy catalysts oxygen reduction reaction stability activity \"scientific studies\"\" and synthesize it into a verifiable text artifact.\nPlatinum-based alloy electrocatalysts are promising materials for the oxygen reduction reaction (ORR) in polymer electrolyte membrane fuel cells (PEMFCs) [cas](https://vertexaisearch.cloud.google.com/id/0-0) [jchemrev](https://vertexaisearch.cloud.google.com/id/0-1). However, their high cost and insufficient durability hinder the commercialization of PEMFCs [nih](https://vertexaisearch.cloud.google.com/id/0-2) [mdpi](https://vertexaisearch.cloud.google.com/id/0-3) [cas](https://vertexaisearch.cloud.google.com/id/0-0). Current research focuses on enhancing the activity and stability of these catalysts while reducing platinum loading [nih](https://vertexaisearch.cloud.google.com/id/0-4) [acs](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**Platinum-Rhodium Alloys**\nResearchers have fabricated core-shell platinum-rhodium alloy (PtRh/Pt) electrocatalysts for the ORR with ultra-high stability [cas](https://vertexaisearch.cloud.google.com/id/0-0). A dendrite-like PtRh alloy catalyst, created via a one-pot synthetic method, undergoes structural evolution during accelerated durability testing, forming a Pt-rich surface through a \"self-healing\" effect [cas](https://vertexaisearch.cloud.google.com/id/0-0). The segregation energy of rhodium atoms is higher than that of cobalt and nickel in similar core-shell structures [cas](https://vertexaisearch.cloud.google.com/id/0-0). After 90,000 accelerated durability test cycles, the half-wave potential shifts negatively by only about 5 mV, and the mass activity remains at 88%, which is significantly more stable than commercial platinum-carbon catalysts [cas](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**Key Factors Influencing ORR Activity and Stability**\n\n*   **Alloying with Transition Metals:** Alloying platinum with transition metals like nickel, cobalt, iron, copper, and zinc can improve ORR activity and reduce Pt loading [nih](https://vertexaisearch.cloud.google.com/id/0-2) [jchemrev](https://vertexaisearch.cloud.google.com/id/0-1) [acs](https://vertexaisearch.cloud.google.com/id/0-6) [acs](https://vertexaisearch.cloud.google.com/id/0-5). The electrocatalytic ORR reactivity of platinum-nickel (111) single crystal facets is superior to that of (100) and (110) counterparts [acs](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Electronic and Geometric Effects:** Alloying Pt with transition metals modifies its electronic structure, tailoring its oxygen binding energy and adjusting its ORR activity [researchgate](https://vertexaisearch.cloud.google.com/id/0-7) [nih](https://vertexaisearch.cloud.google.com/id/0-2) [acs](https://vertexaisearch.cloud.google.com/id/0-6). Geometric strain and electronic ligand effects also play a role in increasing catalytic activity [acs](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Surface Structure:** The surface morphology and electronic surface properties influence the kinetics of ORR [researchgate](https://vertexaisearch.cloud.google.com/id/0-8). Pt-skin and Pt-skeleton structures exhibit different electrochemical properties [acs](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **D-band Center:** The d-band center of Pt alloys has a key relation to their catalytic performance [jchemrev](https://vertexaisearch.cloud.google.com/id/0-1) [nih](https://vertexaisearch.cloud.google.com/id/0-2). Shifts in the d-band center with Pt alloy composition are accompanied by changes in ORR activity [researchgate](https://vertexaisearch.cloud.google.com/id/0-10).\n*   **Stability in Acidic Environments:** The acidic environment (pH < 1) and positive electrode potentials (>0.7 V vs RHE) can lead to selective metal corrosion and leaching of transition metals, gradually approaching the activity of pure Pt [acs](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Operating Conditions:** Relative humidity and operating temperature impact the dissolution of non-noble metals and Pt mitigation [acs](https://vertexaisearch.cloud.google.com/id/0-6). Low RH enhances stability, while increasing operating temperatures lead to growing degradation effects [acs](https://vertexaisearch.cloud.google.com/id/0-6).\n\n**Strategies for Enhancing Stability**\n\n*   **Core-Shell Structures:** Fabricating core-shell structures, such as PtRh/Pt, can enhance stability by forming a Pt-rich surface during testing [cas](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Ordered Intermetallic Alloys:** Exploring ordered intermetallic alloys of Pt, such as PtCo, can provide high stability and higher mass activity than commercial Pt/C [researchgate](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Metal Doping:** Doping PtNi catalysts with metals like molybdenum (Mo) and molybdenum-rhodium (MoRh) can enhance ORR activity and stability [acs](https://vertexaisearch.cloud.google.com/id/0-6) [nih](https://vertexaisearch.cloud.google.com/id/0-4).\n\n**Alternative Catalysts**\nSingle-atom catalysts (SACs) are considered promising non-precious metal alternatives for ORR due to their high atomic utilization and excellent catalytic performance [sciopen](https://vertexaisearch.cloud.google.com/id/0-11).\n\n**Testing Methods**\nThe rotating disk electrode (RDE) is less suitable for assessing catalyst behavior under PEMFC operating conditions [nih](https://vertexaisearch.cloud.google.com/id/0-4) [acs](https://vertexaisearch.cloud.google.com/id/0-6). Gas diffusion electrode (GDE) half-cell setups are used to test catalyst performance under application-oriented conditions and higher current densities [acs](https://vertexaisearch.cloud.google.com/id/0-6) [nih](https://vertexaisearch.cloud.google.com/id/0-4).\n",
+      "Based on the search results, here's a summary of synthesis methods for dendrite-like PtRh alloy catalysts and their influence on the oxygen reduction reaction (ORR):\n\n**Synthesis Methods:**\n\n*   **Solvothermal Reduction:** A one-pot solvothermal reduction method can be used to synthesize PtRh nanoparticles on Ag nanocubes, creating a trimetallic core-shell catalyst [acs](https://vertexaisearch.cloud.google.com/id/1-0). The process involves controlling the reduction potential of Pt, Ag, and Rh by adding N,N-dimethylacetamide (DMA) into oleylamine (OAM), which leads to the reduction of Ag to form the core, followed by PtRh reduction and growth on the surface [acs](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Wet Chemical Method:** A two-step wet chemical method can be used to synthesize homogeneous Pt nanodendrites (Pt NDs) with a PtIr shell [researchgate](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Template-Free Self-Assembly:** A modified template-free self-assembly approach can be used to synthesize PtRh alloy 3D porous nanostructures with a tunable atomic ratio of Pt and Rh [mdpi](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Chemical Reduction:** Pt-Rh nanowires (NWs) can be synthesized through chemical reduction of metallic precursors using formic acid at room temperature, without surfactants, templates, or stabilizing agents [lidsen](https://vertexaisearch.cloud.google.com/id/1-3).\n\n**Influence on Catalyst Structure and Performance:**\n\n*   **Enhanced Activity and Stability:** Alloying Pt with other metals, such as Rh, decreases the consumption of Pt and optimizes its electronic structure, enhancing catalytic activity [acs](https://vertexaisearch.cloud.google.com/id/1-0). PtRh alloys can exhibit better mass activity and stability than Pt/C catalysts [analis](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Dendritic Morphology:** The dendritic nanostructure and the synergy between Pd and Pt in Pt-Pd core-shell dendritic nanostructures can significantly improve catalytic performance compared to commercial Pt/C [mdpi](https://vertexaisearch.cloud.google.com/id/1-2). Well-organized dendritic morphology, along with a Pt-rich shell, contributes to high catalytic activity and superior stability for acidic ORR [researchgate](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Structural Evolution:** PtRh nanodendrites undergo structural evolution, forming a Pt-rich surface during initial potential cycling, which resists dissolution [acs](https://vertexaisearch.cloud.google.com/id/1-5). The synergy between the Pt-rich surface and the inner PtRh alloy suppresses further metal component dissolution, resulting in high durability [acs](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Increased Active Sites:** The accumulation of PtRh particles on the surface increases the active contact area of the catalyst, providing abundant low-coordinate atoms as effective active sites [acs](https://vertexaisearch.cloud.google.com/id/1-0). The uneven skin of nanocubes exposes abundant active sites and improves Pt utilization [acs](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Improved CO Tolerance:** PtRh catalysts can display strengthened durability by maintaining mass activity after methanol oxidation reaction (MOR) cycles due to better CO tolerance [acs](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Support Effects:** The choice of support material influences catalytic activity [lidsen](https://vertexaisearch.cloud.google.com/id/1-3). For example, SnO2 can provide oxygen-containing species for the oxidation of intermediate species formed during ethanol dissociation, operating through a bifunctional mechanism [lidsen](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Durability:** An ultradurable PtRh nanodendrite (PtRh ND) electrocatalyst retained 88% of its mass activity after an accelerated durability test for 90,000 cycles [acs](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**Key Factors Influencing ORR Performance:**\n\n*   **Crystal Face Structure:** The crystal face exposed by the Pt-based catalyst determines the atomic arrangement and electronic structure of the surface, which directly affects the electrochemical adsorption and decomposition of reactant molecules [nih](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Strain and Ligand Effects:** Strain effects enhance the performance of Pt-based catalysts by adjusting the distance between Pt atoms to change their electronic structure. Ligand effects contribute to electron transfer between different atomic surfaces [nih](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Particle Size:** Smaller particle sizes presented larger electrochemical surface area (ECSA), which exhibit higher mass activity and stability [analis](https://vertexaisearch.cloud.google.com/id/1-4).\n",
+      "Okay, I will conduct Google Searches to gather the most recent information on \"What is the\" and synthesize it into a verifiable text artifact.\n\nBased on recent reports and studies in 2025, here's a synthesis of information on several topics:\n\n**Artificial Intelligence (AI):**\n\n*   **Definition:** Artificial intelligence is the simulation of human intelligence in machines programmed to think, learn, and problem-solve like humans [phrase](https://vertexaisearch.cloud.google.com/id/2-0) [coursera](https://vertexaisearch.cloud.google.com/id/2-1). It involves creating intelligent systems that perform tasks typically requiring human intelligence, such as speech recognition, decision-making, and visual perception [phrase](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Components:** AI encompasses a wide range of technologies, including machine learning, deep learning, natural language processing (NLP), expert systems, and robotics [coursera](https://vertexaisearch.cloud.google.com/id/2-1) [phrase](https://vertexaisearch.cloud.google.com/id/2-0). Machine learning, a subset of AI, enables machines to learn from data and improve performance without explicit programming [phrase](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Applications:** AI is revolutionizing various sectors, including healthcare, finance, transportation and is used in translation, virtual assistants, and recommendation systems [coursera](https://vertexaisearch.cloud.google.com/id/2-1) [phrase](https://vertexaisearch.cloud.google.com/id/2-0). It empowers computers to perform advanced tasks like visual perception, language comprehension, data analysis, artistic creation, and video generation [elegantthemes](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **How it Works:** AI processes large amounts of data using algorithms to recognize keywords and identify the type of help needed [elegantthemes](https://vertexaisearch.cloud.google.com/id/2-2). It learns from data, improves results, and makes decisions based on patterns and rules established through machine learning [zyneto](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Types of AI**: Narrow or Weak AI, General or Strong AI and Super Artificial Intelligence [elegantthemes](https://vertexaisearch.cloud.google.com/id/2-2) [zyneto](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Challenges**: There is no universally accepted definition of AI [zyneto](https://vertexaisearch.cloud.google.com/id/2-3).\n\n**Quantum Computing:**\n\n*   **Current State:** As of 2025, the number of quantum computers is still limited, estimated to be around 100 to 200 globally, but is growing steadily [spinquanta](https://vertexaisearch.cloud.google.com/id/2-4). Other estimates suggest approximately 1,000 quantum computers globally, though the majority are still in development or testing phases [spinquanta](https://vertexaisearch.cloud.google.com/id/2-4).\n*   **Capabilities:** Quantum computers have the potential to revolutionize industries like cryptography, artificial intelligence, medicine, logistics and more [spinquanta](https://vertexaisearch.cloud.google.com/id/2-4) [quantum-photonics](https://vertexaisearch.cloud.google.com/id/2-5). They are expected to be particularly good at solving multivariable problems [towardsdatascience](https://vertexaisearch.cloud.google.com/id/2-6).\n*   **Components:** Quantum chips with over 100 qubits are available and are being used to evaluate and improve quantum computers [www](https://vertexaisearch.cloud.google.com/id/2-7).\n*   **Challenges:** Key challenges remain, including improving error correction, achieving quantum coherence over longer periods, and the high error susceptibility of current systems [spinquanta](https://vertexaisearch.cloud.google.com/id/2-4) [quantum-photonics](https://vertexaisearch.cloud.google.com/id/2-5). Quantum computers require special cooling systems and are expensive to operate [quantum-photonics](https://vertexaisearch.cloud.google.com/id/2-5). There is also a lack of universal interfaces and standardized programming languages [quantum-photonics](https://vertexaisearch.cloud.google.com/id/2-5).\n*   **Future Outlook:** Quantum chips are expected to continue scaling up, with the next generation using logical qubits [www](https://vertexaisearch.cloud.google.com/id/2-7). McKinsey estimates that by 2030, there will be 5,000 operational quantum computers [spinquanta](https://vertexaisearch.cloud.google.com/id/2-4). The United Nations has designated 2025 as the International Year of Quantum Science and Technology [towardsdatascience](https://vertexaisearch.cloud.google.com/id/2-6) [www](https://vertexaisearch.cloud.google.com/id/2-7).\n\n**Climate Change:**\n\n*   **Global Temperature Increase:** The World Meteorological Organization (WMO) predicts that the annually averaged global mean near-surface temperature for each year between 2025 and 2029 will be 1.2°C to 1.9°C higher than the average from 1850-1900.  [wmo](https://vertexaisearch.cloud.google.com/id/2-8)There is a 70% chance that the five-year average warming for 2025-2029 will exceed 1.5°C. T [wmo](https://vertexaisearch.cloud.google.com/id/2-8) [un](https://vertexaisearch.cloud.google.com/id/2-9)here is an 80% chance that at least one year between 2025 and 2029 will be warmer than the warmest year on record (currently 2024).\n* [wmo](https://vertexaisearch.cloud.google.com/id/2-8)   **Extreme Weather Events:** Extreme weather events are occurring more frequently.\n* [charitydigital](https://vertexaisearch.cloud.google.com/id/2-10)   **Impacts:** Rising temperatures are expected to drive more harmful heatwaves, extreme rainfall, intense droughts, melting of ice sheets and glaciers, heating of the ocean, and rising sea levels. C [wmo](https://vertexaisearch.cloud.google.com/id/2-8)limate change is also increasing risks for pregnant women, unborn children, and infants.\n* [10insightsclimate](https://vertexaisearch.cloud.google.com/id/2-11)   **Arctic Warming:** The Arctic is warming more than three and a half times the global average. P [un](https://vertexaisearch.cloud.google.com/id/2-9) [wmo](https://vertexaisearch.cloud.google.com/id/2-8)redictions suggest further reductions in sea-ice concentration in the Barents Sea, Bering Sea, and Sea of Okhotsk.\n* [wmo](https://vertexaisearch.cloud.google.com/id/2-8) [un](https://vertexaisearch.cloud.google.com/id/2-9)   **Precipitation Patterns:** Predicted precipitation patterns suggest wetter-than-average conditions in the Sahel, northern Europe, Alaska, and northern Siberia, and drier-than-average conditions over the Amazon.\n* [wmo](https://vertexaisearch.cloud.google.com/id/2-8)   **Glacier Loss:** Glaciers globally will lose 39% of their 2020 mass if temperatures remain steady, causing a sea level rise of 113 millimeters (4.4 inches).\n* [wikipedia](https://vertexaisearch.cloud.google.com/id/2-12)   **Aerosols:** Reduction in air pollution reveals the full extent of warming caused by historical greenhouse gas emissions.\n* [10insightsclimate](https://vertexaisearch.cloud.google.com/id/2-11)   **Mitigation Goals:** To limit warming to 1.5C, the world needs to decrease fossil fuel production by around 6% between 2020-30.\n\n [charitydigital](https://vertexaisearch.cloud.google.com/id/2-10)**Meaning of Life:**\n\n*   **Personal Interpretation:** The meaning of life is defined by the individual and is created based on their needs, wants, abilities, dreams, and desires. I [quora](https://vertexaisearch.cloud.google.com/id/2-13) [quora](https://vertexaisearch.cloud.google.com/id/2-14)t is not something to be found but something to be created.\n* [quora](https://vertexaisearch.cloud.google.com/id/2-14) [quora](https://vertexaisearch.cloud.google.com/id/2-13)   **Contribution and Service:** Making a difference and positively impacting others can provide a powerful sense of purpose.\n* [declutterthemind](https://vertexaisearch.cloud.google.com/id/2-15) [lifeblueprints](https://vertexaisearch.cloud.google.com/id/2-16)   **Experiencing Life:** Finding meaning in the sheer experience of being alive and appreciating the little moments.\n* [lifeblueprints](https://vertexaisearch.cloud.google.com/id/2-16) [declutterthemind](https://vertexaisearch.cloud.google.com/id/2-15)   **Spiritual/Religious Angle:** Meaning can come from a higher power, a divine plan, or a connection to something transcendent.\n* [lifeblueprints](https://vertexaisearch.cloud.google.com/id/2-16)   **Evolving Consciousness:** The goal of life can be seen as the evolution of consciousness and the attainment of higher levels of awareness.\n [medium](https://vertexaisearch.cloud.google.com/id/2-17)",
+      "Okay, I will conduct Google Searches to gather the most recent and credible information on \"self-healing\" and synthesize it into a verifiable text artifact.\nSelf-healing materials represent a significant advancement in materials science, designed to autonomously repair damage, mimicking the natural healing processes found in biological systems [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0) [sheffield](https://vertexaisearch.cloud.google.com/id/3-1). These materials are engineered with specialized mechanisms that activate upon damage, initiating repair processes without external intervention, thus restoring structural integrity and functional properties [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0).\n\n**Types of Self-Healing Mechanisms:**\n*   **Extrinsic:** These systems use embedded healing agents, often stored in microcapsules or vascular networks, that are released upon damage to fill cracks and restore properties [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0) [bohrium](https://vertexaisearch.cloud.google.com/id/3-2) [mdpi](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Intrinsic:** These systems leverage dynamic chemical bonds that can reform after breakage, enabling multiple healing cycles without depleting resources [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0) [mdpi](https://vertexaisearch.cloud.google.com/id/3-3) [bohrium](https://vertexaisearch.cloud.google.com/id/3-2). These can involve reversible covalent bonds, dynamic physical bonds, or physical interactions [mdpi](https://vertexaisearch.cloud.google.com/id/3-4) [benthamdirect](https://vertexaisearch.cloud.google.com/id/3-5).\n*   **Hybrid:** Combining extrinsic and intrinsic methodologies [idtechex](https://vertexaisearch.cloud.google.com/id/3-6).\n\n**Self-Healing Concrete:**\nSelf-healing concrete is a prominent area of research and application [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0) [quantumzeitgeist](https://vertexaisearch.cloud.google.com/id/3-7). It can extend the service life of concrete structures by autonomously mending cracks [nih](https://vertexaisearch.cloud.google.com/id/3-8). This is achieved through several methods:\n*   **Bacterial Concrete:** Incorporates bacteria that precipitate calcite to fill cracks, making structures watertight and enhancing durability [nih](https://vertexaisearch.cloud.google.com/id/3-8) [rics](https://vertexaisearch.cloud.google.com/id/3-9) [framcos](https://vertexaisearch.cloud.google.com/id/3-10). Bacillus subtilis is often used [nih](https://vertexaisearch.cloud.google.com/id/3-8) [mdpi](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Extrinsic Systems:** Employ microcapsules containing healing agents that are released upon cracking [mdpi](https://vertexaisearch.cloud.google.com/id/3-3) [rics](https://vertexaisearch.cloud.google.com/id/3-9).\n*   **Autogenous Healing:** Enhanced by supplementary cementitious materials (SCMs) like expansive minerals that expand in the presence of water to fill cracks [mdpi](https://vertexaisearch.cloud.google.com/id/3-3). Water facilitates further cement hydration, leading to the formation of calcium carbonate, which heals the cracks [mdpi](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Fiber Reinforcement:** The inclusion of fibers helps distribute cracks in the cement matrix, resulting in smaller cracks and improved self-healing capacity [framcos](https://vertexaisearch.cloud.google.com/id/3-10) [csce](https://vertexaisearch.cloud.google.com/id/3-11).\n\n**Self-Healing Polymers:**\nSelf-healing polymers are designed to repair damage autonomously, enhancing durability, functionality, and sustainability [plasticsengineering](https://vertexaisearch.cloud.google.com/id/3-12) [mdpi](https://vertexaisearch.cloud.google.com/id/3-4) [benthamdirect](https://vertexaisearch.cloud.google.com/id/3-5) [researchgate](https://vertexaisearch.cloud.google.com/id/3-13) [annualreviews](https://vertexaisearch.cloud.google.com/id/3-14). Key innovations include:\n*   **Vitrimers:** These are dynamic networks formed by adaptable covalent bonds, offering chemical resilience and self-healing capabilities, making them suitable for polymer coatings [plasticsengineering](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Supramolecular Hydrogels:** These materials utilize hydrogen bonds to achieve self-healing and are used in energy storage applications such as flexible supercapacitors [plasticsengineering](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Architectured Silicones:** Designed through 3D printing, these silicones combine creep resistance and self-healing, suitable for biomedical devices and robotics [plasticsengineering](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Diels-Adler Polymers (DAPs):** These polymers have dynamic covalent bond networks that can be broken and reformed, displaying unique self-healing properties [tamu](https://vertexaisearch.cloud.google.com/id/3-15).\n\n**Applications:**\nSelf-healing materials are being developed for a wide array of applications [idtechex](https://vertexaisearch.cloud.google.com/id/3-6) [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0) [nih](https://vertexaisearch.cloud.google.com/id/3-16) [sheffield](https://vertexaisearch.cloud.google.com/id/3-1):\n*   **Construction:** Self-healing concrete, asphalt, and protective coatings are used to improve the durability and longevity of infrastructure [towardschemandmaterials](https://vertexaisearch.cloud.google.com/id/3-17) [rics](https://vertexaisearch.cloud.google.com/id/3-9) [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Automotive:** Applications include scratch-resistant finishes, self-healing glass, composites, and tire technologies [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0) [idtechex](https://vertexaisearch.cloud.google.com/id/3-18). Self-healing tires can reduce the effect of punctures, extending tire lifespan and reducing the need for replacements [idtechex](https://vertexaisearch.cloud.google.com/id/3-18) [idtechex](https://vertexaisearch.cloud.google.com/id/3-6).\n*   **Aerospace:** Self-healing composites and coatings enhance safety and reduce maintenance intervals [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0). A new polymer developed by Texas A&M could make space vehicle windows more resilient to micrometeoroids [tamu](https://vertexaisearch.cloud.google.com/id/3-15).\n*   **Electronics:** These materials are used in display technologies, flexible electronics, wearables, soft robotics, and sensors [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0). Supramolecular hydrogels are used in flexible supercapacitors [plasticsengineering](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Energy Storage:** Self-healing materials are utilized in battery components, solid electrolytes, fuel cell membranes, and solar technologies [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Healthcare:** Applications include tissue engineering scaffolds, drug delivery systems, artificial skin, dental composites, and orthopedic applications [futuremarketsinc](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Coatings:** Self-healing polymers are used in coatings to extend the lifespan of components exposed to mechanical and environmental stress [researchgate](https://vertexaisearch.cloud.google.com/id/3-13) [plasticsengineering](https://vertexaisearch.cloud.google.com/id/3-12).\n\n**Market Trends:**\nThe self-healing materials market is experiencing significant growth, driven by increasing demand across various industries [towardschemandmaterials](https://vertexaisearch.cloud.google.com/id/3-17) [grandviewresearch](https://vertexaisearch.cloud.google.com/id/3-19). The global self-healing material market is projected to reach USD 20.68 billion by 2034, expanding at a CAGR of 20.11% between 2025 and 2034 [towardschemandmaterials](https://vertexaisearch.cloud.google.com/id/3-17). The building and construction segment led the market in 2024, with reversible polymers also holding a significant share due to their use in the medical sector [grandviewresearch](https://vertexaisearch.cloud.google.com/id/3-19) [towardschemandmaterials](https://vertexaisearch.cloud.google.com/id/3-17).\n\n**Challenges and Future Directions:**\nDespite the advancements, challenges remain in scaling up complex chemistries, ensuring robustness, and addressing performance degradation at extreme temperatures [nih](https://vertexaisearch.cloud.google.com/id/3-16) [researchgate](https://vertexaisearch.cloud.google.com/id/3-20). Future research trends include incorporating nanomaterials and stimuli-responsive systems to enhance material performance [csce](https://vertexaisearch.cloud.google.com/id/3-11) [nih](https://vertexaisearch.cloud.google.com/id/3-16). Integration of AI with self-healing materials may provide real-time damage detection and autonomous repair capabilities [towardschemandmaterials](https://vertexaisearch.cloud.google.com/id/3-17).\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on the effect observed in dendrite-like PtRh alloy catalysts during accelerated durability testing, and how it contributes to the catalyst's stability and performance retention in the oxygen reduction reaction. I will then synthesize the information into a verifiable text artifact.\n\nThe effect observed in dendrite-like PtRh alloy catalysts during accelerated durability testing significantly contributes to the catalyst's stability and performance retention in the oxygen reduction reaction (ORR). This effect primarily involves structural evolution and the formation of a Pt-rich surface, leading to enhanced durability and performance [acs](https://vertexaisearch.cloud.google.com/id/4-0) [cas](https://vertexaisearch.cloud.google.com/id/4-1).\n\nHere's a breakdown of the key aspects:\n\n*   **Structural Evolution and Self-Healing Effect:** During initial potential cycling in accelerated durability tests, PtRh nanodendrites (NDs) undergo intense structural evolution, resulting in the formation of a Pt-rich surface [acs](https://vertexaisearch.cloud.google.com/id/4-0) [cas](https://vertexaisearch.cloud.google.com/id/4-1). This Pt-rich surface is crucial for the catalyst's resistance to dissolution [acs](https://vertexaisearch.cloud.google.com/id/4-0). Density functional theory (DFT) calculations have revealed a \"self-healing\" effect, where the difference in dissolution energy between Pt and Rh atoms drives this structural evolution [acs](https://vertexaisearch.cloud.google.com/id/4-0).\n\n*   **Enhanced Durability:** The formation of a Pt-rich surface, combined with the synergy between this surface and the inner PtRh alloy, suppresses further dissolution of metal components [acs](https://vertexaisearch.cloud.google.com/id/4-0). This leads to ultrahigh durability [acs](https://vertexaisearch.cloud.google.com/id/4-0). For instance, one study reported that a PtRh ND electrocatalyst retained 88% of its mass activity after 90,000 cycles in an accelerated durability test [acs](https://vertexaisearch.cloud.google.com/id/4-0). Another study showed a loss of only 2.1% in mass activity (MA) and an increase of 12.0% in specific activity (SA) after 40,000 potential-scanning cycles [researchgate](https://vertexaisearch.cloud.google.com/id/4-2). In comparison, Rh-Pt3Co/C catalyst maintained 92% of its mass activity after 170,000 potential cycles [researchgate](https://vertexaisearch.cloud.google.com/id/4-2).\n\n*   **Performance Retention:** The unique structure of PtRh catalysts, including the dendritic morphology and Pt-rich shell, contributes to high catalytic activity and stability for the ORR [researchgate](https://vertexaisearch.cloud.google.com/id/4-2). For example, a well-defined PtCo@Pt core-shell nanodendrite electrocatalyst exhibited a mass activity of 0.54 A mgPt-1, which is three times higher than that of commercial Pt/C catalysts [researchgate](https://vertexaisearch.cloud.google.com/id/4-2). After an accelerated durability test (ADT) of 40,000 potential-scanning cycles, this catalyst showed only a 2.1% loss in MA and an impressive 12.0% increase in SA [researchgate](https://vertexaisearch.cloud.google.com/id/4-2).\n\n*   **Inhibition of Metal Dissolution:** The addition of Rh to Pt-based alloys can inhibit the dissolution of other transition metals, further enhancing the durability of fuel cells [researchgate](https://vertexaisearch.cloud.google.com/id/4-2). For example, Rh-Pt3Co/C catalyst demonstrates direct inhibition of Co dissolution [researchgate](https://vertexaisearch.cloud.google.com/id/4-2).\n\n*   **Comparison to Commercial Catalysts:** PtRh alloy catalysts often exhibit superior stability compared to commercial platinum-carbon (Pt/C) catalysts [cas](https://vertexaisearch.cloud.google.com/id/4-1). For example, after 90,000 accelerated durability test cycles, a PtRh/Pt catalyst's half-wave potential shifted negatively by only about 5 mV, and its mass activity remained at 88% [cas](https://vertexaisearch.cloud.google.com/id/4-1).\n\nIn summary, the \"self-healing\" effect and the formation of a Pt-rich surface in dendrite-like PtRh alloy catalysts during accelerated durability testing are crucial for their stability and performance retention in the ORR. This structural evolution minimizes metal dissolution, enhances catalytic activity, and provides a promising avenue for designing durable Pt-based electrocatalysts for proton-exchange membrane fuel cells (PEMFCs) [cas](https://vertexaisearch.cloud.google.com/id/4-1) [acs](https://vertexaisearch.cloud.google.com/id/4-0).\n",
+      "The effect of platinum to rhodium ratios in PtRh alloy catalysts on their catalytic activity and stability for the oxygen reduction reaction (ORR) is a complex topic with ongoing research. Here's a synthesis of findings:\n\n**1. General Effects of Alloying Pt with Rh:**\n\n*   Alloying platinum with other metals, including rhodium, is a strategy to lower the cost of Pt-based catalysts and enhance their catalytic activity due to geometric strain and electronic ligand effects [airbus](https://vertexaisearch.cloud.google.com/id/5-0) [acs](https://vertexaisearch.cloud.google.com/id/5-1).\n*   The addition of a secondary metal can change the d-band center and surface atomic arrangement, which alters the chemisorption of oxygen-containing species and impacts ORR kinetics [acs](https://vertexaisearch.cloud.google.com/id/5-2).\n*   Rh can enhance the activity and durability of ORR electrocatalysts [aip](https://vertexaisearch.cloud.google.com/id/5-3).\n\n**2. Activity and Stability Enhancement:**\n\n*   Rh-doped Pt nanowires showed enhanced ORR specific and mass activities compared to pure Pt nanowires [mdpi](https://vertexaisearch.cloud.google.com/id/5-4).\n*   The accumulation of PtRh particles on the surface of a catalyst increases the active contact area and provides active sites [acs](https://vertexaisearch.cloud.google.com/id/5-5).\n*   The PtRh alloy shell can hinder the precipitation of the Ag core, enhancing the performance and improving the stability of the catalyst [acs](https://vertexaisearch.cloud.google.com/id/5-5).\n\n**3. Degradation Mechanisms and Stability Considerations:**\n\n*   Limited catalyst stability is a central factor limiting the widespread commercialization of PEMFCs [acs](https://vertexaisearch.cloud.google.com/id/5-6).\n*   Degradation mechanisms affecting Pt–Rh catalysts are not fully understood.  [acs](https://vertexaisearch.cloud.google.com/id/5-6)Particle detachment from the carbon support can be a primary degradation mechanism.\n [acs](https://vertexaisearch.cloud.google.com/id/5-6)*   Other degradation modes for Pt-based catalysts include particle dissolution, agglomeration, Ostwald ripening, and carbon corrosion.\n [acs](https://vertexaisearch.cloud.google.com/id/5-6) [mdpi](https://vertexaisearch.cloud.google.com/id/5-7)\n**4. Optimal Ratios and Performance:**\n\n*   A study using density functional theory (DFT) suggests that Rh provides long-term stability when added around 25%–30% (approximately) at wt. ratio to other active catalyst metals such as Pt.\n*  [aip](https://vertexaisearch.cloud.google.com/id/5-3)  In one experiment, the Pt/Ag/Rh atomic ratio was directly determined by EDS to be 44.95/39.56/15.49, with a PtRh-rich shell.\n\n* [acs](https://vertexaisearch.cloud.google.com/id/5-5)*5. Factors Influencing ORR Performance:**\n\n*   The ORR activity of Pt-M (M = other metal) shows a \"volcanic\" relationship with the spacing of Pt atoms and the number of d-band vacancies.\n*  [nih](https://vertexaisearch.cloud.google.com/id/5-8)  The size of Pt nanoparticles can affect ORR activity and durability.\n*  [hep](https://vertexaisearch.cloud.google.com/id/5-9)  The support material also plays a crucial role; for example, using Fe- and N-codoped carbon (Fe–N–C) can improve the durability of Pt nanoparticles.\n\n**6.  [mdpi](https://vertexaisearch.cloud.google.com/id/5-4)Testing and Evaluation:**\n\n*   Electrocatalytic activity and stability are often tested using rotating disk electrode (RDE) and gas diffusion electrode (GDE) half-cells.\n*   Ac [acs](https://vertexaisearch.cloud.google.com/id/5-1) [airbus](https://vertexaisearch.cloud.google.com/id/5-0)celerated stress tests (AST) are used to evaluate the stability of electrocatalysts.\n\n**7.  [mdpi](https://vertexaisearch.cloud.google.com/id/5-10)Challenges and Future Directions:**\n\n*   Achieving high activity and long-term durability remains a challenge.\n*   Fu [airbus](https://vertexaisearch.cloud.google.com/id/5-0) [dtu](https://vertexaisearch.cloud.google.com/id/5-11)rther research is needed to explore the degradation mechanisms affecting Pt-Rh catalysts.\n*   Ef [acs](https://vertexaisearch.cloud.google.com/id/5-6)forts should focus on enhancing the support–particle interaction to improve stability.\n [acs](https://vertexaisearch.cloud.google.com/id/5-6)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGMd80aIhV22SDC70gWDnDa2ZV9NqK_CuUcA-s_OkaxAGGBC2_x8M4KdUM6LpRU3AVLlVBzqadvC_qxYPcIgN9LBQEDQFPuPN35O2idfPZ8VU1cblRs5OlYWUhgzJGQZ_e7BHBlvCvgmA1iZ1hS87hnsVNSkPXGUOW8w=="
+      },
+      {
+        "label": "jchemrev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvzhQWPwEPTu-VeF_bxdgJI2EH_0SGPD16ifHD40V4d1XBQ44L1r_RHcotzbRPtuytu1TbNnGBzzzwFteKIFrsW-PpaZBMpxdSETtfjsMfJXvq3AVAf8t18RaB5YjUsh_SiG5YgzmQ"
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ZG0A2NeREbyMlyVOwiCxUvsVzaZXOHNqHsCiTsBSvlACZxhCaHmCSBJyioIgKbpB0u_p3HpITlU2WULQbRRK4uCqxAheAA-DyYIHo9c9otI36KOAISGg-8sbvKiBu0KFwPK9rBE9Pw3kveA="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIvaqwflV4j82C0G1R6vTSd5OHzqlSF4KxiVYmuhCfyXE9ccL53JlkHge9cSwyTMicEIQI1JRuFNpfUiCE8QMts5VgTjO7UjRMpvbMFpHyUxneX2jI7L4fnXKKNgvl0-QHkzDn"
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGMd80aIhV22SDC70gWDnDa2ZV9NqK_CuUcA-s_OkaxAGGBC2_x8M4KdUM6LpRU3AVLlVBzqadvC_qxYPcIgN9LBQEDQFPuPN35O2idfPZ8VU1cblRs5OlYWUhgzJGQZ_e7BHBlvCvgmA1iZ1hS87hnsVNSkPXGUOW8w=="
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUpfb93RSlb40eSDZHwWFB1Q-p9wAUeERkUuaqcu0bOvGTJhSbigDO5u51RDla7C6-JvMSdiPeh8yDhCSGExNFOtrEWKzf7ks-ILDugGkAPWr2iq6m5hd39tVEcNY9_gPkKRcHm0L7r0jgRFR9"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr7KWTApi_DMQkd3UFAAUKht0mKPM-UZVd8YgDYm85iSWJ0pbDyoY3t9RO-ow0kDEQuCwA2VXOv94tvIWrtGX7TGiXdtOPG49avSOZ9-7XBL-ldwLs25ybkBqTKBkA_H_WQPj5v9i5t7z1GgSYGXOr-eDPEnvZ3Q=="
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGMd80aIhV22SDC70gWDnDa2ZV9NqK_CuUcA-s_OkaxAGGBC2_x8M4KdUM6LpRU3AVLlVBzqadvC_qxYPcIgN9LBQEDQFPuPN35O2idfPZ8VU1cblRs5OlYWUhgzJGQZ_e7BHBlvCvgmA1iZ1hS87hnsVNSkPXGUOW8w=="
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGMd80aIhV22SDC70gWDnDa2ZV9NqK_CuUcA-s_OkaxAGGBC2_x8M4KdUM6LpRU3AVLlVBzqadvC_qxYPcIgN9LBQEDQFPuPN35O2idfPZ8VU1cblRs5OlYWUhgzJGQZ_e7BHBlvCvgmA1iZ1hS87hnsVNSkPXGUOW8w=="
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGMd80aIhV22SDC70gWDnDa2ZV9NqK_CuUcA-s_OkaxAGGBC2_x8M4KdUM6LpRU3AVLlVBzqadvC_qxYPcIgN9LBQEDQFPuPN35O2idfPZ8VU1cblRs5OlYWUhgzJGQZ_e7BHBlvCvgmA1iZ1hS87hnsVNSkPXGUOW8w=="
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGMd80aIhV22SDC70gWDnDa2ZV9NqK_CuUcA-s_OkaxAGGBC2_x8M4KdUM6LpRU3AVLlVBzqadvC_qxYPcIgN9LBQEDQFPuPN35O2idfPZ8VU1cblRs5OlYWUhgzJGQZ_e7BHBlvCvgmA1iZ1hS87hnsVNSkPXGUOW8w=="
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ZG0A2NeREbyMlyVOwiCxUvsVzaZXOHNqHsCiTsBSvlACZxhCaHmCSBJyioIgKbpB0u_p3HpITlU2WULQbRRK4uCqxAheAA-DyYIHo9c9otI36KOAISGg-8sbvKiBu0KFwPK9rBE9Pw3kveA="
+      },
+      {
+        "label": "jchemrev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvzhQWPwEPTu-VeF_bxdgJI2EH_0SGPD16ifHD40V4d1XBQ44L1r_RHcotzbRPtuytu1TbNnGBzzzwFteKIFrsW-PpaZBMpxdSETtfjsMfJXvq3AVAf8t18RaB5YjUsh_SiG5YgzmQ"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr7KWTApi_DMQkd3UFAAUKht0mKPM-UZVd8YgDYm85iSWJ0pbDyoY3t9RO-ow0kDEQuCwA2VXOv94tvIWrtGX7TGiXdtOPG49avSOZ9-7XBL-ldwLs25ybkBqTKBkA_H_WQPj5v9i5t7z1GgSYGXOr-eDPEnvZ3Q=="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH95tdKnjw3uzpq3wgx7alizE70_zWUYM6u2hc6CESd0m9vNV-vI-MUU6dYxxc5Wqqv06Ny0trK7nEmQoN4KCyRHBB7guU0cco1qn1V2z8PnglVk_qSP9GW9eIpU3UmHN1c3J4Zbu5dlT6qfJPlPgAZzirHiV0TVen4ZYw1xqtFL5a-DpKyuCuAZ6ARB8mM-aNEoQt49QzVmBjyLLmDcfu9vOVVU5_1Ogp3mAttul--ftXorFbogkhM"
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ZG0A2NeREbyMlyVOwiCxUvsVzaZXOHNqHsCiTsBSvlACZxhCaHmCSBJyioIgKbpB0u_p3HpITlU2WULQbRRK4uCqxAheAA-DyYIHo9c9otI36KOAISGg-8sbvKiBu0KFwPK9rBE9Pw3kveA="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5q6wuVKuN8PWikd2Q_1hx8wwVZw34fqJYOpu8JXk21ftxYHfg81pG_5mw5s6HXWHLFe-rgnscxMJoiX4RnviD9VIDoSsYPCaMI6boug-UXUxKOiz-c0SqAArmcJwTm_lPMOIZszM-_LgWqjaBT48QBjOuF_kMk5rocHoqqc2B_KuOnF3gdmXaVouYPSUk8kgG5JtCVWOu9qwHieB0yV17aKqRv6Xe0ov3kI0PJVC0VNM="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT2lYMhKj-8vruK4NjYG0lNcDO3ZJgAsRi2vi7ij8qZy8wE7K6KhVIosAcSbXQXetVZOspaMYP4nf8hVIdSVLRcS0_058lCn4iAM7wF7IDOyMAdXKgukhUsLHaqUL2eJC3S3FrFNIuWcpmFNE="
+      },
+      {
+        "label": "jchemrev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvzhQWPwEPTu-VeF_bxdgJI2EH_0SGPD16ifHD40V4d1XBQ44L1r_RHcotzbRPtuytu1TbNnGBzzzwFteKIFrsW-PpaZBMpxdSETtfjsMfJXvq3AVAf8t18RaB5YjUsh_SiG5YgzmQ"
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ZG0A2NeREbyMlyVOwiCxUvsVzaZXOHNqHsCiTsBSvlACZxhCaHmCSBJyioIgKbpB0u_p3HpITlU2WULQbRRK4uCqxAheAA-DyYIHo9c9otI36KOAISGg-8sbvKiBu0KFwPK9rBE9Pw3kveA="
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrwAQwq_zZIZjbnC03n8pavoDEiYRWS3frS9ZruYxIxq3y-iYSSWgLRoPm1r9RKICxueg2QTo4_p2McrFEoBJkDaf-WjV7ESSH5PHAdG_LQzgGRCLJoQ8h0E6Tp6wnVPpp7nlEOyC0_WkQ31ZaCH2nTV41zc35Pp5IfUkKgye3gOX6yfD1Tq0b9KCxJAWTyeKHXC0MhYPWE_choU9xGgOXFosjzeykNMD0gb2IoelmK0LuywnTeUSone4wN6EVhATvEdqM00mTz3hLn70M"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGMd80aIhV22SDC70gWDnDa2ZV9NqK_CuUcA-s_OkaxAGGBC2_x8M4KdUM6LpRU3AVLlVBzqadvC_qxYPcIgN9LBQEDQFPuPN35O2idfPZ8VU1cblRs5OlYWUhgzJGQZ_e7BHBlvCvgmA1iZ1hS87hnsVNSkPXGUOW8w=="
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH95tdKnjw3uzpq3wgx7alizE70_zWUYM6u2hc6CESd0m9vNV-vI-MUU6dYxxc5Wqqv06Ny0trK7nEmQoN4KCyRHBB7guU0cco1qn1V2z8PnglVk_qSP9GW9eIpU3UmHN1c3J4Zbu5dlT6qfJPlPgAZzirHiV0TVen4ZYw1xqtFL5a-DpKyuCuAZ6ARB8mM-aNEoQt49QzVmBjyLLmDcfu9vOVVU5_1Ogp3mAttul--ftXorFbogkhM"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUpfb93RSlb40eSDZHwWFB1Q-p9wAUeERkUuaqcu0bOvGTJhSbigDO5u51RDla7C6-JvMSdiPeh8yDhCSGExNFOtrEWKzf7ks-ILDugGkAPWr2iq6m5hd39tVEcNY9_gPkKRcHm0L7r0jgRFR9"
+      },
+      {
+        "label": "sciopen",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa30VPMxiUrci6OXIzZ43rypgqfznXYiEfeQ9wtUvMlJATJLeSvw007SbYQo2j967xo3ql-yr7r_HKfTl-EsEkxwA1q7TMux02l0A0uTgU56NqWUYMWCEtJRqgPdFuoX4f94aua7kjdNHM7w54lJslL3vHpg=="
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUpfb93RSlb40eSDZHwWFB1Q-p9wAUeERkUuaqcu0bOvGTJhSbigDO5u51RDla7C6-JvMSdiPeh8yDhCSGExNFOtrEWKzf7ks-ILDugGkAPWr2iq6m5hd39tVEcNY9_gPkKRcHm0L7r0jgRFR9"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbCxGkyGyYpwg8fdoyH9Gg3vb136y1G2InxgsXS2jqNqA8w5_HFFVcRze62wiEKB9W0MOMChwAR3-GY0IhxkenXXVqgJEbm86-k7vCSiQuNqTwvd49ZIA-ndknnHDIO-3B3D1S_Fw5Rk76"
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUpfb93RSlb40eSDZHwWFB1Q-p9wAUeERkUuaqcu0bOvGTJhSbigDO5u51RDla7C6-JvMSdiPeh8yDhCSGExNFOtrEWKzf7ks-ILDugGkAPWr2iq6m5hd39tVEcNY9_gPkKRcHm0L7r0jgRFR9"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVeYU06FQ3ulFMnHAJIE_6rdJa0Q6oPBLCUG8SGV6wX23KFkSXjDBLs5in_c5HGKNELZ-qSAWVroBM4HV3bYMU86SZChh1g2yo4FTsixpUhNRlB-QQg5K_fSjQ2WcHofVLs8pdVIXITQ="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVeYU06FQ3ulFMnHAJIE_6rdJa0Q6oPBLCUG8SGV6wX23KFkSXjDBLs5in_c5HGKNELZ-qSAWVroBM4HV3bYMU86SZChh1g2yo4FTsixpUhNRlB-QQg5K_fSjQ2WcHofVLs8pdVIXITQ="
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETCdmPvbxaK5v71ONtI2r_GZ7H5gx39q0jeg9CN2_8h3DKELUIfuuiFwTRFlOO8TIvo0VJ9oasGa3bGGEW6NTIwwsqLeFymhm0-dsAg9Y4eCvHrCFSC4cV_HDy9JTWwA54VSLQdffZwdIr2wHfntvBP7tR3CnmpmfIszc3-5tH8u6VevK8SYStkM8aMG9xTkSXW2AIOQoRgm-KK-f3zFCG52kAaex54WBwJ2pAG4oLVA3VjARD9Qf1fo8Op0owfpeDrHiuzxm3bI7KPye0WyUKGIA_QxLWPGMdNvnpJ8Z-aT8OFWvuMHQ="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxodwWTmi-mMVFqG_Syy20-9eaQPnShKtwjPfyO1hEtqsD1Bfgz2yMomhvqhPrexdy0JtpvPQPveLMNJUCPHxtnUPVFBzlSjTK3uxn09kizwXP2H60cxi5VmRqcd5tdtI6jg=="
+      },
+      {
+        "label": "lidsen",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAgVnRNY9l68HHOtgj7RvFtQM5pGVmeZlWMfUi1BpTPTapiALRq5QgIgnTlPiLRHWvo36hz8MxrvGm8i_1F7p_0gW6MU1jrPJGuj0tNqy8yL30cmERel7ShrWrdPDdBqt-rBubaycTjEA="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVeYU06FQ3ulFMnHAJIE_6rdJa0Q6oPBLCUG8SGV6wX23KFkSXjDBLs5in_c5HGKNELZ-qSAWVroBM4HV3bYMU86SZChh1g2yo4FTsixpUhNRlB-QQg5K_fSjQ2WcHofVLs8pdVIXITQ="
+      },
+      {
+        "label": "analis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBx80SM_T6Xpjzj-VH3rVa5nlmAjhfEvSUZGwRSo5T2PlWJ9FbwZYIPBbFt4MQ0Xjt3DaYKs-nYzDkse813p_i5I_apBVaH01LwD7pVceiVSRCvQ1knLPC7R5ei3Z9McPG_0Uenfh5pdI0fQNdr1I4w2z3XyqtDYc="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxodwWTmi-mMVFqG_Syy20-9eaQPnShKtwjPfyO1hEtqsD1Bfgz2yMomhvqhPrexdy0JtpvPQPveLMNJUCPHxtnUPVFBzlSjTK3uxn09kizwXP2H60cxi5VmRqcd5tdtI6jg=="
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETCdmPvbxaK5v71ONtI2r_GZ7H5gx39q0jeg9CN2_8h3DKELUIfuuiFwTRFlOO8TIvo0VJ9oasGa3bGGEW6NTIwwsqLeFymhm0-dsAg9Y4eCvHrCFSC4cV_HDy9JTWwA54VSLQdffZwdIr2wHfntvBP7tR3CnmpmfIszc3-5tH8u6VevK8SYStkM8aMG9xTkSXW2AIOQoRgm-KK-f3zFCG52kAaex54WBwJ2pAG4oLVA3VjARD9Qf1fo8Op0owfpeDrHiuzxm3bI7KPye0WyUKGIA_QxLWPGMdNvnpJ8Z-aT8OFWvuMHQ="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiiE945LcQbhyVdbGD9IQmwNxi5n5-veuxtOVCtSyoTq904bHVVlfy00ox--A5M5AWEIdpk7MXrK7gzJ1GZKlNvu3-4UomEOuNRIrWhpgmCeAIBQJ2PSqrCtZA-UDLeSbcq-dTrcj6P6CulnUPgbI="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiiE945LcQbhyVdbGD9IQmwNxi5n5-veuxtOVCtSyoTq904bHVVlfy00ox--A5M5AWEIdpk7MXrK7gzJ1GZKlNvu3-4UomEOuNRIrWhpgmCeAIBQJ2PSqrCtZA-UDLeSbcq-dTrcj6P6CulnUPgbI="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVeYU06FQ3ulFMnHAJIE_6rdJa0Q6oPBLCUG8SGV6wX23KFkSXjDBLs5in_c5HGKNELZ-qSAWVroBM4HV3bYMU86SZChh1g2yo4FTsixpUhNRlB-QQg5K_fSjQ2WcHofVLs8pdVIXITQ="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVeYU06FQ3ulFMnHAJIE_6rdJa0Q6oPBLCUG8SGV6wX23KFkSXjDBLs5in_c5HGKNELZ-qSAWVroBM4HV3bYMU86SZChh1g2yo4FTsixpUhNRlB-QQg5K_fSjQ2WcHofVLs8pdVIXITQ="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVeYU06FQ3ulFMnHAJIE_6rdJa0Q6oPBLCUG8SGV6wX23KFkSXjDBLs5in_c5HGKNELZ-qSAWVroBM4HV3bYMU86SZChh1g2yo4FTsixpUhNRlB-QQg5K_fSjQ2WcHofVLs8pdVIXITQ="
+      },
+      {
+        "label": "lidsen",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAgVnRNY9l68HHOtgj7RvFtQM5pGVmeZlWMfUi1BpTPTapiALRq5QgIgnTlPiLRHWvo36hz8MxrvGm8i_1F7p_0gW6MU1jrPJGuj0tNqy8yL30cmERel7ShrWrdPDdBqt-rBubaycTjEA="
+      },
+      {
+        "label": "lidsen",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAgVnRNY9l68HHOtgj7RvFtQM5pGVmeZlWMfUi1BpTPTapiALRq5QgIgnTlPiLRHWvo36hz8MxrvGm8i_1F7p_0gW6MU1jrPJGuj0tNqy8yL30cmERel7ShrWrdPDdBqt-rBubaycTjEA="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiiE945LcQbhyVdbGD9IQmwNxi5n5-veuxtOVCtSyoTq904bHVVlfy00ox--A5M5AWEIdpk7MXrK7gzJ1GZKlNvu3-4UomEOuNRIrWhpgmCeAIBQJ2PSqrCtZA-UDLeSbcq-dTrcj6P6CulnUPgbI="
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIFvpnbMLX0IflOYtJIN6S5vmWH9p7MFKWP6zWGith-PhnxI88I6dbscIn-4LbBSY_l2Z_2eb_FZXQh9lzXI44fhz5EA2TVMCpDpb3nPIrx0c1mXQluaYCwLbxOvmVMjAl-VclkvSoyCWx2g=="
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIFvpnbMLX0IflOYtJIN6S5vmWH9p7MFKWP6zWGith-PhnxI88I6dbscIn-4LbBSY_l2Z_2eb_FZXQh9lzXI44fhz5EA2TVMCpDpb3nPIrx0c1mXQluaYCwLbxOvmVMjAl-VclkvSoyCWx2g=="
+      },
+      {
+        "label": "analis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBx80SM_T6Xpjzj-VH3rVa5nlmAjhfEvSUZGwRSo5T2PlWJ9FbwZYIPBbFt4MQ0Xjt3DaYKs-nYzDkse813p_i5I_apBVaH01LwD7pVceiVSRCvQ1knLPC7R5ei3Z9McPG_0Uenfh5pdI0fQNdr1I4w2z3XyqtDYc="
+      },
+      {
+        "label": "phrase",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5CX1m7gA5YVzI0lq8CWfYLvQwcB3gVCxX3a83JmlkpxmtTT3hWNoTtiae8TBbeAxBeIeJRNDq6X60_aPXQvZ1Ki0vikwF0CGA-Qx53OshTB6c7wb2OndODJdVTNgM9wGR44E_p5r0ES2e3i1cqYRN"
+      },
+      {
+        "label": "coursera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLCIuhp9S__vTEie3fWKYy8GOS4HeIZvX61flx4RNOO8_hUXJZPhzSf9Scl23YLgyLoEwGv21-mvNeOoDIW1kiQKTF5yeAweG4jgnV-hux-nx7QqUMXAf3D1SwguzbsZJETK3ovXO8oePjr8hmNNT_Pn4yZdJvhb77fk0="
+      },
+      {
+        "label": "phrase",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5CX1m7gA5YVzI0lq8CWfYLvQwcB3gVCxX3a83JmlkpxmtTT3hWNoTtiae8TBbeAxBeIeJRNDq6X60_aPXQvZ1Ki0vikwF0CGA-Qx53OshTB6c7wb2OndODJdVTNgM9wGR44E_p5r0ES2e3i1cqYRN"
+      },
+      {
+        "label": "coursera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLCIuhp9S__vTEie3fWKYy8GOS4HeIZvX61flx4RNOO8_hUXJZPhzSf9Scl23YLgyLoEwGv21-mvNeOoDIW1kiQKTF5yeAweG4jgnV-hux-nx7QqUMXAf3D1SwguzbsZJETK3ovXO8oePjr8hmNNT_Pn4yZdJvhb77fk0="
+      },
+      {
+        "label": "phrase",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5CX1m7gA5YVzI0lq8CWfYLvQwcB3gVCxX3a83JmlkpxmtTT3hWNoTtiae8TBbeAxBeIeJRNDq6X60_aPXQvZ1Ki0vikwF0CGA-Qx53OshTB6c7wb2OndODJdVTNgM9wGR44E_p5r0ES2e3i1cqYRN"
+      },
+      {
+        "label": "phrase",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5CX1m7gA5YVzI0lq8CWfYLvQwcB3gVCxX3a83JmlkpxmtTT3hWNoTtiae8TBbeAxBeIeJRNDq6X60_aPXQvZ1Ki0vikwF0CGA-Qx53OshTB6c7wb2OndODJdVTNgM9wGR44E_p5r0ES2e3i1cqYRN"
+      },
+      {
+        "label": "coursera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLCIuhp9S__vTEie3fWKYy8GOS4HeIZvX61flx4RNOO8_hUXJZPhzSf9Scl23YLgyLoEwGv21-mvNeOoDIW1kiQKTF5yeAweG4jgnV-hux-nx7QqUMXAf3D1SwguzbsZJETK3ovXO8oePjr8hmNNT_Pn4yZdJvhb77fk0="
+      },
+      {
+        "label": "phrase",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5CX1m7gA5YVzI0lq8CWfYLvQwcB3gVCxX3a83JmlkpxmtTT3hWNoTtiae8TBbeAxBeIeJRNDq6X60_aPXQvZ1Ki0vikwF0CGA-Qx53OshTB6c7wb2OndODJdVTNgM9wGR44E_p5r0ES2e3i1cqYRN"
+      },
+      {
+        "label": "elegantthemes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdsrp_TRM_H3KVEtR87dly4w0N9tMn8_9DSmiznKBP1_82KNTuK0JmWJwN5kKvVPasmChMp4fmgQ73BRGlBiUNcEhuUxOvo3Vxn1yrjNAo1OjmNgZSF5JwxeRF1pslVc382PdAbBzFE_Qq_9Pp-EEy"
+      },
+      {
+        "label": "elegantthemes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdsrp_TRM_H3KVEtR87dly4w0N9tMn8_9DSmiznKBP1_82KNTuK0JmWJwN5kKvVPasmChMp4fmgQ73BRGlBiUNcEhuUxOvo3Vxn1yrjNAo1OjmNgZSF5JwxeRF1pslVc382PdAbBzFE_Qq_9Pp-EEy"
+      },
+      {
+        "label": "zyneto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG89rRKlsplaVfZPshrlD_aPlrufW631kprluoy-4Jf-FNLbAqd6UFA4H5xJ8SlUUCuEc5q6KsF--lN6yQS8BoZ92wy-ZSHCCPt93Cn3QjWXXiLwVUVBBe9l2azWeCpVu9-UnOuWt6orJFEdARX7PpH6Ng2kZfLLV2AlBPAIR65xcL_lscKILMcBgeBt3ZQOAD2VUU="
+      },
+      {
+        "label": "elegantthemes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdsrp_TRM_H3KVEtR87dly4w0N9tMn8_9DSmiznKBP1_82KNTuK0JmWJwN5kKvVPasmChMp4fmgQ73BRGlBiUNcEhuUxOvo3Vxn1yrjNAo1OjmNgZSF5JwxeRF1pslVc382PdAbBzFE_Qq_9Pp-EEy"
+      },
+      {
+        "label": "zyneto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG89rRKlsplaVfZPshrlD_aPlrufW631kprluoy-4Jf-FNLbAqd6UFA4H5xJ8SlUUCuEc5q6KsF--lN6yQS8BoZ92wy-ZSHCCPt93Cn3QjWXXiLwVUVBBe9l2azWeCpVu9-UnOuWt6orJFEdARX7PpH6Ng2kZfLLV2AlBPAIR65xcL_lscKILMcBgeBt3ZQOAD2VUU="
+      },
+      {
+        "label": "zyneto",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG89rRKlsplaVfZPshrlD_aPlrufW631kprluoy-4Jf-FNLbAqd6UFA4H5xJ8SlUUCuEc5q6KsF--lN6yQS8BoZ92wy-ZSHCCPt93Cn3QjWXXiLwVUVBBe9l2azWeCpVu9-UnOuWt6orJFEdARX7PpH6Ng2kZfLLV2AlBPAIR65xcL_lscKILMcBgeBt3ZQOAD2VUU="
+      },
+      {
+        "label": "spinquanta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK-IDgwfSGs5EOo2-1wIksZOpmNWMsu39ebpTH3suj-utsE-yukhtOfvUDIK5ML6k2GMZw10Z4l92uUztr2b2xdZA55MjNi4PVl8NnNhLqhxNKY1_c6MrflNzyyUCGF8F6jR6AZVKzvp_-PMXSN4NnzqRaLr9AQ_Wt2u5wqlqum1-j0ug4"
+      },
+      {
+        "label": "spinquanta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK-IDgwfSGs5EOo2-1wIksZOpmNWMsu39ebpTH3suj-utsE-yukhtOfvUDIK5ML6k2GMZw10Z4l92uUztr2b2xdZA55MjNi4PVl8NnNhLqhxNKY1_c6MrflNzyyUCGF8F6jR6AZVKzvp_-PMXSN4NnzqRaLr9AQ_Wt2u5wqlqum1-j0ug4"
+      },
+      {
+        "label": "spinquanta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK-IDgwfSGs5EOo2-1wIksZOpmNWMsu39ebpTH3suj-utsE-yukhtOfvUDIK5ML6k2GMZw10Z4l92uUztr2b2xdZA55MjNi4PVl8NnNhLqhxNKY1_c6MrflNzyyUCGF8F6jR6AZVKzvp_-PMXSN4NnzqRaLr9AQ_Wt2u5wqlqum1-j0ug4"
+      },
+      {
+        "label": "quantum-photonics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjdDJP8-3uEKEtthag6AOyC71Ib8SgRq2UuNE-BtlKNlw7cyKAuyXPbsu9Y9i8CUZdGzRWxD_mLkQaspEkiU54Ewo-Ds2I5pMb4sekaurotXtQLcJvlPjS3k4N5-Nq_pbKR0WFononP4TFNlNULGaYOBDG5UGanDBQGX8jSDOKoRtW_xW2v5MUqmN84yjlSWpfr-y8JJpM0SOBzsGt9aDe6EGhijg6xIemTgylIpWZDHDadg=="
+      },
+      {
+        "label": "towardsdatascience",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv-ShMX6bQ-t7ORp5Xg4f28R5qnPATPwWZryXjXEvXSpdQoSBIaYQxxVk-2ccguU4iz46cjupwZgP7QlHtCG3Cok7n16xdNV8qKw2BvAuPy5J53LX2nxIM5JTeYuOltOG92kNHorPT-jW04RJtEueHMOH58YOZOQ_PsZVvS_vw8amTdUnwCWJbOXrUJ-dRCbUz-K87fgtO1Q=="
+      },
+      {
+        "label": "www",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBUpPKyPP-4BkSgaIfnRUgcAKsFPA9BlrddKWXKkPX0NdK4MM1fZVvj4kkTdLoaE5aEp_PdzGCVRvVHDt6S1vGDGJC-nArkmYVixjLthAd3-p2xLCiJOcTNLUr3sVc00kbfwn7qr0N26G8SAbFAHHdpPr5RA7IjR3Er3IaSthvAwJGYz48AGafpHzDXjAoTbjgCgQAM8Eigw=="
+      },
+      {
+        "label": "spinquanta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK-IDgwfSGs5EOo2-1wIksZOpmNWMsu39ebpTH3suj-utsE-yukhtOfvUDIK5ML6k2GMZw10Z4l92uUztr2b2xdZA55MjNi4PVl8NnNhLqhxNKY1_c6MrflNzyyUCGF8F6jR6AZVKzvp_-PMXSN4NnzqRaLr9AQ_Wt2u5wqlqum1-j0ug4"
+      },
+      {
+        "label": "quantum-photonics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjdDJP8-3uEKEtthag6AOyC71Ib8SgRq2UuNE-BtlKNlw7cyKAuyXPbsu9Y9i8CUZdGzRWxD_mLkQaspEkiU54Ewo-Ds2I5pMb4sekaurotXtQLcJvlPjS3k4N5-Nq_pbKR0WFononP4TFNlNULGaYOBDG5UGanDBQGX8jSDOKoRtW_xW2v5MUqmN84yjlSWpfr-y8JJpM0SOBzsGt9aDe6EGhijg6xIemTgylIpWZDHDadg=="
+      },
+      {
+        "label": "quantum-photonics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjdDJP8-3uEKEtthag6AOyC71Ib8SgRq2UuNE-BtlKNlw7cyKAuyXPbsu9Y9i8CUZdGzRWxD_mLkQaspEkiU54Ewo-Ds2I5pMb4sekaurotXtQLcJvlPjS3k4N5-Nq_pbKR0WFononP4TFNlNULGaYOBDG5UGanDBQGX8jSDOKoRtW_xW2v5MUqmN84yjlSWpfr-y8JJpM0SOBzsGt9aDe6EGhijg6xIemTgylIpWZDHDadg=="
+      },
+      {
+        "label": "quantum-photonics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjdDJP8-3uEKEtthag6AOyC71Ib8SgRq2UuNE-BtlKNlw7cyKAuyXPbsu9Y9i8CUZdGzRWxD_mLkQaspEkiU54Ewo-Ds2I5pMb4sekaurotXtQLcJvlPjS3k4N5-Nq_pbKR0WFononP4TFNlNULGaYOBDG5UGanDBQGX8jSDOKoRtW_xW2v5MUqmN84yjlSWpfr-y8JJpM0SOBzsGt9aDe6EGhijg6xIemTgylIpWZDHDadg=="
+      },
+      {
+        "label": "www",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBUpPKyPP-4BkSgaIfnRUgcAKsFPA9BlrddKWXKkPX0NdK4MM1fZVvj4kkTdLoaE5aEp_PdzGCVRvVHDt6S1vGDGJC-nArkmYVixjLthAd3-p2xLCiJOcTNLUr3sVc00kbfwn7qr0N26G8SAbFAHHdpPr5RA7IjR3Er3IaSthvAwJGYz48AGafpHzDXjAoTbjgCgQAM8Eigw=="
+      },
+      {
+        "label": "spinquanta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK-IDgwfSGs5EOo2-1wIksZOpmNWMsu39ebpTH3suj-utsE-yukhtOfvUDIK5ML6k2GMZw10Z4l92uUztr2b2xdZA55MjNi4PVl8NnNhLqhxNKY1_c6MrflNzyyUCGF8F6jR6AZVKzvp_-PMXSN4NnzqRaLr9AQ_Wt2u5wqlqum1-j0ug4"
+      },
+      {
+        "label": "towardsdatascience",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv-ShMX6bQ-t7ORp5Xg4f28R5qnPATPwWZryXjXEvXSpdQoSBIaYQxxVk-2ccguU4iz46cjupwZgP7QlHtCG3Cok7n16xdNV8qKw2BvAuPy5J53LX2nxIM5JTeYuOltOG92kNHorPT-jW04RJtEueHMOH58YOZOQ_PsZVvS_vw8amTdUnwCWJbOXrUJ-dRCbUz-K87fgtO1Q=="
+      },
+      {
+        "label": "www",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBUpPKyPP-4BkSgaIfnRUgcAKsFPA9BlrddKWXKkPX0NdK4MM1fZVvj4kkTdLoaE5aEp_PdzGCVRvVHDt6S1vGDGJC-nArkmYVixjLthAd3-p2xLCiJOcTNLUr3sVc00kbfwn7qr0N26G8SAbFAHHdpPr5RA7IjR3Er3IaSthvAwJGYz48AGafpHzDXjAoTbjgCgQAM8Eigw=="
+      },
+      {
+        "label": "wmo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVOL-lcCyG7lPjZ0s-8OKlFQSbM4o4XK2cgzTm5G7UppSMlv0yYy0noG3QgMdByts3xO5G7P70r8xpy9TVzf7xBAESK9HtodBHg8o_vPa6Q3TFtLg5HOvIsU5OXFYKYhMPM1omp_OxQTFJq_DisAsPvLI2aoZuTCwecvO6w_YR6EZruzPz1rYV-id-m9BIlqhSW3nLbYXOWGMELxU52KkYxwJytAGNxlQM401pqBsWY0YjxnUXlM5ZBQrtMDSv"
+      },
+      {
+        "label": "wmo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVOL-lcCyG7lPjZ0s-8OKlFQSbM4o4XK2cgzTm5G7UppSMlv0yYy0noG3QgMdByts3xO5G7P70r8xpy9TVzf7xBAESK9HtodBHg8o_vPa6Q3TFtLg5HOvIsU5OXFYKYhMPM1omp_OxQTFJq_DisAsPvLI2aoZuTCwecvO6w_YR6EZruzPz1rYV-id-m9BIlqhSW3nLbYXOWGMELxU52KkYxwJytAGNxlQM401pqBsWY0YjxnUXlM5ZBQrtMDSv"
+      },
+      {
+        "label": "un",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgbSVFOHu4stw_iMV_7rYQG3fkxRxwYSEvgprN3PYrxkw4jLHMML-bvlFBZRCRXkjbXcKxxcJ2w-UCxsZOzpHeuxpEX4J4w_g4ZrgqvLSXgC87CVrUdfSL5g8mT9NS2l-r4MVwxqg="
+      },
+      {
+        "label": "wmo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVOL-lcCyG7lPjZ0s-8OKlFQSbM4o4XK2cgzTm5G7UppSMlv0yYy0noG3QgMdByts3xO5G7P70r8xpy9TVzf7xBAESK9HtodBHg8o_vPa6Q3TFtLg5HOvIsU5OXFYKYhMPM1omp_OxQTFJq_DisAsPvLI2aoZuTCwecvO6w_YR6EZruzPz1rYV-id-m9BIlqhSW3nLbYXOWGMELxU52KkYxwJytAGNxlQM401pqBsWY0YjxnUXlM5ZBQrtMDSv"
+      },
+      {
+        "label": "charitydigital",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV-mv7_GTEfyZyIZ_PEUDl92Z1Fo5peiotywEiFzw-9Nb_Q6RG5ghBxpdNfwQLOzHa-0aNG6QEYmh_OjGzJthm0gyJR5JB-GgDkHt6Bwsx4ylv3AIrNNOo4mcAf5IHSQ1zpC12tbg6DnNIpMgQnm_lBcy-wnfvXN1NKZeNLghCdh8Fax_alUCjxlnAR981CSUJ6w=="
+      },
+      {
+        "label": "wmo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVOL-lcCyG7lPjZ0s-8OKlFQSbM4o4XK2cgzTm5G7UppSMlv0yYy0noG3QgMdByts3xO5G7P70r8xpy9TVzf7xBAESK9HtodBHg8o_vPa6Q3TFtLg5HOvIsU5OXFYKYhMPM1omp_OxQTFJq_DisAsPvLI2aoZuTCwecvO6w_YR6EZruzPz1rYV-id-m9BIlqhSW3nLbYXOWGMELxU52KkYxwJytAGNxlQM401pqBsWY0YjxnUXlM5ZBQrtMDSv"
+      },
+      {
+        "label": "10insightsclimate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_okTRoKErkfrEf7XT2SXW7XnbceHTXKBYdMhtRBpJMTMADtQ_K0cNqcxO3gtdmVHYY1f66kYly_Mx_3Ob54YLMERod0TTOz14f0-ddjENTeNT65CzQYdylsfYMQ=="
+      },
+      {
+        "label": "un",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgbSVFOHu4stw_iMV_7rYQG3fkxRxwYSEvgprN3PYrxkw4jLHMML-bvlFBZRCRXkjbXcKxxcJ2w-UCxsZOzpHeuxpEX4J4w_g4ZrgqvLSXgC87CVrUdfSL5g8mT9NS2l-r4MVwxqg="
+      },
+      {
+        "label": "wmo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVOL-lcCyG7lPjZ0s-8OKlFQSbM4o4XK2cgzTm5G7UppSMlv0yYy0noG3QgMdByts3xO5G7P70r8xpy9TVzf7xBAESK9HtodBHg8o_vPa6Q3TFtLg5HOvIsU5OXFYKYhMPM1omp_OxQTFJq_DisAsPvLI2aoZuTCwecvO6w_YR6EZruzPz1rYV-id-m9BIlqhSW3nLbYXOWGMELxU52KkYxwJytAGNxlQM401pqBsWY0YjxnUXlM5ZBQrtMDSv"
+      },
+      {
+        "label": "wmo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVOL-lcCyG7lPjZ0s-8OKlFQSbM4o4XK2cgzTm5G7UppSMlv0yYy0noG3QgMdByts3xO5G7P70r8xpy9TVzf7xBAESK9HtodBHg8o_vPa6Q3TFtLg5HOvIsU5OXFYKYhMPM1omp_OxQTFJq_DisAsPvLI2aoZuTCwecvO6w_YR6EZruzPz1rYV-id-m9BIlqhSW3nLbYXOWGMELxU52KkYxwJytAGNxlQM401pqBsWY0YjxnUXlM5ZBQrtMDSv"
+      },
+      {
+        "label": "un",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgbSVFOHu4stw_iMV_7rYQG3fkxRxwYSEvgprN3PYrxkw4jLHMML-bvlFBZRCRXkjbXcKxxcJ2w-UCxsZOzpHeuxpEX4J4w_g4ZrgqvLSXgC87CVrUdfSL5g8mT9NS2l-r4MVwxqg="
+      },
+      {
+        "label": "wmo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVOL-lcCyG7lPjZ0s-8OKlFQSbM4o4XK2cgzTm5G7UppSMlv0yYy0noG3QgMdByts3xO5G7P70r8xpy9TVzf7xBAESK9HtodBHg8o_vPa6Q3TFtLg5HOvIsU5OXFYKYhMPM1omp_OxQTFJq_DisAsPvLI2aoZuTCwecvO6w_YR6EZruzPz1rYV-id-m9BIlqhSW3nLbYXOWGMELxU52KkYxwJytAGNxlQM401pqBsWY0YjxnUXlM5ZBQrtMDSv"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH66AIDMHVs1kVWZXOvQniWUkhxa7xXQlQWa0dlIVOGLJ31FdGGguHTGo0pEnf3oAQgLzv9QR2PqMt5ALzG8SH7Ksk6izO-rY-vAeQ6pP__m8F13pjZvPRk8CnxNQuJqjzIhJo2hLDjEmxXVNHfaA=="
+      },
+      {
+        "label": "10insightsclimate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_okTRoKErkfrEf7XT2SXW7XnbceHTXKBYdMhtRBpJMTMADtQ_K0cNqcxO3gtdmVHYY1f66kYly_Mx_3Ob54YLMERod0TTOz14f0-ddjENTeNT65CzQYdylsfYMQ=="
+      },
+      {
+        "label": "charitydigital",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV-mv7_GTEfyZyIZ_PEUDl92Z1Fo5peiotywEiFzw-9Nb_Q6RG5ghBxpdNfwQLOzHa-0aNG6QEYmh_OjGzJthm0gyJR5JB-GgDkHt6Bwsx4ylv3AIrNNOo4mcAf5IHSQ1zpC12tbg6DnNIpMgQnm_lBcy-wnfvXN1NKZeNLghCdh8Fax_alUCjxlnAR981CSUJ6w=="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD-x6I5YwZPgJeDx_-zJxjbOfoHCnPVRsWcKTejk8NxDE3PLmna-sybbJAc39PBchZWlveGJBKdbauEyy64OBCMl0YK02ADP8UehfqCcXQlyjpw3NaF8CraqoZBvcp2vAWw9X-GARelylf7HAIhZfZ4HY="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGj4B7RV1qDs_ZJZ_ilNmyG7ENSkULvmj1_n0OuK6IHW--Thv3CuvE1JzlbDM86oT1lOd-sO5j4SY6S8JKFqibVZ3IO1LayKmcCpK09i2-mi1H0G416F8v3hos2--CEz8MhEoqJggqEHAZu3EXjMtZFtiqcwn3lACg8-H0UA=="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGj4B7RV1qDs_ZJZ_ilNmyG7ENSkULvmj1_n0OuK6IHW--Thv3CuvE1JzlbDM86oT1lOd-sO5j4SY6S8JKFqibVZ3IO1LayKmcCpK09i2-mi1H0G416F8v3hos2--CEz8MhEoqJggqEHAZu3EXjMtZFtiqcwn3lACg8-H0UA=="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD-x6I5YwZPgJeDx_-zJxjbOfoHCnPVRsWcKTejk8NxDE3PLmna-sybbJAc39PBchZWlveGJBKdbauEyy64OBCMl0YK02ADP8UehfqCcXQlyjpw3NaF8CraqoZBvcp2vAWw9X-GARelylf7HAIhZfZ4HY="
+      },
+      {
+        "label": "declutterthemind",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu52zdrql1A2rEdIFcr7VdNmysmN5HuQ0DlixBRNmrt5dQDG6Vh4My6v_3K4W8QzV5OC3m1zCCTYFv1lVrk_IOu4IGxiw6AhRaHLo9yYUxeg1xSXxAPYILA8Rskhye-3VaW21Mnmb9Zl2vLQ=="
+      },
+      {
+        "label": "lifeblueprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNGyhVIOX5KAoooxi_w_wK8zWBJs6SV492lTNrul2oMjyiqxTIDF8LAF6z2AEL3DS6ZH0voDbWlmdO16jNXI97MXksRoJ86XKVa9oZDmOaYtpy0z8VDoSdF8Wuq2i5ElmwPaE3VL3C67Djrx1DMJ7DvFU43g=="
+      },
+      {
+        "label": "lifeblueprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNGyhVIOX5KAoooxi_w_wK8zWBJs6SV492lTNrul2oMjyiqxTIDF8LAF6z2AEL3DS6ZH0voDbWlmdO16jNXI97MXksRoJ86XKVa9oZDmOaYtpy0z8VDoSdF8Wuq2i5ElmwPaE3VL3C67Djrx1DMJ7DvFU43g=="
+      },
+      {
+        "label": "declutterthemind",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHu52zdrql1A2rEdIFcr7VdNmysmN5HuQ0DlixBRNmrt5dQDG6Vh4My6v_3K4W8QzV5OC3m1zCCTYFv1lVrk_IOu4IGxiw6AhRaHLo9yYUxeg1xSXxAPYILA8Rskhye-3VaW21Mnmb9Zl2vLQ=="
+      },
+      {
+        "label": "lifeblueprints",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNGyhVIOX5KAoooxi_w_wK8zWBJs6SV492lTNrul2oMjyiqxTIDF8LAF6z2AEL3DS6ZH0voDbWlmdO16jNXI97MXksRoJ86XKVa9oZDmOaYtpy0z8VDoSdF8Wuq2i5ElmwPaE3VL3C67Djrx1DMJ7DvFU43g=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJeK6B7KO9KUA_C3uTTh4eTSrlFu-30hCJDO4xw_jNixamO8FjdyCZ_QY6KyrCuDZgNGDyfzX0hngV2x1imATmdFFgOTtVWibC6j1zT_ZvB5Vg0T8Q8zzypr_b983vB9PWyxQYURmhfm8RjYA24mY50BylBpnM9_xTH49E-GPr0DBS"
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "sheffield",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoyPLGlOFO-j7PfU8Bjzw0AWD_1clbrcR8qfg2PyIyb30JoFX13Ofcao8XV8GfbB7yxpTjHtXdHci3241L1UI1VoebBLYN3tMUsyUxtoUENpG0E4Lotr9AQXPiTDdOYTG4FnPKc9XvjEnC9-TUENR-NC7Gt31ZV-tqrcXVL5p_wKhWMZ25"
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "bohrium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcj0BbSKmB5DCIa7ZVoFwD2ls6-hc2OMJPAa-e6mNKZZV1_zFGvDPNwdaz6HUTgk1s6wHgECYjy3mewwZRCSVvUgUcN9Le3Mnx7Y3H0y3KKB4_0x8JXb5Eu9AnoAfGc8AEdRG4hR-5aQqz3O4HBMfpe8YNny9_4wtH8SmgyQr91rC2ipHPHhBuXrYQ3AgahFoIcz_3LoLLH8sRNsjHFHTJaadhXXG4HtS3SWUbYdPXFItGHkCpNTyShkOhXOZnsHm9Xv9NQBVYrmOqehpC"
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEei8TG2G2Op_pwkbJN4YsfDBqSA1CDKax58iFsQa5L9W4n3v_S7nsjY3ZMiMzStKtfYzaMq-eaV0UYxhLG380MfV1Zy8vhtF9WTwtmOevD4XTIZNqbY0UfsOG-FM5Uc0_WeQ=="
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEei8TG2G2Op_pwkbJN4YsfDBqSA1CDKax58iFsQa5L9W4n3v_S7nsjY3ZMiMzStKtfYzaMq-eaV0UYxhLG380MfV1Zy8vhtF9WTwtmOevD4XTIZNqbY0UfsOG-FM5Uc0_WeQ=="
+      },
+      {
+        "label": "bohrium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcj0BbSKmB5DCIa7ZVoFwD2ls6-hc2OMJPAa-e6mNKZZV1_zFGvDPNwdaz6HUTgk1s6wHgECYjy3mewwZRCSVvUgUcN9Le3Mnx7Y3H0y3KKB4_0x8JXb5Eu9AnoAfGc8AEdRG4hR-5aQqz3O4HBMfpe8YNny9_4wtH8SmgyQr91rC2ipHPHhBuXrYQ3AgahFoIcz_3LoLLH8sRNsjHFHTJaadhXXG4HtS3SWUbYdPXFItGHkCpNTyShkOhXOZnsHm9Xv9NQBVYrmOqehpC"
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC2ztskfryjUUP_FhaNQVZ03FHzz3G_Fg86Re0Unxz66dxAu74cKtsFH3qFRqQcLmAgssLpZ8LjxxPZXbTiF-ED5i0CeRVezRUAbj9Ki22gWRygJWmZ_RO7dUt997lVRmZyP1rzJOFv7BKRRYtMvI3jl7w041dDH3IjbG1qfmAzHaaQNrD7YvzmPIf1X0Q0qDDGSB_Mg=="
+      },
+      {
+        "label": "benthamdirect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqb9negNbcuSvyABsQ0E5N4eGzp15wS4CHuJm4d_0aRdU3PtKRakQAY4C2hjYTUdJpMoD-fhL2gTYPKBPgq8Y-lWz9qsOg7XxPUl7xzdtbHRTE85eIFSsnYJ-XVVjUwy0yCG5Wf4W7Vs673foe_l-fnr3MZNnggECYM1gNqHzdOzd0nwYHBIszRRgJXT_n4qc73Q=="
+      },
+      {
+        "label": "idtechex",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4E58QtciWTk1TLP3VUq3dOUXiHsEpwLOyuyoDdFzfD-gVl8S3Q2zhFE8DnxHEZ7eY5F92x7Ca7g1VJxk4eZNYYZK2S0J8LmqkeOSY0IGXo_BiIYdDSusE0b6KaHc2A3TCqwdvfZ9rTINOMZn6W-qIMpnlm2Q6p3_mkSxjw9VklELsCPMcAHknstrF9DNFbchcE8NgbpYxnH2nBsO4oAUkaQO-odWgBnhC0kHlLOP_8l-"
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "quantumzeitgeist",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsB17zd4z0iuMEN9WISxjX-CJt92jlnR6ALzrnzHwbfMNULXH8hZUkHFoerAKaqHzOqFQjO91emDD3RrayKB5E5ETtQvpQnx5g3BZ0ERp-I62qpuVfoY8y1qVi8mZ6wJDI84V1_O1XDtfuFPo1BGDvqsV4JU-8_TOVHjSjtHcf4biNZwz8F2WiSbqV4jsf2egeeVZsGM3MfhOWgrc="
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz4-1eGGswOQPL6sASj_Ml-h4eGwwMK2efy4H286FG6mKmCcz2Mtgq0bBUYKb1SauQyuawqW7vcY3ShNWkwz_rFHDShU2tgBqMcEQTLg28ZdvpoLeHEDdqUW-ZHOlTQGdESSy6ToFfrvYLkBJh"
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz4-1eGGswOQPL6sASj_Ml-h4eGwwMK2efy4H286FG6mKmCcz2Mtgq0bBUYKb1SauQyuawqW7vcY3ShNWkwz_rFHDShU2tgBqMcEQTLg28ZdvpoLeHEDdqUW-ZHOlTQGdESSy6ToFfrvYLkBJh"
+      },
+      {
+        "label": "rics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER-muZ95KSxvVhZsUSJXIrSyBCVu5wBIOKom-r9qhZp56kVGMupXB4_pk0T59ptB8_S477rv7lUu-haZQHvWxNkbn8HSYhEbSWOYkxlpbKJ5CeafBHRAkZYZLxH7mNd39uhXCX7vZfO8_oTSBga2f0E27bC3CAMFY4iIxmrTLKs0xINbxy2WBQbU2rJvXkBikxpOTL-fiZoVlIGGlJ18MIPsyyJV6GHMUCf0CQ5g=="
+      },
+      {
+        "label": "framcos",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiZmLpXJlRnckc8xvgBMPFTdm2XTPV4bTtdkcslqAq1svyQRql6lxqvVSLw01_TUYdxa01SIAj0MTOjWOkOLgIy0kb5vysLn9OyCv_jKkbvc8sQ2b7gmr4LehYuVN-waXySw=="
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEz4-1eGGswOQPL6sASj_Ml-h4eGwwMK2efy4H286FG6mKmCcz2Mtgq0bBUYKb1SauQyuawqW7vcY3ShNWkwz_rFHDShU2tgBqMcEQTLg28ZdvpoLeHEDdqUW-ZHOlTQGdESSy6ToFfrvYLkBJh"
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEei8TG2G2Op_pwkbJN4YsfDBqSA1CDKax58iFsQa5L9W4n3v_S7nsjY3ZMiMzStKtfYzaMq-eaV0UYxhLG380MfV1Zy8vhtF9WTwtmOevD4XTIZNqbY0UfsOG-FM5Uc0_WeQ=="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEei8TG2G2Op_pwkbJN4YsfDBqSA1CDKax58iFsQa5L9W4n3v_S7nsjY3ZMiMzStKtfYzaMq-eaV0UYxhLG380MfV1Zy8vhtF9WTwtmOevD4XTIZNqbY0UfsOG-FM5Uc0_WeQ=="
+      },
+      {
+        "label": "rics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER-muZ95KSxvVhZsUSJXIrSyBCVu5wBIOKom-r9qhZp56kVGMupXB4_pk0T59ptB8_S477rv7lUu-haZQHvWxNkbn8HSYhEbSWOYkxlpbKJ5CeafBHRAkZYZLxH7mNd39uhXCX7vZfO8_oTSBga2f0E27bC3CAMFY4iIxmrTLKs0xINbxy2WBQbU2rJvXkBikxpOTL-fiZoVlIGGlJ18MIPsyyJV6GHMUCf0CQ5g=="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEei8TG2G2Op_pwkbJN4YsfDBqSA1CDKax58iFsQa5L9W4n3v_S7nsjY3ZMiMzStKtfYzaMq-eaV0UYxhLG380MfV1Zy8vhtF9WTwtmOevD4XTIZNqbY0UfsOG-FM5Uc0_WeQ=="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEei8TG2G2Op_pwkbJN4YsfDBqSA1CDKax58iFsQa5L9W4n3v_S7nsjY3ZMiMzStKtfYzaMq-eaV0UYxhLG380MfV1Zy8vhtF9WTwtmOevD4XTIZNqbY0UfsOG-FM5Uc0_WeQ=="
+      },
+      {
+        "label": "framcos",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiZmLpXJlRnckc8xvgBMPFTdm2XTPV4bTtdkcslqAq1svyQRql6lxqvVSLw01_TUYdxa01SIAj0MTOjWOkOLgIy0kb5vysLn9OyCv_jKkbvc8sQ2b7gmr4LehYuVN-waXySw=="
+      },
+      {
+        "label": "csce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJjelxhAeyDXLVj0VQSEhBF00fprOqFLNpqGJ2PA_7kB7GbEqsrTObSGdj0NuNl3huwO1R9BSpjz3Z-6MUERZHaNm47R7UXzDEbVuTmJFlofVI4yxhpN1vUfyCaNOMvokY9c4aJn3yed3N7H9WOUlDAL1VJIZNanUfNfIMTcMXGAmwOMsvqzDERqSg4QitmqZzE2KN_KE-xOB7T2hD6yngv3yV"
+      },
+      {
+        "label": "plasticsengineering",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAiDgAo0mpLFnlryR2GgAQh0SNxIBXRiSPHUmjSvqrWrr0-oDXN09zQtyJIK_uME-QR5UMg2arQUihRGi2B8DrXGeYHmwZTTjHcT9A8kUkyQ_YevhFgs4RNU6aTckSvL5k3wPIo-kG3hlumBJR_icXb8d-QB_lgtKeWzuMyhKZ5wvcFv6iiaf3xQntbTEKVX0n7jPqMos0wzHF0KLPYDloSoNpDYj9sA=="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC2ztskfryjUUP_FhaNQVZ03FHzz3G_Fg86Re0Unxz66dxAu74cKtsFH3qFRqQcLmAgssLpZ8LjxxPZXbTiF-ED5i0CeRVezRUAbj9Ki22gWRygJWmZ_RO7dUt997lVRmZyP1rzJOFv7BKRRYtMvI3jl7w041dDH3IjbG1qfmAzHaaQNrD7YvzmPIf1X0Q0qDDGSB_Mg=="
+      },
+      {
+        "label": "benthamdirect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqb9negNbcuSvyABsQ0E5N4eGzp15wS4CHuJm4d_0aRdU3PtKRakQAY4C2hjYTUdJpMoD-fhL2gTYPKBPgq8Y-lWz9qsOg7XxPUl7xzdtbHRTE85eIFSsnYJ-XVVjUwy0yCG5Wf4W7Vs673foe_l-fnr3MZNnggECYM1gNqHzdOzd0nwYHBIszRRgJXT_n4qc73Q=="
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF29oM9LcmUgHEXXdGpQyPbQh83y2HZcna-kX5O3OXz9IQco1T0NPheJEJ1JVHySDS92SrxR8ihIWm5BQDE66c0kRssti4bT-0NmcJwgPBzdXLLJMYG_GN0rlhD_rXMGu5l3alBbG1YFLDsqkk6Jcl-6nthipL4-962QhVjxC3M5UwrIRk_dVOoQ2cprxlm5-V4hchcL_4C6VLZNU3NAbd4-IlZRCNtVAAKv8zhV1wQMMk6goBwTUTf-oKaBSosPP-td9iApkE="
+      },
+      {
+        "label": "annualreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc03cya6sNB-1DLloMB9kuAEO9Y4tKYZ9_cb-I0srJ1nqVH0iJJasP-v0C12PFQxGZHwcjJ7AkIDOWtqpoSxBSTyN9P3JXW2efWGig0EiI_4wwuJzF1xWHCWhhaWlTu2R9H6N4y9UmhjTrUSxQZPL5Bea0T5qQYNm5iuaDPC0sTCNdYojE8Y2i2cBfNuoP"
+      },
+      {
+        "label": "plasticsengineering",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAiDgAo0mpLFnlryR2GgAQh0SNxIBXRiSPHUmjSvqrWrr0-oDXN09zQtyJIK_uME-QR5UMg2arQUihRGi2B8DrXGeYHmwZTTjHcT9A8kUkyQ_YevhFgs4RNU6aTckSvL5k3wPIo-kG3hlumBJR_icXb8d-QB_lgtKeWzuMyhKZ5wvcFv6iiaf3xQntbTEKVX0n7jPqMos0wzHF0KLPYDloSoNpDYj9sA=="
+      },
+      {
+        "label": "plasticsengineering",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAiDgAo0mpLFnlryR2GgAQh0SNxIBXRiSPHUmjSvqrWrr0-oDXN09zQtyJIK_uME-QR5UMg2arQUihRGi2B8DrXGeYHmwZTTjHcT9A8kUkyQ_YevhFgs4RNU6aTckSvL5k3wPIo-kG3hlumBJR_icXb8d-QB_lgtKeWzuMyhKZ5wvcFv6iiaf3xQntbTEKVX0n7jPqMos0wzHF0KLPYDloSoNpDYj9sA=="
+      },
+      {
+        "label": "plasticsengineering",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAiDgAo0mpLFnlryR2GgAQh0SNxIBXRiSPHUmjSvqrWrr0-oDXN09zQtyJIK_uME-QR5UMg2arQUihRGi2B8DrXGeYHmwZTTjHcT9A8kUkyQ_YevhFgs4RNU6aTckSvL5k3wPIo-kG3hlumBJR_icXb8d-QB_lgtKeWzuMyhKZ5wvcFv6iiaf3xQntbTEKVX0n7jPqMos0wzHF0KLPYDloSoNpDYj9sA=="
+      },
+      {
+        "label": "tamu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8zps2RqXrzkrn-PeW-F-xpIDNaEF5Zz3EQoPOW3a7784lEIwnlHxOoV1cS62UOgZR2VBG0LVbiRjCxpIX25Ixgpl0P8a9AGz0OHdsNzrjR6W9KkD6cqC4yUyDNtThvX469Idy_u-uoC061-0tFFX-rKAYAtndRIBnx00HPLP6OuGkVXoMQ5IzFWyDkpMAo5DQfs6nFO0uWWC7fHVWZAUj-yi_Y3f0Zq_3ARLnMPqtPgfpGsme"
+      },
+      {
+        "label": "idtechex",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4E58QtciWTk1TLP3VUq3dOUXiHsEpwLOyuyoDdFzfD-gVl8S3Q2zhFE8DnxHEZ7eY5F92x7Ca7g1VJxk4eZNYYZK2S0J8LmqkeOSY0IGXo_BiIYdDSusE0b6KaHc2A3TCqwdvfZ9rTINOMZn6W-qIMpnlm2Q6p3_mkSxjw9VklELsCPMcAHknstrF9DNFbchcE8NgbpYxnH2nBsO4oAUkaQO-odWgBnhC0kHlLOP_8l-"
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOV7PPbJb5vDTJplfa9PQe1vS0QmiMuQiogObvhFftouFqlSchTBtZJZoLFywoX9N-DQulH1iG5nV74Vexkjhvd9svepSYse_kvd-jTggnJJ0oBNGpRqwMiwLSoP5dRaH01mqwKcMGjEVbdnvh"
+      },
+      {
+        "label": "sheffield",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoyPLGlOFO-j7PfU8Bjzw0AWD_1clbrcR8qfg2PyIyb30JoFX13Ofcao8XV8GfbB7yxpTjHtXdHci3241L1UI1VoebBLYN3tMUsyUxtoUENpG0E4Lotr9AQXPiTDdOYTG4FnPKc9XvjEnC9-TUENR-NC7Gt31ZV-tqrcXVL5p_wKhWMZ25"
+      },
+      {
+        "label": "towardschemandmaterials",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJarOnk5-HXtFG3bP_qfRWglhH3HZBbiZyWJ9F0m48aT_mllVRp2KPvKHWOcyTVRMl7ALFCWiHY-QAaWelzr8oMLAN809khomZGxUOvJQ72BldjMOcqx4zINFag2DPMXrqzS_vSWtTE8gGGrW1e0njVOUlLpuke402ATmT2Zi4AaCMnyloy8MN"
+      },
+      {
+        "label": "rics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER-muZ95KSxvVhZsUSJXIrSyBCVu5wBIOKom-r9qhZp56kVGMupXB4_pk0T59ptB8_S477rv7lUu-haZQHvWxNkbn8HSYhEbSWOYkxlpbKJ5CeafBHRAkZYZLxH7mNd39uhXCX7vZfO8_oTSBga2f0E27bC3CAMFY4iIxmrTLKs0xINbxy2WBQbU2rJvXkBikxpOTL-fiZoVlIGGlJ18MIPsyyJV6GHMUCf0CQ5g=="
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "idtechex",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk3rilNV-fF7Y6rYsCc0KqmLlKi9lES9FzAQo24cnw_Vox8evoPdMeuzgdPwOUECH9sVJlG10RsS7V-OEjd034cbWNiVfBd2Ug0sDp1PPHhvU6aQC775PNdbVspSWJIDCShH2xud4v7ZFEkoFMqWadNESk1LO6CObbnSLWjnP4PJEAB8CW5bt6l0n-4XpoWXFfKmAKsuMTqHyadA9QrbWNxno1wbOiJz08tZ8kyzsYjQ=="
+      },
+      {
+        "label": "idtechex",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk3rilNV-fF7Y6rYsCc0KqmLlKi9lES9FzAQo24cnw_Vox8evoPdMeuzgdPwOUECH9sVJlG10RsS7V-OEjd034cbWNiVfBd2Ug0sDp1PPHhvU6aQC775PNdbVspSWJIDCShH2xud4v7ZFEkoFMqWadNESk1LO6CObbnSLWjnP4PJEAB8CW5bt6l0n-4XpoWXFfKmAKsuMTqHyadA9QrbWNxno1wbOiJz08tZ8kyzsYjQ=="
+      },
+      {
+        "label": "idtechex",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4E58QtciWTk1TLP3VUq3dOUXiHsEpwLOyuyoDdFzfD-gVl8S3Q2zhFE8DnxHEZ7eY5F92x7Ca7g1VJxk4eZNYYZK2S0J8LmqkeOSY0IGXo_BiIYdDSusE0b6KaHc2A3TCqwdvfZ9rTINOMZn6W-qIMpnlm2Q6p3_mkSxjw9VklELsCPMcAHknstrF9DNFbchcE8NgbpYxnH2nBsO4oAUkaQO-odWgBnhC0kHlLOP_8l-"
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "tamu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8zps2RqXrzkrn-PeW-F-xpIDNaEF5Zz3EQoPOW3a7784lEIwnlHxOoV1cS62UOgZR2VBG0LVbiRjCxpIX25Ixgpl0P8a9AGz0OHdsNzrjR6W9KkD6cqC4yUyDNtThvX469Idy_u-uoC061-0tFFX-rKAYAtndRIBnx00HPLP6OuGkVXoMQ5IzFWyDkpMAo5DQfs6nFO0uWWC7fHVWZAUj-yi_Y3f0Zq_3ARLnMPqtPgfpGsme"
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "plasticsengineering",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAiDgAo0mpLFnlryR2GgAQh0SNxIBXRiSPHUmjSvqrWrr0-oDXN09zQtyJIK_uME-QR5UMg2arQUihRGi2B8DrXGeYHmwZTTjHcT9A8kUkyQ_YevhFgs4RNU6aTckSvL5k3wPIo-kG3hlumBJR_icXb8d-QB_lgtKeWzuMyhKZ5wvcFv6iiaf3xQntbTEKVX0n7jPqMos0wzHF0KLPYDloSoNpDYj9sA=="
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "futuremarketsinc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFNkqxB8E2aw52dz_Hlg0tHKDo3okGUY9Y1fN_HlHTCNtVo2Tplv-KXmIXv2nyZZwc28BbIr6GU4Ut1xU2nDpvCVWMk6OqbXouqWXAprhEQ0lc19PwPNtYROfRqZZq_n82TQtnXroz365n2l6pn1QTX4NEsfnvMEW4cSKS8mrNo0jgm00ULMYEMPoQxIM1Vg=="
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF29oM9LcmUgHEXXdGpQyPbQh83y2HZcna-kX5O3OXz9IQco1T0NPheJEJ1JVHySDS92SrxR8ihIWm5BQDE66c0kRssti4bT-0NmcJwgPBzdXLLJMYG_GN0rlhD_rXMGu5l3alBbG1YFLDsqkk6Jcl-6nthipL4-962QhVjxC3M5UwrIRk_dVOoQ2cprxlm5-V4hchcL_4C6VLZNU3NAbd4-IlZRCNtVAAKv8zhV1wQMMk6goBwTUTf-oKaBSosPP-td9iApkE="
+      },
+      {
+        "label": "plasticsengineering",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAiDgAo0mpLFnlryR2GgAQh0SNxIBXRiSPHUmjSvqrWrr0-oDXN09zQtyJIK_uME-QR5UMg2arQUihRGi2B8DrXGeYHmwZTTjHcT9A8kUkyQ_YevhFgs4RNU6aTckSvL5k3wPIo-kG3hlumBJR_icXb8d-QB_lgtKeWzuMyhKZ5wvcFv6iiaf3xQntbTEKVX0n7jPqMos0wzHF0KLPYDloSoNpDYj9sA=="
+      },
+      {
+        "label": "towardschemandmaterials",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJarOnk5-HXtFG3bP_qfRWglhH3HZBbiZyWJ9F0m48aT_mllVRp2KPvKHWOcyTVRMl7ALFCWiHY-QAaWelzr8oMLAN809khomZGxUOvJQ72BldjMOcqx4zINFag2DPMXrqzS_vSWtTE8gGGrW1e0njVOUlLpuke402ATmT2Zi4AaCMnyloy8MN"
+      },
+      {
+        "label": "grandviewresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1eAumq07pyc-rS7b79WSq_RoGNrB9R40eJsiFT1m6JYJw0ac0xB2SB7RsTibNu7X2xwoz9wbHlSuJcpekSa0Rug_gjqy_ZY_V3Ud2vvtNKfxvOaD1vtu0nkTjyyTbB37APBtirVmGqOqpNM3-ZdKoIVmQHVlyeGDrYtPjWxR5Ji9gIoeB"
+      },
+      {
+        "label": "towardschemandmaterials",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJarOnk5-HXtFG3bP_qfRWglhH3HZBbiZyWJ9F0m48aT_mllVRp2KPvKHWOcyTVRMl7ALFCWiHY-QAaWelzr8oMLAN809khomZGxUOvJQ72BldjMOcqx4zINFag2DPMXrqzS_vSWtTE8gGGrW1e0njVOUlLpuke402ATmT2Zi4AaCMnyloy8MN"
+      },
+      {
+        "label": "grandviewresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1eAumq07pyc-rS7b79WSq_RoGNrB9R40eJsiFT1m6JYJw0ac0xB2SB7RsTibNu7X2xwoz9wbHlSuJcpekSa0Rug_gjqy_ZY_V3Ud2vvtNKfxvOaD1vtu0nkTjyyTbB37APBtirVmGqOqpNM3-ZdKoIVmQHVlyeGDrYtPjWxR5Ji9gIoeB"
+      },
+      {
+        "label": "towardschemandmaterials",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJarOnk5-HXtFG3bP_qfRWglhH3HZBbiZyWJ9F0m48aT_mllVRp2KPvKHWOcyTVRMl7ALFCWiHY-QAaWelzr8oMLAN809khomZGxUOvJQ72BldjMOcqx4zINFag2DPMXrqzS_vSWtTE8gGGrW1e0njVOUlLpuke402ATmT2Zi4AaCMnyloy8MN"
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOV7PPbJb5vDTJplfa9PQe1vS0QmiMuQiogObvhFftouFqlSchTBtZJZoLFywoX9N-DQulH1iG5nV74Vexkjhvd9svepSYse_kvd-jTggnJJ0oBNGpRqwMiwLSoP5dRaH01mqwKcMGjEVbdnvh"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-20",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWLSgcEsLu5R1GsyIDbeTHvlqhh4sJva9-d9lyvZPXCT3OMfWXmFWPRDX0ePOQcTsUF5tO3ZiM2cIraDCJlLSKEPYdmOhaPX5Db6Br_RWlRY6FX_vAZtKdhnM8rGeUBAaW4N4RbRTQXC8Yg3ZxL-7Xj--QDwKGws9TnUgefqkjoCy2u1pNIVeLwD14P9FDqcVIH3rKTRq90djrIURxKdRSU-XFpcqH8vJ2HA6rsqmT4uwYSA7irWus5mO6kFPzZRuSP-OXkw=="
+      },
+      {
+        "label": "csce",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJjelxhAeyDXLVj0VQSEhBF00fprOqFLNpqGJ2PA_7kB7GbEqsrTObSGdj0NuNl3huwO1R9BSpjz3Z-6MUERZHaNm47R7UXzDEbVuTmJFlofVI4yxhpN1vUfyCaNOMvokY9c4aJn3yed3N7H9WOUlDAL1VJIZNanUfNfIMTcMXGAmwOMsvqzDERqSg4QitmqZzE2KN_KE-xOB7T2hD6yngv3yV"
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOV7PPbJb5vDTJplfa9PQe1vS0QmiMuQiogObvhFftouFqlSchTBtZJZoLFywoX9N-DQulH1iG5nV74Vexkjhvd9svepSYse_kvd-jTggnJJ0oBNGpRqwMiwLSoP5dRaH01mqwKcMGjEVbdnvh"
+      },
+      {
+        "label": "towardschemandmaterials",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJarOnk5-HXtFG3bP_qfRWglhH3HZBbiZyWJ9F0m48aT_mllVRp2KPvKHWOcyTVRMl7ALFCWiHY-QAaWelzr8oMLAN809khomZGxUOvJQ72BldjMOcqx4zINFag2DPMXrqzS_vSWtTE8gGGrW1e0njVOUlLpuke402ATmT2Zi4AaCMnyloy8MN"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4btBXm-ZvVcU-gPYsVPW-Z1civfQIVEqUgadvMtG98JTYYGWAB5dSKbeYhWS3Y28SXiTI_B30DO4M5spvLVZoCDKG3K2HgtWPS2fsTNET9-EMnUCryd4MjDZMfZIx71WfdIjo3TpIEgjplMN9f6sF"
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiY3FXosONYoKluRVUOU_4wuXqQuxaVJhB3dNimi6ssFEmpwL1ucAHPM2CTITsg5nZJvWb1T46Pb57QqNBOlt98e1yW7nUuXh7VyLRYXT1hTPCEyvTxloCAeUQYHyzUR1yqhsSlDPJvgU59xSaUoJ2egUkc9NcQv6lVEV3LPxL7tVFPINXsdz0SV5R"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4btBXm-ZvVcU-gPYsVPW-Z1civfQIVEqUgadvMtG98JTYYGWAB5dSKbeYhWS3Y28SXiTI_B30DO4M5spvLVZoCDKG3K2HgtWPS2fsTNET9-EMnUCryd4MjDZMfZIx71WfdIjo3TpIEgjplMN9f6sF"
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiY3FXosONYoKluRVUOU_4wuXqQuxaVJhB3dNimi6ssFEmpwL1ucAHPM2CTITsg5nZJvWb1T46Pb57QqNBOlt98e1yW7nUuXh7VyLRYXT1hTPCEyvTxloCAeUQYHyzUR1yqhsSlDPJvgU59xSaUoJ2egUkc9NcQv6lVEV3LPxL7tVFPINXsdz0SV5R"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4btBXm-ZvVcU-gPYsVPW-Z1civfQIVEqUgadvMtG98JTYYGWAB5dSKbeYhWS3Y28SXiTI_B30DO4M5spvLVZoCDKG3K2HgtWPS2fsTNET9-EMnUCryd4MjDZMfZIx71WfdIjo3TpIEgjplMN9f6sF"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4btBXm-ZvVcU-gPYsVPW-Z1civfQIVEqUgadvMtG98JTYYGWAB5dSKbeYhWS3Y28SXiTI_B30DO4M5spvLVZoCDKG3K2HgtWPS2fsTNET9-EMnUCryd4MjDZMfZIx71WfdIjo3TpIEgjplMN9f6sF"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4btBXm-ZvVcU-gPYsVPW-Z1civfQIVEqUgadvMtG98JTYYGWAB5dSKbeYhWS3Y28SXiTI_B30DO4M5spvLVZoCDKG3K2HgtWPS2fsTNET9-EMnUCryd4MjDZMfZIx71WfdIjo3TpIEgjplMN9f6sF"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4btBXm-ZvVcU-gPYsVPW-Z1civfQIVEqUgadvMtG98JTYYGWAB5dSKbeYhWS3Y28SXiTI_B30DO4M5spvLVZoCDKG3K2HgtWPS2fsTNET9-EMnUCryd4MjDZMfZIx71WfdIjo3TpIEgjplMN9f6sF"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4btBXm-ZvVcU-gPYsVPW-Z1civfQIVEqUgadvMtG98JTYYGWAB5dSKbeYhWS3Y28SXiTI_B30DO4M5spvLVZoCDKG3K2HgtWPS2fsTNET9-EMnUCryd4MjDZMfZIx71WfdIjo3TpIEgjplMN9f6sF"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGArUEfFen6-InArTW2nP8i-GaLa2sdXry9MwM3xWnEYg2Kl51nfYSheehy2zSFQyCVeQRPdc1J9JE4CKA0Da9icWdEoV28EIA6A8H2ohJXbEIMUqPdERw3jL_P_v0Evx3MAFHuGv81cJBf_6_gu79otSRkOQNKdkYSJ3qWVjbp49so8YODOxEyeRCjKMKVYEBcG4v8Ip9mVN9vz9DEWavKsCTOuJ9NOw7hPPTiN9vvZjIR9e1uF5M1Whh2jpPBo-_nhIbKR5jl0SG2tOdD1ecr_bXd0mhbrwOrEnEWnlcYuH3wg6rd952d"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGArUEfFen6-InArTW2nP8i-GaLa2sdXry9MwM3xWnEYg2Kl51nfYSheehy2zSFQyCVeQRPdc1J9JE4CKA0Da9icWdEoV28EIA6A8H2ohJXbEIMUqPdERw3jL_P_v0Evx3MAFHuGv81cJBf_6_gu79otSRkOQNKdkYSJ3qWVjbp49so8YODOxEyeRCjKMKVYEBcG4v8Ip9mVN9vz9DEWavKsCTOuJ9NOw7hPPTiN9vvZjIR9e1uF5M1Whh2jpPBo-_nhIbKR5jl0SG2tOdD1ecr_bXd0mhbrwOrEnEWnlcYuH3wg6rd952d"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGArUEfFen6-InArTW2nP8i-GaLa2sdXry9MwM3xWnEYg2Kl51nfYSheehy2zSFQyCVeQRPdc1J9JE4CKA0Da9icWdEoV28EIA6A8H2ohJXbEIMUqPdERw3jL_P_v0Evx3MAFHuGv81cJBf_6_gu79otSRkOQNKdkYSJ3qWVjbp49so8YODOxEyeRCjKMKVYEBcG4v8Ip9mVN9vz9DEWavKsCTOuJ9NOw7hPPTiN9vvZjIR9e1uF5M1Whh2jpPBo-_nhIbKR5jl0SG2tOdD1ecr_bXd0mhbrwOrEnEWnlcYuH3wg6rd952d"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGArUEfFen6-InArTW2nP8i-GaLa2sdXry9MwM3xWnEYg2Kl51nfYSheehy2zSFQyCVeQRPdc1J9JE4CKA0Da9icWdEoV28EIA6A8H2ohJXbEIMUqPdERw3jL_P_v0Evx3MAFHuGv81cJBf_6_gu79otSRkOQNKdkYSJ3qWVjbp49so8YODOxEyeRCjKMKVYEBcG4v8Ip9mVN9vz9DEWavKsCTOuJ9NOw7hPPTiN9vvZjIR9e1uF5M1Whh2jpPBo-_nhIbKR5jl0SG2tOdD1ecr_bXd0mhbrwOrEnEWnlcYuH3wg6rd952d"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGArUEfFen6-InArTW2nP8i-GaLa2sdXry9MwM3xWnEYg2Kl51nfYSheehy2zSFQyCVeQRPdc1J9JE4CKA0Da9icWdEoV28EIA6A8H2ohJXbEIMUqPdERw3jL_P_v0Evx3MAFHuGv81cJBf_6_gu79otSRkOQNKdkYSJ3qWVjbp49so8YODOxEyeRCjKMKVYEBcG4v8Ip9mVN9vz9DEWavKsCTOuJ9NOw7hPPTiN9vvZjIR9e1uF5M1Whh2jpPBo-_nhIbKR5jl0SG2tOdD1ecr_bXd0mhbrwOrEnEWnlcYuH3wg6rd952d"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGArUEfFen6-InArTW2nP8i-GaLa2sdXry9MwM3xWnEYg2Kl51nfYSheehy2zSFQyCVeQRPdc1J9JE4CKA0Da9icWdEoV28EIA6A8H2ohJXbEIMUqPdERw3jL_P_v0Evx3MAFHuGv81cJBf_6_gu79otSRkOQNKdkYSJ3qWVjbp49so8YODOxEyeRCjKMKVYEBcG4v8Ip9mVN9vz9DEWavKsCTOuJ9NOw7hPPTiN9vvZjIR9e1uF5M1Whh2jpPBo-_nhIbKR5jl0SG2tOdD1ecr_bXd0mhbrwOrEnEWnlcYuH3wg6rd952d"
+      },
+      {
+        "label": "researchgate",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGArUEfFen6-InArTW2nP8i-GaLa2sdXry9MwM3xWnEYg2Kl51nfYSheehy2zSFQyCVeQRPdc1J9JE4CKA0Da9icWdEoV28EIA6A8H2ohJXbEIMUqPdERw3jL_P_v0Evx3MAFHuGv81cJBf_6_gu79otSRkOQNKdkYSJ3qWVjbp49so8YODOxEyeRCjKMKVYEBcG4v8Ip9mVN9vz9DEWavKsCTOuJ9NOw7hPPTiN9vvZjIR9e1uF5M1Whh2jpPBo-_nhIbKR5jl0SG2tOdD1ecr_bXd0mhbrwOrEnEWnlcYuH3wg6rd952d"
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiY3FXosONYoKluRVUOU_4wuXqQuxaVJhB3dNimi6ssFEmpwL1ucAHPM2CTITsg5nZJvWb1T46Pb57QqNBOlt98e1yW7nUuXh7VyLRYXT1hTPCEyvTxloCAeUQYHyzUR1yqhsSlDPJvgU59xSaUoJ2egUkc9NcQv6lVEV3LPxL7tVFPINXsdz0SV5R"
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiY3FXosONYoKluRVUOU_4wuXqQuxaVJhB3dNimi6ssFEmpwL1ucAHPM2CTITsg5nZJvWb1T46Pb57QqNBOlt98e1yW7nUuXh7VyLRYXT1hTPCEyvTxloCAeUQYHyzUR1yqhsSlDPJvgU59xSaUoJ2egUkc9NcQv6lVEV3LPxL7tVFPINXsdz0SV5R"
+      },
+      {
+        "label": "cas",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiY3FXosONYoKluRVUOU_4wuXqQuxaVJhB3dNimi6ssFEmpwL1ucAHPM2CTITsg5nZJvWb1T46Pb57QqNBOlt98e1yW7nUuXh7VyLRYXT1hTPCEyvTxloCAeUQYHyzUR1yqhsSlDPJvgU59xSaUoJ2egUkc9NcQv6lVEV3LPxL7tVFPINXsdz0SV5R"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4btBXm-ZvVcU-gPYsVPW-Z1civfQIVEqUgadvMtG98JTYYGWAB5dSKbeYhWS3Y28SXiTI_B30DO4M5spvLVZoCDKG3K2HgtWPS2fsTNET9-EMnUCryd4MjDZMfZIx71WfdIjo3TpIEgjplMN9f6sF"
+      },
+      {
+        "label": "airbus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX7klcU8pBu63E_ZV-OoisZhxglAAGkmJK9RkI684s8QAvMRrsCLCiMAuuweZTMJiwcsiCvokUlj08bd6z3GhYk1rTCp31XjsQCJ6NrwaQbK_vOvMhuiZMWw1JWESBQgS1OvJQyAJ-ECII5nzxEqmkifevskZa_HwYko0v3-rzxFPmFrMDpQCWTqN4pHbxWZBRJRueQTYyHI8hqV_BeiMLEwJ_GWagcQKshD3OZw=="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF71KFvUjkjnh7O7mTFsrVIXcjiKkQSpavCjXS1Lhjxi5581kGBRhAo4ZjGmDQZSNmsmNQLTMpy2yq-YsR8nqJf7ISHZrwRwWxjzGfjfHT98YJqPzWHpxN-E5YansdaTpN24QqXIXs4z6o="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHamVOHco8ELMNiK-oMTVLdpdcq1jx3nWadRzTdhJ-1A1Jdf9YupKNGn5Cf9lqhHp_MjQ4Aas1tKj9WBwCslqfPUfh6FfSuhIdiDbJtXddiQjTORJZ2pkUpPNd_XnhVHSrghJNV"
+      },
+      {
+        "label": "aip",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFps9JHEJK8_TPm3evgFx-jE5VAnCkUl9_OqI_Np7cLojLB-c9_ogh7JUI4AXRkTr-xEWfWU-oW0gbyF2wqJg-Yu6RBYpoR9GyxecmdydTzFqu3FpgKk8b1fA2b2aduA0nbhRdS6DZN47fUlsbe1z9yWBfvwKdIkIV_7PTd7gLlQyZTorKoKkSrdiwYwLTVi_zO0tVIXmGVnFv9Up-YjdsZ_MwN"
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnbbJBV7-bPl-zXjsGXaIhoPUfGBHozpZ87mIIt0_b3Aly6q05XItmJ7kGwVoZfvSfq2Z4W_2L5xNOX5lWI7dNS7AAyaVERcNzhX0pvMmiu42MjY3R-JRlyNe3RXp7Log="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK0QNJgm4V5FQRhgWgOkLoY3inepPmJmsj43lL9c1wsGA_TWnEoMYaComXIahNr3NC1SC4Sw-gw19qAssTrYDhoEeagrXVbeDwFR2QG0ZAfy6INwwgTqhIy6QePgGPQ1hQOKtgNw8fLlE="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK0QNJgm4V5FQRhgWgOkLoY3inepPmJmsj43lL9c1wsGA_TWnEoMYaComXIahNr3NC1SC4Sw-gw19qAssTrYDhoEeagrXVbeDwFR2QG0ZAfy6INwwgTqhIy6QePgGPQ1hQOKtgNw8fLlE="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI1veJAPhnRD7fq5z-7jljBsTkKL451aX_curUHVgmeZfqFpbbmeTcoCUwc5_-qnKth7b0-GknxcjKYen7YOKFXjI4H4pmYi4mZf41BE5Ta7xRwJXLZlZQ7QSa8golJZvNmYBqVyzjm05Q"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI1veJAPhnRD7fq5z-7jljBsTkKL451aX_curUHVgmeZfqFpbbmeTcoCUwc5_-qnKth7b0-GknxcjKYen7YOKFXjI4H4pmYi4mZf41BE5Ta7xRwJXLZlZQ7QSa8golJZvNmYBqVyzjm05Q"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI1veJAPhnRD7fq5z-7jljBsTkKL451aX_curUHVgmeZfqFpbbmeTcoCUwc5_-qnKth7b0-GknxcjKYen7YOKFXjI4H4pmYi4mZf41BE5Ta7xRwJXLZlZQ7QSa8golJZvNmYBqVyzjm05Q"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI1veJAPhnRD7fq5z-7jljBsTkKL451aX_curUHVgmeZfqFpbbmeTcoCUwc5_-qnKth7b0-GknxcjKYen7YOKFXjI4H4pmYi4mZf41BE5Ta7xRwJXLZlZQ7QSa8golJZvNmYBqVyzjm05Q"
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWDGmPAsP2XFSFD3kUaW4cqsonYqtacyc8YTMQEeqlG9VRj0VFxzUxja0Jd1Yp1pe8xb3SWmmHb-Gv9wiFrHEjy_NTBiHtgT9yqjJ1v3hNd97k8jBH51ENhHXhYqCHRmk="
+      },
+      {
+        "label": "aip",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFps9JHEJK8_TPm3evgFx-jE5VAnCkUl9_OqI_Np7cLojLB-c9_ogh7JUI4AXRkTr-xEWfWU-oW0gbyF2wqJg-Yu6RBYpoR9GyxecmdydTzFqu3FpgKk8b1fA2b2aduA0nbhRdS6DZN47fUlsbe1z9yWBfvwKdIkIV_7PTd7gLlQyZTorKoKkSrdiwYwLTVi_zO0tVIXmGVnFv9Up-YjdsZ_MwN"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFK0QNJgm4V5FQRhgWgOkLoY3inepPmJmsj43lL9c1wsGA_TWnEoMYaComXIahNr3NC1SC4Sw-gw19qAssTrYDhoEeagrXVbeDwFR2QG0ZAfy6INwwgTqhIy6QePgGPQ1hQOKtgNw8fLlE="
+      },
+      {
+        "label": "nih",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfX5PmGPJ2Jz01sF_o1Lxa_F1CtNYWqc4CiYCQmOyBlbT7zQPEdjUg_ZalHhwwH2OHoX929YbyUmk6gP0KWGWE8a1kngDXoj1gDALsOMqCUsYKt6pC6RdK011ZyyWJeCd8t8xH9ecz9NGcrw=="
+      },
+      {
+        "label": "hep",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYZtfz0mSkd2HSJS0lmAPVdqk_J9L8X6N6229e7EZgPF5eKJ7Xnaza17APOfBSgxJ3ovocrdwqhM214IpK6vvwaywt1i_LXncQ5cTGOldqvXH0vvl7i7p0T5YTAFcVleMf9kM7x3z46yVic1vP8nTs_876iU8="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnbbJBV7-bPl-zXjsGXaIhoPUfGBHozpZ87mIIt0_b3Aly6q05XItmJ7kGwVoZfvSfq2Z4W_2L5xNOX5lWI7dNS7AAyaVERcNzhX0pvMmiu42MjY3R-JRlyNe3RXp7Log="
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF71KFvUjkjnh7O7mTFsrVIXcjiKkQSpavCjXS1Lhjxi5581kGBRhAo4ZjGmDQZSNmsmNQLTMpy2yq-YsR8nqJf7ISHZrwRwWxjzGfjfHT98YJqPzWHpxN-E5YansdaTpN24QqXIXs4z6o="
+      },
+      {
+        "label": "airbus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX7klcU8pBu63E_ZV-OoisZhxglAAGkmJK9RkI684s8QAvMRrsCLCiMAuuweZTMJiwcsiCvokUlj08bd6z3GhYk1rTCp31XjsQCJ6NrwaQbK_vOvMhuiZMWw1JWESBQgS1OvJQyAJ-ECII5nzxEqmkifevskZa_HwYko0v3-rzxFPmFrMDpQCWTqN4pHbxWZBRJRueQTYyHI8hqV_BeiMLEwJ_GWagcQKshD3OZw=="
+      },
+      {
+        "label": "mdpi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW-Y4u7MQ5uVc4lPfVOFDfxCUb4LHE-Z9Dkzfk7V-oGqqny7Jc-tbCh8BL_Zv70DI2ZQhYJzcu5l1ynalMO0WCk1IRyg6NEvdYVXA0o8tkmpB4ccqN7Y1A2tcoBw88og=="
+      },
+      {
+        "label": "airbus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX7klcU8pBu63E_ZV-OoisZhxglAAGkmJK9RkI684s8QAvMRrsCLCiMAuuweZTMJiwcsiCvokUlj08bd6z3GhYk1rTCp31XjsQCJ6NrwaQbK_vOvMhuiZMWw1JWESBQgS1OvJQyAJ-ECII5nzxEqmkifevskZa_HwYko0v3-rzxFPmFrMDpQCWTqN4pHbxWZBRJRueQTYyHI8hqV_BeiMLEwJ_GWagcQKshD3OZw=="
+      },
+      {
+        "label": "dtu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR6gPMG0LAY4JQrReamiAZvQWepU4hBCqcpNEiRxixM5F55MEmw0_94xAQ8GF8o2tSHLeV5stNUPPg6hLzT6QeEFcU4TKlrXdMkeDanvLYSCCu_GAqQe2XLDwpbdRM6QN3SzS3E5h7UUsaPKGaCJFd"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI1veJAPhnRD7fq5z-7jljBsTkKL451aX_curUHVgmeZfqFpbbmeTcoCUwc5_-qnKth7b0-GknxcjKYen7YOKFXjI4H4pmYi4mZf41BE5Ta7xRwJXLZlZQ7QSa8golJZvNmYBqVyzjm05Q"
+      },
+      {
+        "label": "acs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI1veJAPhnRD7fq5z-7jljBsTkKL451aX_curUHVgmeZfqFpbbmeTcoCUwc5_-qnKth7b0-GknxcjKYen7YOKFXjI4H4pmYi4mZf41BE5Ta7xRwJXLZlZQ7QSa8golJZvNmYBqVyzjm05Q"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

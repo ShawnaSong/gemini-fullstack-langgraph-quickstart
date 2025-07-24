@@ -1,0 +1,200 @@
+{
+  "file_name": "state_result_150.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.656809",
+  "data": {
+    "messages": [
+      {
+        "content": "Who invented the PIX firewall?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "fd671cf4-3a20-41cf-8cf5-f3b01a5093f6",
+        "example": false
+      },
+      {
+        "content": "The PIX (Private Internet eXchange) Firewall was invented in 1994 by Network Translation Inc., a company founded by John Mayes [wwt](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2). Brantley Coile designed and coded the PIX Firewall as a consultant software developer, and Johnson Wu participated in the design and testing [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "231bc78b-e2d4-4f23-8532-2f3ec71f69f2",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "PIX firewall inventor"
+    ],
+    "web_research_result": [
+      "The PIX (Private Internet eXchange) Firewall, a pioneering network security device offering firewall and network address translation (NAT) capabilities, was invented in 1994 by Network Translation Inc., a company founded by John Mayes [wwt](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2). Brantley Coile, working as a consultant software developer, designed and coded the PIX Firewall [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2). Johnson Wu also participated in the design and testing [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1).\n\nThe PIX firewall was created to address the IPv4 address depletion problem by securely connecting private networks to the internet using a limited number of registered IP addresses [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1). The PIX name was derived from the aim of creating the functional equivalent of an IP PBX to solve the registered IP address shortage [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1) [youtube](https://vertexaisearch.cloud.google.com/id/0-3). The PIX was designed to conceal blocks of IP addresses behind a single or multiple registered IP addresses, similar to how PBXs work for internal phone extensions [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1).\n\nThe PIX firewall quickly gained recognition, receiving the \"Hot Product of the Year\" award from Data Communications Magazine in January 1995 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2). Cisco Systems acquired Network Translation Inc. in November 1995 to expand into the network security market and gain the rights to the PIX technology [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [youtube](https://vertexaisearch.cloud.google.com/id/0-3) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1). The PIX became a flagship firewall product for Cisco [flylib](https://vertexaisearch.cloud.google.com/id/0-4) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2).\n\nIn 2005, Cisco introduced the Adaptive Security Appliance (ASA) platform to succeed the PIX [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-2) [youtube](https://vertexaisearch.cloud.google.com/id/0-3). In 2008, Cisco announced the end-of-sale for the PIX [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1). The PIX technology was also available as a blade, the FireWall Services Module (FWSM), for the Cisco Catalyst 6500 switch series and the 7600 Router series, but it reached end-of-support status in September 2007 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1).\n\nThe first PIX firewall was deployed in November 1994 as a beta test [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1) [youtube](https://vertexaisearch.cloud.google.com/id/0-3). The first customer acceptance occurred on December 21, 1994, at KLA Instruments in San Jose, California [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1).\n\nThe PIX firewall was a stateful inspection firewall [certificationkits](https://vertexaisearch.cloud.google.com/id/0-5) [coraid](https://vertexaisearch.cloud.google.com/id/0-6) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-7). It included features such as Access Control Lists (ACLs), NAT/PAT, and protocol-specific filtering [wwt](https://vertexaisearch.cloud.google.com/id/0-0). The PIX OS was a layer 4 firewall with stateful inspection of return traffic [wwt](https://vertexaisearch.cloud.google.com/id/0-0). The PIX was the first commercially available firewall product to introduce protocol-specific filtering using the \"fixup\" command [wikipedia](https://vertexaisearch.cloud.google.com/id/0-1).\n\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "wwt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG59gIfCcTqw_EnKTDqNhzE5QmSiDrXzd68hYa6HwXmYAafU4MslnoQa57j6QLYCyu0P9wx7xjvDC8G0a1DxBF-snG14gjGDOgscyQmo60ub1ol68zEU5yAhLc4Zp6Is84__mK_OfyNjKVzisOgffwmtgxdMRxdk9Ez4wHB29CydETbw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwBdzHKL9ZwyI0kM27iz0r4r_O2l19EXPthoyKnxwz-n6-1QcSOK6MGLSvx8tei0EmHSFIaw8iwPhGmyAlZp4sm5YgUaA_IbtOqSu31Yy1b2pqyNjLPPoE4UBbvIUdMMhLRXU8mtg1yGRpTRs="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwBdzHKL9ZwyI0kM27iz0r4r_O2l19EXPthoyKnxwz-n6-1QcSOK6MGLSvx8tei0EmHSFIaw8iwPhGmyAlZp4sm5YgUaA_IbtOqSu31Yy1b2pqyNjLPPoE4UBbvIUdMMhLRXU8mtg1yGRpTRs="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwBdzHKL9ZwyI0kM27iz0r4r_O2l19EXPthoyKnxwz-n6-1QcSOK6MGLSvx8tei0EmHSFIaw8iwPhGmyAlZp4sm5YgUaA_IbtOqSu31Yy1b2pqyNjLPPoE4UBbvIUdMMhLRXU8mtg1yGRpTRs="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAwPd2V96cetxrxUQfBt6ow8gn9p2AnHAViOztx7pkjH3kso4bxJbGnNI1reZyXP7aLMUxn13s9xFehIK7OTtcOfjiQhOPFXGp4UkKQsNwtFHB3zCd27t0CKGeAGXKceKVJx8FEw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwBdzHKL9ZwyI0kM27iz0r4r_O2l19EXPthoyKnxwz-n6-1QcSOK6MGLSvx8tei0EmHSFIaw8iwPhGmyAlZp4sm5YgUaA_IbtOqSu31Yy1b2pqyNjLPPoE4UBbvIUdMMhLRXU8mtg1yGRpTRs="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwBdzHKL9ZwyI0kM27iz0r4r_O2l19EXPthoyKnxwz-n6-1QcSOK6MGLSvx8tei0EmHSFIaw8iwPhGmyAlZp4sm5YgUaA_IbtOqSu31Yy1b2pqyNjLPPoE4UBbvIUdMMhLRXU8mtg1yGRpTRs="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAwPd2V96cetxrxUQfBt6ow8gn9p2AnHAViOztx7pkjH3kso4bxJbGnNI1reZyXP7aLMUxn13s9xFehIK7OTtcOfjiQhOPFXGp4UkKQsNwtFHB3zCd27t0CKGeAGXKceKVJx8FEw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "flylib",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqlEHb5CtXd3JY5oME3U9mJRMgiQfC2VyCHtksBiNb4pOKC1Oydca6OqCbs-NwwK9ioILPCMihyQRQ0L8RkfvOqICuoMr1XLMrmYUZ1I9ONPUN1pFHWA2dTUapgBTG80uo9ghxMbrRJIeeZT3HPzHsVr6uVbqbZLuaeQ=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwBdzHKL9ZwyI0kM27iz0r4r_O2l19EXPthoyKnxwz-n6-1QcSOK6MGLSvx8tei0EmHSFIaw8iwPhGmyAlZp4sm5YgUaA_IbtOqSu31Yy1b2pqyNjLPPoE4UBbvIUdMMhLRXU8mtg1yGRpTRs="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwBdzHKL9ZwyI0kM27iz0r4r_O2l19EXPthoyKnxwz-n6-1QcSOK6MGLSvx8tei0EmHSFIaw8iwPhGmyAlZp4sm5YgUaA_IbtOqSu31Yy1b2pqyNjLPPoE4UBbvIUdMMhLRXU8mtg1yGRpTRs="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAwPd2V96cetxrxUQfBt6ow8gn9p2AnHAViOztx7pkjH3kso4bxJbGnNI1reZyXP7aLMUxn13s9xFehIK7OTtcOfjiQhOPFXGp4UkKQsNwtFHB3zCd27t0CKGeAGXKceKVJx8FEw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAwPd2V96cetxrxUQfBt6ow8gn9p2AnHAViOztx7pkjH3kso4bxJbGnNI1reZyXP7aLMUxn13s9xFehIK7OTtcOfjiQhOPFXGp4UkKQsNwtFHB3zCd27t0CKGeAGXKceKVJx8FEw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      },
+      {
+        "label": "certificationkits",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9Gj6RwPW68oSR9l6G0ERI0aKxlzkdkdOJ3wZWx9Mfl41BrvYv5dZ0ZHQqKMPiLn9EUXVwol2-3ys0CGLURXusHUMxVfHTbgnP29CPVU7HkKv2CCJDBL6fQDOi_FMVY0wfeyxnacw5ndF0GM0vibRPWnA3RRrcP_rFGhZvEUQdA5ypR4xcagMecjdElXR9rvi3VhL_PX9fJg=="
+      },
+      {
+        "label": "coraid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlOR49qiEoXgaAIv8Ndw3f8yRchHttl9k_NxCbHoAMXC73_212s-VGu1AdzyR51L0A6dCIoQFZIsMIAijfDYf2JwbEAb-s7KReDSjEn6y1-UaH40ZHmE-8cFoF8aCf01o="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIFcVdZ6Hgw5RsHT7JBdVF89IAo6LhraWhjlXqEDR6sWkTJpQTrfcXnRwbFKSBDapCbAZKRnV7MzkSPjJXvNqQf6lzY5NTAGzDzz9xxhe-lIiUcLitGisOtB8aks6_iM-8v8uujC0="
+      },
+      {
+        "label": "wwt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG59gIfCcTqw_EnKTDqNhzE5QmSiDrXzd68hYa6HwXmYAafU4MslnoQa57j6QLYCyu0P9wx7xjvDC8G0a1DxBF-snG14gjGDOgscyQmo60ub1ol68zEU5yAhLc4Zp6Is84__mK_OfyNjKVzisOgffwmtgxdMRxdk9Ez4wHB29CydETbw=="
+      },
+      {
+        "label": "wwt",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFG59gIfCcTqw_EnKTDqNhzE5QmSiDrXzd68hYa6HwXmYAafU4MslnoQa57j6QLYCyu0P9wx7xjvDC8G0a1DxBF-snG14gjGDOgscyQmo60ub1ol68zEU5yAhLc4Zp6Is84__mK_OfyNjKVzisOgffwmtgxdMRxdk9Ez4wHB29CydETbw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmlx6gTa0craMYkQf5XhnQ15KJ6PAn5pRwbURD5XmVXOqgeKGiBlIxG5wNDDbgDeRHkyxrnmfK75xnK8o_zap0OCmYDJXX2oNKa9rya-apu7cRRqNa3kdV1chAd8A-YViB"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

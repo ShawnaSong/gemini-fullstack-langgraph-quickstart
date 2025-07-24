@@ -1,0 +1,467 @@
+{
+  "file_name": "state_result_61.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.760490",
+  "data": {
+    "messages": [
+      {
+        "content": "What are the next 3 ICC trophies/finals coming up in cricket?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "0beb0ea8-b4f9-4ec9-9c82-f1c6073ae4b2",
+        "example": false
+      },
+      {
+        "content": "The next three ICC trophies/finals coming up in cricket are:\n\n1.  **ICC Women's ODI World Cup:** Hosted by India from September 30 to November 2, 2025 [thecricketpanda](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g==) [icc-cricket](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELUgY6jf6xddq5Gbm7Z0yDmkmgLPaM0KDoXtvlsTUJHn5YYTcjdaiA4WzR-dULQI9up4qGHMqWYUzYudRz9VUw9zkDHrqLpJlUtlS4V2laZBT6rL3a18-bJyh44vedHw8tPybomZ222ODWkbQhgK-7Eh8-v6rFHS8GsIyH-Fou50B3sjjx5kDOqEM3EudStl0edNHYekAItm5qep6IeRZ7vBiD2LwNUrh43kuLAn2zYX40VOq3bZgx77sFyhsg). The final is scheduled for November 2 in either Bengaluru or Colombo [icc-cricket](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELUgY6jf6xddq5Gbm7Z0yDmkmgLPaM0KDoXtvlsTUJHn5YYTcjdaiA4WzR-dULQI9up4qGHMqWYUzYudRz9VUw9zkDHrqLpJlUtlS4V2laZBT6rL3a18-bJyh44vedHw8tPybomZ222ODWkbQhgK-7Eh8-v6rFHS8GsIyH-Fou50B3sjjx5kDOqEM3EudStl0edNHYekAItm5qep6IeRZ7vBiD2LwNUrh43kuLAn2zYX40VOq3bZgx77sFyhsg).\n2.  **ICC Men's T20 World Cup:** Co-hosted by India and Sri Lanka in February-March 2026 [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYOeIywjkMKIYW6MJWUmtyOYxKAMBxbji6_yxz7NQ3meN9OcjP9YP0BezUB4_5dySGqPUxuuomsT2cz8YruJCJGtF-2UB6eaLpfOvFREIWELHjuO1xWTO5bmrR10v1RtogPaIpPIYgOFud1nz9X_fRa_Ca) [thecricketpanda](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g==) [jagranjosh](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA==).\n3.  **ICC Women's T20 World Cup:** Hosted by England from June 12 – July 5, 2026 [thecricketpanda](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g==) [ecb](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4_lGhNrv_kBBIXU20CobiyFfLV2WatbtEkkNslKrMWrYv8lcgUaGPtVjdl9Q_Z4t2NnPPSrwzmIrfxAnSLni1tyjfkMh62PHPk0I_kq4YLqnYniFncgHmm7YfSk34wA==) [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrnkYTjB3UuMm-VN1oErR_UVgnH_TXLvcPI-QhI-udlgvo_qUrLbhJ2UPdCo6vRndY3HXzVEZB2RQ2Me1Bv4I6qtZ7Dp8u6aKuQm43rMVHqBP0dWdYbGi3Orw-RwCPJR1rF1xJoDITQeiQ0nkrI5lRnnFpNo5e).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "02b88198-7b54-484c-ab25-85eb2b3f3c74",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "upcoming ICC cricket tournaments schedule 2025 2026 2027",
+      "ICC tournament finals dates and locations 2025 2026 2027"
+    ],
+    "web_research_result": [
+      "Here is a schedule of upcoming ICC cricket tournaments from 2025 to 2027 [thecricketpanda](https://vertexaisearch.cloud.google.com/id/0-0) [indiacricketschedule](https://vertexaisearch.cloud.google.com/id/0-1) [allcric](https://vertexaisearch.cloud.google.com/id/0-2):\n\n**2025**\n\n*   **ICC Champions Trophy:** Hosted by Pakistan from February 19 to March 9 [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3). This will be the first time in years that Pakistan has hosted international cricket [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3). The top eight ODI teams will compete in a round-robin format, with matches held in major cities such as Karachi and Lahore [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **ICC Women's ODI World Cup:** Hosted by India from September 30 to November 2 [thecricketpanda](https://vertexaisearch.cloud.google.com/id/0-0) [icc-cricket](https://vertexaisearch.cloud.google.com/id/0-4). The first match will be between India and Sri Lanka in Bengaluru on September 30 [icc-cricket](https://vertexaisearch.cloud.google.com/id/0-4). Australia, the current champions, will play New Zealand in Indore on October 1 [icc-cricket](https://vertexaisearch.cloud.google.com/id/0-4) [thecricketpanda](https://vertexaisearch.cloud.google.com/id/0-0). The final is scheduled for November 2 in either Bengaluru or Colombo [icc-cricket](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **ICC World Test Championship Final:** Scheduled for June 11-15 at Lord's Cricket Ground in London, with June 16 as a reserve day [allcric](https://vertexaisearch.cloud.google.com/id/0-2). This is the first time Lord's will host the WTC Final [allcric](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **The Ashes:** To be hosted by Australia from November 2025 to January 2026 [arynews](https://vertexaisearch.cloud.google.com/id/0-5).\n\n**2026**\n\n*   **ICC Men's T20 World Cup:** Co-hosted by India and Sri Lanka in February-March [wikipedia](https://vertexaisearch.cloud.google.com/id/0-6) [thecricketpanda](https://vertexaisearch.cloud.google.com/id/0-0) [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3). This tournament will include 20 teams [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3). If India and Pakistan were to meet at the T20 World Cup 2026, their match would be held in Sri Lanka [seatunique](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **ICC Women's T20 World Cup:** Hosted by England from June 12 – July 5.  [thecricketpanda](https://vertexaisearch.cloud.google.com/id/0-0) [ecb](https://vertexaisearch.cloud.google.com/id/0-8) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-9)The tournament will include twelve of the world's top teams.\n [ecb](https://vertexaisearch.cloud.google.com/id/0-8)*   **ICC Women's ODI World Cup:** Hosted by India.\n [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3)\n**2027**\n\n*   **ICC Men's ODI World Cup:** Co-hosted by South Africa, Zimbabwe, and Namibia in October and November.  [events](https://vertexaisearch.cloud.google.com/id/0-10) [thecricketpanda](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-11) [gulliverstravel](https://vertexaisearch.cloud.google.com/id/0-12)This will be the second time South Africa and Zimbabwe have co-hosted the tournament, and the first time for Namibia.  [wikipedia](https://vertexaisearch.cloud.google.com/id/0-11) [gulliverstravel](https://vertexaisearch.cloud.google.com/id/0-12)The tournament will consist of 14 teams and 54 matches.  [allcric](https://vertexaisearch.cloud.google.com/id/0-2)The format includes two groups of seven teams, progressing to a Super Six stage, followed by semi-finals and a final.\n [allcric](https://vertexaisearch.cloud.google.com/id/0-2)*   **ICC World Test Championship Final:** To be hosted in England.  [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3)The final is scheduled for June 2027 at Lord's Cricket Ground in London.\n [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3)*   **ICC Women's Champions Trophy:** Hosted by Sri Lanka.\n [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3)\nThe ICC World Test Championship 2025-2027 will run from June 2025 to June 2027.  [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3)Nine teams will compete: Australia, Bangladesh, England, India, New Zealand, Pakistan, South Africa, Sri Lanka, and the West Indies.  [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3)Each team will play six series, three at home and three away.\n [jagranjosh](https://vertexaisearch.cloud.google.com/id/0-3)",
+      "Okay, I will conduct Google Searches to gather the most recent, credible information on \"ICC tournament finals dates and locations 2025 2026 2027\" and synthesize it into a verifiable text artifact.\nHere's a summary of the ICC tournament finals dates and locations for 2025, 2026, and 2027, based on the search results:\n\n**2025**\n\n*   **ICC Champions Trophy:** February 19 to March 9 in Pakistan [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **ICC Women's ODI World Cup:** India [thecricketpanda](https://vertexaisearch.cloud.google.com/id/1-1) [astsports](https://vertexaisearch.cloud.google.com/id/1-2) [thefanatics](https://vertexaisearch.cloud.google.com/id/1-3). The tournament is scheduled for September and October [astsports](https://vertexaisearch.cloud.google.com/id/1-2) [thefanatics](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **ICC World Test Championship Final:** June 2025 [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0) [allcric](https://vertexaisearch.cloud.google.com/id/1-4). The final is scheduled for June 15, 2025, and will be between Australia and South Africa [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0). It will be held at Lord's Cricket Ground in London from June 11 to 15, with June 16 as a reserve day [allcric](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**2026**\n\n*   **ICC Men's T20 World Cup:** February to March, co-hosted by India and Sri Lanka [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0) [thecricketpanda](https://vertexaisearch.cloud.google.com/id/1-1) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-5) [allcric](https://vertexaisearch.cloud.google.com/id/1-4) [thefanatics](https://vertexaisearch.cloud.google.com/id/1-3) [astsports](https://vertexaisearch.cloud.google.com/id/1-2). The tournament will feature 20 teams [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0). Any matches involving Pakistan will be played in Sri Lanka [wikipedia](https://vertexaisearch.cloud.google.com/id/1-5) [allcric](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **ICC Women's T20 World Cup:** England, from June 12 to July 5 [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0) [thecricketpanda](https://vertexaisearch.cloud.google.com/id/1-1) [astsports](https://vertexaisearch.cloud.google.com/id/1-2) [thefanatics](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **ICC Women's ODI World Cup:** India [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**2027**\n\n*   **ICC ODI World Cup:** October and November, co-hosted by South Africa, Zimbabwe, and Namibia [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0) [thecricketpanda](https://vertexaisearch.cloud.google.com/id/1-1) [allcric](https://vertexaisearch.cloud.google.com/id/1-4) [uccricket](https://vertexaisearch.cloud.google.com/id/1-6) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-7) [thefanatics](https://vertexaisearch.cloud.google.com/id/1-3) [astsports](https://vertexaisearch.cloud.google.com/id/1-2). The tournament will involve 14 teams [allcric](https://vertexaisearch.cloud.google.com/id/1-4) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-7) [astsports](https://vertexaisearch.cloud.google.com/id/1-2) [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0). South Africa and Zimbabwe will automatically qualify as co-hosts, along with the top eight teams in the ICC ODI rankings as of March 2027 [allcric](https://vertexaisearch.cloud.google.com/id/1-4) [wikipedia](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **ICC World Test Championship Final:** June 2027, at Lord's Cricket Ground in London [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0) [ipl](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **ICC Women's Champions Trophy:** Sri Lanka [jagranjosh](https://vertexaisearch.cloud.google.com/id/1-0).\n\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g=="
+      },
+      {
+        "label": "indiacricketschedule",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtODFff1d6wgwmQYR_j6eI4Kb8bqFqXZmax5vqFxOaqpp0mBLDZ83f2wBAymqhYWFpEK3dipLeqfRJ0NGgc9VONozvPPBF5bvso7nrq-NX3kIAAGHeLvYjy0CMxMkHCpEZlatOu4oAHvbR-a3BmyIs49y4Ec3TBtDFwzLjlTSmSSZTBvgiS5bA"
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMYh-fCHeXv4pw9SahPxkbiYtfxsXK46pddvCni85DMeO_NvANe3a2jOdclSsWgM-THf-x4QyxFV0Huas1G7yLohXgF4xAKZMUtXvIQUvbzHFaFJ_PBRjB8K8ivtzvY-qpHHTBlHgqe3xp5A7xzursFrgPJAYTFrvdUMAcTjPE0gjdsf4tjbLD9Lw"
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g=="
+      },
+      {
+        "label": "icc-cricket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELUgY6jf6xddq5Gbm7Z0yDmkmgLPaM0KDoXtvlsTUJHn5YYTcjdaiA4WzR-dULQI9up4qGHMqWYUzYudRz9VUw9zkDHrqLpJlUtlS4V2laZBT6rL3a18-bJyh44vedHw8tPybomZ222ODWkbQhgK-7Eh8-v6rFHS8GsIyH-Fou50B3sjjx5kDOqEM3EudStl0edNHYekAItm5qep6IeRZ7vBiD2LwNUrh43kuLAn2zYX40VOq3bZgx77sFyhsg"
+      },
+      {
+        "label": "icc-cricket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELUgY6jf6xddq5Gbm7Z0yDmkmgLPaM0KDoXtvlsTUJHn5YYTcjdaiA4WzR-dULQI9up4qGHMqWYUzYudRz9VUw9zkDHrqLpJlUtlS4V2laZBT6rL3a18-bJyh44vedHw8tPybomZ222ODWkbQhgK-7Eh8-v6rFHS8GsIyH-Fou50B3sjjx5kDOqEM3EudStl0edNHYekAItm5qep6IeRZ7vBiD2LwNUrh43kuLAn2zYX40VOq3bZgx77sFyhsg"
+      },
+      {
+        "label": "icc-cricket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELUgY6jf6xddq5Gbm7Z0yDmkmgLPaM0KDoXtvlsTUJHn5YYTcjdaiA4WzR-dULQI9up4qGHMqWYUzYudRz9VUw9zkDHrqLpJlUtlS4V2laZBT6rL3a18-bJyh44vedHw8tPybomZ222ODWkbQhgK-7Eh8-v6rFHS8GsIyH-Fou50B3sjjx5kDOqEM3EudStl0edNHYekAItm5qep6IeRZ7vBiD2LwNUrh43kuLAn2zYX40VOq3bZgx77sFyhsg"
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g=="
+      },
+      {
+        "label": "icc-cricket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELUgY6jf6xddq5Gbm7Z0yDmkmgLPaM0KDoXtvlsTUJHn5YYTcjdaiA4WzR-dULQI9up4qGHMqWYUzYudRz9VUw9zkDHrqLpJlUtlS4V2laZBT6rL3a18-bJyh44vedHw8tPybomZ222ODWkbQhgK-7Eh8-v6rFHS8GsIyH-Fou50B3sjjx5kDOqEM3EudStl0edNHYekAItm5qep6IeRZ7vBiD2LwNUrh43kuLAn2zYX40VOq3bZgx77sFyhsg"
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMYh-fCHeXv4pw9SahPxkbiYtfxsXK46pddvCni85DMeO_NvANe3a2jOdclSsWgM-THf-x4QyxFV0Huas1G7yLohXgF4xAKZMUtXvIQUvbzHFaFJ_PBRjB8K8ivtzvY-qpHHTBlHgqe3xp5A7xzursFrgPJAYTFrvdUMAcTjPE0gjdsf4tjbLD9Lw"
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMYh-fCHeXv4pw9SahPxkbiYtfxsXK46pddvCni85DMeO_NvANe3a2jOdclSsWgM-THf-x4QyxFV0Huas1G7yLohXgF4xAKZMUtXvIQUvbzHFaFJ_PBRjB8K8ivtzvY-qpHHTBlHgqe3xp5A7xzursFrgPJAYTFrvdUMAcTjPE0gjdsf4tjbLD9Lw"
+      },
+      {
+        "label": "arynews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJwfrErp2DP6l_wwb9Uq9aM-ED8m_UQRKTIOnq2237kR3hMdkXiTz8gx1_jeVlsUiSe9fJsPv8KB5mtp4fccBJMF9L3UpQO5MOiCzEnkZ0XMxHVg_5YCKoXyGDfEixKV_hyobkQZVhvzavFQda-3kLasyxjD-FyUiw"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYOeIywjkMKIYW6MJWUmtyOYxKAMBxbji6_yxz7NQ3meN9OcjP9YP0BezUB4_5dySGqPUxuuomsT2cz8YruJCJGtF-2UB6eaLpfOvFREIWELHjuO1xWTO5bmrR10v1RtogPaIpPIYgOFud1nz9X_fRa_Ca"
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "seatunique",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0EDWDVOBi5kSYXP7bJ6j_DCdGgj1t4xi8tL6-psZl0BTem8FtqQymBEQUMEHZEhf88Gar8p8TXuKmIHBuTgsUIzJIDE-LihR2SpWrOvkRXidaYt8UFUHjQpgPL5wKAKEtTW6eNRuqUi_K9HDqdbjdS8VwFFPdGmQJ88_S4jXh"
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g=="
+      },
+      {
+        "label": "ecb",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4_lGhNrv_kBBIXU20CobiyFfLV2WatbtEkkNslKrMWrYv8lcgUaGPtVjdl9Q_Z4t2NnPPSrwzmIrfxAnSLni1tyjfkMh62PHPk0I_kq4YLqnYniFncgHmm7YfSk34wA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrnkYTjB3UuMm-VN1oErR_UVgnH_TXLvcPI-QhI-udlgvo_qUrLbhJ2UPdCo6vRndY3HXzVEZB2RQ2Me1Bv4I6qtZ7Dp8u6aKuQm43rMVHqBP0dWdYbGi3Orw-RwCPJR1rF1xJoDITQeiQ0nkrI5lRnnFpNo5e"
+      },
+      {
+        "label": "ecb",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4_lGhNrv_kBBIXU20CobiyFfLV2WatbtEkkNslKrMWrYv8lcgUaGPtVjdl9Q_Z4t2NnPPSrwzmIrfxAnSLni1tyjfkMh62PHPk0I_kq4YLqnYniFncgHmm7YfSk34wA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "events",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPEiN9VmPbIsRKAbRBEVhHvjcN3P0HsA3daCD1xgykZIxEy2LuMCJJhSsIq7ErkPBoMBqfaOxSpBACXNkKdP2Ox5hRGl2JhxElT_9H68a7THZr_Zr7ccWIMc0KdhIDxDXo1byQdg3gaDxDMmd7Mf804_l0hA=="
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-00VYJKg9c7Ske20NqGpmppLjFMt5g_HOggQQOzQ8RtYNVQ9E1h_4B1qpImIQiVRfPI4WW5dvVj41pe6Ij99L83wY00fPK-N4BDMAVcOhUdMe8d85rO9kNemub-FUY1BLhlYENcmrbknv1GgEmtI="
+      },
+      {
+        "label": "gulliverstravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMxl11brFm4TwK6S3Nrs2kcbkiz4VA-HHqm-ogAlo9Wjc_lTqIyDO99X7LqQHwD8yaFEzmjqELjI2Txy2_hz5EAvVgEXuHT9f5i9sWoKRO26OOUxdAHs7Td38P3l-XeUZusLRh570AoffSyRCarUXe_OXC7mjr3UK9OXHKa6nMYJgB6I5VUA6FzB7r-h8www1M1bYBaIGk"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-00VYJKg9c7Ske20NqGpmppLjFMt5g_HOggQQOzQ8RtYNVQ9E1h_4B1qpImIQiVRfPI4WW5dvVj41pe6Ij99L83wY00fPK-N4BDMAVcOhUdMe8d85rO9kNemub-FUY1BLhlYENcmrbknv1GgEmtI="
+      },
+      {
+        "label": "gulliverstravel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMxl11brFm4TwK6S3Nrs2kcbkiz4VA-HHqm-ogAlo9Wjc_lTqIyDO99X7LqQHwD8yaFEzmjqELjI2Txy2_hz5EAvVgEXuHT9f5i9sWoKRO26OOUxdAHs7Td38P3l-XeUZusLRh570AoffSyRCarUXe_OXC7mjr3UK9OXHKa6nMYJgB6I5VUA6FzB7r-h8www1M1bYBaIGk"
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMYh-fCHeXv4pw9SahPxkbiYtfxsXK46pddvCni85DMeO_NvANe3a2jOdclSsWgM-THf-x4QyxFV0Huas1G7yLohXgF4xAKZMUtXvIQUvbzHFaFJ_PBRjB8K8ivtzvY-qpHHTBlHgqe3xp5A7xzursFrgPJAYTFrvdUMAcTjPE0gjdsf4tjbLD9Lw"
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVMYh-fCHeXv4pw9SahPxkbiYtfxsXK46pddvCni85DMeO_NvANe3a2jOdclSsWgM-THf-x4QyxFV0Huas1G7yLohXgF4xAKZMUtXvIQUvbzHFaFJ_PBRjB8K8ivtzvY-qpHHTBlHgqe3xp5A7xzursFrgPJAYTFrvdUMAcTjPE0gjdsf4tjbLD9Lw"
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhoQfWxokactCom_UuBa_WxToAux-Z0q5Kv5ItWIptHTHOM1orjSjVVOZNbcX-woKLI1r-Vb_FBdzQZrc_WcbuiVTYx9HSk3qRLER1NpDGr9SEFBNlql-hD4AgFEClzk8OQWRvQvBU-yiHdrhpPK4DI4jT"
+      },
+      {
+        "label": "astsports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdwawW-5NaSw3wiFQ7AoWLemHvqteyllWmeO78dCMl6B13YFCeN-viuyGGcxGrQEJZXTWBG7JoitbxEMtU4TgeP-rpRJjF_XHf_xXT3oC-4UgWP-GeUidIN9gJ6T4N4g_7sMwrUy4r_w8lU6ZIXAD4isY0PJw-PnlT81Nap8XEFg=="
+      },
+      {
+        "label": "thefanatics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdwlkBnk6ZGCPDC0C8DIZHGe3jZzGxcwQxHtvlr9dQMz6yEIRgFEAMafBmngBF-yxdSSwShpW0Xv8g7Q6Nnr9QYej2zapRoz0vs3sjub9loM4tIox7iIExJNcqkchaI57qsjarHzo="
+      },
+      {
+        "label": "astsports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdwawW-5NaSw3wiFQ7AoWLemHvqteyllWmeO78dCMl6B13YFCeN-viuyGGcxGrQEJZXTWBG7JoitbxEMtU4TgeP-rpRJjF_XHf_xXT3oC-4UgWP-GeUidIN9gJ6T4N4g_7sMwrUy4r_w8lU6ZIXAD4isY0PJw-PnlT81Nap8XEFg=="
+      },
+      {
+        "label": "thefanatics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdwlkBnk6ZGCPDC0C8DIZHGe3jZzGxcwQxHtvlr9dQMz6yEIRgFEAMafBmngBF-yxdSSwShpW0Xv8g7Q6Nnr9QYej2zapRoz0vs3sjub9loM4tIox7iIExJNcqkchaI57qsjarHzo="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAnGj_gA1rMifNj_ZKq4mrmHLkAfvFn2xJvgBFSksXhoxNnc4dvlKoKGAwwa88l6RX_tEWXnyH-ZQ9Dsln_EhklPfJGvglw1a3jC59IZLwIuEMVciS4sxs2XcMxc21htnBQTZPnvIyjZY1yMTUoeNZQIFUhtu5YGnSzr5hT-hYRrLZWkj56gPRhvY="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAnGj_gA1rMifNj_ZKq4mrmHLkAfvFn2xJvgBFSksXhoxNnc4dvlKoKGAwwa88l6RX_tEWXnyH-ZQ9Dsln_EhklPfJGvglw1a3jC59IZLwIuEMVciS4sxs2XcMxc21htnBQTZPnvIyjZY1yMTUoeNZQIFUhtu5YGnSzr5hT-hYRrLZWkj56gPRhvY="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhoQfWxokactCom_UuBa_WxToAux-Z0q5Kv5ItWIptHTHOM1orjSjVVOZNbcX-woKLI1r-Vb_FBdzQZrc_WcbuiVTYx9HSk3qRLER1NpDGr9SEFBNlql-hD4AgFEClzk8OQWRvQvBU-yiHdrhpPK4DI4jT"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0W41tI9SNfoQpymldoj2MhduchSjwwkJbeBo_lVP3TpRWn_c_usGI4SbLad8DpqreTlqPd1j2ZyU0BXvpmTgDDrgC5XZNB0p3BHg3zm-v_Y3tL6myHjlD8souMV5j729gZ5Ng_g2UtrZVPYhypgy3QzI="
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAnGj_gA1rMifNj_ZKq4mrmHLkAfvFn2xJvgBFSksXhoxNnc4dvlKoKGAwwa88l6RX_tEWXnyH-ZQ9Dsln_EhklPfJGvglw1a3jC59IZLwIuEMVciS4sxs2XcMxc21htnBQTZPnvIyjZY1yMTUoeNZQIFUhtu5YGnSzr5hT-hYRrLZWkj56gPRhvY="
+      },
+      {
+        "label": "thefanatics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdwlkBnk6ZGCPDC0C8DIZHGe3jZzGxcwQxHtvlr9dQMz6yEIRgFEAMafBmngBF-yxdSSwShpW0Xv8g7Q6Nnr9QYej2zapRoz0vs3sjub9loM4tIox7iIExJNcqkchaI57qsjarHzo="
+      },
+      {
+        "label": "astsports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdwawW-5NaSw3wiFQ7AoWLemHvqteyllWmeO78dCMl6B13YFCeN-viuyGGcxGrQEJZXTWBG7JoitbxEMtU4TgeP-rpRJjF_XHf_xXT3oC-4UgWP-GeUidIN9gJ6T4N4g_7sMwrUy4r_w8lU6ZIXAD4isY0PJw-PnlT81Nap8XEFg=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0W41tI9SNfoQpymldoj2MhduchSjwwkJbeBo_lVP3TpRWn_c_usGI4SbLad8DpqreTlqPd1j2ZyU0BXvpmTgDDrgC5XZNB0p3BHg3zm-v_Y3tL6myHjlD8souMV5j729gZ5Ng_g2UtrZVPYhypgy3QzI="
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAnGj_gA1rMifNj_ZKq4mrmHLkAfvFn2xJvgBFSksXhoxNnc4dvlKoKGAwwa88l6RX_tEWXnyH-ZQ9Dsln_EhklPfJGvglw1a3jC59IZLwIuEMVciS4sxs2XcMxc21htnBQTZPnvIyjZY1yMTUoeNZQIFUhtu5YGnSzr5hT-hYRrLZWkj56gPRhvY="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhoQfWxokactCom_UuBa_WxToAux-Z0q5Kv5ItWIptHTHOM1orjSjVVOZNbcX-woKLI1r-Vb_FBdzQZrc_WcbuiVTYx9HSk3qRLER1NpDGr9SEFBNlql-hD4AgFEClzk8OQWRvQvBU-yiHdrhpPK4DI4jT"
+      },
+      {
+        "label": "astsports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdwawW-5NaSw3wiFQ7AoWLemHvqteyllWmeO78dCMl6B13YFCeN-viuyGGcxGrQEJZXTWBG7JoitbxEMtU4TgeP-rpRJjF_XHf_xXT3oC-4UgWP-GeUidIN9gJ6T4N4g_7sMwrUy4r_w8lU6ZIXAD4isY0PJw-PnlT81Nap8XEFg=="
+      },
+      {
+        "label": "thefanatics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdwlkBnk6ZGCPDC0C8DIZHGe3jZzGxcwQxHtvlr9dQMz6yEIRgFEAMafBmngBF-yxdSSwShpW0Xv8g7Q6Nnr9QYej2zapRoz0vs3sjub9loM4tIox7iIExJNcqkchaI57qsjarHzo="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhoQfWxokactCom_UuBa_WxToAux-Z0q5Kv5ItWIptHTHOM1orjSjVVOZNbcX-woKLI1r-Vb_FBdzQZrc_WcbuiVTYx9HSk3qRLER1NpDGr9SEFBNlql-hD4AgFEClzk8OQWRvQvBU-yiHdrhpPK4DI4jT"
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAnGj_gA1rMifNj_ZKq4mrmHLkAfvFn2xJvgBFSksXhoxNnc4dvlKoKGAwwa88l6RX_tEWXnyH-ZQ9Dsln_EhklPfJGvglw1a3jC59IZLwIuEMVciS4sxs2XcMxc21htnBQTZPnvIyjZY1yMTUoeNZQIFUhtu5YGnSzr5hT-hYRrLZWkj56gPRhvY="
+      },
+      {
+        "label": "uccricket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY7RP7tUhMzkEq40cw7o8a9VlADRQ1VYmXnqHcuH9jq9p6sUR_qhBwcLhbJG_fZ3idZSTAU1B0Hk0YX3HKT-NyrwVS2iYLuK0zL-mVQNaykBdtCcn7y3_H9KTxYpuBcNQPL20ObFtg20zcRO6cEJOOC1AGJI8d6zVKDEkKOh5ykZtWPTX6jzTwi4thIZa8mw=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQhkjnvQvnFCawhli19tzBfcf2clfph7cFDqkD5tcSbadZzdngs-T_cvy4QMOY6WoyOYDGSRbCDx6izcyVxPggDs2NwUZ9fFcAXyGmbHWhIV2iz6pJiOkJb79OVxGhSiKwTPjtTA1Vt_9a0-39gw=="
+      },
+      {
+        "label": "thefanatics",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdwlkBnk6ZGCPDC0C8DIZHGe3jZzGxcwQxHtvlr9dQMz6yEIRgFEAMafBmngBF-yxdSSwShpW0Xv8g7Q6Nnr9QYej2zapRoz0vs3sjub9loM4tIox7iIExJNcqkchaI57qsjarHzo="
+      },
+      {
+        "label": "astsports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdwawW-5NaSw3wiFQ7AoWLemHvqteyllWmeO78dCMl6B13YFCeN-viuyGGcxGrQEJZXTWBG7JoitbxEMtU4TgeP-rpRJjF_XHf_xXT3oC-4UgWP-GeUidIN9gJ6T4N4g_7sMwrUy4r_w8lU6ZIXAD4isY0PJw-PnlT81Nap8XEFg=="
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAnGj_gA1rMifNj_ZKq4mrmHLkAfvFn2xJvgBFSksXhoxNnc4dvlKoKGAwwa88l6RX_tEWXnyH-ZQ9Dsln_EhklPfJGvglw1a3jC59IZLwIuEMVciS4sxs2XcMxc21htnBQTZPnvIyjZY1yMTUoeNZQIFUhtu5YGnSzr5hT-hYRrLZWkj56gPRhvY="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQhkjnvQvnFCawhli19tzBfcf2clfph7cFDqkD5tcSbadZzdngs-T_cvy4QMOY6WoyOYDGSRbCDx6izcyVxPggDs2NwUZ9fFcAXyGmbHWhIV2iz6pJiOkJb79OVxGhSiKwTPjtTA1Vt_9a0-39gw=="
+      },
+      {
+        "label": "astsports",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdwawW-5NaSw3wiFQ7AoWLemHvqteyllWmeO78dCMl6B13YFCeN-viuyGGcxGrQEJZXTWBG7JoitbxEMtU4TgeP-rpRJjF_XHf_xXT3oC-4UgWP-GeUidIN9gJ6T4N4g_7sMwrUy4r_w8lU6ZIXAD4isY0PJw-PnlT81Nap8XEFg=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "allcric",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAnGj_gA1rMifNj_ZKq4mrmHLkAfvFn2xJvgBFSksXhoxNnc4dvlKoKGAwwa88l6RX_tEWXnyH-ZQ9Dsln_EhklPfJGvglw1a3jC59IZLwIuEMVciS4sxs2XcMxc21htnBQTZPnvIyjZY1yMTUoeNZQIFUhtu5YGnSzr5hT-hYRrLZWkj56gPRhvY="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQhkjnvQvnFCawhli19tzBfcf2clfph7cFDqkD5tcSbadZzdngs-T_cvy4QMOY6WoyOYDGSRbCDx6izcyVxPggDs2NwUZ9fFcAXyGmbHWhIV2iz6pJiOkJb79OVxGhSiKwTPjtTA1Vt_9a0-39gw=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "ipl",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcL7YW8taesA3AK2I3G7P5t-sQzUqsZmu8wDXyEtd5vjj-WAulSeNYotog8_eR4OxtKukc5Qq3pxR9wMIZ3MAJRYyqdlZoxc2yUhWzqqoA3qGRFuRrKNRezThCdaAc73oTRqWkqLM-fiMzaJiLdCFRjZ6k-P3gqhbnQYeb7jaVAb6YGZricnSq3jM8U1_RTC2ldSOOd-9EuWl2ssy8U7SEZ5pVkwfzrqcA9m-ZzRuC"
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyjIs-qEJ27hrA0zGfgplQe4f4QJ4Q-NBsVX6IVQPqk8_wOv_qf_Lxe-KHFDhHnSmx5ejaefTaCJRrocBTJPCgfWC2jCE2EoEu-yLVZPVh51gYxqMZpjyouFy5p6GxWAB1gY--GmUzfyvuS7syqWPSMQjmMu5CVp6gH4s-2fyxHGU8Os6tiGMPA8GLDCB4lwjd0F_MIeZ6EFa8nz-VXgHi44NB"
+      },
+      {
+        "label": "thecricketpanda",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFkzzLpmA6K7kGN7NNf2CghoHgdXqXsAXybSKp7WMM-JdaJIq7OSenFzQS3utqo-HSazaPFHL3q_VzyebPv7JP9W3ZbUBDAVfR1pySvCBSdEQ1mIzH_EIloOxWkPDfnsR3YPW6ZTB7R1EDS28IdLQ6tVcP1g=="
+      },
+      {
+        "label": "jagranjosh",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTbVdvvJBn4hJ3_SfhVb9fhUM8C76UGzt6EPxcvsVnnQcj4ZmzV0NtkzdeVrkbid-aXeLW2chMN6g9gp1CneqvZ_NEYnv2XAByzlOfPLVm3EawfXiyM4-pK9VgXLV47IAD1DuMmxo41DLq-rLToyFGAiPzIy1JiCkSo6ofjldYWyxVjMxyKIsMZAYfOoG8Cj-omETR3MOcI9ykUvg_WPO4z5_DmA=="
+      },
+      {
+        "label": "icc-cricket",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELUgY6jf6xddq5Gbm7Z0yDmkmgLPaM0KDoXtvlsTUJHn5YYTcjdaiA4WzR-dULQI9up4qGHMqWYUzYudRz9VUw9zkDHrqLpJlUtlS4V2laZBT6rL3a18-bJyh44vedHw8tPybomZ222ODWkbQhgK-7Eh8-v6rFHS8GsIyH-Fou50B3sjjx5kDOqEM3EudStl0edNHYekAItm5qep6IeRZ7vBiD2LwNUrh43kuLAn2zYX40VOq3bZgx77sFyhsg"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYOeIywjkMKIYW6MJWUmtyOYxKAMBxbji6_yxz7NQ3meN9OcjP9YP0BezUB4_5dySGqPUxuuomsT2cz8YruJCJGtF-2UB6eaLpfOvFREIWELHjuO1xWTO5bmrR10v1RtogPaIpPIYgOFud1nz9X_fRa_Ca"
+      },
+      {
+        "label": "ecb",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4_lGhNrv_kBBIXU20CobiyFfLV2WatbtEkkNslKrMWrYv8lcgUaGPtVjdl9Q_Z4t2NnPPSrwzmIrfxAnSLni1tyjfkMh62PHPk0I_kq4YLqnYniFncgHmm7YfSk34wA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrnkYTjB3UuMm-VN1oErR_UVgnH_TXLvcPI-QhI-udlgvo_qUrLbhJ2UPdCo6vRndY3HXzVEZB2RQ2Me1Bv4I6qtZ7Dp8u6aKuQm43rMVHqBP0dWdYbGi3Orw-RwCPJR1rF1xJoDITQeiQ0nkrI5lRnnFpNo5e"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

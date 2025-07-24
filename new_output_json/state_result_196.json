@@ -1,0 +1,477 @@
+{
+  "file_name": "state_result_196.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.593616",
+  "data": {
+    "messages": [
+      {
+        "content": "Ты ищешь информацию в интернете?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "36742c5c-025e-4bce-a302-3b16230d40ba",
+        "example": false
+      },
+      {
+        "content": "AI tools are revolutionizing search query generation and analysis, leading to better website targeting, user engagement, and conversion rates [illinois](https://vertexaisearch.cloud.google.com/id/0-0). These tools leverage AI to understand what users are looking for, create diverse and personalized content, and improve SEO strategies [ehtrust](https://vertexaisearch.cloud.google.com/id/0-1) [illinois](https://vertexaisearch.cloud.google.com/id/0-0).\n\nHere's a look at some of the best AI tools for generating diverse search queries:\n\n*   **Perplexity AI:** This search engine is known for its accuracy and conversational interface. It uses Natural Language Processing (NLP) to understand the context of your query and provide detailed answers [imd](https://vertexaisearch.cloud.google.com/id/0-2) [marketful](https://vertexaisearch.cloud.google.com/id/0-3). Perplexity AI summarizes search results and includes source links, as well as suggests follow-up questions [omnius](https://vertexaisearch.cloud.google.com/id/0-4) [builtin](https://vertexaisearch.cloud.google.com/id/0-5). The Pro version gives you access to advanced models like GPT-4 and Claude 3 [omnius](https://vertexaisearch.cloud.google.com/id/0-4) [builtin](https://vertexaisearch.cloud.google.com/id/0-5). Perplexity AI uses NLP to analyze user queries, identifying keywords, intent, and meaning [medium](https://vertexaisearch.cloud.google.com/id/1-0]. It employs Retrieval-Augmented Generation (RAG), retrieving relevant information before generating a cohesive response using a language model [xfunnel](https://vertexaisearch.cloud.google.com/id/1-1) [medium](https://vertexaisearch.cloud.google.com/id/1-0]. Perplexity uses its own search and indexing technology, updated daily for real-time accuracy, rather than relying solely on Google [medium](https://vertexaisearch.cloud.google.com/id/1-0]. They also use third-party web crawlers [ethanlazuk](https://vertexaisearch.cloud.google.com/id/1-2]. It extracts relevant snippets using LLMs and embedding techniques to identify contextually relevant sections [ethanlazuk](https://vertexaisearch.cloud.google.com/id/1-2]. Perplexity prioritizes ranking content based on its helpfulness in answering the user's query, using a trust score for domains to filter out low-quality content [ethanlazuk](https://vertexaisearch.cloud.google.com/id/1-2].\n*   **Google Gemini:** Google's AI assistant can generate summaries, answer questions, and suggest ways to explore a topic further [imd](https://vertexaisearch.cloud.google.com/id/0-2) [addlly](https://vertexaisearch.cloud.google.com/id/0-6). It integrates with Google Workspace apps and uses advanced AI models [addlly](https://vertexaisearch.cloud.google.com/id/0-6]. Google has also added generative AI to its search engine for image generation and AI Overviews [imd](https://vertexaisearch.cloud.google.com/id/0-2) [blog](https://vertexaisearch.cloud.google.com/id/0-7]. Gemini AI understands the context of a query to provide relevant results [rwit](https://vertexaisearch.cloud.google.com/id/1-3]. It processes words, pictures, and videos to provide comprehensive solutions [rwit](https://vertexaisearch.cloud.google.com/id/1-3]. Gemini AI utilizes the semantic method to decode queries, understanding the intent behind the keywords [rwit](https://vertexaisearch.cloud.google.com/id/1-3]. It uses user preferences, location, and past interactions to provide personalized search results [rwit](https://vertexaisearch.cloud.google.com/id/1-3]. Gemini supplements outcomes based on user tendencies and activity [rwit](https://vertexaisearch.cloud.google.com/id/1-3]. Gemini can generate one or multiple search queries and execute them, processing the results and formulating a grounded response [google](https://vertexaisearch.cloud.google.com/id/1-4].\n*   **Microsoft Bing Copilot:** This tool combines the Bing search engine with AI-powered tools, providing AI-generated answers alongside regular search results [addlly](https://vertexaisearch.cloud.google.com/id/0-6). It uses advanced AI models and connects to real-time web data [omnius](https://vertexaisearch.cloud.google.com/id/0-4) [imd](https://vertexaisearch.cloud.google.com/id/0-2) [addlly](https://vertexaisearch.cloud.google.com/id/0-6]. Copilot integrates with ChatGPT for real-time conversations and provides detailed, human-like responses with citations [imd](https://vertexaisearch.cloud.google.com/id/0-2). Bing's generative search combines Bing's search results with the power of large and small language models (LLMs and SLMs) [searchengineland](https://vertexaisearch.cloud.google.com/id/1-5]. It dynamically matches content to generate search results in an AI-generated layout [searchengineland](https://vertexaisearch.cloud.google.com/id/1-5]. Copilot transforms search from keyword queries to AI conversations [ppc](https://vertexaisearch.cloud.google.com/id/1-6]. Copilot can improve Bing search by providing specific information in the Generative Answers custom prompt to guide the search engine to query relevant results [microsoft](https://vertexaisearch.cloud.google.com/id/1-7]. Copilot understands the search query, reviews millions of sources, and generates search results to fulfill the user's intent [searchengineland](https://vertexaisearch.cloud.google.com/id/1-5].\n*   **Komo:** This search engine offers different modes: Ask, Search, Research, and Explore [pcmag](https://vertexaisearch.cloud.google.com/id/0-8) [builtin](https://vertexaisearch.cloud.google.com/id/0-5). It provides AI-generated answers with relevant links and prioritizes privacy by learning from past searches [omnius](https://vertexaisearch.cloud.google.com/id/0-4) [builtin](https://vertexaisearch.cloud.google.com/id/0-5) [nogood](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **ChatGPT:** You can use OpenAI's ChatGPT for web searches by clicking on the Search option within the interface [pcmag](https://vertexaisearch.cloud.google.com/id/0-8). It provides natural language responses and maintains the context of conversations, offering clear and well-structured answers [pcmag](https://vertexaisearch.cloud.google.com/id/0-8) [addlly](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **You.com:** This search engine offers personalized search results based on your preferences and provides a free plan with basic features [marketful](https://vertexaisearch.cloud.google.com/id/0-3) [pcmag](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **DeepSeek:** This AI search engine is built for advanced analysis and can understand long queries and process large documents [addlly](https://vertexaisearch.cloud.google.com/id/0-6]. It is useful for technical research, contract reviews, and coding help [addlly](https://vertexaisearch.cloud.google.com/id/0-6].\n*   **Brave Search:** This search engine prioritizes user privacy, ensuring that your searches are not tracked or monetized [marketful](https://vertexaisearch.cloud.google.com/id/0-3) [imd](https://vertexaisearch.cloud.google.com/id/0-2) [nogood](https://vertexaisearch.cloud.google.com/id/0-9).\n\nAI technologies like NLP, machine learning, and deep learning are used to understand natural language, analyze user behavior, and deliver more accurate results [getfocal](https://vertexaisearch.cloud.google.com/id/0-10]. AI helps identify the four main types of search intent: informational, navigational, commercial, and transactional [getfocal](https://vertexaisearch.cloud.google.com/id/0-10) [illinois](https://vertexaisearch.cloud.google.com/id/0-0]. AI-driven tools can process large amounts of search data to classify search intents more accurately, revealing intent diversity within a niche [illinois](https://vertexaisearch.cloud.google.com/id/0-0]. Generative AI (LLMs) can be used to generate variations of a user's query, improving the system's ability to find the correct data [worldbank](https://vertexaisearch.cloud.google.com/id/0-12]. Semantic search interprets the meaning of the text, enabling more expressive queries and yielding relevant results beyond keyword matching [worldbank](https://vertexaisearch.cloud.google.com/id/0-12]. AI-enabled techniques improve the understanding of users' information needs, leading to a better data search experience [worldbank](https://vertexaisearch.cloud.google.com/id/0-12].\n\nAI simplifies SEO by performing real-time audits and suggesting improvements, including keyword analysis, meta description optimization, and backlink strategies [ehtrust](https://vertexaisearch.cloud.google.com/id/0-1]. AI algorithms analyze data to identify relevant long-tail keywords, attract targeted traffic, and adapt to the latest search engine updates [seo](https://vertexaisearch.cloud.google.com/id/0-11]. Tools like Goodie can help brands optimize their visibility on LLMs by providing insights into how AI platforms understand queries relevant to their brand [nogood](https://vertexaisearch.cloud.google.com/id/0-9].\n\nThe future of AI in search includes more sophisticated personalization, voice search optimization, and AI-driven content governance [ehtrust](https://vertexaisearch.cloud.google.com/id/0-1). AI Overviews provide a quick overview of a topic and links to learn more, leading to increased user satisfaction [blog](https://vertexaisearch.cloud.google.com/id/0-7].",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "6eb3dad0-f4ba-43a3-8fb0-c66800a39da2",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "best AI tools for generating diverse search queries",
+      "What are the specific algorithms and techniques used by Perplexity AI, Google Gemini, and Microsoft Bing Copilot to generate diverse search queries, and how do they compare in terms of accuracy, speed, and resource utilization?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent information on \"best AI tools for generating diverse search queries\" and synthesize it into a verifiable text artifact.\nAI tools are transforming how search queries are generated and analyzed, enhancing website targeting, user engagement, and conversion rates [illinois](https://vertexaisearch.cloud.google.com/id/0-0). These tools utilize AI to understand user intent, generate diverse and personalized content, and optimize SEO strategies [ehtrust](https://vertexaisearch.cloud.google.com/id/0-1) [illinois](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**AI-Powered Search Engines and Tools:**\n\n*   **Perplexity AI:** Known for its accuracy and conversational interface, Perplexity AI uses Natural Language Processing (NLP) to understand context and provide detailed answers [imd](https://vertexaisearch.cloud.google.com/id/0-2) [marketful](https://vertexaisearch.cloud.google.com/id/0-3). It summarizes search results with source links and suggests follow-up questions [omnius](https://vertexaisearch.cloud.google.com/id/0-4) [builtin](https://vertexaisearch.cloud.google.com/id/0-5). The Pro version offers access to advanced models like GPT-4 and Claude 3 [omnius](https://vertexaisearch.cloud.google.com/id/0-4) [builtin](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Google Gemini:** Google's advanced AI assistant generates summaries, answers questions, and suggests further exploration [imd](https://vertexaisearch.cloud.google.com/id/0-2) [addlly](https://vertexaisearch.cloud.google.com/id/0-6). It integrates with Google Workspace apps and uses advanced AI models [addlly](https://vertexaisearch.cloud.google.com/id/0-6). Google has also integrated generative AI into its search engine for image generation and AI Overviews [imd](https://vertexaisearch.cloud.google.com/id/0-2) [blog](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Microsoft Bing Copilot:** Combines the classic Bing search engine with AI-powered tools, delivering AI-generated answers alongside regular search results [addlly](https://vertexaisearch.cloud.google.com/id/0-6). It uses advanced AI models and connects to real-time web data [omnius](https://vertexaisearch.cloud.google.com/id/0-4) [imd](https://vertexaisearch.cloud.google.com/id/0-2) [addlly](https://vertexaisearch.cloud.google.com/id/0-6). Copilot integrates with ChatGPT for real-time conversations and provides detailed, human-like responses with citations [imd](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Komo:** This search engine offers different modes: Ask, Search, Research, and Explore [pcmag](https://vertexaisearch.cloud.google.com/id/0-8) [builtin](https://vertexaisearch.cloud.google.com/id/0-5). It provides AI-generated answers with relevant links and prioritizes privacy by learning from past searches [omnius](https://vertexaisearch.cloud.google.com/id/0-4) [builtin](https://vertexaisearch.cloud.google.com/id/0-5) [nogood](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **ChatGPT:** OpenAI's ChatGPT can be used for web searches by clicking on the Search option within the interface [pcmag](https://vertexaisearch.cloud.google.com/id/0-8). It provides natural language responses and maintains the context of conversations, offering clear and well-structured answers [pcmag](https://vertexaisearch.cloud.google.com/id/0-8) [addlly](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **You.com:** Offers personalized search outcomes based on user preferences and provides a free plan with basic features [marketful](https://vertexaisearch.cloud.google.com/id/0-3) [pcmag](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **DeepSeek:** An AI search engine built for advanced analysis, capable of understanding long queries and processing large documents [addlly](https://vertexaisearch.cloud.google.com/id/0-6). It is useful for technical research, contract reviews, and coding help [addlly](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Brave Search:** Prioritizes user privacy, ensuring that searches are not tracked or monetized [marketful](https://vertexaisearch.cloud.google.com/id/0-3) [imd](https://vertexaisearch.cloud.google.com/id/0-2) [nogood](https://vertexaisearch.cloud.google.com/id/0-9).\n\n**AI for Understanding Search Intent:**\n\n*   AI technologies like NLP, machine learning, and deep learning are used to interpret natural language, analyze user behavior, and deliver more accurate results [getfocal](https://vertexaisearch.cloud.google.com/id/0-10).\n*   AI helps in identifying the four main types of search intent: informational, navigational, commercial, and transactional [getfocal](https://vertexaisearch.cloud.google.com/id/0-10) [illinois](https://vertexaisearch.cloud.google.com/id/0-0).\n*   AI-driven tools can process vast quantities of search data to classify search intents more accurately, revealing intent diversity within a niche [illinois](https://vertexaisearch.cloud.google.com/id/0-0).\n\n**AI-Driven SEO Optimization:**\n\n*   AI simplifies SEO by performing real-time audits and suggesting improvements, including keyword analysis, meta description optimization, and backlink strategies [ehtrust](https://vertexaisearch.cloud.google.com/id/0-1).\n*   AI algorithms analyze data to identify relevant long-tail keywords, attract targeted traffic, and adapt to the latest search engine updates [seo](https://vertexaisearch.cloud.google.com/id/0-11).\n*   Tools like Goodie can help brands optimize their visibility on LLMs by providing insights into how AI platforms understand queries relevant to their brand [nogood](https://vertexaisearch.cloud.google.com/id/0-9).\n\n**Techniques for Improving Data Discoverability:**\n\n*   **Query Expansion:** Generative AI (LLMs) can be used to generate variations of a user's query, improving the system's ability to find the correct data [worldbank](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Semantic Search:** Interprets the meaning of the text, enabling more expressive queries and yielding relevant results beyond keyword matching [worldbank](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Query Parsing:** AI-enabled techniques improve the understanding of users' information needs, leading to a better data search experience [worldbank](https://vertexaisearch.cloud.google.com/id/0-12).\n\n**The Future of AI in Search:**\n\n*   AI is transforming search engines, making optimization essential for online visibility [omnius](https://vertexaisearch.cloud.google.com/id/0-4).\n*   Future trends include more sophisticated personalization, voice search optimization, and AI-driven content governance [ehtrust](https://vertexaisearch.cloud.google.com/id/0-1).\n*   AI Overviews provide a quick overview of a topic and links to learn more, leading to increased user satisfaction [blog](https://vertexaisearch.cloud.google.com/id/0-7).\n",
+      "It appears you're asking for a comparison of the algorithms and techniques used by Perplexity AI, Google Gemini, and Microsoft Bing Copilot to generate diverse search queries, along with a comparison of their accuracy, speed, and resource utilization. Here's a breakdown of what the search results indicate:\n\n**1. Algorithms and Techniques for Search Query Generation:**\n\n*   **Perplexity AI:**\n    *   **NLP for Understanding Queries:** Perplexity AI uses Natural Language Processing (NLP) to analyze user queries, identifying keywords, intent, and meaning [medium](https://vertexaisearch.cloud.google.com/id/1-0).\n    *   **Retrieval-Augmented Generation (RAG):** It employs RAG, retrieving relevant information before generating a cohesive response using a language model [xfunnel](https://vertexaisearch.cloud.google.com/id/1-1) [medium](https://vertexaisearch.cloud.google.com/id/1-0).\n    *   **Custom Crawler and Indexing:** Perplexity uses its own search and indexing technology, updated daily for real-time accuracy, rather than relying solely on Google [medium](https://vertexaisearch.cloud.google.com/id/1-0). They also use third-party web crawlers [ethanlazuk](https://vertexaisearch.cloud.google.com/id/1-2).\n    *   **Query Processing:** Perplexity uses LLMs to interpret queries, going beyond simple keyword matching [ethanlazuk](https://vertexaisearch.cloud.google.com/id/1-2).\n    *   **Answer Generation:** It extracts relevant snippets using LLMs and embedding techniques to identify contextually relevant sections [ethanlazuk](https://vertexaisearch.cloud.google.com/id/1-2).\n    *   **Ranking Content:** Perplexity prioritizes ranking content based on its helpfulness in answering the user's query, using a trust score for domains to filter out low-quality content [ethanlazuk](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Google Gemini:**\n    *   **Contextual Understanding:** Gemini AI understands the context of a query to provide relevant results [rwit](https://vertexaisearch.cloud.google.com/id/1-3).\n    *   **Multimodal Processing:** It processes words, pictures, and videos to provide comprehensive solutions [rwit](https://vertexaisearch.cloud.google.com/id/1-3).\n    *   **Semantic Method:** Gemini AI utilizes the semantic method to decode queries, understanding the intent behind the keywords [rwit](https://vertexaisearch.cloud.google.com/id/1-3).\n    *   **Personalized Search Results:** It uses user preferences, location, and past interactions to provide personalized search results [rwit](https://vertexaisearch.cloud.google.com/id/1-3).\n    *   **Integration with Real-Time Trends:** Gemini supplements outcomes based on user tendencies and activity [rwit](https://vertexaisearch.cloud.google.com/id/1-3).\n    *   **Grounding with Google Search:** Gemini can generate one or multiple search queries and execute them, processing the results and formulating a grounded response [google](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Microsoft Bing Copilot:**\n    *   **LLMs and SLMs:** Bing's generative search combines Bing's search results with the power of large and small language models (LLMs and SLMs) [searchengineland](https://vertexaisearch.cloud.google.com/id/1-5).\n    *   **Content Matching:** It dynamically matches content to generate search results in an AI-generated layout [searchengineland](https://vertexaisearch.cloud.google.com/id/1-5).\n    *   **AI-Powered Conversations:** Copilot transforms search from keyword queries to AI conversations [ppc](https://vertexaisearch.cloud.google.com/id/1-6).\n    *   **Generative Answers:** Copilot can improve Bing search by providing specific information in the Generative Answers custom prompt to guide the search engine to query relevant results [microsoft](https://vertexaisearch.cloud.google.com/id/1-7).\n    *   **User Intent:** Copilot understands the search query, reviews millions of sources, and generates search results to fulfill the user's intent [searchengineland](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**2. Comparison of Accuracy, Speed, and Resource Utilization:**\n\n*   **Accuracy:**\n    *   Perplexity AI is designed for real-time information retrieval and research accuracy, citing its sources and providing up-to-date information [seosandwitch](https://vertexaisearch.cloud.google.com/id/1-8) [sgu](https://vertexaisearch.cloud.google.com/id/1-9).\n    *   Gemini focuses on factual accuracy and multilingual capabilities [seosandwitch](https://vertexaisearch.cloud.google.com/id/1-8).\n    *   Microsoft Copilot offers AI assistance with web searches [seosandwitch](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Speed:**\n    *   Gemini 1.5 Flash offers enhanced speed [sgu](https://vertexaisearch.cloud.google.com/id/1-9).\n    *   Copilot's GPT4 response speed is reportedly faster than ChatGPT Plus [reddit](https://vertexaisearch.cloud.google.com/id/1-10).\n*   **Resource Utilization:**\n    *   DeepSeek AI models emphasize efficient resource use, training at a fraction of the cost of Western counterparts [sgu](https://vertexaisearch.cloud.google.com/id/1-9).\n    *   QAR (Query Augmented Retrieval) avoids the bulk of the cost of LLM processing, as dealing with the query part is a much smaller parcel of text than processing the document or search results through the LLM [helpfruit](https://vertexaisearch.cloud.google.com/id/1-11).\n\n**3. General Techniques Used by AI Models:**\n\n*   **Natural Language Processing (NLP):** Used to interpret complex or conversational searches [unipa](https://vertexaisearch.cloud.google.com/id/1-12).\n*   **Machine Learning (ML):** Algorithms analyze user data to predict relevant and valuable results [unipa](https://vertexaisearch.cloud.google.com/id/1-12).\n*   **Query Expansion:** Generative AI (LLMs) are used for query expansion, generating variations of a user's query to improve the system's ability to find the correct data [worldbank](https://vertexaisearch.cloud.google.com/id/1-13).\n*   **Semantic Search:** AI-enabled solutions, semantic search, hybrid search, knowledge graphs, and recommendation systems can be utilized [worldbank](https://vertexaisearch.cloud.google.com/id/1-13).\n*   **Hybrid Search:** Combines multiple search algorithms to improve accuracy and relevance, using both keyword-based and vector search techniques [medium](https://vertexaisearch.cloud.google.com/id/1-14).\n*   **Retrieval-Augmented Generation (RAG):** Lets the underlying large language model (LLM) pull in external, real-time information before generating an answer [xfunnel](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Query Rewriting:** Translates the query into a better representation for retrieval, especially for natural, conversational language [medium](https://vertexaisearch.cloud.google.com/id/1-15).\n\n**4. Key Differentiators and Strengths:**\n\n*   **Perplexity AI:** Excels in research and fact-based queries, providing accurate answers with citation support [sgu](https://vertexaisearch.cloud.google.com/id/1-9). It is considered best for real-time fact-checking [seosandwitch](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Google Gemini:** Strong in multimodal tasks and productivity, with integration into Google services [sgu](https://vertexaisearch.cloud.google.com/id/1-9). It is also considered better for Google integration, fact-checking, and multilingual tasks [seosandwitch](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Microsoft Copilot:** Integrated into Windows and Microsoft Edge, offering AI assistance with web searches, coding, and document editing [seosandwitch](https://vertexaisearch.cloud.google.com/id/1-8). It is designed for businesses, works with their data, respects their rules, and improves productivity from within [devoteam](https://vertexaisearch.cloud.google.com/id/1-16).\n\nIn summary, all three platforms leverage AI to enhance search query generation, but they differ in their specific algorithms, techniques, and areas of focus. Perplexity AI emphasizes accuracy and real-time information retrieval for research, Google Gemini focuses on contextual understanding and integration with Google services, and Microsoft Bing Copilot aims to improve productivity within the Microsoft ecosystem.\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "illinois",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgoqHF4Pfg4_uwNpn6-LrNCP9AMmk24dh7jZxnxWsY4QfsquYZAVsTSEzeyj-LiaxVYl220cOlGX1togLCYzCNWVAKQ45zhLsFIgM68XezJitR0d20B9eun3PXyi-rke0b-HvbOwhUkczIcOYTuai8pQoIsvFwIAL2Zu3AgdtsXfPu9FQX-HYHV79hhLHtyRJwvDy1brJBQBvnKfbZPKdrhLJCENGo_cOetP0U5WsPXKk-OsnAwXDnzAYkYQ=="
+      },
+      {
+        "label": "ehtrust",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVJ1z1pcmGFihX0vBzRZtWF5MWr7PQYpPeqBoZp6TbsFUp33rFZkhr6eU6RNIkC654Qhgji4OitK8-1YtuYGqFH8LL2Gq7C9RZXB0pNHKjw-miHWwqPZiWbPMngEwUtMmdZKxVoPHCdcKnSTN0V7ykCKp4T7_W_7shurVsPO_Qsq1QrX6pE1IyZCu0z-7y6soiKp89dQaeTgNePIcVfkRsow48_U4GloWHeX3yVhXFu5fQnX6r3Eh52_y1ui0x-4v44EF2SnC83nmLlmpkCKrbziFYMEXTYOAHQaSYvsI="
+      },
+      {
+        "label": "illinois",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgoqHF4Pfg4_uwNpn6-LrNCP9AMmk24dh7jZxnxWsY4QfsquYZAVsTSEzeyj-LiaxVYl220cOlGX1togLCYzCNWVAKQ45zhLsFIgM68XezJitR0d20B9eun3PXyi-rke0b-HvbOwhUkczIcOYTuai8pQoIsvFwIAL2Zu3AgdtsXfPu9FQX-HYHV79hhLHtyRJwvDy1brJBQBvnKfbZPKdrhLJCENGo_cOetP0U5WsPXKk-OsnAwXDnzAYkYQ=="
+      },
+      {
+        "label": "imd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBadcUJ1swpAlCR4Y7cTFVhGxp3PSfFhuY6A4MxFrKdTH4qrDITPW4TTqhvD_yVXJz34GBD8WnCAT6hmPBWIt2aIUbCjcEXaauWCio1-ML14lNWYh10Npyi02_Y7TxXuUK2uNJAOHxcga7AA9-1p1ByNr8yjlY"
+      },
+      {
+        "label": "marketful",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxicc1OHDnwvesq6HudSf8KqtP6IqrffDMmjKcuoJzRDn5gCzPI2_x-F1R1yezqV--d8qw6wzDRJcYMFntN2AozDmjG2B32VuTt4DTzuxSuON-cak4vSaZB5FQoAbuT77h2wfuGWoVW8CCd31A"
+      },
+      {
+        "label": "omnius",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfdxXbQVV90G4uavqxF5j0xykiJIioJcsepriiWHUg0gCNnQ925COiO-Jriae5QOo6TGE5SlYwsQuJ9qw03NZ_UL8tE4xNVUUPswhYqVPEIF0EiYFNYMzmcY-Pm_KDg_vLNmdbwNHFEvsTPus="
+      },
+      {
+        "label": "builtin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEotmJW75hNJOJuTl6usaVEXwI5JlAgCF50z2-QignlguZK_I09DbkN7EvdOOXNX5YMdUubbJb_ZO1OrVvzg6dBtaTAh8zms4b0fWq6cgi4TvcRjgMvlFjE28ytxqVHjVYNmQHZRyjFrA=="
+      },
+      {
+        "label": "omnius",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfdxXbQVV90G4uavqxF5j0xykiJIioJcsepriiWHUg0gCNnQ925COiO-Jriae5QOo6TGE5SlYwsQuJ9qw03NZ_UL8tE4xNVUUPswhYqVPEIF0EiYFNYMzmcY-Pm_KDg_vLNmdbwNHFEvsTPus="
+      },
+      {
+        "label": "builtin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEotmJW75hNJOJuTl6usaVEXwI5JlAgCF50z2-QignlguZK_I09DbkN7EvdOOXNX5YMdUubbJb_ZO1OrVvzg6dBtaTAh8zms4b0fWq6cgi4TvcRjgMvlFjE28ytxqVHjVYNmQHZRyjFrA=="
+      },
+      {
+        "label": "imd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBadcUJ1swpAlCR4Y7cTFVhGxp3PSfFhuY6A4MxFrKdTH4qrDITPW4TTqhvD_yVXJz34GBD8WnCAT6hmPBWIt2aIUbCjcEXaauWCio1-ML14lNWYh10Npyi02_Y7TxXuUK2uNJAOHxcga7AA9-1p1ByNr8yjlY"
+      },
+      {
+        "label": "addlly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCsTW6Vn3pa7wnZc-7sYZQEiwZnZy_ZG_qkfHG_DsHX7lLB7HtTqhAk-F48khSDO5t_igm2LCWJpgRjgksq4Gyxjx7HO1kK2uXgdztFNGEfnVPNvrjHa-u9LJZxeRB3Evib9y4xVQq_3g="
+      },
+      {
+        "label": "addlly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCsTW6Vn3pa7wnZc-7sYZQEiwZnZy_ZG_qkfHG_DsHX7lLB7HtTqhAk-F48khSDO5t_igm2LCWJpgRjgksq4Gyxjx7HO1kK2uXgdztFNGEfnVPNvrjHa-u9LJZxeRB3Evib9y4xVQq_3g="
+      },
+      {
+        "label": "imd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBadcUJ1swpAlCR4Y7cTFVhGxp3PSfFhuY6A4MxFrKdTH4qrDITPW4TTqhvD_yVXJz34GBD8WnCAT6hmPBWIt2aIUbCjcEXaauWCio1-ML14lNWYh10Npyi02_Y7TxXuUK2uNJAOHxcga7AA9-1p1ByNr8yjlY"
+      },
+      {
+        "label": "blog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTjsKmfKx6WWQedgcnYYFQZklblc7YYBpQXdynD_7T_Jz4kG0Ihfanyqo8N6xl5siz9ZmT1IHOSgB6SqLg2DaRt1pnU_mWJTyDDk4nkX8MHRqw99kk-iQCrxPja5r686Irnk5Fpvi6LpLDwDkcHfrCiU4u4CXvr5jN88V6ua3rvqwSjhQ="
+      },
+      {
+        "label": "addlly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCsTW6Vn3pa7wnZc-7sYZQEiwZnZy_ZG_qkfHG_DsHX7lLB7HtTqhAk-F48khSDO5t_igm2LCWJpgRjgksq4Gyxjx7HO1kK2uXgdztFNGEfnVPNvrjHa-u9LJZxeRB3Evib9y4xVQq_3g="
+      },
+      {
+        "label": "omnius",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfdxXbQVV90G4uavqxF5j0xykiJIioJcsepriiWHUg0gCNnQ925COiO-Jriae5QOo6TGE5SlYwsQuJ9qw03NZ_UL8tE4xNVUUPswhYqVPEIF0EiYFNYMzmcY-Pm_KDg_vLNmdbwNHFEvsTPus="
+      },
+      {
+        "label": "imd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBadcUJ1swpAlCR4Y7cTFVhGxp3PSfFhuY6A4MxFrKdTH4qrDITPW4TTqhvD_yVXJz34GBD8WnCAT6hmPBWIt2aIUbCjcEXaauWCio1-ML14lNWYh10Npyi02_Y7TxXuUK2uNJAOHxcga7AA9-1p1ByNr8yjlY"
+      },
+      {
+        "label": "addlly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCsTW6Vn3pa7wnZc-7sYZQEiwZnZy_ZG_qkfHG_DsHX7lLB7HtTqhAk-F48khSDO5t_igm2LCWJpgRjgksq4Gyxjx7HO1kK2uXgdztFNGEfnVPNvrjHa-u9LJZxeRB3Evib9y4xVQq_3g="
+      },
+      {
+        "label": "imd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBadcUJ1swpAlCR4Y7cTFVhGxp3PSfFhuY6A4MxFrKdTH4qrDITPW4TTqhvD_yVXJz34GBD8WnCAT6hmPBWIt2aIUbCjcEXaauWCio1-ML14lNWYh10Npyi02_Y7TxXuUK2uNJAOHxcga7AA9-1p1ByNr8yjlY"
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hCL-NCtPfSR3xjptgMcaboYDrEl-64QTHeKxV9t4uWEFXnJFB-Of08qboS11CpC28udtwSV5JFCry7VIyiZUb7gcHG4UE_MV_dja5XgflyrztHCo6MEd2EZoD3welrQ6mB3V-y-Iq7fcKwbOgCXR9Q=="
+      },
+      {
+        "label": "builtin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEotmJW75hNJOJuTl6usaVEXwI5JlAgCF50z2-QignlguZK_I09DbkN7EvdOOXNX5YMdUubbJb_ZO1OrVvzg6dBtaTAh8zms4b0fWq6cgi4TvcRjgMvlFjE28ytxqVHjVYNmQHZRyjFrA=="
+      },
+      {
+        "label": "omnius",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfdxXbQVV90G4uavqxF5j0xykiJIioJcsepriiWHUg0gCNnQ925COiO-Jriae5QOo6TGE5SlYwsQuJ9qw03NZ_UL8tE4xNVUUPswhYqVPEIF0EiYFNYMzmcY-Pm_KDg_vLNmdbwNHFEvsTPus="
+      },
+      {
+        "label": "builtin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEotmJW75hNJOJuTl6usaVEXwI5JlAgCF50z2-QignlguZK_I09DbkN7EvdOOXNX5YMdUubbJb_ZO1OrVvzg6dBtaTAh8zms4b0fWq6cgi4TvcRjgMvlFjE28ytxqVHjVYNmQHZRyjFrA=="
+      },
+      {
+        "label": "nogood",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPxSFoMXAyRz_vLfpMO5lF2tZb_rWmWHdM-M6Ytmcs30b1mnXVqcLr8x_c_qmq9EGpTmTvMalBWyHuxw2qIm5ITOvKM-jhA20cjYdbrw-YCGMOv3bTHxlSY16bs75V5PvcDHUZhdA1ANuFnOVDLwXUbr3b"
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hCL-NCtPfSR3xjptgMcaboYDrEl-64QTHeKxV9t4uWEFXnJFB-Of08qboS11CpC28udtwSV5JFCry7VIyiZUb7gcHG4UE_MV_dja5XgflyrztHCo6MEd2EZoD3welrQ6mB3V-y-Iq7fcKwbOgCXR9Q=="
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hCL-NCtPfSR3xjptgMcaboYDrEl-64QTHeKxV9t4uWEFXnJFB-Of08qboS11CpC28udtwSV5JFCry7VIyiZUb7gcHG4UE_MV_dja5XgflyrztHCo6MEd2EZoD3welrQ6mB3V-y-Iq7fcKwbOgCXR9Q=="
+      },
+      {
+        "label": "addlly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCsTW6Vn3pa7wnZc-7sYZQEiwZnZy_ZG_qkfHG_DsHX7lLB7HtTqhAk-F48khSDO5t_igm2LCWJpgRjgksq4Gyxjx7HO1kK2uXgdztFNGEfnVPNvrjHa-u9LJZxeRB3Evib9y4xVQq_3g="
+      },
+      {
+        "label": "marketful",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxicc1OHDnwvesq6HudSf8KqtP6IqrffDMmjKcuoJzRDn5gCzPI2_x-F1R1yezqV--d8qw6wzDRJcYMFntN2AozDmjG2B32VuTt4DTzuxSuON-cak4vSaZB5FQoAbuT77h2wfuGWoVW8CCd31A"
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-hCL-NCtPfSR3xjptgMcaboYDrEl-64QTHeKxV9t4uWEFXnJFB-Of08qboS11CpC28udtwSV5JFCry7VIyiZUb7gcHG4UE_MV_dja5XgflyrztHCo6MEd2EZoD3welrQ6mB3V-y-Iq7fcKwbOgCXR9Q=="
+      },
+      {
+        "label": "addlly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCsTW6Vn3pa7wnZc-7sYZQEiwZnZy_ZG_qkfHG_DsHX7lLB7HtTqhAk-F48khSDO5t_igm2LCWJpgRjgksq4Gyxjx7HO1kK2uXgdztFNGEfnVPNvrjHa-u9LJZxeRB3Evib9y4xVQq_3g="
+      },
+      {
+        "label": "addlly",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCsTW6Vn3pa7wnZc-7sYZQEiwZnZy_ZG_qkfHG_DsHX7lLB7HtTqhAk-F48khSDO5t_igm2LCWJpgRjgksq4Gyxjx7HO1kK2uXgdztFNGEfnVPNvrjHa-u9LJZxeRB3Evib9y4xVQq_3g="
+      },
+      {
+        "label": "marketful",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxicc1OHDnwvesq6HudSf8KqtP6IqrffDMmjKcuoJzRDn5gCzPI2_x-F1R1yezqV--d8qw6wzDRJcYMFntN2AozDmjG2B32VuTt4DTzuxSuON-cak4vSaZB5FQoAbuT77h2wfuGWoVW8CCd31A"
+      },
+      {
+        "label": "imd",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBadcUJ1swpAlCR4Y7cTFVhGxp3PSfFhuY6A4MxFrKdTH4qrDITPW4TTqhvD_yVXJz34GBD8WnCAT6hmPBWIt2aIUbCjcEXaauWCio1-ML14lNWYh10Npyi02_Y7TxXuUK2uNJAOHxcga7AA9-1p1ByNr8yjlY"
+      },
+      {
+        "label": "nogood",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPxSFoMXAyRz_vLfpMO5lF2tZb_rWmWHdM-M6Ytmcs30b1mnXVqcLr8x_c_qmq9EGpTmTvMalBWyHuxw2qIm5ITOvKM-jhA20cjYdbrw-YCGMOv3bTHxlSY16bs75V5PvcDHUZhdA1ANuFnOVDLwXUbr3b"
+      },
+      {
+        "label": "getfocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkcwaC77B3ucP8b_bZ7frARLRopEpZum65fTHmmeCLcJTU_joqwNcinrjzMU0XwxEWxIU1VL2PE5JX8zi6sRCcIQaMK4M-7mqgGKBlptXf3TEod2c4wU516JTQMJslscsy6NPJvs1DVkvEYgbQWaVI2L4JD0YerTnQwyuSneimcDEIb2lC"
+      },
+      {
+        "label": "getfocal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkcwaC77B3ucP8b_bZ7frARLRopEpZum65fTHmmeCLcJTU_joqwNcinrjzMU0XwxEWxIU1VL2PE5JX8zi6sRCcIQaMK4M-7mqgGKBlptXf3TEod2c4wU516JTQMJslscsy6NPJvs1DVkvEYgbQWaVI2L4JD0YerTnQwyuSneimcDEIb2lC"
+      },
+      {
+        "label": "illinois",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgoqHF4Pfg4_uwNpn6-LrNCP9AMmk24dh7jZxnxWsY4QfsquYZAVsTSEzeyj-LiaxVYl220cOlGX1togLCYzCNWVAKQ45zhLsFIgM68XezJitR0d20B9eun3PXyi-rke0b-HvbOwhUkczIcOYTuai8pQoIsvFwIAL2Zu3AgdtsXfPu9FQX-HYHV79hhLHtyRJwvDy1brJBQBvnKfbZPKdrhLJCENGo_cOetP0U5WsPXKk-OsnAwXDnzAYkYQ=="
+      },
+      {
+        "label": "illinois",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgoqHF4Pfg4_uwNpn6-LrNCP9AMmk24dh7jZxnxWsY4QfsquYZAVsTSEzeyj-LiaxVYl220cOlGX1togLCYzCNWVAKQ45zhLsFIgM68XezJitR0d20B9eun3PXyi-rke0b-HvbOwhUkczIcOYTuai8pQoIsvFwIAL2Zu3AgdtsXfPu9FQX-HYHV79hhLHtyRJwvDy1brJBQBvnKfbZPKdrhLJCENGo_cOetP0U5WsPXKk-OsnAwXDnzAYkYQ=="
+      },
+      {
+        "label": "ehtrust",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVJ1z1pcmGFihX0vBzRZtWF5MWr7PQYpPeqBoZp6TbsFUp33rFZkhr6eU6RNIkC654Qhgji4OitK8-1YtuYGqFH8LL2Gq7C9RZXB0pNHKjw-miHWwqPZiWbPMngEwUtMmdZKxVoPHCdcKnSTN0V7ykCKp4T7_W_7shurVsPO_Qsq1QrX6pE1IyZCu0z-7y6soiKp89dQaeTgNePIcVfkRsow48_U4GloWHeX3yVhXFu5fQnX6r3Eh52_y1ui0x-4v44EF2SnC83nmLlmpkCKrbziFYMEXTYOAHQaSYvsI="
+      },
+      {
+        "label": "seo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsyt_DnJ9oNUVsaedMsyiTy4-pLl_6Bf8_HFMfEF1BqLopBkZgg9NxYzaKHgvQEyTj3kmPQIhiLaldbeCaIndYNm6XZBPEv8Zwq4wZcaGbqgf9lKuk8lYsoXEsZadZmg=="
+      },
+      {
+        "label": "nogood",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPxSFoMXAyRz_vLfpMO5lF2tZb_rWmWHdM-M6Ytmcs30b1mnXVqcLr8x_c_qmq9EGpTmTvMalBWyHuxw2qIm5ITOvKM-jhA20cjYdbrw-YCGMOv3bTHxlSY16bs75V5PvcDHUZhdA1ANuFnOVDLwXUbr3b"
+      },
+      {
+        "label": "worldbank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0FLIR7HG2bEobacN926TeRC7e4N_zUlOqVipw2RZYUI7nIRb7Bh-j8IY8K1LgW4s7AnjdY8cyfSITWyKOOlnPccFoYSl0u3JBkDpYsxtD5b86Z7xJzxSb3dWTwRi0iUkRcGw1W5zTebb5d_uEenC47t0oStC78pyFD1RRysE329Lbj1zBcg5IeLhniUi-7Sx1Ei4wssPw6breVlFSvs521LO-1w=="
+      },
+      {
+        "label": "worldbank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0FLIR7HG2bEobacN926TeRC7e4N_zUlOqVipw2RZYUI7nIRb7Bh-j8IY8K1LgW4s7AnjdY8cyfSITWyKOOlnPccFoYSl0u3JBkDpYsxtD5b86Z7xJzxSb3dWTwRi0iUkRcGw1W5zTebb5d_uEenC47t0oStC78pyFD1RRysE329Lbj1zBcg5IeLhniUi-7Sx1Ei4wssPw6breVlFSvs521LO-1w=="
+      },
+      {
+        "label": "worldbank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0FLIR7HG2bEobacN926TeRC7e4N_zUlOqVipw2RZYUI7nIRb7Bh-j8IY8K1LgW4s7AnjdY8cyfSITWyKOOlnPccFoYSl0u3JBkDpYsxtD5b86Z7xJzxSb3dWTwRi0iUkRcGw1W5zTebb5d_uEenC47t0oStC78pyFD1RRysE329Lbj1zBcg5IeLhniUi-7Sx1Ei4wssPw6breVlFSvs521LO-1w=="
+      },
+      {
+        "label": "omnius",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfdxXbQVV90G4uavqxF5j0xykiJIioJcsepriiWHUg0gCNnQ925COiO-Jriae5QOo6TGE5SlYwsQuJ9qw03NZ_UL8tE4xNVUUPswhYqVPEIF0EiYFNYMzmcY-Pm_KDg_vLNmdbwNHFEvsTPus="
+      },
+      {
+        "label": "ehtrust",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVJ1z1pcmGFihX0vBzRZtWF5MWr7PQYpPeqBoZp6TbsFUp33rFZkhr6eU6RNIkC654Qhgji4OitK8-1YtuYGqFH8LL2Gq7C9RZXB0pNHKjw-miHWwqPZiWbPMngEwUtMmdZKxVoPHCdcKnSTN0V7ykCKp4T7_W_7shurVsPO_Qsq1QrX6pE1IyZCu0z-7y6soiKp89dQaeTgNePIcVfkRsow48_U4GloWHeX3yVhXFu5fQnX6r3Eh52_y1ui0x-4v44EF2SnC83nmLlmpkCKrbziFYMEXTYOAHQaSYvsI="
+      },
+      {
+        "label": "blog",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTjsKmfKx6WWQedgcnYYFQZklblc7YYBpQXdynD_7T_Jz4kG0Ihfanyqo8N6xl5siz9ZmT1IHOSgB6SqLg2DaRt1pnU_mWJTyDDk4nkX8MHRqw99kk-iQCrxPja5r686Irnk5Fpvi6LpLDwDkcHfrCiU4u4CXvr5jN88V6ua3rvqwSjhQ="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0rTjKKjlhIOZMoE69_pqRSxa3_u09AKOwuAL1VwmNXD56lnu0k3kHohRcsnX-eW1t0Witg-XgJVgDnMzcseOXI0EXGE93Socl0iB-vE8OOOl39U8bAd3pr43nqIatPvnoyQzoZBdEwBOHq3w7_u8ElaaxI0SPAV4dm6etL_yRsKpQwEe6BsrxjPF8TwFzB1Te-c1vscH02C2FbmkZs4XLhUsd1nsQZJnT49AduKGVrwMt90I="
+      },
+      {
+        "label": "xfunnel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXFFF2g_7IO-3vpCwtN8-4x3L3jkPzuv2CsK_KqhapyHdm5OuSWAjRtLWMBZs16wRDeSqeaF9H2F6OBDm_cGv7eQ1b4YrruBxzv0XiBKkXjQzf7YjauB8n7uLhLpDLS6G2G3Wnr4Uy5B6MNw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0rTjKKjlhIOZMoE69_pqRSxa3_u09AKOwuAL1VwmNXD56lnu0k3kHohRcsnX-eW1t0Witg-XgJVgDnMzcseOXI0EXGE93Socl0iB-vE8OOOl39U8bAd3pr43nqIatPvnoyQzoZBdEwBOHq3w7_u8ElaaxI0SPAV4dm6etL_yRsKpQwEe6BsrxjPF8TwFzB1Te-c1vscH02C2FbmkZs4XLhUsd1nsQZJnT49AduKGVrwMt90I="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0rTjKKjlhIOZMoE69_pqRSxa3_u09AKOwuAL1VwmNXD56lnu0k3kHohRcsnX-eW1t0Witg-XgJVgDnMzcseOXI0EXGE93Socl0iB-vE8OOOl39U8bAd3pr43nqIatPvnoyQzoZBdEwBOHq3w7_u8ElaaxI0SPAV4dm6etL_yRsKpQwEe6BsrxjPF8TwFzB1Te-c1vscH02C2FbmkZs4XLhUsd1nsQZJnT49AduKGVrwMt90I="
+      },
+      {
+        "label": "ethanlazuk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR3dV2OFok-4QTQQqPXOB5ppVHhn-dCmW_xBh3wEBBBiwyCaD9yUIXzqb-6BglVyyjamA3QmBE2CEZONxJbSZJQxIDdR5t-ENbeJnyz3dwAWU6mUN1XbPxr9vkD2gZCBpIzWAjWSU5evgSGkRDz5-0"
+      },
+      {
+        "label": "ethanlazuk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR3dV2OFok-4QTQQqPXOB5ppVHhn-dCmW_xBh3wEBBBiwyCaD9yUIXzqb-6BglVyyjamA3QmBE2CEZONxJbSZJQxIDdR5t-ENbeJnyz3dwAWU6mUN1XbPxr9vkD2gZCBpIzWAjWSU5evgSGkRDz5-0"
+      },
+      {
+        "label": "ethanlazuk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR3dV2OFok-4QTQQqPXOB5ppVHhn-dCmW_xBh3wEBBBiwyCaD9yUIXzqb-6BglVyyjamA3QmBE2CEZONxJbSZJQxIDdR5t-ENbeJnyz3dwAWU6mUN1XbPxr9vkD2gZCBpIzWAjWSU5evgSGkRDz5-0"
+      },
+      {
+        "label": "ethanlazuk",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFR3dV2OFok-4QTQQqPXOB5ppVHhn-dCmW_xBh3wEBBBiwyCaD9yUIXzqb-6BglVyyjamA3QmBE2CEZONxJbSZJQxIDdR5t-ENbeJnyz3dwAWU6mUN1XbPxr9vkD2gZCBpIzWAjWSU5evgSGkRDz5-0"
+      },
+      {
+        "label": "rwit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ8eshkNKQwIcTrJkaPe3NzqK3_ygeV0qzhW-_TPS7-mWcVh9JvVk0UUzJgZrkH49HiQsoCbr2UTGJ3HRwtoYgKxxY0DbrOFyAeFvq0BjldOgXYrg9LodTPjY5OO7pv7wJrW1_UC_0zdw-TEz8leBOMozSqh7vRT2I5Xm7br-dURE1E7I9FW8GEA=="
+      },
+      {
+        "label": "rwit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ8eshkNKQwIcTrJkaPe3NzqK3_ygeV0qzhW-_TPS7-mWcVh9JvVk0UUzJgZrkH49HiQsoCbr2UTGJ3HRwtoYgKxxY0DbrOFyAeFvq0BjldOgXYrg9LodTPjY5OO7pv7wJrW1_UC_0zdw-TEz8leBOMozSqh7vRT2I5Xm7br-dURE1E7I9FW8GEA=="
+      },
+      {
+        "label": "rwit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ8eshkNKQwIcTrJkaPe3NzqK3_ygeV0qzhW-_TPS7-mWcVh9JvVk0UUzJgZrkH49HiQsoCbr2UTGJ3HRwtoYgKxxY0DbrOFyAeFvq0BjldOgXYrg9LodTPjY5OO7pv7wJrW1_UC_0zdw-TEz8leBOMozSqh7vRT2I5Xm7br-dURE1E7I9FW8GEA=="
+      },
+      {
+        "label": "rwit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ8eshkNKQwIcTrJkaPe3NzqK3_ygeV0qzhW-_TPS7-mWcVh9JvVk0UUzJgZrkH49HiQsoCbr2UTGJ3HRwtoYgKxxY0DbrOFyAeFvq0BjldOgXYrg9LodTPjY5OO7pv7wJrW1_UC_0zdw-TEz8leBOMozSqh7vRT2I5Xm7br-dURE1E7I9FW8GEA=="
+      },
+      {
+        "label": "rwit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ8eshkNKQwIcTrJkaPe3NzqK3_ygeV0qzhW-_TPS7-mWcVh9JvVk0UUzJgZrkH49HiQsoCbr2UTGJ3HRwtoYgKxxY0DbrOFyAeFvq0BjldOgXYrg9LodTPjY5OO7pv7wJrW1_UC_0zdw-TEz8leBOMozSqh7vRT2I5Xm7br-dURE1E7I9FW8GEA=="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_1Xs8NtmhIruq2Sx2gDz43OEMIHBqPVOHesvGRi-8gENZ00lfusj0SYB7aWM3HeG8TwuuENkexf9A92I-T6N5C67rDPw37YAk0OoUEHrAiSnic6F8PUUq0OgMh9cvV8BtL6PM77aQbL9L2-sUeA=="
+      },
+      {
+        "label": "searchengineland",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwlFlrU_NT9E87l2kQRh1fzN6__PwShutrzVLuc-P2CMHCv6-cF1Nuy6cvCXSCtBJVlY9nx5m2tgmHm12eQvn3dWQq7YBKH9zz7cD-AhJOb8ly2WKZ796gIi7GuukuQM-F2WFCMtIEhKMZmeAr6TI0Vx5I2I-8RGtxx5x5_6x22_ZKjkNekZRVjNauHZs6f1pn36MNFLvJYw=="
+      },
+      {
+        "label": "searchengineland",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwlFlrU_NT9E87l2kQRh1fzN6__PwShutrzVLuc-P2CMHCv6-cF1Nuy6cvCXSCtBJVlY9nx5m2tgmHm12eQvn3dWQq7YBKH9zz7cD-AhJOb8ly2WKZ796gIi7GuukuQM-F2WFCMtIEhKMZmeAr6TI0Vx5I2I-8RGtxx5x5_6x22_ZKjkNekZRVjNauHZs6f1pn36MNFLvJYw=="
+      },
+      {
+        "label": "ppc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd0Q-fN9gP-_qupqvI7GorKgQGLXHXWhctFzT-Ge1k4qx3unLU-K8GHG2mYdJ4LTGYPLZ1vsKW1s4wec7DSmMTe9hdICEwEeVIMSdhgdlNQSpatnx5Si6SrKMw1CAzhMX05OTbFsV54TGxtMlU2UjTB6MGUR-r5PM4JUO3FznuSQ368KZCsPE59fJ6mfPBjbMe4qiNAqRjz7yo"
+      },
+      {
+        "label": "microsoft",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkwtY3RWxJyP7Mkq3EsFl5bnGgiFwQS3zs4HXYnWB0koC44TUofJDGLeMkbFmM9AsdyE-hrM2TI-mi-MpbEkvhCKCECMJl0ZFSshka1OrXsh2xihgFhQj8yt8VbFQdZOjnIfyz2E31yKseKo8WP2olcrgapW6KvzMMyLzFS1t5-dVjww_sveXQEaYLG-j-OiWAyQqR2VpthJRGHW4="
+      },
+      {
+        "label": "searchengineland",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwlFlrU_NT9E87l2kQRh1fzN6__PwShutrzVLuc-P2CMHCv6-cF1Nuy6cvCXSCtBJVlY9nx5m2tgmHm12eQvn3dWQq7YBKH9zz7cD-AhJOb8ly2WKZ796gIi7GuukuQM-F2WFCMtIEhKMZmeAr6TI0Vx5I2I-8RGtxx5x5_6x22_ZKjkNekZRVjNauHZs6f1pn36MNFLvJYw=="
+      },
+      {
+        "label": "seosandwitch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQghYLRT92_3Ox0iU0bbW_xdAE2yGSNvmoptk5MPsGUqr30GcfFoIgk48syc8IVZiG4J7bgVWzCvtmE2YdSH5vKBQuZUNuFhscwSXutSAb5SKrPtttVY1xEBYacQ3NaUaxfJGzOL7TbX_5nZ-DGmgkCv9s7m8BGVH66xOsiqyh"
+      },
+      {
+        "label": "sgu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCYZgvi0akNqeHjC7vkPCYM3vYFmy9ZQL730LAsg-Y99ngBKkiNK_VSM-K7jIFhBlo8bwLEc5IF_QCjw3uNq2UERVtUy96MmI3_ZzalGSdthkKpPYBwI4b0G3kFY1ScueuvMoXrEl_MMQjOLtRVounX3JASWX1Uax5zIanSZiV88CmwCHFJpl5AfSPFmSPPqjYZC0-5elFff26rLg="
+      },
+      {
+        "label": "seosandwitch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQghYLRT92_3Ox0iU0bbW_xdAE2yGSNvmoptk5MPsGUqr30GcfFoIgk48syc8IVZiG4J7bgVWzCvtmE2YdSH5vKBQuZUNuFhscwSXutSAb5SKrPtttVY1xEBYacQ3NaUaxfJGzOL7TbX_5nZ-DGmgkCv9s7m8BGVH66xOsiqyh"
+      },
+      {
+        "label": "seosandwitch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQghYLRT92_3Ox0iU0bbW_xdAE2yGSNvmoptk5MPsGUqr30GcfFoIgk48syc8IVZiG4J7bgVWzCvtmE2YdSH5vKBQuZUNuFhscwSXutSAb5SKrPtttVY1xEBYacQ3NaUaxfJGzOL7TbX_5nZ-DGmgkCv9s7m8BGVH66xOsiqyh"
+      },
+      {
+        "label": "sgu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCYZgvi0akNqeHjC7vkPCYM3vYFmy9ZQL730LAsg-Y99ngBKkiNK_VSM-K7jIFhBlo8bwLEc5IF_QCjw3uNq2UERVtUy96MmI3_ZzalGSdthkKpPYBwI4b0G3kFY1ScueuvMoXrEl_MMQjOLtRVounX3JASWX1Uax5zIanSZiV88CmwCHFJpl5AfSPFmSPPqjYZC0-5elFff26rLg="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGclQD-Yh6Gjr9pZMDHhL69GuslGV7l-SADToESna6wVSZRHOEWMTNV2_goSji_2bOsNApfHu2ZluzgfQ0tnVFCT9SedEkXa-Kikn1MfHRo2sNLdO8X2gz08EnIH_Jhl6UrwZXwYMRlUQ4h-PgaHjTGod4zO2WZg2AtMngxz9wo1IDB9iXGg1jPVTl1zeK54wvwixYUhuVT5gLCuHA="
+      },
+      {
+        "label": "sgu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCYZgvi0akNqeHjC7vkPCYM3vYFmy9ZQL730LAsg-Y99ngBKkiNK_VSM-K7jIFhBlo8bwLEc5IF_QCjw3uNq2UERVtUy96MmI3_ZzalGSdthkKpPYBwI4b0G3kFY1ScueuvMoXrEl_MMQjOLtRVounX3JASWX1Uax5zIanSZiV88CmwCHFJpl5AfSPFmSPPqjYZC0-5elFff26rLg="
+      },
+      {
+        "label": "helpfruit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmyszUaHU6emJRH5U-cDaGEubE-uHAGYDe4igOs3LYn3JwU5PO-LI_OzKztLkxaBuu0xSv2kn4bMDoj4UNlJntcHXpjfdQZfUnzJn51X3M_abxgvif1tgPzImODCxHYlQyfjB9SI30QMi9ZQS2-rbzEuphX4fkH6qkoMi40h4M-e1IZuEEu0EogN1OnE_njAMBeyvA0VQAU67uFtBaPLoTHzCOddKASvYzR_zzVcewiGFO1A=="
+      },
+      {
+        "label": "unipa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTnXhk1nx-h9onMA-PWXQ46RaUY7GcYfHC_t32ft_GOoeBlen3Ezn9d6KebBRN2WwY4Eq-uwS1do9ekZQNoexY_14AgCTB9FOmec4rPZO02zgoTRoHOO6mO-sU2eRyxAx08Q0b6m2IIERoZvHUfFuPjDWqjlgACnPlh2mK8Pj7UYRXJCeAU5W75l7CZml4Y9HaVN384QYWQc03xxs4Pj48KNP5hSP5UdQ5-1miwHzqhbDm49GTzD0v5fIdcqR146THQK-Ki-jbTl37dlfXWKLJRV-mD9S03vxWTybKpYMr"
+      },
+      {
+        "label": "unipa",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTnXhk1nx-h9onMA-PWXQ46RaUY7GcYfHC_t32ft_GOoeBlen3Ezn9d6KebBRN2WwY4Eq-uwS1do9ekZQNoexY_14AgCTB9FOmec4rPZO02zgoTRoHOO6mO-sU2eRyxAx08Q0b6m2IIERoZvHUfFuPjDWqjlgACnPlh2mK8Pj7UYRXJCeAU5W75l7CZml4Y9HaVN384QYWQc03xxs4Pj48KNP5hSP5UdQ5-1miwHzqhbDm49GTzD0v5fIdcqR146THQK-Ki-jbTl37dlfXWKLJRV-mD9S03vxWTybKpYMr"
+      },
+      {
+        "label": "worldbank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlCKeVie0zBDV8srcOJlUJW5vb0XHUTQwQQ4dWK5_Zm0O4oZ9Aq5EN9Jqbnr-QW84QK1ZqHC11fQCtgEetSvRe1Kaow7jfspLMNjZjzz972mXEZnU6-_KOALPvXyRudeSpD_-Tlq49dIVrZIK8Z_6Dx_A0JhYxoAcmQ96gjInHDfX7_Q7yYKoZS1BbixjjGh5LHVANF8Rz9O5kMnOsclOPYpPT0Q=="
+      },
+      {
+        "label": "worldbank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlCKeVie0zBDV8srcOJlUJW5vb0XHUTQwQQ4dWK5_Zm0O4oZ9Aq5EN9Jqbnr-QW84QK1ZqHC11fQCtgEetSvRe1Kaow7jfspLMNjZjzz972mXEZnU6-_KOALPvXyRudeSpD_-Tlq49dIVrZIK8Z_6Dx_A0JhYxoAcmQ96gjInHDfX7_Q7yYKoZS1BbixjjGh5LHVANF8Rz9O5kMnOsclOPYpPT0Q=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlsyPv0tYyFtWGFL_jLRE_TpOFDbc5PG3fcFvup_uSgc7Dwi7gyTK_hBsrdecsb7GumR4auFCU7UZCpW-tMQTpF-xjnNhTr7a5c3AFWZY3kYeJrWXeInErym80gj40B13R3K248oPRgq6bNcfQurk1PRFw7TJRZW3UK7a6t2BLcaqFSPhIiCzFcqondNUK8kYnD_D3UI84_eAokJPiIfI7OoDiA2XLIOHRTA=="
+      },
+      {
+        "label": "xfunnel",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXFFF2g_7IO-3vpCwtN8-4x3L3jkPzuv2CsK_KqhapyHdm5OuSWAjRtLWMBZs16wRDeSqeaF9H2F6OBDm_cGv7eQ1b4YrruBxzv0XiBKkXjQzf7YjauB8n7uLhLpDLS6G2G3Wnr4Uy5B6MNw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkNzkDZj47z-6-0EYLekn3Jpdsp557WkmqwaNNe4jtvFHtjHYUl4Z2_3ER4CIvXGqTJtf76NRX32UHVLZWWBXjz7e3NttqiWjT7sbuCUvINiR9rvcJR8FDgTzaKEoN89wiwrmYgmJO-izkzYmAh63X57wsfsCP7kAzUzLkkrqf-na8763nfn454MHZe6GUyuPwRea8jTeBbj7kiHldEZyrPPCRLw8DPu3D6bVtLbFbHk46vNnT6_WO"
+      },
+      {
+        "label": "sgu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCYZgvi0akNqeHjC7vkPCYM3vYFmy9ZQL730LAsg-Y99ngBKkiNK_VSM-K7jIFhBlo8bwLEc5IF_QCjw3uNq2UERVtUy96MmI3_ZzalGSdthkKpPYBwI4b0G3kFY1ScueuvMoXrEl_MMQjOLtRVounX3JASWX1Uax5zIanSZiV88CmwCHFJpl5AfSPFmSPPqjYZC0-5elFff26rLg="
+      },
+      {
+        "label": "seosandwitch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQghYLRT92_3Ox0iU0bbW_xdAE2yGSNvmoptk5MPsGUqr30GcfFoIgk48syc8IVZiG4J7bgVWzCvtmE2YdSH5vKBQuZUNuFhscwSXutSAb5SKrPtttVY1xEBYacQ3NaUaxfJGzOL7TbX_5nZ-DGmgkCv9s7m8BGVH66xOsiqyh"
+      },
+      {
+        "label": "sgu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCYZgvi0akNqeHjC7vkPCYM3vYFmy9ZQL730LAsg-Y99ngBKkiNK_VSM-K7jIFhBlo8bwLEc5IF_QCjw3uNq2UERVtUy96MmI3_ZzalGSdthkKpPYBwI4b0G3kFY1ScueuvMoXrEl_MMQjOLtRVounX3JASWX1Uax5zIanSZiV88CmwCHFJpl5AfSPFmSPPqjYZC0-5elFff26rLg="
+      },
+      {
+        "label": "seosandwitch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQghYLRT92_3Ox0iU0bbW_xdAE2yGSNvmoptk5MPsGUqr30GcfFoIgk48syc8IVZiG4J7bgVWzCvtmE2YdSH5vKBQuZUNuFhscwSXutSAb5SKrPtttVY1xEBYacQ3NaUaxfJGzOL7TbX_5nZ-DGmgkCv9s7m8BGVH66xOsiqyh"
+      },
+      {
+        "label": "seosandwitch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQghYLRT92_3Ox0iU0bbW_xdAE2yGSNvmoptk5MPsGUqr30GcfFoIgk48syc8IVZiG4J7bgVWzCvtmE2YdSH5vKBQuZUNuFhscwSXutSAb5SKrPtttVY1xEBYacQ3NaUaxfJGzOL7TbX_5nZ-DGmgkCv9s7m8BGVH66xOsiqyh"
+      },
+      {
+        "label": "devoteam",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFF5NRqjOspRrzG6l0SB5KZ_QH0E2Bgt76PioT4p6vT75hc3o-5FGIu8Cb5Ve5Q_O9JZYNPG0BnwhUlWA05aDsprk4IBAQK1M9rMOs_Il91yHChM309ZcC9yHwNGK28bUvFggo6c4Wxocx7QlIVxWExkpXpnRKF5OpgrFt52a__zZRShXtWw0ABfrf4lguJSf9cy_87i38Pq_NzUT1csANzBJzlhkcf2V60qg="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

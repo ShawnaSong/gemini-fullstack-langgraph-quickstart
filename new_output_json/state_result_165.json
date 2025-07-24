@@ -1,0 +1,230 @@
+{
+  "file_name": "state_result_165.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.635315",
+  "data": {
+    "messages": [
+      {
+        "content": "How much Macbook M4 Pro 12 cpu, 14 gpu, 24 gb ram, 512 gb ssd, 14 inches screen costs in USA?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "2feee446-493b-4459-9319-365f88be14dd",
+        "example": false
+      },
+      {
+        "content": "As of July 16, 2025, the 14-inch MacBook Pro with the M4 Pro chip, 12-core CPU, 14-core GPU, 24GB of RAM, and a 512GB SSD starts at $1,999 [istorestm](https://vertexaisearch.cloud.google.com/id/0-0) [macprices](https://vertexaisearch.cloud.google.com/id/0-1). Keep in mind that prices can vary depending on the retailer and specific configuration [costco](https://vertexaisearch.cloud.google.com/id/0-2) [macprices](https://vertexaisearch.cloud.google.com/id/0-1) [bestbuy](https://vertexaisearch.cloud.google.com/id/0-3). You might want to check retailers like Amazon, Best Buy, and B&H Photo for potential deals [macprices](https://vertexaisearch.cloud.google.com/id/0-1).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "4af51524-a5cf-4ade-8bfd-5eb5f3497f7b",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Macbook M4 Pro 14-inch price USA 2025"
+    ],
+    "web_research_result": [
+      "Based on the search results, here's a summary of information regarding the 14-inch MacBook Pro with the M4 Pro chip in the USA as of July 16, 2025:\n\n**Pricing and Configurations:**\n\n*   **Base Model (M4):** The 14-inch MacBook Pro with the base M4 chip, 16GB of RAM, and a 512GB SSD is listed at a starting price of $1,599 [istorestm](https://vertexaisearch.cloud.google.com/id/0-0) [macprices](https://vertexaisearch.cloud.google.com/id/0-1). A configuration with 1TB SSD is priced at $1,799, and a 24GB RAM/1TB SSD model is $1,999 [macprices](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **M4 Pro:** The 14-inch MacBook Pro with the M4 Pro chip starts at $1,999, including 24GB of RAM and a 512GB SSD [istorestm](https://vertexaisearch.cloud.google.com/id/0-0) [macprices](https://vertexaisearch.cloud.google.com/id/0-1). A model with a 14-core CPU M4 Pro, 24GB RAM, and 1TB SSD has an MSRP of $2399 [macprices](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **M4 Max:** A 14-core CPU M4 Max version with 36GB of RAM and a 1TB SSD is priced at $3199 [macprices](https://vertexaisearch.cloud.google.com/id/0-1).\n*   It is worth noting that prices may vary by retailer and configurations [costco](https://vertexaisearch.cloud.google.com/id/0-2) [macprices](https://vertexaisearch.cloud.google.com/id/0-1) [bestbuy](https://vertexaisearch.cloud.google.com/id/0-3). Amazon, Best Buy, and B&H Photo are often mentioned as retailers [macprices](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Key Features & Specs:**\n\n*   **Processor:** Apple M4 (base model), M4 Pro (up to 14-core CPU), or M4 Max (up to 16-core CPU) [istorestm](https://vertexaisearch.cloud.google.com/id/0-0) [apple](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **RAM:** 16GB standard on base models, configurable up to 128GB with M4 Max [wikipedia](https://vertexaisearch.cloud.google.com/id/0-5) [apple](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Storage:** 512GB SSD base, configurable up to 8TB [gadgets360](https://vertexaisearch.cloud.google.com/id/0-6) [apple](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Display:** 14.2-inch Liquid Retina XDR display with ProMotion technology for adaptive refresh rates up to 120Hz [istore](https://vertexaisearch.cloud.google.com/id/0-7) [gadgets360](https://vertexaisearch.cloud.google.com/id/0-6). The resolution is 3024 x 1964 pixels [bestbuy](https://vertexaisearch.cloud.google.com/id/0-8) [gadgets360](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Ports:** Three Thunderbolt ports (USB4 on base M4, Thunderbolt 5 on Pro/Max), HDMI 2.1 port, SDXC UHS-II card reader, MagSafe 3 port [istorestm](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Operating System:** macOS [gadgets360](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Other Features:** 12MP webcam, backlit keyboard [gadgets360](https://vertexaisearch.cloud.google.com/id/0-6). Some models are built for Apple Intelligence features [costco](https://vertexaisearch.cloud.google.com/id/0-2) [bestbuy](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**Release Date:**\n\n*   The M4 Macbook Pro models were launched in late 2024 [bgr](https://vertexaisearch.cloud.google.com/id/0-9) [gadgets360](https://vertexaisearch.cloud.google.com/id/0-6) [bestbuy](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**Performance:**\n\n*   The M4 Pro offers improved performance compared to previous generations [apple](https://vertexaisearch.cloud.google.com/id/0-10) [macprices](https://vertexaisearch.cloud.google.com/id/0-1). The M4 Pro 14-inch MacBook Pro achieved a single-core score of approximately 3,850 and a multi-core score of around 15,200 in Geekbench tests [macprices](https://vertexaisearch.cloud.google.com/id/0-1). The M4 Max version can reach close to 19,000 in multi-core performance [macprices](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Additional Notes:**\n\n*   Apple Intelligence features are available in beta on Mac models with M1 and later chips [bestbuy](https://vertexaisearch.cloud.google.com/id/0-8) [istore](https://vertexaisearch.cloud.google.com/id/0-7).\n*   The M4 chip is also available in the MacBook Air [pcmag](https://vertexaisearch.cloud.google.com/id/0-11) [istorestm](https://vertexaisearch.cloud.google.com/id/0-0).\n*   The MacBook Pro offers better cooling, a better screen, and better speakers compared to the MacBook Air [youtube](https://vertexaisearch.cloud.google.com/id/0-12).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "istorestm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG16L3oFZGEdMrhKwqRLHqg0u-iAhBW-jABdnNUGYi6Oq2hk7mxOlU8UakEOaq5kXeWqvnXx0zGjfEJfjQPjArc4CGSRvTfW3nRs9t18xvrHzelw0MTMiZQ8i9RSnGyylVKDyPG"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "istorestm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG16L3oFZGEdMrhKwqRLHqg0u-iAhBW-jABdnNUGYi6Oq2hk7mxOlU8UakEOaq5kXeWqvnXx0zGjfEJfjQPjArc4CGSRvTfW3nRs9t18xvrHzelw0MTMiZQ8i9RSnGyylVKDyPG"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "costco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzGGZ56XZUVuuftfijKV3v1snXtIRc0xD2S8bU-F-zU2y3VXNe3zyBcmIJa4YRu_-ocWXXboVSkTC6rAfzKA9xucFwyitNGrOInHHKxbBz-ZViodL5wDMBIZ6wWxUVgZT1yGleu18WSvyr1naC9t_62PiwG_SGRoB76OkDW-joE1SXUFsl_pgsQN2bszhE_0TBMocKY4PXZXp09aImdHBemGv4xnVaQd4R_rlk7duH-1KAxonw_UaFyiuNASB4ZccuBf23_41wEf7TxHcGdgMSdSlGYV3zLQLr0XIgXzfVgBf9WEyiC9xRpa3RHA8R0GNyibbcdDFl"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "bestbuy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9xJtI09rb8zXh2OlFzyul5_a4WF5sbkcPgIDzHMwaIw_4Pi2iGB-IJfFLw7FoDB3u7tPJB9SsIIaIj9IYaie_hjuMT5Z2jwU1pFMGNKsyYUBMR4oxgWy_Kg43JKtGlPAVZdT3x-GqBYtxsZmoU4DpygqQcbXWVik-gsRnA7IPaBwxB8REw8jpwXOccej-vKeSdrG0Q_cp"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "istorestm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG16L3oFZGEdMrhKwqRLHqg0u-iAhBW-jABdnNUGYi6Oq2hk7mxOlU8UakEOaq5kXeWqvnXx0zGjfEJfjQPjArc4CGSRvTfW3nRs9t18xvrHzelw0MTMiZQ8i9RSnGyylVKDyPG"
+      },
+      {
+        "label": "apple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHzXCZMwUHgk25n2sdfomAb0uP2nYBwa_M3ImfljHaNMal5eg6ReY5NPxm06UoOJEGbyBc2KG25txDAwIO3arlCr5N09cEAj1c9GLCyVrjfu2FnO_m5tXBSXRLKxRW8Od4RYE="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrFJvXwnzkEIfvuXhJ1sdvGVQfuTWADQbFVJoG7l5Rf-mijBnRWyABgYf_GArygvpXJsd-ZlgZJMR_5-RZiC3ZINi-sLuWgATDU_oINliCyaUmpnxdgNr413DYs-6ADUl2Yaq_OyDqM4pXWgjj5joGjQuMgg=="
+      },
+      {
+        "label": "apple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHzXCZMwUHgk25n2sdfomAb0uP2nYBwa_M3ImfljHaNMal5eg6ReY5NPxm06UoOJEGbyBc2KG25txDAwIO3arlCr5N09cEAj1c9GLCyVrjfu2FnO_m5tXBSXRLKxRW8Od4RYE="
+      },
+      {
+        "label": "gadgets360",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1dAYCQFl-00E06ez495mwpP9oiPLBuO3JZCmUJbf2WHZqt8LkIsI2OlasJfWux7Nn2G-Rj3QwqGOXWnafzQKJr9rmGbCR0fRBRJ141-d3_M4i8jMXB6w1xgKPrrT2lICWTUxRb7LVdf3juhfNoXvtG1KPmZ5ev0Ez5InAHQ9HFJPNpUqNGPMk5vBy"
+      },
+      {
+        "label": "apple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHzXCZMwUHgk25n2sdfomAb0uP2nYBwa_M3ImfljHaNMal5eg6ReY5NPxm06UoOJEGbyBc2KG25txDAwIO3arlCr5N09cEAj1c9GLCyVrjfu2FnO_m5tXBSXRLKxRW8Od4RYE="
+      },
+      {
+        "label": "istore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYxv4a4_S1vwOwCyv-bXxC1Lan_iSaA5swx0EG2usBUeUZcg4obsFjdxO4Gu6hRp0fB5VcmgEMbu1MtRjwaJfd_dC6ty8SMwhtXa156ZB7eJ-QNj9-8wwfDXxvgOdfvd1A8-WTZ9srF-yg65gXfKY="
+      },
+      {
+        "label": "gadgets360",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1dAYCQFl-00E06ez495mwpP9oiPLBuO3JZCmUJbf2WHZqt8LkIsI2OlasJfWux7Nn2G-Rj3QwqGOXWnafzQKJr9rmGbCR0fRBRJ141-d3_M4i8jMXB6w1xgKPrrT2lICWTUxRb7LVdf3juhfNoXvtG1KPmZ5ev0Ez5InAHQ9HFJPNpUqNGPMk5vBy"
+      },
+      {
+        "label": "bestbuy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhjEWnvRDvjHTwgr3BijLlpFqaV4gViljAcobOe9vMwifv7bgypzRZ0qbu-811vdgaJ7cwqUONsq7k0fI3kgWU-Ikia-KSWHH3oo0XIsMBElw9sscpwHhsdU4TeHIIAlps7Kc10CV6MEuzPJL7dPwedN-IcvLvqJLBjF56EC-3A3NK5X0tSFuvPAJgeNSyvNJm3cRwmapYA222uDtLf9Ua5hONCy17RzzwFWRK6XEShe4pg66aiCUrlpM-h2WGHUcCrWBhBZAm9UK8wSUAtezqcJqoPuu_ra06350Ea3k="
+      },
+      {
+        "label": "gadgets360",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1dAYCQFl-00E06ez495mwpP9oiPLBuO3JZCmUJbf2WHZqt8LkIsI2OlasJfWux7Nn2G-Rj3QwqGOXWnafzQKJr9rmGbCR0fRBRJ141-d3_M4i8jMXB6w1xgKPrrT2lICWTUxRb7LVdf3juhfNoXvtG1KPmZ5ev0Ez5InAHQ9HFJPNpUqNGPMk5vBy"
+      },
+      {
+        "label": "istorestm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG16L3oFZGEdMrhKwqRLHqg0u-iAhBW-jABdnNUGYi6Oq2hk7mxOlU8UakEOaq5kXeWqvnXx0zGjfEJfjQPjArc4CGSRvTfW3nRs9t18xvrHzelw0MTMiZQ8i9RSnGyylVKDyPG"
+      },
+      {
+        "label": "gadgets360",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1dAYCQFl-00E06ez495mwpP9oiPLBuO3JZCmUJbf2WHZqt8LkIsI2OlasJfWux7Nn2G-Rj3QwqGOXWnafzQKJr9rmGbCR0fRBRJ141-d3_M4i8jMXB6w1xgKPrrT2lICWTUxRb7LVdf3juhfNoXvtG1KPmZ5ev0Ez5InAHQ9HFJPNpUqNGPMk5vBy"
+      },
+      {
+        "label": "gadgets360",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1dAYCQFl-00E06ez495mwpP9oiPLBuO3JZCmUJbf2WHZqt8LkIsI2OlasJfWux7Nn2G-Rj3QwqGOXWnafzQKJr9rmGbCR0fRBRJ141-d3_M4i8jMXB6w1xgKPrrT2lICWTUxRb7LVdf3juhfNoXvtG1KPmZ5ev0Ez5InAHQ9HFJPNpUqNGPMk5vBy"
+      },
+      {
+        "label": "costco",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzGGZ56XZUVuuftfijKV3v1snXtIRc0xD2S8bU-F-zU2y3VXNe3zyBcmIJa4YRu_-ocWXXboVSkTC6rAfzKA9xucFwyitNGrOInHHKxbBz-ZViodL5wDMBIZ6wWxUVgZT1yGleu18WSvyr1naC9t_62PiwG_SGRoB76OkDW-joE1SXUFsl_pgsQN2bszhE_0TBMocKY4PXZXp09aImdHBemGv4xnVaQd4R_rlk7duH-1KAxonw_UaFyiuNASB4ZccuBf23_41wEf7TxHcGdgMSdSlGYV3zLQLr0XIgXzfVgBf9WEyiC9xRpa3RHA8R0GNyibbcdDFl"
+      },
+      {
+        "label": "bestbuy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhjEWnvRDvjHTwgr3BijLlpFqaV4gViljAcobOe9vMwifv7bgypzRZ0qbu-811vdgaJ7cwqUONsq7k0fI3kgWU-Ikia-KSWHH3oo0XIsMBElw9sscpwHhsdU4TeHIIAlps7Kc10CV6MEuzPJL7dPwedN-IcvLvqJLBjF56EC-3A3NK5X0tSFuvPAJgeNSyvNJm3cRwmapYA222uDtLf9Ua5hONCy17RzzwFWRK6XEShe4pg66aiCUrlpM-h2WGHUcCrWBhBZAm9UK8wSUAtezqcJqoPuu_ra06350Ea3k="
+      },
+      {
+        "label": "bgr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpU3oe6KSJ8VuRbckp4j-zK8ZzuKSVUXV1rhNMSWCtNWQzRY0kuecYAWHIi7NiE1dqQlGftuxeP7vv0ZaC4dlVAea6_HjEtRv21yCDyhJLqbaFvTVELqT35754IOLTTNaZiuciUcFjSYTpChnqgSPjm3u5_agwMPpBruWrYL59JfMim8zsakl9VX0ofIyvc3TC_8BsKDeA0Edfb64="
+      },
+      {
+        "label": "gadgets360",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1dAYCQFl-00E06ez495mwpP9oiPLBuO3JZCmUJbf2WHZqt8LkIsI2OlasJfWux7Nn2G-Rj3QwqGOXWnafzQKJr9rmGbCR0fRBRJ141-d3_M4i8jMXB6w1xgKPrrT2lICWTUxRb7LVdf3juhfNoXvtG1KPmZ5ev0Ez5InAHQ9HFJPNpUqNGPMk5vBy"
+      },
+      {
+        "label": "bestbuy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhjEWnvRDvjHTwgr3BijLlpFqaV4gViljAcobOe9vMwifv7bgypzRZ0qbu-811vdgaJ7cwqUONsq7k0fI3kgWU-Ikia-KSWHH3oo0XIsMBElw9sscpwHhsdU4TeHIIAlps7Kc10CV6MEuzPJL7dPwedN-IcvLvqJLBjF56EC-3A3NK5X0tSFuvPAJgeNSyvNJm3cRwmapYA222uDtLf9Ua5hONCy17RzzwFWRK6XEShe4pg66aiCUrlpM-h2WGHUcCrWBhBZAm9UK8wSUAtezqcJqoPuu_ra06350Ea3k="
+      },
+      {
+        "label": "apple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJm_hp4tuHkycNo1HPDawvMTcq8EcuA-Z-kG5xB9nWs0S9BoNmfp9zzL25YKhylm_fkivOcxmra4ojdc2PkCD2NCDpFf99V_njBEMGm1U3-xRSmwcHUiCbGorsQoOVSX3gjKfM_IUSUzKvoLJksVee9HvfkGsX6rUl7Kw0TnSPFavBqnG0"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "macprices",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsMb1C6VkHbgj00Tnuof80l6SAyz15B-vdj5df7clANjM5N_ZE8mi0Td7Qx6Yd3WbUBpKoaJqQUpuC5FgmKc0JjO7kmwab7yfQKyMj3VyEZ-9JysMPeoXizskKKAvu6kjfCz4m"
+      },
+      {
+        "label": "bestbuy",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhjEWnvRDvjHTwgr3BijLlpFqaV4gViljAcobOe9vMwifv7bgypzRZ0qbu-811vdgaJ7cwqUONsq7k0fI3kgWU-Ikia-KSWHH3oo0XIsMBElw9sscpwHhsdU4TeHIIAlps7Kc10CV6MEuzPJL7dPwedN-IcvLvqJLBjF56EC-3A3NK5X0tSFuvPAJgeNSyvNJm3cRwmapYA222uDtLf9Ua5hONCy17RzzwFWRK6XEShe4pg66aiCUrlpM-h2WGHUcCrWBhBZAm9UK8wSUAtezqcJqoPuu_ra06350Ea3k="
+      },
+      {
+        "label": "istore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYxv4a4_S1vwOwCyv-bXxC1Lan_iSaA5swx0EG2usBUeUZcg4obsFjdxO4Gu6hRp0fB5VcmgEMbu1MtRjwaJfd_dC6ty8SMwhtXa156ZB7eJ-QNj9-8wwfDXxvgOdfvd1A8-WTZ9srF-yg65gXfKY="
+      },
+      {
+        "label": "pcmag",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFomFkhYchc20r9eeX0Ibx4wJY_YgkK0PcCikvgCN-AuKVPssxuayL2GbH3mno20mRComjQrejNIn_Rbi36cmSrggxZxlWX4NrixCYhNpA0gzoIGYsOpEXQpQZddNZ-lgW1q59Ny2f-o1RGB-C5po4X-bJJhYK2x5swDg=="
+      },
+      {
+        "label": "istorestm",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG16L3oFZGEdMrhKwqRLHqg0u-iAhBW-jABdnNUGYi6Oq2hk7mxOlU8UakEOaq5kXeWqvnXx0zGjfEJfjQPjArc4CGSRvTfW3nRs9t18xvrHzelw0MTMiZQ8i9RSnGyylVKDyPG"
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUOOSOmmTJuays_EmzoZv4XRimHucaPTwJ1BNcicLJ2GCgmh5yfpvziyaP38ghaDzv2nFSgOgJ064vESSpe7iWOO5Fm9CoF9bI1_irwAltVCXHNy0GjB2vGGKbMh8rQeE_hTPYy1BhAGBq-CaMcWzPHyNujfCYl4rzLg=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

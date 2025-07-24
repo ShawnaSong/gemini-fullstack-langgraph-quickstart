@@ -1,0 +1,225 @@
+{
+  "file_name": "state_result_44.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.712077",
+  "data": {
+    "messages": [
+      {
+        "content": "what date was the first email sent",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "83cbe824-9c61-4531-a694-074f568910a7",
+        "example": false
+      },
+      {
+        "content": "The first email was sent in 1971 by Ray Tomlinson, an American computer engineer working for Bolt, Beranek and Newman (BBN) [mailstore](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA==) [quickhost](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmZGAaMUU1X3D_MeRImGJAVMn_6uJR1MsvAIOLJ_KxMN3Bx784R315VNsDx3MvaVv-nORy5doYAOAMmFppzxE85FGARRBX02mE_oh0PRxDd0MMhNpDbHtfdSj6mU1j_opvHO72P9k81Ta6922FEUHZQgKCMtGZp9wzr8J63O6ABhLr8TUG49NbKFU3CaczrtkXzH5ohgVNK1vhp2CLeHHa39UASxhs9GE=) [guinnessworldrecords](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEriYQxxm7jca00bTGE_WHL-szK3hnuydLB4fIZhwiqDzVAdIVcASlODveEOECVYqF8PjwtlUCcXes17ueUwdzgFzHc20S3JEBnJik9s_Je--xxDZh7KzBl1q4Ofn3DyMz5ZEPX4WueHUuw4UhDXB1xUNT5kgI3Ig3u). Tomlinson developed a program called SNDMSG for sending messages between computers connected to the ARPANET, a precursor to the internet [mailstore](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA==). He is also credited with introducing the \"@\" symbol to separate the user's name from the computer name in the email address [wikipedia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlUIbXJ83YjH2rBDumGX7siexuug05VomFyuPN7jM15Zh7fHsy3b6KvwJliAmtaaAu354vT8YygGOCcaxriTIu7vwSIiy9eBZh1CCMWWR653J73XeSjY5JKIZS4dKiRvQ7P_KVIyec8f0=) [contentsnare](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbB7UTXkZlWqHuW6BdaY6kZfwp6O62pRpu27sujXe4SXtXAw8uqfxO0QUU9C10J1mXfWhkNaRlnfMuNdbcOcj-jlXAnywzkhs5ErN1dxvXvy4hsmCqmQbBtqsyiE5o-zfUA==) [emailonacid](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Pk75qun30N1idwGmR5HZDnWyOJFkfpAq-GYO3m08zekKnJqho1S8N86uPBBOdsZGo17Nb7vzpYH9KOMCjAqZmldQyNxO15h14m5ur5zTxAfjQ5VFKa7xdz1TS8weP9wnJUp3iRIyLpcvjWFGBAjAvt1GZokyIMpG6Ut837V7dl_CoYQsCA=) [mail](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVLgzqVkZO8S4i91OSM5-GIbVxNu1hVE-NcfFlO6p-y9sef1s5QkkRrl5tw36oU-TdeQ3Rk2JSiZqETlGySwtyGhzNpMxn5is7DeTYcl6KXm9vt5WkJbjxeUsTdh-Y1L9mXqOvu4jlJzJq9OE4jTCGQrONS7uXmCV2WuG).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "d8a98222-d9a6-45e4-a13d-529a6dda2416",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "first email date"
+    ],
+    "web_research_result": [
+      "The first email was sent in 1971 by Ray Tomlinson, an American computer engineer working for Bolt, Beranek and Newman (BBN) [mailstore](https://vertexaisearch.cloud.google.com/id/0-0) [quickhost](https://vertexaisearch.cloud.google.com/id/0-1) [guinnessworldrecords](https://vertexaisearch.cloud.google.com/id/0-2). He developed a program called SNDMSG for sending messages between computers connected to the ARPANET, which was a precursor to the internet [mailstore](https://vertexaisearch.cloud.google.com/id/0-0). Tomlinson's work enabled the sending of messages to individuals on different computers, not just to those using the same machine [mdaemon](https://vertexaisearch.cloud.google.com/id/0-3) [emailonacid](https://vertexaisearch.cloud.google.com/id/0-4) [mailmeteor](https://vertexaisearch.cloud.google.com/id/0-5).\n\nTomlinson is credited with introducing the \"@\" symbol to separate the user's name from the computer name in the email address [wikipedia](https://vertexaisearch.cloud.google.com/id/0-6) [contentsnare](https://vertexaisearch.cloud.google.com/id/0-7) [emailonacid](https://vertexaisearch.cloud.google.com/id/0-4) [mail](https://vertexaisearch.cloud.google.com/id/0-8). He was looking for a character that was not commonly used by developers and programmers at the time [mailstore](https://vertexaisearch.cloud.google.com/id/0-0). The first email was sent from one Digital Equipment Corporation PDP-10 computer to another PDP-10 [wikipedia](https://vertexaisearch.cloud.google.com/id/0-6). The content of the first email is debated; some sources say Tomlinson doesn't recall it [mailstore](https://vertexaisearch.cloud.google.com/id/0-0), while others claim it was a simple message like \"QWERTYUIOP\" [mailmeteor](https://vertexaisearch.cloud.google.com/id/0-5) [contentsnare](https://vertexaisearch.cloud.google.com/id/0-7) [testbook](https://vertexaisearch.cloud.google.com/id/0-9).\n\nWhile Tomlinson is widely credited with inventing modern email [emailonacid](https://vertexaisearch.cloud.google.com/id/0-4) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-6), the concept of electronic messaging existed prior to 1971 [emailonacid](https://vertexaisearch.cloud.google.com/id/0-4). In 1965, researchers at MIT, Noel Morris and Tom Van Vleck, created a mail command [quora](https://vertexaisearch.cloud.google.com/id/0-10) [emailonacid](https://vertexaisearch.cloud.google.com/id/0-4).\n\nOther milestones in early email history include:\n\n*   **1973:** The first email standard, including \"from,\" \"to,\" and \"forward\" functions, was developed [mailstore](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **1976:** Queen Elizabeth II sent an email, becoming the first head of state to do so [mailstore](https://vertexaisearch.cloud.google.com/id/0-0) [wikipedia](https://vertexaisearch.cloud.google.com/id/0-6) [emailonacid](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **1978:** Gary Thuerk sent the first spam email [emailonacid](https://vertexaisearch.cloud.google.com/id/0-4) [mailstore](https://vertexaisearch.cloud.google.com/id/0-0) [mail](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **1984:** Germany received its first email [mailstore](https://vertexaisearch.cloud.google.com/id/0-0).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "mailstore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA=="
+      },
+      {
+        "label": "quickhost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmZGAaMUU1X3D_MeRImGJAVMn_6uJR1MsvAIOLJ_KxMN3Bx784R315VNsDx3MvaVv-nORy5doYAOAMmFppzxE85FGARRBX02mE_oh0PRxDd0MMhNpDbHtfdSj6mU1j_opvHO72P9k81Ta6922FEUHZQgKCMtGZp9wzr8J63O6ABhLr8TUG49NbKFU3CaczrtkXzH5ohgVNK1vhp2CLeHHa39UASxhs9GE="
+      },
+      {
+        "label": "guinnessworldrecords",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEriYQxxm7jca00bTGE_WHL-szK3hnuydLB4fIZhwiqDzVAdIVcASlODveEOECVYqF8PjwtlUCcXes17ueUwdzgFzHc20S3JEBnJik9s_Je--xxDZh7KzBl1q4Ofn3DyMz5ZEPX4WueHUuw4UhDXB1xUNT5kgI3Ig3u"
+      },
+      {
+        "label": "mailstore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA=="
+      },
+      {
+        "label": "mdaemon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8CzDT3lNDzWdwi93w0br3p_hnFgHqNmJ6Fvn6IoO5rlfAQkE_O96X-o_Fzn_EYF5fnRM06PSIH5CfjWkVabc-7Yn-VRRxGnVy412BGqoMi0_SSTRKmqkUiShhF0n3XT7vCM6bx362dubbNpF4QLOCvQ=="
+      },
+      {
+        "label": "emailonacid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Pk75qun30N1idwGmR5HZDnWyOJFkfpAq-GYO3m08zekKnJqho1S8N86uPBBOdsZGo17Nb7vzpYH9KOMCjAqZmldQyNxO15h14m5ur5zTxAfjQ5VFKa7xdz1TS8weP9wnJUp3iRIyLpcvjWFGBAjAvt1GZokyIMpG6Ut837V7dl_CoYQsCA="
+      },
+      {
+        "label": "mailmeteor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQnrdg2jsHt0dTYKFj40xKxXH-e5R0WCrgQxDwpvQoTuFCKlUokgkeRCi6F5d2tb4veHIfoh68PfjCfZM6Y6G-UhvkdFqfNAVJLnyhtajGBM1qU7he539xTllnWcPHUoz1vGcFq56X"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlUIbXJ83YjH2rBDumGX7siexuug05VomFyuPN7jM15Zh7fHsy3b6KvwJliAmtaaAu354vT8YygGOCcaxriTIu7vwSIiy9eBZh1CCMWWR653J73XeSjY5JKIZS4dKiRvQ7P_KVIyec8f0="
+      },
+      {
+        "label": "contentsnare",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbB7UTXkZlWqHuW6BdaY6kZfwp6O62pRpu27sujXe4SXtXAw8uqfxO0QUU9C10J1mXfWhkNaRlnfMuNdbcOcj-jlXAnywzkhs5ErN1dxvXvy4hsmCqmQbBtqsyiE5o-zfUA=="
+      },
+      {
+        "label": "emailonacid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Pk75qun30N1idwGmR5HZDnWyOJFkfpAq-GYO3m08zekKnJqho1S8N86uPBBOdsZGo17Nb7vzpYH9KOMCjAqZmldQyNxO15h14m5ur5zTxAfjQ5VFKa7xdz1TS8weP9wnJUp3iRIyLpcvjWFGBAjAvt1GZokyIMpG6Ut837V7dl_CoYQsCA="
+      },
+      {
+        "label": "mail",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVLgzqVkZO8S4i91OSM5-GIbVxNu1hVE-NcfFlO6p-y9sef1s5QkkRrl5tw36oU-TdeQ3Rk2JSiZqETlGySwtyGhzNpMxn5is7DeTYcl6KXm9vt5WkJbjxeUsTdh-Y1L9mXqOvu4jlJzJq9OE4jTCGQrONS7uXmCV2WuG"
+      },
+      {
+        "label": "mailstore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlUIbXJ83YjH2rBDumGX7siexuug05VomFyuPN7jM15Zh7fHsy3b6KvwJliAmtaaAu354vT8YygGOCcaxriTIu7vwSIiy9eBZh1CCMWWR653J73XeSjY5JKIZS4dKiRvQ7P_KVIyec8f0="
+      },
+      {
+        "label": "mailstore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA=="
+      },
+      {
+        "label": "mailmeteor",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQnrdg2jsHt0dTYKFj40xKxXH-e5R0WCrgQxDwpvQoTuFCKlUokgkeRCi6F5d2tb4veHIfoh68PfjCfZM6Y6G-UhvkdFqfNAVJLnyhtajGBM1qU7he539xTllnWcPHUoz1vGcFq56X"
+      },
+      {
+        "label": "contentsnare",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbB7UTXkZlWqHuW6BdaY6kZfwp6O62pRpu27sujXe4SXtXAw8uqfxO0QUU9C10J1mXfWhkNaRlnfMuNdbcOcj-jlXAnywzkhs5ErN1dxvXvy4hsmCqmQbBtqsyiE5o-zfUA=="
+      },
+      {
+        "label": "testbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFucL_lH0suRUYHwohN0nUGmJEdrA3HA-BvCN6jab0lX7D8cckjdA1zgy-D_nwN1pdC6le_pm0-5LT18yPXhfzSEAx4VEksxQ90P5Z_x58aA2qSV_ifGUnwZDPuQ7OWm366ryJjlKsnaxpEOAMcgACaKjgRG8y1xv-yZ2z-gwhQuSwvYUkmi_9ZHbBWUJb64ppglvah0EPPAg-r0D_aMea2W-6XadMBI_QHr6TK"
+      },
+      {
+        "label": "emailonacid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Pk75qun30N1idwGmR5HZDnWyOJFkfpAq-GYO3m08zekKnJqho1S8N86uPBBOdsZGo17Nb7vzpYH9KOMCjAqZmldQyNxO15h14m5ur5zTxAfjQ5VFKa7xdz1TS8weP9wnJUp3iRIyLpcvjWFGBAjAvt1GZokyIMpG6Ut837V7dl_CoYQsCA="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlUIbXJ83YjH2rBDumGX7siexuug05VomFyuPN7jM15Zh7fHsy3b6KvwJliAmtaaAu354vT8YygGOCcaxriTIu7vwSIiy9eBZh1CCMWWR653J73XeSjY5JKIZS4dKiRvQ7P_KVIyec8f0="
+      },
+      {
+        "label": "emailonacid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Pk75qun30N1idwGmR5HZDnWyOJFkfpAq-GYO3m08zekKnJqho1S8N86uPBBOdsZGo17Nb7vzpYH9KOMCjAqZmldQyNxO15h14m5ur5zTxAfjQ5VFKa7xdz1TS8weP9wnJUp3iRIyLpcvjWFGBAjAvt1GZokyIMpG6Ut837V7dl_CoYQsCA="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8WsSav_lj5lD-EwSd_m25FNF9h0cJtht-MrX5mqoe4YSLomHglS92mNgoO3SPDSNqXBVufKFp1b9jsTE51njHmsMCLohyv_6PQxVINf4gmAOxs8dAWg7VSFsYh5pRWO-t1_PVzMZYeShyOglMPIAm-8t8seidraXPlOqVXe7FZEYERsb_W9Ni7REDI3V-R_B64ElW_VFh8ppt7YYuBGDKkOGXwn_UW_6KqSl6eg=="
+      },
+      {
+        "label": "emailonacid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Pk75qun30N1idwGmR5HZDnWyOJFkfpAq-GYO3m08zekKnJqho1S8N86uPBBOdsZGo17Nb7vzpYH9KOMCjAqZmldQyNxO15h14m5ur5zTxAfjQ5VFKa7xdz1TS8weP9wnJUp3iRIyLpcvjWFGBAjAvt1GZokyIMpG6Ut837V7dl_CoYQsCA="
+      },
+      {
+        "label": "mailstore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA=="
+      },
+      {
+        "label": "mailstore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA=="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlUIbXJ83YjH2rBDumGX7siexuug05VomFyuPN7jM15Zh7fHsy3b6KvwJliAmtaaAu354vT8YygGOCcaxriTIu7vwSIiy9eBZh1CCMWWR653J73XeSjY5JKIZS4dKiRvQ7P_KVIyec8f0="
+      },
+      {
+        "label": "emailonacid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Pk75qun30N1idwGmR5HZDnWyOJFkfpAq-GYO3m08zekKnJqho1S8N86uPBBOdsZGo17Nb7vzpYH9KOMCjAqZmldQyNxO15h14m5ur5zTxAfjQ5VFKa7xdz1TS8weP9wnJUp3iRIyLpcvjWFGBAjAvt1GZokyIMpG6Ut837V7dl_CoYQsCA="
+      },
+      {
+        "label": "emailonacid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Pk75qun30N1idwGmR5HZDnWyOJFkfpAq-GYO3m08zekKnJqho1S8N86uPBBOdsZGo17Nb7vzpYH9KOMCjAqZmldQyNxO15h14m5ur5zTxAfjQ5VFKa7xdz1TS8weP9wnJUp3iRIyLpcvjWFGBAjAvt1GZokyIMpG6Ut837V7dl_CoYQsCA="
+      },
+      {
+        "label": "mailstore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA=="
+      },
+      {
+        "label": "mail",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVLgzqVkZO8S4i91OSM5-GIbVxNu1hVE-NcfFlO6p-y9sef1s5QkkRrl5tw36oU-TdeQ3Rk2JSiZqETlGySwtyGhzNpMxn5is7DeTYcl6KXm9vt5WkJbjxeUsTdh-Y1L9mXqOvu4jlJzJq9OE4jTCGQrONS7uXmCV2WuG"
+      },
+      {
+        "label": "mailstore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA=="
+      },
+      {
+        "label": "mailstore",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEck8NkkKcaHvhiRW0JqB8QxrS2ebRgo5KN0qZhiowRjN9Qw1JB85MUcB7a6Lg32OrLdRHs2J72Vb1SjD-cMkijxfmdFoe0R6IT2NyuEZb1gVe4MyEGTN1qoycVckvCJ9uo5WepixbKM7P3o4fbqA=="
+      },
+      {
+        "label": "quickhost",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmZGAaMUU1X3D_MeRImGJAVMn_6uJR1MsvAIOLJ_KxMN3Bx784R315VNsDx3MvaVv-nORy5doYAOAMmFppzxE85FGARRBX02mE_oh0PRxDd0MMhNpDbHtfdSj6mU1j_opvHO72P9k81Ta6922FEUHZQgKCMtGZp9wzr8J63O6ABhLr8TUG49NbKFU3CaczrtkXzH5ohgVNK1vhp2CLeHHa39UASxhs9GE="
+      },
+      {
+        "label": "guinnessworldrecords",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEriYQxxm7jca00bTGE_WHL-szK3hnuydLB4fIZhwiqDzVAdIVcASlODveEOECVYqF8PjwtlUCcXes17ueUwdzgFzHc20S3JEBnJik9s_Je--xxDZh7KzBl1q4Ofn3DyMz5ZEPX4WueHUuw4UhDXB1xUNT5kgI3Ig3u"
+      },
+      {
+        "label": "emailonacid",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa_Pk75qun30N1idwGmR5HZDnWyOJFkfpAq-GYO3m08zekKnJqho1S8N86uPBBOdsZGo17Nb7vzpYH9KOMCjAqZmldQyNxO15h14m5ur5zTxAfjQ5VFKa7xdz1TS8weP9wnJUp3iRIyLpcvjWFGBAjAvt1GZokyIMpG6Ut837V7dl_CoYQsCA="
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlUIbXJ83YjH2rBDumGX7siexuug05VomFyuPN7jM15Zh7fHsy3b6KvwJliAmtaaAu354vT8YygGOCcaxriTIu7vwSIiy9eBZh1CCMWWR653J73XeSjY5JKIZS4dKiRvQ7P_KVIyec8f0="
+      },
+      {
+        "label": "contentsnare",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERbB7UTXkZlWqHuW6BdaY6kZfwp6O62pRpu27sujXe4SXtXAw8uqfxO0QUU9C10J1mXfWhkNaRlnfMuNdbcOcj-jlXAnywzkhs5ErN1dxvXvy4hsmCqmQbBtqsyiE5o-zfUA=="
+      },
+      {
+        "label": "mail",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnVLgzqVkZO8S4i91OSM5-GIbVxNu1hVE-NcfFlO6p-y9sef1s5QkkRrl5tw36oU-TdeQ3Rk2JSiZqETlGySwtyGhzNpMxn5is7DeTYcl6KXm9vt5WkJbjxeUsTdh-Y1L9mXqOvu4jlJzJq9OE4jTCGQrONS7uXmCV2WuG"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

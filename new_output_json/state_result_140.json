@@ -1,0 +1,925 @@
+{
+  "file_name": "state_result_140.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.727884",
+  "data": {
+    "messages": [
+      {
+        "content": "美国最新关税策略预计对未来爱美客的股价有什么影响",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "9968cfbf-8799-4569-a9f7-78151586b426",
+        "example": false
+      },
+      {
+        "content": "The impact of the latest U.S. tariff strategies on Imeik Technology's stock price forecast for 2025 is complex, influenced by several factors including the overall U.S.-China trade relationship, specific tariffs on materials used by Imeik, the company's strategies to mitigate tariff effects, currency exchange rates, and analyst revisions of financial forecasts.\n\n**Current Tariff Landscape and Trade Relations:** The U.S. maintains a 30% tariff on all Chinese goods as of July 2025, while China levies a 10% tariff on U.S. products [aljazeera](https://vertexaisearch.cloud.google.com/id/0-3). Some sources indicate the U.S. is getting a total of 55% tariffs from China [china-briefing](https://vertexaisearch.cloud.google.com/id/0-5). The U.S.-China relationship has largely shifted to a technology battleground [discoveryalert](https://vertexaisearch.cloud.google.com/id/0-0). The technology industry is particularly vulnerable to tariffs due to its complex global supply chains [techtarget](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**Impact on Materials and Components:** Tariffs on semiconductor cells, syringes, and needles from China are expected to rise to 50% in 2025 [casemed](https://vertexaisearch.cloud.google.com/id/1-3). Raw materials like titanium, plastics, and semiconductors face a 15% tariff when imported from China [cognitivemarketresearch](https://vertexaisearch.cloud.google.com/id/1-4]. Medical consumables like syringes, bandages, and gloves face a 20% tariff [cognitivemarketresearch](https://vertexaisearch.cloud.google.com/id/1-4]. Since Imeik Technology researches, develops, produces, and sells biomedical materials, including injection-type sodium hyaluronate and polydioxanone facial implants [marketscreener](https://vertexaisearch.cloud.google.com/id/1-6), these tariffs could significantly increase their production costs.\n\n**Mitigation Strategies:** Companies are employing strategies such as diversifying their supply chains, domestic sourcing, and leveraging technology to navigate tariffs [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0). They are also forming internal task forces and using scenario planning tools to evaluate different tariff scenarios [simon-kucher](https://vertexaisearch.cloud.google.com/id/2-2) [aimms](https://vertexaisearch.cloud.google.com/id/2-3).\n\n**Currency Exchange Rate Dynamics:** Tariffs can lead to a depreciation of the CNY against the USD [epowercorp](https://vertexaisearch.cloud.google.com/id/3-5) [nasdaq](https://vertexaisearch.cloud.google.com/id/3-6). A weaker CNY makes Chinese exports cheaper for U.S. buyers, potentially offsetting some of the tariff impact [xtransfer](https://vertexaisearch.cloud.google.com/id/3-7) [ig](https://vertexaisearch.cloud.google.com/id/3-8). The PBoC may intervene to stabilize the currency [ing](https://vertexaisearch.cloud.google.com/id/3-9). Imeik Technology's profitability is affected by both tariffs and exchange rates [xtransfer](https://vertexaisearch.cloud.google.com/id/3-7) [claconnect](https://vertexaisearch.cloud.google.com/id/3-1).\n\n**Analyst Revisions and Financial Performance:** Analyst reports indicate downward revisions in revenue and EPS estimates for Imeik Technology for fiscal year 2025 [moomoo](https://vertexaisearch.cloud.google.com/id/4-0) [moomoo](https://vertexaisearch.cloud.google.com/id/4-1) [marketscreener](https://vertexaisearch.cloud.google.com/id/4-2). The consensus revenue forecast has been revised to CN¥3.25 billion [moomoo](https://vertexaisearch.cloud.google.com/id/4-1), with EPS forecasts also adjusted downwards [moomoo](https://vertexaisearch.cloud.google.com/id/4-0) [moomoo](https://vertexaisearch.cloud.google.com/id/4-1). Sales expectations for the current fiscal year have been downgraded [marketscreener](https://vertexaisearch.cloud.google.com/id/4-2).\n\n**Government Subsidies and Support:** Imeik Technology may be able to leverage Chinese government subsidies aimed at boosting domestic demand and supporting technology companies [idc](https://vertexaisearch.cloud.google.com/id/5-0) [techhq](https://vertexaisearch.cloud.google.com/id/5-1), as well as benefit from the general push towards technological self-reliance [idc](https://vertexaisearch.cloud.google.com/id/5-0). China's \"dual circulation\" strategy prioritizes domestic consumption and non-western international trade [idc](https://vertexaisearch.cloud.google.com/id/5-0). The $138 billion Innovation Fund aims to boost homegrown tech innovation [idc](https://vertexaisearch.cloud.google.com/id/5-0).\n\n**Overall Impact on Stock Price:** While Imeik Technology has strong financial performance and positive analyst ratings [smartkarma](https://vertexaisearch.cloud.google.com/id/0-8), the negative impacts of U.S. tariffs on the Chinese technology sector, coupled with valuation concerns and sales downgrades, could create downward pressure on the stock price. One analysis from late June 2025 suggested the stock was expected to fall -3.63% over the next 3 months [stockinvest](https://vertexaisearch.cloud.google.com/id/0-11). The fluctuating trade relationship between the U.S. and China and the uncertainty surrounding future tariffs make it difficult to provide a definitive stock price forecast.",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "199c1994-5ebc-40fc-bf4d-9c62fb299216",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Impact of new US tariffs on Imeik Technology's stock price forecast 2025",
+      "What specific materials or components used by Imeik Technology are directly affected by US tariffs, and what are the tariff rates on these items?",
+      "What strategies is Imeik Technology employing to mitigate the impact of US tariffs, such as diversifying its supply chain or increasing domestic sourcing?",
+      "How do currency exchange rates between the USD and CNY factor into the impact of US tariffs on Imeik Technology's profitability and stock price?",
+      "Can you quantify the potential impact of the sales downgrades on Imeik Technology's revenue and earnings for the fiscal year 2025?",
+      "Are there any governmental subsidies or tax incentives available to Imeik Technology that could offset the negative effects of US tariffs?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Impact of new US tariffs on Imeik Technology's stock price forecast 2025\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a synthesis of the impact of new US tariffs on Imeik Technology's stock price forecast for 2025:\n\n**I. US-China Trade Relations and Tariffs in 2025:**\n\n*   **Escalation of Tech War:** The US-China relationship has shifted from traditional trade disputes to a technology battleground in 2025 [discoveryalert](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Tariff Implementation:** The Trump administration has implemented tariffs on Chinese goods, including a baseline tariff of 10% on all imports and higher tariffs on specific sectors [techtarget](https://vertexaisearch.cloud.google.com/id/0-1) [idc](https://vertexaisearch.cloud.google.com/id/0-2). At one point, tariffs on Chinese goods reached 145% [techtarget](https://vertexaisearch.cloud.google.com/id/0-1) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-3) [tradeimex](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **China's Response:** China has retaliated with its own tariffs on US goods [aljazeera](https://vertexaisearch.cloud.google.com/id/0-3) [techtarget](https://vertexaisearch.cloud.google.com/id/0-1). They are also employing strategies such as stimulus, tech self-reliance, and supply chain reforms to counter the impact of US tariffs [idc](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Temporary Relief and Continued Restrictions:** A temporary 90-day tariff reduction deal was reached in May 2025, but both nations maintained export restrictions, particularly on advanced semiconductors [discoveryalert](https://vertexaisearch.cloud.google.com/id/0-0) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-3) [techtarget](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Current Tariff Rates:** As of July 2025, the US maintains a 30% tariff on all Chinese goods, while China has a 10% levy on US products [aljazeera](https://vertexaisearch.cloud.google.com/id/0-3). One source indicates that the US is getting a total of 55% tariffs from China [china-briefing](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Impact on Consumers:** The tariffs have increased consumer prices, with an average household income loss of $2,800 per year [yale](https://vertexaisearch.cloud.google.com/id/0-6).\n\n**II. Impact on the Technology Sector:**\n\n*   **Vulnerability:** The technology industry is particularly vulnerable to tariffs due to its complex global supply chains [techtarget](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **ICT Spending:** With 20% tariffs in place, China's ICT spending is expected to grow at 9.1%. However, with 50% tariffs, growth could slow to 5.7%, with consumer electronics declining 7.6% [idc](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Semiconductor Industry:** The semiconductor industry is a key battleground, with strict export controls from the US and declining Chinese imports [discoveryalert](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Export Controls:** The US has expanded export control mechanisms targeting technologies like AI, quantum computing, and biotechnology [discoveryalert](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Component Sourcing:** Tariffs have forced companies like Apple to diversify their manufacturing base beyond China [techtarget](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**III. Imeik Technology Specifics:**\n\n*   **Stock Price:** As of July 14, 2025, Imeik Technology Development's stock price is $24.53, with a market cap of $7.42B [pitchbook](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Financial Performance:** Imeik Technology Development has a trailing 12-month revenue of $400M and an EPS of $0.86 [pitchbook](https://vertexaisearch.cloud.google.com/id/0-7). In Q1 2025, the company reported a net income of 443.7 million yuan and revenue of 663.5 million yuan [smartkarma](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Analyst Ratings:** Analyst ratings for Imeik Technology are generally positive, with 32 buy recommendations, 2 hold ratings, and no sell ratings [smartkarma](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Growth Prospects:** Imeik Technology is positioned for a bright future with strong ratings in growth, resilience, and momentum [smartkarma](https://vertexaisearch.cloud.google.com/id/0-8). Growth is estimated to reach 45% by 2027 [marketscreener](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Working Capital:** Imeik Technology Development has a Working Capital of 4.7 B [macroaxis](https://vertexaisearch.cloud.google.com/id/0-10).\n*   **Valuation Concerns:** Imeik Technology Development trades with high earnings multiples: 25.02 times its 2025 earnings per share [marketscreener](https://vertexaisearch.cloud.google.com/id/0-9). The company's valuation appears relatively high in relation to its tangible assets and cash flows [marketscreener](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Sales Downgrades:** Sales expectations for Imeik Technology have been downgraded, suggesting less important sales volumes are expected for the current fiscal year [marketscreener](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Stock Performance Trends:** One analysis from late June 2025 suggested the stock was expected to fall -3.63% over the next 3 months [stockinvest](https://vertexaisearch.cloud.google.com/id/0-11).\n\n**IV. General Market Impact:**\n\n*   **Uncertainty and Volatility:** Tariffs and trade tensions have created uncertainty and volatility in the stock market [goldmansachs](https://vertexaisearch.cloud.google.com/id/0-12) [freetrade](https://vertexaisearch.cloud.google.com/id/0-13) [techtarget](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Earnings Impact:** Tariffs could cut S&P 500 earnings per share by 2-3% [goldmansachs](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Price Increases:** Tariffs are expected to increase consumer prices [jpmorgan](https://vertexaisearch.cloud.google.com/id/0-14) [yale](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **GDP Impact:** Tariffs are expected to negatively impact US real GDP growth [yale](https://vertexaisearch.cloud.google.com/id/0-6).\n\n**In Summary:**\n\nThe impact of US tariffs on Imeik Technology's stock price forecast for 2025 is complex and multifaceted. While the company has strong financial performance and positive analyst ratings, the negative impacts of US tariffs on the Chinese technology sector, coupled with valuation concerns and sales downgrades, could create downward pressure on the stock price. The fluctuating trade relationship between the US and China and the uncertainty surrounding future tariffs make it difficult to provide a definitive stock price forecast.\n",
+      "Based on the search results, here's a summary of the US tariffs affecting materials and components potentially used by Imeik Technology:\n\n**General Tariff Landscape:**\n\n*   **Baseline Tariff:** As of April 2025, the U.S. imposed a 10% baseline tariff on nearly all imported goods [bakermckenzie](https://vertexaisearch.cloud.google.com/id/1-0) [gmfus](https://vertexaisearch.cloud.google.com/id/1-1) [delveinsight](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Medical Device Tariffs:** Medical devices are not exempt from the baseline tariff [bakermckenzie](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Increased Costs:** These tariffs have increased costs for pharmaceutical companies, healthcare providers, and patients [delveinsight](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**Tariffs on Specific Materials/Components:**\n\n*   **Semiconductor Cells, Syringes, and Needles:** Tariffs on these items from China are expected to rise to 50% in 2025 [casemed](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Batteries, Face Masks, Gloves, and Metals (Steel and Aluminum):** Tariffs on these are also expected to increase [casemed](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Raw Materials for Medical Devices:** Raw materials such as titanium, plastics, and semiconductors face a 15% tariff when imported from China [cognitivemarketresearch](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Medical Consumables:** A 20% tariff is imposed on medical consumables like syringes, bandages, and gloves, which are often manufactured in countries with lower costs like China, India, and Malaysia [cognitivemarketresearch](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Electronic Medical Devices:** These may be impacted by semiconductor tariffs [knobbe](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Active Pharmaceutical Ingredients (APIs):** There are steeper levies of up to 245% on Chinese APIs [delveinsight](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**China-Specific Tariffs:**\n\n*   **Increased Tariffs:** The U.S. and China have been raising tariffs on each other [knobbe](https://vertexaisearch.cloud.google.com/id/1-5). In April 2025, the U.S. increased tariffs on Chinese imports, reaching as high as 145% [bakermckenzie](https://vertexaisearch.cloud.google.com/id/1-0) [knobbe](https://vertexaisearch.cloud.google.com/id/1-5). China has retaliated by imposing duties of 125% on U.S. goods [knobbe](https://vertexaisearch.cloud.google.com/id/1-5) [bakermckenzie](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **90-Day Reduction:** As of May 12, 2025, the US and China agreed to a 90-day reduction, lowering U.S. tariffs on Chinese goods to 30% and Chinese tariffs on U.S. goods to 10% [knobbe](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**Impact on Medical Device Industry:**\n\n*   **Cost Increases:** Tariffs are expected to increase costs for companies that rely on foreign manufacturing [casemed](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Supply Chain Disruption:** Tariffs may disrupt supply chains, creating uncertainty and delays [knobbe](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Shifting Production:** Medical device manufacturers are considering shifting production to countries with lower tariffs [knobbe](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Impact on Innovation:** Tariffs pose a serious risk to startup medical technology firms or smaller to mid-size original equipment manufacturers [knobbe](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**Imeik Technology Specifics:**\n\n*   Imeik Technology Development Co. Ltd. is a China-based company that researches, develops, produces, and sells biomedical materials [marketscreener](https://vertexaisearch.cloud.google.com/id/1-6).\n*   The company focuses on biomedical materials development, including recombinant proteins and peptides [marketscreener](https://vertexaisearch.cloud.google.com/id/1-6).\n*   Imeik's main products are injection-type sodium hyaluronate and polydioxanone facial implants [marketscreener](https://vertexaisearch.cloud.google.com/id/1-6).\n*   Imeik Technology Development's core products continue to grow steadily [futunn](https://vertexaisearch.cloud.google.com/id/1-7).\n*   In 2024, Imeik Technology Development's R&D expenses reached 0.304 billion yuan, a year-on-year increase of 21.41%, accounting for 10.04% of revenue [futunn](https://vertexaisearch.cloud.google.com/id/1-7).\n\nIt is important to note that the information regarding specific materials affected and tariff rates is dynamic and subject to change based on trade negotiations and policy adjustments [knobbe](https://vertexaisearch.cloud.google.com/id/1-5) [gmfus](https://vertexaisearch.cloud.google.com/id/1-1). To get the most precise and up-to-date information, consulting official government sources and trade experts is advisable.\n",
+      "While specific information on Imeik Technology's strategies to mitigate the impact of US tariffs is limited, the search results provide insight into general strategies companies are employing in 2025 to deal with the impact of tariffs, and how these tariffs are impacting specific industries.\n\n**General Strategies for Tariff Mitigation:**\n\n*   **Supply Chain Diversification:** Companies are diversifying their supplier base by sourcing from multiple countries to reduce vulnerability to trade disruptions in any single region [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0). This includes considering suppliers in countries with lower or no tariffs [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Domestic Sourcing:** Businesses are on-shoring whenever possible, using locally sourced materials [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Technology Investment:** Leveraging technology and advanced analytics to predict and model different scenarios for navigating tariffs and working with suppliers [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0) [scmr](https://vertexaisearch.cloud.google.com/id/2-1). This includes using technologies that assist with risk management strategy by identifying potential risks, assessing their impact, and implementing contingency plans [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Agility and Flexibility:** Favoring suppliers that are flexible and amenable to renegotiating contracts or absorbing some of the costs resulting from tariffs [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Scenario Planning and Stress-Testing:** Preparing for various trade war scenarios to ensure continuity of operations [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Collaboration and Partnerships:** Forming unusual alliances to navigate the challenges [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Redesigning Products:** Altering product designs to utilize different materials [thomsonreuters](https://vertexaisearch.cloud.google.com/id/2-0).\n*   **Strategic Task Forces:** Forming internal teams to develop integrated responses to tariffs [simon-kucher](https://vertexaisearch.cloud.google.com/id/2-2).\n*   **Scenario Modeling:** Using scenario planning tools to evaluate multiple tariff scenarios and model cost impacts, supplier viability, and logistics disruptions under different regulatory conditions [aimms](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Engaging with Policymakers:** Preparing strong exemption or deferral cases [imec](https://vertexaisearch.cloud.google.com/id/2-4).\n\n**Specific Examples & Industry Impacts:**\n\n*   The Trump administration imposed a minimum 10% tariff on all U.S. imports, along with higher tariffs on imports from several nations [techtarget](https://vertexaisearch.cloud.google.com/id/2-5). For example, tariffs on imports from China reached 145% at one point [techtarget](https://vertexaisearch.cloud.google.com/id/2-5).\n*   The technology industry is particularly at risk due to its reliance on intricate global supply chains [techtarget](https://vertexaisearch.cloud.google.com/id/2-5).\n*   The tariffs have triggered stock price declines from major tech vendors as they are forced to figure out how to deal with increased costs, supply chain disruptions, and the need to reassess manufacturing strategies [techtarget](https://vertexaisearch.cloud.google.com/id/2-5).\n*   Some companies are shifting production from China to countries such as Vietnam and India to reduce exposure to tariffs and diversify sourcing [scmr](https://vertexaisearch.cloud.google.com/id/2-1).\n*   The tariffs are not a one-size-fits-all approach, with components such as a universal baseline tariff, reciprocal tariffs, and sector-specific levies [techtarget](https://vertexaisearch.cloud.google.com/id/2-5).\n*   The tariffs are making domestic manufacturing more viable, but supply chain realignment requires sustained investment [forbes](https://vertexaisearch.cloud.google.com/id/2-6).\n*   The tariffs could drive up the cost of servers, storage, and networking equipment, impacting data center expansion [forbes](https://vertexaisearch.cloud.google.com/id/2-6).\n*   The tariffs could negatively impact business viability for MedTech companies, while threatening production timelines and patient access [techtarget](https://vertexaisearch.cloud.google.com/id/2-7).\n*   The tariffs may also result in longer lead times due to customs delays, increased documentation requirements, and the need to requalify vendors [techtarget](https://vertexaisearch.cloud.google.com/id/2-7).\n*   The tariffs impose significant duties on imports, with rates like 34% on China, 25% on Canada and Mexico, and a universal 10% on most other countries [davron](https://vertexaisearch.cloud.google.com/id/2-8).\n*   The tariffs are intended to boost domestic production by making foreign goods more expensive, encouraging companies to invest in U.S.-based operations [davron](https://vertexaisearch.cloud.google.com/id/2-8).\n*   The tariffs could increase input costs for manufacturing, and the increased costs of raw materials and finished goods could erode margins or get passed on to price-sensitive consumers in CPG & retail [isg-one](https://vertexaisearch.cloud.google.com/id/2-9).\n",
+      "The interplay between USD/CNY exchange rates and US tariffs significantly impacts Imeik Technology's profitability and stock price. Here's a breakdown of the key factors:\n\n**1. Tariff Impact on Technology Companies**\n\n*   **Supply Chain Disruption:** Technology companies, especially those relying on manufacturing in China and Southeast Asia, face disruptions to their supply chains due to tariffs [morningstar](https://vertexaisearch.cloud.google.com/id/3-0). This can particularly affect hardware and semiconductor stocks [morningstar](https://vertexaisearch.cloud.google.com/id/3-0).\n*   **Increased Costs:** Tariffs can increase the cost of imported goods, potentially leading to reduced profit margins and higher prices for consumers, which could slow demand [claconnect](https://vertexaisearch.cloud.google.com/id/3-1). Companies may have to decide whether to absorb these costs, raise prices, or re-engineer products using alternative materials or suppliers [nasdaq](https://vertexaisearch.cloud.google.com/id/3-2) [anchin](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Stock Price Volatility:** The uncertainty surrounding tariffs and their effect on the global economy can lead to stock market volatility [techtarget](https://vertexaisearch.cloud.google.com/id/3-4) [claconnect](https://vertexaisearch.cloud.google.com/id/3-1). Tech-heavy indices can experience significant drops [techtarget](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Relocation of Manufacturing:** Tariffs can incentivize companies to relocate production from overseas to domestic facilities, involving significant investments [claconnect](https://vertexaisearch.cloud.google.com/id/3-1).\n\n**2. Currency Exchange Rate Dynamics**\n\n*   **CNY Depreciation:** Tariffs can lead to a depreciation of the CNY against the USD [epowercorp](https://vertexaisearch.cloud.google.com/id/3-5) [nasdaq](https://vertexaisearch.cloud.google.com/id/3-6). A weaker CNY makes Chinese exports cheaper for US buyers, potentially offsetting some of the tariff impact [xtransfer](https://vertexaisearch.cloud.google.com/id/3-7) [ig](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **PBoC Intervention:** The People's Bank of China (PBoC) may intervene to stabilize the currency [ing](https://vertexaisearch.cloud.google.com/id/3-9). They can adjust the USD/CNY reference rate to influence the exchange rate [ig](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **Hedging Strategies:** Businesses operating internationally should revisit their foreign exchange hedging programs to minimize tariff-linked losses due to currency shifts [anchin](https://vertexaisearch.cloud.google.com/id/3-3).\n\n**3. Impact on Imeik Technology**\n\n*   **Profitability:** Imeik Technology's profitability is affected by both tariffs and exchange rates. Tariffs increase costs, while a weaker CNY could offset some of these costs by making their products more competitive in the US market [xtransfer](https://vertexaisearch.cloud.google.com/id/3-7) [claconnect](https://vertexaisearch.cloud.google.com/id/3-1).\n*   **Stock Performance:** Imeik Technology Development Co's stock is listed on the Shenzhen Stock Exchange [investing](https://vertexaisearch.cloud.google.com/id/3-10). Events such as tariff announcements and trade war escalations can lead to market uncertainty and fluctuations in the stock market, which affects Imeik's stock price [claconnect](https://vertexaisearch.cloud.google.com/id/3-1) [techtarget](https://vertexaisearch.cloud.google.com/id/3-4).\n*   **Q1 2025 Results:** Imeik Technology faced temporary pressure with a year-on-year decline in revenue and net income in Q1 2025, partly attributed to a high base in the previous year [futunn](https://vertexaisearch.cloud.google.com/id/3-11).\n\n**4. Countermeasures and Mitigation Strategies**\n\n*   **Supply Chain Diversification:** Companies can mitigate tariff risks by diversifying their supply chains [canalys](https://vertexaisearch.cloud.google.com/id/3-12) [anchin](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Free Trade Zones (FTZs):** Utilizing FTZs can delay or reduce tariff exposure [anchin](https://vertexaisearch.cloud.google.com/id/3-3).\n*   **Negotiating with Manufacturers:** Companies can negotiate with their China-based manufacturers to absorb costs [canalys](https://vertexaisearch.cloud.google.com/id/3-12).\n*   **Pricing Strategies:** Companies may need to reassess their pricing models and communicate transparently with customers about tariff-related price adjustments [anchin](https://vertexaisearch.cloud.google.com/id/3-3).\n\n**5. Specific Tariff Rates and Trade War Developments**\n\n*   **Escalating Tariffs:** The US has imposed increasingly higher tariffs on Chinese goods, reaching levels as high as 104% on all Chinese imports [ig](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **China's Retaliation:** China has retaliated with tariffs on US goods [jpmorgan](https://vertexaisearch.cloud.google.com/id/3-13) [ig](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **Reciprocal Tariffs:** The Trump administration is considering applying tariffs against a broader range of foreign taxes, which could significantly impact trade [jpmorgan](https://vertexaisearch.cloud.google.com/id/3-13).\n\n**6. Examples of Impact on Other Tech Companies**\n\n*   **Apple:** Apple is vulnerable due to its extensive manufacturing operations in China, but could mitigate the impact by shifting production outside of China [nasdaq](https://vertexaisearch.cloud.google.com/id/3-2).\n*   **Nvidia:** Tariffs affect Nvidia's cost structure, potentially impacting the price and availability of its products [techtarget](https://vertexaisearch.cloud.google.com/id/3-4). Nvidia announced plans to invest in manufacturing AI chips in the U.S. [techtarget](https://vertexaisearch.cloud.google.com/id/3-4).\n\n**7. Market Reactions and Investor Sentiment**\n\n*   **Hang Seng Index:** Chinese financial markets have responded negatively to the escalation of trade tensions, with the Hang Seng Index entering bear market territory [ig](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **Investor Concerns:** Market volatility reflects growing investor concern about China's economic outlook [ig](https://vertexaisearch.cloud.google.com/id/3-8).\n*   **Safe-Haven Investments:** Investors may turn to gold as a safe-haven investment during times of tariff-related uncertainty [techtarget](https://vertexaisearch.cloud.google.com/id/3-4).\n\n**In summary,** currency exchange rates and US tariffs create a complex environment for Imeik Technology. While a weaker CNY can provide some relief by making exports more competitive, tariffs increase costs and create uncertainty. Companies can employ various strategies, such as supply chain diversification and currency hedging, to mitigate these risks. The ultimate impact on Imeik Technology's profitability and stock price depends on the magnitude of the tariffs, the extent of CNY depreciation, and the effectiveness of the company's mitigation strategies.\n",
+      "Based on available analyst reports, Imeik Technology Development Co.,Ltd. is facing headwinds that have led to downward revisions in revenue and earnings per share (EPS) estimates for the fiscal year 2025 [moomoo](https://vertexaisearch.cloud.google.com/id/4-0) [moomoo](https://vertexaisearch.cloud.google.com/id/4-1) [marketscreener](https://vertexaisearch.cloud.google.com/id/4-2).\n\n**Revenue Impact:**\n\n*   **Revised Forecasts:** The consensus revenue forecast from 22 analysts for 2025 has been revised to CN¥3.25 billion. [moomoo](https://vertexaisearch.cloud.google.com/id/4-1) Another report indicates a consensus revenue forecast of CN¥3.44 billion.\n [moomoo](https://vertexaisearch.cloud.google.com/id/4-0)*   **Previous Forecasts:** Prior to recent earnings reports, analysts had been forecasting revenues of CN¥3.38 billion an [moomoo](https://vertexaisearch.cloud.google.com/id/4-1)d CN¥3.71 billion for [moomoo](https://vertexaisearch.cloud.google.com/id/4-0) 2025.\n*   **Growth Rate:** The updated forecasts suggest a 13% to  [moomoo](https://vertexaisearch.cloud.google.com/id/4-1)14% inc [moomoo](https://vertexaisearch.cloud.google.com/id/4-0)rease in revenue compared to the past 12 months. However, this is a slowdown compared to the historical growth rate of 32% over the past five years. Th [moomoo](https://vertexaisearch.cloud.google.com/id/4-0)e industry is forecast to grow at 25% per year. An [moomoo](https://vertexaisearch.cloud.google.com/id/4-0)other report suggests revenue is forecast to display 18% growth on an annualised basis.\n*  [moomoo](https://vertexaisearch.cloud.google.com/id/4-1)  **Downgraded Expectations:** Sales expectations for the current fiscal year have been significantly downgraded, implying less significant sales volumes compared to the previous period.\n\n* [marketscreener](https://vertexaisearch.cloud.google.com/id/4-2)*Earnings Impact:**\n\n*   **Revised Forecasts:** The consensus forecast for statutory earnings per share (EPS) is now CN¥6.83 to C [moomoo](https://vertexaisearch.cloud.google.com/id/4-1)N¥7.38.\n*    [moomoo](https://vertexaisearch.cloud.google.com/id/4-0)**Previous Forecasts:** Before the earnings report, analysts had projected an EPS of CN¥7.20 to CN¥ [moomoo](https://vertexaisearch.cloud.google.com/id/4-1)8.16 for 202 [moomoo](https://vertexaisearch.cloud.google.com/id/4-0)5.\n*   **Growth Rate:** The revised EPS forecasts represent an increase of 9.9% to 14%. [moomoo](https://vertexaisearch.cloud.google.com/id/4-1)\n*   ** [moomoo](https://vertexaisearch.cloud.google.com/id/4-0)Analysts' Downgrades:** Analysts have been regularly downgrading their EPS expectations over the last 12 months.\n\n**Oth [marketscreener](https://vertexaisearch.cloud.google.com/id/4-2)er Considerations:**\n\n*   **Analyst Sentiment:** The downgrades in revenue and EPS estimates indicate a decline in analyst sentiment.\n*   ** [moomoo](https://vertexaisearch.cloud.google.com/id/4-1)Price Target:** Despite the downgrades, the consensus price target for Imeik Technology DevelopmentLtd has not seen major changes, suggesting that analysts do not expect the revisions to have a significant long-term impact on the company's intrinsic value.\n*   ** [moomoo](https://vertexaisearch.cloud.google.com/id/4-1) [moomoo](https://vertexaisearch.cloud.google.com/id/4-0)Valuation:** The firm trades with high earnings multiples and has particularly high valuation levels.\n*   ** [marketscreener](https://vertexaisearch.cloud.google.com/id/4-2)Stock Performance:** Imeik Technology Development Co.,Ltd. stock price gained 0.0174% on the last trading day (Friday, 27th Jun 2025), rising from ¥172.18 to ¥172.21.\n*   **Q1 [stockinvest](https://vertexaisearch.cloud.google.com/id/4-3) 2025 Results:** Imeik Technology reported a net income of 443.7 million yuan for the first quarter of 2025. The comp [smartkarma](https://vertexaisearch.cloud.google.com/id/4-4)any generated revenue of 663.5 million yuan during the same period.\n [smartkarma](https://vertexaisearch.cloud.google.com/id/4-4)",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Are there any governmental subsidies or tax incentives available to Imeik Technology that could offset the negative effects of US tariffs?\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a synthesis of information regarding governmental subsidies or tax incentives available to Imeik Technology that could offset the negative effects of US tariffs:\n\n**China's Response to US Tariffs:**\n\n*   **\"Dual Circulation\" Strategy:** China is emphasizing a \"dual circulation\" strategy to prioritize domestic consumption and non-western international trade to achieve greater self-reliance and resilience [idc](https://vertexaisearch.cloud.google.com/id/5-0).\n*   **Increased Funding for Emerging Tech:** China's $138 billion Innovation Fund aims to boost homegrown tech innovation and reduce foreign reliance amidst escalating U.S. tariffs. It focuses on \"original technological breakthroughs\" in early-stage startups in areas like AI, quantum computing, and 6G technology [idc](https://vertexaisearch.cloud.google.com/id/5-0).\n*   **Government Subsidies:** The Chinese government has implemented subsidies and trade-in programs for eligible consumer goods to boost domestic demand and spur economic growth [idc](https://vertexaisearch.cloud.google.com/id/5-0). For smartphones, tablets, and smartwatches, the government subsidy is up to 15% of the product price, capped at ¥500/item. [idc](https://vertexaisearch.cloud.google.com/id/5-0) [techhq](https://vertexaisearch.cloud.google.com/id/5-1) These subsidies also target rural/low-tier cities for 5G adoption, smart home devices, and rural e-commerce logistics. [idc](https://vertexaisearch.cloud.google.com/id/5-0)\n*   **Supply Chain Restructuring:** Chinese tech companies are restructuring their supply chains by accelerating offshoring to Southeast Asia and shifting assembly lines to sidestep tariffs. [idc](https://vertexaisearch.cloud.google.com/id/5-0)\n*   **Domestic Demand Boost:** China is aiming to stabilize consumer confidence through stock/real estate market reforms and wage growth policies. [idc](https://vertexaisearch.cloud.google.com/id/5-0)\n\n**Specific Tariff Information:**\n\n*   **Tariff Levels:** As of April 2025, the U.S. had implemented cumulative tariffs of 145% on Chinese imports, while China had responded with 125% tariffs on American goods. [techhq](https://vertexaisearch.cloud.google.com/id/5-1) By April 2025, average U.S. tariffs on China reached over 126%, and average Chinese tariffs on the U.S. covered virtually all bilateral trade at over 148%. [powerdrill](https://vertexaisearch.cloud.google.com/id/5-2)\n*   **Temporary Relief:** Smartphones, computers, and electronics have, at times, received partial tariff reprieves. [idc](https://vertexaisearch.cloud.google.com/id/5-0)\n*   **Components Affected:** While smartphones may have received exemptions, they remain subject to semiconductor tariffs, which could impact production costs and pricing strategies. [techhq](https://vertexaisearch.cloud.google.com/id/5-1)\n*   **IEEPA Tariffs:** A 20% IEEPA tariff on China remains in place and stacks on top of the 125% tariff on China, when applicable, or a 25% Section 232 tariff, leading to an effective 145% or 45% tariff on imports from China. [cta](https://vertexaisearch.cloud.google.com/id/5-3)\n\n**Impact on Companies:**\n\n*   **Apple:** Apple faces challenges in China due to tariffs and market pressures, with iPhone shipments declining. [techhq](https://vertexaisearch.cloud.google.com/id/5-1) Chinese government subsidies for affordable smartphones are helping domestic brands. [techhq](https://vertexaisearch.cloud.google.com/id/5-1)\n*   **General Impact:** Tariffs are causing uncertainty in the PC industry, with manufacturers facing escalating costs and potential supply and demand contraction. [counterpointresearch](https://vertexaisearch.cloud.google.com/id/5-4)\n\n**Other Considerations:**\n\n*   **Innovation Fund Focus:** The $138B Innovation Fund focuses on discovering and increasing “original technological breakthroughs” in early-stage startups in AI, quantum computing, hydrogen energy, biomanufacturing, and 6G technology.\n*   [idc](https://vertexaisearch.cloud.google.com/id/5-0) **\"America First\" Policy:** The \"America First Trade Policy\" directs the administration to look into trade issues, with an outsized role for tariffs.\n*   [epthinktank](https://vertexaisearch.cloud.google.com/id/5-5) **US Tariffs:** The Trump administration's tariffs include a minimum 10% tax on all imports, with reciprocal tariffs being country-specific rates calculated based on bilateral trade balances.\n\n** [techtarget](https://vertexaisearch.cloud.google.com/id/5-6)In summary, Imeik Technology may be able to leverage Chinese government subsidies aimed at boosting domestic demand and supporting technology companies, as well as benefit from the general push towards technological self-reliance. However, the specific impact will depend on the exact nature of Imeik's products, its supply chain, and the specific tariffs that apply to its goods.**\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "discoveryalert",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERp2Id2XkzNVGNCLzevE6xrDJV0UxEzGY91HukL36ug9Pa2OumAelFQ8pqCt117W_5BSlbIKWikxV3S8E1MYTgCm9mF9g9N8c9TYe8Qh9FRna_samznRU8XaGlzOtIr5Ysh4TUv8O8c2Lht9daApnUmbqzwI2AwJ5NbtpC5lUAaBU="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXaUN3_wRJ6vEoyMwpKIaDdFYXgRmFMuLRgsRyKGr3HFR-PpyAs9xWvUCmitKW-uryDuyoOm4lqda3Qa0Qle4jXfShMAb-A_Nc5swcL5LMsEDDnzk46TuHKT93j0LjhxjegMOaqGyfKxGOvW9BnjOoJGzPOF-JKOmc8FEyakyADrEytY0hy2BML5rV6QdWhvqSA1Ks"
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYc6d4neN1cUMxunuSlbl_p6FORg4Yl0aGGi29mGIC2_angDBekgit-dF767JsvfiQYqpm8YdQJ-80fGkF3YqETZ2b8RBTg9MjS-SC09E04dfl29UfNk_6suTzs4get0AOZaosMpbsOnPS6gTQTJwZyrdGJmnStwdy08pDydfzJGF9AAU8UQWxYCeghUurH7zNaLB2GAum2kiWwM42IuQLt6rElxEf32822A=="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXaUN3_wRJ6vEoyMwpKIaDdFYXgRmFMuLRgsRyKGr3HFR-PpyAs9xWvUCmitKW-uryDuyoOm4lqda3Qa0Qle4jXfShMAb-A_Nc5swcL5LMsEDDnzk46TuHKT93j0LjhxjegMOaqGyfKxGOvW9BnjOoJGzPOF-JKOmc8FEyakyADrEytY0hy2BML5rV6QdWhvqSA1Ks"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDbHd9vY8EgnB9Wf1axF2ixH6x_Hgr8Xicxs1qFRHh08Z8cfD9MGVhao65-lG2pB987HP52mdroyC3RVCR95pIPbeFT05oLv5_9smtIi8nrNbi9_bPJ2VU4mo2Qtn57LU1YeDIMvfbMH3pvlO0H9rdZf7YH640l3oS3eJdU75N1fdexwSq6dbTBrRs16vARRZGuJmHWU-AN-tkPjXlGfewabwjoGMn_aYH3kpE"
+      },
+      {
+        "label": "tradeimex",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWvxcu22nAXMhu1xD1uzChZvTvpjEYb6JcWn2YoGF6w5goiuzKtYwAt25iiRZdrN4tN0DXxZyvbJIKfE1uTPL93tJ6EvPvTjXs4R3RWO5iKgkXjVqK9yFlUP1AF-gIdDWPtTRiAeO0AAcrLehP_wi0a0bEw_F7D86HrKs8GSTBwnu7hsJYyACT3RqIRGYAo_D8hVHI"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDbHd9vY8EgnB9Wf1axF2ixH6x_Hgr8Xicxs1qFRHh08Z8cfD9MGVhao65-lG2pB987HP52mdroyC3RVCR95pIPbeFT05oLv5_9smtIi8nrNbi9_bPJ2VU4mo2Qtn57LU1YeDIMvfbMH3pvlO0H9rdZf7YH640l3oS3eJdU75N1fdexwSq6dbTBrRs16vARRZGuJmHWU-AN-tkPjXlGfewabwjoGMn_aYH3kpE"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXaUN3_wRJ6vEoyMwpKIaDdFYXgRmFMuLRgsRyKGr3HFR-PpyAs9xWvUCmitKW-uryDuyoOm4lqda3Qa0Qle4jXfShMAb-A_Nc5swcL5LMsEDDnzk46TuHKT93j0LjhxjegMOaqGyfKxGOvW9BnjOoJGzPOF-JKOmc8FEyakyADrEytY0hy2BML5rV6QdWhvqSA1Ks"
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYc6d4neN1cUMxunuSlbl_p6FORg4Yl0aGGi29mGIC2_angDBekgit-dF767JsvfiQYqpm8YdQJ-80fGkF3YqETZ2b8RBTg9MjS-SC09E04dfl29UfNk_6suTzs4get0AOZaosMpbsOnPS6gTQTJwZyrdGJmnStwdy08pDydfzJGF9AAU8UQWxYCeghUurH7zNaLB2GAum2kiWwM42IuQLt6rElxEf32822A=="
+      },
+      {
+        "label": "discoveryalert",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERp2Id2XkzNVGNCLzevE6xrDJV0UxEzGY91HukL36ug9Pa2OumAelFQ8pqCt117W_5BSlbIKWikxV3S8E1MYTgCm9mF9g9N8c9TYe8Qh9FRna_samznRU8XaGlzOtIr5Ysh4TUv8O8c2Lht9daApnUmbqzwI2AwJ5NbtpC5lUAaBU="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDbHd9vY8EgnB9Wf1axF2ixH6x_Hgr8Xicxs1qFRHh08Z8cfD9MGVhao65-lG2pB987HP52mdroyC3RVCR95pIPbeFT05oLv5_9smtIi8nrNbi9_bPJ2VU4mo2Qtn57LU1YeDIMvfbMH3pvlO0H9rdZf7YH640l3oS3eJdU75N1fdexwSq6dbTBrRs16vARRZGuJmHWU-AN-tkPjXlGfewabwjoGMn_aYH3kpE"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXaUN3_wRJ6vEoyMwpKIaDdFYXgRmFMuLRgsRyKGr3HFR-PpyAs9xWvUCmitKW-uryDuyoOm4lqda3Qa0Qle4jXfShMAb-A_Nc5swcL5LMsEDDnzk46TuHKT93j0LjhxjegMOaqGyfKxGOvW9BnjOoJGzPOF-JKOmc8FEyakyADrEytY0hy2BML5rV6QdWhvqSA1Ks"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDbHd9vY8EgnB9Wf1axF2ixH6x_Hgr8Xicxs1qFRHh08Z8cfD9MGVhao65-lG2pB987HP52mdroyC3RVCR95pIPbeFT05oLv5_9smtIi8nrNbi9_bPJ2VU4mo2Qtn57LU1YeDIMvfbMH3pvlO0H9rdZf7YH640l3oS3eJdU75N1fdexwSq6dbTBrRs16vARRZGuJmHWU-AN-tkPjXlGfewabwjoGMn_aYH3kpE"
+      },
+      {
+        "label": "china-briefing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFkd0ybWihJRTk54szjkOIAISWP_S8j9ljPEmC3U2-lbOJJTaebx2FTVGARjTzFOpaW-F1vMATtA7rWmQGLgPQS3F9nzl_VauI_4IjIJW3E2qVlSy9qSBiSYppBTg-5ZaTSBe-Kl7J74of13QL1lgSU9mm9-cSgTPjYYGBQDXvtuzOOsDA2-_piNclnYecy8Y="
+      },
+      {
+        "label": "yale",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfaN1f-9oMQZyUgEBVnWyPn6mDmVs26345lzPhtoB3giZOuflwjtNDL3oeKwcmBmIsYE7nd7GVJ1arXEEyNtvjiwSoh4UQ_-bGRHRKL1mq_FIuovtVsU_ehEYdq14s5pqglC2hh2V5T1dYNjFCvYJjvpOYQGVDLjMu6kvh"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXaUN3_wRJ6vEoyMwpKIaDdFYXgRmFMuLRgsRyKGr3HFR-PpyAs9xWvUCmitKW-uryDuyoOm4lqda3Qa0Qle4jXfShMAb-A_Nc5swcL5LMsEDDnzk46TuHKT93j0LjhxjegMOaqGyfKxGOvW9BnjOoJGzPOF-JKOmc8FEyakyADrEytY0hy2BML5rV6QdWhvqSA1Ks"
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYc6d4neN1cUMxunuSlbl_p6FORg4Yl0aGGi29mGIC2_angDBekgit-dF767JsvfiQYqpm8YdQJ-80fGkF3YqETZ2b8RBTg9MjS-SC09E04dfl29UfNk_6suTzs4get0AOZaosMpbsOnPS6gTQTJwZyrdGJmnStwdy08pDydfzJGF9AAU8UQWxYCeghUurH7zNaLB2GAum2kiWwM42IuQLt6rElxEf32822A=="
+      },
+      {
+        "label": "discoveryalert",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERp2Id2XkzNVGNCLzevE6xrDJV0UxEzGY91HukL36ug9Pa2OumAelFQ8pqCt117W_5BSlbIKWikxV3S8E1MYTgCm9mF9g9N8c9TYe8Qh9FRna_samznRU8XaGlzOtIr5Ysh4TUv8O8c2Lht9daApnUmbqzwI2AwJ5NbtpC5lUAaBU="
+      },
+      {
+        "label": "discoveryalert",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERp2Id2XkzNVGNCLzevE6xrDJV0UxEzGY91HukL36ug9Pa2OumAelFQ8pqCt117W_5BSlbIKWikxV3S8E1MYTgCm9mF9g9N8c9TYe8Qh9FRna_samznRU8XaGlzOtIr5Ysh4TUv8O8c2Lht9daApnUmbqzwI2AwJ5NbtpC5lUAaBU="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXaUN3_wRJ6vEoyMwpKIaDdFYXgRmFMuLRgsRyKGr3HFR-PpyAs9xWvUCmitKW-uryDuyoOm4lqda3Qa0Qle4jXfShMAb-A_Nc5swcL5LMsEDDnzk46TuHKT93j0LjhxjegMOaqGyfKxGOvW9BnjOoJGzPOF-JKOmc8FEyakyADrEytY0hy2BML5rV6QdWhvqSA1Ks"
+      },
+      {
+        "label": "pitchbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoEFObkSvFHcUbaBcs3C3UCNjlf8dOkcwA-jKyl6P_iWS8d71RNAVeRpJ6sPiymq-vJSLNiE3MUy43TPNjqWXlc1I-wF-Ik2dbEe00_QKG3u-RTF7-Cqg6CJCQCnhGxKg4zKDzEyhl4uvrGA=="
+      },
+      {
+        "label": "pitchbook",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoEFObkSvFHcUbaBcs3C3UCNjlf8dOkcwA-jKyl6P_iWS8d71RNAVeRpJ6sPiymq-vJSLNiE3MUy43TPNjqWXlc1I-wF-Ik2dbEe00_QKG3u-RTF7-Cqg6CJCQCnhGxKg4zKDzEyhl4uvrGA=="
+      },
+      {
+        "label": "smartkarma",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVlSFZ46CnG3j5nnctr7xNhazVPgJho_1H-BaQYXIEyGmrwKnw9awxoDBnBpScLD-wXpza-znsxP8FZe-48I5AqJNrrIap6VtA-cP3_oITdMgqCuH7DHxMH_f-QeBMZ_75-hFEVi-AWjCgeuB1u3FiDs6o8LsIdjhZBwWNJlU2fVPxRvWbC3V2vdIp8KL8Iy9wk_E8TQMbutgmn6ziYpeO8_rgIqP_rgcqIV2H85cwc3dxydvPKlYBcanLdnsAVC7z4LoA1EDAnZq8RRjKBbGrTVCSQVeU6SRGtSI="
+      },
+      {
+        "label": "smartkarma",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVlSFZ46CnG3j5nnctr7xNhazVPgJho_1H-BaQYXIEyGmrwKnw9awxoDBnBpScLD-wXpza-znsxP8FZe-48I5AqJNrrIap6VtA-cP3_oITdMgqCuH7DHxMH_f-QeBMZ_75-hFEVi-AWjCgeuB1u3FiDs6o8LsIdjhZBwWNJlU2fVPxRvWbC3V2vdIp8KL8Iy9wk_E8TQMbutgmn6ziYpeO8_rgIqP_rgcqIV2H85cwc3dxydvPKlYBcanLdnsAVC7z4LoA1EDAnZq8RRjKBbGrTVCSQVeU6SRGtSI="
+      },
+      {
+        "label": "smartkarma",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVlSFZ46CnG3j5nnctr7xNhazVPgJho_1H-BaQYXIEyGmrwKnw9awxoDBnBpScLD-wXpza-znsxP8FZe-48I5AqJNrrIap6VtA-cP3_oITdMgqCuH7DHxMH_f-QeBMZ_75-hFEVi-AWjCgeuB1u3FiDs6o8LsIdjhZBwWNJlU2fVPxRvWbC3V2vdIp8KL8Iy9wk_E8TQMbutgmn6ziYpeO8_rgIqP_rgcqIV2H85cwc3dxydvPKlYBcanLdnsAVC7z4LoA1EDAnZq8RRjKBbGrTVCSQVeU6SRGtSI="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2rycccp3whKgptorDQMTAiSnkJG8c1j44-dwglGTL8VMdtGXiHj4I5gAv-irW7xeLjcXkU38BajR0Jf1HBlr2RAWXbCy_pJe_KhbuVZQM1NvQCLwDK7LYzzy6n-Qr5D85hJbuncUfnx9edpp8FoA1skhraBqGH4kri4xAElRYNchcidFWYMoqNSs3GC2yuShZGw=="
+      },
+      {
+        "label": "macroaxis",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFByQSznMzE7m0mNS6KhzGTkbeB8beYIqSET_8CCu-bbGY94rI52G0ns3HAOsZur4neCr0oBomVL_lnXaSWl2C1U5S6JK_Fu7EOy5FCzJ4vh0kgRJEmhiaXs5jxRQT_1i4zMfCO1vhCvXLKESeqHMij1d1ZXbZ5xRi2MPpo"
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2rycccp3whKgptorDQMTAiSnkJG8c1j44-dwglGTL8VMdtGXiHj4I5gAv-irW7xeLjcXkU38BajR0Jf1HBlr2RAWXbCy_pJe_KhbuVZQM1NvQCLwDK7LYzzy6n-Qr5D85hJbuncUfnx9edpp8FoA1skhraBqGH4kri4xAElRYNchcidFWYMoqNSs3GC2yuShZGw=="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2rycccp3whKgptorDQMTAiSnkJG8c1j44-dwglGTL8VMdtGXiHj4I5gAv-irW7xeLjcXkU38BajR0Jf1HBlr2RAWXbCy_pJe_KhbuVZQM1NvQCLwDK7LYzzy6n-Qr5D85hJbuncUfnx9edpp8FoA1skhraBqGH4kri4xAElRYNchcidFWYMoqNSs3GC2yuShZGw=="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2rycccp3whKgptorDQMTAiSnkJG8c1j44-dwglGTL8VMdtGXiHj4I5gAv-irW7xeLjcXkU38BajR0Jf1HBlr2RAWXbCy_pJe_KhbuVZQM1NvQCLwDK7LYzzy6n-Qr5D85hJbuncUfnx9edpp8FoA1skhraBqGH4kri4xAElRYNchcidFWYMoqNSs3GC2yuShZGw=="
+      },
+      {
+        "label": "stockinvest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmSHlRIf9nfCKTrpLv5xygzjcX_2elurS5bc5KDWY_sXctjbt0XW8pmNcW2IuDM8jMRiHlRztvOBNqyBDrcRkIo9y2H2ksxpluYeKVDwL7dOvzbrHsT0qssVsgW5Je5glAeIJglQPj40-R16q40oWeIWI="
+      },
+      {
+        "label": "goldmansachs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDJF5Intfz5zQI11L6WtUjZ2I90kBFDYmVNh5IwkHddDOXuLPA1hYiPnprwQgTkNBFqxkc20Wt_valzci4K0rcVtcArwOPcIZJRvZ2VA9STBndXJDMwE78BqB1mzjIsMRsTGO8m3OB5y-lh6FxABpqez4yF61v1oxIYzXSdyKk33HtoDBy7XyNpaMXWVGxOSeqpOQr6Bg="
+      },
+      {
+        "label": "freetrade",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlMU5ah6AJo99LCF2pHcds9Sk2BTUV53RXhLeyqcoeqA4y_s1nhINze0hE-kN8nmrbn7BtLrmALGNlwm44pq8oUfM6CYUsu48d_Id3UmSoP2Yp5bqFzxu2rO71ZFTm_YKg7GC4_rswmXwf79rPu5l6hkzkXvkO-ibc8EIaB7ziKyKbla45TjF5RQ=="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXaUN3_wRJ6vEoyMwpKIaDdFYXgRmFMuLRgsRyKGr3HFR-PpyAs9xWvUCmitKW-uryDuyoOm4lqda3Qa0Qle4jXfShMAb-A_Nc5swcL5LMsEDDnzk46TuHKT93j0LjhxjegMOaqGyfKxGOvW9BnjOoJGzPOF-JKOmc8FEyakyADrEytY0hy2BML5rV6QdWhvqSA1Ks"
+      },
+      {
+        "label": "goldmansachs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDJF5Intfz5zQI11L6WtUjZ2I90kBFDYmVNh5IwkHddDOXuLPA1hYiPnprwQgTkNBFqxkc20Wt_valzci4K0rcVtcArwOPcIZJRvZ2VA9STBndXJDMwE78BqB1mzjIsMRsTGO8m3OB5y-lh6FxABpqez4yF61v1oxIYzXSdyKk33HtoDBy7XyNpaMXWVGxOSeqpOQr6Bg="
+      },
+      {
+        "label": "jpmorgan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJfpoN50vgj9Jmp5kyXA-PUVqPBCbXzEwyKKUg2ZdVt3aBWDnjZ7irqQYXKMQ8dRurK55KvqC7jwBvrNsclwE5rhI-OZBu-IRe-D8IKReFn1U0VpmfwuctKHIF-z3p1zdzUSKf_sD3H4mBei52CjZNiewQRZhmcd1zaC3Qa_fSP3SKCzzSuw=="
+      },
+      {
+        "label": "yale",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfaN1f-9oMQZyUgEBVnWyPn6mDmVs26345lzPhtoB3giZOuflwjtNDL3oeKwcmBmIsYE7nd7GVJ1arXEEyNtvjiwSoh4UQ_-bGRHRKL1mq_FIuovtVsU_ehEYdq14s5pqglC2hh2V5T1dYNjFCvYJjvpOYQGVDLjMu6kvh"
+      },
+      {
+        "label": "yale",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfaN1f-9oMQZyUgEBVnWyPn6mDmVs26345lzPhtoB3giZOuflwjtNDL3oeKwcmBmIsYE7nd7GVJ1arXEEyNtvjiwSoh4UQ_-bGRHRKL1mq_FIuovtVsU_ehEYdq14s5pqglC2hh2V5T1dYNjFCvYJjvpOYQGVDLjMu6kvh"
+      },
+      {
+        "label": "bakermckenzie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5bZpIgm-7B0SeeU99wRef5EUUF1gyDYiBkTBYBz7jwi-Rg0gePqStjypcz7_1KZz5vVKZOE68IoSLrb2n9haEZMy1vXoRWQZpS4HSiT591kAoJ_0QzlWVkolsIE2_yxf_VGTQGzXCU2aDIfm6nC29WPFbMIlDkt6HdeA9ZlcVEHdfDQtfFq5UDD_T_y0fIHil03hot2zU0-_5jn0ZTweQ8ZyrhZwbTuU6Eg=="
+      },
+      {
+        "label": "gmfus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlYlmTIS-Yz2lJXWQJk8o9BVBH70D-hb0i3kGzIUrAqH_D0pPzm_ZFBXdDQyO3KtVWDG1txuov5xq6uD35KGSIW2vhBl2nCdkJZecXP9v0L_Z1naiq5EyoZscqgluV_bYNncYs"
+      },
+      {
+        "label": "delveinsight",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxO_e1akgHHjQ1iGSPCd_n6Zh6Bhry4F1pA1iG9BrhsddMm_m1gErnuzJXgPPiVFYUpojJbjRHAtWDFPDQpzNawyoW66CHReX3oe13RJSzA86_O_-qdMIDpm7trG9yWjwdlcYXUX3dYemMLKCG3wS8F69CxMwk-sShU_mS_iLLEbNVmvRdUs-4zWxxZCPUQNY="
+      },
+      {
+        "label": "bakermckenzie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5bZpIgm-7B0SeeU99wRef5EUUF1gyDYiBkTBYBz7jwi-Rg0gePqStjypcz7_1KZz5vVKZOE68IoSLrb2n9haEZMy1vXoRWQZpS4HSiT591kAoJ_0QzlWVkolsIE2_yxf_VGTQGzXCU2aDIfm6nC29WPFbMIlDkt6HdeA9ZlcVEHdfDQtfFq5UDD_T_y0fIHil03hot2zU0-_5jn0ZTweQ8ZyrhZwbTuU6Eg=="
+      },
+      {
+        "label": "delveinsight",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxO_e1akgHHjQ1iGSPCd_n6Zh6Bhry4F1pA1iG9BrhsddMm_m1gErnuzJXgPPiVFYUpojJbjRHAtWDFPDQpzNawyoW66CHReX3oe13RJSzA86_O_-qdMIDpm7trG9yWjwdlcYXUX3dYemMLKCG3wS8F69CxMwk-sShU_mS_iLLEbNVmvRdUs-4zWxxZCPUQNY="
+      },
+      {
+        "label": "casemed",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzdUaOZ--TxWcp7-emeBv309clerLRCAKyM9108rmpMrWygRVYVncP507SSqQHDKXgzuJsA7kf9hZaXHZn9Yt1JoBPgeo5N9rNqiReCKTQ83opwbbyinauArshc5XaQ8HDXc8MWwL_bfFVqiMkGpZBft-5dH27EHAq9kV0tZIMuuRaYA6noy8dPfiMqFzz-VBTmSW1tphsa1xk"
+      },
+      {
+        "label": "casemed",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzdUaOZ--TxWcp7-emeBv309clerLRCAKyM9108rmpMrWygRVYVncP507SSqQHDKXgzuJsA7kf9hZaXHZn9Yt1JoBPgeo5N9rNqiReCKTQ83opwbbyinauArshc5XaQ8HDXc8MWwL_bfFVqiMkGpZBft-5dH27EHAq9kV0tZIMuuRaYA6noy8dPfiMqFzz-VBTmSW1tphsa1xk"
+      },
+      {
+        "label": "cognitivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXz47aqkupwfnnqC96hZoWSJMTfTtt0BAOahnfF81XrNvBJcBo9yLJ4ziOHY3w0OWSZxANCUHj7WbSWRrTXBDbAyuu0FBheqMF9z9CK8yDM6Wi7YXTZJ1aPz5N4gIm_CzsWBO7a1vSkw0PV4m0uRvBnOvXs28HoQpygfx3K9RHSkruIfypq1seMiNo5tYE2eyzc2mSRvHD9Mkww8SFLHD7TuWRv-NMsvRi5axUkmyeGmUxTaZRcgAPlGI40aZnqamiWAxbPbYUmHNIEpi6IEUsiza5YbR1_ejN4dI="
+      },
+      {
+        "label": "cognitivemarketresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXz47aqkupwfnnqC96hZoWSJMTfTtt0BAOahnfF81XrNvBJcBo9yLJ4ziOHY3w0OWSZxANCUHj7WbSWRrTXBDbAyuu0FBheqMF9z9CK8yDM6Wi7YXTZJ1aPz5N4gIm_CzsWBO7a1vSkw0PV4m0uRvBnOvXs28HoQpygfx3K9RHSkruIfypq1seMiNo5tYE2eyzc2mSRvHD9Mkww8SFLHD7TuWRv-NMsvRi5axUkmyeGmUxTaZRcgAPlGI40aZnqamiWAxbPbYUmHNIEpi6IEUsiza5YbR1_ejN4dI="
+      },
+      {
+        "label": "knobbe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YZ-_Pjn73Wl000otPZsDZp6MVXcmLm6ZP5Ltf6nunUpqWJzaQlJH5YLQzrdRHwPKZSYH1C6-Bt2qmV_hP4ngby71kbSS34JjIBM178lZKMuNcClqjDDZ8Bc_Nhgr2wBUytdbkWf5GKDYYxfC4OH1GW0LUFZkhDggOHNATXhEdMZbSA=="
+      },
+      {
+        "label": "delveinsight",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxO_e1akgHHjQ1iGSPCd_n6Zh6Bhry4F1pA1iG9BrhsddMm_m1gErnuzJXgPPiVFYUpojJbjRHAtWDFPDQpzNawyoW66CHReX3oe13RJSzA86_O_-qdMIDpm7trG9yWjwdlcYXUX3dYemMLKCG3wS8F69CxMwk-sShU_mS_iLLEbNVmvRdUs-4zWxxZCPUQNY="
+      },
+      {
+        "label": "knobbe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YZ-_Pjn73Wl000otPZsDZp6MVXcmLm6ZP5Ltf6nunUpqWJzaQlJH5YLQzrdRHwPKZSYH1C6-Bt2qmV_hP4ngby71kbSS34JjIBM178lZKMuNcClqjDDZ8Bc_Nhgr2wBUytdbkWf5GKDYYxfC4OH1GW0LUFZkhDggOHNATXhEdMZbSA=="
+      },
+      {
+        "label": "bakermckenzie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5bZpIgm-7B0SeeU99wRef5EUUF1gyDYiBkTBYBz7jwi-Rg0gePqStjypcz7_1KZz5vVKZOE68IoSLrb2n9haEZMy1vXoRWQZpS4HSiT591kAoJ_0QzlWVkolsIE2_yxf_VGTQGzXCU2aDIfm6nC29WPFbMIlDkt6HdeA9ZlcVEHdfDQtfFq5UDD_T_y0fIHil03hot2zU0-_5jn0ZTweQ8ZyrhZwbTuU6Eg=="
+      },
+      {
+        "label": "knobbe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YZ-_Pjn73Wl000otPZsDZp6MVXcmLm6ZP5Ltf6nunUpqWJzaQlJH5YLQzrdRHwPKZSYH1C6-Bt2qmV_hP4ngby71kbSS34JjIBM178lZKMuNcClqjDDZ8Bc_Nhgr2wBUytdbkWf5GKDYYxfC4OH1GW0LUFZkhDggOHNATXhEdMZbSA=="
+      },
+      {
+        "label": "knobbe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YZ-_Pjn73Wl000otPZsDZp6MVXcmLm6ZP5Ltf6nunUpqWJzaQlJH5YLQzrdRHwPKZSYH1C6-Bt2qmV_hP4ngby71kbSS34JjIBM178lZKMuNcClqjDDZ8Bc_Nhgr2wBUytdbkWf5GKDYYxfC4OH1GW0LUFZkhDggOHNATXhEdMZbSA=="
+      },
+      {
+        "label": "bakermckenzie",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5bZpIgm-7B0SeeU99wRef5EUUF1gyDYiBkTBYBz7jwi-Rg0gePqStjypcz7_1KZz5vVKZOE68IoSLrb2n9haEZMy1vXoRWQZpS4HSiT591kAoJ_0QzlWVkolsIE2_yxf_VGTQGzXCU2aDIfm6nC29WPFbMIlDkt6HdeA9ZlcVEHdfDQtfFq5UDD_T_y0fIHil03hot2zU0-_5jn0ZTweQ8ZyrhZwbTuU6Eg=="
+      },
+      {
+        "label": "knobbe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YZ-_Pjn73Wl000otPZsDZp6MVXcmLm6ZP5Ltf6nunUpqWJzaQlJH5YLQzrdRHwPKZSYH1C6-Bt2qmV_hP4ngby71kbSS34JjIBM178lZKMuNcClqjDDZ8Bc_Nhgr2wBUytdbkWf5GKDYYxfC4OH1GW0LUFZkhDggOHNATXhEdMZbSA=="
+      },
+      {
+        "label": "casemed",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzdUaOZ--TxWcp7-emeBv309clerLRCAKyM9108rmpMrWygRVYVncP507SSqQHDKXgzuJsA7kf9hZaXHZn9Yt1JoBPgeo5N9rNqiReCKTQ83opwbbyinauArshc5XaQ8HDXc8MWwL_bfFVqiMkGpZBft-5dH27EHAq9kV0tZIMuuRaYA6noy8dPfiMqFzz-VBTmSW1tphsa1xk"
+      },
+      {
+        "label": "knobbe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YZ-_Pjn73Wl000otPZsDZp6MVXcmLm6ZP5Ltf6nunUpqWJzaQlJH5YLQzrdRHwPKZSYH1C6-Bt2qmV_hP4ngby71kbSS34JjIBM178lZKMuNcClqjDDZ8Bc_Nhgr2wBUytdbkWf5GKDYYxfC4OH1GW0LUFZkhDggOHNATXhEdMZbSA=="
+      },
+      {
+        "label": "knobbe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YZ-_Pjn73Wl000otPZsDZp6MVXcmLm6ZP5Ltf6nunUpqWJzaQlJH5YLQzrdRHwPKZSYH1C6-Bt2qmV_hP4ngby71kbSS34JjIBM178lZKMuNcClqjDDZ8Bc_Nhgr2wBUytdbkWf5GKDYYxfC4OH1GW0LUFZkhDggOHNATXhEdMZbSA=="
+      },
+      {
+        "label": "knobbe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YZ-_Pjn73Wl000otPZsDZp6MVXcmLm6ZP5Ltf6nunUpqWJzaQlJH5YLQzrdRHwPKZSYH1C6-Bt2qmV_hP4ngby71kbSS34JjIBM178lZKMuNcClqjDDZ8Bc_Nhgr2wBUytdbkWf5GKDYYxfC4OH1GW0LUFZkhDggOHNATXhEdMZbSA=="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-wEQlQJMOPFjCBSkvWhxc-wOfUByjcQ0Prg-TVIP0QTnSw3_m6sevLDu3fBUM8YFJ5sdxcRHqWdZnsu5yc-cR9rv5tbKOVK1jNyqcnK6_ZN3o6eRCFiOScAsbU9WsBjNMKWjkNnPgwZOz5Sve3tHle4PjOE0pGfLtgNFI2GnZ8ukm_Fka262v-7u2tUi5XOmvryrK-f1WSrSmYw5_7elDgyUC7aA3zvfftLWP0dPYGhVNxoD88vfTqQeJVw7pniMwo8hq2mzXN232YXaKSxMUcn0PAwwKa5TylO3EBgRFl01Ieyl882335EpkNP-UI7E74dlVlAzW3k1CXQ=="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-wEQlQJMOPFjCBSkvWhxc-wOfUByjcQ0Prg-TVIP0QTnSw3_m6sevLDu3fBUM8YFJ5sdxcRHqWdZnsu5yc-cR9rv5tbKOVK1jNyqcnK6_ZN3o6eRCFiOScAsbU9WsBjNMKWjkNnPgwZOz5Sve3tHle4PjOE0pGfLtgNFI2GnZ8ukm_Fka262v-7u2tUi5XOmvryrK-f1WSrSmYw5_7elDgyUC7aA3zvfftLWP0dPYGhVNxoD88vfTqQeJVw7pniMwo8hq2mzXN232YXaKSxMUcn0PAwwKa5TylO3EBgRFl01Ieyl882335EpkNP-UI7E74dlVlAzW3k1CXQ=="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-wEQlQJMOPFjCBSkvWhxc-wOfUByjcQ0Prg-TVIP0QTnSw3_m6sevLDu3fBUM8YFJ5sdxcRHqWdZnsu5yc-cR9rv5tbKOVK1jNyqcnK6_ZN3o6eRCFiOScAsbU9WsBjNMKWjkNnPgwZOz5Sve3tHle4PjOE0pGfLtgNFI2GnZ8ukm_Fka262v-7u2tUi5XOmvryrK-f1WSrSmYw5_7elDgyUC7aA3zvfftLWP0dPYGhVNxoD88vfTqQeJVw7pniMwo8hq2mzXN232YXaKSxMUcn0PAwwKa5TylO3EBgRFl01Ieyl882335EpkNP-UI7E74dlVlAzW3k1CXQ=="
+      },
+      {
+        "label": "futunn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbnDU7RyI8WoYemFxCtEBHTz-ekT62rUCb3ejxhSjReG--duMzcj4DkfV6jDS75HHgfYW4LhJajPLWUiZO11LcvbVrB_8InGrtrZPoMWh5gWJEj-VHzukwHF3qswQP5x41H09HwkVwQDvvzL9ey4T7TyMsfUdtb42KsjToNo8Qgfs3WNsCoPSpCbIwKMSmV6buzLB5fP72YRAJWTng_MhXllLye8xE8gTa"
+      },
+      {
+        "label": "futunn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbnDU7RyI8WoYemFxCtEBHTz-ekT62rUCb3ejxhSjReG--duMzcj4DkfV6jDS75HHgfYW4LhJajPLWUiZO11LcvbVrB_8InGrtrZPoMWh5gWJEj-VHzukwHF3qswQP5x41H09HwkVwQDvvzL9ey4T7TyMsfUdtb42KsjToNo8Qgfs3WNsCoPSpCbIwKMSmV6buzLB5fP72YRAJWTng_MhXllLye8xE8gTa"
+      },
+      {
+        "label": "knobbe",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YZ-_Pjn73Wl000otPZsDZp6MVXcmLm6ZP5Ltf6nunUpqWJzaQlJH5YLQzrdRHwPKZSYH1C6-Bt2qmV_hP4ngby71kbSS34JjIBM178lZKMuNcClqjDDZ8Bc_Nhgr2wBUytdbkWf5GKDYYxfC4OH1GW0LUFZkhDggOHNATXhEdMZbSA=="
+      },
+      {
+        "label": "gmfus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlYlmTIS-Yz2lJXWQJk8o9BVBH70D-hb0i3kGzIUrAqH_D0pPzm_ZFBXdDQyO3KtVWDG1txuov5xq6uD35KGSIW2vhBl2nCdkJZecXP9v0L_Z1naiq5EyoZscqgluV_bYNncYs"
+      },
+      {
+        "label": "thomsonreuters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUplF7so3ud011zhkgLhq_v2XYEa6_rvnSJqQLtalohtUOFfT-GD4a6vYjN_d8gwCQ0DKhOoki6_-USurE8Lv6pbbv35oejN_Om5STfeLJw8e96zxs5vwdez1aEQKqanEa2ZLmBheq0cV1SrC-j5YDZHsh6Y_it8HxteKfS129GC7FDakWDpF_mPF2-FK"
+      },
+      {
+        "label": "thomsonreuters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUplF7so3ud011zhkgLhq_v2XYEa6_rvnSJqQLtalohtUOFfT-GD4a6vYjN_d8gwCQ0DKhOoki6_-USurE8Lv6pbbv35oejN_Om5STfeLJw8e96zxs5vwdez1aEQKqanEa2ZLmBheq0cV1SrC-j5YDZHsh6Y_it8HxteKfS129GC7FDakWDpF_mPF2-FK"
+      },
+      {
+        "label": "thomsonreuters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUplF7so3ud011zhkgLhq_v2XYEa6_rvnSJqQLtalohtUOFfT-GD4a6vYjN_d8gwCQ0DKhOoki6_-USurE8Lv6pbbv35oejN_Om5STfeLJw8e96zxs5vwdez1aEQKqanEa2ZLmBheq0cV1SrC-j5YDZHsh6Y_it8HxteKfS129GC7FDakWDpF_mPF2-FK"
+      },
+      {
+        "label": "thomsonreuters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUplF7so3ud011zhkgLhq_v2XYEa6_rvnSJqQLtalohtUOFfT-GD4a6vYjN_d8gwCQ0DKhOoki6_-USurE8Lv6pbbv35oejN_Om5STfeLJw8e96zxs5vwdez1aEQKqanEa2ZLmBheq0cV1SrC-j5YDZHsh6Y_it8HxteKfS129GC7FDakWDpF_mPF2-FK"
+      },
+      {
+        "label": "scmr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGft0PovGlPpfdTUCI-taIyebpP_NitMOwv09g5jVVXd2DpEmFpgNI8SdxcQEUHjFXbUgffX8k38lV8XUybWNt9zzhqIHbaoQ9kn5ocJq4YxnnLT-OZvaicxhTtArxiROj9W4WClckUF8gEPgK4ytNX55mCPGL7_N3BPnLsTDac4pztbfmxPWth7En8S8sC"
+      },
+      {
+        "label": "thomsonreuters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUplF7so3ud011zhkgLhq_v2XYEa6_rvnSJqQLtalohtUOFfT-GD4a6vYjN_d8gwCQ0DKhOoki6_-USurE8Lv6pbbv35oejN_Om5STfeLJw8e96zxs5vwdez1aEQKqanEa2ZLmBheq0cV1SrC-j5YDZHsh6Y_it8HxteKfS129GC7FDakWDpF_mPF2-FK"
+      },
+      {
+        "label": "thomsonreuters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUplF7so3ud011zhkgLhq_v2XYEa6_rvnSJqQLtalohtUOFfT-GD4a6vYjN_d8gwCQ0DKhOoki6_-USurE8Lv6pbbv35oejN_Om5STfeLJw8e96zxs5vwdez1aEQKqanEa2ZLmBheq0cV1SrC-j5YDZHsh6Y_it8HxteKfS129GC7FDakWDpF_mPF2-FK"
+      },
+      {
+        "label": "thomsonreuters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUplF7so3ud011zhkgLhq_v2XYEa6_rvnSJqQLtalohtUOFfT-GD4a6vYjN_d8gwCQ0DKhOoki6_-USurE8Lv6pbbv35oejN_Om5STfeLJw8e96zxs5vwdez1aEQKqanEa2ZLmBheq0cV1SrC-j5YDZHsh6Y_it8HxteKfS129GC7FDakWDpF_mPF2-FK"
+      },
+      {
+        "label": "thomsonreuters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUplF7so3ud011zhkgLhq_v2XYEa6_rvnSJqQLtalohtUOFfT-GD4a6vYjN_d8gwCQ0DKhOoki6_-USurE8Lv6pbbv35oejN_Om5STfeLJw8e96zxs5vwdez1aEQKqanEa2ZLmBheq0cV1SrC-j5YDZHsh6Y_it8HxteKfS129GC7FDakWDpF_mPF2-FK"
+      },
+      {
+        "label": "thomsonreuters",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUplF7so3ud011zhkgLhq_v2XYEa6_rvnSJqQLtalohtUOFfT-GD4a6vYjN_d8gwCQ0DKhOoki6_-USurE8Lv6pbbv35oejN_Om5STfeLJw8e96zxs5vwdez1aEQKqanEa2ZLmBheq0cV1SrC-j5YDZHsh6Y_it8HxteKfS129GC7FDakWDpF_mPF2-FK"
+      },
+      {
+        "label": "simon-kucher",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM4MvXrk0uy6E3uyMjU-fJhW9GKXLQ7O7ynzjKwwlnjVjGRRtBX2JzwRnesUBY473LG7QXTZv3jRYzD7TfppNdGwLCfsYlsx8TL1QwQ5MG_iZFm2vu_6EDCjB4ccjfad9BjbJun4apUELvu1ZLllUjIzGcEy-jKp7cGRt_aqwNG61YkSmDzDTbujSe_4Q="
+      },
+      {
+        "label": "aimms",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELLfrKNjhFA73qtNBuxrf_cBN9XteQvkPcQkzEqhpGN_SsHgkmLjZa_c6OIVPJiNgri3EDh2zCP81s12kwegDBgGBEl6Rhjno7AQSW9d9CnsKXDXBKoYcX9do00tFSWoM2bcDP9gB8M6xSrmaSttArl0IF1XZTEto5CDNsk_W4CIvovJ2R4NQZ6Kst"
+      },
+      {
+        "label": "imec",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAk7IcKoi9GoSGLwVCbvDpGMSf79JbtVSRF9-qcWCg33VWJIEh0pxmGaxo2mLQOcfC3SCg5hutwPZmNuM6C3vtAQU_Qoj3ZC80Bpfi6Rb0XUSjOlZX3_QY1RHv6453Uo8rvUdojuTbiu1gv34KsH6PMRpZPZu-6xUK"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeoZthITcW5KoFUEmi6lIUaA3IlRRf0DeX9dxvGjfseYGQqQC2FtL8R47E7jW9PGaQrdQ1mWdCQIROz16XJkgralftZO156KgDfDHJLtpcXvZPAGwRRHiP1c67RYtQa3aZPalTl8K9r-hJ1KB3RCklAd0GOilNuHaMubJOdwr5YIJzD4JzvVFJwfwiGbTQOg9mJ8E="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeoZthITcW5KoFUEmi6lIUaA3IlRRf0DeX9dxvGjfseYGQqQC2FtL8R47E7jW9PGaQrdQ1mWdCQIROz16XJkgralftZO156KgDfDHJLtpcXvZPAGwRRHiP1c67RYtQa3aZPalTl8K9r-hJ1KB3RCklAd0GOilNuHaMubJOdwr5YIJzD4JzvVFJwfwiGbTQOg9mJ8E="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeoZthITcW5KoFUEmi6lIUaA3IlRRf0DeX9dxvGjfseYGQqQC2FtL8R47E7jW9PGaQrdQ1mWdCQIROz16XJkgralftZO156KgDfDHJLtpcXvZPAGwRRHiP1c67RYtQa3aZPalTl8K9r-hJ1KB3RCklAd0GOilNuHaMubJOdwr5YIJzD4JzvVFJwfwiGbTQOg9mJ8E="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeoZthITcW5KoFUEmi6lIUaA3IlRRf0DeX9dxvGjfseYGQqQC2FtL8R47E7jW9PGaQrdQ1mWdCQIROz16XJkgralftZO156KgDfDHJLtpcXvZPAGwRRHiP1c67RYtQa3aZPalTl8K9r-hJ1KB3RCklAd0GOilNuHaMubJOdwr5YIJzD4JzvVFJwfwiGbTQOg9mJ8E="
+      },
+      {
+        "label": "scmr",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGft0PovGlPpfdTUCI-taIyebpP_NitMOwv09g5jVVXd2DpEmFpgNI8SdxcQEUHjFXbUgffX8k38lV8XUybWNt9zzhqIHbaoQ9kn5ocJq4YxnnLT-OZvaicxhTtArxiROj9W4WClckUF8gEPgK4ytNX55mCPGL7_N3BPnLsTDac4pztbfmxPWth7En8S8sC"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeoZthITcW5KoFUEmi6lIUaA3IlRRf0DeX9dxvGjfseYGQqQC2FtL8R47E7jW9PGaQrdQ1mWdCQIROz16XJkgralftZO156KgDfDHJLtpcXvZPAGwRRHiP1c67RYtQa3aZPalTl8K9r-hJ1KB3RCklAd0GOilNuHaMubJOdwr5YIJzD4JzvVFJwfwiGbTQOg9mJ8E="
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8IEMF0u-D5t_yUKcZ4AdTWQnvIzwSFxP6L4UarGz6QhZOGN4pYCK9odiVTotEQyL_6rEL9DC9Giqxw-dvpF77VZsvjKAJr1dGDyjM4rLS9RrIAQCNTTsoVk901pJryyVkCi0HeeIVFuT2Uyg2nJzLAGb9dVWnObXVyich872EaqGtKbddzTLOzdQOgAzCVZa34QrzSlzRg7RBfJOtbaa6oxeUlcQ="
+      },
+      {
+        "label": "forbes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8IEMF0u-D5t_yUKcZ4AdTWQnvIzwSFxP6L4UarGz6QhZOGN4pYCK9odiVTotEQyL_6rEL9DC9Giqxw-dvpF77VZsvjKAJr1dGDyjM4rLS9RrIAQCNTTsoVk901pJryyVkCi0HeeIVFuT2Uyg2nJzLAGb9dVWnObXVyich872EaqGtKbddzTLOzdQOgAzCVZa34QrzSlzRg7RBfJOtbaa6oxeUlcQ="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl0hUEW2drSrECTuew13uL75rHSfVGSx7JBLDcNYs_ppL-Talx5YV5GdI2JgQRvknfE5kNdTnwBAXSqK7OQSd1C9nv_pJjBt0dkhi3cPxaT7U137G0YliAZV5AshtzamVs3qjKnQ7vz7mDbsNhUVygWQbPghaWhUxTPBk_xT6o1ai5g16gMY4fxizRnymM042tNX1iD38s2_fESxQWkDxibw=="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl0hUEW2drSrECTuew13uL75rHSfVGSx7JBLDcNYs_ppL-Talx5YV5GdI2JgQRvknfE5kNdTnwBAXSqK7OQSd1C9nv_pJjBt0dkhi3cPxaT7U137G0YliAZV5AshtzamVs3qjKnQ7vz7mDbsNhUVygWQbPghaWhUxTPBk_xT6o1ai5g16gMY4fxizRnymM042tNX1iD38s2_fESxQWkDxibw=="
+      },
+      {
+        "label": "davron",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVTFzQHzPEiKvRK1o7mxIE6cOwvcdt6nWYkagg9pt6lmdBfgN1kNttusNP7fyconlTZRYVKgiLj3Kvl7vJS7_dk-TrXNkeuAvccPZXyFhfvfMnOya0TgsHxMExoDIIFU3Bcy72-PoNjE_RnMxME2GD8TkUcbeXDQ_sfN5v_gdx2mTbkjGbdpPvcaLGtOc_a25eJH7sRL5jiuU="
+      },
+      {
+        "label": "davron",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVTFzQHzPEiKvRK1o7mxIE6cOwvcdt6nWYkagg9pt6lmdBfgN1kNttusNP7fyconlTZRYVKgiLj3Kvl7vJS7_dk-TrXNkeuAvccPZXyFhfvfMnOya0TgsHxMExoDIIFU3Bcy72-PoNjE_RnMxME2GD8TkUcbeXDQ_sfN5v_gdx2mTbkjGbdpPvcaLGtOc_a25eJH7sRL5jiuU="
+      },
+      {
+        "label": "isg-one",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWFQmfsEnGTtINNfJsqz37ESwIwkvjV6RWGrRyPyczA35zpjLyFWcEo6wWNCij-bwXGhQoz6GvMvVqME6tjiX__jxpohXZ27Pdm5UjVjJCs38b9IavtsMsHH-FfveoN1yGBwZyV5cGaFbGomA1UlFvb-yH9D7aPLncCTuiH5F0MSBckt5Cf_aLe3HhCWiLktp25AUjLcEBwjS5"
+      },
+      {
+        "label": "morningstar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEo4FHLi7ZDhLxFuDKQbBl2horp4SCPMRsRPWE_FPLzYx3Ja2ppnKpD0kSkK_iMjVTUDZMfX8pri9psbvVbCVs_RA5UFrVLPMqIug3oTdRw3DalFLvX26iv2T3MrJxwCa51DHcJGQgUWR30n2_QjjePD021gPHASKkTrI1nq2q3aKsXNKQ="
+      },
+      {
+        "label": "morningstar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEo4FHLi7ZDhLxFuDKQbBl2horp4SCPMRsRPWE_FPLzYx3Ja2ppnKpD0kSkK_iMjVTUDZMfX8pri9psbvVbCVs_RA5UFrVLPMqIug3oTdRw3DalFLvX26iv2T3MrJxwCa51DHcJGQgUWR30n2_QjjePD021gPHASKkTrI1nq2q3aKsXNKQ="
+      },
+      {
+        "label": "claconnect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLtCgy-kO186PZo7Hai96EUnBqh31vT003wMvazKdlDwZS7J4KRmCy65Y8ChLK8xrsP4S8mhjgWsU2NDM8-KqLzjbnOJgoPngLpvtDcp8U5Yqir9UBOfYywwo22ZbwyIsEL50Fdl-zLgalc4dDWoeVudZvgkuE3cYlrBKHjgRLRzhxhepiMKojePTuGwdDkbf3lHJobEH11ofsjCd5XxM3qtCEcw=="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOmiDB72F72RE1NALux4OHSm2GNtDKUsHmCscgjvvmXGS4uak1M-SGa95ziF39piaieOdtLQeBByrMa_nYktD0TlCneXH0H3lYif8TefQ07OWzh0A-K2T7Yo903_i_pOKNw-a65_otcoJKPT14tUSycI8y8rSulkDFCrA2DyXtxOce3ifIXynqWlMl"
+      },
+      {
+        "label": "anchin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTL6yBAeizE0I68-d_dxANRvB2Njd7bHEtsaGGXe8uYzFmAjIjUSaYSsaM9Fb3Ro9oCMjd1AcCGmu-SuEn1jAQ9Rf0guWC8sylloi6DbKNQV0kP-U_dqKAYwTkVSriIfQBpfO9HXNA2emuSXnqbrFfzJN7oJ41-lnuQfwzpFTIZSbRBxP8Z5qSzpMgIKac8MF_q4NMd2yfw_f_hXPPfnULNZUlY9pt"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6Bnrx3pKC2Qb_Kd1S1KCE1oSNWtSCI3GFj1Xv83FtEXOxdbeUTve-yEcR7LWPZY9jdJfV_MOQhlwrJEatfyAlfhFA5fGAzpVoy21U2ueV7kaC62vo3OY2FIi2-wcvV6DZt4azCXb-ehtqP_E9MjxvlUmbqCoyjgbeAKn9jM3mpmckBb2ASeLrV2jJEAvVh2nJAmC"
+      },
+      {
+        "label": "claconnect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLtCgy-kO186PZo7Hai96EUnBqh31vT003wMvazKdlDwZS7J4KRmCy65Y8ChLK8xrsP4S8mhjgWsU2NDM8-KqLzjbnOJgoPngLpvtDcp8U5Yqir9UBOfYywwo22ZbwyIsEL50Fdl-zLgalc4dDWoeVudZvgkuE3cYlrBKHjgRLRzhxhepiMKojePTuGwdDkbf3lHJobEH11ofsjCd5XxM3qtCEcw=="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6Bnrx3pKC2Qb_Kd1S1KCE1oSNWtSCI3GFj1Xv83FtEXOxdbeUTve-yEcR7LWPZY9jdJfV_MOQhlwrJEatfyAlfhFA5fGAzpVoy21U2ueV7kaC62vo3OY2FIi2-wcvV6DZt4azCXb-ehtqP_E9MjxvlUmbqCoyjgbeAKn9jM3mpmckBb2ASeLrV2jJEAvVh2nJAmC"
+      },
+      {
+        "label": "claconnect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLtCgy-kO186PZo7Hai96EUnBqh31vT003wMvazKdlDwZS7J4KRmCy65Y8ChLK8xrsP4S8mhjgWsU2NDM8-KqLzjbnOJgoPngLpvtDcp8U5Yqir9UBOfYywwo22ZbwyIsEL50Fdl-zLgalc4dDWoeVudZvgkuE3cYlrBKHjgRLRzhxhepiMKojePTuGwdDkbf3lHJobEH11ofsjCd5XxM3qtCEcw=="
+      },
+      {
+        "label": "epowercorp",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGB5IPZvf2h2dvtawGaFqtJNP7bOr8wvaQL7YIDYLEupxqTr2b9e8K9P9au_QZ9_smkhodaOgg4eRW-ScSusXe34_KuQI82CYyOK9BZpW8MFk2FUrwSChqbOf1qa0pWvkupAa0go88nxLY7Py6UpnoLKlNyeYxa4llqyimNWB0tUCyCN6naVo-ajZKfpStl1WF0kLtYS5Ef49ShuOdL2KDOtCUokDA9-dZ9Hwtv"
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_kSnoR6ejgCP0bR1aV7UePN7xUQSr8Udt2cvV1VSVdH8I3Rz3snybUEaGPQy_Xurx5-AQONHzQyMJsnaREhZP49PN4XjJZbHpPvhBLQmKbznkgcQFec3zje1JRzD8d9chxFfQ5tmaWz0HZzX0fVHzxhX_VO6nPxFLJ0e5rQaBugaFolbemmft9qHN4dK2kA=="
+      },
+      {
+        "label": "xtransfer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEx95r_7KVH-Jf-AT64ZKPPfqKcnLQNJer7aVJ_rB0p99f1S6msRTzyTUNZPGBnsjp1UZTF0GtkE9DWvyQh_uiDY6B0efh_gd9POCa096YhR22kKZeO1GtCQGADkCa41tpc3FFbc1f4l7iY6dnEaY_xIPHZOWlqLq8xbE="
+      },
+      {
+        "label": "ig",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqOQu6aTK_bxV192An4drqGN_bbI-b7WmSbfm2wTFKQaieuBGJrk4w97TxRrfddLy6HkS7iriZj-hyXawJnXfRFl-EyrHZHAmw8hEsxE8k7f24zTUK6VIKy5W7DCY5FTTLpfBwK9l6jyC8aCLVYaYoSK8eHeufcpxREZMsMaHLV9QUDXDd02h3"
+      },
+      {
+        "label": "ing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoKwyznA-U7GXMZKKoeHxzWD0k7GG6xLURTZCrK7pmTjLmIE2hwa8lUBwrFGbAQsLgt4f8TED-Ta1qqQbBTAzudQsv9e_2hplajnYx4QqTp448HxuDga_2RPTZUygeRWOHZPpwkjjPpgxYKHOyvm9zxAz4iQgJCV6_-d9WCtYELvZI9OhEoCfe"
+      },
+      {
+        "label": "ig",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqOQu6aTK_bxV192An4drqGN_bbI-b7WmSbfm2wTFKQaieuBGJrk4w97TxRrfddLy6HkS7iriZj-hyXawJnXfRFl-EyrHZHAmw8hEsxE8k7f24zTUK6VIKy5W7DCY5FTTLpfBwK9l6jyC8aCLVYaYoSK8eHeufcpxREZMsMaHLV9QUDXDd02h3"
+      },
+      {
+        "label": "anchin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTL6yBAeizE0I68-d_dxANRvB2Njd7bHEtsaGGXe8uYzFmAjIjUSaYSsaM9Fb3Ro9oCMjd1AcCGmu-SuEn1jAQ9Rf0guWC8sylloi6DbKNQV0kP-U_dqKAYwTkVSriIfQBpfO9HXNA2emuSXnqbrFfzJN7oJ41-lnuQfwzpFTIZSbRBxP8Z5qSzpMgIKac8MF_q4NMd2yfw_f_hXPPfnULNZUlY9pt"
+      },
+      {
+        "label": "xtransfer",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEx95r_7KVH-Jf-AT64ZKPPfqKcnLQNJer7aVJ_rB0p99f1S6msRTzyTUNZPGBnsjp1UZTF0GtkE9DWvyQh_uiDY6B0efh_gd9POCa096YhR22kKZeO1GtCQGADkCa41tpc3FFbc1f4l7iY6dnEaY_xIPHZOWlqLq8xbE="
+      },
+      {
+        "label": "claconnect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLtCgy-kO186PZo7Hai96EUnBqh31vT003wMvazKdlDwZS7J4KRmCy65Y8ChLK8xrsP4S8mhjgWsU2NDM8-KqLzjbnOJgoPngLpvtDcp8U5Yqir9UBOfYywwo22ZbwyIsEL50Fdl-zLgalc4dDWoeVudZvgkuE3cYlrBKHjgRLRzhxhepiMKojePTuGwdDkbf3lHJobEH11ofsjCd5XxM3qtCEcw=="
+      },
+      {
+        "label": "investing",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3pmbcXiYWYi5c2VrUyBN8MKAPKK3JAiiaZORxLjDtVo3B83_KJ0N71wwDTjq-6K32udxYlPUFYO6g44z5lxdOu4VJx8XE916d9vnazKIH_XGEaBE2Zy32ItxG8mp00_SYz_MsY8YzFGperCEXOjv2mK3O1l_BxB8kqg8qKg=="
+      },
+      {
+        "label": "claconnect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLtCgy-kO186PZo7Hai96EUnBqh31vT003wMvazKdlDwZS7J4KRmCy65Y8ChLK8xrsP4S8mhjgWsU2NDM8-KqLzjbnOJgoPngLpvtDcp8U5Yqir9UBOfYywwo22ZbwyIsEL50Fdl-zLgalc4dDWoeVudZvgkuE3cYlrBKHjgRLRzhxhepiMKojePTuGwdDkbf3lHJobEH11ofsjCd5XxM3qtCEcw=="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6Bnrx3pKC2Qb_Kd1S1KCE1oSNWtSCI3GFj1Xv83FtEXOxdbeUTve-yEcR7LWPZY9jdJfV_MOQhlwrJEatfyAlfhFA5fGAzpVoy21U2ueV7kaC62vo3OY2FIi2-wcvV6DZt4azCXb-ehtqP_E9MjxvlUmbqCoyjgbeAKn9jM3mpmckBb2ASeLrV2jJEAvVh2nJAmC"
+      },
+      {
+        "label": "futunn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJEoxUsp0QqW194w5GXht-RJZB8UL9a2Judh0f3JsG9GY7uOTJpv2j2RR_Gvinib6dRWaYmm54i0grfOSlB2Q3-AMWVztLFqtDIKqh6qeJBsjx-8ozKuEzZ3cD8_wDUnJbnTeC"
+      },
+      {
+        "label": "canalys",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5RfJ5fS0kzy54ZWKNYBQuDQ4oRmJvxr8-ijD1FIthhVzeM8qLSRrC-h-Zijamw4223y_gXumoji1lZCP8viCz1NnuZBdEJOWFuh2G930zpVWgZ-nelCfwYv-z7puEWx88ew=="
+      },
+      {
+        "label": "anchin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTL6yBAeizE0I68-d_dxANRvB2Njd7bHEtsaGGXe8uYzFmAjIjUSaYSsaM9Fb3Ro9oCMjd1AcCGmu-SuEn1jAQ9Rf0guWC8sylloi6DbKNQV0kP-U_dqKAYwTkVSriIfQBpfO9HXNA2emuSXnqbrFfzJN7oJ41-lnuQfwzpFTIZSbRBxP8Z5qSzpMgIKac8MF_q4NMd2yfw_f_hXPPfnULNZUlY9pt"
+      },
+      {
+        "label": "anchin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTL6yBAeizE0I68-d_dxANRvB2Njd7bHEtsaGGXe8uYzFmAjIjUSaYSsaM9Fb3Ro9oCMjd1AcCGmu-SuEn1jAQ9Rf0guWC8sylloi6DbKNQV0kP-U_dqKAYwTkVSriIfQBpfO9HXNA2emuSXnqbrFfzJN7oJ41-lnuQfwzpFTIZSbRBxP8Z5qSzpMgIKac8MF_q4NMd2yfw_f_hXPPfnULNZUlY9pt"
+      },
+      {
+        "label": "canalys",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5RfJ5fS0kzy54ZWKNYBQuDQ4oRmJvxr8-ijD1FIthhVzeM8qLSRrC-h-Zijamw4223y_gXumoji1lZCP8viCz1NnuZBdEJOWFuh2G930zpVWgZ-nelCfwYv-z7puEWx88ew=="
+      },
+      {
+        "label": "anchin",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTL6yBAeizE0I68-d_dxANRvB2Njd7bHEtsaGGXe8uYzFmAjIjUSaYSsaM9Fb3Ro9oCMjd1AcCGmu-SuEn1jAQ9Rf0guWC8sylloi6DbKNQV0kP-U_dqKAYwTkVSriIfQBpfO9HXNA2emuSXnqbrFfzJN7oJ41-lnuQfwzpFTIZSbRBxP8Z5qSzpMgIKac8MF_q4NMd2yfw_f_hXPPfnULNZUlY9pt"
+      },
+      {
+        "label": "ig",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqOQu6aTK_bxV192An4drqGN_bbI-b7WmSbfm2wTFKQaieuBGJrk4w97TxRrfddLy6HkS7iriZj-hyXawJnXfRFl-EyrHZHAmw8hEsxE8k7f24zTUK6VIKy5W7DCY5FTTLpfBwK9l6jyC8aCLVYaYoSK8eHeufcpxREZMsMaHLV9QUDXDd02h3"
+      },
+      {
+        "label": "jpmorgan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuAcKdTXvOgu9jqQUMLfm-W4J0mfuXsJGHGg2qVcOhmh9UGpNQ_gbRfNvRMseswvGrUpYoF_0gpr-g8BJcIRzIfrymEstmLpQQ_Nadt8PiNU1yoIMtvdoCM6Qpl1kiSNQwFJYtNxVXPfRiOMWxgPZ3iBIJtPyBkexNZqpIh0WYAkxS3n_44Q=="
+      },
+      {
+        "label": "ig",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqOQu6aTK_bxV192An4drqGN_bbI-b7WmSbfm2wTFKQaieuBGJrk4w97TxRrfddLy6HkS7iriZj-hyXawJnXfRFl-EyrHZHAmw8hEsxE8k7f24zTUK6VIKy5W7DCY5FTTLpfBwK9l6jyC8aCLVYaYoSK8eHeufcpxREZMsMaHLV9QUDXDd02h3"
+      },
+      {
+        "label": "jpmorgan",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuAcKdTXvOgu9jqQUMLfm-W4J0mfuXsJGHGg2qVcOhmh9UGpNQ_gbRfNvRMseswvGrUpYoF_0gpr-g8BJcIRzIfrymEstmLpQQ_Nadt8PiNU1yoIMtvdoCM6Qpl1kiSNQwFJYtNxVXPfRiOMWxgPZ3iBIJtPyBkexNZqpIh0WYAkxS3n_44Q=="
+      },
+      {
+        "label": "nasdaq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOmiDB72F72RE1NALux4OHSm2GNtDKUsHmCscgjvvmXGS4uak1M-SGa95ziF39piaieOdtLQeBByrMa_nYktD0TlCneXH0H3lYif8TefQ07OWzh0A-K2T7Yo903_i_pOKNw-a65_otcoJKPT14tUSycI8y8rSulkDFCrA2DyXtxOce3ifIXynqWlMl"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6Bnrx3pKC2Qb_Kd1S1KCE1oSNWtSCI3GFj1Xv83FtEXOxdbeUTve-yEcR7LWPZY9jdJfV_MOQhlwrJEatfyAlfhFA5fGAzpVoy21U2ueV7kaC62vo3OY2FIi2-wcvV6DZt4azCXb-ehtqP_E9MjxvlUmbqCoyjgbeAKn9jM3mpmckBb2ASeLrV2jJEAvVh2nJAmC"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6Bnrx3pKC2Qb_Kd1S1KCE1oSNWtSCI3GFj1Xv83FtEXOxdbeUTve-yEcR7LWPZY9jdJfV_MOQhlwrJEatfyAlfhFA5fGAzpVoy21U2ueV7kaC62vo3OY2FIi2-wcvV6DZt4azCXb-ehtqP_E9MjxvlUmbqCoyjgbeAKn9jM3mpmckBb2ASeLrV2jJEAvVh2nJAmC"
+      },
+      {
+        "label": "ig",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqOQu6aTK_bxV192An4drqGN_bbI-b7WmSbfm2wTFKQaieuBGJrk4w97TxRrfddLy6HkS7iriZj-hyXawJnXfRFl-EyrHZHAmw8hEsxE8k7f24zTUK6VIKy5W7DCY5FTTLpfBwK9l6jyC8aCLVYaYoSK8eHeufcpxREZMsMaHLV9QUDXDd02h3"
+      },
+      {
+        "label": "ig",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqOQu6aTK_bxV192An4drqGN_bbI-b7WmSbfm2wTFKQaieuBGJrk4w97TxRrfddLy6HkS7iriZj-hyXawJnXfRFl-EyrHZHAmw8hEsxE8k7f24zTUK6VIKy5W7DCY5FTTLpfBwK9l6jyC8aCLVYaYoSK8eHeufcpxREZMsMaHLV9QUDXDd02h3"
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/3-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6Bnrx3pKC2Qb_Kd1S1KCE1oSNWtSCI3GFj1Xv83FtEXOxdbeUTve-yEcR7LWPZY9jdJfV_MOQhlwrJEatfyAlfhFA5fGAzpVoy21U2ueV7kaC62vo3OY2FIi2-wcvV6DZt4azCXb-ehtqP_E9MjxvlUmbqCoyjgbeAKn9jM3mpmckBb2ASeLrV2jJEAvVh2nJAmC"
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlMBfcwWpKve98M99HsB-VuxWYnyXInTXLJ4Ei-_vfZLhyHysV2Wd4uCPlqFN2hHFlG5q826XC5kzyyUloPATDlJbNB-tsFwK5cSK1ZRtHkiGUJg1-WCRSsZBEu936MMmhuOZQnre6kki7ztDsxphz-mvplCsEQ1lpLBDSudcEkN9YdNctdD7_zhvzJbMgSi9pfg=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlMBfcwWpKve98M99HsB-VuxWYnyXInTXLJ4Ei-_vfZLhyHysV2Wd4uCPlqFN2hHFlG5q826XC5kzyyUloPATDlJbNB-tsFwK5cSK1ZRtHkiGUJg1-WCRSsZBEu936MMmhuOZQnre6kki7ztDsxphz-mvplCsEQ1lpLBDSudcEkN9YdNctdD7_zhvzJbMgSi9pfg=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlMBfcwWpKve98M99HsB-VuxWYnyXInTXLJ4Ei-_vfZLhyHysV2Wd4uCPlqFN2hHFlG5q826XC5kzyyUloPATDlJbNB-tsFwK5cSK1ZRtHkiGUJg1-WCRSsZBEu936MMmhuOZQnre6kki7ztDsxphz-mvplCsEQ1lpLBDSudcEkN9YdNctdD7_zhvzJbMgSi9pfg=="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD4zG7lAIc-4GOHjL7crbKRNEfGu-emWvQDt--vO-2nbU6xYEjt7bd6NQNEIqNCWGIWo_H2tC6tD11njEoqMzMLQvlMV0UGEuFiyCkz2oeZb2awJChM7qfW0zdwsZ1W6svRqlEJXZYDalTxP_M7znRPARi8VxOW5hJsOt4-9W7TdSgync1tXzbNgbw03FFZdHE2E66sEe3arsJwlqeXdz9wA="
+      },
+      {
+        "label": "moomoo",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE32SakwjTwMZKLL1naosL1wdEsm9cpMAHcU69a5DMqDACrOdNAgH21AYKH7IZZ8RCQTLGyt5sdqfoeTJdnIiLOsr9I_2cuXaBKMAVTpogOzHO62p21wETrVIyEqwCJuzniux6eOWsE8mYRDnsiGZ43knQV-dhYW8ojbIaEWZ3MnP3VZ8EiWeqMIjgsRqvNnGgQBJCqeXah-uCf4GPUGlCMHvK3FLb-yb0_Dw=="
+      },
+      {
+        "label": "marketscreener",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlMBfcwWpKve98M99HsB-VuxWYnyXInTXLJ4Ei-_vfZLhyHysV2Wd4uCPlqFN2hHFlG5q826XC5kzyyUloPATDlJbNB-tsFwK5cSK1ZRtHkiGUJg1-WCRSsZBEu936MMmhuOZQnre6kki7ztDsxphz-mvplCsEQ1lpLBDSudcEkN9YdNctdD7_zhvzJbMgSi9pfg=="
+      },
+      {
+        "label": "stockinvest",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvzx6IOzkTqXiQ1vmqRHMPEhWMD1p4y1IYiDBuo5pGOlZAi6JzXL_bZvUn_mntMzYHx9gxif9_sp_yREd2x1jJFvJhaUVKpeohVqv80he_EtLu8ua5fr9LVrqxZ9Dm00KkPk6uwH2hJjNT6IAkWT4AORM="
+      },
+      {
+        "label": "smartkarma",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7_l_r6d-enQdLuerVAaWHD-syAYm-Tml2t_qpGMD3u5KX7hcIu2QBxj--OmXsCgB-YYjJv9B6tDtX5UXWj3a_D5eMAn_pxJNfTbtRZoYmTUfDNF4Eo64j2dCTb9QdYOhOiAAP6v9HXCP2eDjdZ-3xer7uWEOn8KVHxuEdAJ9jk2Yf-KP-jjCzNSLuFpLH_H1slOjQo4r72Ry83_yPQsC6dZ0l3IhW--wtpv49PriHTp53Wt4uWCRc8rGES3V_o3MQqO7pTSG8alK5mK_7qdpsKLkm4SS-SC8MkOA="
+      },
+      {
+        "label": "smartkarma",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/4-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7_l_r6d-enQdLuerVAaWHD-syAYm-Tml2t_qpGMD3u5KX7hcIu2QBxj--OmXsCgB-YYjJv9B6tDtX5UXWj3a_D5eMAn_pxJNfTbtRZoYmTUfDNF4Eo64j2dCTb9QdYOhOiAAP6v9HXCP2eDjdZ-3xer7uWEOn8KVHxuEdAJ9jk2Yf-KP-jjCzNSLuFpLH_H1slOjQo4r72Ry83_yPQsC6dZ0l3IhW--wtpv49PriHTp53Wt4uWCRc8rGES3V_o3MQqO7pTSG8alK5mK_7qdpsKLkm4SS-SC8MkOA="
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5H7M_wX4kp93iH1ll2-YwMZfW-P--nuSKkqlBLAqN2UeFm42XWsQPxDljYRdHF95TRzz9Zlzn_X7JJAT-GkS_Dp1fMKwwyK6sgeWE7dNrMWwPxN5scqoGWzEl_TBRh8T_1EAizc-5I9AMl35clV5IIxsZqSRa0bT25MlM8nVCoxpAEr7Jj9obu2G1T0Wx67k-Zk1HqeC2rRuFUhUXE89DJ4GBLn0_QQHfrg=="
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5H7M_wX4kp93iH1ll2-YwMZfW-P--nuSKkqlBLAqN2UeFm42XWsQPxDljYRdHF95TRzz9Zlzn_X7JJAT-GkS_Dp1fMKwwyK6sgeWE7dNrMWwPxN5scqoGWzEl_TBRh8T_1EAizc-5I9AMl35clV5IIxsZqSRa0bT25MlM8nVCoxpAEr7Jj9obu2G1T0Wx67k-Zk1HqeC2rRuFUhUXE89DJ4GBLn0_QQHfrg=="
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5H7M_wX4kp93iH1ll2-YwMZfW-P--nuSKkqlBLAqN2UeFm42XWsQPxDljYRdHF95TRzz9Zlzn_X7JJAT-GkS_Dp1fMKwwyK6sgeWE7dNrMWwPxN5scqoGWzEl_TBRh8T_1EAizc-5I9AMl35clV5IIxsZqSRa0bT25MlM8nVCoxpAEr7Jj9obu2G1T0Wx67k-Zk1HqeC2rRuFUhUXE89DJ4GBLn0_QQHfrg=="
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5H7M_wX4kp93iH1ll2-YwMZfW-P--nuSKkqlBLAqN2UeFm42XWsQPxDljYRdHF95TRzz9Zlzn_X7JJAT-GkS_Dp1fMKwwyK6sgeWE7dNrMWwPxN5scqoGWzEl_TBRh8T_1EAizc-5I9AMl35clV5IIxsZqSRa0bT25MlM8nVCoxpAEr7Jj9obu2G1T0Wx67k-Zk1HqeC2rRuFUhUXE89DJ4GBLn0_QQHfrg=="
+      },
+      {
+        "label": "techhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBW96pm2rjGh9rWbJJbOnrcsXi_L7BPn_ejiFdCHfU6YPUkP3j7hCMsVFNFA05bx8wNZ84McwiuatwBCC1l7xzVSqeB9jqaFY1007tpss4J5pYNgbbl2pA5vh0GyLNvkRfa7phMTf3yE3nMCZNJfoK9m0bi-hoXmHbMJFi6zUfFZGqf0pWBLK_4JyIk2Iz78mBg3rGUICjFrSzANZyGp_CN1fkbvhkRuk="
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5H7M_wX4kp93iH1ll2-YwMZfW-P--nuSKkqlBLAqN2UeFm42XWsQPxDljYRdHF95TRzz9Zlzn_X7JJAT-GkS_Dp1fMKwwyK6sgeWE7dNrMWwPxN5scqoGWzEl_TBRh8T_1EAizc-5I9AMl35clV5IIxsZqSRa0bT25MlM8nVCoxpAEr7Jj9obu2G1T0Wx67k-Zk1HqeC2rRuFUhUXE89DJ4GBLn0_QQHfrg=="
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5H7M_wX4kp93iH1ll2-YwMZfW-P--nuSKkqlBLAqN2UeFm42XWsQPxDljYRdHF95TRzz9Zlzn_X7JJAT-GkS_Dp1fMKwwyK6sgeWE7dNrMWwPxN5scqoGWzEl_TBRh8T_1EAizc-5I9AMl35clV5IIxsZqSRa0bT25MlM8nVCoxpAEr7Jj9obu2G1T0Wx67k-Zk1HqeC2rRuFUhUXE89DJ4GBLn0_QQHfrg=="
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5H7M_wX4kp93iH1ll2-YwMZfW-P--nuSKkqlBLAqN2UeFm42XWsQPxDljYRdHF95TRzz9Zlzn_X7JJAT-GkS_Dp1fMKwwyK6sgeWE7dNrMWwPxN5scqoGWzEl_TBRh8T_1EAizc-5I9AMl35clV5IIxsZqSRa0bT25MlM8nVCoxpAEr7Jj9obu2G1T0Wx67k-Zk1HqeC2rRuFUhUXE89DJ4GBLn0_QQHfrg=="
+      },
+      {
+        "label": "techhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBW96pm2rjGh9rWbJJbOnrcsXi_L7BPn_ejiFdCHfU6YPUkP3j7hCMsVFNFA05bx8wNZ84McwiuatwBCC1l7xzVSqeB9jqaFY1007tpss4J5pYNgbbl2pA5vh0GyLNvkRfa7phMTf3yE3nMCZNJfoK9m0bi-hoXmHbMJFi6zUfFZGqf0pWBLK_4JyIk2Iz78mBg3rGUICjFrSzANZyGp_CN1fkbvhkRuk="
+      },
+      {
+        "label": "powerdrill",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt39g_AWGm18z5wEwF1K4pI8CQ-vAaAjz1J6ZRygbuVFpM-AxuvcZHrM0TXE4RPhgaEE0Ko1ebYroRj33ZPlfxEsWFw1B7hCSBzhQVu_-JRF24zvv17hBLRKzjgWvdLbFwZMq4FwwkUpnct_XNDcamznYCwtjNwkLjYXsFK3Gvjpq6CYlTFKCe6TLm6D9hTOGi"
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5H7M_wX4kp93iH1ll2-YwMZfW-P--nuSKkqlBLAqN2UeFm42XWsQPxDljYRdHF95TRzz9Zlzn_X7JJAT-GkS_Dp1fMKwwyK6sgeWE7dNrMWwPxN5scqoGWzEl_TBRh8T_1EAizc-5I9AMl35clV5IIxsZqSRa0bT25MlM8nVCoxpAEr7Jj9obu2G1T0Wx67k-Zk1HqeC2rRuFUhUXE89DJ4GBLn0_QQHfrg=="
+      },
+      {
+        "label": "techhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBW96pm2rjGh9rWbJJbOnrcsXi_L7BPn_ejiFdCHfU6YPUkP3j7hCMsVFNFA05bx8wNZ84McwiuatwBCC1l7xzVSqeB9jqaFY1007tpss4J5pYNgbbl2pA5vh0GyLNvkRfa7phMTf3yE3nMCZNJfoK9m0bi-hoXmHbMJFi6zUfFZGqf0pWBLK_4JyIk2Iz78mBg3rGUICjFrSzANZyGp_CN1fkbvhkRuk="
+      },
+      {
+        "label": "cta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcZMKRaTU3ppX7L7v-sfOr1t4pXmn_Lr783AuIhsEU2uRreUX6tOr8xpAQKLBCd_6sZrKD_rpWU0W0mP-JkXrGo3HZsqQluMwAhRrSWxkYJq8g_y99uPpBDE9w1FbnGOaQHJOyzqjCHNMjUVRMyn_4dZG5lUzaU2wvC8iv5iF7iw5avZbJhz9Kb3LIpmo5yYzba3DtLSfu9ZXXNYlehaEJPy7r2YBZ4VqboXpqeZIVBEb6"
+      },
+      {
+        "label": "techhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBW96pm2rjGh9rWbJJbOnrcsXi_L7BPn_ejiFdCHfU6YPUkP3j7hCMsVFNFA05bx8wNZ84McwiuatwBCC1l7xzVSqeB9jqaFY1007tpss4J5pYNgbbl2pA5vh0GyLNvkRfa7phMTf3yE3nMCZNJfoK9m0bi-hoXmHbMJFi6zUfFZGqf0pWBLK_4JyIk2Iz78mBg3rGUICjFrSzANZyGp_CN1fkbvhkRuk="
+      },
+      {
+        "label": "techhq",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBW96pm2rjGh9rWbJJbOnrcsXi_L7BPn_ejiFdCHfU6YPUkP3j7hCMsVFNFA05bx8wNZ84McwiuatwBCC1l7xzVSqeB9jqaFY1007tpss4J5pYNgbbl2pA5vh0GyLNvkRfa7phMTf3yE3nMCZNJfoK9m0bi-hoXmHbMJFi6zUfFZGqf0pWBLK_4JyIk2Iz78mBg3rGUICjFrSzANZyGp_CN1fkbvhkRuk="
+      },
+      {
+        "label": "counterpointresearch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEI5JHrKr4o9d8IymFrgQ88EWTuv7-blVC6Ju1H8ENfyiIAhsVUNElIHD8bqm9Hl8sQ7IsClGQuZRu6KEplJ08R5Cm4FaeU4FkkdG2EKr6D-QMnaramHK1beKE4YJb2LTykHwO0vHiCwIg8k-yRjvQWrzaNT3T8E8XUU47HHWhwUnb9Sfc8B7sQfMYCNha41TF4T4jlqGC1WbHjQoEU7cvB4bBaA4Regc0c"
+      },
+      {
+        "label": "idc",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5H7M_wX4kp93iH1ll2-YwMZfW-P--nuSKkqlBLAqN2UeFm42XWsQPxDljYRdHF95TRzz9Zlzn_X7JJAT-GkS_Dp1fMKwwyK6sgeWE7dNrMWwPxN5scqoGWzEl_TBRh8T_1EAizc-5I9AMl35clV5IIxsZqSRa0bT25MlM8nVCoxpAEr7Jj9obu2G1T0Wx67k-Zk1HqeC2rRuFUhUXE89DJ4GBLn0_QQHfrg=="
+      },
+      {
+        "label": "epthinktank",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLrYWe-Wi3GmJ7upkLIwvQo8ZyPsaD5zv5B5gFenpLwHWRbpsDaxPfWROnNW2qbIrsv1nKV3s47vSvUKkKkQrzmKsRmAEWWTY7ha9WvL77aRxm1mc2XccBs3qcwkfChv9_F1Wg5i1rzmz7I6r09jvjOX6i2z7-FuAnRfrcEya9YGbleE2fhvg="
+      },
+      {
+        "label": "techtarget",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/5-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr-Li7SoJsBBTGw60udmfEiTrCmRts4TRStd2S3sXalxz87Rogk0s6mIbOR_vkalb-AgUph2fD-1MTr7i4bqETWxkULeYQO5NUAo_KxSZWJWkAnCpBYu-j4lSwIjgCHjwJr0fGKUY9oVn_conJLcBQ2zRgg1PYhqaLXFwrdy67rpBhPby1Xq61N-BBkLGzKw8fq-1d"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

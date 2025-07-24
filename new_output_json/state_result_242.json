@@ -1,0 +1,415 @@
+{
+  "file_name": "state_result_242.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.696406",
+  "data": {
+    "messages": [
+      {
+        "content": "ubuntu server linux bluetooth how use though cli",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "e5615d88-7c1b-48f8-9353-9f97d3cbf1fc",
+        "example": false
+      },
+      {
+        "content": "To use Bluetooth on an Ubuntu server via the command line in 2025, follow these steps:\n\n**1. Installation and Basic Checks:**\n\n*   Install the necessary packages using: `sudo apt install bluetooth pulseaudio-module-bluetooth blueman bluez-firmware bluez-tools` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Enable the Bluetooth service to start on boot: `sudo systemctl enable bluetooth.service` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0) [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Start the Bluetooth service immediately: `sudo systemctl start bluetooth.service` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0) [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Check the Bluetooth service status with: `sudo systemctl status bluetooth` [frame](https://vertexaisearch.cloud.google.com/id/0-2).  The output should indicate \"Active/Running\" [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n*   Load the Bluetooth module into the kernel: `lsmod | grep bluetooth` [frame](https://vertexaisearch.cloud.google.com/id/0-2).  If it's not loaded, use `modprobe btusb` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0).\n*   Check for blocked devices: `rfkill list` [frame](https://vertexaisearch.cloud.google.com/id/0-2) [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0). Unblock any devices with `sudo rfkill unblock all` [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**2. Using `bluetoothctl`:**\n\n*   Enter the Bluetooth command-line interface: `bluetoothctl` [frame](https://vertexaisearch.cloud.google.com/id/0-2) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   List available controllers: `list` [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Select a controller (if multiple exist): `select <controller_address>` [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Power on the controller: `power on` [frame](https://vertexaisearch.cloud.google.com/id/0-2) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Enable the agent: `agent on` [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Set the default agent: `default-agent` [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3) [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Make the controller discoverable: `discoverable on` [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Make the controller pairable: `pairable on` [ubuntu](https://vertexaisearch.cloud.google.com/id/0-4) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Scan for devices: `scan on` (stop scanning with `scan off`) [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   List paired devices: `paired-devices` [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Pair with a device: `pair <device_address>` [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3). Confirm the passkey if prompted by typing `yes` [frame](https://vertexaisearch.cloud.google.com/id/0-2) [ubuntu](https://vertexaisearch.cloud.google.com/id/0-5).\n*   Trust the device: `trust <device_address>` [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   Connect to the device: `connect <device_address>` [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**3. Troubleshooting:**\n\n*   Reinstall Bluetooth and remove saved devices:\n    *   `sudo apt reinstall --purge bluez gnome-bluetooth` [frame](https://vertexaisearch.cloud.google.com/id/0-2)\n    *   `sudo rm -r /var/lib/bluetooth/` [frame](https://vertexaisearch.cloud.google.com/id/0-2)\n*   If TLP is interfering, disable it temporarily: `sudo systemctl disable tlp.service` [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n*   For conflicting Bluetooth radios:\n    *   Check the status of each adapter: `sudo rfkill list` [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   Identify the Bluetooth Device (BD) address of each adapter: `sudo hciconfig` [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n*   For Realtek Bluetooth adapters with firmware issues, you may need to find and install the appropriate driver and recompile the kernel [superuser](https://vertexaisearch.cloud.google.com/id/0-6) [medium](https://vertexaisearch.cloud.google.com/id/0-7).\n*   For wireless card issues (e.g., Realtek RTL8723BE):\n    *   Create a configuration file: `echo \"options rtl8723be ant_sel=1\" >> /etc/modprobe.d/rtl8723be.conf` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0)\n    *   Remove the existing driver: `sudo modprobe -r rtl8723be` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0)\n    *   Mount the driver again: `sudo modprobe rtl8723be` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0)\n\n**4. Pairing with specific devices (e.g., Amazon Echo):**\n\n*   Ensure the device is in pairing mode [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Use `bluetoothctl` to scan, pair, trust, and connect to the device [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**5. Additional Tips:**\n\n*   Use `hciconfig` to check the status of Bluetooth devices [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n*   Use `sudo dmesg | grep -i blue` to check the kernel messages for Bluetooth-related issues [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [medium](https://vertexaisearch.cloud.google.com/id/0-7).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "f870a811-175c-4da1-bf9c-7d7f8930616c",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "Ubuntu server command line bluetooth setup 2025"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent information on \"Ubuntu server command line bluetooth setup 2025\" and synthesize it into a verifiable text artifact.\nSetting up Bluetooth on an Ubuntu server via the command line in 2025 involves several steps, including installation, troubleshooting, and pairing devices. Here's a consolidated guide based on the search results:\n\n**1. Installation and Basic Checks:**\n\n*   **Install necessary packages:** Use the following command to install the required Bluetooth packages: `sudo apt install bluetooth pulseaudio-module-bluetooth blueman bluez-firmware bluez-tools` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Enable and start the Bluetooth service:**\n    *   Enable the service to start on boot: `sudo systemctl enable bluetooth.service` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0) [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n    *   Start the service immediately: `sudo systemctl start bluetooth.service` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0) [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Check Bluetooth status:** Verify that the Bluetooth service is running with: `sudo systemctl status bluetooth` [frame](https://vertexaisearch.cloud.google.com/id/0-2). The output should show \"Active/Running\" [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Load the Bluetooth module:** Ensure the Bluetooth module is loaded into the kernel: `lsmod | grep bluetooth` [frame](https://vertexaisearch.cloud.google.com/id/0-2). This command should show \"Bluetooth\" in the output [frame](https://vertexaisearch.cloud.google.com/id/0-2). You can also enable the kernel bluetooth module using this command: `modprobe btusb` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0).\n*   **Check for blocked devices:** Use `rfkill list` to identify any blocked Bluetooth devices [frame](https://vertexaisearch.cloud.google.com/id/0-2) [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0). If a device is blocked, unblock it with `sudo rfkill unblock all` [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**2. Using `bluetoothctl`:**\n\n*   **Open `bluetoothctl`:** Type `bluetoothctl` in the terminal to enter the Bluetooth command-line interface [frame](https://vertexaisearch.cloud.google.com/id/0-2) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **List available controllers:** Use the `list` command to see the available Bluetooth controllers [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Select a controller:** If multiple controllers are present, select the desired one using `select <controller_address>` [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Power on the controller:** Use the command `power on` to enable the Bluetooth controller [frame](https://vertexaisearch.cloud.google.com/id/0-2) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Set agent on:** Enable the agent with `agent on` [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Set default agent:** Set the agent as default with `default-agent` [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3) [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Make the controller discoverable:** Use `discoverable on` to allow other devices to find your server [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Set the controller pairable:** Use `pairable on` to allow pairing with other devices [ubuntu](https://vertexaisearch.cloud.google.com/id/0-4) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Scan for devices:** Initiate a scan for nearby Bluetooth devices with `scan on` [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3). Stop scanning with `scan off` [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **List paired devices:** Use `paired-devices` to view the list of paired devices [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n*   **Pair with a device:** To pair with a specific device, use the command `pair <device_address>` [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3). You may be prompted to confirm a passkey [frame](https://vertexaisearch.cloud.google.com/id/0-2) [ubuntu](https://vertexaisearch.cloud.google.com/id/0-5). Type `yes` if the passkeys match [frame](https://vertexaisearch.cloud.google.com/id/0-2) [ubuntu](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Trust the device:** After pairing, trust the device using `trust <device_address>` [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3). This avoids future prompts [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Connect to the device:** Use the command `connect <device_address>` to connect to the paired device [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**3. Troubleshooting:**\n\n*   **General Troubleshooting:** If Bluetooth is not working, try reinstalling Bluetooth and removing saved devices [frame](https://vertexaisearch.cloud.google.com/id/0-2):\n    *   `sudo apt reinstall --purge bluez gnome-bluetooth` [frame](https://vertexaisearch.cloud.google.com/id/0-2)\n    *   `sudo rm -r /var/lib/bluetooth/` [frame](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **TLP Conflict:** If Bluetooth still fails, TLP (if installed) might be interfering. Disable it temporarily to see if it resolves the issue: `sudo systemctl disable tlp.service` [frame](https://vertexaisearch.cloud.google.com/id/0-2). Remember to re-enable it later if it's not the cause [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Conflicting Bluetooth Radios:** If you have both internal and external Bluetooth adapters, they might conflict.\n    *   Use `sudo rfkill list` to see the status of each adapter [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   Use `sudo hciconfig` to identify the Bluetooth Device (BD) address of each adapter [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n    *   Disable the internal adapter if you want to use the external one [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Firmware Issues:** For some Realtek Bluetooth adapters, the correct firmware might not be included in the installation package [superuser](https://vertexaisearch.cloud.google.com/id/0-6) [medium](https://vertexaisearch.cloud.google.com/id/0-7). You may need to find and install the appropriate driver and recompile the kernel [superuser](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Wireless Card Issues:** Some wireless cards, like Realtek RTL8723BE, can cause Bluetooth problems [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0). The fix is to tell Linux to only use one of the antennas [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0).\n    *   Create a configuration file: `echo \"options rtl8723be ant_sel=1\" >> /etc/modprobe.d/rtl8723be.conf` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0)\n    *   Remove the existing driver: `sudo modprobe -r rtl8723be` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0)\n    *   Mount the driver again: `sudo modprobe rtl8723be` [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Bluez version bug:** A bug in Bluez version 4.48 was responsible for connection, disconnection and pairing issues [dev](https://vertexaisearch.cloud.google.com/id/0-8). Most bugs including this one were fixed in the next versions of Bluez [dev](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**4. Pairing with specific devices (e.g., Amazon Echo):**\n\n*   Ensure the device is in pairing mode [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Use `bluetoothctl` to scan, pair, trust, and connect to the device [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   If the device is not responding, unpair and re-pair it [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Verify the device is connected to Wi-Fi and can access the internet [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**5. Additional Tips:**\n\n*   **hciconfig:** Use `hciconfig` to check the status of Bluetooth devices. It should show the device as \"UP RUNNING\" [frame](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **dmesg:** Use `sudo dmesg | grep -i blue` to check the kernel messages for Bluetooth-related issues [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [medium](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Alternative Bluetooth Managers:** Consider using `blueman-manager` if you encounter issues with the default Bluetooth manager [ubuntu](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Audio Configuration:** To ensure high-fidelity audio, edit `/etc/bluetooth/audio.conf` and ensure the `[General]` section includes `Enable=Source,Sink,Media,Socket` [dev](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **PulseAudio:** If you have issues with audio profiles, try setting the card profile with `pacmd set-card-profile device_name a2dp_sink` [dev](https://vertexaisearch.cloud.google.com/id/0-8).\n\nBy following these steps, you should be able to successfully set up and troubleshoot Bluetooth on your Ubuntu server 2025 from the command line [askubuntu](https://vertexaisearch.cloud.google.com/id/0-1) [yashagarwal](https://vertexaisearch.cloud.google.com/id/0-0) [frame](https://vertexaisearch.cloud.google.com/id/0-2) [waylonwalker](https://vertexaisearch.cloud.google.com/id/0-3) [ubuntu](https://vertexaisearch.cloud.google.com/id/0-5).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "ubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUpa-eXTk1SYC7rtP5I8pTe2r2OeqofznofGm-rLDtO_e1bvMKcWaiMwwMr0tNfWtB3aHn-kgaZA3hFTUABGzwVN8GZ32fchaQc0yj2AwWzU3Y2V7cnxivDtETF1hF2rw4005wDbV1ksxF5U68tsWG09WemSakp0I-M7iy2-lMYAslyoQN5rCWeEs7STwcbQxyTJEHTQdaCOqVeA=="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "ubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh5-YGi1LH9RIVQfxS0K7tt2Gbn-MXk9ouJ9PoPfy83E4CIDgfVLdeuqZcKe3ZN4wBZkccE1zQJ2O6dFNbKwigcpEQ5Y9HnSt11sBM1A2hiBhebZGfUmJcpFAszSHuLOQjFqUM3-ZBXryAcPQTsN1uwcLJ3p0q3pFMAxH6VtFf-I0mJZIfx2CkO6RH3g=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "ubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh5-YGi1LH9RIVQfxS0K7tt2Gbn-MXk9ouJ9PoPfy83E4CIDgfVLdeuqZcKe3ZN4wBZkccE1zQJ2O6dFNbKwigcpEQ5Y9HnSt11sBM1A2hiBhebZGfUmJcpFAszSHuLOQjFqUM3-ZBXryAcPQTsN1uwcLJ3p0q3pFMAxH6VtFf-I0mJZIfx2CkO6RH3g=="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAmZYP-2CVllFyBrkEeBmvdrEMO9I6uK16HJLbWW-Qd7PnycDaMjKwJ4EP0VVe-ACd44YRiG8TQKRhVbv4xkJY5dCQJbT1jfopI4vk2Lq7kwgIwAVHvgr0MYfl9nFaRIBDGG7Wbt-w9iuQ0D0ThvMQkQIFqnsTn2xAWoagyCW7f7gsQeJ2hC3ouGAv0-LKSknIoJfSJTUoODC76Hybp6SmSnw3h_fTsu4eieuvXSacKftGCA=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDh_KgJFUI6PZQV2TB6XS_Ieh4N6PPEhtu0nFg2DhNslvae7-SWl0_EH-bMb9YJH7XnAksBnBwqAc8VfgY_4pjf8CXrXYdv9652ol2foi3Tq9jwUEV_19-kImhVYyK3r6zQxjIIwjEWSiq3FMc1FxQ8LumJY6v7l7xDuPc_kBImuVTN5BY4tzMzFTKFLTp531TXT03MG366nvEVpuSFwqScQ=="
+      },
+      {
+        "label": "superuser",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAmZYP-2CVllFyBrkEeBmvdrEMO9I6uK16HJLbWW-Qd7PnycDaMjKwJ4EP0VVe-ACd44YRiG8TQKRhVbv4xkJY5dCQJbT1jfopI4vk2Lq7kwgIwAVHvgr0MYfl9nFaRIBDGG7Wbt-w9iuQ0D0ThvMQkQIFqnsTn2xAWoagyCW7f7gsQeJ2hC3ouGAv0-LKSknIoJfSJTUoODC76Hybp6SmSnw3h_fTsu4eieuvXSacKftGCA=="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ox8id4Lx_kQzoN3Fa4uM_yvFnLfH0bdcXwJyMMnCYypablsZDIqGfAPl5a-fOb9eTh-beDaPiAVR6A3n5q2PnxauajLePyjR2G6-RjkdxRSYsBS-OC5NbczNkEaz4KhoK0vEFmJ5HrIUBauAsqaujL7yYUHSB3pPhnkPcu9YpwmIt-4fLECJcQwavVyj8EbHM4Ga0GY="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ox8id4Lx_kQzoN3Fa4uM_yvFnLfH0bdcXwJyMMnCYypablsZDIqGfAPl5a-fOb9eTh-beDaPiAVR6A3n5q2PnxauajLePyjR2G6-RjkdxRSYsBS-OC5NbczNkEaz4KhoK0vEFmJ5HrIUBauAsqaujL7yYUHSB3pPhnkPcu9YpwmIt-4fLECJcQwavVyj8EbHM4Ga0GY="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "medium",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDh_KgJFUI6PZQV2TB6XS_Ieh4N6PPEhtu0nFg2DhNslvae7-SWl0_EH-bMb9YJH7XnAksBnBwqAc8VfgY_4pjf8CXrXYdv9652ol2foi3Tq9jwUEV_19-kImhVYyK3r6zQxjIIwjEWSiq3FMc1FxQ8LumJY6v7l7xDuPc_kBImuVTN5BY4tzMzFTKFLTp531TXT03MG366nvEVpuSFwqScQ=="
+      },
+      {
+        "label": "ubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUpa-eXTk1SYC7rtP5I8pTe2r2OeqofznofGm-rLDtO_e1bvMKcWaiMwwMr0tNfWtB3aHn-kgaZA3hFTUABGzwVN8GZ32fchaQc0yj2AwWzU3Y2V7cnxivDtETF1hF2rw4005wDbV1ksxF5U68tsWG09WemSakp0I-M7iy2-lMYAslyoQN5rCWeEs7STwcbQxyTJEHTQdaCOqVeA=="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ox8id4Lx_kQzoN3Fa4uM_yvFnLfH0bdcXwJyMMnCYypablsZDIqGfAPl5a-fOb9eTh-beDaPiAVR6A3n5q2PnxauajLePyjR2G6-RjkdxRSYsBS-OC5NbczNkEaz4KhoK0vEFmJ5HrIUBauAsqaujL7yYUHSB3pPhnkPcu9YpwmIt-4fLECJcQwavVyj8EbHM4Ga0GY="
+      },
+      {
+        "label": "dev",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2Ox8id4Lx_kQzoN3Fa4uM_yvFnLfH0bdcXwJyMMnCYypablsZDIqGfAPl5a-fOb9eTh-beDaPiAVR6A3n5q2PnxauajLePyjR2G6-RjkdxRSYsBS-OC5NbczNkEaz4KhoK0vEFmJ5HrIUBauAsqaujL7yYUHSB3pPhnkPcu9YpwmIt-4fLECJcQwavVyj8EbHM4Ga0GY="
+      },
+      {
+        "label": "askubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElW2c7GAN9xNf8HL2ZK9zPgle2e_zJ2sBIRcpklmZmHz80W1GTmgZTjdTEeDljF6Wm3Qcrcfhp9Rb8DBiiT3WG0gSfrtfg0yVRUsCB8yS0QYQO5OcXOoK9wBug9LUhhTNRNRXVvEOzMBQpaAn5BOANXkrOQmV8-F2ECvD0ZKZUlw=="
+      },
+      {
+        "label": "yashagarwal",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgvlSEvvoM_zHroh4p9aiIA7Qqt3BRiGqWCoEBAM6pSDvqshmlawc0cZnHA6PPVtqaAsLC6I-2PagXquW7tb_bJzq_pdsoIgWNNRSk3ILUKRBnhfIxKBV5_8E8eTH_yvDHWkBAkMKEXW1fMCRr2l_uKTa5TQ=="
+      },
+      {
+        "label": "frame",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs9BrxZx0JwSJ0uq_pM2LlpS_teTjHMLpRd2zzSi5YYEO0IkVbpqwt2assAVOyATzUxyklOEnFGnkuj-B7DTHDw8nuUtI5LQ47nE9Udwvx8BMlJnH74mhUHiERe4Kb-eAOqnVkL-Wm2sPqhuhiDbk8Wbp6NFA="
+      },
+      {
+        "label": "waylonwalker",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqEncL7iX7GOHfVFC_HeqZl5YhvCN4ZaWkY7oU0Z2w4a0akN-7oEX64AzFR6akH8ibnCOF8nf3BXNLIA97ywME8MTm05zeexhNyqboZ8LQzQOSDrwSX0lSFMQfUQPUkJsGsgR2Vs73"
+      },
+      {
+        "label": "ubuntu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh5-YGi1LH9RIVQfxS0K7tt2Gbn-MXk9ouJ9PoPfy83E4CIDgfVLdeuqZcKe3ZN4wBZkccE1zQJ2O6dFNbKwigcpEQ5Y9HnSt11sBM1A2hiBhebZGfUmJcpFAszSHuLOQjFqUM3-ZBXryAcPQTsN1uwcLJ3p0q3pFMAxH6VtFf-I0mJZIfx2CkO6RH3g=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

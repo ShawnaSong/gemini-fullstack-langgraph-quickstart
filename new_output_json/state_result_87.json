@@ -1,0 +1,457 @@
+{
+  "file_name": "state_result_87.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.818514",
+  "data": {
+    "messages": [
+      {
+        "content": "Latest news about Trump",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "1ff05274-c473-465d-b089-06b9b4b013e4",
+        "example": false
+      },
+      {
+        "content": "Here's the latest news regarding Donald Trump as of July 4, 2025:\n\n**\"One Big Beautiful Bill\" (OBBB):**\n\nPresident Trump's signature legislation, referred to as the \"One Big Beautiful Bill,\" has passed both the US House of Representatives [cbsnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERZgjKfYvIBANIOpq1VK72hlDShTwqr0cierUp3WG0_JA8E7jJyNbpaYP2RUIXxtD3tu9CDPT2aWwX9gi6vgH4f76WoPFuVYzleTunRKYSIxDlPrpTlebbkN0D1j9Qoq9jaH3zEV7BbhDed7ZJjtUyzoEMBx_R-mtypVIkb0KBFdgjSHdTzEvI9CDQWyLYkmFZVG8BEISfnBfaL4UlT1rhXK4=) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew==) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y) [newsweek](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0=) [hklaw](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGacpQTmmVWNKbYK6czhK85rN8kYXOGMXDlXN2YxhGi4dCi8PXJonasj8tQJv-tam1nFh70ddqtxFT0wYmr03SXQLkD9x_QPcVlGs7kheFC5OOpvmVNxENgi-yprEZVCXl4feCE9DUPkBCH_vXiIOx75M-1QlN7dl08eM19COEbDMdGs_6E1UqTG6xFSUW0fdsYkhsdUPHRkUp7m8HCkvyjvZ-dERV9vrZ7). The House vote was 218 to 214, largely along party lines [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew==). The Senate vote was 51-50, with Vice President JD Vance breaking a tie [politicopro](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YmBQVQPspDwMS_5O5qe6k2v5l2H0is2Idm5F0-51Mzc9QilTAcveL3ztwsBOfodXyd81FTXNDa7PphOX9G7OSrHCa-rJrNyvvj0rpUUFtCp0Y7PkegGsPvpqczpFC8Cn2jRuoNF56izm_tUSQ4S2kB3kUWG2GnboqQbUJExT8ELTS-_AG9BO8ETfNFGOAyOByZNxohMe). Trump is expected to sign the bill into law in a White House ceremony today, July 4th [cbsnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERZgjKfYvIBANIOpq1VK72hlDShTwqr0cierUp3WG0_JA8E7jJyNbpaYP2RUIXxtD3tu9CDPT2aWwX9gi6vgH4f76WoPFuVYzleTunRKYSIxDlPrpTlebbkN0D1j9Qoq9jaH3zEV7BbhDed7ZJjtUyzoEMBx_R-mtypVIkb0KBFdgjSHdTzEvI9CDQWyLYkmFZVG8BEISfnBfaL4UlT1rhXK4=) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew==) [politico](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_9fQfxuFuoAA33b9lHgLqQxGFhVXwpvdgoXz08K7rUccFuc_Zqh6fq6AKHufzI__QmXt7i5DzFdHk1njwnYgb0Uo02oPh3A9otmTLtotZB14sDCUXDRKf5wc1WpoFvjDBfk86U-1CNGWnr9kDUL88aRA4RROd4FhlbzCicIzF2bvDhJI=).\n\nThe OBBB is a sweeping piece of legislation that combines extensions to the 2017 tax cuts, increased spending on defense and border security, overhauls social safety-net programs, increases border and military spending, and raises the federal debt ceiling by $5 trillion [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Pff0cd_JUfw5vx2cqdKDVJh5A5YWhgjRUk_ABytaoZzPix_zjkVZF8W8PsY-6kI0BPHv_73Xmvt17TmJfp7Aykhd18dYEfuJyoq2jtv3CNzGA0Ze-rlKy4si51ih9TnXD0ozeJpBzu7PaV-uYG7bFlk8fNwcHpn24BegCJQWlNOqDmFJmxrFE8nZ3E1KfuMUJInb7yHyl_dYv5RGOMXolQS3ow==) [politicopro](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YmBQVQPspDwMS_5O5qe6k2v5l2H0is2Idm5F0-51Mzc9QilTAcveL3ztwsBOfodXyd81FTXNDa7PphOX9G7OSrHCa-rJrNyvvj0rpUUFtCp0Y7PkegGsPvpqczpFC8Cn2jRuoNF56izm_tUSQ4S2kB3kUWG2GnboqQbUJExT8ELTS-_AG9BO8ETfNFGOAyOByZNxohMe).\n\n**Key Aspects and Impacts of the OBBB:**\n\n*   **Social Safety-Net Amendments:** The bill includes significant changes to Medicaid and SNAP [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Pff0cd_JUfw5vx2cqdKDVJh5A5YWhgjRUk_ABytaoZzPix_zjkVZF8W8PsY-6kI0BPHv_73Xmvt17TmJfp7Aykhd18dYEfuJyoq2jtv3CNzGA0Ze-rlKy4si51ih9TnXD0ozeJpBzu7PaV-uYG7bFlk8fNwcHpn24BegCJQWlNOqDmFJmxrFE8nZ3E1KfuMUJInb7yHyl_dYv5RGOMXolQS3ow==). It cuts nearly $1 trillion from Medicaid [aha](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFk6WH_EihqQNY3DTM5LauY23e_8HL2tOypI-EmNRvDFmPLIvQs6EXmNWbrWiVnwGCijI8hdrGRQ-rpsaZOvnQ8c72wU_3Ymnc9coeswj8F_ccKGSDz5kphQznK1ZeoJLN0YtPXiXYERgBJuzta_H_a_tH5qAYI_1IBFuXWbuqPhgh-vKkGD1825kbQ_mTq3A2jQ0102wswHHYEBAo) [nysfocus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-cn3Ob_IRmkXGVJgZdZjSjvcfseRb8GemqORW8aKmUAIKmdZ41Y0xuDWilOwcs0mdZ7O8Iv9CKa64tDKuMUGosyIcKBZqusKjF-ylwz-Lsx1lSCCrvscL_pwAvYBgqun5Hfw_-7WMIWtAhYzmDW3QMN5zsGgZIfk8QdE), potentially leading to millions losing healthcare coverage [georgetown](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8E0tg8PuwTm6CMEBZqnEKo_QZPdN6njyfZZ0XKYHvGcMU4kumZlE2ln-7sxpzXMemGee4n9OqP-uie-ZuRl_2hYMd-YKyiICU65n-mwcaxYci8D_e6uLaUMnXQgnJUl169FXZcKj1459hTaCCcMm7hD_qKIyxpUWYMKeEs_gKQ5cvpzq1jg0KMPtXxM_I3RRbIdX2Nocxtzc_97UtBpxxZDuaM1ilAA==) [georgetown](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv00v2cAeCLQmFxnTL8oyAE56YmRypWJK0VaIT9Zla6D4250IA0l2G2XkEP3xqq7NIPi4rQucIkFzfZpA0YPowcIYrt5EMgQtIWFvgIa_hF6ePVmgSwL3Kbe5Ht6dAnBp_54tEo_n3u1XGL5BAxmCTjB0fSbKoEGbT1JsYsHkgdNi3NMDRlTDm71aIcpKiJkGhs38bph8QyqJHYPVUJPHlBgWNEIbNuHxfnA==). There are also over $200 billion in cuts to SNAP [nysfocus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-cn3Ob_IRmkXGVJgZdZjSjvcfseRb8GemqORW8aKmUAIKmdZ41Y0xuDWilOwcs0mdZ7O8Iv9CKa64tDKuMUGosyIcKBZqusKjF-ylwz-Lsx1lSCCrvscL_pwAvYBgqun5Hfw_-7WMIWtAhYzmDW3QMN5zsGgZIfk8QdE), with tighter work requirements and other restrictions [hklaw](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOq5C5NFxwZRIAKJ6Xutmm-4nlMGzydp8QWrPsi7kyKfNZGiil0CnLnGDXvIasQyuYyODUs02HZS3VmrS4cM8w9zlTVRiry7jbTFgFyGBdzL56iSOmrJWIBCfTEhnR9tBt7N4DWmDOrxUhqPE50N-P94oQtFe6s6hUgqaIPKK692POERzII3TSE_zvJvY-bktZBvuPcdbL0FNcHbJKFAtXb70Ugd_9kw==). A $6,000 tax deduction for individuals aged 65 or older with income up to $75,000, or up to $150,000 for married couples is enacted [newsweek](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0=).\n\n*   **Projected Impacts:** The CBO estimates the bill will increase the number of uninsured people by 17 million over the next 10 years [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y). Millions could lose Medicaid coverage and SNAP benefits could be reduced or eliminated for over one million New Yorkers, including children [nysfocus](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-cn3Ob_IRmkXGVJgZdZjSjvcfseRb8GemqORW8aKmUAIKmdZ41Y0xuDWilOwcs0mdZ7O8Iv9CKa64tDKuMUGosyIcKBZqusKjF-ylwz-Lsx1lSCCrvscL_pwAvYBgqun5Hfw_-7WMIWtAhYzmDW3QMN5zsGgZIfk8QdE). The bill is projected to disproportionately affect low-income adults without dependents [georgetown](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv00v2cAeCLQmFxnTL8oyAE56YmRypWJK0VaIT9Zla6D4250IA0l2G2XkEP3xqq7NIPi4rQucIkFzfZpA0YPowcIYrt5EMgQtIWFvgIa_hF6ePVmgSwL3Kbe5Ht6dAnBp_54tEo_n3u1XGL5BAxmCTjB0fSbKoEGbT1JsYsHkgdNi3NMDRlTDm71aIcpKiJkGhs38bph8QyqJHYPVUJPHlBgWNEIbNuHxfnA==) and may disproportionately affect rural communities [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y) [whitehouse](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0=0]. Almost 90 percent of Social Security recipients will no longer be required to pay income taxes on their benefits due to a new tax deduction [newsweek](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0=). The CBO estimates that the bill will increase the U.S. debt by $3.3 trillion over the next 10 years [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Pff0cd_JUfw5vx2cqdKDVJh5A5YWhgjRUk_ABytaoZzPix_zjkVZF8W8PsY-6kI0BPHv_73Xmvt17TmJfp7Aykhd18dYEfuJyoq2jtv3CNzGA0Ze-rlKy4si51ih9TnXD0ozeJpBzu7PaV-uYG7bFlk8fNwcHpn24BegCJQWlNOqDmFJmxrFE8nZ3E1KfuMUJInb7yHyl_dYv5RGOMXolQS3ow==).\n\n*   **Arguments For and Against:** Proponents argue the bill will fuel economic growth, cut waste and fraud, and strengthen programs like Medicaid with reforms [whitehouse](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0=0) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y) [house](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0=2) [newsweek](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0=). Opponents argue it will increase the deficit, cut essential safety net programs, and disproportionately benefit the wealthy [texastribune](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtYKbcXfcySobkP8MbgKOpgY0Wun9b0v3Yijq67bRsrOGJRbRIKCTT47ltPIEGHgVhywHaVoPk9LlZtEpUO_YxIb0cPJ2wuY-bFLW5Ot6bRsI_KCTL8ZeCOQ8Q-kz4YBvzZLnIvayUD0lOlJ33olWeG9R8KTD6EFvzjATvDkjpwkz8c8zFrZkCLk4-C66rLHFnRWj34LPh) [time](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0=3) [aha](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFk6WH_EihqQNY3DTM5LauY23e_8HL2tOypI-EmNRvDFmPLIvQs6EXmNWbrWiVnwGCijI8hdrGRQ-rpsaZOvnQ8c72wU_3Ymnc9coeswj8F_ccKGSDz5kphQznK1ZeoJLN0YtPXiXYERgBJuzta_H_a_tH5qAYI_1IBFuXWbuqPhgh-vKkGD1825kbQ_mTq3A2jQ0102wswHHYEBAo).\n\n**Other Recent News:**\n\n*   **International Relations:** Trump stated there was no progress on Ukraine in a call with Putin [politico](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_XH3w7JOaR6rOyN1sC5TdojsTTaYWflHkxPyhUPXaISZR-9jOmOYDNRseA9cpqs8jksEtfCEfvr2BUrb4UuNc9cpsJPt-7fUCT52dInNJ_DrNeZEjyOGK2xmPLN7sE-6iDAVUqA==). He also announced a deal to impose a 20% tariff on trade with Vietnam [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew==). Trump says Israel has agreed to finalize a 60-day Gaza ceasefire and urges Hamas to accept the deal [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpZu1QtYCzsBJXfbUBPP3diNEFdTA25G0LKClBPAtdUWhpfXGTBRjlT4T0nSxpZkjhbf2KXDK3EeLgciH379PsLIJy5L7dGCeulaQiY3uUidGCbhzHQgxfNJdQVBRnFJls-amJTXo=).\n*   **Immigration:** A judge blocked a \"sweeping\" asylum crackdown after Trump declared an \"invasion\" at the southern border [politico](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_XH3w7JOaR6rOyN1sC5TdojsTTaYWflHkxPyhUPXaISZR-9jOmOYDNRseA9cpqs8jksEtfCEfvr2BUrb4UuNc9cpsJPt-7fUCT52dInNJ_DrNeZEjyOGK2xmPLN7sE-6iDAVUqA==) [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpZu1QtYCzsBJXfbUBPP3diNEFdTA25G0LKClBPAtdUWhpfXGTBRjlT4T0nSxpZkjhbf2KXDK3EeLgciH379PsLIJy5L7dGCeulaQiY3uUidGCbhzHQgxfNJdQVBRnFJls-amJTXo=). Trump is working to find a way to put farmers \"in charge\" of whether workers get removed [aljazeera](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew==).\n*   **Domestic Affairs:** Trump is planning for the 250th anniversary of the Declaration of Independence in 2026, including a \"National Garden of American Heroes\" [latimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdw-1uNCLWPdBjsqgmFf6oFrl29FnCso1YhCfN3h0UGXVqbr3VgGb2YRksF4YPL2w4US1_kD7AZwpCYCp95IchUasTgRB00qUrV5Zure_2cVq-Fm1oBJVwmMX2cr46BZrqsiY1vdHODlFnA7Y7A5g-JHoWMmSa5OhWu1fg1B0HjpgFKlgCB4IG76ik_P52Kky49dOX30PtMbDkAhirgFA=). He also revealed plans for a UFC championship fight at the White House during America's 250th birthday [foxnews](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnm18WNAKha7B2s6pMsHS-y8giHf7EWPPs-MZns4_H6OF3cXHNIpXEbwIUCHkCscjasq_awulTsFH5ZSWabhP5GqyTfqs6DVPVvbkqPpilFnWZ4X5w7M9KDVceNpsERRu2Sp0RQBCiAXfYbEcaEp4=). Trump says the economy will \"rocket\" after signing the \"big beautiful bill\" [thehindu](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnjqVU1825SPGUzF88XZBEidnhGZeYFTknyxG5BpYS_Sml-rYuIwVWBZpjZk20Fsn71-B6TdsejZiZyObAlczPYIVZxfAl4I2oVTid4mcFSHetyGxR7ocWpbqKYHrH89upfQJUhQ==).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "01fda6f9-c037-496d-9efb-b750287f2b4b",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "recent news articles about Donald Trump",
+      "What specific amendments to social safety-net programs are included in the 'One Big Beautiful Bill', and what are the projected impacts on beneficiaries?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"recent news articles about Donald Trump\" and synthesize it into a verifiable text artifact.\nHere's a summary of recent news regarding Donald Trump, based on the search results:\n\n**\"One Big Beautiful Bill\"**:\n\n*   President Trump's signature legislation, referred to as the \"One Big Beautiful Bill,\" has passed the US House of Representatives [cbsnews](https://vertexaisearch.cloud.google.com/id/0-0) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1). The vote was largely along party lines, with 218 to 214 in favor [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1). Only two Republicans, Brian Fitzpatrick of Pennsylvania and Thomas Massie of Kentucky, voted against it, joining the House's 212 Democrats [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1).\n*   The bill has faced criticism for potentially adding $3.3 trillion to the national debt and cutting social safety-net programs like Medicaid [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Democratic Minority Leader Hakeem Jeffries protested the bill, labeling it as reckless, and set a record for the longest House-floor speech [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1).\n*   The Senate also passed Trump's \"big, beautiful bill\" [politicopro](https://vertexaisearch.cloud.google.com/id/0-2). The vote was 51-50, with Vice President JD Vance breaking a tie [politicopro](https://vertexaisearch.cloud.google.com/id/0-2). Republican Senators Susan Collins, Rand Paul, and Thom Tillis voted against it [politicopro](https://vertexaisearch.cloud.google.com/id/0-2).\n*   The bill includes extensions to the 2017 tax cuts, overhauls social safety-net programs, increases border and military spending, and raises the federal debt ceiling by $5 trillion [politicopro](https://vertexaisearch.cloud.google.com/id/0-2).\n*   Trump is expected to sign the bill into law in a White House ceremony on July 4th [cbsnews](https://vertexaisearch.cloud.google.com/id/0-0) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1).\n*   The White House is planning a 4th of July signing ceremony for the legislation [politico](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Other Key Developments:**\n\n*   Trump said there was no progress on Ukraine in a call with Putin [politico](https://vertexaisearch.cloud.google.com/id/0-4).\n*   A judge blocked a \"sweeping\" asylum crackdown after Trump declared an \"invasion\" at the southern border [politico](https://vertexaisearch.cloud.google.com/id/0-4) [aljazeera](https://vertexaisearch.cloud.google.com/id/0-5). The court ruled that Trump's presidential powers did not authorize him to set up an 'alternative immigration system' [aljazeera](https://vertexaisearch.cloud.google.com/id/0-5).\n*   Trump is planning for the 250th anniversary of the Declaration of Independence in 2026, including a \"National Garden of American Heroes\" [latimes](https://vertexaisearch.cloud.google.com/id/0-6).\n*   Trump says his administration achieved the “lowest number of illegal border crossings in US history”.\n*  [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1)  Trump is working to find a way to put farmers \"in charge\" of whether workers get removed.\n*  [aljazeera](https://vertexaisearch.cloud.google.com/id/0-1)  Trump announced a deal to impose a 20% tariff on trade with Vietnam.\n*  [aljazeera](https://vertexaisearch.cloud.google.com/id/0-5)  Trump says Israel has agreed to finalize a 60-day Gaza ceasefire and urges Hamas to accept the deal.\n*  [thehindu](https://vertexaisearch.cloud.google.com/id/0-7)  Trump says the economy will \"rocket\" after signing the \"big beautiful bill\".\n*  [foxnews](https://vertexaisearch.cloud.google.com/id/0-8)  Trump reveals plans for a UFC championship fight at the White House during America's 250th birthday.\n [foxnews](https://vertexaisearch.cloud.google.com/id/0-8)",
+      "The \"One Big Beautiful Bill\" (OBBB) has been passed by both the House and Senate and is awaiting the President's signature [aljazeera](https://vertexaisearch.cloud.google.com/id/1-0) [newsweek](https://vertexaisearch.cloud.google.com/id/1-1) [hklaw](https://vertexaisearch.cloud.google.com/id/1-2). It is a sweeping piece of legislation that combines tax cuts, increased spending on defense and border security, and cuts to social safety net programs [aljazeera](https://vertexaisearch.cloud.google.com/id/1-3). The bill aims to extend the 2017 tax cuts, boost spending on key areas, and refocus social safety net programs [aljazeera](https://vertexaisearch.cloud.google.com/id/1-3).\n\n**Amendments to Social Safety-Net Programs:**\n\n*   **Medicaid:** The bill cuts nearly $1 trillion from Medicaid [aha](https://vertexaisearch.cloud.google.com/id/1-4) [nysfocus](https://vertexaisearch.cloud.google.com/id/1-5). These cuts will lead to millions losing healthcare coverage [georgetown](https://vertexaisearch.cloud.google.com/id/1-6) [georgetown](https://vertexaisearch.cloud.google.com/id/1-7). Some states may face disproportionately high losses in federal funds and enrollment [georgetown](https://vertexaisearch.cloud.google.com/id/1-7). The bill also introduces stricter work requirements for adults and requires states to reverify eligibility every six months [georgetown](https://vertexaisearch.cloud.google.com/id/1-7) [nysfocus](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Supplemental Nutrition Assistance Program (SNAP):** The bill includes over $200 billion in cuts to SNAP [nysfocus](https://vertexaisearch.cloud.google.com/id/1-5). It tightens work requirements for able-bodied adults without dependents, adjusts the Thrifty Food Plan, restricts future cost increases, adjusts allowable deductions for internet expenses, modifies utility allowance rules, and imposes stricter state cost-sharing based on payment error rates [hklaw](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Social Security:** The bill enacts a $6,000 tax deduction for individuals aged 65 or older with income up to $75,000, or up to $150,000 for married couples [newsweek](https://vertexaisearch.cloud.google.com/id/1-1). This deduction phases out for higher incomes, ending at $175,000 for individuals and $250,000 for couples, and is set to expire after 2028 unless extended [newsweek](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Projected Impacts on Beneficiaries:**\n\n*   **Loss of Coverage:** The Congressional Budget Office (CBO) estimates that the bill will increase the number of uninsured people by 17 million over the next 10 years [aljazeera](https://vertexaisearch.cloud.google.com/id/1-0). An estimated 1.5 million New Yorkers could lose their Medicaid coverage and become uninsured [nysfocus](https://vertexaisearch.cloud.google.com/id/1-5). Over 300,000 Texans could lose their health insurance [texastribune](https://vertexaisearch.cloud.google.com/id/1-9).\n*   **Reduced Benefits:** Over one million New Yorkers, including children, could see their SNAP benefits reduced or eliminated [nysfocus](https://vertexaisearch.cloud.google.com/id/1-5). At least 2 million children are estimated to lose food assistance as their parents or caregivers become subject to the work requirement [georgetown](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Increased Burden on States:** Massive cuts to federal programs will shift costs to states, potentially pressuring other areas of state budgets like education [georgetown](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Impact on Specific Groups:** The bill is projected to disproportionately affect low-income adults without dependents, with an estimated 4.8 million becoming uninsured due to work reporting requirements [georgetown](https://vertexaisearch.cloud.google.com/id/1-7). It may also disproportionately affect rural communities [aljazeera](https://vertexaisearch.cloud.google.com/id/1-0) [whitehouse](https://vertexaisearch.cloud.google.com/id/1-10).\n*   **Tax Relief for Some Seniors:** Almost 90 percent of Social Security recipients will no longer be required to pay income taxes on their benefits due to a new tax deduction [newsweek](https://vertexaisearch.cloud.google.com/id/1-1). 51.4 million seniors—88 percent of all seniors receiving Social Security income—would not pay any tax on their benefits income as a result of the change.\n*  [newsweek](https://vertexaisearch.cloud.google.com/id/1-1)  **Increased Deficit:** The CBO estimates that the bill will increase the U.S. debt by $3.3 trillion over the next 10 years. Ot [aljazeera](https://vertexaisearch.cloud.google.com/id/1-0) [aljazeera](https://vertexaisearch.cloud.google.com/id/1-3)her analyses suggest the deficit could increase by as much as $5 trillion if temporary provisions are extended.\n*  [crfb](https://vertexaisearch.cloud.google.com/id/1-11)  **Economic Impact:** The bill is projected to deliver critical relief to working families, with the typical family potentially receiving up to $10,900 in additional take-home pay. Wo [house](https://vertexaisearch.cloud.google.com/id/1-12)rkers may see increased wages up to $7,200, and up to 7.2 million jobs could be protected and created.\n*  [house](https://vertexaisearch.cloud.google.com/id/1-12)  **Winners and Losers:** The bill will redistribute resources from the poorest children and families to the wealthiest.\n\n* [georgetown](https://vertexaisearch.cloud.google.com/id/1-7)*Arguments For and Against:**\n\n*   **Proponents:** Argue that the bill will fuel economic growth, cut waste and fraud, and strengthen programs like Medicaid with reforms. Th [whitehouse](https://vertexaisearch.cloud.google.com/id/1-10) [aljazeera](https://vertexaisearch.cloud.google.com/id/1-0)ey also highlight tax relief for families and seniors.\n*  [house](https://vertexaisearch.cloud.google.com/id/1-12) [newsweek](https://vertexaisearch.cloud.google.com/id/1-1)  **Opponents:** Argue that the bill will increase the deficit, cut essential safety net programs, and disproportionately benefit the wealthy. Th [texastribune](https://vertexaisearch.cloud.google.com/id/1-9) [time](https://vertexaisearch.cloud.google.com/id/1-13)ey also express concern about the impact on vulnerable populations and access to healthcare.\n [aha](https://vertexaisearch.cloud.google.com/id/1-4)"
+    ],
+    "sources_gathered": [
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERZgjKfYvIBANIOpq1VK72hlDShTwqr0cierUp3WG0_JA8E7jJyNbpaYP2RUIXxtD3tu9CDPT2aWwX9gi6vgH4f76WoPFuVYzleTunRKYSIxDlPrpTlebbkN0D1j9Qoq9jaH3zEV7BbhDed7ZJjtUyzoEMBx_R-mtypVIkb0KBFdgjSHdTzEvI9CDQWyLYkmFZVG8BEISfnBfaL4UlT1rhXK4="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew=="
+      },
+      {
+        "label": "politicopro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YmBQVQPspDwMS_5O5qe6k2v5l2H0is2Idm5F0-51Mzc9QilTAcveL3ztwsBOfodXyd81FTXNDa7PphOX9G7OSrHCa-rJrNyvvj0rpUUFtCp0Y7PkegGsPvpqczpFC8Cn2jRuoNF56izm_tUSQ4S2kB3kUWG2GnboqQbUJExT8ELTS-_AG9BO8ETfNFGOAyOByZNxohMe"
+      },
+      {
+        "label": "politicopro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YmBQVQPspDwMS_5O5qe6k2v5l2H0is2Idm5F0-51Mzc9QilTAcveL3ztwsBOfodXyd81FTXNDa7PphOX9G7OSrHCa-rJrNyvvj0rpUUFtCp0Y7PkegGsPvpqczpFC8Cn2jRuoNF56izm_tUSQ4S2kB3kUWG2GnboqQbUJExT8ELTS-_AG9BO8ETfNFGOAyOByZNxohMe"
+      },
+      {
+        "label": "politicopro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YmBQVQPspDwMS_5O5qe6k2v5l2H0is2Idm5F0-51Mzc9QilTAcveL3ztwsBOfodXyd81FTXNDa7PphOX9G7OSrHCa-rJrNyvvj0rpUUFtCp0Y7PkegGsPvpqczpFC8Cn2jRuoNF56izm_tUSQ4S2kB3kUWG2GnboqQbUJExT8ELTS-_AG9BO8ETfNFGOAyOByZNxohMe"
+      },
+      {
+        "label": "politicopro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YmBQVQPspDwMS_5O5qe6k2v5l2H0is2Idm5F0-51Mzc9QilTAcveL3ztwsBOfodXyd81FTXNDa7PphOX9G7OSrHCa-rJrNyvvj0rpUUFtCp0Y7PkegGsPvpqczpFC8Cn2jRuoNF56izm_tUSQ4S2kB3kUWG2GnboqQbUJExT8ELTS-_AG9BO8ETfNFGOAyOByZNxohMe"
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERZgjKfYvIBANIOpq1VK72hlDShTwqr0cierUp3WG0_JA8E7jJyNbpaYP2RUIXxtD3tu9CDPT2aWwX9gi6vgH4f76WoPFuVYzleTunRKYSIxDlPrpTlebbkN0D1j9Qoq9jaH3zEV7BbhDed7ZJjtUyzoEMBx_R-mtypVIkb0KBFdgjSHdTzEvI9CDQWyLYkmFZVG8BEISfnBfaL4UlT1rhXK4="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew=="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_9fQfxuFuoAA33b9lHgLqQxGFhVXwpvdgoXz08K7rUccFuc_Zqh6fq6AKHufzI__QmXt7i5DzFdHk1njwnYgb0Uo02oPh3A9otmTLtotZB14sDCUXDRKf5wc1WpoFvjDBfk86U-1CNGWnr9kDUL88aRA4RROd4FhlbzCicIzF2bvDhJI="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_XH3w7JOaR6rOyN1sC5TdojsTTaYWflHkxPyhUPXaISZR-9jOmOYDNRseA9cpqs8jksEtfCEfvr2BUrb4UuNc9cpsJPt-7fUCT52dInNJ_DrNeZEjyOGK2xmPLN7sE-6iDAVUqA=="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_XH3w7JOaR6rOyN1sC5TdojsTTaYWflHkxPyhUPXaISZR-9jOmOYDNRseA9cpqs8jksEtfCEfvr2BUrb4UuNc9cpsJPt-7fUCT52dInNJ_DrNeZEjyOGK2xmPLN7sE-6iDAVUqA=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpZu1QtYCzsBJXfbUBPP3diNEFdTA25G0LKClBPAtdUWhpfXGTBRjlT4T0nSxpZkjhbf2KXDK3EeLgciH379PsLIJy5L7dGCeulaQiY3uUidGCbhzHQgxfNJdQVBRnFJls-amJTXo="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpZu1QtYCzsBJXfbUBPP3diNEFdTA25G0LKClBPAtdUWhpfXGTBRjlT4T0nSxpZkjhbf2KXDK3EeLgciH379PsLIJy5L7dGCeulaQiY3uUidGCbhzHQgxfNJdQVBRnFJls-amJTXo="
+      },
+      {
+        "label": "latimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdw-1uNCLWPdBjsqgmFf6oFrl29FnCso1YhCfN3h0UGXVqbr3VgGb2YRksF4YPL2w4US1_kD7AZwpCYCp95IchUasTgRB00qUrV5Zure_2cVq-Fm1oBJVwmMX2cr46BZrqsiY1vdHODlFnA7Y7A5g-JHoWMmSa5OhWu1fg1B0HjpgFKlgCB4IG76ik_P52Kky49dOX30PtMbDkAhirgFA="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpZu1QtYCzsBJXfbUBPP3diNEFdTA25G0LKClBPAtdUWhpfXGTBRjlT4T0nSxpZkjhbf2KXDK3EeLgciH379PsLIJy5L7dGCeulaQiY3uUidGCbhzHQgxfNJdQVBRnFJls-amJTXo="
+      },
+      {
+        "label": "thehindu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnjqVU1825SPGUzF88XZBEidnhGZeYFTknyxG5BpYS_Sml-rYuIwVWBZpjZk20Fsn71-B6TdsejZiZyObAlczPYIVZxfAl4I2oVTid4mcFSHetyGxR7ocWpbqKYHrH89upfQJUhQ=="
+      },
+      {
+        "label": "foxnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnm18WNAKha7B2s6pMsHS-y8giHf7EWPPs-MZns4_H6OF3cXHNIpXEbwIUCHkCscjasq_awulTsFH5ZSWabhP5GqyTfqs6DVPVvbkqPpilFnWZ4X5w7M9KDVceNpsERRu2Sp0RQBCiAXfYbEcaEp4="
+      },
+      {
+        "label": "foxnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnm18WNAKha7B2s6pMsHS-y8giHf7EWPPs-MZns4_H6OF3cXHNIpXEbwIUCHkCscjasq_awulTsFH5ZSWabhP5GqyTfqs6DVPVvbkqPpilFnWZ4X5w7M9KDVceNpsERRu2Sp0RQBCiAXfYbEcaEp4="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y"
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0="
+      },
+      {
+        "label": "hklaw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGacpQTmmVWNKbYK6czhK85rN8kYXOGMXDlXN2YxhGi4dCi8PXJonasj8tQJv-tam1nFh70ddqtxFT0wYmr03SXQLkD9x_QPcVlGs7kheFC5OOpvmVNxENgi-yprEZVCXl4feCE9DUPkBCH_vXiIOx75M-1QlN7dl08eM19COEbDMdGs_6E1UqTG6xFSUW0fdsYkhsdUPHRkUp7m8HCkvyjvZ-dERV9vrZ7"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Pff0cd_JUfw5vx2cqdKDVJh5A5YWhgjRUk_ABytaoZzPix_zjkVZF8W8PsY-6kI0BPHv_73Xmvt17TmJfp7Aykhd18dYEfuJyoq2jtv3CNzGA0Ze-rlKy4si51ih9TnXD0ozeJpBzu7PaV-uYG7bFlk8fNwcHpn24BegCJQWlNOqDmFJmxrFE8nZ3E1KfuMUJInb7yHyl_dYv5RGOMXolQS3ow=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Pff0cd_JUfw5vx2cqdKDVJh5A5YWhgjRUk_ABytaoZzPix_zjkVZF8W8PsY-6kI0BPHv_73Xmvt17TmJfp7Aykhd18dYEfuJyoq2jtv3CNzGA0Ze-rlKy4si51ih9TnXD0ozeJpBzu7PaV-uYG7bFlk8fNwcHpn24BegCJQWlNOqDmFJmxrFE8nZ3E1KfuMUJInb7yHyl_dYv5RGOMXolQS3ow=="
+      },
+      {
+        "label": "aha",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFk6WH_EihqQNY3DTM5LauY23e_8HL2tOypI-EmNRvDFmPLIvQs6EXmNWbrWiVnwGCijI8hdrGRQ-rpsaZOvnQ8c72wU_3Ymnc9coeswj8F_ccKGSDz5kphQznK1ZeoJLN0YtPXiXYERgBJuzta_H_a_tH5qAYI_1IBFuXWbuqPhgh-vKkGD1825kbQ_mTq3A2jQ0102wswHHYEBAo"
+      },
+      {
+        "label": "nysfocus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-cn3Ob_IRmkXGVJgZdZjSjvcfseRb8GemqORW8aKmUAIKmdZ41Y0xuDWilOwcs0mdZ7O8Iv9CKa64tDKuMUGosyIcKBZqusKjF-ylwz-Lsx1lSCCrvscL_pwAvYBgqun5Hfw_-7WMIWtAhYzmDW3QMN5zsGgZIfk8QdE"
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8E0tg8PuwTm6CMEBZqnEKo_QZPdN6njyfZZ0XKYHvGcMU4kumZlE2ln-7sxpzXMemGee4n9OqP-uie-ZuRl_2hYMd-YKyiICU65n-mwcaxYci8D_e6uLaUMnXQgnJUl169FXZcKj1459hTaCCcMm7hD_qKIyxpUWYMKeEs_gKQ5cvpzq1jg0KMPtXxM_I3RRbIdX2Nocxtzc_97UtBpxxZDuaM1ilAA=="
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv00v2cAeCLQmFxnTL8oyAE56YmRypWJK0VaIT9Zla6D4250IA0l2G2XkEP3xqq7NIPi4rQucIkFzfZpA0YPowcIYrt5EMgQtIWFvgIa_hF6ePVmgSwL3Kbe5Ht6dAnBp_54tEo_n3u1XGL5BAxmCTjB0fSbKoEGbT1JsYsHkgdNi3NMDRlTDm71aIcpKiJkGhs38bph8QyqJHYPVUJPHlBgWNEIbNuHxfnA=="
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv00v2cAeCLQmFxnTL8oyAE56YmRypWJK0VaIT9Zla6D4250IA0l2G2XkEP3xqq7NIPi4rQucIkFzfZpA0YPowcIYrt5EMgQtIWFvgIa_hF6ePVmgSwL3Kbe5Ht6dAnBp_54tEo_n3u1XGL5BAxmCTjB0fSbKoEGbT1JsYsHkgdNi3NMDRlTDm71aIcpKiJkGhs38bph8QyqJHYPVUJPHlBgWNEIbNuHxfnA=="
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv00v2cAeCLQmFxnTL8oyAE56YmRypWJK0VaIT9Zla6D4250IA0l2G2XkEP3xqq7NIPi4rQucIkFzfZpA0YPowcIYrt5EMgQtIWFvgIa_hF6ePVmgSwL3Kbe5Ht6dAnBp_54tEo_n3u1XGL5BAxmCTjB0fSbKoEGbT1JsYsHkgdNi3NMDRlTDm71aIcpKiJkGhs38bph8QyqJHYPVUJPHlBgWNEIbNuHxfnA=="
+      },
+      {
+        "label": "nysfocus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-cn3Ob_IRmkXGVJgZdZjSjvcfseRb8GemqORW8aKmUAIKmdZ41Y0xuDWilOwcs0mdZ7O8Iv9CKa64tDKuMUGosyIcKBZqusKjF-ylwz-Lsx1lSCCrvscL_pwAvYBgqun5Hfw_-7WMIWtAhYzmDW3QMN5zsGgZIfk8QdE"
+      },
+      {
+        "label": "nysfocus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-cn3Ob_IRmkXGVJgZdZjSjvcfseRb8GemqORW8aKmUAIKmdZ41Y0xuDWilOwcs0mdZ7O8Iv9CKa64tDKuMUGosyIcKBZqusKjF-ylwz-Lsx1lSCCrvscL_pwAvYBgqun5Hfw_-7WMIWtAhYzmDW3QMN5zsGgZIfk8QdE"
+      },
+      {
+        "label": "hklaw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOq5C5NFxwZRIAKJ6Xutmm-4nlMGzydp8QWrPsi7kyKfNZGiil0CnLnGDXvIasQyuYyODUs02HZS3VmrS4cM8w9zlTVRiry7jbTFgFyGBdzL56iSOmrJWIBCfTEhnR9tBt7N4DWmDOrxUhqPE50N-P94oQtFe6s6hUgqaIPKK692POERzII3TSE_zvJvY-bktZBvuPcdbL0FNcHbJKFAtXb70Ugd_9kw=="
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0="
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y"
+      },
+      {
+        "label": "nysfocus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-cn3Ob_IRmkXGVJgZdZjSjvcfseRb8GemqORW8aKmUAIKmdZ41Y0xuDWilOwcs0mdZ7O8Iv9CKa64tDKuMUGosyIcKBZqusKjF-ylwz-Lsx1lSCCrvscL_pwAvYBgqun5Hfw_-7WMIWtAhYzmDW3QMN5zsGgZIfk8QdE"
+      },
+      {
+        "label": "texastribune",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtYKbcXfcySobkP8MbgKOpgY0Wun9b0v3Yijq67bRsrOGJRbRIKCTT47ltPIEGHgVhywHaVoPk9LlZtEpUO_YxIb0cPJ2wuY-bFLW5Ot6bRsI_KCTL8ZeCOQ8Q-kz4YBvzZLnIvayUD0lOlJ33olWeG9R8KTD6EFvzjATvDkjpwkz8c8zFrZkCLk4-C66rLHFnRWj34LPh"
+      },
+      {
+        "label": "nysfocus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-cn3Ob_IRmkXGVJgZdZjSjvcfseRb8GemqORW8aKmUAIKmdZ41Y0xuDWilOwcs0mdZ7O8Iv9CKa64tDKuMUGosyIcKBZqusKjF-ylwz-Lsx1lSCCrvscL_pwAvYBgqun5Hfw_-7WMIWtAhYzmDW3QMN5zsGgZIfk8QdE"
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8E0tg8PuwTm6CMEBZqnEKo_QZPdN6njyfZZ0XKYHvGcMU4kumZlE2ln-7sxpzXMemGee4n9OqP-uie-ZuRl_2hYMd-YKyiICU65n-mwcaxYci8D_e6uLaUMnXQgnJUl169FXZcKj1459hTaCCcMm7hD_qKIyxpUWYMKeEs_gKQ5cvpzq1jg0KMPtXxM_I3RRbIdX2Nocxtzc_97UtBpxxZDuaM1ilAA=="
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8E0tg8PuwTm6CMEBZqnEKo_QZPdN6njyfZZ0XKYHvGcMU4kumZlE2ln-7sxpzXMemGee4n9OqP-uie-ZuRl_2hYMd-YKyiICU65n-mwcaxYci8D_e6uLaUMnXQgnJUl169FXZcKj1459hTaCCcMm7hD_qKIyxpUWYMKeEs_gKQ5cvpzq1jg0KMPtXxM_I3RRbIdX2Nocxtzc_97UtBpxxZDuaM1ilAA=="
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv00v2cAeCLQmFxnTL8oyAE56YmRypWJK0VaIT9Zla6D4250IA0l2G2XkEP3xqq7NIPi4rQucIkFzfZpA0YPowcIYrt5EMgQtIWFvgIa_hF6ePVmgSwL3Kbe5Ht6dAnBp_54tEo_n3u1XGL5BAxmCTjB0fSbKoEGbT1JsYsHkgdNi3NMDRlTDm71aIcpKiJkGhs38bph8QyqJHYPVUJPHlBgWNEIbNuHxfnA=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y"
+      },
+      {
+        "label": "whitehouse",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGV2BGRQ73k8kpP0jQrtdr0AlcDAe6xrwXm4LLYOfSE8V_xQCyMfhzu2bAthB_KyXJbqIV-DYMVTf2yUAIa8ZGX7q9MYCuclSwNbxdWuLeg2FnOx292_c0E7aYvvTwRW2d69nHA3cPXl4m_sMXms98ebBQMzcaNFn4O7PrpZvw1qroCL6khaFnOLTlpWo4mw=="
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0="
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Pff0cd_JUfw5vx2cqdKDVJh5A5YWhgjRUk_ABytaoZzPix_zjkVZF8W8PsY-6kI0BPHv_73Xmvt17TmJfp7Aykhd18dYEfuJyoq2jtv3CNzGA0Ze-rlKy4si51ih9TnXD0ozeJpBzu7PaV-uYG7bFlk8fNwcHpn24BegCJQWlNOqDmFJmxrFE8nZ3E1KfuMUJInb7yHyl_dYv5RGOMXolQS3ow=="
+      },
+      {
+        "label": "crfb",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuOjOO6_Gm3f6y95WsOGpb7ONg5t6QBF__amZGqB2eRFS33s-QKS2oi5eIB3pVt0mLyNRC7qyZI9tKJjxcAWYwXD4bx_s-XC9PyKtgi4Sh31etfb4AhvjSZhcnw8VuP3iivvRT30Nq4fbd--bWAlOS0EmJ_OW9_31O8Q=="
+      },
+      {
+        "label": "house",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcbpRQg9CynZqr9-uMz9ErzYCiYnSKeq8rsxcIUkqUo9PqhiZPCRNciQ6PmIw-19tU1Izec4BuBcxVEnpYqYEmPhk2hBxzM1_2fng26iK9m0eZB1C-xZ0oFbKLB2NiFcRdsnqRK935tRl-iwuW0Ge-SBaRfttqVKiJbGeGQ0qj5tHjKS3aU6wd5lTmSbQDnfT6ioUQwjGdi7Pt2gcHYJlJzAFPP-D_lbB1gDTkjg=="
+      },
+      {
+        "label": "house",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcbpRQg9CynZqr9-uMz9ErzYCiYnSKeq8rsxcIUkqUo9PqhiZPCRNciQ6PmIw-19tU1Izec4BuBcxVEnpYqYEmPhk2hBxzM1_2fng26iK9m0eZB1C-xZ0oFbKLB2NiFcRdsnqRK935tRl-iwuW0Ge-SBaRfttqVKiJbGeGQ0qj5tHjKS3aU6wd5lTmSbQDnfT6ioUQwjGdi7Pt2gcHYJlJzAFPP-D_lbB1gDTkjg=="
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv00v2cAeCLQmFxnTL8oyAE56YmRypWJK0VaIT9Zla6D4250IA0l2G2XkEP3xqq7NIPi4rQucIkFzfZpA0YPowcIYrt5EMgQtIWFvgIa_hF6ePVmgSwL3Kbe5Ht6dAnBp_54tEo_n3u1XGL5BAxmCTjB0fSbKoEGbT1JsYsHkgdNi3NMDRlTDm71aIcpKiJkGhs38bph8QyqJHYPVUJPHlBgWNEIbNuHxfnA=="
+      },
+      {
+        "label": "whitehouse",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGV2BGRQ73k8kpP0jQrtdr0AlcDAe6xrwXm4LLYOfSE8V_xQCyMfhzu2bAthB_KyXJbqIV-DYMVTf2yUAIa8ZGX7q9MYCuclSwNbxdWuLeg2FnOx292_c0E7aYvvTwRW2d69nHA3cPXl4m_sMXms98ebBQMzcaNFn4O7PrpZvw1qroCL6khaFnOLTlpWo4mw=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y"
+      },
+      {
+        "label": "house",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcbpRQg9CynZqr9-uMz9ErzYCiYnSKeq8rsxcIUkqUo9PqhiZPCRNciQ6PmIw-19tU1Izec4BuBcxVEnpYqYEmPhk2hBxzM1_2fng26iK9m0eZB1C-xZ0oFbKLB2NiFcRdsnqRK935tRl-iwuW0Ge-SBaRfttqVKiJbGeGQ0qj5tHjKS3aU6wd5lTmSbQDnfT6ioUQwjGdi7Pt2gcHYJlJzAFPP-D_lbB1gDTkjg=="
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0="
+      },
+      {
+        "label": "texastribune",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtYKbcXfcySobkP8MbgKOpgY0Wun9b0v3Yijq67bRsrOGJRbRIKCTT47ltPIEGHgVhywHaVoPk9LlZtEpUO_YxIb0cPJ2wuY-bFLW5Ot6bRsI_KCTL8ZeCOQ8Q-kz4YBvzZLnIvayUD0lOlJ33olWeG9R8KTD6EFvzjATvDkjpwkz8c8zFrZkCLk4-C66rLHFnRWj34LPh"
+      },
+      {
+        "label": "time",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmRmKiHJzDT1P_1kq4Yi4FQaRD0vkXF-wubFvhEFA0Am4YBo2O9M5VpwqZuYPgg0uBDOWyVL2JTt7NFEXu3MKPh54u44LxqBZV60ayyiIHm7teWiQU6GPgFs_Aq-7pcFRX6Yj7KYeeqDg8BRFs-vSsEiislE7_zFvJ"
+      },
+      {
+        "label": "aha",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFk6WH_EihqQNY3DTM5LauY23e_8HL2tOypI-EmNRvDFmPLIvQs6EXmNWbrWiVnwGCijI8hdrGRQ-rpsaZOvnQ8c72wU_3Ymnc9coeswj8F_ccKGSDz5kphQznK1ZeoJLN0YtPXiXYERgBJuzta_H_a_tH5qAYI_1IBFuXWbuqPhgh-vKkGD1825kbQ_mTq3A2jQ0102wswHHYEBAo"
+      },
+      {
+        "label": "cbsnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERZgjKfYvIBANIOpq1VK72hlDShTwqr0cierUp3WG0_JA8E7jJyNbpaYP2RUIXxtD3tu9CDPT2aWwX9gi6vgH4f76WoPFuVYzleTunRKYSIxDlPrpTlebbkN0D1j9Qoq9jaH3zEV7BbhDed7ZJjtUyzoEMBx_R-mtypVIkb0KBFdgjSHdTzEvI9CDQWyLYkmFZVG8BEISfnBfaL4UlT1rhXK4="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdJKeiIyR0VdDL-C-HPrnBFPwm4NsA7_gNAvSJqD---CnixVnv-ckCaFg3gC4XGuEpyCQJQ2kUAkDaYATr-dZB1XiH2PE-xbEdLLkI58uHwSS-89ihY3N8O84SQzIhTWtpEIKwO1wwLugy8belZr0lDXDEDk7kBCA9NR8D5xy46MzKIJbyHRVJ66EHrzPZ4DMGv7KyZFdusesBq1lFsmMXCMitYw4C2LjmUxsHbZiMJO4jew=="
+      },
+      {
+        "label": "politicopro",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6YmBQVQPspDwMS_5O5qe6k2v5l2H0is2Idm5F0-51Mzc9QilTAcveL3ztwsBOfodXyd81FTXNDa7PphOX9G7OSrHCa-rJrNyvvj0rpUUFtCp0Y7PkegGsPvpqczpFC8Cn2jRuoNF56izm_tUSQ4S2kB3kUWG2GnboqQbUJExT8ELTS-_AG9BO8ETfNFGOAyOByZNxohMe"
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_9fQfxuFuoAA33b9lHgLqQxGFhVXwpvdgoXz08K7rUccFuc_Zqh6fq6AKHufzI__QmXt7i5DzFdHk1njwnYgb0Uo02oPh3A9otmTLtotZB14sDCUXDRKf5wc1WpoFvjDBfk86U-1CNGWnr9kDUL88aRA4RROd4FhlbzCicIzF2bvDhJI="
+      },
+      {
+        "label": "politico",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_XH3w7JOaR6rOyN1sC5TdojsTTaYWflHkxPyhUPXaISZR-9jOmOYDNRseA9cpqs8jksEtfCEfvr2BUrb4UuNc9cpsJPt-7fUCT52dInNJ_DrNeZEjyOGK2xmPLN7sE-6iDAVUqA=="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpZu1QtYCzsBJXfbUBPP3diNEFdTA25G0LKClBPAtdUWhpfXGTBRjlT4T0nSxpZkjhbf2KXDK3EeLgciH379PsLIJy5L7dGCeulaQiY3uUidGCbhzHQgxfNJdQVBRnFJls-amJTXo="
+      },
+      {
+        "label": "latimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdw-1uNCLWPdBjsqgmFf6oFrl29FnCso1YhCfN3h0UGXVqbr3VgGb2YRksF4YPL2w4US1_kD7AZwpCYCp95IchUasTgRB00qUrV5Zure_2cVq-Fm1oBJVwmMX2cr46BZrqsiY1vdHODlFnA7Y7A5g-JHoWMmSa5OhWu1fg1B0HjpgFKlgCB4IG76ik_P52Kky49dOX30PtMbDkAhirgFA="
+      },
+      {
+        "label": "thehindu",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnjqVU1825SPGUzF88XZBEidnhGZeYFTknyxG5BpYS_Sml-rYuIwVWBZpjZk20Fsn71-B6TdsejZiZyObAlczPYIVZxfAl4I2oVTid4mcFSHetyGxR7ocWpbqKYHrH89upfQJUhQ=="
+      },
+      {
+        "label": "foxnews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnm18WNAKha7B2s6pMsHS-y8giHf7EWPPs-MZns4_H6OF3cXHNIpXEbwIUCHkCscjasq_awulTsFH5ZSWabhP5GqyTfqs6DVPVvbkqPpilFnWZ4X5w7M9KDVceNpsERRu2Sp0RQBCiAXfYbEcaEp4="
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6ebzfwi1Ltsr6Bjjk6_kbRcfv8dCPzTZGxnoI3-bYx8UC6PdyElQLvvn5YV8efeIrsQtd_cOAF_UdxVd0dWVZxYmjvWIkbmCd2Sgxa5FNSm7Ms3YalhuiJc9fBFcjk1plXu7tfB0uYtHln6pvs4iXx3jnce2NQ-BdEWdsmyShIctLOK8vjpx44fUjvtW1pZi5d9r6z2OP3mPUZyg_LH0Y"
+      },
+      {
+        "label": "newsweek",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjCVt-rPdx62AuJCYDwYUF07NluI2WEbszmWa3aAcdlTCJjHlUqtXr1uMu0Jke8XXQS2cgqSilz389TWf9gk4odkdzW_fbdd3QarHGTO4HhySqa6kn_mVdSttsh2S6mDvWGF7PThs2Fm5nTiyR6IZUhIdrqyRcavCxxHSu9rDQfIQS9pJqc5Gc6ZUJJB0="
+      },
+      {
+        "label": "hklaw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGacpQTmmVWNKbYK6czhK85rN8kYXOGMXDlXN2YxhGi4dCi8PXJonasj8tQJv-tam1nFh70ddqtxFT0wYmr03SXQLkD9x_QPcVlGs7kheFC5OOpvmVNxENgi-yprEZVCXl4feCE9DUPkBCH_vXiIOx75M-1QlN7dl08eM19COEbDMdGs_6E1UqTG6xFSUW0fdsYkhsdUPHRkUp7m8HCkvyjvZ-dERV9vrZ7"
+      },
+      {
+        "label": "aljazeera",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Pff0cd_JUfw5vx2cqdKDVJh5A5YWhgjRUk_ABytaoZzPix_zjkVZF8W8PsY-6kI0BPHv_73Xmvt17TmJfp7Aykhd18dYEfuJyoq2jtv3CNzGA0Ze-rlKy4si51ih9TnXD0ozeJpBzu7PaV-uYG7bFlk8fNwcHpn24BegCJQWlNOqDmFJmxrFE8nZ3E1KfuMUJInb7yHyl_dYv5RGOMXolQS3ow=="
+      },
+      {
+        "label": "aha",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFk6WH_EihqQNY3DTM5LauY23e_8HL2tOypI-EmNRvDFmPLIvQs6EXmNWbrWiVnwGCijI8hdrGRQ-rpsaZOvnQ8c72wU_3Ymnc9coeswj8F_ccKGSDz5kphQznK1ZeoJLN0YtPXiXYERgBJuzta_H_a_tH5qAYI_1IBFuXWbuqPhgh-vKkGD1825kbQ_mTq3A2jQ0102wswHHYEBAo"
+      },
+      {
+        "label": "nysfocus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM-cn3Ob_IRmkXGVJgZdZjSjvcfseRb8GemqORW8aKmUAIKmdZ41Y0xuDWilOwcs0mdZ7O8Iv9CKa64tDKuMUGosyIcKBZqusKjF-ylwz-Lsx1lSCCrvscL_pwAvYBgqun5Hfw_-7WMIWtAhYzmDW3QMN5zsGgZIfk8QdE"
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8E0tg8PuwTm6CMEBZqnEKo_QZPdN6njyfZZ0XKYHvGcMU4kumZlE2ln-7sxpzXMemGee4n9OqP-uie-ZuRl_2hYMd-YKyiICU65n-mwcaxYci8D_e6uLaUMnXQgnJUl169FXZcKj1459hTaCCcMm7hD_qKIyxpUWYMKeEs_gKQ5cvpzq1jg0KMPtXxM_I3RRbIdX2Nocxtzc_97UtBpxxZDuaM1ilAA=="
+      },
+      {
+        "label": "georgetown",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv00v2cAeCLQmFxnTL8oyAE56YmRypWJK0VaIT9Zla6D4250IA0l2G2XkEP3xqq7NIPi4rQucIkFzfZpA0YPowcIYrt5EMgQtIWFvgIa_hF6ePVmgSwL3Kbe5Ht6dAnBp_54tEo_n3u1XGL5BAxmCTjB0fSbKoEGbT1JsYsHkgdNi3NMDRlTDm71aIcpKiJkGhs38bph8QyqJHYPVUJPHlBgWNEIbNuHxfnA=="
+      },
+      {
+        "label": "hklaw",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOq5C5NFxwZRIAKJ6Xutmm-4nlMGzydp8QWrPsi7kyKfNZGiil0CnLnGDXvIasQyuYyODUs02HZS3VmrS4cM8w9zlTVRiry7jbTFgFyGBdzL56iSOmrJWIBCfTEhnR9tBt7N4DWmDOrxUhqPE50N-P94oQtFe6s6hUgqaIPKK692POERzII3TSE_zvJvY-bktZBvuPcdbL0FNcHbJKFAtXb70Ugd_9kw=="
+      },
+      {
+        "label": "texastribune",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtYKbcXfcySobkP8MbgKOpgY0Wun9b0v3Yijq67bRsrOGJRbRIKCTT47ltPIEGHgVhywHaVoPk9LlZtEpUO_YxIb0cPJ2wuY-bFLW5Ot6bRsI_KCTL8ZeCOQ8Q-kz4YBvzZLnIvayUD0lOlJ33olWeG9R8KTD6EFvzjATvDkjpwkz8c8zFrZkCLk4-C66rLHFnRWj34LPh"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

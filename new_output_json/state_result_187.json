@@ -1,0 +1,627 @@
+{
+  "file_name": "state_result_187.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.608405",
+  "data": {
+    "messages": [
+      {
+        "content": "Which NNTP servers allow posting binaries for free?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "13e0724d-3b4e-48bb-b986-0ac600327e43",
+        "example": false
+      },
+      {
+        "content": "As of July 16, 2025, it's challenging to find completely free NNTP servers that allow posting binaries without limitations [usenetreviewz](https://vertexaisearch.cloud.google.com/id/1-0) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1). Here's a breakdown of options and considerations:\n\n**Limited Free Options:**\n\n*   **Eternal September:** Offers free access, but only to text groups [quora](https://vertexaisearch.cloud.google.com/id/0-9) [greycoder](https://vertexaisearch.cloud.google.com/id/0-6) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Usenet.Farm:** Provides 20 GB of free downloading, requiring only an email address [greycoder](https://vertexaisearch.cloud.google.com/id/0-6) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **https://usenet.cloud:** Allows downloading binary news from Usenet to the cloud for free, without requiring sign-up [greycoder](https://vertexaisearch.cloud.google.com/id/0-6).\n\n**Free Trials (with limitations):**\n\nMany Usenet providers offer free trials, but these come with data limits and time restrictions [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5). Some examples include:\n\n*   **Giganews:** 14-day free trial with 10 GB of data [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5].\n*   **Supernews:** 3-day free trial with 10 GB of data [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Newshosting:** 750GB free trial [greycoder](https://vertexaisearch.cloud.google.com/id/0-6) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5].\n*   **Easynews:** 7-day free trial with 50 GB of data [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5].\n*   **UseNetServer:** 14-day free trial with 10 GB of data [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5].\n*   **Eweka:** 7-day free trial with unlimited downloads [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5].\n*   **Pure Usenet:** 7-day free trial with unlimited downloads [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8].\n*   **XS News:** 14-day free trial with unlimited downloads [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8].\n\n**Important Considerations for Free Servers:**\n\n*   **Reliability and Speed:** Free servers are generally less reliable and slower than paid options [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Security:** They often lack SSL connections, potentially compromising your privacy [newshosting](https://vertexaisearch.cloud.google.com/id/1-2) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1). Using a VPN can enhance your privacy and security [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [nordvpn](https://vertexaisearch.cloud.google.com/id/0-2) [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [tomsguide](https://vertexaisearch.cloud.google.com/id/1-6].\n*   **Retention Time:** Free servers typically have shorter retention times for binaries [usenetreviewz](https://vertexaisearch.cloud.google.com/id/1-0) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Paid Alternatives:**\n\nIf you need unlimited access, faster speeds, longer retention, and better security, consider paid Usenet providers like Newshosting, UsenetServer, Easynews, Giganews, and Eweka [newshosting](https://vertexaisearch.cloud.google.com/id/1-2) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1) [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [usenet](https://vertexaisearch.cloud.google.com/id/1-7).\n\n**Software:**\n\nYou'll need a newsreader client to access Usenet [rapidseedbox](https://vertexaisearch.cloud.google.com/id/1-8). SABnzbd and NZBGet are free, open-source NZB downloaders [techradar](https://vertexaisearch.cloud.google.com/id/0-12) [usenetreviewz](https://vertexaisearch.cloud.google.com/id/1-9) [rapidseedbox](https://vertexaisearch.cloud.google.com/id/1-8).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "5d0d4cd0-3945-4e9f-b45b-102ca4aa196a",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "free NNTP binary posting servers list 2025",
+      "Are there any completely free NNTP servers that allow posting of binaries in 2025, without trial periods or data limits? What are the limitations of these servers in terms of speed, retention, and security?"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct targeted Google Searches to gather the most recent information on \"free NNTP binary posting servers list 2025\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of information regarding free NNTP binary posting servers in 2025:\n\n**General Information about Usenet and NNTP Servers**\n\n*   Usenet is a decentralized network for sharing messages and binary files, functioning as an early form of internet forum [rapidseedbox](https://vertexaisearch.cloud.google.com/id/0-0) [tomsguide](https://vertexaisearch.cloud.google.com/id/0-1).\n*   NNTP (Network News Transfer Protocol) is the protocol used to distribute news articles across the Usenet network [nordvpn](https://vertexaisearch.cloud.google.com/id/0-2) [techradar](https://vertexaisearch.cloud.google.com/id/0-3).\n*   To access Usenet, you need a Usenet provider, a newsreader (Usenet client), and optionally an indexer [rapidseedbox](https://vertexaisearch.cloud.google.com/id/0-0) [nordvpn](https://vertexaisearch.cloud.google.com/id/0-2).\n*   Usenet providers offer access to newsgroups, which are discussion forums covering various topics [nordvpn](https://vertexaisearch.cloud.google.com/id/0-2).\n*   Binary files are often shared on Usenet, and retention refers to how long these files are stored on the provider's servers [rapidseedbox](https://vertexaisearch.cloud.google.com/id/0-0) [usenetreviewz](https://vertexaisearch.cloud.google.com/id/0-4) [tomsguide](https://vertexaisearch.cloud.google.com/id/0-1).\n*   NZB files are used to download binary files from Usenet [rapidseedbox](https://vertexaisearch.cloud.google.com/id/0-0) [nordvpn](https://vertexaisearch.cloud.google.com/id/0-2).\n\n**Free Usenet Trials and Services in 2025**\n\n*   Several Usenet providers offer free trials with varying data limits and durations [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [greycoder](https://vertexaisearch.cloud.google.com/id/0-6) [usenetreviewz](https://vertexaisearch.cloud.google.com/id/0-7) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **Giganews:** Offers a 14-day free trial with 10 GB of data [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **Supernews:** Offers a 3-day free trial with 10 GB of data [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **Newshosting:** Offers a 750GB free trial [greycoder](https://vertexaisearch.cloud.google.com/id/0-6) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **Easynews:** Offers a 7-day free trial with 50 GB of data [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **UseNetServer:** Offers a 14-day free trial with 10 GB of data [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **Eweka:** Offers a 7-day free trial with unlimited downloads [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **Pure Usenet:** Offers a 7-day free trial with unlimited downloads [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **XS News:** Offers a 14-day free trial with unlimited downloads [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n    *   **Usenet.Farm:** Offers 20 GB of free downloading [greycoder](https://vertexaisearch.cloud.google.com/id/0-6).\n*   Some providers, like Tweaknews, may not require a credit card during the signup process for a free trial [usenetreviewz](https://vertexaisearch.cloud.google.com/id/0-7).\n*   https://usenet.cloud allows downloading binary news from Usenet to the cloud. The service is free, and no sign-up is required [greycoder](https://vertexaisearch.cloud.google.com/id/0-6).\n\n**Free NNTP Servers and Software**\n\n*   **Eternal September:** Offers free access to text groups only [quora](https://vertexaisearch.cloud.google.com/id/0-9) [greycoder](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **WendzelNNTPd:** A free Usenet server with SQL backend and RBAC (Role-Based Access Control), IPv6-ready, and supports authentication and ACL [sourceforge](https://vertexaisearch.cloud.google.com/id/0-10) [github](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **SABnzbd:** A free and open-source binary newsreader that can be used via a web browser [techradar](https://vertexaisearch.cloud.google.com/id/0-12) [usenetreviewz](https://vertexaisearch.cloud.google.com/id/0-13).\n*   **NZBGet:** A free and open-source NZB downloader optimized for low-powered CPUs [sourceforge](https://vertexaisearch.cloud.google.com/id/0-10) [usenetreviewz](https://vertexaisearch.cloud.google.com/id/0-13).\n\n**Usenet Providers with Good Features in 2025**\n\n*   **Newshosting:**  Offers high retention, fast speeds, and a large archive of Usenet posts [techradar](https://vertexaisearch.cloud.google.com/id/0-3) [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [tomsguide](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Eweka:** Known for a vast choice of newsgroups and high completion rates [techradar](https://vertexaisearch.cloud.google.com/id/0-3) [usenetreviewz](https://vertexaisearch.cloud.google.com/id/0-4) [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [tomsguide](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Giganews:** Offers high download speed and includes VyprVPN [techradar](https://vertexaisearch.cloud.google.com/id/0-3) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8) [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [usenet](https://vertexaisearch.cloud.google.com/id/0-14) [tomsguide](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **UsenetServer:** Provides unlimited downloads, fast speeds, and a free NZB search engine [techradar](https://vertexaisearch.cloud.google.com/id/0-3) [usenetreviewz](https://vertexaisearch.cloud.google.com/id/0-4) [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [tomsguide](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Easynews:** Combines high-speed Usenet access with a web-based newsreader interface [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [usenetreviewz](https://vertexaisearch.cloud.google.com/id/0-13) [usenetreviewz](https://vertexaisearch.cloud.google.com/id/0-4).\n*   **Pure Usenet:** A budget-friendly option with unlimited downloads and good retention [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [techradar](https://vertexaisearch.cloud.google.com/id/0-3) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/0-8).\n\n**Important Considerations**\n\n*   Free Usenet servers may be slower and less reliable than paid services [greycoder](https://vertexaisearch.cloud.google.com/id/0-6).\n*   They may not provide SSL connections and may have shorter retention times [greycoder](https://vertexaisearch.cloud.google.com/id/0-6).\n*   Consider retention, completion rates, speed, security (SSL encryption), and customer support when choosing a Usenet provider [nordvpn](https://vertexaisearch.cloud.google.com/id/0-2) [tomsguide](https://vertexaisearch.cloud.google.com/id/0-1).\n*   Using a VPN can enhance your privacy and security when accessing Usenet [techradar](https://vertexaisearch.cloud.google.com/id/0-5) [nordvpn](https://vertexaisearch.cloud.google.com/id/0-2).\n",
+      "As of July 16, 2025, finding a completely free NNTP server that allows posting of binaries without any limitations (trial periods or data limits) is difficult [usenetreviewz](https://vertexaisearch.cloud.google.com/id/1-0) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1). While some options exist, they often come with restrictions [newshosting](https://vertexaisearch.cloud.google.com/id/1-2) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Free NNTP Servers and their Limitations:**\n\n*   **Availability:** Free Usenet servers are scarce compared to paid services [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Reliability and Speed:** Free servers tend to be less reliable and slower than paid ones [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Security:** They typically do not offer SSL connections, which can compromise privacy [newshosting](https://vertexaisearch.cloud.google.com/id/1-2) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Retention Time:** Free servers usually have a short retention time for articles and binaries, ranging from 10 to 100 days [usenetreviewz](https://vertexaisearch.cloud.google.com/id/1-0) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1). This means older files may not be available.\n*   **ISPs:** Some Internet Service Providers (ISPs) include Usenet access, but these often have limitations on speed, binary downloads, and accessible newsgroups [usenetreviewz](https://vertexaisearch.cloud.google.com/id/1-0). Only a small number of ISPs offer Usenet access, and it's typically limited to around 30 days of binary retention [usenetreviewz](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Ad-supported:** Free services may rely on ads and trackers, potentially compromising user privacy. They might also collect and sell user data [newshosting](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**Alternatives to Completely Free Servers:**\n\n*   **Free Trials:** Many Usenet providers offer free trials, allowing you to test their service [privateproxyguide](https://vertexaisearch.cloud.google.com/id/1-3) [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5). Examples include Newshosting (750 GB free trial) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5), Easynews (50 GB free trial) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5), UsenetServer (10 GB free trial) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5), Giganews (10 GB free trial) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5), and Eweka (unlimited downloads for 7 days) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5). Keep in mind that these trials have limitations, such as data caps and time restrictions [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Usenet.Farm:** This independent Dutch provider offers 20 GB of free Usenet downloading without requiring a credit card, only an email address [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Eternal September:** This provider offers free access to text groups only [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Limitations of Free Trials:**\n\n*   **Data Limits:** Free trials often come with data download limits [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Time Restrictions:** Trials are typically limited to a specific duration [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [newsgroupreviews](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Personal Data:** Some trials require personal data during signup [techradar](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**Security Considerations:**\n\n*   **SSL Encryption:** Paid Usenet providers usually offer SSL encryption to protect your Usenet activity [newshosting](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **VPN:** Some providers include VPN services for added security and privacy [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [tomsguide](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**Paid Usenet Providers:**\n\nIf you require unlimited access, faster speeds, longer retention, and better security, consider paid Usenet providers [newshosting](https://vertexaisearch.cloud.google.com/id/1-2) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1). Some popular options include Newshosting, UsenetServer, Easynews, Giganews, and Eweka [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [usenet](https://vertexaisearch.cloud.google.com/id/1-7). These providers offer various plans with different features and pricing [privateproxyguide](https://vertexaisearch.cloud.google.com/id/1-3) [tomsguide](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**Software:**\n\n*   **Newsreaders:** To access Usenet, you'll need a newsreader client [rapidseedbox](https://vertexaisearch.cloud.google.com/id/1-8). Some providers offer their own newsreaders, while others require you to use a third-party client [techradar](https://vertexaisearch.cloud.google.com/id/1-4) [tomsguide](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **SABnzbd and NZBGet:** These are free, open-source NZB downloaders that can automate Usenet usage [usenetreviewz](https://vertexaisearch.cloud.google.com/id/1-9) [rapidseedbox](https://vertexaisearch.cloud.google.com/id/1-8).\n\nIn conclusion, while completely free NNTP servers with unlimited binary posting are hard to find in 2025, you can explore free trials or consider budget-friendly paid options if you need more comprehensive features and fewer restrictions [newshosting](https://vertexaisearch.cloud.google.com/id/1-2) [greycoder](https://vertexaisearch.cloud.google.com/id/1-1).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "rapidseedbox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcJtqUPhDj7wOUaZaaa28N6YW3HOr1z_KXfIMtce96Ly2lFxrAVg15nQ4zzf807zX_JNr6ww3N924XQcOqsXlxO3McKhBqE-f4IFlHVdqS5CTCm3r5VxxtKA1HBYJnFYT3LlelRgNps44F6g=="
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6M84j1NMQwmbBxYaq1-QPd4P1tfOXNqXUmAwUeEuiJSPy2BVXWC8PaZxfGeJFuJcb5mdb5jYzvuJ4zlG0Vl8NMB4Mqo6PkhYZfmnk51gTSLSmwvbIieafnIyjv3POR6qr_UiOH-WyncILEKNu7sIOAxtyelLgo88="
+      },
+      {
+        "label": "nordvpn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhctgVE2tDrisKLzzRrGnqd1hklNZ6TEGv18KgC2z5MjF8fZS7JebLlNC-jeC1u6c2oaWrVGZSXeNJZPA8YxVrm6NkV50WPNMC-P9hyKMyLkOeVxFhKKQ1UR1bk5z2ay1fsg=="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3DHtgf7sMXCiQVuTZ6z9W1gpoU0Imh1ml_fljS3mTnObOCNT-SmE-HbHi4Md1l8BfsALPcelmuxSzMMQ_cP5ZvSClJJThYAzn3yOZTXdFlID1-LvCB0g2v4a0paLCQ2J8P-k__fftCgQZiXQJIA=="
+      },
+      {
+        "label": "rapidseedbox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcJtqUPhDj7wOUaZaaa28N6YW3HOr1z_KXfIMtce96Ly2lFxrAVg15nQ4zzf807zX_JNr6ww3N924XQcOqsXlxO3McKhBqE-f4IFlHVdqS5CTCm3r5VxxtKA1HBYJnFYT3LlelRgNps44F6g=="
+      },
+      {
+        "label": "nordvpn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhctgVE2tDrisKLzzRrGnqd1hklNZ6TEGv18KgC2z5MjF8fZS7JebLlNC-jeC1u6c2oaWrVGZSXeNJZPA8YxVrm6NkV50WPNMC-P9hyKMyLkOeVxFhKKQ1UR1bk5z2ay1fsg=="
+      },
+      {
+        "label": "nordvpn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhctgVE2tDrisKLzzRrGnqd1hklNZ6TEGv18KgC2z5MjF8fZS7JebLlNC-jeC1u6c2oaWrVGZSXeNJZPA8YxVrm6NkV50WPNMC-P9hyKMyLkOeVxFhKKQ1UR1bk5z2ay1fsg=="
+      },
+      {
+        "label": "rapidseedbox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcJtqUPhDj7wOUaZaaa28N6YW3HOr1z_KXfIMtce96Ly2lFxrAVg15nQ4zzf807zX_JNr6ww3N924XQcOqsXlxO3McKhBqE-f4IFlHVdqS5CTCm3r5VxxtKA1HBYJnFYT3LlelRgNps44F6g=="
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5OxKzLdjzn6vrkDXug6tLYZFd2mFsTEGICJ-GkRU_cvxy1X4bN0xfKeGPmvjLZlMrjXDANz-dmq1rA32Mll6fs1pbt2dKjPPBpTtvLkiTtXdVbVGLmrqGU-0JPsk6oZR0nqZwujoPrSeo"
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6M84j1NMQwmbBxYaq1-QPd4P1tfOXNqXUmAwUeEuiJSPy2BVXWC8PaZxfGeJFuJcb5mdb5jYzvuJ4zlG0Vl8NMB4Mqo6PkhYZfmnk51gTSLSmwvbIieafnIyjv3POR6qr_UiOH-WyncILEKNu7sIOAxtyelLgo88="
+      },
+      {
+        "label": "rapidseedbox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcJtqUPhDj7wOUaZaaa28N6YW3HOr1z_KXfIMtce96Ly2lFxrAVg15nQ4zzf807zX_JNr6ww3N924XQcOqsXlxO3McKhBqE-f4IFlHVdqS5CTCm3r5VxxtKA1HBYJnFYT3LlelRgNps44F6g=="
+      },
+      {
+        "label": "nordvpn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhctgVE2tDrisKLzzRrGnqd1hklNZ6TEGv18KgC2z5MjF8fZS7JebLlNC-jeC1u6c2oaWrVGZSXeNJZPA8YxVrm6NkV50WPNMC-P9hyKMyLkOeVxFhKKQ1UR1bk5z2ay1fsg=="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMAc318JrpZc5azhzF4F7_tlZoQyO4Oy6-i58-Vphm28MijdzI4VRbe9a3nfx44HMSxxwhZ2ufAFoN2P6mQ6mUzJW2O-jj7QT5MvqDQxl7t3v92sEyIFrb6f0vAntLPhoBj_MeNksQTYA="
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbinwKjCp01pJHKBkUCeBcsGSCvOgpZ0vc4JmBIv1couoNS9CrLr0OHW_CDGlZ-Y0F1p4vls6rKqztgTKxvoAvz6LMWpIdjBIqZjwpr944m63I0zupDMDKAKj0hz6P2t8="
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMAc318JrpZc5azhzF4F7_tlZoQyO4Oy6-i58-Vphm28MijdzI4VRbe9a3nfx44HMSxxwhZ2ufAFoN2P6mQ6mUzJW2O-jj7QT5MvqDQxl7t3v92sEyIFrb6f0vAntLPhoBj_MeNksQTYA="
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMAc318JrpZc5azhzF4F7_tlZoQyO4Oy6-i58-Vphm28MijdzI4VRbe9a3nfx44HMSxxwhZ2ufAFoN2P6mQ6mUzJW2O-jj7QT5MvqDQxl7t3v92sEyIFrb6f0vAntLPhoBj_MeNksQTYA="
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbinwKjCp01pJHKBkUCeBcsGSCvOgpZ0vc4JmBIv1couoNS9CrLr0OHW_CDGlZ-Y0F1p4vls6rKqztgTKxvoAvz6LMWpIdjBIqZjwpr944m63I0zupDMDKAKj0hz6P2t8="
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMAc318JrpZc5azhzF4F7_tlZoQyO4Oy6-i58-Vphm28MijdzI4VRbe9a3nfx44HMSxxwhZ2ufAFoN2P6mQ6mUzJW2O-jj7QT5MvqDQxl7t3v92sEyIFrb6f0vAntLPhoBj_MeNksQTYA="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVn7gkuXzexVOdKmQXZL73uAOftF_wI1ETT8r6u9Ahu1OtPElC0PU-9L0mdvKYVLy3MDtcQp8JIR_ONpVkhB5uGuhaOmaWEUodywHHBhvQoTwZdNRMeUQomKWjehGkCx4dWNIWedAnDgit93dnjmlIscKBlUBPQgOkHQij-Gli_6-yeQ=="
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMAc318JrpZc5azhzF4F7_tlZoQyO4Oy6-i58-Vphm28MijdzI4VRbe9a3nfx44HMSxxwhZ2ufAFoN2P6mQ6mUzJW2O-jj7QT5MvqDQxl7t3v92sEyIFrb6f0vAntLPhoBj_MeNksQTYA="
+      },
+      {
+        "label": "sourceforge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYWCcGws6Qs10kfqkyktMxhrT4CSYwnCmxE1-1PZV3E7Q9rYQ7TzsG3auNWnC7BIfG-6-nbX36GyhzWZ3LewPyo64l_JaIn-_ZGqj0q24-CpZ2Ep7e64KgsFHCpL-aK2Hr"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1wP914hCwJL8nJRfnBKX5qv36d7ccmwv2PcveHmthZIEaU6hdTPjfYtscmrAV8U9DUZm7dQTUGDepHB7ZiDYPuIonP5nCu7upwy3qs7H7XaS82YzTBD3k"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqqjfSSeMjSNRViKBzfEcVWSv5KMP3t8MwWnbdFXQRmnqdL5sdeqtktAailLt_ZL04usE7KjgIqi7yZRwLs1T9pWAfYmM23rBd8b3xqvmmFw2HUt9ut-K7g2TF5_cDoHs-DRnFmI-cFOA044s="
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKDzKVKmAmrJ6M7T5dltsCJOwuNJM7SYilD4DSEXLgfik7wbNwnPf4d9BNPS0_VqM1ZI8_9zMUt6nCoMgXCa7z5ElgcJehjT0mSjHlBjOIUk1mIkqEOSGYvxYkK7o-Cz3CmGXlHk-rNHA_yjiLyMg="
+      },
+      {
+        "label": "sourceforge",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYWCcGws6Qs10kfqkyktMxhrT4CSYwnCmxE1-1PZV3E7Q9rYQ7TzsG3auNWnC7BIfG-6-nbX36GyhzWZ3LewPyo64l_JaIn-_ZGqj0q24-CpZ2Ep7e64KgsFHCpL-aK2Hr"
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKDzKVKmAmrJ6M7T5dltsCJOwuNJM7SYilD4DSEXLgfik7wbNwnPf4d9BNPS0_VqM1ZI8_9zMUt6nCoMgXCa7z5ElgcJehjT0mSjHlBjOIUk1mIkqEOSGYvxYkK7o-Cz3CmGXlHk-rNHA_yjiLyMg="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3DHtgf7sMXCiQVuTZ6z9W1gpoU0Imh1ml_fljS3mTnObOCNT-SmE-HbHi4Md1l8BfsALPcelmuxSzMMQ_cP5ZvSClJJThYAzn3yOZTXdFlID1-LvCB0g2v4a0paLCQ2J8P-k__fftCgQZiXQJIA=="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6M84j1NMQwmbBxYaq1-QPd4P1tfOXNqXUmAwUeEuiJSPy2BVXWC8PaZxfGeJFuJcb5mdb5jYzvuJ4zlG0Vl8NMB4Mqo6PkhYZfmnk51gTSLSmwvbIieafnIyjv3POR6qr_UiOH-WyncILEKNu7sIOAxtyelLgo88="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3DHtgf7sMXCiQVuTZ6z9W1gpoU0Imh1ml_fljS3mTnObOCNT-SmE-HbHi4Md1l8BfsALPcelmuxSzMMQ_cP5ZvSClJJThYAzn3yOZTXdFlID1-LvCB0g2v4a0paLCQ2J8P-k__fftCgQZiXQJIA=="
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5OxKzLdjzn6vrkDXug6tLYZFd2mFsTEGICJ-GkRU_cvxy1X4bN0xfKeGPmvjLZlMrjXDANz-dmq1rA32Mll6fs1pbt2dKjPPBpTtvLkiTtXdVbVGLmrqGU-0JPsk6oZR0nqZwujoPrSeo"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6M84j1NMQwmbBxYaq1-QPd4P1tfOXNqXUmAwUeEuiJSPy2BVXWC8PaZxfGeJFuJcb5mdb5jYzvuJ4zlG0Vl8NMB4Mqo6PkhYZfmnk51gTSLSmwvbIieafnIyjv3POR6qr_UiOH-WyncILEKNu7sIOAxtyelLgo88="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3DHtgf7sMXCiQVuTZ6z9W1gpoU0Imh1ml_fljS3mTnObOCNT-SmE-HbHi4Md1l8BfsALPcelmuxSzMMQ_cP5ZvSClJJThYAzn3yOZTXdFlID1-LvCB0g2v4a0paLCQ2J8P-k__fftCgQZiXQJIA=="
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "usenet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFl6jDgvqGM_GvTjEn8-ynAAp3w-ulW_XqwLEOQPzBBFcauBDGfMzRi5Nr2s_VYccw12-uVrDZVeBdWrwcDu_MyVtBULvcishSlm3bPnRJxj4k="
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6M84j1NMQwmbBxYaq1-QPd4P1tfOXNqXUmAwUeEuiJSPy2BVXWC8PaZxfGeJFuJcb5mdb5jYzvuJ4zlG0Vl8NMB4Mqo6PkhYZfmnk51gTSLSmwvbIieafnIyjv3POR6qr_UiOH-WyncILEKNu7sIOAxtyelLgo88="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3DHtgf7sMXCiQVuTZ6z9W1gpoU0Imh1ml_fljS3mTnObOCNT-SmE-HbHi4Md1l8BfsALPcelmuxSzMMQ_cP5ZvSClJJThYAzn3yOZTXdFlID1-LvCB0g2v4a0paLCQ2J8P-k__fftCgQZiXQJIA=="
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5OxKzLdjzn6vrkDXug6tLYZFd2mFsTEGICJ-GkRU_cvxy1X4bN0xfKeGPmvjLZlMrjXDANz-dmq1rA32Mll6fs1pbt2dKjPPBpTtvLkiTtXdVbVGLmrqGU-0JPsk6oZR0nqZwujoPrSeo"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6M84j1NMQwmbBxYaq1-QPd4P1tfOXNqXUmAwUeEuiJSPy2BVXWC8PaZxfGeJFuJcb5mdb5jYzvuJ4zlG0Vl8NMB4Mqo6PkhYZfmnk51gTSLSmwvbIieafnIyjv3POR6qr_UiOH-WyncILEKNu7sIOAxtyelLgo88="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKDzKVKmAmrJ6M7T5dltsCJOwuNJM7SYilD4DSEXLgfik7wbNwnPf4d9BNPS0_VqM1ZI8_9zMUt6nCoMgXCa7z5ElgcJehjT0mSjHlBjOIUk1mIkqEOSGYvxYkK7o-Cz3CmGXlHk-rNHA_yjiLyMg="
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5OxKzLdjzn6vrkDXug6tLYZFd2mFsTEGICJ-GkRU_cvxy1X4bN0xfKeGPmvjLZlMrjXDANz-dmq1rA32Mll6fs1pbt2dKjPPBpTtvLkiTtXdVbVGLmrqGU-0JPsk6oZR0nqZwujoPrSeo"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3DHtgf7sMXCiQVuTZ6z9W1gpoU0Imh1ml_fljS3mTnObOCNT-SmE-HbHi4Md1l8BfsALPcelmuxSzMMQ_cP5ZvSClJJThYAzn3yOZTXdFlID1-LvCB0g2v4a0paLCQ2J8P-k__fftCgQZiXQJIA=="
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-0PWQIP1V_xn4M6diZ6dDSHO2JqGpF4orzDB_VsdzwonEOAConelD4RD7yMZh864CVIeT53wgWPCrb8AvwmtckqP44S32jBRX_CAgPKWufEYIPcB8E1dlPqQDy9s6yRSQfhyAfriSouihFWkkR5c="
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMAc318JrpZc5azhzF4F7_tlZoQyO4Oy6-i58-Vphm28MijdzI4VRbe9a3nfx44HMSxxwhZ2ufAFoN2P6mQ6mUzJW2O-jj7QT5MvqDQxl7t3v92sEyIFrb6f0vAntLPhoBj_MeNksQTYA="
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMAc318JrpZc5azhzF4F7_tlZoQyO4Oy6-i58-Vphm28MijdzI4VRbe9a3nfx44HMSxxwhZ2ufAFoN2P6mQ6mUzJW2O-jj7QT5MvqDQxl7t3v92sEyIFrb6f0vAntLPhoBj_MeNksQTYA="
+      },
+      {
+        "label": "nordvpn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhctgVE2tDrisKLzzRrGnqd1hklNZ6TEGv18KgC2z5MjF8fZS7JebLlNC-jeC1u6c2oaWrVGZSXeNJZPA8YxVrm6NkV50WPNMC-P9hyKMyLkOeVxFhKKQ1UR1bk5z2ay1fsg=="
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6M84j1NMQwmbBxYaq1-QPd4P1tfOXNqXUmAwUeEuiJSPy2BVXWC8PaZxfGeJFuJcb5mdb5jYzvuJ4zlG0Vl8NMB4Mqo6PkhYZfmnk51gTSLSmwvbIieafnIyjv3POR6qr_UiOH-WyncILEKNu7sIOAxtyelLgo88="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN4pDTpRMeOjKwoPOomH9O5H-ND1-M1u9787WZt2UcXyZ8EWfPvbYF05Uz7ROK83RAAMAAn0SdWSoNe_Rj4qwx19FxDrCwrbosbN1utIYbntIwKkf8NTTFBQ3yJN5yOm5LJKX4t4BpXLfWlJYeJX_X"
+      },
+      {
+        "label": "nordvpn",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhctgVE2tDrisKLzzRrGnqd1hklNZ6TEGv18KgC2z5MjF8fZS7JebLlNC-jeC1u6c2oaWrVGZSXeNJZPA8YxVrm6NkV50WPNMC-P9hyKMyLkOeVxFhKKQ1UR1bk5z2ay1fsg=="
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg4eTpMPgsBqToEZT3Px8cnRu2gW7sMQ_jhJF2al2G6704pFuXUgApreB7tXxONOojQbQBdLsNqyHXx3pnJLxugRKRpBjaDMunWmUC2TkkDfP69yUm-zgHgu4vddDXZn9o843djVWrehs1f3KUFng="
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "newshosting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgLC9XbcspPu83TLNu4y_m1kl42MDuaU9Rjng8ZCG6vm1ZpSmWqf68Z2yjXCEqxVSYwoBT-hlzxempmNnkVfBQIVL5m0mUrz8mCdJ79iWtAjYJuOWEHgrgtRjYJZp7oNipNpm5RFWau1D5GSBPKDecqDYsI6IqZzaW"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "newshosting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgLC9XbcspPu83TLNu4y_m1kl42MDuaU9Rjng8ZCG6vm1ZpSmWqf68Z2yjXCEqxVSYwoBT-hlzxempmNnkVfBQIVL5m0mUrz8mCdJ79iWtAjYJuOWEHgrgtRjYJZp7oNipNpm5RFWau1D5GSBPKDecqDYsI6IqZzaW"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg4eTpMPgsBqToEZT3Px8cnRu2gW7sMQ_jhJF2al2G6704pFuXUgApreB7tXxONOojQbQBdLsNqyHXx3pnJLxugRKRpBjaDMunWmUC2TkkDfP69yUm-zgHgu4vddDXZn9o843djVWrehs1f3KUFng="
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg4eTpMPgsBqToEZT3Px8cnRu2gW7sMQ_jhJF2al2G6704pFuXUgApreB7tXxONOojQbQBdLsNqyHXx3pnJLxugRKRpBjaDMunWmUC2TkkDfP69yUm-zgHgu4vddDXZn9o843djVWrehs1f3KUFng="
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGg4eTpMPgsBqToEZT3Px8cnRu2gW7sMQ_jhJF2al2G6704pFuXUgApreB7tXxONOojQbQBdLsNqyHXx3pnJLxugRKRpBjaDMunWmUC2TkkDfP69yUm-zgHgu4vddDXZn9o843djVWrehs1f3KUFng="
+      },
+      {
+        "label": "newshosting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgLC9XbcspPu83TLNu4y_m1kl42MDuaU9Rjng8ZCG6vm1ZpSmWqf68Z2yjXCEqxVSYwoBT-hlzxempmNnkVfBQIVL5m0mUrz8mCdJ79iWtAjYJuOWEHgrgtRjYJZp7oNipNpm5RFWau1D5GSBPKDecqDYsI6IqZzaW"
+      },
+      {
+        "label": "privateproxyguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYSWOp-BUc_w3ZHPKLkyK3e2S-J19IzRi16f-baE614ZJOEQQBIgvtcaoDdx_9MVzIeVgNwuwNa5y5F1Nv3fsPfXZO6CBeNgOlXbb5EjzaOCUCg4BujoyeM7x43rN6hDqZP0J9QJghwnA624JAr-QYpv0="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlhUq_cK3FUlEKBZ8PQEJAx-wyk_Z8knTJd0Bjl47N4QR9oH7fuAJjnf8rUWXEXJYXeXMF5BtBQSzqJZvZbLXNfC4KU96MvLIE_oZqGrm9HnOCa8WtSTYCuTx4715tVSq_zUO5iKkGpfOir-ZfauF1A=="
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUQt6JqiPkBn0QkvNkcNiaV-e2rN_xnQifadzwmgcEqj2EyCYdKjK0ZWoZAc0kQg9rillo84KooGxLoDPUmVtyBJWOkYCx_jpJ0AWk5Y6qVU_5ior_bdRSJPZbPNACeFwKngIh8xd9Cd-1gOcAm7d"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUQt6JqiPkBn0QkvNkcNiaV-e2rN_xnQifadzwmgcEqj2EyCYdKjK0ZWoZAc0kQg9rillo84KooGxLoDPUmVtyBJWOkYCx_jpJ0AWk5Y6qVU_5ior_bdRSJPZbPNACeFwKngIh8xd9Cd-1gOcAm7d"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUQt6JqiPkBn0QkvNkcNiaV-e2rN_xnQifadzwmgcEqj2EyCYdKjK0ZWoZAc0kQg9rillo84KooGxLoDPUmVtyBJWOkYCx_jpJ0AWk5Y6qVU_5ior_bdRSJPZbPNACeFwKngIh8xd9Cd-1gOcAm7d"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUQt6JqiPkBn0QkvNkcNiaV-e2rN_xnQifadzwmgcEqj2EyCYdKjK0ZWoZAc0kQg9rillo84KooGxLoDPUmVtyBJWOkYCx_jpJ0AWk5Y6qVU_5ior_bdRSJPZbPNACeFwKngIh8xd9Cd-1gOcAm7d"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUQt6JqiPkBn0QkvNkcNiaV-e2rN_xnQifadzwmgcEqj2EyCYdKjK0ZWoZAc0kQg9rillo84KooGxLoDPUmVtyBJWOkYCx_jpJ0AWk5Y6qVU_5ior_bdRSJPZbPNACeFwKngIh8xd9Cd-1gOcAm7d"
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUQt6JqiPkBn0QkvNkcNiaV-e2rN_xnQifadzwmgcEqj2EyCYdKjK0ZWoZAc0kQg9rillo84KooGxLoDPUmVtyBJWOkYCx_jpJ0AWk5Y6qVU_5ior_bdRSJPZbPNACeFwKngIh8xd9Cd-1gOcAm7d"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlhUq_cK3FUlEKBZ8PQEJAx-wyk_Z8knTJd0Bjl47N4QR9oH7fuAJjnf8rUWXEXJYXeXMF5BtBQSzqJZvZbLXNfC4KU96MvLIE_oZqGrm9HnOCa8WtSTYCuTx4715tVSq_zUO5iKkGpfOir-ZfauF1A=="
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUQt6JqiPkBn0QkvNkcNiaV-e2rN_xnQifadzwmgcEqj2EyCYdKjK0ZWoZAc0kQg9rillo84KooGxLoDPUmVtyBJWOkYCx_jpJ0AWk5Y6qVU_5ior_bdRSJPZbPNACeFwKngIh8xd9Cd-1gOcAm7d"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlhUq_cK3FUlEKBZ8PQEJAx-wyk_Z8knTJd0Bjl47N4QR9oH7fuAJjnf8rUWXEXJYXeXMF5BtBQSzqJZvZbLXNfC4KU96MvLIE_oZqGrm9HnOCa8WtSTYCuTx4715tVSq_zUO5iKkGpfOir-ZfauF1A=="
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUQt6JqiPkBn0QkvNkcNiaV-e2rN_xnQifadzwmgcEqj2EyCYdKjK0ZWoZAc0kQg9rillo84KooGxLoDPUmVtyBJWOkYCx_jpJ0AWk5Y6qVU_5ior_bdRSJPZbPNACeFwKngIh8xd9Cd-1gOcAm7d"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlhUq_cK3FUlEKBZ8PQEJAx-wyk_Z8knTJd0Bjl47N4QR9oH7fuAJjnf8rUWXEXJYXeXMF5BtBQSzqJZvZbLXNfC4KU96MvLIE_oZqGrm9HnOCa8WtSTYCuTx4715tVSq_zUO5iKkGpfOir-ZfauF1A=="
+      },
+      {
+        "label": "newsgroupreviews",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdUQt6JqiPkBn0QkvNkcNiaV-e2rN_xnQifadzwmgcEqj2EyCYdKjK0ZWoZAc0kQg9rillo84KooGxLoDPUmVtyBJWOkYCx_jpJ0AWk5Y6qVU_5ior_bdRSJPZbPNACeFwKngIh8xd9Cd-1gOcAm7d"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlhUq_cK3FUlEKBZ8PQEJAx-wyk_Z8knTJd0Bjl47N4QR9oH7fuAJjnf8rUWXEXJYXeXMF5BtBQSzqJZvZbLXNfC4KU96MvLIE_oZqGrm9HnOCa8WtSTYCuTx4715tVSq_zUO5iKkGpfOir-ZfauF1A=="
+      },
+      {
+        "label": "newshosting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgLC9XbcspPu83TLNu4y_m1kl42MDuaU9Rjng8ZCG6vm1ZpSmWqf68Z2yjXCEqxVSYwoBT-hlzxempmNnkVfBQIVL5m0mUrz8mCdJ79iWtAjYJuOWEHgrgtRjYJZp7oNipNpm5RFWau1D5GSBPKDecqDYsI6IqZzaW"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlhUq_cK3FUlEKBZ8PQEJAx-wyk_Z8knTJd0Bjl47N4QR9oH7fuAJjnf8rUWXEXJYXeXMF5BtBQSzqJZvZbLXNfC4KU96MvLIE_oZqGrm9HnOCa8WtSTYCuTx4715tVSq_zUO5iKkGpfOir-ZfauF1A=="
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFHMtqLnKQG9-RBleaSa3RagWId_uP2lL1ERrVRImOiWPr6wo1qzd3gNVizCTahXN-f6N--7Dil7sDlR-FmoRI0t0ziecAT1JOvbOcoSpByGL0Z1NtHc_8SCGxfz2m3t89TOBC1Q2mLFKIFMjCkwGXoQUCv64xmPxt"
+      },
+      {
+        "label": "newshosting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgLC9XbcspPu83TLNu4y_m1kl42MDuaU9Rjng8ZCG6vm1ZpSmWqf68Z2yjXCEqxVSYwoBT-hlzxempmNnkVfBQIVL5m0mUrz8mCdJ79iWtAjYJuOWEHgrgtRjYJZp7oNipNpm5RFWau1D5GSBPKDecqDYsI6IqZzaW"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlhUq_cK3FUlEKBZ8PQEJAx-wyk_Z8knTJd0Bjl47N4QR9oH7fuAJjnf8rUWXEXJYXeXMF5BtBQSzqJZvZbLXNfC4KU96MvLIE_oZqGrm9HnOCa8WtSTYCuTx4715tVSq_zUO5iKkGpfOir-ZfauF1A=="
+      },
+      {
+        "label": "usenet",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFr7D1UPQGBeDcjAH4G8pJ8Iq5D-FQOwi0jwEGu0KZQH0uuHAaS9p-xV2hlm7HjUCq-5ycIz-4cSKwcmiAMwU30Tv-Rja44fzT-gO-thhTkLCWd"
+      },
+      {
+        "label": "privateproxyguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYSWOp-BUc_w3ZHPKLkyK3e2S-J19IzRi16f-baE614ZJOEQQBIgvtcaoDdx_9MVzIeVgNwuwNa5y5F1Nv3fsPfXZO6CBeNgOlXbb5EjzaOCUCg4BujoyeM7x43rN6hDqZP0J9QJghwnA624JAr-QYpv0="
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFHMtqLnKQG9-RBleaSa3RagWId_uP2lL1ERrVRImOiWPr6wo1qzd3gNVizCTahXN-f6N--7Dil7sDlR-FmoRI0t0ziecAT1JOvbOcoSpByGL0Z1NtHc_8SCGxfz2m3t89TOBC1Q2mLFKIFMjCkwGXoQUCv64xmPxt"
+      },
+      {
+        "label": "rapidseedbox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkxl3fECmGnrxVVHUeimmRrBCZgpZZW4gBCcS6na_mbuTF3ZsKC03XC7CiqLf_5XMB9_yAr1gm-x9vfpG7TQq8vyge01CY9kokCIy087XwM5oZCzFPrrREkD2tfgHkxhw4iF0HDdAMJqtZwO0="
+      },
+      {
+        "label": "techradar",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlhUq_cK3FUlEKBZ8PQEJAx-wyk_Z8knTJd0Bjl47N4QR9oH7fuAJjnf8rUWXEXJYXeXMF5BtBQSzqJZvZbLXNfC4KU96MvLIE_oZqGrm9HnOCa8WtSTYCuTx4715tVSq_zUO5iKkGpfOir-ZfauF1A=="
+      },
+      {
+        "label": "tomsguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFHMtqLnKQG9-RBleaSa3RagWId_uP2lL1ERrVRImOiWPr6wo1qzd3gNVizCTahXN-f6N--7Dil7sDlR-FmoRI0t0ziecAT1JOvbOcoSpByGL0Z1NtHc_8SCGxfz2m3t89TOBC1Q2mLFKIFMjCkwGXoQUCv64xmPxt"
+      },
+      {
+        "label": "usenetreviewz",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDNBs2h-hyglQdfABuussehc9sAz3cU7podxziffW5FoUs1rKOFVIAv78PcNwPfGlPtygLBgsvNNPgKk2mIDYykIrAT4c3CUA-62CT525beoECSDMK3_ake6AitsH3eshNhQ2UJU-Rcl-KsZkrOBoc"
+      },
+      {
+        "label": "rapidseedbox",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkxl3fECmGnrxVVHUeimmRrBCZgpZZW4gBCcS6na_mbuTF3ZsKC03XC7CiqLf_5XMB9_yAr1gm-x9vfpG7TQq8vyge01CY9kokCIy087XwM5oZCzFPrrREkD2tfgHkxhw4iF0HDdAMJqtZwO0="
+      },
+      {
+        "label": "newshosting",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgLC9XbcspPu83TLNu4y_m1kl42MDuaU9Rjng8ZCG6vm1ZpSmWqf68Z2yjXCEqxVSYwoBT-hlzxempmNnkVfBQIVL5m0mUrz8mCdJ79iWtAjYJuOWEHgrgtRjYJZp7oNipNpm5RFWau1D5GSBPKDecqDYsI6IqZzaW"
+      },
+      {
+        "label": "greycoder",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC9xA5GoMOkPGv-WTSfpNdx3xsOeAzMG3UEGABxF7d7AeDiqxvWT-WEeqQE_FZhDf9vEYNowimwW6Fqif2WVxftm7EZ-ek0nasFRoOFLAhOMNQJj7T7HPGthAYgrvU3sQTvGHNp8bNxCVQ"
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

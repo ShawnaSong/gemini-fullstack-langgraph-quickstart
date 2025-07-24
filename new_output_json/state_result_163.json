@@ -1,0 +1,240 @@
+{
+  "file_name": "state_result_163.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.599971",
+  "data": {
+    "messages": [
+      {
+        "content": "All birds have feathers. A robin is a bird. Therefore, does a robin have feathers?",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "bebcd378-433d-4735-8579-bf81e380fa07",
+        "example": false
+      },
+      {
+        "content": "Yes, a robin has feathers. All birds have feathers, and a robin is a bird [nwf](https://vertexaisearch.cloud.google.com/id/0-0) [foundfeathers](https://vertexaisearch.cloud.google.com/id/0-1) [illinois](https://vertexaisearch.cloud.google.com/id/0-2) [journeynorth](https://vertexaisearch.cloud.google.com/id/0-3). American Robin feather characteristics include variations in color, size, and shape depending on the bird's age, sex, and feather type [nwf](https://vertexaisearch.cloud.google.com/id/0-0) [foundfeathers](https://vertexaisearch.cloud.google.com/id/0-1) [illinois](https://vertexaisearch.cloud.google.com/id/0-2) [journeynorth](https://vertexaisearch.cloud.google.com/id/0-3).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "a17d91ca-d973-4953-b2ee-6f30a1522ecc",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "robin feather characteristics"
+    ],
+    "web_research_result": [
+      "Okay, I will conduct Google Searches to gather the most recent information on \"robin feather characteristics\" and synthesize it into a verifiable text artifact.\nAmerican Robin feather characteristics include variations in color, size, and shape depending on the bird's age, sex, and feather type [nwf](https://vertexaisearch.cloud.google.com/id/0-0) [foundfeathers](https://vertexaisearch.cloud.google.com/id/0-1) [illinois](https://vertexaisearch.cloud.google.com/id/0-2) [journeynorth](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Coloration:**\n\n*   **Adults:** American Robins typically have dark gray or brown back and wing feathers [nhpbs](https://vertexaisearch.cloud.google.com/id/0-4) [illinois](https://vertexaisearch.cloud.google.com/id/0-2). The breast feathers are reddish-orange, with males exhibiting darker and brighter coloration than females [journeynorth](https://vertexaisearch.cloud.google.com/id/0-5) [nhpbs](https://vertexaisearch.cloud.google.com/id/0-4). The head and tail feathers of the male are black, while the corresponding feathers on the female are lighter [illinois](https://vertexaisearch.cloud.google.com/id/0-2). The throat is streaked blackish and whitish, more pronounced in males [journeynorth](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Juveniles:** Young robins have spotted breast feathers with an orange-red wash [illinois](https://vertexaisearch.cloud.google.com/id/0-2) [birdspot](https://vertexaisearch.cloud.google.com/id/0-6). They lack the characteristic red breast of adults and are speckly brown overall [gardenwildlifedirect](https://vertexaisearch.cloud.google.com/id/0-7) [rspb](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Color Pigments:** The colors of feathers are determined by pigments, with melanins creating brown, black, and gray, and carotenoids resulting in bright red and yellow feathers [a-z-animals](https://vertexaisearch.cloud.google.com/id/0-9). Structural coloration, a trick of light, produces blue and white feathers [a-z-animals](https://vertexaisearch.cloud.google.com/id/0-9).\n*   **Subspecies Variations:** The subspecies *T. m. confinis* found in southern Baja California, is the palest, with uniform pale gray-brown on the head, face, and upperparts, and pale buffy orange underparts [wikipedia](https://vertexaisearch.cloud.google.com/id/0-10).\n\n**Feather Types and Characteristics:**\n\n*   **Wing Feathers:** Secondary wing feathers are roughly 6cm in size and grayish-brown [foundfeathers](https://vertexaisearch.cloud.google.com/id/0-1). They have a rounded tip and broad, almost evenly split surface [foundfeathers](https://vertexaisearch.cloud.google.com/id/0-1). Hatch-year robins have a white leading edge on their secondary feathers, while adult birds have a darker coloration without spottiness [foundfeathers](https://vertexaisearch.cloud.google.com/id/0-1). Outer secondaries are more curved and asymmetrical, making them stronger and more streamlined [foundfeathers](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Tail Feathers:** Tail feathers are approximately 10cm long, dark in color, and have a white tip [foundfeathers](https://vertexaisearch.cloud.google.com/id/0-1). Songbird tail feathers have a long, straight shaft [foundfeathers](https://vertexaisearch.cloud.google.com/id/0-1).\n*   **Flight Feathers:** The longest feathers are the flight feathers, with primaries near the wing tip helping the bird move forward and secondaries closer to the body providing lift [journeynorth](https://vertexaisearch.cloud.google.com/id/0-3). Coverts, medium-sized feathers, overlap the flight feathers to ensure smooth airflow and protect the wing and tail feathers [journeynorth](https://vertexaisearch.cloud.google.com/id/0-3). The narrow side of the feather is the leading edge, which is stiff and strong, while the wide trailing edge provides more surface area to hold the bird up [journeynorth](https://vertexaisearch.cloud.google.com/id/0-3). Front feathers have more pointed tips to slice through the air, while back feathers have broader tips for greater surface area [journeynorth](https://vertexaisearch.cloud.google.com/id/0-3).\n\n**Molting:**\n\n*   Robins undergo a full moult at the end of the breeding season, typically between July and September, replacing worn-out feathers [birdspot](https://vertexaisearch.cloud.google.com/id/0-6) [audubon](https://vertexaisearch.cloud.google.com/id/0-11) [southwickcountrypark](https://vertexaisearch.cloud.google.com/id/0-12) [rspb](https://vertexaisearch.cloud.google.com/id/0-13). Adult robins start molting their flight feathers in mid-June and finish by early September, while body feathers are molted from late July into October [journeynorth](https://vertexaisearch.cloud.google.com/id/0-14).\n*   Juvenile robins experience a partial moult in late summer, replacing their spotted plumage with the orange breast and brown back feathers of adulthood, though their wing feathers remain unchanged until the following year [birdspot](https://vertexaisearch.cloud.google.com/id/0-6).\n*   During molting, birds may appear scruffy with missing feathers or visible pins (new feathers growing in) [audubon](https://vertexaisearch.cloud.google.com/id/0-11) [southwickcountrypark](https://vertexaisearch.cloud.google.com/id/0-12). The process requires a lot of energy, and birds may become more secretive and less vocal to avoid predators [birdspot](https://vertexaisearch.cloud.google.com/id/0-6) [southwickcountrypark](https://vertexaisearch.cloud.google.com/id/0-12) [audubon](https://vertexaisearch.cloud.google.com/id/0-11).\n*   Fresh feathers have pale tips that can make them appear faded, but these tips wear away by spring [audubon](https://vertexaisearch.cloud.google.com/id/0-11).\n*   Molting ensures that robins have fresh feathers for insulation and flight, especially before migration [journeynorth](https://vertexaisearch.cloud.google.com/id/0-14).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "nwf",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2Yyocbhkace0_Sdrd6eOc-N6vJi7QHdiO_6eWLz_RbqgZDcIo3d8DU5Qi_wBM_ZySsfJb0Oa_WTyKIOGDt9ulcB49EoCYy4rOnKOhMacLRxqCnrPphuQvZs5UJkxU2WKUj4XW6oQ7dhPtO1g_NTg_AEbgVryFQ9u8wPBwNvC1KvWNBVaxVf1f"
+      },
+      {
+        "label": "foundfeathers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGWNeJdSmylAek5hKywcNbLxj1xs8lJ3LF7ArNYs6LroWARQqzwyP17lyOJLWZ8lqA1Jym__xPe09mxMm0utkwjsAs1DmW4RE2_y0J7a3MlnV83ajtOLUfkcTIMwyL5zxpFWzretdrJSSltdYQC98W8JacOUYeRpGO91V5kAh4"
+      },
+      {
+        "label": "illinois",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyFMsFZSQzTB1QMyyfHtorcMDiKs8W0UQf0E4ueBKVlf_QxFXDBg490hXwL_wGak-962D8z6-9acELAM2vCVm75p4oa_XwrIZKq-TCO_THz3PjGVXrzj2nWreX-t7017ciVAg1ONl5Juor3v1vtrfhNRRp-FvKh2Ri5uRtIy8Iz6fc73HTQSUCDV5BIavdGydQGKoR7Bu6bNjq0KfoHxvcIhKN2l_Krbw="
+      },
+      {
+        "label": "journeynorth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcI0lsILnbG70gUZC7A-REz9ChhP-Ph85kV_LiqcSmYvykGPMnfXjDat87ZEr8kdB5QmvRGvys2O6_UXaLcwtUIR6CGCAOkqWI1pAnIfSNGVL6hUTo5I4vVysEC6PPMKC4TwcloE_VN_CX4PhYFcwWus="
+      },
+      {
+        "label": "nhpbs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjS9Ak5lb7j9Q-CogCZojeAMyHh_lEIoGIjOXDwlhrSEea2ijmrMrQnUaeEwgKd3l4de4Y6bm9wgdG_zAQGBqV2NWH4n0ZwMM8Kv9a9dngfMh2YweHRn5lVmDvYWGT38VipQ=="
+      },
+      {
+        "label": "illinois",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyFMsFZSQzTB1QMyyfHtorcMDiKs8W0UQf0E4ueBKVlf_QxFXDBg490hXwL_wGak-962D8z6-9acELAM2vCVm75p4oa_XwrIZKq-TCO_THz3PjGVXrzj2nWreX-t7017ciVAg1ONl5Juor3v1vtrfhNRRp-FvKh2Ri5uRtIy8Iz6fc73HTQSUCDV5BIavdGydQGKoR7Bu6bNjq0KfoHxvcIhKN2l_Krbw="
+      },
+      {
+        "label": "journeynorth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuLxX7AVhSDjWRNBpij5ACHhokuCrY6YN3M_v2sBZ7FvJCs2aZ0Oqw3n7UcGdlQ7FLutiyAKsAxSPPjV4QJvPL-idzuBvT927cLnyCCy1s_kEvATbNxJoaX6Xa28na88eC__5i27IyUOc3lkyw9nD2uRCJN26ee3mPxIyEHhLe1mmtyFTAYo9B"
+      },
+      {
+        "label": "nhpbs",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjS9Ak5lb7j9Q-CogCZojeAMyHh_lEIoGIjOXDwlhrSEea2ijmrMrQnUaeEwgKd3l4de4Y6bm9wgdG_zAQGBqV2NWH4n0ZwMM8Kv9a9dngfMh2YweHRn5lVmDvYWGT38VipQ=="
+      },
+      {
+        "label": "illinois",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyFMsFZSQzTB1QMyyfHtorcMDiKs8W0UQf0E4ueBKVlf_QxFXDBg490hXwL_wGak-962D8z6-9acELAM2vCVm75p4oa_XwrIZKq-TCO_THz3PjGVXrzj2nWreX-t7017ciVAg1ONl5Juor3v1vtrfhNRRp-FvKh2Ri5uRtIy8Iz6fc73HTQSUCDV5BIavdGydQGKoR7Bu6bNjq0KfoHxvcIhKN2l_Krbw="
+      },
+      {
+        "label": "journeynorth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuLxX7AVhSDjWRNBpij5ACHhokuCrY6YN3M_v2sBZ7FvJCs2aZ0Oqw3n7UcGdlQ7FLutiyAKsAxSPPjV4QJvPL-idzuBvT927cLnyCCy1s_kEvATbNxJoaX6Xa28na88eC__5i27IyUOc3lkyw9nD2uRCJN26ee3mPxIyEHhLe1mmtyFTAYo9B"
+      },
+      {
+        "label": "illinois",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyFMsFZSQzTB1QMyyfHtorcMDiKs8W0UQf0E4ueBKVlf_QxFXDBg490hXwL_wGak-962D8z6-9acELAM2vCVm75p4oa_XwrIZKq-TCO_THz3PjGVXrzj2nWreX-t7017ciVAg1ONl5Juor3v1vtrfhNRRp-FvKh2Ri5uRtIy8Iz6fc73HTQSUCDV5BIavdGydQGKoR7Bu6bNjq0KfoHxvcIhKN2l_Krbw="
+      },
+      {
+        "label": "birdspot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6jri2uoiXaE43mdMkZgtXCiFU8nqiz1rdkt-SuyEkDMvmSOt3-Oe2ELOOuhkVkRGaSz58rpegFH0nJnfDivelAIcJ0mGx_oqQSnEy_cn1rN_BpIWOYi8hUwJur6MZPlC5K4ODbnX9v1mvIFCi2KGR8EjDpMBhJ5FIg8jp9gdTuIwQuys="
+      },
+      {
+        "label": "gardenwildlifedirect",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeEkSa4BTN2dbHyVYVN64692X2NiTr0HA3KCC3udmrEf7hErzD_Xd3ybe4y121lF3u5grXfbDXD1R6Uotn8vPb7vqVQ06DjfsYDt8Z0IK_6-jGu2jqyjQtdwmC4zrchm3Fkd9d0gmt0OIxg6d9"
+      },
+      {
+        "label": "rspb",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1dQOLlNktkT-lo26HtMf0uPedDDJaALudIcjN061mn-7kvXPTtvkdmV9E02llLTvjZVr7Q0303BVOWbIEKfkfcPdfpCLDYlYZXAJkdrfc9y4vN8-9slTG75z-yvDvPzCocq3HUNPvJjavLg=="
+      },
+      {
+        "label": "a-z-animals",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeZirCyRPUR1Y-WXfq9hE54RNHfQ4evuv5ZCYlF5EsGpM5FIbhx4gD9_8wu-5sDHNz1-3Q_EMKKPOUj4fvpgNCpY8OnyyMuqw8ig2pd-BG6BMH2awVJ_EkqoGlsPnvSspK9WjWj4Nl5NXunDujFmA2HPUaWTeOQ1_u0-pBTSfZQAfChWyBZx_ldGy-uPVgV45QDXsB"
+      },
+      {
+        "label": "a-z-animals",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeZirCyRPUR1Y-WXfq9hE54RNHfQ4evuv5ZCYlF5EsGpM5FIbhx4gD9_8wu-5sDHNz1-3Q_EMKKPOUj4fvpgNCpY8OnyyMuqw8ig2pd-BG6BMH2awVJ_EkqoGlsPnvSspK9WjWj4Nl5NXunDujFmA2HPUaWTeOQ1_u0-pBTSfZQAfChWyBZx_ldGy-uPVgV45QDXsB"
+      },
+      {
+        "label": "wikipedia",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaORY7C2smtAaGYr7jeGyFqAzL4Py6ds_MHAyXxmJUiWt8ZCi1zFxsd8glDdukJZiNeBCJrU5t5uwmAGf6ga_-H9speXo-uNA_lXCHypwN1Nj5d31ivOh-VkHVGwOJwwmec1C_fVMi"
+      },
+      {
+        "label": "foundfeathers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGWNeJdSmylAek5hKywcNbLxj1xs8lJ3LF7ArNYs6LroWARQqzwyP17lyOJLWZ8lqA1Jym__xPe09mxMm0utkwjsAs1DmW4RE2_y0J7a3MlnV83ajtOLUfkcTIMwyL5zxpFWzretdrJSSltdYQC98W8JacOUYeRpGO91V5kAh4"
+      },
+      {
+        "label": "foundfeathers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGWNeJdSmylAek5hKywcNbLxj1xs8lJ3LF7ArNYs6LroWARQqzwyP17lyOJLWZ8lqA1Jym__xPe09mxMm0utkwjsAs1DmW4RE2_y0J7a3MlnV83ajtOLUfkcTIMwyL5zxpFWzretdrJSSltdYQC98W8JacOUYeRpGO91V5kAh4"
+      },
+      {
+        "label": "foundfeathers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGWNeJdSmylAek5hKywcNbLxj1xs8lJ3LF7ArNYs6LroWARQqzwyP17lyOJLWZ8lqA1Jym__xPe09mxMm0utkwjsAs1DmW4RE2_y0J7a3MlnV83ajtOLUfkcTIMwyL5zxpFWzretdrJSSltdYQC98W8JacOUYeRpGO91V5kAh4"
+      },
+      {
+        "label": "foundfeathers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGWNeJdSmylAek5hKywcNbLxj1xs8lJ3LF7ArNYs6LroWARQqzwyP17lyOJLWZ8lqA1Jym__xPe09mxMm0utkwjsAs1DmW4RE2_y0J7a3MlnV83ajtOLUfkcTIMwyL5zxpFWzretdrJSSltdYQC98W8JacOUYeRpGO91V5kAh4"
+      },
+      {
+        "label": "foundfeathers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGWNeJdSmylAek5hKywcNbLxj1xs8lJ3LF7ArNYs6LroWARQqzwyP17lyOJLWZ8lqA1Jym__xPe09mxMm0utkwjsAs1DmW4RE2_y0J7a3MlnV83ajtOLUfkcTIMwyL5zxpFWzretdrJSSltdYQC98W8JacOUYeRpGO91V5kAh4"
+      },
+      {
+        "label": "foundfeathers",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGWNeJdSmylAek5hKywcNbLxj1xs8lJ3LF7ArNYs6LroWARQqzwyP17lyOJLWZ8lqA1Jym__xPe09mxMm0utkwjsAs1DmW4RE2_y0J7a3MlnV83ajtOLUfkcTIMwyL5zxpFWzretdrJSSltdYQC98W8JacOUYeRpGO91V5kAh4"
+      },
+      {
+        "label": "journeynorth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcI0lsILnbG70gUZC7A-REz9ChhP-Ph85kV_LiqcSmYvykGPMnfXjDat87ZEr8kdB5QmvRGvys2O6_UXaLcwtUIR6CGCAOkqWI1pAnIfSNGVL6hUTo5I4vVysEC6PPMKC4TwcloE_VN_CX4PhYFcwWus="
+      },
+      {
+        "label": "journeynorth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcI0lsILnbG70gUZC7A-REz9ChhP-Ph85kV_LiqcSmYvykGPMnfXjDat87ZEr8kdB5QmvRGvys2O6_UXaLcwtUIR6CGCAOkqWI1pAnIfSNGVL6hUTo5I4vVysEC6PPMKC4TwcloE_VN_CX4PhYFcwWus="
+      },
+      {
+        "label": "journeynorth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcI0lsILnbG70gUZC7A-REz9ChhP-Ph85kV_LiqcSmYvykGPMnfXjDat87ZEr8kdB5QmvRGvys2O6_UXaLcwtUIR6CGCAOkqWI1pAnIfSNGVL6hUTo5I4vVysEC6PPMKC4TwcloE_VN_CX4PhYFcwWus="
+      },
+      {
+        "label": "journeynorth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcI0lsILnbG70gUZC7A-REz9ChhP-Ph85kV_LiqcSmYvykGPMnfXjDat87ZEr8kdB5QmvRGvys2O6_UXaLcwtUIR6CGCAOkqWI1pAnIfSNGVL6hUTo5I4vVysEC6PPMKC4TwcloE_VN_CX4PhYFcwWus="
+      },
+      {
+        "label": "birdspot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6jri2uoiXaE43mdMkZgtXCiFU8nqiz1rdkt-SuyEkDMvmSOt3-Oe2ELOOuhkVkRGaSz58rpegFH0nJnfDivelAIcJ0mGx_oqQSnEy_cn1rN_BpIWOYi8hUwJur6MZPlC5K4ODbnX9v1mvIFCi2KGR8EjDpMBhJ5FIg8jp9gdTuIwQuys="
+      },
+      {
+        "label": "audubon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiQE3me4i1byC5vjQ7N60O-GtfqEx9c3FAiB9PQZHTsEX5zbOz3X-AOCJNenneihxmKwn54o_YHjd7cQJphinHH6H46LGjhgycKP3E7id6SZ8lurrl5jORmHzAAnpnQp2oW8F1OqjU1Wt8JoO8_xCsw2zd6Jdj_r9xNszGM0BRmKfXeuyMx_ea6MI="
+      },
+      {
+        "label": "southwickcountrypark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsnDh6esGnAL2qfYHyVSrRN1FyrVdIsxFNgmMXB7Yk-xeqyrMT4djwDH9fRShvyOhTBWVqXOq3psur3yhSenHY2yTW2rp61ozvtVSfWleAkxLizha7VuXvZ9n1r7mF2NFY4gQ56pPCDOB-mm2X"
+      },
+      {
+        "label": "rspb",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgGgxiiKjvgYOPnR08sZ3W8yeBJYXvxQJcxcswm0HbLbk8UhWQ4-VjvfHhSFI9E1V5l7a0dj-A_53H6EpR49D8_2Gd8cYRbkecv-Z1ZmiTxvksq4xnR387cj2cYBjaK9m3PiM_aBLOXYh39wf8CkJkdBVBE0QuHg_6ippbgNqNUW7juNTwENM2VRrwVg=="
+      },
+      {
+        "label": "journeynorth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwuLpHIKqDKqiWNhPbOzeWPxFM_qdqg5JDZAjg-BrctfI2aToig4wTKKpvcQqBzU7KyJtI7IXTI-Bj1JO2d_JWmWzr0JRwESZ3qvjhlU7nXW6inPYWEJR3EYNWblonPgl0PrQh8H6RluVoc3mRSSkOBQ=="
+      },
+      {
+        "label": "birdspot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6jri2uoiXaE43mdMkZgtXCiFU8nqiz1rdkt-SuyEkDMvmSOt3-Oe2ELOOuhkVkRGaSz58rpegFH0nJnfDivelAIcJ0mGx_oqQSnEy_cn1rN_BpIWOYi8hUwJur6MZPlC5K4ODbnX9v1mvIFCi2KGR8EjDpMBhJ5FIg8jp9gdTuIwQuys="
+      },
+      {
+        "label": "audubon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiQE3me4i1byC5vjQ7N60O-GtfqEx9c3FAiB9PQZHTsEX5zbOz3X-AOCJNenneihxmKwn54o_YHjd7cQJphinHH6H46LGjhgycKP3E7id6SZ8lurrl5jORmHzAAnpnQp2oW8F1OqjU1Wt8JoO8_xCsw2zd6Jdj_r9xNszGM0BRmKfXeuyMx_ea6MI="
+      },
+      {
+        "label": "southwickcountrypark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsnDh6esGnAL2qfYHyVSrRN1FyrVdIsxFNgmMXB7Yk-xeqyrMT4djwDH9fRShvyOhTBWVqXOq3psur3yhSenHY2yTW2rp61ozvtVSfWleAkxLizha7VuXvZ9n1r7mF2NFY4gQ56pPCDOB-mm2X"
+      },
+      {
+        "label": "birdspot",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6jri2uoiXaE43mdMkZgtXCiFU8nqiz1rdkt-SuyEkDMvmSOt3-Oe2ELOOuhkVkRGaSz58rpegFH0nJnfDivelAIcJ0mGx_oqQSnEy_cn1rN_BpIWOYi8hUwJur6MZPlC5K4ODbnX9v1mvIFCi2KGR8EjDpMBhJ5FIg8jp9gdTuIwQuys="
+      },
+      {
+        "label": "southwickcountrypark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsnDh6esGnAL2qfYHyVSrRN1FyrVdIsxFNgmMXB7Yk-xeqyrMT4djwDH9fRShvyOhTBWVqXOq3psur3yhSenHY2yTW2rp61ozvtVSfWleAkxLizha7VuXvZ9n1r7mF2NFY4gQ56pPCDOB-mm2X"
+      },
+      {
+        "label": "audubon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiQE3me4i1byC5vjQ7N60O-GtfqEx9c3FAiB9PQZHTsEX5zbOz3X-AOCJNenneihxmKwn54o_YHjd7cQJphinHH6H46LGjhgycKP3E7id6SZ8lurrl5jORmHzAAnpnQp2oW8F1OqjU1Wt8JoO8_xCsw2zd6Jdj_r9xNszGM0BRmKfXeuyMx_ea6MI="
+      },
+      {
+        "label": "audubon",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiQE3me4i1byC5vjQ7N60O-GtfqEx9c3FAiB9PQZHTsEX5zbOz3X-AOCJNenneihxmKwn54o_YHjd7cQJphinHH6H46LGjhgycKP3E7id6SZ8lurrl5jORmHzAAnpnQp2oW8F1OqjU1Wt8JoO8_xCsw2zd6Jdj_r9xNszGM0BRmKfXeuyMx_ea6MI="
+      },
+      {
+        "label": "journeynorth",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFwuLpHIKqDKqiWNhPbOzeWPxFM_qdqg5JDZAjg-BrctfI2aToig4wTKKpvcQqBzU7KyJtI7IXTI-Bj1JO2d_JWmWzr0JRwESZ3qvjhlU7nXW6inPYWEJR3EYNWblonPgl0PrQh8H6RluVoc3mRSSkOBQ=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}

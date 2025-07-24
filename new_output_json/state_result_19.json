@@ -1,0 +1,1144 @@
+{
+  "file_name": "state_result_19.json",
+  "conversion_timestamp": "2025-07-04T12:52:55.648266",
+  "data": {
+    "messages": [
+      {
+        "content": "Will this PC run FC 25?\nИмя устройства\tlen-001920\nПроцессор\tIntel(R) Core(TM) i7-3770 CPU @ 3.40GHz   3.40 GHz\nОперативная память\t8,00 ГБ (доступно: 7,81 ГБ)\nКод устройства\tB7069A32-5F1F-478E-B94F-CC41E607D468\nКод продукта\t00331-10000-00001-AA042\nТип системы\t64-разрядная операционная система, процессор x64\nПеро и сенсорный ввод\tДля этого монитора недоступен ввод с помощью пера и сенсорный ввод\nIntel(R) HD Graphics 4000",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "aa9debb9-5d33-4daa-be82-0a0eb64b8637",
+        "example": false
+      },
+      {
+        "content": "Based on your PC specifications and the typical system requirements for modern games, here's an assessment of whether your PC will run FC 25:\n\nYour PC has an Intel Core i7-3770 CPU, 8GB of RAM, and Intel HD Graphics 4000. The minimum system requirements for FC 25 include a Windows 10 64-bit operating system [radiotimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA==) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA==) [systemrequirementslab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg=) [ea](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ==) [vbrae](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4) [steampowered](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA=) [indiatimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ==) [epicgames](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg==), an Intel Core i5 6600k or AMD Ryzen 5 1600 processor [steampowered](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA=) [vbrae](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA==) [ea](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ==) [systemrequirementslab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg=) [radiotimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA==) [lagofast](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg=) [indiatimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ==) [epicgames](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg==), 8 GB of RAM [steampowered](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA=) [vbrae](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA==) [ea](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ==) [systemrequirementslab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg=) [radiotimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA==) [indiatimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ==) [epicgames](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg==), and an Nvidia GTX 1050 Ti or AMD RX 570 graphics card [steampowered](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA=) [vbrae](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA==) [ea](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ==) [systemrequirementslab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg=) [radiotimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA==) [indiatimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ==) [epicgames](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg==).\n\nWhile your CPU meets the general processing power needed, the integrated Intel HD Graphics 4000 is a significant limiting factor. This graphics solution is from 2012 [notebookcheck](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGCCOS7GirzSgj20bseEDTd2eilP8caiYnQz1Sbu1NSqh9V32fsBmYlE3LWuQSFH3YbnrD4mNduy0e3HRezv7gUsbKrR_gycQT6eJWBsUOUPc8rGXPuEHG7QoBDImpcg8obzYeeNhjLTKmtSSN9v8ULuhp_Lf0hX2y_IY=) and is significantly weaker than the minimum required Nvidia GTX 1050 Ti or AMD RX 570 [steampowered](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA=) [vbrae](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA==) [ea](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ==) [systemrequirementslab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg=) [radiotimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA==) [indiatimes](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ==) [epicgames](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg==). It relies on shared memory [notebookcheck](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH76yz75gNfG-vAIu4SoPuRv0mJQsKR2DOIwCinJYnqA_cjOIql1k072tD7ET2vM8ln2cUXWmgri_zwQ119yCBp7iwN1hO9CsZ0jS3K4GmKnN50wJB5zgM2dQb0TEylXkk9AUzakJnnPE2X3DyAZxb0XmlFwzqAPPpwZ_c7c1BU3Xb5Urd0Ghs=), further impacting its performance.\n\nThe Intel HD Graphics 4000 is not suitable for modern, demanding games [quora](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExwoAnZNuQdg_s4uya9AoxojqtuOgDToDD1-IuSBbLkWfAhGF6fr7abHUA7e__EdsTEb5LCJ0ydIWjnd7Vb2jJSpALpR5CYnPYKLUPYpQdhCKhzpwXqampbQeCgcGmzzbp23NeHpKRh3bWMhPrrH6BG7FMyedgp-bPLM65CQ==). While it can play older titles at minimum settings [quora](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExwoAnZNuQdg_s4uya9AoxojqtuOgDToDD1-IuSBbLkWfAhGF6fr7abHUA7e__EdsTEb5LCJ0ydIWjnd7Vb2jJSpALpR5CYnPYKLUPYpQdhCKhzpwXqampbQeCgcGmzzbp23NeHpKRh3bWMhPrrH6BG7FMyedgp-bPLM65CQ==) [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUTiRnfphPGuDJZD8ptcp82Xu2z9kH_95yXvUJbASGploLWYHDtLcB234VQMhWp0ngHwELnmC6xoG3DFypsCixbKcy-3EHPE9X5DtVGOlJjx0Yv_NRJAl8Kf62saBejjo2IAY2Pys=), it struggles with newer games. For example, Far Cry 3 can run on Intel HD Graphics 4000 at low settings and 720p resolution [youtube](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG11YskNBdenNFFfQmW6KL8_mQAtzmtHOCrCTo2IHsINBP7IxiY0i_eNCGN5G_mtx1h_1d3LuogI05kUL0sIYRAEvSbscrmqpky1lhmsmhGLYB0gMd5f2HPYXTgiFItua-hRZ383Q==).\n\nTherefore, it is unlikely that your PC will run FC 25 at playable frame rates, even at the lowest settings [notebookcheck](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGCCOS7GirzSgj20bseEDTd2eilP8caiYnQz1Sbu1NSqh9V32fsBmYlE3LWuQSFH3YbnrD4mNduy0e3HRezv7gUsbKrR_gycQT6eJWBsUOUPc8rGXPuEHG7QoBDImpcg8obzYeeNhjLTKmtSSN9v8ULuhp_Lf0hX2y_IY=) [systemrequirementslab](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLTcX_hM1p4EmoaTjuUGtE1C20JKS7DSN5v1FGdGqD7BewqwFqGGDm0RXjrc6SbPLfqv3wf1wD-swYhXO_xLNOl7YDqH-v7-msjffTUGm1vDbxcav6De3qrgIjQINhOwKfSFbnrs70q2crWGIZMEvNlUALh8sspd8CyphQ8KoyCrlI-paCw1Er).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "d55ecf8a-19f8-45de-abc7-e9292a82300c",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "FC 25 system requirements",
+      "Intel HD Graphics 4000 FC 25 performance",
+      "Can the Intel HD Graphics 4000 run FC 25 at minimum settings, and what frame rates can be expected?"
+    ],
+    "web_research_result": [
+      "Here's a summary of the system requirements for FC 25, based on the search results:\n\n**Minimum System Requirements:**\n\n*   **OS:** Windows 10 - 64-Bit (Latest Update) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **Processor (Intel):** Intel Core i5 6600k [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **Processor (AMD):** AMD Ryzen 5 1600 [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **Memory:** 8 GB RAM [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **Graphics Card (Nvidia):** Nvidia GTX 1050 Ti [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **Graphics Card (AMD):** AMD RX 570 [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **DirectX:** Version 12 [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **Network:** Broadband Internet connection [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Storage:** 100 GB available space [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **Sound Card:** DirectX: 12 Compatible video card or equivalent (feature level 12_0) [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Dedicated Video RAM:** 4096 MB [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Pixel Shader:** 6.0 [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9)\n*   **Vertex Shader:** 6.0 [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9)\n\n**Recommended System Requirements:**\n\n*   **OS:** Windows 10 - 64-Bit (Latest Update) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Processor (Intel):** Intel Core i7 6700 [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Processor (AMD):** AMD Ryzen 7 2700X [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Memory:** 12 GB RAM [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Graphics Card (Nvidia):** Nvidia GTX 1660 [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7) [pcgamebenchmark](https://vertexaisearch.cloud.google.com/id/0-8)\n*   **Graphics Card (AMD):** AMD RX 5600 XT [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [indiatimes](https://vertexaisearch.cloud.google.com/id/0-6) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **DirectX:** Version 12 [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Network:** Broadband Internet connection [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0)\n*   **Storage:** 100 GB available space [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [vbrae](https://vertexaisearch.cloud.google.com/id/0-4) [gamesystemrequirements](https://vertexaisearch.cloud.google.com/id/0-1) [ea](https://vertexaisearch.cloud.google.com/id/0-3) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Sound Card:** DirectX: 12 Compatible video card or equivalent (feature level 12_0) [steampowered](https://vertexaisearch.cloud.google.com/id/0-5) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [radiotimes](https://vertexaisearch.cloud.google.com/id/0-0) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9) [epicgames](https://vertexaisearch.cloud.google.com/id/0-7)\n*   **Dedicated Video RAM:** 6144 MB [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2)\n*   **Pixel Shader:** 6.0 [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9)\n*   **Vertex Shader:** 6.0 [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/0-2) [lagofast](https://vertexaisearch.cloud.google.com/id/0-9)\n\nTo run the game smoothly at basic settings, your PC should meet the minimum specifications [lagofast](https://vertexaisearch.cloud.google.com/id/0-9). For a more immersive experience at higher settings, the recommended specifications will give you better visuals and smoother performance [lagofast](https://vertexaisearch.cloud.google.com/id/0-9).\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent, credible information on \"Intel HD Graphics 4000 FC 25 performance\" and synthesize it into a verifiable text artifact.\nThe Intel HD Graphics 4000 is an integrated graphics solution launched in 2012 with the Ivy Bridge processors [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-0) [techpowerup](https://vertexaisearch.cloud.google.com/id/1-1). It's built on a 22 nm process and supports DirectX 11.1 [techpowerup](https://vertexaisearch.cloud.google.com/id/1-1). It operates at a base clock of 650 MHz and can be boosted up to 1050 MHz [techpowerup](https://vertexaisearch.cloud.google.com/id/1-1). The memory is system shared [techpowerup](https://vertexaisearch.cloud.google.com/id/1-1).\n\n**Performance:**\n\n*   The Intel HD Graphics 4000 is considered a mainstream video card, but it is 12 generations old [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/1-2).\n*   It can run approximately 23% of the top 13,000 PC games, but only 6% at recommended settings [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/1-2).\n*   It is significantly slower than modern dedicated graphics cards like the NVIDIA GeForce RTX 3060 [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-3).\n*   The performance of the HD Graphics 4000 depends on the CPU model it is paired with. ULV (Ultra Low Voltage) CPUs have lower clock speeds and can be 30% slower than 35-55 Watt models [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-4) [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-3) [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-5).\n*   Compared to its predecessor, the Intel HD Graphics 3000, the HD 4000 offers improved DirectX 11 capable shaders, hardware tessellation, a dedicated level 3 cache, and DirectCompute support [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-4). It can be up to 60% faster than the HD 3000 [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**Gaming:**\n\n*   The Intel HD Graphics 4000 is not suitable for modern, demanding games [quora](https://vertexaisearch.cloud.google.com/id/1-6).\n*   It can play older games (around 2012 or earlier) or well-optimized indie games at minimum settings [quora](https://vertexaisearch.cloud.google.com/id/1-6) [youtube](https://vertexaisearch.cloud.google.com/id/1-7). For example, Valorant may run at around 30fps on 720p minimum settings [quora](https://vertexaisearch.cloud.google.com/id/1-6).\n*   Some users have reported playable frame rates in games like GTA V, Call of Duty 4, and Far Cry 3 by using very low settings and tweaking the configuration [youtube](https://vertexaisearch.cloud.google.com/id/1-8) [reddit](https://vertexaisearch.cloud.google.com/id/1-9) [youtube](https://vertexaisearch.cloud.google.com/id/1-7).\n*   For a better gaming experience, upgrading to a low-end dedicated graphics card like a GT 1030 or Radeon HD 7770 is recommended [quora](https://vertexaisearch.cloud.google.com/id/1-6).\n\n**Features:**\n\n*   Supports up to 3 independent displays, depending on the laptop configuration [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-4).\n*   Supports DisplayPort 1.1 (max 2560x1600) and HDMI 1.4 (max 1920x1080) [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-4).\n*   Features QuickSync for fast video transcoding [notebookcheck](https://vertexaisearch.cloud.google.com/id/1-4).\n\n**Optimization:**\n\n*   To optimize the Intel HD Graphics 4000 for gaming, users can adjust display settings, configure graphics, set performance mode, adjust screen scaling, edit power plan settings, and update graphics drivers [toolify](https://vertexaisearch.cloud.google.com/id/1-10).\n*   Lowering the screen resolution and fine-tuning in-game graphic settings can also improve performance [fifauteam](https://vertexaisearch.cloud.google.com/id/1-11).\n",
+      "It is difficult to determine definitively whether the Intel HD Graphics 4000 can run \"FC 25\" (Far Cry 25) at minimum settings and what frame rates to expect, as \"Far Cry 25\" is a hypothetical title. However, we can analyze the capabilities of the Intel HD Graphics 4000 and extrapolate based on its performance with older Far Cry titles and similar games.\n\n**General Performance of Intel HD Graphics 4000:**\n\n*   The Intel HD Graphics 4000 is an integrated graphics processor from 2012, found in 3rd generation Intel Core (Ivy Bridge) processors [notebookcheck](https://vertexaisearch.cloud.google.com/id/2-0).\n*   It's considered a \"Mainstream\" video card but is 12 generations old [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/2-1).\n*   The HD Graphics 4000 offers improved DirectX 11 capable shaders, Hardware Tessellation, a dedicated level 3 cache, and DirectCompute support compared to its predecessor [notebookcheck](https://vertexaisearch.cloud.google.com/id/2-0).\n*   Its performance can vary depending on the CPU model it's paired with, as ULV (Ultra Low Voltage) CPUs have lower clock speeds [notebookcheck](https://vertexaisearch.cloud.google.com/id/2-0).\n*   It does not have dedicated VRAM and relies on system memory [notebookcheck](https://vertexaisearch.cloud.google.com/id/2-2).\n\n**Performance in Older Far Cry Games:**\n\n*   A user reported playing Far Cry 2 on an Intel HD 4000 (1.8 GHz, i5 processor) with 25-30 FPS [steamcommunity](https://vertexaisearch.cloud.google.com/id/2-3).\n*   A YouTube video demonstrated Far Cry 3 running on an Intel HD Graphics 4000 (paired with an i7 3770K, 16GB DDR3 RAM) at various resolutions and low settings [youtube](https://vertexaisearch.cloud.google.com/id/2-4):\n\n    *   1080p: Unplayable [youtube](https://vertexaisearch.cloud.google.com/id/2-4)\n    *   900p: Playable, but not ideal [youtube](https://vertexaisearch.cloud.google.com/id/2-4)\n    *   720p: A reasonable experience [youtube](https://vertexaisearch.cloud.google.com/id/2-4)\n    *   800x600: Possibly above 30 FPS [youtube](https://vertexaisearch.cloud.google.com/id/2-4)\n\n**Considerations for \"Far Cry 25\":**\n\n*   Given the age of the Intel HD Graphics 4000, it is unlikely to run a modern game like a hypothetical \"Far Cry 25\" even at minimum settings [notebookcheck](https://vertexaisearch.cloud.google.com/id/2-0) [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/2-1).\n*   \"Far Cry 4\" is too powerful for Intel HD 4000 graphics to handle [steampowered](https://vertexaisearch.cloud.google.com/id/2-5).\n*   Newer games released after 2014 may not work well on Intel HD 4000/4400, except for GTA V [wordpress](https://vertexaisearch.cloud.google.com/id/2-6).\n*   If \"Far Cry 25\" has significantly lower graphical requirements, similar to older titles, then it might be playable at very low settings and resolutions, but this is speculative.\n*   Even if the game runs, the visual quality may be poor, and the frame rates may be low (25-30 FPS or lower) [wordpress](https://vertexaisearch.cloud.google.com/id/2-6).\n\n**Overall:**\n\nBased on the Intel HD Graphics 4000's specifications and performance in older games, it's improbable that it would run a modern, demanding game like \"Far Cry 25\" at playable frame rates, even with minimum settings. [systemrequirementslab](https://vertexaisearch.cloud.google.com/id/2-1) [notebookcheck](https://vertexaisearch.cloud.google.com/id/2-0).\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELfKtUw6p1hhiQOubgMW4gko8QeSaCg1gRFkaHPG0u_s63RobqFYbPMOqu_7TO2zRd10sRTtz_s-omNmQLmdd5CXBCsRimPYDDBTeLAwVbndZHGLymXZsSntIFReTJzQGutVoGq2QHdFYAKTUuohRSwQfJCLLYK_X0K8_L7ZB7i9kdQFp86bbXIngID82re6y_a37rI6mGzKBgQBYnnDpyoHBVDqvuzSL6XE-VTJ9bgnV82cA6kscCkczjWYMwwaFO8FdHDyopmCs="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeQtwL11xTavf8qw18PcJPsuCSYdxzSf2WwrDTNctITJN_OSASKV_yB6ZUyns4STrvyOsyWfDLi9hPuj0CM2ubfiPOqfL11ZRsXaGepj_0tF8LYl8i9YQe8mnszSzGh46_Mq48FJbPkNErysVyalf7Kb-yxmZs8A=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeQtwL11xTavf8qw18PcJPsuCSYdxzSf2WwrDTNctITJN_OSASKV_yB6ZUyns4STrvyOsyWfDLi9hPuj0CM2ubfiPOqfL11ZRsXaGepj_0tF8LYl8i9YQe8mnszSzGh46_Mq48FJbPkNErysVyalf7Kb-yxmZs8A=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeQtwL11xTavf8qw18PcJPsuCSYdxzSf2WwrDTNctITJN_OSASKV_yB6ZUyns4STrvyOsyWfDLi9hPuj0CM2ubfiPOqfL11ZRsXaGepj_0tF8LYl8i9YQe8mnszSzGh46_Mq48FJbPkNErysVyalf7Kb-yxmZs8A=="
+      },
+      {
+        "label": "techpowerup",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeQtwL11xTavf8qw18PcJPsuCSYdxzSf2WwrDTNctITJN_OSASKV_yB6ZUyns4STrvyOsyWfDLi9hPuj0CM2ubfiPOqfL11ZRsXaGepj_0tF8LYl8i9YQe8mnszSzGh46_Mq48FJbPkNErysVyalf7Kb-yxmZs8A=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW1DCY_8v59SO7yoirFQd8lzboCj7LLcZ0iNWVyH7rnrX6CSln7u3PzKkaLY-DRT8lOEEGwIZNoBUWGDn800DvdUq-4RR57K_m71cj1_YE0FWK10rs5bQAZc17oBiP2L4KbwCBuhgeMgMuGcoM4G7ivch9l29TX_ZlJYcdLib7JUtuKJDwAiW-PA=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW1DCY_8v59SO7yoirFQd8lzboCj7LLcZ0iNWVyH7rnrX6CSln7u3PzKkaLY-DRT8lOEEGwIZNoBUWGDn800DvdUq-4RR57K_m71cj1_YE0FWK10rs5bQAZc17oBiP2L4KbwCBuhgeMgMuGcoM4G7ivch9l29TX_ZlJYcdLib7JUtuKJDwAiW-PA=="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDXeadBRX7pJpboRO_p_ll79tJypDS-bjcbZQSfpzM8UHa85k0mFi7z04OZxvy04q5lfjEH-BXotpItl5vz_kwXRvUFKG4vok9DXMmHEUwA6RNRlgxeKau_F8Wo8VWkRSY1tK8dwKIDwi_R9GFXzGwvttH8ESxd10QNvLDjZc9l0dn-_qF7ZXFrqiqdaAeXIhQYA2UprXgoiTKhMxf-XtoKDHKn59Bt81fnNdhiQV281SuHcmn1x4_6XFdnOIASVLnlqo="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzjfHpKTmZxXPhsfsoq9V20Yey77PO_4sBsGRsooF7oDf7WvK_CiTxdn9wVnso1yRNtbZyPjn5n-7UbdXxQUiW6J-vZWmWRI3q7AHDpV9boWUKDy6MNOB2pMgJiqnqBqtFCt1jD7DxGI5SIaU4pol7GV7kM2kaIu-XeHdw"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDXeadBRX7pJpboRO_p_ll79tJypDS-bjcbZQSfpzM8UHa85k0mFi7z04OZxvy04q5lfjEH-BXotpItl5vz_kwXRvUFKG4vok9DXMmHEUwA6RNRlgxeKau_F8Wo8VWkRSY1tK8dwKIDwi_R9GFXzGwvttH8ESxd10QNvLDjZc9l0dn-_qF7ZXFrqiqdaAeXIhQYA2UprXgoiTKhMxf-XtoKDHKn59Bt81fnNdhiQV281SuHcmn1x4_6XFdnOIASVLnlqo="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJtNkb421CXg3JqxNKqGQTP6l6qrjoVG3XyF8warjOJcfXwM9VSS3viQE-g1zmegV3MtMCfuWp4bqG_EBVcK9gvKeQ8agmQQx4-PmqYS0tcLv4G8GxmyBVv8Bz6IRJqlOPMad0zaZrLoNrt9J6WqNNuNyBb06M26Cd2DXEvF0jfzllEnCcjoP8opkGcHl90nhJ9gpX4E3x8PTMCAkFbUQ3KP6hq8vOGCEfWkR94-6if7Hqk5dhEerF0-k="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzjfHpKTmZxXPhsfsoq9V20Yey77PO_4sBsGRsooF7oDf7WvK_CiTxdn9wVnso1yRNtbZyPjn5n-7UbdXxQUiW6J-vZWmWRI3q7AHDpV9boWUKDy6MNOB2pMgJiqnqBqtFCt1jD7DxGI5SIaU4pol7GV7kM2kaIu-XeHdw"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJtNkb421CXg3JqxNKqGQTP6l6qrjoVG3XyF8warjOJcfXwM9VSS3viQE-g1zmegV3MtMCfuWp4bqG_EBVcK9gvKeQ8agmQQx4-PmqYS0tcLv4G8GxmyBVv8Bz6IRJqlOPMad0zaZrLoNrt9J6WqNNuNyBb06M26Cd2DXEvF0jfzllEnCcjoP8opkGcHl90nhJ9gpX4E3x8PTMCAkFbUQ3KP6hq8vOGCEfWkR94-6if7Hqk5dhEerF0-k="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExwoAnZNuQdg_s4uya9AoxojqtuOgDToDD1-IuSBbLkWfAhGF6fr7abHUA7e__EdsTEb5LCJ0ydIWjnd7Vb2jJSpALpR5CYnPYKLUPYpQdhCKhzpwXqampbQeCgcGmzzbp23NeHpKRh3bWMhPrrH6BG7FMyedgp-bPLM65CQ=="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExwoAnZNuQdg_s4uya9AoxojqtuOgDToDD1-IuSBbLkWfAhGF6fr7abHUA7e__EdsTEb5LCJ0ydIWjnd7Vb2jJSpALpR5CYnPYKLUPYpQdhCKhzpwXqampbQeCgcGmzzbp23NeHpKRh3bWMhPrrH6BG7FMyedgp-bPLM65CQ=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUTiRnfphPGuDJZD8ptcp82Xu2z9kH_95yXvUJbASGploLWYHDtLcB234VQMhWp0ngHwELnmC6xoG3DFypsCixbKcy-3EHPE9X5DtVGOlJjx0Yv_NRJAl8Kf62saBejjo2IAY2Pys="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExwoAnZNuQdg_s4uya9AoxojqtuOgDToDD1-IuSBbLkWfAhGF6fr7abHUA7e__EdsTEb5LCJ0ydIWjnd7Vb2jJSpALpR5CYnPYKLUPYpQdhCKhzpwXqampbQeCgcGmzzbp23NeHpKRh3bWMhPrrH6BG7FMyedgp-bPLM65CQ=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQ9SdYdPcPdR3NNxP1ZccXqBV_gY2saG7yArd8wg7-Cph1stwP7BJTTCCobWnCLA4GT_zyJSQrah32oce4hsHeV9gnTd45qDivc7nnzggTMwp86tozD85LDudvp2wriCkFmPazm_0="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOO2rMxa7afYCLwAjomoXWmZ2N3elHn-5-KqGsKhj357EnliV3I-7jfg8pFMGEwDzJyHTOZKom5cp1IkWJNE2DXZGtbeX-l4DaNEhR3XALJkVJt_ahF_t4Vo_bDeX51Iho38BFuUQBF1t1ibNoYo28ejylT6uJpFVu_9FYxOZOnxGDLTHWTaAqO2sJOWu_I2PUAoVicQ=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUTiRnfphPGuDJZD8ptcp82Xu2z9kH_95yXvUJbASGploLWYHDtLcB234VQMhWp0ngHwELnmC6xoG3DFypsCixbKcy-3EHPE9X5DtVGOlJjx0Yv_NRJAl8Kf62saBejjo2IAY2Pys="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExwoAnZNuQdg_s4uya9AoxojqtuOgDToDD1-IuSBbLkWfAhGF6fr7abHUA7e__EdsTEb5LCJ0ydIWjnd7Vb2jJSpALpR5CYnPYKLUPYpQdhCKhzpwXqampbQeCgcGmzzbp23NeHpKRh3bWMhPrrH6BG7FMyedgp-bPLM65CQ=="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzjfHpKTmZxXPhsfsoq9V20Yey77PO_4sBsGRsooF7oDf7WvK_CiTxdn9wVnso1yRNtbZyPjn5n-7UbdXxQUiW6J-vZWmWRI3q7AHDpV9boWUKDy6MNOB2pMgJiqnqBqtFCt1jD7DxGI5SIaU4pol7GV7kM2kaIu-XeHdw"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzjfHpKTmZxXPhsfsoq9V20Yey77PO_4sBsGRsooF7oDf7WvK_CiTxdn9wVnso1yRNtbZyPjn5n-7UbdXxQUiW6J-vZWmWRI3q7AHDpV9boWUKDy6MNOB2pMgJiqnqBqtFCt1jD7DxGI5SIaU4pol7GV7kM2kaIu-XeHdw"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzjfHpKTmZxXPhsfsoq9V20Yey77PO_4sBsGRsooF7oDf7WvK_CiTxdn9wVnso1yRNtbZyPjn5n-7UbdXxQUiW6J-vZWmWRI3q7AHDpV9boWUKDy6MNOB2pMgJiqnqBqtFCt1jD7DxGI5SIaU4pol7GV7kM2kaIu-XeHdw"
+      },
+      {
+        "label": "toolify",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELlKZKtTCMmC9tmZHHTQwisfpV_W05zvIhdJr0_Nv-9k-PBKuD58pari_4KtydL0Apsak0tI0LbSCXTQM0yCfAbUXlnONndui4L45RJKaA0bCfbjLLAQrIYwXbEf7U9PiObw_Z6qRGOfHgn2K1edzcyPMHH1IkBpU8A8dj3JNgKqMZxcODMXNtmZKCJopnxlfDuflPWqj2J3Q91yX05RFyavc="
+      },
+      {
+        "label": "fifauteam",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1Z09DOVW_ea9Ux2r_kxH3XhuZJpnaW4sQD8rffetaRs5FOjWZAJ56ugqo65Ez7Xra-vnIS7qd5MqFiY8-ppz0Rn6Ogk57HtTKN7WQkL2iNRSxDt9_1cXjxP5GcPe6WqU="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGCCOS7GirzSgj20bseEDTd2eilP8caiYnQz1Sbu1NSqh9V32fsBmYlE3LWuQSFH3YbnrD4mNduy0e3HRezv7gUsbKrR_gycQT6eJWBsUOUPc8rGXPuEHG7QoBDImpcg8obzYeeNhjLTKmtSSN9v8ULuhp_Lf0hX2y_IY="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLTcX_hM1p4EmoaTjuUGtE1C20JKS7DSN5v1FGdGqD7BewqwFqGGDm0RXjrc6SbPLfqv3wf1wD-swYhXO_xLNOl7YDqH-v7-msjffTUGm1vDbxcav6De3qrgIjQINhOwKfSFbnrs70q2crWGIZMEvNlUALh8sspd8CyphQ8KoyCrlI-paCw1Er"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGCCOS7GirzSgj20bseEDTd2eilP8caiYnQz1Sbu1NSqh9V32fsBmYlE3LWuQSFH3YbnrD4mNduy0e3HRezv7gUsbKrR_gycQT6eJWBsUOUPc8rGXPuEHG7QoBDImpcg8obzYeeNhjLTKmtSSN9v8ULuhp_Lf0hX2y_IY="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGCCOS7GirzSgj20bseEDTd2eilP8caiYnQz1Sbu1NSqh9V32fsBmYlE3LWuQSFH3YbnrD4mNduy0e3HRezv7gUsbKrR_gycQT6eJWBsUOUPc8rGXPuEHG7QoBDImpcg8obzYeeNhjLTKmtSSN9v8ULuhp_Lf0hX2y_IY="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH76yz75gNfG-vAIu4SoPuRv0mJQsKR2DOIwCinJYnqA_cjOIql1k072tD7ET2vM8ln2cUXWmgri_zwQ119yCBp7iwN1hO9CsZ0jS3K4GmKnN50wJB5zgM2dQb0TEylXkk9AUzakJnnPE2X3DyAZxb0XmlFwzqAPPpwZ_c7c1BU3Xb5Urd0Ghs="
+      },
+      {
+        "label": "steamcommunity",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8u4cd7wfEae38a-ws-8Bk8KnLjR81lvcNNhqwys8U1gpVHnt7NZ051G_mHhXhN71MZIVajW-40Qttkroe7ce7rnUO8qv73QYtTtZxEuviZS-rZkClcy2MQWCFko-JUmLftWDSDZx9nI5B5Bk7DzavlYIzZ0QV5KF3mlzQ0xTb-Q=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG11YskNBdenNFFfQmW6KL8_mQAtzmtHOCrCTo2IHsINBP7IxiY0i_eNCGN5G_mtx1h_1d3LuogI05kUL0sIYRAEvSbscrmqpky1lhmsmhGLYB0gMd5f2HPYXTgiFItua-hRZ383Q=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG11YskNBdenNFFfQmW6KL8_mQAtzmtHOCrCTo2IHsINBP7IxiY0i_eNCGN5G_mtx1h_1d3LuogI05kUL0sIYRAEvSbscrmqpky1lhmsmhGLYB0gMd5f2HPYXTgiFItua-hRZ383Q=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG11YskNBdenNFFfQmW6KL8_mQAtzmtHOCrCTo2IHsINBP7IxiY0i_eNCGN5G_mtx1h_1d3LuogI05kUL0sIYRAEvSbscrmqpky1lhmsmhGLYB0gMd5f2HPYXTgiFItua-hRZ383Q=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG11YskNBdenNFFfQmW6KL8_mQAtzmtHOCrCTo2IHsINBP7IxiY0i_eNCGN5G_mtx1h_1d3LuogI05kUL0sIYRAEvSbscrmqpky1lhmsmhGLYB0gMd5f2HPYXTgiFItua-hRZ383Q=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG11YskNBdenNFFfQmW6KL8_mQAtzmtHOCrCTo2IHsINBP7IxiY0i_eNCGN5G_mtx1h_1d3LuogI05kUL0sIYRAEvSbscrmqpky1lhmsmhGLYB0gMd5f2HPYXTgiFItua-hRZ383Q=="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGCCOS7GirzSgj20bseEDTd2eilP8caiYnQz1Sbu1NSqh9V32fsBmYlE3LWuQSFH3YbnrD4mNduy0e3HRezv7gUsbKrR_gycQT6eJWBsUOUPc8rGXPuEHG7QoBDImpcg8obzYeeNhjLTKmtSSN9v8ULuhp_Lf0hX2y_IY="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLTcX_hM1p4EmoaTjuUGtE1C20JKS7DSN5v1FGdGqD7BewqwFqGGDm0RXjrc6SbPLfqv3wf1wD-swYhXO_xLNOl7YDqH-v7-msjffTUGm1vDbxcav6De3qrgIjQINhOwKfSFbnrs70q2crWGIZMEvNlUALh8sspd8CyphQ8KoyCrlI-paCw1Er"
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr-Q2SnKrHfO059dZqhPB-7IFWkMYgdab1BTvXuhIwDyQ_bf39oht1je0_uuJ62lxkHdQJmkAhEeUqDzji01DBZJ-KLmNbJcDMzHKanb8BVi8vdtypkWKAVvrI0KbjaLR2Uqxwm6HGJgBVV1coeip6xO__vNhSA-VY1ER_VQriZjB8dc93jub6XZI="
+      },
+      {
+        "label": "wordpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv82zeVYjoeBr8yppiQxm_RkiDGQKbXoNcdf73_Th-RD8AiYMP3C7k1WqF_0THu7_1AMnr5gsg4BhCTpmOMPLtjWNLk3qtUZwOs6saowJa66q0XR2Nr3TorkzFpZ5k5oIejR6UtQlQrpR1FzBQQniOwR0vdllFAbe-O65x_0SikcElvf_IAAsy_MJD7b04x6ofBXJzF8PWQg3gvmBTNUDnH42iPRidYDE6wA=="
+      },
+      {
+        "label": "wordpress",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEv82zeVYjoeBr8yppiQxm_RkiDGQKbXoNcdf73_Th-RD8AiYMP3C7k1WqF_0THu7_1AMnr5gsg4BhCTpmOMPLtjWNLk3qtUZwOs6saowJa66q0XR2Nr3TorkzFpZ5k5oIejR6UtQlQrpR1FzBQQniOwR0vdllFAbe-O65x_0SikcElvf_IAAsy_MJD7b04x6ofBXJzF8PWQg3gvmBTNUDnH42iPRidYDE6wA=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLTcX_hM1p4EmoaTjuUGtE1C20JKS7DSN5v1FGdGqD7BewqwFqGGDm0RXjrc6SbPLfqv3wf1wD-swYhXO_xLNOl7YDqH-v7-msjffTUGm1vDbxcav6De3qrgIjQINhOwKfSFbnrs70q2crWGIZMEvNlUALh8sspd8CyphQ8KoyCrlI-paCw1Er"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGCCOS7GirzSgj20bseEDTd2eilP8caiYnQz1Sbu1NSqh9V32fsBmYlE3LWuQSFH3YbnrD4mNduy0e3HRezv7gUsbKrR_gycQT6eJWBsUOUPc8rGXPuEHG7QoBDImpcg8obzYeeNhjLTKmtSSN9v8ULuhp_Lf0hX2y_IY="
+      },
+      {
+        "label": "radiotimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNzy6-htmifU33ed_nOib7c899v31xLJZa2D6KiEYZDVT2TRcX3zBAq9hlMem_5GUOHk93PXeDU3kavibMCJIULStGZ8IILnNfLV3CjsOCNPVnNO1kPpgay1-4qF6IV0u_0ckCXmXCOeUR6QtvG9X2kekTAX6lXke6geYHnA=="
+      },
+      {
+        "label": "gamesystemrequirements",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDy3dbC86ytqdQQx0-VxwvwUWFnZnSd335_tr6tpQ-bmFBCdpJ2l1tOy0xLRjhvzM752I2fY8l1bpWiG7IkPtfKhlEzpbu2DimszNi1Lwy3lqIhD3RIlusewvCcUmomV5uuexiZqDZWVITcva4tr5TNA=="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKfoay2IQJ6I1w2SoNkZ4GdqZgInoyY_trl8iyhobqRUHxUe0pWGAIgo13NLlK7QockFV0QxHwubrLGuemoYm0weDnGEOhbRbkaBJMid6Ba5sICApz4a0Sb5IsHUffeQ6b-xG6nvOwLroFIF-lZzhRpyti8RDYFATygNKoQMeoktSlOVQ3IHg="
+      },
+      {
+        "label": "ea",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBYkTVrC9-42d-rBRXx4ext3oBGYmuK0377q99J6t5jkcerUI3syiNwwr0c0UuU2JvOVnpJIO5L1vGN8CCAvddYGgBDNf73D9jDzwhJb73EyfkmGbr4w31Ba1G-ylYabQSfFUZamh8ajDk3LFxFgNFN49wiGoyYDHm5ppBHdqgyoKwoOLELei2jJBESd2UqrAuzHOXnz7gf34nmMUMetKR-2YjnlaT5z_CI555pQ=="
+      },
+      {
+        "label": "vbrae",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0ba0YVjaLazNU92KkeNj9VK-ocTNeb8DjGyGCBDqttZMgPbqVdfdGoVR5j2JSdGpOZn8km7sI9VXnbZmXFd0b2ButDuAJNLFPjxyPwEWkl4RgpS6diUeqFrlWONhQ2OwjClGajLtXuZFhfPd4"
+      },
+      {
+        "label": "steampowered",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkbXFeqFueJWGLqiHQHLeKQLkEqgwnlS6sK-uU8Nj_iNuV8TQ66A8wu3PhAB5OoUGrRHqZvUQq4t5n3Sm--og4-qaH5wYXPI__CMkZ8tA023vnrNU6SZ6OGVUB-A9HdAVsPzkkv8A5563kbQTk9vW1epssxyA="
+      },
+      {
+        "label": "indiatimes",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgLwLwbVxqM980pVHQf2ZXay5g7cKfVnmhXk-zqk89Kx-ATnaBhoO95B3QbKGwXB7nev15_9QNsIs_2d5_0iiZQu9eVgqxIv9r0epfF8Rk2wEgma4pXzILUm0DWMYSOW3roV_g66uksxEHgesgGE8BZkT_N07lQaAvdyZxozNonlU3XpM-zvR7-g76OcwnOLgKKGdaDiVS3-Hcx1Bvuz3Z_0Jm5uWO_RXRTycIlufEzyNmvP6VSwR_kkuUbfXDXL9f56koKMODUJnbKQ=="
+      },
+      {
+        "label": "epicgames",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOunLBk-_4zEIl6NgpkztCT7y45M-ftYgioYg4iwoo8JZKkAIQKLGCGhIV9UWtSF4exsLeZzZUqPAjie4RR3C0vZA7rZi-Xnd2a_uqO55EPOskcjxb76PdvsNByFaRAjuwlPzl2Cgaz7D51wAC"
+      },
+      {
+        "label": "pcgamebenchmark",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIGcA2LEeVM_yeEOZ2JJDSfyUtkJjBvMdHk3WTb7eNqx9D_pPHOlDSx7gT7YziO75oJyF9EdGTLJAjnBCx2ZxeODmT9R4IROfoqvouE20dpSOBwrtUEyOZdos2Q-oyamwGsHlEcozqoleM7WMKNkQRUQpQqyZzLpnzZsMsmg=="
+      },
+      {
+        "label": "lagofast",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEFX0kcKXVvhaLv5QtsTqQGSq-_i3sc0JYXWBKVbHAndSfT9DE8KWN1ocPJ0rXH3tamp5TwiSsolLDa7-hKy1TVuICBrFx_IPHU_y1F8YLCnEcuDynpLvWZj3p3aRvcrMAZbSbiJRA4-3gmSeRIge7H0gtZHg="
+      },
+      {
+        "label": "quora",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExwoAnZNuQdg_s4uya9AoxojqtuOgDToDD1-IuSBbLkWfAhGF6fr7abHUA7e__EdsTEb5LCJ0ydIWjnd7Vb2jJSpALpR5CYnPYKLUPYpQdhCKhzpwXqampbQeCgcGmzzbp23NeHpKRh3bWMhPrrH6BG7FMyedgp-bPLM65CQ=="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUTiRnfphPGuDJZD8ptcp82Xu2z9kH_95yXvUJbASGploLWYHDtLcB234VQMhWp0ngHwELnmC6xoG3DFypsCixbKcy-3EHPE9X5DtVGOlJjx0Yv_NRJAl8Kf62saBejjo2IAY2Pys="
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGCCOS7GirzSgj20bseEDTd2eilP8caiYnQz1Sbu1NSqh9V32fsBmYlE3LWuQSFH3YbnrD4mNduy0e3HRezv7gUsbKrR_gycQT6eJWBsUOUPc8rGXPuEHG7QoBDImpcg8obzYeeNhjLTKmtSSN9v8ULuhp_Lf0hX2y_IY="
+      },
+      {
+        "label": "systemrequirementslab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLTcX_hM1p4EmoaTjuUGtE1C20JKS7DSN5v1FGdGqD7BewqwFqGGDm0RXjrc6SbPLfqv3wf1wD-swYhXO_xLNOl7YDqH-v7-msjffTUGm1vDbxcav6De3qrgIjQINhOwKfSFbnrs70q2crWGIZMEvNlUALh8sspd8CyphQ8KoyCrlI-paCw1Er"
+      },
+      {
+        "label": "notebookcheck",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH76yz75gNfG-vAIu4SoPuRv0mJQsKR2DOIwCinJYnqA_cjOIql1k072tD7ET2vM8ln2cUXWmgri_zwQ119yCBp7iwN1hO9CsZ0jS3K4GmKnN50wJB5zgM2dQb0TEylXkk9AUzakJnnPE2X3DyAZxb0XmlFwzqAPPpwZ_c7c1BU3Xb5Urd0Ghs="
+      },
+      {
+        "label": "youtube",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG11YskNBdenNFFfQmW6KL8_mQAtzmtHOCrCTo2IHsINBP7IxiY0i_eNCGN5G_mtx1h_1d3LuogI05kUL0sIYRAEvSbscrmqpky1lhmsmhGLYB0gMd5f2HPYXTgiFItua-hRZ383Q=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "2"
+  }
+}

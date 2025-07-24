@@ -1,0 +1,834 @@
+{
+  "file_name": "state_result_269.json",
+  "conversion_timestamp": "2025-07-16T20:30:25.726266",
+  "data": {
+    "messages": [
+      {
+        "content": "Translate this text in english. Double check every technical therm.    Recherchez et synthétisez toutes les informations nécessaires pour créer un **modèle structuré** (template) permettant à un LLM de générer automatiquement un profil de personnage **plug-and-play** pour l’application *Emochi*, en respectant les exigences techniques, stylistiques et interactives.  \n\n---\n\n**Instructions pour Perplexity** :  \n1. **Champs techniques d’Emochi** :  \n   - Identifiez tous les champs obligatoires et optionnels dans la création avancée d’un personnage (ex. : personnalité, dialogues, déclencheurs interactifs, paramètres visuels).  \n   - Décrivez la structure des dialogues (ex. : deux champs distincts pour les répliques du personnage et de l’utilisateur).  \n   - Expliquez comment intégrer des comportements dynamiques (ex. : réactions émotionnelles, déclencheurs basés sur des actions utilisateur).  \n\n2. **Guidelines stylistiques** :  \n   - Définissez les règles d’écriture pour les dialogues (ton chaleureux, adaptabilité, niveaux de langage).  \n   - Comment intégrer des éléments narratifs ou symboliques (ex. : arcs émotionnels, métadonnées comme `#empathie`).  \n\n3. **Paramètres interactifs** :  \n   - Comment modéliser les déclencheurs (ex. : mots-clés, comportements répétés) et les réponses contextuelles (ex. : réconfort en cas de tristesse).  \n   - Quels formats utiliser pour les scripts de comportement (ex. : JSON, balises spécifiques) ?  \n\n4. **Personnalisation visuelle** :  \n   - Quels détails visuels doivent être inclus (couleurs, style, animations) et comment les décrire pour qu’Emochi les interprète ?  \n\n5. **Compatibilité avec Emochi** :  \n   - Quels formats de sortie (ex. : Markdown, JSON) ou syntaxes spécifiques garantissent une intégration directe dans l’appli ?  \n   - Existe-t-il des outils ou des bonnes pratiques pour tester les personnages avant déploiement ?  \n\n6. **Ressources externes** :  \n   - Utilisez le guide [FlowGPT pour Emochi] ( https://guide.flowgpt.com/howto/emochi/expert-mode ) \n---\n\n**Sortie attendue** :  \nUn template modulaire et détaillé pour LLM, incluant :  \n- Des placeholders pour les variables utilisateur (ex. : `[Personnalité]`, `[Style visuel]`).  \n- Des exemples de dialogues formatés en deux colonnes (personnage/utilisateur).  \n- Des balises pour les déclencheurs interactifs (ex. : `TRIGGER: colère → réconfort`).  \n- Des directives pour les arcs narratifs ou émotionnels.  \n\n**Priorités** :  \n- Clarté, compatibilité avec Emochi, et adaptabilité aux demandes vagues des utilisateurs.  \n- Respect des contraintes techniques (ex. : limites de longueur, formats de fichier)\n\n# Modèle Structuré pour la Génération Automatique de Profils de Personnages sur Emochi\n\nLa création d'un personnage interactif sur Emochi nécessite une approche méthodique combinant aspects visuels, narratifs et techniques. Ce rapport présente un template modulaire permettant aux grands modèles de langage (LLM) de générer des profils de personnages directement intégrables dans l'application Emochi, en respectant ses spécificités techniques et créatives.\n\n## Architecture Technique du Template Emochi\n\n### Composants Fondamentaux du Mode Expert\n\nLe mode Expert d'Emochi constitue l'environnement idéal pour l'implémentation de personnages générés par LLM car il offre un contrôle total sur chaque aspect de la création. Ce processus se divise en deux phases majeures : la génération visuelle et la définition comportementale.\n\nPour la génération visuelle, Emochi propose deux approches distinctes : l'utilisation d'images de référence que le système adaptera (nécessitant un format 1:1) ou le téléchargement direct d'une image de personnage[1]. Le mode Expert requiert ensuite une définition détaillée incluant le genre, l'apparence physique, la morphologie et la pose souhaitée - éléments essentiels pour obtenir un rendu visuel fidèle aux intentions créatives[1].\n\nL'aspect stylistique constitue également un paramètre crucial du template. Emochi permet la sélection de un à quatre styles artistiques différents, générant quatre variations d'images parmi lesquelles choisir[1]. Cette flexibilité stylistique doit être reflétée dans le template par des descripteurs précis et adaptables.\n\n### Champs Obligatoires et Optionnels\n\nLe template doit intégrer une structure hiérarchique claire distinguant les champs obligatoires des éléments optionnels :\n\n```markdown\n## CHAMPS OBLIGATOIRES\n- [NOM_PERSONNAGE]\n- [GENRE]\n- [DESCRIPTION_PHYSIQUE_DETAILLEE]\n- [PERSONNALITE_PRINCIPALE]\n- [VOIX_CARACTÉRISTIQUE]\n- [MESSAGE_BIENVENUE]\n- [SCENARIO_INITIAL]\n\n## CHAMPS OPTIONNELS\n- [HISTOIRE_BACKGROUND]\n- [RELATIONS]\n- [COMPETENCES_SPECIFIQUES]\n- [EXPRESSIONS_FAVORITES]\n- [DECLENCHEURS_EMOTIONNELS]\n```\n\nLa section \"Create Character Details\" constitue l'essence même de l'interactivité du personnage, transformant une simple image en entité interactive[1]. Cette section doit être particulièrement soignée dans le template, car c'est elle qui déterminera la qualité des interactions avec les utilisateurs.\n\n## Guidelines Stylistiques et Narratives\n\n### Principes de Création Dialogique\n\nLa création de personnages efficaces sur Emochi nécessite une attention particulière à la cohérence narrative. Le template doit guider la génération de dialogues authentiques reflétant les particularités culturelles, temporelles et sociales du personnage[4].\n\n```markdown\n## CADRE CONTEXTUEL\n- [EPOQUE]: <période historique/futuriste>\n- [LOCALISATION]: <environnement géographique/fictif>\n- [CONTEXTE_CULTUREL]: <influences culturelles principales>\n\n## STYLE DE COMMUNICATION\n- [REGISTRE_LANGAGE]: <formel/informel/technique/familier>\n- [PARTICULARITÉS_LINGUISTIQUES]: <expressions typiques/accent/tics verbaux>\n- [TEMPERAMENT_CONVERSATIONNEL]: <réactif/proactif/réfléchi/spontané>\n```\n\nIl est essentiel de considérer comment les aspects socioculturels influencent l'expression du personnage. Des questions fondamentales comme \"Où vit le personnage?\" ou \"Comment sa nature (humaine ou non) affecte-t-elle son style d'expression?\" doivent être abordées lors de la génération[4].\n\n### Marqueurs Narratifs et Émotionnels\n\nPour enrichir l'expérience interactive, le template doit incorporer des balises narratives facilitant l'identification des états émotionnels et des arcs de développement du personnage :\n\n```markdown\n## EXPRESSIONS EMOTIONNELLES\n- [EMOTION:joie] > \"Formulation typique exprimant la joie\"\n- [EMOTION:tristesse] > \"Formulation typique exprimant la tristesse\"\n- [EMOTION:colère] > \"Formulation typique exprimant la colère\"\n- [EMOTION:surprise] > \"Formulation typique exprimant la surprise\"\n\n## ÉVOLUTION NARRATIVE\n- [ARC:découverte] > \"Réactions lors de nouvelles informations\"\n- [ARC:confiance] > \"Expressions quand le lien se renforce\"\n- [ARC:déception] > \"Réactions face aux attentes non satisfaites\"\n```\n\nCes marqueurs narratifs permettent au LLM de générer des réponses cohérentes avec la personnalité établie, un aspect crucial de la généralisation de personnage mentionnée dans les recherches sur OpenCharacter[2].\n\n## Paramètres Interactifs et Déclencheurs\n\n### Modélisation des Interactions Contextuelles\n\nLa qualité de l'expérience utilisateur sur Emochi dépend fortement de la capacité du personnage à réagir de manière contextuelle. Le template doit inclure une structure de déclencheurs facilitant ces interactions dynamiques :\n\n```markdown\n## DÉCLENCHEURS CONVERSATIONNELS\n- [TRIGGER:mot_clé=\"bonjour\"] > [RÉPONSE=\"Message de salutation personnalisé\"]\n- [TRIGGER:sujet=\"famille\"] > [RÉPONSE=\"Partage d'informations sur sa famille\"]\n- [TRIGGER:sentiment=\"négatif\"] > [RÉPONSE=\"Réaction empathique\"]\n\n## MÉMOIRE CONTEXTUELLE\n- [MÉMOIRE:sujet_récurrent] > \"Comment adapter les réponses si l'utilisateur revient souvent sur un sujet\"\n- [MÉMOIRE:préférences_utilisateur] > \"Comment intégrer les goûts mentionnés par l'utilisateur\"\n```\n\nCette approche s'inspire des stratégies de réécriture et de génération de réponses évoquées dans les recherches sur l'alignement des instructions aux caractéristiques du personnage[2].\n\n### Format des Scripts de Comportement\n\nPour garantir la compatibilité avec l'architecture d'Emochi, le template doit proposer un format structuré pour les scripts comportementaux. Une structure JSON balisée semble appropriée, tout en restant accessible aux modèles de langage :\n\n```markdown\n## SCRIPT DE COMPORTEMENT\n```\n{\n  \"déclencheur\": \"[CONTEXTE_UTILISATEUR]\",\n  \"condition\": \"[CONDITION_LOGIQUE]\",\n  \"réponse\": \"[RÉPONSE_PERSONNAGE]\",\n  \"émotion\": \"[ÉTAT_ÉMOTIONNEL]\",\n  \"actions_suivantes\": \"[PROPOSITIONS_INTERACTION]\"\n}\n```\n```\n\n## Personnalisation Visuelle et Intégration\n\n### Directives de Représentation Visuelle\n\nL'aspect visuel joue un rôle déterminant dans l'identité du personnage. Le template doit guider précisément la description des attributs visuels pour optimiser la génération d'images :\n\n```markdown\n## SPÉCIFICATIONS VISUELLES\n- [APPARENCE_GÉNÉRALE]: <description détaillée en 3-4 phrases>\n- [TRAITS_DISTINCTIFS]: <éléments visuels caractéristiques>\n- [PALETTE_COULEURS]: <couleurs dominantes, associations symboliques>\n- [STYLE_ARTISTIQUE]: <style(s) préféré(s) parmi les options d'Emochi>\n- [EXPRESSION_FACIALE_DÉFAUT]: <expression caractéristique>\n- [POSE_CARACTÉRISTIQUE]: <posture ou gestuelle signature>\n```\n\nLa génération d'un personnage visuellement cohérent nécessite une attention particulière aux détails descriptifs, comme le confirme la méthodologie d'Emochi[1]. Des descriptions précises de la morphologie, de la tenue vestimentaire et des expressions faciales sont essentielles.\n\n### Exemples de Dialogues Formatés\n\nPour illustrer l'implémentation du personnage, le template doit inclure des exemples de dialogues formatés selon la structure à deux colonnes caractéristique des interfaces conversationnelles :\n\n```markdown\n## EXEMPLES DE DIALOGUES\n\n| Utilisateur | [NOM_PERSONNAGE] |\n|-------------|------------------|\n| \"Bonjour, comment vas-tu aujourd'hui?\" | \"[EMOTION:joie] Salut ! Je suis [ÉTAT_ÉMOTIONNEL_POSITIF] aujourd'hui. [ANECDOTE_CONTEXTUELLE] Et toi, comment se passe ta journée ?\" |\n| \"Je me sens un peu triste...\" | \"[EMOTION:empathie] Je comprends ce sentiment. [RÉCONFORT_PERSONNALISÉ] Veux-tu me dire ce qui te préoccupe ? Je suis là pour t'écouter.\" |\n| \"Que penses-tu de [SUJET_ALÉATOIRE] ?\" | \"[ÉMOTION:réflexion] [OPINION_CONTEXTUALISÉE_BASÉE_SUR_PERSONNALITÉ] C'est du moins mon ressenti. Et toi, quel est ton avis ?\" |\n```\n\nCes exemples doivent refléter la diversité des interactions possibles tout en conservant la cohérence avec la personnalité définie.\n\n## Intégration et Compatibilité avec Emochi\n\n### Procédures de Test et Vérification\n\nAvant le déploiement, il est crucial de vérifier la compatibilité du personnage généré avec l'écosystème Emochi :\n\n```markdown\n## LISTE DE VÉRIFICATION PRÉ-DÉPLOIEMENT\n- [ ] Vérifier que toutes les variables obligatoires sont remplies\n- [ ] S'assurer que les descriptions visuelles sont suffisamment détaillées\n- [ ] Confirmer la cohérence des réponses émotionnelles\n- [ ] Tester les déclencheurs principaux\n- [ ] Vérifier la longueur des textes (respect des limites d'Emochi)\n```\n\nLe template final doit être suffisamment flexible pour s'adapter aux diverses demandes des utilisateurs, tout en fournissant un cadre structuré garantissant la génération de personnages fonctionnels et engageants sur la plateforme Emochi.\n\n## Conclusion et Bonnes Pratiques\n\nLa création d'un template efficace pour la génération automatique de personnages Emochi repose sur l'équilibre entre structure technique et flexibilité créative. Le modèle proposé permet aux LLM de générer des profils de personnages complets, directement intégrables dans l'application, tout en préservant leur unicité narrative et interactive.\n\nPour optimiser l'efficacité du template, il est recommandé de :\n- Privilégier des descriptions visuelles précises et évocatrices\n- Développer des traits de personnalité cohérents et nuancés\n- Implémenter un large éventail de déclencheurs émotionnels\n- Maintenir une cohérence stylistique dans tous les dialogues\n- Adapter la complexité du personnage aux capacités techniques d'Emochi\n\nEn suivant ces recommandations et en utilisant le template structuré proposé, les créateurs pourront générer des personnages Emochi authentiques et engageants, enrichissant significativement l'expérience utilisateur sur la plateforme.\n\nCitations :\n[1] Nextra: the next docs builder https://guide.flowgpt.com/howto/emochi/expert-mode\n[2] OpenCharacter : Entraînement de LLM de jeu de rôle ... https://www.chatpaper.ai/fr/paper/731012c9-7b40-4103-b495-5947aa4b0cf1\n[3] Le guide ultime pour créer son personnage en IA en différentes poses https://www.youtube.com/watch?v=ESMNC5Pplss\n[4] Un bref guide sur le design de mode et la création de personnages https://tips.clip-studio.com/fr-fr/articles/4383\n[5] Adding your custom profile templates - Ultimate Member https://docs.ultimatemember.com/article/120-adding-your-custom-profile-templates\n[6] Large Language Models (LLM) : Définition & fonctionnement https://www.lonestone.io/blog/tout-comprendre-large-language-models\n[7] dreamdreamcloudcloud - Tumblr blog | Tumgik https://www.tumgik.com/dreamdreamcloudcloud\n[8] La Toile des Personnages ou comment générer de l'interaction dans ... https://ronanlebreton.com/toile-personnages-interaction-jeu/\n[9] Le contrôle de saisie – Concevoir des formulaires accessibles https://www.tanaguru.com/concevoir-des-formulaires-accessibles-le-controle-de-saisie/\n[10] Découvrez le Language Learning Model (LLM) de Chat_Mistral https://www.geek-powa.fr/internet/decouvrez-le-language-learning-model-llm-de-chat_mistral-un-atout-majeur-pour-vos-parties-de-jeux-de-role-sur-table/\n[11] COMMENT CREER LE PROFIL D'UN PERSONNAGE - SCENAR Mag https://www.scenarmag.fr/2015/04/12/comment-creer-le-profil-dun-personnage/\n[12] 7 conseils pour créer vos personnages de roman à l'aide de fiches ... https://www.the-artist-academy.fr/blog/conseils-pour-creer-vos-personnages-de-roman-a-laide-de-fiches-personnages\n[13] How to Change Ultimate Member Profile Layout https://docs.ultimatemember.com/article/1454-change-um-profile-layout\n[14] Introduction pratique aux grands modèles de langage / LLM https://linuxfr.org/users/aboulle/journaux/introduction-pratique-aux-grands-modeles-de-langage-llm\n[15] #miss diay ha | Explore Tumblr posts and blogs | Tumgik https://www.tumgik.com/tag/miss%20diay%20ha\n[16] Emochi: Chat With Character – Applications sur Google Play https://play.google.com/store/apps/details?id=com.flow.mobile\n[17] Modèle Fiche personnage | Marketplace Notion https://www.notion.com/fr/templates/fiche-personnage\n[18] FICHES DE MODÈLE POUR CONCEPTEURS DE PERSONNAGES https://www.clipstudio.net/comment-dessiner/archives/164866\n[19] Profile Subpage Content Widget - Crocoblock https://crocoblock.com/widgets/profile-subpage-content/\n[20] Qu'est-ce qu'un grand modèle de langage (LLM) ? | Cloudflare https://www.cloudflare.com/fr-fr/learning/ai/what-is-large-language-model/\n[21] Le guide ultime de la création de personnage pour un roman https://www.mecanismes-dhistoires.fr/le-guide-ultime-de-la-creation-de-personnages-pour-un-roman/\n[22] Recommandation de LLM pour le jeu de rôle érotique : r/LocalLLaMA https://www.reddit.com/r/LocalLLaMA/comments/1ge2fzf/llm_recommendation_for_erotic_roleplay/?tl=fr\n[23] Apprenez à créer des personnages consistants avec Leonardo.ai en ... https://www.youtube.com/watch?v=TXHQ4HtpXPY\n[24] Character design : Comment concevoir un personnage https://anatomy4sculptors.com/fr/blog/character-design/\n[25] Un guide simple pour débutants pour créer le même personnage ... https://www.reddit.com/r/StableDiffusion/comments/18tdmq7/a_simple_beginners_guide_to_creating_the_same/?tl=fr\n[26] Exercice magique pour créer un bon personnage de roman https://fais-en-un-livre.com/creer-bon-personnage/\n[27] Créer une image avec model de personnage consistant, d'objet ou ... https://www.youtube.com/watch?v=1VtyO8Jie34\n[28] Pour une stylistique des personnage de roman - Fabula https://www.fabula.org/revue/document8780.php\n[29] Comment DESSINER un PERSONNAGE de PROFIL - YouTube https://www.youtube.com/watch?v=L_oG1lME7XM\n[30] i have a crush on chatgpt this is not even a joke - Reddit https://www.reddit.com/r/femcelgrippysockjail/comments/1h4zx50/i_have_a_crush_on_chatgpt_this_is_not_even_a_joke/\n[31] Team Members & Staff Profiles Showcase – Extension WordPress https://fr.wordpress.org/plugins/team-showcase-awesome/\n[32] Qu'est-ce qu'un grand modèle de langage (LLM) ? | Oracle France https://www.oracle.com/fr/artificial-intelligence/large-language-model/\n[33] How to Enhance Your Conversations on Character.AI - TikTok https://www.tiktok.com/@vinc_1i/video/7362955761930079531\n[34] Grand modèle de langage (LLM) : Tout ce qu'il faut savoir https://datascientest.com/large-language-models-tout-savoir\n[35] Best Anime Character Ai Chat Apps - TikTok https://www.tiktok.com/discover/best-anime-character-ai-chat-apps\n[36] Large Language Models (LLM): Guide complet en 2025 - Shaip https://fr.shaip.com/blog/a-guide-large-language-model-llm/\n[37] Que sont les grands modèles linguistiques (LLM) ? | Microsoft Azure https://azure.microsoft.com/fr-fr/resources/cloud-computing-dictionary/what-are-large-language-models-llms\n[38] Benchmark des modèles LLM par les modèles LLM - LinkedIn https://fr.linkedin.com/pulse/bencharmark-des-mod%C3%A8les-llm-par-les-etienne-scotto-d-apollonia-thdue\n[39] Chat Gpt 피하는법 - TikTok https://www.tiktok.com/discover/chat-gpt-%ED%94%BC%ED%95%98%EB%8A%94%EB%B2%95\n[40] Character Profile | Emochi https://emochi.com/me\n[41] Page 927 | Les derniers thèmes de Google Slides et modèles ... https://slidesgo.com/fr/recents?page=927\n[42] Le jeu Emoji - StreetSmart Play https://play.street-smart.be/fr/game/view/789\n[43] Tutoriels Interactifs - FasterCapital https://fastercapital.com/fr/mots-cle/tutoriels-interactifs.html\n[44] Icônes, logos, symboles Comportement de réponse ... - Icons8 https://icones8.fr/icons/set/comportement-de-r%C3%A9ponse--c-7a4e0f\n[45] Maëlle Moussa sur LinkedIn : #uxdesign #innovation ... https://fr.linkedin.com/posts/ma%C3%ABlle-moussa_uxdesign-innovation-prototypagerapide-activity-7264543177544503300-_pjl\n[46] Post de Gregory Maitre - LinkedIn https://fr.linkedin.com/posts/gregory-maitre-19374b134_je-ne-r%C3%A9siste-pas-%C3%A0-partager-le-message-re%C3%A7u-activity-7251976766410383360-6Hmb\n[47] Fiche 6 : Formulaires - Guide de l'intégrateur RGAA 3 - GitHub Pages https://disic.github.io/guide-integrateur/6-formulaires.html",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "human",
+        "name": null,
+        "id": "09635615-6887-4333-8f0a-f6fc179971e4",
+        "example": false
+      },
+      {
+        "content": "Here's a structured template designed for LLMs to generate \"plug-and-play\" character profiles for the *Emochi* application, incorporating technical, stylistic, and interactive elements, as well as visual customization. This template aims for clarity, compatibility with Emochi, and adaptability to user requests.\n\n**I. Core Character Profile Template:**\n\nThis template provides a structured format for the LLM to generate consistent and detailed character profiles.\n\n*   **Basic Information:**\n    *   Full Name\n    *   Nickname(s)\n    *   Age\n    *   Gender\n    *   Species\n    *   Birthday\n    *   Pronouns\n    *   Sexual Orientation\n    *   Nationality\n    *   Affiliation\n*   **Physical Appearance:**\n    *   Height\n    *   Weight\n    *   Build (Athletic, slender, etc.)\n    *   Skin Tone\n    *   Hair (Color, style)\n    *   Eyes (Color)\n    *   Distinctive Features (Tattoos, scars, etc.)\n    *   Clothing Style\n    *   Accessories (glasses, jewelry, etc.)\n    *   Posture and Gait\n    *   Signature Gesture/Expression\n    *   Image reference\n*   **Personality:**\n    *   Positive Traits\n    *   Negative Traits\n    *   Quirks\n    *   Core Values\n    *   Fears/Insecurities\n    *   Introvert/Extrovert\n    *   Dialogue Style/Speaking Patterns\n    *   Voice Type\n    *   Catchphrases\n    *   Laughter Type\n    *   Life Philosophy\n    *   Habits and Mannerisms\n    *   Motivations\n    *   Emotional Wounds\n    *   Biggest Strengths\n    *   Biggest Weaknesses\n    *   Typical role in a group setting\n    *   What this character needs\n*   **Skills & Abilities:**\n    *   Skill 1: Description\n    *   Skill 2: Description\n    *   Skill 3: Description\n*   **Relationships:**\n    *   Family: (Name, Age, Relationship)\n    *   Romantic:\n    *   Allies/Friends:\n    *   Rivals/Enemies:\n    *   Pets:\n*   **Backstory:**\n    *   Early Life\n    *   Key Events\n    *   Turning Points\n*   **Interests & Habits:**\n    *   Likes\n    *   Dislikes\n    *   Hobbies\n*   **Notable Quotes:**\n    *   Quote 1\n    *   Quote 2\n*   **Scenario:**\n    *   A short description of the character's backstory or current situation.\n    *   Potential interactions with other characters.\n*   **Greeting:**\n    *   A sample greeting message the character might use.\n\n**II. Technical Requirements:**\n\n*   **Personalized LLMs (PLLMs):** A key technical requirement is the use of PLLMs that can understand individual emotions, writing styles, and preferences [arxiv](https://vertexaisearch.cloud.google.com/id/1-2). These models leverage user-specific data such as profiles, historical dialogues, content, and interactions to provide contextually relevant and tailored responses [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Parameter-Efficient Fine-Tuning (PEFT):** PEFT techniques, such as Quantized Low-Rank Adaptation (QLoRA), are employed to manipulate personality traits in LLMs [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3). This allows for more consistent and enduring personality expressions [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Efficient Adaptation to Model Updates:** Efficient strategies for updating user-specific parameters without requiring complete retraining are needed when base LLM parameters are updated [arxiv](https://vertexaisearch.cloud.google.com/id/1-2). This can involve incremental learning, transfer learning, or more resource-efficient fine-tuning techniques [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Instruction Following:** LLMs need to follow instructions precisely, including output constraints related to length, format, and content [arxiv](https://vertexaisearch.cloud.google.com/id/1-4). Benchmarks like IFBench are used to evaluate instruction following capabilities [arxiv](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Tokenization:** Converting text into numerical representations that LLMs can process is crucial [github](https://vertexaisearch.cloud.google.com/id/1-5). Different tokenization strategies impact model performance and output quality [github](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Attention Mechanisms:** Understanding attention mechanisms, especially self-attention, is essential for LLMs to process long-range dependencies and maintain context [github](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Data Format:** The output should be in a structured format (JSON, P-list, etc.) that allows for easy integration into the *Emochi* application.\n*   **Token Limits:** The template should be designed to minimize token usage, especially if there are memory limitations.\n*   **Customization:** The template should allow for customization and the addition of new sections as needed.\n\n**III. Stylistic Guidelines:**\n\n*   **Detailed Personality Traits:** Character generation prompts should encourage detailed and specific personality traits that represent the unique behavior, speech, and demeanor of the character during role-play [reddit](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Consistent Custom Template:** Characters should follow a consistent, custom template to ensure accuracy and believability [huggingface](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **Expressive Emoji Usage:** Fine-tuning can lead to LLMs generating emojis to express personality traits, enhancing emotional expressiveness [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Natural Language Instructions (Prompts):** LLMs allow users to employ natural language instructions to steer a model's output, tailoring its tone, or even specifying its domain knowledge [arxiv](https://vertexaisearch.cloud.google.com/id/1-8).\n*   **Visual Style:** The LLM should be able to generate characters in a wide range of artistic styles (realistic, anime, cartoon, fantasy, etc.).\n*   **Consistency:** The generated characters should maintain a consistent visual style and personality across different interactions.\n*   **Uniqueness:** The LLM should be able to create unique characters that are not just copies of existing archetypes.\n*   **Prompt Adherence:** The LLM should accurately interpret and follow user-provided descriptions.\n\n**IV. Interactive Requirements:**\n\n*   **Customizable AI Personas:** Users should be able to design custom AI companions with distinct traits and personalities [google](https://vertexaisearch.cloud.google.com/id/1-0) [google](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Interactive Roleplay and Adventures:** The system should allow users to engage in roleplay scenarios, solve challenges, and explore interactive storylines crafted by AI [google](https://vertexaisearch.cloud.google.com/id/1-1) [google](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **User-Specific Data Injection:** Personalized prompting focuses on handling user-specific data outside the LLM and injecting it into the model [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Preference Datasets:** Creating high-quality user-specific preference datasets is important for personalized alignment, though challenging due to data sparsity [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Personalized Interactions:** The generated characters should be able to engage in personalized and immersive conversations with users.\n*   **Dynamic Responses:** The characters should be able to respond dynamically to user choices and past interactions.\n*   **Emotional Intelligence:** The characters should be able to express empathy and emotional intelligence.\n*   **Role-Playing:** The characters should be able to participate in role-playing scenarios.\n*   **Memory:** The characters should be able to remember past interactions and use that information to inform future conversations.\n\n**V. Visual Customization:**\n\n*   **AI-Generated Imagery:** The system should capture and share images inspired by chat adventures, revisiting key moments through stunning visuals [google](https://vertexaisearch.cloud.google.com/id/1-1) [google](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Anime-Inspired AI Chat Animation:** Lifelike chat interactions should be presented in a dynamic, anime-inspired world [google](https://vertexaisearch.cloud.google.com/id/1-1) [google](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Outfit Descriptions:** Detailed descriptions of outfits for different occasions (e.g., main, formal, sleeping, running, exercise, swimsuit) can enhance visual customization [reddit](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Visual Cues:** Platforms can allow users to tailor LLM personas by selecting visual cues [arxiv](https://vertexaisearch.cloud.google.com/id/1-8).\n\n**VI. Output Format and Direct Integration:**\n\nBoth JSON and Markdown are viable options for Emochi character profile generation and direct integration.\n\n*   **JSON:** Well-suited for API interactions and structured data storage [github](https://vertexaisearch.cloud.google.com/id/2-2). A JSON character creator allows users to enter character settings and generate a JSON file [github](https://vertexaisearch.cloud.google.com/id/2-1). This file can then be placed in the \"characters\" folder of a web UI or uploaded directly into the interface [github](https://vertexaisearch.cloud.google.com/id/2-1). The script runs locally, ensuring data privacy [github](https://vertexaisearch.cloud.google.com/id/2-1). Character files can be generated as character.json, which matches the expected format for OpenAI function calling [github](https://vertexaisearch.cloud.google.com/id/2-3).\n*   **Markdown:** Excels at creating human-readable and easily editable character descriptions [gitlab](https://vertexaisearch.cloud.google.com/id/2-4). Markdown tables are now rendered and aligned as expected, keeping reports and documentation readable [github](https://vertexaisearch.cloud.google.com/id/2-5). A Reddit post from January 2025 shares character generation prompts that create ready-to-use characters in a detailed, organized, and consistent format [reddit](https://vertexaisearch.cloud.google.com/id/2-7). The format includes direct speech and narration [reddit](https://vertexaisearch.cloud.google.com/id/2-7).\n\nCharacter files in JSON format can be used directly with Eliza and other LLM agents [github](https://vertexaisearch.cloud.google.com/id/2-3).\n\n**VII. LLM Persona Prompting Techniques**\n\n*   **Persona-based prompting:** Use specific roles or character traits to guide the LLM to produce consistent, contextually relevant responses.\n*   **System Prompt:** Use a system prompt to inform who the persona is and how they should act [tavus](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Knowledge/Context:** Provide a knowledge-base that will be fed into the LLM model for the persona [tavus](https://vertexaisearch.cloud.google.com/id/0-2).\n\nThis template provides a comprehensive framework for generating Emochi character profiles. Remember that research in this area is ongoing, with new models and techniques constantly being developed [arxiv](https://vertexaisearch.cloud.google.com/id/1-4) [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3) [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).",
+        "additional_kwargs": {},
+        "response_metadata": {},
+        "type": "ai",
+        "name": null,
+        "id": "1472621b-2c33-46c8-9ff9-6f6caaa0a775",
+        "example": false,
+        "tool_calls": [],
+        "invalid_tool_calls": [],
+        "usage_metadata": null
+      }
+    ],
+    "search_query": [
+      "translate to English: Recherchez et synthétisez toutes les informations nécessaires pour créer un **modèle structuré** (template) permettant à un LLM de générer automatiquement un profil de personnage **plug-and-play** pour l’application *Emochi*, en respectant les exigences techniques, stylistiques et interactives.",
+      "Emochi character profile template generation by LLM: technical requirements, stylistic guidelines, interactive parameters, and visual customization",
+      "Emochi character profile generation: JSON or Markdown output format for direct integration"
+    ],
+    "web_research_result": [
+      "Here's my approach to creating a structured template for an LLM to generate plug-and-play character profiles for the *Emochi* application, based on current information:\n\nBased on the search results, here's a structured template and related information to guide an LLM in generating plug-and-play character profiles for the *Emochi* application, keeping in mind technical, stylistic, and interactive requirements:\n\n**I. Core Character Profile Template:**\n\nThis template provides a structured format for the LLM to generate consistent and detailed character profiles. It incorporates elements from various sources to ensure comprehensive character development [quickcreator](https://vertexaisearch.cloud.google.com/id/0-0) [aioptimistic](https://vertexaisearch.cloud.google.com/id/0-1) [tavus](https://vertexaisearch.cloud.google.com/id/0-2) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3) [reddit](https://vertexaisearch.cloud.google.com/id/0-4).\n\n*   **Basic Information:**\n    *   Full Name [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Nickname(s) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Age [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Gender [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Species [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Birthday [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Pronouns [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Sexual Orientation [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Nationality [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Affiliation [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n*   **Physical Appearance:**\n    *   Height [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Weight [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Build (Athletic, slender, etc.) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3) [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Skin Tone [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Hair (Color, style) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3) [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Eyes (Color) [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Distinctive Features (Tattoos, scars, etc.) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3) [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Clothing Style [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Accessories (glasses, jewelry, etc.) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Posture and Gait [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Signature Gesture/Expression [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Image reference [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n*   **Personality:**\n    *   Positive Traits [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Negative Traits [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Quirks [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Core Values [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Fears/Insecurities [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Introvert/Extrovert [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Dialogue Style/Speaking Patterns [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3) [quickcreator](https://vertexaisearch.cloud.google.com/id/0-0)\n    *   Voice Type [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Catchphrases [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Laughter Type [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Life Philosophy [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Habits and Mannerisms [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Motivations [quickcreator](https://vertexaisearch.cloud.google.com/id/0-0) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Emotional Wounds [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Biggest Strengths [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Biggest Weaknesses [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Typical role in a group setting [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   What this character needs [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n*   **Skills & Abilities:** [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Skill 1: Description\n    *   Skill 2: Description\n    *   Skill 3: Description\n*   **Relationships:** [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Family: (Name, Age, Relationship) [sudowrite](https://vertexaisearch.cloud.google.com/id/0-3)\n    *   Romantic:\n    *   Allies/Friends:\n    *   Rivals/Enemies:\n    *   Pets:\n*   **Backstory:** [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [quickcreator](https://vertexaisearch.cloud.google.com/id/0-0)\n    *   Early Life\n    *   Key Events\n    *   Turning Points\n*   **Interests & Habits:** [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Likes\n    *   Dislikes\n    *   Hobbies\n*   **Notable Quotes:** [reddit](https://vertexaisearch.cloud.google.com/id/0-4)\n    *   Quote 1\n    *   Quote 2\n*   **Scenario:**\n    *   A short description of the character's backstory or current situation [huggingface](https://vertexaisearch.cloud.google.com/id/0-5) [yeschat](https://vertexaisearch.cloud.google.com/id/0-6).\n    *   Potential interactions with other characters [chatgptguide](https://vertexaisearch.cloud.google.com/id/0-7).\n*   **Greeting:**\n    *   A sample greeting message the character might use [yeschat](https://vertexaisearch.cloud.google.com/id/0-6) [aioptimistic](https://vertexaisearch.cloud.google.com/id/0-1).\n\n**II. Technical Requirements:**\n\n*   **LLM Integration:** The template should be easily parsable and usable by the LLM chosen for character generation [tavus](https://vertexaisearch.cloud.google.com/id/0-2) [vidpros](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Data Format:** The output should be in a structured format (JSON, P-list, etc.) that allows for easy integration into the *Emochi* application [huggingface](https://vertexaisearch.cloud.google.com/id/0-5).\n*   **Token Limits:** The template should be designed to minimize token usage, especially if there are memory limitations [redhat](https://vertexaisearch.cloud.google.com/id/0-9) [reddit](https://vertexaisearch.cloud.google.com/id/0-10).\n*   **Customization:** The template should allow for customization and the addition of new sections as needed [reddit](https://vertexaisearch.cloud.google.com/id/0-4) [capcut](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Training Data:** A comprehensive character dataset or library is needed to train the AI models [quytech](https://vertexaisearch.cloud.google.com/id/0-12) [heygen](https://vertexaisearch.cloud.google.com/id/0-13).\n\n**III. Stylistic Requirements:**\n\n*   **Visual Style:** The LLM should be able to generate characters in a wide range of artistic styles (realistic, anime, cartoon, fantasy, etc.) [imagine](https://vertexaisearch.cloud.google.com/id/0-14) [rebornstudio](https://vertexaisearch.cloud.google.com/id/0-15).\n*   **Consistency:** The generated characters should maintain a consistent visual style and personality across different interactions [rebornstudio](https://vertexaisearch.cloud.google.com/id/0-15) [github](https://vertexaisearch.cloud.google.com/id/0-16).\n*   **Uniqueness:** The LLM should be able to create unique characters that are not just copies of existing archetypes [contentbeta](https://vertexaisearch.cloud.google.com/id/0-17).\n*   **Prompt Adherence:** The LLM should accurately interpret and follow user-provided descriptions [imagine](https://vertexaisearch.cloud.google.com/id/0-14).\n\n**IV. Interactive Requirements:**\n\n*   **Personalized Interactions:** The generated characters should be able to engage in personalized and immersive conversations with users [vidpros](https://vertexaisearch.cloud.google.com/id/0-8) [yeschat](https://vertexaisearch.cloud.google.com/id/0-6).\n*   **Dynamic Responses:** The characters should be able to respond dynamically to user choices and past interactions [summonworlds](https://vertexaisearch.cloud.google.com/id/0-18) [vidpros](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Emotional Intelligence:** The characters should be able to express empathy and emotional intelligence [vidpros](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **Role-Playing:** The characters should be able to participate in role-playing scenarios [summonworlds](https://vertexaisearch.cloud.google.com/id/0-18) [apple](https://vertexaisearch.cloud.google.com/id/0-19).\n*   **Memory:** The characters should be able to remember past interactions and use that information to inform future conversations [summonworlds](https://vertexaisearch.cloud.google.com/id/0-18) [apple](https://vertexaisearch.cloud.google.com/id/0-19).\n\n**V. Plug-and-Play Considerations:**\n\n*   **Easy Integration:** The generated character profiles should be easy to integrate into the *Emochi* application [itch](https://vertexaisearch.cloud.google.com/id/0-20) [formfrom](https://vertexaisearch.cloud.google.com/id/0-21).\n*   **Customization:** Users should be able to easily customize the generated characters to fit their own preferences [capcut](https://vertexaisearch.cloud.google.com/id/0-11).\n*   **Sharing:** Users should be able to easily share their created characters with others [quytech](https://vertexaisearch.cloud.google.com/id/0-12).\n*   **Versatility:** The generated characters should be versatile and able to be used in a variety of different scenarios [squibler](https://vertexaisearch.cloud.google.com/id/0-22).\n\n**VI. LLM Persona Prompting Techniques**\n\n*   **Persona-based prompting:** Use specific roles or character traits to guide the LLM to produce consistent, contextually relevant responses [vidpros](https://vertexaisearch.cloud.google.com/id/0-8).\n*   **System Prompt:** Use a system prompt to inform who the persona is and how they should act [tavus](https://vertexaisearch.cloud.google.com/id/0-2).\n*   **Knowledge/Context:** Provide a knowledge-base that will be fed into the LLM model for the persona [tavus](https://vertexaisearch.cloud.google.com/id/0-2).\n\nBy using this structured template and keeping in mind the technical, stylistic, and interactive requirements, you can create an LLM that generates high-quality, plug-and-play character profiles for the *Emochi* application.\n",
+      "Okay, I will conduct targeted Google Searches to gather the most recent information on \"Emochi character profile template generation by LLM: technical requirements, stylistic guidelines, interactive parameters, and visual customization\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of the current state of Emochi character profile template generation by LLMs, covering technical requirements, stylistic guidelines, interactive parameters, and visual customization:\n\n**Overview**\nEmochi is an application that allows users to chat with AI companions, create unique AI personas, and explore immersive backstories [google](https://vertexaisearch.cloud.google.com/id/1-0) [google](https://vertexaisearch.cloud.google.com/id/1-1). It caters to anime, manga, and game enthusiasts, creative thinkers, and imaginative storytellers [google](https://vertexaisearch.cloud.google.com/id/1-1). The use of Large Language Models (LLMs) is central to generating and customizing these AI characters [arxiv](https://vertexaisearch.cloud.google.com/id/1-2) [google](https://vertexaisearch.cloud.google.com/id/1-1) [google](https://vertexaisearch.cloud.google.com/id/1-0).\n\n**Technical Requirements**\n\n*   **Personalized LLMs (PLLMs):** A key technical requirement is the use of PLLMs that can understand individual emotions, writing styles, and preferences [arxiv](https://vertexaisearch.cloud.google.com/id/1-2). These models leverage user-specific data such as profiles, historical dialogues, content, and interactions to provide contextually relevant and tailored responses [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Parameter-Efficient Fine-Tuning (PEFT):** PEFT techniques, such as Quantized Low-Rank Adaptation (QLoRA), are employed to manipulate personality traits in LLMs [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3). This allows for more consistent and enduring personality expressions [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Efficient Adaptation to Model Updates:** Efficient strategies for updating user-specific parameters without requiring complete retraining are needed when base LLM parameters are updated [arxiv](https://vertexaisearch.cloud.google.com/id/1-2). This can involve incremental learning, transfer learning, or more resource-efficient fine-tuning techniques [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Instruction Following:** LLMs need to follow instructions precisely, including output constraints related to length, format, and content [arxiv](https://vertexaisearch.cloud.google.com/id/1-4). Benchmarks like IFBench are used to evaluate instruction following capabilities [arxiv](https://vertexaisearch.cloud.google.com/id/1-4).\n*   **Tokenization:** Converting text into numerical representations that LLMs can process is crucial [github](https://vertexaisearch.cloud.google.com/id/1-5). Different tokenization strategies impact model performance and output quality [github](https://vertexaisearch.cloud.google.com/id/1-5).\n*   **Attention Mechanisms:** Understanding attention mechanisms, especially self-attention, is essential for LLMs to process long-range dependencies and maintain context [github](https://vertexaisearch.cloud.google.com/id/1-5).\n\n**Stylistic Guidelines**\n\n*   **Detailed Personality Traits:** Character generation prompts should encourage detailed and specific personality traits that represent the unique behavior, speech, and demeanor of the character during role-play [reddit](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Consistent Custom Template:** Characters should follow a consistent, custom template to ensure accuracy and believability [huggingface](https://vertexaisearch.cloud.google.com/id/1-7).\n*   **Expressive Emoji Usage:** Fine-tuning can lead to LLMs generating emojis to express personality traits, enhancing emotional expressiveness [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3).\n*   **Natural Language Instructions (Prompts):** LLMs allow users to employ natural language instructions to steer a model's output, tailoring its tone, or even specifying its domain knowledge [arxiv](https://vertexaisearch.cloud.google.com/id/1-8).\n\n**Interactive Parameters**\n\n*   **Customizable AI Personas:** Users should be able to design custom AI companions with distinct traits and personalities [google](https://vertexaisearch.cloud.google.com/id/1-0) [google](https://vertexaisearch.cloud.google.com/id/1-1).\n*   **Interactive Roleplay and Adventures:** The system should allow users to engage in roleplay scenarios, solve challenges, and explore interactive storylines crafted by AI [google](https://vertexaisearch.cloud.google.com/id/1-1) [google](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **User-Specific Data Injection:** Personalized prompting focuses on handling user-specific data outside the LLM and injecting it into the model [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).\n*   **Preference Datasets:** Creating high-quality user-specific preference datasets is important for personalized alignment, though challenging due to data sparsity [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).\n\n**Visual Customization**\n\n*   **AI-Generated Imagery:** The system should capture and share images inspired by chat adventures, revisiting key moments through stunning visuals [google](https://vertexaisearch.cloud.google.com/id/1-1) [google](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Anime-Inspired AI Chat Animation:** Lifelike chat interactions should be presented in a dynamic, anime-inspired world [google](https://vertexaisearch.cloud.google.com/id/1-1) [google](https://vertexaisearch.cloud.google.com/id/1-0).\n*   **Outfit Descriptions:** Detailed descriptions of outfits for different occasions (e.g., main, formal, sleeping, running, exercise, swimsuit) can enhance visual customization [reddit](https://vertexaisearch.cloud.google.com/id/1-6).\n*   **Visual Cues:** Platforms can allow users to tailor LLM personas by selecting visual cues [arxiv](https://vertexaisearch.cloud.google.com/id/1-8).\n\nIt is important to note that research is ongoing in this area, with new models and techniques constantly being developed [arxiv](https://vertexaisearch.cloud.google.com/id/1-4) [aclanthology](https://vertexaisearch.cloud.google.com/id/1-3) [arxiv](https://vertexaisearch.cloud.google.com/id/1-2).\n",
+      "Okay, I will conduct Google Searches to gather the most recent information on \"Emochi character profile generation: JSON or Markdown output format for direct integration\" and synthesize it into a verifiable text artifact.\nBased on the search results, here's a summary of information regarding Emochi character profile generation and the use of JSON or Markdown for direct integration:\n\n**Emochi Character Profile Generation**\n\n*   Emochi allows users to create and customize AI character profiles with unique personalities, voices, and traits [emochi](https://vertexaisearch.cloud.google.com/id/2-0). It facilitates building meaningful connections with AI characters [emochi](https://vertexaisearch.cloud.google.com/id/2-0).\n*   Emochi is an AI Chat App where users can chat with AI characters, create their own AI companions, and enjoy conversations, voice messages, AI illustrations, and roleplay experiences [emochi](https://vertexaisearch.cloud.google.com/id/2-0).\n\n**Output Formats: JSON**\n\n*   A JSON character creator allows users to enter character settings and generate a JSON file [github](https://vertexaisearch.cloud.google.com/id/2-1). This file can then be placed in the \"characters\" folder of a web UI or uploaded directly into the interface [github](https://vertexaisearch.cloud.google.com/id/2-1). The script runs locally, ensuring data privacy [github](https://vertexaisearch.cloud.google.com/id/2-1).\n*   JSON is a common format for APIs [github](https://vertexaisearch.cloud.google.com/id/2-2). A Deno Deploy API wrapper for Pollinations provides JSON-formatted responses, designed for applications requiring JSON API integration [github](https://vertexaisearch.cloud.google.com/id/2-2).\n*   Character files can be generated as character.json, which matches the expected format for OpenAI function calling [github](https://vertexaisearch.cloud.google.com/id/2-3).\n\n**Output Formats: Markdown**\n\n*   Markdown is a markup language that formats text [gitlab](https://vertexaisearch.cloud.google.com/id/2-4). GitLab Flavored Markdown (GLFM) creates rich content with support for code, diagrams, math equations, and multimedia [gitlab](https://vertexaisearch.cloud.google.com/id/2-4).\n*   Markdown tables are now rendered and aligned as expected, keeping reports and documentation readable [github](https://vertexaisearch.cloud.google.com/id/2-5).\n*   Markdown can be used to create character profiles [moescape](https://vertexaisearch.cloud.google.com/id/2-6). A Reddit post from January 2025 shares character generation prompts that create ready-to-use characters in a detailed, organized, and consistent format [reddit](https://vertexaisearch.cloud.google.com/id/2-7). The format includes direct speech and narration [reddit](https://vertexaisearch.cloud.google.com/id/2-7).\n*   There are several lightweight markup languages that are supersets of Markdown, such as CommonMark, GitHub Flavored Markdown (GFM), Markdown Extra, and MultiMarkdown [markdownguide](https://vertexaisearch.cloud.google.com/id/2-8).\n\n**Direct Integration**\n\n*   Character files in JSON format can be used directly with Eliza and other LLM agents [github](https://vertexaisearch.cloud.google.com/id/2-3).\n*   Tools are available that can automatically generate character descriptions and profile images from links to websites like Fandom wiki or Wikipedia, and set everything up instantly for chatting [reddit](https://vertexaisearch.cloud.google.com/id/2-9).\n*   OpenAPI documents, which describe APIs, can be written in JSON or YAML [swagger](https://vertexaisearch.cloud.google.com/id/2-10). These descriptions can be used by documentation generation tools, code generation tools, testing tools, and more [swagger](https://vertexaisearch.cloud.google.com/id/2-10).\n\nThe search results suggest that both JSON and Markdown are viable options for Emochi character profile generation and direct integration, each with its own strengths and use cases. JSON is well-suited for API interactions and structured data storage, while Markdown excels at creating human-readable and easily editable character descriptions.\n"
+    ],
+    "sources_gathered": [
+      {
+        "label": "quickcreator",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7oxyE94d-sflE1MzmPOU9pnbwaGKKNu45-pE06sbZS4HMLl0jqmTUblDONTh6ZfPwPFV5wV1tZutHQZC7MF-j-0yhk9V7U6jZGXuE-PDXSgD-TNaR93RZ_b45wXkxr5i92Mq0fNAUq_5SEqs3q2wuZKrkmwotgFtfKitUqikRtagw1W3QCRB874TBcDuf4uRhTQ=="
+      },
+      {
+        "label": "aioptimistic",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmHScZnxDJrQKJxTosaUM5TAAl8aouurtKfTphPILbSIB22kf96qf9G-BjcESURYlu_Unkf3D3Jd6tT3cXuAgYi6_fPOJB99S1fbTTSrLf3Az3JRI6gpQirQrHr7PPjWeNggDxih4wqbWE6GU72P2e-wg0IHTLz1vIial5z60g3PE="
+      },
+      {
+        "label": "tavus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb7EhtjkFbefGVRWn3RnpWH_ZKu9xoEcNDKogoungF58v0KvroehHEpiEnLCyv3R6OfUYWno4akfRbsNsqOND4VfJqO9SMpMX-W5XZuPc1x-5XgOwBe3oFr3kPJJydbCXojB1Io20awt755qmBDLJAm_sWYil0JY3UNlZM4PLhoBaEnL9LTv9XVEP7"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "quickcreator",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7oxyE94d-sflE1MzmPOU9pnbwaGKKNu45-pE06sbZS4HMLl0jqmTUblDONTh6ZfPwPFV5wV1tZutHQZC7MF-j-0yhk9V7U6jZGXuE-PDXSgD-TNaR93RZ_b45wXkxr5i92Mq0fNAUq_5SEqs3q2wuZKrkmwotgFtfKitUqikRtagw1W3QCRB874TBcDuf4uRhTQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "quickcreator",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7oxyE94d-sflE1MzmPOU9pnbwaGKKNu45-pE06sbZS4HMLl0jqmTUblDONTh6ZfPwPFV5wV1tZutHQZC7MF-j-0yhk9V7U6jZGXuE-PDXSgD-TNaR93RZ_b45wXkxr5i92Mq0fNAUq_5SEqs3q2wuZKrkmwotgFtfKitUqikRtagw1W3QCRB874TBcDuf4uRhTQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "sudowrite",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaOr6-w9lzeKa0LeEyEa-2knAOqNNLjOPJXlqFgZAUPxBnB114kpEEtvWsfcslai2n6f2JzLI5hYjiwXzC1IYTa35wt4yMRx_FSgf9qQY-nIilwSEpHskQGoNt_I5-sKZ5dTK5ucbIAZ0LJo9wEF_nHQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "quickcreator",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7oxyE94d-sflE1MzmPOU9pnbwaGKKNu45-pE06sbZS4HMLl0jqmTUblDONTh6ZfPwPFV5wV1tZutHQZC7MF-j-0yhk9V7U6jZGXuE-PDXSgD-TNaR93RZ_b45wXkxr5i92Mq0fNAUq_5SEqs3q2wuZKrkmwotgFtfKitUqikRtagw1W3QCRB874TBcDuf4uRhTQ=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk-JnJ6HL6YAfTCZ6IY_AgLVjbkV1OnhbaLPS5eYEBErV5vjP3Oi-CGYxegFdzbAw4wjLsVzrm_PXsKUxkCbjS4GFIsV3CB20GVPVyEIEZUDDBnF0Ua4DgVykVy1zCgNpS0gM8OSWNSAjAAYi_7QODR4ygGzGtQxsL5ECvOa-eTw=="
+      },
+      {
+        "label": "yeschat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDQrvbyZtuLSmtTen3LoYIVXHel-zNiYYPEdQ6syXhuMjVHjZMy_Sm6-_H5uYn_VI4KK-vaEeqin9CCQE7BfqEMUYdo8KFqZZED4TosfCh5M-VUhqJDfWztQ-QFDFZC54kRRYoWAe3d9Z5S6iNujJDSJOMbGAQcei2ktljjy74ooY="
+      },
+      {
+        "label": "chatgptguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgLhUWh5_KDe_MOqs6HUYlZkB5daZMJG7HQa9qgQzY_NGaL1ukf5SToFPadRCBXqEr3I-ZVKBSS9WM4jbpIdPxwA2zbH6QPX57W2hbL8SFHYoPkyA0sN22H4uqMk5kKZYiB1zQuiin_4VMXEVp1JfGMjLKXiFAsWu83vcvLJxlx-X3WXdgysIECVgZ9q8JVCQvJojPorwMly49a-U2RpZ-FQK3uEqN4pVfQtkQ"
+      },
+      {
+        "label": "yeschat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDQrvbyZtuLSmtTen3LoYIVXHel-zNiYYPEdQ6syXhuMjVHjZMy_Sm6-_H5uYn_VI4KK-vaEeqin9CCQE7BfqEMUYdo8KFqZZED4TosfCh5M-VUhqJDfWztQ-QFDFZC54kRRYoWAe3d9Z5S6iNujJDSJOMbGAQcei2ktljjy74ooY="
+      },
+      {
+        "label": "aioptimistic",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmHScZnxDJrQKJxTosaUM5TAAl8aouurtKfTphPILbSIB22kf96qf9G-BjcESURYlu_Unkf3D3Jd6tT3cXuAgYi6_fPOJB99S1fbTTSrLf3Az3JRI6gpQirQrHr7PPjWeNggDxih4wqbWE6GU72P2e-wg0IHTLz1vIial5z60g3PE="
+      },
+      {
+        "label": "tavus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb7EhtjkFbefGVRWn3RnpWH_ZKu9xoEcNDKogoungF58v0KvroehHEpiEnLCyv3R6OfUYWno4akfRbsNsqOND4VfJqO9SMpMX-W5XZuPc1x-5XgOwBe3oFr3kPJJydbCXojB1Io20awt755qmBDLJAm_sWYil0JY3UNlZM4PLhoBaEnL9LTv9XVEP7"
+      },
+      {
+        "label": "vidpros",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSTeURWV4xkwv1j5CfoHpFNc0_KvT4erxFcAWADwhnCspJCuO4Bw3UeGwW0gMbBIC0a5QIUxtq3D5MTDKXSjuXuVHaBGE38__31mTV13tLJbFGuCBEJUerALMZPx3By6FyetzR-Y="
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk-JnJ6HL6YAfTCZ6IY_AgLVjbkV1OnhbaLPS5eYEBErV5vjP3Oi-CGYxegFdzbAw4wjLsVzrm_PXsKUxkCbjS4GFIsV3CB20GVPVyEIEZUDDBnF0Ua4DgVykVy1zCgNpS0gM8OSWNSAjAAYi_7QODR4ygGzGtQxsL5ECvOa-eTw=="
+      },
+      {
+        "label": "redhat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRp5MxrcFFCginywevNW-MKucYJp4o06qyxIIlY0A767Aqkoy-k2c5BsXZrfVc01B52vOYjV5qzqxjQb8iOH-7JlsnK-MfBtkB6aadzJsp1xC4_BfmxA_ymJQ7uI7_VeSjcvmzkjnADZcRMde_nsefaA=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgYfBcopG_Cj-XPKVMGP0KpHkcp7pJJhbuA9P3BqxT6ypnwG61v-FCexUSbBDPydD4N9ov6C_Td11KPlNIv_QFgQ7an0at2SWWHQ23cc7th_p9qJk9Wy2D4JUGVyP9hDs-uR4S1wU3faTCewvEroRooiZDwNYcfNsKvendTyqOI9pG0wjKt0-VulB-gIiDUZSW0Q0="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYPcKtUBufpukUT4_3oeC2za4YgpLQ4msTXn3hg2gE9u8KOIx6gSnG64iNnyYwg2z7oHYtvLdvEOgTGr-i1jCMrUJ6RYZX_Vrpkzykcmyo5g7d15S0C0ZbnKs-css1GS8lr1F9tW9_iLfAbVTgfyas8LYFEq-i8_g2wC7UIFu4QN7nGChDwFubM22IKx_hR6A2cWBWGCt8Z0rx_TkJ"
+      },
+      {
+        "label": "capcut",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYqVM8DI9mxLkI4BCXq8885vcxmmSiUpoFtS8IJbBV3E8P61FwsvgPXpL-4KlMgG_3Kfdg06RG67cAGoNd5kOGISCUeJUY0ojUU2pXqZgHL7-d44qlfzHwlrr0o1bQNIIZsZSowQSskjg6RCBELLQ="
+      },
+      {
+        "label": "quytech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF_IB1-tLkfoFFPGCtqVqdWRUKCgn-354n0aL1srfXtxF6Nh7b4kF-3HHcjscmE5DB6qGA8ng9Yym74-kRdmJUnTF3cJBeJ61P-NrgV_cBL-eN7AiQqKR9nc1QbiQ-eFmdPOdUNzN-uMj9GP7vbRdvzfGm-gvd-7F0UarmUw=="
+      },
+      {
+        "label": "heygen",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-13",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmv4uBxnozXquW9HurU-s-NYjusX_IXc04-pes3XgvwODzwumgMX3wAgIEQC_cwJyuJoHjW2Jqe0GnfE1wMr7-0XCQ9e5vR7nYvMMijFRPdNPIMjKvaoL48l07GOJrRNsq6mAM2Kut1qGkQBTah9Rm676-t9iBevhgC5UYFw=="
+      },
+      {
+        "label": "imagine",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEG5DPiqzAJs5Hv25FQ3G7mrUFpBpbB98FxBW9NZRGae1-kMyViAIghhlEWWB2psW0H_CfW94fz5Sl55idhEHs-JSrwO9hQVbu85mSwpWmmTsvDbbuc0Z5LucwTWtl0iAnAwsawY-6pOr0lfdRERDEnkY="
+      },
+      {
+        "label": "rebornstudio",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj1Fve62HrKSG-jlkhOJhFjXhSnShJFHDBQ8dNYz1Mzya1TVO3nrW7YX1sngJ_UdyU8tTsl6RHZX3IcyzySKWlV6Ix7jg6cRj2q0A_TUqjCg63W9MSpqUBPZEvc67FjIG4hcTQwY__CZ8E1VjMNrh4CMPOPMNJnwvAQ_jk4SowgWf_M2C8knmaeBva"
+      },
+      {
+        "label": "rebornstudio",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-15",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHj1Fve62HrKSG-jlkhOJhFjXhSnShJFHDBQ8dNYz1Mzya1TVO3nrW7YX1sngJ_UdyU8tTsl6RHZX3IcyzySKWlV6Ix7jg6cRj2q0A_TUqjCg63W9MSpqUBPZEvc67FjIG4hcTQwY__CZ8E1VjMNrh4CMPOPMNJnwvAQ_jk4SowgWf_M2C8knmaeBva"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-16",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnAImbaxoLHG81taPsMrrSIJhzfWQa0tX5IPNhmGXQ7THlYWA-Cxk44HsS1yuraD8RYdXc29NsxpxxLCiInR305dNNf5UmeNeGrHITRkYTqS3vKWCvQdTkEmaie0Oxxw=="
+      },
+      {
+        "label": "contentbeta",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-17",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNwGpyHRlN78CfIZR8wP5lcB6ylzUSUX0XNxv3mV1mJYVFom5u945W-31TVMCqLAF272UPX6-yE6jlPjg-tatARhostTEWBqpsidM5StNYy3qxJhf5yCxLLALgeZO6Ryrcivcz7NxtePXbqvyPnNNYfdl5eQ=="
+      },
+      {
+        "label": "imagine",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-14",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEG5DPiqzAJs5Hv25FQ3G7mrUFpBpbB98FxBW9NZRGae1-kMyViAIghhlEWWB2psW0H_CfW94fz5Sl55idhEHs-JSrwO9hQVbu85mSwpWmmTsvDbbuc0Z5LucwTWtl0iAnAwsawY-6pOr0lfdRERDEnkY="
+      },
+      {
+        "label": "vidpros",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSTeURWV4xkwv1j5CfoHpFNc0_KvT4erxFcAWADwhnCspJCuO4Bw3UeGwW0gMbBIC0a5QIUxtq3D5MTDKXSjuXuVHaBGE38__31mTV13tLJbFGuCBEJUerALMZPx3By6FyetzR-Y="
+      },
+      {
+        "label": "yeschat",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDQrvbyZtuLSmtTen3LoYIVXHel-zNiYYPEdQ6syXhuMjVHjZMy_Sm6-_H5uYn_VI4KK-vaEeqin9CCQE7BfqEMUYdo8KFqZZED4TosfCh5M-VUhqJDfWztQ-QFDFZC54kRRYoWAe3d9Z5S6iNujJDSJOMbGAQcei2ktljjy74ooY="
+      },
+      {
+        "label": "summonworlds",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjO5iNkf1-b5QyjGd2HEs3nXDWZzATkEl4TkHk8z01TGNmWM9-d5tyAWyiuJqtNUODPwRvqL2wds7eLSqU-vi3010REwNmUrp5SHK70AKc_Kbi2PQF61oOm_nYqZVjZw_19QBGfVVkgVjfrcKC2zR-wdMjHolqsM82ImIAoA4IDknJBQYN_axzgQ=="
+      },
+      {
+        "label": "vidpros",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSTeURWV4xkwv1j5CfoHpFNc0_KvT4erxFcAWADwhnCspJCuO4Bw3UeGwW0gMbBIC0a5QIUxtq3D5MTDKXSjuXuVHaBGE38__31mTV13tLJbFGuCBEJUerALMZPx3By6FyetzR-Y="
+      },
+      {
+        "label": "vidpros",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSTeURWV4xkwv1j5CfoHpFNc0_KvT4erxFcAWADwhnCspJCuO4Bw3UeGwW0gMbBIC0a5QIUxtq3D5MTDKXSjuXuVHaBGE38__31mTV13tLJbFGuCBEJUerALMZPx3By6FyetzR-Y="
+      },
+      {
+        "label": "summonworlds",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjO5iNkf1-b5QyjGd2HEs3nXDWZzATkEl4TkHk8z01TGNmWM9-d5tyAWyiuJqtNUODPwRvqL2wds7eLSqU-vi3010REwNmUrp5SHK70AKc_Kbi2PQF61oOm_nYqZVjZw_19QBGfVVkgVjfrcKC2zR-wdMjHolqsM82ImIAoA4IDknJBQYN_axzgQ=="
+      },
+      {
+        "label": "apple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxQOQHCtx_MWhbITDCqRK-3T7MingKD8mG6pVUFavT7HjAdDc7dF7tXtZNWIEwYRkT3NXPs_fLbg4A0jVZB6PvgXOSvuWYhKK2WDWhdi0DBGLylkKufUlZYnrYfRAFyktmTD6tuDmbPW69U5eEXYV9tL1Ng0590UVW-ROtojeiVIizhg=="
+      },
+      {
+        "label": "summonworlds",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-18",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjO5iNkf1-b5QyjGd2HEs3nXDWZzATkEl4TkHk8z01TGNmWM9-d5tyAWyiuJqtNUODPwRvqL2wds7eLSqU-vi3010REwNmUrp5SHK70AKc_Kbi2PQF61oOm_nYqZVjZw_19QBGfVVkgVjfrcKC2zR-wdMjHolqsM82ImIAoA4IDknJBQYN_axzgQ=="
+      },
+      {
+        "label": "apple",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-19",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxQOQHCtx_MWhbITDCqRK-3T7MingKD8mG6pVUFavT7HjAdDc7dF7tXtZNWIEwYRkT3NXPs_fLbg4A0jVZB6PvgXOSvuWYhKK2WDWhdi0DBGLylkKufUlZYnrYfRAFyktmTD6tuDmbPW69U5eEXYV9tL1Ng0590UVW-ROtojeiVIizhg=="
+      },
+      {
+        "label": "itch",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-20",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc0XcXi_PW6VYNvUQo_TQG7UqEijIeRXBYSCCAhoZFdxr_KAy14JDS_VXrhmM-XOP4lW3rt-zLONfgmUIIdl-UVUwHkx1RTE3BQr5ozH__7ySGMcVEEVcNZoZLQ9-yBIUN2nyDwQS985EceRf_R1oCeufCIw=="
+      },
+      {
+        "label": "formfrom",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-21",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVhdPAIv_vOsrRScLJ2oFkvR6Azf-77IgGy1FOQdE0scoq2a0ylLvfHp1kxIUb0tfeGazGAU62NfsFwhKQ06E_IolyG4a6N4wGmR4eCZeiGLgRe1uvUyzcoLdTP5C1UnJJuhzjCQBxpMKf8_c="
+      },
+      {
+        "label": "capcut",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-11",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYqVM8DI9mxLkI4BCXq8885vcxmmSiUpoFtS8IJbBV3E8P61FwsvgPXpL-4KlMgG_3Kfdg06RG67cAGoNd5kOGISCUeJUY0ojUU2pXqZgHL7-d44qlfzHwlrr0o1bQNIIZsZSowQSskjg6RCBELLQ="
+      },
+      {
+        "label": "quytech",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-12",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEF_IB1-tLkfoFFPGCtqVqdWRUKCgn-354n0aL1srfXtxF6Nh7b4kF-3HHcjscmE5DB6qGA8ng9Yym74-kRdmJUnTF3cJBeJ61P-NrgV_cBL-eN7AiQqKR9nc1QbiQ-eFmdPOdUNzN-uMj9GP7vbRdvzfGm-gvd-7F0UarmUw=="
+      },
+      {
+        "label": "squibler",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-22",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXMYeRIY6AuIPGngkcMGiMR2yrjd-0YxdD1ahq49lDaXyTJsb91kaU3bhcWNew1mcCPQUczojNl1hEO8HnwloSp5ZqewMzZVejNidwOaNEmkj3zvUYOCjgEBMV3WoC1xfqwnHkWuF0363mYt4K7vpMwfKNBiYHiSw0L26P3M5c"
+      },
+      {
+        "label": "vidpros",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSTeURWV4xkwv1j5CfoHpFNc0_KvT4erxFcAWADwhnCspJCuO4Bw3UeGwW0gMbBIC0a5QIUxtq3D5MTDKXSjuXuVHaBGE38__31mTV13tLJbFGuCBEJUerALMZPx3By6FyetzR-Y="
+      },
+      {
+        "label": "tavus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb7EhtjkFbefGVRWn3RnpWH_ZKu9xoEcNDKogoungF58v0KvroehHEpiEnLCyv3R6OfUYWno4akfRbsNsqOND4VfJqO9SMpMX-W5XZuPc1x-5XgOwBe3oFr3kPJJydbCXojB1Io20awt755qmBDLJAm_sWYil0JY3UNlZM4PLhoBaEnL9LTv9XVEP7"
+      },
+      {
+        "label": "tavus",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/0-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb7EhtjkFbefGVRWn3RnpWH_ZKu9xoEcNDKogoungF58v0KvroehHEpiEnLCyv3R6OfUYWno4akfRbsNsqOND4VfJqO9SMpMX-W5XZuPc1x-5XgOwBe3oFr3kPJJydbCXojB1Io20awt755qmBDLJAm_sWYil0JY3UNlZM4PLhoBaEnL9LTv9XVEP7"
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPCktJrSJEuAJ6kpAqFP1YbFUsKzRrSgq72YG20RMi1BimzO_btUpoczZOfXqq0zXGw-2d0cXqwoBb8B3OgRithB6nMIhYhDQeWYQFItM29xI769TW7TIaGBuGcV1MqU69Z6U86BinhsmS6cfkBPVMfee9s-_dQX_36tsE6ZY="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3S3SLbfqDSCW01S3Lek6rD4sj93p0cehOdaKsxoEdnTYAI5Wuja5ZuUjUJgOkJtC0xlpmfbx9ND7hfcn4It2Qn0ulkWvecbT8xjqI0yGgZg-yqKsWAb3o7Y3ezoOs7XddeKPkbfnD3rj8xbyN6JKQEWZSNt22Jqg="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3S3SLbfqDSCW01S3Lek6rD4sj93p0cehOdaKsxoEdnTYAI5Wuja5ZuUjUJgOkJtC0xlpmfbx9ND7hfcn4It2Qn0ulkWvecbT8xjqI0yGgZg-yqKsWAb3o7Y3ezoOs7XddeKPkbfnD3rj8xbyN6JKQEWZSNt22Jqg="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLuOD5JXfGgn88DfAUHvADw0gbCyXF61KXoYzovLkH8LnENGb1dHBiGirPo_d3U3tgAwBT0PW9ix6nf7_xIb7noIMQUanciIreE5L9_b8cjvNh84vtCl8Msxsa"
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3S3SLbfqDSCW01S3Lek6rD4sj93p0cehOdaKsxoEdnTYAI5Wuja5ZuUjUJgOkJtC0xlpmfbx9ND7hfcn4It2Qn0ulkWvecbT8xjqI0yGgZg-yqKsWAb3o7Y3ezoOs7XddeKPkbfnD3rj8xbyN6JKQEWZSNt22Jqg="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPCktJrSJEuAJ6kpAqFP1YbFUsKzRrSgq72YG20RMi1BimzO_btUpoczZOfXqq0zXGw-2d0cXqwoBb8B3OgRithB6nMIhYhDQeWYQFItM29xI769TW7TIaGBuGcV1MqU69Z6U86BinhsmS6cfkBPVMfee9s-_dQX_36tsE6ZY="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLuOD5JXfGgn88DfAUHvADw0gbCyXF61KXoYzovLkH8LnENGb1dHBiGirPo_d3U3tgAwBT0PW9ix6nf7_xIb7noIMQUanciIreE5L9_b8cjvNh84vtCl8Msxsa"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLuOD5JXfGgn88DfAUHvADw0gbCyXF61KXoYzovLkH8LnENGb1dHBiGirPo_d3U3tgAwBT0PW9ix6nf7_xIb7noIMQUanciIreE5L9_b8cjvNh84vtCl8Msxsa"
+      },
+      {
+        "label": "aclanthology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnZdx_9wTZ90h6FnjBAME4rMyzCPHzrfI-8UAIrHtmtNpSdLTSRvgoJ_lKYkjCuRoq2FLGzHsqCQLlcLwoPg8nvUpE5HMBNCckSJjXcYlvC9BElgLVAwVJmNsF0ZLsS5QKn0GWAJGhzLezXaNRQds="
+      },
+      {
+        "label": "aclanthology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnZdx_9wTZ90h6FnjBAME4rMyzCPHzrfI-8UAIrHtmtNpSdLTSRvgoJ_lKYkjCuRoq2FLGzHsqCQLlcLwoPg8nvUpE5HMBNCckSJjXcYlvC9BElgLVAwVJmNsF0ZLsS5QKn0GWAJGhzLezXaNRQds="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLuOD5JXfGgn88DfAUHvADw0gbCyXF61KXoYzovLkH8LnENGb1dHBiGirPo_d3U3tgAwBT0PW9ix6nf7_xIb7noIMQUanciIreE5L9_b8cjvNh84vtCl8Msxsa"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLuOD5JXfGgn88DfAUHvADw0gbCyXF61KXoYzovLkH8LnENGb1dHBiGirPo_d3U3tgAwBT0PW9ix6nf7_xIb7noIMQUanciIreE5L9_b8cjvNh84vtCl8Msxsa"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYTYQDt8A0GbWILyTSh1IXaUwqNg3kXy5MzdjMOsu6_KzzhB8ot0iArknbYufowHOa9rNBSePyJPKZ_TKa02d8rfG01m_83hPX_72DTNQKBxpCp8Cfp2g0Db8tYkQc"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYTYQDt8A0GbWILyTSh1IXaUwqNg3kXy5MzdjMOsu6_KzzhB8ot0iArknbYufowHOa9rNBSePyJPKZ_TKa02d8rfG01m_83hPX_72DTNQKBxpCp8Cfp2g0Db8tYkQc"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQ0dupPm4g1E7Klhw5S-6GRhXNfzN8RdnOhxgO-XPna_h68UKssyq2i8bjH8VbovEWhSyvsgW1eQ3uBHH5Wht15kkY2r8EmNikWJ5w6NaHClw_14hA-qvUX0wLQBRoExM"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQ0dupPm4g1E7Klhw5S-6GRhXNfzN8RdnOhxgO-XPna_h68UKssyq2i8bjH8VbovEWhSyvsgW1eQ3uBHH5Wht15kkY2r8EmNikWJ5w6NaHClw_14hA-qvUX0wLQBRoExM"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQ0dupPm4g1E7Klhw5S-6GRhXNfzN8RdnOhxgO-XPna_h68UKssyq2i8bjH8VbovEWhSyvsgW1eQ3uBHH5Wht15kkY2r8EmNikWJ5w6NaHClw_14hA-qvUX0wLQBRoExM"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSKeHoVAyKOn4H90iCVNk0RpnUNeJiVqZT_Es4ahiwEG4owfROOSZDSul1i-mOFoBGsQASqE5thmFzngc1SJA6w99BfGL0AS1MEaD3a24-Baf5LA_y1QuLqtYxZLQs0HjkoYEiH_5yUACPAGUr6GbTJZw3CweHp6--6IZIx1rAwRwzd5HzRB6KT8DnJ-6ABkwTQHGnXH5OxAVPgh0Xdzl87CQKHshq"
+      },
+      {
+        "label": "huggingface",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkkIS0qshRHew_GEOsQD1hpAacjuoK5I2w4cLIo6TcXL59PTO4UTC624RyT8atzntmGBgeugaynKkPjGPcwpfstoM4kpLNbCsz1hX-vWBGwnpyggvK1X5ou5DEcTGmzML1aWT6Dw8WIdjLftVEphubaYHnrFDArsekGVLWv1mFsQ=="
+      },
+      {
+        "label": "aclanthology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnZdx_9wTZ90h6FnjBAME4rMyzCPHzrfI-8UAIrHtmtNpSdLTSRvgoJ_lKYkjCuRoq2FLGzHsqCQLlcLwoPg8nvUpE5HMBNCckSJjXcYlvC9BElgLVAwVJmNsF0ZLsS5QKn0GWAJGhzLezXaNRQds="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLhEF1U6qi5SYjMu66QhZU3CnaPLqRYpeiTc4O5vxaG9akRzJhyFlCRjIHSy0dxBGWKSh0oxuXoY-xe8-JxbNxmFRR5HbE1O0b8aFdhQbkm-UNLCCSAATbl5RWpZAH"
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPCktJrSJEuAJ6kpAqFP1YbFUsKzRrSgq72YG20RMi1BimzO_btUpoczZOfXqq0zXGw-2d0cXqwoBb8B3OgRithB6nMIhYhDQeWYQFItM29xI769TW7TIaGBuGcV1MqU69Z6U86BinhsmS6cfkBPVMfee9s-_dQX_36tsE6ZY="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3S3SLbfqDSCW01S3Lek6rD4sj93p0cehOdaKsxoEdnTYAI5Wuja5ZuUjUJgOkJtC0xlpmfbx9ND7hfcn4It2Qn0ulkWvecbT8xjqI0yGgZg-yqKsWAb3o7Y3ezoOs7XddeKPkbfnD3rj8xbyN6JKQEWZSNt22Jqg="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3S3SLbfqDSCW01S3Lek6rD4sj93p0cehOdaKsxoEdnTYAI5Wuja5ZuUjUJgOkJtC0xlpmfbx9ND7hfcn4It2Qn0ulkWvecbT8xjqI0yGgZg-yqKsWAb3o7Y3ezoOs7XddeKPkbfnD3rj8xbyN6JKQEWZSNt22Jqg="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPCktJrSJEuAJ6kpAqFP1YbFUsKzRrSgq72YG20RMi1BimzO_btUpoczZOfXqq0zXGw-2d0cXqwoBb8B3OgRithB6nMIhYhDQeWYQFItM29xI769TW7TIaGBuGcV1MqU69Z6U86BinhsmS6cfkBPVMfee9s-_dQX_36tsE6ZY="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLuOD5JXfGgn88DfAUHvADw0gbCyXF61KXoYzovLkH8LnENGb1dHBiGirPo_d3U3tgAwBT0PW9ix6nf7_xIb7noIMQUanciIreE5L9_b8cjvNh84vtCl8Msxsa"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLuOD5JXfGgn88DfAUHvADw0gbCyXF61KXoYzovLkH8LnENGb1dHBiGirPo_d3U3tgAwBT0PW9ix6nf7_xIb7noIMQUanciIreE5L9_b8cjvNh84vtCl8Msxsa"
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3S3SLbfqDSCW01S3Lek6rD4sj93p0cehOdaKsxoEdnTYAI5Wuja5ZuUjUJgOkJtC0xlpmfbx9ND7hfcn4It2Qn0ulkWvecbT8xjqI0yGgZg-yqKsWAb3o7Y3ezoOs7XddeKPkbfnD3rj8xbyN6JKQEWZSNt22Jqg="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPCktJrSJEuAJ6kpAqFP1YbFUsKzRrSgq72YG20RMi1BimzO_btUpoczZOfXqq0zXGw-2d0cXqwoBb8B3OgRithB6nMIhYhDQeWYQFItM29xI769TW7TIaGBuGcV1MqU69Z6U86BinhsmS6cfkBPVMfee9s-_dQX_36tsE6ZY="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3S3SLbfqDSCW01S3Lek6rD4sj93p0cehOdaKsxoEdnTYAI5Wuja5ZuUjUJgOkJtC0xlpmfbx9ND7hfcn4It2Qn0ulkWvecbT8xjqI0yGgZg-yqKsWAb3o7Y3ezoOs7XddeKPkbfnD3rj8xbyN6JKQEWZSNt22Jqg="
+      },
+      {
+        "label": "google",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPCktJrSJEuAJ6kpAqFP1YbFUsKzRrSgq72YG20RMi1BimzO_btUpoczZOfXqq0zXGw-2d0cXqwoBb8B3OgRithB6nMIhYhDQeWYQFItM29xI769TW7TIaGBuGcV1MqU69Z6U86BinhsmS6cfkBPVMfee9s-_dQX_36tsE6ZY="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSKeHoVAyKOn4H90iCVNk0RpnUNeJiVqZT_Es4ahiwEG4owfROOSZDSul1i-mOFoBGsQASqE5thmFzngc1SJA6w99BfGL0AS1MEaD3a24-Baf5LA_y1QuLqtYxZLQs0HjkoYEiH_5yUACPAGUr6GbTJZw3CweHp6--6IZIx1rAwRwzd5HzRB6KT8DnJ-6ABkwTQHGnXH5OxAVPgh0Xdzl87CQKHshq"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLhEF1U6qi5SYjMu66QhZU3CnaPLqRYpeiTc4O5vxaG9akRzJhyFlCRjIHSy0dxBGWKSh0oxuXoY-xe8-JxbNxmFRR5HbE1O0b8aFdhQbkm-UNLCCSAATbl5RWpZAH"
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYTYQDt8A0GbWILyTSh1IXaUwqNg3kXy5MzdjMOsu6_KzzhB8ot0iArknbYufowHOa9rNBSePyJPKZ_TKa02d8rfG01m_83hPX_72DTNQKBxpCp8Cfp2g0Db8tYkQc"
+      },
+      {
+        "label": "aclanthology",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnZdx_9wTZ90h6FnjBAME4rMyzCPHzrfI-8UAIrHtmtNpSdLTSRvgoJ_lKYkjCuRoq2FLGzHsqCQLlcLwoPg8nvUpE5HMBNCckSJjXcYlvC9BElgLVAwVJmNsF0ZLsS5QKn0GWAJGhzLezXaNRQds="
+      },
+      {
+        "label": "arxiv",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/1-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLuOD5JXfGgn88DfAUHvADw0gbCyXF61KXoYzovLkH8LnENGb1dHBiGirPo_d3U3tgAwBT0PW9ix6nf7_xIb7noIMQUanciIreE5L9_b8cjvNh84vtCl8Msxsa"
+      },
+      {
+        "label": "emochi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRvKFK3NshJrXj3sx1vclPfowB1rSYu3R7ZsV2mZXXdu-vOuTJwL7CULFZkHWyjFPmpvrHq5p2PrHVtDi5JPgtU_irP0qmLsSZS_zM5rdMdw=="
+      },
+      {
+        "label": "emochi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRvKFK3NshJrXj3sx1vclPfowB1rSYu3R7ZsV2mZXXdu-vOuTJwL7CULFZkHWyjFPmpvrHq5p2PrHVtDi5JPgtU_irP0qmLsSZS_zM5rdMdw=="
+      },
+      {
+        "label": "emochi",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-0",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRvKFK3NshJrXj3sx1vclPfowB1rSYu3R7ZsV2mZXXdu-vOuTJwL7CULFZkHWyjFPmpvrHq5p2PrHVtDi5JPgtU_irP0qmLsSZS_zM5rdMdw=="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNnxrgwG7FZC6PBKCfa8t11utqb8FppZeBjcTR6hbtgeuT_VONOqLkkv7qVrQfGx7uzAyAUmurvqJAf85_strFgJzw_8KPeKzwfZ4PqXG2Q5g-f8O4oG_pNW38VduTm2MVS5BjMxCMqlWmy5M"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNnxrgwG7FZC6PBKCfa8t11utqb8FppZeBjcTR6hbtgeuT_VONOqLkkv7qVrQfGx7uzAyAUmurvqJAf85_strFgJzw_8KPeKzwfZ4PqXG2Q5g-f8O4oG_pNW38VduTm2MVS5BjMxCMqlWmy5M"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-1",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaNnxrgwG7FZC6PBKCfa8t11utqb8FppZeBjcTR6hbtgeuT_VONOqLkkv7qVrQfGx7uzAyAUmurvqJAf85_strFgJzw_8KPeKzwfZ4PqXG2Q5g-f8O4oG_pNW38VduTm2MVS5BjMxCMqlWmy5M"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPEmC0nE9FGWx3fH6qxeVNW9BDAmIFdYCHl7QuCzEj4RbZ-mnU8pANC9I83biTKBJbHe4cRL_T1WJkbQj6Fxat_v4Vg5ClEw86u46vTvrWsZKHd-mJypbJXio1co6W5qTln1H-QClp"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-2",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPEmC0nE9FGWx3fH6qxeVNW9BDAmIFdYCHl7QuCzEj4RbZ-mnU8pANC9I83biTKBJbHe4cRL_T1WJkbQj6Fxat_v4Vg5ClEw86u46vTvrWsZKHd-mJypbJXio1co6W5qTln1H-QClp"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGncnRhSEpwESIiIrEcim1LBbg6Z7ISYxEUx_UpxjD5uPh4ONEYpQIoVMnlgMWeF37gg947NNq2JTjMLFT3VJtGtwWg7qjv06w543nhw_BdiHezwbX3hqXQrrtKlCTl8p9Sjfc="
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTK4djRczdDFFbNAodviJwbJYOO_eyJypL-06bqTXtdLGO1jZhPg_tsypypzCLCGQ36H9IhOg74ZiUJJM6xtAwwapgWlFUJcRtOWMzE0kGaPtevzdreiyBuqfmzWUkDX_O"
+      },
+      {
+        "label": "gitlab",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-4",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTK4djRczdDFFbNAodviJwbJYOO_eyJypL-06bqTXtdLGO1jZhPg_tsypypzCLCGQ36H9IhOg74ZiUJJM6xtAwwapgWlFUJcRtOWMzE0kGaPtevzdreiyBuqfmzWUkDX_O"
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-5",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqXkmxbBmx7qo_ZGN6AAdn3drQj4DyOz1wpuAmuJnDvD6yzirXGOneo3eMpt1xYepAVJ0snBWnUZGkQNIwYnYXrwb35ITcFzjePfdrETlgo_kbu2i-tzRa0MAf3JedjRfh_VNP9pXekZ_qvj0="
+      },
+      {
+        "label": "moescape",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-6",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOX_7ou7N0i2sFixsUzDGh7IaRn9jOHW-sAOXgDYj0QzhZSj6X0u5Hpd1YMwtLtaY4t5k2v5R-FKIEFJVL8qn7CH8_T-1igI-gw1mU06N7ihh6KqlVNt0D26SPKx2KABvtFQSKNnyiJGTR13AHytxWb17mtysGYEyuf9o9OnfpBLAHvKus_e5Ldw=="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT1tSgmvmgYoi8BKiOxlvPsJ8ePGMNftUXy3rfwmzPLeld4XsBgM2V05WUh-VeJG_C4uSOyq_HrD3oQY0Kyi5Al0lSlf5ISPnijNofnGfMlYcBk2whC9OPI8n1bpYgR02eE9NXlaBmHUTxIhYH0OTCKNuyn-h2k8V3m-I5fBF-tYQLsWqBc3QEMy5KNtkwNpqhgELeGn-JZVCk7zAbnJVo34YnEJKz"
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-7",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT1tSgmvmgYoi8BKiOxlvPsJ8ePGMNftUXy3rfwmzPLeld4XsBgM2V05WUh-VeJG_C4uSOyq_HrD3oQY0Kyi5Al0lSlf5ISPnijNofnGfMlYcBk2whC9OPI8n1bpYgR02eE9NXlaBmHUTxIhYH0OTCKNuyn-h2k8V3m-I5fBF-tYQLsWqBc3QEMy5KNtkwNpqhgELeGn-JZVCk7zAbnJVo34YnEJKz"
+      },
+      {
+        "label": "markdownguide",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-8",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgfTWEnx8eHNhBG_ReMnQQYed_NwVgkro6eXrPgIqB2p0BSuQlVl6R4Kb2fYsNmkSskxkNLTVNFVByUmWyfdyuQLV_IQAxI3MeSh2PtUZ8h3aNl-JR6dVn0KYWeibxhaYYkkeZwKvNZ9Y="
+      },
+      {
+        "label": "github",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-3",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGncnRhSEpwESIiIrEcim1LBbg6Z7ISYxEUx_UpxjD5uPh4ONEYpQIoVMnlgMWeF37gg947NNq2JTjMLFT3VJtGtwWg7qjv06w543nhw_BdiHezwbX3hqXQrrtKlCTl8p9Sjfc="
+      },
+      {
+        "label": "reddit",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-9",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM-m2MoWs3KOSMSNzQLigSqzvvyu8OyQuxKZ0M4t4rwhABY0HoRZQbGvsk6DhZBLIxYw4ciqGhy0JtChfCDsOqkHik9U-0UO5tDg0yZSdDa4Sk8OooRJduOh8I3-xOQ6FOtiBGt5pW0Gx0KcE05mXQuF3MlHuDYbEgB7y9wdFSVlzKobewdivkrR_a0BVb3wYReBSPBSHQstUREhOGd_bI"
+      },
+      {
+        "label": "swagger",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9iljx8WuEB46W8eSEl5WOd6OHYfun9mzUSOoMDvU4BrQ6fp93pga_f1-EDhpWE8DAvvVmRm5Ph3MdNQfLNLAEnXkGzp_Aa792fnp0Olru3g0Nq3ebaWxVR3YWgA=="
+      },
+      {
+        "label": "swagger",
+        "short_url": "https://vertexaisearch.cloud.google.com/id/2-10",
+        "value": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9iljx8WuEB46W8eSEl5WOd6OHYfun9mzUSOoMDvU4BrQ6fp93pga_f1-EDhpWE8DAvvVmRm5Ph3MdNQfLNLAEnXkGzp_Aa792fnp0Olru3g0Nq3ebaWxVR3YWgA=="
+      }
+    ],
+    "initial_search_query_count": "3",
+    "max_research_loops": "3",
+    "research_loop_count": "1"
+  }
+}
