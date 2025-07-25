@@ -81,12 +81,14 @@ def generate_query(state: OverallState, config: RunnableConfig) -> QueryGenerati
         max_retries=2,
         api_key=os.getenv("GEMINI_API_KEY"),
     )
+    start_time = time.time()
     structured_llm = llm.with_structured_output(SearchQueryList, include_raw=True)
 
     # Generate the search queries
     result = structured_llm.invoke(formatted_prompt)
     usage = result["raw"].usage_metadata
     usage["state"] = "generate_query"
+    usage["start_time"] = start_time
     usage["timestamp"] = time.time()
     usage["prompt"] = formatted_prompt
     # usage["output"] = result["parsed"]
@@ -137,6 +139,7 @@ def web_research(state: WebSearchState, config: RunnableConfig) -> OverallState:
     )
 
     # Uses the google genai client as the langchain client doesn't return grounding metadata
+    start_time = time.time()
     response = genai_client.models.generate_content(
         model=configurable.query_generator_model,
         contents=formatted_prompt,
@@ -147,8 +150,9 @@ def web_research(state: WebSearchState, config: RunnableConfig) -> OverallState:
     )
     usage = response.usage_metadata
     usage = convert_token_format(usage)
-    usage["timestamp"] = time.time()
     usage["state"] = "web_research"
+    usage["start_time"] = start_time
+    usage["timestamp"] = time.time()
     usage["prompt"] = formatted_prompt
     usage["output"] = response.text
     with open(usage_file, "a", encoding="utf-8") as f:
@@ -212,10 +216,12 @@ def reflection(state: OverallState, config: RunnableConfig) -> ReflectionState:
         max_retries=2,
         api_key=os.getenv("GEMINI_API_KEY"),
     )
+    start_time = time.time()
     result = llm.with_structured_output(Reflection, include_raw=True).invoke(formatted_prompt)
 
     usage = result["raw"].usage_metadata
     usage["state"] = "reflection"
+    usage["start_time"] = start_time
     usage["timestamp"] = time.time()
     usage["prompt"] = formatted_prompt
     # usage["output"] = result["parsed"].model_dump()
@@ -315,9 +321,11 @@ def finalize_answer(state: OverallState, config: RunnableConfig):
         max_retries=2,
         api_key=os.getenv("GEMINI_API_KEY"),
     )
+    start_time = time.time()
     result = llm.invoke(formatted_prompt)
     usage = result.usage_metadata
     usage["state"] = "finalize_answer"
+    usage["start_time"] = start_time
     usage["timestamp"] = time.time()
     usage["prompt"] = formatted_prompt
     # usage["output"] = result.content

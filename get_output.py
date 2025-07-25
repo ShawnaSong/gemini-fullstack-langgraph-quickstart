@@ -6,6 +6,7 @@ import random
 import time
 
 # Use valid model names that are available
+os.environ["GEMINI_API_KEY"] = "AIzaSyBLJ1BMt829p4N324yWFeZMah0JVvt8Ffk"
 os.environ["REASONING_MODEL"] = "gemini-2.0-flash"
 os.environ["QUERY_GENERATOR_MODEL"] = "gemini-2.0-flash"
 os.environ["REFLECTION_MODEL"] = "gemini-2.0-flash"
@@ -36,8 +37,8 @@ with open(csv_file, 'r', encoding='utf-8') as file:
 #             "initial_search_query_count": 3
 #         })
 
-start_index = 395
-end_index = 450
+start_index = 620
+end_index = 650
 cur_index = start_index
 for question_id, question in questions[start_index:end_index]:
     print("question_id: ", question_id, "start", "index: ", cur_index)
